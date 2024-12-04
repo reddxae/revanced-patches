@@ -9,7 +9,9 @@ import app.revanced.patcher.fingerprint.MethodFingerprintResult
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.PatchException
 import app.revanced.patcher.util.smali.ExternalLabel
+import app.revanced.patches.shared.ads.fingerprints.AdvertisingIdFingerprint
 import app.revanced.patches.shared.ads.fingerprints.MusicAdsFingerprint
+import app.revanced.patches.shared.ads.fingerprints.SSLGuardFingerprint
 import app.revanced.patches.shared.ads.fingerprints.VideoAdsFingerprint
 import app.revanced.patches.shared.integrations.Constants.PATCHES_PATH
 import app.revanced.util.getReference
@@ -29,7 +31,9 @@ abstract class BaseAdsPatch(
 ) : BytecodePatch(
     setOf(
         MusicAdsFingerprint,
-        VideoAdsFingerprint
+        VideoAdsFingerprint,
+        AdvertisingIdFingerprint,
+        SSLGuardFingerprint,
     )
 ) {
     private companion object {
@@ -58,15 +62,36 @@ abstract class BaseAdsPatch(
             }
         }
 
-        VideoAdsFingerprint.resultOrThrow().let {
+        setOf(
+            VideoAdsFingerprint,
+            SSLGuardFingerprint,
+        ).forEach { fingerprint ->
+            fingerprint.resultOrThrow().let {
+                it.mutableMethod.apply {
+                    addInstructionsWithLabels(
+                        0, """
+                            invoke-static {}, $classDescriptor->$methodDescriptor()Z
+                            move-result v0
+                            if-nez v0, :show_ads
+                            return-void
+                            """, ExternalLabel("show_ads", getInstruction(0))
+                    )
+                }
+            }
+        }
+
+        AdvertisingIdFingerprint.resultOrThrow().let {
             it.mutableMethod.apply {
+                val insertIndex = it.scanResult.stringsScanResult!!.matches.first().index
+                val insertRegister = getInstruction<OneRegisterInstruction>(insertIndex).registerA
+
                 addInstructionsWithLabels(
-                    0, """
+                    insertIndex, """
                         invoke-static {}, $classDescriptor->$methodDescriptor()Z
-                        move-result v0
-                        if-nez v0, :show_ads
+                        move-result v$insertRegister
+                        if-nez v$insertRegister, :enable_id
                         return-void
-                        """, ExternalLabel("show_ads", getInstruction(0))
+                        """, ExternalLabel("enable_id", getInstruction(insertIndex))
                 )
             }
         }

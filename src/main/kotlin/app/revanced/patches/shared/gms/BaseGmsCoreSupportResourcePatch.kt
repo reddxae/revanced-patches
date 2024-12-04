@@ -52,18 +52,6 @@ abstract class BaseGmsCoreSupportResourcePatch(
         required = true,
     )
 
-    private val DisableGmsServiceBroker by booleanPatchOption(
-        key = "DisableGmsServiceBroker",
-        default = false,
-        title = "Disable GmsService Broker",
-        description = """
-            Disabling GmsServiceBroker will somewhat improve crashes caused by unimplemented GmsCore services.
-            
-            For YouTube, the 'Spoof streaming data' setting is required.
-            """.trimIndentMultiline(),
-        required = true,
-    )
-
     internal val PackageNameYouTube = stringPatchOption(
         key = "PackageNameYouTube",
         default = DEFAULT_PACKAGE_NAME_YOUTUBE,

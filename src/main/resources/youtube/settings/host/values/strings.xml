@@ -1031,9 +1031,26 @@ Tap and hold to reset playback speed to 1.0x. Tap and hold again to reset back t
     <string name="revanced_overlay_button_whitelist_summary">"Tap to open whitelist dialog.
 Tap and hold to open whitelist setting dialog.</string>
 
-    <string name="revanced_overlay_button_time_ordered_playlist_title">Show time-ordered playlist button</string>
-    <string name="revanced_overlay_button_time_ordered_playlist_summary">"Tap to generate a playlist of all videos from channel from oldest to newest.
-Tap and hold to undo."</string>
+    <string name="revanced_overlay_button_play_all_title">Show play all button</string>
+    <string name="revanced_overlay_button_play_all_summary">"Tap to generate a playlist of all videos from channel.
+Tap and hold to undo.
+
+Info:
+• May not work on livestreams."</string>
+    <string name="revanced_overlay_button_play_all_type_title">Generate playlist mode</string>
+    <string name="revanced_overlay_button_play_all_type_entry_1">All contents (Sort by time)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_2">All contents (Sort by popular)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_3">Videos only (Sort by time)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_4">Videos only (Sort by popular)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_5">Shorts only (Sort by time)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_6">Shorts only (Sort by popular)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_7">Streamed videos only (Sort by time)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_8">Streamed videos only (Sort by popular)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_9">All Members only contents</string>
+    <string name="revanced_overlay_button_play_all_type_entry_10">Members only videos</string>
+    <string name="revanced_overlay_button_play_all_type_entry_11">Members only shorts</string>
+    <string name="revanced_overlay_button_play_all_type_entry_12">Members only livestreams</string>
+    <string name="revanced_overlay_button_play_all_not_available_toast">Unable to generate playlist due to channel id mismatch.</string>
 
     <string name="revanced_whitelist_settings_title">Channel whitelist</string>
     <string name="revanced_whitelist_settings_summary">Check or remove the list of channels added to the whitelist.</string>

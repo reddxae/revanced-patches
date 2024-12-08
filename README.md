@@ -18,9 +18,9 @@ See the [documentation](https://github.com/inotia00/revanced-documentation#readm
 | `Change share sheet` | Add option to change from in-app share sheet to system share sheet. | 18.29.38 ~ 19.16.39 |
 | `Change start page` | Adds an option to set which page the app opens in instead of the homepage. | 18.29.38 ~ 19.16.39 |
 | `Custom Shorts action buttons` | Changes, at compile time, the icon of the action buttons of the Shorts player. | 18.29.38 ~ 19.16.39 |
-| `Custom branding icon for YouTube` | Changes the YouTube app icon to the icon specified in options.json. | 18.29.38 ~ 19.16.39 |
-| `Custom branding name for YouTube` | Renames the YouTube app to the name specified in options.json. | 18.29.38 ~ 19.16.39 |
-| `Custom double tap length` | Adds Double-tap to seek values that are specified in options.json. | 18.29.38 ~ 19.16.39 |
+| `Custom branding icon for YouTube` | Changes the YouTube app icon to the icon specified in patch options. | 18.29.38 ~ 19.16.39 |
+| `Custom branding name for YouTube` | Renames the YouTube app to the name specified in patch options. | 18.29.38 ~ 19.16.39 |
+| `Custom double tap length` | Adds Double-tap to seek values that are specified in patch options. | 18.29.38 ~ 19.16.39 |
 | `Custom header for YouTube` | Applies a custom header in the top left corner within the app. | 18.29.38 ~ 19.16.39 |
 | `Description components` | Adds options to hide and disable description components. | 18.29.38 ~ 19.16.39 |
 | `Disable QUIC protocol` | Adds an option to disable CronetEngine's QUIC protocol. | 18.29.38 ~ 19.16.39 |
@@ -67,7 +67,7 @@ See the [documentation](https://github.com/inotia00/revanced-documentation#readm
 | `Spoof app version` | Adds options to spoof the YouTube client version. This can be used to restore old UI elements and features. | 18.29.38 ~ 19.16.39 |
 | `Spoof streaming data` | Adds options to spoof the streaming data to allow video playback. | 18.29.38 ~ 19.16.39 |
 | `Swipe controls` | Adds options for controlling volume and brightness with swiping, and whether to enter fullscreen when swiping down below the player. | 18.29.38 ~ 19.16.39 |
-| `Theme` | Changes the app's theme to the values specified in options.json. | 18.29.38 ~ 19.16.39 |
+| `Theme` | Changes the app's theme to the values specified in patch options. | 18.29.38 ~ 19.16.39 |
 | `Toolbar components` | Adds options to hide or change components located on the toolbar, such as toolbar buttons, search bar, and header. | 18.29.38 ~ 19.16.39 |
 | `Translations for YouTube` | Add translations or remove string resources. | 18.29.38 ~ 19.16.39 |
 | `Video playback` | Adds options to customize settings related to video playback, such as default video quality and playback speed. | 18.29.38 ~ 19.16.39 |
@@ -86,8 +86,8 @@ See the [documentation](https://github.com/inotia00/revanced-documentation#readm
 | `Certificate spoof` | Enables YouTube Music to work with Android Auto by spoofing the YouTube Music certificate. | 6.20.51 ~ 7.16.53 |
 | `Change share sheet` | Add option to change from in-app share sheet to system share sheet. | 6.20.51 ~ 7.16.53 |
 | `Change start page` | Adds an option to set which page the app opens in instead of the homepage. | 6.20.51 ~ 7.16.53 |
-| `Custom branding icon for YouTube Music` | Changes the YouTube Music app icon to the icon specified in options.json. | 6.20.51 ~ 7.16.53 |
-| `Custom branding name for YouTube Music` | Renames the YouTube Music app to the name specified in options.json. | 6.20.51 ~ 7.16.53 |
+| `Custom branding icon for YouTube Music` | Changes the YouTube Music app icon to the icon specified in patch options. | 6.20.51 ~ 7.16.53 |
+| `Custom branding name for YouTube Music` | Renames the YouTube Music app to the name specified in patch options. | 6.20.51 ~ 7.16.53 |
 | `Custom header for YouTube Music` | Applies a custom header in the top left corner within the app. | 6.20.51 ~ 7.16.53 |
 | `Disable Cairo splash animation` | Adds an option to disable Cairo splash animation. | 7.06.54 ~ 7.16.53 |
 | `Disable auto captions` | Adds an option to disable captions from being automatically enabled. | 6.20.51 ~ 7.16.53 |
@@ -114,6 +114,7 @@ See the [documentation](https://github.com/inotia00/revanced-documentation#readm
 | `Settings for YouTube Music` | Applies mandatory patches to implement ReVanced Extended settings into the application. | 6.20.51 ~ 7.16.53 |
 | `SponsorBlock` | Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as non-music sections. | 6.20.51 ~ 7.16.53 |
 | `Spoof app version` | Adds options to spoof the YouTube Music client version. This can remove the radio mode restriction in Canadian regions or disable real-time lyrics. | 6.20.51 ~ 7.16.53 |
+| `Spoof client` | Adds options to spoof the client to allow track playback. | 6.20.51 ~ 7.16.53 |
 | `Translations for YouTube Music` | Add translations or remove string resources. | 6.20.51 ~ 7.16.53 |
 | `Video playback` | Adds options to customize settings related to video playback, such as default video quality and playback speed. | 6.20.51 ~ 7.16.53 |
 | `Visual preferences icons for YouTube Music` | Adds icons to specific preferences in the settings. | 6.20.51 ~ 7.16.53 |
@@ -124,8 +125,8 @@ See the [documentation](https://github.com/inotia00/revanced-documentation#readm
 
 | 💊 Patch | 📜 Description | 🏹 Target Version |
 |:--------:|:--------------:|:-----------------:|
-| `Change package name` | Changes the package name for Reddit to the name specified in options.json. | 2023.12.0 ~ 2024.17.0 |
-| `Custom branding name for Reddit` | Renames the Reddit app to the name specified in options.json. | 2023.12.0 ~ 2024.17.0 |
+| `Change package name` | Changes the package name for Reddit to the name specified in patch options. | 2023.12.0 ~ 2024.17.0 |
+| `Custom branding name for Reddit` | Renames the Reddit app to the name specified in patch options. | 2023.12.0 ~ 2024.17.0 |
 | `Disable screenshot popup` | Adds an option to disable the popup that appears when taking a screenshot. | 2023.12.0 ~ 2024.17.0 |
 | `Hide Recently Visited shelf` | Adds an option to hide the Recently Visited shelf in the sidebar. | 2023.12.0 ~ 2024.17.0 |
 | `Hide ads` | Adds options to hide ads. | 2023.12.0 ~ 2024.17.0 |
@@ -166,7 +167,6 @@ Example:
       }
     ],
     "use":true,
-    "requiresIntegrations":false,
     "options": []
   },
   {
@@ -185,7 +185,6 @@ Example:
       }
     ],
     "use":true,
-    "requiresIntegrations":false,
     "options": []
   },
   {
@@ -201,7 +200,6 @@ Example:
       }
     ],
     "use":true,
-    "requiresIntegrations":true,
     "options": []
   }
 ]

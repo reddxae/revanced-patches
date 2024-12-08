@@ -959,9 +959,26 @@
     <string name="revanced_overlay_button_whitelist_title">عرض زر القائمة البيضاء</string>
     <string name="revanced_overlay_button_whitelist_summary">\"انقر لفتح مربع حوار القائمة البيضاء.
 انقر مع الاستمرار لفتح مربع حوار إعداد القائمة البيضاء.</string>
-    <string name="revanced_overlay_button_time_ordered_playlist_title">عرض زر قائمة التشغيل مرتبة حسب الوقت</string>
-    <string name="revanced_overlay_button_time_ordered_playlist_summary">"انقر لإنشاء قائمة تشغيل بجميع فيديوهات القناة من الأقدم إلى الأحدث.
-انقر مع الاستمرار للتراجع."</string>
+    <string name="revanced_overlay_button_play_all_title">عرض زر تشغيل الكل</string>
+    <string name="revanced_overlay_button_play_all_summary">"انقر لإنشاء قائمة تشغيل لجميع الفيديوهات من القناة.
+انقر مع الاستمرار للتراجع.
+
+معلومة:
+• قد لا يعمل في البث المباشر."</string>
+    <string name="revanced_overlay_button_play_all_type_title">إنشاء وضع قائمة التشغيل</string>
+    <string name="revanced_overlay_button_play_all_type_entry_1">كل المحتويات (مرتبة حسب الوقت)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_2">كل المحتويات (مرتبة حسب الشعبية)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_3">الفيديوهات فقط (مرتبة حسب الوقت)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_4">الفيديوهات فقط (مرتبة حسب الشعبية)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_5">فيديوهات Shorts فقط (مرتبة حسب الوقت)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_6">فيديوهات Shorts فقط (مرتبة حسب الشعبية)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_7">فيديوهات البث فقط (مرتبة حسب الوقت)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_8">فيديوهات البث فقط (مرتبة حسب الشعبية)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_9">كل محتويات الأعضاء فقط</string>
+    <string name="revanced_overlay_button_play_all_type_entry_10">فيديوهات للأعضاء فقط</string>
+    <string name="revanced_overlay_button_play_all_type_entry_11">فيديوهات Shorts للأعضاء فقط</string>
+    <string name="revanced_overlay_button_play_all_type_entry_12">البث المباشر للأعضاء فقط</string>
+    <string name="revanced_overlay_button_play_all_not_available_toast">غير قادر على إنشاء قائمة التشغيل بسبب عدم تطابق معرف القناة.</string>
     <string name="revanced_whitelist_settings_title">قائمة القناة البيضاء</string>
     <string name="revanced_whitelist_settings_summary">التحقق من قائمة القنوات المضافة إلى القائمة البيضاء أو إزالتها.</string>
     <string name="revanced_whitelist_added">تم إضافة القناة \'%1$s\' إلى القائمة البيضاء %2$s.</string>
@@ -1692,30 +1709,25 @@
     <string name="revanced_spoof_streaming_data_user_dialog_message">إيقاف تشغيل هذا الإعداد قد يسبب مشاكل في تشغيل الفيديو.</string>
     <string name="revanced_spoof_streaming_data_type_title">العميل الافتراضي</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android">Android</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Android Creator</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">مشغل Android المضمّن</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Android Testsuite</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_streaming_data_type_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
-    <string name="revanced_spoof_streaming_data_type_entry_web">Web</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">التأثيرات الجانبية للتزييف</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">"• قد لا يتم تشغيل الأفلام أو الفيديوهات المدفوعة.
-• يبدأ البث المباشر من البداية.
-• قد تنتهي الفيديوهات قبل النهاية بثانية واحدة.
-• لا يوجد ترميز الصوت Opus."</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">"• يبدأ البث المباشر من البداية.
+• قد تنتهي الفيديوهات قبل النهاية بثانية واحدة."</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_skip_livestream_playback">• قد تنتهي الفيديوهات قبل النهاية بثانية واحدة.</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• قائمة المقطع الصوتي مفقودة.
 • مستوى الصوت الثابت غير متوفر."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• قائمة المقطع الصوتي مفقودة.
 • مستوى الصوت الثابت غير متوفر."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_unknown">• قد لا يتم تشغيل الفيديو.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">فرض iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">ترميز فيديو iOS هو AVC (H.264).</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">ترميز فيديو iOS هو AVC (H.264) أو VP9 أو AV1.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"قد يؤدي تمكين هذا إلى تحسين عمر البطارية وإصلاح مشكلة تقطيع التشغيل.
 
 يتمتع تنسيق AVC (H.264) بدقة قصوى تبلغ 1080P، وسيستخدم تشغيل الفيديو بيانات إنترنت اكثر من VP9 أو AV1."</string>
+    <string name="revanced_spoof_streaming_data_ios_skip_livestream_playback_title">تخطي تشغيل البث المباشر iOS</string>
+    <string name="revanced_spoof_streaming_data_ios_skip_livestream_playback_summary_on">لا يتم استخدام عميل iOS لتشغيل البث المباشر.</string>
+    <string name="revanced_spoof_streaming_data_ios_skip_livestream_playback_summary_off">يتم استخدام عميل iOS لتشغيل البث المباشر.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">عرض في إحصاءات تقنية</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">يتم عرض العميل المستخدم لجلب بيانات البث في إحصاءات تقنية.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">تم إخفاء العميل المستخدم لجلب بيانات البث في إحصاءات تقنية.</string>

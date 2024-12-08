@@ -30,6 +30,9 @@
     <string name="revanced_hide_merchandise_shelf_title">Скриване банерите за стоки</string>
     <string name="revanced_hide_merchandise_shelf_summary_on">Банерите за стоки са скрити.</string>
     <string name="revanced_hide_merchandise_shelf_summary_off">Банерите за стоки се показват.</string>
+    <string name="revanced_hide_player_store_shelf_title">Скриване на рафта за пазаруване</string>
+    <string name="revanced_hide_player_store_shelf_summary_on">Рафта за пазаруване е скрит.</string>
+    <string name="revanced_hide_player_store_shelf_summary_off">Рафта за пазаруване се показва.</string>
     <string name="revanced_hide_paid_promotion_label_title">Скриване на платените промоции</string>
     <string name="revanced_hide_paid_promotion_label_summary_on">Промоционалните етикети са скрити.</string>
     <string name="revanced_hide_paid_promotion_label_summary_off">Промоционалните етикети се показват.</string>
@@ -117,6 +120,8 @@
     <string name="revanced_hide_feed_survey_summary_on">Анкетите за емисии са скрити.</string>
     <string name="revanced_hide_feed_survey_summary_off">Анкетите за емисии се показват.</string>
     <string name="revanced_hide_floating_button_title">Скриване на изскачащ бутон</string>
+    <string name="revanced_hide_floating_button_summary_on">Плаващият бутон е скрит.</string>
+    <string name="revanced_hide_floating_button_summary_off">Плаващият бутон се показва.</string>
     <string name="revanced_hide_image_shelf_title">Скриване на рафтовете със снимки</string>
     <string name="revanced_hide_image_shelf_summary_on">Рафтовете със снимки са скрити.</string>
     <string name="revanced_hide_image_shelf_summary_off">Рафтовете със снимки се показват.</string>
@@ -468,11 +473,59 @@
     <string name="revanced_hide_settings_menu_general_summary_on">Основни настройки са скрити.</string>
     <string name="revanced_hide_settings_menu_general_summary_off">Основни настройки се показват.</string>
     <string name="revanced_hide_settings_menu_account_title">Скриване на менюто на акаунта</string>
+    <string name="revanced_hide_settings_menu_account_summary_on">Менюто на акаунта е скрито.</string>
+    <string name="revanced_hide_settings_menu_account_summary_off">Менюто на акаунта се пказва.</string>
+    <string name="revanced_hide_settings_menu_data_saving_title">Икономия на данни</string>
+    <string name="revanced_hide_settings_menu_data_saving_summary_on">Менюто за икономия на данни е скрито.</string>
+    <string name="revanced_hide_settings_menu_data_saving_summary_off">Менюто за икономия на данни се показва.</string>
+    <string name="revanced_hide_settings_menu_auto_play_title">Скрийте менюто „Автоматично пускане“</string>
+    <string name="revanced_hide_settings_menu_auto_play_summary_on">Менюто „Автоматично пускане“ е скрито.</string>
+    <string name="revanced_hide_settings_menu_auto_play_summary_off">Показва се менюто „Автоматично пускане“.</string>
+    <string name="revanced_hide_settings_menu_video_quality_title">Меню „Предпочитания за качество на видеото“</string>
+    <string name="revanced_hide_settings_menu_video_quality_summary_on">Менюто ескрито.</string>
+    <string name="revanced_hide_settings_menu_video_quality_summary_off">Менюто се показва.</string>
+    <string name="revanced_hide_settings_menu_offline_title">Фонов и офлайн режим</string>
+    <string name="revanced_hide_settings_menu_offline_summary_on">Фон и офлайн режим е скрит.</string>
+    <string name="revanced_hide_settings_menu_offline_summary_off">Фон и офлайн режим се показва.</string>
     <string name="revanced_hide_settings_menu_pair_with_tv_title">Меню за гледане на Телевизор</string>
     <string name="revanced_hide_settings_menu_pair_with_tv_summary_on">Менюто за гледане на ТВ е скрито.</string>
     <string name="revanced_hide_settings_menu_pair_with_tv_summary_off">Менюто за гледане на ТВ се показва.</string>
+    <string name="revanced_hide_settings_menu_history_title">Управление на менюто с история</string>
+    <string name="revanced_hide_settings_menu_history_summary_on">Управление на историята е скрито.</string>
+    <string name="revanced_hide_settings_menu_history_summary_off">Управление на историята се показва.</string>
+    <string name="revanced_hide_settings_menu_your_data_title">Вашите данни в YouTube</string>
+    <string name="revanced_hide_settings_menu_your_data_summary_on">Вашите данни в YouTube са скрити.</string>
+    <string name="revanced_hide_settings_menu_your_data_summary_off">Вашите данни в YouTube се показват.</string>
+    <string name="revanced_hide_settings_menu_privacy_title">Меню за поверителност</string>
+    <string name="revanced_hide_settings_menu_privacy_summary_on">Менюто за поверителност е скрито.</string>
+    <string name="revanced_hide_settings_menu_privacy_summary_off">Менюто за поверителност се показва.</string>
+    <string name="revanced_hide_settings_menu_premium_early_access_title">Изпробвайте експериментално меню с нови функции</string>
+    <string name="revanced_hide_settings_menu_premium_early_access_summary_on">Менюто за експериментални нови функции е скрито.</string>
+    <string name="revanced_hide_settings_menu_premium_early_access_summary_off">Менюто за експериментални нови функции се показва.</string>
+    <string name="revanced_hide_settings_menu_subscription_product_title">Скриване на менюто за покупки и членства</string>
+    <string name="revanced_hide_settings_menu_subscription_product_summary_on">Менюто за покупки и членства е скрито.</string>
+    <string name="revanced_hide_settings_menu_subscription_product_summary_off">Менюто за покупки и членства се показва.</string>
+    <string name="revanced_hide_settings_menu_billing_and_payment_title">Меню за таксуване и плащане</string>
+    <string name="revanced_hide_settings_menu_billing_and_payment_summary_on">Менюто за таксуване и плащане е скрито.</string>
+    <string name="revanced_hide_settings_menu_billing_and_payment_summary_off">Менюто за таксуване и плащане се показва.</string>
+    <string name="revanced_hide_settings_menu_notification_title">Скриване на менюто за известия</string>
+    <string name="revanced_hide_settings_menu_notification_summary_on">Менюто за известия е скрито.</string>
+    <string name="revanced_hide_settings_menu_notification_summary_off">Менюто за известия се показва.</string>
+    <string name="revanced_hide_settings_menu_connected_accounts_title">Скриване на менюто за свързани приложения</string>
+    <string name="revanced_hide_settings_menu_connected_accounts_summary_on">Скрито.</string>
+    <string name="revanced_hide_settings_menu_connected_accounts_summary_off">Показва се.</string>
+    <string name="revanced_hide_settings_menu_live_chat_title">Меню Чат на живо</string>
+    <string name="revanced_hide_settings_menu_live_chat_summary_on">Меню за Чат на живо е скрито.</string>
+    <string name="revanced_hide_settings_menu_live_chat_summary_off">Меню за Чат на живо се показва.</string>
     <string name="revanced_hide_settings_menu_captions_title">Скриване на менюто за субтитри</string>
     <string name="revanced_hide_settings_menu_captions_summary_on">Менюто за субтитрие скрито.</string>
+    <string name="revanced_hide_settings_menu_captions_summary_off">Менюто за субтитрие се показва.</string>
+    <string name="revanced_hide_settings_menu_accessibility_title">Скриване на менюто за достъпност</string>
+    <string name="revanced_hide_settings_menu_accessibility_summary_on">Менюто за достъпност е скрито.</string>
+    <string name="revanced_hide_settings_menu_accessibility_summary_off">Менюто за достъпност се показва.</string>
+    <string name="revanced_hide_settings_menu_about_title">Скрийте менюто „Относно“</string>
+    <string name="revanced_hide_settings_menu_about_summary_on">Менюто е скрито.</string>
+    <string name="revanced_hide_settings_menu_about_summary_off">Менюто се пказва.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Лента с инструменти</string>
     <string name="revanced_preference_screen_toolbar_summary">Скрива или променя елементи, разположени в лентата с инструменти, като бутони на лентата с инструменти, лента за търсене, заглавия.</string>
@@ -507,6 +560,12 @@
     <string name="revanced_hide_voice_search_button_title">Бутон за \"гласово търсене\"</string>
     <string name="revanced_hide_voice_search_button_summary_on">Бутон за гласово търсене на е скрит.</string>
     <string name="revanced_hide_voice_search_button_summary_off">Бутон за гласово търсене се показва.</string>
+    <string name="revanced_hide_youtube_doodles_title">YouTube Doodles</string>
+    <string name="revanced_hide_youtube_doodles_summary_on">YouTube Doodles скрити.</string>
+    <string name="revanced_hide_youtube_doodles_summary_off">YouTube Doodles се показват.</string>
+    <string name="revanced_hide_youtube_doodles_user_dialog_message">"YouTube Doodles се показват няколко дни в годината.
+
+Ако YouTube Doodles се показват във вашия регион и са скрити, лентата за филтриране под лентата за търсене също ще бъде скрита."</string>
     <string name="revanced_replace_toolbar_create_button_title">Заменете бутона \"Създаване\"</string>
     <string name="revanced_replace_toolbar_create_button_summary">Заменете „Създаване“ с бутон за настройки.</string>
     <string name="revanced_replace_toolbar_create_button_type_title">Тип действие за назначаване на бутона</string>
@@ -588,6 +647,9 @@
     <string name="revanced_hide_zoom_overlay_title">Интерфейс за мащабиране</string>
     <string name="revanced_hide_zoom_overlay_summary_on">Интерфейс за мащабиране ескрит.</string>
     <string name="revanced_hide_zoom_overlay_summary_off">Интерфейс за мащабиране се показва.</string>
+    <string name="revanced_sanitize_video_subtitle_title">Филтриране на фрази в субтитрите</string>
+    <string name="revanced_sanitize_video_subtitle_summary_on">"Фрази като „#“, „Набиране на средства“, „Пазаруване“ и „продукти“ бяха скрити от субтитрите на видеоклипа."</string>
+    <string name="revanced_sanitize_video_subtitle_summary_off">"Фрази като „#“, „Набиране на средства“, „Пазаруване“ и „продукти“ бяха показани от субтитрите на видеоклипа."</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons -->
     <string name="revanced_preference_screen_action_buttons_title">Бутони за действие</string>
     <string name="revanced_preference_screen_action_buttons_summary">Скриване или показване на бутони за действие под видеоклипове.</string>
@@ -654,6 +716,9 @@
     <string name="revanced_hide_comments_by_members_title">Скриване на банер за коментари от членове</string>
     <string name="revanced_hide_comments_by_members_summary_on">Банера за коментари от членове е скрит.</string>
     <string name="revanced_hide_comments_by_members_summary_off">Банера за коментари от членове се показва.</string>
+    <string name="revanced_hide_comment_highlighted_search_links_title">Скриване на подчертаните връзки за търсене</string>
+    <string name="revanced_hide_comment_highlighted_search_links_summary_on">Маркираните линкове за търсене са скрити.</string>
+    <string name="revanced_hide_comment_highlighted_search_links_summary_off">Показани са маркираните линкове за търсене.</string>
     <string name="revanced_hide_comments_section_title">Скриване на секцията с коментари</string>
     <string name="revanced_hide_comments_section_summary_on">Секцията с коментари е скрита.</string>
     <string name="revanced_hide_comments_section_summary_off">Секцията с коментари се показва.</string>
@@ -681,6 +746,9 @@
     <string name="revanced_change_player_flyout_menu_toggle_title">Промяна на типа превключване на настройките</string>
     <string name="revanced_change_player_flyout_menu_toggle_summary_on">Използват се превключващи бутони с текст.</string>
     <string name="revanced_change_player_flyout_menu_toggle_summary_off">Използват се бутони за превключване.</string>
+    <string name="revanced_hide_player_flyout_menu_enhanced_bitrate_title">Скриване на 1080p Premium меню</string>
+    <string name="revanced_hide_player_flyout_menu_enhanced_bitrate_summary_on">1080p Premium менюто е скрито.</string>
+    <string name="revanced_hide_player_flyout_menu_enhanced_bitrate_summary_off">1080p Premium менюто се показва.</string>
     <string name="revanced_hide_player_flyout_menu_audio_track_title">Меню на аудио</string>
     <string name="revanced_hide_player_flyout_menu_audio_track_summary_on">Менюто “Audio Track” е скрито.</string>
     <string name="revanced_hide_player_flyout_menu_audio_track_summary_off">Менюто “Audio Track” се показва.</string>
@@ -874,8 +942,6 @@
     <string name="revanced_overlay_button_whitelist_title">Пок. бутон за \"Бял списък\"</string>
     <string name="revanced_overlay_button_whitelist_summary">Натиснете - Отворете \"Бял списък\".
 Натиснете и задръжте - Отворете настройките на \"Бял списък\".</string>
-    <string name="revanced_overlay_button_time_ordered_playlist_title">Бутон за показване на подредени по време плейлисти</string>
-    <string name="revanced_overlay_button_time_ordered_playlist_summary">"Докоснете, за да генерирате плейлист с всички видеоклипове в канала от най-старите до най-новите, натиснете продължително, за да отмените."</string>
     <string name="revanced_whitelist_settings_title">Добавяне на канал към белия списък</string>
     <string name="revanced_whitelist_settings_summary">Проверка или премахване на листа с канали доб. в белия списък.</string>
     <string name="revanced_whitelist_added">Каналът %1$s е добавен в %2$s белия списък.</string>
@@ -920,12 +986,25 @@
     <string name="revanced_hide_seekbar_thumbnail_title">Миниатюри на лентата за възпроизвеждане</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_on">Миниатюрите са скрити.</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_off">Миниатюрите се показват.</string>
+    <string name="revanced_disable_seekbar_chapters_title">Деактивиране глави за лентата на напредъка</string>
+    <string name="revanced_disable_seekbar_chapters_summary_on">Главите са скрити.</string>
+    <string name="revanced_disable_seekbar_chapters_summary_off">Главите се показват.</string>
+    <string name="revanced_hide_seekbar_chapter_label_title">Скриване на етикетите на главите в лентата на прогреса</string>
+    <string name="revanced_hide_seekbar_chapter_label_summary_on">Маркерите за глави в прогреса са скрити.</string>
+    <string name="revanced_hide_seekbar_chapter_label_summary_off">Маркерите за глави в прогреса се показват.</string>
     <string name="revanced_hide_time_stamp_title">Времево клеймо на видеоклипа</string>
     <string name="revanced_hide_time_stamp_summary_on">Времето клеймо е скрито.</string>
     <string name="revanced_hide_time_stamp_summary_off">Клеймо за време се показва.</string>
     <string name="revanced_restore_old_seekbar_thumbnails_title">Стари миниатюри на времевата линия</string>
     <string name="revanced_restore_old_seekbar_thumbnails_summary_on">Над лентата за възпроизвеждане се появяват миниатюри.</string>
     <string name="revanced_restore_old_seekbar_thumbnails_summary_off">Миниатюрите се показват в режим на цял екран.</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_title">Висококачествени миниатюри</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_summary_on">Миниатюри с високо качество в лентата на прогреса.</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_summary_off">Миниатюри с средно качество в лентата на прогреса.</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_dialog_message">"Това ще възстанови миниатюри за потоци на живо, които нямат миниатюри в лентата за търсене. 
+
+Използването на интернет данни може да е по-високо и миниатюрите в лентата за търсене ще имат малко забавяне преди показване. 
+Тази функция работи най-добре при много бърза интернет връзка."</string>
     <string name="revanced_enable_cairo_seekbar_title">Лента за прогрес на тема Кайро</string>
     <string name="revanced_enable_cairo_seekbar_summary_on">"Лентата за прогрес на тема Кайро е активирана. 
 Страничен ефект: 
@@ -937,6 +1016,9 @@
     <string name="revanced_disable_rolling_number_animations_title">Анимация на числа в реално време</string>
     <string name="revanced_disable_rolling_number_animations_summary_on">Анимацията на числа в реално време е деактивирана.</string>
     <string name="revanced_disable_rolling_number_animations_summary_off">Анимацията на числа в реално време е активирана.</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_title">Скриване на секцията с резюме на видео, генерирано от AI</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_summary_on">Резюме на видео, генерирано от AI, е скрито.</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_summary_off">Показана се резюме на видеото, генерирано от AI.</string>
     <string name="revanced_hide_attributes_section_title">Раздел с функции</string>
     <string name="revanced_hide_attributes_section_summary_on">Секциите „Популярни места“, „Игри“ и „Музика“ под описанието са скрити.</string>
     <string name="revanced_hide_attributes_section_summary_off">Показват се секциите „Популярни места“, „Игри“ и „Музика“ под описанието.</string>
@@ -990,6 +1072,12 @@
     <string name="revanced_hide_shorts_shelf_summary">"Скрива рафтовете за кратки видеа
 
 Известен проблем: Официалните заглавки в резултатите от търсенето са скрити."</string>
+    <string name="revanced_hide_shorts_shelf_channel_title">Скрит в канала</string>
+    <string name="revanced_hide_shorts_shelf_channel_summary_on">"Скрито в канала.
+
+Информация:
+• Скрити са само рафтовете със заглавката Shorts в началния раздел."</string>
+    <string name="revanced_hide_shorts_shelf_channel_summary_off">Показват се в канала.</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_title">Скриване в „начало“ и „подобни видеоклипове“</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_summary_on">Скрити в емисиите „начало“ и „подобни видеоклипове“.</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_summary_off">Показва се в емисиите „начало“ и „подобни видеоклипове“.</string>
@@ -1175,6 +1263,12 @@
     <string name="revanced_swipe_overlay_rect_size_invalid_toast">Областта за плъзгане не може да бъде по-голяма от 50. Нулиране на стойността по подразбиране.</string>
     <string name="revanced_swipe_overlay_timeout_title">Задръжка на плъзгащата контрола за показване</string>
     <string name="revanced_swipe_overlay_timeout_summary">Време за което плъзгащата контрола е видима.</string>
+    <string name="revanced_swipe_brightness_sensitivity_title">Чувствителност при плъзгане на яркост</string>
+    <string name="revanced_swipe_brightness_sensitivity_summary">Конфигурирайте минималното разстояние за плъзгане на яркостта между 1 и 1000 (%).\nКолкото по-късо е минималното разстояние, толкова по-бързо се променя нивото на яркост.</string>
+    <string name="revanced_swipe_brightness_sensitivity_invalid_toast">Чувствителността на плъзгане за яркост трябва да бъде между 1-1000 (%).</string>
+    <string name="revanced_swipe_volume_sensitivity_title">Чувствителност при плъзгане на звука</string>
+    <string name="revanced_swipe_volume_sensitivity_summary" formatted="false">Конфигурирайте минималното разстояние за плъзгане на силата на звука между 1 и 1000 (%).\n\nКолкото по-малко е минималното разстояние, толкова по-бързо се променя нивото на силата на звука.\n\nПрепоръчителната чувствителност на плъзгане на звука е 100% при 15 стъпки и 10% при 150 стъпки.</string>
+    <string name="revanced_swipe_volume_sensitivity_invalid_toast">Чувствителността на силата на звука при плъзгане трябва да бъде между 1-1000 (%).</string>
     <string name="revanced_disable_hdr_auto_brightness_title">Деактивирайте автоматичната HDR яркост</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">Автоматичната яркост при HDR е изключена.</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">Автоматичната яркост при HDR е включена.</string>
@@ -1274,6 +1368,9 @@
     <string name="revanced_ryd_compact_layout_title">Компактен бутон за харесване</string>
     <string name="revanced_ryd_compact_layout_summary_on">Включен компактен бутон \"Харесва ми\".</string>
     <string name="revanced_ryd_compact_layout_summary_off">Компактният бутон „Харесва ми“ е деактивиран.</string>
+    <string name="revanced_ryd_estimated_like_title">Съотношение на харесвания</string>
+    <string name="revanced_ryd_estimated_like_summary_on">Показано.</string>
+    <string name="revanced_ryd_estimated_like_summary_off">Скрито.</string>
     <string name="revanced_ryd_toast_on_connection_error_title">Показване на известие, ако API не е наличен</string>
     <string name="revanced_ryd_toast_on_connection_error_summary_on">Показва известие, ако Return YouTube Dislike не е наличен.</string>
     <string name="revanced_ryd_toast_on_connection_error_summary_off">Не се показва известие, ако ReturnYouTube Dislike не е наличен.</string>
@@ -1286,7 +1383,26 @@
     <string name="revanced_ryd_failure_client_rate_limit_requested">Нехаресванията не са достъпни (достигнат лимит на API).</string>
     <string name="revanced_ryd_failure_generic">Нехаресванията не са налични (%s).</string>
     <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">Презареждане на видеото за гласуване чрез ReturnYouTubeDislike</string>
+    <string name="revanced_ryd_video_likes_hidden_by_video_owner">Скрито</string>
     <!-- PreferenceScreen: Return YouTube Username -->
+    <string name="revanced_preference_screen_return_youtube_username_title">Връщане на потребителско име в YouTube</string>
+    <string name="revanced_return_youtube_username_enabled_title">Активиране на връщане на потребителско име в YouTube</string>
+    <string name="revanced_return_youtube_username_enabled_summary_on">Потребителското име се използва.</string>
+    <string name="revanced_return_youtube_username_enabled_summary_off">Идентификаторът се използва.</string>
+    <string name="revanced_return_youtube_username_display_format_title">Формат на дисплея</string>
+    <string name="revanced_return_youtube_username_display_format_username_only">Потребителско име</string>
+    <string name="revanced_return_youtube_username_display_format_username_handle">Потребителско име (@handle)</string>
+    <string name="revanced_return_youtube_username_display_format_handle_username">\@handle (Потребителско име)</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_title">Ключ за API за данни на YouTube</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_summary">Ключът на програмиста за използване на API за данни на YouTube v3.</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_about_title">Относно ключа за API за данни на YouTube</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_about_summary">"За замяна на манипулатори с потребителски имена е необходим ключ за разработчици на YouTube Data API v3.
+
+Дневната квота за API ключове в безплатния план е 10 000 и 1 квота се използва за замяна на манипулатор с потребителско име за 1 коментар.
+
+Кликнете, за да видите как да издадете API ключ."</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_title">Издаване на ключ за разработчици на YouTube Data API v3</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_message">1. Отидете на &lt;a href=%1$s&gt;Създаване на нов проект&lt;/a&gt;.&lt;br&gt;2. Щракнете върху &lt;b&gt;СЪЗДАВАНЕ&lt;/b&gt; бутон.&lt;br&gt;3. Отидете на &lt;a href=%2$s&gt;YouTube Data API v3&lt;/a&gt;.&lt;br&gt;4. Щракнете върху &lt;b&gt;АКТИВИРАНЕ&lt;/b&gt; бутон.&lt;br&gt;5. Щракнете върху &lt;b&gt;СЪЗДАВАНЕ НА ИДЕНТИФИКАЦИИ&lt;/b&gt; бутон.&lt;br&gt;6. Изберете &lt;b&gt;Публични данни&lt;/b&gt; опция.&lt;br&gt;7. Щракнете върху &lt;b&gt;СЛЕДВАЩИЯ&lt;/b&gt; бутон.&lt;br&gt;8. Копирайте API ключа.&lt;br&gt;&lt;br&gt;※ API ключът никога не трябва да се споделя с други, така че не е включен в настройките за импортиране/експортиране.</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enable_sb">Включване на SponsorBlock</string>
@@ -1541,19 +1657,12 @@
     <string name="revanced_spoof_streaming_data_user_dialog_message">Изключването на тази настройка може да причини проблеми с възпроизвеждането на видео.</string>
     <string name="revanced_spoof_streaming_data_type_title">Клиент по подразбиране</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android">Андроид</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Създател на Android</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">Вграден Android плейър</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Тестов пакет за Android</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_streaming_data_type_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
-    <string name="revanced_spoof_streaming_data_type_entry_web">Web</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Ефекти от замяната</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">"• Филми или платени видеоклипове може да не се възпроизвеждат."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• Липсва менюто за избор на аудио."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Липсва менюто за избор на аудио."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_unknown">• Видеото може да не се възпроизведе.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Принудително AVC (H.264) за iOS</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">видео кодекът на iOS е AVC (H.264).</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">видео кодекът на iOS е AVC (H.264), VP9, or AV1.</string>

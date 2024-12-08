@@ -48,7 +48,7 @@ Download %2$s dari website."</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Iklan</string>
     <string name="revanced_hide_fullscreen_ads_title">Sembunyikan iklan fullscreen</string>
-    <string name="revanced_hide_fullscreen_ads_summary">Menyembunyikan iklan fullscreen.</string>
+    <string name="revanced_hide_fullscreen_ads_summary">"Menyembunyikan iklan fullscreen."</string>
     <string name="revanced_hide_general_ads_title">Sembunyikan Iklan Umum</string>
     <string name="revanced_hide_general_ads_summary">Menyembunyikan Iklan Umum.</string>
     <string name="revanced_hide_music_ads_title">Sembunyikan iklan musik</string>

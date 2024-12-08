@@ -9,8 +9,8 @@
     <string name="revanced_extended_reset_to_default_toast">デフォルト値にリセットしました。</string>
     <string name="revanced_preference_category_experimental_flag">実験的な機能</string>
     <string name="revanced_extended_confirm_user_dialog_title">続行しますか？</string>
-    <string name="revanced_extended_restart_first_run">再起動してレイアウトを正常に読み込みます</string>
-    <string name="revanced_extended_restart_message">再起動して設定を適用します</string>
+    <string name="revanced_extended_restart_first_run">レイアウトを正常に読み込むためには YouTube を再起動する必要があります。\n\n続行しますか？</string>
+    <string name="revanced_extended_restart_message">設定を反映させるためには YouTube を再起動する必要があります。\n\n続行しますか？</string>
     <string name="revanced_playback_speed_normal">通常</string>
     <string name="revanced_external_downloader_package_name_video_title">外部ダウンローダーのパッケージ名</string>
     <string name="revanced_external_downloader_package_name_video_summary">NewPipe や YTDLnis などの、インストールされている外部ダウンローダーアプリのパッケージ名です。</string>
@@ -37,8 +37,8 @@
     <string name="revanced_hide_paid_promotion_label_summary_on">プレーヤー上に表示される「プロモーションを含みます」の文章を非表示にします。</string>
     <string name="revanced_hide_paid_promotion_label_summary_off">プレーヤー上に表示される「プロモーションを含みます」の文章を非表示にします。</string>
     <string name="revanced_hide_promotion_alert_banner_title">プロモーションバナーを非表示</string>
-    <string name="revanced_hide_promotion_alert_banner_summary_on">YouTube Premium の価格の値上げなどのプロモーションバナーを非表示にします。</string>
-    <string name="revanced_hide_promotion_alert_banner_summary_off">YouTube Premium の価格の値上げなどのプロモーションバナーを非表示にします。</string>
+    <string name="revanced_hide_promotion_alert_banner_summary_on">メンバーシップの更新や YouTube Premium の価格の値上げなどのプロモーションバナーを非表示にします。</string>
+    <string name="revanced_hide_promotion_alert_banner_summary_off">メンバーシップの更新や YouTube Premium の価格の値上げなどのプロモーションバナーを非表示にします。</string>
     <string name="revanced_hide_self_sponsor_cards_title">自己スポンサーカードを非表示</string>
     <string name="revanced_hide_self_sponsor_cards_summary_on">概要欄下部に表示されるセルフスポンサーカードを非表示にします。</string>
     <string name="revanced_hide_self_sponsor_cards_summary_off">概要欄下部に表示されるセルフスポンサーカードを非表示にします。</string>
@@ -111,8 +111,8 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_hide_expandable_chip_summary_on">検索結果の動画の下に表示される、展開可能なチップを非表示にします。</string>
     <string name="revanced_hide_expandable_chip_summary_off">検索結果の動画の下に表示される、展開可能なチップを非表示にします。</string>
     <string name="revanced_hide_expandable_shelf_title">展開可能な棚を非表示</string>
-    <string name="revanced_hide_expandable_shelf_summary_on">検索結果に表示される、展開可能な棚を非表示にします。</string>
-    <string name="revanced_hide_expandable_shelf_summary_off">検索結果に表示される、展開可能な棚を非表示にします。</string>
+    <string name="revanced_hide_expandable_shelf_summary_on">検索結果にある、展開可能な棚を非表示にします。</string>
+    <string name="revanced_hide_expandable_shelf_summary_off">検索結果にある、展開可能な棚を非表示にします。</string>
     <string name="revanced_hide_feed_captions_button_title">字幕ボタンを非表示</string>
     <string name="revanced_hide_feed_captions_button_on">フィードから字幕ボタンを非表示にします。</string>
     <string name="revanced_hide_feed_captions_button_off">フィードから字幕ボタンを非表示にします。</string>
@@ -956,9 +956,6 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_overlay_button_whitelist_title">ホワイトリストボタンを表示</string>
     <string name="revanced_overlay_button_whitelist_summary">タップするとホワイトリストのダイアログが開きます。
 長押しするとホワイトリストの設定のダイアログが開きます。</string>
-    <string name="revanced_overlay_button_time_ordered_playlist_title">時間順のプレイリストボタンを表示</string>
-    <string name="revanced_overlay_button_time_ordered_playlist_summary">"タップすると、チャンネルの古いものから新しいものまですべての動画の再生リストが生成されます。
-元に戻すには、長押しします。"</string>
     <string name="revanced_whitelist_settings_title">チャンネルのホワイトリスト</string>
     <string name="revanced_whitelist_settings_summary">ホワイトリストに登録したチャンネルのリストを確認/削除します。</string>
     <string name="revanced_whitelist_added">チャンネル「%1$s」を %2$s ホワイトリストに登録しました。</string>
@@ -1009,8 +1006,8 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_disable_seekbar_chapters_summary_on">シークバーからチャプターを非表示にします。</string>
     <string name="revanced_disable_seekbar_chapters_summary_off">シークバーからチャプターを非表示にします。</string>
     <string name="revanced_hide_seekbar_chapter_label_title">チャプターのラベルを非表示</string>
-    <string name="revanced_hide_seekbar_chapter_label_summary_on">タイムスタンプの横に表示されるチャプターのラベルを非表示にします。</string>
-    <string name="revanced_hide_seekbar_chapter_label_summary_off">タイムスタンプの横に表示されるチャプターのラベルを非表示にします。</string>
+    <string name="revanced_hide_seekbar_chapter_label_summary_on">タイムスタンプの横にあるチャプターのラベルを非表示にします。</string>
+    <string name="revanced_hide_seekbar_chapter_label_summary_off">タイムスタンプの横にあるチャプターのラベルを非表示にします。</string>
     <string name="revanced_hide_time_stamp_title">タイムスタンプを非表示</string>
     <string name="revanced_hide_time_stamp_summary_on">タイムスタンプを非表示にします。</string>
     <string name="revanced_hide_time_stamp_summary_off">タイムスタンプを非表示にします。</string>
@@ -1034,8 +1031,8 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_preference_screen_video_description_title">概要欄</string>
     <string name="revanced_preference_screen_video_description_summary">概要欄のコンポーネントを非表示または表示</string>
     <string name="revanced_disable_rolling_number_animations_title">数字の回転アニメーションを無効化</string>
-    <string name="revanced_disable_rolling_number_animations_summary_on">高評価数と視聴回数の回転アニメーションを無効にします。</string>
-    <string name="revanced_disable_rolling_number_animations_summary_off">高評価数と視聴回数の回転アニメーションを無効にします。</string>
+    <string name="revanced_disable_rolling_number_animations_summary_on">高評価数と再生回数の回転アニメーションを無効にします。</string>
+    <string name="revanced_disable_rolling_number_animations_summary_off">高評価数と再生回数の回転アニメーションを無効にします。</string>
     <string name="revanced_hide_ai_generated_video_summary_section_title">AI 生成の要約欄を非表示</string>
     <string name="revanced_hide_ai_generated_video_summary_section_summary_on">概要欄にある「AI による動画の要約」欄を非表示にします。</string>
     <string name="revanced_hide_ai_generated_video_summary_section_summary_off">概要欄にある「AI による動画の要約」欄を非表示にします。</string>
@@ -1161,8 +1158,8 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Suggested actions -->
     <string name="revanced_preference_category_suggested_actions">推奨されるアクション</string>
     <string name="revanced_hide_shorts_green_screen_button_title">グリーンスクリーンボタンを非表示</string>
-    <string name="revanced_hide_shorts_green_screen_button_summary_on">プレーヤーの下部に表示される「グリーンスクリーン」ボタンを非表示にします。</string>
-    <string name="revanced_hide_shorts_green_screen_button_summary_off">プレーヤーの下部に表示される「グリーンスクリーン」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_green_screen_button_summary_on">プレーヤーの下部にある「グリーンスクリーン」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_green_screen_button_summary_off">プレーヤーの下部にある「グリーンスクリーン」ボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_save_music_button_title">保存ボタンを非表示</string>
     <string name="revanced_hide_shorts_save_music_button_summary_on">楽曲の「保存」ボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_save_music_button_summary_off">楽曲の「保存」ボタンを非表示にします。</string>
@@ -1453,21 +1450,21 @@ API キーの発行方法については、ここをタップしてください�
     <string name="revanced_sb_segments_sponsor">スポンサー</string>
     <string name="revanced_sb_segments_sponsor_sum">有料プロモーション、有料紹介、直接広告が含まれます。セルフプロモーションや、個人の好きなクリエイター/ウェブサイト/商品に対する無償の活動は含まれません。</string>
     <string name="revanced_sb_segments_selfpromo">無報酬 / セルフプロモーション</string>
-    <string name="revanced_sb_segments_selfpromo_sum">無報酬のプロモーションあるいはセルフプロモーションであるという点を除いては「スポンサー」と同様です。商品、寄付、コラボ情報に関する内容を含みます。</string>
+    <string name="revanced_sb_segments_selfpromo_sum">無報酬のプロモーションあるいはセルフプロモーションであるという点を除いては「スポンサー」と同様です。商品、寄付、コラボした人に関する内容を含みます。</string>
     <string name="revanced_sb_segments_interaction">行動を促すメッセージ (チャンネル登録等)</string>
-    <string name="revanced_sb_segments_interaction_sum">動画の途中に挿入される高評価、チャンネル登録、フォローなどを促す短いリマインダーは、長いものや何か具体的なものは「セルフプロモーション」に分類するべきです。</string>
+    <string name="revanced_sb_segments_interaction_sum">動画の途中に挿入される高評価、チャンネル登録、フォローなどを促す短いリマインダーです。長いものや何か具体的なものは「セルフプロモーション」に分類するべきです。</string>
     <string name="revanced_sb_segments_highlight">ハイライト</string>
     <string name="revanced_sb_segments_highlight_sum">動画の中で多くの人々が見たい部分</string>
     <string name="revanced_sb_segments_intro">休憩 / イントロアニメーション</string>
     <string name="revanced_sb_segments_intro_sum">本編ではない部分。一時停止、静止画面、アニメーションの繰り返しが含まれます。情報を含んだ転換画面は含まれません。</string>
     <string name="revanced_sb_segments_outro">エンドカード / クレジット</string>
-    <string name="revanced_sb_segments_outro_sum">クレジットや動画のエンドカードが表示されている場面。情報を含む結論は含まれません。</string>
+    <string name="revanced_sb_segments_outro_sum">クレジットや動画のエンドカードが表示されている場面です。情報を含む結論は含まれません。</string>
     <string name="revanced_sb_segments_preview">予告 / 要約 / フック</string>
-    <string name="revanced_sb_segments_preview_sum">この動画やシリーズの他の動画で起きた、または今後起きる内容などをまとめたクリップのコレクション。すべての情報は、別の場所で繰り返し表示されます。</string>
+    <string name="revanced_sb_segments_preview_sum">この動画やシリーズの他の動画で起きた、または今後起きる内容などをまとめたクリップのコレクションです。すべての情報は、別の場所で繰り返し表示されます。</string>
     <string name="revanced_sb_segments_filler">繋ぎの話 / 冗談</string>
     <string name="revanced_sb_segments_filler_sum">動画の本編を理解するのに必要のない繋ぎの話やユーモアなどの逸脱したシーン。コンテクストや背景情報の詳細は含まれません。</string>
     <string name="revanced_sb_segments_nomusic">音楽ではない区間</string>
-    <string name="revanced_sb_segments_nomusic_sum">ミュージックビデオでのみ使用できます。他のカテゴリーに含まれていない、ミュージックビデオの音楽のない区間。</string>
+    <string name="revanced_sb_segments_nomusic_sum">ミュージックビデオでのみ使用できます。他のカテゴリーに含まれていない、ミュージックビデオの音楽のない区間です。</string>
     <string name="revanced_sb_skip_button_compact">スキップ</string>
     <string name="revanced_sb_skip_button_compact_highlight">ハイライト</string>
     <string name="revanced_sb_skip_button_sponsor">スポンサーをスキップ</string>
@@ -1683,29 +1680,17 @@ API キーの発行方法については、ここをタップしてください�
     <string name="revanced_spoof_streaming_data_user_dialog_message">この設定をオフにした場合、バッファリングの問題が発生する可能性があります。</string>
     <string name="revanced_spoof_streaming_data_type_title">偽装するクライアントの種類</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android">Android</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Android Creator</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">Android 埋め込みプレーヤー</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Android Testsuite</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_streaming_data_type_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
-    <string name="revanced_spoof_streaming_data_type_entry_web">Web</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">ストリーミングデータを偽装することによる副作用</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">"・映画や有料動画が再生できない場合があります。
 ・ライブは最初から再生されます。
 ・動画が 1 秒早く終了することがあります。
 ・Opus オーディオコーデックがサポートされない可能性があります。"</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_compatibility">"・動画が 1 秒早く終了する可能性があります。
-・Opus オーディオコーデックはサポートされていない可能性があります。"</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"・「音声トラック」メニューは表示されません。
 ・「一定音量」は使用できません。"</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"•「音声トラック」メニューは表示されません。
 •「一定音量」は使用できません。"</string>
-    <string name="revanced_spoof_streaming_data_side_effects_unknown">• 動画が再生できない可能性があります。</string>
-    <string name="revanced_spoof_streaming_data_ios_compatibility_title">iOS 互換モード</string>
-    <string name="revanced_spoof_streaming_data_ios_compatibility_summary_on">映画、有料動画、ライブを再生する時以外にのみ iOS クライアントに偽装します。</string>
-    <string name="revanced_spoof_streaming_data_ios_compatibility_summary_off">映画、有料動画、ライブを再生する時以外にのみ iOS クライアントに偽装します。</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">iOS クライアントで AVC (H.264) を強制</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">iOS クライアントで AVC コーデック (H.264) を強制します。</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">iOS クライアントで AVC コーデック (H.264) を強制します。</string>

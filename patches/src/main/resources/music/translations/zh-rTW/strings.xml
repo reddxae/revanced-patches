@@ -48,7 +48,7 @@
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">廣告</string>
     <string name="revanced_hide_fullscreen_ads_title">隱藏全螢幕廣告</string>
-    <string name="revanced_hide_fullscreen_ads_summary">隱藏全螢幕廣告</string>
+    <string name="revanced_hide_fullscreen_ads_summary">"隱藏全螢幕廣告"</string>
     <string name="revanced_hide_general_ads_title">隱藏一般廣告</string>
     <string name="revanced_hide_general_ads_summary">隱藏一般廣告</string>
     <string name="revanced_hide_music_ads_title">隱藏音樂廣告</string>

@@ -2,9 +2,9 @@
 <resources>
     <!-- Translations for YouTube -->
     <string name="accessibility_settings_edu_opt_in_text">是否啟用影片播放器的無障礙控制？</string>
-    <string name="accessibility_settings_edu_opt_out_text">由於已啟用無障礙服務，因此您的控制項被修改。</string>
+    <string name="accessibility_settings_edu_opt_out_text">由於已啟用無障礙服務，因此您的控制選項已被修改。</string>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced Extended</string>
+    <string name="revanced_extended_settings_title">ReVanced 擴充功能</string>
     <string name="revanced_extended_settings_search_title">搜尋設定</string>
     <string name="revanced_extended_reset_to_default_toast">重設為預設值。</string>
     <string name="revanced_preference_category_experimental_flag">實驗性功能</string>
@@ -94,7 +94,7 @@
     <string name="revanced_bypass_image_region_restrictions_summary_on">使用圖像主機 yt4.ggpht.com</string>
     <string name="revanced_bypass_image_region_restrictions_summary_off">使用原圖主機。\n\n啟用此功能可以修復某些區域被封鎖的遺失影像。</string>
     <!-- PreferenceScreen: Feed -->
-    <string name="revanced_preference_screen_feed_title">首頁</string>
+    <string name="revanced_preference_screen_feed_title">探索</string>
     <string name="revanced_hide_album_card_title">隱藏專輯卡片</string>
     <string name="revanced_hide_album_card_summary_on">專輯卡片已隱藏</string>
     <string name="revanced_hide_album_card_summary_off">專輯卡片已顯示</string>
@@ -106,8 +106,8 @@
 ・再次收聽
 ・購物
 ・再看一次"</string>
-    <string name="revanced_hide_chips_shelf_title">隱藏 Chips 影片欄</string>
-    <string name="revanced_hide_chips_shelf_on">Chips 影片欄已隱藏</string>
+    <string name="revanced_hide_chips_shelf_title">隱藏剪輯</string>
+    <string name="revanced_hide_chips_shelf_on">剪輯已隱藏</string>
     <string name="revanced_hide_chips_shelf_off">剪輯已顯示</string>
     <string name="revanced_hide_expandable_chip_title">隱藏影片下方的章節選擇欄</string>
     <string name="revanced_hide_expandable_chip_summary_on">影片下方的章節選擇欄已隱藏</string>
@@ -956,9 +956,6 @@
     <string name="revanced_overlay_button_whitelist_title">顯示白名單按鈕</string>
     <string name="revanced_overlay_button_whitelist_summary">點選可開啟白名單對話框。
  點選並按住可開啟白名單設定對話框。</string>
-    <string name="revanced_overlay_button_time_ordered_playlist_title">顯示按時間排序的播放清單按鈕</string>
-    <string name="revanced_overlay_button_time_ordered_playlist_summary">"點擊可產生頻道中從最舊到最新的所有影片的播放清單。
- 點選並按住可撤銷。"</string>
     <string name="revanced_whitelist_settings_title">頻道白名單</string>
     <string name="revanced_whitelist_settings_summary">查看或刪除已新增至白名單的頻道清單。</string>
     <string name="revanced_whitelist_added">頻道 %1$s 已加入 %2$s 白名單。</string>
@@ -1680,19 +1677,12 @@
     <string name="revanced_spoof_streaming_data_user_dialog_message">關閉此設定可能會導致影片播放問題。</string>
     <string name="revanced_spoof_streaming_data_type_title">預設客戶端</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android">安卓</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_creator">安卓創作者</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">Android 嵌入式播放器</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Android 測試套件</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android 電視</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_streaming_data_type_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
-    <string name="revanced_spoof_streaming_data_type_entry_web">Web</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">偽裝副作用</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">"• 電影或付費影片可能無法播放。"</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• 音軌選單遺失。"</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• 音軌選單遺失。"</string>
-    <string name="revanced_spoof_streaming_data_side_effects_unknown">• 影片可能無法播放。</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">強制 iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">iOS 影片編解碼器為 AVC (H.264)、VP9 或 AV1。</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">iOS 視訊編解碼器是 AVC (H.264)、VP9 或 AV1。</string>

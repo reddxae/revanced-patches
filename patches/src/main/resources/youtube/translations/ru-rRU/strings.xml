@@ -969,9 +969,26 @@ Shorts
     <string name="revanced_overlay_button_whitelist_title">Кнопка \"Белый список\"</string>
     <string name="revanced_overlay_button_whitelist_summary">Нажать - Открыть \"Белый список\".
 Нажать и удерживать - Открыть настройки \"Белый список\".</string>
-    <string name="revanced_overlay_button_time_ordered_playlist_title">Кнопка создания плейлиста канала</string>
-    <string name="revanced_overlay_button_time_ordered_playlist_summary">"Нажмите, чтобы создать плейлист всех видео канала.
-Нажмите и удерживайте, чтобы отменить действие."</string>
+    <string name="revanced_overlay_button_play_all_title">Кнопка воспроизвести все</string>
+    <string name="revanced_overlay_button_play_all_summary">"Коснитесь, чтобы создать список воспроизведения всех видео из канала.
+Коснитесь и удерживайте, для отмены.
+
+Инфо:
+• Может не работать в трансляциях."</string>
+    <string name="revanced_overlay_button_play_all_type_title">Сортировка создаваемого списка</string>
+    <string name="revanced_overlay_button_play_all_type_entry_1">Все (по времени)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_2">Все (по популярности)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_3">Только видео (по времени)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_4">Только видео (по популярности)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_5">Только Shorts (по времени)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_6">Только Shorts (по популярности)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_7">Только потоковое видео (по времени)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_8">Только потоковое видео (по популярности)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_9">Только содержимое всех участников</string>
+    <string name="revanced_overlay_button_play_all_type_entry_10">Только видео участников</string>
+    <string name="revanced_overlay_button_play_all_type_entry_11">Только Shorts участников</string>
+    <string name="revanced_overlay_button_play_all_type_entry_12">Только потоковые видео участников</string>
+    <string name="revanced_overlay_button_play_all_not_available_toast">Не удалось создать плейлист из-за несоответствия id канала.</string>
     <string name="revanced_whitelist_settings_title">\"Белый список\" канала</string>
     <string name="revanced_whitelist_settings_summary">Управление каналами в белом списке.</string>
     <string name="revanced_whitelist_added">Канал \'%1$s\' добавлен в белый список %2$s.</string>
@@ -1704,25 +1721,22 @@ Shorts
     <string name="revanced_spoof_streaming_data_user_dialog_message">Отключение этой настройки вызовет проблемы с воспроизведением видео.</string>
     <string name="revanced_spoof_streaming_data_type_title">Клиент по умолчанию</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android">Android</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Android Создатель</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">Встроенный Android плеер</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Android Тестовый набор</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_streaming_data_type_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
-    <string name="revanced_spoof_streaming_data_type_entry_web">Веб</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Эффекты от подмены</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">"• Фильмы или платные видео могут не проигрываться."</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_skip_livestream_playback">• Видео может закончиться 1 секунду ранее.</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• Меню \"Звуковая дорожка\" не доступно."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Меню \"Звуковая дорожка\" VR не доступно."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_unknown">• Видео может не воспроизводиться.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Принудительно подмена как iOS, AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Видео кодек подмены как iOS - AVC (H.264).</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">Видео кодек подмены как iOS - VP9 или AV1.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"Включение - может улучшить время работы батареи и исправить задержки воспроизведения.
 
 AVC (H.264) имеет максимальное разрешение 1080p, и будет использовать больше интернет данных, чем VP9 или AV1."</string>
+    <string name="revanced_spoof_streaming_data_ios_skip_livestream_playback_title">Пропустить трансляцию при подмене клиента как iOS</string>
+    <string name="revanced_spoof_streaming_data_ios_skip_livestream_playback_summary_on">Пропуск трансляции включен.</string>
+    <string name="revanced_spoof_streaming_data_ios_skip_livestream_playback_summary_off">Пропуск трансляции отключен.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Показывать в Статистике для сисадминов</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Клиент, используемый для получения данных потока, отображается в Статистике для сисадминов.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Клиент, используемый для получения данных потока, скрыт в Статистике для сисадминов.</string>

@@ -787,9 +787,6 @@ Oynatma hızını 1,0x'e sıfırlamak için dokunun ve basılı tutun. Varsayıl
     <string name="revanced_overlay_button_whitelist_title">Beyaz liste düğmesini göster</string>
     <string name="revanced_overlay_button_whitelist_summary">\"Beyaz liste iletişim kutusunu açmak için dokunun.
 Beyaz liste ayarı iletişim kutusunu açmak için dokunun ve basılı tutun.</string>
-    <string name="revanced_overlay_button_time_ordered_playlist_title">Zaman Sıralı Çalma Listesi Düğmesini göster</string>
-    <string name="revanced_overlay_button_time_ordered_playlist_summary">"Kanaldaki en eskiden en yeniye tüm videolardan oluşan bir oynatma listesi oluşturmak için dokunun.
-Geri almak için dokunun ve basılı tutun."</string>
     <string name="revanced_whitelist_settings_title">Kanal beyaz listesi</string>
     <string name="revanced_whitelist_settings_summary">Beyaz listeye eklenen kanalların listesini kontrol edin veya kaldırın.</string>
     <string name="revanced_whitelist_added">\'%1$s\' kanalı \'%2$s\' beyaz listesine eklendi.</string>

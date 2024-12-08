@@ -48,7 +48,7 @@
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Реклами</string>
     <string name="revanced_hide_fullscreen_ads_title">Скриване на рекламите в режим на цял екран</string>
-    <string name="revanced_hide_fullscreen_ads_summary">Скриване на рекламите в режим на цял екран.</string>
+    <string name="revanced_hide_fullscreen_ads_summary">"Скриване на рекламите в режим на цял екран."</string>
     <string name="revanced_hide_general_ads_title">Скриване на общите реклами</string>
     <string name="revanced_hide_general_ads_summary">Скриване на общите реклами.</string>
     <string name="revanced_hide_music_ads_title">Скриване на музикални реклами</string>

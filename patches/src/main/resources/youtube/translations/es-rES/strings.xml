@@ -957,9 +957,12 @@ Mantén pulsado para establecer la velocidad de reproducción en 1.0x."</string>
     <string name="revanced_overlay_button_whitelist_title">Mostrar botón de lista blanca</string>
     <string name="revanced_overlay_button_whitelist_summary">\"Toque para abrir el diálogo de la lista blanca.
 Toque y mantenga presionado para abrir el diálogo de configuración de la lista blanca.</string>
-    <string name="revanced_overlay_button_time_ordered_playlist_title">Mostrar botón de lista de reproducción ordenada</string>
-    <string name="revanced_overlay_button_time_ordered_playlist_summary">"Pulse para generar una lista de reproducción de todos los vídeos del canal desde el más antiguo hasta el más nuevo.
-Toca y mantén para deshacer."</string>
+    <string name="revanced_overlay_button_play_all_title">Mostrar botón de reproducir todo</string>
+    <string name="revanced_overlay_button_play_all_summary">"Toca para generar una lista de reproducción de todos los vídeos del canal.
+Toca y mantén para deshacer.
+
+Información:
+• Puede que no funcione en transmisiones."</string>
     <string name="revanced_whitelist_settings_title">Lista blanca de canales</string>
     <string name="revanced_whitelist_settings_summary">Verifique o elimine la lista de canales agregados a la lista blanca.</string>
     <string name="revanced_whitelist_added">El canal %1$s se agregó a la lista blanca %2$s.</string>
@@ -1680,21 +1683,14 @@ Pulsa el botón de continuar y desactiva las optimizaciones de la batería."</st
     <string name="revanced_spoof_streaming_data_user_dialog_message">Desactivar este ajuste puede causar problemas de reproducción de vídeo.</string>
     <string name="revanced_spoof_streaming_data_type_title">Cliente predeterminado</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android">Android</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Creador de Android</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">Reproductor integrado de Android</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Android Testsuite</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_streaming_data_type_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
-    <string name="revanced_spoof_streaming_data_type_entry_web">Web</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Efectos secundarios de falsificación</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">"• Las películas o vídeos de pago no pueden reproducirse."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• Falta el menú \"Pista de audio\".
 • \"Regular volumen\" no está disponible."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Falta el menú \"Pista de audio\".
 • \"Regular volumen\" no está disponible."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_unknown">• El vídeo no puede reproducirse.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Forzar iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">El códec de vídeo de iOS es AVC (H.264).</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">El códec de vídeo de iOS es AVC (H.264), VP9 o AV1.</string>

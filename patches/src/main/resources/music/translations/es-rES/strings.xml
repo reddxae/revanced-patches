@@ -49,7 +49,7 @@ Descarga %2$s desde el sitio web."</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Anuncios</string>
     <string name="revanced_hide_fullscreen_ads_title">Ocultar anuncios en pantalla completa</string>
-    <string name="revanced_hide_fullscreen_ads_summary">Oculta anuncios en pantalla completa.</string>
+    <string name="revanced_hide_fullscreen_ads_summary">"Oculta anuncios en pantalla completa."</string>
     <string name="revanced_hide_general_ads_title">Ocultar anuncios generales</string>
     <string name="revanced_hide_general_ads_summary">Oculta anuncios generales.</string>
     <string name="revanced_hide_music_ads_title">Ocultar anuncios de música</string>

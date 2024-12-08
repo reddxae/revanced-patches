@@ -6,6 +6,7 @@
     <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">Suche %s</string>
+    <string name="revanced_extended_reset_to_default_toast">Auf Standardwerte zurücksetzen.</string>
     <string name="revanced_preference_category_experimental_flag">Experimentelle Flags</string>
     <string name="revanced_extended_confirm_user_dialog_title">Möchtest Du fortfahren?</string>
     <string name="revanced_extended_restart_first_run">Neustarten um das Layout zu laden</string>
@@ -27,9 +28,15 @@ Bitte lade %2$s von der Webseite herunter."</string>
     <string name="revanced_hide_merchandise_shelf_title">Merchandise-Abschnitt verstecken</string>
     <string name="revanced_hide_merchandise_shelf_summary_on">Merchandise-Abschnitte sind versteckt.</string>
     <string name="revanced_hide_merchandise_shelf_summary_off">Merchandise-Abschnitte werden angezeigt.</string>
+    <string name="revanced_hide_player_store_shelf_title">Player Shopping-Banner ausblenden</string>
+    <string name="revanced_hide_player_store_shelf_summary_on">Shopping-Banner ist ausgeblendet.</string>
+    <string name="revanced_hide_player_store_shelf_summary_off">Shopping-Banner wird angezeigt.</string>
     <string name="revanced_hide_paid_promotion_label_title">Verstecke Label für bezahlte Promotion</string>
     <string name="revanced_hide_paid_promotion_label_summary_on">Label für bezahlte Promotion wird versteckt.</string>
     <string name="revanced_hide_paid_promotion_label_summary_off">Label für bezahlte Promotion wird angezeigt.</string>
+    <string name="revanced_hide_promotion_alert_banner_title">Werbe-Warnbanner ausblenden</string>
+    <string name="revanced_hide_promotion_alert_banner_summary_on">Werbe-Warnbanner ist ausgeblendet.</string>
+    <string name="revanced_hide_promotion_alert_banner_summary_off">Werbe-Warnbanner wird angezeigt.</string>
     <string name="revanced_hide_self_sponsor_cards_title">Verstecke selbstgesponserte Karten</string>
     <string name="revanced_hide_self_sponsor_cards_summary_on">Selbstgesponserte Karten sind versteckt.</string>
     <string name="revanced_hide_self_sponsor_cards_summary_off">Selbstgesponserte Karten werden angezeigt.</string>
@@ -54,6 +61,8 @@ Bitte lade %2$s von der Webseite herunter."</string>
     <string name="revanced_alt_thumbnail_search_title">Suchresultate</string>
     <string name="revanced_alt_thumbnail_options_entry_1">Originale Vorschaubilder</string>
     <string name="revanced_alt_thumbnail_options_entry_2">DeArrow &amp; originale Vorschaubilder</string>
+    <string name="revanced_alt_thumbnail_options_entry_3">DeArrow &amp; erfasst immer noch</string>
+    <string name="revanced_alt_thumbnail_options_entry_4">Erfasst immer noch</string>
     <string name="revanced_alt_thumbnail_dearrow_about_title">Über DeArrow</string>
     <string name="revanced_alt_thumbnail_dearrow_about_summary">"DeArrow stellt Crowdsourcing-Thumbnails für YouTube-Videos bereit. Diese Thumbnails sind oft relevanter als die von YouTube bereitgestellten.
 
@@ -65,6 +74,7 @@ Tippen Sie hier, um mehr über DeArrow zu erfahren."</string>
     <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_off">Keine Benachrichtigung wird angezeigt, wenn DeArrow nicht erreichbar ist.</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_title">DeArrow API Endpunkt</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_summary">Die URL des Endpunkts der DeArrow-Thumbnail-Cache. Ändern Sie dies nicht, wenn Sie nicht wissen, was Sie machen.</string>
+    <string name="revanced_alt_thumbnail_dearrow_api_url_invalid_toast">Ungültige DeArrow API URL.</string>
     <string name="revanced_alt_thumbnail_stills_about_title">Über Videoaufnahmen</string>
     <string name="revanced_alt_thumbnail_stills_about_summary">Aufnahmen werden von Anfang / Mitte / Ende jedes Videos aufgenommen. Diese Bilder sind in YouTube eingebaut und es wird keine externe API verwendet.</string>
     <string name="revanced_alt_thumbnail_stills_fast_title">Benutze schnelle Still-Aufnahmen</string>
@@ -108,6 +118,9 @@ Tippen Sie hier, um mehr über DeArrow zu erfahren."</string>
     <string name="revanced_hide_feed_survey_title">Feed-Umfragen verstecken</string>
     <string name="revanced_hide_feed_survey_summary_on">Feed-Umfragen sind versteckt</string>
     <string name="revanced_hide_feed_survey_summary_off">Feed-Umfragen werden angezeigt</string>
+    <string name="revanced_hide_floating_button_title">Schwebende Taste ausblenden</string>
+    <string name="revanced_hide_floating_button_summary_on">Schwebende Taste ist ausgeblendet.</string>
+    <string name="revanced_hide_floating_button_summary_off">Schwebende Taste wird angezeigt.</string>
     <string name="revanced_hide_image_shelf_title">Verstecke Bildregale</string>
     <string name="revanced_hide_image_shelf_summary_on">Bildregale sind versteckt</string>
     <string name="revanced_hide_image_shelf_summary_off">Bildregale werden angezeigt</string>
@@ -220,7 +233,12 @@ Einschränkungen:
 • Einige Shorts dürfen nicht ausgeblendet werden.
 • Einige UI-Komponenten können nicht ausgeblendet werden.
 • Die Suche nach einem Schlüsselwort kann keine Ergebnisse zeigen."</string>
+    <string name="revanced_hide_keyword_content_about_whole_words_title">Ganze Wörter zuordnen</string>
+    <string name="revanced_hide_keyword_content_about_whole_words_summary">Durch das Umschließen eines Keywords/Satzes mit doppelten Anführungszeichen wird verhindert, dass Teile von Videotitel und Kanalnamen betroffen sind.&lt;br&gt;&lt;br&gt;Zum Beispiel,&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; wird folgendes Video ausblenden: &lt;b&gt;Wie funktioniert AI?&lt;/b&gt;&lt;br&gt;aber es versteckt nicht: &lt;b&gt;Was bedeutet fair use?&lt;/b&gt;</string>
     <string name="revanced_hide_keyword_toast_invalid_common">Ungültiges Schlüsselwort. Kann \'%s\' nicht als Filter verwenden</string>
+    <string name="revanced_hide_keyword_toast_invalid_common_whole_word_required">Anführungszeichen hinzufügen, um Keyword zu verwenden: %s.</string>
+    <string name="revanced_hide_keyword_toast_invalid_conflicting">Keyword hat widersprüchliche Deklarationen: %s.</string>
+    <string name="revanced_hide_keyword_toast_invalid_length">Keyword ist zu kurz und erfordert Anführungszeichen: %s.</string>
     <string name="revanced_hide_keyword_toast_invalid_broad">Schlüsselwort \'%1$s\' wird alle Videos ausblenden.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Empfohlene Videos</string>
@@ -233,6 +251,15 @@ Einschränkungen:
     <string name="revanced_hide_low_views_video_summary">Verstecke Videos mit weniger als 1000 Aufrufen von nicht abonnierten Kanälen von der Startseite.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Zählerfilter anzeigen</string>
+    <string name="revanced_hide_video_by_view_counts_home_title">Videos auf der Startseite nach Aufrufen ausblenden</string>
+    <string name="revanced_hide_video_by_view_counts_home_summary_on">Videos auf der Startseite werden gefiltert.</string>
+    <string name="revanced_hide_video_by_view_counts_home_summary_off">Videos auf der Startseite werden nicht gefiltert.</string>
+    <string name="revanced_hide_video_by_view_counts_search_title">Suchergebnisse nach Aufrufen ausblenden</string>
+    <string name="revanced_hide_video_by_view_counts_search_summary_on">Suchergebnisse werden gefiltert.</string>
+    <string name="revanced_hide_video_by_view_counts_search_summary_off">Suchergebnisse werden nicht gefiltert.</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_title">Abovideos nach Aufrufen ausblenden</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_summary_on">Videos im Abofeed werden gefiltert.</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_summary_off">Videos im Abofeed werden nicht gefiltert.</string>
     <string name="revanced_hide_video_view_counts_greater_than_title">Größer als Ansichten</string>
     <string name="revanced_hide_video_view_counts_greater_than_summary">Videos mit Ansichten, die größer als diese Zahl sind, werden ausgeblendet.</string>
     <string name="revanced_hide_video_view_counts_less_than_title">Weniger als Anrufe</string>
@@ -240,6 +267,18 @@ Einschränkungen:
     <string name="revanced_hide_video_view_counts_multiplier_title">Schlüssel anzeigen</string>
     <string name="revanced_hide_video_view_counts_multiplier_summary">Geben Sie Ihre Sprachvorlage für die Anzahl der Aufrufe an, die unter jedem Video in der Benutzeroberfläche angezeigt werden. Jeder Schlüssel (ein Buchstaben/ein Wort in Ihrer Sprache) -&gt; Wert (Bedeutung des Schlüssels) muss auf einer neuen Zeile liegen. Schlüssel gehen vor dem \"-&gt;\" Zeichen. Wenn Sie die App oder die Systemsprache ändern, müssen Sie diese Einstellung zurücksetzen.\n\nBeispiele:\nDeutsch: 10K views = K -&gt; 1000, views -&gt; views\nSpanisch: 10 K vistas = K -&gt; 1000, vistas -&gt; views</string>
     <string name="revanced_hide_video_view_counts_multiplier_default_value">K -&gt; 1 000\nM -&gt; 1 000 000\nB -&gt; 1 000 000 000\nviews -&gt; Aufrufe</string>
+    <string name="revanced_hide_video_by_view_counts_about_title">Über Aufrufzahl-Filterung</string>
+    <string name="revanced_hide_video_by_view_counts_about_summary">"Home / Abonnement / Suchergebnisse werden gefiltert, um Videos mit Aufrufen zu verstecken, die kleiner oder größer als eine angegebene Zahl sind.
+
+Beschränkungen: 
+• Shorts können nicht ausgeblendet werden.
+• Videos mit 0 Ansichten werden nicht gefiltert."</string>
+    <string name="revanced_hide_related_videos_title">Ähnliche Videos ausblenden</string>
+    <string name="revanced_hide_related_videos_summary_on">Ähnliche Videos sind ausgeblendet.</string>
+    <string name="revanced_hide_related_videos_summary_off">Ähnliche Videos werden angezeigt.</string>
+    <string name="revanced_hide_related_videos_user_dialog_message">"Diese Einstellung begrenzt die maximale Anzahl von Layouts, die auf dem Wiedergabebildschirm geladen werden können.
+
+Wenn sich das Layout des Wiedergabebildschirms aufgrund serverseitiger Änderungen ändert, können unbeabsichtigte Layouts auf dem Wiedergabebildschirm ausgeblendet werden."</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Allgemein</string>
     <string name="revanced_change_start_page_title">Startseite ändern</string>
@@ -259,6 +298,11 @@ Einschränkungen:
     <string name="revanced_change_start_page_entry_subscriptions">Abonnements</string>
     <string name="revanced_change_start_page_entry_trending">Beliebt</string>
     <string name="revanced_change_start_page_entry_watch_later">Später ansehen</string>
+    <string name="revanced_change_start_page_type_title">Startseitentyp ändern</string>
+    <string name="revanced_change_start_page_type_summary_on">"Startseite ändert sich immer.
+
+Einschränkung: Zurück-Taste in der Symbolleiste funktioniert möglicherweise nicht."</string>
+    <string name="revanced_change_start_page_type_summary_off">Startseite ändert sich nur einmal.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Erzwungene automatische Audiospuren sind deaktivieren</string>
     <string name="revanced_disable_auto_audio_tracks_summary_on">Erzwungene automatische Audiospuren sind deaktiviert.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Erzwungene automatische Audiospuren sind aktiviert.</string>
@@ -283,6 +327,12 @@ Einschränkungen:
     <string name="revanced_remove_viewer_discretion_dialog_title">Diskretion des Betrachters entfernen</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Entfernt den Diskretionsdialog des Betrachters.
 Dies umgeht nicht die Altersbeschränkung. Es akzeptiert ihn nur automatisch."</string>
+    <string name="revanced_change_layout_title">Layout ändern</string>
+    <string name="revanced_change_layout_entry_1">Original</string>
+    <string name="revanced_change_layout_entry_2">Telefon</string>
+    <string name="revanced_change_layout_entry_3">Telefon (max. 480 dp)</string>
+    <string name="revanced_change_layout_entry_4">Tablet</string>
+    <string name="revanced_change_layout_entry_5">Tablet (min. 600 dp)</string>
     <string name="revanced_spoof_app_version_title">Spoof App Version</string>
     <string name="revanced_spoof_app_version_summary_on">Version gefälscht</string>
     <string name="revanced_spoof_app_version_summary_off">Version nicht gefälscht</string>
@@ -322,6 +372,8 @@ Manche Komponenten könnten nicht versteckt werden."</string>
     <string name="revanced_custom_filter_strings_summary">Komponenten nach zeilengetrennten Namen filtern</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">%s ist ein ungültiger benutzerdefinierter Filter.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons -->
+    <string name="revanced_preference_screen_hook_buttons_title">Hook Buttons</string>
+    <string name="revanced_preference_screen_hook_buttons_summary">Überschreibt die Klick-Aktion von In-App-Tasten.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Download button -->
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental Flags -->
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
@@ -387,6 +439,9 @@ Manche Komponenten könnten nicht versteckt werden."</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">Einstellungsmenü</string>
     <string name="revanced_preference_screen_settings_menu_summary">Elemente im YouTube-Einstellungsmenü verstecken</string>
+    <string name="revanced_hide_settings_menu_pair_with_tv_summary_off">\"Im TV anschauen\"-Menü wird angezeigt.</string>
+    <string name="revanced_hide_settings_menu_privacy_title"></string>
+    <string name="revanced_hide_settings_menu_privacy_summary_off">Privatsphäre-Menü wird angezeigt.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Werkzeugleiste</string>
     <string name="revanced_preference_screen_toolbar_summary">Verstecke oder ändere Toolbar-Komponenten, wie die Suchleiste, Buttons und Header.</string>
@@ -726,9 +781,6 @@ Tippen und halten um die Wiedergabegeschwindigkeit auf 1.0x zurückzusetzen. Hal
     <string name="revanced_overlay_button_whitelist_title">Zeige Whitelist-Button</string>
     <string name="revanced_overlay_button_whitelist_summary">\"Tippen, um den Whitelist-Dialog zu öffnen.
 Tippen und halten Sie, um den Einstellungsdialog für die Whitelist anzuzeigen.</string>
-    <string name="revanced_overlay_button_time_ordered_playlist_title">Zeitgeordnete Wiedergabelistenschaltfläche anzeigen</string>
-    <string name="revanced_overlay_button_time_ordered_playlist_summary">"Tippen, um eine Playlist aller Videos vom Kanal von ältestem bis neuestem zu erstellen.
-Tippen und gedrückt halten, um rückgängig zu machen."</string>
     <string name="revanced_whitelist_settings_title">Kanal Whitelist</string>
     <string name="revanced_whitelist_settings_summary">Überprüfen oder die Liste der Kanäle entfernen, die zur Whitelist hinzugefügt wurden.</string>
     <string name="revanced_whitelist_added">Der Kanal \'%1$s\' wurde auf die Whitelist für %2$s gesetzt.</string>

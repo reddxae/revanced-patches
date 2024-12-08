@@ -957,9 +957,26 @@
     <string name="revanced_overlay_button_whitelist_title">Показувати кнопку Білого списку</string>
     <string name="revanced_overlay_button_whitelist_summary">Натисніть, щоб відкрити діалог білого списку.
 Натисніть і утримуйте, щоб відкрити діалог налаштування білого списку.</string>
-    <string name="revanced_overlay_button_time_ordered_playlist_title">Показувати кнопку впорядкованого за часом списку відтворення</string>
-    <string name="revanced_overlay_button_time_ordered_playlist_summary">"Натисніть, щоб згенерувати список відтворення з усіх відео з каналу від найстарішого до найновішого.
-Натисніть і утримуйте, щоб скасувати."</string>
+    <string name="revanced_overlay_button_play_all_title">Показувати кнопку Відтворити все</string>
+    <string name="revanced_overlay_button_play_all_summary">"Натисніть, щоб згенерувати список відтворення з усіх відео з каналу.
+Натисніть і отримуйте, щоб відмінити.
+
+Інформація:
+• Може не працювати на прямих трансляціях."</string>
+    <string name="revanced_overlay_button_play_all_type_title">Режим генерування списку відтворення</string>
+    <string name="revanced_overlay_button_play_all_type_entry_1">Весь контент (Сортування за часом)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_2">Весь контент (Сортування за популярністю)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_3">Лише відео (Сортування за часом)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_4">Лише відео (Сортування за популярністю)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_5">Лише YouTube Shorts (Сортування за часом)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_6">Лише YouTube Shorts (Сортування за популярністю)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_7">Лише відео Наживо (Сортування за часом)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_8">Лише відео Наживо (Сортування за популярністю)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_9">Контент тільки всіх спонсорів</string>
+    <string name="revanced_overlay_button_play_all_type_entry_10">Відео тільки спонсорів</string>
+    <string name="revanced_overlay_button_play_all_type_entry_11">YouTube Shots тільки спонсорів</string>
+    <string name="revanced_overlay_button_play_all_type_entry_12">Прямі трансляції тільки спонсорів</string>
+    <string name="revanced_overlay_button_play_all_not_available_toast">Не вдалося згенерувати список відтворення через невідповідність ідентифікатора каналу.</string>
     <string name="revanced_whitelist_settings_title">Білий список каналів</string>
     <string name="revanced_whitelist_settings_summary">Перевірити чи вилучити список каналів, доданих до білого списку.</string>
     <string name="revanced_whitelist_added">Канал \'%1$s\' додано до білого списку %2$s.</string>
@@ -1677,30 +1694,25 @@
     <string name="revanced_spoof_streaming_data_user_dialog_message">Вимикання цього налаштування може призвести до проблем відтворення відео.</string>
     <string name="revanced_spoof_streaming_data_type_title">Основний клієнт</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android">Android</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Розробник Android</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">Вбудований плеєр Android</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Тестовий Android</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_streaming_data_type_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
-    <string name="revanced_spoof_streaming_data_type_entry_web">Web</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Побічні ефекти імітування</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">"• Фільми чи платні відео можуть не відтворюватися.
-• Прямі трансляції починаються з початку.
-• Відео можуть закінчуватися на 1 секунду раніше.
-• Немає аудіокодека opus."</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">"• Прямі трансляції починаються з початку.
+• Відео можуть закінчуватися на 1 секунду раніше."</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_skip_livestream_playback">• Відео можуть закінчуватися на 1 секунду раніше.</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• Меню звукової доріжки відсутнє.
 • Стабілізація гучності недоступна."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Меню звукової доріжки відсутнє.
 • Стабілізація гучності недоступна."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_unknown">• Відео може не відтворюватися.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Примусово AVC (H.264) iOS</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">AVC (H.264) кодек відео iOS.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">AVC (H.264), VP9, чи AV1 кодек відео iOS.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"Увімкнення може зменшити споживання акумулятора та усунути затинання при відтворенні.
 
 AVC (H.264) має максимальну роздільну здатність 1080p, а для відтворення відео використовується більше інтернет-даних, ніж VP9 або AV1."</string>
+    <string name="revanced_spoof_streaming_data_ios_skip_livestream_playback_title">Пропускати відтворення прямих трансляцій iOS</string>
+    <string name="revanced_spoof_streaming_data_ios_skip_livestream_playback_summary_on">Клієнт iOS не використовується для відтворення прямих трансляцій.</string>
+    <string name="revanced_spoof_streaming_data_ios_skip_livestream_playback_summary_off">Клієнт iOS використовується для відтворення прямих трансляцій.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Показувати в Статистика для сисадмінів</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Клієнт, що використовується для отримання даних трансляції показується у Статистика для сисадмінів.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Клієнт, що використовується для отримання даних трансляції приховано у Статистика для сисадмінів.</string>

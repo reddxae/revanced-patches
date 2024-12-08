@@ -2,6 +2,7 @@
 <resources>
     <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
+    <string name="revanced_extended_reset_to_default_toast">Visszaállítás az alapértelmezett értékekre.</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">Indítsd újra az elrendezés normál betöltéséhez</string>
     <string name="revanced_extended_restart_message">Frissítés és újraindítás</string>
@@ -48,7 +49,7 @@ Töltsd le a(z) %2$s weboldalról."</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Hirdetések</string>
     <string name="revanced_hide_fullscreen_ads_title">Teljes képernyős hirdetések elrejtése</string>
-    <string name="revanced_hide_fullscreen_ads_summary">Teljes képernyős hirdetések elrejtése.</string>
+    <string name="revanced_hide_fullscreen_ads_summary">"Teljes képernyős hirdetések elrejtése."</string>
     <string name="revanced_hide_general_ads_title">Általános hirdetések elrejtése</string>
     <string name="revanced_hide_general_ads_summary">Elrejti az általános hirdetéseket.</string>
     <string name="revanced_hide_music_ads_title">Zenei hirdetések elrejtése</string>
@@ -234,14 +235,23 @@ Ez nem kerüli meg a korhatárkorlátozást. Csak automatikusan elfogadja azt."<
     <string name="revanced_restore_old_player_layout_summary">"Visszaállítja a lejátszó elrendezését a régi stílusra.
 Előfordulhat, hogy egyes funkciók nem működnek megfelelően a régi lejátszó elrendezésben."</string>
     <!-- PreferenceScreen: Settings menu -->
+    <string name="revanced_preference_screen_settings_title">Beállítások menü</string>
+    <string name="revanced_hide_settings_menu_parent_tools_title">Családi központ menü elrejtése</string>
+    <string name="revanced_hide_settings_menu_general_title">Általános menü elrejtése</string>
+    <string name="revanced_hide_settings_menu_playback_title">Következő lejátszása menü elrejtése</string>
+    <string name="revanced_hide_settings_menu_data_saving_title">Adatmegtakarító menü elejtése</string>
+    <string name="revanced_hide_settings_menu_notification_title">Értesítések menü elrejtése</string>
+    <string name="revanced_hide_settings_menu_about_title">Névjegy menü elrejtése</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Videó</string>
     <string name="revanced_custom_playback_speeds_title">Egyéni lejátszási sebességek szerkesztése</string>
     <string name="revanced_custom_playback_speeds_summary">Az elérhető lejátszási sebességek módosítása vagy hozzáadása.</string>
     <string name="revanced_remember_playback_speed_last_selected_title">Lejátszási sebesség módosításainak megjegyzése</string>
     <string name="revanced_remember_playback_speed_last_selected_summary">Megjegyzi az utoljára kiválasztott lejátszási sebességet.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">Mutass egy felugró értesítést</string>
     <string name="revanced_remember_video_quality_last_selected_title">Videó minőség megjegyzése</string>
     <string name="revanced_remember_video_quality_last_selected_summary">Megjegyezi a legutolsó videó minőséget, amit kiválasztottál.</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_title">Mutass egy felugró értesítést</string>
     <string name="revanced_custom_playback_speeds_invalid">Az egyéni sebességnek kisebbnek kell lennie, mint %sx. Alapértelmezett értékek használata.</string>
     <string name="revanced_custom_playback_speeds_parse_exception">Érvénytelen egyedi lejátszási sebesség. Használd az alap értékeket.</string>
     <string name="revanced_remember_playback_speed_toast">Megváltoztatva az alap sebességet %s-re.</string>
@@ -265,7 +275,14 @@ Előfordulhat, hogy egyes funkciók nem működnek megfelelően a régi lejátsz
     <string name="revanced_ryd_failure_connection_status_code">A nem tetszik funkció nem elérhető (állapot: %d).</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">Nem tetszések nem érhetőek el (kliens API limit elérve).</string>
     <string name="revanced_ryd_failure_generic">A nem tetszik funkció nem elérhető (%s).</string>
+    <string name="revanced_ryd_video_likes_hidden_by_video_owner">Rejtett</string>
     <!-- PreferenceScreen: Return YouTube Username -->
+    <string name="revanced_return_youtube_username_display_format_username_only">Felhasználónév</string>
+    <string name="revanced_return_youtube_username_display_format_username_handle">Felhasználónév (@kezelő)</string>
+    <string name="revanced_return_youtube_username_display_format_handle_username">\@kezelő (felhasználónév)</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_title">YouTube adat API kulcs</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_summary">A fejlesztői kulcs a YouTube Data API v3 használatához.</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_about_title">A YouTube Data API-kulcsról</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">Szponzor Blokk</string>
     <string name="revanced_sb_enabled">SzponsorBlokk engedélyezése</string>

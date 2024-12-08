@@ -547,7 +547,7 @@ Playlists
     <string name="revanced_enable_wide_search_bar_title">Ευρεία γραμμή αναζήτησης</string>
     <string name="revanced_enable_wide_search_bar_summary_on">Η ευρεία γραμμή αναζήτησης είναι ενεργοποιημένη.</string>
     <string name="revanced_enable_wide_search_bar_summary_off">Η ευρεία γραμμή αναζήτησης είναι απενεργοποιημένη.</string>
-    <string name="revanced_enable_wide_search_bar_with_header_title">Συμπερίληψη της επικεφαλίδας</string>
+    <string name="revanced_enable_wide_search_bar_with_header_title">Ευρεία γραμμή αναζήτησης με επικεφαλίδα</string>
     <string name="revanced_enable_wide_search_bar_with_header_summary_on">Η ευρεία γραμμή αναζήτησης περιλαμβάνει την επικεφαλίδα του YouTube.</string>
     <string name="revanced_enable_wide_search_bar_with_header_summary_off">Η ευρεία γραμμή αναζήτησης δεν περιλαμβάνει την επικεφαλίδα του YouTube.</string>
     <string name="revanced_enable_wide_search_bar_in_you_tab_title">Ευρεία γραμμή αναζήτησης στο «Εσείς»</string>
@@ -967,10 +967,27 @@ Playlists
     <string name="revanced_overlay_button_whitelist_summary">Κουμπί λίστας επιτρεπόμενων.
 Πατήστε για να ανοίξετε το παράθυρο λίστας επιτρεπόμενων.
 Πατήστε παρατεταμένα για να ανοίξετε το παράθυρο ρυθμίσεων λίστας επιτρεπόμενων.</string>
-    <string name="revanced_overlay_button_time_ordered_playlist_title">Χρονικά-διατεταγμένη λίστα αναπαραγωγής</string>
-    <string name="revanced_overlay_button_time_ordered_playlist_summary">"Κουμπί δημιουργίας χρονικά-διατεταγμένης λίστας αναπαραγωγής.
-Πατήστε για να δημιουργήσετε μια λίστα αναπαραγωγής όλων των βίντεο του καναλιού από το παλαιότερο στο νεότερο.
-Πατήστε παρατεταμένα για αναίρεση."</string>
+    <string name="revanced_overlay_button_play_all_title">Αναπαραγωγή όλων</string>
+    <string name="revanced_overlay_button_play_all_summary">"Κουμπί αναπαραγωγής όλων των βίντεο του καναλιού.
+Πατήστε για να δημιουργήσετε μια λίστα αναπαραγωγής με όλα τα βίντεο από το κανάλι.
+Πατήστε παρατεταμένα για αναίρεση.
+
+Πληροφορίες:
+• Ενδέχεται να μη λειτουργεί σε ζωντανές μεταδόσεις."</string>
+    <string name="revanced_overlay_button_play_all_type_title">Ταξινόμηση λίστας αναπαραγωγής</string>
+    <string name="revanced_overlay_button_play_all_type_entry_1">Όλο το περιεχόμενο (Ταξινόμηση κατά χρονο)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_2">Όλο το περιεχόμενο (Ταξινόμηση κατά δημοφιλία)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_3">Βίντεο μόνο (Ταξινόμηση κατά χρόνο)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_4">Βίντεο μόνο (Ταξινόμηση κατά δημοφιλία)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_5">Shorts μόνο (Ταξινόμηση κατά χρόνο)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_6">Shorts μόνο (Ταξινόμηση κατά δημοφιλία)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_7">Βίντεο ζωντανής μετάδοσης μόνο (Ταξινόμηση κατά χρόνο)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_8">Βίντεο ζωντανής μετάδοσης μόνο (Ταξινόμηση κατά δημοφιλία)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_9">Περιεχόμενο μόνο για μέλη</string>
+    <string name="revanced_overlay_button_play_all_type_entry_10">Βίντεο μόνο για μέλη</string>
+    <string name="revanced_overlay_button_play_all_type_entry_11">Shorts μόνο για μέλη</string>
+    <string name="revanced_overlay_button_play_all_type_entry_12">Βίντεο ζωντανής μετάδοσης μόνο για μέλη</string>
+    <string name="revanced_overlay_button_play_all_not_available_toast">Δεν είναι δυνατή η δημιουργία λίστας αναπαραγωγής λόγω αναντιστοιχίας id καναλιού.</string>
     <string name="revanced_whitelist_settings_title">Λίστα επιτρεπόμενων καναλιών</string>
     <string name="revanced_whitelist_settings_summary">Ελέγξτε ή καταργήστε την λίστα των καναλιών που έχουν προστεθεί στη λίστα επιτρεπόμενων.</string>
     <string name="revanced_whitelist_added">Το κανάλι \'%1$s\' προστέθηκε στη λίστα επιτρεπόμενων %2$s.</string>
@@ -1709,35 +1726,26 @@ Playlists
     <string name="revanced_spoof_streaming_data_user_dialog_message">Η απενεργοποίηση αυτής της ρύθμισης ενδέχεται να προκαλέσει προβλήματα αναπαραγωγής βίντεο.</string>
     <string name="revanced_spoof_streaming_data_type_title">Προεπιλογή</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android">Android</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Android Creator</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">Ενσωματωμένο πρόγραμμα αναπαραγωγής Android</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Android Testsuite</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_streaming_data_type_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
-    <string name="revanced_spoof_streaming_data_type_entry_web">Ιστός (Web)</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Παρενέργειες παραποίησης</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">"• Οι ταινίες ή τα επί πληρωμή βίντεο ενδέχεται να μην αναπαράγονται.
 • Οι ζωντανές μεταδόσεις ξεκινούν από την αρχή κατά την αναπαραγωγή.
-• Τα βίντεο μπορεί να τελειώνουν 1 δευτερόλεπτο νωρίτερα.
-• Ο κωδικοποιητής ήχου opus ενδέχεται να μην υποστηρίζεται."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_compatibility">"• Τα βίντεο μπορεί να τελειώνουν 1 δευτερόλεπτο νωρίτερα.
-• Ο κωδικοποιητής ήχου Opus ενδέχεται να μην υποστηρίζεται."</string>
+• Τα βίντεο μπορεί να τελειώνουν 1 δευτερόλεπτο νωρίτερα."</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_skip_livestream_playback">• Τα βίντεο μπορεί να τελειώνουν 1 δευτερόλεπτο νωρίτερα.</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• Το μενού «Κομμάτι ήχου» λείπει.
 • Η λειτουργία «Σταθερή ένταση» δεν είναι διαθέσιμη."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Το μενού «Κομμάτι ήχου» λείπει.
 • Η λειτουργία «Σταθερή ένταση» δεν είναι διαθέσιμη."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_unknown">• Τα βίντεο ενδέχεται να μην αναπαράγονται.</string>
-    <string name="revanced_spoof_streaming_data_ios_compatibility_title">Λειτουργία συμβατότητας iOS</string>
-    <string name="revanced_spoof_streaming_data_ios_compatibility_summary_on">Το πρόγραμμα πελάτη παραποιείται ως iOS μόνο όταν αν το βίντεο δεν πρόκειται για ταινία, βίντεο επί πληρωμή ή ζωντανή μετάδοση.</string>
-    <string name="revanced_spoof_streaming_data_ios_compatibility_summary_off">Το πρόγραμμα πελάτη παραποιείται πάντα ως iOS.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Εξαναγκασμός iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Ο κωδικοποιητής βίντεο iOS είναι ο AVC (H.264).</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">Ο κωδικοποιητής βίντεο iOS είναι ο AVC (H.264), ο VP9 ή ο AV1.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"Ενεργοποιώντας αυτόν τον κωδικοποιητή ίσως βελτιωθεί η κατανάλωση ενέργειας και ίσως διορθωθούν μικροκολλήματα αναπαραγωγής.
 
 Ο AVC (H.264) ωστόσο έχει μέγιστη ανάλυση 1080p, και η αναπαραγωγή βίντεο καταναλώνει περισσότερα δεδομένα internet από τον VP9 ή τον AV1."</string>
+    <string name="revanced_spoof_streaming_data_ios_skip_livestream_playback_title">Παράλειψη αναπαραγωγής ζωντανών μεταδόσεων με iOS</string>
+    <string name="revanced_spoof_streaming_data_ios_skip_livestream_playback_summary_on">Το πρόγραμμα πελάτη iOS δεν χρησιμοποιείται για την αναπαραγωγή ζωντανών μεταδόσεων.</string>
+    <string name="revanced_spoof_streaming_data_ios_skip_livestream_playback_summary_off">Το πρόγραμμα πελάτη iOS χρησιμοποιείται για την αναπαραγωγή ζωντανών μεταδόσεων.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Εμφάνιση στο «Στατιστικά για σπασίκλες»</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Το πρόγραμμα πελάτη που χρησιμοποιείται για τη λήψη δεδομένων ροής εμφανίζεται στο μενού «Στατιστικά για σπασίκλες».</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Το πρόγραμμα πελάτη που χρησιμοποιείται για τη λήψη δεδομένων ροής δεν εμφανίζεται στο μενού «Στατιστικά για σπασίκλες».</string>

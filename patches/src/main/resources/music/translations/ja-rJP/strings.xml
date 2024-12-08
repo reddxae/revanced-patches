@@ -2,6 +2,7 @@
 <resources>
     <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
+    <string name="revanced_extended_reset_to_default_toast">デフォルト値にリセット。</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">再起動してレイアウトを正常に読み込みます</string>
     <string name="revanced_extended_restart_message">再起動して更新</string>
@@ -48,7 +49,7 @@
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">広告</string>
     <string name="revanced_hide_fullscreen_ads_title">全画面広告を非表示</string>
-    <string name="revanced_hide_fullscreen_ads_summary">全画面広告を非表示にします。</string>
+    <string name="revanced_hide_fullscreen_ads_summary">"全画面広告を非表示にします。"</string>
     <string name="revanced_hide_general_ads_title">一般広告を非表示</string>
     <string name="revanced_hide_general_ads_summary">一般広告を非表示にします。</string>
     <string name="revanced_hide_music_ads_title">音楽の広告を非表示</string>
@@ -244,6 +245,8 @@
     <string name="revanced_hide_settings_menu_notification_title">「通知」を非表示</string>
     <string name="revanced_hide_settings_menu_privacy_and_location_title">「プライバシーとデータ」を非表示</string>
     <string name="revanced_hide_settings_menu_recommendations_title">「おすすめ」を非表示</string>
+    <string name="revanced_hide_settings_menu_paid_memberships_title">「Music Premium の購入」を非表示</string>
+    <string name="revanced_hide_settings_menu_about_title">「YouTube Music について」を非表示</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">動画</string>
     <string name="revanced_custom_playback_speeds_title">カスタム再生速度の編集</string>
@@ -270,6 +273,8 @@
     <string name="revanced_ryd_dislike_percentage_summary">低評価はパーセンテージで表示されます。</string>
     <string name="revanced_ryd_compact_layout_title">コンパクトな高評価ボタン</string>
     <string name="revanced_ryd_compact_layout_summary">高評価ボタンの区切りを非表示にします。</string>
+    <string name="revanced_ryd_estimated_like_title">推定の高評価数を表示</string>
+    <string name="revanced_ryd_estimated_like_summary">動画の推定高評価数を表示します。</string>
     <string name="revanced_ryd_toast_on_connection_error_title">API が利用できない場合にメッセージを表示</string>
     <string name="revanced_ryd_toast_on_connection_error_summary">RYDが利用できない場合、メッセージが表示されます。</string>
     <string name="revanced_ryd_about">Return YouTube Dislike について</string>
@@ -279,13 +284,26 @@
     <string name="revanced_ryd_failure_connection_status_code">低評価数は一時的に利用できません。(ステータス %d)</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">低評価数は利用できません (クライアント API 制限)</string>
     <string name="revanced_ryd_failure_generic">低評価数は一時的に利用できません。(%s)</string>
+    <string name="revanced_ryd_video_likes_hidden_by_video_owner">非表示</string>
     <!-- PreferenceScreen: Return YouTube Username -->
     <string name="revanced_preference_screen_return_youtube_username_title">Return YouTube Username</string>
     <string name="revanced_return_youtube_username_enabled_title">Return YouTube Username を有効化</string>
+    <string name="revanced_return_youtube_username_enabled_summary">コメント中のハンドルネームをユーザー名に置き換えます。</string>
+    <string name="revanced_return_youtube_username_display_format_title">表示形式</string>
+    <string name="revanced_return_youtube_username_display_format_summary">ユーザーネームの表示形式を選択します。</string>
     <string name="revanced_return_youtube_username_display_format_username_only">ユーザーネーム</string>
+    <string name="revanced_return_youtube_username_display_format_username_handle">ユーザーネーム (@ハンドルネーム)</string>
+    <string name="revanced_return_youtube_username_display_format_handle_username">\@ハンドルネーム(ユーザーネーム)</string>
     <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_title">YouTube Data API キー</string>
     <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_summary">YouTube Data API v3 を使用するための開発者キー。</string>
     <string name="revanced_return_youtube_username_youtube_data_api_v3_about_title">YouTube Data API キーについて</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_about_summary">"ハンドルネームをユーザーネームに置き換えるには、YouTube Data API v3 の開発者キーが必要です。
+
+無料プランの API キーの1日の割り当ては 10,000 で、コメント1件につき1つの割り当てが使用されます。
+
+API キーの発行方法については、ここをタップしてください。"</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_title">YouTube Data API v3 開発者キーの発行</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_message">1. 「&lt;a href=%1$s&gt;新しいプロジェクトの作成&lt;/a&gt;」に移動します。&lt;br&gt;2. 「&lt;b&gt;作成&lt;/b&gt;」をタップします。&lt;br&gt;3. 「&lt;a href=%2$s&gt;YouTube Data API v3&lt;/a&gt;」に移動します。&lt;br&gt;4. 「&lt;b&gt;有効にする&lt;/b&gt;」をタップします。&lt;br&gt;5. 「&lt;b&gt;認証情報を作成&lt;/b&gt;」をタップします。&lt;br&gt;6. 「&lt;b&gt;一般公開データ&lt;/b&gt;」オプションを選択します。&lt;br&gt;7. 「&lt;b&gt;次へ&lt;/b&gt;」をタップします。&lt;br&gt;8.  API キーをコピーします。&lt;br&gt;&lt;br&gt;※API キーは他人と共有してはならないため、インポート/エクスポート設定には含まれません。</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enabled">Sponsor Block を有効化</string>
@@ -368,6 +386,8 @@
     <string name="gms_core_dialog_continue_text">続行</string>
     <string name="revanced_sanitize_sharing_links_title">共有リンクのクリーンアップ</string>
     <string name="revanced_sanitize_sharing_links_summary">リンクを共有する際に、URL からトラッキングクエリパラメーターを削除します。</string>
+    <string name="revanced_default_app_settings_title">「デフォルトで開く」の設定</string>
+    <string name="revanced_default_app_settings_summary">RVX Music でYouTube Music のURLを開くには、「対応リンクを開く」を有効にし、サポートされているURLを有効にします。</string>
     <string name="revanced_extended_settings_import_export_title">設定のインポート/エクスポート</string>
     <string name="revanced_extended_settings_import_export_summary">設定をテキストとしてインポート/エクスポートします。</string>
     <string name="revanced_extended_settings_export_as_file">設定をファイルにエクスポート</string>

@@ -114,6 +114,7 @@ See the [documentation](https://github.com/inotia00/revanced-documentation#readm
 | `Settings for YouTube Music` | Applies mandatory patches to implement ReVanced Extended settings into the application. | 6.20.51 ~ 7.16.53 |
 | `SponsorBlock` | Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as non-music sections. | 6.20.51 ~ 7.16.53 |
 | `Spoof app version` | Adds options to spoof the YouTube Music client version. This can remove the radio mode restriction in Canadian regions or disable real-time lyrics. | 6.20.51 ~ 7.16.53 |
+| `Spoof client` | Adds options to spoof the client to allow track playback. | 6.20.51 ~ 7.16.53 |
 | `Translations for YouTube Music` | Add translations or remove string resources. | 6.20.51 ~ 7.16.53 |
 | `Video playback` | Adds options to customize settings related to video playback, such as default video quality and playback speed. | 6.20.51 ~ 7.16.53 |
 | `Visual preferences icons for YouTube Music` | Adds icons to specific preferences in the settings. | 6.20.51 ~ 7.16.53 |

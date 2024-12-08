@@ -12,14 +12,14 @@ import app.revanced.extension.youtube.settings.Settings;
 
 @SuppressWarnings("unused")
 public final class ShortsButtonFilter extends Filter {
-    private final static String REEL_CHANNEL_BAR_PATH = "reel_channel_bar.eml";
-    private final static String REEL_LIVE_HEADER_PATH = "immersive_live_header.eml";
+    private static final String REEL_CHANNEL_BAR_PATH = "reel_channel_bar.eml";
+    private static final String REEL_LIVE_HEADER_PATH = "immersive_live_header.eml";
     /**
      * For paid promotion label and subscribe button that appears in the channel bar.
      */
-    private final static String REEL_METAPANEL_PATH = "reel_metapanel.eml";
+    private static final String REEL_METAPANEL_PATH = "reel_metapanel.eml";
 
-    private final static String SHORTS_PAUSED_STATE_BUTTON_PATH = "|ScrollableContainerType|ContainerType|button.eml|";
+    private static final String SHORTS_PAUSED_STATE_BUTTON_PATH = "|ScrollableContainerType|ContainerType|button.eml|";
 
     private final StringFilterGroup subscribeButton;
     private final StringFilterGroup joinButton;
@@ -30,7 +30,7 @@ public final class ShortsButtonFilter extends Filter {
     private final StringFilterGroup suggestedAction;
     private final ByteArrayFilterGroupList suggestedActionsGroupList = new ByteArrayFilterGroupList();
 
-    private final StringFilterGroup actionBar;
+    private final StringFilterGroup actionButton;
     private final ByteArrayFilterGroupList videoActionButtonGroupList = new ByteArrayFilterGroupList();
 
     private final ByteArrayFilterGroup useThisSoundButton = new ByteArrayFilterGroup(
@@ -106,9 +106,9 @@ public final class ShortsButtonFilter extends Filter {
                 "subscribe_button"
         );
 
-        actionBar = new StringFilterGroup(
+        actionButton = new StringFilterGroup(
                 null,
-                "shorts_action_bar"
+                "shorts_video_action_button.eml"
         );
 
         suggestedAction = new StringFilterGroup(
@@ -117,7 +117,7 @@ public final class ShortsButtonFilter extends Filter {
         );
 
         addPathCallbacks(
-                suggestedAction, actionBar, joinButton, subscribeButton, metaPanelButton,
+                suggestedAction, actionButton, joinButton, subscribeButton, metaPanelButton,
                 paidPromotionButton, pausedOverlayButtons, channelBar, fullVideoLinkLabel,
                 videoTitle, reelSoundMetadata, infoPanel, liveHeader, stickers
         );
@@ -239,7 +239,7 @@ public final class ShortsButtonFilter extends Filter {
         }
 
         // Video action buttons (like, dislike, comment, share, remix) have the same path.
-        if (matchedGroup == actionBar) {
+        if (matchedGroup == actionButton) {
             if (videoActionButtonGroupList.check(protobufBufferArray).isFiltered()) {
                 return super.isFiltered(path, identifier, allValue, protobufBufferArray, matchedGroup, contentType, contentIndex);
             }

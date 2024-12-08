@@ -10,6 +10,7 @@ import app.revanced.patcher.patch.bytecodePatch
 import app.revanced.patcher.util.smali.ExternalLabel
 import app.revanced.patches.shared.litho.addLithoFilter
 import app.revanced.patches.shared.litho.lithoFilterPatch
+import app.revanced.patches.shared.settingmenu.settingsMenuPatch
 import app.revanced.patches.shared.viewgroup.viewGroupMarginLayoutParamsHookPatch
 import app.revanced.patches.youtube.utils.compatibility.Constants.COMPATIBLE_PACKAGE
 import app.revanced.patches.youtube.utils.extension.Constants.COMPONENTS_PATH
@@ -52,6 +53,7 @@ val layoutComponentsPatch = bytecodePatch(
         lithoFilterPatch,
         sharedResourceIdPatch,
         settingsPatch,
+        settingsMenuPatch,
         viewGroupMarginLayoutParamsHookPatch,
     )
 

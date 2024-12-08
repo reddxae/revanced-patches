@@ -956,6 +956,26 @@
     <string name="revanced_overlay_button_whitelist_title">顯示白名單按鈕</string>
     <string name="revanced_overlay_button_whitelist_summary">點選可開啟白名單對話框。
  點選並按住可開啟白名單設定對話框。</string>
+    <string name="revanced_overlay_button_play_all_title">顯示全部播放按鈕</string>
+    <string name="revanced_overlay_button_play_all_summary">"點選可產生頻道中所有影片的播放清單。
+點選並按住可撤銷。
+
+資訊:
+• 可能不適用於直播。"</string>
+    <string name="revanced_overlay_button_play_all_type_title">產生播放清單模式</string>
+    <string name="revanced_overlay_button_play_all_type_entry_1">所有內容 (按時間排序)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_2">所有內容 (按熱門排序)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_3">僅限影片 (按時間排序)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_4">僅限影片 (按熱門排序)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_5">僅限短影片 (按時間排序)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_6">僅限短影片 (按流行排序)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_7">僅限串流媒體影片 (按時間排序)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_8">僅限串流媒體影片 (按熱門排序)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_9">所有會員專屬內容</string>
+    <string name="revanced_overlay_button_play_all_type_entry_10">會員專屬影片</string>
+    <string name="revanced_overlay_button_play_all_type_entry_11">會員專屬短影片</string>
+    <string name="revanced_overlay_button_play_all_type_entry_12">會員專屬直播</string>
+    <string name="revanced_overlay_button_play_all_not_available_toast">由於頻道ID不匹配 因此無法產生播放清單。</string>
     <string name="revanced_whitelist_settings_title">頻道白名單</string>
     <string name="revanced_whitelist_settings_summary">查看或刪除已新增至白名單的頻道清單。</string>
     <string name="revanced_whitelist_added">頻道 %1$s 已加入 %2$s 白名單。</string>
@@ -1681,6 +1701,7 @@
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">偽裝副作用</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">"• 電影或付費影片可能無法播放。"</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_skip_livestream_playback">• 影片可能會提前 1 秒結束。</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• 音軌選單遺失。"</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• 音軌選單遺失。"</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">強制 iOS AVC (H.264)</string>
@@ -1689,6 +1710,9 @@
     <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"啟用此功能可能會延長電池壽命並修復播放卡頓問題。
 
 AVC (H.264) 的最大解析度為 1080p，影片播放將比 VP9 或 AV1 使用更多的網路資料。"</string>
+    <string name="revanced_spoof_streaming_data_ios_skip_livestream_playback_title">跳過iOS直播播放</string>
+    <string name="revanced_spoof_streaming_data_ios_skip_livestream_playback_summary_on">iOS用戶端不用於直播回放。</string>
+    <string name="revanced_spoof_streaming_data_ios_skip_livestream_playback_summary_off">iOS用戶端用於直播回放。</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">顯示統計資料</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">用於取得串流資料的用戶端顯示在統計資料中。</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">用於獲取串流資料的用戶端隱藏在統計資料中。</string>

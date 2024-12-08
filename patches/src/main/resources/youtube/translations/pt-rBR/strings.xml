@@ -958,7 +958,7 @@ Toque e segure novamente para redefinir para a velocidade padrão."</string>
     <string name="revanced_overlay_button_whitelist_title">Exibir botão de lista branca</string>
     <string name="revanced_overlay_button_whitelist_summary">Toque para abrir a caixa de diálogo da lista branca.
 Toque e segure para abrir a caixa de diálogo de configuração da lista branca.</string>
-    <string name="revanced_overlay_button_play_all_title">Mostrar botão de reproduzir tudo</string>
+    <string name="revanced_overlay_button_play_all_title">Exibir botão de reproduzir tudo</string>
     <string name="revanced_overlay_button_play_all_summary">"Toque para gerar uma playlist de todos os vídeos do canal.
 Toque e segure para desfazer.
 

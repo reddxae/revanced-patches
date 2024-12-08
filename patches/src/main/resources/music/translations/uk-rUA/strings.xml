@@ -49,7 +49,10 @@
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Реклама</string>
     <string name="revanced_hide_fullscreen_ads_title">Приховати повноекранну рекламу</string>
-    <string name="revanced_hide_fullscreen_ads_summary">"Приховує повноекранну рекламу."</string>
+    <string name="revanced_hide_fullscreen_ads_summary">"Приховує повноекранну рекламу.
+
+Обмеження:
+• Іноді замість головної стрічки ви можете побачити порожній чорний екран."</string>
     <string name="revanced_hide_general_ads_title">Приховати загальну рекламу</string>
     <string name="revanced_hide_general_ads_summary">Приховує загальну рекламу.</string>
     <string name="revanced_hide_music_ads_title">Приховати медіарекламу</string>
@@ -392,6 +395,13 @@
 
 Натисніть кнопку продовжити й вимкніть оптимізацію акумулятора."</string>
     <string name="gms_core_dialog_continue_text">Продовжити</string>
+    <string name="revanced_spoof_client_title">Підміна клієнта</string>
+    <string name="revanced_spoof_client_summary">Підробити клієнт, щоб запобігти проблемам із відтворенням.
+
+Обмеження:
+• Аудіокодек OPUS може не підтримуватися.
+• Мініатюри перемотки можуть бути відсутніми.
+• Історія переглядів не працює з обліковим записом бренду.</string>
     <string name="revanced_sanitize_sharing_links_title">Обробляти поширення посилань</string>
     <string name="revanced_sanitize_sharing_links_summary">Видаляє параметри запиту відстеження з URL-адрес під час обміну посиланнями.</string>
     <string name="revanced_default_app_settings_title">Відкрити налаштування за замовчуванням</string>

@@ -405,6 +405,7 @@ val videoInformationPatch = bytecodePatch(
                         null,
                         ImmutableMethodImplementation(
                             4, """
+                                # Check if the playback speed is not auto (-2.0f)
                                 const/4 v0, 0x0
                                 cmpg-float v0, v3, v0
                                 if-lez v0, :ignore

@@ -21,7 +21,9 @@ import app.revanced.util.findMethodOrThrow
 
 private var defaultValue = "false"
 
-private val spoofAppVersionBytecodePatch = bytecodePatch {
+private val spoofAppVersionBytecodePatch = bytecodePatch(
+    description = "spoofAppVersionBytecodePatch"
+) {
     dependsOn(
         baseSpoofAppVersionPatch("$GENERAL_CLASS_DESCRIPTOR->getVersionOverride(Ljava/lang/String;)Ljava/lang/String;"),
         versionCheckPatch,

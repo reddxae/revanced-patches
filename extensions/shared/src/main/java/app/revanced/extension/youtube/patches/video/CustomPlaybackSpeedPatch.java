@@ -20,6 +20,8 @@ import app.revanced.extension.youtube.utils.VideoUtils;
 
 @SuppressWarnings("unused")
 public class CustomPlaybackSpeedPatch {
+    private static final float PLAYBACK_SPEED_AUTO = Settings.DEFAULT_PLAYBACK_SPEED.defaultValue;
+
     /**
      * Maximum playback speed, exclusive value.  Custom speeds must be less than this value.
      * <p>
@@ -27,7 +29,7 @@ public class CustomPlaybackSpeedPatch {
      * and the UI selector starts flickering and acting weird.
      * Over 10x and the speeds show up out of order in the UI selector.
      */
-    public static final float MAXIMUM_PLAYBACK_SPEED = 8;
+    public static final float PLAYBACK_SPEED_MAXIMUM = 8;
     private static final String[] defaultSpeedEntries;
     private static final String[] defaultSpeedEntryValues;
     /**
@@ -128,8 +130,8 @@ public class CustomPlaybackSpeedPatch {
                     throw new IllegalArgumentException();
                 }
 
-                if (speedFloat > MAXIMUM_PLAYBACK_SPEED) {
-                    resetCustomSpeeds(str("revanced_custom_playback_speeds_invalid", MAXIMUM_PLAYBACK_SPEED));
+                if (speedFloat > PLAYBACK_SPEED_MAXIMUM) {
+                    resetCustomSpeeds(str("revanced_custom_playback_speeds_invalid", PLAYBACK_SPEED_MAXIMUM));
                     loadCustomSpeeds();
                     return;
                 }

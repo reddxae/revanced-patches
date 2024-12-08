@@ -14,6 +14,7 @@ import app.revanced.patches.youtube.utils.extension.Constants.PATCH_STATUS_CLASS
 import app.revanced.patches.youtube.utils.extension.Constants.PLAYER_CLASS_DESCRIPTOR
 import app.revanced.patches.youtube.utils.flyoutmenu.flyoutMenuHookPatch
 import app.revanced.patches.youtube.utils.patch.PatchList.SEEKBAR_COMPONENTS
+import app.revanced.patches.youtube.utils.playerButtonsResourcesFingerprint
 import app.revanced.patches.youtube.utils.playerButtonsVisibilityFingerprint
 import app.revanced.patches.youtube.utils.playerSeekbarColorFingerprint
 import app.revanced.patches.youtube.utils.playservice.is_19_23_or_greater
@@ -238,7 +239,7 @@ val seekbarComponentsPatch = bytecodePatch(
             )
         }
 
-        playerButtonsVisibilityFingerprint.methodOrThrow(playerButtonsVisibilityFingerprint).apply {
+        playerButtonsVisibilityFingerprint.methodOrThrow(playerButtonsResourcesFingerprint).apply {
             val freeRegister = implementation!!.registerCount - parameters.size - 2
             val viewIndex = indexOfFirstInstructionOrThrow(Opcode.INVOKE_INTERFACE)
             val viewRegister = getInstruction<FiveRegisterInstruction>(viewIndex).registerD

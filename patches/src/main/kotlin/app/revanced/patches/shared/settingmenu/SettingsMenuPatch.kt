@@ -14,7 +14,7 @@ val settingsMenuPatch = bytecodePatch(
 ) {
     execute {
         val findPreferenceMethodCall = findPreferenceFingerprint.methodCall()
-        val removePreferenceMethodCall = findPreferenceFingerprint.methodCall()
+        val removePreferenceMethodCall = removePreferenceFingerprint.methodCall()
 
         findMethodOrThrow(EXTENSION_CLASS_DESCRIPTOR) {
             name == "removePreference"

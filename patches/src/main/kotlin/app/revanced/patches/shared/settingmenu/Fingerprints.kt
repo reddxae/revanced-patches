@@ -21,11 +21,8 @@ internal val removePreferenceFingerprint = legacyFingerprint(
     accessFlags = AccessFlags.PUBLIC or AccessFlags.FINAL,
     parameters = listOf("Landroidx/preference/Preference;"),
     opcodes = listOf(Opcode.INVOKE_VIRTUAL),
-    customFingerprint = custom@{ method, _ ->
-        if (method.definingClass != "Landroidx/preference/PreferenceGroup;") {
-            return@custom false
-        }
-        val instructions = method.implementation?.instructions ?: return@custom false
-        instructions.elementAt(0).opcode == Opcode.INVOKE_DIRECT
+    customFingerprint = { method, classDef ->
+        classDef.type == "Landroidx/preference/PreferenceGroup;" &&
+                method.implementation?.instructions?.elementAt(0)?.opcode == Opcode.INVOKE_DIRECT
     }
 )

@@ -181,8 +181,8 @@ public class StreamingDataRequest {
                 continue;
 
             try (
-                InputStream inputStream = new BufferedInputStream(connection.getInputStream());
-                ByteArrayOutputStream baos = new ByteArrayOutputStream()
+                    InputStream inputStream = new BufferedInputStream(connection.getInputStream());
+                    ByteArrayOutputStream baos = new ByteArrayOutputStream()
             ) {
                 byte[] buffer = new byte[2048];
                 int bytesRead;

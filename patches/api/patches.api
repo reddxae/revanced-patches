@@ -142,6 +142,14 @@ public final class app/revanced/patches/music/utils/fix/androidauto/AndroidAutoC
 	public static final fun getAndroidAutoCertificatePatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
+public final class app/revanced/patches/music/utils/fix/client/FingerprintsKt {
+	public static final fun indexOfBuildInstruction (Lcom/android/tools/smali/dexlib2/iface/Method;)I
+}
+
+public final class app/revanced/patches/music/utils/fix/client/SpoofClientPatchKt {
+	public static final fun getSpoofClientPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
 public final class app/revanced/patches/music/utils/fix/fileprovider/FileProviderPatchKt {
 	public static final fun fileProviderPatch (Ljava/lang/String;Ljava/lang/String;)Lapp/revanced/patcher/patch/BytecodePatch;
 }
@@ -837,7 +845,6 @@ public final class app/revanced/patches/youtube/utils/resourceid/SharedResourceI
 	public static final fun getAccountSwitcherAccessibility ()J
 	public static final fun getActionBarRingo ()J
 	public static final fun getActionBarRingoBackground ()J
-	public static final fun getActionBarSearchResultsViewMic ()J
 	public static final fun getAdAttribution ()J
 	public static final fun getAppRelatedEndScreenResults ()J
 	public static final fun getAppearance ()J

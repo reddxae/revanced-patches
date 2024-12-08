@@ -140,8 +140,9 @@ public final class ShortsShelfFilter extends Filter {
         final boolean hideHomeAndRelatedVideos = Settings.HIDE_SHORTS_SHELF_HOME_RELATED_VIDEOS.get();
         final boolean hideSubscriptions = Settings.HIDE_SHORTS_SHELF_SUBSCRIPTIONS.get();
         final boolean hideSearch = Settings.HIDE_SHORTS_SHELF_SEARCH.get();
+        final boolean hideHistory = Settings.HIDE_SHORTS_SHELF_HISTORY.get();
 
-        if (hideHomeAndRelatedVideos && hideSubscriptions && hideSearch) {
+        if (hideHomeAndRelatedVideos && hideSubscriptions && hideSearch && hideHistory) {
             // Shorts suggestions can load in the background if a video is opened and
             // then immediately minimized before any suggestions are loaded.
             // In this state the player type will show minimized, which makes it not possible to
@@ -165,7 +166,7 @@ public final class ShortsShelfFilter extends Filter {
         }
 
         // Avoid checking navigation button status if all other Shorts should show.
-        if (!hideHomeAndRelatedVideos && !hideSubscriptions) {
+        if (!hideHomeAndRelatedVideos && !hideSubscriptions && !hideHistory) {
             return false;
         }
 
@@ -175,7 +176,7 @@ public final class ShortsShelfFilter extends Filter {
 
         switch (browseId) {
             case BROWSE_ID_HISTORY, BROWSE_ID_LIBRARY, BROWSE_ID_NOTIFICATION_INBOX -> {
-                return false;
+                return hideHistory;
             }
             case BROWSE_ID_SUBSCRIPTIONS -> {
                 return hideSubscriptions;

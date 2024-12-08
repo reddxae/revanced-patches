@@ -448,6 +448,7 @@ public final class VideoInformation {
                         }
                     }
                 }
+                qualityNeedsUpdating = true;
                 Logger.printDebug(() -> "videoQualities: " + videoQualities);
             }
         } catch (Exception ex) {

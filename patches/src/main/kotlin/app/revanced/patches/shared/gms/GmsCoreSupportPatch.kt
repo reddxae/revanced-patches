@@ -481,9 +481,6 @@ private object Constants {
         // auth
         "com.google.android.gms.auth.accounts",
 
-        // chimera
-        "com.google.android.gms.chimera",
-
         // fonts
         "com.google.android.gms.fonts",
 

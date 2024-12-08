@@ -1729,8 +1729,7 @@ Playlists
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Παρενέργειες παραποίησης</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">"• Οι ταινίες ή τα επί πληρωμή βίντεο ενδέχεται να μην αναπαράγονται.
-• Οι ζωντανές μεταδόσεις ξεκινούν από την αρχή κατά την αναπαραγωγή.
+    <string name="revanced_spoof_streaming_data_side_effects_ios">"• Οι ζωντανές μεταδόσεις ξεκινούν από την αρχή κατά την αναπαραγωγή.
 • Τα βίντεο μπορεί να τελειώνουν 1 δευτερόλεπτο νωρίτερα."</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios_skip_livestream_playback">• Τα βίντεο μπορεί να τελειώνουν 1 δευτερόλεπτο νωρίτερα.</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• Το μενού «Κομμάτι ήχου» λείπει.

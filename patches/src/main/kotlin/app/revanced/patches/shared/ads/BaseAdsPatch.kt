@@ -33,15 +33,20 @@ fun baseAdsPatch(
 ) {
     execute {
 
-        videoAdsFingerprint.methodOrThrow().apply {
-            addInstructionsWithLabels(
-                0, """
-                    invoke-static {}, $classDescriptor->$methodDescriptor()Z
-                    move-result v0
-                    if-nez v0, :show_ads
-                    return-void
-                    """, ExternalLabel("show_ads", getInstruction(0))
-            )
+        setOf(
+            sslGuardFingerprint,
+            videoAdsFingerprint,
+        ).forEach { fingerprint ->
+            fingerprint.methodOrThrow().apply {
+                addInstructionsWithLabels(
+                    0, """
+                        invoke-static {}, $classDescriptor->$methodDescriptor()Z
+                        move-result v0
+                        if-nez v0, :show_ads
+                        return-void
+                        """, ExternalLabel("show_ads", getInstruction(0))
+                )
+            }
         }
 
         musicAdsFingerprint.methodOrThrow().apply {
@@ -60,6 +65,21 @@ fun baseAdsPatch(
                         move-result p1
                         """
                 )
+        }
+
+        advertisingIdFingerprint.matchOrThrow().let {
+            it.method.apply {
+                val insertIndex = it.stringMatches!!.first().index
+                val insertRegister = getInstruction<OneRegisterInstruction>(insertIndex).registerA
+                addInstructionsWithLabels(
+                    insertIndex, """
+                        invoke-static {}, $classDescriptor->$methodDescriptor()Z
+                        move-result v$insertRegister
+                        if-nez v$insertRegister, :enable_id
+                        return-void
+                        """, ExternalLabel("enable_id", getInstruction(insertIndex))
+                )
+            }
         }
 
     }

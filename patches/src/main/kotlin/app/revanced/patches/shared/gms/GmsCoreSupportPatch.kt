@@ -104,18 +104,6 @@ fun gmsCoreSupportPatch(
         required = true,
     )
 
-    val disableGmsServiceBroker by booleanOption(
-        key = "disableGmsServiceBroker",
-        default = false,
-        title = "Disable GmsService Broker",
-        description = """
-            Disabling GmsServiceBroker will somewhat improve crashes caused by unimplemented GmsCore services.
-            
-            For YouTube, the 'Spoof streaming data' setting is required.
-            """.trimIndentMultiline(),
-        required = true,
-    )
-
     val packageNameYouTubeOption = stringOption(
         key = "packageNameYouTube",
         default = DEFAULT_PACKAGE_NAME_YOUTUBE,
@@ -305,12 +293,11 @@ fun gmsCoreSupportPatch(
         // Return these methods early to prevent the app from crashing.
         setOf(
             castContextFetchFingerprint,
+            castDynamiteModuleFingerprint,
+            castDynamiteModuleV2Fingerprint,
             googlePlayUtilityFingerprint,
             serviceCheckFingerprint,
         ).forEach { it.methodOrThrow().returnEarly() }
-        if (disableGmsServiceBroker == true) {
-            gmsServiceBrokerFingerprint.methodOrThrow().returnEarly()
-        }
 
         // Specific method that needs to be patched.
         transformPrimeMethod()
@@ -365,18 +352,10 @@ fun gmsCoreSupportPatch(
 /**
  * A collection of permissions, intents and content provider authorities
  * that are present in GmsCore which need to be transformed.
- *
- * NOTE: The following were present, but it seems like they are not needed to be transformed:
- * - com.google.android.gms.chimera.GmsIntentOperationService
- * - com.google.android.gms.phenotype.internal.IPhenotypeCallbacks
- * - com.google.android.gms.phenotype.internal.IPhenotypeService
- * - com.google.android.gms.phenotype.PACKAGE_NAME
- * - com.google.android.gms.phenotype.UPDATE
- * - com.google.android.gms.phenotype
  */
 private object Constants {
     /**
-     * A list of all permissions.
+     * All permissions.
      */
     val PERMISSIONS = setOf(
         // C2DM / GCM
@@ -460,10 +439,8 @@ private object Constants {
         "com.google.android.gms.feedback.internal.IFeedbackService",
 
         // cast
+        "com.google.android.gms.cast.firstparty.START",
         "com.google.android.gms.cast.service.BIND_CAST_DEVICE_CONTROLLER_SERVICE",
-
-        // chimera
-        "com.google.android.gms.chimera",
 
         // fonts
         "com.google.android.gms.fonts",
@@ -503,9 +480,6 @@ private object Constants {
 
         // auth
         "com.google.android.gms.auth.accounts",
-
-        // chimera
-        "com.google.android.gms.chimera",
 
         // fonts
         "com.google.android.gms.fonts",

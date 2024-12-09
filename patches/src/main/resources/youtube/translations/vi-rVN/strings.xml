@@ -962,7 +962,7 @@ Nhấn và giữ để đặt lại tốc độ phát video (1.0x). Nhấn và g
     <string name="revanced_overlay_button_whitelist_title">Nút Danh sách trắng</string>
     <string name="revanced_overlay_button_whitelist_summary">Nhấn để mở hộp thoại Danh sách trắng.
 Nhấn và giữ để mở hộp thoại cài đặt Danh sách trắng.</string>
-    <string name="revanced_overlay_button_play_all_title">Nút phát tất cả</string>
+    <string name="revanced_overlay_button_play_all_title">Nút Phát tất cả</string>
     <string name="revanced_overlay_button_play_all_summary">"Nhấn để tạo danh sách phát bao gồm tất cả các video từ kênh.
 Nhấn và giữ để hoàn tác.
 
@@ -1670,7 +1670,7 @@ Nhấn vào Tiếp tục và tắt tối ưu hóa pin."</string>
     <string name="revanced_change_share_sheet_title">Thay đổi giao diện chia sẻ</string>
     <string name="revanced_change_share_sheet_summary_on">Sử dụng giao diện chia sẻ của hệ thống.</string>
     <string name="revanced_change_share_sheet_summary_off">Sử dụng giao diện chia sẻ của ứng dụng.</string>
-    <string name="revanced_enable_opus_codec_title">Kích hoạt Codec OPUS</string>
+    <string name="revanced_enable_opus_codec_title">Codec OPUS</string>
     <string name="revanced_enable_opus_codec_summary">Kích hoạt codec OPUS nếu phản hồi của trình phát bao gồm codec OPUS.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings -->
     <string name="revanced_preference_screen_import_export_title">Nhập/Xuất cài đặt</string>

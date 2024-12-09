@@ -375,7 +375,7 @@ Nhấp vào đây để xem các bước phát hành khóa API."</string>
     <string name="revanced_enable_debug_logging_summary">Bật ghi nhật ký gỡ lỗi.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Bật nhật ký bộ đệm gỡ lỗi</string>
     <string name="revanced_enable_debug_buffer_logging_summary">Bao gồm bộ đệm trong nhật ký gỡ lỗi.</string>
-    <string name="revanced_enable_opus_codec_title">Kích hoạt Codec OPUS</string>
+    <string name="revanced_enable_opus_codec_title">Codec OPUS</string>
     <string name="revanced_enable_opus_codec_summary">"Áp dụng codec OPUS nếu phản hồi của trình phát bao gồm nó.
 
 Cụ thể:
@@ -398,10 +398,10 @@ Nhấn vào nút Tiếp tục và tắt tối ưu hóa pin."</string>
     <string name="revanced_spoof_client_title">Giả mạo ứng dụng khách</string>
     <string name="revanced_spoof_client_summary">Giả mạo ứng dụng khách để khắc phục sự cố phát.
 
-Hạn chế:
-• Codec âm thanh OPUS có thể không được hỗ trợ.
-• Hình thu nhỏ trên thanh tiến trình có thể không hiện hữu.
-• Nhật ký xem không hoạt động đối với tài khoản thương hiệu.</string>
+\n\nHạn chế:
+\n• Codec âm thanh OPUS có thể không được hỗ trợ.
+\n• Hình thu nhỏ trên thanh tiến trình có thể không hiện hữu.
+\n• Nhật ký xem không hoạt động đối với tài khoản thương hiệu.</string>
     <string name="revanced_sanitize_sharing_links_title">Liên kết sạch khi chia sẻ</string>
     <string name="revanced_sanitize_sharing_links_summary">Loại bỏ các tham số truy vấn theo dõi khỏi URL khi chia sẻ liên kết.</string>
     <string name="revanced_default_app_settings_title">Mở theo mặc định</string>

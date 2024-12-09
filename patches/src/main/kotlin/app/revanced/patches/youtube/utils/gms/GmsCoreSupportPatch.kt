@@ -31,7 +31,7 @@ private fun gmsCoreSupportResourcePatch(
     packageNameYouTubeMusicOption: Option<String>,
 ) = app.revanced.patches.shared.gms.gmsCoreSupportResourcePatch(
     fromPackageName = YOUTUBE_PACKAGE_NAME,
-    spoofedPackageSignature = "afb0fed5eeaebdd86f56a97742f4b6b33ef59875",
+    spoofedPackageSignature = "24bb24c05e47e0aefa68a58a766179d9b613a600",
     gmsCoreVendorGroupIdOption = gmsCoreVendorGroupIdOption,
     packageNameYouTubeOption = packageNameYouTubeOption,
     packageNameYouTubeMusicOption = packageNameYouTubeMusicOption,

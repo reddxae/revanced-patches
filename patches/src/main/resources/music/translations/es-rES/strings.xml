@@ -388,6 +388,13 @@ Esto es necesario para que la aplicación funcione."</string>
 
 Pulsa el botón de continuar y desactiva las optimizaciones de la batería."</string>
     <string name="gms_core_dialog_continue_text">Continuar</string>
+    <string name="revanced_spoof_client_title">Falsificar cliente</string>
+    <string name="revanced_spoof_client_summary">\"falsifica al cliente para evitar problemas de reproducción.
+
+Limitaciones:
+• Código de audio OPUS puede no ser compatible.
+• La miniatura de la barra de Seekbar puede no estar presente.
+• El historial de la vista no funciona con una cuenta de marca.</string>
     <string name="revanced_sanitize_sharing_links_title">Desinfectar enlaces compartidos</string>
     <string name="revanced_sanitize_sharing_links_summary">Elimina los parámetros de consulta de seguimiento de las URL al compartir enlaces.</string>
     <string name="revanced_default_app_settings_title">Abrir ajustes predeterminados de la app</string>

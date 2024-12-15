@@ -537,6 +537,8 @@ val shortsComponentPatch = bytecodePatch(
     compatibleWith(COMPATIBLE_PACKAGE)
 
     dependsOn(
+        settingsPatch,
+
         shortsAnimationPatch,
         shortsCustomActionsPatch,
         shortsNavigationBarPatch,
@@ -547,7 +549,6 @@ val shortsComponentPatch = bytecodePatch(
         lithoFilterPatch,
         playerTypeHookPatch,
         sharedResourceIdPatch,
-        settingsPatch,
         textComponentPatch,
         versionCheckPatch,
         videoInformationPatch,

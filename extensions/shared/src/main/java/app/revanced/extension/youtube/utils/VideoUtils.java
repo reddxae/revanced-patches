@@ -7,7 +7,6 @@ import static app.revanced.extension.youtube.patches.video.PlaybackSpeedPatch.us
 import android.app.AlertDialog;
 import android.content.Context;
 import android.media.AudioManager;
-import android.text.TextUtils;
 import android.util.Log;
 
 import androidx.annotation.NonNull;
@@ -128,34 +127,37 @@ public class VideoUtils extends IntentUtils {
     }
 
     public static void openVideo(@NonNull String videoId) {
-        openVideo(getVideoScheme(videoId, false), "");
+        openVideo(getVideoScheme(videoId, false), false, null);
     }
 
     public static void openVideo(@NonNull String videoId, boolean isShorts) {
-        openVideo(getVideoScheme(videoId, isShorts), "");
+        openVideo(getVideoScheme(videoId, isShorts), isShorts, null);
     }
 
-    public static void openVideo(@NonNull PlaylistIdPrefix prefixId) {
-        openVideo(getVideoScheme(), prefixId.prefixId);
+    public static void openVideo(@NonNull PlaylistIdPrefix playlistIdPrefix) {
+        openVideo(getVideoScheme(), false, playlistIdPrefix);
     }
 
-    /**
-     * Create playlist with all channel videos.
-     */
-    public static void openVideo(@NonNull String videoScheme, @NonNull String prefixId) {
-        if (!TextUtils.isEmpty(prefixId)) {
-            final String channelId = VideoInformation.getChannelId();
-            // Channel id always starts with `UC` prefix
-            if (!channelId.startsWith("UC")) {
-                showToastShort(str("revanced_overlay_button_play_all_not_available_toast"));
-                return;
+    public static void openVideo(@NonNull String videoId, boolean isShorts, @Nullable PlaylistIdPrefix playlistIdPrefix) {
+        final StringBuilder sb = new StringBuilder(getVideoScheme(videoId, isShorts));
+        // Create playlist with all channel videos.
+        if (playlistIdPrefix != null) {
+            sb.append("&list=");
+            sb.append(playlistIdPrefix.prefixId);
+            if (playlistIdPrefix.useChannelId) {
+                final String channelId = VideoInformation.getChannelId();
+                // Channel id always starts with `UC` prefix
+                if (!channelId.startsWith("UC")) {
+                    showToastShort(str("revanced_overlay_button_play_all_not_available_toast"));
+                    return;
+                }
+                sb.append(channelId.substring(2));
+            } else {
+                sb.append(videoId);
             }
-            videoScheme += "&list=" + prefixId + channelId.substring(2);
         }
-        final String finalVideoScheme = videoScheme;
-        Logger.printInfo(() -> finalVideoScheme);
 
-        launchView(videoScheme, getContext().getPackageName());
+        launchView(sb.toString(), getContext().getPackageName());
     }
 
     /**

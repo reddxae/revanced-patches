@@ -1112,6 +1112,7 @@ Tap and hold to toggle the appended information type."</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">Custom seekbar color is disabled.</string>
     <string name="revanced_custom_seekbar_color_value_title">Custom seekbar color value</string>
     <string name="revanced_custom_seekbar_color_value_summary">Type the hex code of the seekbar color.</string>
+    <string name="revanced_custom_seekbar_color_value_invalid_invalid_toast">Invalid seekbar color value.</string>
     <string name="revanced_enable_seekbar_tapping_title">Enable seekbar tapping</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">Seekbar tapping is enabled.</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">Seekbar tapping is disabled.</string>

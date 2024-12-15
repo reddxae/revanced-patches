@@ -1141,11 +1141,6 @@ Tap and hold to toggle the appended information type."</string>
 Internet data usage may be higher, and seekbar thumbnails will have a slight delay before showing.
 
 This feature works best with a very fast internet connection."</string>
-    <string name="revanced_enable_cairo_seekbar_title">Enable Cairo seekbar</string>
-    <string name="revanced_enable_cairo_seekbar_summary_on">"Cairo seekbar is enabled.
-
-Side effect: Cairo theme is also applied to notification dots."</string>
-    <string name="revanced_enable_cairo_seekbar_summary_off">Cairo seekbar is disabled.</string>
 
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Video description -->
     <string name="revanced_preference_screen_video_description_title">Video description</string>

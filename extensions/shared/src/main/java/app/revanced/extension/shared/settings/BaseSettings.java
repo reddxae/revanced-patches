@@ -4,8 +4,10 @@ import static java.lang.Boolean.FALSE;
 import static java.lang.Boolean.TRUE;
 
 import static app.revanced.extension.shared.patches.PatchStatus.HideFullscreenAdsDefaultBoolean;
+import static app.revanced.extension.shared.patches.PatchStatus.SpoofStreamingDataDefaultClient;
 
 import app.revanced.extension.shared.patches.ReturnYouTubeUsernamePatch.DisplayFormat;
+import app.revanced.extension.shared.patches.client.AppClient.ClientType;
 
 /**
  * Settings shared across multiple apps.
@@ -34,6 +36,11 @@ public class BaseSettings {
     public static final BooleanSetting RETURN_YOUTUBE_USERNAME_ENABLED = new BooleanSetting("revanced_return_youtube_username_enabled", FALSE, true);
     public static final EnumSetting<DisplayFormat> RETURN_YOUTUBE_USERNAME_DISPLAY_FORMAT = new EnumSetting<>("revanced_return_youtube_username_display_format", DisplayFormat.USERNAME_ONLY, true);
     public static final StringSetting RETURN_YOUTUBE_USERNAME_YOUTUBE_DATA_API_V3_DEVELOPER_KEY = new StringSetting("revanced_return_youtube_username_youtube_data_api_v3_developer_key", "", true, false);
+
+    public static final BooleanSetting SPOOF_STREAMING_DATA = new BooleanSetting("revanced_spoof_streaming_data", TRUE, true, "revanced_spoof_streaming_data_user_dialog_message");
+    public static final EnumSetting<ClientType> SPOOF_STREAMING_DATA_TYPE = new EnumSetting<>("revanced_spoof_streaming_data_type", SpoofStreamingDataDefaultClient(), true);
+    public static final BooleanSetting SPOOF_STREAMING_DATA_IOS_SKIP_LIVESTREAM_PLAYBACK = new BooleanSetting("revanced_spoof_streaming_data_ios_skip_livestream_playback", TRUE, true);
+    public static final BooleanSetting SPOOF_STREAMING_DATA_STATS_FOR_NERDS = new BooleanSetting("revanced_spoof_streaming_data_stats_for_nerds", TRUE);
 
     /**
      * @noinspection DeprecatedIsStillUsed

@@ -18,6 +18,7 @@ import app.revanced.util.copyXmlNode
 import app.revanced.util.getAdaptiveIconResourceFile
 import app.revanced.util.getResourceGroup
 import app.revanced.util.underBarOrThrow
+import app.revanced.util.valueOrThrow
 import java.nio.file.Files
 import java.nio.file.StandardCopyOption
 
@@ -136,13 +137,14 @@ val customBrandingIconPatch = resourcePatch(
 
     execute {
         // Check patch options first.
-        val appIcon = appIconOption.underBarOrThrow()
+        var appIcon = appIconOption
+            .underBarOrThrow()
 
         val appIconResourcePath = "youtube/branding/$appIcon"
 
-
         // Check if a custom path is used in the patch options.
         if (!availableIcon.containsValue(appIcon)) {
+            appIcon = appIconOption.valueOrThrow()
             val copiedFiles = copyFile(
                 launcherIconResourceGroups,
                 appIcon,
@@ -192,7 +194,7 @@ val customBrandingIconPatch = resourcePatch(
                         "resources"
                     )
                 } else {
-                    println("WARNING: Restore old splash animation is not supported in this version. Use YouTube 19.16.39 or earlier.")
+                    println("WARNING: \"Restore old splash animation\" is not supported in this version. Use YouTube 19.16.39 or earlier.")
                 }
             }
 

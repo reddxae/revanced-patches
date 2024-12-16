@@ -16,9 +16,10 @@ import java.util.Arrays;
 import java.util.Locale;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import app.revanced.extension.shared.settings.IntegerSetting;
+import app.revanced.extension.shared.settings.EnumSetting;
 import app.revanced.extension.shared.utils.IntentUtils;
 import app.revanced.extension.shared.utils.Logger;
+import app.revanced.extension.youtube.patches.shorts.ShortsRepeatStatePatch.ShortsLoopBehavior;
 import app.revanced.extension.youtube.patches.video.CustomPlaybackSpeedPatch;
 import app.revanced.extension.youtube.settings.Settings;
 import app.revanced.extension.youtube.settings.preference.ExternalDownloaderPlaylistPreference;
@@ -55,10 +56,6 @@ public class VideoUtils extends IntentUtils {
             builder.append(currentVideoTimeInSeconds);
         }
         return builder.toString();
-    }
-
-    private static String getVideoScheme() {
-        return getVideoScheme(VideoInformation.getVideoId(), false);
     }
 
     private static String getVideoScheme(String videoId, boolean isShorts) {
@@ -127,15 +124,15 @@ public class VideoUtils extends IntentUtils {
     }
 
     public static void openVideo(@NonNull String videoId) {
-        openVideo(getVideoScheme(videoId, false), false, null);
+        openVideo(videoId, false, null);
     }
 
     public static void openVideo(@NonNull String videoId, boolean isShorts) {
-        openVideo(getVideoScheme(videoId, isShorts), isShorts, null);
+        openVideo(videoId, isShorts, null);
     }
 
     public static void openVideo(@NonNull PlaylistIdPrefix playlistIdPrefix) {
-        openVideo(getVideoScheme(), false, playlistIdPrefix);
+        openVideo(VideoInformation.getVideoId(), false, playlistIdPrefix);
     }
 
     public static void openVideo(@NonNull String videoId, boolean isShorts, @Nullable PlaylistIdPrefix playlistIdPrefix) {
@@ -189,7 +186,7 @@ public class VideoUtils extends IntentUtils {
     private static int mClickedDialogEntryIndex;
 
     public static void showShortsRepeatDialog(@NonNull Context context) {
-        final IntegerSetting setting = Settings.CHANGE_SHORTS_REPEAT_STATE;
+        final EnumSetting<ShortsLoopBehavior> setting = Settings.CHANGE_SHORTS_REPEAT_STATE;
         final String settingsKey = setting.key;
 
         final String entryKey = settingsKey + "_entries";
@@ -198,13 +195,15 @@ public class VideoUtils extends IntentUtils {
         final String[] mEntryValues = getStringArray(entryValueKey);
 
         final int findIndex = Arrays.binarySearch(mEntryValues, String.valueOf(setting.get()));
-        mClickedDialogEntryIndex = findIndex >= 0 ? findIndex : setting.defaultValue;
+        mClickedDialogEntryIndex = findIndex >= 0 ? findIndex : setting.defaultValue.ordinal();
 
         new AlertDialog.Builder(context)
                 .setTitle(str(settingsKey + "_title"))
                 .setSingleChoiceItems(mEntries, mClickedDialogEntryIndex, (dialog, id) -> {
                     mClickedDialogEntryIndex = id;
-                    setting.save(id);
+                    for (ShortsLoopBehavior behavior : ShortsLoopBehavior.values()) {
+                        if (behavior.ordinal() == id) setting.save(behavior);
+                    }
                     dialog.dismiss();
                 })
                 .setNegativeButton(android.R.string.cancel, null)

@@ -1238,6 +1238,7 @@ Info:
 
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental Flags -->
     <string name="revanced_change_shorts_repeat_state_title">Change Shorts repeat state</string>
+    <string name="revanced_change_shorts_background_repeat_state_title">Change Shorts background repeat state</string>
     <string name="revanced_change_shorts_repeat_state_entry_auto_play">Autoplay</string>
     <string name="revanced_change_shorts_repeat_state_entry_default">Default</string>
     <string name="revanced_change_shorts_repeat_state_entry_pause">Pause</string>

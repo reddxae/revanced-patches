@@ -823,7 +823,7 @@ val playerComponentsPatch = bytecodePatch(
         // region patch for remember repeat state
 
         val (repeatTrackMethod, repeatTrackIndex) = repeatTrackFingerprint.matchOrThrow().let {
-            with (it.method) {
+            with(it.method) {
                 val targetIndex = it.patternMatch!!.endIndex
                 val targetRegister = getInstruction<OneRegisterInstruction>(targetIndex).registerA
 

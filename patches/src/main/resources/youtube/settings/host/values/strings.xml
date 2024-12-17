@@ -1160,8 +1160,8 @@ This feature works best with a very fast internet connection."</string>
     <string name="revanced_hide_ai_generated_video_summary_section_summary_on">AI-generated video summary section is hidden.</string>
     <string name="revanced_hide_ai_generated_video_summary_section_summary_off">AI-generated video summary section is shown.</string>
     <string name="revanced_hide_attributes_section_title">Hide Attributes section</string>
-    <string name="revanced_hide_attributes_section_summary_on">Featured places, Games, and Music sections are hidden.</string>
-    <string name="revanced_hide_attributes_section_summary_off">Featured places, Games, and Music sections are shown.</string>
+    <string name="revanced_hide_attributes_section_summary_on">Featured places, Games, Music and People mentioned sections are hidden.</string>
+    <string name="revanced_hide_attributes_section_summary_off">Featured places, Games, Music and People mentioned sections are shown.</string>
     <string name="revanced_hide_chapters_section_title">Hide Chapters section</string>
     <string name="revanced_hide_chapters_section_summary_on">Chapters section is hidden.</string>
     <string name="revanced_hide_chapters_section_summary_off">Chapters section is shown.</string>

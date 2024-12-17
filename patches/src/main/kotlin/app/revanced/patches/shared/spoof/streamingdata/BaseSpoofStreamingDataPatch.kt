@@ -34,6 +34,10 @@ import com.android.tools.smali.dexlib2.immutable.ImmutableMethodParameter
 const val EXTENSION_CLASS_DESCRIPTOR =
     "$SPOOF_PATH/SpoofStreamingDataPatch;"
 
+// In YouTube 17.34.36, this class is obfuscated.
+const val STREAMING_DATA_INTERFACE =
+    "Lcom/google/protos/youtube/api/innertube/StreamingDataOuterClass${'$'}StreamingData;"
+
 fun baseSpoofStreamingDataPatch(
     block: BytecodePatchBuilder.() -> Unit = {},
     executeBlock: BytecodePatchContext.() -> Unit = {},
@@ -130,7 +134,8 @@ fun baseSpoofStreamingDataPatch(
                                 if-eqz v2, :disabled
                                 
                                 # Get streaming data.
-                                invoke-static { v2 }, $EXTENSION_CLASS_DESCRIPTOR->getStreamingData(Ljava/lang/String;)Ljava/nio/ByteBuffer;
+                                iget-object v6, p0, $setStreamingDataField
+                                invoke-static { v2, v6 }, $EXTENSION_CLASS_DESCRIPTOR->getStreamingData(Ljava/lang/String;$STREAMING_DATA_INTERFACE)Ljava/nio/ByteBuffer;
                                 move-result-object v3
                                 if-eqz v3, :disabled
                                 
@@ -152,6 +157,39 @@ fun baseSpoofStreamingDataPatch(
                     },
                 )
             }
+        }
+
+        videoStreamingDataConstructorFingerprint.methodOrThrow(videoStreamingDataToStringFingerprint).apply {
+            val formatStreamModelInitIndex = indexOfFormatStreamModelInitInstruction(this)
+            val getVideoIdIndex = indexOfFirstInstructionReversedOrThrow(formatStreamModelInitIndex) {
+                val reference = getReference<FieldReference>()
+                opcode == Opcode.IGET_OBJECT &&
+                        reference?.type == "Ljava/lang/String;" &&
+                        reference.definingClass == definingClass
+            }
+            val getVideoIdReference = getInstruction<ReferenceInstruction>(getVideoIdIndex).reference
+            val insertIndex = indexOfFirstInstructionReversedOrThrow(getVideoIdIndex) {
+                opcode == Opcode.IGET_OBJECT &&
+                        getReference<FieldReference>()?.definingClass == STREAMING_DATA_INTERFACE
+            }
+
+            val (freeRegister, streamingDataRegister) = with(getInstruction<TwoRegisterInstruction>(insertIndex)) {
+                Pair(registerA, registerB)
+            }
+            val definingClassRegister = getInstruction<TwoRegisterInstruction>(getVideoIdIndex).registerB
+            val insertReference = getInstruction<ReferenceInstruction>(insertIndex).reference
+
+            replaceInstruction(
+                insertIndex,
+                "iget-object v$freeRegister, v$freeRegister, $insertReference"
+            )
+            addInstructions(
+                insertIndex, """
+                    iget-object v$freeRegister, v$definingClassRegister, $getVideoIdReference
+                    invoke-static { v$freeRegister, v$streamingDataRegister }, $EXTENSION_CLASS_DESCRIPTOR->getOriginalStreamingData(Ljava/lang/String;$STREAMING_DATA_INTERFACE)$STREAMING_DATA_INTERFACE
+                    move-result-object v$freeRegister
+                    """
+            )
         }
 
         // endregion

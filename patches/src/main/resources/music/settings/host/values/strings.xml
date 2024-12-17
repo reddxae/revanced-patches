@@ -452,10 +452,16 @@ Tap on the continue button and disable battery optimizations."</string>
 Limitations:
 • OPUS audio codec may not be supported.
 • Seekbar thumbnail may not be present.
-• Watch history does not work with a brand account."</string>
+• Watch history does not work with a brand account.
+
+※ When used with 'Spoofing streaming data', playback issues may occur."</string>
 
     <string name="revanced_spoof_streaming_data_title">Spoof streaming data</string>
-    <string name="revanced_spoof_streaming_data_summary">Spoof the streaming data to prevent playback issues.</string>
+    <string name="revanced_spoof_streaming_data_summary">"Spoof the streaming data to prevent playback issues.
+
+※ When used with 'Spoof client', playback issues may occur."</string>
+    <string name="revanced_spoof_streaming_data_type_title">Default client</string>
+    <string name="revanced_spoof_streaming_data_type_summary">Defines a default client that fetches streaming data.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Show in Stats for nerds</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary">Shows the client used to fetch streaming data in Stats for nerds.</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>

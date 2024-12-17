@@ -358,6 +358,8 @@
     <string name="revanced_spoof_app_version_target_entry_18_33_40">18.33.40 - відновлення старої панелі дій Shorts</string>
     <string name="revanced_spoof_app_version_target_entry_18_38_45">18.38.45 - Відновлення старої поведінки типової якості відео</string>
     <string name="revanced_spoof_app_version_target_entry_18_48_39">18.48.39 - Виключає \'переглянуті\' та \'вподобані\' з оновлення в режимі реального часу</string>
+    <string name="revanced_spoof_app_version_target_entry_19_26_42">19.26.42 - Вимикання значка Каїр в панелі навігації та інструментів</string>
+    <string name="revanced_spoof_app_version_target_entry_19_33_37">19.33.37 - Відновлення старої висувної панелі швидкості відтворення</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Account menu -->
     <string name="revanced_preference_screen_account_menu_title">Меню облікового запису</string>
     <string name="revanced_preference_screen_account_menu_summary">Приховувати чи показувати елементи меню облікового запису і вкладки Ви.</string>
@@ -407,30 +409,49 @@
     <string name="revanced_preference_screen_miniplayer_title">Мініплеєр</string>
     <string name="revanced_preference_screen_miniplayer_summary">Зміна стилю мінімізованого плеєра в додатку.</string>
     <string name="revanced_miniplayer_type_title">Тип мініплеєра</string>
+    <string name="revanced_miniplayer_type_entry_0">Вимкнено</string>
     <string name="revanced_miniplayer_type_entry_1">Оригінал</string>
-    <string name="revanced_miniplayer_type_entry_2">Телефонний</string>
+    <string name="revanced_miniplayer_type_entry_2">Мінімальний</string>
     <string name="revanced_miniplayer_type_entry_3">Планшетний</string>
     <string name="revanced_miniplayer_type_entry_4">Новітній 1</string>
     <string name="revanced_miniplayer_type_entry_5">Новітній 2</string>
     <string name="revanced_miniplayer_type_entry_6">Новітній 3</string>
-    <string name="revanced_miniplayer_enable_double_tap_action_title">Увімкнути дію подвійного натискання</string>
-    <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"Дію подвійного натискання увімкнено.
+    <string name="revanced_miniplayer_rounded_corners_title">Увімкнути округлені кути</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_on">Кути округлені.</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_off">Кути квадратні.</string>
+    <string name="revanced_miniplayer_double_tap_action_title">Увімкнути подвійне натискання та щипок для зміни розміру</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_on">"Подвійне натискання та щипок для зміни розміру увімкнено.
 
-• Подвійне натискання для зміни мінімізованого відео до більшого розміру.
-• Подвійне натискання ще раз для зміни до первісного розміру."</string>
-    <string name="revanced_miniplayer_enable_double_tap_action_summary_off">Дію подвійного натискання вимкнено.</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_title">Увімкнути перетягування</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">Перетягування увімкнено.</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">Перетягування вимкнено.</string>
-    <string name="revanced_miniplayer_hide_expand_close_title">Приховати кнопки розгортання і закриття</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_on">Кнопки приховано.\n(проведіть по мініплеєру, щоб розгорнути чи закрити)</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_off">Кнопки розгортання і закриття показується.</string>
+• Двічі торкніться, щоб збільшити розмір мініплеєра.
+• Двічі торкніться ще раз, щоб відновити початковий розмір."</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_off">Подвійне натискання та щипок для зміни розміру вимкнено.</string>
+    <string name="revanced_miniplayer_drag_and_drop_title">Увімкнути перетягування</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_on">"Перетягування увімкнено.
+
+Мініплеєр можливо перетягнути в будь-який кут екрану."</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_off">Перетягування вимкнено.</string>
+    <string name="revanced_miniplayer_horizontal_drag_title">Увімкнути жест горизонтального перетягування</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_on">"Жест горизонтального перетягування увімкнено.
+
+Мініплеєр можливо перетягнути за межі екрана ліворуч чи праворуч."</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_off">Жест горизонтального перетягування вимкнено.</string>
+    <string name="revanced_miniplayer_hide_expand_close_title">Приховати кнопку закриття</string>
+    <string name="revanced_miniplayer_hide_expand_close_summary_on">Кнопку закриття приховано.</string>
+    <string name="revanced_miniplayer_hide_expand_close_summary_off">Кнопку закриття показується.</string>
+    <string name="revanced_miniplayer_hide_expand_close_legacy_title">Приховати кнопки розгортання і закриття</string>
+    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_on">"Кнопки приховано.
+
+Проведіть, щоб розгорнути або закрити."</string>
+    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_off">Кнопки розгортання і закриття показується.</string>
     <string name="revanced_miniplayer_hide_subtext_title">Приховати підтексти</string>
     <string name="revanced_miniplayer_hide_subtext_summary_on">Підтексти приховано.</string>
     <string name="revanced_miniplayer_hide_subtext_summary_off">Підтексти показується.</string>
     <string name="revanced_miniplayer_hide_rewind_forward_title">Приховати кнопки перемотування вперед та назад</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Перемотування вперед та назад приховано.</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Перемотування вперед та назад показується.</string>
+    <string name="revanced_miniplayer_width_dip_title">Початковий розмір</string>
+    <string name="revanced_miniplayer_width_dip_summary">Початковий розмір на екрані, у пікселях.</string>
+    <string name="revanced_miniplayer_width_dip_invalid_toast">Розмір у пікселях повинен бути від %1$s до %2$s.</string>
     <string name="revanced_miniplayer_opacity_title">Непрозорість затемнення</string>
     <string name="revanced_miniplayer_opacity_summary">Значення непрозорості в межах 0-100, де 0 це прозоро.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">Непрозорість затемнення мініплеєра має бути в межах 0-100.</string>
@@ -633,6 +654,9 @@
     <string name="revanced_hide_info_panel_title">Приховати інформаційні панелі</string>
     <string name="revanced_hide_info_panel_summary_on">Інформаційні панелі приховано.</string>
     <string name="revanced_hide_info_panel_summary_off">Інформаційні панелі показується.</string>
+    <string name="revanced_hide_live_chat_summary_title">Приховати Опис чату в чаті</string>
+    <string name="revanced_hide_live_chat_summary_summary_on">Опис чату приховано.</string>
+    <string name="revanced_hide_live_chat_summary_summary_off">Опис чату показується.</string>
     <string name="revanced_hide_live_chat_messages_title">Приховати повідомлення онлайн чату</string>
     <string name="revanced_hide_live_chat_messages_summary_on">Повідомлення онлайн чату приховано.\n\nЦе налаштування також застосовується до прямих трансляцій Shorts.</string>
     <string name="revanced_hide_live_chat_messages_summary_off">Повідомлення онлайн чату показується.\n\nЦе налаштування також застосовується до прямих трансляцій Shorts.</string>
@@ -949,7 +973,7 @@
 Натисніть і утримуйте, щоб скопіювати мітку часу відео."</string>
     <string name="revanced_overlay_button_mute_volume_title">Показувати кнопку вимкнення звуку</string>
     <string name="revanced_overlay_button_mute_volume_summary">Натисніть, щоб вимкнути звук поточного відео. Натисніть знову, щоб увімкнути.</string>
-    <string name="revanced_overlay_button_external_downloader_title">Показувати кнопку зовнішнього завантаження</string>
+    <string name="revanced_overlay_button_external_downloader_title">Показувати кнопку зовнішнього завантажувача</string>
     <string name="revanced_overlay_button_external_downloader_summary">Натисніть для запуску зовнішнього завантажувача</string>
     <string name="revanced_overlay_button_speed_dialog_title">Показувати кнопку Діалог швидкості</string>
     <string name="revanced_overlay_button_speed_dialog_summary">"Натисніть, щоб відкрити діалог швидкості.
@@ -964,6 +988,7 @@
 Інформація:
 • Може не працювати на прямих трансляціях."</string>
     <string name="revanced_overlay_button_play_all_type_title">Режим генерування списку відтворення</string>
+    <string name="revanced_overlay_button_play_all_type_entry_0">Весь контент (Сортування за часом, Висхідне)</string>
     <string name="revanced_overlay_button_play_all_type_entry_1">Весь контент (Сортування за часом)</string>
     <string name="revanced_overlay_button_play_all_type_entry_2">Весь контент (Сортування за популярністю)</string>
     <string name="revanced_overlay_button_play_all_type_entry_3">Лише відео (Сортування за часом)</string>
@@ -1015,6 +1040,7 @@
     <string name="revanced_enable_custom_seekbar_color_summary_off">Користувацький колір смуги прогресу вимкнено.</string>
     <string name="revanced_custom_seekbar_color_value_title">Користувацьке значення кольору смуги прогресу</string>
     <string name="revanced_custom_seekbar_color_value_summary">Введіть hex код кольору смуги прогресу.</string>
+    <string name="revanced_custom_seekbar_color_value_invalid_invalid_toast">Недійсне значення кольору смуги прогресу.</string>
     <string name="revanced_enable_seekbar_tapping_title">Увімкнути натискання на смугу прогресу</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">Натискання на смугу прогресу увімкнено.</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">Натискання на смугу прогресу вимкнено.</string>
@@ -1044,11 +1070,6 @@
 Інтернет даних може використовуватися більше, та мініатюри панелі прогресу матимуть невелику затримку перед показом.
 
 Ця функція працює найкраще з дуже швидким інтернетом."</string>
-    <string name="revanced_enable_cairo_seekbar_title">Увімкнути смугу прогресу Каїр</string>
-    <string name="revanced_enable_cairo_seekbar_summary_on">"Смугу прогресу Каїр увімкнено.
-
-Побічний ефект: Тема Каїр також застосовується до цяток сповіщення."</string>
-    <string name="revanced_enable_cairo_seekbar_summary_off">Смугу прогресу Каїр вимкнено.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Video description -->
     <string name="revanced_preference_screen_video_description_title">Опис відео</string>
     <string name="revanced_preference_screen_video_description_summary">Приховувати чи показувати компоненти опису відео.</string>
@@ -1059,8 +1080,8 @@
     <string name="revanced_hide_ai_generated_video_summary_section_summary_on">Секцію короткого змісту відео, згенерованого ШІ приховано.</string>
     <string name="revanced_hide_ai_generated_video_summary_section_summary_off">Секцію короткого змісту відео, згенерованого ШІ показується.</string>
     <string name="revanced_hide_attributes_section_title">Приховати секції атрибутів</string>
-    <string name="revanced_hide_attributes_section_summary_on">Секції Місця на відео, Ігри та Музика приховано.</string>
-    <string name="revanced_hide_attributes_section_summary_off">Секції Місця на відео, Ігри та Музика показується.</string>
+    <string name="revanced_hide_attributes_section_summary_on">Секції Місця на відео, Ігри, Музика та Люди згадували приховано.</string>
+    <string name="revanced_hide_attributes_section_summary_off">Секції Місця на відео, Ігри, Музика та Люди згадували показується.</string>
     <string name="revanced_hide_chapters_section_title">Приховати секції розділів</string>
     <string name="revanced_hide_chapters_section_summary_on">Секції розділів приховано.</string>
     <string name="revanced_hide_chapters_section_summary_off">Секції розділів показується.</string>
@@ -1098,6 +1119,9 @@
     <string name="revanced_expand_video_description_strings_default_value">Опис</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">YouTube Shorts</string>
+    <string name="revanced_disable_shorts_background_playback_title">Вимкнути фонове відтворення Shorts</string>
+    <string name="revanced_disable_shorts_background_playback_summary_on">Фонове відтворення Shorts вимкнено.</string>
+    <string name="revanced_disable_shorts_background_playback_summary_off">Фонове відтворення Shorts увімкнено.</string>
     <string name="revanced_disable_resuming_shorts_player_title">Вимкнути відновлення плеєра Shorts</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">Плеєр Shorts не відновлюватиметься при запуску додатка.</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">Плеєр Shorts відновлюватиметься при запуску додатка.</string>
@@ -1130,6 +1154,7 @@
     <string name="revanced_hide_shorts_shelf_history_summary_off">Показується в історії перегляду.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental Flags -->
     <string name="revanced_change_shorts_repeat_state_title">Змінити стан повторення Shorts</string>
+    <string name="revanced_change_shorts_background_repeat_state_title">Змінити стан повторення Shorts у фоні</string>
     <string name="revanced_change_shorts_repeat_state_entry_auto_play">Автовідворення</string>
     <string name="revanced_change_shorts_repeat_state_entry_default">Стандартно</string>
     <string name="revanced_change_shorts_repeat_state_entry_pause">Призупинити</string>
@@ -1243,6 +1268,45 @@
     <string name="revanced_shorts_double_tap_to_like_animation_entry_4">Серце</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_5">Серце (Тоноване)</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_6">Прихована</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Custom actions -->
+    <string name="revanced_preference_category_custom_actions">Спеціальні дії</string>
+    <string name="revanced_enable_shorts_custom_actions_flyout_menu_title">Увімкнути спеціальні дії у висувному меню</string>
+    <string name="revanced_enable_shorts_custom_actions_flyout_menu_summary_on">"Спеціальні дії увімкнено у висувному меню.
+
+Застереження:
+• Не працює, якщо версію програми підроблено на 18.49.37 чи нижче.
+• Не працює з прямими трансляціями."</string>
+    <string name="revanced_enable_shorts_custom_actions_flyout_menu_summary_off">Спеціальні дії вимкнено у висловному меню.</string>
+    <string name="revanced_enable_shorts_custom_actions_toolbar_title">Увімкнути спеціальні дії в панелі інструментів</string>
+    <string name="revanced_enable_shorts_custom_actions_toolbar_summary_on">"Спеціальні дії увімкнено в панелі інструментів.
+
+Натисніть і утримуйте кнопку Більше, щоб побачити діалог Спеціальні дії."</string>
+    <string name="revanced_enable_shorts_custom_actions_toolbar_summary_off">Спеціальні дії вимкнено в панелі інструментів.</string>
+    <string name="revanced_shorts_custom_actions_toolbar_dialog_title">Спеціальні дії</string>
+    <string name="revanced_shorts_custom_actions_copy_video_url_label">Копіювати URL відео</string>
+    <string name="revanced_shorts_custom_actions_copy_video_url_title">Показувати меню копіювання URL відео</string>
+    <string name="revanced_shorts_custom_actions_copy_video_url_summary_on">Меню копіювання URL показується.</string>
+    <string name="revanced_shorts_custom_actions_copy_video_url_summary_off">Меню копіювання URL приховано.</string>
+    <string name="revanced_shorts_custom_actions_copy_video_url_timestamp_label">Копіювати URL з міткою часу</string>
+    <string name="revanced_shorts_custom_actions_copy_video_url_timestamp_title">Показувати меню копіювання URL з міткою часу</string>
+    <string name="revanced_shorts_custom_actions_copy_video_url_timestamp_summary_on">Меню копіювання URL з міткою часу показується.</string>
+    <string name="revanced_shorts_custom_actions_copy_video_url_timestamp_summary_off">Меню копіювання URL з міткою часу приховано.</string>
+    <string name="revanced_shorts_custom_actions_external_downloader_label">Зовнішній завантажувач</string>
+    <string name="revanced_shorts_custom_actions_external_downloader_title">Показувати меню зовнішнього завантажувача</string>
+    <string name="revanced_shorts_custom_actions_external_downloader_summary_on">Меню зовнішнього завантажувача показується.</string>
+    <string name="revanced_shorts_custom_actions_external_downloader_summary_off">Меню зовнішнього завантажувача приховано.</string>
+    <string name="revanced_shorts_custom_actions_open_video_label">Відкрити відео</string>
+    <string name="revanced_shorts_custom_actions_open_video_title">Показувати меню Відкрити відео</string>
+    <string name="revanced_shorts_custom_actions_open_video_summary_on">Меню Відкрити відео показується.</string>
+    <string name="revanced_shorts_custom_actions_open_video_summary_off">Меню Відкрити відео приховано.</string>
+    <string name="revanced_shorts_custom_actions_repeat_state_label">Стан повторення</string>
+    <string name="revanced_shorts_custom_actions_repeat_state_title">Показувати меню Стан повторення</string>
+    <string name="revanced_shorts_custom_actions_repeat_state_summary_on">Меню Стан повторення показується.</string>
+    <string name="revanced_shorts_custom_actions_repeat_state_summary_off">Меню Стан повторення приховано.</string>
+    <string name="revanced_shorts_custom_actions_about_title">Про Спеціальні дії</string>
+    <string name="revanced_shorts_custom_actions_about_about_summary">"Ця функція все ще експериментальна, тому немає гарантії, що буде працювати.
+
+Більшість помилок неможливо виправити через обмеження на стороні клієнта, тому використовуйте лише для тестування."</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
     <string name="revanced_enable_shorts_time_stamp_title">Увімкнути мітку часу</string>
     <string name="revanced_enable_shorts_time_stamp_summary_on">"Мітку часу увімкнено.
@@ -1694,25 +1758,14 @@
     <string name="revanced_spoof_streaming_data_user_dialog_message">Вимикання цього налаштування може призвести до проблем відтворення відео.</string>
     <string name="revanced_spoof_streaming_data_type_title">Основний клієнт</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_music">Музика iOS</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Побічні ефекти імітування</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">"• Прямі трансляції починаються з початку.
-• Відео можуть закінчуватися на 1 секунду раніше."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_skip_livestream_playback">• Відео можуть закінчуватися на 1 секунду раніше.</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• Меню звукової доріжки відсутнє.
 • Стабілізація гучності недоступна."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Меню звукової доріжки відсутнє.
 • Стабілізація гучності недоступна."</string>
-    <string name="revanced_spoof_streaming_data_ios_force_avc_title">Примусово AVC (H.264) iOS</string>
-    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">AVC (H.264) кодек відео iOS.</string>
-    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">AVC (H.264), VP9, чи AV1 кодек відео iOS.</string>
-    <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"Увімкнення може зменшити споживання акумулятора та усунути затинання при відтворенні.
-
-AVC (H.264) має максимальну роздільну здатність 1080p, а для відтворення відео використовується більше інтернет-даних, ніж VP9 або AV1."</string>
-    <string name="revanced_spoof_streaming_data_ios_skip_livestream_playback_title">Пропускати відтворення прямих трансляцій iOS</string>
-    <string name="revanced_spoof_streaming_data_ios_skip_livestream_playback_summary_on">Клієнт iOS не використовується для відтворення прямих трансляцій.</string>
-    <string name="revanced_spoof_streaming_data_ios_skip_livestream_playback_summary_off">Клієнт iOS використовується для відтворення прямих трансляцій.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Показувати в Статистика для сисадмінів</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Клієнт, що використовується для отримання даних трансляції показується у Статистика для сисадмінів.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Клієнт, що використовується для отримання даних трансляції приховано у Статистика для сисадмінів.</string>

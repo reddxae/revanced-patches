@@ -369,6 +369,8 @@ Shorts
     <string name="revanced_spoof_app_version_target_entry_18_33_40">18.33.40 - Восстановление старой панели действий Shorts</string>
     <string name="revanced_spoof_app_version_target_entry_18_38_45">18.38.45 - Восстановление старого поведения качества видео по умолчанию</string>
     <string name="revanced_spoof_app_version_target_entry_18_48_39">18.48.39 - Отключение обновления \"просмотров\" и \"лайков\" в реальном времени</string>
+    <string name="revanced_spoof_app_version_target_entry_19_26_42">19.26.42 - Выключится значок Каир в навигации и панели инструментов</string>
+    <string name="revanced_spoof_app_version_target_entry_19_33_37">19.33.37 - Восстановит старый стиль выпадающей панели скорости проигрывания</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Account menu -->
     <string name="revanced_preference_screen_account_menu_title">Меню аккаунта</string>
     <string name="revanced_preference_screen_account_menu_summary">Настройка меню аккаунта и вкладки Вы.</string>
@@ -419,31 +421,49 @@ Shorts
     <string name="revanced_preference_screen_miniplayer_title">Мини-плеер</string>
     <string name="revanced_preference_screen_miniplayer_summary">Стиль мини-плеера.</string>
     <string name="revanced_miniplayer_type_title">Тип мини-плеера</string>
+    <string name="revanced_miniplayer_type_entry_0">Отключено</string>
     <string name="revanced_miniplayer_type_entry_1">Оригинал</string>
     <string name="revanced_miniplayer_type_entry_2">Телефон</string>
     <string name="revanced_miniplayer_type_entry_3">Планшет</string>
     <string name="revanced_miniplayer_type_entry_4">Современный 1</string>
     <string name="revanced_miniplayer_type_entry_5">Современный 2</string>
     <string name="revanced_miniplayer_type_entry_6">Современный 3</string>
-    <string name="revanced_miniplayer_enable_double_tap_action_title">Действие двойного нажатия</string>
-    <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"Действие двойного нажатия включено.
+    <string name="revanced_miniplayer_rounded_corners_title">Скругления углов мини-плеера</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_on">Скругления углов включено.</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_off">Скругления углов отключено.</string>
+    <string name="revanced_miniplayer_double_tap_action_title">Изменение размера жестом</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_on">"Двойное нажатие и щипок для изменения размера включено.
 
-Плеер \"Современный 1\" - изменяет размер уменьшенного видео.
-Плеер \"Современный 2, 3\" - закрывает уменьшенное видео."</string>
-    <string name="revanced_miniplayer_enable_double_tap_action_summary_off">Действие двойного нажатия отключено.</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_title">Перетаскивание мини-плеера</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">Перетаскивание мини-плеера включено.</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">Перетаскивание мини-плеера отключено.</string>
+• Двойное нажатие для увеличения размера мини-плеера.
+• Двойное нажатие еще раз для восстановления исходного размера."</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_off">Двойное нажатие и щипок для изменения размера отключено.</string>
+    <string name="revanced_miniplayer_drag_and_drop_title">Перетаскивание мини-плеера</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_on">"Перетаскивание мини-плеера включено.
+
+Мини-плеер можно перемещать по экрану."</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_off">Перетаскивание мини-плеера отключено.</string>
+    <string name="revanced_miniplayer_horizontal_drag_title">Жест горизонтального перетаскивания.</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_on">"Жест горизонтального перетаскивания включен.
+
+Мини-плеер можно перетаскивать за пределы экрана влево или вправо."</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_off">Жест горизонтального перетаскивания отключен.</string>
     <string name="revanced_miniplayer_hide_expand_close_title">Кнопки \"Развернуть\" и \"Закрыть\"</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_on">Кнопки скрыты.
 (развернуть или закрыть мини-плеер жестом)</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_off">Кнопки \"Развернуть\" и \"Закрыть\" отображены.</string>
+    <string name="revanced_miniplayer_hide_expand_close_legacy_title">Кнопки \"Развернуть\" и \"Закрыть\"</string>
+    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_on">"Кнопки \"Развернуть\" и \"Закрыть\" скрыты.
+Только жесты."</string>
+    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_off">Кнопки \"Развернуть\" и \"Закрыть\" отображены.</string>
     <string name="revanced_miniplayer_hide_subtext_title">Подстрочный текст</string>
     <string name="revanced_miniplayer_hide_subtext_summary_on">Подстрочный текст скрыт.</string>
     <string name="revanced_miniplayer_hide_subtext_summary_off">Подстрочный текст отображен.</string>
     <string name="revanced_miniplayer_hide_rewind_forward_title">Кнопки перемотки</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Кнопки перемотки скрыты.</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Кнопки перемотки отображены.</string>
+    <string name="revanced_miniplayer_width_dip_title">Начальный размер</string>
+    <string name="revanced_miniplayer_width_dip_summary">Начальный размер мини-плеера в пикселях.</string>
+    <string name="revanced_miniplayer_width_dip_invalid_toast">Размер в пикселях должен быть между %1$s и %2$s.</string>
     <string name="revanced_miniplayer_opacity_title">Непрозрачность мини-плеера</string>
     <string name="revanced_miniplayer_opacity_summary">Значение непрозрачности в промежутке 0-100, где 0 это прозрачный.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">Непрозрачность должна быть в диапазоне 0-100. Сброс по умолчанию.</string>
@@ -541,9 +561,9 @@ Shorts
     <string name="revanced_hide_settings_menu_connected_accounts_title">Связанные приложения</string>
     <string name="revanced_hide_settings_menu_connected_accounts_summary_on">Связанные приложения скрыты.</string>
     <string name="revanced_hide_settings_menu_connected_accounts_summary_off">Связанные приложения отображены.</string>
-    <string name="revanced_hide_settings_menu_live_chat_title">Чат</string>
-    <string name="revanced_hide_settings_menu_live_chat_summary_on">Чат скрыт.</string>
-    <string name="revanced_hide_settings_menu_live_chat_summary_off">Чат отображен.</string>
+    <string name="revanced_hide_settings_menu_live_chat_title">Чат трансляции</string>
+    <string name="revanced_hide_settings_menu_live_chat_summary_on">Чат трансляции скрыт.</string>
+    <string name="revanced_hide_settings_menu_live_chat_summary_off">Чат трансляции отображен.</string>
     <string name="revanced_hide_settings_menu_captions_title">Субтитры</string>
     <string name="revanced_hide_settings_menu_captions_summary_on">Субтитры скрыты.</string>
     <string name="revanced_hide_settings_menu_captions_summary_off">Субтитры отображены.</string>
@@ -645,7 +665,10 @@ Shorts
     <string name="revanced_hide_info_panel_title">Информационные панели</string>
     <string name="revanced_hide_info_panel_summary_on">Информационные панели скрыты.</string>
     <string name="revanced_hide_info_panel_summary_off">Информационные панели отображены.</string>
-    <string name="revanced_hide_live_chat_messages_title">Скрыть сообщения онлайн чата</string>
+    <string name="revanced_hide_live_chat_summary_title">Сводка в чате трансляции</string>
+    <string name="revanced_hide_live_chat_summary_summary_on">Сводка чата трансляции скрыта.</string>
+    <string name="revanced_hide_live_chat_summary_summary_off">Сводка чата трансляции отображена.</string>
+    <string name="revanced_hide_live_chat_messages_title">Сообщения чата трансляции</string>
     <string name="revanced_hide_live_chat_messages_summary_on">Сообщения онлайн чата скрыты.\n\nТакже применимо к трансляциям в Shorts.</string>
     <string name="revanced_hide_live_chat_messages_summary_off">Сообщения онлайн чата отображены.\n\nТакже применимо к трансляциям в Shorts.</string>
     <string name="revanced_hide_medical_panel_title">Медицинские панели</string>
@@ -849,7 +872,7 @@ Shorts
     <string name="revanced_hide_autoplay_preview_title">Превью автовоспроизведения</string>
     <string name="revanced_hide_autoplay_preview_summary_on">Превью автовоспроизведения скрыто.</string>
     <string name="revanced_hide_autoplay_preview_summary_off">Превью автовоспроизведения отображено.</string>
-    <string name="revanced_hide_live_chat_replay_button_title">Скрыть кнопку \"Повтор\" в онлайн чате</string>
+    <string name="revanced_hide_live_chat_replay_button_title">Кнопка \"Повтор\" в чате трансляции</string>
     <string name="revanced_hide_live_chat_replay_button_summary_on">Кнопка \"Повтор\" в онлайн чате скрыта.\n\nПоявляется в полноэкранном режиме при закрытии онлайн чата.</string>
     <string name="revanced_hide_live_chat_replay_button_summary_off">Кнопка \"Повтор\" в онлайн чате отображена.\n\nПоявляется в полноэкранном режиме при закрытии онлайн чата.</string>
     <string name="revanced_hide_related_video_overlay_title">Предложение о похожих видео</string>
@@ -869,9 +892,9 @@ Shorts
     <string name="revanced_hide_quick_actions_like_button_title">Кнопка \"Лайк\"</string>
     <string name="revanced_hide_quick_actions_like_button_summary_on">Кнопка \"Лайк\" скрыта.</string>
     <string name="revanced_hide_quick_actions_like_button_summary_off">Кнопка \"Лайк\" отображена.</string>
-    <string name="revanced_hide_quick_actions_live_chat_button_title">Кнопка \"Чат\"</string>
-    <string name="revanced_hide_quick_actions_live_chat_button_summary_on">Кнопка \"Чат\" скрыта.</string>
-    <string name="revanced_hide_quick_actions_live_chat_button_summary_off">Кнопка \"Чат\" отображена.</string>
+    <string name="revanced_hide_quick_actions_live_chat_button_title">Кнопка \"Чат трансляции\"</string>
+    <string name="revanced_hide_quick_actions_live_chat_button_summary_on">Кнопка \"Чат трансляции\" скрыта.</string>
+    <string name="revanced_hide_quick_actions_live_chat_button_summary_off">Кнопка \"Чат трансляции\" отображена.</string>
     <string name="revanced_hide_quick_actions_more_button_title">Кнопка \"Еще\"</string>
     <string name="revanced_hide_quick_actions_more_button_summary_on">Кнопка \"Еще\" скрыта.</string>
     <string name="revanced_hide_quick_actions_more_button_summary_off">Кнопка \"Еще\" отображена.</string>
@@ -974,8 +997,9 @@ Shorts
 Коснитесь и удерживайте, для отмены.
 
 Инфо:
-• Может не работать в трансляциях."</string>
+• Может не работать в прямых трансляциях."</string>
     <string name="revanced_overlay_button_play_all_type_title">Сортировка создаваемого списка</string>
+    <string name="revanced_overlay_button_play_all_type_entry_0">Все (сорт. по времени, по возрастанию)</string>
     <string name="revanced_overlay_button_play_all_type_entry_1">Все (по времени)</string>
     <string name="revanced_overlay_button_play_all_type_entry_2">Все (по популярности)</string>
     <string name="revanced_overlay_button_play_all_type_entry_3">Только видео (по времени)</string>
@@ -987,7 +1011,7 @@ Shorts
     <string name="revanced_overlay_button_play_all_type_entry_9">Только содержимое всех участников</string>
     <string name="revanced_overlay_button_play_all_type_entry_10">Только видео участников</string>
     <string name="revanced_overlay_button_play_all_type_entry_11">Только Shorts участников</string>
-    <string name="revanced_overlay_button_play_all_type_entry_12">Только потоковые видео участников</string>
+    <string name="revanced_overlay_button_play_all_type_entry_12">Только прямые трансляции участников</string>
     <string name="revanced_overlay_button_play_all_not_available_toast">Не удалось создать плейлист из-за несоответствия id канала.</string>
     <string name="revanced_whitelist_settings_title">\"Белый список\" канала</string>
     <string name="revanced_whitelist_settings_summary">Управление каналами в белом списке.</string>
@@ -1024,6 +1048,7 @@ Shorts
     <string name="revanced_enable_custom_seekbar_color_summary_off">Используется оригинальный цвет шкалы воспроизведения.</string>
     <string name="revanced_custom_seekbar_color_value_title">HEX код цвета шкалы воспроизведения</string>
     <string name="revanced_custom_seekbar_color_value_summary">Введите HEX код цвета шкалы воспроизведения.</string>
+    <string name="revanced_custom_seekbar_color_value_invalid_invalid_toast">Неверное значение цвета полосы прогресса.</string>
     <string name="revanced_enable_seekbar_tapping_title">Перемотка нажатием</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">Перемотка нажатием включена.</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">Перемотка нажатием отключена.</string>
@@ -1053,12 +1078,6 @@ Shorts
 Поток данных повышается, и миниатюры будут подгружаться с задержкой.
 
 Рекомендуется интернет соединение с хорошей пропускной способностью."</string>
-    <string name="revanced_enable_cairo_seekbar_title">Тема Каир прогресса</string>
-    <string name="revanced_enable_cairo_seekbar_summary_on">"Тема Каир прогресса включена.
-
-Дополнительно:
-Тема также применяется к точкам уведомлений."</string>
-    <string name="revanced_enable_cairo_seekbar_summary_off">Тема Каир прогресса отключена.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Video description -->
     <string name="revanced_preference_screen_video_description_title">Описание видео</string>
     <string name="revanced_preference_screen_video_description_summary">Скрыть или отобразить компоненты описания видео.</string>
@@ -1108,6 +1127,9 @@ Shorts
     <string name="revanced_expand_video_description_strings_default_value">Описание</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">Shorts</string>
+    <string name="revanced_disable_shorts_background_playback_title">Фоновое воспроизведение Shorts</string>
+    <string name="revanced_disable_shorts_background_playback_summary_on">Фоновое воспроизведение Shorts отключено.</string>
+    <string name="revanced_disable_shorts_background_playback_summary_off">Фоновое воспроизведение Shorts включено.</string>
     <string name="revanced_disable_resuming_shorts_player_title">Возобновление Shorts при запуске приложения</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">Возобновление Shorts отключено.</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">Возобновление Shorts включено.</string>
@@ -1141,6 +1163,7 @@ Shorts
     <string name="revanced_hide_shorts_shelf_history_summary_off">В истории просмотра отображены.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental Flags -->
     <string name="revanced_change_shorts_repeat_state_title">Состояние повторов в Shorts</string>
+    <string name="revanced_change_shorts_background_repeat_state_title">Состояние повтора Shorts в фоне</string>
     <string name="revanced_change_shorts_repeat_state_entry_auto_play">Автопереход</string>
     <string name="revanced_change_shorts_repeat_state_entry_default">По умолчанию</string>
     <string name="revanced_change_shorts_repeat_state_entry_pause">Остановить</string>
@@ -1175,11 +1198,11 @@ Shorts
     <string name="revanced_hide_shorts_info_panel_title">Информационные панели</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">Информационные панели скрыты.</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">Информационные панели отображены.</string>
-    <string name="revanced_hide_shorts_live_header_title">Заголовок онлайн чата</string>
-    <string name="revanced_hide_shorts_live_header_summary_on">Заголовок онлайн чата скрыт.
+    <string name="revanced_hide_shorts_live_header_title">Заголовок чата трансляции</string>
+    <string name="revanced_hide_shorts_live_header_summary_on">Заголовок чата трансляции скрыт.
 
 Кнопка возврата в заголовке не будет скрыта.</string>
-    <string name="revanced_hide_shorts_live_header_summary_off">Заголовок онлайн чата отображен.
+    <string name="revanced_hide_shorts_live_header_summary_off">Заголовок чата трансляции отображен.
 
 Кнопка возврата в заголовке не будет скрыта.</string>
     <string name="revanced_hide_shorts_channel_bar_title">Панель канала</string>
@@ -1258,6 +1281,46 @@ Shorts
     <string name="revanced_shorts_double_tap_to_like_animation_entry_4">Сердечко</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_5">Сердце (Оттенок)</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_6">Скрыта</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Custom actions -->
+    <string name="revanced_preference_category_custom_actions">Пользовательские действия</string>
+    <string name="revanced_enable_shorts_custom_actions_flyout_menu_title">Пользовательские действия в выпадающем меню</string>
+    <string name="revanced_enable_shorts_custom_actions_flyout_menu_summary_on">"Пользовательские действия в выпадающем меню включены.
+
+Ограничения:
+• Не работает при подмене на версию 18.49.37 и старше.
+• Не работает с прямыми трансляциями."</string>
+    <string name="revanced_enable_shorts_custom_actions_flyout_menu_summary_off">Пользовательские действия отключены.</string>
+    <string name="revanced_enable_shorts_custom_actions_toolbar_title">Пользовательские действия на панели инструментов</string>
+    <string name="revanced_enable_shorts_custom_actions_toolbar_summary_on">"Пользовательские действия включены.
+
+Нажать и удерживать кнопку Еще - покажет пользовательские настройки."</string>
+    <string name="revanced_enable_shorts_custom_actions_toolbar_summary_off">Пользовательские действия отключены.</string>
+    <string name="revanced_shorts_custom_actions_toolbar_dialog_title">Пользовательские действия</string>
+    <string name="revanced_shorts_custom_actions_copy_video_url_label">Копировать URL-адрес видео</string>
+    <string name="revanced_shorts_custom_actions_copy_video_url_title">Меню копирования URL видео</string>
+    <string name="revanced_shorts_custom_actions_copy_video_url_summary_on">Меню копирования URL видео отображено.</string>
+    <string name="revanced_shorts_custom_actions_copy_video_url_summary_off">Меню копирования URL видео скрыто.</string>
+    <string name="revanced_shorts_custom_actions_copy_video_url_timestamp_label">Скопировать URL-адрес метки времени</string>
+    <string name="revanced_shorts_custom_actions_copy_video_url_timestamp_title">Копирование URL с меткой времени</string>
+    <string name="revanced_shorts_custom_actions_copy_video_url_timestamp_summary_on">Копирование URL с меткой времени отображено.</string>
+    <string name="revanced_shorts_custom_actions_copy_video_url_timestamp_summary_off">Копирование URL с меткой времени скрыто.</string>
+    <string name="revanced_shorts_custom_actions_external_downloader_label">Внешний загрузчик</string>
+    <string name="revanced_shorts_custom_actions_external_downloader_title">Меню внешнего загрузчика</string>
+    <string name="revanced_shorts_custom_actions_external_downloader_summary_on">Меню внешнего загрузчика отображено.</string>
+    <string name="revanced_shorts_custom_actions_external_downloader_summary_off">Меню внешнего загрузчика скрыто.</string>
+    <string name="revanced_shorts_custom_actions_open_video_label">Открыть видео</string>
+    <string name="revanced_shorts_custom_actions_open_video_title">Меню открыть видео</string>
+    <string name="revanced_shorts_custom_actions_open_video_summary_on">Меню открыть видео отображено.</string>
+    <string name="revanced_shorts_custom_actions_open_video_summary_off">Меню открыть видео скрыто.</string>
+    <string name="revanced_shorts_custom_actions_repeat_state_label">Режим повтора</string>
+    <string name="revanced_shorts_custom_actions_repeat_state_title">Меню режима повтора</string>
+    <string name="revanced_shorts_custom_actions_repeat_state_summary_on">Меню режима повтора отображено.</string>
+    <string name="revanced_shorts_custom_actions_repeat_state_summary_off">Меню режима повтора скрыто.</string>
+    <string name="revanced_shorts_custom_actions_about_title">О пользовательских действиях</string>
+    <string name="revanced_shorts_custom_actions_about_about_summary">"Экспериментальная функция!
+Гарантии работы нет!
+
+Большинство ошибок не может быть исправлено из-за ограничений со стороны клиента, поэтому используйте их только для тестирования."</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
     <string name="revanced_enable_shorts_time_stamp_title">Метка времени</string>
     <string name="revanced_enable_shorts_time_stamp_summary_on">"Метка времени включена.
@@ -1343,7 +1406,7 @@ Shorts
     <string name="revanced_disable_hdr_video_title">HDR видео</string>
     <string name="revanced_disable_hdr_video_summary_on">HDR видео отключены.</string>
     <string name="revanced_disable_hdr_video_summary_off">HDR видео включены.</string>
-    <string name="revanced_disable_default_playback_speed_live_title">Скорость воспроизведения в трансляциях</string>
+    <string name="revanced_disable_default_playback_speed_live_title">Скорость в прямых трансляциях</string>
     <string name="revanced_disable_default_playback_speed_live_summary_on">Скорость воспроизведения в трансляциях отключена.</string>
     <string name="revanced_disable_default_playback_speed_live_summary_off">Скорость воспроизведения в трансляциях включена.</string>
     <string name="revanced_enable_custom_playback_speed_title">Пользовательская скорость воспроизведения</string>
@@ -1721,25 +1784,16 @@ Shorts
     <string name="revanced_spoof_streaming_data_user_dialog_message">Отключение этой настройки вызовет проблемы с воспроизведением видео.</string>
     <string name="revanced_spoof_streaming_data_type_title">Клиент по умолчанию</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_music">Музыка iOS</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Эффекты от подмены</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">"• Фильмы или платные видео могут не проигрываться."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_skip_livestream_playback">• Видео может закончиться 1 секунду ранее.</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• Меню \"Звуковая дорожка\" не доступно."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Меню \"Звуковая дорожка\" VR не доступно."</string>
-    <string name="revanced_spoof_streaming_data_ios_force_avc_title">Принудительно подмена как iOS, AVC (H.264)</string>
-    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Видео кодек подмены как iOS - AVC (H.264).</string>
-    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">Видео кодек подмены как iOS - VP9 или AV1.</string>
-    <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"Включение - может улучшить время работы батареи и исправить задержки воспроизведения.
-
-AVC (H.264) имеет максимальное разрешение 1080p, и будет использовать больше интернет данных, чем VP9 или AV1."</string>
-    <string name="revanced_spoof_streaming_data_ios_skip_livestream_playback_title">Пропустить трансляцию при подмене клиента как iOS</string>
-    <string name="revanced_spoof_streaming_data_ios_skip_livestream_playback_summary_on">Пропуск трансляции включен.</string>
-    <string name="revanced_spoof_streaming_data_ios_skip_livestream_playback_summary_off">Пропуск трансляции отключен.</string>
-    <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Показывать в Статистике для сисадминов</string>
-    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Клиент, используемый для получения данных потока, отображается в Статистике для сисадминов.</string>
-    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Клиент, используемый для получения данных потока, скрыт в Статистике для сисадминов.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Меню \"Звуковая дорожка\" отсутствует.
+• Меню \"Постоянный уровень громкости\" недоступно."</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Статистике для сисадминов</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Клиент потоковых данных отображается в Статистике для сисадминов.</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Клиент потоковых данных скрыт в Статистике для сисадминов.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">История просмотра</string>
     <string name="revanced_preference_screen_watch_history_summary">Изменить настройки истории просмотра.</string>

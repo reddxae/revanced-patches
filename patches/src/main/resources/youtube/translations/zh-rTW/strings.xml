@@ -406,30 +406,49 @@
     <string name="revanced_preference_screen_miniplayer_title">最小化播放器</string>
     <string name="revanced_preference_screen_miniplayer_summary">變更應用程式內最小化播放器的樣式。</string>
     <string name="revanced_miniplayer_type_title">最小化播放器類型</string>
+    <string name="revanced_miniplayer_type_entry_0">已停用</string>
     <string name="revanced_miniplayer_type_entry_1">原始</string>
     <string name="revanced_miniplayer_type_entry_2">電話</string>
     <string name="revanced_miniplayer_type_entry_3">平板電腦</string>
     <string name="revanced_miniplayer_type_entry_4">Modern 1</string>
     <string name="revanced_miniplayer_type_entry_5">Modern 2</string>
     <string name="revanced_miniplayer_type_entry_6">Modern 3</string>
-    <string name="revanced_miniplayer_enable_double_tap_action_title">雙擊操作</string>
-    <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"雙擊操作已啟用。
+    <string name="revanced_miniplayer_rounded_corners_title">啟用圓角角落</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_on">已設定角落為圓角。</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_off">已設定角落為方形。</string>
+    <string name="revanced_miniplayer_double_tap_action_title">啟用雙擊操作和縮放手勢來調整大小</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_on">"啟用雙擊操作和縮放手勢來調整大小。
 
- • Modern 1：雙擊將最小化影片變更為更大的尺寸。
- • Modern 2, 3：雙擊可關閉最小化影片。"</string>
-    <string name="revanced_miniplayer_enable_double_tap_action_summary_off">雙擊操作已停用。</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_title">啟用拖曳。</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">拖曳已啟用。</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">拖曳已停用。</string>
+• 雙擊可增加迷你播放器的大小。
+• 再次雙擊可恢復原始大小。"</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_off">已停用雙擊操作和縮放手勢來調整大小。</string>
+    <string name="revanced_miniplayer_drag_and_drop_title">啟用拖曳</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_on">"拖放已啟用。
+
+迷你播放器可以拖曳到螢幕的任何角落。"</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_off">拖曳已停用。</string>
+    <string name="revanced_miniplayer_horizontal_drag_title">啟用水平拖曳手勢。</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_on">"啟用水平拖曳手勢。
+
+迷你播放器可以向左或向右拖曳出螢幕。"</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_off">水平拖曳手勢已停用。</string>
     <string name="revanced_miniplayer_hide_expand_close_title">隱藏展開和關閉按鈕</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_on">按鈕已隱藏\n（滑動小型播放器即可展開或關閉）</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_off">展開和關閉按鈕已顯示</string>
+    <string name="revanced_miniplayer_hide_expand_close_legacy_title">隱藏擴展和關閉按鈕</string>
+    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_on">"按鈕被隱藏。
+
+滑動即可展開或關閉。"</string>
+    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_off">顯示展開和關閉按鈕。</string>
     <string name="revanced_miniplayer_hide_subtext_title">隱藏對話</string>
     <string name="revanced_miniplayer_hide_subtext_summary_on">對話已隱藏</string>
     <string name="revanced_miniplayer_hide_subtext_summary_off">對話已顯示</string>
     <string name="revanced_miniplayer_hide_rewind_forward_title">隱藏快轉和倒轉按鈕</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_on">快轉和倒轉按鈕已隱藏</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_off">快轉和倒轉按鈕已顯示</string>
+    <string name="revanced_miniplayer_width_dip_title">初始尺寸</string>
+    <string name="revanced_miniplayer_width_dip_summary">初始螢幕尺寸（以像素為單位）。</string>
+    <string name="revanced_miniplayer_width_dip_invalid_toast">像素大小必須介於 %1$s 和 %2$s 之間。</string>
     <string name="revanced_miniplayer_opacity_title">覆蓋層不透明度</string>
     <string name="revanced_miniplayer_opacity_summary">不透明度值介於 0-100 之間，其中 0 表示透明</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">小型播放器覆蓋層不透明度必須介於 0-100 之間。重設為預設值。</string>
@@ -1011,6 +1030,7 @@
     <string name="revanced_enable_custom_seekbar_color_summary_off">自定義進度條顏色已停用</string>
     <string name="revanced_custom_seekbar_color_value_title">自定義進度條顏色</string>
     <string name="revanced_custom_seekbar_color_value_summary">輸入套用於搜尋欄的十六進制顏色代碼</string>
+    <string name="revanced_custom_seekbar_color_value_invalid_invalid_toast">搜尋欄顏色值無效。</string>
     <string name="revanced_enable_seekbar_tapping_title">啟用進度條點擊</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">進度條點擊已啟用</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">進度條點擊已停用</string>
@@ -1040,10 +1060,6 @@
 網路資料使用量可能會更高，搜尋欄縮圖在顯示之前會稍微延遲。
 
 此功能在網路連線速度非常快的情況下效果最佳。"</string>
-    <string name="revanced_enable_cairo_seekbar_title">啟用開羅搜尋欄</string>
-    <string name="revanced_enable_cairo_seekbar_summary_on">"開羅搜尋欄已啟用。
-副作用：開羅主題也適用於通知點。"</string>
-    <string name="revanced_enable_cairo_seekbar_summary_off">開羅搜尋欄已停用。</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Video description -->
     <string name="revanced_preference_screen_video_description_title">影片描述</string>
     <string name="revanced_preference_screen_video_description_summary">隱藏或顯示影片描述組件</string>
@@ -1092,6 +1108,9 @@
     <string name="revanced_expand_video_description_strings_default_value">描述</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">短片</string>
+    <string name="revanced_disable_shorts_background_playback_title">停用 短影片 後台播放</string>
+    <string name="revanced_disable_shorts_background_playback_summary_on">短影片 後台播放已停用。</string>
+    <string name="revanced_disable_shorts_background_playback_summary_off">短影片 後台播放已啟用。</string>
     <string name="revanced_disable_resuming_shorts_player_title">停用恢復短片播放器</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">短片播放器在應用程式啟動時不會恢復播放。</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">短片播放器在應用程式啟動時會恢復播放。</string>
@@ -1237,6 +1256,7 @@
     <string name="revanced_shorts_double_tap_to_like_animation_entry_4">愛心</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_5">愛心 (著色)</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_6">隱藏</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Custom actions -->
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
     <string name="revanced_enable_shorts_time_stamp_title">啟用時間戳</string>
     <string name="revanced_enable_shorts_time_stamp_summary_on">"已知問題：由於這是 Google 開發階段的功能，因此佈局可能會被破壞。"</string>
@@ -1700,19 +1720,8 @@
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android 電視</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">偽裝副作用</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">"• 電影或付費影片可能無法播放。"</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_skip_livestream_playback">• 影片可能會提前 1 秒結束。</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• 音軌選單遺失。"</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• 音軌選單遺失。"</string>
-    <string name="revanced_spoof_streaming_data_ios_force_avc_title">強制 iOS AVC (H.264)</string>
-    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">iOS 影片編解碼器為 AVC (H.264)、VP9 或 AV1。</string>
-    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">iOS 視訊編解碼器是 AVC (H.264)、VP9 或 AV1。</string>
-    <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"啟用此功能可能會延長電池壽命並修復播放卡頓問題。
-
-AVC (H.264) 的最大解析度為 1080p，影片播放將比 VP9 或 AV1 使用更多的網路資料。"</string>
-    <string name="revanced_spoof_streaming_data_ios_skip_livestream_playback_title">跳過iOS直播播放</string>
-    <string name="revanced_spoof_streaming_data_ios_skip_livestream_playback_summary_on">iOS用戶端不用於直播回放。</string>
-    <string name="revanced_spoof_streaming_data_ios_skip_livestream_playback_summary_off">iOS用戶端用於直播回放。</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">顯示統計資料</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">用於取得串流資料的用戶端顯示在統計資料中。</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">用於獲取串流資料的用戶端隱藏在統計資料中。</string>

@@ -5,9 +5,9 @@
     <string name="accessibility_settings_edu_opt_out_text">Tus controles se modifican porque un servicio de accesibilidad está activado.</string>
     <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
-    <string name="revanced_extended_settings_search_title">Buscar en ajustes</string>
+    <string name="revanced_extended_settings_search_title">Buscar %s</string>
     <string name="revanced_extended_reset_to_default_toast">Restablecer valores predeterminados.</string>
-    <string name="revanced_preference_category_experimental_flag">Funciones experimentales</string>
+    <string name="revanced_preference_category_experimental_flag">Funciones Experimentales</string>
     <string name="revanced_extended_confirm_user_dialog_title">¿Quieres continuar?</string>
     <string name="revanced_extended_restart_first_run">Reiniciar para cargar el diseño normalmente</string>
     <string name="revanced_extended_restart_message">Actualizar y reiniciar</string>
@@ -17,7 +17,7 @@
     <string name="revanced_external_downloader_dialog_title">Descargador externo</string>
     <string name="revanced_external_downloader_not_installed_dialog_title">Advertencia</string>
     <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s no está instalado.
-Descarga %2$s desde el sitio web."</string>
+Por favor, descarga %2$s desde el sitio web."</string>
     <string name="revanced_external_downloader_not_installed_warning">%s no está instalado. Por favor, instálalo.</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Anuncios</string>
@@ -407,30 +407,49 @@ Algunos componentes pueden no estar ocultos."</string>
     <string name="revanced_preference_screen_miniplayer_title">Minirreproductor</string>
     <string name="revanced_preference_screen_miniplayer_summary">Cambia el estilo del reproductor minimizado de la aplicación.</string>
     <string name="revanced_miniplayer_type_title">Tipo de minirreproductor</string>
+    <string name="revanced_miniplayer_type_entry_0">Desactivada</string>
     <string name="revanced_miniplayer_type_entry_1">Original</string>
     <string name="revanced_miniplayer_type_entry_2">Teléfono</string>
     <string name="revanced_miniplayer_type_entry_3">Tablet</string>
     <string name="revanced_miniplayer_type_entry_4">Moderno 1</string>
     <string name="revanced_miniplayer_type_entry_5">Moderno 2</string>
     <string name="revanced_miniplayer_type_entry_6">Moderno 3</string>
-    <string name="revanced_miniplayer_enable_double_tap_action_title">Acción de doble toque</string>
-    <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"La acción de doble toque está activada.
+    <string name="revanced_miniplayer_rounded_corners_title">Habilitar esquinas redondeadas</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_on">Las esquinas están redondeadas.</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_off">Las esquinas son cuadradas.</string>
+    <string name="revanced_miniplayer_double_tap_action_title">Habilitar doble toque y pellizco para redimensionar</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_on">"Acción de doble toque y pulsar para cambiar el tamaño está habilitado.
 
-• Moderno 1: tocar dos veces para cambiar el vídeo minimizado a un tamaño mayor.
-• Moderno 2, 3: tocar dos veces para cerrar el vídeo minimizado."</string>
-    <string name="revanced_miniplayer_enable_double_tap_action_summary_off">La acción de doble toque está desactivada.</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_title">Activar arrastrar y soltar</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">Arrastrar y soltar está activado.</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">Arrastrar y soltar está desactivado.</string>
+• Doble toque para aumentar el tamaño de mini reproductor.
+• Doble toque de nuevo para restaurar el tamaño original."</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_off">Acción de doble toque y pellizco para redimensionar está desactivado.</string>
+    <string name="revanced_miniplayer_drag_and_drop_title">Activar arrastrar y soltar</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_on">"Arrastrar y soltar está habilitado.
+
+El mini reproductor puede ser arrastrado a cualquier esquina de la pantalla."</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_off">Arrastrar y soltar está desactivado.</string>
+    <string name="revanced_miniplayer_horizontal_drag_title">Activar gesto de arrastre horizontal.</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_on">"Gesto de arrastre horizontal habilitado.
+
+El mini reproductor puede ser arrastrado de la pantalla a la izquierda o derecha."</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_off">Gesto de arrastre horizontal desactivado.</string>
     <string name="revanced_miniplayer_hide_expand_close_title">Ocultar botones de expandir y cerrar</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_on">Los botones están ocultos.\n(pasa el dedo por el minirreproductor para ampliarlo o cerrarlo)</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_off">Los botones de expandir y cerrar están visibles.</string>
+    <string name="revanced_miniplayer_hide_expand_close_legacy_title">Ocultar botones de expandir y cerrar</string>
+    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_on">"Los botones están ocultos.
+
+Desliza para expandir o cerrar."</string>
+    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_off">Mostrar los botones de ampliación y cierre.</string>
     <string name="revanced_miniplayer_hide_subtext_title">Ocultar subtextos</string>
     <string name="revanced_miniplayer_hide_subtext_summary_on">Los subtextos están ocultos.</string>
     <string name="revanced_miniplayer_hide_subtext_summary_off">Los subtextos están visibles.</string>
     <string name="revanced_miniplayer_hide_rewind_forward_title">Ocultar botones de avanzar y retroceder</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Avanzar y retroceder están ocultos.</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Avanzar y retroceder están visibles.</string>
+    <string name="revanced_miniplayer_width_dip_title">Tamaño inicial</string>
+    <string name="revanced_miniplayer_width_dip_summary">Inicial en tamaño de pantalla, en píxeles.</string>
+    <string name="revanced_miniplayer_width_dip_invalid_toast">El tamaño del píxel debe estar entre %1$s y %2$s.</string>
     <string name="revanced_miniplayer_opacity_title">Opacidad de superposición</string>
     <string name="revanced_miniplayer_opacity_summary">Valor de opacidad entre 0-100, donde 0 es transparente.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">La opacidad del minirreproductor debe estar entre 0-100. Restablezca a los valores predeterminados.</string>
@@ -1012,6 +1031,7 @@ Información:
     <string name="revanced_enable_custom_seekbar_color_summary_off">El color personalizado de la barra de progreso está desactivado.</string>
     <string name="revanced_custom_seekbar_color_value_title">Valor de color personalizado de barra de progreso</string>
     <string name="revanced_custom_seekbar_color_value_summary">Escribe el código hexadecimal del color de la barra de progreso.</string>
+    <string name="revanced_custom_seekbar_color_value_invalid_invalid_toast">Valor de color de la barra de búsqueda inválido.</string>
     <string name="revanced_enable_seekbar_tapping_title">Activar pulsación en barra de progreso</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">La pulsación en la barra de progreso está activada.</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">La pulsación en la barra de progreso está desactivada.</string>
@@ -1041,11 +1061,6 @@ Información:
 El uso de datos de Internet puede ser mayor, y las miniaturas en la barra de progreso tendrán una ligera demora antes de mostrarse.
 
 Esta función funciona mejor con una conexión a Internet muy rápida."</string>
-    <string name="revanced_enable_cairo_seekbar_title">Activar barra de progreso Cairo</string>
-    <string name="revanced_enable_cairo_seekbar_summary_on">"La barra de progreso Cairo está activada.
-
-Efecto secundario: El tema Cairo también se aplica a los puntos de notificación."</string>
-    <string name="revanced_enable_cairo_seekbar_summary_off">La barra de progreso Cairo está desactivada.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Video description -->
     <string name="revanced_preference_screen_video_description_title">Descripción del vídeo</string>
     <string name="revanced_preference_screen_video_description_summary">Ocultar o mostrar los componentes de la descripción del vídeo.</string>
@@ -1095,6 +1110,9 @@ Estos caracteres varían dependiendo de tu idioma.
     <string name="revanced_expand_video_description_strings_default_value">Descripción</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">Shorts</string>
+    <string name="revanced_disable_shorts_background_playback_title">Desactivar la reproducción en segundo plano de Shorts</string>
+    <string name="revanced_disable_shorts_background_playback_summary_on">La reproducción de Shorts en segundo plano está desactivada.</string>
+    <string name="revanced_disable_shorts_background_playback_summary_off">La reproducción de Shorts en segundo plano está activada.</string>
     <string name="revanced_disable_resuming_shorts_player_title">Desactivar reanudación del reproductor de Shorts</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">El reproductor de Shorts no se reanudará al iniciar la app</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">El reproductor de Shorts se reanudará al iniciar la app</string>
@@ -1240,6 +1258,7 @@ Información:
     <string name="revanced_shorts_double_tap_to_like_animation_entry_4">Corazón</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_5">Corazón (Tinte)</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_6">Oculto</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Custom actions -->
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
     <string name="revanced_enable_shorts_time_stamp_title">Activar marcas de tiempo</string>
     <string name="revanced_enable_shorts_time_stamp_summary_on">"La marca de tiempo está activada.
@@ -1700,21 +1719,10 @@ Pulsa el botón de continuar y desactiva las optimizaciones de la batería."</st
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Efectos secundarios de falsificación</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">"• Las películas o vídeos de pago no pueden reproducirse."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_skip_livestream_playback">• Los vídeos pueden terminar 1 segundo antes.</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• Falta el menú \"Pista de audio\".
 • \"Regular volumen\" no está disponible."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Falta el menú \"Pista de audio\".
 • \"Regular volumen\" no está disponible."</string>
-    <string name="revanced_spoof_streaming_data_ios_force_avc_title">Forzar iOS AVC (H.264)</string>
-    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">El códec de vídeo de iOS es AVC (H.264).</string>
-    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">El códec de vídeo de iOS es AVC (H.264), VP9 o AV1.</string>
-    <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"Activar esto podría mejorar la duración de la batería y solucionar el problema de reproducción entrecortada.
-
-AVC (H.264) tiene una resolución máxima de 1080p, y la reproducción de vídeo utilizará más datos de Internet que VP9 o AV1."</string>
-    <string name="revanced_spoof_streaming_data_ios_skip_livestream_playback_title">Omitir reproducción de directos en iOS</string>
-    <string name="revanced_spoof_streaming_data_ios_skip_livestream_playback_summary_on">El cliente iOS no se utiliza para la reproducción de directos.</string>
-    <string name="revanced_spoof_streaming_data_ios_skip_livestream_playback_summary_off">El cliente iOS se utiliza para la reproducción de directos.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Mostrar en estadísticas para nerds</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">El cliente utilizado para obtener datos de transmisión se muestra en estadísticas para nerds.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">El cliente utilizado para obtener datos de transmisión no se muestra en estadísticas para nerds.</string>

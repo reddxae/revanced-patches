@@ -409,30 +409,39 @@ Certains composants peuvent ne pas être masqués."</string>
     <string name="revanced_preference_screen_miniplayer_title">Mini Lecteur</string>
     <string name="revanced_preference_screen_miniplayer_summary">Change le style du lecteur minimisé de l\'application.</string>
     <string name="revanced_miniplayer_type_title">Style du minilecteur</string>
+    <string name="revanced_miniplayer_type_entry_0">Désactivé</string>
     <string name="revanced_miniplayer_type_entry_1">Original</string>
     <string name="revanced_miniplayer_type_entry_2">Téléphone</string>
     <string name="revanced_miniplayer_type_entry_3">Tablette</string>
     <string name="revanced_miniplayer_type_entry_4">Moderne 1</string>
     <string name="revanced_miniplayer_type_entry_5">Moderne 2</string>
     <string name="revanced_miniplayer_type_entry_6">Moderne 3</string>
-    <string name="revanced_miniplayer_enable_double_tap_action_title">Activer l\'action du double appui</string>
-    <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"L'action du double appui est activé.
+    <string name="revanced_miniplayer_rounded_corners_title">Activer les coins arrondis</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_on">Les coins sont arrondis.</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_off">Les coins sont carrés.</string>
+    <string name="revanced_miniplayer_double_tap_action_title">Activer le double-appui et pincement pour redimensionnement</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_on">"L'action de double appui et de pincement pour redimensionner est activée.
 
-• Double-appui pour agrandir la vidéo minimisé.
-• Double-appui une seconde fois pour revenir à la taille d'origine."</string>
-    <string name="revanced_miniplayer_enable_double_tap_action_summary_off">L\'action du double appui est désactivé.</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_title">Activer le glisser-déposer</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">Le glisser-déposer est activé.</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">Le glisser-déposer est désactivé.</string>
+• Double-cliquez pour augmenter la taille du minilecteur
+• Double-cliquez à nouveau pour rétablir la taille d'origine."</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_off">L\'action de double appui et de pincement pour redimensionner est désactivée.</string>
     <string name="revanced_miniplayer_hide_expand_close_title">Masquer les boutons agrandir et fermer</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_on">Les boutons sont masqués.\n(glissez le minilecteur pour agrandir ou fermer)</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_off">Les boutons agrandir et fermer sont affichés.</string>
+    <string name="revanced_miniplayer_hide_expand_close_legacy_title">Masquer les boutons agrandir et fermer</string>
+    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_on">"Les boutons sont masqués.
+
+Glissez le minilecteur pour agrandir ou fermer."</string>
+    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_off">Les boutons agrandir et fermer sont affichés.</string>
     <string name="revanced_miniplayer_hide_subtext_title">Masquer les sous-textes</string>
     <string name="revanced_miniplayer_hide_subtext_summary_on">Les sous-textes sont masqués.</string>
     <string name="revanced_miniplayer_hide_subtext_summary_off">Les sous-textes sont affichés.</string>
     <string name="revanced_miniplayer_hide_rewind_forward_title">Masquer les boutons \'Avancer\' et \'Reculer\'</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Les boutons \'Avancer\' et \'Reculer\' sont masqués.</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Les boutons \'Avancer\' et \'Reculer\' sont affichés.</string>
+    <string name="revanced_miniplayer_width_dip_title">Taille initiale</string>
+    <string name="revanced_miniplayer_width_dip_summary">Initial à la taille de l\'écran, en pixels.</string>
+    <string name="revanced_miniplayer_width_dip_invalid_toast">La taille du pixel doit être comprise entre %1$s et %2$s.</string>
     <string name="revanced_miniplayer_opacity_title">Opacité du mini lecteur</string>
     <string name="revanced_miniplayer_opacity_summary">Valeur d\'opacité entre 0-100, 0 étant transparent.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">L\'opacité du minilecteur doit être compris entre 0-100.</string>
@@ -959,6 +968,26 @@ Appuyez longuement pour revenir à la vitesse de lecture à 1.0x. Appuyez longue
     <string name="revanced_overlay_button_whitelist_title">Afficher le bouton \"Liste blanche\"</string>
     <string name="revanced_overlay_button_whitelist_summary">Appuyez pour ouvrir la liste blanche.
 Appuyez longuement pour ouvrir les paramètres de la liste blanche.</string>
+    <string name="revanced_overlay_button_play_all_title">Afficher bouton \'Lire tout\'</string>
+    <string name="revanced_overlay_button_play_all_summary">"Appuyez pour générer une playlist de toutes les vidéos de la chaîne.
+Touchez et maintenez enfoncé pour annuler.
+
+Info :
+• Peut ne pas fonctionner sur les diffusions en direct."</string>
+    <string name="revanced_overlay_button_play_all_type_title">Mode de génération de playlist</string>
+    <string name="revanced_overlay_button_play_all_type_entry_1">Tout le contenu (triés par ordre chrono.)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_2">Tout le contenu (triés par popularité)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_3">Vidéos uniquement (triées par ordre chrono.)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_4">Vidéos uniquement (triées par popularité)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_5">Shorts uniquement (triés par ordre chrono.)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_6">Shorts uniquement (triés par popularité)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_7">Vidéos diffusées en direct uniquement (triés par ordre chrono.)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_8">Vidéos diffusées en direct uniquement (triés par popularité)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_9">Contenu réservé aux membres uniquement</string>
+    <string name="revanced_overlay_button_play_all_type_entry_10">Vidéos réservés aux membres uniquement</string>
+    <string name="revanced_overlay_button_play_all_type_entry_11">Shorts réservés aux membres uniquement</string>
+    <string name="revanced_overlay_button_play_all_type_entry_12">Diffusion en direct réservé aux membres uniquement</string>
+    <string name="revanced_overlay_button_play_all_not_available_toast">Impossible de générer une playlist en raison d\'une erreur d\'id de la chaîne.</string>
     <string name="revanced_whitelist_settings_title">Liste blanche des chaînes</string>
     <string name="revanced_whitelist_settings_summary">Vérifier ou supprimer les chaînes ajoutés à la liste blanche.</string>
     <string name="revanced_whitelist_added">La chaîne \'%1$s\' a été ajoutée à la liste blanche \'%2$s\'.</string>
@@ -997,6 +1026,7 @@ Appuyez longuement pour modifier le type d'information ajouté."</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">La couleur personnalisée de la barre de progression est désactivée.</string>
     <string name="revanced_custom_seekbar_color_value_title">Couleur perso. barre de progression</string>
     <string name="revanced_custom_seekbar_color_value_summary">Saisissez le code hexadécimal de la couleur de la barre de progression.</string>
+    <string name="revanced_custom_seekbar_color_value_invalid_invalid_toast">Valeur de la couleur de la barre de progression invalide.</string>
     <string name="revanced_enable_seekbar_tapping_title">Activer l\'appui sur la barre de progression</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">L\'appui sur la barre de progression est activé.</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">L\'appui sur la barre de progression est désactivé.</string>
@@ -1026,11 +1056,6 @@ Appuyez longuement pour modifier le type d'information ajouté."</string>
 L'utilisation des données Internet peut être plus élevée et les miniatures de la barre de progression s'afficheront avec un léger retard.
 
 Cette fonction fonctionne mieux avec une connexion internet très rapide."</string>
-    <string name="revanced_enable_cairo_seekbar_title">Activer la barre de progression Cairo</string>
-    <string name="revanced_enable_cairo_seekbar_summary_on">"La barre de progression Cairo est activé.
-
-Effet secondaire : le thème Cairo peut également s'appliquer sur les points de notification."</string>
-    <string name="revanced_enable_cairo_seekbar_summary_off">La barre de progression Cairo est désactivé.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Video description -->
     <string name="revanced_preference_screen_video_description_title">Description vidéo</string>
     <string name="revanced_preference_screen_video_description_summary">Masque ou affiche les éléments de la description de la vidéo.</string>
@@ -1041,8 +1066,8 @@ Effet secondaire : le thème Cairo peut également s'appliquer sur les points d
     <string name="revanced_hide_ai_generated_video_summary_section_summary_on">La section \"Résumé de la vidéo générée par l\'IA\" est masquée.</string>
     <string name="revanced_hide_ai_generated_video_summary_section_summary_off">La section \"Résumé de la vidéo générée par l\'IA\" est affichée.</string>
     <string name="revanced_hide_attributes_section_title">Masquer la section \"Mentions\"</string>
-    <string name="revanced_hide_attributes_section_summary_on">Les sections \"Lieux Populaires\", \"Jeux\" et \"Musique\" présent sous la description sont masquées.</string>
-    <string name="revanced_hide_attributes_section_summary_off">Les sections \"Lieux Populaires\", \"Jeux\" et \"Musique\" présent sous la description sont affichés.</string>
+    <string name="revanced_hide_attributes_section_summary_on">Les sections \'Lieux Populaires\', \'Jeux\' et \'Musique\' présent sous la description sont masquées.</string>
+    <string name="revanced_hide_attributes_section_summary_off">Les sections \'Lieux Populaires\', \'Jeux\' et \'Musique\' présent sous la description sont affichés.</string>
     <string name="revanced_hide_chapters_section_title">Masquer la section des chapitres</string>
     <string name="revanced_hide_chapters_section_summary_on">La section des chapitres est masqué.</string>
     <string name="revanced_hide_chapters_section_summary_off">La section des chapitres est affiché.</string>
@@ -1079,6 +1104,9 @@ L'option \"Ouvrir la description automatiquement\" risque de ne pas fonctionner 
     <string name="revanced_expand_video_description_strings_default_value">Description</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">Shorts</string>
+    <string name="revanced_disable_shorts_background_playback_title">Désactiver la lecture en arrière-plan des Shorts</string>
+    <string name="revanced_disable_shorts_background_playback_summary_on">La lecture en arrière-plan des Shorts est désactivée.</string>
+    <string name="revanced_disable_shorts_background_playback_summary_off">La lecture en arrière-plan des Shorts est activée.</string>
     <string name="revanced_disable_resuming_shorts_player_title">Désac. \"Reprendre la lecture\" sur les Shorts</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">Les shorts ne reprennent pas au démarrage de l\'application.</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">Les shorts reprennent au démarrage de l\'application.</string>
@@ -1224,6 +1252,7 @@ Information :
     <string name="revanced_shorts_double_tap_to_like_animation_entry_4">Cœur</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_5">Cœur (Teinte)</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_6">Masqué</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Custom actions -->
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
     <string name="revanced_enable_shorts_time_stamp_title">Activer l\'horodatage</string>
     <string name="revanced_enable_shorts_time_stamp_summary_on">"L'horodatage est activé.
@@ -1685,20 +1714,10 @@ Cliquez sur le bouton Continuer et désactivez les optimisations de la batterie.
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Effets inconnus de la falsification</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">"• Les films ou les vidéos payantes peuvent ne pas être lus.
-• Les diffusions en direct commencent au début.
-• Les vidéos peuvent se terminer 1 seconde plus tôt.
-• Le codec audio Opus peut ne pas être supporté."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• Le menu \"Piste Audio\" est manquant.
 • Le volume stable n'es pas disponible."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Le menu \"Piste Audio\" est manquant.
 • Le volume stable n'es pas disponible."</string>
-    <string name="revanced_spoof_streaming_data_ios_force_avc_title">Forcer iOS AVC (H.264)</string>
-    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Le codec vidéo d\'iOS est AVC (H.264).</string>
-    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">Les codecs vidéos d\'iOS sont AVC (H.264), VP9, ou AV1.</string>
-    <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"Activer ce paramètre peut améliorer l'autonomie de la batterie et résoudre les problèmes de lecture.
-
-AVC (H.264) a une résolution maximale de 1080p, et la lecture vidéo utilisera plus de données internet que le VP9 ou le AV1."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Afficher dans \"Statistiques pour les nerds\"</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Le client utilisé pour récupérer les données de lecture en direct est affiché dans \"Statistiques pour les nerds\".</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Le client utilisé pour récupérer les données de lecture en direct est masqué dans \"Statistiques pour les nerds\".</string>

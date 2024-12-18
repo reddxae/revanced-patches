@@ -1,22 +1,19 @@
 package app.revanced.extension.shared.patches.spoof;
 
-import static app.revanced.extension.shared.utils.Utils.isSDKAbove;
-
 import android.net.Uri;
 import android.text.TextUtils;
 
 import androidx.annotation.Nullable;
 
-import com.google.android.libraries.youtube.innertube.model.media.FormatStreamModel;
 import com.google.protos.youtube.api.innertube.StreamingDataOuterClass$StreamingData;
 
+import java.lang.reflect.Field;
 import java.nio.ByteBuffer;
-import java.util.Collections;
-import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 import app.revanced.extension.shared.patches.BlockRequestPatch;
-import app.revanced.extension.shared.patches.client.AppClient.ClientType;
 import app.revanced.extension.shared.patches.spoof.requests.StreamingDataRequest;
 import app.revanced.extension.shared.settings.BaseSettings;
 import app.revanced.extension.shared.utils.Logger;
@@ -27,17 +24,9 @@ public class SpoofStreamingDataPatch extends BlockRequestPatch {
 
     /**
      * Key: videoId.
-     * Value: Original StreamingData of Android client.
+     * Value: original [streamingData.formats].
      */
-    private static final Map<String, StreamingDataOuterClass$StreamingData> streamingDataMap = Collections.synchronizedMap(
-            new LinkedHashMap<>(10) {
-                private static final int CACHE_LIMIT = 5;
-
-                @Override
-                protected boolean removeEldestEntry(Entry eldest) {
-                    return size() > CACHE_LIMIT; // Evict the oldest entry if over the cache limit.
-                }
-            });
+    private static final ConcurrentHashMap<String, List<?>> formatsMap = new ConcurrentHashMap<>(20, 0.8f);
 
     /**
      * Injection point.
@@ -48,6 +37,7 @@ public class SpoofStreamingDataPatch extends BlockRequestPatch {
 
     /**
      * Injection point.
+     * This method is only invoked when playing a livestream on an iOS client.
      */
     public static boolean fixHLSCurrentTime(boolean original) {
         if (!SPOOF_STREAMING_DATA) {
@@ -88,11 +78,9 @@ public class SpoofStreamingDataPatch extends BlockRequestPatch {
      * Injection point.
      * Fix playback by replace the streaming data.
      * Called after {@link #fetchStreams(String, Map)}.
-     *
-     * @param originalStreamingData Original StreamingData.
      */
     @Nullable
-    public static ByteBuffer getStreamingData(String videoId, StreamingDataOuterClass$StreamingData originalStreamingData) {
+    public static ByteBuffer getStreamingData(String videoId) {
         if (SPOOF_STREAMING_DATA) {
             try {
                 StreamingDataRequest request = StreamingDataRequest.getRequestForVideoId(videoId);
@@ -108,25 +96,8 @@ public class SpoofStreamingDataPatch extends BlockRequestPatch {
 
                     var stream = request.getStream();
                     if (stream != null) {
-                        ByteBuffer spoofedStreamingData = stream.first;
-                        ClientType spoofedClientType = stream.second;
-
                         Logger.printDebug(() -> "Overriding video stream: " + videoId);
-
-                        // Put the videoId and originalStreamingData into a HashMap.
-                        if (spoofedClientType == ClientType.IOS) {
-                            // For YT Music 6.20.51, which is supported by RVX, it can run on Android 5.0 (SDK 21).
-                            // The IDE does not make any suggestions since the project's minSDK is 24, but you should check the SDK version for compatibility with SDK 21.
-                            if (isSDKAbove(24)) {
-                                streamingDataMap.putIfAbsent(videoId, originalStreamingData);
-                            } else {
-                                if (!streamingDataMap.containsKey(videoId)) {
-                                    streamingDataMap.put(videoId, originalStreamingData);
-                                }
-                            }
-                        }
-
-                        return spoofedStreamingData;
+                        return stream;
                     }
                 }
 
@@ -142,39 +113,77 @@ public class SpoofStreamingDataPatch extends BlockRequestPatch {
     /**
      * Injection point.
      * <p>
-     * In iOS Clients, Progressive Streaming are not available, so 'formats' field have been removed
-     * completely from the initial response of streaming data.
-     * Therefore, {@link FormatStreamModel} class is never be initialized, and the video length field
-     * is set with an estimated value from `adaptiveFormats` instead.
+     * If spoofed [streamingData.formats] is empty,
+     * Put the original [streamingData.formats] into the HashMap.
      * <p>
-     * To get workaround with this, replace streamingData (spoofedStreamingData) with originalStreamingData,
-     * which is only used to initialize the {@link FormatStreamModel} class to calculate the video length.
-     * The playback issues shouldn't occur since the integrity check is not applied for Progressive Stream.
-     * <p>
-     * Called after {@link #getStreamingData(String, StreamingDataOuterClass$StreamingData)}.
-     *
-     * @param spoofedStreamingData Spoofed StreamingData.
+     * Called after {@link #getStreamingData(String)}.
      */
-    public static StreamingDataOuterClass$StreamingData getOriginalStreamingData(String videoId, StreamingDataOuterClass$StreamingData spoofedStreamingData) {
+    public static void setFormats(String videoId, StreamingDataOuterClass$StreamingData originalStreamingData, StreamingDataOuterClass$StreamingData spoofed) {
+        if (formatsIsEmpty(spoofed)) {
+            formatsMap.put(videoId, getFormatsFromStreamingData(originalStreamingData));
+            Logger.printDebug(() -> "New formats video id: " + videoId);
+        }
+    }
+
+    private static boolean formatsIsEmpty(StreamingDataOuterClass$StreamingData streamingData) {
+        List<?> formats = getFormatsFromStreamingData(streamingData);
+        return formats == null || formats.size() == 0;
+    }
+
+    private static List<?> getFormatsFromStreamingData(StreamingDataOuterClass$StreamingData streamingData) {
+        try {
+            // Field e: 'formats'.
+            Field field = streamingData.getClass().getDeclaredField("e");
+            field.setAccessible(true);
+            if (field.get(streamingData) instanceof List<?> list) {
+                return list;
+            }
+        } catch (NoSuchFieldException | IllegalAccessException ex) {
+            Logger.printException(() -> "Reflection error accessing formats", ex);
+        }
+        return null;
+    }
+
+    /**
+     * Looks like the initial value for the videoId field.
+     */
+    private static final String MASKED_VIDEO_ID = "zzzzzzzzzzz";
+
+    /**
+     * Injection point.
+     * <p>
+     * When measuring the length of a video in an Android YouTube client,
+     * the client first checks if the streaming data contains [streamingData.formats.approxDurationMs].
+     * <p>
+     * If the streaming data response contains [approxDurationMs] (Long type, actual value), this value will be the video length.
+     * <p>
+     * If [streamingData.formats] (List type) is empty, the [approxDurationMs] value cannot be accessed,
+     * So it falls back to the value of [videoDetails.lengthSeconds] (Integer type, approximate value) multiplied by 1000.
+     * <p>
+     * For iOS clients, [streamingData.formats] (List type) is always empty, so it always falls back to the approximate value.
+     * <p>
+     * Called after {@link #getStreamingData(String)}.
+     */
+    public static List<?> getOriginalFormats(String videoId, List<?> spoofedFormats) {
         if (SPOOF_STREAMING_DATA) {
             try {
-                StreamingDataOuterClass$StreamingData androidStreamingData = streamingDataMap.get(videoId);
-                if (androidStreamingData != null) {
-                    Logger.printDebug(() -> "Overriding iOS streaming data to original streaming data: " + videoId);
-                    return androidStreamingData;
-                } else {
-                    Logger.printDebug(() -> "Not overriding original streaming data as spoofed client is not iOS: " + videoId);
+                if (videoId != null && !videoId.equals(MASKED_VIDEO_ID) && spoofedFormats.size() == 0) {
+                    List<?> androidFormats = formatsMap.get(videoId);
+                    if (androidFormats != null) {
+                        Logger.printDebug(() -> "Overriding iOS formats to original formats: " + videoId);
+                        return androidFormats;
+                    }
                 }
             } catch (Exception ex) {
-                Logger.printException(() -> "getOriginalStreamingData failure", ex);
+                Logger.printException(() -> "getOriginalFormats failure", ex);
             }
         }
-        return spoofedStreamingData;
+        return spoofedFormats;
     }
 
     /**
      * Injection point.
-     * Called after {@link #getStreamingData(String, StreamingDataOuterClass$StreamingData)}.
+     * Called after {@link #getStreamingData(String)}.
      */
     @Nullable
     public static byte[] removeVideoPlaybackPostBody(Uri uri, int method, byte[] postData) {

@@ -97,7 +97,7 @@ public class StreamingDataRequest {
     }
 
     private final String videoId;
-    private final Future<Pair<ByteBuffer, ClientType>> future;
+    private final Future<ByteBuffer> future;
 
     private StreamingDataRequest(String videoId, Map<String, String> playerHeaders) {
         Objects.requireNonNull(playerHeaders);
@@ -174,7 +174,7 @@ public class StreamingDataRequest {
         return null;
     }
 
-    private static Pair<ByteBuffer, ClientType> fetch(String videoId, Map<String, String> playerHeaders) {
+    private static ByteBuffer fetch(String videoId, Map<String, String> playerHeaders) {
         lastSpoofedClientType = null;
 
         // Retry with different client if empty response body is received.
@@ -196,7 +196,7 @@ public class StreamingDataRequest {
                             }
                             lastSpoofedClientType = clientType;
 
-                            return new Pair<>(ByteBuffer.wrap(baos.toByteArray()), clientType);
+                            return ByteBuffer.wrap(baos.toByteArray());
                         }
                     }
                 } catch (IOException ex) {
@@ -214,7 +214,7 @@ public class StreamingDataRequest {
     }
 
     @Nullable
-    public Pair<ByteBuffer, ClientType> getStream() {
+    public ByteBuffer getStream() {
         try {
             return future.get(MAX_MILLISECONDS_TO_WAIT_FOR_FETCH, TimeUnit.MILLISECONDS);
         } catch (TimeoutException ex) {

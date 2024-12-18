@@ -5,7 +5,6 @@ import app.revanced.patcher.extensions.InstructionExtensions.addInstructions
 import app.revanced.patcher.extensions.InstructionExtensions.addInstructionsWithLabels
 import app.revanced.patcher.extensions.InstructionExtensions.getInstruction
 import app.revanced.patcher.extensions.InstructionExtensions.instructions
-import app.revanced.patcher.extensions.InstructionExtensions.replaceInstruction
 import app.revanced.patcher.patch.BytecodePatchBuilder
 import app.revanced.patcher.patch.BytecodePatchContext
 import app.revanced.patcher.patch.PatchException
@@ -19,6 +18,7 @@ import app.revanced.util.fingerprint.injectLiteralInstructionBooleanCall
 import app.revanced.util.fingerprint.matchOrThrow
 import app.revanced.util.fingerprint.methodOrThrow
 import app.revanced.util.getReference
+import app.revanced.util.indexOfFirstInstructionOrThrow
 import app.revanced.util.indexOfFirstInstructionReversedOrThrow
 import com.android.tools.smali.dexlib2.AccessFlags
 import com.android.tools.smali.dexlib2.Opcode
@@ -143,8 +143,7 @@ fun baseSpoofStreamingDataPatch(
                                 if-eqz v2, :disabled
                                 
                                 # Get streaming data.
-                                iget-object v6, p0, $setStreamingDataField
-                                invoke-static { v2, v6 }, $EXTENSION_CLASS_DESCRIPTOR->getStreamingData(Ljava/lang/String;$STREAMING_DATA_INTERFACE)Ljava/nio/ByteBuffer;
+                                invoke-static { v2 }, $EXTENSION_CLASS_DESCRIPTOR->getStreamingData(Ljava/lang/String;)Ljava/nio/ByteBuffer;
                                 move-result-object v3
                                 if-eqz v3, :disabled
                                 
@@ -154,10 +153,17 @@ fun baseSpoofStreamingDataPatch(
                                 move-result-object v5
                                 check-cast v5, $playerProtoClass
                                 
-                                # Set streaming data.
                                 iget-object v6, v5, $getStreamingDataField
                                 if-eqz v6, :disabled
+
+                                # Get original streaming data.
+                                iget-object v0, p0, $setStreamingDataField
+
+                                # Set spoofed streaming data.
                                 iput-object v6, p0, $setStreamingDataField
+
+                                # Set original streaming data formats.
+                                invoke-static { v2, v0, v6 }, $EXTENSION_CLASS_DESCRIPTOR->setFormats(Ljava/lang/String;$STREAMING_DATA_INTERFACE$STREAMING_DATA_INTERFACE)V
                                 
                                 :disabled
                                 return-void
@@ -171,41 +177,36 @@ fun baseSpoofStreamingDataPatch(
         videoStreamingDataConstructorFingerprint.methodOrThrow(videoStreamingDataToStringFingerprint)
             .apply {
                 val formatStreamModelInitIndex = indexOfFormatStreamModelInitInstruction(this)
-                val getVideoIdIndex =
+                val videoIdIndex =
                     indexOfFirstInstructionReversedOrThrow(formatStreamModelInitIndex) {
                         val reference = getReference<FieldReference>()
                         opcode == Opcode.IGET_OBJECT &&
                                 reference?.type == "Ljava/lang/String;" &&
                                 reference.definingClass == definingClass
                     }
-                val getVideoIdReference =
-                    getInstruction<ReferenceInstruction>(getVideoIdIndex).reference
-                val insertIndex = indexOfFirstInstructionReversedOrThrow(getVideoIdIndex) {
+                val definingClassRegister =
+                    getInstruction<TwoRegisterInstruction>(videoIdIndex).registerB
+                val videoIdReference =
+                    getInstruction<ReferenceInstruction>(videoIdIndex).reference
+                val formatsIndex = indexOfFirstInstructionReversedOrThrow(videoIdIndex) {
                     opcode == Opcode.IGET_OBJECT &&
                             getReference<FieldReference>()?.definingClass == STREAMING_DATA_INTERFACE
                 }
+                val freeRegister = getInstruction<OneRegisterInstruction>(
+                    indexOfFirstInstructionOrThrow(formatsIndex, Opcode.CONST_WIDE)
+                ).registerA
 
-                val (freeRegister, streamingDataRegister) = with(
-                    getInstruction<TwoRegisterInstruction>(
-                        insertIndex
-                    )
-                ) {
-                    Pair(registerA, registerB)
-                }
-                val definingClassRegister =
-                    getInstruction<TwoRegisterInstruction>(getVideoIdIndex).registerB
-                val insertReference = getInstruction<ReferenceInstruction>(insertIndex).reference
+                val audioCodecListRegister = getInstruction<TwoRegisterInstruction>(formatsIndex).registerA
 
-                replaceInstruction(
-                    insertIndex,
-                    "iget-object v$freeRegister, v$freeRegister, $insertReference"
-                )
                 addInstructions(
-                    insertIndex, """
-                    iget-object v$freeRegister, v$definingClassRegister, $getVideoIdReference
-                    invoke-static { v$freeRegister, v$streamingDataRegister }, $EXTENSION_CLASS_DESCRIPTOR->getOriginalStreamingData(Ljava/lang/String;$STREAMING_DATA_INTERFACE)$STREAMING_DATA_INTERFACE
-                    move-result-object v$freeRegister
-                    """
+                    formatsIndex + 1, """
+                        # Get video id.
+                        iget-object v$freeRegister, v$definingClassRegister, $videoIdReference
+                        
+                        # Override streaming data formats.
+                        invoke-static { v$freeRegister, v$audioCodecListRegister }, $EXTENSION_CLASS_DESCRIPTOR->getOriginalFormats(Ljava/lang/String;Ljava/util/List;)Ljava/util/List;
+                        move-result-object v$audioCodecListRegister
+                        """
                 )
             }
 

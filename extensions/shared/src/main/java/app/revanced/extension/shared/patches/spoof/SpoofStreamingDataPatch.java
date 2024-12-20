@@ -9,9 +9,10 @@ import com.google.protos.youtube.api.innertube.StreamingDataOuterClass$Streaming
 
 import java.lang.reflect.Field;
 import java.nio.ByteBuffer;
+import java.util.Collections;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
 
 import app.revanced.extension.shared.patches.BlockRequestPatch;
 import app.revanced.extension.shared.patches.spoof.requests.StreamingDataRequest;
@@ -29,10 +30,18 @@ public class SpoofStreamingDataPatch extends BlockRequestPatch {
             SPOOF_STREAMING_DATA && BaseSettings.SPOOF_STREAMING_DATA_SYNC_VIDEO_LENGTH.get();
 
     /**
-     * Key: videoId.
-     * Value: original [streamingData.formats].
+     * Key: video id
+     * Value: original video length [streamingData.formats.approxDurationMs]
      */
-    private static final ConcurrentHashMap<String, List<?>> formatsMap = new ConcurrentHashMap<>(20, 0.8f);
+    private static final Map<String, Long> approxDurationMsMap = Collections.synchronizedMap(
+            new LinkedHashMap<>(100) {
+                private static final int CACHE_LIMIT = 50;
+
+                @Override
+                protected boolean removeEldestEntry(Entry eldest) {
+                    return size() > CACHE_LIMIT; // Evict the oldest entry if over the cache limit.
+                }
+            });
 
     /**
      * Injection point.
@@ -120,34 +129,26 @@ public class SpoofStreamingDataPatch extends BlockRequestPatch {
      * Injection point.
      * <p>
      * If spoofed [streamingData.formats] is empty,
-     * Put the original [streamingData.formats] into the HashMap.
+     * Put the original [streamingData.formats.approxDurationMs] into the HashMap.
      * <p>
      * Called after {@link #getStreamingData(String)}.
      */
-    public static void setFormats(String videoId, StreamingDataOuterClass$StreamingData originalStreamingData, StreamingDataOuterClass$StreamingData spoofed) {
-        if (SPOOF_STREAMING_DATA_SYNC_VIDEO_LENGTH && formatsIsEmpty(spoofed)) {
-            formatsMap.put(videoId, getFormatsFromStreamingData(originalStreamingData));
-            Logger.printDebug(() -> "New formats video id: " + videoId);
-        }
-    }
-
-    private static boolean formatsIsEmpty(StreamingDataOuterClass$StreamingData streamingData) {
-        List<?> formats = getFormatsFromStreamingData(streamingData);
-        return formats == null || formats.size() == 0;
-    }
-
-    private static List<?> getFormatsFromStreamingData(StreamingDataOuterClass$StreamingData streamingData) {
-        try {
-            // Field e: 'formats'.
-            Field field = streamingData.getClass().getDeclaredField("e");
-            field.setAccessible(true);
-            if (field.get(streamingData) instanceof List<?> list) {
-                return list;
+    public static void setApproxDurationMs(String videoId, String approxDurationMsFieldName,
+                                           StreamingDataOuterClass$StreamingData originalStreamingData, StreamingDataOuterClass$StreamingData spoofedStreamingData) {
+        if (SPOOF_STREAMING_DATA_SYNC_VIDEO_LENGTH) {
+            if (formatsIsEmpty(spoofedStreamingData)) {
+                List<?> originalFormats = getFormatsFromStreamingData(originalStreamingData);
+                Long approxDurationMs = getApproxDurationMs(originalFormats, approxDurationMsFieldName);
+                if (approxDurationMs != null) {
+                    approxDurationMsMap.put(videoId, approxDurationMs);
+                    Logger.printDebug(() -> "New approxDurationMs loaded, video id: " + videoId + ", video length: " + approxDurationMs);
+                } else {
+                    Logger.printDebug(() -> "Ignoring as original approxDurationMs is not found, video id: " + videoId);
+                }
+            } else {
+                Logger.printDebug(() -> "Ignoring as spoofed formats is not empty, video id: " + videoId);
             }
-        } catch (NoSuchFieldException | IllegalAccessException ex) {
-            Logger.printException(() -> "Reflection error accessing formats", ex);
         }
-        return null;
     }
 
     /**
@@ -170,21 +171,21 @@ public class SpoofStreamingDataPatch extends BlockRequestPatch {
      * <p>
      * Called after {@link #getStreamingData(String)}.
      */
-    public static List<?> getOriginalFormats(String videoId, List<?> spoofedFormats) {
+    public static long getApproxDurationMsFromOriginalResponse(String videoId, long lengthMilliseconds) {
         if (SPOOF_STREAMING_DATA_SYNC_VIDEO_LENGTH) {
             try {
-                if (videoId != null && !videoId.equals(MASKED_VIDEO_ID) && spoofedFormats.size() == 0) {
-                    List<?> androidFormats = formatsMap.get(videoId);
-                    if (androidFormats != null) {
-                        Logger.printDebug(() -> "Overriding iOS formats to original formats: " + videoId);
-                        return androidFormats;
+                if (videoId != null && !videoId.equals(MASKED_VIDEO_ID)) {
+                    Long approxDurationMs = approxDurationMsMap.get(videoId);
+                    if (approxDurationMs != null) {
+                        Logger.printDebug(() -> "Replacing video length from " + lengthMilliseconds + " to " + approxDurationMs + " , videoId: " + videoId);
+                        return approxDurationMs;
                     }
                 }
             } catch (Exception ex) {
                 Logger.printException(() -> "getOriginalFormats failure", ex);
             }
         }
-        return spoofedFormats;
+        return lengthMilliseconds;
     }
 
     /**
@@ -225,5 +226,48 @@ public class SpoofStreamingDataPatch extends BlockRequestPatch {
         }
 
         return videoFormat;
+    }
+
+    // Utils
+
+    private static boolean formatsIsEmpty(StreamingDataOuterClass$StreamingData streamingData) {
+        List<?> formats = getFormatsFromStreamingData(streamingData);
+        return formats == null || formats.size() == 0;
+    }
+
+    private static List<?> getFormatsFromStreamingData(StreamingDataOuterClass$StreamingData streamingData) {
+        try {
+            // Field e: 'formats'.
+            // Field name is always 'e', regardless of the client version.
+            Field field = streamingData.getClass().getDeclaredField("e");
+            field.setAccessible(true);
+            if (field.get(streamingData) instanceof List<?> list) {
+                return list;
+            }
+        } catch (NoSuchFieldException | IllegalAccessException ex) {
+            Logger.printException(() -> "Reflection error accessing formats", ex);
+        }
+        return null;
+    }
+
+    private static Long getApproxDurationMs(List<?> list, String approxDurationMsFieldName) {
+        try {
+            if (list != null) {
+                var iterator = list.listIterator();
+                if (iterator.hasNext()) {
+                    var formats = iterator.next();
+                    Field field = formats.getClass().getDeclaredField(approxDurationMsFieldName);
+                    field.setAccessible(true);
+                    if (field.get(formats) instanceof Long approxDurationMs) {
+                        return approxDurationMs;
+                    } else {
+                        Logger.printDebug(() -> "Field type is null: " + approxDurationMsFieldName);
+                    }
+                }
+            }
+        } catch (NoSuchFieldException | IllegalAccessException ex) {
+            Logger.printException(() -> "Reflection error accessing field: " + approxDurationMsFieldName, ex);
+        }
+        return null;
     }
 }

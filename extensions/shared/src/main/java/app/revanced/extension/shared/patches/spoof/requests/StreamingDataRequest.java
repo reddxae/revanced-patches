@@ -2,8 +2,6 @@ package app.revanced.extension.shared.patches.spoof.requests;
 
 import static app.revanced.extension.shared.patches.spoof.requests.PlayerRoutes.GET_STREAMING_DATA;
 
-import android.util.Pair;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 

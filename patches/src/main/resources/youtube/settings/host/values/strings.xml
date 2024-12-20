@@ -1906,10 +1906,16 @@ Tap on the continue button and disable battery optimizations."</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Spoofing side effects</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">• Not yet found.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_skip_sync_video_length">• Videos may end 1 second early.</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• Audio track menu is missing.
 • Stable volume is not available."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Audio track menu is missing.
 • Stable volume is not available."</string>
+    <string name="revanced_spoof_streaming_data_sync_video_length_title">Sync video length before playback</string>
+    <string name="revanced_spoof_streaming_data_sync_video_length_summary_on">"Video length is synced before playback.
+Video length is exact value."</string>
+    <string name="revanced_spoof_streaming_data_sync_video_length_summary_off">"Video length is not synced before playback.
+Video length may be a rounded value."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Show in Stats for nerds</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Client used to fetch streaming data is shown in Stats for nerds.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Client used to fetch streaming data is hidden in Stats for nerds.</string>

@@ -21,6 +21,12 @@ import app.revanced.extension.shared.utils.Utils;
 
 @SuppressWarnings("unused")
 public class SpoofStreamingDataPatch extends BlockRequestPatch {
+    /**
+     * Even if the default client is not iOS, videos that cannot be played on Android VR or Android TV will fall back to iOS.
+     * Do not add a dependency that checks whether the default client is iOS or not.
+     */
+    private static final boolean SPOOF_STREAMING_DATA_SYNC_VIDEO_LENGTH =
+            SPOOF_STREAMING_DATA && BaseSettings.SPOOF_STREAMING_DATA_SYNC_VIDEO_LENGTH.get();
 
     /**
      * Key: videoId.
@@ -119,7 +125,7 @@ public class SpoofStreamingDataPatch extends BlockRequestPatch {
      * Called after {@link #getStreamingData(String)}.
      */
     public static void setFormats(String videoId, StreamingDataOuterClass$StreamingData originalStreamingData, StreamingDataOuterClass$StreamingData spoofed) {
-        if (formatsIsEmpty(spoofed)) {
+        if (SPOOF_STREAMING_DATA_SYNC_VIDEO_LENGTH && formatsIsEmpty(spoofed)) {
             formatsMap.put(videoId, getFormatsFromStreamingData(originalStreamingData));
             Logger.printDebug(() -> "New formats video id: " + videoId);
         }
@@ -165,7 +171,7 @@ public class SpoofStreamingDataPatch extends BlockRequestPatch {
      * Called after {@link #getStreamingData(String)}.
      */
     public static List<?> getOriginalFormats(String videoId, List<?> spoofedFormats) {
-        if (SPOOF_STREAMING_DATA) {
+        if (SPOOF_STREAMING_DATA_SYNC_VIDEO_LENGTH) {
             try {
                 if (videoId != null && !videoId.equals(MASKED_VIDEO_ID) && spoofedFormats.size() == 0) {
                     List<?> androidFormats = formatsMap.get(videoId);

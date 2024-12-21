@@ -475,9 +475,6 @@
  Освен това рекламите може да се показват в Shorts.
 
 Ако деактивирането не влезе в сила, опитайте да превключите към режим „инкогнито“."</string>
-    <string name="revanced_enable_translucent_navigation_bar_title">Полупрозрачна лента за навигация</string>
-    <string name="revanced_enable_translucent_navigation_bar_summary_on">Навигационната лента е полупрозрачна.</string>
-    <string name="revanced_enable_translucent_navigation_bar_summary_off">Навигационната лента е непрозрачна.</string>
     <string name="revanced_hide_navigation_bar_title">Скриване лентата за навигация</string>
     <string name="revanced_hide_navigation_bar_summary_on">Навигационната лента е скрита.</string>
     <string name="revanced_hide_navigation_bar_summary_off">Навигационната лента се показва.</string>
@@ -1310,12 +1307,6 @@
     <string name="revanced_disable_hdr_auto_brightness_title">Деактивирайте автоматичната HDR яркост</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">Автоматичната яркост при HDR е изключена.</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">Автоматичната яркост при HDR е включена.</string>
-    <string name="revanced_enable_watch_panel_gestures_title">Жест за превключване на цял екран</string>
-    <string name="revanced_enable_watch_panel_gestures_summary_on">Превключването към цял екран чрез плъзгане на долната част на плейъра е активирано.</string>
-    <string name="revanced_enable_watch_panel_gestures_summary_off">Превключването към цял екран чрез плъзгане на долната част на плейъра е деактивирано.</string>
-    <string name="revanced_enable_swipe_to_switch_video_title">Активирайте жестове за превключване на видеоклипове</string>
-    <string name="revanced_enable_swipe_to_switch_video_summary_on">Жестове нагоре/надолу за възпроизвеждане на следващо/предишно видео.</string>
-    <string name="revanced_enable_swipe_to_switch_video_summary_off">Жестовете нагоре/надолу няма да възпроизведат следващия/предишния видеоклип.</string>
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">Авто</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Видео</string>

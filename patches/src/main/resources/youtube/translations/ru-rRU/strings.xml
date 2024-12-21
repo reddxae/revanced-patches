@@ -332,6 +332,9 @@ Shorts
     <string name="revanced_disable_splash_animation_title">Анимированная заставка</string>
     <string name="revanced_disable_splash_animation_summary_on">Анимированная заставка отключена.</string>
     <string name="revanced_disable_splash_animation_summary_off">Анимированная заставка включена.</string>
+    <string name="revanced_disable_translucent_status_bar_title">Полупрозрачная строка состояния</string>
+    <string name="revanced_disable_translucent_status_bar_summary_on">Отключена.</string>
+    <string name="revanced_disable_translucent_status_bar_summary_off">Включена.</string>
     <string name="revanced_enable_gradient_loading_screen_title">Переливающийся экран загрузки</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">Переливающийся экран загрузки включен.</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">Переливающийся экран загрузки отключен.</string>
@@ -504,9 +507,12 @@ Shorts
 Кроме того, реклама больше не будет блокироваться в Shorts.
 
 Если эта настройка не вступила в силу, попробуйте перейти в режим инкогнито."</string>
-    <string name="revanced_enable_translucent_navigation_bar_title">Полупрозрачная панель навигации</string>
-    <string name="revanced_enable_translucent_navigation_bar_summary_on">Полупрозрачность включена.</string>
-    <string name="revanced_enable_translucent_navigation_bar_summary_off">Полупрозрачность отключена.</string>
+    <string name="revanced_disable_translucent_navigation_bar_light_title">Светлая полупрозрачная панель навигации</string>
+    <string name="revanced_disable_translucent_navigation_bar_light_summary_on">Отключена.</string>
+    <string name="revanced_disable_translucent_navigation_bar_light_summary_off">Включена.</string>
+    <string name="revanced_disable_translucent_navigation_bar_dark_title">Темная полупрозрачная панель навигации</string>
+    <string name="revanced_disable_translucent_navigation_bar_dark_summary_on">Отключена.</string>
+    <string name="revanced_disable_translucent_navigation_bar_dark_summary_off">Включена.</string>
     <string name="revanced_hide_navigation_bar_title">Панель навигации</string>
     <string name="revanced_hide_navigation_bar_summary_on">Панель навигации скрыта.</string>
     <string name="revanced_hide_navigation_bar_summary_off">Панель навигации отображена.</string>
@@ -1391,12 +1397,11 @@ Shorts
     <string name="revanced_disable_hdr_auto_brightness_title">Автояркость HDR</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">Автояркость HDR отключена.</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">Автояркость HDR включена.</string>
-    <string name="revanced_enable_watch_panel_gestures_title">Жест под плеером</string>
-    <string name="revanced_enable_watch_panel_gestures_summary_on">Переход в полноэкранный режим жестом вниз в нижней части плеера включен.</string>
-    <string name="revanced_enable_watch_panel_gestures_summary_off">Переход в полноэкранный режим жестом вниз в нижней части плеера отключен.</string>
-    <string name="revanced_enable_swipe_to_switch_video_title">Жест для изменения видео в полном экране</string>
-    <string name="revanced_enable_swipe_to_switch_video_summary_on">Жест вверх - следующее видео и жест вниз - предыдущее видео включены.</string>
-    <string name="revanced_enable_swipe_to_switch_video_summary_off">Жест вверх - следующее видео и жест вниз - предыдущее видео отключены.</string>
+    <string name="revanced_disable_watch_panel_gestures_title">Жесты панели просмотра</string>
+    <string name="revanced_disable_watch_panel_gestures_summary_on">Полноэкранный режим жестом вниз отключен.</string>
+    <string name="revanced_disable_watch_panel_gestures_summary_off">Полноэкранный режим жестом вниз включен.</string>
+    <string name="revanced_disable_swipe_to_switch_video_summary_on">Переключение видео жестами отключены.</string>
+    <string name="revanced_disable_swipe_to_switch_video_summary_off">Переключение видео жестами включены.</string>
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">Авто</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Видео</string>
@@ -1788,9 +1793,16 @@ Shorts
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Эффекты от подмены</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">• Еще не найдено.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_skip_sync_video_length">• Видео может закончиться 1 сек ранее. При подмене как iOS.</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• Меню \"Звуковая дорожка\" не доступно."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Меню \"Звуковая дорожка\" отсутствует.
 • Меню \"Постоянный уровень громкости\" недоступно."</string>
+    <string name="revanced_spoof_streaming_data_sync_video_length_title">Синхронизация видео перед воспроизведением</string>
+    <string name="revanced_spoof_streaming_data_sync_video_length_summary_on">"Синхронизация видео перед воспроизведением включена.
+Точная продолжительность видео."</string>
+    <string name="revanced_spoof_streaming_data_sync_video_length_summary_off">"Синхронизация видео перед воспроизведением отключена.
+Округленная продолжительность видео."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Статистике для сисадминов</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Клиент потоковых данных отображается в Статистике для сисадминов.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Клиент потоковых данных скрыт в Статистике для сисадминов.</string>

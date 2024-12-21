@@ -479,9 +479,6 @@ Not: Bunu etkinleştirmek aynı zamanda video reklamlarını da zorla gizler."</
 Ayrıca artık Shorts'ta reklamlar engellenmeyecek.
 
 Bu ayar etkili olmazsa Gizli moda geçmeyi deneyin."</string>
-    <string name="revanced_enable_translucent_navigation_bar_title">Yarı saydam gezinme çubuğunu etkinleştir</string>
-    <string name="revanced_enable_translucent_navigation_bar_summary_on">Gezinme çubuğu yarı saydam.</string>
-    <string name="revanced_enable_translucent_navigation_bar_summary_off">Gezinme çubuğu opaktır.</string>
     <string name="revanced_hide_navigation_bar_title">Gezinme çubuğunu gizle</string>
     <string name="revanced_hide_navigation_bar_summary_on">Gezinme çubuğu gizlendi.</string>
     <string name="revanced_hide_navigation_bar_summary_off">Gezinme çubuğu gösteriliyor.</string>
@@ -1180,12 +1177,6 @@ Bilinen sorunlar:
     <string name="revanced_disable_hdr_auto_brightness_title">Otomatik HDR parlaklığını devre dışı bırak</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">Otomatik HDR parlaklığı devre dışı</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">Otomatik HDR parlaklığı etkin</string>
-    <string name="revanced_enable_watch_panel_gestures_title">İzleme paneli hareketlerini etkinleştir</string>
-    <string name="revanced_enable_watch_panel_gestures_summary_on">Oynatıcının altından kaydırarak tam ekrana geçme etkin.</string>
-    <string name="revanced_enable_watch_panel_gestures_summary_off">Oynatıcının altına doğru kaydırırken tam ekrana giriş devre dışı bırakıldı.</string>
-    <string name="revanced_enable_swipe_to_switch_video_title">Kaydırarak videoyu değiştirmeyi etkinleştir</string>
-    <string name="revanced_enable_swipe_to_switch_video_summary_on">Yukarı kaydırma / aşağı bir dahaki videoyu oynatacaktır / önceki video.</string>
-    <string name="revanced_enable_swipe_to_switch_video_summary_off">Yukarı kaydırma / aşağı bir dahaki videoyu oynatmayacaktır / önceki video.</string>
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">Otomatik</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Video</string>

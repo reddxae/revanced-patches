@@ -424,9 +424,6 @@ Manche Komponenten könnten nicht versteckt werden."</string>
     <string name="revanced_hide_navigation_label_summary_on">Navigationslabel ist versteckt</string>
     <string name="revanced_hide_navigation_label_summary_off">Navigationslabel wird angezeigt</string>
     <string name="revanced_switch_create_with_notifications_button_title">Erstellungs- und Benachrichtigungs-Buttons tauschen</string>
-    <string name="revanced_enable_translucent_navigation_bar_title">Transparente Navigationsleiste aktivieren</string>
-    <string name="revanced_enable_translucent_navigation_bar_summary_on">Navigationsleiste ist transparent.</string>
-    <string name="revanced_enable_translucent_navigation_bar_summary_off">Navigationsleiste ist nicht transparent.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">Einstellungsmenü</string>
     <string name="revanced_preference_screen_settings_menu_summary">Elemente im YouTube-Einstellungsmenü verstecken</string>
@@ -978,10 +975,6 @@ Bekannte Probleme: Da dies eine Funktion in der Entwicklungsphase von Google ist
     <string name="revanced_disable_hdr_auto_brightness_title">Deaktiviere automatische HDR-Helligkeit</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">Automatische HDR-Helligkeit ist deaktiviert</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">Automatische HDR-Helligkeit ist aktiviert</string>
-    <string name="revanced_enable_watch_panel_gestures_summary_off">Vollbild-Eingabe beim Herunterwischen unter dem Videoplayer ist deaktiviert.</string>
-    <string name="revanced_enable_swipe_to_switch_video_title">Wischen zum Ändern des Videos aktivieren</string>
-    <string name="revanced_enable_swipe_to_switch_video_summary_on">Wischen nach oben / unten wird das nächste / vorherige Video abspielen.</string>
-    <string name="revanced_enable_swipe_to_switch_video_summary_off">Wischen nach oben / nach unten wird nicht das nächste / vorherige Video abspielen.</string>
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">Auto</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Video</string>

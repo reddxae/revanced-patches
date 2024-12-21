@@ -323,6 +323,9 @@
     <string name="revanced_disable_splash_animation_title">تعطيل تأثيرات الحركة</string>
     <string name="revanced_disable_splash_animation_summary_on">تم تعطيل تأثيرات الحركة.</string>
     <string name="revanced_disable_splash_animation_summary_off">تم تمكين تأثيرات الحركة.</string>
+    <string name="revanced_disable_translucent_status_bar_title">تعطيل شريط الحالة الشفاف</string>
+    <string name="revanced_disable_translucent_status_bar_summary_on">شريط الحالة غير شفاف.</string>
+    <string name="revanced_disable_translucent_status_bar_summary_off">شريط الحالة معتم أو شفاف.</string>
     <string name="revanced_enable_gradient_loading_screen_title">تمكين شاشة التحميل المتدرجة</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">تم تمكين شاشة التحميل المتدرجة الملونة.</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">تم تعطيل شاشة التحميل المتدرجة الملونة.</string>
@@ -494,9 +497,12 @@
 كما لن يتم حظر الإعلانات في فيديوهات Shorts بعد الآن.
 
 إذا لم يتم تفعيل هذا الإعداد، فحاول التبديل إلى وضع التصفح المتخفي."</string>
-    <string name="revanced_enable_translucent_navigation_bar_title">تمكين شريط التنقل الشفاف</string>
-    <string name="revanced_enable_translucent_navigation_bar_summary_on">شريط التنقل شفاف.</string>
-    <string name="revanced_enable_translucent_navigation_bar_summary_off">شريط التنقل غير شفاف.</string>
+    <string name="revanced_disable_translucent_navigation_bar_light_title">تعطيل الشريط الشفاف الفاتح</string>
+    <string name="revanced_disable_translucent_navigation_bar_light_summary_on">شريط التنقل في الوضع الفاتح غير شفاف.</string>
+    <string name="revanced_disable_translucent_navigation_bar_light_summary_off">شريط التنقل في الوضع الفاتح معتم او شفاف.</string>
+    <string name="revanced_disable_translucent_navigation_bar_dark_title">تعطيل الشريط الشفاف الداكن</string>
+    <string name="revanced_disable_translucent_navigation_bar_dark_summary_on">شريط التنقل في الوضع الداكن غير شفاف.</string>
+    <string name="revanced_disable_translucent_navigation_bar_dark_summary_off">شريط التنقل في الوضع الداكن معتم او شفاف.</string>
     <string name="revanced_hide_navigation_bar_title">إخفاء شريط التنقل</string>
     <string name="revanced_hide_navigation_bar_summary_on">تم إخفاء شريط التنقل.</string>
     <string name="revanced_hide_navigation_bar_summary_off">يتم عرض شريط التنقل.</string>
@@ -1333,6 +1339,10 @@
     <string name="revanced_replace_channel_handle_title">استبدال معالج القناة</string>
     <string name="revanced_replace_channel_handle_summary_on">يتم استخدام اسم القناة.</string>
     <string name="revanced_replace_channel_handle_summary_off">يتم استخدام الاسم المعرِّف.</string>
+    <string name="revanced_restore_shorts_old_player_layout_title">استعادة تخطيط المشغل القديم</string>
+    <string name="revanced_restore_shorts_old_player_layout_summary_on">"تم استخدام تصميم المشغل القديم.
+لا توجد هوامش في الجزء العلوي والسفلي من المشغل."</string>
+    <string name="revanced_restore_shorts_old_player_layout_summary_off">لا يتم استخدام تصميم المشغل القديم.</string>
     <!-- PreferenceScreen: Swipe controls -->
     <string name="revanced_preference_screen_swipe_controls_title">التحكم عبر إيماءة التمرير</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_title">تمكين التحكم بالسطوع عن طريق إيماءة التمرير</string>
@@ -1384,12 +1394,12 @@
     <string name="revanced_disable_hdr_auto_brightness_title">تعطيل سطوع HDR التلقائي</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">تم تعطيل سطوع HDR التلقائي.</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">تم تمكين سطوع HDR التلقائي.</string>
-    <string name="revanced_enable_watch_panel_gestures_title">تمكين إيماءات لوح المشاهدة</string>
-    <string name="revanced_enable_watch_panel_gestures_summary_on">تم تمكين الدخول إلى وضع ملء الشاشة عن طريق تمرير المنطقة السفلية لمشغل الفيديو.</string>
-    <string name="revanced_enable_watch_panel_gestures_summary_off">تم تعطيل الدخول إلى وضع ملء الشاشة عن طريق تمرير المنطقة السفلية لمشغل الفيديو.</string>
-    <string name="revanced_enable_swipe_to_switch_video_title">تمكين إيماءة التمرير لتغيير الفيديو</string>
-    <string name="revanced_enable_swipe_to_switch_video_summary_on">التمرير لأعلى / لأسفل سيتم تشغيل الفيديو التالي / السابق.</string>
-    <string name="revanced_enable_swipe_to_switch_video_summary_off">التمرير لأعلى / لأسفل لن يتم تشغيل الفيديو التالي / السابق.</string>
+    <string name="revanced_disable_watch_panel_gestures_title">تعطيل إيماءات لوح المشاهدة</string>
+    <string name="revanced_disable_watch_panel_gestures_summary_on">تم تعطيل الدخول إلى وضع ملء الشاشة عند التمرير لأسفل أسفل مشغل الفيديو.</string>
+    <string name="revanced_disable_watch_panel_gestures_summary_off">تم تمكين الدخول إلى وضع ملء الشاشة عند التمرير لأسفل أسفل مشغل الفيديو.</string>
+    <string name="revanced_disable_swipe_to_switch_video_title">تعطيل التمرير لتغيير الفيديو</string>
+    <string name="revanced_disable_swipe_to_switch_video_summary_on">لن يؤدي التمرير لأعلى/لأسفل إلى تشغيل الفيديو التالي/السابق.</string>
+    <string name="revanced_disable_swipe_to_switch_video_summary_off">سيؤدي التمرير لأعلى/لأسفل إلى تشغيل الفيديو التالي/السابق.</string>
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">تلقائي</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">الفيديو</string>
@@ -1731,7 +1741,9 @@
     <string name="gms_core_dialog_open_website_text">فتح الموقع</string>
     <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">"يجب تعطيل تحسينات بطارية GmsCore لمنع حدوث مشكلات.
 
-اضغط على زر المتابعة وقم بتعطيل تحسينات البطارية."</string>
+لن يؤثر تعطيل تحسينات البطارية لـ GmsCore سلبًا على استخدام البطارية.
+
+انقر فوق زر الاستمرار واسمح بتغييرات التحسين."</string>
     <string name="gms_core_dialog_continue_text">استمرار</string>
     <string name="revanced_sanitize_sharing_links_title">تطهير روابط المشاركة</string>
     <string name="revanced_sanitize_sharing_links_summary">يزيل معلمات استعلام التتبع من عناوين URL عند مشاركة الروابط.</string>
@@ -1777,10 +1789,17 @@
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">التأثيرات الجانبية للتزييف</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">• لم يتم العثور عليه بعد.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_skip_sync_video_length">• قد تنتهي الفيديوهات قبل النهاية بـ 1 ثانية.</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• قائمة المقطع الصوتي مفقودة.
 • مستوى الصوت الثابت غير متوفر."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• قائمة المقطع الصوتي مفقودة.
 • مستوى الصوت الثابت غير متوفر."</string>
+    <string name="revanced_spoof_streaming_data_sync_video_length_title">مزامنة مدة الفيديو قبل التشغيل</string>
+    <string name="revanced_spoof_streaming_data_sync_video_length_summary_on">"تتم مزامنة مدة الفيديو قبل التشغيل.
+مدة الفيديو هي القيمة الدقيقة."</string>
+    <string name="revanced_spoof_streaming_data_sync_video_length_summary_off">"لا تتم مزامنة مدة الفيديو قبل التشغيل.
+قد تكون مدة الفيديو قيمة تقريبية."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">عرض في إحصاءات تقنية</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">يتم عرض العميل المستخدم لجلب بيانات البث في إحصاءات تقنية.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">تم إخفاء العميل المستخدم لجلب بيانات البث في إحصاءات تقنية.</string>

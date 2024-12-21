@@ -320,6 +320,9 @@ Limitação: O botão voltar na barra de ferramentas pode não funcionar."</stri
     <string name="revanced_disable_splash_animation_title">Desativar animação inicial</string>
     <string name="revanced_disable_splash_animation_summary_on">A animação inicial está desativada.</string>
     <string name="revanced_disable_splash_animation_summary_off">A animação do inicial está ativada.</string>
+    <string name="revanced_disable_translucent_status_bar_title">Desativar barra de status transparente</string>
+    <string name="revanced_disable_translucent_status_bar_summary_on">A barra de status está opaca.</string>
+    <string name="revanced_disable_translucent_status_bar_summary_off">A barra de status está opaca ou transparente.</string>
     <string name="revanced_enable_gradient_loading_screen_title">Ativar tela de carregamento gradiente</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">A tela de carregamento gradiente está ativada.</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">A tela de carregamento gradiente está desativada.</string>
@@ -492,9 +495,12 @@ Nota: Ativar isso também oculta anúncios de vídeo à força."</string>
 Além disso, os anúncios não serão mais bloqueados no Shorts.
 
 Se essa configuração não surtir efeito, tente alternar para o modo anônimo."</string>
-    <string name="revanced_enable_translucent_navigation_bar_title">Ativar barra de navegação transparente</string>
-    <string name="revanced_enable_translucent_navigation_bar_summary_on">A barra de navegação está transparente.</string>
-    <string name="revanced_enable_translucent_navigation_bar_summary_off">A barra de navegação está opaca.</string>
+    <string name="revanced_disable_translucent_navigation_bar_light_title">Desativar barra transparente no modo claro</string>
+    <string name="revanced_disable_translucent_navigation_bar_light_summary_on">A barra de navegação no modo claro está opaca.</string>
+    <string name="revanced_disable_translucent_navigation_bar_light_summary_off">A barra de navegação no modo claro está opaca ou transparente.</string>
+    <string name="revanced_disable_translucent_navigation_bar_dark_title">Desativar barra transparente no modo escuro</string>
+    <string name="revanced_disable_translucent_navigation_bar_dark_summary_on">A barra de navegação no modo escuro está opaca.</string>
+    <string name="revanced_disable_translucent_navigation_bar_dark_summary_off">A barra de navegação no modo escuro está opaca ou transparente.</string>
     <string name="revanced_hide_navigation_bar_title">Ocultar barra de navegação</string>
     <string name="revanced_hide_navigation_bar_summary_on">A barra de navegação está oculta.</string>
     <string name="revanced_hide_navigation_bar_summary_off">A barra de navegação será exibida.</string>
@@ -657,9 +663,9 @@ Nota:
     <string name="revanced_hide_live_chat_summary_title">Ocultar resumo do chat no chat ao vivo</string>
     <string name="revanced_hide_live_chat_summary_summary_on">O resumo do chat está oculto.</string>
     <string name="revanced_hide_live_chat_summary_summary_off">O resumo do chat será exibido.</string>
-    <string name="revanced_hide_live_chat_messages_title">Ocultar mensagens de bate-papo ao vivo</string>
-    <string name="revanced_hide_live_chat_messages_summary_on">As mensagens de bate-papo ao vivo estão ocultas.\n\nEssa configuração se aplica a vídeos do Shorts também.</string>
-    <string name="revanced_hide_live_chat_messages_summary_off">As mensagens de bate-papo ao vivo serão exibidas.\n\nEssa configuração se aplica a vídeos do Shorts também.</string>
+    <string name="revanced_hide_live_chat_messages_title">Ocultar mensagens do chat ao vivo</string>
+    <string name="revanced_hide_live_chat_messages_summary_on">As mensagens do chat ao vivo estão ocultas.\n\nEssa configuração se aplica a vídeos do Shorts também.</string>
+    <string name="revanced_hide_live_chat_messages_summary_off">As mensagens do chat ao vivo serão exibidas.\n\nEssa configuração se aplica a vídeos do Shorts também.</string>
     <string name="revanced_hide_medical_panel_title">Ocultar painéis médicos</string>
     <string name="revanced_hide_medical_panel_summary_on">Os painéis médicos estão ocultos.</string>
     <string name="revanced_hide_medical_panel_summary_off">Os painéis médicos serão exibidos.</string>
@@ -1289,18 +1295,18 @@ Pressione e segure o botão Mais para mostrar o diálogo de ações personalizad
     <string name="revanced_shorts_custom_actions_copy_video_url_timestamp_title">Exibir menu copiar URL com marcação de tempo</string>
     <string name="revanced_shorts_custom_actions_copy_video_url_timestamp_summary_on">O menu Copiar URL com marcação de tempo será exibido.</string>
     <string name="revanced_shorts_custom_actions_copy_video_url_timestamp_summary_off">O menu Copiar URL com marcação de tempo está oculto.</string>
-    <string name="revanced_shorts_custom_actions_external_downloader_label">Download externo</string>
+    <string name="revanced_shorts_custom_actions_external_downloader_label">Download</string>
     <string name="revanced_shorts_custom_actions_external_downloader_title">Exibir menu de download externo</string>
     <string name="revanced_shorts_custom_actions_external_downloader_summary_on">O menu Download externo será exibido.</string>
     <string name="revanced_shorts_custom_actions_external_downloader_summary_off">O menu Download externo está oculto.</string>
     <string name="revanced_shorts_custom_actions_open_video_label">Abrir vídeo</string>
-    <string name="revanced_shorts_custom_actions_open_video_title">Exibir menu Abrir vídeo</string>
-    <string name="revanced_shorts_custom_actions_open_video_summary_on">O menu Abrir vídeo será exibido.</string>
-    <string name="revanced_shorts_custom_actions_open_video_summary_off">O menu Abrir vídeo está oculto.</string>
+    <string name="revanced_shorts_custom_actions_open_video_title">Exibir menu abrir vídeo</string>
+    <string name="revanced_shorts_custom_actions_open_video_summary_on">O menu abrir vídeo será exibido.</string>
+    <string name="revanced_shorts_custom_actions_open_video_summary_off">O menu abrir vídeo está oculto.</string>
     <string name="revanced_shorts_custom_actions_repeat_state_label">Estado de repetição</string>
-    <string name="revanced_shorts_custom_actions_repeat_state_title">Exibir menu Estado de repetição</string>
-    <string name="revanced_shorts_custom_actions_repeat_state_summary_on">O menu Estado de repetição será exibido.</string>
-    <string name="revanced_shorts_custom_actions_repeat_state_summary_off">O menu Estado de repetição está oculto.</string>
+    <string name="revanced_shorts_custom_actions_repeat_state_title">Exibir menu estado de repetição</string>
+    <string name="revanced_shorts_custom_actions_repeat_state_summary_on">O menu estado de repetição será exibido.</string>
+    <string name="revanced_shorts_custom_actions_repeat_state_summary_off">O menu estado de repetição está oculto.</string>
     <string name="revanced_shorts_custom_actions_about_title">Sobre ações personalizadas</string>
     <string name="revanced_shorts_custom_actions_about_about_summary">"Esse recurso ainda é experimental, então não há garantia de que ele funcionará perfeitamente.
 
@@ -1328,6 +1334,10 @@ Problema conhecido: como se trata de um recurso em fase de desenvolvimento pelo 
     <string name="revanced_replace_channel_handle_title">Substitua o identificador do canal</string>
     <string name="revanced_replace_channel_handle_summary_on">O nome do canal é usado.</string>
     <string name="revanced_replace_channel_handle_summary_off">O identificador do canal é usado.</string>
+    <string name="revanced_restore_shorts_old_player_layout_title">Restaurar layout antigo do reprodutor</string>
+    <string name="revanced_restore_shorts_old_player_layout_summary_on">"O layout antigo do reprodutor é utilizado.
+Sem margens na parte superior e inferior do reprodutor."</string>
+    <string name="revanced_restore_shorts_old_player_layout_summary_off">O layout antigo do reprodutor não é utilizado.</string>
     <!-- PreferenceScreen: Swipe controls -->
     <string name="revanced_preference_screen_swipe_controls_title">Controles deslizantes</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_title">Ativar gesto de brilho automático</string>
@@ -1371,12 +1381,12 @@ Problema conhecido: como se trata de um recurso em fase de desenvolvimento pelo 
     <string name="revanced_disable_hdr_auto_brightness_title">Desativar brilho automático HDR</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">O brilho automático HDR está desativado.</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">O brilho automático HDR está ativado.</string>
-    <string name="revanced_enable_watch_panel_gestures_title">Ativar gestos no painel de exibição</string>
-    <string name="revanced_enable_watch_panel_gestures_summary_on">Entrar em tela cheia quando deslizar para baixo do reprodutor de vídeo está ativado.</string>
-    <string name="revanced_enable_watch_panel_gestures_summary_off">Entrar em tela cheia quando deslizar para baixo do reprodutor de vídeo está desativado.</string>
-    <string name="revanced_enable_swipe_to_switch_video_title">Ativar deslizar para alterar o vídeo em tela cheia</string>
-    <string name="revanced_enable_swipe_to_switch_video_summary_on">Deslizar para cima / para baixo reproduzirá o vídeo seguinte / anterior.</string>
-    <string name="revanced_enable_swipe_to_switch_video_summary_off">Deslizar para cima / para baixo não reproduzirá o vídeo seguinte / anterior.</string>
+    <string name="revanced_disable_watch_panel_gestures_title">Desativar gestos do painel de observação</string>
+    <string name="revanced_disable_watch_panel_gestures_summary_on">Entrar em tela cheia ao deslizar para baixo no reprodutor de vídeo está desativado.</string>
+    <string name="revanced_disable_watch_panel_gestures_summary_off">Entrar em tela cheia ao deslizar para baixo no reprodutor de vídeo está ativado.</string>
+    <string name="revanced_disable_swipe_to_switch_video_title">Desativar deslizar para alterar o vídeo</string>
+    <string name="revanced_disable_swipe_to_switch_video_summary_on">Deslizar para cima / baixo não reproduzirá o vídeo seguinte / anterior.</string>
+    <string name="revanced_disable_swipe_to_switch_video_summary_off">Deslizar para cima / baixo reproduzirá o vídeo seguinte / anterior.</string>
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">Automático</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Vídeo</string>
@@ -1764,8 +1774,15 @@ Toque no botão continuar e desative as otimizações da bateria."</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Efeitos colaterais da falsificação</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">• Ainda não encontrado.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_skip_sync_video_length">• Os vídeos podem acabar 1 segundo antes.</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• O menu de faixa de áudio está faltando."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• O menu de faixa de áudio está faltando."</string>
+    <string name="revanced_spoof_streaming_data_sync_video_length_title">Sincronizar duração do vídeo antes da reprodução</string>
+    <string name="revanced_spoof_streaming_data_sync_video_length_summary_on">"A duração do vídeo é sincronizada antes da reprodução.
+A duração do vídeo é o valor exato."</string>
+    <string name="revanced_spoof_streaming_data_sync_video_length_summary_off">"A duração do vídeo não é sincronizada antes da reprodução.
+A duração do vídeo pode ser um valor arredondado."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Exibir em Estatísticas para nerds</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">O cliente usado para buscar dados de streaming é mostrado em Estatísticas para nerds.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">O cliente usado para buscar dados de streaming está oculto em Estatísticas para nerds.</string>

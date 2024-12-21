@@ -395,19 +395,24 @@ Siga o guia Não mate o meu aplicativo para o seu telefone e aplique as instruç
 
 Isto é necessário para o aplicativo funcionar."</string>
     <string name="gms_core_dialog_open_website_text">Abrir site</string>
-    <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">"As otimizações da bateria GmsCore devem ser desativadas para evitar problemas.
+    <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">"As otimizações de bateria do GmsCore devem ser desativadas para evitar problemas.
 
-Toque no botão continuar e desative as otimizações da bateria."</string>
+Desativar as otimizações de bateria do GmsCore não afetará negativamente o uso da bateria.
+
+Toque no botão continuar e permita as alterações de otimização."</string>
     <string name="gms_core_dialog_continue_text">Continuar</string>
     <string name="revanced_spoof_client_title">Falsificar cliente</string>
     <string name="revanced_spoof_client_summary">"Falsificar o cliente para evitar problemas de reprodução.
 
-Limitações:
-• O codec de áudio OPUS pode não ser suportado.
-• Miniatura na barra de busca pode não estar presente.
-• Histórico de exibição não funciona com uma conta de marca.
-
 ※ Quando usado com 'Dados de streaming falsos', podem ocorrer problemas de reprodução."</string>
+    <string name="revanced_spoof_client_legacy_title">Usar o cliente antigo</string>
+    <string name="revanced_spoof_client_legacy_summary">"Falsificando com a versão 4.27.53.
+
+O codec OPUS pode não funcionar."</string>
+    <string name="revanced_spoof_client_type_title">Cliente padrão</string>
+    <string name="revanced_spoof_client_type_summary">Define um cliente padrão para falsificar.</string>
+    <string name="revanced_spoof_client_type_entry_android_music">Android Music</string>
+    <string name="revanced_spoof_client_type_entry_ios_music">iOS Music</string>
     <string name="revanced_spoof_streaming_data_title">Dados de streaming falsos</string>
     <string name="revanced_spoof_streaming_data_summary">"Falsifique os dados de streaming para evitar problemas de reprodução.
 

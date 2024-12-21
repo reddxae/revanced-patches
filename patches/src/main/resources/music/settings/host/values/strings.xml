@@ -451,12 +451,15 @@ Tap the continue button and allow optimization changes."</string>
     <string name="revanced_spoof_client_title">Spoof client</string>
     <string name="revanced_spoof_client_summary">"Spoof the client to prevent playback issues.
 
-Limitations:
-• OPUS audio codec may not be supported.
-• Seekbar thumbnail may not be present.
-• Watch history does not work with a brand account.
-
 ※ When used with 'Spoofing streaming data', playback issues may occur."</string>
+    <string name="revanced_spoof_client_legacy_title">Use old client</string>
+    <string name="revanced_spoof_client_legacy_summary">"Spoofing with version 4.27.53.
+
+OPUS codec may not work."</string>
+    <string name="revanced_spoof_client_type_title">Default client</string>
+    <string name="revanced_spoof_client_type_summary">Defines a default client to spoofing.</string>
+    <string name="revanced_spoof_client_type_entry_android_music">Android Music</string>
+    <string name="revanced_spoof_client_type_entry_ios_music">iOS Music</string>
 
     <string name="revanced_spoof_streaming_data_title">Spoof streaming data</string>
     <string name="revanced_spoof_streaming_data_summary">"Spoof the streaming data to prevent playback issues.

@@ -59,18 +59,21 @@ public class GmsCoreSupport {
 
     private static void showBatteryOptimizationDialog(Activity context,
                                                       String dialogMessageRef,
-                                                      String positiveButtonStringRef,
+                                                      String positiveButtonTextRef,
                                                       DialogInterface.OnClickListener onPositiveClickListener) {
         // Use a delay to allow the activity to finish initializing.
         // Otherwise, if device is in dark mode the dialog is shown with wrong color scheme.
-        Utils.runOnMainThreadDelayed(() -> new AlertDialog.Builder(context)
-                .setIconAttribute(android.R.attr.alertDialogIcon)
-                .setTitle(str("gms_core_dialog_title"))
-                .setMessage(str(dialogMessageRef))
-                .setPositiveButton(str(positiveButtonStringRef), onPositiveClickListener)
-                // Allow using back button to skip the action, just in case the check can never be satisfied.
-                .setCancelable(true)
-                .show(), 100);
+        Utils.runOnMainThreadDelayed(() ->
+                // Do not set cancelable to false, to allow using back button to skip the action,
+                // just in case the battery change can never be satisfied.
+                new AlertDialog.Builder(context)
+                        .setIconAttribute(android.R.attr.alertDialogIcon)
+                        .setTitle(str("gms_core_dialog_title"))
+                        .setMessage(str(dialogMessageRef))
+                        .setPositiveButton(str(positiveButtonTextRef), onPositiveClickListener)
+                        .show(),
+                100
+        );
     }
 
     /**

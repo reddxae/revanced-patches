@@ -25,8 +25,8 @@ public class SpoofClientPatch extends BlockRequestPatch {
      * the video action bar will not load properly.
      */
     private static final String CLIENT_VERSION_IOS_MUSIC = IS_7_17_OR_GREATER
-            ? CLIENT_VERSION_IOS_MUSIC_6_21
-            : CLIENT_VERSION_IOS_MUSIC_7_31;
+            ? CLIENT_VERSION_IOS_MUSIC_7_31
+            : CLIENT_VERSION_IOS_MUSIC_6_21;
     private static final String DEVICE_MODEL_IOS_MUSIC = "iPhone16,2";
     private static final String OS_VERSION_IOS_MUSIC = "17.7.2.21H221";
     private static final String USER_AGENT_VERSION_IOS_MUSIC = "17_7_2";

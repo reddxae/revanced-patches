@@ -34,8 +34,8 @@ public class SpoofStreamingDataPatch extends BlockRequestPatch {
      * Value: original video length [streamingData.formats.approxDurationMs]
      */
     private static final Map<String, Long> approxDurationMsMap = Collections.synchronizedMap(
-            new LinkedHashMap<>(100) {
-                private static final int CACHE_LIMIT = 50;
+            new LinkedHashMap<>(10) {
+                private static final int CACHE_LIMIT = 5;
 
                 @Override
                 protected boolean removeEldestEntry(Entry eldest) {
@@ -178,6 +178,7 @@ public class SpoofStreamingDataPatch extends BlockRequestPatch {
                     Long approxDurationMs = approxDurationMsMap.get(videoId);
                     if (approxDurationMs != null) {
                         Logger.printDebug(() -> "Replacing video length from " + lengthMilliseconds + " to " + approxDurationMs + " , videoId: " + videoId);
+                        approxDurationMsMap.remove(videoId);
                         return approxDurationMs;
                     }
                 }

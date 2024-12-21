@@ -413,15 +413,6 @@
     <string name="revanced_miniplayer_type_entry_4">Modern 1</string>
     <string name="revanced_miniplayer_type_entry_5">Modern 2</string>
     <string name="revanced_miniplayer_type_entry_6">Modern 3</string>
-    <string name="revanced_miniplayer_enable_double_tap_action_title">双击操作</string>
-    <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"双击操作已启用
-
-• Modern 1：双击可将最小化的视频更改为更大的尺寸
-• Modern 2, 3：双击可关闭最小化的视频"</string>
-    <string name="revanced_miniplayer_enable_double_tap_action_summary_off">双击操作已禁用</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_title">启用拖放</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">拖放已启用</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">拖放已禁用</string>
     <string name="revanced_miniplayer_hide_expand_close_title">隐藏展开和关闭按钮</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_on">按钮已隐藏\n(滑动迷你播放器来展开或关闭)</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_off">展开和关闭按钮已显示</string>
@@ -471,9 +462,6 @@
 此外，Shorts 中的广告将不再被屏蔽
 
 如果此设置未生效，请尝试切换到隐身模式"</string>
-    <string name="revanced_enable_translucent_navigation_bar_title">启用半透明导航栏</string>
-    <string name="revanced_enable_translucent_navigation_bar_summary_on">导航栏半透明</string>
-    <string name="revanced_enable_translucent_navigation_bar_summary_off">导航栏不透明</string>
     <string name="revanced_hide_navigation_bar_title">隐藏导航栏</string>
     <string name="revanced_hide_navigation_bar_summary_on">导航栏已隐藏</string>
     <string name="revanced_hide_navigation_bar_summary_off">导航栏已显示</string>
@@ -1019,11 +1007,6 @@
 互联网数据使用量可能会增加，进度条缩略图会在轻微延迟后显示
 
 此功能在非常快速的互联网连接下效果最佳"</string>
-    <string name="revanced_enable_cairo_seekbar_title">启用 Cairo 搜索栏</string>
-    <string name="revanced_enable_cairo_seekbar_summary_on">"Cairo 搜索栏已启用
-
-副作用：Cairo 主题也应用于通知点"</string>
-    <string name="revanced_enable_cairo_seekbar_summary_off">Cairo 搜索栏已禁用</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Video description -->
     <string name="revanced_preference_screen_video_description_title">视频描述</string>
     <string name="revanced_preference_screen_video_description_summary">隐藏或显示视频描述组件</string>
@@ -1217,6 +1200,7 @@
     <string name="revanced_shorts_double_tap_to_like_animation_entry_4">心形</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_5">心形(着色)</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_6">隐藏</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Custom actions -->
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
     <string name="revanced_enable_shorts_time_stamp_title">启用时间戳</string>
     <string name="revanced_enable_shorts_time_stamp_summary_on">"时间戳已启用
@@ -1283,12 +1267,6 @@
     <string name="revanced_disable_hdr_auto_brightness_title">禁用 HDR 视频自动亮度</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">HDR 视频自动亮度已禁用</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">HDR 视频自动亮度已启用</string>
-    <string name="revanced_enable_watch_panel_gestures_title">启用观看面板手势</string>
-    <string name="revanced_enable_watch_panel_gestures_summary_on">当在视频播放器下方向下滑动时，启用进入全屏模式</string>
-    <string name="revanced_enable_watch_panel_gestures_summary_off">当在视频播放器下方向下滑动时，禁用进入全屏模式</string>
-    <string name="revanced_enable_swipe_to_switch_video_title">启用滑动以在全屏中更改视频</string>
-    <string name="revanced_enable_swipe_to_switch_video_summary_on">向上/向下滑动将播放下一个/上一个视频</string>
-    <string name="revanced_enable_swipe_to_switch_video_summary_off">向上/向下滑动不会播放下一/上一个视频</string>
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">自动</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">视频</string>
@@ -1673,15 +1651,8 @@
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">伪装副作用</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">"• 电影或付费视频可能无法播放"</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• 音轨菜单缺失"</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• 音轨菜单缺失"</string>
-    <string name="revanced_spoof_streaming_data_ios_force_avc_title">强制使用 iOS AVC (H.264)</string>
-    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">iOS 视频编解码器是 AVC (H.264)</string>
-    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">iOS 视频编解码器是 AVC (H.264), VP9, 或 AV1</string>
-    <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"启用此功能可能会改善耗电并修复播放卡顿问题
-
-AVC (H.264) 的最大解析度为 1080p，且视频播放将使用比 VP9 或 AV1 更多的网路数据"</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">显示统计信息</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">用于获取流媒体数据的客户端已在统计信息中显示</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">用于获取流媒体数据的客户端已在统计信息中隐藏</string>

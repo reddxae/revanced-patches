@@ -28,6 +28,8 @@ var appRelatedEndScreenResults = -1L
     private set
 var autoNavPreviewStub = -1L
     private set
+var autoNavScrollCancelPadding = -1L
+    private set
 var autoNavToggle = -1L
     private set
 var backgroundCategory = -1L
@@ -120,6 +122,8 @@ var menuItemView = -1L
     private set
 var metaPanel = -1L
     private set
+var miniplayerMaxSize = -1L
+    private set
 var modernMiniPlayerClose = -1L
     private set
 var modernMiniPlayerExpand = -1L
@@ -130,13 +134,15 @@ var modernMiniPlayerRewindButton = -1L
     private set
 var musicAppDeeplinkButtonView = -1L
     private set
-var notice = -1L
-    private set
 var notificationBigPictureIconWidth = -1L
     private set
 var offlineActionsVideoDeletedUndoSnackbarText = -1L
     private set
 var playerCollapseButton = -1L
+    private set
+var playerControlPreviousButtonTouchArea = -1L
+    private set
+var playerControlNextButtonTouchArea = -1L
     private set
 var playerVideoTitleView = -1L
     private set
@@ -214,6 +220,8 @@ var youTubeControlsOverlaySubtitleButton = -1L
     private set
 var youTubeLogo = -1L
     private set
+var ytFillBell = -1L
+    private set
 var ytOutlinePictureInPictureWhite = -1L
     private set
 var ytOutlineVideoCamera = -1L
@@ -259,6 +267,10 @@ internal val sharedResourceIdPatch = resourcePatch(
         autoNavPreviewStub = resourceMappings[
             ID,
             "autonav_preview_stub"
+        ]
+        autoNavScrollCancelPadding = resourceMappings[
+            DIMEN,
+            "autonav_scroll_cancel_padding"
         ]
         autoNavToggle = resourceMappings[
             ID,
@@ -444,6 +456,10 @@ internal val sharedResourceIdPatch = resourcePatch(
             ID,
             "metapanel"
         ]
+        miniplayerMaxSize = resourceMappings[
+            DIMEN,
+            "miniplayer_max_size",
+        ]
         modernMiniPlayerClose = resourceMappings[
             ID,
             "modern_miniplayer_close"
@@ -464,10 +480,6 @@ internal val sharedResourceIdPatch = resourcePatch(
             ID,
             "music_app_deeplink_button_view"
         ]
-        notice = resourceMappings[
-            ID,
-            "notice"
-        ]
         notificationBigPictureIconWidth = resourceMappings[
             DIMEN,
             "notification_big_picture_icon_width"
@@ -479,6 +491,14 @@ internal val sharedResourceIdPatch = resourcePatch(
         playerCollapseButton = resourceMappings[
             ID,
             "player_collapse_button"
+        ]
+        playerControlPreviousButtonTouchArea = resourceMappings[
+            ID,
+            "player_control_previous_button_touch_area"
+        ]
+        playerControlNextButtonTouchArea = resourceMappings[
+            ID,
+            "player_control_next_button_touch_area"
         ]
         playerVideoTitleView = resourceMappings[
             ID,
@@ -631,6 +651,10 @@ internal val sharedResourceIdPatch = resourcePatch(
         youTubeLogo = resourceMappings[
             ID,
             "youtube_logo"
+        ]
+        ytFillBell = resourceMappings[
+            DRAWABLE,
+            "yt_fill_bell_black_24"
         ]
         ytOutlinePictureInPictureWhite = resourceMappings[
             DRAWABLE,

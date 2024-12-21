@@ -13,13 +13,14 @@ import app.revanced.patches.music.utils.settings.ResourceUtils.updatePatchStatus
 import app.revanced.patches.music.utils.settings.settingsPatch
 import app.revanced.util.ResourceGroup
 import app.revanced.util.Utils.trimIndentMultiline
+import app.revanced.util.copyAdaptiveIcon
 import app.revanced.util.copyResources
 import app.revanced.util.getResourceGroup
 import app.revanced.util.underBarOrThrow
+import app.revanced.util.valueOrThrow
 import org.w3c.dom.Element
 import java.io.File
 import java.nio.file.Files
-import java.nio.file.StandardCopyOption
 
 private const val ADAPTIVE_ICON_BACKGROUND_FILE_NAME =
     "adaptiveproduct_youtube_music_background_color_108"
@@ -135,7 +136,7 @@ val customBrandingIconPatch = resourcePatch(
 
     execute {
         // Check patch options first.
-        val appIcon = appIconOption.underBarOrThrow()
+        var appIcon = appIconOption.underBarOrThrow()
 
         val appIconResourcePath = "music/branding/$appIcon"
         val youtubeMusicIconResourcePath = "music/branding/youtube_music"
@@ -144,6 +145,7 @@ val customBrandingIconPatch = resourcePatch(
 
         // Check if a custom path is used in the patch options.
         if (!availableIcon.containsValue(appIcon)) {
+            appIcon = appIconOption.valueOrThrow()
             launcherIconResourceGroups.let { resourceGroups ->
                 try {
                     val path = File(appIcon)
@@ -248,40 +250,11 @@ val customBrandingIconPatch = resourcePatch(
             return@execute
         }
 
-        fun getAdaptiveIconResourceFile(tag: String): String {
-            document("res/mipmap-anydpi/ic_launcher_release.xml").use { document ->
-                val adaptiveIcon = document
-                    .getElementsByTagName("adaptive-icon")
-                    .item(0) as Element
-
-                val childNodes = adaptiveIcon.childNodes
-                for (i in 0 until childNodes.length) {
-                    val node = childNodes.item(i)
-                    if (node is Element && node.tagName == tag && node.hasAttribute("android:drawable")) {
-                        return node.getAttribute("android:drawable").split("/")[1]
-                    }
-                }
-                throw PatchException("Element not found: $tag")
-            }
-        }
-
-        mapOf(
-            ADAPTIVE_ICON_BACKGROUND_FILE_NAME to getAdaptiveIconResourceFile("background"),
-            ADAPTIVE_ICON_FOREGROUND_FILE_NAME to getAdaptiveIconResourceFile("foreground")
-        ).forEach { (oldIconResourceFile, newIconResourceFile) ->
-            mipmapDirectories.forEach {
-                val mipmapDirectory = resourceDirectory.resolve(it)
-                Files.move(
-                    mipmapDirectory
-                        .resolve("$oldIconResourceFile.png")
-                        .toPath(),
-                    mipmapDirectory
-                        .resolve("$newIconResourceFile.png")
-                        .toPath(),
-                    StandardCopyOption.REPLACE_EXISTING
-                )
-            }
-        }
+        copyAdaptiveIcon(
+            ADAPTIVE_ICON_BACKGROUND_FILE_NAME,
+            ADAPTIVE_ICON_FOREGROUND_FILE_NAME,
+            mipmapDirectories
+        )
 
         // endregion
     }

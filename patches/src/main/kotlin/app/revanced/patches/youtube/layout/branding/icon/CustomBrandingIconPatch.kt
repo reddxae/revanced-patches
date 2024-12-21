@@ -5,16 +5,27 @@ import app.revanced.patcher.patch.resourcePatch
 import app.revanced.patcher.patch.stringOption
 import app.revanced.patches.youtube.utils.compatibility.Constants.COMPATIBLE_PACKAGE
 import app.revanced.patches.youtube.utils.patch.PatchList.CUSTOM_BRANDING_ICON_FOR_YOUTUBE
+import app.revanced.patches.youtube.utils.playservice.is_19_32_or_greater
+import app.revanced.patches.youtube.utils.playservice.is_19_34_or_greater
+import app.revanced.patches.youtube.utils.playservice.versionCheckPatch
 import app.revanced.patches.youtube.utils.settings.ResourceUtils.updatePatchStatusIcon
 import app.revanced.patches.youtube.utils.settings.settingsPatch
 import app.revanced.util.ResourceGroup
 import app.revanced.util.Utils.trimIndentMultiline
+import app.revanced.util.copyAdaptiveIcon
 import app.revanced.util.copyFile
 import app.revanced.util.copyResources
-import app.revanced.util.copyXmlNode
 import app.revanced.util.getResourceGroup
 import app.revanced.util.underBarOrThrow
+import app.revanced.util.valueOrThrow
+import org.w3c.dom.Element
 
+private const val ADAPTIVE_ICON_BACKGROUND_FILE_NAME =
+    "adaptiveproduct_youtube_background_color_108"
+private const val ADAPTIVE_ICON_FOREGROUND_FILE_NAME =
+    "adaptiveproduct_youtube_foreground_color_108"
+private const val ADAPTIVE_ICON_MONOCHROME_FILE_NAME =
+    "adaptive_monochrome_ic_youtube_launcher"
 private const val DEFAULT_ICON = "revancify_blue"
 
 private val availableIcon = mapOf(
@@ -39,8 +50,8 @@ private val drawableDirectories = sizeArray.map { "drawable-$it" }
 private val mipmapDirectories = sizeArray.map { "mipmap-$it" }
 
 private val launcherIconResourceFileNames = arrayOf(
-    "adaptiveproduct_youtube_background_color_108",
-    "adaptiveproduct_youtube_foreground_color_108",
+    ADAPTIVE_ICON_BACKGROUND_FILE_NAME,
+    ADAPTIVE_ICON_FOREGROUND_FILE_NAME,
     "ic_launcher",
     "ic_launcher_round"
 ).map { "$it.png" }.toTypedArray()
@@ -83,8 +94,10 @@ val customBrandingIconPatch = resourcePatch(
 ) {
     compatibleWith(COMPATIBLE_PACKAGE)
 
-    dependsOn(settingsPatch)
-
+    dependsOn(
+        settingsPatch,
+        versionCheckPatch,
+    )
 
     val appIconOption = stringOption(
         key = "appIcon",
@@ -123,13 +136,14 @@ val customBrandingIconPatch = resourcePatch(
 
     execute {
         // Check patch options first.
-        val appIcon = appIconOption.underBarOrThrow()
+        var appIcon = appIconOption
+            .underBarOrThrow()
 
         val appIconResourcePath = "youtube/branding/$appIcon"
 
-
         // Check if a custom path is used in the patch options.
         if (!availableIcon.containsValue(appIcon)) {
+            appIcon = appIconOption.valueOrThrow()
             val copiedFiles = copyFile(
                 launcherIconResourceGroups,
                 appIcon,
@@ -149,7 +163,7 @@ val customBrandingIconPatch = resourcePatch(
             arrayOf(
                 ResourceGroup(
                     "drawable",
-                    "adaptive_monochrome_ic_youtube_launcher.xml"
+                    "$ADAPTIVE_ICON_MONOCHROME_FILE_NAME.xml"
                 )
             ).forEach { resourceGroup ->
                 copyResources("$appIconResourcePath/monochrome", resourceGroup)
@@ -162,6 +176,25 @@ val customBrandingIconPatch = resourcePatch(
                         copyResources("$appIconResourcePath/splash", it)
                     }
                 }
+
+                document("res/values/styles.xml").use { document ->
+                    val resourcesNode =
+                        document.getElementsByTagName("resources").item(0) as Element
+                    val childNodes = resourcesNode.childNodes
+
+                    for (i in 0 until childNodes.length) {
+                        val node = childNodes.item(i) as? Element ?: continue
+                        val nodeAttributeName = node.getAttribute("name")
+                        if (nodeAttributeName.startsWith("Theme.YouTube.Launcher")) {
+                            val style = document.createElement("style")
+                            style.setAttribute("name", nodeAttributeName)
+                            style.setAttribute("parent", "@style/Base.Theme.YouTube.Launcher")
+
+                            resourcesNode.removeChild(node)
+                            resourcesNode.appendChild(style)
+                        }
+                    }
+                }
             }
 
             // Change splash screen.
@@ -172,14 +205,64 @@ val customBrandingIconPatch = resourcePatch(
                     }
                 }
 
-                copyXmlNode(
-                    "$appIconResourcePath/splash",
-                    "values-v31/styles.xml",
-                    "resources"
-                )
+                val styleMap = mutableMapOf<String, String>()
+                styleMap["Base.Theme.YouTube.Launcher"] =
+                    "@style/Theme.AppCompat.DayNight.NoActionBar"
+
+                if (is_19_32_or_greater) {
+                    styleMap["Theme.YouTube.Home"] = "@style/Base.V27.Theme.YouTube.Home"
+                }
+
+                styleMap.forEach { (nodeAttributeName, nodeAttributeParent) ->
+                    document("res/values-v31/styles.xml").use { document ->
+                        val resourcesNode =
+                            document.getElementsByTagName("resources").item(0) as Element
+
+                        val style = document.createElement("style")
+                        style.setAttribute("name", nodeAttributeName)
+                        style.setAttribute("parent", nodeAttributeParent)
+
+                        val primaryItem = document.createElement("item")
+                        primaryItem.setAttribute("name", "android:windowSplashScreenAnimatedIcon")
+                        primaryItem.textContent = "@drawable/avd_anim"
+                        val secondaryItem = document.createElement("item")
+                        secondaryItem.setAttribute(
+                            "name",
+                            "android:windowSplashScreenAnimationDuration"
+                        )
+                        secondaryItem.textContent = if (appIcon.startsWith("revancify"))
+                            "1500"
+                        else
+                            "1000"
+
+                        style.appendChild(primaryItem)
+                        style.appendChild(secondaryItem)
+
+                        resourcesNode.appendChild(style)
+                    }
+                }
             }
 
             updatePatchStatusIcon(appIcon)
         }
+
+        // region fix app icon
+
+        if (!is_19_34_or_greater) {
+            return@execute
+        }
+        if (appIcon == "youtube") {
+            return@execute
+        }
+
+        copyAdaptiveIcon(
+            ADAPTIVE_ICON_BACKGROUND_FILE_NAME,
+            ADAPTIVE_ICON_FOREGROUND_FILE_NAME,
+            mipmapDirectories,
+            ADAPTIVE_ICON_MONOCHROME_FILE_NAME
+        )
+
+        // endregion
+
     }
 }

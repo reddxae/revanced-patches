@@ -6,12 +6,16 @@ import static app.revanced.extension.music.sponsorblock.objects.CategoryBehaviou
 
 import androidx.annotation.NonNull;
 
+import app.revanced.extension.music.patches.misc.client.AppClient.ClientType;
 import app.revanced.extension.music.patches.utils.PatchStatus;
+import app.revanced.extension.music.sponsorblock.SponsorBlockSettings;
 import app.revanced.extension.shared.settings.BaseSettings;
 import app.revanced.extension.shared.settings.BooleanSetting;
+import app.revanced.extension.shared.settings.EnumSetting;
 import app.revanced.extension.shared.settings.FloatSetting;
 import app.revanced.extension.shared.settings.IntegerSetting;
 import app.revanced.extension.shared.settings.LongSetting;
+import app.revanced.extension.shared.settings.Setting;
 import app.revanced.extension.shared.settings.StringSetting;
 import app.revanced.extension.shared.utils.Utils;
 
@@ -62,6 +66,7 @@ public class Settings extends BaseSettings {
     public static final BooleanSetting HIDE_FLYOUT_MENU_GO_TO_EPISODE = new BooleanSetting("revanced_hide_flyout_menu_go_to_episode", FALSE, true);
     public static final BooleanSetting HIDE_FLYOUT_MENU_GO_TO_PODCAST = new BooleanSetting("revanced_hide_flyout_menu_go_to_podcast", FALSE, true);
     public static final BooleanSetting HIDE_FLYOUT_MENU_HELP = new BooleanSetting("revanced_hide_flyout_menu_help", FALSE, true);
+    public static final BooleanSetting HIDE_FLYOUT_MENU_PIN_TO_SPEED_DIAL = new BooleanSetting("revanced_hide_flyout_menu_pin_to_speed_dial", FALSE, true);
     public static final BooleanSetting HIDE_FLYOUT_MENU_PLAY_NEXT = new BooleanSetting("revanced_hide_flyout_menu_play_next", FALSE, true);
     public static final BooleanSetting HIDE_FLYOUT_MENU_QUALITY = new BooleanSetting("revanced_hide_flyout_menu_quality", FALSE, true);
     public static final BooleanSetting HIDE_FLYOUT_MENU_REMOVE_FROM_LIBRARY = new BooleanSetting("revanced_hide_flyout_menu_remove_from_library", FALSE, true);
@@ -76,6 +81,7 @@ public class Settings extends BaseSettings {
     public static final BooleanSetting HIDE_FLYOUT_MENU_START_RADIO = new BooleanSetting("revanced_hide_flyout_menu_start_radio", FALSE, true);
     public static final BooleanSetting HIDE_FLYOUT_MENU_STATS_FOR_NERDS = new BooleanSetting("revanced_hide_flyout_menu_stats_for_nerds", FALSE, true);
     public static final BooleanSetting HIDE_FLYOUT_MENU_SUBSCRIBE = new BooleanSetting("revanced_hide_flyout_menu_subscribe", FALSE, true);
+    public static final BooleanSetting HIDE_FLYOUT_MENU_UNPIN_FROM_SPEED_DIAL = new BooleanSetting("revanced_hide_flyout_menu_unpin_from_speed_dial", FALSE, true);
     public static final BooleanSetting HIDE_FLYOUT_MENU_VIEW_SONG_CREDIT = new BooleanSetting("revanced_hide_flyout_menu_view_song_credit", FALSE, true);
     public static final BooleanSetting REPLACE_FLYOUT_MENU_DISMISS_QUEUE = new BooleanSetting("revanced_replace_flyout_menu_dismiss_queue", FALSE, true);
     public static final BooleanSetting REPLACE_FLYOUT_MENU_DISMISS_QUEUE_CONTINUE_WATCH = new BooleanSetting("revanced_replace_flyout_menu_dismiss_queue_continue_watch", TRUE);
@@ -171,9 +177,11 @@ public class Settings extends BaseSettings {
     // PreferenceScreen: Miscellaneous
     public static final BooleanSetting CHANGE_SHARE_SHEET = new BooleanSetting("revanced_change_share_sheet", FALSE, true);
     public static final BooleanSetting DISABLE_CAIRO_SPLASH_ANIMATION = new BooleanSetting("revanced_disable_cairo_splash_animation", FALSE, true);
+    public static final BooleanSetting DISABLE_DRC_AUDIO = new BooleanSetting("revanced_disable_drc_audio", FALSE, true);
     public static final BooleanSetting ENABLE_OPUS_CODEC = new BooleanSetting("revanced_enable_opus_codec", FALSE, true);
-    public static final BooleanSetting SPOOF_CLIENT = new BooleanSetting("revanced_spoof_client", FALSE, true);
     public static final BooleanSetting SETTINGS_IMPORT_EXPORT = new BooleanSetting("revanced_extended_settings_import_export", FALSE, false);
+    public static final BooleanSetting SPOOF_CLIENT_LEGACY = new BooleanSetting("revanced_spoof_client_legacy", FALSE, true);
+    public static final EnumSetting<ClientType> SPOOF_CLIENT_TYPE = new EnumSetting<>("revanced_spoof_client_type", ClientType.ANDROID_MUSIC, true);
 
 
     // PreferenceScreen: Return YouTube Dislike
@@ -216,6 +224,14 @@ public class Settings extends BaseSettings {
     // SB settings not exported
     public static final LongSetting SB_LAST_VIP_CHECK = new LongSetting("sb_last_vip_check", 0L, false, false);
 
+    static {
+        // region SB import/export callbacks
+
+        Setting.addImportExportCallback(SponsorBlockSettings.SB_IMPORT_EXPORT_CALLBACK);
+
+        // endregion
+    }
+
     public static final String OPEN_DEFAULT_APP_SETTINGS = "revanced_default_app_settings";
 
     /**
@@ -236,6 +252,8 @@ public class Settings extends BaseSettings {
             SB_API_URL.key,
             SETTINGS_IMPORT_EXPORT.key,
             SPOOF_APP_VERSION_TARGET.key,
+            SPOOF_CLIENT_TYPE.key,
+            SPOOF_STREAMING_DATA_TYPE.key,
             RETURN_YOUTUBE_USERNAME_ABOUT.key,
             RETURN_YOUTUBE_USERNAME_DISPLAY_FORMAT.key,
             RETURN_YOUTUBE_USERNAME_YOUTUBE_DATA_API_V3_DEVELOPER_KEY.key,

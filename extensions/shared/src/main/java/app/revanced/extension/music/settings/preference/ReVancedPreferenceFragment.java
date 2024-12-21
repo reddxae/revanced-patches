@@ -12,11 +12,13 @@ import static app.revanced.extension.music.settings.Settings.RETURN_YOUTUBE_USER
 import static app.revanced.extension.music.settings.Settings.SB_API_URL;
 import static app.revanced.extension.music.settings.Settings.SETTINGS_IMPORT_EXPORT;
 import static app.revanced.extension.music.settings.Settings.SPOOF_APP_VERSION_TARGET;
+import static app.revanced.extension.music.settings.Settings.SPOOF_CLIENT_TYPE;
 import static app.revanced.extension.music.utils.ExtendedUtils.getDialogBuilder;
 import static app.revanced.extension.music.utils.ExtendedUtils.getLayoutParams;
 import static app.revanced.extension.music.utils.RestartUtils.showRestartDialog;
 import static app.revanced.extension.shared.settings.BaseSettings.RETURN_YOUTUBE_USERNAME_DISPLAY_FORMAT;
 import static app.revanced.extension.shared.settings.BaseSettings.RETURN_YOUTUBE_USERNAME_YOUTUBE_DATA_API_V3_DEVELOPER_KEY;
+import static app.revanced.extension.shared.settings.BaseSettings.SPOOF_STREAMING_DATA_TYPE;
 import static app.revanced.extension.shared.settings.Setting.getSettingFromPath;
 import static app.revanced.extension.shared.utils.ResourceUtils.getStringArray;
 import static app.revanced.extension.shared.utils.StringRef.str;
@@ -158,7 +160,9 @@ public class ReVancedPreferenceFragment extends PreferenceFragment {
                     Logger.printDebug(() -> "Failed to find the right value: " + dataString);
                 }
             } else if (settings instanceof EnumSetting<?> enumSetting) {
-                if (settings.equals(RETURN_YOUTUBE_USERNAME_DISPLAY_FORMAT)) {
+                if (settings.equals(RETURN_YOUTUBE_USERNAME_DISPLAY_FORMAT)
+                        || settings.equals(SPOOF_CLIENT_TYPE)
+                        || settings.equals(SPOOF_STREAMING_DATA_TYPE)) {
                     ResettableListPreference.showDialog(mActivity, enumSetting, 0);
                 }
             }
@@ -234,7 +238,7 @@ public class ReVancedPreferenceFragment extends PreferenceFragment {
                     .setView(container)
                     .setNegativeButton(android.R.string.cancel, null)
                     .setNeutralButton(str("revanced_extended_settings_import_copy"), (dialog, which) -> Utils.setClipboard(textView.getText().toString(), str("revanced_share_copy_settings_success")))
-                    .setPositiveButton(str("revanced_extended_settings_import"), (dialog, which) -> importSettings(textView.getText().toString()))
+                    .setPositiveButton(str("revanced_extended_settings_import"), (dialog, which) -> importSettings(activity, textView.getText().toString()))
                     .show();
         } catch (Exception ex) {
             Logger.printException(() -> "importExportEditTextDialogBuilder failure", ex);
@@ -248,8 +252,8 @@ public class ReVancedPreferenceFragment extends PreferenceFragment {
         @SuppressLint("SimpleDateFormat")
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 
-        var appName = ExtendedUtils.getApplicationLabel();
-        var versionName = ExtendedUtils.getVersionName();
+        var appName = ExtendedUtils.getAppLabel();
+        var versionName = ExtendedUtils.getAppVersionName();
         var formatDate = dateFormat.format(new Date(System.currentTimeMillis()));
         var fileName = String.format("%s_v%s_%s.txt", appName, versionName, formatDate);
 
@@ -324,7 +328,7 @@ public class ReVancedPreferenceFragment extends PreferenceFragment {
             bufferedReader.close();
             fileReader.close();
 
-            final boolean restartNeeded = Setting.importFromJSON(sb.toString(), false);
+            final boolean restartNeeded = Setting.importFromJSON(context, sb.toString());
             if (restartNeeded) {
                 ReVancedPreferenceFragment.showRebootDialog();
             }
@@ -334,13 +338,13 @@ public class ReVancedPreferenceFragment extends PreferenceFragment {
         }
     }
 
-    private void importSettings(String replacementSettings) {
+    private void importSettings(Activity mActivity, String replacementSettings) {
         try {
             existingSettings = Setting.exportToJson(null);
             if (replacementSettings.equals(existingSettings)) {
                 return;
             }
-            final boolean restartNeeded = Setting.importFromJSON(replacementSettings, false);
+            final boolean restartNeeded = Setting.importFromJSON(mActivity, replacementSettings);
             if (restartNeeded) {
                 ReVancedPreferenceFragment.showRebootDialog();
             }

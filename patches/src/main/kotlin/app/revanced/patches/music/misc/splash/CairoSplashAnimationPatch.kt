@@ -38,6 +38,7 @@ val cairoSplashAnimationPatch = bytecodePatch(
         YOUTUBE_MUSIC_PACKAGE_NAME(
             "7.06.54",
             "7.16.53",
+            "7.25.52",
         ),
     )
 
@@ -49,7 +50,7 @@ val cairoSplashAnimationPatch = bytecodePatch(
 
     execute {
         if (!is_7_06_or_greater) {
-            println("WARNING: This patch is not supported in this version. Use YouTube Music 7.06.54 or later.")
+            println("WARNING: \"${DISABLE_CAIRO_SPLASH_ANIMATION.title}\" is not supported in this version. Use YouTube Music 7.06.54 or later.")
             return@execute
         } else if (!is_7_20_or_greater) {
             cairoSplashAnimationConfigFingerprint.injectLiteralInstructionBooleanCall(

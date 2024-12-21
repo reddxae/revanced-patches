@@ -1,9 +1,13 @@
 package app.revanced.patches.youtube.general.navigation
 
+import app.revanced.patches.youtube.utils.resourceid.ytFillBell
 import app.revanced.util.fingerprint.legacyFingerprint
 import app.revanced.util.or
 import com.android.tools.smali.dexlib2.AccessFlags
 import com.android.tools.smali.dexlib2.Opcode
+
+internal const val ANDROID_AUTOMOTIVE_STRING = "Android Automotive"
+internal const val TAB_ACTIVITY_CAIRO_STRING = "TAB_ACTIVITY_CAIRO"
 
 internal val autoMotiveFingerprint = legacyFingerprint(
     name = "autoMotiveFingerprint",
@@ -13,7 +17,13 @@ internal val autoMotiveFingerprint = legacyFingerprint(
         Opcode.MOVE_RESULT,
         Opcode.IF_EQZ
     ),
-    strings = listOf("Android Automotive")
+    strings = listOf(ANDROID_AUTOMOTIVE_STRING)
+)
+
+internal val imageEnumConstructorFingerprint = legacyFingerprint(
+    name = "imageEnumConstructorFingerprint",
+    returnType = "V",
+    strings = listOf(TAB_ACTIVITY_CAIRO_STRING)
 )
 
 internal val pivotBarChangedFingerprint = legacyFingerprint(
@@ -59,7 +69,37 @@ internal val pivotBarStyleFingerprint = legacyFingerprint(
     }
 )
 
-internal val translucentNavigationBarFingerprint = legacyFingerprint(
-    name = "translucentNavigationBarFingerprint",
-    literals = listOf(45630927L),
+internal val setEnumMapFingerprint = legacyFingerprint(
+    name = "setEnumMapFingerprint",
+    literals = listOf(ytFillBell),
+)
+
+internal const val TRANSLUCENT_NAVIGATION_STATUS_BAR_FEATURE_FLAG = 45400535L
+
+internal val translucentNavigationStatusBarFeatureFlagFingerprint = legacyFingerprint(
+    name = "translucentNavigationStatusBarFeatureFlagFingerprint",
+    accessFlags = AccessFlags.PUBLIC or AccessFlags.FINAL,
+    returnType = "Z",
+    literals = listOf(TRANSLUCENT_NAVIGATION_STATUS_BAR_FEATURE_FLAG)
+)
+
+internal const val TRANSLUCENT_NAVIGATION_BUTTONS_FEATURE_FLAG = 45630927L
+
+internal val translucentNavigationButtonsFeatureFlagFingerprint = legacyFingerprint(
+    name = "translucentNavigationButtonsFeatureFlagFingerprint",
+    accessFlags = AccessFlags.PUBLIC or AccessFlags.FINAL,
+    returnType = "V",
+    literals = listOf(TRANSLUCENT_NAVIGATION_BUTTONS_FEATURE_FLAG)
+)
+
+/**
+ * The device on screen back/home/recent buttons.
+ */
+internal const val TRANSLUCENT_NAVIGATION_BUTTONS_SYSTEM_FEATURE_FLAG = 45632194L
+
+internal val translucentNavigationButtonsSystemFeatureFlagFingerprint = legacyFingerprint(
+    name = "translucentNavigationButtonsSystemFeatureFlagFingerprint",
+    accessFlags = AccessFlags.PUBLIC or AccessFlags.FINAL,
+    returnType = "Z",
+    literals = listOf(TRANSLUCENT_NAVIGATION_BUTTONS_SYSTEM_FEATURE_FLAG)
 )

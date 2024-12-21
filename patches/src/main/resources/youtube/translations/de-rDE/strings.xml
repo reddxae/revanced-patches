@@ -386,15 +386,6 @@ Manche Komponenten könnten nicht versteckt werden."</string>
     <string name="revanced_miniplayer_type_entry_4">Modern 1</string>
     <string name="revanced_miniplayer_type_entry_5">Modern 2</string>
     <string name="revanced_miniplayer_type_entry_6">Modern 3</string>
-    <string name="revanced_miniplayer_enable_double_tap_action_title">Doppeltes Tippen</string>
-    <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"Doppeltes Tippen ist aktiviert.
-
-• Moderne 1: Doppeltippen, um das minimierte Video auf eine größere Größe zu ändern.
-• Moderne 2, 3: Doppeltippen, um das minimierte Video zu schließen."</string>
-    <string name="revanced_miniplayer_enable_double_tap_action_summary_off">Aktion zum Doppeltippen ist deaktiviert.</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_title">Aktiviere Drag &amp; Drop</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">Drag &amp; Drop ist aktiviert.</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">Drag &amp; Drop ist deaktiviert.</string>
     <string name="revanced_miniplayer_hide_expand_close_title">Ausklappen und Schließen der Tasten ausblenden</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_on">Tasten sind ausgeblendet.\n(wischen Sie den Miniplayer zum erweitern oder schließen)</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_off">Erweitern und Schließen Schaltflächen werden angezeigt.</string>
@@ -433,9 +424,6 @@ Manche Komponenten könnten nicht versteckt werden."</string>
     <string name="revanced_hide_navigation_label_summary_on">Navigationslabel ist versteckt</string>
     <string name="revanced_hide_navigation_label_summary_off">Navigationslabel wird angezeigt</string>
     <string name="revanced_switch_create_with_notifications_button_title">Erstellungs- und Benachrichtigungs-Buttons tauschen</string>
-    <string name="revanced_enable_translucent_navigation_bar_title">Transparente Navigationsleiste aktivieren</string>
-    <string name="revanced_enable_translucent_navigation_bar_summary_on">Navigationsleiste ist transparent.</string>
-    <string name="revanced_enable_translucent_navigation_bar_summary_off">Navigationsleiste ist nicht transparent.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">Einstellungsmenü</string>
     <string name="revanced_preference_screen_settings_menu_summary">Elemente im YouTube-Einstellungsmenü verstecken</string>
@@ -831,11 +819,6 @@ Tippen und halten Sie, um den Einstellungsdialog für die Whitelist anzuzeigen.<
     <string name="revanced_restore_old_seekbar_thumbnails_title">Alte Suchleiste Thumbnails wiederherstellen</string>
     <string name="revanced_restore_old_seekbar_thumbnails_summary_on">Suchleiste Miniaturansichten werden über der Suchleiste angezeigt.</string>
     <string name="revanced_restore_old_seekbar_thumbnails_summary_off">Thumbnails der Suchleiste werden im Vollbild angezeigt.</string>
-    <string name="revanced_enable_cairo_seekbar_title">Kairo Suchleiste aktivieren</string>
-    <string name="revanced_enable_cairo_seekbar_summary_on">"Kairo Suchleiste ist aktiviert.
-
-Seiteneffekt: Kairo Thema wird auch auf Benachrichtigungspunkte angewendet."</string>
-    <string name="revanced_enable_cairo_seekbar_summary_off">Kairoer Suchleiste ist deaktiviert.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Video description -->
     <string name="revanced_preference_screen_video_description_title">Videobeschreibung</string>
     <string name="revanced_preference_screen_video_description_summary">Komponenten der Videobeschreibung ausblenden oder anzeigen.</string>
@@ -940,6 +923,7 @@ Nebeneffekt: Offizielle Kopfzeilen in Suchergebnissen werden ausgeblendet."</str
     <string name="revanced_shorts_double_tap_to_like_animation_entry_4">Herz</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_5">Herz (Farbton)</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_6">Ausgeblendet</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Custom actions -->
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
     <string name="revanced_enable_shorts_time_stamp_title">Zeitstempel aktivieren</string>
     <string name="revanced_enable_shorts_time_stamp_summary_on">"Zeitstempel ist aktiviert.
@@ -991,10 +975,6 @@ Bekannte Probleme: Da dies eine Funktion in der Entwicklungsphase von Google ist
     <string name="revanced_disable_hdr_auto_brightness_title">Deaktiviere automatische HDR-Helligkeit</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">Automatische HDR-Helligkeit ist deaktiviert</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">Automatische HDR-Helligkeit ist aktiviert</string>
-    <string name="revanced_enable_watch_panel_gestures_summary_off">Vollbild-Eingabe beim Herunterwischen unter dem Videoplayer ist deaktiviert.</string>
-    <string name="revanced_enable_swipe_to_switch_video_title">Wischen zum Ändern des Videos aktivieren</string>
-    <string name="revanced_enable_swipe_to_switch_video_summary_on">Wischen nach oben / unten wird das nächste / vorherige Video abspielen.</string>
-    <string name="revanced_enable_swipe_to_switch_video_summary_off">Wischen nach oben / nach unten wird nicht das nächste / vorherige Video abspielen.</string>
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">Auto</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Video</string>

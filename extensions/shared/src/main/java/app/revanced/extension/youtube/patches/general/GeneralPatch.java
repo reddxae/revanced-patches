@@ -5,6 +5,7 @@ import static app.revanced.extension.shared.utils.Utils.getChildView;
 import static app.revanced.extension.shared.utils.Utils.hideViewByLayoutParams;
 import static app.revanced.extension.shared.utils.Utils.hideViewGroupByMarginLayoutParams;
 import static app.revanced.extension.shared.utils.Utils.hideViewUnderCondition;
+import static app.revanced.extension.shared.utils.Utils.isSDKAbove;
 import static app.revanced.extension.youtube.patches.utils.PatchStatus.ImageSearchButton;
 import static app.revanced.extension.youtube.shared.NavigationBar.NavigationButton;
 
@@ -197,6 +198,8 @@ public class GeneralPatch {
 
     // region [Hide navigation bar components] patch
 
+    private static final int fillBellCairoBlack = ResourceUtils.getDrawableIdentifier("yt_fill_bell_cairo_black_24");
+
     private static final Map<NavigationButton, Boolean> shouldHideMap = new EnumMap<>(NavigationButton.class) {
         {
             put(NavigationButton.HOME, Settings.HIDE_NAVIGATION_HOME_BUTTON.get());
@@ -212,8 +215,16 @@ public class GeneralPatch {
         return Settings.ENABLE_NARROW_NAVIGATION_BUTTONS.get() || original;
     }
 
-    public static boolean enableTranslucentNavigationBar() {
-        return Settings.ENABLE_TRANSLUCENT_NAVIGATION_BAR.get();
+    /**
+     * @noinspection ALL
+     */
+    public static void setCairoNotificationFilledIcon(EnumMap enumMap, Enum tabActivityCairo) {
+        if (fillBellCairoBlack != 0) {
+            // It's very unlikely, but Google might fix this issue someday.
+            // If so, [fillBellCairoBlack] might already be in enumMap.
+            // That's why 'EnumMap.putIfAbsent()' is used instead of 'EnumMap.put()'.
+            enumMap.putIfAbsent(tabActivityCairo, Integer.valueOf(fillBellCairoBlack));
+        }
     }
 
     public static boolean switchCreateWithNotificationButton(boolean original) {
@@ -232,6 +243,39 @@ public class GeneralPatch {
 
     public static void hideNavigationBar(View view) {
         hideViewUnderCondition(Settings.HIDE_NAVIGATION_BAR.get(), view);
+    }
+
+    public static boolean useTranslucentNavigationStatusBar(boolean original) {
+        if (Settings.DISABLE_TRANSLUCENT_STATUS_BAR.get()) {
+            return false;
+        }
+
+        return original;
+    }
+
+    private static final Boolean DISABLE_TRANSLUCENT_NAVIGATION_BAR_LIGHT
+            = Settings.DISABLE_TRANSLUCENT_NAVIGATION_BAR_LIGHT.get();
+
+    private static final Boolean DISABLE_TRANSLUCENT_NAVIGATION_BAR_DARK
+            = Settings.DISABLE_TRANSLUCENT_NAVIGATION_BAR_DARK.get();
+
+    public static boolean useTranslucentNavigationButtons(boolean original) {
+        // Feature requires Android 13+
+        if (!isSDKAbove(33)) {
+            return original;
+        }
+
+        if (!DISABLE_TRANSLUCENT_NAVIGATION_BAR_DARK && !DISABLE_TRANSLUCENT_NAVIGATION_BAR_LIGHT) {
+            return original;
+        }
+
+        if (DISABLE_TRANSLUCENT_NAVIGATION_BAR_DARK && DISABLE_TRANSLUCENT_NAVIGATION_BAR_LIGHT) {
+            return false;
+        }
+
+        return Utils.isDarkModeEnabled()
+                ? !DISABLE_TRANSLUCENT_NAVIGATION_BAR_DARK
+                : !DISABLE_TRANSLUCENT_NAVIGATION_BAR_LIGHT;
     }
 
     // endregion

@@ -6,7 +6,6 @@ import android.app.Activity;
 
 import androidx.annotation.NonNull;
 
-import app.revanced.extension.music.utils.ExtendedUtils;
 import app.revanced.extension.shared.settings.BaseSettings;
 import app.revanced.extension.shared.utils.Utils;
 
@@ -25,10 +24,5 @@ public class InitializationPatch {
 
         showRestartDialog(mActivity, "revanced_extended_restart_first_run", 3000);
         Utils.runOnMainThreadDelayed(() -> BaseSettings.SETTINGS_INITIALIZED.save(true), 3000);
-    }
-
-    public static void setDeviceInformation(@NonNull Activity mActivity) {
-        ExtendedUtils.setApplicationLabel();
-        ExtendedUtils.setVersionName();
     }
 }

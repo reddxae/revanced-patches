@@ -92,6 +92,7 @@ Informações:
     <string name="revanced_hide_flyout_menu_go_to_episode_title">Ocultar menu Acessar episódio</string>
     <string name="revanced_hide_flyout_menu_go_to_podcast_title">Ocultar menu Acessar podcast</string>
     <string name="revanced_hide_flyout_menu_help_title">Ocultar menu Ajuda &amp; feedback</string>
+    <string name="revanced_hide_flyout_menu_pin_to_speed_dial_title">Ocultar Fixar no menu de discagem rápida</string>
     <string name="revanced_hide_flyout_menu_play_next_title">Ocultar menu Tocar a seguir</string>
     <string name="revanced_hide_flyout_menu_quality_title">Ocultar menu Qualidade</string>
     <string name="revanced_hide_flyout_menu_remove_from_library_title">Ocultar menu Remover da biblioteca</string>
@@ -106,6 +107,7 @@ Informações:
     <string name="revanced_hide_flyout_menu_start_radio_title">Ocultar menu Iniciar rádio</string>
     <string name="revanced_hide_flyout_menu_stats_for_nerds_title">Ocultar menu Estatísticas para nerds</string>
     <string name="revanced_hide_flyout_menu_subscribe_title">Ocultar menu de Inscrição / Cancelar inscrição</string>
+    <string name="revanced_hide_flyout_menu_unpin_from_speed_dial_title">Ocultar Desafixar do menu de discagem rápida</string>
     <string name="revanced_hide_flyout_menu_view_song_credit_title">Ocultar menu Mostrar créditos da música</string>
     <string name="revanced_replace_flyout_menu_dismiss_queue_continue_watch_title">Continuar assistindo</string>
     <string name="revanced_replace_flyout_menu_dismiss_queue_continue_watch_summary">Continua o vídeo a partir do tempo atual ao mudar para o YouTube.</string>
@@ -371,6 +373,8 @@ Clique para ver como emitir uma chave de API."</string>
     <string name="revanced_change_share_sheet_summary">Alterar o menu de compartilhamento do app para o meno de compartilhamento do sistema.</string>
     <string name="revanced_disable_cairo_splash_animation_title">Desativar a animação inicial do Cairo</string>
     <string name="revanced_disable_cairo_splash_animation_summary">Desabilita a animação inicial do Cairo quando o aplicativo é iniciado.</string>
+    <string name="revanced_disable_drc_audio_title">Desativar áudio DRC</string>
+    <string name="revanced_disable_drc_audio_summary">Desativa o DRC (Compressão de faixa dinâmica) aplicada ao áudio.</string>
     <string name="revanced_enable_debug_logging_title">Ativar o relatório de depuração</string>
     <string name="revanced_enable_debug_logging_summary">Imprime o relatório de depuração</string>
     <string name="revanced_enable_debug_buffer_logging_title">Ativar o registro de depuração do buffer</string>
@@ -391,17 +395,36 @@ Siga o guia Não mate o meu aplicativo para o seu telefone e aplique as instruç
 
 Isto é necessário para o aplicativo funcionar."</string>
     <string name="gms_core_dialog_open_website_text">Abrir site</string>
-    <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">"As otimizações da bateria GmsCore devem ser desativadas para evitar problemas.
+    <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">"As otimizações de bateria do GmsCore devem ser desativadas para evitar problemas.
 
-Toque no botão continuar e desative as otimizações da bateria."</string>
+Desativar as otimizações de bateria do GmsCore não afetará negativamente o uso da bateria.
+
+Toque no botão continuar e permita as alterações de otimização."</string>
     <string name="gms_core_dialog_continue_text">Continuar</string>
     <string name="revanced_spoof_client_title">Falsificar cliente</string>
-    <string name="revanced_spoof_client_summary">\"Falsificar o cliente para evitar problemas de reprodução.
+    <string name="revanced_spoof_client_summary">"Falsificar o cliente para evitar problemas de reprodução.
 
-Limitações:
-• O codec de áudio OPUS pode não ser suportado.
-• Miniatura na barra de busca pode não estar presente.
-• Histórico de exibição não funciona com uma conta de marca.</string>
+※ Quando usado com 'Dados de streaming falsos', podem ocorrer problemas de reprodução."</string>
+    <string name="revanced_spoof_client_legacy_title">Usar o cliente antigo</string>
+    <string name="revanced_spoof_client_legacy_summary">"Falsificando com a versão 4.27.53.
+
+O codec OPUS pode não funcionar."</string>
+    <string name="revanced_spoof_client_type_title">Cliente padrão</string>
+    <string name="revanced_spoof_client_type_summary">Define um cliente padrão para falsificar.</string>
+    <string name="revanced_spoof_client_type_entry_android_music">Android Music</string>
+    <string name="revanced_spoof_client_type_entry_ios_music">iOS Music</string>
+    <string name="revanced_spoof_streaming_data_title">Dados de streaming falsos</string>
+    <string name="revanced_spoof_streaming_data_summary">"Falsifique os dados de streaming para evitar problemas de reprodução.
+
+※ Quando usado com 'Falsificar cliente', podem ocorrer problemas de reprodução."</string>
+    <string name="revanced_spoof_streaming_data_type_title">Cliente padrão</string>
+    <string name="revanced_spoof_streaming_data_type_summary">Define um cliente padrão que busca dados de streaming.</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Exibir em Estatísticas para nerds</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary">Exibir o cliente usado para buscar dados de streaming em estatísticas para nerds.</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_music">iOS Music</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_sanitize_sharing_links_title">Limpar links compartilhados</string>
     <string name="revanced_sanitize_sharing_links_summary">Remove os parâmetros de consulta de rastreamento das URLs ao compartilhar os links.</string>
     <string name="revanced_default_app_settings_title">Abrir configurações padrão do aplicativo</string>

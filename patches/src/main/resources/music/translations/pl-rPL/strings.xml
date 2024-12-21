@@ -67,12 +67,12 @@ Ograniczenie:
     <string name="revanced_hide_promotion_alert_banner_summary">Ukrywa banery z alertami promocyjnymi.</string>
     <!-- PreferenceScreen: Flyout -->
     <string name="revanced_preference_screen_flyout_title">Menu ustawień utworu</string>
-    <string name="revanced_enable_compact_dialog_title">Włącz kompaktowe dialogi</string>
+    <string name="revanced_enable_compact_dialog_title">Włącz kompaktowe menu</string>
     <string name="revanced_enable_compact_dialog_summary">"Włącza kompaktowe menu ustawień utworu na telefonie.
 
-Znane problemy:
-• Okładka albumu w zakładce biblioteki staje się mniejsza, gdy jest ustawiona siatka.
-• Układ wyłącznika czasowego może wyglądać nietypowo."</string>
+Ograniczenia:
+• Okładka albumu w zakładce biblioteki staje się mniejsza, gdy jest ustawiona siatka
+• Układ wyłącznika czasowego może wyglądać nietypowo"</string>
     <string name="revanced_enable_trim_silence_title">Włącz przełącznik do pomijania ciszy</string>
     <string name="revanced_enable_trim_silence_summary">"Dodaje przycisk pomijania ciszy do menu od prędkości odtwarzania.
 
@@ -92,6 +92,7 @@ Informacje:
     <string name="revanced_hide_flyout_menu_go_to_episode_title">Ukryj menu od przechodzenia do odcinka</string>
     <string name="revanced_hide_flyout_menu_go_to_podcast_title">Ukryj menu od przechodzenia do podcastu</string>
     <string name="revanced_hide_flyout_menu_help_title">Ukryj menu do pomocy i opinii</string>
+    <string name="revanced_hide_flyout_menu_pin_to_speed_dial_title">Ukryj przypinanie do menu szybkiego wybierania</string>
     <string name="revanced_hide_flyout_menu_play_next_title">Ukryj menu od odtwarzania jako następny</string>
     <string name="revanced_hide_flyout_menu_quality_title">Ukryj menu od jakości</string>
     <string name="revanced_hide_flyout_menu_remove_from_library_title">Ukryj menu od usuwania z biblioteki</string>
@@ -106,6 +107,7 @@ Informacje:
     <string name="revanced_hide_flyout_menu_start_radio_title">Ukryj menu do radia</string>
     <string name="revanced_hide_flyout_menu_stats_for_nerds_title">Ukryj menu od statystyk dla nerdów</string>
     <string name="revanced_hide_flyout_menu_subscribe_title">Ukryj menu od subskrybowania / odsubskrybowywania</string>
+    <string name="revanced_hide_flyout_menu_unpin_from_speed_dial_title">Ukryj odpinanie z menu szybkiego wybierania</string>
     <string name="revanced_hide_flyout_menu_view_song_credit_title">Ukryj menu do autorów utworu</string>
     <string name="revanced_replace_flyout_menu_dismiss_queue_continue_watch_title">Kontynuuj oglądanie</string>
     <string name="revanced_replace_flyout_menu_dismiss_queue_continue_watch_summary">Podczas oglądania na YouTube kontynuuj oglądanie od aktualnego czasu.</string>
@@ -371,6 +373,8 @@ Kliknij, by zobaczyć, jak zgłosić klucz API."</string>
     <string name="revanced_change_share_sheet_summary">Zmienia wygląd panelu udostępniania z natywnego aplikacji na systemowy.</string>
     <string name="revanced_disable_cairo_splash_animation_title">Wyłącz animację uruchamiania aplikacji</string>
     <string name="revanced_disable_cairo_splash_animation_summary">Wyłącza animację ładowania aplikacji związaną z motywem Cairo podczas otwierania aplikacji.</string>
+    <string name="revanced_disable_drc_audio_title">Wyłącz audio DRC</string>
+    <string name="revanced_disable_drc_audio_summary">Wyłącza DRC (Dynamic Range Compression) stosowane w utworach.</string>
     <string name="revanced_enable_debug_logging_title">Włącz logowanie debugowania</string>
     <string name="revanced_enable_debug_logging_summary">Wyświetla log od debugowania.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Logi do debugowania buforu</string>
@@ -393,15 +397,32 @@ Jest to wymagane do działania aplikacji."</string>
     <string name="gms_core_dialog_open_website_text">Otwórz stronę</string>
     <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">"Optymalizacja baterii GmsCore musi być wyłączona, aby zapobiec problemom.
 
-Kontynuuj i wyłącz optymalizację baterii."</string>
+Wyłączenie optymalizacji baterii dla GmsCore nie wpłynie negatywnie na zużycie baterii.
+
+Stuknij przycisk kontynuacji i zezwól na zmiany w optymalizacji."</string>
     <string name="gms_core_dialog_continue_text">Kontynuuj</string>
     <string name="revanced_spoof_client_title">Oszukuj klienta</string>
-    <string name="revanced_spoof_client_summary">Oszukuj klienta, by zapobiec problemom z odtwarzaniem
+    <string name="revanced_spoof_client_summary">"Oszukuj klienta, by zapobiec problemom z odtwarzaniem.
 
 Ograniczenia:
 • Kodek audio OPUS może nie być wspierany
 • Miniaturki podczas przewijania mogą nie być dostępne
-• Historia oglądania nie działa na kontach firmowych</string>
+• Historia oglądania nie działa na kontach firmowych
+
+※ Używane równolegle z opcją 'Oszukuj strumień danych', może powodować problemy z odtwarzaniem
+"</string>
+    <string name="revanced_spoof_streaming_data_title">Oszukuj strumień danych</string>
+    <string name="revanced_spoof_streaming_data_summary">"Oszukuj strumień danych, by zapobiec problemom z odtwarzaniem.
+
+※ Używane równolegle z opcją 'Oszukuj klienta', może powodować problemy z odtwarzaniem"</string>
+    <string name="revanced_spoof_streaming_data_type_title">Domyślny klient</string>
+    <string name="revanced_spoof_streaming_data_type_summary">Denifiuje domyślnego klienta, z którego będzie przechwytywany strumień danych.</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Informacja w statystykach dla nerdów</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary">Pokazuje używanego klienta do przechwytywania strumienia danych w statystykach dla nerdów.</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_music">iOS Music</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_sanitize_sharing_links_title">Oczyść udostępniane linki</string>
     <string name="revanced_sanitize_sharing_links_summary">Usuwa parametry śledzących zapytań z adresów URL podczas udostępniania linków.</string>
     <string name="revanced_default_app_settings_title">Otwórz systemowe ustawienia aplikacji</string>

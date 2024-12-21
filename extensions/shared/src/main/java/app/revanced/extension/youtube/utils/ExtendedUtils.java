@@ -12,6 +12,12 @@ import app.revanced.extension.shared.utils.PackageUtils;
 import app.revanced.extension.youtube.settings.Settings;
 
 public class ExtendedUtils extends PackageUtils {
+    public static final boolean IS_19_17_OR_GREATER = getAppVersionName().compareTo("19.17.00") >= 0;
+    public static final boolean IS_19_20_OR_GREATER = getAppVersionName().compareTo("19.20.00") >= 0;
+    public static final boolean IS_19_21_OR_GREATER = getAppVersionName().compareTo("19.21.00") >= 0;
+    public static final boolean IS_19_26_OR_GREATER = getAppVersionName().compareTo("19.26.00") >= 0;
+    public static final boolean IS_19_29_OR_GREATER = getAppVersionName().compareTo("19.29.00") >= 0;
+    public static final boolean IS_19_34_OR_GREATER = getAppVersionName().compareTo("19.34.00") >= 0;
 
     public static int validateValue(IntegerSetting settings, int min, int max, String message) {
         int value = settings.get();
@@ -64,7 +70,6 @@ public class ExtendedUtils extends PackageUtils {
             Settings.HIDE_PLAYER_FLYOUT_MENU_LOOP,
             Settings.HIDE_PLAYER_FLYOUT_MENU_PIP,
             Settings.HIDE_PLAYER_FLYOUT_MENU_PREMIUM_CONTROLS,
-            Settings.HIDE_PLAYER_FLYOUT_MENU_SLEEP_TIMER,
             Settings.HIDE_PLAYER_FLYOUT_MENU_STABLE_VOLUME,
             Settings.HIDE_PLAYER_FLYOUT_MENU_STATS_FOR_NERDS,
             Settings.HIDE_PLAYER_FLYOUT_MENU_WATCH_IN_VR,
@@ -97,7 +102,6 @@ public class ExtendedUtils extends PackageUtils {
                 Settings.HIDE_PLAYER_FLYOUT_MENU_LOOP,
                 Settings.HIDE_PLAYER_FLYOUT_MENU_PIP,
                 Settings.HIDE_PLAYER_FLYOUT_MENU_PREMIUM_CONTROLS,
-                Settings.HIDE_PLAYER_FLYOUT_MENU_SLEEP_TIMER,
                 Settings.HIDE_PLAYER_FLYOUT_MENU_STABLE_VOLUME,
                 Settings.HIDE_PLAYER_FLYOUT_MENU_STATS_FOR_NERDS,
                 Settings.HIDE_PLAYER_FLYOUT_MENU_WATCH_IN_VR,

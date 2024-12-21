@@ -7,7 +7,6 @@ import static app.revanced.extension.youtube.utils.ExtendedUtils.validateValue;
 
 import android.app.Activity;
 import android.content.pm.ActivityInfo;
-import android.graphics.Color;
 import android.support.v7.widget.RecyclerView;
 import android.util.TypedValue;
 import android.view.View;
@@ -75,12 +74,25 @@ public class PlayerPatch {
 
     // region [Ambient mode control] patch
 
+    /**
+     * Constant found in: androidx.window.embedding.DividerAttributes
+     */
+    private static final int DIVIDER_ATTRIBUTES_COLOR_SYSTEM_DEFAULT = -16777216;
+
     public static boolean bypassAmbientModeRestrictions(boolean original) {
         return (!Settings.BYPASS_AMBIENT_MODE_RESTRICTIONS.get() && original) || Settings.DISABLE_AMBIENT_MODE.get();
     }
 
     public static boolean disableAmbientModeInFullscreen() {
         return !Settings.DISABLE_AMBIENT_MODE_IN_FULLSCREEN.get();
+    }
+
+    public static int getFullScreenBackgroundColor(int originalColor) {
+        if (Settings.DISABLE_AMBIENT_MODE_IN_FULLSCREEN.get()) {
+            return DIVIDER_ATTRIBUTES_COLOR_SYSTEM_DEFAULT;
+        }
+
+        return originalColor;
     }
 
     // endregion
@@ -425,6 +437,35 @@ public class PlayerPatch {
         return !Settings.HIDE_PLAYER_PREVIOUS_NEXT_BUTTON.get() && previousOrNextButtonVisible;
     }
 
+    private static final int playerControlPreviousButtonTouchAreaId =
+            ResourceUtils.getIdIdentifier("player_control_previous_button_touch_area");
+    private static final int playerControlNextButtonTouchAreaId =
+            ResourceUtils.getIdIdentifier("player_control_next_button_touch_area");
+
+    public static void hidePreviousNextButtons(View parentView) {
+        if (!Settings.HIDE_PLAYER_PREVIOUS_NEXT_BUTTON.get()) {
+            return;
+        }
+
+        // Must use a deferred call to main thread to hide the button.
+        // Otherwise the layout crashes if set to hidden now.
+        Utils.runOnMainThread(() -> {
+            hideView(parentView, playerControlPreviousButtonTouchAreaId);
+            hideView(parentView, playerControlNextButtonTouchAreaId);
+        });
+    }
+
+    private static void hideView(View parentView, int resourceId) {
+        View nextPreviousButton = parentView.findViewById(resourceId);
+
+        if (nextPreviousButton == null) {
+            Logger.printException(() -> "Could not find player previous / next button");
+            return;
+        }
+
+        Utils.hideViewByRemovingFromParentUnderCondition(true, nextPreviousButton);
+    }
+
     public static boolean hideMusicButton() {
         return Settings.HIDE_PLAYER_YOUTUBE_MUSIC_BUTTON.get();
     }
@@ -597,11 +638,25 @@ public class PlayerPatch {
         return !Settings.HIDE_PLAYER_FLYOUT_MENU_PIP.get();
     }
 
+    /**
+     * Overriding this values is possible only after the litho component has been loaded.
+     * Otherwise, crash will occur.
+     * See {@link InitializationPatch#onCreate}.
+     *
+     * @param original original value.
+     * @return whether to enable Sleep timer Mode in the player flyout menu.
+     */
+    public static boolean hideDeprecatedSleepTimerMenu(boolean original) {
+        if (!BaseSettings.SETTINGS_INITIALIZED.get()) {
+            return original;
+        }
+
+        return !Settings.HIDE_PLAYER_FLYOUT_MENU_SLEEP_TIMER.get();
+    }
+
     // endregion
 
     // region [Seekbar components] patch
-
-    public static final int ORIGINAL_SEEKBAR_COLOR = 0xFFFF0000;
 
     public static String appendTimeStampInformation(String original) {
         if (!Settings.APPEND_TIME_STAMP_INFORMATION.get()) return original;
@@ -641,48 +696,6 @@ public class PlayerPatch {
         }
     }
 
-    public static int getSeekbarClickedColorValue(final int colorValue) {
-        return colorValue == ORIGINAL_SEEKBAR_COLOR
-                ? overrideSeekbarColor(colorValue)
-                : colorValue;
-    }
-
-    public static int resumedProgressBarColor(final int colorValue) {
-        return Settings.ENABLE_CUSTOM_SEEKBAR_COLOR.get()
-                ? getSeekbarClickedColorValue(colorValue)
-                : colorValue;
-    }
-
-    /**
-     * Overrides all drawable color that use the YouTube seekbar color.
-     * Used only for the video thumbnails seekbar.
-     * <p>
-     * If {@link Settings#HIDE_SEEKBAR_THUMBNAIL} is enabled, this returns a fully transparent color.
-     */
-    public static int getColor(int colorValue) {
-        if (colorValue == ORIGINAL_SEEKBAR_COLOR) {
-            if (Settings.HIDE_SEEKBAR_THUMBNAIL.get()) {
-                return 0x00000000;
-            }
-            return overrideSeekbarColor(ORIGINAL_SEEKBAR_COLOR);
-        }
-        return colorValue;
-    }
-
-    /**
-     * Points where errors occur when playing videos on the PlayStore (ROOT Build)
-     */
-    public static int overrideSeekbarColor(final int colorValue) {
-        try {
-            return Settings.ENABLE_CUSTOM_SEEKBAR_COLOR.get()
-                    ? Color.parseColor(Settings.ENABLE_CUSTOM_SEEKBAR_COLOR_VALUE.get())
-                    : colorValue;
-        } catch (Exception ignored) {
-            Settings.ENABLE_CUSTOM_SEEKBAR_COLOR_VALUE.resetToDefault();
-        }
-        return colorValue;
-    }
-
     public static boolean enableSeekbarTapping() {
         return Settings.ENABLE_SEEKBAR_TAPPING.get();
     }
@@ -712,10 +725,6 @@ public class PlayerPatch {
 
     public static boolean restoreOldSeekbarThumbnails() {
         return !Settings.RESTORE_OLD_SEEKBAR_THUMBNAILS.get();
-    }
-
-    public static boolean enableCairoSeekbar() {
-        return Settings.ENABLE_CAIRO_SEEKBAR.get();
     }
 
     // endregion

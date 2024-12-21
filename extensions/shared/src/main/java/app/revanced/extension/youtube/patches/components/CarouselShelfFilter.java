@@ -15,11 +15,13 @@ import app.revanced.extension.youtube.shared.RootView;
 
 @SuppressWarnings("unused")
 public final class CarouselShelfFilter extends Filter {
+    private static final String BROWSE_ID_CLIP = "FEclips";
     private static final String BROWSE_ID_HOME = "FEwhat_to_watch";
     private static final String BROWSE_ID_LIBRARY = "FElibrary";
     private static final String BROWSE_ID_NOTIFICATION = "FEactivity";
     private static final String BROWSE_ID_NOTIFICATION_INBOX = "FEnotifications_inbox";
     private static final String BROWSE_ID_PLAYLIST = "VLPL";
+    private static final String BROWSE_ID_PREMIUM = "SPunlimited";
     private static final String BROWSE_ID_SUBSCRIPTION = "FEsubscriptions";
 
     private static final Supplier<Stream<String>> knownBrowseId = () -> Stream.of(
@@ -31,7 +33,9 @@ public final class CarouselShelfFilter extends Filter {
 
     private static final Supplier<Stream<String>> whitelistBrowseId = () -> Stream.of(
             BROWSE_ID_LIBRARY,
-            BROWSE_ID_NOTIFICATION_INBOX
+            BROWSE_ID_NOTIFICATION_INBOX,
+            BROWSE_ID_CLIP,
+            BROWSE_ID_PREMIUM
     );
 
     private final StringTrieSearch exceptions = new StringTrieSearch();
@@ -67,6 +71,14 @@ public final class CarouselShelfFilter extends Filter {
         // Unknown tab, treat the same as home.
         if (selectedNavButton == null) {
             return true;
+        }
+        // Fixes a very rare bug in home.
+        if (selectedNavButton == NavigationButton.HOME && browseId.equals(BROWSE_ID_NOTIFICATION_INBOX)) {
+            return true;
+        }
+        // Sometimes the browserId is empty. In this case, check the navigation button.
+        if (browseId.isEmpty()) {
+            return selectedNavButton != NavigationButton.LIBRARY;
         }
         return knownBrowseId.get().anyMatch(browseId::equals) || whitelistBrowseId.get().noneMatch(browseId::equals);
     }

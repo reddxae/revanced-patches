@@ -537,9 +537,12 @@ Also, ads will no longer be blocked in Shorts.
 
 If this setting do not take effect, try switching to Incognito mode."</string>
 
-    <string name="revanced_enable_translucent_navigation_bar_title">Enable translucent navigation bar</string>
-    <string name="revanced_enable_translucent_navigation_bar_summary_on">Navigation bar is translucent.</string>
-    <string name="revanced_enable_translucent_navigation_bar_summary_off">Navigation bar is opaque.</string>
+    <string name="revanced_disable_translucent_navigation_bar_light_title">Disable light translucent bar</string>
+    <string name="revanced_disable_translucent_navigation_bar_light_summary_on">Light mode navigation bar is opaque.</string>
+    <string name="revanced_disable_translucent_navigation_bar_light_summary_off">Light mode navigation bar is opaque or translucent.</string>
+    <string name="revanced_disable_translucent_navigation_bar_dark_title">Disable dark translucent bar</string>
+    <string name="revanced_disable_translucent_navigation_bar_dark_summary_on">Dark mode navigation bar is opaque.</string>
+    <string name="revanced_disable_translucent_navigation_bar_dark_summary_off">Dark mode navigation bar is opaque or translucent.</string>
     <string name="revanced_hide_navigation_bar_title">Hide navigation bar</string>
     <string name="revanced_hide_navigation_bar_summary_on">Navigation bar is hidden.</string>
     <string name="revanced_hide_navigation_bar_summary_off">Navigation bar is shown.</string>

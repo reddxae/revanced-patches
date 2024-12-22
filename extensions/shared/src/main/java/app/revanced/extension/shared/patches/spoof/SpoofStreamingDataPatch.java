@@ -1,5 +1,7 @@
 package app.revanced.extension.shared.patches.spoof;
 
+import static app.revanced.extension.shared.patches.PatchStatus.SpoofStreamingData;
+
 import android.net.Uri;
 import android.text.TextUtils;
 
@@ -10,14 +12,20 @@ import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import app.revanced.extension.shared.patches.BlockRequestPatch;
 import app.revanced.extension.shared.patches.spoof.requests.StreamingDataRequest;
 import app.revanced.extension.shared.settings.BaseSettings;
 import app.revanced.extension.shared.utils.Logger;
 import app.revanced.extension.shared.utils.Utils;
 
 @SuppressWarnings("unused")
-public class SpoofStreamingDataPatch extends BlockRequestPatch {
+public class SpoofStreamingDataPatch {
+    public static final boolean SPOOF_STREAMING_DATA = SpoofStreamingData() && BaseSettings.SPOOF_STREAMING_DATA.get();
+
+    /**
+     * Any unreachable ip address.  Used to intentionally fail requests.
+     */
+    private static final String UNREACHABLE_HOST_URI_STRING = "https://127.0.0.0";
+    private static final Uri UNREACHABLE_HOST_URI = Uri.parse(UNREACHABLE_HOST_URI_STRING);
 
     /**
      * Key: video id
@@ -32,6 +40,55 @@ public class SpoofStreamingDataPatch extends BlockRequestPatch {
                     return size() > CACHE_LIMIT; // Evict the oldest entry if over the cache limit.
                 }
             });
+
+    /**
+     * Injection point.
+     * Blocks /get_watch requests by returning an unreachable URI.
+     *
+     * @param playerRequestUri The URI of the player request.
+     * @return An unreachable URI if the request is a /get_watch request, otherwise the original URI.
+     */
+    public static Uri blockGetWatchRequest(Uri playerRequestUri) {
+        if (SPOOF_STREAMING_DATA) {
+            try {
+                String path = playerRequestUri.getPath();
+
+                if (path != null && path.contains("get_watch")) {
+                    Logger.printDebug(() -> "Blocking 'get_watch' by returning unreachable uri");
+
+                    return UNREACHABLE_HOST_URI;
+                }
+            } catch (Exception ex) {
+                Logger.printException(() -> "blockGetWatchRequest failure", ex);
+            }
+        }
+
+        return playerRequestUri;
+    }
+
+    /**
+     * Injection point.
+     * <p>
+     * Blocks /initplayback requests.
+     */
+    public static String blockInitPlaybackRequest(String originalUrlString) {
+        if (SPOOF_STREAMING_DATA) {
+            try {
+                var originalUri = Uri.parse(originalUrlString);
+                String path = originalUri.getPath();
+
+                if (path != null && path.contains("initplayback")) {
+                    Logger.printDebug(() -> "Blocking 'initplayback' by clearing query");
+
+                    return originalUri.buildUpon().clearQuery().build().toString();
+                }
+            } catch (Exception ex) {
+                Logger.printException(() -> "blockInitPlaybackRequest failure", ex);
+            }
+        }
+
+        return originalUrlString;
+    }
 
     /**
      * Injection point.
@@ -146,7 +203,7 @@ public class SpoofStreamingDataPatch extends BlockRequestPatch {
      * Called after {@link #getStreamingData(String)}.
      */
     public static long getApproxDurationMs(String videoId) {
-        if (videoId != null) {
+        if (SPOOF_STREAMING_DATA && videoId != null) {
             final Long approxDurationMs = approxDurationMsMap.get(videoId);
             if (approxDurationMs != null) {
                 Logger.printDebug(() -> "Replacing video length: " + approxDurationMs + " for videoId: " + videoId);

@@ -87,9 +87,9 @@ val adsPatch = bytecodePatch(
     compatibleWith(COMPATIBLE_PACKAGE)
 
     dependsOn(
+        settingsPatch,
         bannerAdsPatch,
         commentAdsPatch,
-        settingsPatch
     )
 
     execute {

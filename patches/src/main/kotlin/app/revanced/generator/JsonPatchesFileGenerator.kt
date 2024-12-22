@@ -15,15 +15,17 @@ internal class JsonPatchesFileGenerator : PatchesFileGenerator {
                 it.name!!,
                 it.description,
                 it.use,
+                it.dependencies.map { dependency -> dependency.name ?: dependency.toString() },
                 it.compatiblePackages?.associate { (packageName, versions) -> packageName to versions },
                 it.options.values.map { option ->
                     JsonPatch.Option(
                         option.key,
-                        option.default,
-                        option.values,
                         option.title,
                         option.description,
                         option.required,
+                        option.type.toString(),
+                        option.default,
+                        option.values,
                     )
                 },
             )
@@ -37,16 +39,18 @@ internal class JsonPatchesFileGenerator : PatchesFileGenerator {
         val name: String? = null,
         val description: String? = null,
         val use: Boolean = true,
+        val dependencies: List<String>,
         val compatiblePackages: Map<PackageName, Set<VersionName>?>? = null,
         val options: List<Option>,
     ) {
         class Option(
             val key: String,
-            val default: Any?,
-            val values: Map<String, Any?>?,
             val title: String?,
             val description: String?,
             val required: Boolean,
+            val type: String,
+            val default: Any?,
+            val values: Map<String, Any?>?,
         )
     }
 

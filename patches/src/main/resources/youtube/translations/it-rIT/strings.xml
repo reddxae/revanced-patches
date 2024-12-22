@@ -1788,6 +1788,7 @@ Tocca il pulsante Continua e consenti le modifiche di ottimizzazione."</string>
     <string name="revanced_spoof_streaming_data_android_only_title">Usa solo il client Android</string>
     <string name="revanced_spoof_streaming_data_android_only_summary_on">Il client Android è usato per recuperare i dati in streaming.</string>
     <string name="revanced_spoof_streaming_data_android_only_summary_off">I client Android e iOS sono usati per recuperare i dati in streaming.</string>
+    <string name="revanced_spoof_streaming_data_android_only_user_dialog_message">La disattivazione di questa impostazione potrebbe causare problemi di riproduzione.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Mostra nelle statistiche per nerd</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Il client usato per recuperare i dati in streaming è visibile nelle statistiche per nerd.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Il client usato per recuperare i dati in streaming è nascosto nelle statistiche per nerd.</string>

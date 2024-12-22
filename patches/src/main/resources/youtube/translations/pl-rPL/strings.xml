@@ -311,10 +311,10 @@ Jeśli układ ekranu odtwarzacza zmieni się w skutek zmian po stronie serwera, 
 
 Ograniczenie: Przycisk wstecz na pasku narzędzi może nie działać."</string>
     <string name="revanced_change_start_page_type_summary_off">Strona główna zmienia się tylko raz</string>
-    <string name="revanced_disable_auto_audio_tracks_title">Wymuszone ścieżki dźwiękowe</string>
+    <string name="revanced_disable_auto_audio_tracks_title">Automatyczne wymuszanie ścieżki dźwiękowej</string>
     <string name="revanced_disable_auto_audio_tracks_summary_on">Wyłączone</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Włączone</string>
-    <string name="revanced_disable_auto_captions_title">Wymuszone napisy</string>
+    <string name="revanced_disable_auto_captions_title">Automatyczne wymuszanie napisów</string>
     <string name="revanced_disable_auto_captions_summary_on">Wyłączone</string>
     <string name="revanced_disable_auto_captions_summary_off">Włączone</string>
     <string name="revanced_disable_splash_animation_title">Animacja uruchamiania aplikacji</string>
@@ -1333,6 +1333,9 @@ Ograniczenia:
     <string name="revanced_replace_channel_handle_title">Wyświetlanie tytułu kanału</string>
     <string name="revanced_replace_channel_handle_summary_on">Po nazwie</string>
     <string name="revanced_replace_channel_handle_summary_off">Po nicku</string>
+    <string name="revanced_restore_shorts_old_player_layout_title">Przywrócić stary układ odtwarzacza</string>
+    <string name="revanced_restore_shorts_old_player_layout_summary_on">"Włączone"</string>
+    <string name="revanced_restore_shorts_old_player_layout_summary_off">Wyłączone</string>
     <!-- PreferenceScreen: Swipe controls -->
     <string name="revanced_preference_screen_swipe_controls_title">Sterowanie przesuwaniem</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_title">Automatyczna jasność przesuwaniem</string>
@@ -1379,6 +1382,7 @@ Ograniczenia:
     <string name="revanced_disable_watch_panel_gestures_title">Pełny ekran gestem przesunięcia</string>
     <string name="revanced_disable_watch_panel_gestures_summary_on">Wejście w tryb pełnoekranowy przesunięciem w dół poniżej odtwarzacza filmu jest wyłączone</string>
     <string name="revanced_disable_watch_panel_gestures_summary_off">Wejście w tryb pełnoekranowy przesunięciem w dół poniżej odtwarzacza filmu jest włączone</string>
+    <string name="revanced_disable_swipe_to_switch_video_title">Gest zmiany filmu przesunięciem w górę lub dół </string>
     <string name="revanced_disable_swipe_to_switch_video_summary_on">Wyłączony</string>
     <string name="revanced_disable_swipe_to_switch_video_summary_off">Włączony</string>
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">Automatyczna</string>
@@ -1768,18 +1772,20 @@ Stuknij przycisk kontynuacji i zezwól na zmiany w optymalizacji."</string>
     <string name="revanced_spoof_streaming_data_type_title">Domyślny klient</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_music">iOS Music</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">iOS TV</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Kreator Androida</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Efekty uboczne oszukiwania</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">• Jeszcze nie znaleziono</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_skip_sync_video_length">• Filmy mogą kończyć się o sekundę wcześniej</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• Brakuje menu od ścieżki dźwiękowej
-• Stabilna głośność jest niedostępna"</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Brakuje menu od ścieżki dźwiękowej
-• Stabilna głośność jest niedostępna"</string>
-    <string name="revanced_spoof_streaming_data_sync_video_length_title">Synchronizuj długość filmu przez odtworzeniem</string>
-    <string name="revanced_spoof_streaming_data_sync_video_length_summary_on">"Włączone"</string>
-    <string name="revanced_spoof_streaming_data_sync_video_length_summary_off">"Wyłączone"</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">• Filmy kinowe lub płatne filmy mogą się nie odtwarzać</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android">"• Brakuje menu od ścieżki dźwiękowej
+• Stabilna głośność nie jest dostępna
+• Wyłączenie automatycznego wymuszania ścieżki dźwiękowej nie jest dostępne"</string>
+    <string name="revanced_spoof_streaming_data_android_only_title">Używaj wyłącznie klientów Androida</string>
+    <string name="revanced_spoof_streaming_data_android_only_summary_on">Tak</string>
+    <string name="revanced_spoof_streaming_data_android_only_summary_off">Nie</string>
+    <string name="revanced_spoof_streaming_data_android_only_user_dialog_message">Wyłączenie tego ustawienia może spowodować problemy z odtwarzaniem filmów.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Informacja w statystykach dla nerdów</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Widoczna</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Ukryta</string>

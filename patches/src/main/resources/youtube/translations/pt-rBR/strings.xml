@@ -1775,14 +1775,6 @@ Toque no botão continuar e desative as otimizações da bateria."</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Efeitos colaterais da falsificação</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">• Ainda não encontrado.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_skip_sync_video_length">• Os vídeos podem acabar 1 segundo antes.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• O menu de faixa de áudio está faltando."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• O menu de faixa de áudio está faltando."</string>
-    <string name="revanced_spoof_streaming_data_sync_video_length_title">Sincronizar duração do vídeo antes da reprodução</string>
-    <string name="revanced_spoof_streaming_data_sync_video_length_summary_on">"A duração do vídeo é sincronizada antes da reprodução.
-A duração do vídeo é o valor exato."</string>
-    <string name="revanced_spoof_streaming_data_sync_video_length_summary_off">"A duração do vídeo não é sincronizada antes da reprodução.
-A duração do vídeo pode ser um valor arredondado."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Exibir em Estatísticas para nerds</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">O cliente usado para buscar dados de streaming é mostrado em Estatísticas para nerds.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">O cliente usado para buscar dados de streaming está oculto em Estatísticas para nerds.</string>

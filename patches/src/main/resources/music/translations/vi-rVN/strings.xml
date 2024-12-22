@@ -395,23 +395,27 @@ Hãy làm theo hướng dẫn của 'Don't kill my app!' và tiến hành cài �
 
 Để ứng dụng hoạt động hiệu quả nhất."</string>
     <string name="gms_core_dialog_open_website_text">Mở trang web</string>
-    <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">"Tắt tối ưu hoá pin cho GmsCore để tránh các vấn đề phát sinh.
+    <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">"Vui lòng tắt tối ưu hoá pin cho GmsCore để tránh phát sinh lỗi.
 
-Nhấn vào nút Tiếp tục và tắt tối ưu hóa pin."</string>
+Tắt tối ưu hoá pin cho GmsCore sẽ không làm ảnh hưởng đáng kể tới thời lượng sử dụng pin.
+
+Nhấn vào Tiếp tục và cho phép thay đổi lựa chọn tối ưu hoá pin."</string>
     <string name="gms_core_dialog_continue_text">Tiếp tục</string>
     <string name="revanced_spoof_client_title">Giả mạo ứng dụng khách</string>
     <string name="revanced_spoof_client_summary">"Giả mạo ứng dụng khách nhằm khắc phục sự cố phát.
 
-Hạn chế:
-• Codec âm thanh OPUS có thể không được hỗ trợ.
-• Hình thu nhỏ trên thanh tiến trình có thể không hiện hữu.
-• Nhật ký xem không hoạt động đối với tài khoản thương hiệu.
+※ Khi được sử dụng đồng thời với \"Giả mạo luồng dữ liệu trực tuyến\", có thể gây ra sự cố phát."</string>
+    <string name="revanced_spoof_client_type_title">Ứng dụng khách mặc định</string>
+    <string name="revanced_spoof_client_type_summary">"Xác định ứng dụng khách mặc định để giả mạo.
 
-※ Khi được sử dụng cùng với \"Giả mạo luồng dữ liệu trực tuyến\", có thể gây ra sự cố phát."</string>
+※ Khi sử dụng ứng dụng khách Android, tính năng này nên được sử dụng đồng thời với \"Giả mạo phiên bản ứng dụng\"."</string>
+    <string name="revanced_spoof_client_type_entry_android_music_4_27">Music Android 4.27.53</string>
+    <string name="revanced_spoof_client_type_entry_android_music_5_29">Music Android 5.29.53</string>
+    <string name="revanced_spoof_client_type_entry_ios_music_6_21">Music iOS 6.21</string>
     <string name="revanced_spoof_streaming_data_title">Giả mạo luồng dữ liệu trực tuyến</string>
     <string name="revanced_spoof_streaming_data_summary">"Giả mạo luồng dữ liệu trực tuyến nhằm khắc phục sự cố phát.
 
-※ Khi được sử dụng cùng với \"Giả mạo ứng dụng khách\", có thể gây ra sự cố phát."</string>
+※ Khi được sử dụng đồng thời với \"Giả mạo ứng dụng khách\", có thể gây ra sự cố phát."</string>
     <string name="revanced_spoof_streaming_data_type_title">Ứng dụng khách mặc định</string>
     <string name="revanced_spoof_streaming_data_type_summary">Xác định một ứng dụng khách mặc định để nạp luồng dữ liệu trực tuyến.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Hiển thị trong Thống kê chi tiết</string>

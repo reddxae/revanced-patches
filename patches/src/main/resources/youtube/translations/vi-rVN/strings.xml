@@ -982,7 +982,7 @@ Nhấn và giữ để sao chép URL video kèm theo dấu thời gian."</string
 Nhấn và giữ để sao chép dấu thời gian."</string>
     <string name="revanced_overlay_button_mute_volume_title">Nút Tắt tiếng</string>
     <string name="revanced_overlay_button_mute_volume_summary">Nhấn để tắt tiếng của video hiện tại. Nhấn lần nữa để bật trở lại.</string>
-    <string name="revanced_overlay_button_external_downloader_title">Nút trình tải xuống bên ngoài</string>
+    <string name="revanced_overlay_button_external_downloader_title">Nút Trình tải xuống bên ngoài</string>
     <string name="revanced_overlay_button_external_downloader_summary">Nhấn để khởi chạy trình tải xuống bên ngoài.</string>
     <string name="revanced_overlay_button_speed_dialog_title">Nút Tốc độ phát</string>
     <string name="revanced_overlay_button_speed_dialog_summary">"Nhấn để mở hộp thoại Tốc độ phát.
@@ -1521,7 +1521,7 @@ Nhấp vào đây để xem các bước phát hành khóa API."</string>
     <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_message">1. &lt;a href=%1$s&gt;Tạo dự án mới&lt;/a&gt;.&lt;br&gt;2. Ấn vào &lt;b&gt;CREATE&lt;/b&gt;.&lt;br&gt;3. Đi tới &lt;a href=%2$s&gt;YouTube Data API v3&lt;/a&gt;.&lt;br&gt;4. Ấn vào &lt;b&gt;ENABLE&lt;/b&gt;.&lt;br&gt;5. Ấn vào &lt;b&gt;CREATE CREDENTIALS&lt;/b&gt;.&lt;br&gt;6. Chọn &lt;b&gt;Public data&lt;/b&gt;.&lt;br&gt;7. Ấn vào &lt;b&gt;NEXT&lt;/b&gt;.&lt;br&gt;8. Sao chép mã khoá API.&lt;br&gt;&lt;br&gt;※ Không nên chia sẻ mã khoá API với người khác, vì vậy chúng cũng không có mặt trong mục Nhập/Xuất cài đặt.</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
-    <string name="revanced_sb_enable_sb">Kích hoạt SponsorBlock</string>
+    <string name="revanced_sb_enable_sb">SponsorBlock</string>
     <string name="revanced_sb_enable_sb_sum">SponsorBlock là một tiện ích được đóng góp bởi cộng đồng giúp bỏ qua các phần gây khó chịu trong video trên YouTube.</string>
     <!-- PreferenceScreen: SponsorBlock, PreferenceCategory: Appearance -->
     <string name="revanced_sb_appearance_category">Giao diện</string>
@@ -1778,20 +1778,19 @@ Nhấn vào Tiếp tục và cho phép thay đổi lựa chọn tối ưu hoá p
     <string name="revanced_spoof_streaming_data_type_title">Ứng dụng khách mặc định</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_music">Music iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">TV iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Android Creator</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Hạn chế</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">• Chưa tìm thấy.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_skip_sync_video_length">• Video có thể kết thúc sớm hơn 1 giây.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• Mục Bản âm thanh bị thiếu.
-• Âm lượng ổn định không khả dụng."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Mục Bản âm thanh bị thiếu.
-• Âm lượng ổn định không khả dụng."</string>
-    <string name="revanced_spoof_streaming_data_sync_video_length_title">Đồng bộ thời lượng video trước khi phát</string>
-    <string name="revanced_spoof_streaming_data_sync_video_length_summary_on">"Thời lượng video được đồng bộ trước khi phát.
-Lúc này thời lượng video là giá trị chính xác."</string>
-    <string name="revanced_spoof_streaming_data_sync_video_length_summary_off">"Thời lượng video không được đồng bộ trước khi phát.
-Lúc này thời lượng video có thể đã được làm tròn."</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">• Phim hoặc video trả phí có thể không phát được.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android">"• Mục Bản âm thanh bị thiếu.
+• Âm lượng ổn định không khả dụng.
+• Tắt buộc bản âm thanh tự động không khả dụng."</string>
+    <string name="revanced_spoof_streaming_data_android_only_title">Chỉ sử dụng ứng dụng khách Android</string>
+    <string name="revanced_spoof_streaming_data_android_only_summary_on">Ứng dụng khách Android được sử dụng để nạp luồng dữ liệu trực tuyến.</string>
+    <string name="revanced_spoof_streaming_data_android_only_summary_off">Ứng dụng khách Android và iOS được sử dụng để nạp luồng dữ liệu trực tuyến.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Hiển thị trong Thống kê chi tiết</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Ứng dụng khách sử dụng để nạp luồng dữ liệu trực tuyến được hiển thị trong Thống kê chi tiết.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Ứng dụng khách sử dụng để nạp luồng dữ liệu trực tuyến đã ẩn trong Thống kê chi tiết.</string>

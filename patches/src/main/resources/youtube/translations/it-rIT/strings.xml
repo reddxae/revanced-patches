@@ -312,9 +312,9 @@ Se l'interfaccia della schermata del riproduttore cambia a causa di modifiche la
 
 Nota: il pulsante Indietro della barra degli strumenti potrebbe non funzionare."</string>
     <string name="revanced_change_start_page_type_summary_off">La pagina iniziale cambia solo una volta.</string>
-    <string name="revanced_disable_auto_audio_tracks_title">Disattiva le tracce audio automatiche forzate</string>
-    <string name="revanced_disable_auto_audio_tracks_summary_on">Le tracce audio automatiche forzate sono disattivate.</string>
-    <string name="revanced_disable_auto_audio_tracks_summary_off">Le tracce audio automatiche forzate sono attivate.</string>
+    <string name="revanced_disable_auto_audio_tracks_title">Disattiva la traccia audio automatica forzata</string>
+    <string name="revanced_disable_auto_audio_tracks_summary_on">La traccia audio automatica forzata è disattivata.</string>
+    <string name="revanced_disable_auto_audio_tracks_summary_off">La traccia audio automatica forzata è attivata.</string>
     <string name="revanced_disable_auto_captions_title">Disattiva i sottotitoli automatici forzati</string>
     <string name="revanced_disable_auto_captions_summary_on">I sottotitoli automatici forzati sono disattivati.</string>
     <string name="revanced_disable_auto_captions_summary_off">I sottotitoli automatici forzati sono attivati.</string>
@@ -1306,8 +1306,8 @@ Tocca e tieni premuto il pulsante Altro per visualizzare la finestra delle azion
     <string name="revanced_shorts_custom_actions_open_video_summary_off">Il menù Apri il Video è nascosto.</string>
     <string name="revanced_shorts_custom_actions_repeat_state_label">Stato di ripetizione</string>
     <string name="revanced_shorts_custom_actions_repeat_state_title">Mostra il menù Stato di Ripetizione</string>
-    <string name="revanced_shorts_custom_actions_repeat_state_summary_on">Il menù Stato di Ripetizione è nascosto.</string>
-    <string name="revanced_shorts_custom_actions_repeat_state_summary_off">Il menù Stato di Ripetizione è visibile.</string>
+    <string name="revanced_shorts_custom_actions_repeat_state_summary_on">Il menù Stato di Ripetizione è visibile.</string>
+    <string name="revanced_shorts_custom_actions_repeat_state_summary_off">Il menù Stato di Ripetizione è nascosto.</string>
     <string name="revanced_shorts_custom_actions_about_title">Informazioni sulle azioni personalizzate</string>
     <string name="revanced_shorts_custom_actions_about_about_summary">"Questa impostazione è ancora sperimentale, quindi non c'è garanzia che funzionerà perfettamente.
 
@@ -1775,20 +1775,19 @@ Tocca il pulsante Continua e consenti le modifiche di ottimizzazione."</string>
     <string name="revanced_spoof_streaming_data_type_title">Client predefinito</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_music">iOS Music</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">iOS TV</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Android Creator</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Effetti collaterali del camuffamento</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">• Nessuno ancora trovato.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_skip_sync_video_length">• I video potrebbero terminare 1 secondo prima.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• Il menù Traccia Audio è mancante.
-• Il menù Volume Stabile è mancante."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Il menù Traccia Audio è mancante.
-• Il menù Volume Stabile è mancante."</string>
-    <string name="revanced_spoof_streaming_data_sync_video_length_title">Sincronizza la lunghezza del video prima della riproduzione</string>
-    <string name="revanced_spoof_streaming_data_sync_video_length_summary_on">"La lunghezza del video è sincronizzata prima della riproduzione.
-La lunghezza del video è il valore esatto."</string>
-    <string name="revanced_spoof_streaming_data_sync_video_length_summary_off">"La lunghezza del video non è sincronizzata prima della riproduzione. 
-La lunghezza del video potrebbe essere un valore arrotondato."</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">• I film o i video a pagamento potrebbero non essere riprodotti.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android">"• Il menù Traccia Audio è mancante.
+• Il menù Volume Stabile è mancante.
+• La disattivazione della traccia audio automatica forzata non funziona."</string>
+    <string name="revanced_spoof_streaming_data_android_only_title">Usa solo il client Android</string>
+    <string name="revanced_spoof_streaming_data_android_only_summary_on">Il client Android è usato per recuperare i dati in streaming.</string>
+    <string name="revanced_spoof_streaming_data_android_only_summary_off">I client Android e iOS sono usati per recuperare i dati in streaming.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Mostra nelle statistiche per nerd</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Il client usato per recuperare i dati in streaming è visibile nelle statistiche per nerd.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Il client usato per recuperare i dati in streaming è nascosto nelle statistiche per nerd.</string>

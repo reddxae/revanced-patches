@@ -129,7 +129,7 @@
     <string name="revanced_change_start_page_entry_library">보관함</string>
     <string name="revanced_change_start_page_entry_subscription">구독</string>
     <string name="revanced_disable_auto_captions_title">자동 자막 비활성화</string>
-    <string name="revanced_disable_auto_captions_summary">자막 사용이 강제된 동영상에서 자막을 비활성화합니다.</string>
+    <string name="revanced_disable_auto_captions_summary">자막이 자동으로 활성화되지 않도록 설정합니다.</string>
     <string name="revanced_disable_dislike_redirection_title">싫어요 리다이렉션 비활성화</string>
     <string name="revanced_disable_dislike_redirection_summary">\'싫어요 버튼을 누르면 다음 트랙으로 리다이렉션\'을 비활성화합니다.</string>
     <string name="revanced_enable_landscape_mode_title">가로 모드 활성화</string>
@@ -384,7 +384,7 @@ API Key를 발급받는 방법을 보려면 여기를 누르세요."</string>
     <string name="revanced_enable_opus_codec_summary">"플레이어 응답에 OPUS 코덱이 포함된 경우에는 OPUS 코덱을 활성화합니다.
 
 알림:
-• 최신 YT Music 클라이언트는 기본적으로 OPUS 오디오 코덱을 사용합니다.
+• 최신 YT Music 클라이언트는 기본적으로 OPUS 코덱을 사용합니다.
 • 이 설정은 아주 오래된 클라이언트 사용자에게만 유효합니다."</string>
     <string name="gms_core_settings_title">GmsCore 열기</string>
     <string name="gms_core_settings_summary">알림 수신을 위한 클라우드 메시징 설정을 할 수 있습니다.</string>
@@ -403,14 +403,18 @@ API Key를 발급받는 방법을 보려면 여기를 누르세요."</string>
     <string name="revanced_spoof_client_title">클라이언트 변경</string>
     <string name="revanced_spoof_client_summary">"클라이언트를 변경하여 재생 문제를 방지할 수 있습니다.
 
-알려진 문제점:
-• OPUS 코덱이 지원되지 않을 수 있습니다.
-• 재생바 썸네일이 표시되지 않을 수 있습니다.
-• 브랜드 계정에서는 시청 기록이 작동되지 않습니다."</string>
+※ '스트리밍 데이터 변경'과 함께 사용할 경우에 재생 문제가 발생할 수 있습니다."</string>
+    <string name="revanced_spoof_client_type_title">기본 클라이언트</string>
+    <string name="revanced_spoof_client_type_summary">"변경할 기본 클라이언트를 정의합니다.
+
+※ Android 클라이언트를 사용할 경우에 '앱 버전 변경'과 함께 사용하는 것을 권장합니다."</string>
+    <string name="revanced_spoof_client_type_entry_android_music_4_27">Android Music 4.27.53</string>
+    <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
+    <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>
     <string name="revanced_spoof_streaming_data_title">스트리밍 데이터 변경</string>
     <string name="revanced_spoof_streaming_data_summary">"스트리밍 데이터를 변경하여 재생 문제를 방지합니다.
 
-※ '클라이언트 변경'과 함께 사용하면, 재생 문제가 발생할 수 있습니다."</string>
+※ '클라이언트 변경'과 함께 사용할 경우에 재생 문제가 발생할 수 있습니다."</string>
     <string name="revanced_spoof_streaming_data_type_title">기본 클라이언트</string>
     <string name="revanced_spoof_streaming_data_type_summary">스트리밍 데이터를 가져오는 데 사용되는 기본 클라이언트를 정의할 수 있습니다.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">동영상 통계에서 표시</string>

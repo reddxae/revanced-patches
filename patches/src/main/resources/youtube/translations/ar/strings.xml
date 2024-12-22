@@ -1786,20 +1786,19 @@
     <string name="revanced_spoof_streaming_data_type_title">العميل الافتراضي</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_music">موسيقى iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">iOS TV</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Android Creator</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">التأثيرات الجانبية للتزييف</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">• لم يتم العثور عليه بعد.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_skip_sync_video_length">• قد تنتهي الفيديوهات قبل النهاية بـ 1 ثانية.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• قائمة المقطع الصوتي مفقودة.
-• مستوى الصوت الثابت غير متوفر."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• قائمة المقطع الصوتي مفقودة.
-• مستوى الصوت الثابت غير متوفر."</string>
-    <string name="revanced_spoof_streaming_data_sync_video_length_title">مزامنة مدة الفيديو قبل التشغيل</string>
-    <string name="revanced_spoof_streaming_data_sync_video_length_summary_on">"تتم مزامنة مدة الفيديو قبل التشغيل.
-مدة الفيديو هي القيمة الدقيقة."</string>
-    <string name="revanced_spoof_streaming_data_sync_video_length_summary_off">"لا تتم مزامنة مدة الفيديو قبل التشغيل.
-قد تكون مدة الفيديو قيمة تقريبية."</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">• قد لا يتم تشغيل الأفلام أو الفيديوهات المدفوعة.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android">"• قائمة المقطع الصوتي مفقودة.
+• مستوى الصوت الثابت غير متاح.
+• تعطيل مقاطع الصوت التلقائية المفروضة غير متاح."</string>
+    <string name="revanced_spoof_streaming_data_android_only_title">استخدام عملاء Android فقط</string>
+    <string name="revanced_spoof_streaming_data_android_only_summary_on">يتم استخدام عملاء Android لجلب البيانات المتدفقة.</string>
+    <string name="revanced_spoof_streaming_data_android_only_summary_off">يتم استخدام عملاء Android و iOS لجلب البيانات المتدفقة.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">عرض في إحصاءات تقنية</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">يتم عرض العميل المستخدم لجلب بيانات البث في إحصاءات تقنية.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">تم إخفاء العميل المستخدم لجلب بيانات البث في إحصاءات تقنية.</string>

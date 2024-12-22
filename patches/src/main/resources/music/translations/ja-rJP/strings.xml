@@ -368,6 +368,7 @@ API キーの発行方法については、ここをタップしてください�
     <string name="revanced_change_share_sheet_summary">アプリ内共有メニューからシステムの共有メニューに置き換えます。</string>
     <string name="revanced_disable_cairo_splash_animation_title">Cairo スプラッシュアニメーションを無効にする</string>
     <string name="revanced_disable_cairo_splash_animation_summary">アプリ起動時のCairo のスプラッシュアニメーションを無効にします。</string>
+    <string name="revanced_disable_drc_audio_title">DRCオーディオを無効にする</string>
     <string name="revanced_enable_debug_logging_title">デバッグログ</string>
     <string name="revanced_enable_debug_logging_summary">デバッグログを出力します。</string>
     <string name="revanced_enable_debug_buffer_logging_title">デバッグバッファログを有効化</string>
@@ -391,6 +392,9 @@ API キーの発行方法については、ここをタップしてください�
 • OPUSオーディオコーデックはサポートされていない可能性があります。
 • シークバーのサムネイルが表示されない場合があります。
 • 再生履歴はブランドアカウントでは動作しません。"</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_sanitize_sharing_links_title">共有リンクのクリーンアップ</string>
     <string name="revanced_sanitize_sharing_links_summary">リンクを共有する際に、URL からトラッキングクエリパラメーターを削除します。</string>
     <string name="revanced_default_app_settings_title">「デフォルトで開く」の設定</string>

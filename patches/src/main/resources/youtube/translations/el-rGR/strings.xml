@@ -1801,20 +1801,19 @@ Playlists
     <string name="revanced_spoof_streaming_data_type_title">Προεπιλογή</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_music">iOS Music</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">iOS TV</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Android Creator</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Παρενέργειες παραποίησης</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">• Δεν ανακαλύφθηκαν ακόμη.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_skip_sync_video_length">• Τα βίντεο μπορεί να τελειώνουν 1 δευτερόλεπτο νωρίτερα.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• Το μενού «Κομμάτι ήχου» λείπει.
-• Η λειτουργία «Σταθερή ένταση» δεν είναι διαθέσιμη."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Το μενού «Κομμάτι ήχου» λείπει.
-• Η λειτουργία «Σταθερή ένταση» δεν είναι διαθέσιμη."</string>
-    <string name="revanced_spoof_streaming_data_sync_video_length_title">Συγχρονισμός μήκους βίντεο πριν την αναπαραγωγή</string>
-    <string name="revanced_spoof_streaming_data_sync_video_length_summary_on">"Το μήκος του βίντεο συγχρονίζεται πριν την αναπαραγωγή.
-Το μήκος του βίντεο είναι ακριβής."</string>
-    <string name="revanced_spoof_streaming_data_sync_video_length_summary_off">"Το μήκος του βίντεο δεν συγχρονίζεται πριν την αναπαραγωγή.
-Το μήκος του βίντεο μπορεί να είναι στρογγυλεμένη τιμή."</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">• Οι ταινίες ή τα βίντεο επί πληρωμή ενδέχεται να μην αναπαράγονται.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android">"• Το μενού «Κομμάτι ήχου» λείπει.
+• Η λειτουργία «Σταθερή ένταση» δεν είναι διαθέσιμη.
+• Η λειτουργία «Απενεργοποίηση υποχρεωτικών κομματιών ήχου» δεν είναι διαθέσιμη."</string>
+    <string name="revanced_spoof_streaming_data_android_only_title">Χρήση των προγραμμάτων πελάτη Android μόνο</string>
+    <string name="revanced_spoof_streaming_data_android_only_summary_on">Τα προγράμματα πελάτη Android χρησιμοποιούνται τη λήψη δεδομένων ροής.</string>
+    <string name="revanced_spoof_streaming_data_android_only_summary_off">Τα προγράμματα πελάτη Android και iOS χρησιμοποιούνται τη λήψη δεδομένων ροής.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Εμφάνιση στο «Στατιστικά για σπασίκλες»</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Το πρόγραμμα πελάτη που χρησιμοποιείται για τη λήψη δεδομένων ροής εμφανίζεται στο μενού «Στατιστικά για σπασίκλες».</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Το πρόγραμμα πελάτη που χρησιμοποιείται για τη λήψη δεδομένων ροής δεν εμφανίζεται στο μενού «Στατιστικά για σπασίκλες».</string>

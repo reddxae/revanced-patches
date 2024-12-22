@@ -1329,6 +1329,10 @@
     <string name="revanced_replace_channel_handle_title">更換頻道代號</string>
     <string name="revanced_replace_channel_handle_summary_on">頻道名稱已使用。</string>
     <string name="revanced_replace_channel_handle_summary_off">頻道代號已使用。</string>
+    <string name="revanced_restore_shorts_old_player_layout_title">恢復舊版播放器介面</string>
+    <string name="revanced_restore_shorts_old_player_layout_summary_on">"正在使用舊版播放器介面。
+播放器的上下邊緣無間距。"</string>
+    <string name="revanced_restore_shorts_old_player_layout_summary_off">未使用舊版播放器介面。</string>
     <!-- PreferenceScreen: Swipe controls -->
     <string name="revanced_preference_screen_swipe_controls_title">滑動控制</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_title">啟用自動亮度手勢</string>
@@ -1372,6 +1376,12 @@
     <string name="revanced_disable_hdr_auto_brightness_title">停用 HDR 影片自動亮度</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">HDR 影片自動亮度已停用</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">HDR 影片自動亮度已啟用</string>
+    <string name="revanced_disable_watch_panel_gestures_title">停用觀看面板手勢</string>
+    <string name="revanced_disable_watch_panel_gestures_summary_on">透過滑動播放器底部區域切換到全螢幕功能已停用。</string>
+    <string name="revanced_disable_watch_panel_gestures_summary_off">透過滑動播放器底部區域切換到全螢幕功能已啟用。</string>
+    <string name="revanced_disable_swipe_to_switch_video_title">停用滑動切換影片功能</string>
+    <string name="revanced_disable_swipe_to_switch_video_summary_on">向上/向下滑動將不會播放下一個/上一個影片。</string>
+    <string name="revanced_disable_swipe_to_switch_video_summary_off">向上/向下滑動將播放下一個/上一個影片。</string>
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">自動</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">影片</string>
@@ -1763,12 +1773,16 @@
     <string name="revanced_spoof_streaming_data_type_title">預設客戶端</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_music">iOS 音樂</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">iOS TV</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Android 創作者</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android 電視</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">偽裝副作用</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">• 尚未找到。</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• 音軌選單遺失。"</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• 音軌選單遺失。"</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">• 電影或付費影片可能無法播放。</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android">"• 音軌選單缺失。
+• 穩定音量不可用。
+• 停用強制自動音軌不可用。"</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">顯示統計資料</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">用於取得串流資料的用戶端顯示在統計資料中。</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">用於獲取串流資料的用戶端隱藏在統計資料中。</string>

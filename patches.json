@@ -44,7 +44,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": []
@@ -60,7 +60,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": []
@@ -76,7 +76,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": []
@@ -109,7 +109,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": []
@@ -118,7 +118,9 @@
     "name": "Change package name",
     "description": "Changes the package name for Reddit to the name specified in patch options.",
     "use": false,
-    "compatiblePackages": {},
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
     "options": [
       {
         "key": "packageNameReddit",
@@ -162,7 +164,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": []
@@ -195,7 +197,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": []
@@ -221,6 +223,7 @@
     "name": "Change version code",
     "description": "Changes the version code of the app to the value specified in patch options. Except when mounting, this can prevent app stores from updating the app and allow the app to be installed over an existing installation that has a higher version code. By default, the highest version code is set.",
     "use": false,
+    "compatiblePackages": null,
     "options": [
       {
         "key": "versionCode",
@@ -302,6 +305,7 @@
       {
         "key": "changeSplashIcon",
         "default": true,
+        "values": null,
         "title": "Change splash icons",
         "description": "Apply the custom branding icon to the splash screen.",
         "required": true
@@ -309,6 +313,7 @@
       {
         "key": "restoreOldSplashAnimation",
         "default": true,
+        "values": null,
         "title": "Restore old splash animation",
         "description": "Restore the old style splash animation.",
         "required": true
@@ -326,7 +331,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": [
@@ -348,6 +353,7 @@
       {
         "key": "changeSplashIcon",
         "default": true,
+        "values": null,
         "title": "Change splash icons",
         "description": "Apply the custom branding icon to the splash screen.",
         "required": true
@@ -355,6 +361,7 @@
       {
         "key": "restoreOldSplashIcon",
         "default": false,
+        "values": null,
         "title": "Restore old splash icon",
         "description": "Restore the old style splash icon.\n\nIf you enable both the old style splash icon and the Cairo splash animation,\n\nOld style splash icon will appear first and then the Cairo splash animation will start.",
         "required": true
@@ -365,7 +372,9 @@
     "name": "Custom branding name for Reddit",
     "description": "Renames the Reddit app to the name specified in patch options.",
     "use": false,
-    "compatiblePackages": {},
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
     "options": [
       {
         "key": "appName",
@@ -422,7 +431,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": [
@@ -473,6 +482,7 @@
       {
         "key": "doubleTapLengthArrays",
         "default": "3, 5, 10, 15, 20, 30, 60, 120, 180",
+        "values": null,
         "title": "Double-tap to seek values",
         "description": "A list of custom Double-tap to seek lengths to be added, separated by commas.",
         "required": true
@@ -518,7 +528,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": [
@@ -559,7 +569,7 @@
       "com.google.android.apps.youtube.music": [
         "7.06.54",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": []
@@ -575,7 +585,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": []
@@ -625,7 +635,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": []
@@ -658,7 +668,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": []
@@ -701,7 +711,9 @@
     "name": "Disable screenshot popup",
     "description": "Adds an option to disable the popup that appears when taking a screenshot.",
     "use": true,
-    "compatiblePackages": {},
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
     "options": []
   },
   {
@@ -732,7 +744,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": []
@@ -765,7 +777,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": []
@@ -832,7 +844,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": []
@@ -865,7 +877,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": []
@@ -915,7 +927,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": [
@@ -932,6 +944,7 @@
       {
         "key": "checkGmsCore",
         "default": true,
+        "values": null,
         "title": "Check GmsCore",
         "description": "Check if GmsCore is installed on the device and has battery optimizations disabled when the app starts. \n\nIf GmsCore is not installed the app will not work, so disabling this is not recommended.",
         "required": true
@@ -989,6 +1002,7 @@
       {
         "key": "checkGmsCore",
         "default": true,
+        "values": null,
         "title": "Check GmsCore",
         "description": "Check if GmsCore is installed on the device and has battery optimizations disabled when the app starts. \n\nIf GmsCore is not installed the app will not work, so disabling this is not recommended.",
         "required": true
@@ -1021,7 +1035,9 @@
     "name": "Hide Recently Visited shelf",
     "description": "Adds an option to hide the Recently Visited shelf in the sidebar.",
     "use": true,
-    "compatiblePackages": {},
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
     "options": []
   },
   {
@@ -1052,7 +1068,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": []
@@ -1068,7 +1084,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": []
@@ -1101,7 +1117,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": []
@@ -1110,7 +1126,9 @@
     "name": "Hide ads",
     "description": "Adds options to hide ads.",
     "use": true,
-    "compatiblePackages": {},
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
     "options": []
   },
   {
@@ -1192,7 +1210,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": []
@@ -1218,7 +1236,9 @@
     "name": "Hide navigation buttons",
     "description": "Adds options to hide buttons in the navigation bar.",
     "use": false,
-    "compatiblePackages": {},
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
     "options": []
   },
   {
@@ -1232,7 +1252,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": []
@@ -1282,7 +1302,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": []
@@ -1291,7 +1311,9 @@
     "name": "Hide recommended communities shelf",
     "description": "Adds an option to hide the recommended communities shelves in subreddits.",
     "use": true,
-    "compatiblePackages": {},
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
     "options": []
   },
   {
@@ -1313,6 +1335,7 @@
       {
         "key": "explore",
         "default": false,
+        "values": null,
         "title": "Hide Explore",
         "description": "Hide Explore from shortcuts.",
         "required": true
@@ -1320,6 +1343,7 @@
       {
         "key": "subscriptions",
         "default": false,
+        "values": null,
         "title": "Hide Subscriptions",
         "description": "Hide Subscriptions from shortcuts.",
         "required": true
@@ -1327,6 +1351,7 @@
       {
         "key": "search",
         "default": false,
+        "values": null,
         "title": "Hide Search",
         "description": "Hide Search from shortcuts.",
         "required": true
@@ -1334,6 +1359,7 @@
       {
         "key": "shorts",
         "default": true,
+        "values": null,
         "title": "Hide Shorts",
         "description": "Hide Shorts from shortcuts.",
         "required": true
@@ -1436,7 +1462,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": []
@@ -1462,14 +1488,18 @@
     "name": "Open links directly",
     "description": "Adds an option to skip over redirection URLs in external links.",
     "use": true,
-    "compatiblePackages": {},
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
     "options": []
   },
   {
     "name": "Open links externally",
     "description": "Adds an option to always open links in your browser instead of in the in-app-browser.",
     "use": true,
-    "compatiblePackages": {},
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
     "options": []
   },
   {
@@ -1515,6 +1545,7 @@
       {
         "key": "widerButtonsSpace",
         "default": false,
+        "values": null,
         "title": "Wider between-buttons space",
         "description": "Prevent adjacent button presses by increasing the horizontal spacing between buttons.",
         "required": true
@@ -1522,6 +1553,7 @@
       {
         "key": "changeTopButtons",
         "default": false,
+        "values": null,
         "title": "Change top buttons",
         "description": "Change the icons at the top of the player.",
         "required": true
@@ -1539,7 +1571,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": []
@@ -1565,7 +1597,9 @@
     "name": "Premium icon",
     "description": "Unlocks premium app icons.",
     "use": true,
-    "compatiblePackages": {},
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
     "options": []
   },
   {
@@ -1579,7 +1613,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": []
@@ -1605,7 +1639,9 @@
     "name": "Remove subreddit dialog",
     "description": "Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.",
     "use": true,
-    "compatiblePackages": {},
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
     "options": []
   },
   {
@@ -1619,7 +1655,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": []
@@ -1652,7 +1688,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": []
@@ -1668,7 +1704,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": []
@@ -1701,7 +1737,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": []
@@ -1734,7 +1770,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": []
@@ -1743,7 +1779,9 @@
     "name": "Sanitize sharing links",
     "description": "Adds an option to remove tracking query parameters from URLs when sharing links.",
     "use": true,
-    "compatiblePackages": {},
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
     "options": []
   },
   {
@@ -1784,11 +1822,14 @@
     "name": "Settings for Reddit",
     "description": "Applies mandatory patches to implement ReVanced Extended settings into the application.",
     "use": true,
-    "compatiblePackages": {},
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
     "options": [
       {
         "key": "settingsLabel",
         "default": "ReVanced Extended",
+        "values": null,
         "title": "RVX settings menu name",
         "description": "The name of the RVX settings menu.",
         "required": true
@@ -1845,6 +1886,7 @@
       {
         "key": "settingsLabel",
         "default": "ReVanced Extended",
+        "values": null,
         "title": "RVX settings label",
         "description": "The name of the RVX settings menu.",
         "required": true
@@ -1862,13 +1904,14 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": [
       {
         "key": "settingsLabel",
         "default": "ReVanced Extended",
+        "values": null,
         "title": "RVX settings label",
         "description": "The name of the RVX settings menu.",
         "required": true
@@ -1903,7 +1946,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": []
@@ -1927,6 +1970,7 @@
       {
         "key": "outlineIcon",
         "default": false,
+        "values": null,
         "title": "Outline icons",
         "description": "Apply the outline icon.",
         "required": true
@@ -1943,7 +1987,6 @@
         "6.29.59",
         "6.42.55",
         "6.51.53",
-        "7.06.54",
         "7.16.53"
       ]
     },
@@ -1976,8 +2019,7 @@
         "6.29.59",
         "6.42.55",
         "6.51.53",
-        "7.16.53",
-        "7.25.52"
+        "7.16.53"
       ]
     },
     "options": []
@@ -1993,7 +2035,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": []
@@ -2121,6 +2163,7 @@
       {
         "key": "customTranslations",
         "default": "",
+        "values": null,
         "title": "Custom translations",
         "description": "The path to the \u0027strings.xml\u0027 file.\nPlease note that applying the \u0027strings.xml\u0027 file will overwrite all existing translations.",
         "required": true
@@ -2128,6 +2171,7 @@
       {
         "key": "selectedTranslations",
         "default": "ar, bg-rBG, de-rDE, el-rGR, es-rES, fr-rFR, hu-rHU, it-rIT, ja-rJP, ko-rKR, pl-rPL, pt-rBR, ru-rRU, tr-rTR, uk-rUA, vi-rVN, zh-rCN, zh-rTW",
+        "values": null,
         "title": "Translations to add",
         "description": "A list of translations to be added for the RVX settings, separated by commas.",
         "required": true
@@ -2135,6 +2179,7 @@
       {
         "key": "selectedStringResources",
         "default": "af, am, ar, ar-rXB, as, az, b+es+419, b+sr+Latn, be, bg, bn, bs, ca, cs, da, de, el, en-rAU, en-rCA, en-rGB, en-rIN, en-rXA, en-rXC, es, es-rUS, et, eu, fa, fi, fr, fr-rCA, gl, gu, hi, hr, hu, hy, id, in, is, it, iw, ja, ka, kk, km, kn, ko, ky, lo, lt, lv, mk, ml, mn, mr, ms, my, nb, ne, nl, no, or, pa, pl, pt, pt-rBR, pt-rPT, ro, ru, si, sk, sl, sq, sr, sv, sw, ta, te, th, tl, tr, uk, ur, uz, vi, zh, zh-rCN, zh-rHK, zh-rTW, zu",
+        "values": null,
         "title": "String resources to keep",
         "description": "A list of string resources to be kept, separated by commas.\nString resources not in the list will be removed from the app.\n\nDefault string resource, English, is not removed.",
         "required": true
@@ -2152,13 +2197,14 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": [
       {
         "key": "customTranslations",
         "default": "",
+        "values": null,
         "title": "Custom translations",
         "description": "The path to the \u0027strings.xml\u0027 file.\nPlease note that applying the \u0027strings.xml\u0027 file will overwrite all existing translations.",
         "required": true
@@ -2166,6 +2212,7 @@
       {
         "key": "selectedTranslations",
         "default": "bg-rBG, bn, cs-rCZ, el-rGR, es-rES, fr-rFR, hu-rHU, id-rID, in, it-rIT, ja-rJP, ko-rKR, nl-rNL, pl-rPL, pt-rBR, ro-rRO, ru-rRU, tr-rTR, uk-rUA, vi-rVN, zh-rCN, zh-rTW",
+        "values": null,
         "title": "Translations to add",
         "description": "A list of translations to be added for the RVX settings, separated by commas.",
         "required": true
@@ -2173,6 +2220,7 @@
       {
         "key": "selectedStringResources",
         "default": "af, am, ar, ar-rXB, as, az, b+es+419, b+sr+Latn, be, bg, bn, bs, ca, cs, da, de, el, en-rAU, en-rCA, en-rGB, en-rIN, en-rXA, en-rXC, es, es-rUS, et, eu, fa, fi, fr, fr-rCA, gl, gu, hi, hr, hu, hy, id, in, is, it, iw, ja, ka, kk, km, kn, ko, ky, lo, lt, lv, mk, ml, mn, mr, ms, my, nb, ne, nl, no, or, pa, pl, pt, pt-rBR, pt-rPT, ro, ru, si, sk, sl, sq, sr, sv, sw, ta, te, th, tl, tr, uk, ur, uz, vi, zh, zh-rCN, zh-rHK, zh-rTW, zu",
+        "values": null,
         "title": "String resources to keep",
         "description": "A list of string resources to be kept, separated by commas.\nString resources not in the list will be removed from the app.\n\nDefault string resource, English, is not removed.",
         "required": true
@@ -2190,7 +2238,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": []
@@ -2246,6 +2294,7 @@
       {
         "key": "applyToAll",
         "default": false,
+        "values": null,
         "title": "Apply to all settings menu",
         "description": "Whether to apply Visual preferences icons to all settings menus.\n\nIf true: icons are applied to the parent PreferenceScreen of YouTube settings, the parent PreferenceScreen of RVX settings and the RVX sub-settings (if supported).\n\nIf false: icons are applied only to the parent PreferenceScreen of YouTube settings and RVX settings.",
         "required": true
@@ -2263,7 +2312,7 @@
         "6.42.55",
         "6.51.53",
         "7.16.53",
-        "7.25.52"
+        "7.25.53"
       ]
     },
     "options": [

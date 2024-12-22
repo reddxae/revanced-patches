@@ -1689,8 +1689,6 @@
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Ефекти от замяната</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• Липсва менюто за избор на аудио."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Липсва менюто за избор на аудио."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Показване в \"Разширени статистики\"</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Клиентът, използван за получаване на данни за потока, се показва в Статистика за системни администратори.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Клиентът, използван за получаване на данни за поток, е скрит в Статистика за системни администратори.</string>

@@ -1339,6 +1339,10 @@ Limitations :
     <string name="revanced_replace_channel_handle_title">Remplacer l\'identifiant de la chaîne</string>
     <string name="revanced_replace_channel_handle_summary_on">Le nom de la chaîne est utilisé.</string>
     <string name="revanced_replace_channel_handle_summary_off">L\'identifiant de la chaîne est utilisé.</string>
+    <string name="revanced_restore_shorts_old_player_layout_title">Restaurer l\'ancienne interface du lecteur</string>
+    <string name="revanced_restore_shorts_old_player_layout_summary_on">"L'ancienne mise en page du lecteur est utilisée.
+Pas de marges en haut et en bas du lecteur."</string>
+    <string name="revanced_restore_shorts_old_player_layout_summary_off">L\'ancienne mise en page du lecteur n\'est pas utilisée.</string>
     <!-- PreferenceScreen: Swipe controls -->
     <string name="revanced_preference_screen_swipe_controls_title">Contrôles par gestes</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_title">Activer les gestes de luminosité auto</string>
@@ -1385,6 +1389,7 @@ Limitations :
     <string name="revanced_disable_watch_panel_gestures_title">Désactiver les gestes inférieurs du lecteur</string>
     <string name="revanced_disable_watch_panel_gestures_summary_on">Le passage plein écran en faisant glisser vers le bas sous le lecteur vidéo est désactivé.</string>
     <string name="revanced_disable_watch_panel_gestures_summary_off">Le passage plein écran en faisant glisser vers le bas sous le lecteur vidéo est activé.</string>
+    <string name="revanced_disable_swipe_to_switch_video_title">Désactiver les gestes pour changer de vidéo</string>
     <string name="revanced_disable_swipe_to_switch_video_summary_on">Glisser vers le haut / bas ne lira pas la vidéo suivante / précédente.</string>
     <string name="revanced_disable_swipe_to_switch_video_summary_off">Glisser vers le haut / bas pour lire la vidéo suivante / précédente.</string>
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">Auto</string>
@@ -1774,20 +1779,13 @@ Cliquez sur le bouton Continuer et autorisez les modifications d'optimisations."
     <string name="revanced_spoof_streaming_data_type_title">Client par défaut</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_music">Musique iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">TV iOS</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Effets inconnus de la falsification</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• Pas encore trouvé.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_skip_sync_video_length">• Les vidéos peuvent se terminer avec 1 seconde d\'avance.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• Le menu 'Piste Audio' est manquant.
-• Le volume stable n'es pas disponible."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Le menu 'Piste Audio' est manquant.
-• Le volume stable n'es pas disponible."</string>
-    <string name="revanced_spoof_streaming_data_sync_video_length_title">Synchroniser la durée de la vidéo avant la lecture</string>
-    <string name="revanced_spoof_streaming_data_sync_video_length_summary_on">"La durée de la vidéo est synchronisée avant la lecture.
-La durée a une valeur exacte."</string>
-    <string name="revanced_spoof_streaming_data_sync_video_length_summary_off">"La durée de la vidéo n'est pas synchronisée avant la lecture.
-La durée peut avoir une valeur arrondie."</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">• Les vidéos privées conçues pour enfants peuvent ne pas être lues.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">• Les vidéos privées conçues pour enfants peuvent ne pas être lues.
+• Les films ou vidéos payantes peuvent ne pas être lues.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Afficher dans \'Statistiques pour les nerds\'</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Le client utilisé pour récupérer les données de lecture en direct est affiché dans \'Statistiques pour les nerds\'.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Le client utilisé pour récupérer les données de lecture en direct est masqué dans \'Statistiques pour les nerds\'.</string>

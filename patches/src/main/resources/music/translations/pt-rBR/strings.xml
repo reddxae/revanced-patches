@@ -405,14 +405,8 @@ Toque no botão continuar e permita as alterações de otimização."</string>
     <string name="revanced_spoof_client_summary">"Falsificar o cliente para evitar problemas de reprodução.
 
 ※ Quando usado com 'Dados de streaming falsos', podem ocorrer problemas de reprodução."</string>
-    <string name="revanced_spoof_client_legacy_title">Usar o cliente antigo</string>
-    <string name="revanced_spoof_client_legacy_summary">"Falsificando com a versão 4.27.53.
-
-O codec OPUS pode não funcionar."</string>
     <string name="revanced_spoof_client_type_title">Cliente padrão</string>
-    <string name="revanced_spoof_client_type_summary">Define um cliente padrão para falsificar.</string>
-    <string name="revanced_spoof_client_type_entry_android_music">Android Music</string>
-    <string name="revanced_spoof_client_type_entry_ios_music">iOS Music</string>
+    <string name="revanced_spoof_client_type_summary">"Define um cliente padrão para falsificar."</string>
     <string name="revanced_spoof_streaming_data_title">Dados de streaming falsos</string>
     <string name="revanced_spoof_streaming_data_summary">"Falsifique os dados de streaming para evitar problemas de reprodução.
 

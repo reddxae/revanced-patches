@@ -5,13 +5,9 @@ import android.text.TextUtils;
 
 import androidx.annotation.Nullable;
 
-import com.google.protos.youtube.api.innertube.StreamingDataOuterClass$StreamingData;
-
-import java.lang.reflect.Field;
 import java.nio.ByteBuffer;
 import java.util.Collections;
 import java.util.LinkedHashMap;
-import java.util.List;
 import java.util.Map;
 
 import app.revanced.extension.shared.patches.BlockRequestPatch;
@@ -22,12 +18,6 @@ import app.revanced.extension.shared.utils.Utils;
 
 @SuppressWarnings("unused")
 public class SpoofStreamingDataPatch extends BlockRequestPatch {
-    /**
-     * Even if the default client is not iOS, videos that cannot be played on Android VR or Android TV will fall back to iOS.
-     * Do not add a dependency that checks whether the default client is iOS or not.
-     */
-    private static final boolean SPOOF_STREAMING_DATA_SYNC_VIDEO_LENGTH =
-            SPOOF_STREAMING_DATA && BaseSettings.SPOOF_STREAMING_DATA_SYNC_VIDEO_LENGTH.get();
 
     /**
      * Key: video id
@@ -133,28 +123,12 @@ public class SpoofStreamingDataPatch extends BlockRequestPatch {
      * <p>
      * Called after {@link #getStreamingData(String)}.
      */
-    public static void setApproxDurationMs(String videoId, String approxDurationMsFieldName,
-                                           StreamingDataOuterClass$StreamingData originalStreamingData, StreamingDataOuterClass$StreamingData spoofedStreamingData) {
-        if (SPOOF_STREAMING_DATA_SYNC_VIDEO_LENGTH) {
-            if (formatsIsEmpty(spoofedStreamingData)) {
-                List<?> originalFormats = getFormatsFromStreamingData(originalStreamingData);
-                Long approxDurationMs = getApproxDurationMs(originalFormats, approxDurationMsFieldName);
-                if (approxDurationMs != null) {
-                    approxDurationMsMap.put(videoId, approxDurationMs);
-                    Logger.printDebug(() -> "New approxDurationMs loaded, video id: " + videoId + ", video length: " + approxDurationMs);
-                } else {
-                    Logger.printDebug(() -> "Ignoring as original approxDurationMs is not found, video id: " + videoId);
-                }
-            } else {
-                Logger.printDebug(() -> "Ignoring as spoofed formats is not empty, video id: " + videoId);
-            }
+    public static void setApproxDurationMs(String videoId, long approxDurationMs) {
+        if (approxDurationMs != Long.MAX_VALUE) {
+            approxDurationMsMap.put(videoId, approxDurationMs);
+            Logger.printDebug(() -> "New approxDurationMs loaded, video id: " + videoId + ", video length: " + approxDurationMs);
         }
     }
-
-    /**
-     * Looks like the initial value for the videoId field.
-     */
-    private static final String MASKED_VIDEO_ID = "zzzzzzzzzzz";
 
     /**
      * Injection point.
@@ -171,22 +145,16 @@ public class SpoofStreamingDataPatch extends BlockRequestPatch {
      * <p>
      * Called after {@link #getStreamingData(String)}.
      */
-    public static long getApproxDurationMsFromOriginalResponse(String videoId, long lengthMilliseconds) {
-        if (SPOOF_STREAMING_DATA_SYNC_VIDEO_LENGTH) {
-            try {
-                if (videoId != null && !videoId.equals(MASKED_VIDEO_ID)) {
-                    Long approxDurationMs = approxDurationMsMap.get(videoId);
-                    if (approxDurationMs != null) {
-                        Logger.printDebug(() -> "Replacing video length from " + lengthMilliseconds + " to " + approxDurationMs + " , videoId: " + videoId);
-                        approxDurationMsMap.remove(videoId);
-                        return approxDurationMs;
-                    }
-                }
-            } catch (Exception ex) {
-                Logger.printException(() -> "getOriginalFormats failure", ex);
+    public static long getApproxDurationMs(String videoId) {
+        if (videoId != null) {
+            final Long approxDurationMs = approxDurationMsMap.get(videoId);
+            if (approxDurationMs != null) {
+                Logger.printDebug(() -> "Replacing video length: " + approxDurationMs + " for videoId: " + videoId);
+                approxDurationMsMap.remove(videoId);
+                return approxDurationMs;
             }
         }
-        return lengthMilliseconds;
+        return Long.MAX_VALUE;
     }
 
     /**
@@ -227,48 +195,5 @@ public class SpoofStreamingDataPatch extends BlockRequestPatch {
         }
 
         return videoFormat;
-    }
-
-    // Utils
-
-    private static boolean formatsIsEmpty(StreamingDataOuterClass$StreamingData streamingData) {
-        List<?> formats = getFormatsFromStreamingData(streamingData);
-        return formats == null || formats.size() == 0;
-    }
-
-    private static List<?> getFormatsFromStreamingData(StreamingDataOuterClass$StreamingData streamingData) {
-        try {
-            // Field e: 'formats'.
-            // Field name is always 'e', regardless of the client version.
-            Field field = streamingData.getClass().getDeclaredField("e");
-            field.setAccessible(true);
-            if (field.get(streamingData) instanceof List<?> list) {
-                return list;
-            }
-        } catch (NoSuchFieldException | IllegalAccessException ex) {
-            Logger.printException(() -> "Reflection error accessing formats", ex);
-        }
-        return null;
-    }
-
-    private static Long getApproxDurationMs(List<?> list, String approxDurationMsFieldName) {
-        try {
-            if (list != null) {
-                var iterator = list.listIterator();
-                if (iterator.hasNext()) {
-                    var formats = iterator.next();
-                    Field field = formats.getClass().getDeclaredField(approxDurationMsFieldName);
-                    field.setAccessible(true);
-                    if (field.get(formats) instanceof Long approxDurationMs) {
-                        return approxDurationMs;
-                    } else {
-                        Logger.printDebug(() -> "Field type is null: " + approxDurationMsFieldName);
-                    }
-                }
-            }
-        } catch (NoSuchFieldException | IllegalAccessException ex) {
-            Logger.printException(() -> "Reflection error accessing field: " + approxDurationMsFieldName, ex);
-        }
-        return null;
     }
 }

@@ -125,20 +125,26 @@ public class SpoofStreamingDataPatch {
             try {
                 Uri uri = Uri.parse(url);
                 String path = uri.getPath();
+                if (path == null || !path.contains("player")) {
+                    return;
+                }
 
+                // 'get_drm_license' has no video id and appears to happen when waiting for a paid video to start.
                 // 'heartbeat' has no video id and appears to be only after playback has started.
                 // 'refresh' has no video id and appears to happen when waiting for a livestream to start.
-                if (path != null && path.contains("player") && !path.contains("heartbeat")
-                        && !path.contains("refresh")) {
-                    String id = uri.getQueryParameter("id");
-                    if (id == null) {
-                        Logger.printException(() -> "Ignoring request that has no video id." +
-                                " Url: " + url + " headers: " + requestHeaders);
-                        return;
-                    }
-
-                    StreamingDataRequest.fetchRequest(id, requestHeaders, VISITOR_DATA, PO_TOKEN, droidGuardPoToken);
+                // 'ad_break' has no video id.
+                if (path.contains("get_drm_license") || path.contains("heartbeat") || path.contains("refresh") || path.contains("ad_break")) {
+                    Logger.printDebug(() -> "Ignoring path: " + path);
+                    return;
                 }
+
+                String id = uri.getQueryParameter("id");
+                if (id == null) {
+                    Logger.printException(() -> "Ignoring request with no id. Url: " + url);
+                    return;
+                }
+
+                StreamingDataRequest.fetchRequest(id, requestHeaders, VISITOR_DATA, PO_TOKEN, droidGuardPoToken);
             } catch (Exception ex) {
                 Logger.printException(() -> "buildRequest failure", ex);
             }

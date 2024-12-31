@@ -186,7 +186,7 @@
   },
   {
     "name": "Change share sheet",
-    "description": "Add option to change from in-app share sheet to system share sheet.",
+    "description": "Adds an option to change the in-app share sheet to the system share sheet.",
     "use": true,
     "dependencies": [
       "Settings for YouTube Music",
@@ -207,7 +207,7 @@
   },
   {
     "name": "Change share sheet",
-    "description": "Add option to change from in-app share sheet to system share sheet.",
+    "description": "Adds an option to change the in-app share sheet to the system share sheet.",
     "use": true,
     "dependencies": [
       "Settings for YouTube",
@@ -364,7 +364,7 @@
       {
         "key": "changeSplashIcon",
         "title": "Change splash icons",
-        "description": "Apply the custom branding icon to the splash screen.",
+        "description": "Apply the custom branding icon to the splash screen. Supports from YouTube 18.29.38 to YouTube 19.16.39.",
         "required": true,
         "type": "kotlin.Boolean",
         "default": true,
@@ -1619,7 +1619,7 @@
   },
   {
     "name": "Hide shortcuts",
-    "description": "Remove, at compile time, the app shortcuts that appears when app icon is long pressed.",
+    "description": "Remove, at compile time, the app shortcuts that appears when the app icon is long pressed.",
     "use": false,
     "dependencies": [
       "Settings for YouTube",
@@ -1861,7 +1861,8 @@
       "BytecodePatch",
       "ResourcePatch",
       "ResourcePatch",
-      "Settings for YouTube"
+      "Settings for YouTube",
+      "ResourcePatch"
     ],
     "compatiblePackages": {
       "com.google.android.youtube": [
@@ -1891,7 +1892,7 @@
       {
         "key": "bottomMargin",
         "title": "Bottom margin",
-        "description": "The bottom margin for the overlay buttons and timestamp.",
+        "description": "The bottom margin for the overlay buttons and timestamp. Supports from YouTube 18.29.38 to YouTube 19.16.39.",
         "required": true,
         "type": "kotlin.String",
         "default": "2.5dip",
@@ -1904,7 +1905,7 @@
       {
         "key": "widerButtonsSpace",
         "title": "Wider between-buttons space",
-        "description": "Prevent adjacent button presses by increasing the horizontal spacing between buttons.",
+        "description": "Prevent adjacent button presses by increasing the horizontal spacing between buttons. Supports from YouTube 18.29.38 to YouTube 19.16.39.",
         "required": true,
         "type": "kotlin.Boolean",
         "default": false,
@@ -2651,7 +2652,7 @@
   },
   {
     "name": "Toolbar components",
-    "description": "Adds options to hide or change components located on the toolbar, such as toolbar buttons, search bar, and header.",
+    "description": "Adds options to hide or change components located on the toolbar, such as the search bar, header, and toolbar buttons.",
     "use": true,
     "dependencies": [
       "BytecodePatch",

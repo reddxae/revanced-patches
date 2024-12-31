@@ -4,7 +4,9 @@ import static app.revanced.extension.shared.patches.PatchStatus.SpoofStreamingDa
 
 import android.net.Uri;
 import android.text.TextUtils;
+import android.util.Base64;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import java.nio.ByteBuffer;
@@ -19,13 +21,20 @@ import app.revanced.extension.shared.utils.Utils;
 
 @SuppressWarnings("unused")
 public class SpoofStreamingDataPatch {
-    public static final boolean SPOOF_STREAMING_DATA = SpoofStreamingData() && BaseSettings.SPOOF_STREAMING_DATA.get();
+    private static final boolean SPOOF_STREAMING_DATA = SpoofStreamingData() && BaseSettings.SPOOF_STREAMING_DATA.get();
+    private static final String PO_TOKEN =
+            BaseSettings.SPOOF_STREAMING_DATA_PO_TOKEN.get();
+    private static final String VISITOR_DATA =
+            BaseSettings.SPOOF_STREAMING_DATA_VISITOR_DATA.get();
 
     /**
      * Any unreachable ip address.  Used to intentionally fail requests.
      */
     private static final String UNREACHABLE_HOST_URI_STRING = "https://127.0.0.0";
     private static final Uri UNREACHABLE_HOST_URI = Uri.parse(UNREACHABLE_HOST_URI_STRING);
+
+    @NonNull
+    private static volatile String droidGuardPoToken = "";
 
     /**
      * Key: video id
@@ -128,7 +137,7 @@ public class SpoofStreamingDataPatch {
                         return;
                     }
 
-                    StreamingDataRequest.fetchRequest(id, requestHeaders);
+                    StreamingDataRequest.fetchRequest(id, requestHeaders, VISITOR_DATA, PO_TOKEN, droidGuardPoToken);
                 }
             } catch (Exception ex) {
                 Logger.printException(() -> "buildRequest failure", ex);
@@ -252,5 +261,18 @@ public class SpoofStreamingDataPatch {
         }
 
         return videoFormat;
+    }
+
+    /**
+     * Injection point.
+     */
+    public static void setDroidGuardPoToken(byte[] bytes) {
+        if (SPOOF_STREAMING_DATA && bytes.length > 20) {
+            final String poToken = Base64.encodeToString(bytes, Base64.URL_SAFE);
+            if (!droidGuardPoToken.equals(poToken)) {
+                Logger.printDebug(() -> "New droidGuardPoToken loaded:\n" + poToken);
+                droidGuardPoToken = poToken;
+            }
+        }
     }
 }

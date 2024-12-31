@@ -84,9 +84,12 @@ public class PlaylistRequest {
         try {
             HttpURLConnection connection = PlayerRoutes.getPlayerResponseConnectionFromRoute(GET_PLAYLIST_PAGE, clientType);
 
+            JSONObject innerTubeBodyJson = PlayerRoutes.createInnertubeBody(clientType);
+            innerTubeBodyJson.put("playlistId", "%s");
+
             String innerTubeBody = String.format(
                     Locale.ENGLISH,
-                    PlayerRoutes.createInnertubeBody(clientType, true),
+                    innerTubeBodyJson.toString(),
                     videoId,
                     "RD" + videoId
             );

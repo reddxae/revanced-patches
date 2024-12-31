@@ -181,6 +181,7 @@ public class AppClient {
                 ANDROID_SDK_VERSION_ANDROID_VR,
                 CLIENT_VERSION_ANDROID_VR,
                 true,
+                false,
                 "Android VR"
         ),
         ANDROID_UNPLUGGED(29,
@@ -190,6 +191,7 @@ public class AppClient {
                 ANDROID_SDK_VERSION_ANDROID_UNPLUGGED,
                 CLIENT_VERSION_ANDROID_UNPLUGGED,
                 true,
+                false,
                 "Android TV"
         ),
         IOS_UNPLUGGED(33,
@@ -199,6 +201,7 @@ public class AppClient {
                 null,
                 CLIENT_VERSION_IOS_UNPLUGGED,
                 true,
+                false,
                 forceAVC()
                         ? "iOS TV Force AVC"
                         : "iOS TV"
@@ -210,6 +213,7 @@ public class AppClient {
                 null,
                 CLIENT_VERSION_IOS,
                 false,
+                true,
                 forceAVC()
                         ? "iOS Force AVC"
                         : "iOS"
@@ -222,6 +226,7 @@ public class AppClient {
                 null,
                 CLIENT_VERSION_IOS_MUSIC,
                 true,
+                false,
                 "iOS Music"
         );
 
@@ -266,6 +271,11 @@ public class AppClient {
         public final boolean canLogin;
 
         /**
+         * If a poToken should be used.
+         */
+        public final boolean usePoToken;
+
+        /**
          * Friendly name displayed in stats for nerds.
          */
         public final String friendlyName;
@@ -277,6 +287,7 @@ public class AppClient {
                    @Nullable String androidSdkVersion,
                    String clientVersion,
                    boolean canLogin,
+                   boolean usePoToken,
                    String friendlyName
         ) {
             this.id = id;
@@ -287,6 +298,7 @@ public class AppClient {
             this.androidSdkVersion = androidSdkVersion;
             this.userAgent = userAgent;
             this.canLogin = canLogin;
+            this.usePoToken = usePoToken;
             this.friendlyName = friendlyName;
         }
 

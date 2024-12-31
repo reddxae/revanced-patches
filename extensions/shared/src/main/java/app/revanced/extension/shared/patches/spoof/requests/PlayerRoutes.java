@@ -37,11 +37,7 @@ public final class PlayerRoutes {
     private PlayerRoutes() {
     }
 
-    public static String createInnertubeBody(ClientType clientType) {
-        return createInnertubeBody(clientType, false);
-    }
-
-    public static String createInnertubeBody(ClientType clientType, boolean playlistId) {
+    public static JSONObject createInnertubeBody(ClientType clientType) {
         JSONObject innerTubeBody = new JSONObject();
 
         try {
@@ -66,14 +62,11 @@ public final class PlayerRoutes {
             innerTubeBody.put("contentCheckOk", true);
             innerTubeBody.put("racyCheckOk", true);
             innerTubeBody.put("videoId", "%s");
-            if (playlistId) {
-                innerTubeBody.put("playlistId", "%s");
-            }
         } catch (JSONException e) {
             Logger.printException(() -> "Failed to create innerTubeBody", e);
         }
 
-        return innerTubeBody.toString();
+        return innerTubeBody;
     }
 
     /**

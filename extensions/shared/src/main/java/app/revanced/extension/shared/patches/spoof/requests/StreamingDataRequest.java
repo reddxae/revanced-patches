@@ -44,10 +44,11 @@ public class StreamingDataRequest {
 
     private static final ClientType[] CLIENT_ORDER_TO_USE;
     private static final String AUTHORIZATION_HEADER = "Authorization";
+    private static final String VISITOR_ID_HEADER = "X-Goog-Visitor-Id";
     private static final String[] REQUEST_HEADER_KEYS = {
             AUTHORIZATION_HEADER, // Available only to logged-in users.
             "X-GOOG-API-FORMAT-VERSION",
-            "X-Goog-Visitor-Id"
+            VISITOR_ID_HEADER
     };
     private static ClientType lastSpoofedClientType;
 
@@ -105,15 +106,17 @@ public class StreamingDataRequest {
     private final String videoId;
     private final Future<ByteBuffer> future;
 
-    private StreamingDataRequest(String videoId, Map<String, String> playerHeaders) {
+    private StreamingDataRequest(String videoId, Map<String, String> playerHeaders, String visitorId,
+                                 String botGuardPoToken, String droidGuardPoToken) {
         Objects.requireNonNull(playerHeaders);
         this.videoId = videoId;
-        this.future = Utils.submitOnBackgroundThread(() -> fetch(videoId, playerHeaders));
+        this.future = Utils.submitOnBackgroundThread(() -> fetch(videoId, playerHeaders, visitorId, botGuardPoToken, droidGuardPoToken));
     }
 
-    public static void fetchRequest(String videoId, Map<String, String> fetchHeaders) {
+    public static void fetchRequest(String videoId, Map<String, String> fetchHeaders, String visitorId,
+                                    String botGuardPoToken, String droidGuardPoToken) {
         // Always fetch, even if there is an existing request for the same video.
-        cache.put(videoId, new StreamingDataRequest(videoId, fetchHeaders));
+        cache.put(videoId, new StreamingDataRequest(videoId, fetchHeaders, visitorId, botGuardPoToken, droidGuardPoToken));
     }
 
     @Nullable
@@ -126,8 +129,8 @@ public class StreamingDataRequest {
     }
 
     @Nullable
-    private static HttpURLConnection send(ClientType clientType, String videoId,
-                                          Map<String, String> playerHeaders) {
+    private static HttpURLConnection send(ClientType clientType, String videoId, Map<String, String> playerHeaders,
+                                          String visitorId, String botGuardPoToken, String droidGuardPoToken) {
         Objects.requireNonNull(clientType);
         Objects.requireNonNull(videoId);
         Objects.requireNonNull(playerHeaders);
@@ -149,12 +152,32 @@ public class StreamingDataRequest {
                             continue;
                         }
                     }
+                    if (key.equals(VISITOR_ID_HEADER) &&
+                            clientType.usePoToken &&
+                            !botGuardPoToken.isEmpty() &&
+                            !visitorId.isEmpty()) {
+                        String originalVisitorId = value;
+                        Logger.printDebug(() -> "Original visitor id:\n" + originalVisitorId);
+                        Logger.printDebug(() -> "Replaced visitor id:\n" + visitorId);
+                        value = visitorId;
+                    }
 
                     connection.setRequestProperty(key, value);
                 }
             }
 
-            String innerTubeBody = String.format(PlayerRoutes.createInnertubeBody(clientType), videoId);
+            JSONObject innerTubeBodyJson = PlayerRoutes.createInnertubeBody(clientType);
+            if (clientType.usePoToken && !botGuardPoToken.isEmpty() && !visitorId.isEmpty()) {
+                JSONObject serviceIntegrityDimensions = new JSONObject();
+                serviceIntegrityDimensions.put("poToken", botGuardPoToken);
+                innerTubeBodyJson.put("serviceIntegrityDimensions", serviceIntegrityDimensions);
+                if (!droidGuardPoToken.isEmpty()) {
+                    Logger.printDebug(() -> "Original poToken (droidGuardPoToken):\n" + droidGuardPoToken);
+                }
+                Logger.printDebug(() -> "Replaced poToken (botGuardPoToken):\n" + botGuardPoToken);
+            }
+
+            String innerTubeBody = String.format(innerTubeBodyJson.toString(), videoId);
             byte[] requestBody = innerTubeBody.getBytes(StandardCharsets.UTF_8);
             connection.setFixedLengthStreamingMode(requestBody.length);
             connection.getOutputStream().write(requestBody);
@@ -180,12 +203,13 @@ public class StreamingDataRequest {
         return null;
     }
 
-    private static ByteBuffer fetch(String videoId, Map<String, String> playerHeaders) {
+    private static ByteBuffer fetch(String videoId, Map<String, String> playerHeaders, String visitorId,
+                                    String botGuardPoToken, String droidGuardPoToken) {
         lastSpoofedClientType = null;
 
         // Retry with different client if empty response body is received.
         for (ClientType clientType : CLIENT_ORDER_TO_USE) {
-            HttpURLConnection connection = send(clientType, videoId, playerHeaders);
+            HttpURLConnection connection = send(clientType, videoId, playerHeaders, visitorId, botGuardPoToken, droidGuardPoToken);
             if (connection != null) {
                 try {
                     // gzip encoding doesn't response with content length (-1),

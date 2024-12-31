@@ -14,7 +14,7 @@ enum class PlayerControlsVisibility {
 
     companion object {
 
-        private val nameToPlayerControlsVisibility = values().associateBy { it.name }
+        private val nameToPlayerControlsVisibility = entries.associateBy { it.name }
 
         @JvmStatic
         fun setFromString(enumName: String) {

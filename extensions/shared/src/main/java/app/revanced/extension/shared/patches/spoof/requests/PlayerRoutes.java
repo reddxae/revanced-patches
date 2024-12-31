@@ -53,7 +53,9 @@ public final class PlayerRoutes {
                 client.put("deviceMake", "Apple");
                 client.put("osName", "iOS");
             }
-            client.put("hl", LOCALE_LANGUAGE);
+            if (!clientType.canLogin) {
+                client.put("hl", LOCALE_LANGUAGE);
+            }
 
             JSONObject context = new JSONObject();
             context.put("client", client);

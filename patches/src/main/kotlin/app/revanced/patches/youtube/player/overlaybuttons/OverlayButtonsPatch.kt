@@ -16,6 +16,7 @@ import app.revanced.patches.youtube.utils.pip.pipStateHookPatch
 import app.revanced.patches.youtube.utils.playercontrols.hookBottomControlButton
 import app.revanced.patches.youtube.utils.playercontrols.playerControlsPatch
 import app.revanced.patches.youtube.utils.playservice.is_19_17_or_greater
+import app.revanced.patches.youtube.utils.playservice.versionCheckPatch
 import app.revanced.patches.youtube.utils.resourceid.sharedResourceIdPatch
 import app.revanced.patches.youtube.utils.settings.ResourceUtils.addPreference
 import app.revanced.patches.youtube.utils.settings.settingsPatch
@@ -77,6 +78,7 @@ val overlayButtonsPatch = resourcePatch(
         playerControlsPatch,
         sharedResourceIdPatch,
         settingsPatch,
+        versionCheckPatch,
     )
 
     val iconTypeOption = stringOption(

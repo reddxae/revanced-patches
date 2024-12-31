@@ -451,11 +451,11 @@ Tap the continue button and allow optimization changes."</string>
     <string name="revanced_spoof_client_title">Spoof client</string>
     <string name="revanced_spoof_client_summary">"Spoof the client to prevent playback issues.
 
-※ When used with 'Spoofing streaming data', playback issues may occur."</string>
+• When used with 'Spoofing streaming data', playback issues may occur."</string>
     <string name="revanced_spoof_client_type_title">Default client</string>
-    <string name="revanced_spoof_client_type_summary">"Defines a default client to spoofing.
+    <string name="revanced_spoof_client_type_summary">"Defines a default client for spoofing.
 
-※ When using the Android client, it is recommended to use it with 'Spoof app version'."</string>
+• When using the Android client, it is recommended to also use 'Spoof app version'."</string>
     <string name="revanced_spoof_client_type_entry_android_music_4_27">Android Music 4.27.53</string>
     <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
     <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>
@@ -463,7 +463,7 @@ Tap the continue button and allow optimization changes."</string>
     <string name="revanced_spoof_streaming_data_title">Spoof streaming data</string>
     <string name="revanced_spoof_streaming_data_summary">"Spoof the streaming data to prevent playback issues.
 
-※ When used with 'Spoof client', playback issues may occur."</string>
+• When used with 'Spoof client', playback issues may occur."</string>
     <string name="revanced_spoof_streaming_data_type_title">Default client</string>
     <string name="revanced_spoof_streaming_data_type_summary">Defines a default client that fetches streaming data.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Show in Stats for nerds</string>

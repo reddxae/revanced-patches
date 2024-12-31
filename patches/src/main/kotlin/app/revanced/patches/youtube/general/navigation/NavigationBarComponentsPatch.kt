@@ -82,6 +82,19 @@ val navigationBarComponentsPatch = bytecodePatch(
             "SETTINGS: HIDE_NAVIGATION_COMPONENTS"
         )
 
+        // region patch for enable translucent navigation bar
+
+        if (is_19_25_or_greater) {
+            translucentNavigationBarFingerprint.injectLiteralInstructionBooleanCall(
+                TRANSLUCENT_NAVIGATION_BAR_FEATURE_FLAG,
+                "$GENERAL_CLASS_DESCRIPTOR->enableTranslucentNavigationBar()Z"
+            )
+
+            settingArray += "SETTINGS: TRANSLUCENT_NAVIGATION_BAR"
+        }
+
+        // endregion
+
         // region patch for enable narrow navigation buttons
 
         arrayOf(

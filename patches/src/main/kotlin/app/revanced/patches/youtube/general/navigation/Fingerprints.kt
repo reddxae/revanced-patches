@@ -73,3 +73,10 @@ internal val setEnumMapFingerprint = legacyFingerprint(
     name = "setEnumMapFingerprint",
     literals = listOf(ytFillBell),
 )
+
+internal const val TRANSLUCENT_NAVIGATION_BAR_FEATURE_FLAG = 45630927L
+
+internal val translucentNavigationBarFingerprint = legacyFingerprint(
+    name = "translucentNavigationBarFingerprint",
+    literals = listOf(TRANSLUCENT_NAVIGATION_BAR_FEATURE_FLAG),
+)

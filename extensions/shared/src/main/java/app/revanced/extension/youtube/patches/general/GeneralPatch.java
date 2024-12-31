@@ -214,6 +214,10 @@ public class GeneralPatch {
         return Settings.ENABLE_NARROW_NAVIGATION_BUTTONS.get() || original;
     }
 
+    public static boolean enableTranslucentNavigationBar() {
+        return Settings.ENABLE_TRANSLUCENT_NAVIGATION_BAR.get();
+    }
+
     /**
      * @noinspection ALL
      */

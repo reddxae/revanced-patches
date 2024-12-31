@@ -203,6 +203,10 @@ public class ReVancedSettingsPreference extends ReVancedPreferenceFragment {
                 Settings.REPLACE_TOOLBAR_CREATE_BUTTON,
                 Settings.REPLACE_TOOLBAR_CREATE_BUTTON_TYPE
         );
+        enableDisablePreferences(
+                !isSDKAbove(31),
+                Settings.ENABLE_TRANSLUCENT_NAVIGATION_BAR
+        );
     }
 
     /**

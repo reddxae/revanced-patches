@@ -120,7 +120,11 @@ public class GmsCoreSupport {
             }
 
             // Check if GmsCore is whitelisted from battery optimizations.
-            if (batteryOptimizationsEnabled(mActivity)) {
+            if (isAndroidAutomotive(mActivity)) {
+                // Ignore Android Automotive devices (Google built-in),
+                // as there is no way to disable battery optimizations.
+                Logger.printDebug(() -> "Device is Android Automotive");
+            } else if (batteryOptimizationsEnabled(mActivity)) {
                 Logger.printInfo(() -> "GmsCore is not whitelisted from battery optimizations");
                 showBatteryOptimizationDialog(mActivity,
                         "gms_core_dialog_not_whitelisted_using_battery_optimizations_message",
@@ -218,6 +222,10 @@ public class GmsCoreSupport {
         }
 
         return packageName;
+    }
+
+    private static boolean isAndroidAutomotive(Context context) {
+        return context.getPackageManager().hasSystemFeature(PackageManager.FEATURE_AUTOMOTIVE);
     }
 
     private static String getGmsCoreDownload() {

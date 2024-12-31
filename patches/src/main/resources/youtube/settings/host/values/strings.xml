@@ -320,6 +320,7 @@ If the layout of the player screen changes due to server-side changes, unintende
 
     <string name="revanced_change_start_page_title">Change start page</string>
     <string name="revanced_change_start_page_entry_browse">Browse channels</string>
+    <string name="revanced_change_start_page_entry_courses">Courses / Learning</string>
     <string name="revanced_change_start_page_entry_default">Default</string>
     <string name="revanced_change_start_page_entry_explore">Explore</string>
     <string name="revanced_change_start_page_entry_gaming">Gaming</string>
@@ -329,12 +330,14 @@ If the layout of the player screen changes due to server-side changes, unintende
     <string name="revanced_change_start_page_entry_live">Live</string>
     <string name="revanced_change_start_page_entry_movies">Movies</string>
     <string name="revanced_change_start_page_entry_music">Music</string>
+    <string name="revanced_change_start_page_entry_notifications">Notifications</string>
     <string name="revanced_change_start_page_entry_search">Search</string>
     <string name="revanced_change_start_page_entry_shorts">Shorts</string>
     <string name="revanced_change_start_page_entry_sports">Sports</string>
     <string name="revanced_change_start_page_entry_subscriptions">Subscriptions</string>
     <string name="revanced_change_start_page_entry_trending">Trending</string>
     <string name="revanced_change_start_page_entry_watch_later">Watch later</string>
+    <string name="revanced_change_start_page_entry_your_clips">Your clips</string>
     <string name="revanced_change_start_page_type_title">Change start page type</string>
     <string name="revanced_change_start_page_type_summary_on">"Start page always changes.
 

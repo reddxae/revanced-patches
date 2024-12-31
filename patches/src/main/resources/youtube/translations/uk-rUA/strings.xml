@@ -320,9 +320,6 @@
     <string name="revanced_disable_splash_animation_title">Вимкнути сплеш анімацію</string>
     <string name="revanced_disable_splash_animation_summary_on">Сплеш анімацію вимкнено.</string>
     <string name="revanced_disable_splash_animation_summary_off">Сплеш анімацію увімкнено.</string>
-    <string name="revanced_disable_translucent_status_bar_title">Вимкнути напівпрозорість рядка стану</string>
-    <string name="revanced_disable_translucent_status_bar_summary_on">Рядок стану непрозорий.</string>
-    <string name="revanced_disable_translucent_status_bar_summary_off">Рядок стану непрозорий чи напівпрозорий.</string>
     <string name="revanced_enable_gradient_loading_screen_title">Увімкнути градієнт екрану завантаження</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">Градієнт екрану завантаження увімкнено.</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">Градієнт екрану завантаження вимкнено.</string>
@@ -495,12 +492,6 @@
 А також, рекламу більше не блокуватиметься в Shorts.
 
 Якщо це налаштування не діє, спробуйте перемкнути Анонімний режим."</string>
-    <string name="revanced_disable_translucent_navigation_bar_light_title">Вимкнути напівпрозорість світлої панелі</string>
-    <string name="revanced_disable_translucent_navigation_bar_light_summary_on">Панель навігації у світлому режимі непрозора.</string>
-    <string name="revanced_disable_translucent_navigation_bar_light_summary_off">Панель навігації у світлому режимі непрозора чи напівпрозора.</string>
-    <string name="revanced_disable_translucent_navigation_bar_dark_title">Вимкнути напівпрозорість темної панелі</string>
-    <string name="revanced_disable_translucent_navigation_bar_dark_summary_on">Панель навігації у темному режимі непрозора.</string>
-    <string name="revanced_disable_translucent_navigation_bar_dark_summary_off">Панель навігації у темному режимі непрозора чи напівпрозора.</string>
     <string name="revanced_hide_navigation_bar_title">Приховати панель навігації</string>
     <string name="revanced_hide_navigation_bar_summary_on">Панель навігації приховано.</string>
     <string name="revanced_hide_navigation_bar_summary_off">Панель навігації показується.</string>
@@ -1771,24 +1762,20 @@
     <string name="revanced_spoof_streaming_data_summary_off">"Дані трансляції не підроблено. Відтворення відео може не працювати."</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">Вимикання цього налаштування може призвести до проблем відтворення відео.</string>
     <string name="revanced_spoof_streaming_data_type_title">Основний клієнт</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_music">Музика iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">iOS TV</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Розробник Android</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">iOS TV</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Побічні ефекти імітування</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• Ще не знайдено.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">• Фільми чи платні відео можуть не відтворюватися.</string>
     <string name="revanced_spoof_streaming_data_side_effects_android">"• Меню звукової доріжки відсутнє.
 • Стабілізація гучності недоступна.
 • Вимикання примусових звукових доріжок недоступне."</string>
-    <string name="revanced_spoof_streaming_data_android_only_title">Використовувати лише клієнти Android</string>
-    <string name="revanced_spoof_streaming_data_android_only_summary_on">Використовується клієнти Android для отримання потокових даних.</string>
-    <string name="revanced_spoof_streaming_data_android_only_summary_off">Використовується клієнти Android та iOS для отримання потокових даних.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">• Відео для дітей можуть не відтворюватися.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">• Фільми чи платні відео можуть не відтворюватися.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Показувати в Статистика для сисадмінів</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Клієнт, що використовується для отримання даних трансляції показується у Статистика для сисадмінів.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Клієнт, що використовується для отримання даних трансляції приховано у Статистика для сисадмінів.</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">Історія перегляду</string>
     <string name="revanced_preference_screen_watch_history_summary">Змінити налаштування пов\'язані з історією перегляду.</string>

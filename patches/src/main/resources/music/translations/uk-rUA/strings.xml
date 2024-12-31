@@ -404,12 +404,14 @@
     <string name="revanced_spoof_client_title">Підміна клієнта</string>
     <string name="revanced_spoof_client_summary">"Підробити клієнт, щоб запобігти проблемам із відтворенням.
 
-Обмеження:
-• Аудіокодек OPUS може не підтримуватися.
-• Мініатюри перемотки можуть бути відсутніми.
-• Історія переглядів не працює з обліковим записом бренду.
+※ Під час використання разом з \"Підробка потокових даних\" можуть виникнути проблеми з відтворенням."</string>
+    <string name="revanced_spoof_client_type_title">Клієнт за замовчуванням</string>
+    <string name="revanced_spoof_client_type_summary">"Визначає клієнт за замовчуванням для підробки. 
 
-※ Під час використання разом з \"Підміною клієнта\" можуть виникнути проблеми з відтворенням."</string>
+※ Під час використання клієнта Android рекомендується використовувати його разом з \"Підробити версію програми\"."</string>
+    <string name="revanced_spoof_client_type_entry_android_music_4_27">Android Music 4.27.53</string>
+    <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
+    <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>
     <string name="revanced_spoof_streaming_data_title">Підробка потокових даних</string>
     <string name="revanced_spoof_streaming_data_summary">"Підробити потокові дані, щоб запобігти проблемам із відтворенням.
 
@@ -418,9 +420,6 @@
     <string name="revanced_spoof_streaming_data_type_summary">Визначає клієнт за замовчуванням, який отримує потокові дані.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Показувати у \"Статистиці для сисадмінів\"</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary">Показує клієнт, який використовується для отримання потокових даних у \"Статистиці для сисадмінів\".</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_music">iOS Music</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_sanitize_sharing_links_title">Обробляти поширення посилань</string>
     <string name="revanced_sanitize_sharing_links_summary">Видаляє параметри запиту відстеження з URL-адрес під час обміну посиланнями.</string>

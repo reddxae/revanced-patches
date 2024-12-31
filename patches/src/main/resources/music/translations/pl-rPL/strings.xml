@@ -421,9 +421,6 @@ Stuknij przycisk kontynuacji i zezwól na zmiany w optymalizacji."</string>
     <string name="revanced_spoof_streaming_data_type_summary">Denifiuje domyślnego klienta, z którego będzie przechwytywany strumień danych.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Informacja w statystykach dla nerdów</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary">Pokazuje używanego klienta do przechwytywania strumienia danych w statystykach dla nerdów.</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_music">iOS Music</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_sanitize_sharing_links_title">Oczyść udostępniane linki</string>
     <string name="revanced_sanitize_sharing_links_summary">Usuwa parametry śledzących zapytań z adresów URL podczas udostępniania linków.</string>

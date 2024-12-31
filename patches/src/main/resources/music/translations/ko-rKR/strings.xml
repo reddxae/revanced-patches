@@ -419,9 +419,6 @@ API Key를 발급받는 방법을 보려면 여기를 누르세요."</string>
     <string name="revanced_spoof_streaming_data_type_summary">스트리밍 데이터를 가져오는 데 사용되는 기본 클라이언트를 정의할 수 있습니다.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">동영상 통계에서 표시</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary">\'스트리밍 데이터를 가져오는 데 사용되는 클라이언트\'가 동영상 통계에서 표시됩니다.</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_music">iOS Music</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_sanitize_sharing_links_title">추적 쿼리를 제거한 링크 공유</string>
     <string name="revanced_sanitize_sharing_links_summary">링크를 공유할 때, URL에서 추적 쿼리 매개변수를 제거합니다.</string>

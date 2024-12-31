@@ -392,8 +392,6 @@ API キーの発行方法については、ここをタップしてください�
 • OPUSオーディオコーデックはサポートされていない可能性があります。
 • シークバーのサムネイルが表示されない場合があります。
 • 再生履歴はブランドアカウントでは動作しません。"</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_sanitize_sharing_links_title">共有リンクのクリーンアップ</string>
     <string name="revanced_sanitize_sharing_links_summary">リンクを共有する際に、URL からトラッキングクエリパラメーターを削除します。</string>

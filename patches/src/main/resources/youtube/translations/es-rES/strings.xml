@@ -320,9 +320,6 @@ Limitación: Es posible que el botón Atrás de la barra de herramientas no func
     <string name="revanced_disable_splash_animation_title">Desactivar animación de bienvenida</string>
     <string name="revanced_disable_splash_animation_summary_on">La animación de bienvenida está desactivada.</string>
     <string name="revanced_disable_splash_animation_summary_off">La animación de bienvenida está activada.</string>
-    <string name="revanced_disable_translucent_status_bar_title">Desactivar barra de estado translúcida</string>
-    <string name="revanced_disable_translucent_status_bar_summary_on">La barra de estado es opaca.</string>
-    <string name="revanced_disable_translucent_status_bar_summary_off">La barra de estado es opaca o translúcida.</string>
     <string name="revanced_enable_gradient_loading_screen_title">Activar pantalla de carga de degradado</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">La pantalla de carga de degradado está activada.</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">La pantalla de carga de degradado está desactivada.</string>
@@ -495,12 +492,6 @@ Nota: Al activar esto también se ocultan forzosamente los anuncios de vídeos."
 Además, los anuncios ya no se bloquearán en Shorts.
 
 Si este ajuste no surte efecto, prueba a cambiar al modo incógnito."</string>
-    <string name="revanced_disable_translucent_navigation_bar_light_title">Desactivar barra translúcida luminosa</string>
-    <string name="revanced_disable_translucent_navigation_bar_light_summary_on">La barra de navegación en modo claro es opaca.</string>
-    <string name="revanced_disable_translucent_navigation_bar_light_summary_off">.</string>
-    <string name="revanced_disable_translucent_navigation_bar_dark_title">Desactivar barra translúcida oscura</string>
-    <string name="revanced_disable_translucent_navigation_bar_dark_summary_on">La barra de navegación en modo oscuro es opaca.</string>
-    <string name="revanced_disable_translucent_navigation_bar_dark_summary_off">La barra de navegación en modo oscuro es opaca o translúcida.</string>
     <string name="revanced_hide_navigation_bar_title">Ocultar barra de navegación</string>
     <string name="revanced_hide_navigation_bar_summary_on">La barra de navegación está oculta.</string>
     <string name="revanced_hide_navigation_bar_summary_off">La barra de navegación está visible.</string>
@@ -1768,24 +1759,20 @@ Pulsa el botón de continuar y desactiva las optimizaciones de la batería."</st
     <string name="revanced_spoof_streaming_data_summary_off">"Los datos de transmisión no están falsificados. Es posible que la reproducción de vídeo no funcione."</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">Desactivar este ajuste puede causar problemas de reproducción de vídeo.</string>
     <string name="revanced_spoof_streaming_data_type_title">Cliente predeterminado</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_music">Música iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">iOS TV</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Creador de Android</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">iOS TV</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Efectos secundarios de falsificación</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• Aún no encontrado.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">• Las películas o vídeos de pago no pueden reproducirse.</string>
     <string name="revanced_spoof_streaming_data_side_effects_android">"• Falta el menú de pista de audio.
 • El volumen estable no está disponible.
 • Desactivar pistas de audio automáticas forzadas no está disponible."</string>
-    <string name="revanced_spoof_streaming_data_android_only_title">Utilizar solo clientes Android</string>
-    <string name="revanced_spoof_streaming_data_android_only_summary_on">Los clientes Android se utilizan para obtener datos de streaming.</string>
-    <string name="revanced_spoof_streaming_data_android_only_summary_off">Los clientes Android e iOS se utilizan para obtener datos de streaming.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">• Aún no encontrado.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">• Las películas o vídeos de pago no pueden reproducirse.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Mostrar en estadísticas para nerds</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">El cliente utilizado para obtener datos de transmisión se muestra en estadísticas para nerds.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">El cliente utilizado para obtener datos de transmisión no se muestra en estadísticas para nerds.</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">Historial de reproducciones</string>
     <string name="revanced_preference_screen_watch_history_summary">Cambiar ajustes relacionados con el historial de reproducciones.</string>

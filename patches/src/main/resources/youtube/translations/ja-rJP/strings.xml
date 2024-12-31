@@ -78,7 +78,7 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_alt_thumbnail_stills_about_title">静止画サムネイルについて</string>
     <string name="revanced_alt_thumbnail_stills_about_summary">静止画サムネイルは、各動画の最初/中間/最後の部分から取得されます。これらの画像は YouTube に直接組み込まれており、外部 API は使用されません。</string>
     <string name="revanced_alt_thumbnail_stills_fast_title">高速な静止画サムネイル</string>
-    <string name="revanced_alt_thumbnail_stills_fast_summary_on">現在の設定: 中画質の静止画サムネイルを使用します。\n\n注意: 読み込みは速くなりますが、ライブ、公開予定、非常に古い動画は、サムネイルが空白になることがあります。</string>
+    <string name="revanced_alt_thumbnail_stills_fast_summary_on">現在の設定: 中画質の静止画サムネイルを使用します。\n\n注意: 読み込みは速くなりますが、ライブ配信、公開予定、非常に古い動画は、サムネイルが空白になることがあります。</string>
     <string name="revanced_alt_thumbnail_stills_fast_summary_off">現在の設定: 高画質の静止画サムネイルを使用します。</string>
     <string name="revanced_alt_thumbnail_stills_time_title">取得する静止画のサムネイルの位置</string>
     <string name="revanced_alt_thumbnail_stills_time_entry_1">動画の最初</string>
@@ -325,9 +325,6 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_disable_splash_animation_title">スプラッシュアニメーションを無効化</string>
     <string name="revanced_disable_splash_animation_summary_on">YouTube 起動時のスプラッシュアニメーションを無効にします。</string>
     <string name="revanced_disable_splash_animation_summary_off">YouTube 起動時のスプラッシュアニメーションを無効にします。</string>
-    <string name="revanced_disable_translucent_status_bar_title">半透明なステータスバーを無効化</string>
-    <string name="revanced_disable_translucent_status_bar_summary_on">ステータスバーを不透明にします。</string>
-    <string name="revanced_disable_translucent_status_bar_summary_off">ステータスバーを不透明にします。</string>
     <string name="revanced_enable_gradient_loading_screen_title">グラデーションの読み込み画面を有効化</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">アプリ起動時や動画の読み込み画面などでグラデーションを有効化します。</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">アプリ起動時や動画の読み込み画面などでグラデーションを有効化します。</string>
@@ -500,12 +497,6 @@ DeArrow の詳細については、ここをタップしてください。"</str
 また、ショートで広告がブロックされなくなります。
 
 この設定が有効にならない場合は、シークレットモードに切り替えてみてください。"</string>
-    <string name="revanced_disable_translucent_navigation_bar_light_title">明るい半透明なナビゲーションバーを無効化</string>
-    <string name="revanced_disable_translucent_navigation_bar_light_summary_on">ライトモードで半透明なナビゲーションバーを無効化します。</string>
-    <string name="revanced_disable_translucent_navigation_bar_light_summary_off">ライトモードで半透明なナビゲーションバーを無効化します。</string>
-    <string name="revanced_disable_translucent_navigation_bar_dark_title">暗い半透明なナビゲーションバーを無効化</string>
-    <string name="revanced_disable_translucent_navigation_bar_dark_summary_on">ダークモードで半透明なナビゲーションバーを無効化します。</string>
-    <string name="revanced_disable_translucent_navigation_bar_dark_summary_off">ダークモードで半透明なナビゲーションバーを無効化します。</string>
     <string name="revanced_hide_navigation_bar_title">ナビゲーションバーを非表示</string>
     <string name="revanced_hide_navigation_bar_summary_on">ナビゲーションバー(ホーム、登録チャンネルなどのボタン)を非表示にします。</string>
     <string name="revanced_hide_navigation_bar_summary_off">ナビゲーションバー(ホーム、登録チャンネルなどのボタン)を非表示にします。</string>
@@ -867,8 +858,8 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_hide_autoplay_preview_summary_on">「次の動画」コンテナーを非表示にします。</string>
     <string name="revanced_hide_autoplay_preview_summary_off">「次の動画」コンテナーを非表示にします。</string>
     <string name="revanced_hide_live_chat_replay_button_title">チャットのリプレイボタンを非表示</string>
-    <string name="revanced_hide_live_chat_replay_button_summary_on">ライブで全画面表示時に右下に表示される「チャットのリプレイ」ボタンを非表示にします。\n\nライブチャットを終了すると全画面表示になります。</string>
-    <string name="revanced_hide_live_chat_replay_button_summary_off">ライブで全画面表示時に右下に表示される「チャットのリプレイ」ボタンを非表示にします。\n\nライブチャットを終了すると全画面表示になります。</string>
+    <string name="revanced_hide_live_chat_replay_button_summary_on">ライブ配信で全画面表示時に右下に表示される「チャットのリプレイ」ボタンを非表示にします。\n\nライブチャットを終了すると全画面表示になります。</string>
+    <string name="revanced_hide_live_chat_replay_button_summary_off">ライブ配信で全画面表示時に右下に表示される「チャットのリプレイ」ボタンを非表示にします。\n\nライブチャットを終了すると全画面表示になります。</string>
     <string name="revanced_hide_related_video_overlay_title">関連動画を非表示</string>
     <string name="revanced_hide_related_video_overlay_summary_on">関連動画のオーバーレイを無効化します。</string>
     <string name="revanced_hide_related_video_overlay_summary_off">関連動画のオーバーレイを無効化します。</string>
@@ -987,10 +978,10 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_overlay_button_whitelist_summary">タップするとホワイトリストのダイアログが開きます。
 長押しするとホワイトリストの設定のダイアログが開きます。</string>
     <string name="revanced_overlay_button_play_all_title">「すべて再生」ボタンを表示</string>
-    <string name="revanced_overlay_button_play_all_summary">"1 回タップすると、チャンネルに投稿されているすべての動画の再生リストを生成します。
+    <string name="revanced_overlay_button_play_all_summary">"タップすると、チャンネルに投稿されているすべての動画の再生リストを生成します。
 タップして長押しすると、元に戻ります。
 
-注意: ライブでは動作しない可能性があります。"</string>
+注意: ライブ配信では動作しない可能性があります。"</string>
     <string name="revanced_overlay_button_play_all_type_title">再生リストの生成モード</string>
     <string name="revanced_overlay_button_play_all_type_entry_0">すべてのコンテンツ (時間順、昇順)</string>
     <string name="revanced_overlay_button_play_all_type_entry_1">すべてのコンテンツ (時間順)</string>
@@ -1004,7 +995,7 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_overlay_button_play_all_type_entry_9">全員が閲覧可能なコンテンツのみ</string>
     <string name="revanced_overlay_button_play_all_type_entry_10">「メンバーのみ」の動画</string>
     <string name="revanced_overlay_button_play_all_type_entry_11">「メンバーのみ」のショート</string>
-    <string name="revanced_overlay_button_play_all_type_entry_12">「メンバーのみ」のライブ</string>
+    <string name="revanced_overlay_button_play_all_type_entry_12">「メンバーのみ」のライブ配信</string>
     <string name="revanced_overlay_button_play_all_not_available_toast">チャンネル ID が一致しないため、再生リストを生成できません。</string>
     <string name="revanced_whitelist_settings_title">チャンネルのホワイトリスト</string>
     <string name="revanced_whitelist_settings_summary">ホワイトリストに登録したチャンネルのリストを確認/削除します。</string>
@@ -1068,7 +1059,7 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_enable_seekbar_thumbnails_high_quality_title">高画質のサムネイルを有効化</string>
     <string name="revanced_enable_seekbar_thumbnails_high_quality_summary_on">シークバーサムネイルを高画質化します。</string>
     <string name="revanced_enable_seekbar_thumbnails_high_quality_summary_off">シークバーサムネイルを高画質化します。</string>
-    <string name="revanced_enable_seekbar_thumbnails_high_quality_dialog_message">"この機能を有効化することにより、シークバーサムネイルがないライブのアーカイブにサムネイルが復元されます。
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_dialog_message">"これを有効化すると、シークバーサムネイルがないライブ配信のアーカイブにサムネイルが復元されます。
 
 注意: 
 ・通信量が増える可能性があります。
@@ -1276,8 +1267,8 @@ DeArrow の詳細については、ここをタップしてください。"</str
 
 注意: 
 ・YouTube のバージョンが 18.49.37 以前に偽装されている場合は機能しません。
-・ライブでは機能しません。"</string>
-    <string name="revanced_enable_shorts_custom_actions_flyout_menu_summary_off">フライアウトメニューでカスタムアクションを使用できるようにします。\n\n注意: \n・YouTube のバージョンが 18.49.37 以前に偽装されている場合は機能しません。\n・ライブでは機能しません。</string>
+・ライブ配信では機能しません。"</string>
+    <string name="revanced_enable_shorts_custom_actions_flyout_menu_summary_off">フライアウトメニューでカスタムアクションを使用できるようにします。\n\n注意: \n・YouTube のバージョンが 18.49.37 以前に偽装されている場合は機能しません。\n・ライブ配信では機能しません。</string>
     <string name="revanced_enable_shorts_custom_actions_toolbar_title">ツールバーのカスタムアクションを有効化</string>
     <string name="revanced_enable_shorts_custom_actions_toolbar_summary_on">"ツールバーでカスタムアクションを使用できるようにします。
 
@@ -1336,9 +1327,8 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_replace_channel_handle_summary_off">現在の設定: チャンネルのハンドル名が表示されます。</string>
     <string name="revanced_restore_shorts_old_player_layout_title">古いプレーヤーレイアウトを復元</string>
     <string name="revanced_restore_shorts_old_player_layout_summary_on">"古いプレーヤーレイアウトを復元します。
-プレーヤーの上部と下部に余白はありません。"</string>
-    <string name="revanced_restore_shorts_old_player_layout_summary_off">古いプレーヤーレイアウトを復元します。
-プレーヤーの上部と下部に余白はありません。</string>
+これによりプレーヤーの上部と下部から余白が削除されます。"</string>
+    <string name="revanced_restore_shorts_old_player_layout_summary_off">古いプレーヤーレイアウトを復元します。\nこれによりプレーヤーの上部と下部から余白が削除されます。</string>
     <!-- PreferenceScreen: Swipe controls -->
     <string name="revanced_preference_screen_swipe_controls_title">スワイプコントロール</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_title">スワイプして明るさの自動調節を有効化</string>
@@ -1383,8 +1373,8 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_disable_hdr_auto_brightness_summary_on">HDR 動画の明るさの自動調節を無効にします。</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">HDR 動画の明るさの自動調節を無効にします。</string>
     <string name="revanced_disable_watch_panel_gestures_title">全画面表示ジェスチャーを無効化</string>
-    <string name="revanced_disable_watch_panel_gestures_summary_on">動画のタイトルより下の領域を下にスワイプすると全画面表示に切り替える機能を無効化します。</string>
-    <string name="revanced_disable_watch_panel_gestures_summary_off">動画のタイトルより下の領域を下にスワイプすると全画面表示に切り替える機能を無効化します。</string>
+    <string name="revanced_disable_watch_panel_gestures_summary_on">動画のタイトルより下の領域を下にスワイプして全画面表示に切り替える機能を無効化します。</string>
+    <string name="revanced_disable_watch_panel_gestures_summary_off">動画のタイトルより下の領域を下にスワイプして全画面表示に切り替える機能を無効化します。</string>
     <string name="revanced_disable_swipe_to_switch_video_title">スワイプして動画を切り替えるのを無効化</string>
     <string name="revanced_disable_swipe_to_switch_video_summary_on">全画面表示時に、上/下にスワイプして次の動画/前の動画に切り替えられるようにします。</string>
     <string name="revanced_disable_swipe_to_switch_video_summary_off">全画面表示時に、上/下にスワイプして次の動画/前の動画に切り替えられるようにします。</string>
@@ -1775,20 +1765,20 @@ GmsCore の電池の最適化を無効にしても、バッテリーの使用に
     <string name="revanced_spoof_streaming_data_summary_off">"ストリーミングデータを偽装していない場合、動画の再生ができない可能性があります。"</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">この設定をオフにした場合、バッファリングの問題が発生する可能性があります。</string>
     <string name="revanced_spoof_streaming_data_type_title">偽装するクライアントの種類</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_music">iOS Music</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">iOS TV</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Android Creator</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">iOS TV</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">ストリーミングデータを偽装することによる副作用</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android">"・「音声トラック」メニューは表示されません。
+・「一定音量」は利用できません。
+・「音声トラックの強制を無効化」は利用できません。"</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">・まだ見つかっていません。</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">・子供向け動画は再生できない可能性があります。
-・映画や有料動画は再生できない可能性があります。</string>
-    <string name="revanced_spoof_streaming_data_android_only_title">Android クライアントのみを使用</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">・映画や有料動画は再生できない可能性があります。</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">統計情報に偽装したクライアントを表示</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">統計情報に偽装したストリーミングデータを表示します。</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">統計情報に偽装したストリーミングデータを表示します。</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">再生履歴</string>
     <string name="revanced_preference_screen_watch_history_summary">再生履歴に関連する設定を変更します。</string>

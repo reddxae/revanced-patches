@@ -418,9 +418,6 @@
     <string name="revanced_spoof_streaming_data_type_summary">Καθορισμός ενός προεπιλεγμένου προγράμματος-πελάτη για την λήψη δεδομένων ροής.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Εμφάνιση στο «Στατιστικά για σπασίκλες»</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary">Εμφάνιση του προγράμματος πελάτη που χρησιμοποιείται για τη λήψη δεδομένων ροής στο μενού «Στατιστικά για σπασίκλες».</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_music">iOS Music</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_sanitize_sharing_links_title">Καθαρισμός συνδέσμων κοινοποίησης</string>
     <string name="revanced_sanitize_sharing_links_summary">Αφαίρεση των παραμέτρων παρακολούθησης από τις διευθύνσεις URL κατά την κοινοποίηση συνδέσμων.</string>

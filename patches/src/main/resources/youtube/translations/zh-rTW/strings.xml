@@ -319,9 +319,6 @@
     <string name="revanced_disable_splash_animation_title">停用啟動動畫</string>
     <string name="revanced_disable_splash_animation_summary_on">啟動動畫已停用</string>
     <string name="revanced_disable_splash_animation_summary_off">啟動動畫已啟用</string>
-    <string name="revanced_disable_translucent_status_bar_title">禁用半透明狀態列</string>
-    <string name="revanced_disable_translucent_status_bar_summary_on">狀態列不透明。</string>
-    <string name="revanced_disable_translucent_status_bar_summary_off">狀態列是不透明或半透明的。</string>
     <string name="revanced_enable_gradient_loading_screen_title">啟用漸變載入畫面</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">漸變載入畫面已啟用</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">漸變載入畫面已停用</string>
@@ -494,12 +491,6 @@
 此外，廣告將不再在 Shorts 中被封鎖。
 
 若此設定未生效，請嘗試切換至無痕模式。"</string>
-    <string name="revanced_disable_translucent_navigation_bar_light_title">停用淺色半透明條</string>
-    <string name="revanced_disable_translucent_navigation_bar_light_summary_on">淺色模式導覽列不透明。</string>
-    <string name="revanced_disable_translucent_navigation_bar_light_summary_off">淺色模式導覽列不透明或半透明。</string>
-    <string name="revanced_disable_translucent_navigation_bar_dark_title">停用深色半透明欄</string>
-    <string name="revanced_disable_translucent_navigation_bar_dark_summary_on">深色模式導覽列不透明。</string>
-    <string name="revanced_disable_translucent_navigation_bar_dark_summary_off">深色模式導覽列不透明或半透明。</string>
     <string name="revanced_hide_navigation_bar_title">隱藏導覽列</string>
     <string name="revanced_hide_navigation_bar_summary_on">導覽列已隱藏。</string>
     <string name="revanced_hide_navigation_bar_summary_off">導覽列已顯示。</string>
@@ -1771,21 +1762,20 @@
     <string name="revanced_spoof_streaming_data_summary_off">"串流資料未偽裝。 影片可能無法播放。"</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">關閉此設定可能會導致影片播放問題。</string>
     <string name="revanced_spoof_streaming_data_type_title">預設客戶端</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_music">iOS 音樂</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">iOS TV</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Android 創作者</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android 電視</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">iOS TV</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">偽裝副作用</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• 尚未找到。</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">• 電影或付費影片可能無法播放。</string>
     <string name="revanced_spoof_streaming_data_side_effects_android">"• 音軌選單缺失。
 • 穩定音量不可用。
 • 停用強制自動音軌不可用。"</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">• 尚未找到。</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">• 電影或付費影片可能無法播放。</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">顯示統計資料</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">用於取得串流資料的用戶端顯示在統計資料中。</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">用於獲取串流資料的用戶端隱藏在統計資料中。</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">觀看歷史記錄</string>
     <string name="revanced_preference_screen_watch_history_summary">變更與觀看歷史記錄相關的設定。</string>

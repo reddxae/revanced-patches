@@ -321,9 +321,6 @@ Nota: il pulsante Indietro della barra degli strumenti potrebbe non funzionare."
     <string name="revanced_disable_splash_animation_title">Disattiva l\'animazione di avvio</string>
     <string name="revanced_disable_splash_animation_summary_on">L\'animazione di avvio è disattivata.</string>
     <string name="revanced_disable_splash_animation_summary_off">L\'animazione di avvio è attivata.</string>
-    <string name="revanced_disable_translucent_status_bar_title">Disattiva la barra di stato traslucida</string>
-    <string name="revanced_disable_translucent_status_bar_summary_on">La barra di stato è opaca.</string>
-    <string name="revanced_disable_translucent_status_bar_summary_off">La barra di stato è opaca o traslucida.</string>
     <string name="revanced_enable_gradient_loading_screen_title">Attiva la schermata di caricamento gradiente</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">La schermata di caricamento gradiente è attivata.</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">La schermata di caricamento gradiente è disattivata.</string>
@@ -497,12 +494,6 @@ Nota: anche gli annunci video saranno nascosti."</string>
 Inoltre, gli annunci degli Shorts non saranno più bloccati.
 
 Se questa impostazione non ha effetto, prova a passare alla navigazione in incognito."</string>
-    <string name="revanced_disable_translucent_navigation_bar_light_title">Disattiva la barra di navigazione traslucida con tema chiaro</string>
-    <string name="revanced_disable_translucent_navigation_bar_light_summary_on">La barra di navigazione con tema chiaro è opaca.</string>
-    <string name="revanced_disable_translucent_navigation_bar_light_summary_off">La barra di navigazione con tema chiaro è opaca o traslucida.</string>
-    <string name="revanced_disable_translucent_navigation_bar_dark_title">Disattiva la barra di navigazione traslucida con tema scuro</string>
-    <string name="revanced_disable_translucent_navigation_bar_dark_summary_on">La barra di navigazione con tema scuro è opaca.</string>
-    <string name="revanced_disable_translucent_navigation_bar_dark_summary_off">La barra di navigazione con tema scuro è opaca o traslucida.</string>
     <string name="revanced_hide_navigation_bar_title">Nascondi la barra di navigazione</string>
     <string name="revanced_hide_navigation_bar_summary_on">La barra di navigazione è nascosta.</string>
     <string name="revanced_hide_navigation_bar_summary_off">La barra di navigazione è visibile.</string>
@@ -1773,25 +1764,20 @@ Tocca il pulsante Continua e consenti le modifiche di ottimizzazione."</string>
     <string name="revanced_spoof_streaming_data_summary_off">"I dati in streaming non sono camuffati. La riproduzione potrebbe non funzionare."</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">La disattivazione di questa impostazione potrebbe causare problemi di riproduzione.</string>
     <string name="revanced_spoof_streaming_data_type_title">Client predefinito</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_music">iOS Music</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">iOS TV</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Android Creator</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">iOS TV</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Effetti collaterali del camuffamento</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• Nessuno ancora trovato.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">• I film o i video a pagamento potrebbero non essere riprodotti.</string>
     <string name="revanced_spoof_streaming_data_side_effects_android">"• Il menù Traccia Audio è mancante.
 • Il menù Volume Stabile è mancante.
 • La disattivazione della traccia audio automatica forzata non funziona."</string>
-    <string name="revanced_spoof_streaming_data_android_only_title">Usa solo il client Android</string>
-    <string name="revanced_spoof_streaming_data_android_only_summary_on">Il client Android è usato per recuperare i dati in streaming.</string>
-    <string name="revanced_spoof_streaming_data_android_only_summary_off">I client Android e iOS sono usati per recuperare i dati in streaming.</string>
-    <string name="revanced_spoof_streaming_data_android_only_user_dialog_message">La disattivazione di questa impostazione potrebbe causare problemi di riproduzione.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">• Nessuno ancora trovato.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">• I film o i video a pagamento potrebbero non essere riprodotti.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Mostra nelle statistiche per nerd</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Il client usato per recuperare i dati in streaming è visibile nelle statistiche per nerd.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Il client usato per recuperare i dati in streaming è nascosto nelle statistiche per nerd.</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">Cronologia</string>
     <string name="revanced_preference_screen_watch_history_summary">Cambia le impostazioni della cronologia.</string>

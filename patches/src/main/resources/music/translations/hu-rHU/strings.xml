@@ -275,7 +275,7 @@ Előfordulhat, hogy egyes funkciók nem működnek megfelelően a régi lejátsz
     <string name="revanced_ryd_dislike_percentage_summary">A nem tetszések százalékos arányát jeleníti meg a nem tetszések száma helyett.</string>
     <string name="revanced_ryd_compact_layout_title">Kompakt kedvelés gomb</string>
     <string name="revanced_ryd_compact_layout_summary">Elrejti a kedvelés gomb elválasztóját.</string>
-    <string name="revanced_ryd_estimated_like_title">Mutassa a becsült kedveléseket</string>
+    <string name="revanced_ryd_estimated_like_title">Becsült kedvelések megjelenítése</string>
     <string name="revanced_ryd_estimated_like_summary">Megjeleníti a becsült kedvelések számát a videóknál.</string>
     <string name="revanced_ryd_toast_on_connection_error_title">Köszöntő megjelenítése, ha az API nem elérhető</string>
     <string name="revanced_ryd_toast_on_connection_error_summary">Megjelenik egy üzenet, ha a YouTube nem tetszések visszaállítása API nem érhető el.</string>
@@ -417,9 +417,6 @@ Nyomj a folytatás gombra, és engedélyezd az optimalizálási módosításokat
     <string name="revanced_spoof_streaming_data_type_summary">Meghatároz egy alapértelmezett klienst, amely streaming adatokat hív le.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Megjelenik a statisztikák kockáknakban</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary">Megmutatja a streaming adatok lekérdezésére használt klienst a Statisztikák kockáknakban.</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_music">iOS Music</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_sanitize_sharing_links_title">Megosztási linkek tisztítása</string>
     <string name="revanced_sanitize_sharing_links_summary">Linkek megosztásakor eltávolítja a nyomkövetési paramétereket az URL-ekből.</string>

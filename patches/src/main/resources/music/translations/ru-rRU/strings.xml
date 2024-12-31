@@ -403,6 +403,13 @@
 • Кодек OPUS может не работать.
 • Превью во время перемотки может отсутствовать.
 • История просмотра не работает при использовании аккаунта компании."</string>
+    <string name="revanced_spoof_client_type_title">Клиент по умолчанию</string>
+    <string name="revanced_spoof_client_type_summary">"Определяет клиент по умолчанию для подмены.
+
+※ При использовании клиента Android рекомендуется использовать его вместе с \"Подмена версии приложения\"."</string>
+    <string name="revanced_spoof_client_type_entry_android_music_4_27">Android Music 4.27.53</string>
+    <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
+    <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>
     <string name="revanced_spoof_streaming_data_title">Подделка потоковых данных</string>
     <string name="revanced_spoof_streaming_data_summary">"Подделать потоковые данные, чтобы предотвратить проблемы с воспроизведением.
 
@@ -411,9 +418,6 @@
     <string name="revanced_spoof_streaming_data_type_summary">Определяет клиент по умолчанию, получающий потоковые данные.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Показывать в \"Статистике для сисадминов\"</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary">Показывает клиент, используемый для получения потоковых данных в Статистике для сисадминов.</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_music">iOS Music</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_sanitize_sharing_links_title">Подчищать ссылки</string>
     <string name="revanced_sanitize_sharing_links_summary">Убирает параметры отслеживания запросов из адресов при отправке ссылки.</string>

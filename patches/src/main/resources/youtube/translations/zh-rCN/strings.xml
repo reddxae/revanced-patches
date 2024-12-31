@@ -1647,13 +1647,14 @@
     <string name="revanced_spoof_streaming_data_summary_off">"流媒体数据未伪装，视频可能无法正常播放"</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">关闭此选项可能会导致视频不能正常播放</string>
     <string name="revanced_spoof_streaming_data_type_title">默认客户端</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">伪装副作用</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">显示统计信息</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">用于获取流媒体数据的客户端已在统计信息中显示</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">用于获取流媒体数据的客户端已在统计信息中隐藏</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">观看历史</string>
     <string name="revanced_preference_screen_watch_history_summary">更改与观看历史记录相关的设置</string>

@@ -320,9 +320,6 @@ Limitação: O botão voltar na barra de ferramentas pode não funcionar."</stri
     <string name="revanced_disable_splash_animation_title">Desativar animação inicial</string>
     <string name="revanced_disable_splash_animation_summary_on">A animação inicial está desativada.</string>
     <string name="revanced_disable_splash_animation_summary_off">A animação do inicial está ativada.</string>
-    <string name="revanced_disable_translucent_status_bar_title">Desativar barra de status transparente</string>
-    <string name="revanced_disable_translucent_status_bar_summary_on">A barra de status está opaca.</string>
-    <string name="revanced_disable_translucent_status_bar_summary_off">A barra de status está opaca ou transparente.</string>
     <string name="revanced_enable_gradient_loading_screen_title">Ativar tela de carregamento gradiente</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">A tela de carregamento gradiente está ativada.</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">A tela de carregamento gradiente está desativada.</string>
@@ -495,12 +492,6 @@ Nota: Ativar isso também oculta anúncios de vídeo à força."</string>
 Além disso, os anúncios não serão mais bloqueados no Shorts.
 
 Se essa configuração não surtir efeito, tente alternar para o modo anônimo."</string>
-    <string name="revanced_disable_translucent_navigation_bar_light_title">Desativar barra transparente no modo claro</string>
-    <string name="revanced_disable_translucent_navigation_bar_light_summary_on">A barra de navegação no modo claro está opaca.</string>
-    <string name="revanced_disable_translucent_navigation_bar_light_summary_off">A barra de navegação no modo claro está opaca ou transparente.</string>
-    <string name="revanced_disable_translucent_navigation_bar_dark_title">Desativar barra transparente no modo escuro</string>
-    <string name="revanced_disable_translucent_navigation_bar_dark_summary_on">A barra de navegação no modo escuro está opaca.</string>
-    <string name="revanced_disable_translucent_navigation_bar_dark_summary_off">A barra de navegação no modo escuro está opaca ou transparente.</string>
     <string name="revanced_hide_navigation_bar_title">Ocultar barra de navegação</string>
     <string name="revanced_hide_navigation_bar_summary_on">A barra de navegação está oculta.</string>
     <string name="revanced_hide_navigation_bar_summary_off">A barra de navegação será exibida.</string>
@@ -1769,15 +1760,20 @@ Toque no botão continuar e desative as otimizações da bateria."</string>
     <string name="revanced_spoof_streaming_data_summary_off">"Os dados de streaming não são falsificados. A reprodução de vídeo pode não funcionar."</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">Desativar esta configuração pode causar problemas de reprodução de vídeo.</string>
     <string name="revanced_spoof_streaming_data_type_title">Cliente padrão</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_music">iOS Music</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">iOS TV</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Efeitos colaterais da falsificação</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android">"• O menu de faixa de áudio está faltando.
+• Volume estável não está disponível.
+• Desativar faixas de áudio automático forçadas não está disponível."</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">• Ainda não encontrado.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">• Filmes ou vídeos pagos podem não reproduzir.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Exibir em Estatísticas para nerds</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">O cliente usado para buscar dados de streaming é mostrado em Estatísticas para nerds.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">O cliente usado para buscar dados de streaming está oculto em Estatísticas para nerds.</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">Histórico de exibição</string>
     <string name="revanced_preference_screen_watch_history_summary">Altere as configurações relacionadas ao histórico de exibição.</string>

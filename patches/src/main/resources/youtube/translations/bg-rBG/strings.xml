@@ -1685,13 +1685,14 @@
     <string name="revanced_spoof_streaming_data_summary_off">"Данните за поточно предаване не са подправени. Възпроизвеждането на видео може да не работи."</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">Изключването на тази настройка може да причини проблеми с възпроизвеждането на видео.</string>
     <string name="revanced_spoof_streaming_data_type_title">Клиент по подразбиране</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Ефекти от замяната</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Показване в \"Разширени статистики\"</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Клиентът, използван за получаване на данни за потока, се показва в Статистика за системни администратори.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Клиентът, използван за получаване на данни за поток, е скрит в Статистика за системни администратори.</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">История на гледане</string>
     <string name="revanced_preference_screen_watch_history_summary">Променя настройките, за хронологията на гледане.</string>

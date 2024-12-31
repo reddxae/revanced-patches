@@ -35,7 +35,7 @@
     <string name="revanced_hide_action_button_label_title">Ẩn tên nút</string>
     <string name="revanced_hide_action_button_label_summary">Ẩn tên nút trong thanh thao tác.</string>
     <string name="revanced_external_downloader_action_title">Ghi đè nút tải xuống</string>
-    <string name="revanced_external_downloader_action_summary">"Nút tải xuống sẽ mở trình tải xuống bên ngoài của bạn.
+    <string name="revanced_external_downloader_action_summary">"Khi thao tác với nút tải xuống sẽ mở trình tải xuống bên ngoài của bạn.
 
 • Chỉ ghi đè lên nút Tải xuống trong trình phát.
 • Không ghi đè lên nút Tải xuống trong Trình đơn tuỳ chọn hoặc trong thẻ Thư viện."</string>
@@ -386,7 +386,7 @@ Cụ thể:
 • Các phiên bản YouTube Music mới nhất sử dụng codec OPUS như mặc định.
 • Điều này chỉ áp dụng cho người dùng giả mạo với các phiên bản ứng dụng rất cũ."</string>
     <string name="gms_core_settings_title">GmsCore</string>
-    <string name="gms_core_settings_summary">Chuyển hướng tới cài đặt GmsCore và kích hoạt Cloud Messaging để nhận thông báo đẩy.</string>
+    <string name="gms_core_settings_summary">Chuyển hướng tới cài đặt MicroG và kích hoạt Cloud Messaging để nhận thông báo đẩy.</string>
     <string name="gms_core_toast_not_installed_message">GmsCore chưa được cài đặt. Hãy cài đặt nó đi nào.</string>
     <string name="gms_core_dialog_title">Hành động cần thiết</string>
     <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"Hiện GmsCore không có quyền chạy nền.
@@ -409,8 +409,8 @@ Nhấn vào Tiếp tục và cho phép thay đổi lựa chọn tối ưu hoá p
     <string name="revanced_spoof_client_type_summary">"Xác định ứng dụng khách mặc định để giả mạo.
 
 ※ Khi sử dụng ứng dụng khách Android, tính năng này nên được sử dụng đồng thời với \"Giả mạo phiên bản ứng dụng\"."</string>
-    <string name="revanced_spoof_client_type_entry_android_music_4_27">Music Android 4.27.53</string>
-    <string name="revanced_spoof_client_type_entry_android_music_5_29">Music Android 5.29.53</string>
+    <string name="revanced_spoof_client_type_entry_android_music_4_27">Android Music 4.27.53</string>
+    <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
     <string name="revanced_spoof_client_type_entry_ios_music_6_21">Music iOS 6.21</string>
     <string name="revanced_spoof_streaming_data_title">Giả mạo luồng dữ liệu trực tuyến</string>
     <string name="revanced_spoof_streaming_data_summary">"Giả mạo luồng dữ liệu trực tuyến nhằm khắc phục sự cố phát.
@@ -420,9 +420,6 @@ Nhấn vào Tiếp tục và cho phép thay đổi lựa chọn tối ưu hoá p
     <string name="revanced_spoof_streaming_data_type_summary">Xác định một ứng dụng khách mặc định để nạp luồng dữ liệu trực tuyến.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Hiển thị trong Thống kê chi tiết</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary">Hiển thị ứng dụng khách được sử dụng để nạp luồng dữ liệu trực tuyến trong Thống kê chi tiết.</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_music">Music iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_sanitize_sharing_links_title">Liên kết sạch khi chia sẻ</string>
     <string name="revanced_sanitize_sharing_links_summary">Loại bỏ các tham số truy vấn theo dõi khỏi URL khi chia sẻ liên kết.</string>

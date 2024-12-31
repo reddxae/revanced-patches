@@ -332,9 +332,6 @@ Shorts
     <string name="revanced_disable_splash_animation_title">Анимированная заставка</string>
     <string name="revanced_disable_splash_animation_summary_on">Анимированная заставка отключена.</string>
     <string name="revanced_disable_splash_animation_summary_off">Анимированная заставка включена.</string>
-    <string name="revanced_disable_translucent_status_bar_title">Полупрозрачная строка состояния</string>
-    <string name="revanced_disable_translucent_status_bar_summary_on">Отключена.</string>
-    <string name="revanced_disable_translucent_status_bar_summary_off">Включена.</string>
     <string name="revanced_enable_gradient_loading_screen_title">Переливающийся экран загрузки</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">Переливающийся экран загрузки включен.</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">Переливающийся экран загрузки отключен.</string>
@@ -507,12 +504,6 @@ Shorts
 Кроме того, реклама больше не будет блокироваться в Shorts.
 
 Если эта настройка не вступила в силу, попробуйте перейти в режим инкогнито."</string>
-    <string name="revanced_disable_translucent_navigation_bar_light_title">Светлая полупрозрачная панель навигации</string>
-    <string name="revanced_disable_translucent_navigation_bar_light_summary_on">Отключена.</string>
-    <string name="revanced_disable_translucent_navigation_bar_light_summary_off">Включена.</string>
-    <string name="revanced_disable_translucent_navigation_bar_dark_title">Темная полупрозрачная панель навигации</string>
-    <string name="revanced_disable_translucent_navigation_bar_dark_summary_on">Отключена.</string>
-    <string name="revanced_disable_translucent_navigation_bar_dark_summary_off">Включена.</string>
     <string name="revanced_hide_navigation_bar_title">Панель навигации</string>
     <string name="revanced_hide_navigation_bar_summary_on">Панель навигации скрыта.</string>
     <string name="revanced_hide_navigation_bar_summary_off">Панель навигации отображена.</string>
@@ -1793,24 +1784,20 @@ Shorts
 Воспроизведение видео может не работать."</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">Отключение этой настройки вызовет проблемы с воспроизведением видео.</string>
     <string name="revanced_spoof_streaming_data_type_title">Клиент по умолчанию</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_music">Музыка iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">iOS TV</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Редактор Android</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">iOS TV</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Эффекты от подмены</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• Еще не найдено.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">• Платные видео и фильмы могут не проигрываться.</string>
     <string name="revanced_spoof_streaming_data_side_effects_android">"• Меню аудио дорожки отсутствует.
 • Стабильная громкость недоступна.
 • Отключить принудительные автозвуковые дорожки недоступна."</string>
-    <string name="revanced_spoof_streaming_data_android_only_title">Использовать только клиенты Android</string>
-    <string name="revanced_spoof_streaming_data_android_only_summary_on">Android клиенты используются для получения потоковых данных.</string>
-    <string name="revanced_spoof_streaming_data_android_only_summary_off">Android и iOS клиенты используются для получения потоковых данных.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">• Еще не найдено.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">• Платные видео и фильмы могут не проигрываться.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Статистике для сисадминов</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Клиент потоковых данных отображается в Статистике для сисадминов.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Клиент потоковых данных скрыт в Статистике для сисадминов.</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">История просмотра</string>
     <string name="revanced_preference_screen_watch_history_summary">Изменить настройки истории просмотра.</string>

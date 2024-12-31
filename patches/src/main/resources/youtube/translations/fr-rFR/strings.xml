@@ -322,9 +322,6 @@ Limitation : Le bouton Retour de la barre d'outils peut ne pas fonctionner."</st
     <string name="revanced_disable_splash_animation_title">Désact. l\'animation de démarrage</string>
     <string name="revanced_disable_splash_animation_summary_on">L\'animation de démarrage est désactivé.</string>
     <string name="revanced_disable_splash_animation_summary_off">L\'animation de démarrage est activé.</string>
-    <string name="revanced_disable_translucent_status_bar_title">Désactiver la barre de navigation translucide</string>
-    <string name="revanced_disable_translucent_status_bar_summary_on">La barre de navigation est opaque.</string>
-    <string name="revanced_disable_translucent_status_bar_summary_off">La barre de navigation est opaque ou translucide.</string>
     <string name="revanced_enable_gradient_loading_screen_title">Activer dégradé pendant le chargement</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">Le dégradé pendant l\'écran de chargement est activé.</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">Le dégradé pendant l\'écran de chargement est désactivé.</string>
@@ -497,12 +494,6 @@ Note : Activer ceci masquera également les publicités vidéos."</string>
 Également, les publicités ne seront plus bloquées sur les Shorts.
 
 Si ce paramètre ne fait pas effet, essayer de passer en mode Incognito."</string>
-    <string name="revanced_disable_translucent_navigation_bar_light_title">Désactiver la barre translucide clair</string>
-    <string name="revanced_disable_translucent_navigation_bar_light_summary_on">La barre de navigation en mode clair est opaque.</string>
-    <string name="revanced_disable_translucent_navigation_bar_light_summary_off">La barre de navigation en mode clair est opaque ou translucide.</string>
-    <string name="revanced_disable_translucent_navigation_bar_dark_title">Désactiver la barre translucide en mode sombre</string>
-    <string name="revanced_disable_translucent_navigation_bar_dark_summary_on">La barre translucide en mode sombre est opaque.</string>
-    <string name="revanced_disable_translucent_navigation_bar_dark_summary_off">La barre translucide en mode sombre est opaque ou translucide.</string>
     <string name="revanced_hide_navigation_bar_title">Masquer la barre de navigation</string>
     <string name="revanced_hide_navigation_bar_summary_on">La barre de navigation est masqué.</string>
     <string name="revanced_hide_navigation_bar_summary_off">La barre de navigation est affichée.</string>
@@ -1777,18 +1768,20 @@ Cliquez sur le bouton Continuer et autorisez les modifications d'optimisations."
     <string name="revanced_spoof_streaming_data_summary_off">"Les données de lecture en direct ne sont pas falsifiées. La lecture vidéo peut ne pas fonctionner."</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">Désactiver ce paramètre peut entraîner des problèmes de lecture vidéo.</string>
     <string name="revanced_spoof_streaming_data_type_title">Client par défaut</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_music">Musique iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">TV iOS</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">TV iOS</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Effets inconnus de la falsification</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• Les vidéos privées conçues pour enfants peuvent ne pas être lues.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">• Les vidéos privées conçues pour enfants peuvent ne pas être lues.
-• Les films ou vidéos payantes peuvent ne pas être lues.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android">"• Le menu 'Piste Audio' est manquant.
+• Le volume stable n'es pas disponible.
+• La désactivation forcée des pistes audio automatiques ne sont pas disponibles."</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">• Pas encore trouvé.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">• Les films ou vidéos payantes peuvent ne pas être lues.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Afficher dans \'Statistiques pour les nerds\'</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Le client utilisé pour récupérer les données de lecture en direct est affiché dans \'Statistiques pour les nerds\'.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Le client utilisé pour récupérer les données de lecture en direct est masqué dans \'Statistiques pour les nerds\'.</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">Historique de visionnage</string>
     <string name="revanced_preference_screen_watch_history_summary">Modifie les paramètres liés à l\'historique de visionnage.</string>

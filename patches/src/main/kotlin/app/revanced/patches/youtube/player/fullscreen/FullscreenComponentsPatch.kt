@@ -11,6 +11,8 @@ import app.revanced.patcher.util.smali.ExternalLabel
 import app.revanced.patches.shared.litho.addLithoFilter
 import app.revanced.patches.shared.litho.lithoFilterPatch
 import app.revanced.patches.shared.mainactivity.onConfigurationChangedMethod
+import app.revanced.patches.shared.mainactivity.onStartMethod
+import app.revanced.patches.shared.mainactivity.onStopMethod
 import app.revanced.patches.youtube.utils.compatibility.Constants.COMPATIBLE_PACKAGE
 import app.revanced.patches.youtube.utils.extension.Constants.COMPONENTS_PATH
 import app.revanced.patches.youtube.utils.extension.Constants.PATCH_STATUS_CLASS_DESCRIPTOR
@@ -31,6 +33,7 @@ import app.revanced.patches.youtube.utils.resourceid.sharedResourceIdPatch
 import app.revanced.patches.youtube.utils.settings.ResourceUtils.addPreference
 import app.revanced.patches.youtube.utils.settings.settingsPatch
 import app.revanced.patches.youtube.utils.youtubeControlsOverlayFingerprint
+import app.revanced.patches.youtube.video.information.hookBackgroundPlayVideoInformation
 import app.revanced.patches.youtube.video.information.videoEndMethod
 import app.revanced.patches.youtube.video.information.videoInformationPatch
 import app.revanced.util.Utils.printWarn
@@ -53,6 +56,9 @@ import com.android.tools.smali.dexlib2.iface.reference.MethodReference
 
 private const val FILTER_CLASS_DESCRIPTOR =
     "$COMPONENTS_PATH/QuickActionFilter;"
+
+private const val EXTENSION_ENTER_FULLSCREEN_CLASS_DESCRIPTOR =
+    "$PLAYER_PATH/EnterFullscreenPatch;"
 
 private const val EXTENSION_EXIT_FULLSCREEN_CLASS_DESCRIPTOR =
     "$PLAYER_PATH/ExitFullscreenPatch;"
@@ -115,6 +121,22 @@ val fullscreenComponentsPatch = bytecodePatch(
                         "$PLAYER_CLASS_DESCRIPTOR->showVideoTitleSection(Landroid/widget/FrameLayout;Landroid/view/View;)V"
             )
         }
+
+        // endregion
+
+        // region patch for enter fullscreen
+
+        mapOf(
+            onStartMethod to "onAppForegrounded",
+            onStopMethod to "onAppBackgrounded"
+        ).forEach { (method, name) ->
+            method.addInstruction(
+                0,
+                "invoke-static {}, $EXTENSION_ENTER_FULLSCREEN_CLASS_DESCRIPTOR->$name()V"
+            )
+        }
+
+        hookBackgroundPlayVideoInformation("$EXTENSION_ENTER_FULLSCREEN_CLASS_DESCRIPTOR->enterFullscreen(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JZ)V")
 
         // endregion
 

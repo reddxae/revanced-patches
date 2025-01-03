@@ -923,6 +923,11 @@ Settings → Autoplay → Autoplay next video"</string>
     <string name="revanced_disable_engagement_panel_title">Disable engagement panel</string>
     <string name="revanced_disable_engagement_panel_summary_on">Engagement panel is disabled.</string>
     <string name="revanced_disable_engagement_panel_summary_off">Engagement panel is enabled.</string>
+    <string name="revanced_enter_fullscreen_title">Enter fullscreen mode when video starts</string>
+    <string name="revanced_enter_fullscreen_summary_on">"Enter fullscreen mode when the video starts.
+
+Limitation: Does not work if the player is minimized, in PiP mode, or in the background.</string>
+    <string name="revanced_enter_fullscreen_summary_off">Do not enter fullscreen mode when the video starts.</string>
     <string name="revanced_exit_fullscreen_title">Exit fullscreen mode at end of video</string>
     <string name="revanced_exit_fullscreen_entry_1">Disabled</string>
     <string name="revanced_exit_fullscreen_entry_2">Portrait</string>

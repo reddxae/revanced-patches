@@ -352,6 +352,9 @@ Limitation: Back button on the toolbar may not work."</string>
     <string name="revanced_disable_splash_animation_title">Disable splash animation</string>
     <string name="revanced_disable_splash_animation_summary_on">Splash animation is disabled.</string>
     <string name="revanced_disable_splash_animation_summary_off">Splash animation is enabled.</string>
+    <string name="revanced_disable_translucent_status_bar_title">Disable translucent status bar</string>
+    <string name="revanced_disable_translucent_status_bar_summary_on">Status bar is opaque.</string>
+    <string name="revanced_disable_translucent_status_bar_summary_off">Status bar is opaque or translucent.</string>
     <string name="revanced_enable_gradient_loading_screen_title">Enable gradient loading screen</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">Gradient loading screen is enabled.</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">Gradient loading screen is disabled.</string>

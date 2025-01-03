@@ -38,6 +38,7 @@ import app.revanced.extension.youtube.patches.general.LayoutSwitchPatch.FormFact
 import app.revanced.extension.youtube.patches.general.MiniplayerPatch;
 import app.revanced.extension.youtube.patches.general.YouTubeMusicActionsPatch;
 import app.revanced.extension.youtube.patches.misc.WatchHistoryPatch.WatchHistoryType;
+import app.revanced.extension.youtube.patches.player.ExitFullscreenPatch.FullscreenMode;
 import app.revanced.extension.youtube.patches.shorts.AnimationFeedbackPatch.AnimationType;
 import app.revanced.extension.youtube.patches.shorts.ShortsRepeatStatePatch.ShortsLoopBehavior;
 import app.revanced.extension.youtube.patches.utils.PatchStatus;
@@ -334,6 +335,7 @@ public class Settings extends BaseSettings {
 
     // PreferenceScreen: Player - Fullscreen
     public static final BooleanSetting DISABLE_ENGAGEMENT_PANEL = new BooleanSetting("revanced_disable_engagement_panel", FALSE, true);
+    public static final EnumSetting<FullscreenMode> EXIT_FULLSCREEN = new EnumSetting<>("revanced_exit_fullscreen", FullscreenMode.DISABLED);
     public static final BooleanSetting SHOW_VIDEO_TITLE_SECTION = new BooleanSetting("revanced_show_video_title_section", TRUE, true, parent(DISABLE_ENGAGEMENT_PANEL));
     public static final BooleanSetting HIDE_AUTOPLAY_PREVIEW = new BooleanSetting("revanced_hide_autoplay_preview", FALSE, true);
     public static final BooleanSetting HIDE_LIVE_CHAT_REPLAY_BUTTON = new BooleanSetting("revanced_hide_live_chat_replay_button", FALSE);

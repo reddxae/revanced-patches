@@ -15,9 +15,12 @@ import app.revanced.patches.youtube.utils.compatibility.Constants.COMPATIBLE_PAC
 import app.revanced.patches.youtube.utils.extension.Constants.COMPONENTS_PATH
 import app.revanced.patches.youtube.utils.extension.Constants.PATCH_STATUS_CLASS_DESCRIPTOR
 import app.revanced.patches.youtube.utils.extension.Constants.PLAYER_CLASS_DESCRIPTOR
+import app.revanced.patches.youtube.utils.extension.Constants.PLAYER_PATH
+import app.revanced.patches.youtube.utils.fullscreen.fullscreenButtonHookPatch
 import app.revanced.patches.youtube.utils.layoutConstructorFingerprint
 import app.revanced.patches.youtube.utils.mainactivity.mainActivityResolvePatch
 import app.revanced.patches.youtube.utils.patch.PatchList.FULLSCREEN_COMPONENTS
+import app.revanced.patches.youtube.utils.playertype.playerTypeHookPatch
 import app.revanced.patches.youtube.utils.playservice.is_18_42_or_greater
 import app.revanced.patches.youtube.utils.playservice.is_19_41_or_greater
 import app.revanced.patches.youtube.utils.playservice.versionCheckPatch
@@ -28,7 +31,10 @@ import app.revanced.patches.youtube.utils.resourceid.sharedResourceIdPatch
 import app.revanced.patches.youtube.utils.settings.ResourceUtils.addPreference
 import app.revanced.patches.youtube.utils.settings.settingsPatch
 import app.revanced.patches.youtube.utils.youtubeControlsOverlayFingerprint
+import app.revanced.patches.youtube.video.information.videoEndMethod
+import app.revanced.patches.youtube.video.information.videoInformationPatch
 import app.revanced.util.Utils.printWarn
+import app.revanced.util.addInstructionsAtControlFlowLabel
 import app.revanced.util.findMethodOrThrow
 import app.revanced.util.fingerprint.methodOrThrow
 import app.revanced.util.fingerprint.mutableClassOrThrow
@@ -48,6 +54,9 @@ import com.android.tools.smali.dexlib2.iface.reference.MethodReference
 private const val FILTER_CLASS_DESCRIPTOR =
     "$COMPONENTS_PATH/QuickActionFilter;"
 
+private const val EXTENSION_EXIT_FULLSCREEN_CLASS_DESCRIPTOR =
+    "$PLAYER_PATH/ExitFullscreenPatch;"
+
 @Suppress("unused")
 val fullscreenComponentsPatch = bytecodePatch(
     FULLSCREEN_COMPONENTS.title,
@@ -57,8 +66,11 @@ val fullscreenComponentsPatch = bytecodePatch(
 
     dependsOn(
         settingsPatch,
+        playerTypeHookPatch,
         lithoFilterPatch,
         mainActivityResolvePatch,
+        fullscreenButtonHookPatch,
+        videoInformationPatch,
         sharedResourceIdPatch,
         versionCheckPatch,
     )
@@ -101,6 +113,17 @@ val fullscreenComponentsPatch = bytecodePatch(
                 insertIndex,
                 "invoke-static { v${insertInstruction.registerC}, v${insertInstruction.registerD} }, " +
                         "$PLAYER_CLASS_DESCRIPTOR->showVideoTitleSection(Landroid/widget/FrameLayout;Landroid/view/View;)V"
+            )
+        }
+
+        // endregion
+
+        // region patch for exit fullscreen
+
+        videoEndMethod.apply {
+            addInstructionsAtControlFlowLabel(
+                implementation!!.instructions.lastIndex,
+                "invoke-static {}, $EXTENSION_EXIT_FULLSCREEN_CLASS_DESCRIPTOR->endOfVideoReached()V",
             )
         }
 

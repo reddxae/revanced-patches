@@ -416,8 +416,7 @@
             </PreferenceCategory>
             <PreferenceCategory android:title="@string/revanced_preference_category_experimental_flag" android:layout="@layout/revanced_settings_preferences_category"/>
             <SwitchPreference android:title="@string/revanced_disable_landscape_mode_title" android:key="revanced_disable_landscape_mode" android:summaryOn="@string/revanced_disable_landscape_mode_summary_on" android:summaryOff="@string/revanced_disable_landscape_mode_summary_off" />
-            <SwitchPreference android:title="@string/revanced_enable_compact_controls_overlay_title" android:key="revanced_enable_compact_controls_overlay" android:summaryOn="@string/revanced_enable_compact_controls_overlay_summary_on" android:summaryOff="@string/revanced_enable_compact_controls_overlay_summary_off" />
-            <SwitchPreference android:title="@string/revanced_force_fullscreen_title" android:key="revanced_force_fullscreen" android:summary="@string/revanced_force_fullscreen_summary" />SETTINGS: FULLSCREEN_COMPONENTS -->
+            <SwitchPreference android:title="@string/revanced_enable_compact_controls_overlay_title" android:key="revanced_enable_compact_controls_overlay" android:summaryOn="@string/revanced_enable_compact_controls_overlay_summary_on" android:summaryOff="@string/revanced_enable_compact_controls_overlay_summary_off" />SETTINGS: FULLSCREEN_COMPONENTS -->
 
             <!-- SETTINGS: KEEP_LANDSCAPE_MODE
             <SwitchPreference android:title="@string/revanced_keep_landscape_mode_title" android:key="revanced_keep_landscape_mode" android:summary="@string/revanced_keep_landscape_mode_summary" />

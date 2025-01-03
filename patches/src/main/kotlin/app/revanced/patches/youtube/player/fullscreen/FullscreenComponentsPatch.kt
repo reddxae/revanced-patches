@@ -42,7 +42,6 @@ import com.android.tools.smali.dexlib2.Opcode
 import com.android.tools.smali.dexlib2.iface.instruction.FiveRegisterInstruction
 import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
 import com.android.tools.smali.dexlib2.iface.instruction.ReferenceInstruction
-import com.android.tools.smali.dexlib2.iface.instruction.TwoRegisterInstruction
 import com.android.tools.smali.dexlib2.iface.instruction.WideLiteralInstruction
 import com.android.tools.smali.dexlib2.iface.reference.MethodReference
 
@@ -194,60 +193,6 @@ val fullscreenComponentsPatch = bytecodePatch(
                         """
                 )
             }
-        }
-
-        // endregion
-
-        // region patch for force fullscreen
-
-        clientSettingEndpointFingerprint.methodOrThrow().apply {
-            val getActivityIndex = indexOfFirstStringInstructionOrThrow("watch") + 2
-            val getActivityReference =
-                getInstruction<ReferenceInstruction>(getActivityIndex).reference
-            val classRegister =
-                getInstruction<TwoRegisterInstruction>(getActivityIndex).registerB
-
-            val watchDescriptorMethodIndex =
-                indexOfFirstStringInstructionOrThrow("start_watch_minimized") - 1
-            val watchDescriptorRegister =
-                getInstruction<FiveRegisterInstruction>(watchDescriptorMethodIndex).registerD
-
-            addInstructions(
-                watchDescriptorMethodIndex, """
-                    invoke-static {v$watchDescriptorRegister}, $PLAYER_CLASS_DESCRIPTOR->forceFullscreen(Z)Z
-                    move-result v$watchDescriptorRegister
-                    """
-            )
-
-            // hooks Activity.
-            val insertIndex = indexOfFirstStringInstructionOrThrow("force_fullscreen")
-            val freeRegister = getInstruction<OneRegisterInstruction>(insertIndex).registerA
-
-            addInstructions(
-                insertIndex, """
-                    iget-object v$freeRegister, v$classRegister, $getActivityReference
-                    check-cast v$freeRegister, Landroid/app/Activity;
-                    invoke-static {v$freeRegister}, $PLAYER_CLASS_DESCRIPTOR->setWatchDescriptorActivity(Landroid/app/Activity;)V
-                    """
-            )
-        }
-
-        videoPortraitParentFingerprint.methodOrThrow().apply {
-            val stringIndex =
-                indexOfFirstStringInstructionOrThrow("Acquiring NetLatencyActionLogger failed. taskId=")
-            val invokeIndex =
-                indexOfFirstInstructionOrThrow(stringIndex, Opcode.INVOKE_INTERFACE)
-            val targetIndex = indexOfFirstInstructionOrThrow(invokeIndex, Opcode.CHECK_CAST)
-            val targetClass =
-                getInstruction<ReferenceInstruction>(targetIndex).reference.toString()
-
-            // add an instruction to check the vertical video
-            findMethodOrThrow(targetClass) {
-                parameters == listOf("I", "I", "Z")
-            }.addInstruction(
-                1,
-                "invoke-static {p1, p2}, $PLAYER_CLASS_DESCRIPTOR->setVideoPortrait(II)V"
-            )
         }
 
         // endregion

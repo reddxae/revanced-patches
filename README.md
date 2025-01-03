@@ -93,6 +93,7 @@ See the [documentation](https://github.com/inotia00/revanced-documentation#readm
 | `Disable DRC audio` | Adds an option to disable DRC (Dynamic Range Compression) audio. | 6.20.51 ~ 7.25.53 |
 | `Disable auto captions` | Adds an option to disable captions from being automatically enabled. | 6.20.51 ~ 7.25.53 |
 | `Disable dislike redirection` | Adds an option to disable redirection to the next track when clicking the Dislike button. | 6.20.51 ~ 7.25.53 |
+| `Disable music video in album` | Adds option to redirect music videos from albums. | 6.20.51 ~ 7.25.53 |
 | `Enable OPUS codec` | Adds an options to enable the OPUS audio codec if the player response includes. | 6.20.51 ~ 7.25.53 |
 | `Enable debug logging` | Adds an option to enable debug logging. | 6.20.51 ~ 7.25.53 |
 | `Enable landscape mode` | Adds an option to enable landscape mode when rotating the screen on phones. | 6.20.51 ~ 7.25.53 |

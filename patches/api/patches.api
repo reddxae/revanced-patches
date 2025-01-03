@@ -90,6 +90,10 @@ public final class app/revanced/patches/music/layout/visual/VisualPreferencesIco
 	public static final fun getVisualPreferencesIconsPatch ()Lapp/revanced/patcher/patch/ResourcePatch;
 }
 
+public final class app/revanced/patches/music/misc/album/AlbumMusicVideoPatchKt {
+	public static final fun getAlbumMusicVideoPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
 public final class app/revanced/patches/music/misc/backgroundplayback/BackgroundPlaybackPatchKt {
 	public static final fun getBackgroundPlaybackPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
@@ -138,6 +142,10 @@ public final class app/revanced/patches/music/player/components/PlayerComponents
 	public static final fun getPlayerComponentsPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
+public final class app/revanced/patches/music/utils/dismiss/DismissQueueHookPatchKt {
+	public static final fun getDismissQueueHookPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
 public final class app/revanced/patches/music/utils/extension/SharedExtensionPatchKt {
 	public static final fun getSharedExtensionPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
@@ -183,6 +191,7 @@ public final class app/revanced/patches/music/utils/playservice/VersionCheckPatc
 	public static final fun is_6_27_or_greater ()Z
 	public static final fun is_6_36_or_greater ()Z
 	public static final fun is_6_42_or_greater ()Z
+	public static final fun is_7_03_or_greater ()Z
 	public static final fun is_7_06_or_greater ()Z
 	public static final fun is_7_13_or_greater ()Z
 	public static final fun is_7_17_or_greater ()Z
@@ -432,6 +441,8 @@ public final class app/revanced/patches/shared/mainactivity/BaseMainActivityReso
 	public static final fun getMainActivityMutableClass ()Lapp/revanced/patcher/util/proxy/mutableTypes/MutableClass;
 	public static final fun getOnConfigurationChangedMethod ()Lapp/revanced/patcher/util/proxy/mutableTypes/MutableMethod;
 	public static final fun getOnCreateMethod ()Lapp/revanced/patcher/util/proxy/mutableTypes/MutableMethod;
+	public static final fun getOnStartMethod ()Lapp/revanced/patcher/util/proxy/mutableTypes/MutableMethod;
+	public static final fun getOnStopMethod ()Lapp/revanced/patcher/util/proxy/mutableTypes/MutableMethod;
 }
 
 public final class app/revanced/patches/shared/mapping/ResourceElement {
@@ -832,6 +843,10 @@ public final class app/revanced/patches/youtube/utils/fix/swiperefresh/SwipeRefr
 
 public final class app/revanced/patches/youtube/utils/flyoutmenu/FlyoutMenuHookPatchKt {
 	public static final fun getFlyoutMenuHookPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
+public final class app/revanced/patches/youtube/utils/fullscreen/FullscreenButtonHookPatchKt {
+	public static final fun getFullscreenButtonHookPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
 public final class app/revanced/patches/youtube/utils/gms/GmsCoreSupportPatchKt {

@@ -820,6 +820,28 @@
     "options": []
   },
   {
+    "name": "Disable music video in album",
+    "description": "Adds option to redirect music videos from albums.",
+    "use": false,
+    "dependencies": [
+      "Settings for YouTube Music",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "6.20.51",
+        "6.29.59",
+        "6.42.55",
+        "6.51.53",
+        "7.16.53",
+        "7.25.53"
+      ]
+    },
+    "options": []
+  },
+  {
     "name": "Disable resuming Shorts on startup",
     "description": "Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched.",
     "use": true,
@@ -1085,6 +1107,9 @@
     "use": true,
     "dependencies": [
       "Settings for YouTube",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
       "BytecodePatch",
       "BytecodePatch",
       "ResourcePatch",
@@ -1493,7 +1518,8 @@
       "BytecodePatch",
       "ResourcePatch",
       "BytecodePatch",
-      "BytecodePatch"
+      "BytecodePatch",
+      "ResourcePatch"
     ],
     "compatiblePackages": {
       "com.google.android.youtube": [

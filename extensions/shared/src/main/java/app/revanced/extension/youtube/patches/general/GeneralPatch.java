@@ -206,8 +206,6 @@ public class GeneralPatch {
 
     // region [Hide navigation bar components] patch
 
-    private static final int fillBellCairoBlack = ResourceUtils.getDrawableIdentifier("yt_fill_bell_cairo_black_24");
-
     private static final Map<NavigationButton, Boolean> shouldHideMap = new EnumMap<>(NavigationButton.class) {
         {
             put(NavigationButton.HOME, Settings.HIDE_NAVIGATION_HOME_BUTTON.get());
@@ -231,6 +229,7 @@ public class GeneralPatch {
      * @noinspection ALL
      */
     public static void setCairoNotificationFilledIcon(EnumMap enumMap, Enum tabActivityCairo) {
+        final int fillBellCairoBlack = ResourceUtils.getDrawableIdentifier("yt_fill_bell_cairo_black_24");
         if (fillBellCairoBlack != 0) {
             // It's very unlikely, but Google might fix this issue someday.
             // If so, [fillBellCairoBlack] might already be in enumMap.
@@ -240,7 +239,12 @@ public class GeneralPatch {
     }
 
     public static boolean switchCreateWithNotificationButton(boolean original) {
-        return Settings.SWITCH_CREATE_WITH_NOTIFICATIONS_BUTTON.get() || original;
+        try {
+            return Settings.SWITCH_CREATE_WITH_NOTIFICATIONS_BUTTON.get() || original;
+        } catch (Exception ex) {
+            Logger.printException(() -> "switchCreateWithNotificationButton Failed", ex);
+        }
+        return original;
     }
 
     public static void navigationTabCreated(NavigationButton button, View tabView) {
@@ -322,9 +326,6 @@ public class GeneralPatch {
 
     // region [Toolbar components] patch
 
-    private static final int generalHeaderAttributeId = ResourceUtils.getAttrIdentifier("ytWordmarkHeader");
-    private static final int premiumHeaderAttributeId = ResourceUtils.getAttrIdentifier("ytPremiumWordmarkHeader");
-
     public static void setDrawerNavigationHeader(View lithoView) {
         final int headerAttributeId = getHeaderAttributeId();
 
@@ -342,8 +343,8 @@ public class GeneralPatch {
 
     public static int getHeaderAttributeId() {
         return Settings.CHANGE_YOUTUBE_HEADER.get()
-                ? premiumHeaderAttributeId
-                : generalHeaderAttributeId;
+                ? ResourceUtils.getAttrIdentifier("ytPremiumWordmarkHeader")
+                : ResourceUtils.getAttrIdentifier("ytWordmarkHeader");
     }
 
     public static boolean overridePremiumHeader() {
@@ -354,11 +355,6 @@ public class GeneralPatch {
         // Rest of the implementation added by patch.
         return ResourceUtils.getDrawable("");
     }
-
-    private static final int searchBarId = ResourceUtils.getIdIdentifier("search_bar");
-    private static final int youtubeTextId = ResourceUtils.getIdIdentifier("youtube_text");
-    private static final int searchBoxId = ResourceUtils.getIdIdentifier("search_box");
-    private static final int searchIconId = ResourceUtils.getIdIdentifier("search_icon");
 
     private static final boolean wideSearchbarEnabled = Settings.ENABLE_WIDE_SEARCH_BAR.get();
     // Loads the search bar deprecated by Google.
@@ -398,12 +394,18 @@ public class GeneralPatch {
     public static void setWideSearchBarLayout(View view) {
         if (!wideSearchbarEnabled)
             return;
+
+        final int searchBarId = ResourceUtils.getIdIdentifier("search_bar");
         if (!(view.findViewById(searchBarId) instanceof RelativeLayout searchBarView))
             return;
 
         // When the deprecated search bar is loaded, two search bars overlap.
         // Manually hides another search bar.
         if (wideSearchbarWithHeaderEnabled) {
+            final int youtubeTextId = ResourceUtils.getIdIdentifier("youtube_text");
+            final int searchBoxId = ResourceUtils.getIdIdentifier("search_box");
+            final int searchIconId = ResourceUtils.getIdIdentifier("search_icon");
+
             final View searchIconView = searchBarView.findViewById(searchIconId);
             final View searchBoxView = searchBarView.findViewById(searchBoxId);
             final View textView = searchBarView.findViewById(youtubeTextId);

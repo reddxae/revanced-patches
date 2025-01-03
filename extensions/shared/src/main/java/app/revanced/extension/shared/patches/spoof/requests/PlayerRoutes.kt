@@ -71,7 +71,7 @@ object PlayerRoutes {
                 client.put("deviceMake", "Apple")
                 client.put("osName", "iOS")
             }
-            if (!clientType.canLogin) {
+            if (!clientType.supportsCookies) {
                 client.put("hl", LOCALE_LANGUAGE)
             }
 

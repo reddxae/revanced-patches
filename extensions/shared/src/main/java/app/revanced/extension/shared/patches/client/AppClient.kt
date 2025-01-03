@@ -207,8 +207,14 @@ object AppClient {
         val clientVersion: String,
         /**
          * If the client can access the API logged in.
+         * If false, 'Authorization' must not be included.
          */
-        val canLogin: Boolean = true,
+        val supportsCookies: Boolean = true,
+        /**
+         * If the client can only access the API logged in.
+         * If true, 'Authorization' must be included.
+         */
+        val requireAuth: Boolean = false,
         /**
          * Whether a poToken is required to get playback for more than 1 minute.
          */
@@ -234,6 +240,7 @@ object AppClient {
             userAgent = USER_AGENT_ANDROID_UNPLUGGED,
             androidSdkVersion = ANDROID_SDK_VERSION_ANDROID_UNPLUGGED,
             clientVersion = CLIENT_VERSION_ANDROID_UNPLUGGED,
+            requireAuth = true,
             friendlyName = "Android TV"
         ),
         IOS_UNPLUGGED(
@@ -242,6 +249,7 @@ object AppClient {
             osVersion = OS_VERSION_IOS,
             userAgent = USER_AGENT_IOS_UNPLUGGED,
             clientVersion = CLIENT_VERSION_IOS_UNPLUGGED,
+            requireAuth = true,
             friendlyName = if (forceAVC())
                 "iOS TV Force AVC"
             else
@@ -253,7 +261,7 @@ object AppClient {
             osVersion = OS_VERSION_IOS,
             userAgent = USER_AGENT_IOS,
             clientVersion = CLIENT_VERSION_IOS,
-            canLogin = false,
+            supportsCookies = false,
             requirePoToken = true,
             friendlyName = if (forceAVC())
                 "iOS Force AVC"
@@ -265,6 +273,7 @@ object AppClient {
             userAgent = USER_AGENT_ANDROID_MUSIC,
             androidSdkVersion = ANDROID_SDK_VERSION_ANDROID_MUSIC,
             clientVersion = CLIENT_VERSION_ANDROID_MUSIC,
+            requireAuth = true,
             friendlyName = "Android Music"
         );
 

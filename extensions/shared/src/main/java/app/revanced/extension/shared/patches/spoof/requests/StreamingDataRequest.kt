@@ -194,7 +194,7 @@ class StreamingDataRequest private constructor(
                     var value = playerHeaders[key]
                     if (value != null) {
                         if (key == AUTHORIZATION_HEADER) {
-                            if (!clientType.canLogin) {
+                            if (!clientType.supportsCookies) {
                                 Logger.printDebug { "Not including request header: $key" }
                                 continue
                             }
@@ -260,6 +260,11 @@ class StreamingDataRequest private constructor(
 
             // Retry with different client if empty response body is received.
             for (clientType in CLIENT_ORDER_TO_USE) {
+                if (clientType.requireAuth &&
+                    playerHeaders[AUTHORIZATION_HEADER] == null) {
+                    Logger.printDebug { "Skipped login-required client (incognito mode or not logged in)\nClient: $clientType\nVideo: $videoId" }
+                    continue
+                }
                 send(
                     clientType,
                     videoId,

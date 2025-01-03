@@ -293,6 +293,7 @@
     <string name="revanced_preference_screen_general_title">عام</string>
     <string name="revanced_change_start_page_title">تغيير صفحة البداية</string>
     <string name="revanced_change_start_page_entry_browse">تصفح القنوات</string>
+    <string name="revanced_change_start_page_entry_courses">الدورات / التعلم</string>
     <string name="revanced_change_start_page_entry_default">الافتراضي</string>
     <string name="revanced_change_start_page_entry_explore">اكتشف</string>
     <string name="revanced_change_start_page_entry_gaming">ألعاب فيديو</string>
@@ -302,12 +303,14 @@
     <string name="revanced_change_start_page_entry_live">بث مباشر</string>
     <string name="revanced_change_start_page_entry_movies">أفلام</string>
     <string name="revanced_change_start_page_entry_music">موسيقى</string>
+    <string name="revanced_change_start_page_entry_notifications">الإشعارات</string>
     <string name="revanced_change_start_page_entry_search">البحث</string>
     <string name="revanced_change_start_page_entry_shorts">Shorts</string>
     <string name="revanced_change_start_page_entry_sports">رياضة</string>
     <string name="revanced_change_start_page_entry_subscriptions">الاشتراكات</string>
     <string name="revanced_change_start_page_entry_trending">المحتوى الرائج</string>
     <string name="revanced_change_start_page_entry_watch_later">المشاهدة لاحقًا</string>
+    <string name="revanced_change_start_page_entry_your_clips">فيديوهاتك</string>
     <string name="revanced_change_start_page_type_title">تغيير نوع صفحة البداية</string>
     <string name="revanced_change_start_page_type_summary_on">"تتغير صفحة البدء دائمًا.
 
@@ -322,6 +325,9 @@
     <string name="revanced_disable_splash_animation_title">تعطيل تأثيرات الحركة</string>
     <string name="revanced_disable_splash_animation_summary_on">تم تعطيل تأثيرات الحركة.</string>
     <string name="revanced_disable_splash_animation_summary_off">تم تمكين تأثيرات الحركة.</string>
+    <string name="revanced_disable_translucent_status_bar_title">تعطيل شريط الحالة الشفاف</string>
+    <string name="revanced_disable_translucent_status_bar_summary_on">شريط الحالة غير شفاف.</string>
+    <string name="revanced_disable_translucent_status_bar_summary_off">شريط الحالة معتم أو شفاف.</string>
     <string name="revanced_enable_gradient_loading_screen_title">تمكين شاشة التحميل المتدرجة</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">تم تمكين شاشة التحميل المتدرجة الملونة.</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">تم تعطيل شاشة التحميل المتدرجة الملونة.</string>
@@ -493,6 +499,9 @@
 كما لن يتم حظر الإعلانات في فيديوهات Shorts بعد الآن.
 
 إذا لم يتم تفعيل هذا الإعداد، فحاول التبديل إلى وضع التصفح المتخفي."</string>
+    <string name="revanced_enable_translucent_navigation_bar_title">تمكين شريط التنقل الشفاف</string>
+    <string name="revanced_enable_translucent_navigation_bar_summary_on">شريط التنقل شفاف.</string>
+    <string name="revanced_enable_translucent_navigation_bar_summary_off">شريط التنقل غير شفاف.</string>
     <string name="revanced_hide_navigation_bar_title">إخفاء شريط التنقل</string>
     <string name="revanced_hide_navigation_bar_summary_on">تم إخفاء شريط التنقل.</string>
     <string name="revanced_hide_navigation_bar_summary_off">يتم عرض شريط التنقل.</string>
@@ -907,11 +916,6 @@
     <string name="revanced_enable_compact_controls_overlay_title">تمكين تراكب التحكم المدمج</string>
     <string name="revanced_enable_compact_controls_overlay_summary_on">لا يملأ تراكب عناصر التحكم الشاشة الكاملة.</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">يملأ تراكب عناصر التحكم الشاشة الكاملة.</string>
-    <string name="revanced_force_fullscreen_title">فرض ملء الشاشة</string>
-    <string name="revanced_force_fullscreen_summary">"سيتم تحويل الفيديوهات إلى وضع ملء الشاشة في المواقف التالية:
-
-• عند بدء تشغيل الفيديو.
-• عندما يتم النقر على الطابع الزمني في التعليقات."</string>
     <string name="revanced_keep_landscape_mode_title">الإبقاء على الوضع الأفقي</string>
     <string name="revanced_keep_landscape_mode_summary">يحافظ على الوضع الأفقي عند إيقاف تشغيل الشاشة وتشغيلها في وضع ملء الشاشة.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">مهلة إبقاء الوضع الأفقي</string>
@@ -1384,12 +1388,18 @@
     <string name="revanced_disable_hdr_auto_brightness_title">تعطيل سطوع HDR التلقائي</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">تم تعطيل سطوع HDR التلقائي.</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">تم تمكين سطوع HDR التلقائي.</string>
-    <string name="revanced_disable_watch_panel_gestures_title">تعطيل إيماءات لوح المشاهدة</string>
-    <string name="revanced_disable_watch_panel_gestures_summary_on">تم تعطيل الدخول إلى وضع ملء الشاشة عند التمرير لأسفل أسفل مشغل الفيديو.</string>
-    <string name="revanced_disable_watch_panel_gestures_summary_off">تم تمكين الدخول إلى وضع ملء الشاشة عند التمرير لأسفل أسفل مشغل الفيديو.</string>
     <string name="revanced_disable_swipe_to_switch_video_title">تعطيل التمرير لتغيير الفيديو</string>
-    <string name="revanced_disable_swipe_to_switch_video_summary_on">لن يؤدي التمرير لأعلى/لأسفل إلى تشغيل الفيديو التالي/السابق.</string>
-    <string name="revanced_disable_swipe_to_switch_video_summary_off">سيؤدي التمرير لأعلى/لأسفل إلى تشغيل الفيديو التالي/السابق.</string>
+    <string name="revanced_disable_swipe_to_switch_video_summary_on">لن يؤدي التمرير لأعلى/لأسفل في وضع ملء الشاشة إلى الانتقال إلى الفيديو التالي/السابق.</string>
+    <string name="revanced_disable_swipe_to_switch_video_summary_off">سيؤدي التمرير لأعلى/لأسفل في وضع ملء الشاشة إلى الانتقال إلى الفيديو التالي/السابق.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_title">تعطيل التمرير للدخول إلى وضع ملء الشاشة (أسفل المشغل)</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_summary_on">لن يؤدي التمرير لأسفل أسفل المشغل إلى الدخول إلى وضع ملء الشاشة.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_summary_off">سيؤدي التمرير لأسفل أسفل المشغل إلى الدخول إلى وضع ملء الشاشة.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_title">تعطيل التمرير للدخول إلى وضع ملء الشاشة (في المشغل)</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_summary_on">لن يؤدي التمرير لأعلى في المشغل إلى الدخول إلى وضع ملء الشاشة.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_summary_off">سيؤدي التمرير لأعلى في المشغل إلى الدخول إلى وضع ملء الشاشة.</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_title">تعطيل التمرير للخروج من وضع ملء الشاشة</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_summary_on">لن يؤدي التمرير لأسفل في وضع ملء الشاشة إلى الخروج من وضع ملء الشاشة.</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_summary_off">سيؤدي التمرير لأسفل في وضع ملء الشاشة إلى الخروج من وضع ملء الشاشة.</string>
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">تلقائي</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">الفيديو</string>
@@ -1399,9 +1409,6 @@
     <string name="revanced_disable_hdr_video_title">تعطيل فيديو HDR</string>
     <string name="revanced_disable_hdr_video_summary_on">تم تعطيل فيديو HDR.</string>
     <string name="revanced_disable_hdr_video_summary_off">تم تمكين فيديو HDR.</string>
-    <string name="revanced_disable_default_playback_speed_live_title">تعطيل سرعة التشغيل للبث المباشر</string>
-    <string name="revanced_disable_default_playback_speed_live_summary_on">تم تعطيل سرعة التشغيل الافتراضية للبث المباشر.</string>
-    <string name="revanced_disable_default_playback_speed_live_summary_off">تم تمكين سرعة التشغيل الافتراضية للبث المباشر.</string>
     <string name="revanced_enable_custom_playback_speed_title">تمكين سرعة التشغيل المخصصة</string>
     <string name="revanced_enable_custom_playback_speed_summary_on">تم تمكين سرعة التشغيل المخصصة.</string>
     <string name="revanced_enable_custom_playback_speed_summary_off">تم تعطيل سرعة التشغيل المخصصة.</string>
@@ -1426,9 +1433,6 @@
     <string name="revanced_restore_old_video_quality_menu_summary_on">يتم عرض قائمة جودة الفيديو القديمة.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">لا يتم عرض قائمة جودة الفيديو القديمة.</string>
     <string name="revanced_disable_default_playback_speed_music_title">تعطيل سرعة التشغيل للموسيقى</string>
-    <string name="revanced_disable_default_playback_speed_music_on">"تم تعطيل سرعة التشغيل الافتراضية للموسيقى.
-
-التقييد: قد لا ينطبق هذا الإعداد على الفيديوهات التي لا تتضمن لافتة \"الاستماع على YouTube Music\"."</string>
     <string name="revanced_disable_default_playback_speed_music_off">تم تمكين سرعة التشغيل الافتراضية للموسيقى.</string>
     <string name="revanced_enable_default_playback_speed_shorts_title">تمكين سرعة التشغيل الافتراضية لفيديوهات Shorts</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">تنطبق سرعة التشغيل الافتراضية على Shorts.</string>
@@ -1774,20 +1778,28 @@
     <string name="revanced_spoof_streaming_data_summary_off">"لا يتم تزييف بيانات البث. قد لا يعمل تشغيل الفيديو."</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">إيقاف تشغيل هذا الإعداد قد يسبب مشاكل في تشغيل الفيديو.</string>
     <string name="revanced_spoof_streaming_data_type_title">العميل الافتراضي</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">iOS TV</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">التأثيرات الجانبية للتزييف</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android">"• قائمة المقطع الصوتي مفقودة.
-• مستوى الصوت الثابت غير متاح.
-• تعطيل مقاطع الصوت التلقائية المفروضة غير متاح."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• لم يتم العثور عليه بعد.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">• قد لا يتم تشغيل الأفلام أو الفيديوهات المدفوعة.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_title">فرض iOS AVC (H.264)</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">يتم فرض ترميز الفيديو على AVC (H.264).</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">يتم تحديد ترميز الفيديو تلقائيًا.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"قد يؤدي تمكين هذا إلى تحسين عمر البطارية وإصلاح تقطيع التشغيل.
+
+AVC لديه حد أقصى للدقة 1080p، لا يتوفر ترميز الصوت Opus، وسوف يستخدم تشغيل الفيديو بيانات إنترنت أكثر من VP9 أو AV1."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">عرض في إحصاءات تقنية</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">يتم عرض العميل المستخدم لجلب بيانات البث في إحصاءات تقنية.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">تم إخفاء العميل المستخدم لجلب بيانات البث في إحصاءات تقنية.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
+    <string name="revanced_preference_category_po_token_visitor_data">PoToken / VisitorData</string>
+    <string name="revanced_spoof_streaming_data_po_token_title">استخدام PoToken</string>
+    <string name="revanced_spoof_streaming_data_po_token_summary">PoToken الصادرة عن BotGuard في متصفح موثوق به.</string>
+    <string name="revanced_spoof_streaming_data_visitor_data_title">استخدام VisitorData</string>
+    <string name="revanced_spoof_streaming_data_visitor_data_summary">VisitorsData الصادرة عن BotGuard في متصفح موثوق به.</string>
+    <string name="revanced_spoof_streaming_data_po_token_visitor_data_about_title">لمحة عن PoToken / VisitorData</string>
+    <string name="revanced_spoof_streaming_data_po_token_visitor_data_about_summary">"يتطلب بعض العملاء PoToken و VisitorData للحصول على استجابة صالحة لتدفق البيانات.
+
+إذا كنت تحاول استخدام iOS كعميل افتراضي، فقد تحتاج إلى هذه القيم.
+
+انقر لمعرفة المزيد من المعلومات."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">سجل المشاهدة</string>
     <string name="revanced_preference_screen_watch_history_summary">تغيير الإعدادات المتعلقة بسجل المشاهدة.</string>

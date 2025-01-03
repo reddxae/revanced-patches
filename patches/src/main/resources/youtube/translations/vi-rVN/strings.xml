@@ -294,6 +294,7 @@ Nếu bố cục của màn hình trình phát thay đổi do các thay đổi t
     <string name="revanced_preference_screen_general_title">Tổng quan</string>
     <string name="revanced_change_start_page_title">Thay đổi trang khởi động</string>
     <string name="revanced_change_start_page_entry_browse">Duyệt kênh</string>
+    <string name="revanced_change_start_page_entry_courses">Học tập</string>
     <string name="revanced_change_start_page_entry_default">Mặc định</string>
     <string name="revanced_change_start_page_entry_explore">Khám phá</string>
     <string name="revanced_change_start_page_entry_gaming">Trò chơi</string>
@@ -303,12 +304,14 @@ Nếu bố cục của màn hình trình phát thay đổi do các thay đổi t
     <string name="revanced_change_start_page_entry_live">Trực tiếp</string>
     <string name="revanced_change_start_page_entry_movies">Phim</string>
     <string name="revanced_change_start_page_entry_music">Âm nhạc</string>
+    <string name="revanced_change_start_page_entry_notifications">Thông báo</string>
     <string name="revanced_change_start_page_entry_search">Tìm kiếm</string>
     <string name="revanced_change_start_page_entry_shorts">Shorts</string>
     <string name="revanced_change_start_page_entry_sports">Thể thao</string>
     <string name="revanced_change_start_page_entry_subscriptions">Kênh đăng ký</string>
     <string name="revanced_change_start_page_entry_trending">Thịnh hành</string>
     <string name="revanced_change_start_page_entry_watch_later">Xem sau</string>
+    <string name="revanced_change_start_page_entry_your_clips">Đoạn video của bạn</string>
     <string name="revanced_change_start_page_type_title">Thay đổi kiểu trang khởi động</string>
     <string name="revanced_change_start_page_type_summary_on">"Trang khởi động sẽ liên tục thay đổi.
 
@@ -323,6 +326,9 @@ Hạn chế: Nút Quay lại trên thanh công cụ có thể không hoạt đ�
     <string name="revanced_disable_splash_animation_title">Tắt hoạt ảnh khi ứng dụng khởi chạy</string>
     <string name="revanced_disable_splash_animation_summary_on">Hoạt ảnh khi ứng dụng khởi chạy đã tắt.</string>
     <string name="revanced_disable_splash_animation_summary_off">Hoạt ảnh khi ứng dụng khởi chạy được bật.</string>
+    <string name="revanced_disable_translucent_status_bar_title">Vô hiệu hoá thanh trạng thái trong suốt</string>
+    <string name="revanced_disable_translucent_status_bar_summary_on">Thanh trạng thái không còn trong suốt.</string>
+    <string name="revanced_disable_translucent_status_bar_summary_off">Thanh trạng thái có thể trong suốt hoặc không.</string>
     <string name="revanced_enable_gradient_loading_screen_title">Màn hình tải hiệu ứng gradient</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">Màn hình tải hiệu ứng gradient đã bật.</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">Màn hình tải hiệu ứng gradient đã tắt.</string>
@@ -495,6 +501,9 @@ Lưu ý: Bật tuỳ chọn này cũng sẽ ẩn các quảng cáo dạng video.
 Ngoài ra, quảng cáo sẽ không còn bị chặn trong trình phát Shorts.
 
 Nếu cài đặt này không có hiệu lực, hãy thử chuyển sang chế độ Ẩn danh."</string>
+    <string name="revanced_enable_translucent_navigation_bar_title">Thanh điều hướng trong suốt</string>
+    <string name="revanced_enable_translucent_navigation_bar_summary_on">Thanh điều hướng trong suốt đang được áp dụng.</string>
+    <string name="revanced_enable_translucent_navigation_bar_summary_off">Thanh điều hướng mặc định đang được áp dụng.</string>
     <string name="revanced_hide_navigation_bar_title">Ẩn thanh điều hướng</string>
     <string name="revanced_hide_navigation_bar_summary_on">Thanh điều hướng đã ẩn.</string>
     <string name="revanced_hide_navigation_bar_summary_off">Thanh điều hướng được hiển thị.</string>
@@ -909,11 +918,6 @@ Hạn chế: Tiêu đề video sẽ biến mất khi nhấn vào."</string>
     <string name="revanced_enable_compact_controls_overlay_title">Lớp phủ điều khiển trình phát thu gọn</string>
     <string name="revanced_enable_compact_controls_overlay_summary_on">Lớp phủ điều khiển trình phát thu gọn đã bật.</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">Lớp phủ điều khiển trình phát thu gọn đã tắt.</string>
-    <string name="revanced_force_fullscreen_title">Buộc áp dụng chế độ toàn màn hình</string>
-    <string name="revanced_force_fullscreen_summary">"Video sẽ chuyển sang chế độ toàn màn hình trong các trường hợp sau:
-
-• Khi video bắt đầu.
-• Khi nhấn vào dấu thời gian trong Phần bình luận."</string>
     <string name="revanced_keep_landscape_mode_title">Giữ chế độ toàn màn hình</string>
     <string name="revanced_keep_landscape_mode_summary">Giữ chế độ toàn màn hình hoạt động trong lúc bạn tắt và đánh thức thiết bị khi đang xem chế độ toàn màn hình.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">Thời gian giữ chế độ toàn màn hình (mili giây)</string>
@@ -1376,12 +1380,18 @@ Không còn lề trên và dưới trong trình phát."</string>
     <string name="revanced_disable_hdr_auto_brightness_title">Tắt độ sáng HDR tự động</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">Độ sáng HDR tự động đã tắt.</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">Độ sáng HDR tự động đã bật.</string>
-    <string name="revanced_disable_watch_panel_gestures_title">Tắt cử chỉ bên dưới trình phát</string>
-    <string name="revanced_disable_watch_panel_gestures_summary_on">Cử chỉ vuốt xuống từ khu vực bên dưới trình phát để xem video ở chế độ toàn màn hình dọc đã tắt.</string>
-    <string name="revanced_disable_watch_panel_gestures_summary_off">Cử chỉ vuốt xuống từ khu vực bên dưới trình phát để xem video ở chế độ toàn màn hình dọc được bật.</string>
     <string name="revanced_disable_swipe_to_switch_video_title">Vuốt để chuyển video</string>
-    <string name="revanced_disable_swipe_to_switch_video_summary_on">Vuốt lên/xuống sẽ không phát video tiếp theo hoặc trước đó.</string>
-    <string name="revanced_disable_swipe_to_switch_video_summary_off">Vuốt lên/xuống sẽ phát video tiếp theo hoặc trước đó.</string>
+    <string name="revanced_disable_swipe_to_switch_video_summary_on">Vuốt lên/xuống trong chế độ toàn màn hình sẽ không phát video tiếp theo/trước đó.</string>
+    <string name="revanced_disable_swipe_to_switch_video_summary_off">Vuốt lên/xuống trong chế độ toàn màn hình sẽ phát video tiếp theo/trước đó.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_title">Tắt vuốt để chuyển sang chế độ toàn màn hình (bên dưới trình phát)</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_summary_on">Vuốt xuống bên dưới trình phát sẽ không chuyển sang chế độ toàn màn hình.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_summary_off">Vuốt xuống bên dưới trình phát để chuyển sang chế độ toàn màn hình.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_title">Tắt vuốt để chuyển sang chế độ toàn màn hình (trong trình phát)</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_summary_on">Vuốt xuống trong trình phát sẽ không chuyển sang chế độ toàn màn hình.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_summary_off">Vuốt xuống trong trình phát để chuyển sang chế độ toàn màn hình.</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_title">Tắt vuốt để thoát chế độ toàn màn hình</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_summary_on">Vuốt xuống trong chế độ toàn màn hình sẽ không thoát khỏi chế độ này.</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_summary_off">Vuốt xuống trong chế độ toàn màn hình để thoát khỏi chế độ này.</string>
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">Tự động</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Video</string>
@@ -1391,9 +1401,6 @@ Không còn lề trên và dưới trong trình phát."</string>
     <string name="revanced_disable_hdr_video_title">Tắt video HDR</string>
     <string name="revanced_disable_hdr_video_summary_on">Video HDR đã tắt.</string>
     <string name="revanced_disable_hdr_video_summary_off">Video HDR đã bật.</string>
-    <string name="revanced_disable_default_playback_speed_live_title">Tắt tùy chọn tốc độ phát khi xem trực tiếp</string>
-    <string name="revanced_disable_default_playback_speed_live_summary_on">Tốc độ phát mặc định bị tắt khi xem sự kiện trực tiếp và buổi công chiếu.</string>
-    <string name="revanced_disable_default_playback_speed_live_summary_off">Tốc độ phát mặc định được bật khi xem sự kiện trực tiếp và buổi công chiếu.</string>
     <string name="revanced_enable_custom_playback_speed_title">Tốc độ phát tuỳ chỉnh</string>
     <string name="revanced_enable_custom_playback_speed_summary_on">Đang áp dụng các giá trị tốc độ phát video tuỳ chỉnh.</string>
     <string name="revanced_enable_custom_playback_speed_summary_off">Đang áp dụng các giá trị tốc độ phát video mặc định.</string>
@@ -1418,9 +1425,6 @@ Không còn lề trên và dưới trong trình phát."</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">Mục chất lượng video kiểu cũ được hiển thị.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Mục chất lượng video kiểu cũ không được hiển thị.</string>
     <string name="revanced_disable_default_playback_speed_music_title">Tắt tùy chọn tốc độ phát khi phát nhạc</string>
-    <string name="revanced_disable_default_playback_speed_music_on">"Tốc độ phát mặc định đã bị vô hiệu hoá khi phát nhạc.
-
-Hạn chế: Cài đặt này có thể không áp dụng cho các video không bao gồm biểu ngữ \"Nghe trên YouTube Music\"."</string>
     <string name="revanced_disable_default_playback_speed_music_off">Tốc độ phát mặc định được kích hoạt khi phát nhạc.</string>
     <string name="revanced_enable_default_playback_speed_shorts_title">Tốc độ phát mặc định cho video ngắn</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">Tốc độ phát mặc định đã đặt đang được áp dụng khi xem Shorts.</string>
@@ -1767,20 +1771,31 @@ Nhấn vào Tiếp tục và cho phép thay đổi lựa chọn tối ưu hoá p
     <string name="revanced_spoof_streaming_data_summary_off">"Luồng dữ liệu trực tuyến chưa được giả mạo. Khi phát video có thể gặp sự cố đứng hình."</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">Tắt cài đặt này có thể gây ra sự cố phát video.</string>
     <string name="revanced_spoof_streaming_data_type_title">Ứng dụng khách mặc định</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">iOS TV</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Hạn chế</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android">"• Mục Bản âm thanh bị thiếu.
-• Âm lượng ổn định không khả dụng.
-• Tắt bắt buộc bản âm thanh tự động không khả dụng."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• Chưa tìm thấy.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">• Phim hoặc video trả phí có thể không phát được.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_title">Bắt buộc iOS sử dụng AVC (H.264)</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Codec video bị ép buộc thành AVC (H.264).</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">Codec video được xác định tự động.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"Bật tính năng này giúp cải thiện thời lượng sử dụng pin và khắc phục sự cố phát video.
+
+Hạn chế:
+• AVC có độ phân giải tối đa là 1080p.
+• Codec âm thanh OPUS không khả dụng.
+• Dùng nhiều dữ liệu di động hơn với VP9 hoặc AV1."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Hiển thị trong Thống kê chi tiết</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Ứng dụng khách sử dụng để nạp luồng dữ liệu trực tuyến được hiển thị trong Thống kê chi tiết.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Ứng dụng khách sử dụng để nạp luồng dữ liệu trực tuyến đã ẩn trong Thống kê chi tiết.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
+    <string name="revanced_preference_category_po_token_visitor_data">PoToken/VisitorData</string>
+    <string name="revanced_spoof_streaming_data_po_token_title">PoToken</string>
+    <string name="revanced_spoof_streaming_data_po_token_summary">Được cung cấp bởi BotGuard trên trình duyệt đáng tin cậy.</string>
+    <string name="revanced_spoof_streaming_data_visitor_data_title">VisitorData</string>
+    <string name="revanced_spoof_streaming_data_visitor_data_summary">Được cung cấp bởi BotGuard trên trình duyệt đáng tin cậy.</string>
+    <string name="revanced_spoof_streaming_data_po_token_visitor_data_about_title">Giới thiệu về PoToken/VisitorData</string>
+    <string name="revanced_spoof_streaming_data_po_token_visitor_data_about_summary">"Một số ứng dụng khách yêu cầu PoToken và VisitorData để nhận được phản hồi dữ liệu trực tuyến hợp lệ.
+
+Nếu bạn đang cố sử dụng iOS làm ứng dụng khách mặc định, thì có thể bạn sẽ cần những giá trị này.
+
+Nhấp vào đây để biết thêm chi tiết."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">Nhật ký xem</string>
     <string name="revanced_preference_screen_watch_history_summary">Thay đổi cài đặt liên quan đến nhật ký xem.</string>

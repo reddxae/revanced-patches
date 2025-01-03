@@ -304,6 +304,7 @@ Shorts
     <string name="revanced_preference_screen_general_title">Основные настройки</string>
     <string name="revanced_change_start_page_title">Начальная страница</string>
     <string name="revanced_change_start_page_entry_browse">Обзор каналов</string>
+    <string name="revanced_change_start_page_entry_courses">Курсы / Обучение</string>
     <string name="revanced_change_start_page_entry_default">По умолчанию</string>
     <string name="revanced_change_start_page_entry_explore">Навигатор</string>
     <string name="revanced_change_start_page_entry_gaming">Игры</string>
@@ -313,12 +314,14 @@ Shorts
     <string name="revanced_change_start_page_entry_live">Трансляции</string>
     <string name="revanced_change_start_page_entry_movies">Фильмы</string>
     <string name="revanced_change_start_page_entry_music">Музыка</string>
+    <string name="revanced_change_start_page_entry_notifications">Уведомления</string>
     <string name="revanced_change_start_page_entry_search">Поиск</string>
     <string name="revanced_change_start_page_entry_shorts">Shorts</string>
     <string name="revanced_change_start_page_entry_sports">Спорт</string>
     <string name="revanced_change_start_page_entry_subscriptions">Подписки</string>
     <string name="revanced_change_start_page_entry_trending">В тренде</string>
     <string name="revanced_change_start_page_entry_watch_later">Смотреть позже</string>
+    <string name="revanced_change_start_page_entry_your_clips">Ваши клипы</string>
     <string name="revanced_change_start_page_type_title">Тип начальной страницы</string>
     <string name="revanced_change_start_page_type_summary_on">"Начальная страница постоянно изменяется.
 Ограничение: Кнопка возврат может не работать."</string>
@@ -332,6 +335,9 @@ Shorts
     <string name="revanced_disable_splash_animation_title">Анимированная заставка</string>
     <string name="revanced_disable_splash_animation_summary_on">Анимированная заставка отключена.</string>
     <string name="revanced_disable_splash_animation_summary_off">Анимированная заставка включена.</string>
+    <string name="revanced_disable_translucent_status_bar_title">Полупрозрачность строки состояния</string>
+    <string name="revanced_disable_translucent_status_bar_summary_on">Полупрозрачность включена.</string>
+    <string name="revanced_disable_translucent_status_bar_summary_off">Полупрозрачность отключена.</string>
     <string name="revanced_enable_gradient_loading_screen_title">Переливающийся экран загрузки</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">Переливающийся экран загрузки включен.</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">Переливающийся экран загрузки отключен.</string>
@@ -504,6 +510,9 @@ Shorts
 Кроме того, реклама больше не будет блокироваться в Shorts.
 
 Если эта настройка не вступила в силу, попробуйте перейти в режим инкогнито."</string>
+    <string name="revanced_enable_translucent_navigation_bar_title">Полупрозрачность панели навигации</string>
+    <string name="revanced_enable_translucent_navigation_bar_summary_on">Полупрозрачность включена.</string>
+    <string name="revanced_enable_translucent_navigation_bar_summary_off">Полупрозрачность отключена.</string>
     <string name="revanced_hide_navigation_bar_title">Панель навигации</string>
     <string name="revanced_hide_navigation_bar_summary_on">Панель навигации скрыта.</string>
     <string name="revanced_hide_navigation_bar_summary_off">Панель навигации отображена.</string>
@@ -917,11 +926,6 @@ Shorts
     <string name="revanced_enable_compact_controls_overlay_title">Компактные элементы управления</string>
     <string name="revanced_enable_compact_controls_overlay_summary_on">Наложение элементов управления не полноэкранное.</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">Наложение элементов управления полноэкранное.</string>
-    <string name="revanced_force_fullscreen_title">Принудительный полноэкранный режим</string>
-    <string name="revanced_force_fullscreen_summary">"Видео будут переведены в полноэкранный режим при:
-
-• Нажатии на временную метку в комментариях.
-• Запуске видео."</string>
     <string name="revanced_keep_landscape_mode_title">Удерживать альбомный режим</string>
     <string name="revanced_keep_landscape_mode_summary">Удерживает альбомный режим в полноэкранном режиме.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">Сохранять таймаут альбомного режима</string>
@@ -1392,12 +1396,18 @@ Shorts
     <string name="revanced_disable_hdr_auto_brightness_title">Автояркость HDR</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">Автояркость HDR отключена.</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">Автояркость HDR включена.</string>
-    <string name="revanced_disable_watch_panel_gestures_title">Жесты панели просмотра</string>
-    <string name="revanced_disable_watch_panel_gestures_summary_on">Полноэкранный режим жестом вниз отключен.</string>
-    <string name="revanced_disable_watch_panel_gestures_summary_off">Полноэкранный режим жестом вниз включен.</string>
     <string name="revanced_disable_swipe_to_switch_video_title">Переключение видео жестом</string>
     <string name="revanced_disable_swipe_to_switch_video_summary_on">Переключение видео жестами отключены.</string>
     <string name="revanced_disable_swipe_to_switch_video_summary_off">Переключение видео жестами включены.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_title">Жест полноэкранного режима (под плеером)</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_summary_on">Жест под плеером отключен.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_summary_off">Жест под плеером включен.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_title">Жест полноэкранного режима (в плеере)</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_summary_on">Жест в плеере отключен.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_summary_off">Жест в плеере включен.</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_title">Жест выхода из полноэкранного режима</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_summary_on">Жест выхода из режима отключен.</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_summary_off">Жест выхода из режима включен.</string>
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">Авто</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Видео</string>
@@ -1407,9 +1417,6 @@ Shorts
     <string name="revanced_disable_hdr_video_title">HDR видео</string>
     <string name="revanced_disable_hdr_video_summary_on">HDR видео отключены.</string>
     <string name="revanced_disable_hdr_video_summary_off">HDR видео включены.</string>
-    <string name="revanced_disable_default_playback_speed_live_title">Скорость в прямых трансляциях</string>
-    <string name="revanced_disable_default_playback_speed_live_summary_on">Скорость воспроизведения в трансляциях отключена.</string>
-    <string name="revanced_disable_default_playback_speed_live_summary_off">Скорость воспроизведения в трансляциях включена.</string>
     <string name="revanced_enable_custom_playback_speed_title">Пользовательская скорость воспроизведения</string>
     <string name="revanced_enable_custom_playback_speed_summary_on">Пользовательская скорость воспроизведения включена.</string>
     <string name="revanced_enable_custom_playback_speed_summary_off">Пользовательская скорость воспроизведения отключена.</string>
@@ -1434,10 +1441,6 @@ Shorts
     <string name="revanced_restore_old_video_quality_menu_summary_on">Старое меню качества отображено.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Старое меню качества скрыто.</string>
     <string name="revanced_disable_default_playback_speed_music_title">Скорость воспроизведения для музыки</string>
-    <string name="revanced_disable_default_playback_speed_music_on">"Скорость воспроизведения по умолчанию для музыки отключена.
-
-Ограничение:
-Этот параметр не может применяться к видео, которые не содержат баннер 'Слушать в YouTube Music'."</string>
     <string name="revanced_disable_default_playback_speed_music_off">Скорость воспроизведения по умолчанию для музыки включена.</string>
     <string name="revanced_enable_default_playback_speed_shorts_title">Скорость воспроизведения по умолчанию в Shorts</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">Скорость воспроизведения по умолчанию в Shorts включена.</string>
@@ -1784,20 +1787,30 @@ Shorts
 Воспроизведение видео может не работать."</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">Отключение этой настройки вызовет проблемы с воспроизведением видео.</string>
     <string name="revanced_spoof_streaming_data_type_title">Клиент по умолчанию</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">iOS TV</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Эффекты от подмены</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android">"• Меню аудио дорожки отсутствует.
-• Стабильная громкость недоступна.
-• Отключить принудительные автозвуковые дорожки недоступна."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• Еще не найдено.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">• Платные видео и фильмы могут не проигрываться.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_title">Принудительно iOS, AVC (H.264)</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Принудительное использование AVC (H.264) включено.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">Принудительное использование AVC (H.264) отключено.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"Включение может:
+- улучшить время автономной работы
+- устранить прерывания при воспроизведении.
+
+Максимальное разрешение видео AVC составляет 1080p. Кодек Opus недоступен. Потребление интернет трафика будет больше, чем при VP9 или AV1."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Статистике для сисадминов</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Клиент потоковых данных отображается в Статистике для сисадминов.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Клиент потоковых данных скрыт в Статистике для сисадминов.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
+    <string name="revanced_preference_category_po_token_visitor_data">PoToken / VisitorData</string>
+    <string name="revanced_spoof_streaming_data_po_token_title">PoToken</string>
+    <string name="revanced_spoof_streaming_data_po_token_summary">PoToken выпущен с BotGuard в доверенном браузере.</string>
+    <string name="revanced_spoof_streaming_data_visitor_data_title">VisitorData</string>
+    <string name="revanced_spoof_streaming_data_visitor_data_summary">VisitorData выданный с BotGuard в надежном браузере.</string>
+    <string name="revanced_spoof_streaming_data_po_token_visitor_data_about_title">О PoToken / VisitorData</string>
+    <string name="revanced_spoof_streaming_data_po_token_visitor_data_about_summary">"Некоторые клиенты требуют PoToken и VisitorData для получения правильного потокового ответа данных.
+
+При использовании iOS клиента по умолчанию, эти значения могут потребоваться.
+
+Нажмите, чтобы увидеть дополнительную информацию."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">История просмотра</string>
     <string name="revanced_preference_screen_watch_history_summary">Изменить настройки истории просмотра.</string>

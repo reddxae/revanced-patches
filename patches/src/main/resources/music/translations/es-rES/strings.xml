@@ -415,6 +415,7 @@ Limitaciones:
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Mostrar en estadísticas para nerds</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary">Muestra el cliente utilizado para obtener datos de streaming en Estadísticas para nerds.</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_music">Android Music</string>
     <string name="revanced_sanitize_sharing_links_title">Desinfectar enlaces compartidos</string>
     <string name="revanced_sanitize_sharing_links_summary">Elimina los parámetros de consulta de seguimiento de las URL al compartir enlaces.</string>
     <string name="revanced_default_app_settings_title">Abrir ajustes predeterminados de la app</string>

@@ -290,6 +290,7 @@
     <string name="revanced_preference_screen_general_title">一般設定</string>
     <string name="revanced_change_start_page_title">更改起始頁</string>
     <string name="revanced_change_start_page_entry_browse">瀏覽頻道</string>
+    <string name="revanced_change_start_page_entry_courses">課程/學習</string>
     <string name="revanced_change_start_page_entry_default">預設</string>
     <string name="revanced_change_start_page_entry_explore">探索</string>
     <string name="revanced_change_start_page_entry_gaming">遊戲</string>
@@ -299,12 +300,14 @@
     <string name="revanced_change_start_page_entry_live">直播</string>
     <string name="revanced_change_start_page_entry_movies">電影</string>
     <string name="revanced_change_start_page_entry_music">音樂</string>
+    <string name="revanced_change_start_page_entry_notifications">通知</string>
     <string name="revanced_change_start_page_entry_search">搜尋</string>
     <string name="revanced_change_start_page_entry_shorts">短片</string>
     <string name="revanced_change_start_page_entry_sports">運動</string>
     <string name="revanced_change_start_page_entry_subscriptions">訂閱</string>
     <string name="revanced_change_start_page_entry_trending">熱門</string>
     <string name="revanced_change_start_page_entry_watch_later">稍後觀看</string>
+    <string name="revanced_change_start_page_entry_your_clips">你的剪輯</string>
     <string name="revanced_change_start_page_type_title">變更起始頁類型</string>
     <string name="revanced_change_start_page_type_summary_on">"起始頁總是改變。
 
@@ -319,6 +322,9 @@
     <string name="revanced_disable_splash_animation_title">停用啟動動畫</string>
     <string name="revanced_disable_splash_animation_summary_on">啟動動畫已停用</string>
     <string name="revanced_disable_splash_animation_summary_off">啟動動畫已啟用</string>
+    <string name="revanced_disable_translucent_status_bar_title">停用半透明狀態列</string>
+    <string name="revanced_disable_translucent_status_bar_summary_on">狀態列不透明。</string>
+    <string name="revanced_disable_translucent_status_bar_summary_off">狀態列是不透明或半透明的。</string>
     <string name="revanced_enable_gradient_loading_screen_title">啟用漸變載入畫面</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">漸變載入畫面已啟用</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">漸變載入畫面已停用</string>
@@ -491,6 +497,9 @@
 此外，廣告將不再在 Shorts 中被封鎖。
 
 若此設定未生效，請嘗試切換至無痕模式。"</string>
+    <string name="revanced_enable_translucent_navigation_bar_title">啟用半透明導覽列</string>
+    <string name="revanced_enable_translucent_navigation_bar_summary_on">導覽列是半透明的。</string>
+    <string name="revanced_enable_translucent_navigation_bar_summary_off">導覽列不透明。</string>
     <string name="revanced_hide_navigation_bar_title">隱藏導覽列</string>
     <string name="revanced_hide_navigation_bar_summary_on">導覽列已隱藏。</string>
     <string name="revanced_hide_navigation_bar_summary_off">導覽列已顯示。</string>
@@ -669,8 +678,8 @@
     <string name="revanced_hide_suggested_actions_summary_on">操作建議已隱藏</string>
     <string name="revanced_hide_suggested_actions_summary_off">操作建議已顯示</string>
     <string name="revanced_hide_timed_reactions_title">隱藏時間跳轉</string>
-    <string name="revanced_hide_timed_reactions_summary_on">（評論）時間跳轉已隱藏</string>
-    <string name="revanced_hide_timed_reactions_summary_off">（評論）時間跳轉已顯示</string>
+    <string name="revanced_hide_timed_reactions_summary_on">定時留言已隱藏。</string>
+    <string name="revanced_hide_timed_reactions_summary_off">定時反應已顯示。</string>
     <string name="revanced_hide_suggested_video_end_screen_title">隱藏推薦影片結束界面</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_on">"關閉自動播放時，建議的影片結束畫面會隱藏。
 
@@ -905,11 +914,6 @@
     <string name="revanced_enable_compact_controls_overlay_title">啟用緊湊的播放器佈局疊加層</string>
     <string name="revanced_enable_compact_controls_overlay_summary_on">精簡控制選單已啟用</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">緊湊的播放器佈局已停用</string>
-    <string name="revanced_force_fullscreen_title">強制全螢幕</string>
-    <string name="revanced_force_fullscreen_summary">"影片將在以下情況下切換到全螢幕模式：
-
-・當影片開始播放時。
-・當點擊評論中的時間戳記時。"</string>
     <string name="revanced_keep_landscape_mode_title">保持橫向模式</string>
     <string name="revanced_keep_landscape_mode_summary">在全螢幕模式下關閉和開啟螢幕時保持橫向模式。</string>
     <string name="revanced_keep_landscape_mode_timeout_title">保持橫向模式的超時時間</string>
@@ -1367,12 +1371,18 @@
     <string name="revanced_disable_hdr_auto_brightness_title">停用 HDR 影片自動亮度</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">HDR 影片自動亮度已停用</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">HDR 影片自動亮度已啟用</string>
-    <string name="revanced_disable_watch_panel_gestures_title">停用觀看面板手勢</string>
-    <string name="revanced_disable_watch_panel_gestures_summary_on">透過滑動播放器底部區域切換到全螢幕功能已停用。</string>
-    <string name="revanced_disable_watch_panel_gestures_summary_off">透過滑動播放器底部區域切換到全螢幕功能已啟用。</string>
     <string name="revanced_disable_swipe_to_switch_video_title">停用滑動切換影片功能</string>
     <string name="revanced_disable_swipe_to_switch_video_summary_on">向上/向下滑動將不會播放下一個/上一個影片。</string>
     <string name="revanced_disable_swipe_to_switch_video_summary_off">向上/向下滑動將播放下一個/上一個影片。</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_title">停用滑動進入全螢幕模式（在播放器下方）。</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_summary_on">向下滑動播放器下方將不會進入全螢幕模式。</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_summary_off">向下滑動播放器下方將進入全螢幕模式。</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_title">停用滑動進入全螢幕模式（在播放器內）。</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_summary_on">在播放器內向上滑動將不會進入全螢幕模式。</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_summary_off">在播放器內向上滑動將進入全螢幕模式。</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_title">停用滑動退出全螢幕模式。</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_summary_on">在全螢幕模式下向下滑動將不會退出全螢幕模式。</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_summary_off">在全螢幕模式下向下滑動將退出全螢幕模式。</string>
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">自動</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">影片</string>
@@ -1382,9 +1392,6 @@
     <string name="revanced_disable_hdr_video_title">HDR 影片</string>
     <string name="revanced_disable_hdr_video_summary_on">HDR 影片已啟用</string>
     <string name="revanced_disable_hdr_video_summary_off">HDR 影片已停用</string>
-    <string name="revanced_disable_default_playback_speed_live_title">在直播中停用預設播放速度</string>
-    <string name="revanced_disable_default_playback_speed_live_summary_on">直播預設播放速度已停用</string>
-    <string name="revanced_disable_default_playback_speed_live_summary_off">直播預設播放速度已啟用</string>
     <string name="revanced_enable_custom_playback_speed_title">啟用自定義播放速度</string>
     <string name="revanced_enable_custom_playback_speed_summary_on">自定義播放速度已啟用</string>
     <string name="revanced_enable_custom_playback_speed_summary_off">自定義播放速度已停用</string>
@@ -1409,15 +1416,12 @@
     <string name="revanced_restore_old_video_quality_menu_summary_on">顯示舊的影片畫質選單</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">不顯示舊的影片畫質選單</string>
     <string name="revanced_disable_default_playback_speed_music_title">停用音樂的播放速度</string>
-    <string name="revanced_disable_default_playback_speed_music_on">"音樂的預設播放速度被停用。
-
-限制：此設定可能不適用於不包含「在 YouTube 音樂上收聽」橫幅影片。"</string>
     <string name="revanced_disable_default_playback_speed_music_off">音樂的預設播放速度已啟用。</string>
     <string name="revanced_enable_default_playback_speed_shorts_title">啟用短片預設播放速度</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">預設播放速度適用於短片</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_off">預設播放速度不適用於短片</string>
-    <string name="revanced_skipped_preloaded_buffer">跳過預加載緩衝</string>
-    <string name="revanced_skip_preloaded_buffer_title">跳過預加載緩衝</string>
+    <string name="revanced_skipped_preloaded_buffer">跳過預載入</string>
+    <string name="revanced_skip_preloaded_buffer_title">跳過預載入</string>
     <string name="revanced_skip_preloaded_buffer_summary">"跳過影片開頭的預先載入緩衝區以立即套用預設影片品質
 
  資訊:
@@ -1549,7 +1553,7 @@
     <string name="revanced_sb_skip_button_sponsor">跳過贊助內容</string>
     <string name="revanced_sb_skip_button_selfpromo">跳過自我宣傳</string>
     <string name="revanced_sb_skip_button_interaction">跳過交互提醒</string>
-    <string name="revanced_sb_skip_button_highlight">跳轉至突出顯示</string>
+    <string name="revanced_sb_skip_button_highlight">跳轉至重點部分</string>
     <string name="revanced_sb_skip_button_intro_beginning">跳過片頭</string>
     <string name="revanced_sb_skip_button_intro_middle">跳過中場</string>
     <string name="revanced_sb_skip_button_intro_end">跳過中場</string>
@@ -1557,7 +1561,7 @@
     <string name="revanced_sb_skip_button_preview_beginning">跳過預告</string>
     <string name="revanced_sb_skip_button_preview_middle">跳過預告</string>
     <string name="revanced_sb_skip_button_preview_end">跳過總結</string>
-    <string name="revanced_sb_skip_button_filler">跳過灌水片段</string>
+    <string name="revanced_sb_skip_button_filler">跳過閒聊</string>
     <string name="revanced_sb_skip_button_nomusic">跳過非音樂部分</string>
     <string name="revanced_sb_skip_button_unsubmitted">跳過未提交片段</string>
     <string name="revanced_sb_skipped_sponsor">跳過贊助內容</string>
@@ -1571,7 +1575,7 @@
     <string name="revanced_sb_skipped_preview_beginning">跳過預告</string>
     <string name="revanced_sb_skipped_preview_middle">跳過預告</string>
     <string name="revanced_sb_skipped_preview_end">跳過總結</string>
-    <string name="revanced_sb_skipped_filler">跳過灌水內容/笑話</string>
+    <string name="revanced_sb_skipped_filler">已跳過閒聊</string>
     <string name="revanced_sb_skipped_nomusic">跳過非音樂部份</string>
     <string name="revanced_sb_skipped_unsubmitted">跳過未提交的片段</string>
     <string name="revanced_sb_skipped_multiple_segments">跳過多個片段</string>
@@ -1606,9 +1610,9 @@
     <string name="revanced_sb_toast_on_connection_error_title">如果 API 無法使用，則顯示提示訊息</string>
     <string name="revanced_sb_toast_on_connection_error_summary_on">如果 SponsorBlock 無法使用，顯示提示訊息</string>
     <string name="revanced_sb_toast_on_connection_error_summary_off">如果 SponsorBlock 無法使用，不顯示提示訊息</string>
-    <string name="revanced_sb_general_skipcount">啟用跳過計數跟蹤</string>
+    <string name="revanced_sb_general_skipcount">啟用跳過計數追蹤</string>
     <string name="revanced_sb_general_skipcount_sum_on">允許 SponsorBlock 排行榜了解節省了多少時間每次跳過片段時都會向排行榜發送訊息</string>
-    <string name="revanced_sb_general_skipcount_sum_off">未啟用跳過計數跟蹤</string>
+    <string name="revanced_sb_general_skipcount_sum_off">不啟用跳過計數追蹤</string>
     <string name="revanced_sb_general_min_duration">最短片段持續時間</string>
     <string name="revanced_sb_general_min_duration_sum">小於此值（以秒為單位）的片段將不會顯示或跳過</string>
     <string name="revanced_sb_general_min_duration_invalid">持續時間無效。</string>
@@ -1762,20 +1766,28 @@
     <string name="revanced_spoof_streaming_data_summary_off">"串流資料未偽裝。 影片可能無法播放。"</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">關閉此設定可能會導致影片播放問題。</string>
     <string name="revanced_spoof_streaming_data_type_title">預設客戶端</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android 電視</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">iOS TV</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">偽裝副作用</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android">"• 音軌選單缺失。
-• 穩定音量不可用。
-• 停用強制自動音軌不可用。"</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• 尚未找到。</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">• 電影或付費影片可能無法播放。</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_title">強制 iOS AVC (H.264)</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">影片編解碼器強制為 AVC (H.264)。</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">影片編解碼器是自動決定的。</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"啟用此功能可能會延長電池壽命並修復播放卡頓問題。
+
+AVC 的最大解析度為 1080p，Opus 音訊編解碼器不可用，影片播放將使用比 VP9 或 AV1 更多的網路資料。"</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">顯示統計資料</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">用於取得串流資料的用戶端顯示在統計資料中。</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">用於獲取串流資料的用戶端隱藏在統計資料中。</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
+    <string name="revanced_preference_category_po_token_visitor_data">Potoken / 訪客數據</string>
+    <string name="revanced_spoof_streaming_data_po_token_title">使用PoToken</string>
+    <string name="revanced_spoof_streaming_data_po_token_summary">PoToken 由 BotGuard 在受信任的瀏覽器中頒發。</string>
+    <string name="revanced_spoof_streaming_data_visitor_data_title">使用訪客數據</string>
+    <string name="revanced_spoof_streaming_data_visitor_data_summary">由 BotGuard 在受信任的瀏覽器中發布的訪客數據。</string>
+    <string name="revanced_spoof_streaming_data_po_token_visitor_data_about_title">關於PoToken / 訪客數據</string>
+    <string name="revanced_spoof_streaming_data_po_token_visitor_data_about_summary">"某些用戶端需要 PoToken 和 訪客數據才能取得有效的串流資料回應。
+
+如果您嘗試使用 iOS 作為預設用戶端，則可能需要這些值。
+
+點擊查看更多資訊。"</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">觀看歷史記錄</string>
     <string name="revanced_preference_screen_watch_history_summary">變更與觀看歷史記錄相關的設定。</string>

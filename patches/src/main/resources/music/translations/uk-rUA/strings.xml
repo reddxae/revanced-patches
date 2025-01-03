@@ -421,6 +421,7 @@
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Показувати у \"Статистиці для сисадмінів\"</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary">Показує клієнт, який використовується для отримання потокових даних у \"Статистиці для сисадмінів\".</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_music">Android Music</string>
     <string name="revanced_sanitize_sharing_links_title">Обробляти поширення посилань</string>
     <string name="revanced_sanitize_sharing_links_summary">Видаляє параметри запиту відстеження з URL-адрес під час обміну посиланнями.</string>
     <string name="revanced_default_app_settings_title">Відкрити налаштування за замовчуванням</string>

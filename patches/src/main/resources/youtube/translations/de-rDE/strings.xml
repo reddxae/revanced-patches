@@ -844,11 +844,6 @@ Einschränkung: Videotitel verschwindet beim Klicken auf den Bildschirm."</strin
     <string name="revanced_enable_compact_controls_overlay_title">Kompaktsteuerungs-Overlay aktivieren</string>
     <string name="revanced_enable_compact_controls_overlay_summary_on">Kompaktsteuerungs-Overlay ist aktiviert</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">Kompaktsteuerungs-Overlay ist deaktiviert</string>
-    <string name="revanced_force_fullscreen_title">Vollbild erzwingen</string>
-    <string name="revanced_force_fullscreen_summary">"Videos werden in den folgenden Situation im Vollbild wieder gegeben:
-
-• Wenn ein Video gestartet wird.
-• Wenn ein Zeitstempel in den Kommentaren geklickt wird."</string>
     <string name="revanced_keep_landscape_mode_title">Querformat behalten</string>
     <string name="revanced_keep_landscape_mode_summary">Bewahrt den Querformat beim Ausschalten des Bildschirms im Vollbild.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">Timeout für den Wechsel zum Querformat</string>
@@ -1150,9 +1145,6 @@ Bekannte Probleme: Da dies eine Funktion in der Entwicklungsphase von Google ist
     <string name="revanced_disable_hdr_auto_brightness_title">Deaktiviere automatische HDR-Helligkeit</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">Automatische HDR-Helligkeit ist deaktiviert</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">Automatische HDR-Helligkeit ist aktiviert</string>
-    <string name="revanced_disable_watch_panel_gestures_title">Watch-Panel-Gesten deaktivieren</string>
-    <string name="revanced_disable_watch_panel_gestures_summary_on">Wechsel in den Vollbildmodus beim Herunterwischen unter dem Videoplayer ist deaktiviert.</string>
-    <string name="revanced_disable_watch_panel_gestures_summary_off">Wechsel in den Vollbildmodus beim Herunterwischen unter dem Videoplayer ist aktiviert.</string>
     <string name="revanced_disable_swipe_to_switch_video_title">Geste zum Wechseln des Videos deaktiviern</string>
     <string name="revanced_disable_swipe_to_switch_video_summary_on">Wischen nach oben / nach unten wird nicht das nächste / vorherige Video abspielen.</string>
     <string name="revanced_disable_swipe_to_switch_video_summary_off">Wischen nach oben / unten wird das nächste / vorherige Video abspielen.</string>
@@ -1165,9 +1157,6 @@ Bekannte Probleme: Da dies eine Funktion in der Entwicklungsphase von Google ist
     <string name="revanced_disable_hdr_video_title">HDR-Video deaktivieren</string>
     <string name="revanced_disable_hdr_video_summary_on">HDR-Video ist deaktiviert</string>
     <string name="revanced_disable_hdr_video_summary_off">HDR-Video ist aktiviert</string>
-    <string name="revanced_disable_default_playback_speed_live_title">Wiedergabegeschwindigkeit im Live-Stream deaktivieren</string>
-    <string name="revanced_disable_default_playback_speed_live_summary_on">Standard Wiedergabegeschwindigkeit ist im Live-Stream deaktiviert</string>
-    <string name="revanced_disable_default_playback_speed_live_summary_off">Standard Wiedergabegeschwindigkeit ist im Live-Stream aktiviert</string>
     <string name="revanced_enable_custom_playback_speed_title">Benutzerdefinierte Wiedergabegeschwindigkeit aktivieren</string>
     <string name="revanced_enable_custom_playback_speed_summary_on">Benutzerdefinierte Wiedergabegeschwindigkeit ist aktiviert</string>
     <string name="revanced_enable_custom_playback_speed_summary_off">Benutzerdefinierte Wiedergabegeschwindigkeit ist deaktiviert</string>

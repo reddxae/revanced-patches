@@ -283,12 +283,13 @@ Playlists
     <string name="revanced_hide_related_videos_summary_off">Εμφανίζονται.</string>
     <string name="revanced_hide_related_videos_user_dialog_message">"Αυτή η ρύθμιση περιορίζει τον μέγιστο αριθμό διατάξεων που μπορούν να εμφανιστούν στην οθόνη αναπαραγωγής.
 
-Στην περίπτωση που η διάταξη της οθόνης αναπαραγωγής αλλάξει λόγω αλλαγών από πλευράς του διακομιστή, ορισμένες διατάξεις της ενδέχεται να κρυφτούν χωρίς να είναι επιθυμητό."</string>
+Στην περίπτωση που η διεπαφή της οθόνης αναπαραγωγής αλλάξει λόγω αλλαγών από πλευράς του διακομιστή, ορισμένες διατάξεις της ενδέχεται να είναι κρυμμένες χωρίς να είναι επιθυμητό."</string>
     <string name="revanced_related_videos_offset_title">Μετατόπιση</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Γενικά</string>
     <string name="revanced_change_start_page_title">Αλλαγή αρχικής σελίδας</string>
     <string name="revanced_change_start_page_entry_browse">Περιήγηση καναλιών</string>
+    <string name="revanced_change_start_page_entry_courses">Μαθήματα / Εκμάθηση</string>
     <string name="revanced_change_start_page_entry_default">Προεπιλογή</string>
     <string name="revanced_change_start_page_entry_explore">Εξερεύνηση</string>
     <string name="revanced_change_start_page_entry_gaming">Παιχνίδια</string>
@@ -298,12 +299,14 @@ Playlists
     <string name="revanced_change_start_page_entry_live">Live</string>
     <string name="revanced_change_start_page_entry_movies">Ταινίες</string>
     <string name="revanced_change_start_page_entry_music">Μουσική</string>
+    <string name="revanced_change_start_page_entry_notifications">Ειδοποιήσεις</string>
     <string name="revanced_change_start_page_entry_search">Αναζήτηση</string>
     <string name="revanced_change_start_page_entry_shorts">Shorts</string>
     <string name="revanced_change_start_page_entry_sports">Αθλητικά</string>
     <string name="revanced_change_start_page_entry_subscriptions">Εγγραφές</string>
     <string name="revanced_change_start_page_entry_trending">Τάσεις</string>
     <string name="revanced_change_start_page_entry_watch_later">Παρακολούθηση αργότερα</string>
+    <string name="revanced_change_start_page_entry_your_clips">Τα κλιπ σας</string>
     <string name="revanced_change_start_page_type_title">Αλλαγή τύπου αρχικής σελίδας</string>
     <string name="revanced_change_start_page_type_summary_on">"Η αρχική σελίδα αλλάζει πάντα.
 
@@ -318,6 +321,9 @@ Playlists
     <string name="revanced_disable_splash_animation_title">Απενεργοποίηση εφέ εκκίνησης εφαρμογής</string>
     <string name="revanced_disable_splash_animation_summary_on">Το εφέ εκκίνησης της εφαρμογής είναι απενεργοποιημένο.</string>
     <string name="revanced_disable_splash_animation_summary_off">Το εφέ εκκίνησης της εφαρμογής είναι ενεργοποιημένο.</string>
+    <string name="revanced_disable_translucent_status_bar_title">Απενεργοποίηση διαφανούς γραμμής κατάστασης</string>
+    <string name="revanced_disable_translucent_status_bar_summary_on">Η γραμμή κατάστασης δεν είναι διαφανής.</string>
+    <string name="revanced_disable_translucent_status_bar_summary_off">Η διαφάνεια της γραμμής κατάστασης ορίζεται αυτόματα.</string>
     <string name="revanced_enable_gradient_loading_screen_title">Διαβαθμισμένη οθόνη φόρτωσης</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">Η οθόνη φόρτωσης θα έχει σταδιακές αποχρώσεις φόντο.</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">Η οθόνη φόρτωσης θα έχει στατική απόχρωση φόντο.</string>
@@ -490,6 +496,9 @@ Playlists
 Επίσης, ενδέχεται να εμφανίζονται διαφημίσεις στα Shorts.
 
 Αν η απενεργοποίηση δεν τεθεί σε ισχύ, δοκιμάστε να μεταβείτε σε λειτουργία ανώνυμης περιήγησης."</string>
+    <string name="revanced_enable_translucent_navigation_bar_title">Διαφανή γραμμή πλοήγησης</string>
+    <string name="revanced_enable_translucent_navigation_bar_summary_on">Η γραμμή πλοήγησης είναι διαφανής.</string>
+    <string name="revanced_enable_translucent_navigation_bar_summary_off">Η γραμμή πλοήγησης δεν είναι διαφανής.</string>
     <string name="revanced_hide_navigation_bar_title">Γραμμή πλοήγησης</string>
     <string name="revanced_hide_navigation_bar_summary_on">Κρυμμένη.</string>
     <string name="revanced_hide_navigation_bar_summary_off">Εμφανίζεται.</string>
@@ -909,11 +918,6 @@ Playlists
     <string name="revanced_enable_compact_controls_overlay_title">Στοιχεία ελέγχου μικρότερου στυλ</string>
     <string name="revanced_enable_compact_controls_overlay_summary_on">Τα στοιχεία ελέγχου μικρότερου στυλ είναι ενεργοποιημένα.</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">Τα στοιχεία ελέγχου μικρότερου στυλ είναι απενεργοποιημένα.</string>
-    <string name="revanced_force_fullscreen_title">Εξαναγκασμός πλήρης οθόνης πάντα</string>
-    <string name="revanced_force_fullscreen_summary">"Τα βίντεο θα αλλάξουν σε λειτουργία πλήρους οθόνης στις ακόλουθες περιπτώσεις:
-
-• Όταν ξεκινάει ένα βίντεο.
-• Όταν πατιέται μια χρονοσήμανση στα σχόλια."</string>
     <string name="revanced_keep_landscape_mode_title">Διατήρηση οριζόντιας λειτουργίας</string>
     <string name="revanced_keep_landscape_mode_summary">Διατήρηση της οριζόντιας λειτουργίας στο κλείσιμο και άνοιγμα της οθόνης ενώ βρίσκεστε σε λειτουργία πλήρους οθόνης.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">Χρονικό όριο οριζόντιας λειτουργίας</string>
@@ -1332,7 +1336,7 @@ Playlists
 
 Περιορισμοί:
 • Αυτή η ρύθμιση ενεργοποιεί όχι μόνο τις χρονοσφραγίδες, αλλά επιτρέπει την απόκρυψη των στοιχείων UI πατώντας στο φόντο της οθόνης αναπαραγωγής.
-• Δεδομένου ότι αυτή είναι μια λειτουργία της Google που βρίσκεται ακόμη στο στάδιο ανάπτυξης, η διάταξη μπορεί να χαλάσει."</string>
+• Δεδομένου ότι αυτή είναι μια λειτουργία της Google που βρίσκεται ακόμη στο στάδιο ανάπτυξης, η διεπαφή μπορεί να χαλάσει."</string>
     <string name="revanced_enable_shorts_time_stamp_summary_off">Οι χρονοσφραγίδες είναι απενεργοποιημένες.</string>
     <string name="revanced_shorts_time_stamp_change_repeat_state_title">Ενέργεια πατήματος χρονοσφραγίδας</string>
     <string name="revanced_shorts_time_stamp_change_repeat_state_summary">Πατήστε παρατεταμένα την χρονοσφραγίδα για να αλλάξει η κατάσταση επανάληψης των Shorts.</string>
@@ -1398,12 +1402,18 @@ Playlists
     <string name="revanced_disable_hdr_auto_brightness_title">Απενεργοποίηση αυτόματης φωτεινότητας HDR</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">Η αυτόματη φωτεινότητα HDR είναι απενεργοποιημένη.</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">Η αυτόματη φωτεινότητα HDR είναι ενεργοποιημένη.</string>
-    <string name="revanced_disable_watch_panel_gestures_title">Απενεργοποίηση χειρονομίας εναλλαγής σε πλήρη οθόνη</string>
-    <string name="revanced_disable_watch_panel_gestures_summary_on">Η εναλλαγή σε λειτουργία πλήρους οθόνης με σάρωση στην περιοχή κάτω από την οθόνη αναπαραγωγής είναι απενεργοποιημένη.</string>
-    <string name="revanced_disable_watch_panel_gestures_summary_off">Η εναλλαγή σε λειτουργία πλήρους οθόνης με σάρωση στην περιοχή κάτω από την οθόνη αναπαραγωγής είναι ενεργοποιημένη.</string>
     <string name="revanced_disable_swipe_to_switch_video_title">Απενεργοποίηση χειρονομίας σάρωσης για αλλαγή βίντεο</string>
-    <string name="revanced_disable_swipe_to_switch_video_summary_on">Η σάρωση προς τα πάνω / κάτω δε θα αναπαράγει το επόμενο / προηγούμενο βίντεο.</string>
-    <string name="revanced_disable_swipe_to_switch_video_summary_off">Η σάρωση προς τα πάνω / κάτω θα αναπαράγει το επόμενο / προηγούμενο βίντεο.</string>
+    <string name="revanced_disable_swipe_to_switch_video_summary_on">Η σάρωση προς τα πάνω / κάτω κατά τη λειτουργία πλήρους οθόνης δε θα αναπαράγει το επόμενο / προηγούμενο βίντεο.</string>
+    <string name="revanced_disable_swipe_to_switch_video_summary_off">Η σάρωση προς τα πάνω / κάτω κατά τη λειτουργία πλήρους οθόνης θα αναπαράγει το επόμενο / προηγούμενο βίντεο.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_title">Απενεργοποίηση σάρωσης για εισαγωγή σε πλήρη οθόνη (κάτω από την οθόνη αναπαραγωγής)</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_summary_on">Η σάρωση προς τα κάτω κάτω από την οθόνη αναπαραγωγής δε θα ενεργοποιήσει τη λειτουργία πλήρους οθόνης.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_summary_off">Η σάρωση προς τα κάτω κάτω από την οθόνη αναπαραγωγής θα ενεργοποιήσει τη λειτουργία πλήρους οθόνης.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_title">Απενεργοποίηση σάρωσης για εισαγωγή σε πλήρη οθόνη (μέσα στην οθόνη αναπαραγωγής)</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_summary_on">Η σάρωση προς τα πάνω στην οθόνη αναπαραγωγής δε θα ενεργοποιήσει τη λειτουργία πλήρους οθόνης.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_summary_off">Η σάρωση προς τα πάνω στην οθόνη αναπαραγωγής θα ενεργοποιήσει τη λειτουργία πλήρους οθόνης.</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_title">Απενεργοποίηση σάρωσης για έξοδο από πλήρη οθόνη</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_summary_on">Η σάρωση προς τα κάτω δε θα τερματίζει τη λειτουργία πλήρους οθόνης.</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_summary_off">Η σάρωση προς τα κάτω θα τερματίζει τη λειτουργία πλήρους οθόνης.</string>
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">Αυτόματη</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Βίντεο</string>
@@ -1413,9 +1423,6 @@ Playlists
     <string name="revanced_disable_hdr_video_title">Απενεργοποίηση βίντεο HDR</string>
     <string name="revanced_disable_hdr_video_summary_on">Τα βίντεο που υποστηρίζουν HDR δεν θα παίζουν σε HDR ποιότητα.</string>
     <string name="revanced_disable_hdr_video_summary_off">Τα βίντεο που υποστηρίζουν HDR θα παίζουν σε HDR ποιότητα.</string>
-    <string name="revanced_disable_default_playback_speed_live_title">Απενεργοποίηση αλλαγής ταχύτητας σε ζωντανές μεταδόσεις</string>
-    <string name="revanced_disable_default_playback_speed_live_summary_on">Η προεπιλεγμένη ταχύτητα αναπαραγωγής δεν εφαρμόζεται σε ζωντανές μεταδόσεις.</string>
-    <string name="revanced_disable_default_playback_speed_live_summary_off">Η προεπιλεγμένη ταχύτητα αναπαραγωγής εφαρμόζεται σε ζωντανές μεταδόσεις.</string>
     <string name="revanced_enable_custom_playback_speed_title">Προσαρμοσμένη ταχύτητα αναπαραγωγής</string>
     <string name="revanced_enable_custom_playback_speed_summary_on">Η προσαρμοσμένη ταχύτητα αναπαραγωγής είναι ενεργοποιημένη.</string>
     <string name="revanced_enable_custom_playback_speed_summary_off">Η προσαρμοσμένη ταχύτητα αναπαραγωγής είναι απενεργοποιημένη.</string>
@@ -1440,9 +1447,6 @@ Playlists
     <string name="revanced_restore_old_video_quality_menu_summary_on">Εμφανίζεται το μενού αλλαγής ποιότητας βίντεο παλιού στυλ.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Εμφανίζεται το μενού αλλαγής ποιότητας βίντεο νέου στυλ.</string>
     <string name="revanced_disable_default_playback_speed_music_title">Απενεργοποίηση αλλαγής ταχύτητας σε βίντεο μουσικής</string>
-    <string name="revanced_disable_default_playback_speed_music_on">"Η προεπιλεγμένη ταχύτητα αναπαραγωγής δεν εφαρμόζεται για τα βίντεο μουσικής.
-
-Περιορισμός: Αυτή η ρύθμιση ενδέχεται να μην ισχύει για τα βίντεο που δεν περιλαμβάνουν την λειτουργία «Ακρόαση με YouTube Music»."</string>
     <string name="revanced_disable_default_playback_speed_music_off">Η προεπιλεγμένη ταχύτητα εφαρμόζεται σε βίντεο μουσικής.</string>
     <string name="revanced_enable_default_playback_speed_shorts_title">Αλλαγή προεπιλεγμένης ταχύτητας Shorts</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">Η προεπιλεγμένη ταχύτητα αναπαραγωγής εφαρμόζεται στα Shorts.</string>
@@ -1790,20 +1794,28 @@ Playlists
     <string name="revanced_spoof_streaming_data_summary_off">"Τα δεδομένα ροής δεν παραποιούνται. Η αναπαραγωγή βίντεο ενδέχεται να μη λειτουργεί σωστά."</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">Η απενεργοποίηση αυτής της ρύθμισης ενδέχεται να προκαλέσει προβλήματα αναπαραγωγής βίντεο.</string>
     <string name="revanced_spoof_streaming_data_type_title">Προεπιλογή</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">iOS TV</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Παρενέργειες παραποίησης</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android">"• Το μενού «Κομμάτι ήχου» λείπει.
-• Η λειτουργία «Σταθερή ένταση» δεν είναι διαθέσιμη.
-• Η λειτουργία «Απενεργοποίηση υποχρεωτικών κομματιών ήχου» δεν είναι διαθέσιμη."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• Δεν ανακαλύφθηκαν ακόμη.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">• Οι ταινίες ή τα βίντεο επί πληρωμή ενδέχεται να μην αναπαράγονται.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_title">Εξαναγκασμός iOS AVC (H.264)</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Ο κωδικοποιητής βίντεο έχει οριστεί υποχρεωτικά σε AVC (H.264).</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">Ο κωδικοποιητής βίντεο ορίζεται αυτόματα.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"Η ενεργοποίηση αυτής της λειτουργίας ενδέχεται να βελτιώσει τη διάρκεια ζωής της μπαταρίας και να διορθώσει κολλήματα αναπαραγωγής.
+
+Ο AVC έχει μέγιστη ανάλυση 1080p, ο κωδικοποιητής ήχου Opus δεν είναι διαθέσιμος και η αναπαραγωγή βίντεο θα χρησιμοποιεί περισσότερα δεδομένα ίντερνετ από τον VP9 ή τον AV1."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Εμφάνιση στο «Στατιστικά για σπασίκλες»</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Το πρόγραμμα πελάτη που χρησιμοποιείται για τη λήψη δεδομένων ροής εμφανίζεται στο μενού «Στατιστικά για σπασίκλες».</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Το πρόγραμμα πελάτη που χρησιμοποιείται για τη λήψη δεδομένων ροής δεν εμφανίζεται στο μενού «Στατιστικά για σπασίκλες».</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
+    <string name="revanced_preference_category_po_token_visitor_data">PoToken / VisitorData</string>
+    <string name="revanced_spoof_streaming_data_po_token_title">PoToken προς χρήση</string>
+    <string name="revanced_spoof_streaming_data_po_token_summary">PoToken που εκδίδεται από το BotGuard σε ένα έμπιστο πρόγραμμα περιήγησης.</string>
+    <string name="revanced_spoof_streaming_data_visitor_data_title">VisitorData προς χρήση</string>
+    <string name="revanced_spoof_streaming_data_visitor_data_summary">VisitorData που εκδίδεται από το BotGuard σε ένα έμπιστο πρόγραμμα περιήγησης.</string>
+    <string name="revanced_spoof_streaming_data_po_token_visitor_data_about_title">Σχετικά με τα αναγνωριστικά PoToken / VisitorData</string>
+    <string name="revanced_spoof_streaming_data_po_token_visitor_data_about_summary">"Κάποια προγράμματα απαιτούν αναγνωριστικά PoToken και VisitorData για να λάβουν έγκυρη απόκριση δεδομένων ροής.
+
+Αν προσπαθείτε να χρησιμοποιήσετε το iOS ως προεπιλεγμένο πρόγραμμα-πελάτη, μπορεί να χρειαστείτε αυτές τις τιμές.
+
+Πατήστε για να δείτε περισσότερες πληροφορίες."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">Ιστορικό παρακολούθησης</string>
     <string name="revanced_preference_screen_watch_history_summary">Διαχείριση των ρυθμίσεων που σχετίζονται με το ιστορικό παρακολούθησης.</string>

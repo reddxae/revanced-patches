@@ -871,11 +871,6 @@
     <string name="revanced_enable_compact_controls_overlay_title">启用紧凑的播放器布局叠加层</string>
     <string name="revanced_enable_compact_controls_overlay_summary_on">紧凑的播放器布局已启用</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">紧凑的播放器布局已禁用</string>
-    <string name="revanced_force_fullscreen_title">强制全屏</string>
-    <string name="revanced_force_fullscreen_summary">"在以下情况下，视频将切换为全屏：
-
-• 开始播放视频时
-• 点击评论中的时间戳时"</string>
     <string name="revanced_keep_landscape_mode_title">保持横屏模式</string>
     <string name="revanced_keep_landscape_mode_summary">在全屏状态下关闭和打开屏幕时，保持横屏模式</string>
     <string name="revanced_keep_landscape_mode_timeout_title">保持横屏模式超时</string>
@@ -1276,9 +1271,6 @@
     <string name="revanced_disable_hdr_video_title">HDR 视频</string>
     <string name="revanced_disable_hdr_video_summary_on">HDR 视频已禁用</string>
     <string name="revanced_disable_hdr_video_summary_off">HDR 视频已启用</string>
-    <string name="revanced_disable_default_playback_speed_live_title">禁用直播默认播放速度</string>
-    <string name="revanced_disable_default_playback_speed_live_summary_on">直播默认播放速度已禁用</string>
-    <string name="revanced_disable_default_playback_speed_live_summary_off">直播默认播放速度已启用</string>
     <string name="revanced_enable_custom_playback_speed_title">启用自定义播放速度</string>
     <string name="revanced_enable_custom_playback_speed_summary_on">自定义播放速度已启用</string>
     <string name="revanced_enable_custom_playback_speed_summary_off">自定义播放速度已禁用</string>
@@ -1303,9 +1295,6 @@
     <string name="revanced_restore_old_video_quality_menu_summary_on">显示旧的视频画质菜单</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">不显示旧的视频画质菜单</string>
     <string name="revanced_disable_default_playback_speed_music_title">禁用音乐播放速度</string>
-    <string name="revanced_disable_default_playback_speed_music_on">"音乐默认播放速度已禁用
-
-限制：此设置可能不适用于不包含“监听YouTube Music”广告的视频"</string>
     <string name="revanced_disable_default_playback_speed_music_off">音乐默认播放速度已启用</string>
     <string name="revanced_enable_default_playback_speed_shorts_title">启用 Shorts 默认播放速度</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">默认播放速度适用于 Shorts</string>
@@ -1647,9 +1636,6 @@
     <string name="revanced_spoof_streaming_data_summary_off">"流媒体数据未伪装，视频可能无法正常播放"</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">关闭此选项可能会导致视频不能正常播放</string>
     <string name="revanced_spoof_streaming_data_type_title">默认客户端</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">伪装副作用</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">显示统计信息</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">用于获取流媒体数据的客户端已在统计信息中显示</string>

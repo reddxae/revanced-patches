@@ -291,6 +291,7 @@ Si el diseño de la pantalla del reproductor cambia debido a cambios en el servi
     <string name="revanced_preference_screen_general_title">General</string>
     <string name="revanced_change_start_page_title">Cambiar página de inicio</string>
     <string name="revanced_change_start_page_entry_browse">Explorar canales</string>
+    <string name="revanced_change_start_page_entry_courses">Cursos / Aprendizaje</string>
     <string name="revanced_change_start_page_entry_default">Predeterminada</string>
     <string name="revanced_change_start_page_entry_explore">Explorar</string>
     <string name="revanced_change_start_page_entry_gaming">Juegos</string>
@@ -300,12 +301,14 @@ Si el diseño de la pantalla del reproductor cambia debido a cambios en el servi
     <string name="revanced_change_start_page_entry_live">En directo</string>
     <string name="revanced_change_start_page_entry_movies">Películas</string>
     <string name="revanced_change_start_page_entry_music">Música</string>
+    <string name="revanced_change_start_page_entry_notifications">Notificaciones</string>
     <string name="revanced_change_start_page_entry_search">Búsqueda</string>
     <string name="revanced_change_start_page_entry_shorts">Shorts</string>
     <string name="revanced_change_start_page_entry_sports">Deportes</string>
     <string name="revanced_change_start_page_entry_subscriptions">Suscripciones</string>
     <string name="revanced_change_start_page_entry_trending">Tendencias</string>
     <string name="revanced_change_start_page_entry_watch_later">Ver más tarde</string>
+    <string name="revanced_change_start_page_entry_your_clips">Tus clips</string>
     <string name="revanced_change_start_page_type_title">Cambiar tipo de página de inicio</string>
     <string name="revanced_change_start_page_type_summary_on">"La página de inicio siempre cambia.
 
@@ -320,6 +323,9 @@ Limitación: Es posible que el botón Atrás de la barra de herramientas no func
     <string name="revanced_disable_splash_animation_title">Desactivar animación de bienvenida</string>
     <string name="revanced_disable_splash_animation_summary_on">La animación de bienvenida está desactivada.</string>
     <string name="revanced_disable_splash_animation_summary_off">La animación de bienvenida está activada.</string>
+    <string name="revanced_disable_translucent_status_bar_title">Desactivar barra de estado translúcida</string>
+    <string name="revanced_disable_translucent_status_bar_summary_on">La barra de estado es opaca.</string>
+    <string name="revanced_disable_translucent_status_bar_summary_off">La barra de estado es opaca o translúcida.</string>
     <string name="revanced_enable_gradient_loading_screen_title">Activar pantalla de carga de degradado</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">La pantalla de carga de degradado está activada.</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">La pantalla de carga de degradado está desactivada.</string>
@@ -492,6 +498,9 @@ Nota: Al activar esto también se ocultan forzosamente los anuncios de vídeos."
 Además, los anuncios ya no se bloquearán en Shorts.
 
 Si este ajuste no surte efecto, prueba a cambiar al modo incógnito."</string>
+    <string name="revanced_enable_translucent_navigation_bar_title">Activar barra de navegación translúcida</string>
+    <string name="revanced_enable_translucent_navigation_bar_summary_on">La barra de navegación es translúcida.</string>
+    <string name="revanced_enable_translucent_navigation_bar_summary_off">La barra de navegación es opaca.</string>
     <string name="revanced_hide_navigation_bar_title">Ocultar barra de navegación</string>
     <string name="revanced_hide_navigation_bar_summary_on">La barra de navegación está oculta.</string>
     <string name="revanced_hide_navigation_bar_summary_off">La barra de navegación está visible.</string>
@@ -906,11 +915,6 @@ Limitación: el título de vídeo desaparece cuando se pulsa."</string>
     <string name="revanced_enable_compact_controls_overlay_title">Activar superposición compacta de controles</string>
     <string name="revanced_enable_compact_controls_overlay_summary_on">La superposición de controles no ocupa la pantalla completa.</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">La superposición de controles ocupa la pantalla completa.</string>
-    <string name="revanced_force_fullscreen_title">Forzar pantalla completa</string>
-    <string name="revanced_force_fullscreen_summary">"Los vídeos pasarán a pantalla completa en las siguientes situaciones:
-
-• Cuando se pulsa sobre una marca de tiempo en los comentarios.
-• Cuando se inicia un vídeo."</string>
     <string name="revanced_keep_landscape_mode_title">Mantener modo horizontal</string>
     <string name="revanced_keep_landscape_mode_summary">Mantiene el modo horizontal al apagar y encender la pantalla en pantalla completa.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">Mantener tiempo de espera del modo horizontal</string>
@@ -1371,12 +1375,18 @@ No hay márgenes en la parte superior e inferior del reproductor."</string>
     <string name="revanced_disable_hdr_auto_brightness_title">Desactivar brillo HDR automático</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">El brillo HDR automático está desactivado.</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">El brillo HDR automático está activado.</string>
-    <string name="revanced_disable_watch_panel_gestures_title">Desactivar gestos del panel de visualización</string>
-    <string name="revanced_disable_watch_panel_gestures_summary_on">El cambio a pantalla completa deslizando el dedo por la zona inferior del reproductor está desactivado.</string>
-    <string name="revanced_disable_watch_panel_gestures_summary_off">El cambio a pantalla completa deslizando el dedo por la zona inferior del reproductor está activado.</string>
     <string name="revanced_disable_swipe_to_switch_video_title">Desactivar deslizar para cambiar el vídeo</string>
     <string name="revanced_disable_swipe_to_switch_video_summary_on">Deslizar hacia arriba / abajo no reproducirá el vídeo siguiente / anterior.</string>
     <string name="revanced_disable_swipe_to_switch_video_summary_off">Deslizar hacia arriba / abajo reproducirá el vídeo siguiente / anterior.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_title">Desactivar deslizamiento para entrar en modo de pantalla completa (debajo del reproductor)</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_summary_on">Si deslizas el dedo hacia abajo por debajo del reproductor, no entrará en el modo de pantalla completa.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_summary_off">Si deslizas el dedo hacia abajo por debajo del reproductor, entrará en el modo de pantalla completa.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_title">Desactivar deslizamiento para entrar en modo de pantalla completa (en el reproductor)</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_summary_on">Si deslizas el dedo hacia arriba en el reproductor, no entrará en el modo de pantalla completa.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_summary_off">Si deslizas el dedo hacia arriba en el reproductor, entrará en el modo de pantalla completa.</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_title">Desactivar deslizamiento para salir del modo de pantalla completa</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_summary_on">Si deslizas el dedo hacia abajo en pantalla completa, no saldrá del modo de pantalla completa.</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_summary_off">Si deslizas el dedo hacia abajo en pantalla completa, saldrá del modo de pantalla completa.</string>
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">Automático</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Vídeo</string>
@@ -1386,9 +1396,6 @@ No hay márgenes en la parte superior e inferior del reproductor."</string>
     <string name="revanced_disable_hdr_video_title">Desactivar vídeo HDR</string>
     <string name="revanced_disable_hdr_video_summary_on">El vídeo HDR está desactivado.</string>
     <string name="revanced_disable_hdr_video_summary_off">El vídeo HDR está activado.</string>
-    <string name="revanced_disable_default_playback_speed_live_title">Desactivar la velocidad de reproducción en directo</string>
-    <string name="revanced_disable_default_playback_speed_live_summary_on">La velocidad predeterminada de reproducción está desactivada en directo.</string>
-    <string name="revanced_disable_default_playback_speed_live_summary_off">La velocidad predeterminada de reproducción está activada en directo.</string>
     <string name="revanced_enable_custom_playback_speed_title">Activar velocidad personalizada de reproducción</string>
     <string name="revanced_enable_custom_playback_speed_summary_on">La velocidad personalizada de reproducción está activada.</string>
     <string name="revanced_enable_custom_playback_speed_summary_off">La velocidad personalizada de reproducción está desactivada.</string>
@@ -1413,9 +1420,6 @@ No hay márgenes en la parte superior e inferior del reproductor."</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">El antiguo menú de calidad de vídeo está visible.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">El antiguo menú de calidad de vídeo está oculto.</string>
     <string name="revanced_disable_default_playback_speed_music_title">Desactivar velocidad de reproducción para música</string>
-    <string name="revanced_disable_default_playback_speed_music_on">"La velocidad predeterminada de reproducción está desactivada para la música.
-
-Limitación: Es posible que este ajuste no se aplique a los vídeos que no incluyan el banner \"Escuchar en YouTube Music\"."</string>
     <string name="revanced_disable_default_playback_speed_music_off">La velocidad predeterminada de reproducción está activada para la música.</string>
     <string name="revanced_enable_default_playback_speed_shorts_title">Activar velocidad predeterminada de reproducción de Shorts</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">La velocidad predeterminada de reproducción se aplica a los Shorts.</string>
@@ -1759,20 +1763,28 @@ Pulsa el botón de continuar y desactiva las optimizaciones de la batería."</st
     <string name="revanced_spoof_streaming_data_summary_off">"Los datos de transmisión no están falsificados. Es posible que la reproducción de vídeo no funcione."</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">Desactivar este ajuste puede causar problemas de reproducción de vídeo.</string>
     <string name="revanced_spoof_streaming_data_type_title">Cliente predeterminado</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">iOS TV</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Efectos secundarios de falsificación</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android">"• Falta el menú de pista de audio.
-• El volumen estable no está disponible.
-• Desactivar pistas de audio automáticas forzadas no está disponible."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• Aún no encontrado.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">• Las películas o vídeos de pago no pueden reproducirse.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_title">Forzar iOS AVC (H.264)</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">El códec de vídeo es AVC (H.264).</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">El códec de vídeo se determina automáticamente.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"Activar este ajuste podría mejorar la duración de la batería y solucionar el problema de la reproducción entrecortada.
+
+AVC tiene una resolución máxima de 1080p, el códec de audio Opus no está disponible y la reproducción de vídeo utilizará más datos de Internet que VP9 o AV1."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Mostrar en estadísticas para nerds</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">El cliente utilizado para obtener datos de transmisión se muestra en estadísticas para nerds.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">El cliente utilizado para obtener datos de transmisión no se muestra en estadísticas para nerds.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
+    <string name="revanced_preference_category_po_token_visitor_data">PoToken / VisitorData</string>
+    <string name="revanced_spoof_streaming_data_po_token_title">PoToken a utilizar</string>
+    <string name="revanced_spoof_streaming_data_po_token_summary">PoToken emitido por BotGuard en un navegador de confianza.</string>
+    <string name="revanced_spoof_streaming_data_visitor_data_title">VisitorData a utilizar</string>
+    <string name="revanced_spoof_streaming_data_visitor_data_summary">VisitorData emitido por BotGuard en un navegador de confianza.</string>
+    <string name="revanced_spoof_streaming_data_po_token_visitor_data_about_title">Acerca de PoToken / VisitorData</string>
+    <string name="revanced_spoof_streaming_data_po_token_visitor_data_about_summary">"Algunos clientes requieren PoToken y VisitorData para obtener una respuesta de datos de streaming válida.
+
+Si estás intentando utilizar iOS como cliente predeterminado, es posible que necesites estos valores.
+
+Pulsa aquí para ver más información."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">Historial de reproducciones</string>
     <string name="revanced_preference_screen_watch_history_summary">Cambiar ajustes relacionados con el historial de reproducciones.</string>

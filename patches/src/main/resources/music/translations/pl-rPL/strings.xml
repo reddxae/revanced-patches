@@ -375,6 +375,12 @@ Kliknij, by zobaczyć, jak zgłosić klucz API."</string>
     <string name="revanced_disable_cairo_splash_animation_summary">Wyłącza animację ładowania aplikacji związaną z motywem Cairo podczas otwierania aplikacji.</string>
     <string name="revanced_disable_drc_audio_title">Wyłącz audio DRC</string>
     <string name="revanced_disable_drc_audio_summary">Wyłącza DRC (Dynamic Range Compression) stosowane w utworach.</string>
+    <string name="revanced_disable_music_video_in_album_title">Wyłącz teledyski w albumach</string>
+    <string name="revanced_disable_music_video_in_album_summary">"Gdy użytkownik non-premium odtwarza utwór zawarty w albumie, czasami zamiast oficjalnego utworu, odtwarzany jest teledysk.
+
+W przypadku wykrycia odtwarzania teledysku zawartego w albumie, następuje przekierowanie do oficjalnego utworu.
+
+Używana jest instancja Piped, a interfejs API może nie być dostępny w niektórych regionach."</string>
     <string name="revanced_enable_debug_logging_title">Włącz logowanie debugowania</string>
     <string name="revanced_enable_debug_logging_summary">Wyświetla log od debugowania.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Logi do debugowania buforu</string>
@@ -422,6 +428,7 @@ Stuknij przycisk kontynuacji i zezwól na zmiany w optymalizacji."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Informacja w statystykach dla nerdów</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary">Pokazuje używanego klienta do przechwytywania strumienia danych w statystykach dla nerdów.</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_music">Android Music</string>
     <string name="revanced_sanitize_sharing_links_title">Oczyść udostępniane linki</string>
     <string name="revanced_sanitize_sharing_links_summary">Usuwa parametry śledzących zapytań z adresów URL podczas udostępniania linków.</string>
     <string name="revanced_default_app_settings_title">Otwórz systemowe ustawienia aplikacji</string>

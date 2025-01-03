@@ -294,6 +294,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_preference_screen_general_title">일반</string>
     <string name="revanced_change_start_page_title">앱 시작 페이지 변경하기</string>
     <string name="revanced_change_start_page_entry_browse">채널 둘러보기</string>
+    <string name="revanced_change_start_page_entry_courses">학습 프로그램</string>
     <string name="revanced_change_start_page_entry_default">홈 (기본값)</string>
     <string name="revanced_change_start_page_entry_explore">탐색</string>
     <string name="revanced_change_start_page_entry_gaming">게임</string>
@@ -303,12 +304,14 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_change_start_page_entry_live">실시간</string>
     <string name="revanced_change_start_page_entry_movies">영화</string>
     <string name="revanced_change_start_page_entry_music">음악</string>
+    <string name="revanced_change_start_page_entry_notifications">알림</string>
     <string name="revanced_change_start_page_entry_search">검색</string>
     <string name="revanced_change_start_page_entry_shorts">Shorts</string>
     <string name="revanced_change_start_page_entry_sports">스포츠</string>
     <string name="revanced_change_start_page_entry_subscriptions">구독</string>
     <string name="revanced_change_start_page_entry_trending">인기 급상승</string>
     <string name="revanced_change_start_page_entry_watch_later">나중에 볼 동영상</string>
+    <string name="revanced_change_start_page_entry_your_clips">내 클립</string>
     <string name="revanced_change_start_page_type_title">앱 시작 페이지 유형 변경하기</string>
     <string name="revanced_change_start_page_type_summary_on">"앱 시작 페이지가 항상 변경됩니다.
 
@@ -324,6 +327,9 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_disable_splash_animation_title">스플래시 애니메이션 비활성화하기</string>
     <string name="revanced_disable_splash_animation_summary_on">앱을 시작할 때, 스플래시 애니메이션을 비활성화합니다.</string>
     <string name="revanced_disable_splash_animation_summary_off">앱을 시작할 때, 스플래시 애니메이션을 활성화합니다.</string>
+    <string name="revanced_disable_translucent_status_bar_title">반투명 상태바 비활성화하기</string>
+    <string name="revanced_disable_translucent_status_bar_summary_on">상태바가 불투명합니다.</string>
+    <string name="revanced_disable_translucent_status_bar_summary_off">상태바가 불투명하거나 반투명합니다.</string>
     <string name="revanced_enable_gradient_loading_screen_title">그라데이션 색상 로딩 화면 활성화하기</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">그라데이션 색상 로딩 화면을 활성화합니다.</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">그라데이션 색상 로딩 화면을 비활성화합니다.</string>
@@ -490,6 +496,9 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
 또한, Shorts에서 광고가 더 이상 숨겨지지 않습니다.
 
 이 설정이 적용되지 않는 경우에는 시크릿 모드로 전환해 보세요."</string>
+    <string name="revanced_enable_translucent_navigation_bar_title">반투명 하단바 활성화하기</string>
+    <string name="revanced_enable_translucent_navigation_bar_summary_on">하단바가 반투명합니다.</string>
+    <string name="revanced_enable_translucent_navigation_bar_summary_off">하단바가 불투명합니다.</string>
     <string name="revanced_hide_navigation_bar_title">하단바 숨기기</string>
     <string name="revanced_hide_navigation_bar_summary_on">하단바가 숨겨집니다.</string>
     <string name="revanced_hide_navigation_bar_summary_off">하단바가 표시됩니다.</string>
@@ -906,13 +915,6 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_enable_compact_controls_overlay_title">컴팩트 컨트롤 오버레이 활성화하기</string>
     <string name="revanced_enable_compact_controls_overlay_summary_on">전체 화면에서 컨트롤 오버레이를 작게 표시합니다.</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">전체 화면에서 컨트롤 오버레이를 작게 표시하지 않습니다.</string>
-    <string name="revanced_force_fullscreen_title">전체 화면 강제 전환하기</string>
-    <string name="revanced_force_fullscreen_summary">"
-다음과 같은 상황에서 동영상이 전체 화면으로 전환됩니다:
-
-• 동영상이 시작되었을 경우.
-• 동영상 설명에서 챕터를 선택했을 경우.
-• 댓글 내용에서 타임스탬프를 눌렀을 경우."</string>
     <string name="revanced_keep_landscape_mode_title">가로 모드 유지하기</string>
     <string name="revanced_keep_landscape_mode_summary">자동 회전 모드를 켜지 않고, 전체 화면으로 시청 중 화면을 껐다 켰을 때, 가로 모드를 유지합니다.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">가로 모드 유지하기 제한 시간</string>
@@ -1382,12 +1384,18 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_disable_hdr_auto_brightness_title">HDR 자동 밝기 비활성화하기</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">HDR 자동 밝기를 비활성화합니다.</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">HDR 자동 밝기를 활성화합니다.</string>
-    <string name="revanced_disable_watch_panel_gestures_title">시청 패널 제스처 비활성화하기</string>
-    <string name="revanced_disable_watch_panel_gestures_summary_on">동영상 플레이어 하단에서 아래로 스와이프하여 전체 화면으로 전환하지 않습니다.</string>
-    <string name="revanced_disable_watch_panel_gestures_summary_off">동영상 플레이어 하단에서 아래로 스와이프하여 전체 화면으로 전환합니다.</string>
     <string name="revanced_disable_swipe_to_switch_video_title">스와이프 제스처로 동영상 전환 비활성화하기</string>
-    <string name="revanced_disable_swipe_to_switch_video_summary_on">스와이프 제스처로 다음/이전 동영상으로 전환하지 않습니다.</string>
-    <string name="revanced_disable_swipe_to_switch_video_summary_off">스와이프 제스처로 다음/이전 동영상으로 전환합니다.</string>
+    <string name="revanced_disable_swipe_to_switch_video_summary_on">전체 화면 모드에서 위로/아래로 스와이프하여 다음/이전 동영상으로 전환하지 않습니다.</string>
+    <string name="revanced_disable_swipe_to_switch_video_summary_off">전체 화면 모드에서 위로/아래로 스와이프하여 다음/이전 동영상으로 전환합니다.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_title">스와이프 제스처로 전체 화면 모드로 전환 비활성화하기 (플레이어 하단)</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_summary_on">플레이어 하단에서 아래로 스와이프하여 전체 화면 모드로 들어가지 않습니다.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_summary_off">플레이어 하단에서 아래로 스와이프하여 전체 화면 모드로 들어갑니다.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_title">스와이프 제스처로 전체 화면 모드 전환 비활성화하기 (플레이어 내부)</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_summary_on">플레이어에서 아래로 스와이프하여 전체 화면 모드로 들어가지 않습니다.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_summary_off">플레이어에서 아래로 스와이프하여 전체 화면 모드로 들어갑니다.</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_title">스와이프 제스처로 전체 화면 모드 종료 비활성화하기</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_summary_on">전체 화면에서 아래로 스와이프하여 전체 화면 모드를 나가지 않습니다.</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_summary_off">전체 화면에서 아래로 스와이프하여 전체 화면 모드를 나갑니다.</string>
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">자동</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">동영상</string>
@@ -1397,9 +1405,6 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_disable_hdr_video_title">HDR 동영상 비활성화하기</string>
     <string name="revanced_disable_hdr_video_summary_on">HDR 동영상을 비활성화합니다.</string>
     <string name="revanced_disable_hdr_video_summary_off">HDR 동영상을 활성화합니다.</string>
-    <string name="revanced_disable_default_playback_speed_live_title">실시간 스트림에서 기본 동영상 재생 속도 비활성화하기</string>
-    <string name="revanced_disable_default_playback_speed_live_summary_on">실시간 스트림에서 기본 동영상 재생 속도를 비활성화합니다.</string>
-    <string name="revanced_disable_default_playback_speed_live_summary_off">실시간 스트림에서 기본 동영상 재생 속도를 활성화합니다.</string>
     <string name="revanced_enable_custom_playback_speed_title">사용자 정의 동영상 재생 속도 활성화하기</string>
     <string name="revanced_enable_custom_playback_speed_summary_on">사용자 정의 동영상 재생 속도를 활성화합니다.</string>
     <string name="revanced_enable_custom_playback_speed_summary_off">사용자 정의 동영상 재생 속도를 비활성화합니다.</string>
@@ -1424,10 +1429,6 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">이전 동영상 화질 설정 메뉴를 활성화합니다.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">이전 동영상 화질 설정을 비활성화합니다.</string>
     <string name="revanced_disable_default_playback_speed_music_title">음악에서 기본 동영상 재생 속도 비활성화하기</string>
-    <string name="revanced_disable_default_playback_speed_music_on">"음악 동영상에서 기본 동영상 재생 속도를 비활성화합니다.
-
-알려진 문제점:
-• 이 설정은 'YouTube Music에서 감상하기' 배너가 포함되지 않은 동영상에는 적용되지 않을 수 있습니다."</string>
     <string name="revanced_disable_default_playback_speed_music_off">음악 동영상에서 기본 동영상 재생 속도를 활성화합니다.</string>
     <string name="revanced_enable_default_playback_speed_shorts_title">Shorts에서 기본 동영상 재생 속도 활성화하기</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">Shorts에서 기본 동영상 재생 속도를 활성화합니다.</string>
@@ -1490,7 +1491,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <!-- PreferenceScreen: Return YouTube Dislike, PreferenceCategory: About -->
     <string name="revanced_ryd_about">정보</string>
     <string name="revanced_ryd_attribution_title">ReturnYouTubeDislike.com</string>
-    <string name="revanced_ryd_attribution_summary">싫어요 수의 데이터는 Return YouTube Dislike API에 의해 제공됩니다. 자세한 내용을 보려면 여기를 누르세요.</string>
+    <string name="revanced_ryd_attribution_summary">싫어요 수의 데이터는 Return YouTube Dislike API에 의해 제공됩니다. 자세한 정보를 보려면 여기를 누르세요.</string>
     <string name="revanced_ryd_failure_connection_timeout">싫어요 수를 일시적으로 표시할 수 없습니다 (응답 시간 초과).</string>
     <string name="revanced_ryd_failure_connection_status_code">싫어요 수를 표시할 수 없습니다 (상태 코드: %d).</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">싫어요 수를 표시할 수 없습니다 (클라이언트 API 제한 도달).</string>
@@ -1701,7 +1702,7 @@ API Key를 발급받는 방법을 보려면 여기를 누르세요."</string>
     <!-- PreferenceScreen: SponsorBlock, PreferenceCategory: About -->
     <string name="revanced_sb_about">정보</string>
     <string name="revanced_sb_about_api">sponsor.ajay.app</string>
-    <string name="revanced_sb_about_api_sum">건너뛸 구간의 데이터는 SponsorBlock API에 의해 제공됩니다. 자세한 내용을 보려면 여기를 누르세요.</string>
+    <string name="revanced_sb_about_api_sum">건너뛸 구간의 데이터는 SponsorBlock API에 의해 제공됩니다. 자세한 정보를 보려면 여기를 누르세요.</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">기타</string>
     <string name="revanced_enable_debug_logging_title">디버그 로깅 활성화하기</string>
@@ -1773,21 +1774,28 @@ GmsCore 앱 배터리 최적화를 비활성화(제한 없음)하더라도, 배�
     <string name="revanced_spoof_streaming_data_summary_off">"스트리밍 데이터를 변경하지 않습니다.\n동영상 재생 문제가 발생할 수 있습니다."</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">이 설정을 비활성화하면 동영상 재생 문제가 발생할 수 있습니다.</string>
     <string name="revanced_spoof_streaming_data_type_title">기본 클라이언트</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">iOS TV</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">알려진 문제점</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android">"• 오디오 트랙 메뉴가 표시되지 않습니다.
-• 안정적인 볼륨을 사용할 수 없습니다.
-• 자동 오디오 트랙을 비활성화할 수 없습니다.
-• VR은 Kids // TV는 재생목록과 음악 동영상에서 다른 클라이언트가 사용될 수 있습니다."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• 주요 문제점은 아직 발견되지 않았습니다.\n• 영화, 유료, 비공개 그리고 연령 제한 동영상에서 다른 클라이언트가 사용될 수 있습니다.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">• 영화 또는 유료 동영상이 재생되지 않을 수 있습니다.\n• 안정적인 볼륨을 사용할 수 없습니다.\n• 음악 동영상에서 다른 클라이언트가 사용될 수 있습니다.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_title">iOS AVC (H.264) 강제로 활성화하기</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">동영상 코덱을 AVC (H.264)로 강제로 활성화합니다.\n\n• 일부 VP9 코덱 동영상에서 제거되었던 화질 값이 표시될 수 있습니다.\n• 최대 화질 값이 1080p이므로, 초고화질 동영상을 재생할 수 없습니다.\n• HDR 동영상을 재생할 수 없습니다.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">동영상 코덱을 자동으로 결정합니다.\n\n• 예전에 업로드된 동영상을 재생했는데 VP9 코덱 응답을 받았을 경우, 일부 화질값이 제거되어 360p와 1080p(Premium 기능)만 선택가능할 수 있거나 화질 메뉴를 선택불가능할 수 있습니다.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"이 설정를 활성화하면 배터리 수명이 향상되고, 동영상 재생 끊김 문제가 해결될 수 있습니다.
+
+AVC의 최대 화질 값은 1080p이고, OPUS 코덱을 사용불가 및 HDR 동영상을 재생할 수 없으며, 동영상을 재생했을 경우에는 VP9 또는 AV1보다 더 많은 모바일 데이터를 사용되오니 주의하세요."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">전문 통계에서 표시하기</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">\'스트리밍 데이터를 가져오는 데 사용되는 클라이언트\'가 전문 통계에서 표시됩니다.\n\n• 만약 선택한 기본 클라이언트가 재생할 수 없는 동영상을 재생하려하거나 클라이언트 재생 문제가 발생하면, 그 문제를 해결하기 위해 다른 클라이언트가 사용되는 경우도 있기 때문에 전문 통계에서 다르게 표시될 수 있습니다.</string>
-    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">\'스트리밍 데이터를 가져오는 데 사용되는 클라이언트\'가 전문 통계에서 숨겨집니다.\n\n• 만약 선택한 기본 클라이언트가 재생할 수 없는 동영상을 재생하려하거나 클라이언트 재생 문제가 발생하면 그 문제를 해결하기 위해 다른 클라이언트가 사용되는 경우도 있기 때문에 전문 통계에서 다르게 표시될 수 있습니다.</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">\'스트리밍 데이터를 가져오는 데 사용되는 클라이언트\'가 전문 통계에서 숨겨집니다.\n\n• 만약 선택한 기본 클라이언트가 재생할 수 없는 동영상을 재생하려하거나 클라이언트 재생 문제가 발생하면, 그 문제를 해결하기 위해 다른 클라이언트가 사용되는 경우도 있기 때문에 전문 통계에서 다르게 표시될 수 있습니다.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
+    <string name="revanced_preference_category_po_token_visitor_data">PoToken / VisitorData</string>
+    <string name="revanced_spoof_streaming_data_po_token_title">사용할 PoToken</string>
+    <string name="revanced_spoof_streaming_data_po_token_summary">\'신뢰할 수 있는 브라우저에서 BotGuard로 발행한 PoToken\'을 사용할 수 있습니다.</string>
+    <string name="revanced_spoof_streaming_data_visitor_data_title">사용할 VisitorData</string>
+    <string name="revanced_spoof_streaming_data_visitor_data_summary">\'신뢰할 수 있는 브라우저에서 BotGuard로 발행한 VisitorData\'를 사용할 수 있습니다.</string>
+    <string name="revanced_spoof_streaming_data_po_token_visitor_data_about_title">PoToken / VisitorData에 대한 정보</string>
+    <string name="revanced_spoof_streaming_data_po_token_visitor_data_about_summary">"일부 클라이언트는 유효한 스트리밍 데이터 응답을 받기 위해 PoToken과 VisitorData가 필요합니다.
+
+iOS를 기본 클라이언트로 사용하려는 경우에 이 값이 필요할 수 있습니다.
+
+자세한 정보를 보려면 여기를 누르세요."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">시청 기록</string>
     <string name="revanced_preference_screen_watch_history_summary">시청 기록과 관련된 설정을 변경할 수 있습니다.</string>

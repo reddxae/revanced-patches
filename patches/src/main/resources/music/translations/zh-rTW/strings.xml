@@ -197,6 +197,10 @@
     <string name="revanced_hide_navigation_label_summary">隱藏位於導覽列的標籤</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">播放器</string>
+    <string name="revanced_disable_mini_player_gesture_title">停用迷你播放器手勢</string>
+    <string name="revanced_disable_mini_player_gesture_summary">停用迷你播放器中的滑動切換曲目功能。</string>
+    <string name="revanced_disable_player_gesture_title">停用播放器手勢</string>
+    <string name="revanced_disable_player_gesture_summary">停用播放器中的滑動切換歌曲。</string>
     <string name="revanced_enable_black_player_background_title">啟用黑色播放器背景</string>
     <string name="revanced_enable_black_player_background_summary">將播放器背景顏色設成為黑色</string>
     <string name="revanced_enable_color_match_player_title">啟用彩色播放列</string>
@@ -219,6 +223,8 @@
     <string name="revanced_hide_comment_channel_guidelines_summary">隱藏留言頂部的頻道指南</string>
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_title">隱藏時間戳與表情符號按鈕</string>
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">輸入留言時隱藏時間戳記和表情符號按鈕</string>
+    <string name="revanced_hide_double_tap_overlay_filter_title">隱藏連點兩下疊加濾鏡</string>
+    <string name="revanced_hide_double_tap_overlay_filter_summary">隱藏點兩下以快轉或倒退時出現的深色疊加層。</string>
     <string name="revanced_hide_fullscreen_share_button_title">隱藏全螢幕播放器中的分享按鈕</string>
     <string name="revanced_hide_fullscreen_share_button_summary">在全螢幕播放器中隱藏分享按鈕</string>
     <string name="revanced_remember_repeat_state_title">記住重複播放狀態</string>
@@ -233,14 +239,29 @@
     <string name="revanced_restore_old_player_layout_summary">"將播放器介面恢復為舊樣式
 某些功能在舊的播放器介面中可能無法正常運作"</string>
     <!-- PreferenceScreen: Settings menu -->
+    <string name="revanced_preference_screen_settings_title">設定選單</string>
+    <string name="revanced_hide_settings_menu_parent_tools_title">隱藏家庭中心選單</string>
+    <string name="revanced_hide_settings_menu_general_title">隱藏一般選單</string>
+    <string name="revanced_hide_settings_menu_playback_title">隱藏播放選單</string>
+    <string name="revanced_hide_settings_menu_data_saving_title">隱藏資料儲存選單</string>
+    <string name="revanced_hide_settings_menu_downloads_and_storage_title">隱藏下載&amp;儲存選單</string>
+    <string name="revanced_hide_settings_menu_notification_title">隱藏通知選單</string>
+    <string name="revanced_hide_settings_menu_privacy_and_location_title">隱藏隱私權&amp;資料選單</string>
+    <string name="revanced_hide_settings_menu_recommendations_title">隱藏推薦選單</string>
+    <string name="revanced_hide_settings_menu_paid_memberships_title">隱藏取得 Music Premium 選單</string>
+    <string name="revanced_hide_settings_menu_about_title">隱藏關於選單</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">影片</string>
     <string name="revanced_custom_playback_speeds_title">編輯自訂播放速度</string>
     <string name="revanced_custom_playback_speeds_summary">新增或變更可以使用的播放速度</string>
     <string name="revanced_remember_playback_speed_last_selected_title">記住播放速度的變更</string>
     <string name="revanced_remember_playback_speed_last_selected_summary">記住上次選擇的播放速度</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">顯示提示訊息</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary">變更預設播放速度時顯示提示訊息。</string>
     <string name="revanced_remember_video_quality_last_selected_title">記住影片畫質變更</string>
     <string name="revanced_remember_video_quality_last_selected_summary">記住上次選擇的影片畫質</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_title">顯示提示訊息</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary">變更預設播放速度時顯示提示訊息。</string>
     <string name="revanced_custom_playback_speeds_invalid">自訂速度必須小於 %sx 使用預設值</string>
     <string name="revanced_custom_playback_speeds_parse_exception">自訂播放速度無效 使用預設值</string>
     <string name="revanced_remember_playback_speed_toast">將預設速度更改為 %s</string>
@@ -255,6 +276,8 @@
     <string name="revanced_ryd_dislike_percentage_summary">將倒讚數以百分比的形式顯示</string>
     <string name="revanced_ryd_compact_layout_title">緊湊型按讚按鈕</string>
     <string name="revanced_ryd_compact_layout_summary">隱藏按讚按鈕中間的分隔線</string>
+    <string name="revanced_ryd_estimated_like_title">顯示估計喜歡的次數</string>
+    <string name="revanced_ryd_estimated_like_summary">顯示影片的喜歡次數</string>
     <string name="revanced_ryd_toast_on_connection_error_title">當API無法使用時顯示提示訊息</string>
     <string name="revanced_ryd_toast_on_connection_error_summary">當 Return YouTube Dislike API 無法使用時顯示提示訊息</string>
     <string name="revanced_ryd_about">關於</string>
@@ -265,7 +288,22 @@
     <string name="revanced_ryd_failure_connection_status_code">倒讚數無法使用 (狀態 %d)</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">倒讚顯示不正常（已達到客戶端 API 限制）</string>
     <string name="revanced_ryd_failure_generic">倒讚數無法使用 (狀態 %s)</string>
+    <string name="revanced_ryd_video_likes_hidden_by_video_owner">隱藏</string>
     <!-- PreferenceScreen: Return YouTube Username -->
+    <string name="revanced_preference_screen_return_youtube_username_title">恢復 YouTube 使用者名稱</string>
+    <string name="revanced_return_youtube_username_enabled_title">啟用恢復 YouTube 使用者名稱</string>
+    <string name="revanced_return_youtube_username_enabled_summary">在留言中將使用者名稱取代帳號名稱。</string>
+    <string name="revanced_return_youtube_username_display_format_title">顯示樣式</string>
+    <string name="revanced_return_youtube_username_display_format_summary">選擇使用者名稱顯示樣式。</string>
+    <string name="revanced_return_youtube_username_display_format_username_only">使用者名稱</string>
+    <string name="revanced_return_youtube_username_display_format_username_handle">使用者名稱 (@帳號名稱)</string>
+    <string name="revanced_return_youtube_username_display_format_handle_username">\@帳號名稱 (使用者名稱)</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_title">YouTube 資料 API 金鑰</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_summary">使用 YouTube 資料 API v3 的開發人員金鑰</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_about_title">關於 YouTube 資料 API 金鑰</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_about_summary">"需要 YouTube Data API v3 開發者金鑰才能將帳號名稱替換為使用者名稱。免費方案的 API 金鑰每日配額為 10,000 次，每替換一次留言中的帳號名稱為使用者名稱會消耗 1 次配額。點擊此處了解如何申請 API 金鑰。"</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_title">取得 YouTube 資料 API v3 開發人員金鑰</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_message">1. 前往 &lt;a href=%1$s&gt;建立新專案&amp;p;.&lt;br&gt;2.點擊&lt;b&gt;創建&lt;/b&gt; 按鈕。&lt;br&gt;3.&lt;br&gt;轉到 &lt;a href=%2$s&gt;YouTube 資料 API v3&lt;/a&gt;.&lt;br&gt;4.點選&lt;b&gt;啟用&lt;/b&gt; 按鈕。&lt;br&gt;5.點選&lt;b&gt;建立憑證&lt;b&gt; 按鈕。 &lt;br&gt;6.選擇&lt;b&gt;公共資料&lt;/b&gt; 選項。&lt;br&gt;7.點選&lt;b&gt;下一步&lt;/b&gt; 按鈕。&lt;br&gt;8.複製 API 金鑰。&lt;br&gt;&lt;br&gt;※ API 金鑰不應與其他人共用，因此它不包含在匯入/匯出設定中。</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">贊助區塊阻擋（SponsorBlock）</string>
     <string name="revanced_sb_enabled">啟用SponsorBlock</string>
@@ -305,6 +343,18 @@
     <string name="revanced_sb_segments_nomusic_sum">此功能僅供音樂影片使用。本功能僅應該用於音樂錄影帶中並未包含其他類別的段落。</string>
     <string name="revanced_sb_skipped_sponsor">已跳過贊助</string>
     <string name="revanced_sb_skipped_selfpromo">已跳過自我宣傳</string>
+    <string name="revanced_sb_skipped_interaction">已跳過煩人的提醒</string>
+    <string name="revanced_sb_skipped_intro_beginning">已跳過開頭</string>
+    <string name="revanced_sb_skipped_intro_middle">已跳過中場休息</string>
+    <string name="revanced_sb_skipped_intro_end">已跳過中場休息</string>
+    <string name="revanced_sb_skipped_outro">已跳過結尾</string>
+    <string name="revanced_sb_skipped_preview_beginning">已跳過預覽</string>
+    <string name="revanced_sb_skipped_preview_middle">已跳過預覽</string>
+    <string name="revanced_sb_skipped_preview_end">已跳過前情提要</string>
+    <string name="revanced_sb_skipped_filler">已跳過贅詞</string>
+    <string name="revanced_sb_skipped_nomusic">已跳過非音樂片段</string>
+    <string name="revanced_sb_skipped_multiple_segments">已跳過多個片段</string>
+    <string name="revanced_sb_skip_automatically">自動跳過</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_enable_debug_logging_title">啟用除錯紀錄</string>
     <string name="revanced_enable_debug_logging_summary">列出除錯記錄檔</string>

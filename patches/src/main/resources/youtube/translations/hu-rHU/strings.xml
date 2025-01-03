@@ -293,6 +293,7 @@ Ha a lejátszó képernyőjének elrendezése a szerveroldali változtatások mi
     <string name="revanced_preference_screen_general_title">Általános</string>
     <string name="revanced_change_start_page_title">Kezdőlap megváltoztatása</string>
     <string name="revanced_change_start_page_entry_browse">Csatornák böngészése</string>
+    <string name="revanced_change_start_page_entry_courses">Kurzusok / Tanulás</string>
     <string name="revanced_change_start_page_entry_default">Alapértelmezett</string>
     <string name="revanced_change_start_page_entry_explore">Felfedezés</string>
     <string name="revanced_change_start_page_entry_gaming">Játékok</string>
@@ -302,12 +303,14 @@ Ha a lejátszó képernyőjének elrendezése a szerveroldali változtatások mi
     <string name="revanced_change_start_page_entry_live">Élő</string>
     <string name="revanced_change_start_page_entry_movies">Filmek</string>
     <string name="revanced_change_start_page_entry_music">Zene</string>
+    <string name="revanced_change_start_page_entry_notifications">Értesítések</string>
     <string name="revanced_change_start_page_entry_search">Keresés</string>
     <string name="revanced_change_start_page_entry_shorts">Shorts</string>
     <string name="revanced_change_start_page_entry_sports">Sport</string>
     <string name="revanced_change_start_page_entry_subscriptions">Feliratkozások</string>
     <string name="revanced_change_start_page_entry_trending">Felkapott</string>
     <string name="revanced_change_start_page_entry_watch_later">Megnézem később</string>
+    <string name="revanced_change_start_page_entry_your_clips">Klipjeid</string>
     <string name="revanced_change_start_page_type_title">Kiinduló lap megváltoztatása</string>
     <string name="revanced_change_start_page_type_summary_on">"A kiinduló lap mindig változik.
 
@@ -322,6 +325,9 @@ Korlátozás: Előfordulhat, hogy az eszköztár Vissza gombja nem működik."</
     <string name="revanced_disable_splash_animation_title">Indító animáció letiltása</string>
     <string name="revanced_disable_splash_animation_summary_on">Az indító animáció letiltva.</string>
     <string name="revanced_disable_splash_animation_summary_off">Az indító animáció engedélyezve.</string>
+    <string name="revanced_disable_translucent_status_bar_title">Átlátszó állapotsor letiltása</string>
+    <string name="revanced_disable_translucent_status_bar_summary_on">Az állapotsor nem látszik át.</string>
+    <string name="revanced_disable_translucent_status_bar_summary_off">Az állapotsor átlátszatlan vagy áttetsző.</string>
     <string name="revanced_enable_gradient_loading_screen_title">Színátmenetes betöltési képernyő engedélyezése</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">A színátmenetes betöltési képernyő engedélyezve van.</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">A színátmenetes betöltési képernyő le van tiltva.</string>
@@ -494,6 +500,9 @@ Megjegyzés: Engedélyezés esetén a videó hirdetéseket is elrejti."</string>
 Tovább, a reklámok nem lesznek tiltva a Shortokban.
 
 Ha ez a beállítás nem működik, váltson inkognító módra."</string>
+    <string name="revanced_enable_translucent_navigation_bar_title">Áttetsző navigációs sáv engedélyezése</string>
+    <string name="revanced_enable_translucent_navigation_bar_summary_on">A navigációs sáv áttetsző.</string>
+    <string name="revanced_enable_translucent_navigation_bar_summary_off">A navigációs sáv nem áttetsző.</string>
     <string name="revanced_hide_navigation_bar_title">Navigációs sáv elrejtése</string>
     <string name="revanced_hide_navigation_bar_summary_on">A navigációs sáv el van rejtve.</string>
     <string name="revanced_hide_navigation_bar_summary_off">A navigációs sáv látható.</string>
@@ -906,11 +915,6 @@ Korlátozás: A videó címe eltűnik, ha rákattint."</string>
     <string name="revanced_enable_compact_controls_overlay_title">Kompakt vezérlők engedélyezése</string>
     <string name="revanced_enable_compact_controls_overlay_summary_on">A vezérlők nem töltik ki a teljes képernyőt.</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">A vezérlők kitöltik a teljes képernyőt.</string>
-    <string name="revanced_force_fullscreen_title">Teljes képernyő erőltetése</string>
-    <string name="revanced_force_fullscreen_summary">"A videók teljes képernyősre váltanak a következő esetekben:
-
-• Amikor egy videó elindul.
-• Amikor egy időbélyegre kattintanak a hozzászólásokban."</string>
     <string name="revanced_keep_landscape_mode_title">Tartsa a fekvő módot</string>
     <string name="revanced_keep_landscape_mode_summary">Megtartja a fekvő módot a képernyő ki- és bekapcsolásakor teljes képernyőn.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">Fekvő mód tartás időtúllépése</string>
@@ -1376,12 +1380,18 @@ Megjegyzés: Ezzel a képernyőterület méretét is megváltoztatja, ahol érz�
     <string name="revanced_disable_hdr_auto_brightness_title">Automatikus HDR fényerő letiltása</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">Az automatikus HDR fényerő le van tiltva.</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">Az automatikus HDR fényerő engedélyezett.</string>
-    <string name="revanced_disable_watch_panel_gestures_title">Nézőpanel gesztusok letiltása</string>
-    <string name="revanced_disable_watch_panel_gestures_summary_on">A teljes képernyőre való belépés a videólejátszó alatti lapozáskor letiltva.</string>
-    <string name="revanced_disable_watch_panel_gestures_summary_off">A teljes képernyőre való belépés a videólejátszó alatti lefelé csúsztatáskor engedélyezve van.</string>
     <string name="revanced_disable_swipe_to_switch_video_title">A videóváltás lapozással letiltása</string>
     <string name="revanced_disable_swipe_to_switch_video_summary_on">A felfelé/lefelé lapozás nem játssza le a következő/előző videót.</string>
     <string name="revanced_disable_swipe_to_switch_video_summary_off">A felfelé/lefelé lapozással a következő/előző videót játsza le.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_title">Teljes képernyős módba való belépés letiltása (a lejátszó alatt)</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_summary_on">A lejátszó alatti lefelé lapozás nem léptet be teljes képernyős módba.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_summary_off">A lejátszó alatt lefelé lapozással teljes képernyős módba léptet.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_title">Teljes képernyős módba való belépés letiltása (a lejátszóban)</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_summary_on">A lejátszóban a felfelé lapozás nem léptet be a teljes képernyős módba.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_summary_off">A lejátszóban a felfelé lapozás beléptet a teljes képernyős módba.</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_title">Teljes képernyős üzemmódból való kilépés lapozással letiltása</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_summary_on">A teljes képernyőn történő lefelé lapozás nem léptet ki a teljes képernyős módból.</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_summary_off">A teljes képernyős módból való lapozás a teljes képernyős módból való kilépéshez vezet.</string>
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">Automatikus</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Videó</string>
@@ -1391,9 +1401,6 @@ Megjegyzés: Ezzel a képernyőterület méretét is megváltoztatja, ahol érz�
     <string name="revanced_disable_hdr_video_title">HDR videó letiltása</string>
     <string name="revanced_disable_hdr_video_summary_on">A HDR videó le van tiltva.</string>
     <string name="revanced_disable_hdr_video_summary_off">A HDR videó engedélyezve van.</string>
-    <string name="revanced_disable_default_playback_speed_live_title">Lejátszási sebesség letiltása élő közvetítésnél</string>
-    <string name="revanced_disable_default_playback_speed_live_summary_on">Az alapértelmezett lejátszási sebesség le van tiltva élő közvetítésnél.</string>
-    <string name="revanced_disable_default_playback_speed_live_summary_off">Az alapértelmezett lejátszási sebesség engedélyezve van az élő közvetítésnél.</string>
     <string name="revanced_enable_custom_playback_speed_title">Egyéni lejátszási sebesség engedélyezése</string>
     <string name="revanced_enable_custom_playback_speed_summary_on">Az egyéni lejátszási sebesség engedélyezve van.</string>
     <string name="revanced_enable_custom_playback_speed_summary_off">Az egyéni lejátszási sebesség le van tiltva.</string>
@@ -1418,9 +1425,6 @@ Megjegyzés: Ezzel a képernyőterület méretét is megváltoztatja, ahol érz�
     <string name="revanced_restore_old_video_quality_menu_summary_on">A régi videóminőség menü jelenik meg</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">A régi videóminőség menü nem jelenik meg</string>
     <string name="revanced_disable_default_playback_speed_music_title">Lejátszási sebesség zenéhez kiválasztás elrejtése</string>
-    <string name="revanced_disable_default_playback_speed_music_on">"A zene alapértelmezett lejátszási sebessége le van tiltva.
-
-Korlátozás: Előfordulhat, hogy ez a beállítás nem vonatkozik azokra a videókra, amelyek nem tartalmazzák a „Hallgassa meg a YouTube Musicon” bannert."</string>
     <string name="revanced_disable_default_playback_speed_music_off">Az alapértelmezett lejátszási sebesség engedélyezett zene lejátszásnál.</string>
     <string name="revanced_enable_default_playback_speed_shorts_title">Shortok alapértelmezett lejátszási sebességének engedélyezése</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">Az alapértelmezett lejátszási sebesség vonatkozik a Shortokra.</string>
@@ -1758,20 +1762,28 @@ Kattintson az API-kulcs kiadás folyamatának megtekintéséhez."</string>
     <string name="revanced_spoof_streaming_data_summary_off">"Az adatfolyam nincs meghamisítva. Lehet, hogy a videó lejátszás nem működik."</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">A beállítás kikapcsolása videólejátszási problémákat okozhat.</string>
     <string name="revanced_spoof_streaming_data_type_title">Alapértelmezett kliens</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">iOS TV</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Hamisítás mellékhatásai</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android">"• A hangsáv menü hiányzik.
-• Stabil hangerő nem áll rendelkezésre.
-• Kényszerített automatikus hangsávok kikapcsolása nem elérhető."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• Még nem található.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">• Előfordulhat, hogy a filmek vagy fizetős videók nem játszódnak le.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_title">Kényszerített iOS AVC (H.264)</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">A videó kodek AVC-re (H.264) van kényszerítve.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">A videokodek meghatározása automatikusan történik.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"Ennek engedélyezése javíthatja az akkumulátor élettartamát és javíthatja a lejátszás akadozását.
+
+Az AVC maximális felbontása 1080p, az Opus hangkodek nem érhető el, és a videolejátszás több adatforgalmat igényel, mint a VP9 vagy az AV1."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Megjelenítés a statisztikában kockáknak</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Az adatfolyam lekérésére használt kliens a statisztikában kockáknak látható.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Az adatfolyam lekérésére használt kliens a statisztikában kockáknak nem látható.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
+    <string name="revanced_preference_category_po_token_visitor_data">PoToken / VisitorData</string>
+    <string name="revanced_spoof_streaming_data_po_token_title">PoToken használatához</string>
+    <string name="revanced_spoof_streaming_data_po_token_summary">A BotGuard által kibocsátott PoToken egy megbízható böngészőben.</string>
+    <string name="revanced_spoof_streaming_data_visitor_data_title">VisitorData használatához</string>
+    <string name="revanced_spoof_streaming_data_visitor_data_summary">A BotGuard által kibocsátott VisitorData egy megbízható böngészőben.</string>
+    <string name="revanced_spoof_streaming_data_po_token_visitor_data_about_title">A PoTokenről / VisitorData-ról</string>
+    <string name="revanced_spoof_streaming_data_po_token_visitor_data_about_summary">"Néhány kliensnek PoToken és VisitorData szükséges az adatok érvényes folyamatos adatátvitelére adott válaszhoz.
+
+Ha az iOS-t próbálja alapértelmezett kliensként használni, szüksége lehet ezekre az értékekre.
+
+Kattintson a további információkért."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">Megtekintési előzmények</string>
     <string name="revanced_preference_screen_watch_history_summary">A megtekintési előzményekhez kapcsolódó beállítások módosítása.</string>

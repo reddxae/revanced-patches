@@ -522,6 +522,11 @@ public class Utils {
         );
     }
 
+    public static boolean isLandscapeOrientation() {
+        final int orientation = context.getResources().getConfiguration().orientation;
+        return orientation == Configuration.ORIENTATION_LANDSCAPE;
+    }
+
     /**
      * Automatically logs any exceptions the runnable throws.
      *

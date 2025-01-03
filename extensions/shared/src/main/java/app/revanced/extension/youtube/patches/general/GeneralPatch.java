@@ -44,6 +44,7 @@ import app.revanced.extension.shared.utils.Logger;
 import app.revanced.extension.shared.utils.ResourceUtils;
 import app.revanced.extension.shared.utils.Utils;
 import app.revanced.extension.youtube.settings.Settings;
+import app.revanced.extension.youtube.utils.ExtendedUtils;
 import app.revanced.extension.youtube.utils.ThemeUtils;
 
 @SuppressWarnings("unused")
@@ -520,14 +521,30 @@ public class GeneralPatch {
         imageView.setImageDrawable(drawable);
     }
 
-    private static final int settingsDrawableId =
-            ResourceUtils.getDrawableIdentifier("yt_outline_gear_black_24");
-
     public static int getCreateButtonDrawableId(int original) {
-        return Settings.REPLACE_TOOLBAR_CREATE_BUTTON.get() &&
-                settingsDrawableId != 0
+        if (!Settings.REPLACE_TOOLBAR_CREATE_BUTTON.get()) {
+            return original;
+        }
+
+        final int settingsDrawableId =
+                ResourceUtils.getDrawableIdentifier("yt_outline_gear_black_24");
+
+        if (settingsDrawableId == 0) {
+            return original;
+        }
+
+        // If the user has patched YouTube 19.26.42,
+        // Or spoofed the app version to 19.26.42 or earlier.
+        if (!ExtendedUtils.IS_19_28_OR_GREATER || ExtendedUtils.isSpoofingToLessThan("19.27.00")) {
+            return settingsDrawableId;
+        }
+
+        final int settingsCairoDrawableId =
+                ResourceUtils.getDrawableIdentifier("yt_outline_gear_cairo_black_24");
+
+        return settingsCairoDrawableId == 0
                 ? settingsDrawableId
-                : original;
+                : settingsCairoDrawableId;
     }
 
     public static void replaceCreateButton(String enumString, View toolbarView) {

@@ -38,6 +38,7 @@ enum class PlayerControlsVisibility {
                 currentPlayerControlsVisibility = value
             }
 
+        @Volatile // Read/write from different threads.
         private var currentPlayerControlsVisibility: PlayerControlsVisibility? = null
     }
 }

@@ -420,6 +420,12 @@ Click to see how to issue a API key."</string>
     <string name="revanced_disable_cairo_splash_animation_summary">Disables Cairo splash animation when the app starts up.</string>
     <string name="revanced_disable_drc_audio_title">Disable DRC audio</string>
     <string name="revanced_disable_drc_audio_summary">Disables DRC (Dynamic Range Compression) applied to audio.</string>
+    <string name="revanced_disable_music_video_in_album_title">Disable music video in album</string>
+    <string name="revanced_disable_music_video_in_album_summary">"When a non-premium user plays a song included in an album, the music video is sometimes played instead of the official song.
+
+If such a music video is detected playing, it is redirected to the official song.
+
+A piped instance is used, but the API may not be available in some regions."</string>
     <string name="revanced_enable_debug_logging_title">Enable debug logging</string>
     <string name="revanced_enable_debug_logging_summary">Prints the debug log.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Enable debug buffer logging</string>

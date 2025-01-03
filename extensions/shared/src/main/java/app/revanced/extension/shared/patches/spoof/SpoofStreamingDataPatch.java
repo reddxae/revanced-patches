@@ -222,7 +222,6 @@ public class SpoofStreamingDataPatch {
             final Long approxDurationMs = approxDurationMsMap.get(videoId);
             if (approxDurationMs != null) {
                 Logger.printDebug(() -> "Replacing video length: " + approxDurationMs + " for videoId: " + videoId);
-                approxDurationMsMap.remove(videoId);
                 return approxDurationMs;
             }
         }

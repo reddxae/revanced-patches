@@ -4,6 +4,9 @@ import android.os.Build
 import app.revanced.extension.shared.patches.PatchStatus
 import app.revanced.extension.shared.settings.BaseSettings
 
+/**
+ * Used to fetch streaming data.
+ */
 object AppClient {
     // IOS
     /**
@@ -46,7 +49,7 @@ object AppClient {
 
     // IOS UNPLUGGED
     /**
-     * Video not playable: Paid / Movie
+     * Video not playable: Paid / Movie / Playlists / Music
      * Note: Audio track available
      */
     private const val PACKAGE_NAME_IOS_UNPLUGGED = "com.google.ios.youtubeunplugged"
@@ -170,7 +173,6 @@ object AppClient {
         return BaseSettings.SPOOF_STREAMING_DATA_IOS_FORCE_AVC.get()
     }
 
-    @JvmStatic
     val availableClientTypes: Array<ClientType>
         get() = if (PatchStatus.SpoofStreamingDataMusic())
             ClientType.CLIENT_ORDER_TO_USE_YOUTUBE_MUSIC
@@ -185,43 +187,35 @@ object AppClient {
         /**
          * Device model, equivalent to [Build.MODEL] (System property: ro.product.model)
          */
-        @JvmField
-        val deviceModel: String? = Build.MODEL,
+        val deviceModel: String = Build.MODEL,
         /**
          * Device OS version, equivalent to [Build.VERSION.RELEASE] (System property: ro.system.build.version.release)
          */
-        @JvmField
-        val osVersion: String? = Build.VERSION.RELEASE,
+        val osVersion: String = Build.VERSION.RELEASE,
         /**
          * Client user-agent.
          */
-        @JvmField
         val userAgent: String,
         /**
          * Android SDK version, equivalent to [Build.VERSION.SDK] (System property: ro.build.version.sdk)
          * Field is null if not applicable.
          */
-        @JvmField
         val androidSdkVersion: String? = null,
         /**
          * App version.
          */
-        @JvmField
         val clientVersion: String,
         /**
          * If the client can access the API logged in.
          */
-        @JvmField
-        val canLogin: Boolean? = true,
+        val canLogin: Boolean = true,
         /**
-         * If a poToken should be used.
+         * Whether a poToken is required to get playback for more than 1 minute.
          */
-        @JvmField
-        val usePoToken: Boolean? = false,
+        val requirePoToken: Boolean = false,
         /**
          * Friendly name displayed in stats for nerds.
          */
-        @JvmField
         val friendlyName: String
     ) {
         ANDROID_VR(
@@ -260,7 +254,7 @@ object AppClient {
             userAgent = USER_AGENT_IOS,
             clientVersion = CLIENT_VERSION_IOS,
             canLogin = false,
-            usePoToken = true,
+            requirePoToken = true,
             friendlyName = if (forceAVC())
                 "iOS Force AVC"
             else
@@ -274,7 +268,6 @@ object AppClient {
             friendlyName = "Android Music"
         );
 
-        @JvmField
         val clientName: String = name
 
         companion object {

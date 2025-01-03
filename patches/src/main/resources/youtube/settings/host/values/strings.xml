@@ -1497,9 +1497,6 @@ No margins on top and bottom of player."</string>
     <string name="revanced_disable_hdr_video_title">Disable HDR video</string>
     <string name="revanced_disable_hdr_video_summary_on">HDR video is disabled.</string>
     <string name="revanced_disable_hdr_video_summary_off">HDR video is enabled.</string>
-    <string name="revanced_disable_default_playback_speed_live_title">Disable playback speed for live streams</string>
-    <string name="revanced_disable_default_playback_speed_live_summary_on">Default playback speed is disabled for live streams.</string>
-    <string name="revanced_disable_default_playback_speed_live_summary_off">Default playback speed is enabled for live streams.</string>
     <string name="revanced_enable_custom_playback_speed_title">Enable custom playback speed</string>
     <string name="revanced_enable_custom_playback_speed_summary_on">Custom playback speed is enabled.</string>
     <string name="revanced_enable_custom_playback_speed_summary_off">Custom playback speed is disabled.</string>
@@ -1524,10 +1521,11 @@ No margins on top and bottom of player."</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">Old video quality menu is shown.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Old video quality menu is not shown.</string>
     <string name="revanced_disable_default_playback_speed_music_title">Disable playback speed for music</string>
-    <string name="revanced_disable_default_playback_speed_music_on">"Default playback speed is disabled for music.
-
-Limitation: This setting may not apply to videos that do not include the 'Listen on YouTube Music' banner."</string>
+    <string name="revanced_disable_default_playback_speed_music_on">Default playback speed is disabled for music.</string>
     <string name="revanced_disable_default_playback_speed_music_off">Default playback speed is enabled for music.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_title">Validate using categories</string>
+    <string name="revanced_disable_default_playback_speed_music_type_on">Default playback speed is disabled if the video category is Music.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_off">Default playback speed is disabled for videos playable on YouTube Music.</string>
     <string name="revanced_enable_default_playback_speed_shorts_title">Enable Shorts default playback speed</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">Default playback speed applies to Shorts.</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_off">Default playback speed does not apply to Shorts.</string>

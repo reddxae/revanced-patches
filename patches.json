@@ -827,7 +827,7 @@
       "Settings for YouTube Music",
       "BytecodePatch",
       "BytecodePatch",
-      "ResourcePatch"
+      "BytecodePatch"
     ],
     "compatiblePackages": {
       "com.google.android.apps.youtube.music": [
@@ -2557,7 +2557,8 @@
     "use": true,
     "dependencies": [
       "BytecodePatch",
-      "Settings for YouTube Music"
+      "Settings for YouTube Music",
+      "BytecodePatch"
     ],
     "compatiblePackages": {
       "com.google.android.apps.youtube.music": [

@@ -167,6 +167,7 @@ public final class app/revanced/patches/music/utils/fix/fileprovider/FileProvide
 }
 
 public final class app/revanced/patches/music/utils/fix/streamingdata/SpoofStreamingDataPatchKt {
+	public static final field EXTENSION_CLASS_DESCRIPTOR Ljava/lang/String;
 	public static final fun getSpoofStreamingDataPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
@@ -285,6 +286,12 @@ public final class app/revanced/patches/music/video/information/VideoInformation
 
 public final class app/revanced/patches/music/video/playback/VideoPlaybackPatchKt {
 	public static final fun getVideoPlaybackPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
+public final class app/revanced/patches/music/video/playerresponse/PlayerResponseMethodHookPatchKt {
+	public static final fun getPlayerResponseMethodHookPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+	public static final fun hookPlayerResponse (Ljava/lang/String;Z)V
+	public static synthetic fun hookPlayerResponse$default (Ljava/lang/String;ZILjava/lang/Object;)V
 }
 
 public final class app/revanced/patches/reddit/ad/AdsPatchKt {

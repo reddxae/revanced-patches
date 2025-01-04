@@ -859,6 +859,16 @@ Playlists
     <string name="revanced_disable_engagement_panel_title">Απενεργοποίηση πίνακα αλληλεπίδρασης</string>
     <string name="revanced_disable_engagement_panel_summary_on">Ο πίνακας αλληλεπίδρασης είναι απενεργοποιημένος.</string>
     <string name="revanced_disable_engagement_panel_summary_off">Ο πίνακας αλληλεπίδρασης είναι ενεργοποιημένος.</string>
+    <string name="revanced_enter_fullscreen_title">Άνοιγμα των βίντεο σε λειτουργία πλήρους οθόνης</string>
+    <string name="revanced_enter_fullscreen_summary_on">Γίνεται εισαγωγή σε πλήρη οθόνη κατά την έναρξη των βίντεο.
+
+Περιορισμός: Δεν ισχύει αν το βίντεο είναι ελαχιστοποιημένο, σε λειτουργία PiP, ή στο παρασκήνιο.</string>
+    <string name="revanced_enter_fullscreen_summary_off">Δεν γίνεται εισαγωγή σε πλήρη οθόνη κατά την έναρξη των βίντεο.</string>
+    <string name="revanced_exit_fullscreen_title">Έξοδος από τη λειτουργία πλήρους οθόνης στο τέλος του βίντεο</string>
+    <string name="revanced_exit_fullscreen_entry_1">Απενεργοποιημένο</string>
+    <string name="revanced_exit_fullscreen_entry_2">Κατακόρυφη</string>
+    <string name="revanced_exit_fullscreen_entry_3">Οριζόντια</string>
+    <string name="revanced_exit_fullscreen_entry_4">Κατακόρυφη και οριζόντια</string>
     <string name="revanced_show_video_title_section_title">Εμφάνιση τίτλου βίντεο</string>
     <string name="revanced_show_video_title_section_summary">"Εμφάνιση τίτλου του βίντεο σε πλήρη οθόνη.
 
@@ -1447,7 +1457,11 @@ Playlists
     <string name="revanced_restore_old_video_quality_menu_summary_on">Εμφανίζεται το μενού αλλαγής ποιότητας βίντεο παλιού στυλ.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Εμφανίζεται το μενού αλλαγής ποιότητας βίντεο νέου στυλ.</string>
     <string name="revanced_disable_default_playback_speed_music_title">Απενεργοποίηση αλλαγής ταχύτητας σε βίντεο μουσικής</string>
+    <string name="revanced_disable_default_playback_speed_music_on">Η προεπιλεγμένη ταχύτητα δεν εφαρμόζεται σε βίντεο μουσικής.</string>
     <string name="revanced_disable_default_playback_speed_music_off">Η προεπιλεγμένη ταχύτητα εφαρμόζεται σε βίντεο μουσικής.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_title">Επικύρωση με βάση τις κατηγορίες</string>
+    <string name="revanced_disable_default_playback_speed_music_type_on">Η προεπιλεγμένη ταχύτητα αναπαραγωγής είναι απενεργοποιημένη αν η κατηγορία βίντεο είναι μουσική.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_off">Η προεπιλεγμένη ταχύτητα αναπαραγωγής είναι απενεργοποιημένη για βίντεο που μπορούν να αναπαραχθούν στο YouTube Music.</string>
     <string name="revanced_enable_default_playback_speed_shorts_title">Αλλαγή προεπιλεγμένης ταχύτητας Shorts</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">Η προεπιλεγμένη ταχύτητα αναπαραγωγής εφαρμόζεται στα Shorts.</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_off">Η προεπιλεγμένη ταχύτητα αναπαραγωγής δεν εφαρμόζεται στα Shorts.</string>
@@ -1794,7 +1808,21 @@ Playlists
     <string name="revanced_spoof_streaming_data_summary_off">"Τα δεδομένα ροής δεν παραποιούνται. Η αναπαραγωγή βίντεο ενδέχεται να μη λειτουργεί σωστά."</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">Η απενεργοποίηση αυτής της ρύθμισης ενδέχεται να προκαλέσει προβλήματα αναπαραγωγής βίντεο.</string>
     <string name="revanced_spoof_streaming_data_type_title">Προεπιλογή</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">"Android TV
+<small>(Απαιτείται σύνδεση)</small>"</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
+<small>(Απαιτείται αναγνωριστικό PoToken)</small>"</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
+<small>(Απαιτείται σύνδεση)</small>"</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Παρενέργειες παραποίησης</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android">"• Το μενού «Κομμάτι ήχου» λείπει.
+• Η λειτουργία «Σταθερή ένταση» δεν είναι διαθέσιμη.
+• Η λειτουργία «Απενεργοποίηση υποχρεωτικών κομματιών ήχου» δεν είναι διαθέσιμη.
+• Τα βίντεο για παιδιά ενδέχεται να μην αναπαράγονται αν είστε αποσυνδεμένοι ή σε λειτουργία ανώνυμης περιήγησης."</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">• Ενδέχεται να υπάρχουν προβλήματα αναπαραγωγής (Απαιτείται αναγνωριστικό PoToken).</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• Οι ταινίες ή τα επί πληρωμή βίντεο ενδέχεται να μην αναπαράγονται.
+• Τα βίντεο για παιδιά ενδέχεται να μην αναπαράγονται αν είστε αποσυνδεμένοι ή σε λειτουργία ανώνυμης περιήγησης."</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Εξαναγκασμός iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Ο κωδικοποιητής βίντεο έχει οριστεί υποχρεωτικά σε AVC (H.264).</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">Ο κωδικοποιητής βίντεο ορίζεται αυτόματα.</string>

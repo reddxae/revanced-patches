@@ -863,6 +863,16 @@ Impostazioni → Riproduzione automatica → Telefono cellulare/tablet"</string>
     <string name="revanced_disable_engagement_panel_title">Disattiva il pannello di coinvolgimento</string>
     <string name="revanced_disable_engagement_panel_summary_on">Il pannello di coinvolgimento è disattivato.</string>
     <string name="revanced_disable_engagement_panel_summary_off">Il pannello di coinvolgimento è attivato.</string>
+    <string name="revanced_enter_fullscreen_title">Passa a schermo intero all\'avvio dei video</string>
+    <string name="revanced_enter_fullscreen_summary_on">Passa a schermo intero all\'avvio dei video.
+
+Nota: non funziona se il riproduttore è minimizzato, in modalità PiP o in background.</string>
+    <string name="revanced_enter_fullscreen_summary_off">Non passa a schermo intero all\'avvio dei video.</string>
+    <string name="revanced_exit_fullscreen_title">Esci da schermo intero alla fine dei video</string>
+    <string name="revanced_exit_fullscreen_entry_1">Disattivato</string>
+    <string name="revanced_exit_fullscreen_entry_2">Verticale</string>
+    <string name="revanced_exit_fullscreen_entry_3">Orizzontale</string>
+    <string name="revanced_exit_fullscreen_entry_4">Verticale e orizzontale</string>
     <string name="revanced_show_video_title_section_title">Mostra il titolo dei video</string>
     <string name="revanced_show_video_title_section_summary">"Mostra il titolo dei video a schermo intero.
 
@@ -1425,7 +1435,11 @@ Note:
     <string name="revanced_restore_old_video_quality_menu_summary_on">Il vecchio menù Qualità è attivato.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Il vecchio menù Qualità è disattivato.</string>
     <string name="revanced_disable_default_playback_speed_music_title">Disattiva la velocità di riproduzione predefinita per la musica</string>
+    <string name="revanced_disable_default_playback_speed_music_on">La velocità di riproduzione predefinita per la musica è disattivata.</string>
     <string name="revanced_disable_default_playback_speed_music_off">La velocità di riproduzione predefinita per la musica è attivata.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_title">Convalida usando le categorie</string>
+    <string name="revanced_disable_default_playback_speed_music_type_on">La velocità di riproduzione predefinita è disattivata se la categoria video è Musica.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_off">La velocità di riproduzione predefinita è attivata se la categoria video è Musica.</string>
     <string name="revanced_enable_default_playback_speed_shorts_title">Attiva la velocità di riproduzione predefinita negli Shorts</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">La velocità di riproduzione predefinita negli Shorts è attivata.</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_off">La velocità di riproduzione predefinita negli Shorts è disattivata.</string>
@@ -1769,8 +1783,15 @@ Tocca il pulsante Continua e consenti le modifiche di ottimizzazione."</string>
     <string name="revanced_spoof_streaming_data_summary_off">"I dati in streaming non sono camuffati. La riproduzione potrebbe non funzionare."</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">La disattivazione di questa impostazione potrebbe causare problemi di riproduzione.</string>
     <string name="revanced_spoof_streaming_data_type_title">Client predefinito</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">"Android TV
+<small>(Accesso richiesto)</small>"</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
+<small>(PoToken richiesto)</small>"</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
+<small>(Accesso richiesto)</small>"</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Effetti collaterali del camuffamento</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android">"• Manca il menù Traccia Audio.
+    <string name="revanced_spoof_streaming_data_side_effects_android">"• Il menù Traccia Audio è nascosto.
 • Il volume stabile non funziona.
 • La disattivazione delle tracce audio automatiche forzate non funziona.
 • I video per bambini potrebbero non essere riprodotti se si è disconnessi o in incognito."</string>

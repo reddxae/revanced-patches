@@ -290,6 +290,7 @@
     <string name="revanced_change_start_page_entry_live">На Живо</string>
     <string name="revanced_change_start_page_entry_movies">Филми</string>
     <string name="revanced_change_start_page_entry_music">Музика</string>
+    <string name="revanced_change_start_page_entry_notifications">Известия</string>
     <string name="revanced_change_start_page_entry_search">Търсене</string>
     <string name="revanced_change_start_page_entry_shorts">Shorts</string>
     <string name="revanced_change_start_page_entry_sports">Спорт</string>
@@ -829,6 +830,9 @@
     <string name="revanced_disable_engagement_panel_title">Панел за взаимодействие</string>
     <string name="revanced_disable_engagement_panel_summary_on">Панелът за взаимодействие е деактивиран.</string>
     <string name="revanced_disable_engagement_panel_summary_off">Панелът за взаимодействие е активиран.</string>
+    <string name="revanced_exit_fullscreen_entry_1">Изключено</string>
+    <string name="revanced_exit_fullscreen_entry_2">Портрет</string>
+    <string name="revanced_exit_fullscreen_entry_3">Пейзаж</string>
     <string name="revanced_show_video_title_section_title">Показване на раздел със заглавие на видеоклипа</string>
     <string name="revanced_show_video_title_section_summary">"Показва раздела със заглавието на видеоклипа на цял екран.
 
@@ -1235,6 +1239,9 @@
     <string name="revanced_shorts_double_tap_to_like_animation_entry_5">Сърце (цветно)</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_6">Скрит</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Custom actions -->
+    <string name="revanced_preference_category_custom_actions">Персонализирани действия</string>
+    <string name="revanced_shorts_custom_actions_copy_video_url_label">Копиране адреса на видеото</string>
+    <string name="revanced_shorts_custom_actions_external_downloader_label">Външна програма за изтегляне</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
     <string name="revanced_enable_shorts_time_stamp_title">Активиране на дата и час</string>
     <string name="revanced_enable_shorts_time_stamp_summary_on">"Времевите показатели са активирани.

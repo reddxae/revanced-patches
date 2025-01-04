@@ -375,6 +375,12 @@
     <string name="revanced_disable_cairo_splash_animation_summary">Вимикає сплеш анімацію Каїр під час запуску застосунку.</string>
     <string name="revanced_disable_drc_audio_title">Вимкнути DRC аудіо</string>
     <string name="revanced_disable_drc_audio_summary">Вимикає DRC (стиснення динамічного діапазону), застосованого до аудіо.</string>
+    <string name="revanced_disable_music_video_in_album_title">Вимкнути музичні відео в альбомі</string>
+    <string name="revanced_disable_music_video_in_album_summary">"Коли користувач без преміуму відтворює пісню з альбому, іноді замість офіційної пісні відтворюється музичне відео.
+
+Якщо буде виявлено відтворення музичного відео, буде перенаправлено на офіційну пісню.
+
+Використовується \"piped instance\", але API може бути недоступним у деяких регіонах."</string>
     <string name="revanced_enable_debug_logging_title">Увімкнути протоколи налагодження</string>
     <string name="revanced_enable_debug_logging_summary">Виводить протокол налагодження.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Увімкнути ведення журналу буфера налагодження</string>

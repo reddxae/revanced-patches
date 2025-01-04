@@ -860,6 +860,16 @@
     <string name="revanced_disable_engagement_panel_title">Вимкнути панель залучення</string>
     <string name="revanced_disable_engagement_panel_summary_on">Панель залучення вимкнено.</string>
     <string name="revanced_disable_engagement_panel_summary_off">Панель залучення увімкнено.</string>
+    <string name="revanced_enter_fullscreen_title">Переходити у повноекранний режим при запуску відео</string>
+    <string name="revanced_enter_fullscreen_summary_on">Переходиться у повноекранний режим при запуску відео.
+
+Застереження: Не працюватиме якщо плеєр мінімізовано, у режимі PiP, чи у фоні.</string>
+    <string name="revanced_enter_fullscreen_summary_off">Не переходиться у повноекранний режим при запуску відео.</string>
+    <string name="revanced_exit_fullscreen_title">Виходити з повноекранного режиму в кінці відео</string>
+    <string name="revanced_exit_fullscreen_entry_1">Вимкнено</string>
+    <string name="revanced_exit_fullscreen_entry_2">Портретна</string>
+    <string name="revanced_exit_fullscreen_entry_3">Ландшафтна</string>
+    <string name="revanced_exit_fullscreen_entry_4">Портретна та ландшафтна</string>
     <string name="revanced_show_video_title_section_title">Показувати секцію назви відео</string>
     <string name="revanced_show_video_title_section_summary">"Показується секцію назви відео в повноекранному режимі.
 
@@ -1425,7 +1435,11 @@
     <string name="revanced_restore_old_video_quality_menu_summary_on">Старе меню якості відео показується.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Старе меню якості відео не показується.</string>
     <string name="revanced_disable_default_playback_speed_music_title">Вимкнути швидкість відтворення для музики</string>
+    <string name="revanced_disable_default_playback_speed_music_on">Типову швидкість відтворення вимкнено для музики.</string>
     <string name="revanced_disable_default_playback_speed_music_off">Типову швидкість відтворення увімкнено для музики.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_title">Перевіряти за допомогою категорій</string>
+    <string name="revanced_disable_default_playback_speed_music_type_on">Типову швидкість відтворення вимкнено якщо категорія відео Музика.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_off">Типову швидкість відтворення вимкнено для відтворення відео на YouTube Music.</string>
     <string name="revanced_enable_default_playback_speed_shorts_title">Увімкнути типову швидкість відтворення Shorts</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">Типову швидкість відтворення застосовується для Shorts.</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_off">Типову швидкість відтворення не застосовується для Shorts.</string>
@@ -1766,7 +1780,21 @@
     <string name="revanced_spoof_streaming_data_summary_off">"Дані трансляції не підроблено. Відтворення відео може не працювати."</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">Вимикання цього налаштування може призвести до проблем відтворення відео.</string>
     <string name="revanced_spoof_streaming_data_type_title">Основний клієнт</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">"Android TV
+<small>(Потрібна авторизація)</small>"</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
+<small>(Потрібен PoToken)</small>"</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
+<small>(Потрібна авторизація)</small>"</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Побічні ефекти імітування</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android">"• Меню звукової доріжки відсутнє.
+• Стабілізація гучності недоступна.
+• Вимкнення примусових авто звукових доріжок недоступне.
+• Відео для дітей можуть не відтворюватися коли вийшли з системи або в анонімному режимі."</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">• Можуть бути проблеми з відтворенням (Потрібен PoToken).</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• Фільми та платні відео можуть не відтворюватися.
+• Відео для дітей можуть не відтворюватися коли вийшли з системи або в анонімному режимі."</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Примусово AVC (H.264) iOS</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Примусово увімкнено відеокодек AVC (H.264).</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">Відеокодек визначається автоматично.</string>

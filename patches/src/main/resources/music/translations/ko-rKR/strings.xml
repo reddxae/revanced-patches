@@ -220,8 +220,8 @@
     <string name="revanced_enable_zen_mode_summary">동영상 플레이어의 색상을 회색조로 설정해 눈의 피로를 줄입니다.</string>
     <string name="revanced_enable_zen_mode_podcast_title">팟캐스트에서 집중 모드 활성화</string>
     <string name="revanced_enable_zen_mode_podcast_summary">팟캐스트에서 집중 모드를 활성화합니다.</string>
-    <string name="revanced_hide_audio_video_switch_toggle_title">\'노래↔동영상\' 전환 토글 제거</string>
-    <string name="revanced_hide_audio_video_switch_toggle_summary">플레이어에서 \'노래↔동영상\' 전환 토글을 숨깁니다.</string>
+    <string name="revanced_hide_audio_video_switch_toggle_title">\'노래↔동영상\' 토글 제거</string>
+    <string name="revanced_hide_audio_video_switch_toggle_summary">플레이어에서 \'노래↔동영상\' 토글을 숨깁니다.</string>
     <string name="revanced_hide_comment_channel_guidelines_title">커뮤니티 가이드라인 제거</string>
     <string name="revanced_hide_comment_channel_guidelines_summary">댓글 섹션 상단에서 커뮤니티 가이드라인을 숨깁니다.</string>
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_title">타임스탬프, 이모지 버튼 제거</string>
@@ -377,11 +377,19 @@ API Key를 발급받는 방법을 보려면 여기를 누르세요."</string>
     <string name="revanced_disable_drc_audio_title">DRC 오디오 비활성화</string>
     <string name="revanced_disable_drc_audio_summary">오디오에 적용된 DRC (Dynamic Range Compression)를 비활성화합니다.</string>
     <string name="revanced_disable_music_video_in_album_title">앨범에서 뮤직 비디오 비활성화</string>
-    <string name="revanced_disable_music_video_in_album_summary">"프리미엄이 아닌 사용자가 앨범에 포함된 노래를 재생할 때, 공식 음원이 아닌 뮤직 비디오가 재생되는 경우가 있습니다.
+    <string name="revanced_disable_music_video_in_album_summary">"프리미엄이 아닌 사용자가 앨범에 포함된 노래를 재생할 때, 간혹 공식 음악 대신 뮤직 비디오가 재생되는 경우가 있습니다.
 
-이러한 뮤직 비디오가 재생되는 것이 감지되면 공식 음원으로 리디렉션됩니다.
+앨범에서 뮤직 비디오가 재생되는 것이 감지되면 공식 음원을 찾아줍니다.
 
-파이핑된 인스턴스가 사용되지만 일부 지역에서는 API를 사용하지 못할 수 있습니다."</string>
+• 파이핑된 인스턴스 API로 구동됩니다."</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_title">리다이렉션 유형</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_summary">공식 음원으로 리다이렉션하는 방법을 지정할 수 있습니다.</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect_dismiss">리다이렉션 (대기목록 해제)</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect">리다이렉션</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_click_dismiss">\'노래↔동영상\' 토글 누르기 (대기목록 해제)</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_click">\'노래↔동영상\' 토글 누르기</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_long_click_dismiss">\'노래↔동영상\' 토글 길게 누르기 (대기목록 해제)</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_long_click">\'노래↔동영상\' 토글 길게 누르기</string>
     <string name="revanced_enable_debug_logging_title">디버그 로깅 활성화</string>
     <string name="revanced_enable_debug_logging_summary">디버그 로그를 출력합니다.</string>
     <string name="revanced_enable_debug_buffer_logging_title">디버그 버퍼 로깅 활성화</string>

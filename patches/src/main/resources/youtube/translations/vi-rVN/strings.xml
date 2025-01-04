@@ -863,6 +863,16 @@ Cài đặt → Tự động phát → Tự động phát video tiếp theo."</s
     <string name="revanced_disable_engagement_panel_title">Tắt bảng tương tác</string>
     <string name="revanced_disable_engagement_panel_summary_on">Bảng tương tác đã tắt.</string>
     <string name="revanced_disable_engagement_panel_summary_off">Bảng điều khiển tương tác được bật.</string>
+    <string name="revanced_enter_fullscreen_title">Vào chế độ toàn màn hình khi video bắt đầu</string>
+    <string name="revanced_enter_fullscreen_summary_on">Vào chế độ toàn màn hình khi video bắt đầu.
+
+Hạn chế: Không hoạt động nếu trình phát đang thu nhỏ, trong chế độ Hình trong hình, hoặc phát trong nền.</string>
+    <string name="revanced_enter_fullscreen_summary_off">Không vào chế độ toàn màn hình khi video bắt đầu.</string>
+    <string name="revanced_exit_fullscreen_title">Thoát chế độ màn hình khi video kết thúc</string>
+    <string name="revanced_exit_fullscreen_entry_1">Tắt</string>
+    <string name="revanced_exit_fullscreen_entry_2">Dọc</string>
+    <string name="revanced_exit_fullscreen_entry_3">Ngang</string>
+    <string name="revanced_exit_fullscreen_entry_4">Cả dọc và ngang</string>
     <string name="revanced_show_video_title_section_title">Hiển thị phần tiêu đề video</string>
     <string name="revanced_show_video_title_section_summary">"Hiển thị phần tiêu đề video ở chế độ toàn màn hình.
 
@@ -1425,7 +1435,11 @@ Không còn lề trên và dưới trong trình phát."</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">Mục chất lượng video kiểu cũ được hiển thị.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Mục chất lượng video kiểu cũ không được hiển thị.</string>
     <string name="revanced_disable_default_playback_speed_music_title">Tắt tùy chọn tốc độ phát khi phát nhạc</string>
+    <string name="revanced_disable_default_playback_speed_music_on">Tốc độ phát mặc định đã tắt khi phát nhạc.</string>
     <string name="revanced_disable_default_playback_speed_music_off">Tốc độ phát mặc định được kích hoạt khi phát nhạc.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_title">Dựa vào danh mục</string>
+    <string name="revanced_disable_default_playback_speed_music_type_on">Tốc độ phát mặc định đã tắt nếu video thuộc danh mục Âm nhạc.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_off">Tốc độ phát mặc định đã tắt đối với các video chơi game trên Youtube Music.</string>
     <string name="revanced_enable_default_playback_speed_shorts_title">Tốc độ phát mặc định cho video ngắn</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">Tốc độ phát mặc định đã đặt đang được áp dụng khi xem Shorts.</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_off">Tốc độ phát mặc định đã đặt không áp dụng cho Shorts.</string>
@@ -1771,7 +1785,21 @@ Nhấn vào Tiếp tục và cho phép thay đổi lựa chọn tối ưu hoá p
     <string name="revanced_spoof_streaming_data_summary_off">"Luồng dữ liệu trực tuyến chưa được giả mạo. Khi phát video có thể gặp sự cố đứng hình."</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">Tắt cài đặt này có thể gây ra sự cố phát video.</string>
     <string name="revanced_spoof_streaming_data_type_title">Ứng dụng khách mặc định</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">"Android TV
+<small>(Yêu cầu Đăng nhập)</small>"</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
+<small>(Yêu cầu PoToken)</small>"</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
+<small>(Yêu cầu Đăng nhập)</small>"</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Hạn chế</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android">"• Mục Bản âm thanh bị thiếu.
+• Âm lượng ổn định không khả dụng.
+• Tắt bắt buộc Bản âm thanh tự động không khả dụng.
+• Video dành cho trẻ em có thể không phát được khi bạn đã đăng xuất hoặc bật chế độ ẩn danh."</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">• Có thể xẩy ra sự cố phát (Yêu cầu PoToken).</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• Phim hoặc video trả phí có thể không phát được.
+• Video dành cho trẻ em có thể không phát được khi bạn đã đăng xuất hoặc bật chế độ ẩn danh."</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Bắt buộc iOS sử dụng AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Codec video bị ép buộc thành AVC (H.264).</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">Codec video được xác định tự động.</string>

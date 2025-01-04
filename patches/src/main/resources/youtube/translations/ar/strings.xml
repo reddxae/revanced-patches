@@ -861,6 +861,16 @@
     <string name="revanced_disable_engagement_panel_title">تعطيل لوحة المشاركة</string>
     <string name="revanced_disable_engagement_panel_summary_on">تم تعطيل لوحة المشاركة.</string>
     <string name="revanced_disable_engagement_panel_summary_off">تم تمكين لوحة المشاركة.</string>
+    <string name="revanced_enter_fullscreen_title">الدخول إلى وضع ملء الشاشة عند بدء تشغيل الفيديو</string>
+    <string name="revanced_enter_fullscreen_summary_on">الدخول إلى وضع ملء الشاشة عند بدء تشغيل الفيديو.
+
+القيود: لا يعمل إذا تم تصغير المشغل أو في وضع صورة داخل صورة أو في الخلفية.</string>
+    <string name="revanced_enter_fullscreen_summary_off">لا تدخل وضع ملء الشاشة عند بدء تشغيل الفيديو.</string>
+    <string name="revanced_exit_fullscreen_title">الخروج من وضع ملء الشاشة في نهاية الفيديو</string>
+    <string name="revanced_exit_fullscreen_entry_1">معطَّل</string>
+    <string name="revanced_exit_fullscreen_entry_2">بالطول</string>
+    <string name="revanced_exit_fullscreen_entry_3">بالعرض</string>
+    <string name="revanced_exit_fullscreen_entry_4">بالطول و العرض</string>
     <string name="revanced_show_video_title_section_title">عرض قسم عنوان الفيديو</string>
     <string name="revanced_show_video_title_section_summary">"يعرض قسم عنوان الفيديو في وضع ملء الشاشة.
 
@@ -1433,7 +1443,11 @@
     <string name="revanced_restore_old_video_quality_menu_summary_on">يتم عرض قائمة جودة الفيديو القديمة.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">لا يتم عرض قائمة جودة الفيديو القديمة.</string>
     <string name="revanced_disable_default_playback_speed_music_title">تعطيل سرعة التشغيل للموسيقى</string>
+    <string name="revanced_disable_default_playback_speed_music_on">تم تعطيل سرعة التشغيل الافتراضية للموسيقى.</string>
     <string name="revanced_disable_default_playback_speed_music_off">تم تمكين سرعة التشغيل الافتراضية للموسيقى.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_title">التحقق باستخدام الفئات</string>
+    <string name="revanced_disable_default_playback_speed_music_type_on">سيتم تعطيل سرعة التشغيل الافتراضية إذا كانت فئة الفيديو هي موسيقى.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_off">تم تعطيل سرعة التشغيل الافتراضية لمقاطع الفيديو القابلة للتشغيل على YouTube Music.</string>
     <string name="revanced_enable_default_playback_speed_shorts_title">تمكين سرعة التشغيل الافتراضية لفيديوهات Shorts</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">تنطبق سرعة التشغيل الافتراضية على Shorts.</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_off">لا تنطبق سرعة التشغيل الافتراضية على Shorts.</string>
@@ -1778,7 +1792,21 @@
     <string name="revanced_spoof_streaming_data_summary_off">"لا يتم تزييف بيانات البث. قد لا يعمل تشغيل الفيديو."</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">إيقاف تشغيل هذا الإعداد قد يسبب مشاكل في تشغيل الفيديو.</string>
     <string name="revanced_spoof_streaming_data_type_title">العميل الافتراضي</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">"Android TV
+<small>(يتطلب تسجيل الدخول)</small>"</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
+<small>(يتطلب PoToken)</small>"</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
+<small>(يتطلب تسجيل الدخول)</small>"</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">التأثيرات الجانبية للتزييف</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android">"• قائمة المقطع الصوتي مفقودة.
+• مستوى الصوت الثابت غير متاح.
+• لا يتوفر تعطيل المقطع الصوتي التلقائي المفروض.
+• قد لا يتم تشغيل الفيديوهات المخصصة للأطفال عند تسجيل الخروج أو في وضع التصفح المتخفي."</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">• قد تكون هناك مشكلات في التشغيل (يتطلب PoToken).</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• قد لا يتم تشغيل الأفلام أو الفيديوهات المدفوعة.
+• قد لا يتم تشغيل الفيديوهات المخصصة للأطفال عند تسجيل الخروج أو في وضع التصفح المتخفي."</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">فرض iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">يتم فرض ترميز الفيديو على AVC (H.264).</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">يتم تحديد ترميز الفيديو تلقائيًا.</string>

@@ -859,6 +859,16 @@
     <string name="revanced_disable_engagement_panel_title">停用互動面板</string>
     <string name="revanced_disable_engagement_panel_summary_on">停用互動面板</string>
     <string name="revanced_disable_engagement_panel_summary_off">啟用互動面板</string>
+    <string name="revanced_enter_fullscreen_title">影片開始時進入全螢幕模式</string>
+    <string name="revanced_enter_fullscreen_summary_on">\"影片開始時進入全螢幕模式。
+
+限制：如果播放器最小化、處於畫中畫模式或處於後台，則不起作用。</string>
+    <string name="revanced_enter_fullscreen_summary_off">影片開始時請勿進入全螢幕模式。</string>
+    <string name="revanced_exit_fullscreen_title">影片結束時退出全螢幕模式</string>
+    <string name="revanced_exit_fullscreen_entry_1">已停用</string>
+    <string name="revanced_exit_fullscreen_entry_2">縱向</string>
+    <string name="revanced_exit_fullscreen_entry_3">橫向</string>
+    <string name="revanced_exit_fullscreen_entry_4">縱向和橫向</string>
     <string name="revanced_show_video_title_section_title">顯示影片標題部份</string>
     <string name="revanced_show_video_title_section_summary">"在全螢幕模式下顯示影片標題部分
 
@@ -1416,7 +1426,11 @@
     <string name="revanced_restore_old_video_quality_menu_summary_on">顯示舊的影片畫質選單</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">不顯示舊的影片畫質選單</string>
     <string name="revanced_disable_default_playback_speed_music_title">停用音樂的播放速度</string>
+    <string name="revanced_disable_default_playback_speed_music_on">音樂的預設播放速度被禁用。</string>
     <string name="revanced_disable_default_playback_speed_music_off">音樂的預設播放速度已啟用。</string>
+    <string name="revanced_disable_default_playback_speed_music_type_title">使用類別進行驗證</string>
+    <string name="revanced_disable_default_playback_speed_music_type_on">如果影片類別為音樂，則預設播放速度將被停用。</string>
+    <string name="revanced_disable_default_playback_speed_music_type_off">YouTube 音樂上可播放的影片的預設播放速度為停用。</string>
     <string name="revanced_enable_default_playback_speed_shorts_title">啟用短片預設播放速度</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">預設播放速度適用於短片</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_off">預設播放速度不適用於短片</string>
@@ -1766,7 +1780,21 @@
     <string name="revanced_spoof_streaming_data_summary_off">"串流資料未偽裝。 影片可能無法播放。"</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">關閉此設定可能會導致影片播放問題。</string>
     <string name="revanced_spoof_streaming_data_type_title">預設客戶端</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">"Android TV
+<small>(需要登入)</small>"</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
+<small>(需要 PoToken)</small>"</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
+<small>(需要登入)</small>"</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">偽裝副作用</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android">"• 音軌選單遺失。
+• 無法獲得穩定的音量。
+• 停用強制自動音軌無法使用。
+• 登出或處於隱身模式時可能無法播放兒童影片。"</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">• 可能有播放問題 (需要PoToken)。</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• 電影或付費影片可能無法播放。
+• 登出或處於隱身模式時可能無法播放兒童影片。"</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">強制 iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">影片編解碼器強制為 AVC (H.264)。</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">影片編解碼器是自動決定的。</string>

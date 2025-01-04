@@ -68,7 +68,7 @@ Descarga %2$s desde el sitio web."</string>
     <string name="revanced_enable_compact_dialog_summary">"Activa el diálogo compacto en el teléfono.
 
 Problemas conocidos:
-- La carátula del álbum en la estantería de la biblioteca también se hace más pequeña.
+- Las carátulas de los álbumes en la página de biblioteca se hacen pequeñas cuando se organizan por cuadrícula.
 - El diseño del temporizador puede parecer inusual."</string>
     <string name="revanced_enable_trim_silence_title">Añadir interruptor para recortar silencios</string>
     <string name="revanced_enable_trim_silence_summary">"Añade un interruptor para recortar silencios en el menú desplegable de velocidad de reproducción.
@@ -372,6 +372,12 @@ Toca para ver cómo crear una clave de API."</string>
     <string name="revanced_disable_cairo_splash_animation_summary">Deshabilita la animación de bienvenida \"Cairo\" cuando se inicia la aplicación.</string>
     <string name="revanced_disable_drc_audio_title">Desactivar audio DRC</string>
     <string name="revanced_disable_drc_audio_summary">Deshabilita DRC (Dynamic Range Compression) aplicado al audio.</string>
+    <string name="revanced_disable_music_video_in_album_title">Desactivar vídeo de música en el álbum</string>
+    <string name="revanced_disable_music_video_in_album_summary">"Cuando un usuario no premium escoge una canción incluida en un álbum, un vídeo musical a veces se muestra en lugar de la canción original.
+
+Si este video se detecta durante la reproducción, será redireccionado a la canción original.
+
+Se usa una instancia redireccionada, pero la API puede no estar disponible en algunas regiones."</string>
     <string name="revanced_enable_debug_logging_title">Activar registro de depuración</string>
     <string name="revanced_enable_debug_logging_summary">Imprime el registro de depuración.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Incluir búfer en registro de depuración</string>

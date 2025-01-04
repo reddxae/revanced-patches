@@ -859,6 +859,16 @@ Autoodtwarzanie można zmienić w ustawieniach YouTube:
     <string name="revanced_disable_engagement_panel_title">Panel zaangażowania</string>
     <string name="revanced_disable_engagement_panel_summary_on">Ukryty</string>
     <string name="revanced_disable_engagement_panel_summary_off">Widoczny</string>
+    <string name="revanced_enter_fullscreen_title">Pełny ekran po rozpoczęciu filmu</string>
+    <string name="revanced_enter_fullscreen_summary_on">Włączony
+
+Ograniczenie: nie działa jeśli odtwarzacz jest zminimalizowany, w trybie PiP lub w tle</string>
+    <string name="revanced_enter_fullscreen_summary_off">Wyłączony</string>
+    <string name="revanced_exit_fullscreen_title">Wyjście z pełnego ekranu po zakończeniu filmu</string>
+    <string name="revanced_exit_fullscreen_entry_1">Wyłączone</string>
+    <string name="revanced_exit_fullscreen_entry_2">Tryb pionowy</string>
+    <string name="revanced_exit_fullscreen_entry_3">Tryb poziomy</string>
+    <string name="revanced_exit_fullscreen_entry_4">Tryb pionowy i poziomy</string>
     <string name="revanced_show_video_title_section_title">Tytuły filmów</string>
     <string name="revanced_show_video_title_section_summary">"Tytuły filmów w trybie pełnoekranowym są widoczne.
 
@@ -1419,7 +1429,11 @@ Ograniczenia:
     <string name="revanced_restore_old_video_quality_menu_summary_on">Widoczne</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Niewidoczne</string>
     <string name="revanced_disable_default_playback_speed_music_title">Domyślna prędkość odtwarzania dla muzyki</string>
+    <string name="revanced_disable_default_playback_speed_music_on">Wyłączona</string>
     <string name="revanced_disable_default_playback_speed_music_off">Włączona</string>
+    <string name="revanced_disable_default_playback_speed_music_type_title">Sprawdzaj przy użyciu kategorii</string>
+    <string name="revanced_disable_default_playback_speed_music_type_on">Wyłączone dla filmów z kategorią muzyki</string>
+    <string name="revanced_disable_default_playback_speed_music_type_off">Wyłączone dla filmów odtwarzalnych w YouTube Music</string>
     <string name="revanced_enable_default_playback_speed_shorts_title">Domyślna prędkość odtwarzania w Shortsach</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">Włączona</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_off">Wyłączona</string>
@@ -1765,7 +1779,21 @@ Stuknij przycisk kontynuacji i zezwól na zmiany w optymalizacji."</string>
     <string name="revanced_spoof_streaming_data_summary_off">"Wyłączone. Odtwarzanie filmów może nie działać"</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">Wyłączenie tej opcji może spowodować problemy z odtwarzaniem filmów.</string>
     <string name="revanced_spoof_streaming_data_type_title">Domyślny klient</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">"Android TV
+<small>(Wymagane zalogowanie)</small>"</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
+<small>(Wymagany PoToken)</small>"</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
+<small>(Wymagane zalogowanie)</small>"</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Efekty uboczne oszukiwania</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android">"• Brakuje menu od ścieżki dźwiękowej
+• Stabilna głośność nie jest dostępna
+• Automatyczne wymuszenie ścieżki dźwiękowej nie jest dostępne
+• Filmy dla dzieci mogą się nie odtwarzać będąc zalogowanym lub w trybie incognito"</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">• Mogą wystąpić problemy z odtwarzaniem (wymagany PoToken)</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• Filmy kinowe lub płatne mogą się nie odtwarzać
+• Filmy dla dzieci mogą się nie odtwarzać będąc zalogowanym lub w trybie incognito"</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Wymuś kodek iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Wymuszony</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">Określany automatycznie</string>

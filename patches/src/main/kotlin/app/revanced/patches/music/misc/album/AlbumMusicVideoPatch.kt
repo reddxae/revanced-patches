@@ -7,14 +7,14 @@ import app.revanced.patches.music.utils.compatibility.Constants.COMPATIBLE_PACKA
 import app.revanced.patches.music.utils.dismiss.dismissQueueHookPatch
 import app.revanced.patches.music.utils.extension.Constants.MISC_PATH
 import app.revanced.patches.music.utils.patch.PatchList.DISABLE_MUSIC_VIDEO_IN_ALBUM
-import app.revanced.patches.music.utils.playservice.is_7_03_or_greater
-import app.revanced.patches.music.utils.playservice.versionCheckPatch
 import app.revanced.patches.music.utils.settings.CategoryType
 import app.revanced.patches.music.utils.settings.ResourceUtils.updatePatchStatus
 import app.revanced.patches.music.utils.settings.addSwitchPreference
 import app.revanced.patches.music.utils.settings.settingsPatch
 import app.revanced.patches.music.video.information.videoIdHook
 import app.revanced.patches.music.video.information.videoInformationPatch
+import app.revanced.patches.music.video.playerresponse.hookPlayerResponse
+import app.revanced.patches.music.video.playerresponse.playerResponseMethodHookPatch
 import app.revanced.util.fingerprint.methodOrThrow
 
 private const val EXTENSION_CLASS_DESCRIPTOR =
@@ -32,23 +32,14 @@ val albumMusicVideoPatch = bytecodePatch(
         settingsPatch,
         dismissQueueHookPatch,
         videoInformationPatch,
-        versionCheckPatch,
+        playerResponseMethodHookPatch,
     )
 
     execute {
 
         // region hook player response
 
-        val fingerprint = if (is_7_03_or_greater) {
-            playerParameterBuilderFingerprint
-        } else {
-            playerParameterBuilderLegacyFingerprint
-        }
-
-        fingerprint.methodOrThrow().addInstruction(
-            0,
-            "invoke-static {p1, p4, p5}, $EXTENSION_CLASS_DESCRIPTOR->newPlayerResponse(Ljava/lang/String;Ljava/lang/String;I)V"
-        )
+        hookPlayerResponse("$EXTENSION_CLASS_DESCRIPTOR->newPlayerResponse(Ljava/lang/String;Ljava/lang/String;I)V")
 
         // endregion
 

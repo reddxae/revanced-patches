@@ -54,8 +54,6 @@ public class Utils {
     @SuppressLint("StaticFieldLeak")
     public static Context context;
 
-    private static Resources resources;
-
     protected Utils() {
     } // utility class
 
@@ -282,11 +280,15 @@ public class Utils {
     }
 
     public static Resources getResources() {
-        if (resources == null) {
-            return getLocalizedContextAndSetResources(getContext()).getResources();
-        } else {
-            return resources;
+        Activity mActivity = activityRef.get();
+        if (mActivity != null) {
+            return mActivity.getResources();
         }
+        Context mContext = getContext();
+        if (mContext != null) {
+            return mContext.getResources();
+        }
+        throw new IllegalStateException("Get resources failed");
     }
 
     /**
@@ -303,6 +305,9 @@ public class Utils {
         Activity mActivity = activityRef.get();
         if (mActivity == null) {
             return mContext;
+        }
+        if (mContext == null) {
+            return null;
         }
 
         // Locale of MainActivity.
@@ -321,7 +326,6 @@ public class Utils {
 
         // If they are identical, no need to override them.
         if (applicationLocale == contextLocale) {
-            resources = mActivity.getResources();
             return mContext;
         }
 
@@ -329,9 +333,7 @@ public class Utils {
         Locale.setDefault(applicationLocale);
         Configuration configuration = new Configuration(mContext.getResources().getConfiguration());
         configuration.setLocale(applicationLocale);
-        Context localizedContext = mContext.createConfigurationContext(configuration);
-        resources = localizedContext.getResources();
-        return localizedContext;
+        return mContext.createConfigurationContext(configuration);
     }
 
     public static void setActivity(Activity mainActivity) {

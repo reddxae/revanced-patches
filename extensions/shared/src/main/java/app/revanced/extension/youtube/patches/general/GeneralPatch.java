@@ -40,7 +40,6 @@ import java.util.EnumMap;
 import java.util.Map;
 import java.util.Objects;
 
-import app.revanced.extension.shared.utils.Logger;
 import app.revanced.extension.shared.utils.ResourceUtils;
 import app.revanced.extension.shared.utils.Utils;
 import app.revanced.extension.youtube.settings.Settings;
@@ -109,12 +108,7 @@ public class GeneralPatch {
     // region [Disable splash animation] patch
 
     public static boolean disableSplashAnimation(boolean original) {
-        try {
-            return !Settings.DISABLE_SPLASH_ANIMATION.get() && original;
-        } catch (Exception ex) {
-            Logger.printException(() -> "Failed to load disableSplashAnimation", ex);
-        }
-        return original;
+        return !Settings.DISABLE_SPLASH_ANIMATION.get() && original;
     }
 
     // endregion
@@ -130,12 +124,7 @@ public class GeneralPatch {
     // region [Hide layout components] patch
 
     public static boolean disableTranslucentStatusBar(boolean original) {
-        try {
-            return !Settings.DISABLE_TRANSLUCENT_STATUS_BAR.get() && original;
-        } catch (Exception ex) {
-            Logger.printException(() -> "Failed to load disableTranslucentStatusBar", ex);
-        }
-        return original;
+        return !Settings.DISABLE_TRANSLUCENT_STATUS_BAR.get() && original;
     }
 
     private static String[] accountMenuBlockList;
@@ -240,12 +229,7 @@ public class GeneralPatch {
     }
 
     public static boolean switchCreateWithNotificationButton(boolean original) {
-        try {
-            return Settings.SWITCH_CREATE_WITH_NOTIFICATIONS_BUTTON.get() || original;
-        } catch (Exception ex) {
-            Logger.printException(() -> "switchCreateWithNotificationButton Failed", ex);
-        }
-        return original;
+        return Settings.SWITCH_CREATE_WITH_NOTIFICATIONS_BUTTON.get() || original;
     }
 
     public static void navigationTabCreated(NavigationButton button, View tabView) {
@@ -327,6 +311,9 @@ public class GeneralPatch {
 
     // region [Toolbar components] patch
 
+    private static final int generalHeaderAttributeId = ResourceUtils.getAttrIdentifier("ytWordmarkHeader");
+    private static final int premiumHeaderAttributeId = ResourceUtils.getAttrIdentifier("ytPremiumWordmarkHeader");
+
     public static void setDrawerNavigationHeader(View lithoView) {
         final int headerAttributeId = getHeaderAttributeId();
 
@@ -344,8 +331,8 @@ public class GeneralPatch {
 
     public static int getHeaderAttributeId() {
         return Settings.CHANGE_YOUTUBE_HEADER.get()
-                ? ResourceUtils.getAttrIdentifier("ytPremiumWordmarkHeader")
-                : ResourceUtils.getAttrIdentifier("ytWordmarkHeader");
+                ? premiumHeaderAttributeId
+                : generalHeaderAttributeId;
     }
 
     public static boolean overridePremiumHeader() {
@@ -356,6 +343,11 @@ public class GeneralPatch {
         // Rest of the implementation added by patch.
         return ResourceUtils.getDrawable("");
     }
+
+    private static final int searchBarId = ResourceUtils.getIdIdentifier("search_bar");
+    private static final int youtubeTextId = ResourceUtils.getIdIdentifier("youtube_text");
+    private static final int searchBoxId = ResourceUtils.getIdIdentifier("search_box");
+    private static final int searchIconId = ResourceUtils.getIdIdentifier("search_icon");
 
     private static final boolean wideSearchbarEnabled = Settings.ENABLE_WIDE_SEARCH_BAR.get();
     // Loads the search bar deprecated by Google.
@@ -396,17 +388,12 @@ public class GeneralPatch {
         if (!wideSearchbarEnabled)
             return;
 
-        final int searchBarId = ResourceUtils.getIdIdentifier("search_bar");
         if (!(view.findViewById(searchBarId) instanceof RelativeLayout searchBarView))
             return;
 
         // When the deprecated search bar is loaded, two search bars overlap.
         // Manually hides another search bar.
         if (wideSearchbarWithHeaderEnabled) {
-            final int youtubeTextId = ResourceUtils.getIdIdentifier("youtube_text");
-            final int searchBoxId = ResourceUtils.getIdIdentifier("search_box");
-            final int searchIconId = ResourceUtils.getIdIdentifier("search_icon");
-
             final View searchIconView = searchBarView.findViewById(searchIconId);
             final View searchBoxView = searchBarView.findViewById(searchBoxId);
             final View textView = searchBarView.findViewById(youtubeTextId);
@@ -521,13 +508,15 @@ public class GeneralPatch {
         imageView.setImageDrawable(drawable);
     }
 
+    private static final int settingsDrawableId =
+            ResourceUtils.getDrawableIdentifier("yt_outline_gear_black_24");
+    private static final int settingsCairoDrawableId =
+            ResourceUtils.getDrawableIdentifier("yt_outline_gear_cairo_black_24");
+
     public static int getCreateButtonDrawableId(int original) {
         if (!Settings.REPLACE_TOOLBAR_CREATE_BUTTON.get()) {
             return original;
         }
-
-        final int settingsDrawableId =
-                ResourceUtils.getDrawableIdentifier("yt_outline_gear_black_24");
 
         if (settingsDrawableId == 0) {
             return original;
@@ -538,9 +527,6 @@ public class GeneralPatch {
         if (!ExtendedUtils.IS_19_28_OR_GREATER || ExtendedUtils.isSpoofingToLessThan("19.27.00")) {
             return settingsDrawableId;
         }
-
-        final int settingsCairoDrawableId =
-                ResourceUtils.getDrawableIdentifier("yt_outline_gear_cairo_black_24");
 
         return settingsCairoDrawableId == 0
                 ? settingsDrawableId

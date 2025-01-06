@@ -171,7 +171,7 @@ class StreamingDataRequest private constructor(
             Logger.printDebug { "Fetching video streams for: $videoId using client: $clientType" }
 
             try {
-                val connection = getPlayerResponseConnectionFromRoute(GET_STREAMING_DATA, clientType.userAgent)
+                val connection = getPlayerResponseConnectionFromRoute(GET_STREAMING_DATA, clientType)
                 connection.connectTimeout = HTTP_TIMEOUT_MILLISECONDS
                 connection.readTimeout = HTTP_TIMEOUT_MILLISECONDS
 

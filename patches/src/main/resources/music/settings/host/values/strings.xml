@@ -428,11 +428,8 @@ Find the official song if a music video is detected playing from an album.
 • Powered by Piped Instance API."</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_title">Redirection type</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_summary">Specifies how to redirect to official song.</string>
-    <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect_dismiss">Redirect (Dismiss queue)</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect">Redirect</string>
-    <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_click_dismiss">Tap Audio / Video toggle (Dismiss queue)</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_click">Tap Audio / Video toggle</string>
-    <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_long_click_dismiss">Tap and hold Audio / Video toggle (Dismiss queue)</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_long_click">Tap and hold Audio / Video toggle</string>
     <string name="revanced_enable_debug_logging_title">Enable debug logging</string>
     <string name="revanced_enable_debug_logging_summary">Prints the debug log.</string>

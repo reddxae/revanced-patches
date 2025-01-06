@@ -384,11 +384,8 @@ API Key를 발급받는 방법을 보려면 여기를 누르세요."</string>
 • 파이핑된 인스턴스 API로 구동됩니다."</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_title">리다이렉션 유형</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_summary">공식 음원으로 리다이렉션하는 방법을 지정할 수 있습니다.</string>
-    <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect_dismiss">리다이렉션 (대기목록 해제)</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect">리다이렉션</string>
-    <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_click_dismiss">\'노래↔동영상\' 토글 누르기 (대기목록 해제)</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_click">\'노래↔동영상\' 토글 누르기</string>
-    <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_long_click_dismiss">\'노래↔동영상\' 토글 길게 누르기 (대기목록 해제)</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_long_click">\'노래↔동영상\' 토글 길게 누르기</string>
     <string name="revanced_enable_debug_logging_title">디버그 로깅 활성화</string>
     <string name="revanced_enable_debug_logging_summary">디버그 로그를 출력합니다.</string>

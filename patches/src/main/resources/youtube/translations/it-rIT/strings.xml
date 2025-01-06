@@ -864,9 +864,9 @@ Impostazioni → Riproduzione automatica → Telefono cellulare/tablet"</string>
     <string name="revanced_disable_engagement_panel_summary_on">Il pannello di coinvolgimento è disattivato.</string>
     <string name="revanced_disable_engagement_panel_summary_off">Il pannello di coinvolgimento è attivato.</string>
     <string name="revanced_enter_fullscreen_title">Passa a schermo intero all\'avvio dei video</string>
-    <string name="revanced_enter_fullscreen_summary_on">Passa a schermo intero all\'avvio dei video.
+    <string name="revanced_enter_fullscreen_summary_on">"Passa a schermo intero all'avvio dei video.
 
-Nota: non funziona se il riproduttore è minimizzato, in modalità PiP o in background.</string>
+Nota: non funziona se il riproduttore è minimizzato, in modalità PiP o in background."</string>
     <string name="revanced_enter_fullscreen_summary_off">Non passa a schermo intero all\'avvio dei video.</string>
     <string name="revanced_exit_fullscreen_title">Esci da schermo intero alla fine dei video</string>
     <string name="revanced_exit_fullscreen_entry_1">Disattivato</string>

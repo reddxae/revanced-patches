@@ -861,9 +861,9 @@ La reproducción automática se puede cambiar en la configuración de YouTube:
     <string name="revanced_disable_engagement_panel_summary_on">El panel de interacción está desactivado.</string>
     <string name="revanced_disable_engagement_panel_summary_off">El panel de interacción está activado.</string>
     <string name="revanced_enter_fullscreen_title">Entrar en modo de pantalla completa cuando se inicia el vídeo</string>
-    <string name="revanced_enter_fullscreen_summary_on">Entra en modo de pantalla completa cuando se inicia el vídeo.
+    <string name="revanced_enter_fullscreen_summary_on">"Entra en modo de pantalla completa cuando se inicia el vídeo.
 
-Limitación: No funciona si el reproductor está minimizado, en modo PiP o en segundo plano.</string>
+Limitación: No funciona si el reproductor está minimizado, en modo PiP o en segundo plano."</string>
     <string name="revanced_enter_fullscreen_summary_off">No entra en modo de pantalla completa cuando se inicia el vídeo.</string>
     <string name="revanced_exit_fullscreen_title">Salir del modo de pantalla completa al final del vídeo</string>
     <string name="revanced_exit_fullscreen_entry_1">Desactivado</string>

@@ -860,9 +860,9 @@ Autoodtwarzanie można zmienić w ustawieniach YouTube:
     <string name="revanced_disable_engagement_panel_summary_on">Ukryty</string>
     <string name="revanced_disable_engagement_panel_summary_off">Widoczny</string>
     <string name="revanced_enter_fullscreen_title">Pełny ekran po rozpoczęciu filmu</string>
-    <string name="revanced_enter_fullscreen_summary_on">Włączony
+    <string name="revanced_enter_fullscreen_summary_on">"Włączony
 
-Ograniczenie: nie działa jeśli odtwarzacz jest zminimalizowany, w trybie PiP lub w tle</string>
+Ograniczenie: nie działa jeśli odtwarzacz jest zminimalizowany, w trybie PiP lub w tle"</string>
     <string name="revanced_enter_fullscreen_summary_off">Wyłączony</string>
     <string name="revanced_exit_fullscreen_title">Wyjście z pełnego ekranu po zakończeniu filmu</string>
     <string name="revanced_exit_fullscreen_entry_1">Wyłączone</string>

@@ -860,9 +860,9 @@
     <string name="revanced_disable_engagement_panel_summary_on">停用互動面板</string>
     <string name="revanced_disable_engagement_panel_summary_off">啟用互動面板</string>
     <string name="revanced_enter_fullscreen_title">影片開始時進入全螢幕模式</string>
-    <string name="revanced_enter_fullscreen_summary_on">\"影片開始時進入全螢幕模式。
+    <string name="revanced_enter_fullscreen_summary_on">"\"影片開始時進入全螢幕模式。
 
-限制：如果播放器最小化、處於畫中畫模式或處於後台，則不起作用。</string>
+限制：如果播放器最小化、處於畫中畫模式或處於後台，則不起作用。"</string>
     <string name="revanced_enter_fullscreen_summary_off">影片開始時請勿進入全螢幕模式。</string>
     <string name="revanced_exit_fullscreen_title">影片結束時退出全螢幕模式</string>
     <string name="revanced_exit_fullscreen_entry_1">已停用</string>

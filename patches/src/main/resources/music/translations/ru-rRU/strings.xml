@@ -372,6 +372,12 @@
     <string name="revanced_disable_cairo_splash_animation_summary">Отключает анимацию Кайро при запуске приложения.</string>
     <string name="revanced_disable_drc_audio_title">Отключить DRC аудио</string>
     <string name="revanced_disable_drc_audio_summary">Выключает DRC (сжатие динамического диапазона), применяемого к аудио.</string>
+    <string name="revanced_disable_music_video_in_album_title">Отключить музыкальные видео в альбоме</string>
+    <string name="revanced_disable_music_video_in_album_summary">"Когда пользователь без премиума воспроизводит песню из альбома, иногда вместо официальной песни воспроизводится музыкальное видео.
+
+Если будет обнаружено воспроизведение музыкального видео, будет перенаправлено на официальную песню.
+
+• Используется \"Piped Instance\", но в некоторых регионах API может быть недоступен."</string>
     <string name="revanced_enable_debug_logging_title">Ведение журнала отладки</string>
     <string name="revanced_enable_debug_logging_summary">Выводит журнал отладки.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Ведение журналов отладки буфера</string>
@@ -419,6 +425,7 @@
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Показывать в \"Статистике для сисадминов\"</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary">Показывает клиент, используемый для получения потоковых данных в Статистике для сисадминов.</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_music">Android Music</string>
     <string name="revanced_sanitize_sharing_links_title">Подчищать ссылки</string>
     <string name="revanced_sanitize_sharing_links_summary">Убирает параметры отслеживания запросов из адресов при отправке ссылки.</string>
     <string name="revanced_default_app_settings_title">Открыть настройки по умолчанию</string>

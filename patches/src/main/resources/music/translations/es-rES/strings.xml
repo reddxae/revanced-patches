@@ -378,6 +378,11 @@ Toca para ver cómo crear una clave de API."</string>
 Si este video se detecta durante la reproducción, será redireccionado a la canción original.
 
 Se usa una instancia redireccionada, pero la API puede no estar disponible en algunas regiones."</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_title">Tipo de redirección</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_summary">Especifica cómo redirigir a la canción oficial.</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect">Redirigir</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_click">Interruptor de Audio / Video</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_long_click">Mantén pulsado el interruptor de Audio / Video</string>
     <string name="revanced_enable_debug_logging_title">Activar registro de depuración</string>
     <string name="revanced_enable_debug_logging_summary">Imprime el registro de depuración.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Incluir búfer en registro de depuración</string>

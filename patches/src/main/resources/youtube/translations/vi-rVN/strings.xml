@@ -95,9 +95,9 @@ Nhấn vào đây để tìm hiểu thêm về DeArrow."</string>
     <string name="revanced_bypass_image_region_restrictions_summary_off">Sử dụng máy chủ lưu trữ hình ảnh gốc.\n\nBật tính năng này có thể khắc phục tình trạng hình ảnh bị chặn ở một số khu vực.</string>
     <!-- PreferenceScreen: Feed -->
     <string name="revanced_preference_screen_feed_title">Bảng tin</string>
-    <string name="revanced_hide_album_card_title">Ẩn Đĩa nhạc</string>
-    <string name="revanced_hide_album_card_summary_on">Đĩa nhạc đã ẩn khỏi kết quả tìm kiếm.</string>
-    <string name="revanced_hide_album_card_summary_off">Đĩa nhạc được hiển thị trong kết quả tìm kiếm.</string>
+    <string name="revanced_hide_album_card_title">Ẩn thẻ Đĩa nhạc</string>
+    <string name="revanced_hide_album_card_summary_on">Thẻ đĩa nhạc đã ẩn khỏi kết quả tìm kiếm.</string>
+    <string name="revanced_hide_album_card_summary_off">Thẻ đĩa nhạc được hiển thị trong kết quả tìm kiếm.</string>
     <string name="revanced_hide_carousel_shelf_title">Ẩn các kệ được cá nhân hoá</string>
     <string name="revanced_hide_carousel_shelf_summary">"Ẩn các kệ sau:
 
@@ -864,9 +864,9 @@ Cài đặt → Tự động phát → Tự động phát video tiếp theo."</s
     <string name="revanced_disable_engagement_panel_summary_on">Bảng tương tác đã tắt.</string>
     <string name="revanced_disable_engagement_panel_summary_off">Bảng điều khiển tương tác được bật.</string>
     <string name="revanced_enter_fullscreen_title">Vào chế độ toàn màn hình khi video bắt đầu</string>
-    <string name="revanced_enter_fullscreen_summary_on">Vào chế độ toàn màn hình khi video bắt đầu.
+    <string name="revanced_enter_fullscreen_summary_on">"Vào chế độ toàn màn hình khi video bắt đầu.
 
-Hạn chế: Không hoạt động nếu trình phát đang thu nhỏ, trong chế độ Hình trong hình, hoặc phát trong nền.</string>
+Hạn chế: Không hoạt động nếu trình phát đang thu nhỏ, trong chế độ Hình trong hình, hoặc phát trong nền."</string>
     <string name="revanced_enter_fullscreen_summary_off">Không vào chế độ toàn màn hình khi video bắt đầu.</string>
     <string name="revanced_exit_fullscreen_title">Thoát chế độ màn hình khi video kết thúc</string>
     <string name="revanced_exit_fullscreen_entry_1">Tắt</string>

@@ -871,6 +871,19 @@ Shorts
     <string name="revanced_disable_engagement_panel_title">Панель взаимодействия</string>
     <string name="revanced_disable_engagement_panel_summary_on">Панель взаимодействия отключена.</string>
     <string name="revanced_disable_engagement_panel_summary_off">Панель взаимодействия включена.</string>
+    <string name="revanced_enter_fullscreen_title">Полноэкранный режим при запуске видео</string>
+    <string name="revanced_enter_fullscreen_summary_on">"Полноэкранный режим при запуске видео включен.
+
+Не работает когда:
+- плеер свернут
+- картинка в картинке (PiP)
+- фоновый режим."</string>
+    <string name="revanced_enter_fullscreen_summary_off">Полноэкранный режим при запуске видео отключен.</string>
+    <string name="revanced_exit_fullscreen_title">Полноэкранный режим в конце видео</string>
+    <string name="revanced_exit_fullscreen_entry_1">Отключено</string>
+    <string name="revanced_exit_fullscreen_entry_2">Портретный вид</string>
+    <string name="revanced_exit_fullscreen_entry_3">Альбомный вид</string>
+    <string name="revanced_exit_fullscreen_entry_4">Авто поворот</string>
     <string name="revanced_show_video_title_section_title">Секция заголовка видео</string>
     <string name="revanced_show_video_title_section_summary">"Показывает секцию заголовка видео в полноэкранном режиме.
 
@@ -1441,7 +1454,11 @@ Shorts
     <string name="revanced_restore_old_video_quality_menu_summary_on">Старое меню качества отображено.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Старое меню качества скрыто.</string>
     <string name="revanced_disable_default_playback_speed_music_title">Скорость воспроизведения для музыки</string>
+    <string name="revanced_disable_default_playback_speed_music_on">Скорость по умолчанию для категории YouTube Музыка включена.</string>
     <string name="revanced_disable_default_playback_speed_music_off">Скорость воспроизведения по умолчанию для музыки включена.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_title">Выбирать скорость ориентируясь на категории</string>
+    <string name="revanced_disable_default_playback_speed_music_type_on">Скорость по умолчанию для категории YouTube Музыка отключена.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_off">Скорость по умолчанию для категории YouTube Музыка включена.</string>
     <string name="revanced_enable_default_playback_speed_shorts_title">Скорость воспроизведения по умолчанию в Shorts</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">Скорость воспроизведения по умолчанию в Shorts включена.</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_off">Скорость воспроизведения по умолчанию в Shorts отключена.</string>
@@ -1787,7 +1804,21 @@ Shorts
 Воспроизведение видео может не работать."</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">Отключение этой настройки вызовет проблемы с воспроизведением видео.</string>
     <string name="revanced_spoof_streaming_data_type_title">Клиент по умолчанию</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">"Android TV
+<small>(Требуется вход)</small>"</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
+<small>(Необходим PoToken)</small>"</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS
+<small>(Необходим вход)</small>"</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Эффекты от подмены</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android">"• Меню аудио дорожки отсутствует.
+• Стабильная громкость недоступна.
+• Отключить принудительные авто звуковые дорожки недоступна.
+• Детские видео не могут воспроизводиться в режиме инкогнито или выхода."</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">• Возможно проблемы (требуется PoToken).</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• Фильмы или платные видео могут не воспроизводиться.
+• Детские видео могут не воспроизводиться при выходе из системы или в режиме инкогнито."</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Принудительно iOS, AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Принудительное использование AVC (H.264) включено.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">Принудительное использование AVC (H.264) отключено.</string>

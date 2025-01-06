@@ -861,9 +861,9 @@
     <string name="revanced_disable_engagement_panel_summary_on">Панель залучення вимкнено.</string>
     <string name="revanced_disable_engagement_panel_summary_off">Панель залучення увімкнено.</string>
     <string name="revanced_enter_fullscreen_title">Переходити у повноекранний режим при запуску відео</string>
-    <string name="revanced_enter_fullscreen_summary_on">Переходиться у повноекранний режим при запуску відео.
+    <string name="revanced_enter_fullscreen_summary_on">"Переходиться у повноекранний режим при запуску відео.
 
-Застереження: Не працюватиме якщо плеєр мінімізовано, у режимі PiP, чи у фоні.</string>
+Застереження: Не працюватиме якщо плеєр мінімізовано, у режимі PiP, чи у фоні."</string>
     <string name="revanced_enter_fullscreen_summary_off">Не переходиться у повноекранний режим при запуску відео.</string>
     <string name="revanced_exit_fullscreen_title">Виходити з повноекранного режиму в кінці відео</string>
     <string name="revanced_exit_fullscreen_entry_1">Вимкнено</string>

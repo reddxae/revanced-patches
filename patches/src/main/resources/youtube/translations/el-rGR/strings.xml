@@ -860,9 +860,9 @@ Playlists
     <string name="revanced_disable_engagement_panel_summary_on">Ο πίνακας αλληλεπίδρασης είναι απενεργοποιημένος.</string>
     <string name="revanced_disable_engagement_panel_summary_off">Ο πίνακας αλληλεπίδρασης είναι ενεργοποιημένος.</string>
     <string name="revanced_enter_fullscreen_title">Άνοιγμα των βίντεο σε λειτουργία πλήρους οθόνης</string>
-    <string name="revanced_enter_fullscreen_summary_on">Γίνεται εισαγωγή σε πλήρη οθόνη κατά την έναρξη των βίντεο.
+    <string name="revanced_enter_fullscreen_summary_on">"Γίνεται εισαγωγή σε πλήρη οθόνη κατά την έναρξη των βίντεο.
 
-Περιορισμός: Δεν ισχύει αν το βίντεο είναι ελαχιστοποιημένο, σε λειτουργία PiP, ή στο παρασκήνιο.</string>
+Περιορισμός: Δεν ισχύει αν το βίντεο είναι ελαχιστοποιημένο, σε λειτουργία PiP, ή στο παρασκήνιο."</string>
     <string name="revanced_enter_fullscreen_summary_off">Δεν γίνεται εισαγωγή σε πλήρη οθόνη κατά την έναρξη των βίντεο.</string>
     <string name="revanced_exit_fullscreen_title">Έξοδος από τη λειτουργία πλήρους οθόνης στο τέλος του βίντεο</string>
     <string name="revanced_exit_fullscreen_entry_1">Απενεργοποιημένο</string>

@@ -862,9 +862,9 @@
     <string name="revanced_disable_engagement_panel_summary_on">تم تعطيل لوحة المشاركة.</string>
     <string name="revanced_disable_engagement_panel_summary_off">تم تمكين لوحة المشاركة.</string>
     <string name="revanced_enter_fullscreen_title">الدخول إلى وضع ملء الشاشة عند بدء تشغيل الفيديو</string>
-    <string name="revanced_enter_fullscreen_summary_on">الدخول إلى وضع ملء الشاشة عند بدء تشغيل الفيديو.
+    <string name="revanced_enter_fullscreen_summary_on">"الدخول إلى وضع ملء الشاشة عند بدء تشغيل الفيديو.
 
-القيود: لا يعمل إذا تم تصغير المشغل أو في وضع صورة داخل صورة أو في الخلفية.</string>
+القيود: لا يعمل إذا تم تصغير المشغل أو في وضع صورة داخل صورة أو في الخلفية."</string>
     <string name="revanced_enter_fullscreen_summary_off">لا تدخل وضع ملء الشاشة عند بدء تشغيل الفيديو.</string>
     <string name="revanced_exit_fullscreen_title">الخروج من وضع ملء الشاشة في نهاية الفيديو</string>
     <string name="revanced_exit_fullscreen_entry_1">معطَّل</string>

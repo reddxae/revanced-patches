@@ -3,6 +3,7 @@ package app.revanced.extension.shared.patches.client
 import android.os.Build
 import app.revanced.extension.shared.patches.PatchStatus
 import app.revanced.extension.shared.settings.BaseSettings
+import org.apache.commons.lang3.ArrayUtils
 
 /**
  * Used to fetch streaming data.
@@ -173,11 +174,26 @@ object AppClient {
         return BaseSettings.SPOOF_STREAMING_DATA_IOS_FORCE_AVC.get()
     }
 
-    val availableClientTypes: Array<ClientType>
-        get() = if (PatchStatus.SpoofStreamingDataMusic())
+    fun availableClientTypes(preferredClient: ClientType): Array<ClientType> {
+        val availableClientTypes = if (PatchStatus.SpoofStreamingDataMusic())
             ClientType.CLIENT_ORDER_TO_USE_YOUTUBE_MUSIC
         else
             ClientType.CLIENT_ORDER_TO_USE_YOUTUBE
+
+        if (ArrayUtils.contains(availableClientTypes, preferredClient)) {
+            val clientToUse: Array<ClientType?> = arrayOfNulls(availableClientTypes.size)
+            clientToUse[0] = preferredClient
+            var i = 1
+            for (c in availableClientTypes) {
+                if (c != preferredClient) {
+                    clientToUse[i++] = c
+                }
+            }
+            return clientToUse.filterNotNull().toTypedArray()
+        } else {
+            return availableClientTypes
+        }
+    }
 
     enum class ClientType(
         /**

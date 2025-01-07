@@ -2,12 +2,12 @@ package app.revanced.extension.music.patches.utils;
 
 import android.graphics.drawable.Drawable;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
 
 import org.apache.commons.lang3.ArrayUtils;
 
 import app.revanced.extension.shared.utils.ResourceUtils;
-import app.revanced.extension.shared.utils.Utils;
 
 @SuppressWarnings("unused")
 public class DrawableColorPatch {
@@ -22,6 +22,8 @@ public class DrawableColorPatch {
             ResourceUtils.getDrawable("revanced_header_gradient");
     private static final int blackColor =
             ResourceUtils.getColor("yt_black1");
+    private static final int elementsContainerIdentifier =
+            ResourceUtils.getIdIdentifier("elements_container");
 
     public static int getLithoColor(int originalValue) {
         return ArrayUtils.contains(DARK_VALUES, originalValue)
@@ -30,15 +32,19 @@ public class DrawableColorPatch {
     }
 
     public static void setHeaderGradient(ViewGroup viewGroup) {
-        viewGroup.getViewTreeObserver().addOnGlobalLayoutListener(() -> Utils.runOnMainThreadDelayed(() -> {
-            if (!(viewGroup.getChildAt(0) instanceof ViewGroup parentViewGroup))
+        viewGroup.getViewTreeObserver().addOnGlobalLayoutListener(() -> {
+            if (!(viewGroup instanceof FrameLayout frameLayout))
+                return;
+            if (!(frameLayout.getChildAt(0) instanceof ViewGroup parentViewGroup))
                 return;
             if (!(parentViewGroup.getChildAt(0) instanceof ImageView gradientView))
                 return;
-            if (headerGradient != null) {
+            // For some reason, it sometimes applies to other lithoViews.
+            // To prevent this, check the viewId before applying the gradient.
+            if (headerGradient != null && viewGroup.getId() == elementsContainerIdentifier) {
                 gradientView.setForeground(headerGradient);
             }
-        }, 0));
+        });
     }
 }
 

@@ -42,6 +42,8 @@ private val darkThemeBytecodePatch = bytecodePatch(
     execute {
         addDrawableColorHook("$EXTENSION_CLASS_DESCRIPTOR->getLithoColor(I)I")
 
+        // The images in the playlist and album headers have a black gradient (probably applied server-side).
+        // Applies a new gradient to the images in the playlist and album headers.
         elementsContainerFingerprint.methodOrThrow().apply {
             val index = indexOfFirstInstructionReversedOrThrow(Opcode.CHECK_CAST)
             val register = getInstruction<OneRegisterInstruction>(index).registerA
@@ -63,7 +65,7 @@ private val darkThemeBytecodePatch = bytecodePatch(
 
 val DARK_COLOR = arrayOf(
     "yt_black0", "yt_black1", "yt_black1_opacity95", "yt_black1_opacity98",
-    "yt_black2", "yt_black3", "yt_black4","yt_black_pure",
+    "yt_black2", "yt_black3", "yt_black4", "yt_black_pure",
     "yt_black_pure_opacity80", "yt_status_bar_background_dark",
     "ytm_color_grey_12", "material_grey_800", "material_grey_850",
 )

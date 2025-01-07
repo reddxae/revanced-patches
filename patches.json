@@ -44,26 +44,6 @@
     "options": []
   },
   {
-    "name": "Amoled",
-    "description": "Applies a pure black theme to some components.",
-    "use": true,
-    "dependencies": [
-      "BytecodePatch",
-      "Settings for YouTube Music"
-    ],
-    "compatiblePackages": {
-      "com.google.android.apps.youtube.music": [
-        "6.20.51",
-        "6.29.59",
-        "6.42.55",
-        "6.51.53",
-        "7.16.53",
-        "7.25.53"
-      ]
-    },
-    "options": []
-  },
-  {
     "name": "Bitrate default value",
     "description": "Sets the audio quality to \u0027Always High\u0027 when you first install the app.",
     "use": true,
@@ -186,7 +166,7 @@
   },
   {
     "name": "Change share sheet",
-    "description": "Add option to change from in-app share sheet to system share sheet.",
+    "description": "Adds an option to change the in-app share sheet to the system share sheet.",
     "use": true,
     "dependencies": [
       "Settings for YouTube Music",
@@ -207,7 +187,7 @@
   },
   {
     "name": "Change share sheet",
-    "description": "Add option to change from in-app share sheet to system share sheet.",
+    "description": "Adds an option to change the in-app share sheet to the system share sheet.",
     "use": true,
     "dependencies": [
       "Settings for YouTube",
@@ -364,7 +344,7 @@
       {
         "key": "changeSplashIcon",
         "title": "Change splash icons",
-        "description": "Apply the custom branding icon to the splash screen.",
+        "description": "Apply the custom branding icon to the splash screen. Supports from YouTube 18.29.38 to YouTube 19.16.39.",
         "required": true,
         "type": "kotlin.Boolean",
         "default": true,
@@ -637,6 +617,53 @@
     ]
   },
   {
+    "name": "Dark theme",
+    "description": "Changes the app\u0027s dark theme to the values specified in patch options.",
+    "use": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "6.20.51",
+        "6.29.59",
+        "6.42.55",
+        "6.51.53",
+        "7.16.53",
+        "7.25.53"
+      ]
+    },
+    "options": [
+      {
+        "key": "darkThemeBackgroundColor",
+        "title": "Dark theme background color",
+        "description": "Can be a hex color (#AARRGGBB) or a color resource reference.",
+        "required": false,
+        "type": "kotlin.String",
+        "default": "@android:color/black",
+        "values": {
+          "Amoled Black": "@android:color/black",
+          "Catppuccin (Mocha)": "#FF181825",
+          "Dark Pink": "#FF290025",
+          "Dark Blue": "#FF001029",
+          "Dark Green": "#FF002905",
+          "Dark Yellow": "#FF282900",
+          "Dark Orange": "#FF291800",
+          "Dark Red": "#FF290000"
+        }
+      },
+      {
+        "key": "materialYou",
+        "title": "MaterialYou",
+        "description": "Applies the MaterialYou theme for Android 12+ devices.",
+        "required": true,
+        "type": "kotlin.Boolean",
+        "default": false,
+        "values": null
+      }
+    ]
+  },
+  {
     "name": "Description components",
     "description": "Adds options to hide and disable description components.",
     "use": true,
@@ -815,6 +842,27 @@
         "19.05.36",
         "19.16.39",
         "19.44.39"
+      ]
+    },
+    "options": []
+  },
+  {
+    "name": "Disable music video in album",
+    "description": "Adds option to redirect music videos from albums for non-premium users.",
+    "use": false,
+    "dependencies": [
+      "Settings for YouTube Music",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "6.20.51",
+        "6.29.59",
+        "6.42.55",
+        "6.51.53",
+        "7.16.53",
+        "7.25.53"
       ]
     },
     "options": []
@@ -1085,6 +1133,9 @@
     "use": true,
     "dependencies": [
       "Settings for YouTube",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
       "BytecodePatch",
       "BytecodePatch",
       "ResourcePatch",
@@ -1493,7 +1544,8 @@
       "BytecodePatch",
       "ResourcePatch",
       "BytecodePatch",
-      "BytecodePatch"
+      "BytecodePatch",
+      "ResourcePatch"
     ],
     "compatiblePackages": {
       "com.google.android.youtube": [
@@ -1619,7 +1671,7 @@
   },
   {
     "name": "Hide shortcuts",
-    "description": "Remove, at compile time, the app shortcuts that appears when app icon is long pressed.",
+    "description": "Remove, at compile time, the app shortcuts that appears when the app icon is long pressed.",
     "use": false,
     "dependencies": [
       "Settings for YouTube",
@@ -1861,7 +1913,8 @@
       "BytecodePatch",
       "ResourcePatch",
       "ResourcePatch",
-      "Settings for YouTube"
+      "Settings for YouTube",
+      "ResourcePatch"
     ],
     "compatiblePackages": {
       "com.google.android.youtube": [
@@ -1891,7 +1944,7 @@
       {
         "key": "bottomMargin",
         "title": "Bottom margin",
-        "description": "The bottom margin for the overlay buttons and timestamp.",
+        "description": "The bottom margin for the overlay buttons and timestamp. Supports from YouTube 18.29.38 to YouTube 19.16.39.",
         "required": true,
         "type": "kotlin.String",
         "default": "2.5dip",
@@ -1904,7 +1957,7 @@
       {
         "key": "widerButtonsSpace",
         "title": "Wider between-buttons space",
-        "description": "Prevent adjacent button presses by increasing the horizontal spacing between buttons.",
+        "description": "Prevent adjacent button presses by increasing the horizontal spacing between buttons. Supports from YouTube 18.29.38 to YouTube 19.16.39.",
         "required": true,
         "type": "kotlin.Boolean",
         "default": false,
@@ -2530,7 +2583,8 @@
     "use": true,
     "dependencies": [
       "BytecodePatch",
-      "Settings for YouTube Music"
+      "Settings for YouTube Music",
+      "BytecodePatch"
     ],
     "compatiblePackages": {
       "com.google.android.apps.youtube.music": [
@@ -2651,7 +2705,7 @@
   },
   {
     "name": "Toolbar components",
-    "description": "Adds options to hide or change components located on the toolbar, such as toolbar buttons, search bar, and header.",
+    "description": "Adds options to hide or change components located on the toolbar, such as the search bar, header, and toolbar buttons.",
     "use": true,
     "dependencies": [
       "BytecodePatch",

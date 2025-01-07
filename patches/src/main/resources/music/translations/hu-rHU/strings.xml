@@ -275,7 +275,7 @@ Előfordulhat, hogy egyes funkciók nem működnek megfelelően a régi lejátsz
     <string name="revanced_ryd_dislike_percentage_summary">A nem tetszések százalékos arányát jeleníti meg a nem tetszések száma helyett.</string>
     <string name="revanced_ryd_compact_layout_title">Kompakt kedvelés gomb</string>
     <string name="revanced_ryd_compact_layout_summary">Elrejti a kedvelés gomb elválasztóját.</string>
-    <string name="revanced_ryd_estimated_like_title">Mutassa a becsült kedveléseket</string>
+    <string name="revanced_ryd_estimated_like_title">Becsült kedvelések megjelenítése</string>
     <string name="revanced_ryd_estimated_like_summary">Megjeleníti a becsült kedvelések számát a videóknál.</string>
     <string name="revanced_ryd_toast_on_connection_error_title">Köszöntő megjelenítése, ha az API nem elérhető</string>
     <string name="revanced_ryd_toast_on_connection_error_summary">Megjelenik egy üzenet, ha a YouTube nem tetszések visszaállítása API nem érhető el.</string>
@@ -372,6 +372,12 @@ Kattints ide az API-kulcs megszerzéséhez."</string>
     <string name="revanced_disable_cairo_splash_animation_summary">Letiltja a betöltési animációt amikor az app indul.</string>
     <string name="revanced_disable_drc_audio_title">DRC hang letiltása</string>
     <string name="revanced_disable_drc_audio_summary">Letiltja a hangra alkalmazott DRC-t (dinamikatartomány-kompresszió).</string>
+    <string name="revanced_disable_music_video_in_album_title">Zenei videó letiltása az albumban</string>
+    <string name="revanced_disable_music_video_in_album_summary">"Amikor egy nem prémium felhasználó lejátszik egy albumban szereplő dalt, néha a hivatalos dal helyett a klip kerül lejátszásra.
+
+Ha egy albumban szereplő zenei videó lejátszását észleli, a rendszer a hivatalos dalra irányítja át.
+
+Piped instance használatban van, és előfordulhat, hogy az API egyes régiókban nem elérhető."</string>
     <string name="revanced_enable_debug_logging_title">Hibanaplók engedélyezése</string>
     <string name="revanced_enable_debug_logging_summary">Kiírja a hibanaplót.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Hibakeresési puffer naplózásának engedélyezése</string>
@@ -399,28 +405,26 @@ A GmsCore akkumulátor-optimalizálás letiltása nem fogyasztja jobban az akkum
 Nyomj a folytatás gombra, és engedélyezd az optimalizálási módosításokat."</string>
     <string name="gms_core_dialog_continue_text">Folytatás</string>
     <string name="revanced_spoof_client_title">Kliens hamisítása</string>
-    <string name="revanced_spoof_client_summary">"A kliens hamisítása a lejátszási problémák elkerülése érdekében.
+    <string name="revanced_spoof_client_summary">"Az kliens meghamisítása a lejátszási problémák megelőzése érdekében.
 
-※ Az 'Adatfolyam meghamisítása' használata esetén lejátszási problémák léphetnek fel."</string>
+• Az 'Adatfolyam meghamisítása' funkcióval együtt használva lejátszási problémák léphetnek fel."</string>
     <string name="revanced_spoof_client_type_title">Alapértelmezett kliens</string>
     <string name="revanced_spoof_client_type_summary">"Meghatározza az alapértelmezett klienst a hamisításhoz.
 
-※ Az Android kliens használata esetén ajánlott a 'Alkalmazás verziójának meghamisítása' használni."</string>
+• Az Android kliens használata esetén ajánlott a 'Alkalmazás verziójának meghamisítása' használni."</string>
     <string name="revanced_spoof_client_type_entry_android_music_4_27">Android Music 4.27.53</string>
     <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
     <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>
     <string name="revanced_spoof_streaming_data_title">Adatfolyam meghamisítása</string>
     <string name="revanced_spoof_streaming_data_summary">"A lejátszási problémák megelőzése érdekében hamisítja a streaming-adatokat.
 
-※ A 'Kliens hamisítása' használata esetén lejátszási problémák léphetnek fel."</string>
+• A 'Kliens hamisítása' használata esetén lejátszási problémák léphetnek fel."</string>
     <string name="revanced_spoof_streaming_data_type_title">Alapértelmezett kliens</string>
     <string name="revanced_spoof_streaming_data_type_summary">Meghatároz egy alapértelmezett klienst, amely streaming adatokat hív le.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Megjelenik a statisztikák kockáknakban</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary">Megmutatja a streaming adatok lekérdezésére használt klienst a Statisztikák kockáknakban.</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_music">iOS Music</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_music">Android Music</string>
     <string name="revanced_sanitize_sharing_links_title">Megosztási linkek tisztítása</string>
     <string name="revanced_sanitize_sharing_links_summary">Linkek megosztásakor eltávolítja a nyomkövetési paramétereket az URL-ekből.</string>
     <string name="revanced_default_app_settings_title">Alapértelmezett program beállítások megnyitása</string>

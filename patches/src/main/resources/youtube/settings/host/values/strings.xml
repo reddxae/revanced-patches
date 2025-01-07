@@ -320,6 +320,7 @@ If the layout of the player screen changes due to server-side changes, unintende
 
     <string name="revanced_change_start_page_title">Change start page</string>
     <string name="revanced_change_start_page_entry_browse">Browse channels</string>
+    <string name="revanced_change_start_page_entry_courses">Courses / Learning</string>
     <string name="revanced_change_start_page_entry_default">Default</string>
     <string name="revanced_change_start_page_entry_explore">Explore</string>
     <string name="revanced_change_start_page_entry_gaming">Gaming</string>
@@ -329,12 +330,14 @@ If the layout of the player screen changes due to server-side changes, unintende
     <string name="revanced_change_start_page_entry_live">Live</string>
     <string name="revanced_change_start_page_entry_movies">Movies</string>
     <string name="revanced_change_start_page_entry_music">Music</string>
+    <string name="revanced_change_start_page_entry_notifications">Notifications</string>
     <string name="revanced_change_start_page_entry_search">Search</string>
     <string name="revanced_change_start_page_entry_shorts">Shorts</string>
     <string name="revanced_change_start_page_entry_sports">Sports</string>
     <string name="revanced_change_start_page_entry_subscriptions">Subscriptions</string>
     <string name="revanced_change_start_page_entry_trending">Trending</string>
     <string name="revanced_change_start_page_entry_watch_later">Watch later</string>
+    <string name="revanced_change_start_page_entry_your_clips">Your clips</string>
     <string name="revanced_change_start_page_type_title">Change start page type</string>
     <string name="revanced_change_start_page_type_summary_on">"Start page always changes.
 
@@ -540,12 +543,9 @@ Also, ads will no longer be blocked in Shorts.
 
 If this setting do not take effect, try switching to Incognito mode."</string>
 
-    <string name="revanced_disable_translucent_navigation_bar_light_title">Disable light translucent bar</string>
-    <string name="revanced_disable_translucent_navigation_bar_light_summary_on">Light mode navigation bar is opaque.</string>
-    <string name="revanced_disable_translucent_navigation_bar_light_summary_off">Light mode navigation bar is opaque or translucent.</string>
-    <string name="revanced_disable_translucent_navigation_bar_dark_title">Disable dark translucent bar</string>
-    <string name="revanced_disable_translucent_navigation_bar_dark_summary_on">Dark mode navigation bar is opaque.</string>
-    <string name="revanced_disable_translucent_navigation_bar_dark_summary_off">Dark mode navigation bar is opaque or translucent.</string>
+    <string name="revanced_enable_translucent_navigation_bar_title">Enable translucent navigation bar</string>
+    <string name="revanced_enable_translucent_navigation_bar_summary_on">Navigation bar is translucent.</string>
+    <string name="revanced_enable_translucent_navigation_bar_summary_off">Navigation bar is opaque.</string>
     <string name="revanced_hide_navigation_bar_title">Hide navigation bar</string>
     <string name="revanced_hide_navigation_bar_summary_on">Navigation bar is hidden.</string>
     <string name="revanced_hide_navigation_bar_summary_off">Navigation bar is shown.</string>
@@ -926,6 +926,16 @@ Settings → Autoplay → Autoplay next video"</string>
     <string name="revanced_disable_engagement_panel_title">Disable engagement panel</string>
     <string name="revanced_disable_engagement_panel_summary_on">Engagement panel is disabled.</string>
     <string name="revanced_disable_engagement_panel_summary_off">Engagement panel is enabled.</string>
+    <string name="revanced_enter_fullscreen_title">Enter fullscreen mode when video starts</string>
+    <string name="revanced_enter_fullscreen_summary_on">"Enter fullscreen mode when the video starts.
+
+Limitation: Does not work if the player is minimized, in PiP mode, or in the background."</string>
+    <string name="revanced_enter_fullscreen_summary_off">Do not enter fullscreen mode when the video starts.</string>
+    <string name="revanced_exit_fullscreen_title">Exit fullscreen mode at end of video</string>
+    <string name="revanced_exit_fullscreen_entry_1">Disabled</string>
+    <string name="revanced_exit_fullscreen_entry_2">Portrait</string>
+    <string name="revanced_exit_fullscreen_entry_3">Landscape</string>
+    <string name="revanced_exit_fullscreen_entry_4">Portrait and landscape</string>
     <string name="revanced_show_video_title_section_title">Show video title section</string>
     <string name="revanced_show_video_title_section_summary">"Shows the video title section in fullscreen.
 
@@ -983,11 +993,6 @@ Limitation: Video title disappears when clicked."</string>
     <string name="revanced_enable_compact_controls_overlay_title">Enable compact controls overlay</string>
     <string name="revanced_enable_compact_controls_overlay_summary_on">Controls overlay does not fill the fullscreen.</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">Controls overlay fills the fullscreen.</string>
-    <string name="revanced_force_fullscreen_title">Force fullscreen</string>
-    <string name="revanced_force_fullscreen_summary">"Videos will be switched to fullscreen in the following situations:
-
-• When a video is started.
-• When a timestamp in the comments is clicked on."</string>
     <string name="revanced_keep_landscape_mode_title">Keep landscape mode</string>
     <string name="revanced_keep_landscape_mode_summary">Keeps landscape mode when turning the screen off and on in fullscreen.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">Keep landscape mode timeout</string>
@@ -1482,12 +1487,18 @@ No margins on top and bottom of player."</string>
     <string name="revanced_disable_hdr_auto_brightness_title">Disable auto HDR brightness</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">Auto HDR brightness is disabled.</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">Auto HDR brightness is enabled.</string>
-    <string name="revanced_disable_watch_panel_gestures_title">Disable watch panel gestures</string>
-    <string name="revanced_disable_watch_panel_gestures_summary_on">Entering fullscreen when swiping down below the video player is disabled.</string>
-    <string name="revanced_disable_watch_panel_gestures_summary_off">Entering fullscreen when swiping down below the video player is enabled.</string>
     <string name="revanced_disable_swipe_to_switch_video_title">Disable swipe to change video</string>
-    <string name="revanced_disable_swipe_to_switch_video_summary_on">Swiping up / down will not play the next / previous video.</string>
-    <string name="revanced_disable_swipe_to_switch_video_summary_off">Swiping up / down will play the next / previous video.</string>
+    <string name="revanced_disable_swipe_to_switch_video_summary_on">Swiping up / down in fullscreen mode will not change to the next / previous video.</string>
+    <string name="revanced_disable_swipe_to_switch_video_summary_off">Swiping up / down in fullscreen mode will change to the next / previous video.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_title">Disable swipe to enter fullscreen mode (below the player)</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_summary_on">Swiping down below the player will not enter fullscreen mode.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_summary_off">Swiping down below the player will enter fullscreen mode.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_title">Disable swipe to enter fullscreen mode (in the player)</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_summary_on">Swiping up in the player will not enter fullscreen mode.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_summary_off">Swiping up in the player will enter fullscreen mode.</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_title">Disable swipe to exit fullscreen mode</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_summary_on">Swiping down in fullscreen will not exit fullscreen mode.</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_summary_off">Swiping down in fullscreen will exit fullscreen mode.</string>
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">Auto</string>
 
 
@@ -1500,9 +1511,6 @@ No margins on top and bottom of player."</string>
     <string name="revanced_disable_hdr_video_title">Disable HDR video</string>
     <string name="revanced_disable_hdr_video_summary_on">HDR video is disabled.</string>
     <string name="revanced_disable_hdr_video_summary_off">HDR video is enabled.</string>
-    <string name="revanced_disable_default_playback_speed_live_title">Disable playback speed for live streams</string>
-    <string name="revanced_disable_default_playback_speed_live_summary_on">Default playback speed is disabled for live streams.</string>
-    <string name="revanced_disable_default_playback_speed_live_summary_off">Default playback speed is enabled for live streams.</string>
     <string name="revanced_enable_custom_playback_speed_title">Enable custom playback speed</string>
     <string name="revanced_enable_custom_playback_speed_summary_on">Custom playback speed is enabled.</string>
     <string name="revanced_enable_custom_playback_speed_summary_off">Custom playback speed is disabled.</string>
@@ -1527,10 +1535,11 @@ No margins on top and bottom of player."</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">Old video quality menu is shown.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Old video quality menu is not shown.</string>
     <string name="revanced_disable_default_playback_speed_music_title">Disable playback speed for music</string>
-    <string name="revanced_disable_default_playback_speed_music_on">"Default playback speed is disabled for music.
-
-Limitation: This setting may not apply to videos that do not include the 'Listen on YouTube Music' banner."</string>
+    <string name="revanced_disable_default_playback_speed_music_on">Default playback speed is disabled for music.</string>
     <string name="revanced_disable_default_playback_speed_music_off">Default playback speed is enabled for music.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_title">Validate using categories</string>
+    <string name="revanced_disable_default_playback_speed_music_type_on">Default playback speed is disabled if the video category is Music.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_off">Default playback speed is disabled for videos playable on YouTube Music.</string>
     <string name="revanced_enable_default_playback_speed_shorts_title">Enable Shorts default playback speed</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">Default playback speed applies to Shorts.</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_off">Default playback speed does not apply to Shorts.</string>
@@ -1912,25 +1921,43 @@ Tap the continue button and allow optimization changes."</string>
     <string name="revanced_spoof_streaming_data_summary_off">"Streaming data is not spoofed. Video playback may not work."</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">Turning off this setting may cause video playback issues.</string>
     <string name="revanced_spoof_streaming_data_type_title">Default client</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_music">iOS Music</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">iOS TV</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Android Creator</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">"Android TV
+<small>(Login required)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
+<small>(PoToken required)</small>"</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
+<small>(Login required)</small>"</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Spoofing side effects</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• Not yet found.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">• Movies or paid videos may not play.</string>
     <string name="revanced_spoof_streaming_data_side_effects_android">"• Audio track menu is missing.
 • Stable volume is not available.
-• Disable forced auto audio tracks is not available."</string>
-    <string name="revanced_spoof_streaming_data_android_only_title">Use Android clients only</string>
-    <string name="revanced_spoof_streaming_data_android_only_summary_on">Android clients are used to fetch streaming data.</string>
-    <string name="revanced_spoof_streaming_data_android_only_summary_off">Android and iOS clients are used to fetch streaming data.</string>
-    <string name="revanced_spoof_streaming_data_android_only_user_dialog_message">Turning off this setting may cause video playback issues.</string>
+• Disable forced auto audio tracks is not available.
+• Kids videos may not play when logged out or in incognito mode."</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">• There may be playback issues (PoToken required).</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• Movies or paid videos may not play.
+• Kids videos may not play when logged out or in incognito mode."</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_title">Force iOS AVC (H.264)</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Video codec is forced to AVC (H.264).</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">Video codec is determined automatically.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"Enabling this might improve battery life and fix playback stuttering.
+
+AVC has a maximum resolution of 1080p, Opus audio codec is not available, and video playback will use more internet data than VP9 or AV1."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Show in Stats for nerds</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Client used to fetch streaming data is shown in Stats for nerds.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Client used to fetch streaming data is hidden in Stats for nerds.</string>
+
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
+    <string name="revanced_preference_category_po_token_visitor_data">PoToken / VisitorData</string>
+    <string name="revanced_spoof_streaming_data_po_token_title">PoToken to use</string>
+    <string name="revanced_spoof_streaming_data_po_token_summary">PoToken issued by BotGuard in a trusted browser.</string>
+    <string name="revanced_spoof_streaming_data_visitor_data_title">VisitorData to use</string>
+    <string name="revanced_spoof_streaming_data_visitor_data_summary">VisitorData issued by BotGuard in a trusted browser.</string>
+    <string name="revanced_spoof_streaming_data_po_token_visitor_data_about_title">About PoToken / VisitorData</string>
+    <string name="revanced_spoof_streaming_data_po_token_visitor_data_about_summary">"Some clients require PoToken and VisitorData to get a valid streaming data response.
+
+If you are trying to use iOS as the default client, you may need these values.
+
+Click to see more information."</string>
 
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">Watch history</string>

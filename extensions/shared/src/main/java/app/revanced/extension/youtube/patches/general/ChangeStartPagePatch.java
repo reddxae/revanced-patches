@@ -32,12 +32,15 @@ public final class ChangeStartPagePatch {
         HISTORY("FEhistory", TRUE),
         LIBRARY("FElibrary", TRUE),
         MOVIE("FEstorefront", TRUE),
+        NOTIFICATIONS("FEactivity", TRUE),
         SUBSCRIPTIONS("FEsubscriptions", TRUE),
         TRENDING("FEtrending", TRUE),
+        YOUR_CLIPS("FEclips", TRUE),
 
         /**
          * Channel id, this can be used as a browseId.
          */
+        COURSES("UCtFRv9O2AHqOZjjynzrv-xg", TRUE),
         GAMING("UCOpNcN46UbXVtpKMrmU4Abg", TRUE),
         LIVE("UC4R8DWoMoI7CAwX8_LjQHig", TRUE),
         MUSIC("UC-9-kyTW8ZkZNDHQJ6FgpwQ", TRUE),

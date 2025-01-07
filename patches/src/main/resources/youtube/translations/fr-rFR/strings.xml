@@ -293,6 +293,7 @@ Si la mise en page de l'écran du lecteur change en raison de modifications côt
     <string name="revanced_preference_screen_general_title">Interface</string>
     <string name="revanced_change_start_page_title">Modifier la page de démarrage</string>
     <string name="revanced_change_start_page_entry_browse">Parcourir les chaînes</string>
+    <string name="revanced_change_start_page_entry_courses">Savoir / Culture</string>
     <string name="revanced_change_start_page_entry_default">Par défaut</string>
     <string name="revanced_change_start_page_entry_explore">Explorer</string>
     <string name="revanced_change_start_page_entry_gaming">Jeux vidéos</string>
@@ -302,12 +303,14 @@ Si la mise en page de l'écran du lecteur change en raison de modifications côt
     <string name="revanced_change_start_page_entry_live">Direct</string>
     <string name="revanced_change_start_page_entry_movies">Films</string>
     <string name="revanced_change_start_page_entry_music">Musique</string>
+    <string name="revanced_change_start_page_entry_notifications">Notifications</string>
     <string name="revanced_change_start_page_entry_search">Rechercher sur YouTube</string>
     <string name="revanced_change_start_page_entry_shorts">Shorts</string>
     <string name="revanced_change_start_page_entry_sports">Sports</string>
     <string name="revanced_change_start_page_entry_subscriptions">Abonnements</string>
     <string name="revanced_change_start_page_entry_trending">Tendances</string>
     <string name="revanced_change_start_page_entry_watch_later">Regarder plus tard</string>
+    <string name="revanced_change_start_page_entry_your_clips">Vos clips</string>
     <string name="revanced_change_start_page_type_title">Type de modification de la page de démarrage</string>
     <string name="revanced_change_start_page_type_summary_on">"La page de démarrage est toujours modifiée.
 
@@ -497,12 +500,9 @@ Note : Activer ceci masquera également les publicités vidéos."</string>
 Également, les publicités ne seront plus bloquées sur les Shorts.
 
 Si ce paramètre ne fait pas effet, essayer de passer en mode Incognito."</string>
-    <string name="revanced_disable_translucent_navigation_bar_light_title">Désactiver la barre translucide clair</string>
-    <string name="revanced_disable_translucent_navigation_bar_light_summary_on">La barre de navigation en mode clair est opaque.</string>
-    <string name="revanced_disable_translucent_navigation_bar_light_summary_off">La barre de navigation en mode clair est opaque ou translucide.</string>
-    <string name="revanced_disable_translucent_navigation_bar_dark_title">Désactiver la barre translucide en mode sombre</string>
-    <string name="revanced_disable_translucent_navigation_bar_dark_summary_on">La barre translucide en mode sombre est opaque.</string>
-    <string name="revanced_disable_translucent_navigation_bar_dark_summary_off">La barre translucide en mode sombre est opaque ou translucide.</string>
+    <string name="revanced_enable_translucent_navigation_bar_title">Activer la barre de navigation translucide</string>
+    <string name="revanced_enable_translucent_navigation_bar_summary_on">La barre de navigation est translucide.</string>
+    <string name="revanced_enable_translucent_navigation_bar_summary_off">La barre de navigation est opaque.</string>
     <string name="revanced_hide_navigation_bar_title">Masquer la barre de navigation</string>
     <string name="revanced_hide_navigation_bar_summary_on">La barre de navigation est masqué.</string>
     <string name="revanced_hide_navigation_bar_summary_off">La barre de navigation est affichée.</string>
@@ -862,6 +862,16 @@ La lecture automatique peut être modifiée dans les paramètres de YouTube :
     <string name="revanced_disable_engagement_panel_title">Désactiver description en plein écran</string>
     <string name="revanced_disable_engagement_panel_summary_on">La description en plein écran est désactivée.</string>
     <string name="revanced_disable_engagement_panel_summary_off">La description en plein écran est activée.</string>
+    <string name="revanced_enter_fullscreen_title">Passer en mode plein écran au démarrage de la vidéo</string>
+    <string name="revanced_enter_fullscreen_summary_on">"Passer en mode plein écran lorsque la vidéo démarre.
+
+Limitation : Ne fonctionne pas si le lecteur est minimisé, en mode PiP, ou en arrière-plan."</string>
+    <string name="revanced_enter_fullscreen_summary_off">Ne pas passer en mode plein écran au démarrage de la vidéo.</string>
+    <string name="revanced_exit_fullscreen_title">Quitter le mode plein écran à la fin de la vidéo</string>
+    <string name="revanced_exit_fullscreen_entry_1">Désactivé</string>
+    <string name="revanced_exit_fullscreen_entry_2">Portrait</string>
+    <string name="revanced_exit_fullscreen_entry_3">Paysage</string>
+    <string name="revanced_exit_fullscreen_entry_4">Portrait et paysage</string>
     <string name="revanced_show_video_title_section_title">Afficher la section titre de la vidéo</string>
     <string name="revanced_show_video_title_section_summary">"Affiche la section du titre de la vidéo en plein écran.
 
@@ -917,11 +927,6 @@ Limitation : Le titre de la vidéo disparaît lorsque vous cliquez dessus."</str
     <string name="revanced_enable_compact_controls_overlay_title">Activer le fond des contrôles compacts</string>
     <string name="revanced_enable_compact_controls_overlay_summary_on">La voile des contrôles ne remplit pas le plein écran.</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">La voile des contrôles remplit le plein écran.</string>
-    <string name="revanced_force_fullscreen_title">Forcer le plein écran</string>
-    <string name="revanced_force_fullscreen_summary">"La vidéo passera en mode plein écran dans les situations suivantes :
-
-• Lors du démarrage de la vidéo.
-• Clic sur un horodatage dans les commentaires."</string>
     <string name="revanced_keep_landscape_mode_title">Maintenir le mode paysage</string>
     <string name="revanced_keep_landscape_mode_summary">Maintient le mode paysage lorsque l\'écran est éteint et rallumé en mode plein écran.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">Durée du maintien du mode paysage</string>
@@ -1386,12 +1391,18 @@ Pas de marges en haut et en bas du lecteur."</string>
     <string name="revanced_disable_hdr_auto_brightness_title">Luminosité HDR automatique</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">La luminosité HDR automatique est désactivée.</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">La luminosité HDR automatique est activée.</string>
-    <string name="revanced_disable_watch_panel_gestures_title">Désactiver les gestes inférieurs du lecteur</string>
-    <string name="revanced_disable_watch_panel_gestures_summary_on">Le passage plein écran en faisant glisser vers le bas sous le lecteur vidéo est désactivé.</string>
-    <string name="revanced_disable_watch_panel_gestures_summary_off">Le passage plein écran en faisant glisser vers le bas sous le lecteur vidéo est activé.</string>
     <string name="revanced_disable_swipe_to_switch_video_title">Désactiver les gestes pour changer de vidéo</string>
-    <string name="revanced_disable_swipe_to_switch_video_summary_on">Glisser vers le haut / bas ne lira pas la vidéo suivante / précédente.</string>
-    <string name="revanced_disable_swipe_to_switch_video_summary_off">Glisser vers le haut / bas pour lire la vidéo suivante / précédente.</string>
+    <string name="revanced_disable_swipe_to_switch_video_summary_on">Glisser vers le haut / bas en plein écran ne lira pas la vidéo suivante / précédente.</string>
+    <string name="revanced_disable_swipe_to_switch_video_summary_off">Glisser vers le haut / bas en plein écran lira la vidéo suivante / précédente.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_title">Désactiver les gestes pour entrer en mode plein écran (sous le lecteur)</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_summary_on">Glisser vers le bas sous le lecteur ne permet pas d\'entrer en mode plein écran.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_summary_off">Glisser vers le bas sous le lecteur permet d\'entrer en mode plein écran.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_title">Désactiver les gestes pour entrer en mode plein écran (dans le lecteur)</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_summary_on">Glisser vers le haut dans le lecteur ne permets pas d\'entrer en mode plein écran.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_summary_off">Glisser vers le haut dans le lecteur permets d\'entrer en mode plein écran.</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_title">Désactiver les gestes pour sortir du mode plein écran</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_summary_on">Glisser vers le bas en mode plein écran ne permet pas de sortir du mode plein écran.</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_summary_off">Glisser vers le bas en plein écran permets de sortir du mode plein écran.</string>
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">Auto</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Vitesses et qualités vidéo</string>
@@ -1401,9 +1412,6 @@ Pas de marges en haut et en bas du lecteur."</string>
     <string name="revanced_disable_hdr_video_title">Déaactiver les vidéos HDR</string>
     <string name="revanced_disable_hdr_video_summary_on">Les vidéos en HDR sont désactivés.</string>
     <string name="revanced_disable_hdr_video_summary_off">Les vidéos en HDR sont activés.</string>
-    <string name="revanced_disable_default_playback_speed_live_title">Désact. vitesse lecture des diffusions en direct</string>
-    <string name="revanced_disable_default_playback_speed_live_summary_on">La vitesse de lecture par défaut est désactivée pour les diffusions en direct.</string>
-    <string name="revanced_disable_default_playback_speed_live_summary_off">La vitesse de lecture par défaut est activée pour les diffusions en direct.</string>
     <string name="revanced_enable_custom_playback_speed_title">Activer vitesses de lecture perso.</string>
     <string name="revanced_enable_custom_playback_speed_summary_on">Les vitesses de lecture personnalisées sont activées.</string>
     <string name="revanced_enable_custom_playback_speed_summary_off">Les vitesses de lecture personnalisées sont désactivées.</string>
@@ -1428,10 +1436,11 @@ Pas de marges en haut et en bas du lecteur."</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">Affiche l\'ancienne interface de qualité vidéo.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Masque la nouvelle interface de qualité vidéo.</string>
     <string name="revanced_disable_default_playback_speed_music_title">Désactiver la vitesse de lecture pour la musique</string>
-    <string name="revanced_disable_default_playback_speed_music_on">"La vitesse de lecture par défaut est désactivée pour la musique.
-
-Limitation : Ce paramètre peut ne pas s'appliquer aux vidéos qui n'incluent pas la bannière 'Écouter sur YouTube Music'."</string>
+    <string name="revanced_disable_default_playback_speed_music_on">La vitesse de lecture par défaut est activée pour la musique.</string>
     <string name="revanced_disable_default_playback_speed_music_off">La vitesse de lecture par défaut est activée pour la musique.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_title">Valider en utilisant les catégories</string>
+    <string name="revanced_disable_default_playback_speed_music_type_on">La vitesse de lecture par défaut est désactivée si la catégorie de la vidéo est Musique.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_off">La vitesse de lecture par défaut est désactivée pour les vidéos lues sur YouTube Music.</string>
     <string name="revanced_enable_default_playback_speed_shorts_title">Activ. vitesses de lecture shorts par défaut</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">La vitesse de lecture par défaut s\'applique aux Shorts.</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_off">La vitesse de lecture par défaut ne s\'applique pas aux Shorts.</string>
@@ -1777,18 +1786,42 @@ Cliquez sur le bouton Continuer et autorisez les modifications d'optimisations."
     <string name="revanced_spoof_streaming_data_summary_off">"Les données de lecture en direct ne sont pas falsifiées. La lecture vidéo peut ne pas fonctionner."</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">Désactiver ce paramètre peut entraîner des problèmes de lecture vidéo.</string>
     <string name="revanced_spoof_streaming_data_type_title">Client par défaut</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_music">Musique iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">TV iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">"Android TV
+<small>(Connexion requise)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
+<small>(PoToken requis)</small>"</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
+<small>(Connexion requise)</small>"</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Effets inconnus de la falsification</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• Les vidéos privées conçues pour enfants peuvent ne pas être lues.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">• Les vidéos privées conçues pour enfants peuvent ne pas être lues.
-• Les films ou vidéos payantes peuvent ne pas être lues.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android">"• Le menu 'piste audio' n'est pas disponible.
+• Le volume stable n'est pas disponible.
+• La désactivation forcée des pistes audio automatiques n'est pas disponible.
+• Les vidéos pour enfants peuvent ne pas être lues en cas de déconnexion ou en mode incognito."</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">• Il peut y avoir des problèmes de lecture (PoToken required).</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• Les films ou vidéos payantes peut ne pas être lus.
+• Les vidéos pour enfants peuvent ne pas être lues en cas de déconnexion ou en mode incognito."</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_title">Forcer le codec AVC de iOS (H.264)</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Le codec vidéo est forcé sur AVC (H.264).</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">Le codec vidéo est déterminé automatiquement.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"Activer ceci peut améliorer la durée de vie de la batterie et résoudre les problèmes de lecture saccadée.
+
+AVC a une résolution maximale de 1080p, le codec audio Opus n'est pas disponible et la lecture vidéo utilisera plus de données internet que VP9 ou AV1."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Afficher dans \'Statistiques pour les nerds\'</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Le client utilisé pour récupérer les données de lecture en direct est affiché dans \'Statistiques pour les nerds\'.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Le client utilisé pour récupérer les données de lecture en direct est masqué dans \'Statistiques pour les nerds\'.</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
+    <string name="revanced_preference_category_po_token_visitor_data">PoToken / VisitorData</string>
+    <string name="revanced_spoof_streaming_data_po_token_title">PoToken à utiliser</string>
+    <string name="revanced_spoof_streaming_data_po_token_summary">PoToken publié par BotGuard dans un navigateur de confiance.</string>
+    <string name="revanced_spoof_streaming_data_visitor_data_title">VisitorData à utiliser</string>
+    <string name="revanced_spoof_streaming_data_visitor_data_summary">VisitorData publié par BotGuard dans un navigateur de confiance.</string>
+    <string name="revanced_spoof_streaming_data_po_token_visitor_data_about_title">À propos de PoToken / VisitorData</string>
+    <string name="revanced_spoof_streaming_data_po_token_visitor_data_about_summary">"Certains clients ont besoin de PoToken et de VisitorData pour obtenir une réponse de données en continu valide.
+
+Si vous essayez d'utiliser iOS comme client par défaut, il se peut que vous ayez besoin de ces valeurs.
+
+Cliquez pour plus d'informations."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">Historique de visionnage</string>
     <string name="revanced_preference_screen_watch_history_summary">Modifie les paramètres liés à l\'historique de visionnage.</string>

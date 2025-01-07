@@ -375,6 +375,17 @@
     <string name="revanced_disable_cairo_splash_animation_summary">Вимикає сплеш анімацію Каїр під час запуску застосунку.</string>
     <string name="revanced_disable_drc_audio_title">Вимкнути DRC аудіо</string>
     <string name="revanced_disable_drc_audio_summary">Вимикає DRC (стиснення динамічного діапазону), застосованого до аудіо.</string>
+    <string name="revanced_disable_music_video_in_album_title">Вимкнути музичні відео в альбомі</string>
+    <string name="revanced_disable_music_video_in_album_summary">"Коли користувач без преміуму відтворює пісню з альбому, іноді замість офіційної пісні відтворюється музичне відео.
+
+Знайти офіційну пісню, якщо виявлено музичне відео з альбому. 
+
+• На базі Piped Instance API."</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_title">Тип перенаправлення</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_summary">Визначає спосіб перенаправлення до офіційної пісні.</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect">Перенаправлення</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_click">Натиснення перемикача \"пісня | відео\"</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_long_click">Натиснення та утримання перемикача \"пісня | відео\"</string>
     <string name="revanced_enable_debug_logging_title">Увімкнути протоколи налагодження</string>
     <string name="revanced_enable_debug_logging_summary">Виводить протокол налагодження.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Увімкнути ведення журналу буфера налагодження</string>
@@ -404,12 +415,14 @@
     <string name="revanced_spoof_client_title">Підміна клієнта</string>
     <string name="revanced_spoof_client_summary">"Підробити клієнт, щоб запобігти проблемам із відтворенням.
 
-Обмеження:
-• Аудіокодек OPUS може не підтримуватися.
-• Мініатюри перемотки можуть бути відсутніми.
-• Історія переглядів не працює з обліковим записом бренду.
+※ Під час використання разом з \"Підробка потокових даних\" можуть виникнути проблеми з відтворенням."</string>
+    <string name="revanced_spoof_client_type_title">Клієнт за замовчуванням</string>
+    <string name="revanced_spoof_client_type_summary">"Визначає клієнт за замовчуванням для підробки. 
 
-※ Під час використання разом з \"Підміною клієнта\" можуть виникнути проблеми з відтворенням."</string>
+※ Під час використання клієнта Android рекомендується використовувати його разом з \"Підробити версію програми\"."</string>
+    <string name="revanced_spoof_client_type_entry_android_music_4_27">Android Music 4.27.53</string>
+    <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
+    <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>
     <string name="revanced_spoof_streaming_data_title">Підробка потокових даних</string>
     <string name="revanced_spoof_streaming_data_summary">"Підробити потокові дані, щоб запобігти проблемам із відтворенням.
 
@@ -418,10 +431,8 @@
     <string name="revanced_spoof_streaming_data_type_summary">Визначає клієнт за замовчуванням, який отримує потокові дані.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Показувати у \"Статистиці для сисадмінів\"</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary">Показує клієнт, який використовується для отримання потокових даних у \"Статистиці для сисадмінів\".</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios_music">iOS Music</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_music">Android Music</string>
     <string name="revanced_sanitize_sharing_links_title">Обробляти поширення посилань</string>
     <string name="revanced_sanitize_sharing_links_summary">Видаляє параметри запиту відстеження з URL-адрес під час обміну посиланнями.</string>
     <string name="revanced_default_app_settings_title">Відкрити налаштування за замовчуванням</string>

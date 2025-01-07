@@ -369,6 +369,16 @@ API キーの発行方法については、ここをタップしてください�
     <string name="revanced_disable_cairo_splash_animation_title">Cairo スプラッシュアニメーションを無効にする</string>
     <string name="revanced_disable_cairo_splash_animation_summary">アプリ起動時のCairo のスプラッシュアニメーションを無効にします。</string>
     <string name="revanced_disable_drc_audio_title">DRCオーディオを無効にする</string>
+    <string name="revanced_disable_drc_audio_summary">音声に適用されるDRC (Dynamic Range Compression) を無効にします。</string>
+    <string name="revanced_disable_music_video_in_album_title">アルバム内のミュージックビデオを無効にする</string>
+    <string name="revanced_disable_music_video_in_album_summary">"非プレミアムユーザーがアルバムに含まれる曲を再生すると、公式の楽曲でなくMVが再生されることがあります。
+
+アルバムからMVの再生が検出された場合、公式の楽曲を検索します。
+
+• Piped Instance APIを利用しています。"</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_title">リダイレクトのタイプ</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_summary">公式楽曲にリダイレクトする方法を指定します。</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect">リダイレクト</string>
     <string name="revanced_enable_debug_logging_title">デバッグログ</string>
     <string name="revanced_enable_debug_logging_summary">デバッグログを出力します。</string>
     <string name="revanced_enable_debug_buffer_logging_title">デバッグバッファログを有効化</string>
@@ -392,9 +402,14 @@ API キーの発行方法については、ここをタップしてください�
 • OPUSオーディオコーデックはサポートされていない可能性があります。
 • シークバーのサムネイルが表示されない場合があります。
 • 再生履歴はブランドアカウントでは動作しません。"</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
+    <string name="revanced_spoof_client_type_title">既定のクライアント</string>
+    <string name="revanced_spoof_client_type_entry_android_music_4_27">Android Music 4.27.53</string>
+    <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
+    <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>
+    <string name="revanced_spoof_streaming_data_title">ストリーミングデータを偽装</string>
+    <string name="revanced_spoof_streaming_data_type_title">既定のクライアント</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_music">Android Music</string>
     <string name="revanced_sanitize_sharing_links_title">共有リンクのクリーンアップ</string>
     <string name="revanced_sanitize_sharing_links_summary">リンクを共有する際に、URL からトラッキングクエリパラメーターを削除します。</string>
     <string name="revanced_default_app_settings_title">「デフォルトで開く」の設定</string>

@@ -68,7 +68,7 @@ Descarga %2$s desde el sitio web."</string>
     <string name="revanced_enable_compact_dialog_summary">"Activa el diálogo compacto en el teléfono.
 
 Problemas conocidos:
-- La carátula del álbum en la estantería de la biblioteca también se hace más pequeña.
+- Las carátulas de los álbumes en la página de biblioteca se hacen pequeñas cuando se organizan por cuadrícula.
 - El diseño del temporizador puede parecer inusual."</string>
     <string name="revanced_enable_trim_silence_title">Añadir interruptor para recortar silencios</string>
     <string name="revanced_enable_trim_silence_summary">"Añade un interruptor para recortar silencios en el menú desplegable de velocidad de reproducción.
@@ -89,6 +89,7 @@ Esta función aún está en desarrollo, por lo que puede ser inestable."</string
     <string name="revanced_hide_flyout_menu_go_to_episode_title">Ocultar menú de ir a episodios</string>
     <string name="revanced_hide_flyout_menu_go_to_podcast_title">Ocultar menú de ir al podcast</string>
     <string name="revanced_hide_flyout_menu_help_title">Ocultar menú Ayuda &amp; Comentarios</string>
+    <string name="revanced_hide_flyout_menu_pin_to_speed_dial_title">Ocultar el pin al menú de marcación rápida</string>
     <string name="revanced_hide_flyout_menu_play_next_title">Ocultar menú de reproducción siguiente</string>
     <string name="revanced_hide_flyout_menu_quality_title">Ocultar menú de calidad</string>
     <string name="revanced_hide_flyout_menu_remove_from_library_title">Ocultar menú de eliminar de la biblioteca</string>
@@ -103,6 +104,7 @@ Esta función aún está en desarrollo, por lo que puede ser inestable."</string
     <string name="revanced_hide_flyout_menu_start_radio_title">Ocultar menú de Iniciar radio</string>
     <string name="revanced_hide_flyout_menu_stats_for_nerds_title">Ocultar menú Estadísticas para Nerds</string>
     <string name="revanced_hide_flyout_menu_subscribe_title">Ocultar menú Suscribirse / Desuscribirse</string>
+    <string name="revanced_hide_flyout_menu_unpin_from_speed_dial_title">Ocultar Desfijar del menú de marcación rápida</string>
     <string name="revanced_hide_flyout_menu_view_song_credit_title">Ocultar menú de vista de créditos de canción</string>
     <string name="revanced_replace_flyout_menu_dismiss_queue_continue_watch_title">Continuar viendo</string>
     <string name="revanced_replace_flyout_menu_dismiss_queue_continue_watch_summary">Continúa el vídeo desde el tiempo actual cuando se cambia a YouTube.</string>
@@ -368,6 +370,19 @@ Toca para ver cómo crear una clave de API."</string>
     <string name="revanced_change_share_sheet_summary">Cambia la hoja de compartir en la app a la hoja de compartir del sistema.</string>
     <string name="revanced_disable_cairo_splash_animation_title">Desactiva la animación Cairo</string>
     <string name="revanced_disable_cairo_splash_animation_summary">Deshabilita la animación de bienvenida \"Cairo\" cuando se inicia la aplicación.</string>
+    <string name="revanced_disable_drc_audio_title">Desactivar audio DRC</string>
+    <string name="revanced_disable_drc_audio_summary">Deshabilita DRC (Dynamic Range Compression) aplicado al audio.</string>
+    <string name="revanced_disable_music_video_in_album_title">Desactivar vídeo de música en el álbum</string>
+    <string name="revanced_disable_music_video_in_album_summary">"Cuando un usuario no premium escoge una canción incluida en un álbum, un vídeo musical a veces se muestra en lugar de la canción original.
+
+Si este video se detecta durante la reproducción, será redireccionado a la canción original.
+
+Se usa una instancia redireccionada, pero la API puede no estar disponible en algunas regiones."</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_title">Tipo de redirección</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_summary">Especifica cómo redirigir a la canción oficial.</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect">Redirigir</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_click">Interruptor de Audio / Video</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_long_click">Mantén pulsado el interruptor de Audio / Video</string>
     <string name="revanced_enable_debug_logging_title">Activar registro de depuración</string>
     <string name="revanced_enable_debug_logging_summary">Imprime el registro de depuración.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Incluir búfer en registro de depuración</string>
@@ -395,6 +410,23 @@ Limitaciones:
 • Código de audio OPUS puede no ser compatible.
 • La miniatura de la barra de Seekbar puede no estar presente.
 • El historial de la vista no funciona con una cuenta de marca."</string>
+    <string name="revanced_spoof_client_type_title">Cliente por defecto</string>
+    <string name="revanced_spoof_client_type_summary">"Define un cliente predeterminado a falsear.
+
+※ Al usar el cliente Android, se recomienda usarlo con 'Versión de aplicación Spoof'."</string>
+    <string name="revanced_spoof_client_type_entry_android_music_4_27">Android Music 4.27.53</string>
+    <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
+    <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>
+    <string name="revanced_spoof_streaming_data_title">Falsificar datos de transmisión</string>
+    <string name="revanced_spoof_streaming_data_summary">"Falsificar los datos de streaming para evitar problemas de reproducción.
+
+※ Cuando se utiliza con 'Cliente de spoof', problemas de reproducción pueden producirse."</string>
+    <string name="revanced_spoof_streaming_data_type_title">Cliente por defecto</string>
+    <string name="revanced_spoof_streaming_data_type_summary">Define un cliente por defecto que obtiene datos de streaming.</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Mostrar en estadísticas para nerds</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary">Muestra el cliente utilizado para obtener datos de streaming en Estadísticas para nerds.</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_music">Android Music</string>
     <string name="revanced_sanitize_sharing_links_title">Desinfectar enlaces compartidos</string>
     <string name="revanced_sanitize_sharing_links_summary">Elimina los parámetros de consulta de seguimiento de las URL al compartir enlaces.</string>
     <string name="revanced_default_app_settings_title">Abrir ajustes predeterminados de la app</string>

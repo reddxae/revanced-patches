@@ -834,11 +834,6 @@ Sınırlama: Tıklandığında video başlığı kayboluyor."</string>
     <string name="revanced_enable_compact_controls_overlay_title">Tam ekranda sıkışık oynatıcıyı etkinleştir</string>
     <string name="revanced_enable_compact_controls_overlay_summary_on">Tam ekran videoda sıkışık oynatıcı etkin.</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">Tam ekran videoda sıkışık oynatıcı etkin değil</string>
-    <string name="revanced_force_fullscreen_title">Tam ekrana zorla</string>
-    <string name="revanced_force_fullscreen_summary">"Aşağıdaki durumlarda video tam ekrana geçecektir:
-
-• Yorumlardaki zaman damgasına tıklandığında.
-• Video başladığında."</string>
     <string name="revanced_keep_landscape_mode_title">Manzara modunu tut</string>
     <string name="revanced_keep_landscape_mode_summary">Ekranı tam ekranda kapatıp açarken yatay modu korur.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">Manzara modunu tutma zaman aşımı</string>
@@ -1186,9 +1181,6 @@ Bilinen sorunlar:
     <string name="revanced_disable_hdr_video_title">HDR\'lı videolarda, HDR\'ı devre dışı bırak</string>
     <string name="revanced_disable_hdr_video_summary_on">HDR devre dışı</string>
     <string name="revanced_disable_hdr_video_summary_off">HDR etkin</string>
-    <string name="revanced_disable_default_playback_speed_live_title">Canlı yayınlarda varsayılan oynatma hızını devre dışı bırak</string>
-    <string name="revanced_disable_default_playback_speed_live_summary_on">Canlı yayınlarda varsayılan oynatma hızı devre dışı</string>
-    <string name="revanced_disable_default_playback_speed_live_summary_off">Canlı yayınlarda varsayılan oynatma hızı etkin</string>
     <string name="revanced_enable_custom_playback_speed_title">Özel oynatma hızlarını etkinleştir</string>
     <string name="revanced_enable_custom_playback_speed_summary_on">Özel oynatma hızları etkin</string>
     <string name="revanced_enable_custom_playback_speed_summary_off">Özel oynatma hızları kapalı</string>
@@ -1507,6 +1499,7 @@ Devam düğmesine dokunun ve pil optimizasyonlarını devre dışı bırakın."<
     <string name="revanced_extended_settings_reset">Sıfırla</string>
     <string name="revanced_share_copy_settings_success">Ayarlar panoya kopyalandı</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data -->
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">İzleme geçmişi</string>
     <string name="revanced_preference_screen_watch_history_summary">İzlemek geçmişi ile alakalı ayarları değiştirir.</string>

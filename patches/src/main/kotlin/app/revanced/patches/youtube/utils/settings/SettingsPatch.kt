@@ -54,9 +54,9 @@ private val settingsBytecodePatch = bytecodePatch(
 
             addInstructions(
                 index + 1, """
-                invoke-static {v$register}, $EXTENSION_THEME_METHOD_DESCRIPTOR
-                return-object v$register
-                """
+                    invoke-static {v$register}, $EXTENSION_THEME_METHOD_DESCRIPTOR
+                    return-object v$register
+                    """
             )
             removeInstruction(index)
         }

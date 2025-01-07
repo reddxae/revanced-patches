@@ -860,6 +860,16 @@ Beállítások → Automatikus lejátszás → Következő videó automatikus le
     <string name="revanced_disable_engagement_panel_title">Interakciós panel letiltása</string>
     <string name="revanced_disable_engagement_panel_summary_on">Az interakciós panel le van tiltva.</string>
     <string name="revanced_disable_engagement_panel_summary_off">Az interakciós panel engedélyezve.</string>
+    <string name="revanced_enter_fullscreen_title">Videó indításakor lépjen be teljes képernyős módba</string>
+    <string name="revanced_enter_fullscreen_summary_on">"Videó indításakor lépjen be teljes képernyős módba.
+
+Korlátozás: Nem működik, ha a lejátszó kicsinyített, PiP módban vagy a háttérben van."</string>
+    <string name="revanced_enter_fullscreen_summary_off">Ne lépjen teljes képernyős módba, amikor a videó elindul.</string>
+    <string name="revanced_exit_fullscreen_title">Lépjen ki a teljes képernyős módból a videó végén</string>
+    <string name="revanced_exit_fullscreen_entry_1">Letiltva</string>
+    <string name="revanced_exit_fullscreen_entry_2">Álló mód</string>
+    <string name="revanced_exit_fullscreen_entry_3">Fekvő mód</string>
+    <string name="revanced_exit_fullscreen_entry_4">Álló- és fekvő mód</string>
     <string name="revanced_show_video_title_section_title">Videócím rész megjelenítése</string>
     <string name="revanced_show_video_title_section_summary">"Megjeleníti a videócím részt teljes képernyős módban.
 
@@ -1044,13 +1054,13 @@ Információ:
     <string name="revanced_custom_seekbar_color_value_invalid_invalid_toast">Érvénytelen keresősáv színértéke.</string>
     <string name="revanced_enable_seekbar_tapping_title">Érintés engedélyezése a kereső sávon</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">A keresősávon történő érintés engedélyezett.</string>
-    <string name="revanced_enable_seekbar_tapping_summary_off">A keresősávon történő érintés ki van kapcsolva.</string>
-    <string name="revanced_hide_seekbar_title">Folyamatsáv elrejtése a videólejátszóban</string>
-    <string name="revanced_hide_seekbar_summary_on">A videólejátszó folyamatsávja el van rejtve</string>
-    <string name="revanced_hide_seekbar_summary_off">A videólejátszó folyamatsávja megjelenik</string>
+    <string name="revanced_enable_seekbar_tapping_summary_off">A keresősávon történő érintés le van tiltva.</string>
+    <string name="revanced_hide_seekbar_title">Keresősáv elrejtése a videólejátszóban</string>
+    <string name="revanced_hide_seekbar_summary_on">A videólejátszó folyamatsávja el van rejtve.</string>
+    <string name="revanced_hide_seekbar_summary_off">A videólejátszó folyamatsávja látható.</string>
     <string name="revanced_hide_seekbar_thumbnail_title">Folyamatsáv elrejtése a minilejátszóban</string>
-    <string name="revanced_hide_seekbar_thumbnail_summary_on">A minilejátszó folyamatsávja el van rejtve</string>
-    <string name="revanced_hide_seekbar_thumbnail_summary_off">A minilejátszó folyamatsávja megjelenik</string>
+    <string name="revanced_hide_seekbar_thumbnail_summary_on">A minilejátszó folyamatsávja el van rejtve.</string>
+    <string name="revanced_hide_seekbar_thumbnail_summary_off">A minilejátszó folyamatsávja látható.</string>
     <string name="revanced_disable_seekbar_chapters_title">Keresősáv fejezeteinek letiltása</string>
     <string name="revanced_disable_seekbar_chapters_summary_on">A keresősáv fejezetei le vannak tiltva.</string>
     <string name="revanced_disable_seekbar_chapters_summary_off">A keresősáv fejezetei engedélyezettek.</string>
@@ -1060,9 +1070,9 @@ Információ:
     <string name="revanced_hide_time_stamp_title">Időbélyeg elrejtése</string>
     <string name="revanced_hide_time_stamp_summary_on">Az időbélyeg el van rejtve.</string>
     <string name="revanced_hide_time_stamp_summary_off">Az időbélyeg látható.</string>
-    <string name="revanced_restore_old_seekbar_thumbnails_title">Régi keresősáv bélyegképek visszaállítása</string>
-    <string name="revanced_restore_old_seekbar_thumbnails_summary_on">A keresősáv bélyegképei megjelennek a keresősáv felett</string>
-    <string name="revanced_restore_old_seekbar_thumbnails_summary_off">A keresősáv bélyegképei megjelennek a teljes képernyőn</string>
+    <string name="revanced_restore_old_seekbar_thumbnails_title">Régi folyamatsáv bélyegképek visszaállítása</string>
+    <string name="revanced_restore_old_seekbar_thumbnails_summary_on">A folyamatsáv bélyegképei megjelennek a keresősáv felett.</string>
+    <string name="revanced_restore_old_seekbar_thumbnails_summary_off">A folyamatsáv bélyegképei megjelennek teljes képernyőn.</string>
     <string name="revanced_enable_seekbar_thumbnails_high_quality_title">Jó minőségű miniatűrök engedélyezése</string>
     <string name="revanced_enable_seekbar_thumbnails_high_quality_summary_on">A keresősáv bélyegképei kiváló minőségűek.</string>
     <string name="revanced_enable_seekbar_thumbnails_high_quality_summary_off">A keresősáv bélyegképei közepes minőségűek.</string>
@@ -1090,20 +1100,20 @@ Ez a funkció nagyon gyors internetkapcsolat mellett működik a legjobban."</st
     <string name="revanced_hide_contents_section_summary_on">A tartalom készítésének módja rész elrejtve.</string>
     <string name="revanced_hide_contents_section_summary_off">A tartalom készítésének módja rész látható.</string>
     <string name="revanced_hide_info_cards_section_title">Infó kártyák rész elrejtése</string>
-    <string name="revanced_hide_info_cards_section_summary_on">Az infó kártyák rész el van rejtve</string>
-    <string name="revanced_hide_info_cards_section_summary_off">Az infó kártyák rész látható</string>
+    <string name="revanced_hide_info_cards_section_summary_on">Az infó kártyák rész el van rejtve.</string>
+    <string name="revanced_hide_info_cards_section_summary_off">Az infó kártyák rész látható.</string>
     <string name="revanced_hide_key_concepts_section_title">Kulcs koncepciók rész elrejtése</string>
     <string name="revanced_hide_key_concepts_section_summary_on">A kulcs koncepciók rész elrejtve.</string>
     <string name="revanced_hide_key_concepts_section_summary_off">A kulcs koncepciók rész látható.</string>
     <string name="revanced_hide_podcast_section_title">Podcast rész elrejtése</string>
     <string name="revanced_hide_podcast_section_summary_on">A podcast rész el van rejtve.</string>
     <string name="revanced_hide_podcast_section_summary_off">A podcast rész látható.</string>
-    <string name="revanced_hide_shopping_links_title">Vásárlási linkek elrejtése a videó leírásában</string>
-    <string name="revanced_hide_shopping_links_summary_on">A vásárlási linkek rejtve vannak</string>
-    <string name="revanced_hide_shopping_links_summary_off">A vásárlási linkek láthatóak</string>
+    <string name="revanced_hide_shopping_links_title">Vásárlási linkek elrejtése</string>
+    <string name="revanced_hide_shopping_links_summary_on">A vásárlási linkek el vannak rejtve.</string>
+    <string name="revanced_hide_shopping_links_summary_off">A vásárlási linkek láthatóak.</string>
     <string name="revanced_hide_transcript_section_title">Átirat rész elrejtése</string>
-    <string name="revanced_hide_transcript_section_summary_on">Az átirat rész el van rejtve</string>
-    <string name="revanced_hide_transcript_section_summary_off">Az átirat rész megjelenik</string>
+    <string name="revanced_hide_transcript_section_summary_on">Az átirat rész el van rejtve.</string>
+    <string name="revanced_hide_transcript_section_summary_off">Az átirat rész látható.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Video description, PreferenceCategory: Experimental Flags -->
     <string name="revanced_disable_video_description_interaction_title">Videoleírás interakció letiltása</string>
     <string name="revanced_disable_video_description_interaction_summary">"Letiltja a következő interakciókat, ha a videoleírás kibővítve van:
@@ -1425,7 +1435,11 @@ Megjegyzés: Ezzel a képernyőterület méretét is megváltoztatja, ahol érz�
     <string name="revanced_restore_old_video_quality_menu_summary_on">A régi videóminőség menü jelenik meg</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">A régi videóminőség menü nem jelenik meg</string>
     <string name="revanced_disable_default_playback_speed_music_title">Lejátszási sebesség zenéhez kiválasztás elrejtése</string>
+    <string name="revanced_disable_default_playback_speed_music_on">Az alapértelmezett lejátszási sebesség le van tiltva zene lejátszásnál.</string>
     <string name="revanced_disable_default_playback_speed_music_off">Az alapértelmezett lejátszási sebesség engedélyezett zene lejátszásnál.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_title">Érvényesítés kategóriák használatával</string>
+    <string name="revanced_disable_default_playback_speed_music_type_on">Az alapértelmezett lejátszási sebesség le van tiltva, ha a videó kategóriája zene.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_off">Az alapértelmezett lejátszási sebesség le van tiltva a YouTube Music szolgáltatásban lejátszható videóknál.</string>
     <string name="revanced_enable_default_playback_speed_shorts_title">Shortok alapértelmezett lejátszási sebességének engedélyezése</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">Az alapértelmezett lejátszási sebesség vonatkozik a Shortokra.</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_off">Az alapértelmezett lejátszási sebesség nem vonatkozik a Shortokra.</string>
@@ -1762,7 +1776,21 @@ Kattintson az API-kulcs kiadás folyamatának megtekintéséhez."</string>
     <string name="revanced_spoof_streaming_data_summary_off">"Az adatfolyam nincs meghamisítva. Lehet, hogy a videó lejátszás nem működik."</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">A beállítás kikapcsolása videólejátszási problémákat okozhat.</string>
     <string name="revanced_spoof_streaming_data_type_title">Alapértelmezett kliens</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">"Android TV
+<small>(Belépés szükséges)</small>"</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
+<small>(PoToken szükséges)</small>"</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
+<small>(Belépés szükséges)</small>"</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Hamisítás mellékhatásai</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android">"• A hangsáv menü hiányzik.
+• A stabil hangerő nem áll rendelkezésre.
+• A kényszerített automatikus hangsávok letiltása nem elérhető.
+• Előfordulhat, hogy a gyerekeknek szánt tartalmat nem lehet lejátszani, ha ki van jelentkezve vagy inkognitó módban van."</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">• Lejátszási problémák lehetnek (PoToken szükséges).</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• Előfordulhat, hogy a filmeket vagy a fizetős videókat nem lehet lejátszani.
+• Előfordulhat, hogy a gyerekeknek szánt tartalmat nem lehet lejátszani, ha ki van jelentkezve vagy inkognitó módban van."</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Kényszerített iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">A videó kodek AVC-re (H.264) van kényszerítve.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">A videokodek meghatározása automatikusan történik.</string>

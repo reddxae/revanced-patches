@@ -863,9 +863,9 @@ La lecture automatique peut être modifiée dans les paramètres de YouTube :
     <string name="revanced_disable_engagement_panel_summary_on">La description en plein écran est désactivée.</string>
     <string name="revanced_disable_engagement_panel_summary_off">La description en plein écran est activée.</string>
     <string name="revanced_enter_fullscreen_title">Passer en mode plein écran au démarrage de la vidéo</string>
-    <string name="revanced_enter_fullscreen_summary_on">"\"Passer en mode plein écran lorsque la vidéo démarre.
+    <string name="revanced_enter_fullscreen_summary_on">"Passer en mode plein écran lorsque la vidéo démarre.
 
-Limitation : Ne fonctionne pas si le lecteur est minimisé, en mode PiP ou en arrière-plan."</string>
+Limitation : Ne fonctionne pas si le lecteur est minimisé, en mode PiP, ou en arrière-plan."</string>
     <string name="revanced_enter_fullscreen_summary_off">Ne pas passer en mode plein écran au démarrage de la vidéo.</string>
     <string name="revanced_exit_fullscreen_title">Quitter le mode plein écran à la fin de la vidéo</string>
     <string name="revanced_exit_fullscreen_entry_1">Désactivé</string>

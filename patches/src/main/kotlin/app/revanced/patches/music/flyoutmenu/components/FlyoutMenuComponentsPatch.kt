@@ -241,11 +241,6 @@ val flyoutMenuComponentsPatch = bytecodePatch(
 
         // endregion
 
-        addSwitchPreference(
-            CategoryType.FLYOUT,
-            "revanced_enable_compact_dialog",
-            "true"
-        )
         if (trimSilenceIncluded) {
             addSwitchPreference(
                 CategoryType.FLYOUT,
@@ -253,6 +248,11 @@ val flyoutMenuComponentsPatch = bytecodePatch(
                 "false"
             )
         }
+        addSwitchPreference(
+            CategoryType.FLYOUT,
+            "revanced_enable_compact_dialog",
+            "true"
+        )
         addSwitchPreference(
             CategoryType.FLYOUT,
             "revanced_hide_flyout_menu_like_dislike",

@@ -219,9 +219,9 @@ class MusicRequest private constructor(
         private fun parseWebResponse(microFormatJson: JSONObject): Boolean {
             try {
                 return microFormatJson
+                    .getJSONObject("microformat")
                     .getJSONObject("playerMicroformatRenderer")
-                    .getJSONObject("category")
-                    .getString("status")
+                    .getString("category")
                     .equals("Music")
             } catch (e: JSONException) {
                 Logger.printDebug { "Fetch failed while processing Web response data for response: $microFormatJson" }

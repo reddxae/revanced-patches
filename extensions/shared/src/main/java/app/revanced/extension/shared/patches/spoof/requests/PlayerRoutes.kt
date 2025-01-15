@@ -137,7 +137,7 @@ object PlayerRoutes {
         return getPlayerResponseConnectionFromRoute(
             route,
             clientType.userAgent,
-            clientType.id.toString()
+            clientType.clientVersion,
         )
     }
 
@@ -149,7 +149,7 @@ object PlayerRoutes {
         return getPlayerResponseConnectionFromRoute(
             route,
             clientType.userAgent,
-            clientType.id.toString()
+            clientType.clientVersion,
         )
     }
 

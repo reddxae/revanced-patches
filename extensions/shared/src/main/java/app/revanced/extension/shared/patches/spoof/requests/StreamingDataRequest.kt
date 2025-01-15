@@ -176,6 +176,8 @@ class StreamingDataRequest private constructor(
                 connection.connectTimeout = HTTP_TIMEOUT_MILLISECONDS
                 connection.readTimeout = HTTP_TIMEOUT_MILLISECONDS
 
+                val setLocale =
+                    !clientType.supportsCookies || playerHeaders[AUTHORIZATION_HEADER] == null
                 val usePoToken =
                     clientType.requirePoToken && !StringUtils.isAnyEmpty(botGuardPoToken, visitorId)
 
@@ -205,7 +207,8 @@ class StreamingDataRequest private constructor(
                         clientType = clientType,
                         videoId = videoId,
                         botGuardPoToken = botGuardPoToken,
-                        visitorId = visitorId
+                        visitorId = visitorId,
+                        setLocale = setLocale
                     )
                     if (droidGuardPoToken.isNotEmpty()) {
                         Logger.printDebug { "Original poToken (droidGuardPoToken):\n$droidGuardPoToken" }
@@ -213,7 +216,11 @@ class StreamingDataRequest private constructor(
                     Logger.printDebug { "Replaced poToken (botGuardPoToken):\n$botGuardPoToken" }
                 } else {
                     requestBody =
-                        createApplicationRequestBody(clientType = clientType, videoId = videoId)
+                        createApplicationRequestBody(
+                            clientType = clientType,
+                            videoId = videoId,
+                            setLocale = setLocale
+                        )
                 }
                 connection.setFixedLengthStreamingMode(requestBody.size)
                 connection.outputStream.write(requestBody)

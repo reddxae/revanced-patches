@@ -43,6 +43,15 @@
     <string name="revanced_language_ID">Indonesia</string>
     <string name="revanced_language_IT">Italiano</string>
     <string name="revanced_language_JA">日本語</string>
+    <string name="revanced_language_KK">Қазақ</string>
+    <string name="revanced_language_KO">한국어</string>
+    <string name="revanced_language_LT">Lietùvių</string>
+    <string name="revanced_language_LV">Latviešu</string>
+    <string name="revanced_language_MK">Македонски</string>
+    <string name="revanced_language_MN">Монгол</string>
+    <string name="revanced_language_MR">Marāṭhī / मराठी</string>
+    <string name="revanced_language_MS">Melayu</string>
+    <string name="revanced_language_MY">မြန်မာ</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Реклама</string>
     <string name="revanced_hide_fullscreen_ads_title">Полноэкранная реклама</string>

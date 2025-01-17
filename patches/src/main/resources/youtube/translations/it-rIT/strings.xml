@@ -26,6 +26,52 @@ Si prega di scaricare %2$s dal sito web."</string>
     <string name="revanced_language_BG">Bulgaro</string>
     <string name="revanced_language_BN">Bengalese</string>
     <string name="revanced_language_CA">Catalano</string>
+    <string name="revanced_language_CS">Ceco</string>
+    <string name="revanced_language_DA">Danese</string>
+    <string name="revanced_language_DE">Tedesco</string>
+    <string name="revanced_language_EL">Greco</string>
+    <string name="revanced_language_EN">Inglese</string>
+    <string name="revanced_language_ES">Spagnolo</string>
+    <string name="revanced_language_ET">Estone</string>
+    <string name="revanced_language_FA">Persiano</string>
+    <string name="revanced_language_FI">Finlandese</string>
+    <string name="revanced_language_FR">Francese</string>
+    <string name="revanced_language_GU">Gujarati</string>
+    <string name="revanced_language_HI">Hindi</string>
+    <string name="revanced_language_HR">Croato</string>
+    <string name="revanced_language_HU">Ungherese</string>
+    <string name="revanced_language_ID">Indonesiano</string>
+    <string name="revanced_language_IT">Italiano</string>
+    <string name="revanced_language_JA">Giapponese</string>
+    <string name="revanced_language_KK">Kazako</string>
+    <string name="revanced_language_KO">Coreano</string>
+    <string name="revanced_language_LT">Lituano</string>
+    <string name="revanced_language_LV">Lettone</string>
+    <string name="revanced_language_MK">Macedone</string>
+    <string name="revanced_language_MN">Mongolo</string>
+    <string name="revanced_language_MR">Marathi</string>
+    <string name="revanced_language_MS">Malese</string>
+    <string name="revanced_language_MY">Birmano</string>
+    <string name="revanced_language_NL">Olandese</string>
+    <string name="revanced_language_OR">Odia</string>
+    <string name="revanced_language_PA">Punjabi</string>
+    <string name="revanced_language_PL">Polacco</string>
+    <string name="revanced_language_PT">Portoghese</string>
+    <string name="revanced_language_RO">Rumeno</string>
+    <string name="revanced_language_RU">Russo</string>
+    <string name="revanced_language_SK">Slovacco</string>
+    <string name="revanced_language_SL">Sloveno</string>
+    <string name="revanced_language_SR">Serbo</string>
+    <string name="revanced_language_SV">Svevo</string>
+    <string name="revanced_language_SW">Swahili</string>
+    <string name="revanced_language_TA">Tamil</string>
+    <string name="revanced_language_TE">Telugu</string>
+    <string name="revanced_language_TH">Tailandese</string>
+    <string name="revanced_language_TR">Turco</string>
+    <string name="revanced_language_UK">Ucraino</string>
+    <string name="revanced_language_UR">Urdu</string>
+    <string name="revanced_language_VI">Vietnamita</string>
+    <string name="revanced_language_ZH">Cinese</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Annunci</string>
     <string name="revanced_hide_fullscreen_ads_title">Nascondi gli annunci a schermo intero</string>
@@ -529,6 +575,9 @@ Se questa impostazione non ha effetto, prova a passare alla navigazione in incog
     <string name="revanced_hide_settings_menu_data_saving_title">Nascondi il menù Risparmio Dati</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_on">Il menù Risparmio Dati è nascosto.</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_off">Il menù Risparmio Dati è visibile.</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_title">Nascondi il menù Riproduzione Automatica o Riproduzione</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_summary_on">Il menù Riproduzione Automatica o Riproduzione è nascosto.</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_summary_off">Il menù Riproduzione Automatica o Riproduzione è visibile.</string>
     <string name="revanced_hide_settings_menu_video_quality_title">Nascondi il menù Preferenze Relative alla Qualità Video</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_on">Il menù Preferenze Relative alla Qualità Video è nascosto.</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_off">Il menù Preferenze Relative alla Qualità Video è visibile.</string>
@@ -633,7 +682,7 @@ Tocca e tieni premuto per aprire le impostazioni di RVX."</string>
     <string name="revanced_disable_auto_switch_mix_playlists_summary_off">"Il cambio automatico alle playlist miste è attivato quando è attivata anche la riproduzione automatica.
 
 La riproduzione automatica può essere modificata seguendo questo percorso:
-Impostazioni → Riproduzione automatica → Telefono cellulare/tablet"</string>
+Impostazioni → Riproduzione automatica / Riproduzione → Telefono cellulare/tablet"</string>
     <string name="revanced_disable_auto_switch_mix_playlists_user_dialog_message">L\'attivazione di questa impostazione disattiverà il cambio automatico alle playlist miste durante la riproduzione di musica con la riproduzione automatica attiva.</string>
     <string name="revanced_disable_auto_player_popup_panels_title">Disattiva il pannello a comparsa automatico</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_on">Il pannello a comparsa automatico è disattivato.</string>
@@ -684,7 +733,7 @@ Note:
     <string name="revanced_hide_suggested_video_end_screen_summary_on">"La schermata finale del video consigliato è nascosta quando la riproduzione automatica è disattivata.
 
 La riproduzione automatica può essere modificata seguendo questo percorso:
-Impostazioni → Riproduzione → Riproduci automatic. video successivo"</string>
+Impostazioni → Riproduzione / Riproduzione → Riproduci automatic. video successivo"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">La schermata finale del video consigliato è visibile.</string>
     <string name="revanced_skip_autoplay_countdown_title">Salta il conto alla rovescia della riproduzione automatica</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">Se la riproduzione automatica è attivata, il video successivo verrà riprodotto immediatamente.</string>

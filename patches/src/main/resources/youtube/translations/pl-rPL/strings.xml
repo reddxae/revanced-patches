@@ -100,13 +100,6 @@ Stuknij tutaj, aby dowiedzieć się więcej o DeArrow."</string>
     <string name="revanced_hide_feed_captions_button_on">Ukryty</string>
     <string name="revanced_hide_feed_captions_button_off">Widoczny</string>
     <string name="revanced_hide_carousel_shelf_title">Półki karuzelowe</string>
-    <string name="revanced_hide_carousel_shelf_summary">"Ukrywa półki:
-• Z najnowszymi informacjami
-• Z filmami, które nie zostały dokończone
-• Od odkrywania kanałów
-• Z muzyką do ponownego odsłuchania
-• Od kupowania
-• Z filmami, które nie zostały obejrzane"</string>
     <string name="revanced_hide_chips_shelf_title">Paski z kategoriami</string>
     <string name="revanced_hide_chips_shelf_on">Ukryte</string>
     <string name="revanced_hide_chips_shelf_off">Widoczne</string>
@@ -140,18 +133,18 @@ Stuknij tutaj, aby dowiedzieć się więcej o DeArrow."</string>
     <string name="revanced_hide_playables_title">Pokój gier</string>
     <string name="revanced_hide_playables_summary_on">Ukryte</string>
     <string name="revanced_hide_playables_summary_off">Widoczne</string>
-    <string name="revanced_hide_show_more_button_title">Przycisk \'Pokaż więcej\'</string>
-    <string name="revanced_hide_show_more_button_summary_on">Ukryty</string>
-    <string name="revanced_hide_show_more_button_summary_off">Widoczny</string>
     <string name="revanced_hide_feed_search_bar_title">Pasek wyszukiwania na stronie głównej</string>
     <string name="revanced_hide_feed_search_bar_summary_on">Ukryty</string>
     <string name="revanced_hide_feed_search_bar_summary_off">Widoczny</string>
-    <string name="revanced_hide_feed_survey_title">Ankiety na stronie głównej</string>
-    <string name="revanced_hide_feed_survey_summary_on">Ukryte</string>
-    <string name="revanced_hide_feed_survey_summary_off">Widoczne</string>
+    <string name="revanced_hide_show_more_button_title">Przycisk \'Pokaż więcej\'</string>
+    <string name="revanced_hide_show_more_button_summary_on">Ukryty</string>
+    <string name="revanced_hide_show_more_button_summary_off">Widoczny</string>
     <string name="revanced_hide_subscriptions_carousel_title">Półki karuzelowe z subskrypcjami</string>
     <string name="revanced_hide_subscriptions_carousel_summary_on">Ukryte</string>
     <string name="revanced_hide_subscriptions_carousel_summary_off">Widoczne</string>
+    <string name="revanced_hide_feed_survey_title">Ankiety na stronie głównej</string>
+    <string name="revanced_hide_feed_survey_summary_on">Ukryte</string>
+    <string name="revanced_hide_feed_survey_summary_off">Widoczne</string>
     <string name="revanced_hide_ticket_shelf_title">Półki z biletami</string>
     <string name="revanced_hide_ticket_shelf_summary_on">Ukryte</string>
     <string name="revanced_hide_ticket_shelf_summary_off">Widoczne</string>
@@ -460,7 +453,7 @@ Miniodtwarzacz można przeciągnąć poza ekran w lewo lub prawo."</string>
     <string name="revanced_miniplayer_opacity_title">Przezroczystość nakładki</string>
     <string name="revanced_miniplayer_opacity_summary">Wartość przezroczystości musi wynosić między 0 a 100, gdzie 0 oznacza przezroczystość</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">Przezroczystość nakładki miniodtwarzacza musi wynosić między 0 a 100.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation Bar -->
     <string name="revanced_preference_screen_navigation_bar_title">Pasek nawigacji</string>
     <string name="revanced_preference_screen_navigation_bar_summary">Ukryj lub pokazuj przyciski nawigacji</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">Wąskie przyciski nawigacji</string>
@@ -512,15 +505,12 @@ Jeśli opcja nie przynosi skutku, spróbuj przełączyć się na tryb incognito.
     <string name="revanced_hide_settings_menu_general_title">Ogólne</string>
     <string name="revanced_hide_settings_menu_general_summary_on">Ukryte</string>
     <string name="revanced_hide_settings_menu_general_summary_off">Widoczne</string>
-    <string name="revanced_hide_settings_menu_account_title">Konto</string>
+    <string name="revanced_hide_settings_menu_account_title">Przełącz konto</string>
     <string name="revanced_hide_settings_menu_account_summary_on">Ukryte</string>
     <string name="revanced_hide_settings_menu_account_summary_off">Widoczne</string>
     <string name="revanced_hide_settings_menu_data_saving_title">Oszczędzanie danych</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_on">Ukryte</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_off">Widoczne</string>
-    <string name="revanced_hide_settings_menu_auto_play_title">Autoodtwarzanie</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_on">Ukryte</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_off">Widoczne</string>
     <string name="revanced_hide_settings_menu_video_quality_title">Preferencje dotyczące jakości filmu</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_on">Ukryte</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_off">Widoczne</string>
@@ -675,7 +665,7 @@ Notki:
     <string name="revanced_hide_suggested_video_end_screen_summary_on">"Ukryte, lecz wyłącznie, gdy autoodtwarzanie jest wyłączone.
 
 Autoodtwarzanie można zmienić w ustawieniach YouTube:
-'Ustawienia → Autoodtwarzanie → Autoodtwarzanie następnego filmu'"</string>
+Ustawienia → Autoodtwarzanie/Odtwarzanie → Autoodtwarzanie następnego filmu"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">Widoczne</string>
     <string name="revanced_skip_autoplay_countdown_title">Pomiń odliczanie do automatycznego odtwarzania</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">Jeżeli automatyczne odtwarzanie jest włączone, następny film zostanie odtworzony bez odliczania.</string>
@@ -925,7 +915,6 @@ Ograniczenie: tytuły filmów znikają po stuknięciu w nie."</string>
     <string name="revanced_enable_compact_controls_overlay_summary_on">Przyciski w odtwarzaczu nie zajmują całego ekranu</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">Przyciski w odtwarzaczu zajmują cały ekran</string>
     <string name="revanced_keep_landscape_mode_title">Zachowaj tryb poziomy</string>
-    <string name="revanced_keep_landscape_mode_summary">Zachowuje tryb poziomy, gdy wyłączysz i włączysz ekran w trybie pełnoekranowym.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">Limit czasu zachowania trybu poziomego</string>
     <string name="revanced_keep_landscape_mode_timeout_summary">Ilość milisekund, podczas których tryb poziomy jest wymuszony.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Haptic feedback -->
@@ -1713,6 +1702,9 @@ Kliknij, by zobaczyć, jak zgłosić klucz API."</string>
     <string name="revanced_sb_about_api_sum">Dane są dostarczane przez API SponsorBlock. Stuknij tutaj, aby dowiedzieć się więcej i pobrać na inne platformy.</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Pozostałe</string>
+    <string name="revanced_enable_open_links_directly_title">Bezpośrednie otwieranie linków</string>
+    <string name="revanced_enable_open_links_directly_summary_on">Tak</string>
+    <string name="revanced_enable_open_links_directly_summary_off">Nie</string>
     <string name="revanced_disable_quic_protocol_title">Wyłącz protokół QUIC</string>
     <string name="revanced_disable_quic_protocol_summary">"Wyłącz protokół QUIC w CronetEngine"</string>
     <string name="revanced_enable_debug_logging_title">Logi do debugowania</string>
@@ -1724,9 +1716,6 @@ Kliknij, by zobaczyć, jak zgłosić klucz API."</string>
     <string name="revanced_enable_external_browser_title">Zewnętrzna przeglądarka</string>
     <string name="revanced_enable_external_browser_summary_on">Włączona</string>
     <string name="revanced_enable_external_browser_summary_off">Wyłączona</string>
-    <string name="revanced_enable_open_links_directly_title">Bezpośrednie otwieranie linków</string>
-    <string name="revanced_enable_open_links_directly_summary_on">Tak</string>
-    <string name="revanced_enable_open_links_directly_summary_off">Nie</string>
     <string name="revanced_sanitize_sharing_links_title">Oczyść udostępniane linki</string>
     <string name="revanced_sanitize_sharing_links_summary">Usuwa śledzące parametry z adresów URL podczas udostępniania linków</string>
     <string name="revanced_default_app_settings_title">Otwórz systemowe ustawienia aplikacji</string>

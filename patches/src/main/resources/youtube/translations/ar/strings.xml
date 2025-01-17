@@ -102,13 +102,6 @@
     <string name="revanced_hide_feed_captions_button_on">تم إخفاء زر التَرْجَمَة.</string>
     <string name="revanced_hide_feed_captions_button_off">يتم عرض زر التَرْجَمَة.</string>
     <string name="revanced_hide_carousel_shelf_title">إخفاء الرف الدائري</string>
-    <string name="revanced_hide_carousel_shelf_summary">"يخفي الرفوف التالية:
-• أخبار عاجلة
-• متابعة المشاهدة
-• اكتشف المزيد من القنوات
-• استمع مجددا
-• التسوق
-• مشاهده مرة أخرى"</string>
     <string name="revanced_hide_chips_shelf_title">إخفاء رف الشرائح</string>
     <string name="revanced_hide_chips_shelf_on">تم إخفاء رف الشرائح.</string>
     <string name="revanced_hide_chips_shelf_off">يتم عرض رف الشرائح.</string>
@@ -142,18 +135,18 @@
     <string name="revanced_hide_playables_title">إخفاء هيّا نلعب</string>
     <string name="revanced_hide_playables_summary_on">تم إخفاء هيّا نلعب.</string>
     <string name="revanced_hide_playables_summary_off">يتم عرض هيّا نلعب.</string>
-    <string name="revanced_hide_show_more_button_title">إخفاء زر عرض المزيد</string>
-    <string name="revanced_hide_show_more_button_summary_on">تم إخفاء زر عرض المزيد.</string>
-    <string name="revanced_hide_show_more_button_summary_off">يتم عرض زر عرض المزيد.</string>
     <string name="revanced_hide_feed_search_bar_title">إخفاء شريط البحث</string>
     <string name="revanced_hide_feed_search_bar_summary_on">تم إخفاء شريط البحث.</string>
     <string name="revanced_hide_feed_search_bar_summary_off">يتم عرض شريط البحث.</string>
-    <string name="revanced_hide_feed_survey_title">إخفاء الاستبيانات</string>
-    <string name="revanced_hide_feed_survey_summary_on">تم إخفاء الاستبيانات.</string>
-    <string name="revanced_hide_feed_survey_summary_off">يتم عرض الاستبيانات الموجز.</string>
+    <string name="revanced_hide_show_more_button_title">إخفاء زر عرض المزيد</string>
+    <string name="revanced_hide_show_more_button_summary_on">تم إخفاء زر عرض المزيد.</string>
+    <string name="revanced_hide_show_more_button_summary_off">يتم عرض زر عرض المزيد.</string>
     <string name="revanced_hide_subscriptions_carousel_title">إخفاء دوائر الاشتراكات</string>
     <string name="revanced_hide_subscriptions_carousel_summary_on">تم إخفاء دوائر الاشتراكات.</string>
     <string name="revanced_hide_subscriptions_carousel_summary_off">يتم عرض دوائر الاشتراكات.</string>
+    <string name="revanced_hide_feed_survey_title">إخفاء الاستبيانات</string>
+    <string name="revanced_hide_feed_survey_summary_on">تم إخفاء الاستبيانات.</string>
+    <string name="revanced_hide_feed_survey_summary_off">يتم عرض الاستبيانات الموجز.</string>
     <string name="revanced_hide_ticket_shelf_title">إخفاء رفوف التذاكر</string>
     <string name="revanced_hide_ticket_shelf_summary_on">تم إخفاء رفوف التذاكر.</string>
     <string name="revanced_hide_ticket_shelf_summary_off">يتم عرض رفوف التذاكر.</string>
@@ -462,7 +455,7 @@
     <string name="revanced_miniplayer_opacity_title">شفافية الواجهة</string>
     <string name="revanced_miniplayer_opacity_summary">قيمة الشفافية بين 0-100، حيث يكون 0 شفاف.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">يجب أن تكون نسبة شفافية واجهة المشغل المصغر بين 0-100.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation Bar -->
     <string name="revanced_preference_screen_navigation_bar_title">شريط التنقل</string>
     <string name="revanced_preference_screen_navigation_bar_summary">إخفاء أو عرض مكونات قسم شريط التنقل.</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">تمكين أزرار التنقل الضيقة</string>
@@ -520,9 +513,6 @@
     <string name="revanced_hide_settings_menu_data_saving_title">إخفاء قائمة توفير البيانات</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_on">تم إخفاء قائمة توفير البيانات.</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_off">يتم عرض قائمة توفير البيانات.</string>
-    <string name="revanced_hide_settings_menu_auto_play_title">إخفاء قائمة التشغيل التلقائي</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_on">تم إخفاء قائمة التشغيل التلقائي.</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_off">يتم عرض قائمة التشغيل التلقائي.</string>
     <string name="revanced_hide_settings_menu_video_quality_title">إخفاء قائمة الجودة المفضلة للفيديو</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_on">تم إخفاء قائمة الجودة المفضلة للفيديو.</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_off">يتم عرض قائمة الجودة المفضلة للفيديو.</string>
@@ -677,7 +667,7 @@
     <string name="revanced_hide_suggested_video_end_screen_summary_on">"تم إخفاء شاشة نهاية الفيديو المقترح عند إيقاف التشغيل التلقائي.
 
 يمكن تغيير التشغيل التلقائي في إعدادات YouTube:
-الإعدادات ← التشغيل التلقائي ← تشغيل الفيديو التالي تلقائيًا"</string>
+الإعدادات ← التشغيل التلقائي \ التشغيل ← تشغيل الفيديو التالي تلقائيًا"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">يتم عرض شاشة نهاية الفيديو المقترح.</string>
     <string name="revanced_skip_autoplay_countdown_title">تخطي العد التنازلي للتشغيل التلقائي</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">إذا تم تمكين التشغيل التلقائي، فسيتم تشغيل الفيديو التالي على الفور.</string>
@@ -927,7 +917,6 @@
     <string name="revanced_enable_compact_controls_overlay_summary_on">لا يملأ تراكب عناصر التحكم الشاشة الكاملة.</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">يملأ تراكب عناصر التحكم الشاشة الكاملة.</string>
     <string name="revanced_keep_landscape_mode_title">الإبقاء على الوضع الأفقي</string>
-    <string name="revanced_keep_landscape_mode_summary">يحافظ على الوضع الأفقي عند إيقاف تشغيل الشاشة وتشغيلها في وضع ملء الشاشة.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">مهلة إبقاء الوضع الأفقي</string>
     <string name="revanced_keep_landscape_mode_timeout_summary">مقدار اجزاء الثانية التي يتم فرضها على الوضع الأفقي بعد تشغيل الشاشة.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Haptic feedback -->
@@ -1371,17 +1360,11 @@
     <string name="revanced_swipe_gestures_lock_mode_summary_on">تم تمكين إيماءات التمرير في وضع شاشة القفل.</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_off">تم تعطيل إيماءات التمرير في وضع شاشة القفل.</string>
     <string name="revanced_swipe_overlay_background_alpha_title">شفافية خلفية واجهة إيماءة التمرير</string>
-    <string name="revanced_swipe_overlay_background_alpha_summary">قيمة شفافية خلفية واجهة التمرير (0-255).
-
-الافتراضي:127</string>
+    <string name="revanced_swipe_overlay_background_alpha_summary">شفافية خلفية واجهة التمرير.</string>
     <string name="revanced_swipe_magnitude_threshold_title">مقدار حد التمرير</string>
-    <string name="revanced_swipe_magnitude_threshold_summary">مقدار الحد الأدنى للتمرير قبل اكتشاف الإيماءة. 
-
-الافتراضي:0</string>
+    <string name="revanced_swipe_magnitude_threshold_summary">الحد الأقصى للتمرير قبل اكتشاف الإيماءة.</string>
     <string name="revanced_swipe_overlay_text_size_title">حجم نص واجهة إيماءة التمرير</string>
-    <string name="revanced_swipe_overlay_text_size_summary">حجم النص على واجهة التمرير.
-
-الافتراضي:27</string>
+    <string name="revanced_swipe_overlay_text_size_summary">حجم النص في واجهة التمرير.</string>
     <string name="revanced_swipe_overlay_rect_size_title">حجم واجهة إيماءة التمرير</string>
     <string name="revanced_swipe_overlay_rect_size_summary">النسبة المئوية لمساحة الشاشة القابلة للتمرير السريع.\n\nملاحظة: سيؤدي هذا أيضًا إلى تغيير حجم مساحة الشاشة لإيماءة النقر المزدوج للتقديم أو التأخير.</string>
     <string name="revanced_swipe_overlay_rect_size_invalid_toast">لا يمكن أن يزيد حجم المنطقة القابلة للتمرير السريع عن 50.</string>
@@ -1723,6 +1706,9 @@
     <string name="revanced_sb_about_api_sum">يتم توفير البيانات بواسطة SponsorBlock API. اضغط هنا لمعرفة المزيد والتنزيل لمنصات أخرى.</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">خيارات متنوعة</string>
+    <string name="revanced_enable_open_links_directly_title">تمكين فتح الروابط بشكل مباشر</string>
+    <string name="revanced_enable_open_links_directly_summary_on">تجاوز عمليات إعادة توجيه URL.</string>
+    <string name="revanced_enable_open_links_directly_summary_off">يتبع سياسة إعادة التوجيه الافتراضية.</string>
     <string name="revanced_disable_quic_protocol_title">تعطيل بروتوكول QUIC</string>
     <string name="revanced_disable_quic_protocol_summary">"تعطيل بروتوكول QUIC الخاص بـ CronetEngine."</string>
     <string name="revanced_enable_debug_logging_title">تمكين سجلات التصحيح</string>
@@ -1734,9 +1720,6 @@
     <string name="revanced_enable_external_browser_title">تمكين المتصفح الخارجي</string>
     <string name="revanced_enable_external_browser_summary_on">تم تمكين المتصفح الخارجي.</string>
     <string name="revanced_enable_external_browser_summary_off">تم تعطيل المتصفح الخارجي.</string>
-    <string name="revanced_enable_open_links_directly_title">تمكين فتح الروابط بشكل مباشر</string>
-    <string name="revanced_enable_open_links_directly_summary_on">تجاوز عمليات إعادة توجيه URL.</string>
-    <string name="revanced_enable_open_links_directly_summary_off">يتبع سياسة إعادة التوجيه الافتراضية.</string>
     <string name="revanced_sanitize_sharing_links_title">تطهير روابط المشاركة</string>
     <string name="revanced_sanitize_sharing_links_summary">يزيل معلمات استعلام التتبع من عناوين URL عند مشاركة الروابط.</string>
     <string name="revanced_default_app_settings_title">فتح إعدادات التطبيق الافتراضية</string>

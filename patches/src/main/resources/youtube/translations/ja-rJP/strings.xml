@@ -100,13 +100,6 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_hide_feed_captions_button_on">フィードから字幕ボタンを非表示にします。</string>
     <string name="revanced_hide_feed_captions_button_off">フィードから字幕ボタンを非表示にします。</string>
     <string name="revanced_hide_carousel_shelf_title">おすすめ欄を非表示</string>
-    <string name="revanced_hide_carousel_shelf_summary">"以下の欄を非表示にします:
-・ニュース速報
-・続きを見る
-・もう一度見る
-・もう一度聴く
-・他のチャンネルを探す
-・ショッピング"</string>
     <string name="revanced_hide_chips_shelf_title">チップ欄を非表示</string>
     <string name="revanced_hide_chips_shelf_on">フィードに表示される、似ている動画のチップ欄を非表示にします。</string>
     <string name="revanced_hide_chips_shelf_off">フィードに表示される、似ている動画のチップ欄を非表示にします。</string>
@@ -140,18 +133,18 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_hide_playables_title">Playables を非表示</string>
     <string name="revanced_hide_playables_summary_on">Playables (アプリやウェブ版ですぐにゲームが遊べる機能) を非表示にします。</string>
     <string name="revanced_hide_playables_summary_off">Playables (アプリやウェブ版ですぐにゲームが遊べる機能) を非表示にします。</string>
-    <string name="revanced_hide_show_more_button_title">「もっと表示」ボタンを非表示</string>
-    <string name="revanced_hide_show_more_button_summary_on">動画を検索した際に、検索結果の動画の下に表示される「もっと表示」のボタンを非表示にします。</string>
-    <string name="revanced_hide_show_more_button_summary_off">動画を検索した際に、検索結果の動画の下に表示される「もっと表示」のボタンを非表示にします。</string>
     <string name="revanced_hide_feed_search_bar_title">検索バーを非表示</string>
     <string name="revanced_hide_feed_search_bar_summary_on">フィードから検索バーを非表示にします。</string>
     <string name="revanced_hide_feed_search_bar_summary_off">フィードから検索バーを非表示にします。</string>
-    <string name="revanced_hide_feed_survey_title">アンケートを非表示</string>
-    <string name="revanced_hide_feed_survey_summary_on">ホームページと登録チャンネルページからアンケートを非表示にします。</string>
-    <string name="revanced_hide_feed_survey_summary_off">ホームページと登録チャンネルページからアンケートを非表示にします。</string>
+    <string name="revanced_hide_show_more_button_title">「もっと表示」ボタンを非表示</string>
+    <string name="revanced_hide_show_more_button_summary_on">動画を検索した際に、検索結果の動画の下に表示される「もっと表示」のボタンを非表示にします。</string>
+    <string name="revanced_hide_show_more_button_summary_off">動画を検索した際に、検索結果の動画の下に表示される「もっと表示」のボタンを非表示にします。</string>
     <string name="revanced_hide_subscriptions_carousel_title">登録チャンネルのカルーセルを非表示</string>
     <string name="revanced_hide_subscriptions_carousel_summary_on">「登録チャンネル」タブの上部に表示される登録チャンネル一覧を非表示にします。</string>
     <string name="revanced_hide_subscriptions_carousel_summary_off">「登録チャンネル」タブの上部に表示される登録チャンネル一覧を非表示にします。</string>
+    <string name="revanced_hide_feed_survey_title">アンケートを非表示</string>
+    <string name="revanced_hide_feed_survey_summary_on">ホームページと登録チャンネルページからアンケートを非表示にします。</string>
+    <string name="revanced_hide_feed_survey_summary_off">ホームページと登録チャンネルページからアンケートを非表示にします。</string>
     <string name="revanced_hide_ticket_shelf_title">チケット欄を非表示</string>
     <string name="revanced_hide_ticket_shelf_summary_on">検索結果/関連動画からチケット欄を非表示にします。</string>
     <string name="revanced_hide_ticket_shelf_summary_off">検索結果/関連動画からチケット欄を非表示にします。</string>
@@ -467,7 +460,7 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_miniplayer_opacity_title">オーバーレイの不透明度</string>
     <string name="revanced_miniplayer_opacity_summary">不透明度の値は 0 ~ 100 の間で、 0 が透明です。</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">ミニプレーヤーのオーバーレイの不透明度は0 ~ 100の間でなければなりません。デフォルト値にリセットします。</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation Bar -->
     <string name="revanced_preference_screen_navigation_bar_title">ナビゲーションバー</string>
     <string name="revanced_preference_screen_navigation_bar_summary">ナビゲーションバーセクションのコンポーネントを非表示または表示します。</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">幅の狭いナビゲーションボタンを有効化</string>
@@ -525,9 +518,6 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_hide_settings_menu_data_saving_title">データの節約メニューを非表示</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_on">「データの節約」メニューを非表示にします。</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_off">「データの節約」メニューを非表示にします。</string>
-    <string name="revanced_hide_settings_menu_auto_play_title">自動再生メニューを非表示</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_on">「自動再生」メニューを非表示にします。</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_off">「自動再生」メニューを非表示にします。</string>
     <string name="revanced_hide_settings_menu_video_quality_title">動画の画質設定メニューを非表示</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_on">「動画の画質設定」メニューを非表示にします。</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_off">「動画の画質設定」メニューを非表示にします。</string>
@@ -676,7 +666,9 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_hide_suggested_actions_summary_on">プレーヤー上の「Premium のコントロール」などの提案を非表示にします。</string>
     <string name="revanced_hide_suggested_actions_summary_off">プレーヤー上の「Premium のコントロール」などの提案を非表示にします。</string>
     <string name="revanced_hide_suggested_video_end_screen_title">おすすめされる動画の終了画面を非表示</string>
-    <string name="revanced_hide_suggested_video_end_screen_summary_on">"自動再生がオフの場合、おすすめの動画は動画の終了画面で表示されません。\n\n自動再生は YouTube の設定で変更できます: 「設定 → 自動再生 → 次の動画を自動再生」"</string>
+    <string name="revanced_hide_suggested_video_end_screen_summary_on">"自動再生がオフの場合、おすすめの動画は動画の終了画面で表示されません。
+
+自動再生は YouTube アプリ内の設定で変更できます: 「設定 → 自動再生 → 次の動画を自動再生」"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">自動再生がオフの場合、おすすめの動画は動画の終了画面で表示されません。\n\n自動再生は YouTube の設定で変更できます: 「設定 → 自動再生 → 次の動画を自動再生」</string>
     <string name="revanced_skip_autoplay_countdown_title">自動再生カウントダウンをスキップ</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">自動再生がオンの場合、次の動画をカウントダウンなしで再生します。</string>
@@ -926,7 +918,6 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_enable_compact_controls_overlay_summary_on">コントロールのオーバーレイを全画面に表示せず、コンパクトに表示します。</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">コントロールのオーバーレイを全画面に表示せず、コンパクトに表示します。</string>
     <string name="revanced_keep_landscape_mode_title">横画面モードを維持</string>
-    <string name="revanced_keep_landscape_mode_summary">全画面表示時に、画面をオン/オフしても、横向きモードを維持します。</string>
     <string name="revanced_keep_landscape_mode_timeout_title">横画面モードのタイムアウトを維持</string>
     <string name="revanced_keep_landscape_mode_timeout_summary">画面がオンになってから横画面モードが強制されるまでのミリ秒数です。</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Haptic feedback -->
@@ -1368,7 +1359,7 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_swipe_gestures_lock_mode_summary_on">スワイプジェスチャーを「画面のロック」モードで有効化します。</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_off">スワイプジェスチャーを「画面のロック」モードで有効化します。</string>
     <string name="revanced_swipe_overlay_background_alpha_title">スワイプオーバーレイの背景の透明度</string>
-    <string name="revanced_swipe_overlay_background_alpha_summary">背景の不透明度の値は 0 ~ 255 の間で、0 が透明です。</string>
+    <string name="revanced_swipe_overlay_background_alpha_summary">スワイプオーバーレイの背景の透明度です。</string>
     <string name="revanced_swipe_magnitude_threshold_title">スワイプ可能な領域のしきい値</string>
     <string name="revanced_swipe_magnitude_threshold_summary">スワイプとして検出する量のしきい値です。</string>
     <string name="revanced_swipe_overlay_text_size_title">スワイプオーバーレイのテキストサイズ</string>
@@ -1714,6 +1705,9 @@ API キーの発行方法については、ここをタップしてください�
     <string name="revanced_sb_about_api_sum">データは SponsorBlock API によって提供されています。他のプラットフォームのダウンロードや詳細については、ここをタップしてください。</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">その他</string>
+    <string name="revanced_enable_open_links_directly_title">直リンクを有効化</string>
+    <string name="revanced_enable_open_links_directly_summary_on">URL リダイレクト (youtube.com/redirect) をバイパスします。</string>
+    <string name="revanced_enable_open_links_directly_summary_off">URL リダイレクト (youtube.com/redirect) をバイパスします。</string>
     <string name="revanced_disable_quic_protocol_title">QUIC プロトコルを無効化</string>
     <string name="revanced_disable_quic_protocol_summary">"CronetEngine の QUIC プロトコルを無効化します。これにより動画の読み込み速度が多少改善されます。"</string>
     <string name="revanced_enable_debug_logging_title">デバッグログを有効化</string>
@@ -1725,9 +1719,6 @@ API キーの発行方法については、ここをタップしてください�
     <string name="revanced_enable_external_browser_title">外部ブラウザを有効化</string>
     <string name="revanced_enable_external_browser_summary_on">外部ブラウザを有効化します。</string>
     <string name="revanced_enable_external_browser_summary_off">外部ブラウザを有効化します。</string>
-    <string name="revanced_enable_open_links_directly_title">直リンクを有効化</string>
-    <string name="revanced_enable_open_links_directly_summary_on">URL リダイレクト (youtube.com/redirect) をバイパスします。</string>
-    <string name="revanced_enable_open_links_directly_summary_off">URL リダイレクト (youtube.com/redirect) をバイパスします。</string>
     <string name="revanced_sanitize_sharing_links_title">共有リンクのクリーンアップ</string>
     <string name="revanced_sanitize_sharing_links_summary">リンクを共有する際に、URL からトラッキングクエリパラメーターを削除します。</string>
     <string name="revanced_default_app_settings_title">「デフォルトで開く」の設定を開く</string>

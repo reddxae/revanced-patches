@@ -102,13 +102,6 @@
     <string name="revanced_hide_feed_captions_button_on">隐藏字幕按钮</string>
     <string name="revanced_hide_feed_captions_button_off">显示字幕按钮</string>
     <string name="revanced_hide_carousel_shelf_title">隐藏轮播内容</string>
-    <string name="revanced_hide_carousel_shelf_summary">"隐藏以下分类：
-• 突发新闻
-• 继续观看
-• 探索更多频道
-• 再次收听
-• 购物
-• 重新观看"</string>
     <string name="revanced_hide_chips_shelf_title">隐藏 Chips 视频栏</string>
     <string name="revanced_hide_chips_shelf_on">Chips 视频栏已隐藏</string>
     <string name="revanced_hide_chips_shelf_off">Chips 视频栏已显示</string>
@@ -142,18 +135,18 @@
     <string name="revanced_hide_playables_title">隐藏可播放内容</string>
     <string name="revanced_hide_playables_summary_on">可播放内容已隐藏</string>
     <string name="revanced_hide_playables_summary_off">可播放内容已显示</string>
-    <string name="revanced_hide_show_more_button_title">隐藏“显示更多”按钮</string>
-    <string name="revanced_hide_show_more_button_summary_on">“显示更多”按钮已隐藏</string>
-    <string name="revanced_hide_show_more_button_summary_off">“显示更多”按钮已显示</string>
     <string name="revanced_hide_feed_search_bar_title">隐藏新闻源搜索栏</string>
     <string name="revanced_hide_feed_search_bar_summary_on">隐藏动态搜索栏</string>
     <string name="revanced_hide_feed_search_bar_summary_off">显示动态搜索栏</string>
-    <string name="revanced_hide_feed_survey_title">隐藏问卷调查</string>
-    <string name="revanced_hide_feed_survey_summary_on">问卷调查已隐藏</string>
-    <string name="revanced_hide_feed_survey_summary_off">问卷调查已显示</string>
+    <string name="revanced_hide_show_more_button_title">隐藏“显示更多”按钮</string>
+    <string name="revanced_hide_show_more_button_summary_on">“显示更多”按钮已隐藏</string>
+    <string name="revanced_hide_show_more_button_summary_off">“显示更多”按钮已显示</string>
     <string name="revanced_hide_subscriptions_carousel_title">隐藏订阅轮播</string>
     <string name="revanced_hide_subscriptions_carousel_summary_on">订阅轮播已隐藏</string>
     <string name="revanced_hide_subscriptions_carousel_summary_off">订阅轮播已显示</string>
+    <string name="revanced_hide_feed_survey_title">隐藏问卷调查</string>
+    <string name="revanced_hide_feed_survey_summary_on">问卷调查已隐藏</string>
+    <string name="revanced_hide_feed_survey_summary_off">问卷调查已显示</string>
     <string name="revanced_hide_ticket_shelf_title">隐藏购票栏</string>
     <string name="revanced_hide_ticket_shelf_summary_on">购票栏已隐藏</string>
     <string name="revanced_hide_ticket_shelf_summary_off">购票栏已显示</string>
@@ -425,7 +418,7 @@
     <string name="revanced_miniplayer_opacity_title">叠加层不透明度</string>
     <string name="revanced_miniplayer_opacity_summary">不透明度值介于 0-100 之间，0 为透明</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">迷你播放器的叠加层不透明度必须介于 0-100 之间 重置为默认值</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation Bar -->
     <string name="revanced_preference_screen_navigation_bar_title">导航栏</string>
     <string name="revanced_preference_screen_navigation_bar_summary">隐藏或显示导航栏区域的组件</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">启用窄间距导航按钮</string>
@@ -480,9 +473,6 @@
     <string name="revanced_hide_settings_menu_data_saving_title">隐藏数据保存菜单</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_on">数据保存菜单已隐藏</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_off">数据保存菜单已显示</string>
-    <string name="revanced_hide_settings_menu_auto_play_title">隐藏自动播放菜单</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_on">自动播放菜单已隐藏</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_off">自动播放菜单已显示</string>
     <string name="revanced_hide_settings_menu_video_quality_title">隐藏视频质量偏好菜单</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_on">视频质量偏好菜单已隐藏</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_off">视频质量首选项菜单已显示</string>
@@ -872,7 +862,6 @@
     <string name="revanced_enable_compact_controls_overlay_summary_on">紧凑的播放器布局已启用</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">紧凑的播放器布局已禁用</string>
     <string name="revanced_keep_landscape_mode_title">保持横屏模式</string>
-    <string name="revanced_keep_landscape_mode_summary">在全屏状态下关闭和打开屏幕时，保持横屏模式</string>
     <string name="revanced_keep_landscape_mode_timeout_title">保持横屏模式超时</string>
     <string name="revanced_keep_landscape_mode_timeout_summary">强制横屏模式的毫秒数</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Haptic feedback -->
@@ -1569,6 +1558,9 @@
     <string name="revanced_sb_about_api_sum">数据由 SponsorBlock API 提供，点击此处了解更多信息并查看其他平台的下载</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">杂项</string>
+    <string name="revanced_enable_open_links_directly_title">启用直接打开链接</string>
+    <string name="revanced_enable_open_links_directly_summary_on">绕过链接重定向</string>
+    <string name="revanced_enable_open_links_directly_summary_off">遵循默认重定向策略</string>
     <string name="revanced_disable_quic_protocol_title">禁用 QUIC 协议</string>
     <string name="revanced_disable_quic_protocol_summary">"禁用 Cronet 引擎的 QUIC 协议"</string>
     <string name="revanced_enable_debug_logging_title">启用 Debug 日志</string>
@@ -1580,9 +1572,6 @@
     <string name="revanced_enable_external_browser_title">启用外部浏览器</string>
     <string name="revanced_enable_external_browser_summary_on">外部浏览器已启用</string>
     <string name="revanced_enable_external_browser_summary_off">外部浏览器已禁用</string>
-    <string name="revanced_enable_open_links_directly_title">启用直接打开链接</string>
-    <string name="revanced_enable_open_links_directly_summary_on">绕过链接重定向</string>
-    <string name="revanced_enable_open_links_directly_summary_off">遵循默认重定向策略</string>
     <string name="revanced_sanitize_sharing_links_title">清理共享链接</string>
     <string name="revanced_sanitize_sharing_links_summary">共享链接时，删除 URL 中的跟踪查询参数</string>
     <string name="revanced_default_app_settings_title">打开默认应用设置</string>

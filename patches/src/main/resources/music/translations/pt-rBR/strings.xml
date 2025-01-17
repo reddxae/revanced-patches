@@ -181,8 +181,6 @@ Isso não ignora a restrição de idade, apenas aceita isso automaticamente."</s
     <string name="revanced_spoof_app_version_target_entry_7_16_53">7.16.53 - Restaurar barra de ação antiga</string>
     <!-- PreferenceScreen: Navigation Bar -->
     <string name="revanced_preference_screen_navigation_title">Barra de Navegação</string>
-    <string name="revanced_enable_black_navigation_bar_title">Ativar barra de navegação preta</string>
-    <string name="revanced_enable_black_navigation_bar_summary">Define a cor da barra de navegação para preto.</string>
     <string name="revanced_hide_navigation_home_button_title">Ocultar botão Início</string>
     <string name="revanced_hide_navigation_home_button_summary">Oculta o botão de Início.</string>
     <string name="revanced_hide_navigation_samples_button_title">Ocultar botão Descobertas</string>
@@ -197,6 +195,8 @@ Isso não ignora a restrição de idade, apenas aceita isso automaticamente."</s
     <string name="revanced_hide_navigation_bar_summary">Oculta a barra de navegação.</string>
     <string name="revanced_hide_navigation_label_title">Ocultar rótulos de navegação</string>
     <string name="revanced_hide_navigation_label_summary">Oculta rótulos abaixo dos botões de navegação.</string>
+    <string name="revanced_enable_black_navigation_bar_title">Ativar barra de navegação preta</string>
+    <string name="revanced_enable_black_navigation_bar_summary">Define a cor da barra de navegação para preto.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Reprodutor</string>
     <string name="revanced_enable_mini_player_next_button_title">Adicionar o botão próximo no mini reprodutor</string>

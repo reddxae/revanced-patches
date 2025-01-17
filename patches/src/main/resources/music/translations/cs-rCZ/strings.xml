@@ -39,10 +39,10 @@
     <string name="revanced_hide_category_bar_summary">Skryje lištu s hudebními kategoriemi z horní části domovské obrazovky.</string>
     <string name="revanced_spoof_app_version_title">Zfalšovat verzi aplikace</string>
     <!-- PreferenceScreen: Navigation Bar -->
-    <string name="revanced_enable_black_navigation_bar_title">Povolit černou navigační lištu</string>
-    <string name="revanced_enable_black_navigation_bar_summary">Nastaví barvu navigačního panelu na černou.</string>
     <string name="revanced_hide_navigation_label_title">Skrýt popisky navigačního panelu</string>
     <string name="revanced_hide_navigation_label_summary">Skrýt popisky v navigačním panelu.</string>
+    <string name="revanced_enable_black_navigation_bar_title">Povolit černou navigační lištu</string>
+    <string name="revanced_enable_black_navigation_bar_summary">Nastaví barvu navigačního panelu na černou.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_enable_color_match_player_title">Povolit barevně shodný přehrávač</string>
     <string name="revanced_enable_color_match_player_summary">Odpovídá barvě mini přehrávače a režimu celé obrazovky.</string>

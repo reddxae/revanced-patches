@@ -102,13 +102,6 @@ Pulsa aquí para saber más sobre DeArrow."</string>
     <string name="revanced_hide_feed_captions_button_on">El botón de subtítulos está oculto.</string>
     <string name="revanced_hide_feed_captions_button_off">El botón de subtítulos está visible.</string>
     <string name="revanced_hide_carousel_shelf_title">Ocultar estante de carrusel</string>
-    <string name="revanced_hide_carousel_shelf_summary">"Oculta las siguientes estanterías:
-• Noticias de última hora
-• Seguir viendo
-• Explorar más canales
-• Volver a escuchar
-• Compras
-• Volver a ver"</string>
     <string name="revanced_hide_chips_shelf_title">Ocultar estante de fichas</string>
     <string name="revanced_hide_chips_shelf_on">El estante de fichas está oculto.</string>
     <string name="revanced_hide_chips_shelf_off">El estante de fichas está visible.</string>
@@ -142,18 +135,18 @@ Pulsa aquí para saber más sobre DeArrow."</string>
     <string name="revanced_hide_playables_title">Ocultar reproducibles</string>
     <string name="revanced_hide_playables_summary_on">Los reproducibles están ocultos.</string>
     <string name="revanced_hide_playables_summary_off">Los reproducibles están visibles.</string>
-    <string name="revanced_hide_show_more_button_title">Ocultar botón de mostrar más</string>
-    <string name="revanced_hide_show_more_button_summary_on">El botón de mostrar más está oculto.</string>
-    <string name="revanced_hide_show_more_button_summary_off">El botón de mostrar más está visible.</string>
     <string name="revanced_hide_feed_search_bar_title">Ocultar barra de búsqueda del feed</string>
     <string name="revanced_hide_feed_search_bar_summary_on">La barra de búsqueda del feed está oculta.</string>
     <string name="revanced_hide_feed_search_bar_summary_off">La barra de búsqueda del feed está visible.</string>
-    <string name="revanced_hide_feed_survey_title">Ocultar encuestas del feed</string>
-    <string name="revanced_hide_feed_survey_summary_on">Las encuestas del feed están ocultas.</string>
-    <string name="revanced_hide_feed_survey_summary_off">Las encuestas del feed están visibles.</string>
+    <string name="revanced_hide_show_more_button_title">Ocultar botón de mostrar más</string>
+    <string name="revanced_hide_show_more_button_summary_on">El botón de mostrar más está oculto.</string>
+    <string name="revanced_hide_show_more_button_summary_off">El botón de mostrar más está visible.</string>
     <string name="revanced_hide_subscriptions_carousel_title">Ocultar carrusel de suscripciones</string>
     <string name="revanced_hide_subscriptions_carousel_summary_on">El carrusel de suscripciones está oculto.</string>
     <string name="revanced_hide_subscriptions_carousel_summary_off">El carrusel de suscripciones está visible.</string>
+    <string name="revanced_hide_feed_survey_title">Ocultar encuestas del feed</string>
+    <string name="revanced_hide_feed_survey_summary_on">Las encuestas del feed están ocultas.</string>
+    <string name="revanced_hide_feed_survey_summary_off">Las encuestas del feed están visibles.</string>
     <string name="revanced_hide_ticket_shelf_title">Ocultar estantes de tickets</string>
     <string name="revanced_hide_ticket_shelf_summary_on">Los estantes de tickets están ocultos.</string>
     <string name="revanced_hide_ticket_shelf_summary_off">Los estantes de tickets están visibles.</string>
@@ -461,7 +454,7 @@ Desliza para expandir o cerrar."</string>
     <string name="revanced_miniplayer_opacity_title">Opacidad de superposición</string>
     <string name="revanced_miniplayer_opacity_summary">Valor de opacidad entre 0-100, donde 0 es transparente.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">La opacidad del minirreproductor debe estar entre 0-100. Restablezca a los valores predeterminados.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation Bar -->
     <string name="revanced_preference_screen_navigation_bar_title">Barra de navegación</string>
     <string name="revanced_preference_screen_navigation_bar_summary">Ocultar o mostrar los componentes de la sección de la barra de navegación.</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">Activar botones de navegación estrechos</string>
@@ -519,9 +512,6 @@ Si este ajuste no surte efecto, prueba a cambiar al modo incógnito."</string>
     <string name="revanced_hide_settings_menu_data_saving_title">Ocultar menú \"Ahorro de datos\"</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_on">El menú \"Ahorro de datos\" está oculto.</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_off">El menú \"Ahorro de datos\" está visible.</string>
-    <string name="revanced_hide_settings_menu_auto_play_title">Ocultar menú \"Reproducción automática\"</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_on">El menú \"Reproducción automática\" está oculto.</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_off">El menú \"Reproducción automática\" está visible.</string>
     <string name="revanced_hide_settings_menu_video_quality_title">Ocultar menú \"Preferencias de calidad de vídeo\"</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_on">El menú \"Preferencias de calidad de vídeo\" está oculto.</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_off">El menú \"Preferencias de calidad de vídeo\" está visible.</string>
@@ -926,7 +916,6 @@ Limitación: el título de vídeo desaparece cuando se pulsa."</string>
     <string name="revanced_enable_compact_controls_overlay_summary_on">La superposición de controles no ocupa la pantalla completa.</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">La superposición de controles ocupa la pantalla completa.</string>
     <string name="revanced_keep_landscape_mode_title">Mantener modo horizontal</string>
-    <string name="revanced_keep_landscape_mode_summary">Mantiene el modo horizontal al apagar y encender la pantalla en pantalla completa.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">Mantener tiempo de espera del modo horizontal</string>
     <string name="revanced_keep_landscape_mode_timeout_summary">La cantidad de milisegundos que se fuerza el modo horizontal.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Haptic feedback -->
@@ -1710,6 +1699,9 @@ Toca para ver cómo crear una clave de API."</string>
     <string name="revanced_sb_about_api_sum">Los datos son proporcionados por la API de SponsorBlock. Pulsa aquí para aprender más y ver las descargas para otras plataformas.</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Otros</string>
+    <string name="revanced_enable_open_links_directly_title">Activar apertura de enlaces directamente</string>
+    <string name="revanced_enable_open_links_directly_summary_on">Omitiendo los redireccionamientos de URL.</string>
+    <string name="revanced_enable_open_links_directly_summary_off">Siguiendo la política predeterminada de redireccionamiento.</string>
     <string name="revanced_disable_quic_protocol_title">Desactivar protocolo QUIC</string>
     <string name="revanced_disable_quic_protocol_summary">"Desactiva el protocolo QUIC de CronetEngine."</string>
     <string name="revanced_enable_debug_logging_title">Activar registro de depuración</string>
@@ -1721,9 +1713,6 @@ Toca para ver cómo crear una clave de API."</string>
     <string name="revanced_enable_external_browser_title">Activar navegador externo</string>
     <string name="revanced_enable_external_browser_summary_on">El navegador externo está activado.</string>
     <string name="revanced_enable_external_browser_summary_off">El navegador externo está desactivado.</string>
-    <string name="revanced_enable_open_links_directly_title">Activar apertura de enlaces directamente</string>
-    <string name="revanced_enable_open_links_directly_summary_on">Omitiendo los redireccionamientos de URL.</string>
-    <string name="revanced_enable_open_links_directly_summary_off">Siguiendo la política predeterminada de redireccionamiento.</string>
     <string name="revanced_sanitize_sharing_links_title">Desinfectar enlaces compartidos</string>
     <string name="revanced_sanitize_sharing_links_summary">Elimina los parámetros de consulta de seguimiento de las URL al compartir enlaces.</string>
     <string name="revanced_default_app_settings_title">Abrir ajustes predeterminados de la app</string>

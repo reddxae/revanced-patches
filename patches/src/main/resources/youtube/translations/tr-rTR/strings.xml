@@ -100,7 +100,6 @@ DeArrow hakkında daha fazla bilgi edinmek için buraya dokunun."</string>
     <string name="revanced_hide_feed_captions_button_on">Altyazılar butonu gizleniyor.</string>
     <string name="revanced_hide_feed_captions_button_off">Altyazılar butonu gizlenmiyor.</string>
     <string name="revanced_hide_carousel_shelf_title">Atlıkarınca rafını gizle</string>
-    <string name="revanced_hide_carousel_shelf_summary">"Döner rafı ana sayfa ve keşfet sekmesinden gizler."</string>
     <string name="revanced_hide_chips_shelf_title">Buna benzer daha çok video çipini gizle</string>
     <string name="revanced_hide_chips_shelf_on">Silindirik öneri butonları ve menüleri gizleniyor</string>
     <string name="revanced_hide_chips_shelf_off">Silindirik öneri butonları ve menüleri gösteriliyor</string>
@@ -134,18 +133,18 @@ DeArrow hakkında daha fazla bilgi edinmek için buraya dokunun."</string>
     <string name="revanced_hide_playables_title">Oynanabilirleri gizle</string>
     <string name="revanced_hide_playables_summary_on">Oynanabilir öğeler gizli.</string>
     <string name="revanced_hide_playables_summary_off">Oynanabilir öğeler görünür.</string>
-    <string name="revanced_hide_show_more_button_title">\'Daha fazla göster\' düğmesini gizle</string>
-    <string name="revanced_hide_show_more_button_summary_on">\"Daha fazla göster\" butonu gizleniyor.</string>
-    <string name="revanced_hide_show_more_button_summary_off">\"Daha fazla göster\" butonu gizlenmiyor.</string>
     <string name="revanced_hide_feed_search_bar_title">Akışta çıkan arama çubuğunu gizle</string>
     <string name="revanced_hide_feed_search_bar_summary_on">Akış arama çubuğu gizleniyor.</string>
     <string name="revanced_hide_feed_search_bar_summary_off">Akış arama çubuğu gizlenmiyor.</string>
-    <string name="revanced_hide_feed_survey_title">Akışta çıkan anketleri gizle</string>
-    <string name="revanced_hide_feed_survey_summary_on">YouTube\'un anketleri gizleniyor</string>
-    <string name="revanced_hide_feed_survey_summary_off">YouTube\'un anketleri gösteriliyor</string>
+    <string name="revanced_hide_show_more_button_title">\'Daha fazla göster\' düğmesini gizle</string>
+    <string name="revanced_hide_show_more_button_summary_on">\"Daha fazla göster\" butonu gizleniyor.</string>
+    <string name="revanced_hide_show_more_button_summary_off">\"Daha fazla göster\" butonu gizlenmiyor.</string>
     <string name="revanced_hide_subscriptions_carousel_title">Abonelikler karosel rafını gizle</string>
     <string name="revanced_hide_subscriptions_carousel_summary_on">Abonelikler karosel rafı gizleniyor.</string>
     <string name="revanced_hide_subscriptions_carousel_summary_off">Abonelikler karosel rafı gizlenmiyor.</string>
+    <string name="revanced_hide_feed_survey_title">Akışta çıkan anketleri gizle</string>
+    <string name="revanced_hide_feed_survey_summary_on">YouTube\'un anketleri gizleniyor</string>
+    <string name="revanced_hide_feed_survey_summary_off">YouTube\'un anketleri gösteriliyor</string>
     <string name="revanced_hide_ticket_shelf_title">Biletler kısmını gizle</string>
     <string name="revanced_hide_ticket_shelf_summary_on">Gizleniyor</string>
     <string name="revanced_hide_ticket_shelf_summary_off">Gizlenmiyor</string>
@@ -442,7 +441,7 @@ Genişletmek veya kapatmak için kaydırın."</string>
     <string name="revanced_miniplayer_opacity_title">Kaplama opaklığı</string>
     <string name="revanced_miniplayer_opacity_summary">0-100 arası opaklık değeri, 0 şeffaftır.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">Mini oynatıcının siyah arkaplan opaklığı 0 ila 100 arasında olmalıdır. Varsayılan değere sıfırlandı.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation Bar -->
     <string name="revanced_preference_screen_navigation_bar_title">Gezinme çubuğu</string>
     <string name="revanced_preference_screen_navigation_bar_summary">Gezinme çubuğu bölümü bileşenlerini gizleyin veya gösterin.</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">Dar gezinme düğmelerini etkinleştir</string>
@@ -497,9 +496,6 @@ Bu ayar etkili olmazsa Gizli moda geçmeyi deneyin."</string>
     <string name="revanced_hide_settings_menu_data_saving_title">Veri tasarrufu menüsünü gizle</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_on">Veri tasarrufu menüsü gizlendi.</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_off">Veri tasarrufu menüsü gösteriliyor.</string>
-    <string name="revanced_hide_settings_menu_auto_play_title">Otomatik oynatma butonunu gizle</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_on">Otomatik oynatma menüsü gizleniyor.</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_off">Otomatik oynatma menüsü gösteriliyor.</string>
     <string name="revanced_hide_settings_menu_video_quality_title">Video kalitesi tercihleri menüsünü gizle</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_on">Video kalitesi tercihleri menüsü gizlendi.</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_off">Video kalitesi tercihleri menüsü gösteriliyor.</string>
@@ -835,7 +831,6 @@ Sınırlama: Tıklandığında video başlığı kayboluyor."</string>
     <string name="revanced_enable_compact_controls_overlay_summary_on">Tam ekran videoda sıkışık oynatıcı etkin.</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">Tam ekran videoda sıkışık oynatıcı etkin değil</string>
     <string name="revanced_keep_landscape_mode_title">Manzara modunu tut</string>
-    <string name="revanced_keep_landscape_mode_summary">Ekranı tam ekranda kapatıp açarken yatay modu korur.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">Manzara modunu tutma zaman aşımı</string>
     <string name="revanced_keep_landscape_mode_timeout_summary">Manzara modunun zorlandığı milisaniye miktarı.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Haptic feedback -->
@@ -1442,6 +1437,9 @@ Bir örnek görmek için buraya dokunun.</string>
     <string name="revanced_sb_about_api_sum">Veriler, SponsorBlock API tarafından sağlanmaktadır. Daha fazla bilgi edinmek ve diğer platformlar için indirmeleri görmek için buraya dokunun.</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Diğer Ayarlar</string>
+    <string name="revanced_enable_open_links_directly_title">Bağlantıları direkt açmayı etkinleştir</string>
+    <string name="revanced_enable_open_links_directly_summary_on">URL yönlendirmeleri atlanıyor.</string>
+    <string name="revanced_enable_open_links_directly_summary_off">Varsayılan yönlendirme politikası takip ediliyor.</string>
     <string name="revanced_disable_quic_protocol_title">QUIC protokolünü devre dışı bırak</string>
     <string name="revanced_disable_quic_protocol_summary">"CronetEngine'in QUIC protokolünü devre dışı bırak"</string>
     <string name="revanced_enable_debug_logging_title">Hata ayıklama günlüğünü etkinleştir</string>
@@ -1453,9 +1451,6 @@ Bir örnek görmek için buraya dokunun.</string>
     <string name="revanced_enable_external_browser_title">Harici tarayıcıyı kullan</string>
     <string name="revanced_enable_external_browser_summary_on">Harici tarayıcı etkin</string>
     <string name="revanced_enable_external_browser_summary_off">Harici tarayıcı devre dışı</string>
-    <string name="revanced_enable_open_links_directly_title">Bağlantıları direkt açmayı etkinleştir</string>
-    <string name="revanced_enable_open_links_directly_summary_on">URL yönlendirmeleri atlanıyor.</string>
-    <string name="revanced_enable_open_links_directly_summary_off">Varsayılan yönlendirme politikası takip ediliyor.</string>
     <string name="revanced_sanitize_sharing_links_title">Paylaşılan bağlantıları sterilize edin</string>
     <string name="revanced_sanitize_sharing_links_summary">Bağlantıları paylaşırken, tracking query parametrelerini URL\'lerden kaldırır.</string>
     <string name="revanced_default_app_settings_title">Varsayılan uygulama ayarlarını aç</string>

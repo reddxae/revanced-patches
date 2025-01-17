@@ -40,12 +40,12 @@
     <string name="revanced_hide_category_bar_summary">প্রধান পাতার উপর থেকে বিভাগ বার লুকান।</string>
     <string name="revanced_spoof_app_version_title">অ্যাপ সংস্করণ স্পুফ করুন</string>
     <!-- PreferenceScreen: Navigation Bar -->
-    <string name="revanced_enable_black_navigation_bar_title">কালো নেভিগেশন বার সক্রিয় করুন</string>
-    <string name="revanced_enable_black_navigation_bar_summary">নেভিগেমন বার এর রং কালো করে।</string>
     <string name="revanced_hide_navigation_bar_title">নেভিগেশন বার লুকান</string>
     <string name="revanced_hide_navigation_bar_summary">নেভিগেশন বার লুকায়।</string>
     <string name="revanced_hide_navigation_label_title">নেভিগেশন বারের লেবেল লুকান</string>
     <string name="revanced_hide_navigation_label_summary">নেভিগেশন বার থেকে লেবেল হাইড করুন।</string>
+    <string name="revanced_enable_black_navigation_bar_title">কালো নেভিগেশন বার সক্রিয় করুন</string>
+    <string name="revanced_enable_black_navigation_bar_summary">নেভিগেমন বার এর রং কালো করে।</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_enable_color_match_player_title">প্লেয়ারের রং মিলানো সক্রিয় করুন</string>
     <string name="revanced_enable_color_match_player_summary">পূর্ণস্ক্রীন প্লেয়ারের রং মিনিমাইজ করা প্লেয়ারের রং এর সাথে মিলবে।</string>

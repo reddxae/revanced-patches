@@ -19,6 +19,13 @@
     <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s non è installato.
 Si prega di scaricare %2$s dal sito web."</string>
     <string name="revanced_external_downloader_not_installed_warning">%s non è installato. Per favore installalo.</string>
+    <string name="revanced_language_title">Lingua di RVX</string>
+    <string name="revanced_language_DEFAULT">Lingua dell\'app</string>
+    <string name="revanced_language_AR">Arabo</string>
+    <string name="revanced_language_AZ">Azero</string>
+    <string name="revanced_language_BG">Bulgaro</string>
+    <string name="revanced_language_BN">Bengalese</string>
+    <string name="revanced_language_CA">Catalano</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Annunci</string>
     <string name="revanced_hide_fullscreen_ads_title">Nascondi gli annunci a schermo intero</string>
@@ -101,14 +108,15 @@ Tocca qui per saperne di più su DeArrow."</string>
     <string name="revanced_hide_feed_captions_button_title">Nascondi il pulsante Sottotitoli</string>
     <string name="revanced_hide_feed_captions_button_on">Il pulsante Sottotitoli è nascosto.</string>
     <string name="revanced_hide_feed_captions_button_off">Il pulsante Sottotitoli è visibile.</string>
-    <string name="revanced_hide_carousel_shelf_title">Nascondi lo scaffale a carosello</string>
-    <string name="revanced_hide_carousel_shelf_summary">"Nasconde i seguenti scaffali:
+    <string name="revanced_hide_carousel_shelf_title">Nascondi gli scaffali a carosello</string>
+    <string name="revanced_hide_carousel_shelf_summary_on">"Nasconde i seguenti scaffali a carosello:
 • Ultime notizie
 • Continua a guardare
 • Guarda di nuovo
 • Ascolta di nuovo
 • Esplora altri canali
 • Shopping"</string>
+    <string name="revanced_hide_carousel_shelf_summary_off">Gli scaffali a carosello sono visibili.</string>
     <string name="revanced_hide_chips_shelf_title">Nascondi lo scaffale dei chip</string>
     <string name="revanced_hide_chips_shelf_on">Lo scaffale dei chip è nascosto.</string>
     <string name="revanced_hide_chips_shelf_off">Lo scaffale dei chip è visibile.</string>
@@ -142,18 +150,18 @@ Tocca qui per saperne di più su DeArrow."</string>
     <string name="revanced_hide_playables_title">Nascondi lo scaffale Sala Giochi</string>
     <string name="revanced_hide_playables_summary_on">Lo scaffale Sala Giochi è nascosto.</string>
     <string name="revanced_hide_playables_summary_off">Lo scaffale Sala Giochi è visibile.</string>
-    <string name="revanced_hide_show_more_button_title">Nascondi il pulsante Mostra Altro</string>
-    <string name="revanced_hide_show_more_button_summary_on">Il pulsante Mostra Altro è nascosto.</string>
-    <string name="revanced_hide_show_more_button_summary_off">Il pulsante Mostra Altro è visibile.</string>
     <string name="revanced_hide_feed_search_bar_title">Nascondi la barra di ricerca</string>
     <string name="revanced_hide_feed_search_bar_summary_on">La barra di ricerca è nascosta.</string>
     <string name="revanced_hide_feed_search_bar_summary_off">La barra di ricerca è visibile.</string>
-    <string name="revanced_hide_feed_survey_title">Nascondi i sondaggi</string>
-    <string name="revanced_hide_feed_survey_summary_on">I sondaggi sono nascosti.</string>
-    <string name="revanced_hide_feed_survey_summary_off">I sondaggi sono visibili.</string>
+    <string name="revanced_hide_show_more_button_title">Nascondi il pulsante Mostra Altro</string>
+    <string name="revanced_hide_show_more_button_summary_on">Il pulsante Mostra Altro è nascosto.</string>
+    <string name="revanced_hide_show_more_button_summary_off">Il pulsante Mostra Altro è visibile.</string>
     <string name="revanced_hide_subscriptions_carousel_title">Nascondi il carosello delle iscrizioni</string>
     <string name="revanced_hide_subscriptions_carousel_summary_on">Il carosello delle iscrizioni è nascosto.</string>
     <string name="revanced_hide_subscriptions_carousel_summary_off">Il carosello delle iscrizioni è visibile.</string>
+    <string name="revanced_hide_feed_survey_title">Nascondi i sondaggi</string>
+    <string name="revanced_hide_feed_survey_summary_on">I sondaggi sono nascosti.</string>
+    <string name="revanced_hide_feed_survey_summary_off">I sondaggi sono visibili.</string>
     <string name="revanced_hide_ticket_shelf_title">Nascondi lo scaffale degli eventi</string>
     <string name="revanced_hide_ticket_shelf_summary_on">Lo scaffale degli eventi è nascosto.</string>
     <string name="revanced_hide_ticket_shelf_summary_off">Lo scaffale degli eventi è visibile.</string>
@@ -463,7 +471,7 @@ Trascina il riproduttore minimizzato per espandere o chiudere."</string>
     <string name="revanced_miniplayer_opacity_title">Opacità della sovrapposizione</string>
     <string name="revanced_miniplayer_opacity_summary">Il valore dell\'opacità è tra 0 e 100, dove 0 è trasparente.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">L\'opacità della sovrapposizione del riproduttore minimizzato deve essere tra 0 e 100</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation Bar -->
     <string name="revanced_preference_screen_navigation_bar_title">Barra di navigazione</string>
     <string name="revanced_preference_screen_navigation_bar_summary">Personalizza i componenti della barra di navigazione.</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">Attiva i pulsanti di navigazione compatti</string>
@@ -521,15 +529,12 @@ Se questa impostazione non ha effetto, prova a passare alla navigazione in incog
     <string name="revanced_hide_settings_menu_data_saving_title">Nascondi il menù Risparmio Dati</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_on">Il menù Risparmio Dati è nascosto.</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_off">Il menù Risparmio Dati è visibile.</string>
-    <string name="revanced_hide_settings_menu_auto_play_title">Nascondi il menù Riproduzione Automatica</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_on">Il menù Riproduzione Automatica è nascosto.</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_off">Il menù Riproduzione Automatica è visibile.</string>
     <string name="revanced_hide_settings_menu_video_quality_title">Nascondi il menù Preferenze Relative alla Qualità Video</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_on">Il menù Preferenze Relative alla Qualità Video è nascosto.</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_off">Il menù Preferenze Relative alla Qualità Video è visibile.</string>
-    <string name="revanced_hide_settings_menu_offline_title">Nascondi il menù Sfondo</string>
-    <string name="revanced_hide_settings_menu_offline_summary_on">Il menù Sfondo è nascosto.</string>
-    <string name="revanced_hide_settings_menu_offline_summary_off">Il menù Sfondo è visibile.</string>
+    <string name="revanced_hide_settings_menu_offline_title">Nascondi il menù Background e Download o Sfondo</string>
+    <string name="revanced_hide_settings_menu_offline_summary_on">Il menù Background e Download o Sfondo è nascosto.</string>
+    <string name="revanced_hide_settings_menu_offline_summary_off">Il menù Background e Download o Sfondo è visibile.</string>
     <string name="revanced_hide_settings_menu_pair_with_tv_title">Nascondi il menù Guarda sulla TV</string>
     <string name="revanced_hide_settings_menu_pair_with_tv_summary_on">Il menù Guarda sulla TV è nascosto.</string>
     <string name="revanced_hide_settings_menu_pair_with_tv_summary_off">Il menù Guarda sulla TV è visibile.</string>
@@ -579,8 +584,8 @@ Se questa impostazione non ha effetto, prova a passare alla navigazione in incog
     <string name="revanced_enable_wide_search_bar_summary_on">La barra di ricerca estesa è attivata.</string>
     <string name="revanced_enable_wide_search_bar_summary_off">La barra di ricerca estesa è disattivata.</string>
     <string name="revanced_enable_wide_search_bar_with_header_title">Attiva la barra di ricerca estesa con l\'intestazione</string>
-    <string name="revanced_enable_wide_search_bar_with_header_summary_on">La barra di ricerca estesa con l\'intestazione è attivata.</string>
-    <string name="revanced_enable_wide_search_bar_with_header_summary_off">La barra di ricerca estesa con l\'intestazione è disattivata.</string>
+    <string name="revanced_enable_wide_search_bar_with_header_summary_on">La barra di ricerca estesa con l\'intestazione di YouTube è attivata.</string>
+    <string name="revanced_enable_wide_search_bar_with_header_summary_off">La barra di ricerca estesa con l\'intestazione di YouTube è disattivata.</string>
     <string name="revanced_enable_wide_search_bar_in_you_tab_title">Attiva la barra di ricerca estesa nella scheda Tu</string>
     <string name="revanced_enable_wide_search_bar_in_you_tab_summary">"L'attivazione di questa impostazione disattiverà il pulsante Impostazioni nella scheda Tu.
 
@@ -679,7 +684,7 @@ Note:
     <string name="revanced_hide_suggested_video_end_screen_summary_on">"La schermata finale del video consigliato è nascosta quando la riproduzione automatica è disattivata.
 
 La riproduzione automatica può essere modificata seguendo questo percorso:
-Impostazioni → Riproduzione automatica → Telefono cellulare/tablet"</string>
+Impostazioni → Riproduzione → Riproduci automatic. video successivo"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">La schermata finale del video consigliato è visibile.</string>
     <string name="revanced_skip_autoplay_countdown_title">Salta il conto alla rovescia della riproduzione automatica</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">Se la riproduzione automatica è attivata, il video successivo verrà riprodotto immediatamente.</string>
@@ -929,7 +934,8 @@ Nota: il titolo scompare quando lo si tocca."</string>
     <string name="revanced_enable_compact_controls_overlay_summary_on">I controlli compatti sono attivati.</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">I controlli compatti sono disattivati.</string>
     <string name="revanced_keep_landscape_mode_title">Mantieni la modalità orizzontale</string>
-    <string name="revanced_keep_landscape_mode_summary">Mantiene la modalità orizzontale quando lo schermo viene spento e acceso a schermo intero.</string>
+    <string name="revanced_keep_landscape_mode_summary_on">I video continuano a riprodurre in orizzontale dopo aver spento e acceso lo schermo.</string>
+    <string name="revanced_keep_landscape_mode_summary_off">I video vengono riprodotti in verticale dopo aver spento e acceso lo schermo.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">Durata della modalità orizzontale forzata</string>
     <string name="revanced_keep_landscape_mode_timeout_summary">Il tempo in millisecondi per cui viene forzata la modalità orizzontale dopo l\'accensione dello schermo.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Haptic feedback -->
@@ -1264,7 +1270,7 @@ Nota: solo gli scaffali con l'intestazione Shorts nella scheda Home sono nascost
     <string name="revanced_hide_shorts_sound_button_summary_on">Il pulsante Suono è nascosto.</string>
     <string name="revanced_hide_shorts_sound_button_summary_off">Il pulsante Suono è visibile.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Animation / Feedback -->
-    <string name="revanced_preference_category_animation_feedback">Animazione e feedback</string>
+    <string name="revanced_preference_category_animation_feedback">Animazione o feedback</string>
     <string name="revanced_disable_shorts_like_button_fountain_animation_title">Disattiva le animazioni sopra il pulsante Mi Piace</string>
     <string name="revanced_disable_shorts_like_button_fountain_animation_summary_on">Le animazioni sopra il pulsante Mi Piace sono disattivate.</string>
     <string name="revanced_disable_shorts_like_button_fountain_animation_summary_off">Le animazioni sopra il pulsante Mi Piace sono attivate.</string>
@@ -1552,19 +1558,19 @@ Tocca qui per vedere come emettere una chiave API."</string>
     <string name="revanced_sb_diff_segments">Cambia il comportamento dei segmenti</string>
     <string name="revanced_sb_segments_sponsor">Sponsor</string>
     <string name="revanced_sb_segments_sponsor_sum">Le promozioni a pagamento, referral a pagamento e pubblicità diretta. Non dovrebbe includere autopromozione e ringraziamenti gratis a cause, creatori, siti web e prodotti di loro gradimento.</string>
-    <string name="revanced_sb_segments_selfpromo">Promozione non Pagata e autopromozione</string>
+    <string name="revanced_sb_segments_selfpromo">Promozione non pagata o autopromozione</string>
     <string name="revanced_sb_segments_selfpromo_sum">Simili agli sponsor, ma sono promozioni non pagate o autopromozioni. Include sezioni sul merchandising, donazioni e informazioni dei collaboratori del video.</string>
     <string name="revanced_sb_segments_interaction">Promemoria di interazione (Iscrizione)</string>
     <string name="revanced_sb_segments_interaction_sum">Una breve promemoria per mettere mi piace, iscriversi o seguirli su altre piattaforme durante la visione. Se è lungo o riguarda qualcosa di specifico, dovrebbe essere considerato autopromozione.</string>
     <string name="revanced_sb_segments_highlight">Momento saliente</string>
     <string name="revanced_sb_segments_highlight_sum">La parte del video che la maggior parte delle persone sta guardando.</string>
-    <string name="revanced_sb_segments_intro">Intermezzo e introduzione animata</string>
+    <string name="revanced_sb_segments_intro">Intermezzo o introduzione animata</string>
     <string name="revanced_sb_segments_intro_sum">Un intervallo senza contenuto effettivo. Potrebbe essere una pausa, un fotogramma statico o un\'animazione ripetuta. Non dovrebbe includere transizioni con informazioni.</string>
-    <string name="revanced_sb_segments_outro">Schede finali e crediti</string>
+    <string name="revanced_sb_segments_outro">Schede finali o crediti</string>
     <string name="revanced_sb_segments_outro_sum">I crediti o quando appaiono le schede finali. Non dovrebbe includere le conclusioni con informazioni.</string>
-    <string name="revanced_sb_segments_preview">Anteprima, riepilogo e pretesto</string>
+    <string name="revanced_sb_segments_preview">Anteprima, riepilogo o pretesto</string>
     <string name="revanced_sb_segments_preview_sum">Una breve raccolta di anteprime che mostrano ciò che è in programma o ciò che è successo nel video o in altri video di una serie, dove tutte le informazioni sono ripetute altrove.</string>
-    <string name="revanced_sb_segments_filler">Tangente di riempimento e battute</string>
+    <string name="revanced_sb_segments_filler">Tangente di riempimento o battute</string>
     <string name="revanced_sb_segments_filler_sum">Le scene tangenziali aggiunte solo a scopo riempitivo o per umorismo, non necessarie per comprendere il contenuto principale del video. Non dovrebbe includere sezioni con informazioni.</string>
     <string name="revanced_sb_segments_nomusic">Sezione non musicale</string>
     <string name="revanced_sb_segments_nomusic_sum">Le sezioni di video musicali senza musica che non sono già incluse in un\'altra categoria. Solo per i video musicali.</string>
@@ -1646,8 +1652,8 @@ Tocca qui per vedere come emettere una chiave API."</string>
     <string name="revanced_sb_api_url_changed">URL API cambiato</string>
     <string name="revanced_sb_settings_copy">Copia</string>
     <string name="revanced_sb_settings_ie">Esporta / Importa impostazioni</string>
-    <string name="revanced_sb_settings_ie_sum">La tua configurazione di SponsorBlock in JSON può essere esportata e importata su RVX e su altre piattaforme SponsorBlock.</string>
-    <string name="revanced_sb_settings_ie_sum_warning">La tua configurazione di SponsorBlock in JSON può essere esportata e importata su RVX e su altre piattaforme SponsorBlock. Questo include il tuo ID utente privato, quindi assicurati di condividerlo con cautela.</string>
+    <string name="revanced_sb_settings_ie_sum">La tua configurazione di SponsorBlock in JSON può essere esportata o importata su RVX e su altre piattaforme SponsorBlock.</string>
+    <string name="revanced_sb_settings_ie_sum_warning">La tua configurazione di SponsorBlock in JSON può essere esportata o importata su RVX e su altre piattaforme SponsorBlock. Questo include il tuo ID utente privato, quindi assicurati di condividerlo con cautela.</string>
     <string name="revanced_sb_settings_import_successful">Impostazioni importate con successo</string>
     <string name="revanced_sb_settings_import_failed">Importazione non riuscita (%s)</string>
     <string name="revanced_sb_settings_export_failed">Esportazione non riuscita (%s)</string>
@@ -1715,6 +1721,9 @@ Tocca qui per vedere come emettere una chiave API."</string>
     <string name="revanced_sb_about_api_sum">I dati sono forniti dall\'API di SponsorBlock. Tocca qui per saperne di più e vedere i download per altre piattaforme.</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Varie</string>
+    <string name="revanced_enable_open_links_directly_title">Bypassa il reindirizzamento dei link</string>
+    <string name="revanced_enable_open_links_directly_summary_on">Bypassando i reindirizzamenti degli URL.</string>
+    <string name="revanced_enable_open_links_directly_summary_off">Seguendo la regola predefinita di reindirizzamento.</string>
     <string name="revanced_disable_quic_protocol_title">Disattiva il protocollo QUIC</string>
     <string name="revanced_disable_quic_protocol_summary">"Disattiva il protocollo QUIC di CronetEngine."</string>
     <string name="revanced_enable_debug_logging_title">Attiva il registro del debug</string>
@@ -1723,18 +1732,15 @@ Tocca qui per vedere come emettere una chiave API."</string>
     <string name="revanced_enable_debug_buffer_logging_title">Attiva il registro del debug con il buffer</string>
     <string name="revanced_enable_debug_buffer_logging_summary_on">Il registro del debug include il buffer.</string>
     <string name="revanced_enable_debug_buffer_logging_summary_off">Il registro del debug non include il buffer.</string>
-    <string name="revanced_enable_external_browser_title">Attiva il browser esterno</string>
-    <string name="revanced_enable_external_browser_summary_on">Il browser esterno è attivato.</string>
-    <string name="revanced_enable_external_browser_summary_off">Il browser esterno è disattivato.</string>
-    <string name="revanced_enable_open_links_directly_title">Attiva l\'apertura diretta dei link</string>
-    <string name="revanced_enable_open_links_directly_summary_on">Bypassando i reindirizzamenti degli URL.</string>
-    <string name="revanced_enable_open_links_directly_summary_off">Seguendo la regola predefinita di reindirizzamento.</string>
+    <string name="revanced_enable_external_browser_title">Apri i link nel browser esterno</string>
+    <string name="revanced_enable_external_browser_summary_on">Aprendo i link nel browser esterno.</string>
+    <string name="revanced_enable_external_browser_summary_off">Aprendo i link nel browser dell\'app.</string>
     <string name="revanced_sanitize_sharing_links_title">Sanitizza i link di condivisione</string>
     <string name="revanced_sanitize_sharing_links_summary">Rimuove i parametri di tracciamento dagli URL durante la condivisione dei link.</string>
     <string name="revanced_default_app_settings_title">Apri le impostazioni predefinite dell\'app</string>
-    <string name="revanced_default_app_settings_summary">Per aprire RVX da un\'applicazione esterna, abilita \"Apri collegamenti supportati\" e gli indirizzi web supportati.</string>
+    <string name="revanced_default_app_settings_summary">Per aprire RVX da un\'applicazione esterna, attiva \"Apri collegamenti supportati\" e tutti gli indirizzi web supportati.</string>
     <string name="gms_core_settings_title">Apri GmsCore</string>
-    <string name="gms_core_settings_summary">Attiva la messaggistica cloud per ricevere notifiche.</string>
+    <string name="gms_core_settings_summary">Attiva \"Cloud Messaging\" per ricevere le notifiche di RVX.</string>
     <string name="gms_core_toast_not_installed_message">GmsCore non è installato, installalo</string>
     <string name="gms_core_dialog_title">Azione necessaria</string>
     <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"GmsCore non ha l'autorizzazione per essere eseguito in background.
@@ -1785,6 +1791,8 @@ Tocca il pulsante Continua e consenti le modifiche di ottimizzazione."</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">"Android TV
 <small>(Accesso richiesto)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr_no_auth">"Android VR
+<small>(Nessun accesso richiesto)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
 <small>(PoToken richiesto)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
@@ -1806,6 +1814,7 @@ Nota: AVC ha una risoluzione massima di 1080p, il codec Opus non è disponibile 
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Mostra nelle statistiche per nerd</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Il client usato per recuperare i dati in streaming è visibile nelle statistiche per nerd.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Il client usato per recuperare i dati in streaming è nascosto nelle statistiche per nerd.</string>
+    <string name="revanced_spoof_streaming_data_language_title">Lingua predefinita dello stream audio VR</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <string name="revanced_preference_category_po_token_visitor_data">PoToken / VisitorData</string>
     <string name="revanced_spoof_streaming_data_po_token_title">PoToken da usare</string>

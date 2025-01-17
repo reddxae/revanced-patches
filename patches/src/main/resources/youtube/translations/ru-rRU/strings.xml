@@ -19,6 +19,30 @@
     <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s не установлен.
 Пожалуйста, скачайте %2$s с сайта."</string>
     <string name="revanced_external_downloader_not_installed_warning">%s не установлен. Установите его.</string>
+    <string name="revanced_language_title">Язык RVX</string>
+    <string name="revanced_language_DEFAULT">Язык приложения</string>
+    <string name="revanced_language_AR">عَرَبِيّ</string>
+    <string name="revanced_language_AZ">Azərbaycan</string>
+    <string name="revanced_language_BG">Български</string>
+    <string name="revanced_language_BN">বাংলা</string>
+    <string name="revanced_language_CA">Català</string>
+    <string name="revanced_language_CS">Čeština</string>
+    <string name="revanced_language_DA">Dansk</string>
+    <string name="revanced_language_DE">Deutsch</string>
+    <string name="revanced_language_EL">Ελληνικά</string>
+    <string name="revanced_language_EN">English</string>
+    <string name="revanced_language_ES">Español</string>
+    <string name="revanced_language_ET">Eesti keel</string>
+    <string name="revanced_language_FA">فارسی</string>
+    <string name="revanced_language_FI">Suomalainen</string>
+    <string name="revanced_language_FR">Le français</string>
+    <string name="revanced_language_GU">ગુજરાતી</string>
+    <string name="revanced_language_HI">हिन्दी</string>
+    <string name="revanced_language_HR">Hrvatski</string>
+    <string name="revanced_language_HU">Magyar</string>
+    <string name="revanced_language_ID">Indonesia</string>
+    <string name="revanced_language_IT">Italiano</string>
+    <string name="revanced_language_JA">日本語</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Реклама</string>
     <string name="revanced_hide_fullscreen_ads_title">Полноэкранная реклама</string>
@@ -103,13 +127,6 @@
     <string name="revanced_hide_feed_captions_button_on">Кнопка \"Субтитры\" в ленте скрыта.</string>
     <string name="revanced_hide_feed_captions_button_off">Кнопка \"Субтитры\" в ленте отображена.</string>
     <string name="revanced_hide_carousel_shelf_title">Скрыть рекомендуемые секции</string>
-    <string name="revanced_hide_carousel_shelf_summary">"Скрывает следующие полки:
-• Срочные новости
-• Продолжить просмотр
-• Больше каналов
-• Слушать ещё раз
-• Покупки
-• Смотреть ещё раз"</string>
     <string name="revanced_hide_chips_shelf_title">Полка эпизодов</string>
     <string name="revanced_hide_chips_shelf_on">Полка эпизодов скрыта.</string>
     <string name="revanced_hide_chips_shelf_off">Полка эпизодов отображена.</string>
@@ -143,18 +160,18 @@
     <string name="revanced_hide_playables_title">Встроенные игры</string>
     <string name="revanced_hide_playables_summary_on">Встроенные игры скрыты.</string>
     <string name="revanced_hide_playables_summary_off">Встроенные игры отображены.</string>
-    <string name="revanced_hide_show_more_button_title">Кнопка \"Показать еще\"</string>
-    <string name="revanced_hide_show_more_button_summary_on">Кнопка \"Показать еще\" скрыта.</string>
-    <string name="revanced_hide_show_more_button_summary_off">Кнопка \"Показать еще\" отображена.</string>
     <string name="revanced_hide_feed_search_bar_title">Панель поиска в ленте</string>
     <string name="revanced_hide_feed_search_bar_summary_on">Панель поиска в ленте скрыта.</string>
     <string name="revanced_hide_feed_search_bar_summary_off">Панель поиска в ленте отображена.</string>
-    <string name="revanced_hide_feed_survey_title">Опросы в ленте</string>
-    <string name="revanced_hide_feed_survey_summary_on">Опросы в ленте скрыты.</string>
-    <string name="revanced_hide_feed_survey_summary_off">Опросы в ленте отображены.</string>
+    <string name="revanced_hide_show_more_button_title">Кнопка \"Показать еще\"</string>
+    <string name="revanced_hide_show_more_button_summary_on">Кнопка \"Показать еще\" скрыта.</string>
+    <string name="revanced_hide_show_more_button_summary_off">Кнопка \"Показать еще\" отображена.</string>
     <string name="revanced_hide_subscriptions_carousel_title">Строка иконок с подписками</string>
     <string name="revanced_hide_subscriptions_carousel_summary_on">Строка иконок с подписками скрыта.</string>
     <string name="revanced_hide_subscriptions_carousel_summary_off">Строка иконок с подписками отображена.</string>
+    <string name="revanced_hide_feed_survey_title">Опросы в ленте</string>
+    <string name="revanced_hide_feed_survey_summary_on">Опросы в ленте скрыты.</string>
+    <string name="revanced_hide_feed_survey_summary_off">Опросы в ленте отображены.</string>
     <string name="revanced_hide_ticket_shelf_title">Полки билетов</string>
     <string name="revanced_hide_ticket_shelf_summary_on">Полки билетов скрыты.</string>
     <string name="revanced_hide_ticket_shelf_summary_off">Полки билетов отображены.</string>
@@ -473,7 +490,7 @@ Shorts
     <string name="revanced_miniplayer_opacity_title">Непрозрачность мини-плеера</string>
     <string name="revanced_miniplayer_opacity_summary">Значение непрозрачности в промежутке 0-100, где 0 это прозрачный.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">Непрозрачность должна быть в диапазоне 0-100. Сброс по умолчанию.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation Bar -->
     <string name="revanced_preference_screen_navigation_bar_title">Панель навигации</string>
     <string name="revanced_preference_screen_navigation_bar_summary">Настроить компоненты панели навигации.</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">Узкие кнопки навигации</string>
@@ -531,9 +548,6 @@ Shorts
     <string name="revanced_hide_settings_menu_data_saving_title">Экономия трафика</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_on">Экономия трафика скрыта.</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_off">Экономия трафика отображена.</string>
-    <string name="revanced_hide_settings_menu_auto_play_title">Автовоспроизведение</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_on">Автовоспроизведение скрыто.</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_off">Автовоспроизведение отображено.</string>
     <string name="revanced_hide_settings_menu_video_quality_title">Качество видео</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_on">Качество видео скрыто.</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_off">Качество видео отображено.</string>
@@ -940,7 +954,6 @@ Shorts
     <string name="revanced_enable_compact_controls_overlay_summary_on">Наложение элементов управления не полноэкранное.</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">Наложение элементов управления полноэкранное.</string>
     <string name="revanced_keep_landscape_mode_title">Удерживать альбомный режим</string>
-    <string name="revanced_keep_landscape_mode_summary">Удерживает альбомный режим в полноэкранном режиме.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">Сохранять таймаут альбомного режима</string>
     <string name="revanced_keep_landscape_mode_timeout_summary">Количество миллисекунд, в течение которых принудительно работает альбомный режим.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Haptic feedback -->
@@ -1736,6 +1749,9 @@ Shorts
     <string name="revanced_sb_about_api_sum">Данные предоставлены SponsorBlock API. Нажмите здесь, чтобы узнать больше и скачать версии для других платформ.</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Разное</string>
+    <string name="revanced_enable_open_links_directly_title">Перенаправление ссылок</string>
+    <string name="revanced_enable_open_links_directly_summary_on">Обход youtube.com/redirect при открытии ссылок включен.</string>
+    <string name="revanced_enable_open_links_directly_summary_off">Обход youtube.com/redirect при открытии ссылок отключен.</string>
     <string name="revanced_disable_quic_protocol_title">Отключить протокол QUIC</string>
     <string name="revanced_disable_quic_protocol_summary">"Отключает протокол, построенный поверх UDP, переходя на TCP."</string>
     <string name="revanced_enable_debug_logging_title">Журнал отладки</string>
@@ -1747,9 +1763,6 @@ Shorts
     <string name="revanced_enable_external_browser_title">Внешние ссылки</string>
     <string name="revanced_enable_external_browser_summary_on">Внешние ссылки открываются в браузере.</string>
     <string name="revanced_enable_external_browser_summary_off">Внешние ссылки открываются в приложении.</string>
-    <string name="revanced_enable_open_links_directly_title">Перенаправление ссылок</string>
-    <string name="revanced_enable_open_links_directly_summary_on">Обход youtube.com/redirect при открытии ссылок включен.</string>
-    <string name="revanced_enable_open_links_directly_summary_off">Обход youtube.com/redirect при открытии ссылок отключен.</string>
     <string name="revanced_sanitize_sharing_links_title">Очистить ссылки при отправке</string>
     <string name="revanced_sanitize_sharing_links_summary">Убирает параметры отслеживания запросов из URL при отправке ссылки.</string>
     <string name="revanced_default_app_settings_title">Использование по умолчанию</string>

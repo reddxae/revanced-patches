@@ -47,12 +47,12 @@ Probleme cunoscute:
     <string name="revanced_hide_history_button_summary">Ascunde butonul de istoric în bara de instrumente.</string>
     <string name="revanced_spoof_app_version_target_entry_4_27_53">4.27.53 - Dezactivare mod radio în regiunile canadiene</string>
     <!-- PreferenceScreen: Navigation Bar -->
-    <string name="revanced_enable_black_navigation_bar_title">Activare bară neagră de navigare</string>
-    <string name="revanced_enable_black_navigation_bar_summary">Setează culoarea barei de navigare la negru.</string>
     <string name="revanced_hide_navigation_bar_title">Ascunde bara de navigare</string>
     <string name="revanced_hide_navigation_bar_summary">Ascunde bara de navigare.</string>
     <string name="revanced_hide_navigation_label_title">Ascunde eticheta de navigare</string>
     <string name="revanced_hide_navigation_label_summary">Ascunde etichetele în bara de navigare.</string>
+    <string name="revanced_enable_black_navigation_bar_title">Activare bară neagră de navigare</string>
+    <string name="revanced_enable_black_navigation_bar_summary">Setează culoarea barei de navigare la negru.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_enable_color_match_player_title">Activare culori potrivire player</string>
     <string name="revanced_enable_color_match_player_summary">Potrivește culoarea mini player-ului și a player-ului pe tot ecranul.</string>

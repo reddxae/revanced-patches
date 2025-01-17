@@ -100,13 +100,6 @@
     <string name="revanced_hide_feed_captions_button_on">Кнопку субтитрів приховано.</string>
     <string name="revanced_hide_feed_captions_button_off">Кнопку субтитрів показується.</string>
     <string name="revanced_hide_carousel_shelf_title">Приховати карусельну полицю</string>
-    <string name="revanced_hide_carousel_shelf_summary">"Приховати наступні полиці:
-• Важливі новини
-• Продовжити перегляд
-• Переглянути більше каналів
-• Прослухати знову
-• Покупки
-• Переглянути ще раз"</string>
     <string name="revanced_hide_chips_shelf_title">Приховати полицю фішок</string>
     <string name="revanced_hide_chips_shelf_on">Полицю фішок приховано</string>
     <string name="revanced_hide_chips_shelf_off">Полицю фішок показується</string>
@@ -140,18 +133,18 @@
     <string name="revanced_hide_playables_title">Приховати Ігрову кімнату</string>
     <string name="revanced_hide_playables_summary_on">Ігрову кімнату приховано.</string>
     <string name="revanced_hide_playables_summary_off">Ігрову кімнату показується.</string>
-    <string name="revanced_hide_show_more_button_title">Приховати кнопку \'Показати більше\'</string>
-    <string name="revanced_hide_show_more_button_summary_on">Кнопку \'Показати більше\' приховано.</string>
-    <string name="revanced_hide_show_more_button_summary_off">Кнопку \'Показати більше\' показується.</string>
     <string name="revanced_hide_feed_search_bar_title">Приховати панель пошуку</string>
     <string name="revanced_hide_feed_search_bar_summary_on">Панель пошуку приховано.</string>
     <string name="revanced_hide_feed_search_bar_summary_off">Панель пошуку показується.</string>
-    <string name="revanced_hide_feed_survey_title">Приховати опитування</string>
-    <string name="revanced_hide_feed_survey_summary_on">Опитування приховано.</string>
-    <string name="revanced_hide_feed_survey_summary_off">Опитування показується.</string>
+    <string name="revanced_hide_show_more_button_title">Приховати кнопку \'Показати більше\'</string>
+    <string name="revanced_hide_show_more_button_summary_on">Кнопку \'Показати більше\' приховано.</string>
+    <string name="revanced_hide_show_more_button_summary_off">Кнопку \'Показати більше\' показується.</string>
     <string name="revanced_hide_subscriptions_carousel_title">Приховати карусель підписок</string>
     <string name="revanced_hide_subscriptions_carousel_summary_on">Карусель підписок приховано.</string>
     <string name="revanced_hide_subscriptions_carousel_summary_off">Карусель підписок показується.</string>
+    <string name="revanced_hide_feed_survey_title">Приховати опитування</string>
+    <string name="revanced_hide_feed_survey_summary_on">Опитування приховано.</string>
+    <string name="revanced_hide_feed_survey_summary_off">Опитування показується.</string>
     <string name="revanced_hide_ticket_shelf_title">Приховати полицю квитків</string>
     <string name="revanced_hide_ticket_shelf_summary_on">Полиці квитків приховано.</string>
     <string name="revanced_hide_ticket_shelf_summary_off">Полиці квитків показується.</string>
@@ -461,7 +454,7 @@
     <string name="revanced_miniplayer_opacity_title">Непрозорість затемнення</string>
     <string name="revanced_miniplayer_opacity_summary">Значення непрозорості в межах 0-100, де 0 це прозоро.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">Непрозорість затемнення мініплеєра має бути в межах 0-100.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation Bar -->
     <string name="revanced_preference_screen_navigation_bar_title">Панель навігації</string>
     <string name="revanced_preference_screen_navigation_bar_summary">Приховувати чи показувати секцію компонентів панелі навігації.</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">Увімкнути вузькі кнопки навігації</string>
@@ -519,9 +512,6 @@
     <string name="revanced_hide_settings_menu_data_saving_title">Приховати меню Заощадження трафіку</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_on">Меню Заощадження трафіку приховано.</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_off">Меню Заощадження трафіку показується.</string>
-    <string name="revanced_hide_settings_menu_auto_play_title">Приховати меню Автоматичне відтворення</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_on">Меню Автоматичне відтворення приховано.</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_off">Меню Автоматичне відтворення показується.</string>
     <string name="revanced_hide_settings_menu_video_quality_title">Приховати меню Параметри якості відео</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_on">Меню Параметри якості відео приховано.</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_off">Меню Параметри якості відео показується.</string>
@@ -926,7 +916,6 @@
     <string name="revanced_enable_compact_controls_overlay_summary_on">Компактне керування не заповнює весь екран.</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">Компактне керування заповнює весь екран.</string>
     <string name="revanced_keep_landscape_mode_title">Зберігати ландшафтний режим</string>
-    <string name="revanced_keep_landscape_mode_summary">Зберігає ландшафтний режим під час вимкнення та ввімкнення екрана у повноекранному режимі.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">Скільки зберігати ландшафтний режим</string>
     <string name="revanced_keep_landscape_mode_timeout_summary">Кількість мілісекунд примусового ландшафтного режиму.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Haptic feedback -->
@@ -1715,6 +1704,9 @@
     <string name="revanced_sb_about_api_sum">Дані надаються Спонсорблок API. Натисніть тут, щоб дізнатися більше та побачити завантаження для інших платформ</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Різне</string>
+    <string name="revanced_enable_open_links_directly_title">Увімкнути безпосереднє відкриття посилань</string>
+    <string name="revanced_enable_open_links_directly_summary_on">Обхід URL переадресацій.</string>
+    <string name="revanced_enable_open_links_directly_summary_off">Політика перенаправлення.</string>
     <string name="revanced_disable_quic_protocol_title">Вимкнути протокол QUIC</string>
     <string name="revanced_disable_quic_protocol_summary">"Вимкнути протокол CronetEngine's QUIC"</string>
     <string name="revanced_enable_debug_logging_title">Увімкнути журнал налагодження</string>
@@ -1726,9 +1718,6 @@
     <string name="revanced_enable_external_browser_title">Увімкнути зовнішній браузер</string>
     <string name="revanced_enable_external_browser_summary_on">Зовнішній браузер увімкнено.</string>
     <string name="revanced_enable_external_browser_summary_off">Зовнішній браузер вимкнено.</string>
-    <string name="revanced_enable_open_links_directly_title">Увімкнути безпосереднє відкриття посилань</string>
-    <string name="revanced_enable_open_links_directly_summary_on">Обхід URL переадресацій.</string>
-    <string name="revanced_enable_open_links_directly_summary_off">Політика перенаправлення.</string>
     <string name="revanced_sanitize_sharing_links_title">Обробляти поширення посилань</string>
     <string name="revanced_sanitize_sharing_links_summary">Вилучає параметри запиту відстеження з посилань під час поширення посилань.</string>
     <string name="revanced_default_app_settings_title">Відкрити налаштування</string>

@@ -98,12 +98,6 @@
     <string name="revanced_hide_feed_captions_button_on">Бутона за субтити е скрит.</string>
     <string name="revanced_hide_feed_captions_button_off">Бутона за субтити се показва.</string>
     <string name="revanced_hide_carousel_shelf_title">Скриване на рафта с Препоръчани</string>
-    <string name="revanced_hide_carousel_shelf_summary">"Скрива следните рафтове:
-- Извънредни новини
-- Продължете да гледате
-- Разгледайте още канали
-- Пазаруване
-- Гледайте отново"</string>
     <string name="revanced_hide_chips_shelf_title">Скриване на филмовите рафтове</string>
     <string name="revanced_hide_chips_shelf_on">Филмовите рафтове са скрити.</string>
     <string name="revanced_hide_chips_shelf_off">Филмовите рафтове се показват.</string>
@@ -137,18 +131,18 @@
     <string name="revanced_hide_playables_title">Игри в YouTube</string>
     <string name="revanced_hide_playables_summary_on">Игри в YouTube са скрити.</string>
     <string name="revanced_hide_playables_summary_off">Игрите в YouTube се показват.</string>
-    <string name="revanced_hide_show_more_button_title">Скриване на бутона Покажи още</string>
-    <string name="revanced_hide_show_more_button_summary_on">Бутона Покажи още е скрит.</string>
-    <string name="revanced_hide_show_more_button_summary_off">Бутона Покажи още се показва.</string>
     <string name="revanced_hide_feed_search_bar_title">Лента за търсене в емисията</string>
     <string name="revanced_hide_feed_search_bar_summary_on">Лентата за търсене в емисията е скрита.</string>
     <string name="revanced_hide_feed_search_bar_summary_off">Лентата за търсене в емисията се показва.</string>
-    <string name="revanced_hide_feed_survey_title">Скриване на анкети в емисиите</string>
-    <string name="revanced_hide_feed_survey_summary_on">Анкетите за емисии са скрити.</string>
-    <string name="revanced_hide_feed_survey_summary_off">Анкетите за емисии се показват.</string>
+    <string name="revanced_hide_show_more_button_title">Скриване на бутона Покажи още</string>
+    <string name="revanced_hide_show_more_button_summary_on">Бутона Покажи още е скрит.</string>
+    <string name="revanced_hide_show_more_button_summary_off">Бутона Покажи още се показва.</string>
     <string name="revanced_hide_subscriptions_carousel_title">Секция на канала в раздела „Публикации“</string>
     <string name="revanced_hide_subscriptions_carousel_summary_on">Лентата „Абонаменти“ е скрита.</string>
     <string name="revanced_hide_subscriptions_carousel_summary_off">Показва се лентата „Абонаменти“.</string>
+    <string name="revanced_hide_feed_survey_title">Скриване на анкети в емисиите</string>
+    <string name="revanced_hide_feed_survey_summary_on">Анкетите за емисии са скрити.</string>
+    <string name="revanced_hide_feed_survey_summary_off">Анкетите за емисии се показват.</string>
     <string name="revanced_hide_ticket_shelf_title">Секция за билети</string>
     <string name="revanced_hide_ticket_shelf_summary_on">Рафтовете с билети са скрити.</string>
     <string name="revanced_hide_ticket_shelf_summary_off">Рафтовете с билети се показват.</string>
@@ -446,7 +440,7 @@
     <string name="revanced_miniplayer_opacity_title">Прозрачност на менютата</string>
     <string name="revanced_miniplayer_opacity_summary">Стойност на прозрачност между 0-100, където 0 е прозрачно.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">Прозрачността на менюто на плейъра трябва да бъде между 0-100. Нулирайте стойностите по подразбирне.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation Bar -->
     <string name="revanced_preference_screen_navigation_bar_title">Лента за навигация</string>
     <string name="revanced_preference_screen_navigation_bar_summary">Скриване или показване на елементи от лентата за навигация.</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">Бутони за навигация в тесен стил</string>
@@ -504,9 +498,6 @@
     <string name="revanced_hide_settings_menu_data_saving_title">Икономия на данни</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_on">Менюто за икономия на данни е скрито.</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_off">Менюто за икономия на данни се показва.</string>
-    <string name="revanced_hide_settings_menu_auto_play_title">Скрийте менюто „Автоматично пускане“</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_on">Менюто „Автоматично пускане“ е скрито.</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_off">Показва се менюто „Автоматично пускане“.</string>
     <string name="revanced_hide_settings_menu_video_quality_title">Меню „Предпочитания за качество на видеото“</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_on">Менюто ескрито.</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_off">Менюто се показва.</string>
@@ -911,7 +902,6 @@
     <string name="revanced_enable_compact_controls_overlay_summary_on">По-малките стилови контроли са активирани.</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">По-малките стилови контроли са деактивирани.</string>
     <string name="revanced_keep_landscape_mode_title">Запазете пейзажен режим</string>
-    <string name="revanced_keep_landscape_mode_summary">Запазва пейзажен режим при изключване и включване на цял екран.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">Запазване на времето за изчакване в пейзажен режим</string>
     <string name="revanced_keep_landscape_mode_timeout_summary">Броят милисекунди, за да принудите пейзажния режим да работи.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Haptic feedback -->
@@ -1694,6 +1684,9 @@
     <string name="revanced_sb_about_api_sum">Данните са предоставени от SponsorBlock API. Докоснете тук за повече информация и изтеглияния.</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Разни</string>
+    <string name="revanced_enable_open_links_directly_title">Отваряне на връзки директно</string>
+    <string name="revanced_enable_open_links_directly_summary_on">Заобикаляне на URL пренасочвания.</string>
+    <string name="revanced_enable_open_links_directly_summary_off">Следване на правилата за пренасочване по подразбиране.</string>
     <string name="revanced_disable_quic_protocol_title">Изключване на QUIC протокол</string>
     <string name="revanced_disable_quic_protocol_summary">"Изключване на CronetEngine's QUIC протокол."</string>
     <string name="revanced_enable_debug_logging_title">Активиране на регистрирането на грешки</string>
@@ -1705,9 +1698,6 @@
     <string name="revanced_enable_external_browser_title">Включване на външен браузър</string>
     <string name="revanced_enable_external_browser_summary_on">Външния браузър е включен.</string>
     <string name="revanced_enable_external_browser_summary_off">Външния браузър е изключен.</string>
-    <string name="revanced_enable_open_links_directly_title">Отваряне на връзки директно</string>
-    <string name="revanced_enable_open_links_directly_summary_on">Заобикаляне на URL пренасочвания.</string>
-    <string name="revanced_enable_open_links_directly_summary_off">Следване на правилата за пренасочване по подразбиране.</string>
     <string name="revanced_sanitize_sharing_links_title">Почистване на споделените връзки</string>
     <string name="revanced_sanitize_sharing_links_summary">Премахва параметрите на заявката за проследяване от URL адресите при споделяне на връзки.</string>
     <string name="revanced_default_app_settings_title">Отвори настройките по подразбиране</string>

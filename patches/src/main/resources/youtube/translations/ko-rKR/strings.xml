@@ -19,6 +19,59 @@
     <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s 가 설치되어 있지 않습니다.
 웹사이트에서 %2$s 를 다운로드하세요."</string>
     <string name="revanced_external_downloader_not_installed_warning">%s가 설치되지 않았습니다. 설치하세요.</string>
+    <string name="revanced_language_title">RVX 언어</string>
+    <string name="revanced_language_DEFAULT">앱 언어</string>
+    <string name="revanced_language_AR">아랍어</string>
+    <string name="revanced_language_AZ">아제르바이잔어</string>
+    <string name="revanced_language_BG">불가리아어</string>
+    <string name="revanced_language_BN">뱅골어</string>
+    <string name="revanced_language_CA">카탈루냐어</string>
+    <string name="revanced_language_CS">체코어</string>
+    <string name="revanced_language_DA">덴마크어</string>
+    <string name="revanced_language_DE">독일어</string>
+    <string name="revanced_language_EL">그리스어</string>
+    <string name="revanced_language_EN">영어</string>
+    <string name="revanced_language_ES">스페인어</string>
+    <string name="revanced_language_ET">에스토니아어</string>
+    <string name="revanced_language_FA">페르시아어</string>
+    <string name="revanced_language_FI">핀란드어</string>
+    <string name="revanced_language_FR">프랑스어</string>
+    <string name="revanced_language_GU">구자라트어</string>
+    <string name="revanced_language_HI">힌디어</string>
+    <string name="revanced_language_HR">크로아티아어</string>
+    <string name="revanced_language_HU">헝가리어</string>
+    <string name="revanced_language_ID">인도네시아어</string>
+    <string name="revanced_language_IT">이탈리아아</string>
+    <string name="revanced_language_JA">일본어</string>
+    <string name="revanced_language_KK">카자흐어</string>
+    <string name="revanced_language_KO">한국어</string>
+    <string name="revanced_language_LT">리투아니아어</string>
+    <string name="revanced_language_LV">라트비아어</string>
+    <string name="revanced_language_MK">마케도니아어</string>
+    <string name="revanced_language_MN">몽골어</string>
+    <string name="revanced_language_MR">마라티어</string>
+    <string name="revanced_language_MS">말레이어</string>
+    <string name="revanced_language_MY">버마어</string>
+    <string name="revanced_language_NL">네덜란드어</string>
+    <string name="revanced_language_OR">오리야어</string>
+    <string name="revanced_language_PA">펀자브어</string>
+    <string name="revanced_language_PL">폴란드어</string>
+    <string name="revanced_language_PT">포르투갈어</string>
+    <string name="revanced_language_RO">루마니아어</string>
+    <string name="revanced_language_RU">러시아어</string>
+    <string name="revanced_language_SK">슬로바키아어</string>
+    <string name="revanced_language_SL">슬로베니아어</string>
+    <string name="revanced_language_SR">세르비아어</string>
+    <string name="revanced_language_SV">스웨덴어</string>
+    <string name="revanced_language_SW">스와힐리어</string>
+    <string name="revanced_language_TA">타밀어</string>
+    <string name="revanced_language_TE">텔루구어</string>
+    <string name="revanced_language_TH">태국어</string>
+    <string name="revanced_language_TR">터키어</string>
+    <string name="revanced_language_UK">우크라이나어</string>
+    <string name="revanced_language_UR">우르두어</string>
+    <string name="revanced_language_VI">베트남어</string>
+    <string name="revanced_language_ZH">중국어</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">광고</string>
     <string name="revanced_hide_fullscreen_ads_title">전체 화면 광고 숨기기</string>
@@ -102,7 +155,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_feed_captions_button_on">자막 버튼이 숨겨집니다.</string>
     <string name="revanced_hide_feed_captions_button_off">자막 버튼이 표시됩니다.</string>
     <string name="revanced_hide_carousel_shelf_title">좌우 슬라이드형 선반 숨기기</string>
-    <string name="revanced_hide_carousel_shelf_summary">"다음 선반들이 숨겨집니다:
+    <string name="revanced_hide_carousel_shelf_summary_on">"다음 선반이 숨겨집니다:
 • 다시 듣기
 • 다시 시청하기
 • 이어서 시청하기
@@ -111,7 +164,8 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
 • 주요 뉴스, 뉴스 속보
 • 맞춤 실시간 스트림
 • 라이브 쇼핑
-• 보건 정보 출처 ..."</string>
+• 보건 정보 출처, etc."</string>
+    <string name="revanced_hide_carousel_shelf_summary_off">다음 선반이 숨겨집니다:\n• 다시 듣기\n• 다시 시청하기\n• 이어서 시청하기\n• 채널 더보기\n• 이 게임 더보기\n• 주요 뉴스, 뉴스 속보\n• 맞춤 실시간 스트림\n• 라이브 쇼핑\n• 보건 정보 출처, etc.</string>
     <string name="revanced_hide_chips_shelf_title">더 많은 주제 탐색 선반 숨기기</string>
     <string name="revanced_hide_chips_shelf_on">더 많은 주제 탐색 선반이 숨겨집니다.</string>
     <string name="revanced_hide_chips_shelf_off">더 많은 주제 탐색 선반이 표시됩니다.</string>
@@ -145,18 +199,18 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_playables_title">Playables(게임 룸) 선반 숨기기</string>
     <string name="revanced_hide_playables_summary_on">Playables(게임 룸) 선반이 숨겨집니다.\n• YouTube 앱에 내장된 미니 게임\n• 일부 국가에서는 아직 서비스가 제공되지 않습니다.</string>
     <string name="revanced_hide_playables_summary_off">Playables(게임 룸) 선반이 표시됩니다.\n• YouTube 앱에 내장된 미니 게임\n• 일부 국가에서는 아직 서비스가 제공되지 않습니다.</string>
-    <string name="revanced_hide_show_more_button_title">\'자세히 보기\' 버튼 숨기기</string>
-    <string name="revanced_hide_show_more_button_summary_on">\'자세히 보기\' 버튼이 숨겨집니다.</string>
-    <string name="revanced_hide_show_more_button_summary_off">\'자세히 보기\' 버튼이 표시됩니다.</string>
     <string name="revanced_hide_feed_search_bar_title">피드 검색창 숨기기</string>
     <string name="revanced_hide_feed_search_bar_summary_on">피드 검색창이 숨겨집니다.</string>
     <string name="revanced_hide_feed_search_bar_summary_off">피드 검색창이 표시됩니다.</string>
-    <string name="revanced_hide_feed_survey_title">피드 설문 조사 숨기기</string>
-    <string name="revanced_hide_feed_survey_summary_on">피드 설문 조사가 숨겨집니다.</string>
-    <string name="revanced_hide_feed_survey_summary_off">피드 설문 조사가 표시됩니다.</string>
+    <string name="revanced_hide_show_more_button_title">\'자세히 보기\' 버튼 숨기기</string>
+    <string name="revanced_hide_show_more_button_summary_on">\'자세히 보기\' 버튼이 숨겨집니다.</string>
+    <string name="revanced_hide_show_more_button_summary_off">\'자세히 보기\' 버튼이 표시됩니다.</string>
     <string name="revanced_hide_subscriptions_carousel_title">구독 채널 섹션 숨기기</string>
     <string name="revanced_hide_subscriptions_carousel_summary_on">구독 피드 상단에서 구독 채널 섹션이 숨겨집니다.</string>
     <string name="revanced_hide_subscriptions_carousel_summary_off">구독 피드 상단에서 구독 채널 섹션이 표시됩니다.</string>
+    <string name="revanced_hide_feed_survey_title">피드 설문 조사 숨기기</string>
+    <string name="revanced_hide_feed_survey_summary_on">피드 설문 조사가 숨겨집니다.</string>
+    <string name="revanced_hide_feed_survey_summary_off">피드 설문 조사가 표시됩니다.</string>
     <string name="revanced_hide_ticket_shelf_title">콘서트 티켓 선반 숨기기</string>
     <string name="revanced_hide_ticket_shelf_summary_on">콘서트 티켓 선반이 숨겨집니다.\n• 일부 국가에서는 아직 서비스가 제공되지 않습니다.</string>
     <string name="revanced_hide_ticket_shelf_summary_off">콘서트 티켓 선반이 표시됩니다.\n• 일부 국가에서는 아직 서비스가 제공되지 않습니다.</string>
@@ -459,7 +513,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_miniplayer_opacity_title">미니 플레이어 오버레이 불투명도</string>
     <string name="revanced_miniplayer_opacity_summary">불투명도 값은 0-100 사이이며, 0은 투명입니다.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">미니 플레이어 오버레이 불투명도 값은 0-100 사이어야 합니다.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation Bar -->
     <string name="revanced_preference_screen_navigation_bar_title">하단바</string>
     <string name="revanced_preference_screen_navigation_bar_summary">하단바에서 섹션 구성요소를 숨기거나 표시할 수 있습니다.</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">좁은 하단바 버튼 활성화하기</string>
@@ -517,9 +571,9 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_settings_menu_data_saving_title">데이터 절약 메뉴 숨기기</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_on">데이터 절약 메뉴가 숨겨집니다.</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_off">데이터 절약 메뉴가 표시됩니다.</string>
-    <string name="revanced_hide_settings_menu_auto_play_title">자동재생 메뉴 숨기기</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_on">자동재생 메뉴가 숨겨집니다.</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_off">자동재생 메뉴가 표시됩니다.</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_title">자동재생 또는 재생 메뉴 숨기기</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_summary_on">자동재생 또는 재생 메뉴가 숨겨집니다.</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_summary_off">자동재생 또는 재생 메뉴가 표시됩니다.</string>
     <string name="revanced_hide_settings_menu_video_quality_title">동영상 화질 환경설정 메뉴 숨기기</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_on">동영상 화질 환경설정 메뉴가 숨겨집니다.</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_off">동영상 화질 환경설정 메뉴가 표시됩니다.</string>
@@ -927,7 +981,8 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_enable_compact_controls_overlay_summary_on">전체 화면에서 컨트롤 오버레이를 작게 표시합니다.</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">전체 화면에서 컨트롤 오버레이를 작게 표시하지 않습니다.</string>
     <string name="revanced_keep_landscape_mode_title">가로 모드 유지하기</string>
-    <string name="revanced_keep_landscape_mode_summary">자동 회전 모드를 켜지 않고, 전체 화면으로 시청 중 화면을 껐다 켰을 때, 가로 모드를 유지합니다.</string>
+    <string name="revanced_keep_landscape_mode_summary_on">화면을 껐다 켜도 동영상을 가로 모드에서 계속 재생합니다.</string>
+    <string name="revanced_keep_landscape_mode_summary_off">화면을 껐다 켜면 동영상을 세로 모드에서 재생합니다.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">가로 모드 유지하기 제한 시간</string>
     <string name="revanced_keep_landscape_mode_timeout_summary">가로 모드로 강제로 유지되는 시간을 지정할 수 있습니다. (밀리초)\n\n화면을 끄고 이 시간이 지나고 다시 켰을 때는 세로 모드로 적용됩니다.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Haptic feedback -->
@@ -1720,6 +1775,9 @@ API Key를 발급받는 방법을 보려면 여기를 누르세요."</string>
     <string name="revanced_sb_about_api_sum">건너뛸 구간의 데이터는 SponsorBlock API에 의해 제공됩니다. 자세한 정보를 보려면 여기를 누르세요.</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">기타</string>
+    <string name="revanced_enable_open_links_directly_title">리다이렉션 없이 링크 바로 열기</string>
+    <string name="revanced_enable_open_links_directly_summary_on">앱 내에서 외부 링크를 열 때, URL 리다이렉션(youtube.com/redirect)을 거치지 않고 다이렉트로 연결됩니다.</string>
+    <string name="revanced_enable_open_links_directly_summary_off">앱 내에서 외부 링크를 열 때, URL 리다이렉션(youtube.com/redirect)을 거쳐서 연결됩니다.</string>
     <string name="revanced_disable_quic_protocol_title">QUIC 프로토콜 비활성화하기</string>
     <string name="revanced_disable_quic_protocol_summary">"QUIC 프로토콜을 비활성화해서 동영상을 불러올 때 발생하는 동영상 압축과 푸는 과정을 제거하여 동영상 로딩 속도를 향상시킵니다. 더 많은 모바일 데이터가 사용되오니 주의하세요."</string>
     <string name="revanced_enable_debug_logging_title">디버그 로깅 활성화하기</string>
@@ -1731,9 +1789,6 @@ API Key를 발급받는 방법을 보려면 여기를 누르세요."</string>
     <string name="revanced_enable_external_browser_title">외부 브라우저 사용하기</string>
     <string name="revanced_enable_external_browser_summary_on">앱 내에서 외부 링크를 열 때, 외부 브라우저를 사용합니다.</string>
     <string name="revanced_enable_external_browser_summary_off">앱 내에서 외부 링크를 열 때, 내부 브라우저를 사용합니다.</string>
-    <string name="revanced_enable_open_links_directly_title">리다이렉션 없이 링크 바로 열기</string>
-    <string name="revanced_enable_open_links_directly_summary_on">앱 내에서 외부 링크를 열 때, URL 리다이렉션(youtube.com/redirect)을 거치지 않고 다이렉트로 연결됩니다.</string>
-    <string name="revanced_enable_open_links_directly_summary_off">앱 내에서 외부 링크를 열 때, URL 리다이렉션(youtube.com/redirect)을 거쳐서 연결됩니다.</string>
     <string name="revanced_sanitize_sharing_links_title">추적 쿼리를 제거한 링크 공유하기</string>
     <string name="revanced_sanitize_sharing_links_summary">링크를 공유할 때, URL에서 추적 쿼리 매개변수를 제거합니다. (URL의 뒷부분 \'?si=...\' 이 제거됨.)</string>
     <string name="revanced_default_app_settings_title">기본 앱 설정 열기</string>
@@ -1792,6 +1847,8 @@ GmsCore 앱 배터리 최적화를 비활성화(제한 없음)하더라도, 배�
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">"Android TV
 <small>(로그인이 요구됨)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr_no_auth">"Android VR
+<small>(미인증)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
 <small>(PoToken이 요구됨)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
@@ -1818,6 +1875,7 @@ AVC의 최대 화질 값은 1080p이고, OPUS 코덱을 사용불가 및 HDR 동
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">전문 통계에서 표시하기</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">\'스트리밍 데이터를 가져오는 데 사용되는 클라이언트\'가 전문 통계에서 표시됩니다.\n\n• 만약 선택한 기본 클라이언트가 재생할 수 없는 동영상을 재생하려하거나 클라이언트 재생 문제가 발생하면, 그 문제를 해결하기 위해 다른 클라이언트가 사용되는 경우도 있기 때문에 전문 통계에서 다르게 표시될 수 있습니다.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">\'스트리밍 데이터를 가져오는 데 사용되는 클라이언트\'가 전문 통계에서 숨겨집니다.\n\n• 만약 선택한 기본 클라이언트가 재생할 수 없는 동영상을 재생하려하거나 클라이언트 재생 문제가 발생하면, 그 문제를 해결하기 위해 다른 클라이언트가 사용되는 경우도 있기 때문에 전문 통계에서 다르게 표시될 수 있습니다.</string>
+    <string name="revanced_spoof_streaming_data_language_title">Android VR 기본 오디오 스트림 언어</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <string name="revanced_preference_category_po_token_visitor_data">PoToken / VisitorData</string>
     <string name="revanced_spoof_streaming_data_po_token_title">사용할 PoToken</string>

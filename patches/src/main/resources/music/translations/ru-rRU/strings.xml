@@ -178,8 +178,6 @@
     <string name="revanced_spoof_app_version_target_entry_7_16_53">7.16.53 - Восстановить старую панель действий</string>
     <!-- PreferenceScreen: Navigation Bar -->
     <string name="revanced_preference_screen_navigation_title">Панель навигации</string>
-    <string name="revanced_enable_black_navigation_bar_title">Чёрная панель навигации</string>
-    <string name="revanced_enable_black_navigation_bar_summary">Устанавливает чёрный цвет панели навигации.</string>
     <string name="revanced_hide_navigation_home_button_title">Скрыть кнопку \"Главная\"</string>
     <string name="revanced_hide_navigation_home_button_summary">Скрывает кнопку \"Главная\".</string>
     <string name="revanced_hide_navigation_samples_button_title">Скрыть кнопку \"Семплы\"</string>
@@ -194,6 +192,8 @@
     <string name="revanced_hide_navigation_bar_summary">Скрывает панель навигации.</string>
     <string name="revanced_hide_navigation_label_title">Скрыть подписи кнопок навигации</string>
     <string name="revanced_hide_navigation_label_summary">Скрывает подписи под кнопками навигации.</string>
+    <string name="revanced_enable_black_navigation_bar_title">Чёрная панель навигации</string>
+    <string name="revanced_enable_black_navigation_bar_summary">Устанавливает чёрный цвет панели навигации.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Плеер</string>
     <string name="revanced_enable_mini_player_next_button_title">Включить кнопку следующего в миниплеере</string>

@@ -102,14 +102,6 @@ Nhấn vào đây để tìm hiểu thêm về DeArrow."</string>
     <string name="revanced_hide_feed_captions_button_on">Nút Phụ đề đã ẩn.</string>
     <string name="revanced_hide_feed_captions_button_off">Nút Phụ đề được hiển thị.</string>
     <string name="revanced_hide_carousel_shelf_title">Ẩn các kệ được cá nhân hoá</string>
-    <string name="revanced_hide_carousel_shelf_summary">"Ẩn các kệ sau:
-
-• Tin nổi bật
-• Tiếp tục xem
-• Khám phá các chủ đề khác
-• Nghe lại
-• Mua sắm
-• Xem lại"</string>
     <string name="revanced_hide_chips_shelf_title">Ẩn kệ danh mục được đề xuất</string>
     <string name="revanced_hide_chips_shelf_on">Kệ danh mục được đề xuất đã ẩn.</string>
     <string name="revanced_hide_chips_shelf_off">Kệ danh mục được đề xuất được hiển thị.</string>
@@ -143,18 +135,18 @@ Nhấn vào đây để tìm hiểu thêm về DeArrow."</string>
     <string name="revanced_hide_playables_title">Ẩn kệ Chơi game trên YouTube</string>
     <string name="revanced_hide_playables_summary_on">Kệ Chơi game trên YouTube đã ẩn.</string>
     <string name="revanced_hide_playables_summary_off">Kệ Chơi game trên YouTube được hiển thị.</string>
-    <string name="revanced_hide_show_more_button_title">Ẩn nút Hiện thêm</string>
-    <string name="revanced_hide_show_more_button_summary_on">Nút Hiện thêm đã ẩn.</string>
-    <string name="revanced_hide_show_more_button_summary_off">Nút Hiện thêm được hiển thị.</string>
     <string name="revanced_hide_feed_search_bar_title">Ẩn thanh tìm kiếm</string>
     <string name="revanced_hide_feed_search_bar_summary_on">Thanh tìm kiếm đã ẩn.</string>
     <string name="revanced_hide_feed_search_bar_summary_off">Thanh tìm kiếm được hiển thị.</string>
-    <string name="revanced_hide_feed_survey_title">Ẩn khảo sát</string>
-    <string name="revanced_hide_feed_survey_summary_on">Khảo sát đã ẩn.</string>
-    <string name="revanced_hide_feed_survey_summary_off">Khảo sát được hiển thị.</string>
+    <string name="revanced_hide_show_more_button_title">Ẩn nút Hiện thêm</string>
+    <string name="revanced_hide_show_more_button_summary_on">Nút Hiện thêm đã ẩn.</string>
+    <string name="revanced_hide_show_more_button_summary_off">Nút Hiện thêm được hiển thị.</string>
     <string name="revanced_hide_subscriptions_carousel_title">Ẩn băng chuyền Kênh đăng ký</string>
     <string name="revanced_hide_subscriptions_carousel_summary_on">Băng chuyền Kênh đăng ký đã ẩn.</string>
     <string name="revanced_hide_subscriptions_carousel_summary_off">Băng chuyền Kênh đăng ký được hiển thị.</string>
+    <string name="revanced_hide_feed_survey_title">Ẩn khảo sát</string>
+    <string name="revanced_hide_feed_survey_summary_on">Khảo sát đã ẩn.</string>
+    <string name="revanced_hide_feed_survey_summary_off">Khảo sát được hiển thị.</string>
     <string name="revanced_hide_ticket_shelf_title">Ẩn kệ bán vé</string>
     <string name="revanced_hide_ticket_shelf_summary_on">Kệ bán vé đã ẩn.</string>
     <string name="revanced_hide_ticket_shelf_summary_off">Kệ bán vé được hiển thị.</string>
@@ -464,7 +456,7 @@ Vuốt trình phát thu nhỏ để mở rộng hoặc đóng."</string>
     <string name="revanced_miniplayer_opacity_title">Độ mờ lớp phủ</string>
     <string name="revanced_miniplayer_opacity_summary">Giá trị độ mờ của lớp phủ trình phát thu nhỏ trong khoảng từ 0 đến 100, trong đó 0 là trong suốt.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">Độ mờ của lớp phủ trình phát thu nhỏ phải nằm trong khoảng 0 - 100.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation Bar -->
     <string name="revanced_preference_screen_navigation_bar_title">Thanh điều hướng</string>
     <string name="revanced_preference_screen_navigation_bar_summary">Ẩn hoặc hiển thị các thành phần trên Thanh điều hướng.</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">Thanh điều hướng thu gọn</string>
@@ -522,9 +514,6 @@ Nếu cài đặt này không có hiệu lực, hãy thử chuyển sang chế �
     <string name="revanced_hide_settings_menu_data_saving_title">Ẩn mục Tiết kiệm dữ liệu</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_on">Mục Tiết kiệm dữ liệu đã ẩn.</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_off">Mục Tiết kiệm dữ liệu được hiển thị.</string>
-    <string name="revanced_hide_settings_menu_auto_play_title">Ẩn mục Tự động phát</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_on">Mục Tự động phát đã ẩn.</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_off">Mục Tự động phát được hiển thị.</string>
     <string name="revanced_hide_settings_menu_video_quality_title">Ẩn mục Lựa chọn ưu tiên về chất lượng video</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_on">Mục Lựa chọn ưu tiên về chất lượng video đã ẩn.</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_off">Mục Lựa chọn ưu tiên về chất lượng video được hiển thị.</string>
@@ -679,7 +668,7 @@ Lưu ý:
     <string name="revanced_hide_suggested_video_end_screen_summary_on">"Video đề xuất ở màn hình kết thúc đã ẩn khi tắt tính năng Tự động phát.
 
 Tính năng Tự động phát có thể thay đổi trong Cài đặt YouTube:
-Cài đặt → Tự động phát → Tự động phát video tiếp theo."</string>
+Cài đặt → Tự động phát/Phát → Tự động phát video tiếp theo"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">Video đề xuất ở màn hình kết thúc được hiển thị.</string>
     <string name="revanced_skip_autoplay_countdown_title">Bỏ qua thời gian đếm ngược trước khi phát</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">Nếu tính năng Tự động phát được bật, video tiếp theo sẽ được phát ngay lập tức mà không cần đếm ngược.</string>
@@ -929,7 +918,6 @@ Hạn chế: Tiêu đề video sẽ biến mất khi nhấn vào."</string>
     <string name="revanced_enable_compact_controls_overlay_summary_on">Lớp phủ điều khiển trình phát thu gọn đã bật.</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">Lớp phủ điều khiển trình phát thu gọn đã tắt.</string>
     <string name="revanced_keep_landscape_mode_title">Giữ chế độ toàn màn hình</string>
-    <string name="revanced_keep_landscape_mode_summary">Giữ chế độ toàn màn hình hoạt động trong lúc bạn tắt và đánh thức thiết bị khi đang xem chế độ toàn màn hình.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">Thời gian giữ chế độ toàn màn hình (mili giây)</string>
     <string name="revanced_keep_landscape_mode_timeout_summary">Số mili giây mà chế độ toàn màn hình được giữ.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Haptic feedback -->
@@ -1647,8 +1635,8 @@ Nhấp vào đây để xem các bước phát hành khóa API."</string>
     <string name="revanced_sb_api_url_changed">URL của API đã thay đổi.</string>
     <string name="revanced_sb_settings_copy">Sao chép</string>
     <string name="revanced_sb_settings_ie">Nhập/Xuất cài đặt</string>
-    <string name="revanced_sb_settings_ie_sum">Cấu hình tệp JSON SponsorBlock của bạn có thể được nhập/xuất tới ReVanced Extended và các nền tảng SponsorBlock khác.</string>
-    <string name="revanced_sb_settings_ie_sum_warning">Cấu hình tệp JSON SponsorBlock của bạn có thể được nhập/xuất tới ReVanced Extended và các nền tảng SponsorBlock khác. Điều này bao gồm cả ID riêng tư của bạn. Vì vậy hãy thật cẩn thận khi chia sẻ nó.</string>
+    <string name="revanced_sb_settings_ie_sum">Cấu hình tệp JSON Chặn nhà tài trợ của bạn có thể được nhập/xuất tới ReVanced Extended và các nền tảng Chặn nhà tài trợ khác.</string>
+    <string name="revanced_sb_settings_ie_sum_warning">Cấu hình tệp JSON Chặn nhà tài trợ của bạn có thể được nhập/xuất tới ReVanced Extended và các nền tảng SponsorBlock khác. Điều này bao gồm cả ID riêng tư của bạn. Vì vậy hãy thật cẩn thận khi chia sẻ nó.</string>
     <string name="revanced_sb_settings_import_successful">Nhập cài đặt thành công.</string>
     <string name="revanced_sb_settings_import_failed">Nhập cài đặt thất bại: %s.</string>
     <string name="revanced_sb_settings_export_failed">Xuất cài đặt thất bại: %s.</string>
@@ -1716,6 +1704,9 @@ Nhấp vào đây để xem các bước phát hành khóa API."</string>
     <string name="revanced_sb_about_api_sum">Dữ liệu này được cung cấp bởi API SponsorBlock. Nhấn vào đây để tìm hiểu thêm và xem các bản tải xuống cho các nền tảng khác.</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Cài đặt khác</string>
+    <string name="revanced_enable_open_links_directly_title">Mở liên kết trực tiếp</string>
+    <string name="revanced_enable_open_links_directly_summary_on">Đang bỏ qua chuyển hướng URL khi mở các liên kết xuất hiện trên YouTube.</string>
+    <string name="revanced_enable_open_links_directly_summary_off">Đang chuyển hướng URL khi mở các liên kết xuất hiện trên YouTube.</string>
     <string name="revanced_disable_quic_protocol_title">Vô hiệu hoá giao thức QUIC</string>
     <string name="revanced_disable_quic_protocol_summary">"Vô hiệu hoá giao thức QUIC của CronetEngine để giảm độ trễ khi phát video."</string>
     <string name="revanced_enable_debug_logging_title">Nhật ký gỡ lỗi</string>
@@ -1727,9 +1718,6 @@ Nhấp vào đây để xem các bước phát hành khóa API."</string>
     <string name="revanced_enable_external_browser_title">Mở liên kết bằng trình duyệt bên ngoài</string>
     <string name="revanced_enable_external_browser_summary_on">Đang mở các liên kết xuất hiện trên YouTube bằng trình duyệt bên ngoài.</string>
     <string name="revanced_enable_external_browser_summary_off">Đang mở các liên kết xuất hiện trên YouTube trong ứng dụng.</string>
-    <string name="revanced_enable_open_links_directly_title">Mở liên kết trực tiếp</string>
-    <string name="revanced_enable_open_links_directly_summary_on">Đang bỏ qua chuyển hướng URL khi mở các liên kết xuất hiện trên YouTube.</string>
-    <string name="revanced_enable_open_links_directly_summary_off">Đang chuyển hướng URL khi mở các liên kết xuất hiện trên YouTube.</string>
     <string name="revanced_sanitize_sharing_links_title">Rút gọn liên kết chia sẻ</string>
     <string name="revanced_sanitize_sharing_links_summary">Rút gọn liên kết chia sẻ bằng cách loại bỏ các tham số truy vết.</string>
     <string name="revanced_default_app_settings_title">Mở theo mặc định</string>
@@ -1754,7 +1742,7 @@ Nhấn vào Tiếp tục và cho phép thay đổi lựa chọn tối ưu hoá p
     <string name="revanced_change_share_sheet_summary_on">Đang sử dụng bảng chia sẻ của hệ thống Android.</string>
     <string name="revanced_change_share_sheet_summary_off">Đang sử dụng bảng chia sẻ trong ứng dụng Youtube.</string>
     <string name="revanced_enable_opus_codec_title">Codec OPUS</string>
-    <string name="revanced_enable_opus_codec_summary">Kích hoạt codec OPUS nếu phản hồi của trình phát bao gồm codec OPUS.</string>
+    <string name="revanced_enable_opus_codec_summary">Kích hoạt bộ giải mã OPUS nếu phản hồi của trình phát bao gồm nó.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings -->
     <string name="revanced_preference_screen_import_export_title">Nhập/Xuất cài đặt</string>
     <string name="revanced_preference_screen_import_export_summary">Nhập hoặc xuất cài đặt.</string>

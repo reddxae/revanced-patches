@@ -102,13 +102,6 @@
     <string name="revanced_hide_feed_captions_button_on">字幕按鈕已隱藏</string>
     <string name="revanced_hide_feed_captions_button_off">字幕按鈕已顯示</string>
     <string name="revanced_hide_carousel_shelf_title">隱藏輪播內容</string>
-    <string name="revanced_hide_carousel_shelf_summary">"隱藏以下分類區：
-・最新消息
-・繼續觀看
-・探索更多頻道
-・再次收聽
-・購物
-・再看一次"</string>
     <string name="revanced_hide_chips_shelf_title">隱藏剪輯</string>
     <string name="revanced_hide_chips_shelf_on">剪輯已隱藏</string>
     <string name="revanced_hide_chips_shelf_off">剪輯已顯示</string>
@@ -142,18 +135,18 @@
     <string name="revanced_hide_playables_title">隱藏 Youtube 遊戲</string>
     <string name="revanced_hide_playables_summary_on">Youtube 遊戲已隱藏</string>
     <string name="revanced_hide_playables_summary_off">Youtube 遊戲已顯示</string>
-    <string name="revanced_hide_show_more_button_title">隱藏「顯示更多」按鈕</string>
-    <string name="revanced_hide_show_more_button_summary_on">「顯示更多」按鈕已隱藏</string>
-    <string name="revanced_hide_show_more_button_summary_off">「顯示更多」按鈕已顯示</string>
     <string name="revanced_hide_feed_search_bar_title">隱藏動態搜尋欄</string>
     <string name="revanced_hide_feed_search_bar_summary_on">動態搜尋欄已隱藏</string>
     <string name="revanced_hide_feed_search_bar_summary_off">動態搜尋欄已顯示</string>
-    <string name="revanced_hide_feed_survey_title">隱藏動態問卷調查</string>
-    <string name="revanced_hide_feed_survey_summary_on">動態問卷調查已隱藏</string>
-    <string name="revanced_hide_feed_survey_summary_off">動態問卷調查已顯示</string>
+    <string name="revanced_hide_show_more_button_title">隱藏「顯示更多」按鈕</string>
+    <string name="revanced_hide_show_more_button_summary_on">「顯示更多」按鈕已隱藏</string>
+    <string name="revanced_hide_show_more_button_summary_off">「顯示更多」按鈕已顯示</string>
     <string name="revanced_hide_subscriptions_carousel_title">隱藏訂閱輪播</string>
     <string name="revanced_hide_subscriptions_carousel_summary_on">訂閱輪播已隱藏。</string>
     <string name="revanced_hide_subscriptions_carousel_summary_off">訂閱輪播已顯示。</string>
+    <string name="revanced_hide_feed_survey_title">隱藏動態問卷調查</string>
+    <string name="revanced_hide_feed_survey_summary_on">動態問卷調查已隱藏</string>
+    <string name="revanced_hide_feed_survey_summary_off">動態問卷調查已顯示</string>
     <string name="revanced_hide_ticket_shelf_title">隱藏購票庫</string>
     <string name="revanced_hide_ticket_shelf_summary_on">購票庫已隱藏</string>
     <string name="revanced_hide_ticket_shelf_summary_off">購票庫已顯示</string>
@@ -460,7 +453,7 @@
     <string name="revanced_miniplayer_opacity_title">覆蓋層不透明度</string>
     <string name="revanced_miniplayer_opacity_summary">不透明度值介於 0-100 之間，其中 0 表示透明</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">小型播放器覆蓋層不透明度必須介於 0-100 之間。重設為預設值。</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation Bar -->
     <string name="revanced_preference_screen_navigation_bar_title">導覽列</string>
     <string name="revanced_preference_screen_navigation_bar_summary">隱藏或顯示導覽列部分組件。</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">啟用窄間距導航按鈕</string>
@@ -518,9 +511,6 @@
     <string name="revanced_hide_settings_menu_data_saving_title">隱藏資料保存選單</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_on">資料保存選單已隱藏。</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_off">資料保存選單已顯示。</string>
-    <string name="revanced_hide_settings_menu_auto_play_title">隱藏自動播放選單</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_on">自動播放選單已隱藏。</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_off">自動播放選單已顯示。</string>
     <string name="revanced_hide_settings_menu_video_quality_title">隱藏影片品質選項選單</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_on">影片品質選項選單已隱藏。</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_off">影片品質選項選單已顯示。</string>
@@ -925,7 +915,6 @@
     <string name="revanced_enable_compact_controls_overlay_summary_on">精簡控制選單已啟用</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">緊湊的播放器佈局已停用</string>
     <string name="revanced_keep_landscape_mode_title">保持橫向模式</string>
-    <string name="revanced_keep_landscape_mode_summary">在全螢幕模式下關閉和開啟螢幕時保持橫向模式。</string>
     <string name="revanced_keep_landscape_mode_timeout_title">保持橫向模式的超時時間</string>
     <string name="revanced_keep_landscape_mode_timeout_summary">已強制橫向模式的毫秒數。</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Haptic feedback -->
@@ -1713,6 +1702,9 @@
 點擊此處了解更多資訊並查看其他平台的下載</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">其他設定</string>
+    <string name="revanced_enable_open_links_directly_title">啟用直接打開連結</string>
+    <string name="revanced_enable_open_links_directly_summary_on">繞過連結重定向</string>
+    <string name="revanced_enable_open_links_directly_summary_off">跟隨預設的重新載入行為</string>
     <string name="revanced_disable_quic_protocol_title">停用 QUIC 協議</string>
     <string name="revanced_disable_quic_protocol_summary">"停用 Cronet 引擎的 QUIC 協議"</string>
     <string name="revanced_enable_debug_logging_title">啟用 Debug 日誌</string>
@@ -1724,9 +1716,6 @@
     <string name="revanced_enable_external_browser_title">啟用外部瀏覽器</string>
     <string name="revanced_enable_external_browser_summary_on">外部瀏覽器已啟用</string>
     <string name="revanced_enable_external_browser_summary_off">外部瀏覽器已停用</string>
-    <string name="revanced_enable_open_links_directly_title">啟用直接打開連結</string>
-    <string name="revanced_enable_open_links_directly_summary_on">繞過連結重定向</string>
-    <string name="revanced_enable_open_links_directly_summary_off">跟隨預設的重新載入行為</string>
     <string name="revanced_sanitize_sharing_links_title">清理共享連結</string>
     <string name="revanced_sanitize_sharing_links_summary">共享連結時，刪除 URL 中的跟蹤查詢參數</string>
     <string name="revanced_default_app_settings_title">開啟預設應用程式設定</string>

@@ -102,12 +102,6 @@ Tippen Sie hier, um mehr über DeArrow zu erfahren."</string>
     <string name="revanced_hide_feed_captions_button_on">Schaltfläche \"Untertitel\" ist versteckt.</string>
     <string name="revanced_hide_feed_captions_button_off">Schaltfläche \"Untertitel\" wird angezeigt.</string>
     <string name="revanced_hide_carousel_shelf_title">Karussellregal ausblenden</string>
-    <string name="revanced_hide_carousel_shelf_summary">"Versteckt folgende Abschnitte:
-- Aktuelle Nachrichten
-- Weiterschauen
-- Entdecke mehr Kanäle
-- Shopping
-- Erneut anschauen"</string>
     <string name="revanced_hide_chips_shelf_title">Chips-Abschnitt verstecken</string>
     <string name="revanced_hide_chips_shelf_on">Chips-Abschnitt wird versteckt.</string>
     <string name="revanced_hide_chips_shelf_off">Chips-Abschnitt wird angezeigt</string>
@@ -141,18 +135,18 @@ Tippen Sie hier, um mehr über DeArrow zu erfahren."</string>
     <string name="revanced_hide_playables_title">Spielbare Elemente ausblenden</string>
     <string name="revanced_hide_playables_summary_on">Spielbare Elemente sind ausgeblendet.</string>
     <string name="revanced_hide_playables_summary_off">Spielbare Elemente werden angezeigt.</string>
-    <string name="revanced_hide_show_more_button_title">Schaltfläche „Mehr anzeigen“ ausblenden</string>
-    <string name="revanced_hide_show_more_button_summary_on">Die Schaltfläche „Mehr anzeigen“ ist ausgeblendet.</string>
-    <string name="revanced_hide_show_more_button_summary_off">Die Schaltfläche „Mehr anzeigen“ wird angezeigt.</string>
     <string name="revanced_hide_feed_search_bar_title">Feed Suchleiste ausblenden</string>
     <string name="revanced_hide_feed_search_bar_summary_on">Feed Suchleiste ist ausgeblendet.</string>
     <string name="revanced_hide_feed_search_bar_summary_off">Feed Suchleiste wird angezeigt.</string>
-    <string name="revanced_hide_feed_survey_title">Feed-Umfragen verstecken</string>
-    <string name="revanced_hide_feed_survey_summary_on">Feed-Umfragen sind versteckt</string>
-    <string name="revanced_hide_feed_survey_summary_off">Feed-Umfragen werden angezeigt</string>
+    <string name="revanced_hide_show_more_button_title">Schaltfläche „Mehr anzeigen“ ausblenden</string>
+    <string name="revanced_hide_show_more_button_summary_on">Die Schaltfläche „Mehr anzeigen“ ist ausgeblendet.</string>
+    <string name="revanced_hide_show_more_button_summary_off">Die Schaltfläche „Mehr anzeigen“ wird angezeigt.</string>
     <string name="revanced_hide_subscriptions_carousel_title">Abonnement-Karussell ausblenden</string>
     <string name="revanced_hide_subscriptions_carousel_summary_on">Abonnement-Karussell ist versteckt.</string>
     <string name="revanced_hide_subscriptions_carousel_summary_off">Karussell für Abonnements wird angezeigt.</string>
+    <string name="revanced_hide_feed_survey_title">Feed-Umfragen verstecken</string>
+    <string name="revanced_hide_feed_survey_summary_on">Feed-Umfragen sind versteckt</string>
+    <string name="revanced_hide_feed_survey_summary_off">Feed-Umfragen werden angezeigt</string>
     <string name="revanced_hide_ticket_shelf_title">Ticket-Abschnitte verstecken</string>
     <string name="revanced_hide_ticket_shelf_summary_on">Ticket-Abschnitte sind versteckt</string>
     <string name="revanced_hide_ticket_shelf_summary_off">Ticket-Abschnitte werden angezeigt</string>
@@ -425,7 +419,7 @@ Manche Komponenten könnten nicht versteckt werden."</string>
     <string name="revanced_miniplayer_opacity_title">Deckkraft der Überlagerung</string>
     <string name="revanced_miniplayer_opacity_summary">Deckkraft Wert zwischen 0-100, wobei 0 transparent ist.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">Die Transparenz des Miniplayers muss zwischen 0-100 liegen. Zurückgesetzt auf Standardwerte.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation Bar -->
     <string name="revanced_preference_screen_navigation_bar_title">Navigationsleiste</string>
     <string name="revanced_preference_screen_navigation_bar_summary">Komponenten der Navigationsleiste ausblenden oder anzeigen.</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">Aktiviere schmale Navigationstasten</string>
@@ -480,9 +474,6 @@ Wenn diese Einstellung nicht wirksam ist, versuchen Sie in den Inkognito-Modus z
     <string name="revanced_hide_settings_menu_data_saving_title">\"Niedrigerer Datenverbrauch\" ausblenden</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_on">\"Niedrigerer Datenverbrauch\" wird ausgeblendet.</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_off">\"Niedrigerer Datenverbrauch\" wird angezeigt.</string>
-    <string name="revanced_hide_settings_menu_auto_play_title">Autoplay ausblenden</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_on">Autoplay wird ausgeblendet.</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_off">Autoplay wird angezeigt.</string>
     <string name="revanced_hide_settings_menu_video_quality_title">Einstellungen für Videoqualität ausblenden</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_on">Einstellungen für Videoqualität wird ausgeblendet.</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_off">Einstellungen für Videoqualität wird angezeigt.</string>
@@ -845,7 +836,6 @@ Einschränkung: Videotitel verschwindet beim Klicken auf den Bildschirm."</strin
     <string name="revanced_enable_compact_controls_overlay_summary_on">Kompaktsteuerungs-Overlay ist aktiviert</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">Kompaktsteuerungs-Overlay ist deaktiviert</string>
     <string name="revanced_keep_landscape_mode_title">Querformat behalten</string>
-    <string name="revanced_keep_landscape_mode_summary">Bewahrt den Querformat beim Ausschalten des Bildschirms im Vollbild.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">Timeout für den Wechsel zum Querformat</string>
     <string name="revanced_keep_landscape_mode_timeout_summary">Die Anzahl der Millisekunden nach dem Einschalten des Bildschirms, nachdem Querformat erzwungen wird.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Haptic feedback -->
@@ -1421,6 +1411,9 @@ Einschränkung: Dislikes werden im Inkognito Modus nicht angezeigt."</string>
     <string name="revanced_sb_about_api_sum">Die Daten werden von der SponsorBlock API bereitgestellt. Tippen Sie hier, um mehr zu erfahren und Downloads für andere Plattformen zu sehen</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Sonstiges</string>
+    <string name="revanced_enable_open_links_directly_title">Links direkt öffnen</string>
+    <string name="revanced_enable_open_links_directly_summary_on">Umgehung von URL-Umleitungen</string>
+    <string name="revanced_enable_open_links_directly_summary_off">Standard-Umleitungsrichtlinie folgen</string>
     <string name="revanced_disable_quic_protocol_title">QUIC-Protokoll deaktivieren</string>
     <string name="revanced_disable_quic_protocol_summary">"CronetEngine's QUIC-Protokoll deaktivieren"</string>
     <string name="revanced_enable_debug_logging_title">Debug-Protokollierung aktivieren</string>
@@ -1432,9 +1425,6 @@ Einschränkung: Dislikes werden im Inkognito Modus nicht angezeigt."</string>
     <string name="revanced_enable_external_browser_title">Aktiviere externen Browser</string>
     <string name="revanced_enable_external_browser_summary_on">Externer Browser ist aktiviert</string>
     <string name="revanced_enable_external_browser_summary_off">Externer Browser ist deaktiviert</string>
-    <string name="revanced_enable_open_links_directly_title">Links direkt öffnen</string>
-    <string name="revanced_enable_open_links_directly_summary_on">Umgehung von URL-Umleitungen</string>
-    <string name="revanced_enable_open_links_directly_summary_off">Standard-Umleitungsrichtlinie folgen</string>
     <string name="revanced_default_app_settings_title">Standard-App-Einstellungen öffnen</string>
     <string name="revanced_default_app_settings_summary">Um RVX in einem externen Browser zu öffnen, aktivieren Sie \'Unterstützte Links öffnen\' und aktivieren Sie die unterstützen Web-Adressen</string>
     <string name="gms_core_settings_title">GmsCore öffnen</string>

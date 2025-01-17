@@ -100,13 +100,6 @@
     <string name="revanced_hide_feed_captions_button_on">Κρυμμένο.</string>
     <string name="revanced_hide_feed_captions_button_off">Εμφανίζεται.</string>
     <string name="revanced_hide_carousel_shelf_title">Οριζόντιες ενότητες προτάσεων</string>
-    <string name="revanced_hide_carousel_shelf_summary">"Απόκρυψη ενοτήτων όπως:
-• Έκτακτη είδηση
-• Συνέχεια παρακολούθησης
-• Εξερευνήστε περισσότερα κανάλια
-• Ακούστε ξανά
-• Αγορές
-• Παρακολουθήστε ξανά"</string>
     <string name="revanced_hide_chips_shelf_title">Ενότητα σχετιζόμενων λέξεων</string>
     <string name="revanced_hide_chips_shelf_on">Κρυμμένη.</string>
     <string name="revanced_hide_chips_shelf_off">Εμφανίζεται.</string>
@@ -140,18 +133,18 @@
     <string name="revanced_hide_playables_title">Παιχνίδια YouTube</string>
     <string name="revanced_hide_playables_summary_on">Κρυμμένα.</string>
     <string name="revanced_hide_playables_summary_off">Εμφανίζονται.</string>
-    <string name="revanced_hide_show_more_button_title">Κουμπί «Εμφάνιση περισσότερων»</string>
-    <string name="revanced_hide_show_more_button_summary_on">Κρυμμένο.</string>
-    <string name="revanced_hide_show_more_button_summary_off">Εμφανίζεται.</string>
     <string name="revanced_hide_feed_search_bar_title">Γραμμή αναζήτησης</string>
     <string name="revanced_hide_feed_search_bar_summary_on">Κρυμμένη.</string>
     <string name="revanced_hide_feed_search_bar_summary_off">Εμφανίζεται.</string>
-    <string name="revanced_hide_feed_survey_title">Έρευνες</string>
-    <string name="revanced_hide_feed_survey_summary_on">Κρυμμένες.</string>
-    <string name="revanced_hide_feed_survey_summary_off">Εμφανίζονται.</string>
+    <string name="revanced_hide_show_more_button_title">Κουμπί «Εμφάνιση περισσότερων»</string>
+    <string name="revanced_hide_show_more_button_summary_on">Κρυμμένο.</string>
+    <string name="revanced_hide_show_more_button_summary_off">Εμφανίζεται.</string>
     <string name="revanced_hide_subscriptions_carousel_title">Ενότητα καναλιών καρτέλας «Εγγραφές»</string>
     <string name="revanced_hide_subscriptions_carousel_summary_on">Κρυμμένη.</string>
     <string name="revanced_hide_subscriptions_carousel_summary_off">Εμφανίζεται.</string>
+    <string name="revanced_hide_feed_survey_title">Έρευνες</string>
+    <string name="revanced_hide_feed_survey_summary_on">Κρυμμένες.</string>
+    <string name="revanced_hide_feed_survey_summary_off">Εμφανίζονται.</string>
     <string name="revanced_hide_ticket_shelf_title">Ενότητα εισιτηρίων</string>
     <string name="revanced_hide_ticket_shelf_summary_on">Κρυμμένη.</string>
     <string name="revanced_hide_ticket_shelf_summary_off">Εμφανίζεται.</string>
@@ -459,7 +452,7 @@ Playlists
     <string name="revanced_miniplayer_opacity_title">Αδιαφάνεια φόντου παρασκηνίου</string>
     <string name="revanced_miniplayer_opacity_summary">Τιμή αδιαφάνειας μεταξύ 0-100, όπου το 0 είναι διαφανές.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">Η αδιαφάνεια πρέπει να ναι μεταξύ 0-100.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation Bar -->
     <string name="revanced_preference_screen_navigation_bar_title">Γραμμή πλοήγησης</string>
     <string name="revanced_preference_screen_navigation_bar_summary">Απόκρυψη ή εμφάνιση των στοιχείων της γραμμής πλοήγησης.</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">Κουμπιά πλοήγησης στενού στυλ</string>
@@ -517,9 +510,6 @@ Playlists
     <string name="revanced_hide_settings_menu_data_saving_title">Μενού «Εξοικονόμηση δεδομένων»</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_on">Κρυμμένο.</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_off">Εμφανίζεται.</string>
-    <string name="revanced_hide_settings_menu_auto_play_title">Μενού «Αυτόματη αναπαραγωγή»</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_on">Κρυμμένο.</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_off">Εμφανίζεται.</string>
     <string name="revanced_hide_settings_menu_video_quality_title">Μενού «Προτιμήσεις ποιότητας βίντεο»</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_on">Κρυμμένο.</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_off">Εμφανίζεται.</string>
@@ -929,7 +919,6 @@ Playlists
     <string name="revanced_enable_compact_controls_overlay_summary_on">Τα στοιχεία ελέγχου μικρότερου στυλ είναι ενεργοποιημένα.</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">Τα στοιχεία ελέγχου μικρότερου στυλ είναι απενεργοποιημένα.</string>
     <string name="revanced_keep_landscape_mode_title">Διατήρηση οριζόντιας λειτουργίας</string>
-    <string name="revanced_keep_landscape_mode_summary">Διατήρηση της οριζόντιας λειτουργίας στο κλείσιμο και άνοιγμα της οθόνης ενώ βρίσκεστε σε λειτουργία πλήρους οθόνης.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">Χρονικό όριο οριζόντιας λειτουργίας</string>
     <string name="revanced_keep_landscape_mode_timeout_summary">Ο αριθμός των χιλιοστών δευτερολέπτου που θα εξαναγκάζεται η οριζόντια λειτουργία.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Haptic feedback -->
@@ -1737,6 +1726,9 @@ Playlists
     <string name="revanced_sb_about_api_sum">Τα δεδομένα παρέχονται από το SponsorBlock API. Πατήστε για να μάθετε περισσότερα και να δείτε λήψεις για άλλες πλατφόρμες.</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Διάφορα</string>
+    <string name="revanced_enable_open_links_directly_title">Παράκαμψη ανακατευθύνσεων συνδέσμων</string>
+    <string name="revanced_enable_open_links_directly_summary_on">Οι ανακατευθύνσεις URL παρακάμπτονται κατά το άνοιγμα συνδέσμων.</string>
+    <string name="revanced_enable_open_links_directly_summary_off">Οι ανακατευθύνσεις URL δεν παρακάμπτονται κατά το άνοιγμα συνδέσμων.</string>
     <string name="revanced_disable_quic_protocol_title">Απενεργοποίηση πρωτοκόλλου QUIC</string>
     <string name="revanced_disable_quic_protocol_summary">"Απενεργοποίηση πρωτοκόλλου QUIC του CronetEngine.
 
@@ -1750,9 +1742,6 @@ Playlists
     <string name="revanced_enable_external_browser_title">Εξωτερικό πρόγραμμα περιήγησης</string>
     <string name="revanced_enable_external_browser_summary_on">Οι συνδέσμοι ανοίγουν σε εξωτερικό πρόγραμμα περιήγησης.</string>
     <string name="revanced_enable_external_browser_summary_off">Οι συνδέσμοι ανοίγουν εσωτερικά στην εφαρμογή.</string>
-    <string name="revanced_enable_open_links_directly_title">Παράκαμψη ανακατευθύνσεων συνδέσμων</string>
-    <string name="revanced_enable_open_links_directly_summary_on">Οι ανακατευθύνσεις URL παρακάμπτονται κατά το άνοιγμα συνδέσμων.</string>
-    <string name="revanced_enable_open_links_directly_summary_off">Οι ανακατευθύνσεις URL δεν παρακάμπτονται κατά το άνοιγμα συνδέσμων.</string>
     <string name="revanced_sanitize_sharing_links_title">Καθαρισμός συνδέσμων κοινοποίησης</string>
     <string name="revanced_sanitize_sharing_links_summary">Αφαίρεση των παραμέτρων παρακολούθησης από τις διευθύνσεις URL κατά την κοινοποίηση συνδέσμων.</string>
     <string name="revanced_default_app_settings_title">Άνοιγμα ρυθμίσεων προεπιλεγμένων εφαρμογών</string>

@@ -178,8 +178,6 @@ Ez nem kerüli meg a korhatárkorlátozást. Csak automatikusan elfogadja azt."<
     <string name="revanced_spoof_app_version_target_entry_7_16_53">7.16.53 - Régi menüsor visszaállítása</string>
     <!-- PreferenceScreen: Navigation Bar -->
     <string name="revanced_preference_screen_navigation_title">Navigációs sor</string>
-    <string name="revanced_enable_black_navigation_bar_title">Fekete navigációs sor engedélyezése</string>
-    <string name="revanced_enable_black_navigation_bar_summary">A navigációs sor színét átállítja feketére.</string>
     <string name="revanced_hide_navigation_home_button_title">Kezdőlap gomb elrejtése</string>
     <string name="revanced_hide_navigation_home_button_summary">Elrejti a kezdőlap gombot.</string>
     <string name="revanced_hide_navigation_samples_button_title">Minták gomb elrejtése</string>
@@ -194,6 +192,8 @@ Ez nem kerüli meg a korhatárkorlátozást. Csak automatikusan elfogadja azt."<
     <string name="revanced_hide_navigation_bar_summary">Elrejti a navigációs sávot.</string>
     <string name="revanced_hide_navigation_label_title">Navigációs címkék elrejtése</string>
     <string name="revanced_hide_navigation_label_summary">Elrejti a szöveget a navigációs gombok alatt.</string>
+    <string name="revanced_enable_black_navigation_bar_title">Fekete navigációs sor engedélyezése</string>
+    <string name="revanced_enable_black_navigation_bar_summary">A navigációs sor színét átállítja feketére.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Lejátszó</string>
     <string name="revanced_enable_mini_player_next_button_title">Minilejátszó következő gomb engedélyezése</string>
@@ -402,9 +402,9 @@ Piped instance használatban van, és előfordulhat, hogy az API egyes régiókb
     <string name="revanced_enable_debug_buffer_logging_title">Hibakeresési puffer naplózásának engedélyezése</string>
     <string name="revanced_enable_debug_buffer_logging_summary">Beleírja a puffert a hibakeresési naplóba.</string>
     <string name="revanced_enable_opus_codec_title">Opus codec engedélyezése</string>
-    <string name="revanced_enable_opus_codec_summary">"Az opus audio codec engedélyezése az mp4a audio codec helyett.
+    <string name="revanced_enable_opus_codec_summary">"Az OPUS codec engedélyezése, ha a lejátszó válasza tartalmazza az OPUS codec-et.
 
-Info:
+Információk:
 • A legújabb Android-kliensek alapértelmezés szerint az opus audio codec-et használják.
 • Ez csak a nagyon régi klienseket használó felhasználókra érvényes."</string>
     <string name="revanced_sanitize_sharing_links_title">Megosztási linkek tisztítása</string>

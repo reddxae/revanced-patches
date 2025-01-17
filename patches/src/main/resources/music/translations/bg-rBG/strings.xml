@@ -171,8 +171,6 @@
     <string name="revanced_spoof_app_version_target_entry_6_11_52">6.11.52 -Изключва речта в реално време</string>
     <!-- PreferenceScreen: Navigation Bar -->
     <string name="revanced_preference_screen_navigation_title">Лента за навигация</string>
-    <string name="revanced_enable_black_navigation_bar_title">Включване на черна навигационна лента</string>
-    <string name="revanced_enable_black_navigation_bar_summary">Задава цвета на лентата за навигация на черен.</string>
     <string name="revanced_hide_navigation_home_button_title">Скриване на бутон за Начало</string>
     <string name="revanced_hide_navigation_home_button_summary">Скрива бутона \"Начало\".</string>
     <string name="revanced_hide_navigation_explore_button_title">Скриване на бутона \"навигация\"</string>
@@ -181,6 +179,8 @@
     <string name="revanced_hide_navigation_bar_title">Скриване лентата за навигация</string>
     <string name="revanced_hide_navigation_bar_summary">Скриване лентата за навигация.</string>
     <string name="revanced_hide_navigation_label_title">Скриване на навигационен панел</string>
+    <string name="revanced_enable_black_navigation_bar_title">Включване на черна навигационна лента</string>
+    <string name="revanced_enable_black_navigation_bar_summary">Задава цвета на лентата за навигация на черен.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Плеър</string>
     <string name="revanced_enable_color_match_player_title">A játékos színmegfelelésének engedélyezése</string>

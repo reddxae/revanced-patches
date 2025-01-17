@@ -102,13 +102,6 @@ Koppints ide, ha többet szeretnél megtudni a DeArrow-ról."</string>
     <string name="revanced_hide_feed_captions_button_on">A Feliratok gomb el van rejtve.</string>
     <string name="revanced_hide_feed_captions_button_off">A Feliratok gomb megjelenik.</string>
     <string name="revanced_hide_carousel_shelf_title">Forduló polc elrejtése</string>
-    <string name="revanced_hide_carousel_shelf_summary">"A következő polcokat rejtse el:
-• Friss hírek
-• Folytassa a nézést
-• Fedezze fel további csatornákat
-• Hallgassa meg újra
-• Vásárlás
-• Nézze meg újra"</string>
     <string name="revanced_hide_chips_shelf_title">Vágások polc elrejtése</string>
     <string name="revanced_hide_chips_shelf_on">A vágások polc elrejtve.</string>
     <string name="revanced_hide_chips_shelf_off">A vágások polc látható.</string>
@@ -142,18 +135,18 @@ Koppints ide, ha többet szeretnél megtudni a DeArrow-ról."</string>
     <string name="revanced_hide_playables_title">Lejátszható elemek elrejtése</string>
     <string name="revanced_hide_playables_summary_on">A játékszoba rejtett</string>
     <string name="revanced_hide_playables_summary_off">A játékszoba megjelenik</string>
-    <string name="revanced_hide_show_more_button_title">\'Továbbiak megjelenítése\' gomb elrejtése</string>
-    <string name="revanced_hide_show_more_button_summary_on">A gomb el van rejtve</string>
-    <string name="revanced_hide_show_more_button_summary_off">A gomb megjelenik</string>
     <string name="revanced_hide_feed_search_bar_title">Keresősáv elrejtése</string>
     <string name="revanced_hide_feed_search_bar_summary_on">A keresősáv elrejtve.</string>
     <string name="revanced_hide_feed_search_bar_summary_off">A keresősáv látható.</string>
-    <string name="revanced_hide_feed_survey_title">Kérdőívek elrejtése</string>
-    <string name="revanced_hide_feed_survey_summary_on">A kérdőívek elrejtve.</string>
-    <string name="revanced_hide_feed_survey_summary_off">A kérdőívek megjelennek.</string>
+    <string name="revanced_hide_show_more_button_title">\'Továbbiak megjelenítése\' gomb elrejtése</string>
+    <string name="revanced_hide_show_more_button_summary_on">A gomb el van rejtve</string>
+    <string name="revanced_hide_show_more_button_summary_off">A gomb megjelenik</string>
     <string name="revanced_hide_subscriptions_carousel_title">Feliratkozások rész elrejtése</string>
     <string name="revanced_hide_subscriptions_carousel_summary_on">A feliratkozások rész elrejtve.</string>
     <string name="revanced_hide_subscriptions_carousel_summary_off">A feliratkozások rész látható.</string>
+    <string name="revanced_hide_feed_survey_title">Kérdőívek elrejtése</string>
+    <string name="revanced_hide_feed_survey_summary_on">A kérdőívek elrejtve.</string>
+    <string name="revanced_hide_feed_survey_summary_off">A kérdőívek megjelennek.</string>
     <string name="revanced_hide_ticket_shelf_title">Jegy polcok elrejtése</string>
     <string name="revanced_hide_ticket_shelf_summary_on">A jegy polcok elrejtve.</string>
     <string name="revanced_hide_ticket_shelf_summary_off">A jegy polcok láthatóak.</string>
@@ -463,7 +456,7 @@ Csúsztasson a kibontáshoz vagy bezáráshoz."</string>
     <string name="revanced_miniplayer_opacity_title">Átfedés átlátszósága</string>
     <string name="revanced_miniplayer_opacity_summary">Átlátszósági érték 0 és 100 között, ahol a 0 az átlátszó.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">A minilejátszó átlátszóságának 0 és 100 között kell lennie. Visszaállítás alapértelmezettre.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation Bar -->
     <string name="revanced_preference_screen_navigation_bar_title">Navigációs sáv</string>
     <string name="revanced_preference_screen_navigation_bar_summary">Navigációs sáv komponenseinek láthatósága.</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">Keskeny navigációs gombok engedélyezése</string>
@@ -521,9 +514,6 @@ Ha ez a beállítás nem működik, váltson inkognító módra."</string>
     <string name="revanced_hide_settings_menu_data_saving_title">Adatmegtakarító menü elejtése</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_on">Az adatmegtakarító menü el van rejtve.</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_off">Az adatmegtakarító menü látható.</string>
-    <string name="revanced_hide_settings_menu_auto_play_title">Automatikus lejátszás menü elrejtése</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_on">Az automatikus lejátszás menü el van rejtve.</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_off">Az automatikus lejátszás menü látható.</string>
     <string name="revanced_hide_settings_menu_video_quality_title">Videóminőség beállítás menü elrejtése</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_on">A videóminőség beállítás menü el van rejtve.</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_off">A videóminőség beállítás menü látható.</string>
@@ -926,7 +916,6 @@ Korlátozás: A videó címe eltűnik, ha rákattint."</string>
     <string name="revanced_enable_compact_controls_overlay_summary_on">A vezérlők nem töltik ki a teljes képernyőt.</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">A vezérlők kitöltik a teljes képernyőt.</string>
     <string name="revanced_keep_landscape_mode_title">Tartsa a fekvő módot</string>
-    <string name="revanced_keep_landscape_mode_summary">Megtartja a fekvő módot a képernyő ki- és bekapcsolásakor teljes képernyőn.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">Fekvő mód tartás időtúllépése</string>
     <string name="revanced_keep_landscape_mode_timeout_summary">Az ezredmásodpercek száma, amelyek alatt a tájkép mód erőltetett, miután a képernyőt bekapcsolták.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Haptic feedback -->
@@ -1539,7 +1528,7 @@ Kattintson az API-kulcs kiadás folyamatának megtekintéséhez."</string>
     <string name="revanced_sb_enable_voting_sum_off">A szegmens szavazógomb nem látható.</string>
     <string name="revanced_sb_enable_compact_skip_button">Kompakt kihagyás gomb használata</string>
     <string name="revanced_sb_enable_compact_skip_button_sum_on">A kihagyás gomb minimális szélességre formázva.</string>
-    <string name="revanced_sb_enable_compact_skip_button_sum_off">A kihagyás gomb a legjobb megjelenésre formázva</string>
+    <string name="revanced_sb_enable_compact_skip_button_sum_off">A kihagyás gomb a legjobb megjelenésre formázva.</string>
     <string name="revanced_sb_enable_auto_hide_skip_segment_button">Automatikusan elrejti a kihagyás gombot</string>
     <string name="revanced_sb_enable_auto_hide_skip_segment_button_sum_on">A kihagyás gomb néhány másodperc után eltűnik.</string>
     <string name="revanced_sb_enable_auto_hide_skip_segment_button_sum_off">A kihagyás gomb a teljes szakasz alatt megjelenik.</string>
@@ -1560,15 +1549,15 @@ Kattintson az API-kulcs kiadás folyamatának megtekintéséhez."</string>
     <string name="revanced_sb_segments_highlight">Kiemelt</string>
     <string name="revanced_sb_segments_highlight_sum">A videónak azon része, amit a legtöbben keresnek.</string>
     <string name="revanced_sb_segments_intro">Megszakítás / Intro animáció</string>
-    <string name="revanced_sb_segments_intro_sum">Egy részlet tartalom nélkül. Lehet szünet, álló képkocka, vagy ismétlődő animáció. Nem használandó információt tartalmazó átmeneteknél</string>
-    <string name="revanced_sb_segments_outro">Záróképernyő/Köszönetek</string>
-    <string name="revanced_sb_segments_outro_sum">Stáblista, vagy amikor megjelennek a YouTube zárókártyák. Nem tartozik bele az információt tartalmazó összegzés</string>
-    <string name="revanced_sb_segments_preview">Előzetes/Ismétlés</string>
-    <string name="revanced_sb_segments_preview_sum">Olyan klipek gyűjteménye, amik azt mutatják, hogy mi következik majd ebben, vagy a sorozat más videóiban és minden információ megismétlődik később a videóban</string>
-    <string name="revanced_sb_segments_filler">Érintőleges tartalom/Viccek</string>
-    <string name="revanced_sb_segments_filler_sum">Csak töltelék vagy humornak hozzáadott részek, amik nem szükségesek a videó fő tartalmának megértéséhez. Ne tartalmazzon olyan szegmenseket, amik kontextust, vagy háttérinformációt szolgáltatnak</string>
+    <string name="revanced_sb_segments_intro_sum">Egy részlet tényleges tartalom nélkül. Lehet szünet, álló képkocka, vagy ismétlődő animáció. Ne használja információt tartalmazó átmeneteknél.</string>
+    <string name="revanced_sb_segments_outro">Záróképernyő / Köszönetek</string>
+    <string name="revanced_sb_segments_outro_sum">Stáblista, vagy amikor megjelennek a YouTube zárókártyák. Nem tartozik bele az információt tartalmazó összegzés.</string>
+    <string name="revanced_sb_segments_preview">Előzetes / Ismétlés / Visszautalás</string>
+    <string name="revanced_sb_segments_preview_sum">Olyan szakaszok, amik azt mutatják, hogy mi következik majd ebben, vagy a sorozat más videóiban és minden információ megismétlődik később a videóban.</string>
+    <string name="revanced_sb_segments_filler">Témától eltérő rész / Viccek</string>
+    <string name="revanced_sb_segments_filler_sum">Témától eltérő vagy humoros hozzáadott részek, amik nem szükségesek a videó fő tartalmának megértéséhez. Ne tartalmazzon olyan szegmenseket, amik kontextust, vagy háttérinformációt szolgáltatnak.</string>
     <string name="revanced_sb_segments_nomusic">Zene: zenementes rész</string>
-    <string name="revanced_sb_segments_nomusic_sum">Csak zenei videókhoz használható. Zenei videók zene nélküli részei, amelyek még nem tartoznak más kategóriába</string>
+    <string name="revanced_sb_segments_nomusic_sum">Csak zenei videókhoz használandó. Zenei videók zene nélküli részei, amelyek nem tartoznak más kategóriába.</string>
     <string name="revanced_sb_skip_button_compact">Kihagyás</string>
     <string name="revanced_sb_skip_button_compact_highlight">Kiemelt rész</string>
     <string name="revanced_sb_skip_button_sponsor">Szponzor kihagyása</string>
@@ -1624,7 +1613,7 @@ Kattintson az API-kulcs kiadás folyamatának megtekintéséhez."</string>
     <string name="revanced_sb_guidelines_preference_sum">Az irányelvek szabályokat és ötleteket tartalmaznak a szegmensek beküldésével kapcsolatban.</string>
     <string name="revanced_sb_guidelines_popup_title">Kövesse az irányelveket</string>
     <string name="revanced_sb_guidelines_popup_content">Olvassa el a SponsorBlock irányelveket szegmensek beküldése előtt.</string>
-    <string name="revanced_sb_guidelines_popup_already_read">Már elolvastam</string>
+    <string name="revanced_sb_guidelines_popup_already_read">Már elolvasva</string>
     <string name="revanced_sb_guidelines_popup_open">Mutasd</string>
     <!-- PreferenceScreen: SponsorBlock, PreferenceCategory: General -->
     <string name="revanced_sb_general">Általános</string>
@@ -1632,45 +1621,45 @@ Kattintson az API-kulcs kiadás folyamatának megtekintéséhez."</string>
     <string name="revanced_sb_toast_on_connection_error_summary_on">Üzenet látható, ha a SponsorBlock nem elérhető.</string>
     <string name="revanced_sb_toast_on_connection_error_summary_off">Nem látható üzenet, ha a SponsorBlock nem elérhető.</string>
     <string name="revanced_sb_general_skipcount">Átugrások számolásának engedélyezése</string>
-    <string name="revanced_sb_general_skipcount_sum_on">Értesíti a SponsorBlock ranglistáját, hogy mennyi időt takarított meg. Minden egyes szakasz kihagyásakor üzenetet küld a ranglistának</string>
-    <string name="revanced_sb_general_skipcount_sum_off">A kihagyások számának követése nem engedélyezett</string>
+    <string name="revanced_sb_general_skipcount_sum_on">Értesíti a SponsorBlock ranglistáját, hogy mennyi időt takarított meg. Minden egyes szakasz kihagyásakor üzenetet küld a ranglistának.</string>
+    <string name="revanced_sb_general_skipcount_sum_off">A kihagyások számának követése nem engedélyezett.</string>
     <string name="revanced_sb_general_min_duration">Minimális szegmens időtartam</string>
     <string name="revanced_sb_general_min_duration_sum">A beállított értéknél (másodpercben) rövidebb szakaszokat nem hagyja ki vagy jeleníti meg.</string>
     <string name="revanced_sb_general_min_duration_invalid">Érvénytelen időtartam.</string>
     <string name="revanced_sb_general_uuid">Az Ön privát felhasználói azonosítója</string>
-    <string name="revanced_sb_general_uuid_sum">Ezt bizalmasan kell kezelni. Olyan mint egy jelszó és senkivel sem ajánlott megosztani. Ha valaki megszerzi, meg tudja személyesíteni önt</string>
-    <string name="revanced_sb_general_uuid_invalid">A privát felhasználói azonosítónak legalább 30 karakter hosszúnak kell lennie</string>
+    <string name="revanced_sb_general_uuid_sum">Ezt bizalmasan kell kezelni. Olyan mint egy jelszó és senkivel sem ajánlott megosztani. Ha valaki megszerzi, meg tudja személyesíteni önt.</string>
+    <string name="revanced_sb_general_uuid_invalid">A privát felhasználói azonosítónak legalább 30 karakter hosszúnak kell lennie.</string>
     <string name="revanced_sb_general_api_url">API URL módosítása</string>
-    <string name="revanced_sb_general_api_url_sum">Az a cím, amelyet a SponsorBlock a szervere eléréséhez használ</string>
-    <string name="revanced_sb_api_url_reset">API URL alaphelyzetbe állítása</string>
-    <string name="revanced_sb_api_url_invalid">API URL érvénytelen</string>
-    <string name="revanced_sb_api_url_changed">API URL megváltoztatva</string>
+    <string name="revanced_sb_general_api_url_sum">Az a cím, amelyet a SponsorBlock a szervere eléréséhez használ.</string>
+    <string name="revanced_sb_api_url_reset">Az API URL visszaállítása.</string>
+    <string name="revanced_sb_api_url_invalid">Az API URL érvénytelen.</string>
+    <string name="revanced_sb_api_url_changed">Az API URL megváltozott.</string>
     <string name="revanced_sb_settings_copy">Másolás</string>
-    <string name="revanced_sb_settings_ie">Beállítások importálása/exportálása</string>
-    <string name="revanced_sb_settings_ie_sum">Az Ön SponsorBlock JSON-konfigurációja, amely importálható/exportálható ReVanced és más SponsorBlock platformokra</string>
-    <string name="revanced_sb_settings_ie_sum_warning">A SponsorBlock JSON-konfigurációja, amely importálható/exportálható a ReVanced és más SponsorBlock platformokra. Ez magában foglalja a privát felhasználói azonosítóját is. Ügyeljen arra, hogy ezt bölcsen ossza meg</string>
-    <string name="revanced_sb_settings_import_successful">A beállítások sikeresen importálva</string>
-    <string name="revanced_sb_settings_import_failed">Nem sikerült importálni ezt: %s</string>
-    <string name="revanced_sb_settings_export_failed">Nem sikerült exportálni ezt: %s</string>
+    <string name="revanced_sb_settings_ie">Beállítások importálása / exportálása</string>
+    <string name="revanced_sb_settings_ie_sum">A SponsorBlock JSON konfigurációja, amely importálható / exportálható ReVanced Extended és más SponsorBlock platformokra.</string>
+    <string name="revanced_sb_settings_ie_sum_warning">A SponsorBlock JSON konfigurációja, amely importálható / exportálható a ReVanced Extended és más SponsorBlock platformokra. Ez magában foglalja a privát felhasználói azonosítóját is. Ügyeljen arra, hogy ezt bölcsen ossza meg.</string>
+    <string name="revanced_sb_settings_import_successful">A beállítások sikeresen importálva.</string>
+    <string name="revanced_sb_settings_import_failed">Nem sikerült importálni: %s.</string>
+    <string name="revanced_sb_settings_export_failed">Nem sikerült exportálni: %s.</string>
     <string name="revanced_sb_settings_revanced_export_user_id_warning">A beállításai tartalmazzák a privát SponsorBlock felhasználói azonosítót.\n\nA felhasználói azonosító olyan, mint egy jelszó, és soha nem szabad megosztani.\n</string>
     <string name="revanced_sb_settings_revanced_export_user_id_warning_dismiss">Ne jelenjen meg többet</string>
-    <string name="revanced_sb_sponsorblock_connection_failure_generic">A SponsorBlock átmenetileg nem elérhető</string>
-    <string name="revanced_sb_sponsorblock_connection_failure_status">A SponsorBlock jelenleg nem elérhető (állapot %d)</string>
-    <string name="revanced_sb_sponsorblock_connection_failure_timeout">A SponsorBlock jelenleg nem elérhető (API időtúllépés)</string>
-    <string name="revanced_sb_submit_failed_invalid">Nem lehet beküldeni a szegmenst: %s</string>
-    <string name="revanced_sb_submit_failed_timeout">A SponsorBlock átmenetileg nem működik</string>
-    <string name="revanced_sb_submit_failed_unknown_error">Nem lehet beküldeni a szegmenst (állapot: %1$d %2$s)</string>
-    <string name="revanced_sb_submit_failed_rate_limit">Nem sikerült beküldeni a szegmenst.\nGyakorisági korlát (Túl sok beküldés)</string>
-    <string name="revanced_sb_submit_failed_forbidden">Nem lehet beküldeni a szegmenst: %s</string>
-    <string name="revanced_sb_submit_failed_duplicate">Nem sikerült beküldeni a szakaszt.\nMár létezik</string>
-    <string name="revanced_sb_submit_succeeded">A szakasz sikeresen beküldve</string>
-    <string name="revanced_sb_vote_failed_timeout">Nem lehet szavazni a szegmensre (API időtúllépés)</string>
-    <string name="revanced_sb_vote_failed_unknown_error">Nem lehet szavazni erre (állapot: %1$d %2$s)</string>
-    <string name="revanced_sb_vote_failed_forbidden">Nem lehet szavazni a szegmensre: %s</string>
-    <string name="revanced_sb_vote_upvote">Pozitív szavazás</string>
+    <string name="revanced_sb_sponsorblock_connection_failure_generic">A SponsorBlock átmenetileg nem elérhető.</string>
+    <string name="revanced_sb_sponsorblock_connection_failure_status">A SponsorBlock átmenetileg nem elérhető (állapot %d).</string>
+    <string name="revanced_sb_sponsorblock_connection_failure_timeout">A SponsorBlock átmenetileg nem elérhető (API időtúllépés).</string>
+    <string name="revanced_sb_submit_failed_invalid">Nem lehet beküldeni a szakaszt: %s.</string>
+    <string name="revanced_sb_submit_failed_timeout">A SponsorBlock átmenetileg nem működik.</string>
+    <string name="revanced_sb_submit_failed_unknown_error">Nem lehet beküldeni a szakaszt (állapot: %1$d %2$s).</string>
+    <string name="revanced_sb_submit_failed_rate_limit">Nem lehet beküldeni a szakaszt.\nGyakorisági korlát (túl sok ugyanattól a felhasználótól vagy IP-ről).</string>
+    <string name="revanced_sb_submit_failed_forbidden">A szakasz nem küldhető be: %s.</string>
+    <string name="revanced_sb_submit_failed_duplicate">A szakasz nem küldhető be.\nMár létezik.</string>
+    <string name="revanced_sb_submit_succeeded">A szakasz sikeresen beküldve.</string>
+    <string name="revanced_sb_vote_failed_timeout">Nem lehet szavazni a szakaszra (API időtúllépés).</string>
+    <string name="revanced_sb_vote_failed_unknown_error">Nem lehet szavazni a szakaszra (állapot: %1$d %2$s).</string>
+    <string name="revanced_sb_vote_failed_forbidden">Nem lehet szavazni a szakaszra: %s.</string>
+    <string name="revanced_sb_vote_upvote">Mellette szavazás</string>
     <string name="revanced_sb_vote_downvote">Leszavazás</string>
-    <string name="revanced_sb_vote_category">Kategória megváltoztatása</string>
-    <string name="revanced_sb_vote_no_segments">Nincsenek szakaszok, amikre szavazni lehet</string>
+    <string name="revanced_sb_vote_category">Kategória módosítása</string>
+    <string name="revanced_sb_vote_no_segments">Nincsen szakasz, amire szavazni lehet.</string>
     <string name="revanced_sb_new_segment_choose_category">Válassza ki a szakasz kategóriáját</string>
     <string name="revanced_sb_new_segment_disabled_category">A kategória letiltva a beállításokban. Engedélyezze a beküldéshez.</string>
     <string name="revanced_sb_new_segment_title">Új SponsorBlock szakasz</string>
@@ -1678,21 +1667,21 @@ Kattintson az API-kulcs kiadás folyamatának megtekintéséhez."</string>
     <string name="revanced_sb_new_segment_mark_start">kezdőpont</string>
     <string name="revanced_sb_new_segment_mark_end">végpont</string>
     <string name="revanced_sb_new_segment_now">most</string>
-    <string name="revanced_sb_new_segment_time_start">A szakasz kezdetének időpontja:</string>
-    <string name="revanced_sb_new_segment_time_end">A szakasz végének időpontja:</string>
+    <string name="revanced_sb_new_segment_time_start">A szakasz kezdetének időpontja</string>
+    <string name="revanced_sb_new_segment_time_end">A szakasz végének időpontja</string>
     <string name="revanced_sb_new_segment_confirm_title">Helyesek az időpontok?</string>
     <string name="revanced_sb_new_segment_confirm_contents">A szegmens:\n\n%1$s-tól\n\n%2$s-ig\n\n(%3$s)\n\nKészen állsz a beküldésre?</string>
-    <string name="revanced_sb_new_segment_start_is_before_end">A kezdetnek a vége előtt kell lennie</string>
-    <string name="revanced_sb_new_segment_mark_locations_first">Előbb jelöljön meg két pontot az idősávon</string>
-    <string name="revanced_sb_new_segment_preview_segment_first">Szakasz előnézete a zökkenőmentesen kihagyás érdekében</string>
-    <string name="revanced_sb_new_segment_edit_by_hand_title">A szakasz időzítésének kézi beállítása</string>
-    <string name="revanced_sb_new_segment_edit_by_hand_content">Akarja szerkeszteni a rész kezdetének vagy végének időzítését?</string>
-    <string name="revanced_sb_new_segment_edit_by_hand_parse_error">Érvénytelen idő van megadva</string>
+    <string name="revanced_sb_new_segment_start_is_before_end">A kezdetnek a vége előtt kell lennie.</string>
+    <string name="revanced_sb_new_segment_mark_locations_first">Előbb jelöljön meg két pontot az idősávon.</string>
+    <string name="revanced_sb_new_segment_preview_segment_first">Szakasz előnézete a zökkenőmentes kihagyás érdekében.</string>
+    <string name="revanced_sb_new_segment_edit_by_hand_title">Szakasz időzítésének kézi beállítása</string>
+    <string name="revanced_sb_new_segment_edit_by_hand_content">Szerkeszteni szeretné a rész kezdetének vagy végének időzítését?</string>
+    <string name="revanced_sb_new_segment_edit_by_hand_parse_error">Érvénytelen a megadott idő.</string>
     <!-- PreferenceScreen: SponsorBlock, PreferenceCategory: Stats -->
     <string name="revanced_sb_stats">Statisztikák</string>
-    <string name="revanced_sb_stats_connection_failure">A statisztikák átmenetileg nem elérhetőek (API leállt)</string>
+    <string name="revanced_sb_stats_connection_failure">A statisztikák átmenetileg nem elérhetőek (API leállt).</string>
     <string name="revanced_sb_stats_loading">Betöltés...</string>
-    <string name="revanced_sb_stats_sb_disabled">A SponsorBlock ki van kapcsolva</string>
+    <string name="revanced_sb_stats_sb_disabled">A SponsorBlock le van tiltva.</string>
     <string name="revanced_sb_stats_username">Az ön felhasználóneve: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="revanced_sb_stats_username_change">Koppintson ide a felhasználónév megváltoztatásához</string>
     <string name="revanced_sb_stats_username_change_unknown_error">A felhasználónév nem módosítható: Állapot: %1$d %2$s</string>
@@ -1705,17 +1694,20 @@ Kattintson az API-kulcs kiadás folyamatának megtekintéséhez."</string>
     <string name="revanced_sb_stats_saved_sum_zero">Koppintson ide a globális statisztikák és a kiemelt közreműködők megtekintéséhez</string>
     <string name="revanced_sb_stats_saved_sum">Ez &lt;b&gt;%s&lt;/b&gt; az életükből.&lt;br&gt;Koppintson a ranglista megtekintéséhez</string>
     <string name="revanced_sb_stats_self_saved">&lt;b&gt;%s&lt;/b&gt; szakaszt kihagyott</string>
-    <string name="revanced_sb_stats_self_saved_sum">Ez &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="revanced_sb_stats_self_saved_sum">Ez &lt;b&gt;%s&lt;/b&gt;.</string>
     <string name="revanced_sb_stats_self_saved_reset_title">Visszaállítja a kihagyott szakaszok számlálóját?</string>
     <string name="revanced_sb_stats_saved_hour_format">%1$s óra %2$s perc</string>
     <string name="revanced_sb_stats_saved_minute_format">%1$s perc %2$s másodperc</string>
     <string name="revanced_sb_stats_saved_second_format">%s másodperc</string>
     <!-- PreferenceScreen: SponsorBlock, PreferenceCategory: About -->
-    <string name="revanced_sb_about">Rólunk</string>
+    <string name="revanced_sb_about">Névjegy</string>
     <string name="revanced_sb_about_api">sponsor.ajay.app</string>
     <string name="revanced_sb_about_api_sum">Az adatokat a SponsorBlock API biztosítja. Koppintson ide, ha többet szeretne megtudni és megtekintené a letöltéseket más platformokra</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Vegyes</string>
+    <string name="revanced_enable_open_links_directly_title">Közvetlen link megnyitások engedélyezése</string>
+    <string name="revanced_enable_open_links_directly_summary_on">Az URL átirányítások kikerülése.</string>
+    <string name="revanced_enable_open_links_directly_summary_off">Az alapértelmezett átirányítási rendet követi.</string>
     <string name="revanced_disable_quic_protocol_title">QUIC protokoll letiltása</string>
     <string name="revanced_disable_quic_protocol_summary">"A CronetEngine QUIC protokoll letiltása."</string>
     <string name="revanced_enable_debug_logging_title">Hibakeresési naplózás engedélyezése</string>
@@ -1727,9 +1719,6 @@ Kattintson az API-kulcs kiadás folyamatának megtekintéséhez."</string>
     <string name="revanced_enable_external_browser_title">Külső böngésző engedélyezése</string>
     <string name="revanced_enable_external_browser_summary_on">A külső böngésző engedélyezve van.</string>
     <string name="revanced_enable_external_browser_summary_off">A külső böngésző le van tiltva.</string>
-    <string name="revanced_enable_open_links_directly_title">Közvetlen link megnyitások engedélyezése</string>
-    <string name="revanced_enable_open_links_directly_summary_on">Az URL átirányítások kikerülése.</string>
-    <string name="revanced_enable_open_links_directly_summary_off">Az alapértelmezett átirányítási rendet követi.</string>
     <string name="revanced_sanitize_sharing_links_title">Megosztási linkek tisztítása</string>
     <string name="revanced_sanitize_sharing_links_summary">Linkek megosztásakor eltávolítja a nyomkövetés lekérdezési paramétereket az URL-ekből.</string>
     <string name="revanced_default_app_settings_title">Alapértelmezett program beállítások megnyitása</string>

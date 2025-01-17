@@ -49,9 +49,14 @@ val dislikeRedirectionPatch = bytecodePatch(
                 val onClickMethod = getWalkerMethod(onClickMethodIndex)
 
                 onClickMethod.apply {
-                    val onClickIndex = indexOfFirstInstructionOrThrow {
-                        val reference =
-                            ((this as? ReferenceInstruction)?.reference as? MethodReference)
+                    val relativeIndex = indexOfFirstInstructionOrThrow {
+                        opcode == Opcode.INVOKE_VIRTUAL &&
+                                getReference<MethodReference>()
+                                    ?.parameterTypes
+                                    ?.contains("Ljava/util/Map;") == true
+                    }
+                    val onClickIndex = indexOfFirstInstructionOrThrow(relativeIndex) {
+                        val reference = getReference<MethodReference>()
 
                         opcode == Opcode.INVOKE_INTERFACE &&
                                 reference?.returnType == "V" &&

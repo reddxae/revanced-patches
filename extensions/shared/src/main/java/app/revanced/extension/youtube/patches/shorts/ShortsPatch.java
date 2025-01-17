@@ -61,6 +61,10 @@ public class ShortsPatch {
         return Settings.DISABLE_RESUMING_SHORTS_PLAYER.get();
     }
 
+    public static boolean disableResumingStartupShortsPlayer(boolean original) {
+        return !Settings.DISABLE_RESUMING_SHORTS_PLAYER.get() && original;
+    }
+
     public static boolean enableShortsTimeStamp(boolean original) {
         return ENABLE_TIME_STAMP || original;
     }

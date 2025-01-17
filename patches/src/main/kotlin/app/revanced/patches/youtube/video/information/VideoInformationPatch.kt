@@ -249,11 +249,13 @@ val videoInformationPatch = bytecodePatch(
             )
 
             val literalIndex = indexOfFirstLiteralInstructionOrThrow(45368273L)
-            val walkerIndex =
-                indexOfFirstInstructionReversedOrThrow(
-                    literalIndex,
-                    Opcode.INVOKE_VIRTUAL_RANGE
-                )
+            val walkerIndex = indexOfFirstInstructionReversedOrThrow(literalIndex) {
+                val reference = getReference<MethodReference>()
+                (opcode == Opcode.INVOKE_VIRTUAL || opcode == Opcode.INVOKE_VIRTUAL_RANGE) &&
+                        reference?.definingClass == definingClass &&
+                        reference.parameterTypes.isEmpty() &&
+                        reference.returnType == "V"
+            }
 
             videoEndMethod = getWalkerMethod(walkerIndex)
         }

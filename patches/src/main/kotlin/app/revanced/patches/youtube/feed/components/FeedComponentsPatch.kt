@@ -10,6 +10,7 @@ import app.revanced.patcher.patch.bytecodePatch
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
 import app.revanced.patcher.util.smali.ExternalLabel
 import app.revanced.patches.shared.litho.addLithoFilter
+import app.revanced.patches.shared.litho.emptyComponentLabel
 import app.revanced.patches.shared.mainactivity.onCreateMethod
 import app.revanced.patches.youtube.utils.bottomsheet.bottomSheetHookPatch
 import app.revanced.patches.youtube.utils.compatibility.Constants.COMPATIBLE_PACKAGE
@@ -21,6 +22,9 @@ import app.revanced.patches.youtube.utils.mainactivity.mainActivityResolvePatch
 import app.revanced.patches.youtube.utils.navigation.navigationBarHookPatch
 import app.revanced.patches.youtube.utils.patch.PatchList.HIDE_FEED_COMPONENTS
 import app.revanced.patches.youtube.utils.playertype.playerTypeHookPatch
+import app.revanced.patches.youtube.utils.playservice.is_18_34_or_greater
+import app.revanced.patches.youtube.utils.playservice.is_20_02_or_greater
+import app.revanced.patches.youtube.utils.playservice.versionCheckPatch
 import app.revanced.patches.youtube.utils.resourceid.bar
 import app.revanced.patches.youtube.utils.resourceid.captionToggleContainer
 import app.revanced.patches.youtube.utils.resourceid.channelListSubMenu
@@ -78,6 +82,7 @@ val feedComponentsPatch = bytecodePatch(
         sharedResourceIdPatch,
         settingsPatch,
         bottomSheetHookPatch,
+        versionCheckPatch,
     )
     execute {
 
@@ -223,19 +228,22 @@ val feedComponentsPatch = bytecodePatch(
 
         // region patch for hide subscriptions channel section for tablet
 
-        arrayOf(
-            channelListSubMenuTabletFingerprint,
-            channelListSubMenuTabletSyntheticFingerprint
-        ).forEach { fingerprint ->
-            fingerprint.methodOrThrow().apply {
-                addInstructionsWithLabels(
-                    0, """
-                        invoke-static {}, $FEED_CLASS_DESCRIPTOR->hideSubscriptionsChannelSection()Z
-                        move-result v0
-                        if-eqz v0, :show
-                        return-void
-                        """, ExternalLabel("show", getInstruction(0))
-                )
+        // Integrated as a litho component since YouTube 20.02.
+        if (!is_20_02_or_greater) {
+            arrayOf(
+                channelListSubMenuTabletFingerprint,
+                channelListSubMenuTabletSyntheticFingerprint
+            ).forEach { fingerprint ->
+                fingerprint.methodOrThrow().apply {
+                    addInstructionsWithLabels(
+                        0, """
+                            invoke-static {}, $FEED_CLASS_DESCRIPTOR->hideSubscriptionsChannelSection()Z
+                            move-result v0
+                            if-eqz v0, :show
+                            return-void
+                            """, ExternalLabel("show", getInstruction(0))
+                    )
+                }
             }
         }
 
@@ -287,29 +295,27 @@ val feedComponentsPatch = bytecodePatch(
             it.method.apply {
                 val freeRegister = implementation!!.registerCount - parameters.size - 2
                 val insertIndex = indexOfFirstInstructionOrThrow {
-                    val reference = ((this as? ReferenceInstruction)?.reference as? MethodReference)
+                    val reference = getReference<MethodReference>()
 
                     reference?.parameterTypes?.size == 1 &&
                             reference.parameterTypes.first() == "[B" &&
                             reference.returnType.startsWith("L")
                 }
 
-                val objectIndex = indexOfFirstInstructionOrThrow(Opcode.MOVE_OBJECT)
+                val objectOpcode = if (is_18_34_or_greater)
+                    Opcode.IGET_OBJECT
+                else
+                    Opcode.MOVE_OBJECT
+                val objectIndex = indexOfFirstInstructionReversedOrThrow(insertIndex, objectOpcode)
                 val objectRegister = getInstruction<TwoRegisterInstruction>(objectIndex).registerA
-
-                val jumpIndex = it.patternMatch!!.startIndex
 
                 addInstructionsWithLabels(
                     insertIndex, """
-                        invoke-static {v$objectRegister, v$freeRegister}, $FEED_COMPONENTS_FILTER_CLASS_DESCRIPTOR->filterMixPlaylists(Ljava/lang/Object;[B)Z
+                        invoke-static {v$objectRegister, p3}, $FEED_COMPONENTS_FILTER_CLASS_DESCRIPTOR->filterMixPlaylists(Ljava/lang/Object;[B)Z
                         move-result v$freeRegister
-                        if-nez v$freeRegister, :filter
-                        """, ExternalLabel("filter", getInstruction(jumpIndex))
-                )
-
-                addInstruction(
-                    0,
-                    "move-object/from16 v$freeRegister, p3"
+                        if-eqz v$freeRegister, :ignore
+                        """ + emptyComponentLabel,
+                    ExternalLabel("ignore", getInstruction(insertIndex))
                 )
             }
         }

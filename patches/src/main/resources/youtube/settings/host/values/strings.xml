@@ -621,9 +621,9 @@ If this setting do not take effect, try switching to Incognito mode."</string>
     <string name="revanced_hide_settings_menu_data_saving_title">Hide Data saving menu</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_on">Data saving menu is hidden.</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_off">Data saving menu is shown.</string>
-    <string name="revanced_hide_settings_menu_auto_play_title">Hide Autoplay menu</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_on">Autoplay menu is hidden.</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_off">Autoplay menu is shown.</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_title">Hide Autoplay or Playback menu</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_summary_on">Autoplay or Playback menu is hidden.</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_summary_off">Autoplay or Playback menu is shown.</string>
     <string name="revanced_hide_settings_menu_video_quality_title">Hide Video quality preferences menu</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_on">Video quality preferences menu is hidden.</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_off">Video quality preferences menu is shown.</string>

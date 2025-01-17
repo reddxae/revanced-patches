@@ -58,6 +58,10 @@ public final class app/revanced/patches/music/general/startpage/ChangeStartPageP
 	public static final fun getChangeStartPagePatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
+public final class app/revanced/patches/music/general/startpage/FingerprintsKt {
+	public static final field DEFAULT_BROWSE_ID Ljava/lang/String;
+}
+
 public final class app/revanced/patches/music/layout/branding/icon/CustomBrandingIconPatchKt {
 	public static final fun getCustomBrandingIconPatch ()Lapp/revanced/patcher/patch/ResourcePatch;
 }
@@ -952,6 +956,7 @@ public final class app/revanced/patches/youtube/utils/playservice/VersionCheckPa
 	public static final fun is_19_43_or_greater ()Z
 	public static final fun is_19_44_or_greater ()Z
 	public static final fun is_19_46_or_greater ()Z
+	public static final fun is_20_02_or_greater ()Z
 }
 
 public final class app/revanced/patches/youtube/utils/recyclerview/RecyclerViewTreeObserverPatchKt {

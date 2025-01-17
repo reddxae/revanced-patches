@@ -22,7 +22,7 @@ import app.revanced.patches.youtube.utils.mainactivity.mainActivityResolvePatch
 import app.revanced.patches.youtube.utils.navigation.navigationBarHookPatch
 import app.revanced.patches.youtube.utils.patch.PatchList.HIDE_FEED_COMPONENTS
 import app.revanced.patches.youtube.utils.playertype.playerTypeHookPatch
-import app.revanced.patches.youtube.utils.playservice.is_18_34_or_greater
+import app.revanced.patches.youtube.utils.playservice.is_19_46_or_greater
 import app.revanced.patches.youtube.utils.playservice.is_20_02_or_greater
 import app.revanced.patches.youtube.utils.playservice.versionCheckPatch
 import app.revanced.patches.youtube.utils.resourceid.bar
@@ -302,21 +302,35 @@ val feedComponentsPatch = bytecodePatch(
                             reference.returnType.startsWith("L")
                 }
 
-                val objectOpcode = if (is_18_34_or_greater)
-                    Opcode.IGET_OBJECT
-                else
-                    Opcode.MOVE_OBJECT
-                val objectIndex = indexOfFirstInstructionReversedOrThrow(insertIndex, objectOpcode)
-                val objectRegister = getInstruction<TwoRegisterInstruction>(objectIndex).registerA
+                if (is_19_46_or_greater) {
+                    val objectIndex = indexOfFirstInstructionReversedOrThrow(insertIndex,  Opcode.IGET_OBJECT)
+                    val objectRegister = getInstruction<TwoRegisterInstruction>(objectIndex).registerA
 
-                addInstructionsWithLabels(
-                    insertIndex, """
-                        invoke-static {v$objectRegister, p3}, $FEED_COMPONENTS_FILTER_CLASS_DESCRIPTOR->filterMixPlaylists(Ljava/lang/Object;[B)Z
-                        move-result v$freeRegister
-                        if-eqz v$freeRegister, :ignore
-                        """ + emptyComponentLabel,
-                    ExternalLabel("ignore", getInstruction(insertIndex))
-                )
+                    addInstructionsWithLabels(
+                        insertIndex, """
+                            invoke-static {v$objectRegister, p3}, $FEED_COMPONENTS_FILTER_CLASS_DESCRIPTOR->filterMixPlaylists(Ljava/lang/Object;[B)Z
+                            move-result v$freeRegister
+                            if-eqz v$freeRegister, :ignore
+                            """ + emptyComponentLabel,
+                        ExternalLabel("ignore", getInstruction(insertIndex))
+                    )
+                } else {
+                    val objectIndex = indexOfFirstInstructionOrThrow(Opcode.MOVE_OBJECT)
+                    val objectRegister = getInstruction<TwoRegisterInstruction>(objectIndex).registerA
+                    val jumpIndex = it.patternMatch!!.startIndex
+
+                    addInstructionsWithLabels(
+                        insertIndex, """
+                            invoke-static {v$objectRegister, v$freeRegister}, $FEED_COMPONENTS_FILTER_CLASS_DESCRIPTOR->filterMixPlaylists(Ljava/lang/Object;[B)Z
+                            move-result v$freeRegister
+                            if-nez v$freeRegister, :filter
+                            """, ExternalLabel("filter", getInstruction(jumpIndex))
+                    )
+                    addInstruction(
+                        0,
+                        "move-object/from16 v$freeRegister, p3"
+                    )
+                }
             }
         }
 

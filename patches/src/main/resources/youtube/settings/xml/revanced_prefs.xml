@@ -426,7 +426,7 @@
             <SwitchPreference android:title="@string/revanced_enable_compact_controls_overlay_title" android:key="revanced_enable_compact_controls_overlay" android:summaryOn="@string/revanced_enable_compact_controls_overlay_summary_on" android:summaryOff="@string/revanced_enable_compact_controls_overlay_summary_off" />SETTINGS: FULLSCREEN_COMPONENTS -->
 
             <!-- SETTINGS: KEEP_LANDSCAPE_MODE
-            <SwitchPreference android:title="@string/revanced_keep_landscape_mode_title" android:key="revanced_keep_landscape_mode" android:summaryOn="@string/revanced_keep_landscape_mode_summary_on android:summaryOff="@string/revanced_keep_landscape_mode_summary_off" />
+            <SwitchPreference android:title="@string/revanced_keep_landscape_mode_title" android:key="revanced_keep_landscape_mode" android:summaryOn="@string/revanced_keep_landscape_mode_summary_on" android:summaryOff="@string/revanced_keep_landscape_mode_summary_off" />
             <app.revanced.extension.shared.settings.preference.ResettableEditTextPreference android:title="@string/revanced_keep_landscape_mode_timeout_title" android:key="revanced_keep_landscape_mode_timeout" android:summary="@string/revanced_keep_landscape_mode_timeout_summary" android:inputType="number" android:dependency="revanced_keep_landscape_mode" />SETTINGS: KEEP_LANDSCAPE_MODE -->
 
         <!-- SETTINGS: FULLSCREEN_COMPONENTS

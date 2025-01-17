@@ -135,7 +135,7 @@ internal enum class PatchList(
     ),
     SANITIZE_SHARING_LINKS(
         "Sanitize sharing links",
-        "Adds an option to remove tracking query parameters from URLs when sharing links."
+        "Adds an option to sanitize sharing links by removing tracking query parameters."
     ),
     SETTINGS_FOR_YOUTUBE_MUSIC(
         "Settings for YouTube Music",

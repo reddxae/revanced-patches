@@ -129,11 +129,6 @@ val navigationBarComponentsPatch = bytecodePatch(
 
         addSwitchPreference(
             CategoryType.NAVIGATION,
-            "revanced_enable_black_navigation_bar",
-            "true"
-        )
-        addSwitchPreference(
-            CategoryType.NAVIGATION,
             "revanced_hide_navigation_home_button",
             "false"
         )
@@ -166,6 +161,11 @@ val navigationBarComponentsPatch = bytecodePatch(
             CategoryType.NAVIGATION,
             "revanced_hide_navigation_label",
             "false"
+        )
+        addSwitchPreference(
+            CategoryType.NAVIGATION,
+            "revanced_enable_black_navigation_bar",
+            "true"
         )
 
         updatePatchStatus(NAVIGATION_BAR_COMPONENTS)

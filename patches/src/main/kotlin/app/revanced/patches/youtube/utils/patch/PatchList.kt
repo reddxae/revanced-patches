@@ -17,6 +17,10 @@ internal enum class PatchList(
         "Bypass image region restrictions",
         "Adds an option to use a different host for static images, so that images blocked in some countries can be received."
     ),
+    ENABLE_OPEN_LINKS_DIRECTLY(
+        "Bypass link redirection",
+        "Adds an option to bypass redirection when opening external links."
+    ),
     CHANGE_PLAYER_FLYOUT_MENU_TOGGLES(
         "Change player flyout menu toggles",
         "Adds an option to use text toggles instead of switch toggles within the additional settings menu."
@@ -85,17 +89,9 @@ internal enum class PatchList(
         "Enable debug logging",
         "Adds an option to enable debug logging."
     ),
-    ENABLE_EXTERNAL_BROWSER(
-        "Enable external browser",
-        "Adds an option to always open links in your browser instead of in the in-app-browser."
-    ),
     ENABLE_GRADIENT_LOADING_SCREEN(
         "Enable gradient loading screen",
         "Adds an option to enable the gradient loading screen."
-    ),
-    ENABLE_OPEN_LINKS_DIRECTLY(
-        "Enable open links directly",
-        "Adds an option to skip over redirection URLs in external links."
     ),
     FORCE_HIDE_PLAYER_BUTTONS_BACKGROUND(
         "Force hide player buttons background",
@@ -173,6 +169,10 @@ internal enum class PatchList(
         "Navigation bar components",
         "Adds options to hide or change components related to the navigation bar."
     ),
+    ENABLE_EXTERNAL_BROWSER(
+        "Open links in browser",
+        "Adds an option to always open links in your browser instead of in the in-app-browser."
+    ),
     OVERLAY_BUTTONS(
         "Overlay buttons",
         "Adds options to display useful overlay buttons in the video player."
@@ -199,7 +199,7 @@ internal enum class PatchList(
     ),
     SANITIZE_SHARING_LINKS(
         "Sanitize sharing links",
-        "Adds an option to remove tracking query parameters from URLs when sharing links."
+        "Adds an option to sanitize sharing links by removing tracking query parameters."
     ),
     SEEKBAR_COMPONENTS(
         "Seekbar components",

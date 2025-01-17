@@ -65,11 +65,11 @@ Limitations:
     <string name="revanced_hide_general_ads_title">Hide general ads</string>
     <string name="revanced_hide_general_ads_summary">Hides general ads.</string>
     <string name="revanced_hide_music_ads_title">Hide media ads</string>
-    <string name="revanced_hide_music_ads_summary">Hides ads before playing media.</string>
+    <string name="revanced_hide_music_ads_summary">Hides the ads that play during media playback.</string>
     <string name="revanced_hide_paid_promotion_label_title">Hide paid promotion label</string>
     <string name="revanced_hide_paid_promotion_label_summary">Hides the paid promotion label.</string>
     <string name="revanced_hide_premium_promotion_title">Hide premium promotion popups</string>
-    <string name="revanced_hide_premium_promotion_summary">Hides premium promotion popups.</string>
+    <string name="revanced_hide_premium_promotion_summary">Hides the premium promotion popups.</string>
     <string name="revanced_hide_premium_renewal_title">Hide premium renewal banner</string>
     <string name="revanced_hide_premium_renewal_summary">Hides the premium renewal banner.</string>
     <string name="revanced_hide_promotion_alert_banner_title">Hide promotion alert banner</string>
@@ -199,8 +199,6 @@ This does not bypass the age restriction. It just accepts it automatically."</st
     <!-- PreferenceScreen: Navigation Bar -->
     <string name="revanced_preference_screen_navigation_title">Navigation Bar</string>
 
-    <string name="revanced_enable_black_navigation_bar_title">Enable black navigation bar</string>
-    <string name="revanced_enable_black_navigation_bar_summary">Sets the navigation bar color to black.</string>
     <string name="revanced_hide_navigation_home_button_title">Hide Home button</string>
     <string name="revanced_hide_navigation_home_button_summary">Hides the Home button.</string>
     <string name="revanced_hide_navigation_samples_button_title">Hide Samples button</string>
@@ -215,6 +213,8 @@ This does not bypass the age restriction. It just accepts it automatically."</st
     <string name="revanced_hide_navigation_bar_summary">Hides the navigation bar.</string>
     <string name="revanced_hide_navigation_label_title">Hide navigation labels</string>
     <string name="revanced_hide_navigation_label_summary">Hides the label below each navigation buttons.</string>
+    <string name="revanced_enable_black_navigation_bar_title">Set navigation bar to black</string>
+    <string name="revanced_enable_black_navigation_bar_summary">Sets the navigation bar color to black.</string>
 
 
     <!-- PreferenceScreen: Player -->
@@ -286,11 +286,11 @@ Some features may not work properly in the old player layout."</string>
     <string name="revanced_remember_playback_speed_last_selected_title">Remember playback speed changes</string>
     <string name="revanced_remember_playback_speed_last_selected_summary">Remembers the last playback speed selected.</string>
     <string name="revanced_remember_playback_speed_last_selected_toast_title">Show a toast</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_summary">Show a toast when changing the default playback speed.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary">Shows a toast when changing the default playback speed.</string>
     <string name="revanced_remember_video_quality_last_selected_title">Remember video quality changes</string>
     <string name="revanced_remember_video_quality_last_selected_summary">Remembers the last video quality selected.</string>
     <string name="revanced_remember_video_quality_last_selected_toast_title">Show a toast</string>
-    <string name="revanced_remember_video_quality_last_selected_toast_summary">Show a toast when changing the default video quality.</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary">Shows a toast when changing the default video quality.</string>
     <string name="revanced_custom_playback_speeds_invalid">Custom speeds must be less than %sx.</string>
     <string name="revanced_custom_playback_speeds_parse_exception">Invalid custom playback speeds.</string>
     <string name="revanced_remember_playback_speed_toast">Changing default speed to %s.</string>
@@ -340,7 +340,7 @@ Some features may not work properly in the old player layout."</string>
 
 The daily quota for API keys on the free plan is 10,000, and 1 quota is used to replace a handle with a username for 1 comment.
 
-Click to see how to issue a API key."</string>
+Click to see how to issue an API key."</string>
     <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_title">Issue YouTube Data API v3 developer key</string>
     <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_message">1. Go to &lt;a href=%1$s>Create a new project&lt;/a>.&lt;br>2. Click the &lt;b>CREATE&lt;/b> button.&lt;br>3. Go to &lt;a href=%2$s>YouTube Data API v3&lt;/a>.&lt;br>4. Click the &lt;b>ENABLE&lt;/b> button.&lt;br>5. Click the &lt;b>CREATE CREDENTIALS&lt;/b> button.&lt;br>6. Select the &lt;b>Public data&lt;/b> option.&lt;br>7. Click the &lt;b>NEXT&lt;/b> button.&lt;br>8. Copy the API key.&lt;br>&lt;br>※ API key should never be shared with others, so it is not included in Import / Export settings.</string>
 
@@ -349,7 +349,7 @@ Click to see how to issue a API key."</string>
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
 
     <string name="revanced_sb_enabled">Enable SponsorBlock</string>
-    <string name="revanced_sb_enabled_sum">SponsorBlock is a crowd-sourced system for skipping annoying parts of YouTube videos.</string>
+    <string name="revanced_sb_enabled_sum">SponsorBlock is a crowdsourced system for skipping annoying parts of YouTube videos.</string>
     <string name="revanced_sb_toast_on_connection_error">Show a toast if API is unavailable</string>
     <string name="revanced_sb_toast_on_connection_error_sum">Shows a toast if the SponsorBlock API is unavailable.</string>
     <string name="revanced_sb_toast_on_skip">Show a toast when skipping automatically</string>
@@ -413,7 +413,7 @@ Click to see how to issue a API key."</string>
     <string name="revanced_preference_screen_misc_title">Miscellaneous</string>
 
     <string name="revanced_extended_settings_import_export_title">Import / Export settings</string>
-    <string name="revanced_extended_settings_import_export_summary">Import or export settings.</string>
+    <string name="revanced_extended_settings_import_export_summary">Import / Export RVX Music settings.</string>
 
     <string name="revanced_extended_settings_export_as_file">Export settings to file</string>
     <string name="revanced_extended_settings_import_as_file">Import settings from file</string>
@@ -430,9 +430,9 @@ Click to see how to issue a API key."</string>
     <string name="revanced_share_copy_settings_success">Settings copied to clipboard.</string>
 
     <string name="revanced_bypass_image_region_restrictions_title">Bypass image region restrictions</string>
-    <string name="revanced_bypass_image_region_restrictions_summary">Replaces the domain that is blocked in some regions so that playlist thumbnails, channel avatars, etc. can be received.</string>
+    <string name="revanced_bypass_image_region_restrictions_summary">Bypasses the domain that is blocked in some regions so that playlist thumbnails, channel avatars, etc. can be received.</string>
     <string name="revanced_change_share_sheet_title">Change share sheet</string>
-    <string name="revanced_change_share_sheet_summary">Change from in-app share sheet to system share sheet.</string>
+    <string name="revanced_change_share_sheet_summary">Changes the in-app share sheet to system share sheet.</string>
     <string name="revanced_disable_cairo_splash_animation_title">Disable Cairo splash animation</string>
     <string name="revanced_disable_cairo_splash_animation_summary">Disables Cairo splash animation when the app starts up.</string>
     <string name="revanced_disable_drc_audio_title">Disable DRC audio</string>
@@ -453,13 +453,13 @@ Find the official song if a music video is detected playing from an album.
     <string name="revanced_enable_debug_buffer_logging_title">Enable debug buffer logging</string>
     <string name="revanced_enable_debug_buffer_logging_summary">Includes the buffer in the debug log.</string>
     <string name="revanced_enable_opus_codec_title">Enable OPUS codec</string>
-    <string name="revanced_enable_opus_codec_summary">"Enable the OPUS codec if the player response includes the OPUS codec.
+    <string name="revanced_enable_opus_codec_summary">"Enables the OPUS codec if the player response includes it.
 
 Info:
 • Latest YouTube Music clients use the OPUS audio codec by default.
 • This is only valid for users spoofing with very old clients."</string>
     <string name="revanced_sanitize_sharing_links_title">Sanitize sharing links</string>
-    <string name="revanced_sanitize_sharing_links_summary">Removes tracking query parameters from URLs when sharing links.</string>
+    <string name="revanced_sanitize_sharing_links_summary">Sanitizes sharing links by removing tracking query parameters.</string>
     <string name="revanced_spoof_client_title">Spoof client</string>
     <string name="revanced_spoof_client_summary">"Spoof the client to prevent playback issues.
 
@@ -484,10 +484,10 @@ Info:
     <string name="revanced_spoof_streaming_data_type_entry_android_music">Android Music</string>
 
     <string name="revanced_default_app_settings_title">Open default app settings</string>
-    <string name="revanced_default_app_settings_summary">To open YouTube Music links in RVX Music, enable \'Open supported links\' and enable the supported web addresses.</string>
+    <string name="revanced_default_app_settings_summary">To open YouTube Music links in RVX Music, enable Open supported links and enable all the Supported web addresses.</string>
 
     <string name="gms_core_settings_title">Open GmsCore settings</string>
-    <string name="gms_core_settings_summary">Opens GmsCore settings. Then enable cloud messaging to receive notifications.</string>
+    <string name="gms_core_settings_summary">To receive notifications in RVX Music, enable Cloud Messaging.</string>
     <string name="gms_core_toast_not_installed_message">GmsCore is not installed. Install it.</string>
     <string name="gms_core_dialog_title">Action needed</string>
     <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"GmsCore does not have permission to run in the background.

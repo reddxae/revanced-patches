@@ -397,7 +397,7 @@ If the layout of the player screen changes due to server-side changes, unintende
     <string name="revanced_change_start_page_entry_notifications">Notifications</string>
     <string name="revanced_change_start_page_entry_podcasts">Podcasts</string>
     <string name="revanced_change_start_page_entry_search">Search</string>
-    <string name="revanced_change_start_page_entry_shorts">Shopping</string>
+    <string name="revanced_change_start_page_entry_shopping">Shopping</string>
     <string name="revanced_change_start_page_entry_shorts">Shorts</string>
     <string name="revanced_change_start_page_entry_sports">Sports</string>
     <string name="revanced_change_start_page_entry_subscriptions">Subscriptions</string>

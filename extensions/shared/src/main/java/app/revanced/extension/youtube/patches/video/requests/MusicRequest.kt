@@ -161,7 +161,7 @@ class MusicRequest private constructor(
             val startTime = System.currentTimeMillis()
             val clientType = WebClient.ClientType.MWEB
             val clientTypeName = clientType.name
-            Logger.printDebug { "Fetching playability request for: $videoId, using client: $clientTypeName" }
+            Logger.printDebug { "Fetching microformat request for: $videoId, using client: $clientTypeName" }
 
             try {
                 val connection = PlayerRoutes.getPlayerResponseConnectionFromRoute(

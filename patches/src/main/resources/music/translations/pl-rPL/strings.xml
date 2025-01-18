@@ -56,7 +56,7 @@ Ograniczenie:
     <string name="revanced_hide_general_ads_title">Ukryj ogólne reklamy</string>
     <string name="revanced_hide_general_ads_summary">Ukrywa ogólne reklamy.</string>
     <string name="revanced_hide_music_ads_title">Ukryj reklamy multimedialne</string>
-    <string name="revanced_hide_music_ads_summary">Ukrywa reklamy przed odtworzeniem multimediów.</string>
+    <string name="revanced_hide_music_ads_summary">Ukrywa reklamy w trakcie odtwarzania multimediów.</string>
     <string name="revanced_hide_paid_promotion_label_title">Ukryj etykiety oznaczające płatne promocje</string>
     <string name="revanced_hide_paid_promotion_label_summary">Ukrywa etykiety oznaczające płatne promocje.</string>
     <string name="revanced_hide_premium_promotion_title">Ukryj wyskakujące okienka promocyjne Premium</string>
@@ -195,8 +195,6 @@ Nie pomija to ograniczeń wiekowych, lecz akceptuje je automatycznie."</string>
     <string name="revanced_hide_navigation_bar_summary">Ukrywa pasek nawigacji.</string>
     <string name="revanced_hide_navigation_label_title">Ukryj nazwy w pasku nawigacji</string>
     <string name="revanced_hide_navigation_label_summary">Ukrywa nazwy każdego przycisku w pasku nawigacji.</string>
-    <string name="revanced_enable_black_navigation_bar_title">Włącz czarny pasek nawigacji</string>
-    <string name="revanced_enable_black_navigation_bar_summary">Ustawia kolor paska nawigacji na czarny.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Odtwarzacz</string>
     <string name="revanced_enable_mini_player_next_button_title">Dodaj przycisk do następnej piosenki w miniodtwarzaczu</string>
@@ -368,7 +366,7 @@ Kliknij, by zobaczyć, jak zgłosić klucz API."</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Pozostałe</string>
     <string name="revanced_extended_settings_import_export_title">Importuj/Eksportuj ustawienia</string>
-    <string name="revanced_extended_settings_import_export_summary">Zaimportuj lub wyeksportuj ustawienia</string>
+    <string name="revanced_extended_settings_import_export_summary">Zaimportuj / wyeksportuj ustawienia RVX Music</string>
     <string name="revanced_extended_settings_export_as_file">Wyeksportuj ustawienia do pliku</string>
     <string name="revanced_extended_settings_import_as_file">Zaimportuj ustawienia z pliku</string>
     <string name="revanced_extended_settings_import_export_as_text">Zaimportuj/Wyeksportuj ustawienia jako tekst</string>
@@ -435,9 +433,9 @@ Informacje:
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_music">Android Music</string>
     <string name="revanced_default_app_settings_title">Otwórz systemowe ustawienia aplikacji</string>
-    <string name="revanced_default_app_settings_summary">Aby otwierać linki YouTube Music w RVX Music, przejdź do opcji obsługiwanych linków w ustawieniach i włącz obsługiwane adresy internetowe dla RVX.</string>
+    <string name="revanced_default_app_settings_summary">Aby otwierać linki YouTube Music w RVX Music, przejdź do opcji obsługiwanych linków w ustawieniach i włącz obsługiwane adresy internetowe dla RVX Music.</string>
     <string name="gms_core_settings_title">Otwórz ustawienia GmsCore</string>
-    <string name="gms_core_settings_summary">Otwiera ustawienia GmsCore. Następnie włącz cloud messaging, by otrzymywać powiadomienia.</string>
+    <string name="gms_core_settings_summary">Aby otrzymywać powiadomienia w RVX Music, włącz Cloud Messaging.</string>
     <string name="gms_core_toast_not_installed_message">GmsCore nie jest zainstalowany. Zainstaluj go.</string>
     <string name="gms_core_dialog_title">Wymagane działanie</string>
     <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"GmsCore nie ma uprawnień do działania w tle.

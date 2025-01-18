@@ -192,8 +192,6 @@ Ez nem kerüli meg a korhatárkorlátozást. Csak automatikusan elfogadja azt."<
     <string name="revanced_hide_navigation_bar_summary">Elrejti a navigációs sávot.</string>
     <string name="revanced_hide_navigation_label_title">Navigációs címkék elrejtése</string>
     <string name="revanced_hide_navigation_label_summary">Elrejti a szöveget a navigációs gombok alatt.</string>
-    <string name="revanced_enable_black_navigation_bar_title">Fekete navigációs sor engedélyezése</string>
-    <string name="revanced_enable_black_navigation_bar_summary">A navigációs sor színét átállítja feketére.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Lejátszó</string>
     <string name="revanced_enable_mini_player_next_button_title">Minilejátszó következő gomb engedélyezése</string>

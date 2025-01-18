@@ -19,6 +19,59 @@
     <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s はインストールされていません。
 ウェブサイトから %2$s をダウンロードしてください。"</string>
     <string name="revanced_external_downloader_not_installed_warning">%s はインストールされていません。インストールしてください。</string>
+    <string name="revanced_language_title">Revanced Extended 設定の言語</string>
+    <string name="revanced_language_DEFAULT">アプリの言語に従う</string>
+    <string name="revanced_language_AR">アラビア語</string>
+    <string name="revanced_language_AZ">アゼルバイジャン語</string>
+    <string name="revanced_language_BG">ブルガリア語</string>
+    <string name="revanced_language_BN">ベンガル語</string>
+    <string name="revanced_language_CA">カタロニア語</string>
+    <string name="revanced_language_CS">チェコ語</string>
+    <string name="revanced_language_DA">デンマーク語</string>
+    <string name="revanced_language_DE">ドイツ語</string>
+    <string name="revanced_language_EL">ギリシャ語</string>
+    <string name="revanced_language_EN">英語</string>
+    <string name="revanced_language_ES">スペイン語</string>
+    <string name="revanced_language_ET">エストニア語</string>
+    <string name="revanced_language_FA">ペルシャ語</string>
+    <string name="revanced_language_FI">フィンランド語</string>
+    <string name="revanced_language_FR">フランス語</string>
+    <string name="revanced_language_GU">グジャラート語</string>
+    <string name="revanced_language_HI">ヒンディー語</string>
+    <string name="revanced_language_HR">クロアチア語</string>
+    <string name="revanced_language_HU">ハンガリー語</string>
+    <string name="revanced_language_ID">インドネシア語</string>
+    <string name="revanced_language_IT">イタリア語</string>
+    <string name="revanced_language_JA">日本語</string>
+    <string name="revanced_language_KK">カザフ語</string>
+    <string name="revanced_language_KO">韓国語</string>
+    <string name="revanced_language_LT">リトアニア語</string>
+    <string name="revanced_language_LV">ラトビア語</string>
+    <string name="revanced_language_MK">マケドニア語</string>
+    <string name="revanced_language_MN">モンゴル語</string>
+    <string name="revanced_language_MR">マラーティー語</string>
+    <string name="revanced_language_MS">マレー語</string>
+    <string name="revanced_language_MY">ビルマ語 (ミャンマー語)</string>
+    <string name="revanced_language_NL">オランダ語</string>
+    <string name="revanced_language_OR">オディア語</string>
+    <string name="revanced_language_PA">パンジャーブ語</string>
+    <string name="revanced_language_PL">ポーランド語</string>
+    <string name="revanced_language_PT">ポルトガル語</string>
+    <string name="revanced_language_RO">ルーマニア語</string>
+    <string name="revanced_language_RU">ロシア語</string>
+    <string name="revanced_language_SK">スロバキア語</string>
+    <string name="revanced_language_SL">スロベニア語</string>
+    <string name="revanced_language_SR">セルビア語</string>
+    <string name="revanced_language_SV">スウェーデン語</string>
+    <string name="revanced_language_SW">スワヒリ語</string>
+    <string name="revanced_language_TA">タミル語</string>
+    <string name="revanced_language_TE">テルグ語</string>
+    <string name="revanced_language_TH">タイ語</string>
+    <string name="revanced_language_TR">トルコ語</string>
+    <string name="revanced_language_UK">ウクライナ語</string>
+    <string name="revanced_language_UR">ウルドゥー語</string>
+    <string name="revanced_language_VI">ベトナム語</string>
+    <string name="revanced_language_ZH">中国語</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">広告</string>
     <string name="revanced_hide_fullscreen_ads_title">全画面広告を非表示</string>
@@ -100,6 +153,20 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_hide_feed_captions_button_on">フィードから字幕ボタンを非表示にします。</string>
     <string name="revanced_hide_feed_captions_button_off">フィードから字幕ボタンを非表示にします。</string>
     <string name="revanced_hide_carousel_shelf_title">おすすめ欄を非表示</string>
+    <string name="revanced_hide_carousel_shelf_summary_on">"以下の欄を非表示にします:
+・ニュース速報
+・続きを見る
+・もう一度見る
+・もう一度聴く
+・他のチャンネルを探す
+・ショッピング"</string>
+    <string name="revanced_hide_carousel_shelf_summary_off">以下の欄を非表示にします:
+・ニュース速報
+・続きを見る
+・もう一度見る
+・もう一度聴く
+・他のチャンネルを探す
+・ショッピング</string>
     <string name="revanced_hide_chips_shelf_title">チップ欄を非表示</string>
     <string name="revanced_hide_chips_shelf_on">フィードに表示される、似ている動画のチップ欄を非表示にします。</string>
     <string name="revanced_hide_chips_shelf_off">フィードに表示される、似ている動画のチップ欄を非表示にします。</string>
@@ -283,26 +350,24 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_related_videos_offset_title">オフセット</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">全般</string>
-    <string name="revanced_change_layout_title">レイアウトを変更</string>
-    <string name="revanced_change_layout_entry_1">オリジナル</string>
-    <string name="revanced_change_layout_entry_2">スマホ</string>
-    <string name="revanced_change_layout_entry_3">スマホ(最大 480 dp)</string>
-    <string name="revanced_change_layout_entry_4">タブレット</string>
-    <string name="revanced_change_layout_entry_5">タブレット(最小 600 dp)</string>
     <string name="revanced_change_start_page_title">起動時のページを変更</string>
-    <string name="revanced_change_start_page_entry_browse">チャンネルを探す</string>
-    <string name="revanced_change_start_page_entry_courses">コース / 教育</string>
     <string name="revanced_change_start_page_entry_default">デフォルト</string>
+    <string name="revanced_change_start_page_entry_browse">新しい動画の発見</string>
+    <string name="revanced_change_start_page_entry_courses">コース</string>
     <string name="revanced_change_start_page_entry_explore">探索</string>
+    <string name="revanced_change_start_page_entry_fashion">ファッション &amp; 美容</string>
     <string name="revanced_change_start_page_entry_gaming">ゲーム</string>
     <string name="revanced_change_start_page_entry_history">履歴</string>
     <string name="revanced_change_start_page_entry_library">ライブラリ</string>
     <string name="revanced_change_start_page_entry_liked_videos">高評価した動画</string>
     <string name="revanced_change_start_page_entry_live">ライブ</string>
-    <string name="revanced_change_start_page_entry_movies">映画</string>
+    <string name="revanced_change_start_page_entry_movies">ムービー＆TV</string>
     <string name="revanced_change_start_page_entry_music">音楽</string>
+    <string name="revanced_change_start_page_entry_news">ニュース</string>
     <string name="revanced_change_start_page_entry_notifications">通知</string>
+    <string name="revanced_change_start_page_entry_podcasts">ポッドキャスト</string>
     <string name="revanced_change_start_page_entry_search">検索</string>
+    <string name="revanced_change_start_page_entry_shopping">ショッピング</string>
     <string name="revanced_change_start_page_entry_shorts">ショート</string>
     <string name="revanced_change_start_page_entry_sports">スポーツ</string>
     <string name="revanced_change_start_page_entry_subscriptions">登録チャンネル</string>
@@ -346,6 +411,15 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_remove_viewer_discretion_dialog_summary">"年齢制限ダイアログを削除します。 
 
 注意: 年齢制限を回避することはできませんが、自動的に同意します。"</string>
+    <string name="revanced_change_layout_title">レイアウトを変更</string>
+    <string name="revanced_change_layout_entry_1">オリジナル</string>
+    <string name="revanced_change_layout_entry_2">スマホ</string>
+    <string name="revanced_change_layout_entry_3">スマホ(最大 480 dp)</string>
+    <string name="revanced_change_layout_entry_4">タブレット</string>
+    <string name="revanced_change_layout_entry_5">タブレット(最小 600 dp)</string>
+    <string name="revanced_open_channel_of_live_avatar_title">ライブアバターのチャンネルを開く</string>
+    <string name="revanced_open_channel_of_live_avatar_summary_on">「ライブ」状態のアイコンをタップしてもチャンネルを開くようにします。</string>
+    <string name="revanced_open_channel_of_live_avatar_summary_off">「ライブ」状態のアイコンをタップしてもチャンネルを開くようにします。</string>
     <string name="revanced_spoof_app_version_title">アプリのバージョンを偽装</string>
     <string name="revanced_spoof_app_version_summary_on">アプリのバージョンを偽装できます。</string>
     <string name="revanced_spoof_app_version_summary_off">アプリのバージョンを偽装できます。</string>
@@ -513,11 +587,14 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_hide_settings_menu_general_summary_on">「全般」メニューを非表示にします。</string>
     <string name="revanced_hide_settings_menu_general_summary_off">「全般」メニューを非表示にします。</string>
     <string name="revanced_hide_settings_menu_account_title">アカウントメニューを非表示</string>
-    <string name="revanced_hide_settings_menu_account_summary_on">「アカウント」メニューを非表示にします。</string>
-    <string name="revanced_hide_settings_menu_account_summary_off">「アカウント」メニューを非表示にします。</string>
+    <string name="revanced_hide_settings_menu_account_summary_on">「アカウントを切り替える」メニューを非表示にします。</string>
+    <string name="revanced_hide_settings_menu_account_summary_off">「アカウントを切り替える」メニューを非表示にします。</string>
     <string name="revanced_hide_settings_menu_data_saving_title">データの節約メニューを非表示</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_on">「データの節約」メニューを非表示にします。</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_off">「データの節約」メニューを非表示にします。</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_title">再生メニューを非表示</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_summary_on">「再生」メニューを非表示にします。</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_summary_off">「再生」メニューを非表示にします。</string>
     <string name="revanced_hide_settings_menu_video_quality_title">動画の画質設定メニューを非表示</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_on">「動画の画質設定」メニューを非表示にします。</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_off">「動画の画質設定」メニューを非表示にします。</string>
@@ -618,7 +695,7 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_custom_player_overlay_opacity_invalid_toast">プレーヤーのオーバーレイの不透明度は 0 ~ 100 の間でなければなりません。デフォルト値にリセットします。</string>
     <string name="revanced_disable_auto_switch_mix_playlists_title">ミックスプレイリストの自動切り替えを無効化</string>
     <string name="revanced_disable_auto_switch_mix_playlists_summary_on">自動再生がオフの場合、音楽を再生した際に自動的にミックスプレイリストに切り替わるのを無効化できます。\n\n自動再生は YouTube の設定で変更できます: 「設定 → 自動再生 → 次の動画を自動再生」</string>
-    <string name="revanced_disable_auto_switch_mix_playlists_summary_off">"自動再生がオフの場合、音楽を再生した際にミックスプレイリストへの自動切り替えを無効化できます。\n\n自動再生は YouTube の設定で変更できます: 「設定 → 自動再生 → 次の動画を自動再生」"</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_summary_off">"自動再生がオフの場合、音楽を再生した際にミックスプレイリストへの自動切り替えを無効化できます。\n\n自動再生は YouTube の設定で変更できます: 「設定 → 再生 → 次の動画を自動再生」"</string>
     <string name="revanced_disable_auto_switch_mix_playlists_user_dialog_message">自動再生がオフの場合、音楽を再生した際にミックスプレイリストへの自動切り替えを無効化できます。\n\n自動再生は YouTube の設定で変更できます: 「設定 → 自動再生 → 次の動画を自動再生」</string>
     <string name="revanced_disable_auto_player_popup_panels_title">プレーヤーのポップアップパネルを無効化</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_on">再生リストとライブチャットのパネルが自動で開くのを無効化します。</string>
@@ -645,8 +722,8 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_hide_end_screen_cards_summary_on">動画の最後に表示される作成者が追加したエンドカードを非表示にします。</string>
     <string name="revanced_hide_end_screen_cards_summary_off">動画の最後に表示される作成者が追加したエンドカードを非表示にします。</string>
     <string name="revanced_hide_filmstrip_overlay_title">フィルムストリップオーバーレイを非表示</string>
-    <string name="revanced_hide_filmstrip_overlay_summary_on">シークバーを上スワイプで表示されるフィルムストリップを非表示にします。</string>
-    <string name="revanced_hide_filmstrip_overlay_summary_off">シークバーを上スワイプで表示されるフィルムストリップを非表示にします。</string>
+    <string name="revanced_hide_filmstrip_overlay_summary_on">シークバーを上スワイプで表示されるフィルムストリップオーバーレイを非表示にします。</string>
+    <string name="revanced_hide_filmstrip_overlay_summary_off">シークバーを上スワイプで表示されるフィルムストリップオーバーレイを非表示にします。</string>
     <string name="revanced_hide_info_cards_title">情報カードを非表示</string>
     <string name="revanced_hide_info_cards_summary_on">プレーヤーの右上に表示される情報カードを非表示にします。</string>
     <string name="revanced_hide_info_cards_summary_off">プレーヤーの右上に表示される情報カードを非表示にします。</string>
@@ -918,6 +995,8 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_enable_compact_controls_overlay_summary_on">コントロールのオーバーレイを全画面に表示せず、コンパクトに表示します。</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">コントロールのオーバーレイを全画面に表示せず、コンパクトに表示します。</string>
     <string name="revanced_keep_landscape_mode_title">横画面モードを維持</string>
+    <string name="revanced_keep_landscape_mode_summary_on">画面をオフにしても全画面表示の状態を維持します。</string>
+    <string name="revanced_keep_landscape_mode_summary_off">画面をオフにしても全画面表示の状態を維持します。</string>
     <string name="revanced_keep_landscape_mode_timeout_title">横画面モードのタイムアウトを維持</string>
     <string name="revanced_keep_landscape_mode_timeout_summary">画面がオンになってから横画面モードが強制されるまでのミリ秒数です。</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Haptic feedback -->
@@ -1157,6 +1236,9 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_change_shorts_repeat_state_entry_default">デフォルト</string>
     <string name="revanced_change_shorts_repeat_state_entry_pause">一時停止</string>
     <string name="revanced_change_shorts_repeat_state_entry_repeat">リピート再生</string>
+    <string name="revanced_open_shorts_in_regular_player_title">通常のプレーヤーでショートを再生</string>
+    <string name="revanced_open_shorts_in_regular_player_summary_on">通常のプレーヤーでショートを再生します。</string>
+    <string name="revanced_open_shorts_in_regular_player_summary_off">通常のプレーヤーでショートを再生します。</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player -->
     <string name="revanced_preference_screen_shorts_player_title">プレーヤー</string>
     <string name="revanced_preference_screen_shorts_player_summary">ショートのプレーヤー内のコンポーネントを非表示または表示します。</string>
@@ -1705,9 +1787,9 @@ API キーの発行方法については、ここをタップしてください�
     <string name="revanced_sb_about_api_sum">データは SponsorBlock API によって提供されています。他のプラットフォームのダウンロードや詳細については、ここをタップしてください。</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">その他</string>
-    <string name="revanced_enable_open_links_directly_title">直リンクを有効化</string>
-    <string name="revanced_enable_open_links_directly_summary_on">URL リダイレクト (youtube.com/redirect) をバイパスします。</string>
-    <string name="revanced_enable_open_links_directly_summary_off">URL リダイレクト (youtube.com/redirect) をバイパスします。</string>
+    <string name="revanced_bypass_url_redirects_title">URL リダイレクトをバイパス</string>
+    <string name="revanced_bypass_url_redirects_summary_on">URL リダイレクト (youtube.com/redirect) をバイパスします。</string>
+    <string name="revanced_bypass_url_redirects_summary_off">URL リダイレクト (youtube.com/redirect) をバイパスします。</string>
     <string name="revanced_disable_quic_protocol_title">QUIC プロトコルを無効化</string>
     <string name="revanced_disable_quic_protocol_summary">"CronetEngine の QUIC プロトコルを無効化します。これにより動画の読み込み速度が多少改善されます。"</string>
     <string name="revanced_enable_debug_logging_title">デバッグログを有効化</string>
@@ -1716,9 +1798,9 @@ API キーの発行方法については、ここをタップしてください�
     <string name="revanced_enable_debug_buffer_logging_title">デバッグバッファログを有効化</string>
     <string name="revanced_enable_debug_buffer_logging_summary_on">バッファログをデバッグログに含めます。</string>
     <string name="revanced_enable_debug_buffer_logging_summary_off">バッファログをデバッグログに含めます。</string>
-    <string name="revanced_enable_external_browser_title">外部ブラウザを有効化</string>
-    <string name="revanced_enable_external_browser_summary_on">外部ブラウザを有効化します。</string>
-    <string name="revanced_enable_external_browser_summary_off">外部ブラウザを有効化します。</string>
+    <string name="revanced_open_links_externally_title">外部ブラウザでリンクを開く</string>
+    <string name="revanced_open_links_externally_summary_on">外部ブラウザでリンクを開きます。</string>
+    <string name="revanced_open_links_externally_summary_off">外部ブラウザでリンクを開きます。</string>
     <string name="revanced_sanitize_sharing_links_title">共有リンクのクリーンアップ</string>
     <string name="revanced_sanitize_sharing_links_summary">リンクを共有する際に、URL からトラッキングクエリパラメーターを削除します。</string>
     <string name="revanced_default_app_settings_title">「デフォルトで開く」の設定を開く</string>
@@ -1743,7 +1825,7 @@ GmsCore の電池の最適化を無効にしても、バッテリーの使用に
     <string name="revanced_change_share_sheet_summary_on">「共有」ボタンをタップした際に表示される共有メニューを、システムの共有メニューに置き換えます。</string>
     <string name="revanced_change_share_sheet_summary_off">「共有」ボタンをタップした際に表示される共有メニューを、システムの共有メニューに置き換えます。</string>
     <string name="revanced_enable_opus_codec_title">OPUS コーデックを有効化</string>
-    <string name="revanced_enable_opus_codec_summary">プレーヤーの応答に OPUS コーデックが含まれている場合、OPUS コーデックを有効化します。</string>
+    <string name="revanced_enable_opus_codec_summary">プレーヤーの応答に OPUS コーデックが含まれている場合、OPUS コーデックを有効にします。</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings -->
     <string name="revanced_preference_screen_import_export_title">設定のインポート/エクスポート</string>
     <string name="revanced_preference_screen_import_export_summary">設定をインポートまたはエクスポートします。</string>
@@ -1777,6 +1859,8 @@ GmsCore の電池の最適化を無効にしても、バッテリーの使用に
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">"Android TV
 <small>(Google アカウントへのログインが必要)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr_no_auth">"Android VR
+<small>(認証なし)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
 <small>(PoToken が必要)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
@@ -1801,6 +1885,7 @@ GmsCore の電池の最適化を無効にしても、バッテリーの使用に
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">統計情報に偽装したクライアントを表示</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">統計情報に偽装したクライアントを表示します。</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">統計情報に偽装したクライアントを表示します。</string>
+    <string name="revanced_spoof_streaming_data_language_title">偽装するクライアントを Android VR に設定した際にデフォルトで使用する音声トラックの言語</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <string name="revanced_preference_category_po_token_visitor_data">PoToken / VisitorData</string>
     <string name="revanced_spoof_streaming_data_po_token_title">使用する PoToken を入力</string>

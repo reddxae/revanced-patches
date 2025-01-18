@@ -52,6 +52,26 @@
     <string name="revanced_language_MR">Marāṭhī / मराठी</string>
     <string name="revanced_language_MS">Melayu</string>
     <string name="revanced_language_MY">မြန်မာ</string>
+    <string name="revanced_language_NL">Nederlands</string>
+    <string name="revanced_language_OR">ଓଡ଼ିଆ</string>
+    <string name="revanced_language_PA">ਪੰਜਾਬੀ / پنجابی</string>
+    <string name="revanced_language_PL">Polski</string>
+    <string name="revanced_language_PT">Português</string>
+    <string name="revanced_language_RO">Romanesc</string>
+    <string name="revanced_language_RU">Русский</string>
+    <string name="revanced_language_SK">Slovenský</string>
+    <string name="revanced_language_SL">Slovenski</string>
+    <string name="revanced_language_SR">Српски</string>
+    <string name="revanced_language_SV">Svenska</string>
+    <string name="revanced_language_SW">Kiswahili</string>
+    <string name="revanced_language_TA">தமிழ்</string>
+    <string name="revanced_language_TE">తెలుగు</string>
+    <string name="revanced_language_TH">แบบไทย</string>
+    <string name="revanced_language_TR">Türkçe</string>
+    <string name="revanced_language_UK">Українська</string>
+    <string name="revanced_language_UR">اردو</string>
+    <string name="revanced_language_VI">Tiếng Việt</string>
+    <string name="revanced_language_ZH">中文</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Реклама</string>
     <string name="revanced_hide_fullscreen_ads_title">Полноэкранная реклама</string>
@@ -136,6 +156,14 @@
     <string name="revanced_hide_feed_captions_button_on">Кнопка \"Субтитры\" в ленте скрыта.</string>
     <string name="revanced_hide_feed_captions_button_off">Кнопка \"Субтитры\" в ленте отображена.</string>
     <string name="revanced_hide_carousel_shelf_title">Скрыть рекомендуемые секции</string>
+    <string name="revanced_hide_carousel_shelf_summary_on">"Скрывает полки карусели:
+• Срочные новости
+• Продолжить просмотр
+• Больше каналов
+• Слушать ещё раз
+• Покупки
+• Смотреть ещё раз"</string>
+    <string name="revanced_hide_carousel_shelf_summary_off">Полки карусели отображены.</string>
     <string name="revanced_hide_chips_shelf_title">Полка эпизодов</string>
     <string name="revanced_hide_chips_shelf_on">Полка эпизодов скрыта.</string>
     <string name="revanced_hide_chips_shelf_off">Полка эпизодов отображена.</string>
@@ -328,17 +356,12 @@ Shorts
     <string name="revanced_related_videos_offset_title">Оффсет - Алгоритм выдачи похожих видео</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Основные настройки</string>
-    <string name="revanced_change_layout_title">Изменить макет</string>
-    <string name="revanced_change_layout_entry_1">Оригинал</string>
-    <string name="revanced_change_layout_entry_2">Телефон</string>
-    <string name="revanced_change_layout_entry_3">Телефон (Макс. 480 dip)</string>
-    <string name="revanced_change_layout_entry_4">Планшет</string>
-    <string name="revanced_change_layout_entry_5">Планшет (Мин. 600 dip)</string>
     <string name="revanced_change_start_page_title">Начальная страница</string>
+    <string name="revanced_change_start_page_entry_default">По умолчанию</string>
     <string name="revanced_change_start_page_entry_browse">Обзор каналов</string>
     <string name="revanced_change_start_page_entry_courses">Курсы / Обучение</string>
-    <string name="revanced_change_start_page_entry_default">По умолчанию</string>
     <string name="revanced_change_start_page_entry_explore">Навигатор</string>
+    <string name="revanced_change_start_page_entry_fashion">Модная</string>
     <string name="revanced_change_start_page_entry_gaming">Игры</string>
     <string name="revanced_change_start_page_entry_history">История</string>
     <string name="revanced_change_start_page_entry_library">Библиотека</string>
@@ -346,8 +369,11 @@ Shorts
     <string name="revanced_change_start_page_entry_live">Трансляции</string>
     <string name="revanced_change_start_page_entry_movies">Фильмы</string>
     <string name="revanced_change_start_page_entry_music">Музыка</string>
+    <string name="revanced_change_start_page_entry_news">Новости</string>
     <string name="revanced_change_start_page_entry_notifications">Уведомления</string>
+    <string name="revanced_change_start_page_entry_podcasts">Подкасты</string>
     <string name="revanced_change_start_page_entry_search">Поиск</string>
+    <string name="revanced_change_start_page_entry_shopping">Покупки</string>
     <string name="revanced_change_start_page_entry_shorts">Shorts</string>
     <string name="revanced_change_start_page_entry_sports">Спорт</string>
     <string name="revanced_change_start_page_entry_subscriptions">Подписки</string>
@@ -384,6 +410,12 @@ Shorts
     <string name="revanced_hide_snack_bar_summary_off">Виджет коротких уведомлений отображен.</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">Скрыть диалог возрастного ограничения</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Возрастные ограничения будут приниматься автоматически."</string>
+    <string name="revanced_change_layout_title">Изменить макет</string>
+    <string name="revanced_change_layout_entry_1">Оригинал</string>
+    <string name="revanced_change_layout_entry_2">Телефон</string>
+    <string name="revanced_change_layout_entry_3">Телефон (Макс. 480 dip)</string>
+    <string name="revanced_change_layout_entry_4">Планшет</string>
+    <string name="revanced_change_layout_entry_5">Планшет (Мин. 600 dip)</string>
     <string name="revanced_spoof_app_version_title">Подмена версии приложения</string>
     <string name="revanced_spoof_app_version_summary_on">Версия приложения подменена</string>
     <string name="revanced_spoof_app_version_summary_off">Версия приложения не подменена</string>
@@ -557,6 +589,9 @@ Shorts
     <string name="revanced_hide_settings_menu_data_saving_title">Экономия трафика</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_on">Экономия трафика скрыта.</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_off">Экономия трафика отображена.</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_title">Меню автовоспроизведения или воспроизведения</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_summary_on">Скрыто.</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_summary_off">Отображено.</string>
     <string name="revanced_hide_settings_menu_video_quality_title">Качество видео</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_on">Качество видео скрыто.</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_off">Качество видео отображено.</string>
@@ -963,6 +998,8 @@ Shorts
     <string name="revanced_enable_compact_controls_overlay_summary_on">Наложение элементов управления не полноэкранное.</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">Наложение элементов управления полноэкранное.</string>
     <string name="revanced_keep_landscape_mode_title">Удерживать альбомный режим</string>
+    <string name="revanced_keep_landscape_mode_summary_on">Ландшафтный режим при выкл / вкл экрана.</string>
+    <string name="revanced_keep_landscape_mode_summary_off">Портретный режим при выкл / вкл экрана.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">Сохранять таймаут альбомного режима</string>
     <string name="revanced_keep_landscape_mode_timeout_summary">Количество миллисекунд, в течение которых принудительно работает альбомный режим.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Haptic feedback -->
@@ -1758,9 +1795,6 @@ Shorts
     <string name="revanced_sb_about_api_sum">Данные предоставлены SponsorBlock API. Нажмите здесь, чтобы узнать больше и скачать версии для других платформ.</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Разное</string>
-    <string name="revanced_enable_open_links_directly_title">Перенаправление ссылок</string>
-    <string name="revanced_enable_open_links_directly_summary_on">Обход youtube.com/redirect при открытии ссылок включен.</string>
-    <string name="revanced_enable_open_links_directly_summary_off">Обход youtube.com/redirect при открытии ссылок отключен.</string>
     <string name="revanced_disable_quic_protocol_title">Отключить протокол QUIC</string>
     <string name="revanced_disable_quic_protocol_summary">"Отключает протокол, построенный поверх UDP, переходя на TCP."</string>
     <string name="revanced_enable_debug_logging_title">Журнал отладки</string>
@@ -1769,9 +1803,6 @@ Shorts
     <string name="revanced_enable_debug_buffer_logging_title">Журнал отладки буфера</string>
     <string name="revanced_enable_debug_buffer_logging_summary_on">Журнал отладки буфера включен.</string>
     <string name="revanced_enable_debug_buffer_logging_summary_off">Журнал отладки буфера отключен.</string>
-    <string name="revanced_enable_external_browser_title">Внешние ссылки</string>
-    <string name="revanced_enable_external_browser_summary_on">Внешние ссылки открываются в браузере.</string>
-    <string name="revanced_enable_external_browser_summary_off">Внешние ссылки открываются в приложении.</string>
     <string name="revanced_sanitize_sharing_links_title">Очистить ссылки при отправке</string>
     <string name="revanced_sanitize_sharing_links_summary">Убирает параметры отслеживания запросов из URL при отправке ссылки.</string>
     <string name="revanced_default_app_settings_title">Использование по умолчанию</string>
@@ -1829,6 +1860,8 @@ Shorts
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">"Android TV
 <small>(Требуется вход)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr_no_auth">"Android VR
+<small>(Без автора)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
 <small>(Необходим PoToken)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS
@@ -1852,6 +1885,7 @@ Shorts
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Статистике для сисадминов</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Клиент потоковых данных отображается в Статистике для сисадминов.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Клиент потоковых данных скрыт в Статистике для сисадминов.</string>
+    <string name="revanced_spoof_streaming_data_language_title">Язык аудио потока по умолчанию VR</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <string name="revanced_preference_category_po_token_visitor_data">PoToken / VisitorData</string>
     <string name="revanced_spoof_streaming_data_po_token_title">PoToken</string>

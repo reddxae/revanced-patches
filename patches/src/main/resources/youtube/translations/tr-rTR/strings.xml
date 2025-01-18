@@ -279,15 +279,9 @@ Sunucu tarafındaki değişiklikler nedeniyle oynatıcı ekranı düzeni değiş
     <string name="revanced_related_videos_offset_title">Ofset</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Genel</string>
-    <string name="revanced_change_layout_title">Düzeni değiştir</string>
-    <string name="revanced_change_layout_entry_1">Orijinal</string>
-    <string name="revanced_change_layout_entry_2">Telefon</string>
-    <string name="revanced_change_layout_entry_3">Telefon (En fazla 480 dp)</string>
-    <string name="revanced_change_layout_entry_4">Tablet</string>
-    <string name="revanced_change_layout_entry_5">Tablet (En az 600 dp)</string>
     <string name="revanced_change_start_page_title">Başlangıç ​​sayfasını değiştir</string>
-    <string name="revanced_change_start_page_entry_browse">Kanalları Tara</string>
     <string name="revanced_change_start_page_entry_default">Varsayılan</string>
+    <string name="revanced_change_start_page_entry_browse">Kanalları Tara</string>
     <string name="revanced_change_start_page_entry_explore">Keşfet</string>
     <string name="revanced_change_start_page_entry_gaming">Gaming</string>
     <string name="revanced_change_start_page_entry_history">Geçmiş</string>
@@ -330,6 +324,12 @@ Sınırlama: Araç çubuğundaki geri butonu çalışmayabilir."</string>
     <string name="revanced_hide_snack_bar_summary_off">Gizlenmiyor</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">İzleyicinin takdirine bağlı iletişim kutusunu kaldır</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Görüntüleyicinin takdirine ilişkin iletişim kutusunu kaldırır. Bu yaş sınırlamasını atlamaz. Sadece otomatik olarak kabul ediyor."</string>
+    <string name="revanced_change_layout_title">Düzeni değiştir</string>
+    <string name="revanced_change_layout_entry_1">Orijinal</string>
+    <string name="revanced_change_layout_entry_2">Telefon</string>
+    <string name="revanced_change_layout_entry_3">Telefon (En fazla 480 dp)</string>
+    <string name="revanced_change_layout_entry_4">Tablet</string>
+    <string name="revanced_change_layout_entry_5">Tablet (En az 600 dp)</string>
     <string name="revanced_spoof_app_version_title">Uygulama Versiyonunu taklit et</string>
     <string name="revanced_spoof_app_version_summary_on">Sürüm taklit ediliyor</string>
     <string name="revanced_spoof_app_version_summary_off">Sürüm taklit edilmiyor</string>
@@ -1437,9 +1437,6 @@ Bir örnek görmek için buraya dokunun.</string>
     <string name="revanced_sb_about_api_sum">Veriler, SponsorBlock API tarafından sağlanmaktadır. Daha fazla bilgi edinmek ve diğer platformlar için indirmeleri görmek için buraya dokunun.</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Diğer Ayarlar</string>
-    <string name="revanced_enable_open_links_directly_title">Bağlantıları direkt açmayı etkinleştir</string>
-    <string name="revanced_enable_open_links_directly_summary_on">URL yönlendirmeleri atlanıyor.</string>
-    <string name="revanced_enable_open_links_directly_summary_off">Varsayılan yönlendirme politikası takip ediliyor.</string>
     <string name="revanced_disable_quic_protocol_title">QUIC protokolünü devre dışı bırak</string>
     <string name="revanced_disable_quic_protocol_summary">"CronetEngine'in QUIC protokolünü devre dışı bırak"</string>
     <string name="revanced_enable_debug_logging_title">Hata ayıklama günlüğünü etkinleştir</string>
@@ -1448,9 +1445,6 @@ Bir örnek görmek için buraya dokunun.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Hata ayıklama günlüklerine arabelleği kaydet</string>
     <string name="revanced_enable_debug_buffer_logging_summary_on">Hata ayıklama günlükleri arabellek içeriyor</string>
     <string name="revanced_enable_debug_buffer_logging_summary_off">Hata ayıklama günlükleri arabellek içermiyor</string>
-    <string name="revanced_enable_external_browser_title">Harici tarayıcıyı kullan</string>
-    <string name="revanced_enable_external_browser_summary_on">Harici tarayıcı etkin</string>
-    <string name="revanced_enable_external_browser_summary_off">Harici tarayıcı devre dışı</string>
     <string name="revanced_sanitize_sharing_links_title">Paylaşılan bağlantıları sterilize edin</string>
     <string name="revanced_sanitize_sharing_links_summary">Bağlantıları paylaşırken, tracking query parametrelerini URL\'lerden kaldırır.</string>
     <string name="revanced_default_app_settings_title">Varsayılan uygulama ayarlarını aç</string>

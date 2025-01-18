@@ -136,8 +136,6 @@ Bekende problemen:
     <string name="revanced_hide_navigation_bar_summary">Navigatiebalk verbergen.</string>
     <string name="revanced_hide_navigation_label_title">Verberg e navigatie balk labels</string>
     <string name="revanced_hide_navigation_label_summary">Verberg labels in de navigatie balk.</string>
-    <string name="revanced_enable_black_navigation_bar_title">Activeer zwarte navigatie balk</string>
-    <string name="revanced_enable_black_navigation_bar_summary">Zet de navigatie balk kleur naar zwart.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Speler</string>
     <string name="revanced_enable_mini_player_next_button_title">Schakel de volgende knop voor de minispeler in</string>

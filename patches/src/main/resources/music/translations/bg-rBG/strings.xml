@@ -179,8 +179,6 @@
     <string name="revanced_hide_navigation_bar_title">Скриване лентата за навигация</string>
     <string name="revanced_hide_navigation_bar_summary">Скриване лентата за навигация.</string>
     <string name="revanced_hide_navigation_label_title">Скриване на навигационен панел</string>
-    <string name="revanced_enable_black_navigation_bar_title">Включване на черна навигационна лента</string>
-    <string name="revanced_enable_black_navigation_bar_summary">Задава цвета на лентата за навигация на черен.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Плеър</string>
     <string name="revanced_enable_color_match_player_title">A játékos színmegfelelésének engedélyezése</string>

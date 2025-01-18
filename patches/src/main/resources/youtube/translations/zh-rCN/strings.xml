@@ -282,15 +282,9 @@
     <string name="revanced_related_videos_offset_title">偏移</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">常规设置</string>
-    <string name="revanced_change_layout_title">调整布局</string>
-    <string name="revanced_change_layout_entry_1">原版</string>
-    <string name="revanced_change_layout_entry_2">手机</string>
-    <string name="revanced_change_layout_entry_3">手机 (最大 480 dip)</string>
-    <string name="revanced_change_layout_entry_4">平板</string>
-    <string name="revanced_change_layout_entry_5">平板 (最小 600 dip)</string>
     <string name="revanced_change_start_page_title">更改起始页</string>
-    <string name="revanced_change_start_page_entry_browse">浏览频道</string>
     <string name="revanced_change_start_page_entry_default">默认</string>
+    <string name="revanced_change_start_page_entry_browse">浏览频道</string>
     <string name="revanced_change_start_page_entry_explore">探索</string>
     <string name="revanced_change_start_page_entry_gaming">游戏</string>
     <string name="revanced_change_start_page_entry_history">历史</string>
@@ -334,6 +328,12 @@
     <string name="revanced_remove_viewer_discretion_dialog_title">移除查看器的自由裁量对话框</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"移除查看器的自由裁量对话框
 这不会绕过年龄限制它只会自动同意"</string>
+    <string name="revanced_change_layout_title">调整布局</string>
+    <string name="revanced_change_layout_entry_1">原版</string>
+    <string name="revanced_change_layout_entry_2">手机</string>
+    <string name="revanced_change_layout_entry_3">手机 (最大 480 dip)</string>
+    <string name="revanced_change_layout_entry_4">平板</string>
+    <string name="revanced_change_layout_entry_5">平板 (最小 600 dip)</string>
     <string name="revanced_spoof_app_version_title">伪装应用版本</string>
     <string name="revanced_spoof_app_version_summary_on">客户端版本已伪装</string>
     <string name="revanced_spoof_app_version_summary_off">客户端版本未伪装</string>
@@ -1558,9 +1558,6 @@
     <string name="revanced_sb_about_api_sum">数据由 SponsorBlock API 提供，点击此处了解更多信息并查看其他平台的下载</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">杂项</string>
-    <string name="revanced_enable_open_links_directly_title">启用直接打开链接</string>
-    <string name="revanced_enable_open_links_directly_summary_on">绕过链接重定向</string>
-    <string name="revanced_enable_open_links_directly_summary_off">遵循默认重定向策略</string>
     <string name="revanced_disable_quic_protocol_title">禁用 QUIC 协议</string>
     <string name="revanced_disable_quic_protocol_summary">"禁用 Cronet 引擎的 QUIC 协议"</string>
     <string name="revanced_enable_debug_logging_title">启用 Debug 日志</string>
@@ -1569,9 +1566,6 @@
     <string name="revanced_enable_debug_buffer_logging_title">启用 Debug 缓冲区日志记录</string>
     <string name="revanced_enable_debug_buffer_logging_summary_on">Debug 日志不包括缓冲区</string>
     <string name="revanced_enable_debug_buffer_logging_summary_off">Debug 日志不包括缓冲区</string>
-    <string name="revanced_enable_external_browser_title">启用外部浏览器</string>
-    <string name="revanced_enable_external_browser_summary_on">外部浏览器已启用</string>
-    <string name="revanced_enable_external_browser_summary_off">外部浏览器已禁用</string>
     <string name="revanced_sanitize_sharing_links_title">清理共享链接</string>
     <string name="revanced_sanitize_sharing_links_summary">共享链接时，删除 URL 中的跟踪查询参数</string>
     <string name="revanced_default_app_settings_title">打开默认应用设置</string>

@@ -43,8 +43,6 @@
     <string name="revanced_spoof_app_version_title">Versione dell\'app falsificata</string>
     <!-- PreferenceScreen: Navigation Bar -->
     <string name="revanced_hide_navigation_label_title">Nascondi etichetta di navigazione</string>
-    <string name="revanced_enable_black_navigation_bar_title">Abilita la barra di navigazione nera</string>
-    <string name="revanced_enable_black_navigation_bar_summary">Imposta il colore della barra di navigazione su nero.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_enable_color_match_player_title">Abilita l\'abbinamento di colore dei Riproduttori</string>
     <string name="revanced_enable_color_match_player_summary">Allinea il colore del lettore a schermo intero con quello in secondo piano.</string>

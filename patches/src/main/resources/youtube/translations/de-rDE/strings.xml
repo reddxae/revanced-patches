@@ -281,15 +281,9 @@ Wenn sich das Layout des Wiedergabebildschirms aufgrund serverseitiger Änderung
     <string name="revanced_related_videos_offset_title">Offset</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Allgemein</string>
-    <string name="revanced_change_layout_title">Layout ändern</string>
-    <string name="revanced_change_layout_entry_1">Original</string>
-    <string name="revanced_change_layout_entry_2">Telefon</string>
-    <string name="revanced_change_layout_entry_3">Telefon (max. 480 dp)</string>
-    <string name="revanced_change_layout_entry_4">Tablet</string>
-    <string name="revanced_change_layout_entry_5">Tablet (min. 600 dp)</string>
     <string name="revanced_change_start_page_title">Startseite ändern</string>
-    <string name="revanced_change_start_page_entry_browse">Kanäle durchstöbern</string>
     <string name="revanced_change_start_page_entry_default">Standard</string>
+    <string name="revanced_change_start_page_entry_browse">Kanäle durchstöbern</string>
     <string name="revanced_change_start_page_entry_explore">Entdecken</string>
     <string name="revanced_change_start_page_entry_gaming">Spiele</string>
     <string name="revanced_change_start_page_entry_history">Verlauf</string>
@@ -333,6 +327,12 @@ Einschränkung: Zurück-Taste in der Symbolleiste funktioniert möglicherweise n
     <string name="revanced_remove_viewer_discretion_dialog_title">Diskretion des Betrachters entfernen</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Entfernt den Diskretionsdialog des Betrachters.
 Dies umgeht nicht die Altersbeschränkung. Es akzeptiert ihn nur automatisch."</string>
+    <string name="revanced_change_layout_title">Layout ändern</string>
+    <string name="revanced_change_layout_entry_1">Original</string>
+    <string name="revanced_change_layout_entry_2">Telefon</string>
+    <string name="revanced_change_layout_entry_3">Telefon (max. 480 dp)</string>
+    <string name="revanced_change_layout_entry_4">Tablet</string>
+    <string name="revanced_change_layout_entry_5">Tablet (min. 600 dp)</string>
     <string name="revanced_spoof_app_version_title">Spoof App Version</string>
     <string name="revanced_spoof_app_version_summary_on">Version gefälscht</string>
     <string name="revanced_spoof_app_version_summary_off">Version nicht gefälscht</string>
@@ -1411,9 +1411,6 @@ Einschränkung: Dislikes werden im Inkognito Modus nicht angezeigt."</string>
     <string name="revanced_sb_about_api_sum">Die Daten werden von der SponsorBlock API bereitgestellt. Tippen Sie hier, um mehr zu erfahren und Downloads für andere Plattformen zu sehen</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Sonstiges</string>
-    <string name="revanced_enable_open_links_directly_title">Links direkt öffnen</string>
-    <string name="revanced_enable_open_links_directly_summary_on">Umgehung von URL-Umleitungen</string>
-    <string name="revanced_enable_open_links_directly_summary_off">Standard-Umleitungsrichtlinie folgen</string>
     <string name="revanced_disable_quic_protocol_title">QUIC-Protokoll deaktivieren</string>
     <string name="revanced_disable_quic_protocol_summary">"CronetEngine's QUIC-Protokoll deaktivieren"</string>
     <string name="revanced_enable_debug_logging_title">Debug-Protokollierung aktivieren</string>
@@ -1422,9 +1419,6 @@ Einschränkung: Dislikes werden im Inkognito Modus nicht angezeigt."</string>
     <string name="revanced_enable_debug_buffer_logging_title">Debug-Pufferprotokollierung aktivieren</string>
     <string name="revanced_enable_debug_buffer_logging_summary_on">Debug-Protokolle enthalten Puffer.</string>
     <string name="revanced_enable_debug_buffer_logging_summary_off">Debug-Protokolle enthalten keinen Puffer.</string>
-    <string name="revanced_enable_external_browser_title">Aktiviere externen Browser</string>
-    <string name="revanced_enable_external_browser_summary_on">Externer Browser ist aktiviert</string>
-    <string name="revanced_enable_external_browser_summary_off">Externer Browser ist deaktiviert</string>
     <string name="revanced_default_app_settings_title">Standard-App-Einstellungen öffnen</string>
     <string name="revanced_default_app_settings_summary">Um RVX in einem externen Browser zu öffnen, aktivieren Sie \'Unterstützte Links öffnen\' und aktivieren Sie die unterstützen Web-Adressen</string>
     <string name="gms_core_settings_title">GmsCore öffnen</string>

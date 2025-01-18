@@ -19,6 +19,59 @@
     <string name="revanced_external_downloader_not_installed_dialog_message">"Το %1$s δεν είναι εγκατεστημένο.
 Παρακαλούμε εγκαταστήστε το %2$s από την ιστοσελίδα."</string>
     <string name="revanced_external_downloader_not_installed_warning">%s δεν έχει εγκατασταθεί. Παρακαλούμε εγκαταστήστε το.</string>
+    <string name="revanced_language_title">Γλώσσα ρυθμίσεων RVX</string>
+    <string name="revanced_language_DEFAULT">Γλώσσα εφαρμογής</string>
+    <string name="revanced_language_AR">Αραβικά</string>
+    <string name="revanced_language_AZ">Αζερική</string>
+    <string name="revanced_language_BG">Βουλγαρικά</string>
+    <string name="revanced_language_BN">Βεγγαλικά</string>
+    <string name="revanced_language_CA">Καταλανικά</string>
+    <string name="revanced_language_CS">Τσέχικα</string>
+    <string name="revanced_language_DA">Δανικά</string>
+    <string name="revanced_language_DE">Γερμανικά</string>
+    <string name="revanced_language_EL">Ελληνικά</string>
+    <string name="revanced_language_EN">Αγγλικά</string>
+    <string name="revanced_language_ES">Ισπανικά</string>
+    <string name="revanced_language_ET">Εσθονικά</string>
+    <string name="revanced_language_FA">Περσικά</string>
+    <string name="revanced_language_FI">Φινλανδικά</string>
+    <string name="revanced_language_FR">Γαλλικά</string>
+    <string name="revanced_language_GU">Γκουτζαρατικά</string>
+    <string name="revanced_language_HI">Χίντι</string>
+    <string name="revanced_language_HR">Κροατικά</string>
+    <string name="revanced_language_HU">Ουγγρικά</string>
+    <string name="revanced_language_ID">Ινδονησιακά</string>
+    <string name="revanced_language_IT">Ιταλικά</string>
+    <string name="revanced_language_JA">Ιαπωνικά</string>
+    <string name="revanced_language_KK">Καζακικά</string>
+    <string name="revanced_language_KO">Κορεάτικα</string>
+    <string name="revanced_language_LT">Λιθουανικά</string>
+    <string name="revanced_language_LV">Λετονικά</string>
+    <string name="revanced_language_MK">Σλαβομακεδονικά</string>
+    <string name="revanced_language_MN">Μογγολικά</string>
+    <string name="revanced_language_MR">Μαράτι</string>
+    <string name="revanced_language_MS">Μαλαισιανά</string>
+    <string name="revanced_language_MY">Βιρμανικά</string>
+    <string name="revanced_language_NL">Ολλανδικά</string>
+    <string name="revanced_language_OR">Οντία</string>
+    <string name="revanced_language_PA">Παντζάμπι</string>
+    <string name="revanced_language_PL">Πολωνικά</string>
+    <string name="revanced_language_PT">Πορτογαλικά</string>
+    <string name="revanced_language_RO">Ρουμανικά</string>
+    <string name="revanced_language_RU">Ρώσικα</string>
+    <string name="revanced_language_SK">Σλοβακικά</string>
+    <string name="revanced_language_SL">Σλοβενικά</string>
+    <string name="revanced_language_SR">Σέρβικα</string>
+    <string name="revanced_language_SV">Σουηδικά</string>
+    <string name="revanced_language_SW">Σουαχίλι</string>
+    <string name="revanced_language_TA">Ταμίλ</string>
+    <string name="revanced_language_TE">Τελούγκου</string>
+    <string name="revanced_language_TH">Ταϊλανδικά</string>
+    <string name="revanced_language_TR">Τούρκικα</string>
+    <string name="revanced_language_UK">Ουκρανικά</string>
+    <string name="revanced_language_UR">Ουρντού</string>
+    <string name="revanced_language_VI">Βιετναμέζικα</string>
+    <string name="revanced_language_ZH">Κινέζικα</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Διαφημίσεις</string>
     <string name="revanced_hide_fullscreen_ads_title">Διαφημίσεις πλήρους οθόνης</string>
@@ -100,6 +153,14 @@
     <string name="revanced_hide_feed_captions_button_on">Κρυμμένο.</string>
     <string name="revanced_hide_feed_captions_button_off">Εμφανίζεται.</string>
     <string name="revanced_hide_carousel_shelf_title">Οριζόντιες ενότητες προτάσεων</string>
+    <string name="revanced_hide_carousel_shelf_summary_on">"Απόκρυψη ενοτήτων όπως:
+• Έκτακτη είδηση
+• Συνέχεια παρακολούθησης
+• Εξερευνήστε περισσότερα κανάλια
+• Ακούστε ξανά
+• Αγορές
+• Παρακολουθήστε ξανά"</string>
+    <string name="revanced_hide_carousel_shelf_summary_off">Εμφανίζονται.</string>
     <string name="revanced_hide_chips_shelf_title">Ενότητα σχετιζόμενων λέξεων</string>
     <string name="revanced_hide_chips_shelf_on">Κρυμμένη.</string>
     <string name="revanced_hide_chips_shelf_off">Εμφανίζεται.</string>
@@ -280,17 +341,12 @@ Playlists
     <string name="revanced_related_videos_offset_title">Μετατόπιση</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Γενικά</string>
-    <string name="revanced_change_layout_title">Αλλαγή διεπαφής</string>
-    <string name="revanced_change_layout_entry_1">Προεπιλογή</string>
-    <string name="revanced_change_layout_entry_2">Κινητό</string>
-    <string name="revanced_change_layout_entry_3">Κινητό (Μέγιστο dp 480)</string>
-    <string name="revanced_change_layout_entry_4">Τάμπλετ</string>
-    <string name="revanced_change_layout_entry_5">Τάμπλετ (Μέγιστο dp 600)</string>
     <string name="revanced_change_start_page_title">Αλλαγή αρχικής σελίδας</string>
+    <string name="revanced_change_start_page_entry_default">Προεπιλογή</string>
     <string name="revanced_change_start_page_entry_browse">Περιήγηση καναλιών</string>
     <string name="revanced_change_start_page_entry_courses">Μαθήματα / Εκμάθηση</string>
-    <string name="revanced_change_start_page_entry_default">Προεπιλογή</string>
     <string name="revanced_change_start_page_entry_explore">Εξερεύνηση</string>
+    <string name="revanced_change_start_page_entry_fashion">Μόδα &amp; ομορφιά</string>
     <string name="revanced_change_start_page_entry_gaming">Παιχνίδια</string>
     <string name="revanced_change_start_page_entry_history">Ιστορικό</string>
     <string name="revanced_change_start_page_entry_library">Βιβλιοθήκη</string>
@@ -298,8 +354,11 @@ Playlists
     <string name="revanced_change_start_page_entry_live">Live</string>
     <string name="revanced_change_start_page_entry_movies">Ταινίες</string>
     <string name="revanced_change_start_page_entry_music">Μουσική</string>
+    <string name="revanced_change_start_page_entry_news">Ειδήσεις</string>
     <string name="revanced_change_start_page_entry_notifications">Ειδοποιήσεις</string>
+    <string name="revanced_change_start_page_entry_podcasts">Podcasts</string>
     <string name="revanced_change_start_page_entry_search">Αναζήτηση</string>
+    <string name="revanced_change_start_page_entry_shopping">Shopping</string>
     <string name="revanced_change_start_page_entry_shorts">Shorts</string>
     <string name="revanced_change_start_page_entry_sports">Αθλητικά</string>
     <string name="revanced_change_start_page_entry_subscriptions">Εγγραφές</string>
@@ -338,6 +397,12 @@ Playlists
     <string name="revanced_remove_viewer_discretion_dialog_title">Παράθυρο ηλικιακού περιορισμού</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Αφαίρεση του παραθύρου προειδοποίησης ηλικιακού περιορισμού.
 Αυτό δεν παρακάμπτει τον ηλικιακό περιορισμό, απλά τον αποδέχεται αυτόματα."</string>
+    <string name="revanced_change_layout_title">Αλλαγή διεπαφής</string>
+    <string name="revanced_change_layout_entry_1">Προεπιλογή</string>
+    <string name="revanced_change_layout_entry_2">Κινητό</string>
+    <string name="revanced_change_layout_entry_3">Κινητό (Μέγιστο dp 480)</string>
+    <string name="revanced_change_layout_entry_4">Τάμπλετ</string>
+    <string name="revanced_change_layout_entry_5">Τάμπλετ (Μέγιστο dp 600)</string>
     <string name="revanced_spoof_app_version_title">Παραποίηση έκδοσης εφαρμογής</string>
     <string name="revanced_spoof_app_version_summary_on">Η έκδοση παραποιείται.</string>
     <string name="revanced_spoof_app_version_summary_off">Η έκδοση δεν παραποιείται.</string>
@@ -385,7 +450,7 @@ Playlists
     <string name="revanced_preference_category_download_button">Κουμπί «Λήψη»</string>
     <string name="revanced_override_playlist_download_button_title">Μετατροπή κουμπιού λήψης λίστας αναπαραγωγής</string>
     <string name="revanced_override_playlist_download_button_summary_on">Το κουμπί λήψης λίστας αναπαραγωγής εμφανίζεται πάντα, και σε δημόσιες λίστες αναπαραγωγής ανοίγει το εξωτερικό πρόγραμμα λήψης σας.</string>
-    <string name="revanced_override_playlist_download_button_summary_off">Αν εμφανίζεται, το κουμπί λήψης λίστας αναπαραγωγής ανοίγει το εγγενές πρόγραμμα λήψης του YouTube.</string>
+    <string name="revanced_override_playlist_download_button_summary_off">Το κουμπί λήψης λίστας αναπαραγωγής, αν εμφανίζεται, ανοίγει το εγγενές πρόγραμμα λήψης του YouTube.</string>
     <string name="revanced_override_video_download_button_title">Μετατροπή κουμπιού λήψης βίντεο</string>
     <string name="revanced_override_video_download_button_summary_on">Το κουμπί λήψης του YouTube ανοίγει το εξωτερικό πρόγραμμα λήψης σας.</string>
     <string name="revanced_override_video_download_button_summary_off">Το κουμπί λήψης του YouTube ανοίγει το εγγενές πρόγραμμα λήψης της εφαρμογής.</string>
@@ -510,6 +575,9 @@ Playlists
     <string name="revanced_hide_settings_menu_data_saving_title">Μενού «Εξοικονόμηση δεδομένων»</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_on">Κρυμμένο.</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_off">Εμφανίζεται.</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_title">Μενού «Αναπαραγωγή»</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_summary_on">Κρυμμένο.</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_summary_off">Εμφανίζεται.</string>
     <string name="revanced_hide_settings_menu_video_quality_title">Μενού «Προτιμήσεις ποιότητας βίντεο»</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_on">Κρυμμένο.</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_off">Εμφανίζεται.</string>
@@ -566,7 +634,7 @@ Playlists
     <string name="revanced_enable_wide_search_bar_summary_off">Η ευρεία γραμμή αναζήτησης είναι απενεργοποιημένη.</string>
     <string name="revanced_enable_wide_search_bar_with_header_title">Ευρεία γραμμή αναζήτησης με επικεφαλίδα</string>
     <string name="revanced_enable_wide_search_bar_with_header_summary_on">Η ευρεία γραμμή αναζήτησης περιλαμβάνει την επικεφαλίδα του YouTube.</string>
-    <string name="revanced_enable_wide_search_bar_with_header_summary_off">Η ευρεία γραμμή αναζήτησης δεν περιλαμβάνει την επικεφαλίδα του YouTube.</string>
+    <string name="revanced_enable_wide_search_bar_with_header_summary_off">Η ευρεία γραμμή αναζήτησης κρύβει την επικεφαλίδα του YouTube και χρησιμοποιεί τον χώρο της.</string>
     <string name="revanced_enable_wide_search_bar_in_you_tab_title">Ευρεία γραμμή αναζήτησης στο «Εσείς»</string>
     <string name="revanced_enable_wide_search_bar_in_you_tab_summary">"Η ενεργοποίηση αυτής της ρύθμισης θα απενεργοποιήσει το κουμπί ρυθμίσεων στην καρτέλα «Εσείς»
 
@@ -608,12 +676,12 @@ Playlists
     <string name="revanced_custom_player_overlay_opacity_title">Αδιαφάνεια φόντου οθόνης αναπαραγωγής</string>
     <string name="revanced_custom_player_overlay_opacity_summary">Τιμή αδιαφάνειας μεταξύ 0-100, όπου το 0 είναι διαφανές.</string>
     <string name="revanced_custom_player_overlay_opacity_invalid_toast">Η αδιαφάνεια πρέπει να είναι μεταξύ 0-100.</string>
-    <string name="revanced_disable_auto_switch_mix_playlists_title">Απενεργοποίηση εναλλαγής λιστών αναπαραγωγής μίξης</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_title">Απενεργοποίηση αυτόματης εναλλαγής λιστών αναπαραγωγής μίξης</string>
     <string name="revanced_disable_auto_switch_mix_playlists_summary_on">Η αυτόματη εναλλαγή λιστών αναπαραγωγής μίξης είναι απενεργοποιημένη.</string>
-    <string name="revanced_disable_auto_switch_mix_playlists_summary_off">"Η αυτόματη εναλλαγή λιστών αναπαραγωγής μίξης είναι ενεργοποιημένη όταν η αυτόματη αναπαραγωγή είναι επίσης ενεργοποιημένη.
+    <string name="revanced_disable_auto_switch_mix_playlists_summary_off">"Η αυτόματη εναλλαγή λιστών αναπαραγωγής μίξης είναι ενεργοποιημένη όταν η αυτόματη αναπαραγωγή είναι ενεργοποιημένη.
 
 Η αυτόματη αναπαραγωγή μπορεί να αλλαχτεί στις ρυθμίσεις YouTube:
-Ρυθμίσεις → Αυτόματη αναπαραγωγή → Αυτόματη αναπαραγωγή επόμενου βίντεο"</string>
+Ρυθμίσεις → Αναπαραγωγή → Αυτόματη αναπαραγωγή επόμενου βίντεο"</string>
     <string name="revanced_disable_auto_switch_mix_playlists_user_dialog_message">Η ενεργοποίηση αυτής της ρύθμισης θα απενεργοποιήσει την αυτόματη εναλλαγή σε YouTube Mix κατά την αναπαραγωγή μουσικής ενώ η αυτόματη αναπαραγωγή είναι ενεργοποιημένη.</string>
     <string name="revanced_disable_auto_player_popup_panels_title">Αναδυόμενα παράθυρα οθόνης αναπαραγωγής</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_on">Κρυμμένα.</string>
@@ -665,7 +733,7 @@ Playlists
 Ισχύει μόνο όταν η αυτόματη αναπαραγωγή είναι απενεργοποιημένη.
 
 Η αυτόματη αναπαραγωγή μπορεί να αλλαχτεί στις ρυθμίσεις YouTube:
-'Ρυθμίσεις → Αυτόματη αναπαραγωγή → Αυτόματη αναπαραγωγή επόμενου βίντεο'"</string>
+'Ρυθμίσεις → Αναπαραγωγή→ Αυτόματη αναπαραγωγή επόμενου βίντεο'"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">Εμφανίζεται.</string>
     <string name="revanced_skip_autoplay_countdown_title">Άμεση αυτόματη αναπαραγωγή</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">Αν είναι ενεργοποιημένη η αυτόματη αναπαραγωγή, το επόμενο βίντεο παίζει χωρίς αντίστροφη μέτρηση.</string>
@@ -760,18 +828,18 @@ Playlists
     <string name="revanced_hide_comment_highlighted_search_links_title">Επισημασμένοι συνδέσμοι αναζήτησης</string>
     <string name="revanced_hide_comment_highlighted_search_links_summary_on">Κρυμμένοι.</string>
     <string name="revanced_hide_comment_highlighted_search_links_summary_off">Εμφανίζονται.</string>
-    <string name="revanced_hide_live_chat_messages_title">Μηνύματα ζωντανής συνομιλίας</string>
+    <string name="revanced_hide_live_chat_messages_title">Μηνύματα ζωντανής συζήτησης</string>
     <string name="revanced_hide_live_chat_messages_summary_on">Κρυμμένα.\n\nΑυτή η ρύθμιση ισχύει και για τις ζωντανές μεταδόσεις Shorts.</string>
     <string name="revanced_hide_live_chat_messages_summary_off">Εμφανίζονται.\n\nΑυτή η ρύθμιση ισχύει και για τις ζωντανές μεταδόσεις Shorts.</string>
-    <string name="revanced_hide_live_chat_summary_title">Σύνοψη συνομιλίας στη ζωντανή συνομιλία</string>
+    <string name="revanced_hide_live_chat_summary_title">Σύνοψη συζήτησης στη ζωντανή συζήτηση</string>
     <string name="revanced_hide_live_chat_summary_summary_on">Κρυμμένη.</string>
     <string name="revanced_hide_live_chat_summary_summary_off">Εμφανίζεται.</string>
     <string name="revanced_hide_preview_comment_title">Προεπισκόπηση σχολίου</string>
     <string name="revanced_hide_preview_comment_on">Κρυμμένη.</string>
     <string name="revanced_hide_preview_comment_off">Εμφανίζεται.</string>
     <string name="revanced_hide_preview_comment_type_title">Τύπος απόκρυψης προεπισκόπησης σχολίου</string>
-    <string name="revanced_hide_preview_comment_type_on">Αυτό δεν αλλάζει το μέγεθος της ενότητας σχολίων, οπότε μπορεί να ανοιχτεί η επανάληψη ζωντανής συνομιλίας στην ενότητα σχολίων.</string>
-    <string name="revanced_hide_preview_comment_type_off">Αυτό αλλάζει το μέγεθος της ενότητας σχολίων, οπότε είναι αδύνατο να ανοιχτεί η επανάληψη ζωντανής συνομιλίας στην ενότητα σχολίων.</string>
+    <string name="revanced_hide_preview_comment_type_on">Αυτό δεν αλλάζει το μέγεθος της ενότητας σχολίων, οπότε μπορεί να ανοιχτεί η επανάληψη ζωντανής συζήτησης στην ενότητα σχολίων.</string>
+    <string name="revanced_hide_preview_comment_type_off">Αυτό αλλάζει το μέγεθος της ενότητας σχολίων, οπότε είναι αδύνατο να ανοιχτεί η επανάληψη ζωντανής συζήτησης στην ενότητα σχολίων.</string>
     <string name="revanced_hide_comment_thanks_button_title">Κουμπί «Σας ευχαριστούμε»</string>
     <string name="revanced_hide_comment_thanks_button_summary_on">Κρυμμένο.</string>
     <string name="revanced_hide_comment_thanks_button_summary_off">Εμφανίζεται.</string>
@@ -868,7 +936,7 @@ Playlists
     <string name="revanced_hide_autoplay_preview_summary_off">Εμφανίζεται.</string>
     <string name="revanced_hide_live_chat_replay_button_title">Κουμπί επανάληψης ζωντανής συζήτησης</string>
     <string name="revanced_hide_live_chat_replay_button_summary_on">Κρυμμένο.</string>
-    <string name="revanced_hide_live_chat_replay_button_summary_off">Εμφανίζεται στη λειτουργία πλήρους οθόνης μετά το κλείσιμο της ζωντανής συνομιλίας.</string>
+    <string name="revanced_hide_live_chat_replay_button_summary_off">Εμφανίζεται στη λειτουργία πλήρους οθόνης στο κλείσιμο της ζωντανής συζήτησης.</string>
     <string name="revanced_hide_related_video_overlay_title">Σχετιζόμενο βίντεο</string>
     <string name="revanced_hide_related_video_overlay_summary_on">Κρυμμένο.
 
@@ -919,6 +987,8 @@ Playlists
     <string name="revanced_enable_compact_controls_overlay_summary_on">Τα στοιχεία ελέγχου μικρότερου στυλ είναι ενεργοποιημένα.</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">Τα στοιχεία ελέγχου μικρότερου στυλ είναι απενεργοποιημένα.</string>
     <string name="revanced_keep_landscape_mode_title">Διατήρηση οριζόντιας λειτουργίας</string>
+    <string name="revanced_keep_landscape_mode_summary_on">Τα βίντεο συνεχίζουν να αναπαράγονται σε οριζόντια λειτουργία ακόμη και όταν κλείνεται και ξανανοίγεται η οθόνη.</string>
+    <string name="revanced_keep_landscape_mode_summary_off">Τα βίντεο αναπαράγονται σε κάθετη λειτουργία όταν κλείνεται και ξανανοίγεται η οθόνη.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">Χρονικό όριο οριζόντιας λειτουργίας</string>
     <string name="revanced_keep_landscape_mode_timeout_summary">Ο αριθμός των χιλιοστών δευτερολέπτου που θα εξαναγκάζεται η οριζόντια λειτουργία.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Haptic feedback -->
@@ -1196,8 +1266,8 @@ Playlists
     <string name="revanced_hide_shorts_join_button_title">Κουμπί «Συμμετοχή»</string>
     <string name="revanced_hide_shorts_join_button_summary_on">Κρυμμένο.</string>
     <string name="revanced_hide_shorts_join_button_summary_off">Εμφανίζεται.</string>
-    <string name="revanced_hide_shorts_live_header_title">Επικεφαλίδα ζωντανής συνομιλίας</string>
-    <string name="revanced_hide_shorts_live_header_summary_on">Κρυμμένο.\n\nΤο κουμπί επιστροφής στην επικεφαλίδα δεν θα είναι κρυμμένο.</string>
+    <string name="revanced_hide_shorts_live_header_title">Επικεφαλίδα ζωντανής συζήτησης</string>
+    <string name="revanced_hide_shorts_live_header_summary_on">Κρυμμένη.\n\nΤο κουμπί επιστροφής στην επικεφαλίδα δεν θα είναι κρυμμένο.</string>
     <string name="revanced_hide_shorts_live_header_summary_off">Εμφανίζεται.</string>
     <string name="revanced_hide_shorts_paid_promotion_label_title">Ετικέτες προώθησης επί πληρωμή</string>
     <string name="revanced_hide_shorts_paid_promotion_label_summary_on">Κρυμμένες.</string>
@@ -1657,8 +1727,8 @@ Playlists
     <string name="revanced_sb_api_url_changed">Η διεύθυνση URL του API άλλαξε.</string>
     <string name="revanced_sb_settings_copy">Αντιγραφή</string>
     <string name="revanced_sb_settings_ie">Εισαγωγή / Εξαγωγή ρυθμίσεων</string>
-    <string name="revanced_sb_settings_ie_sum">Οι ρυθμίσεις SponsorBlock σας σε μορφή JSON που μπορούν να εισαχθούν / εξαχθούν στο ReVanced Extended και σε άλλες πλατφόρμες SponsorBlock.</string>
-    <string name="revanced_sb_settings_ie_sum_warning">Οι ρυθμίσεις SponsorBlock σας σε μορφή JSON που μπορούν να εισαχθούν / εξαχθούν στο ReVanced Extended και σε άλλες πλατφόρμες SponsorBlock. Αυτό περιλαμβάνει το ιδιωτικό σας αναγνωριστικό χρήστη. Φροντίστε να το μοιραστείτε με σύνεση.</string>
+    <string name="revanced_sb_settings_ie_sum">Οι ρυθμίσεις SponsorBlock σας σε μορφή JSON που μπορούν να εισαχθούν / εξαχθούν στο RVX και σε άλλες πλατφόρμες SponsorBlock.</string>
+    <string name="revanced_sb_settings_ie_sum_warning">Οι ρυθμίσεις SponsorBlock σας σε μορφή JSON που μπορούν να εισαχθούν / εξαχθούν στο RVX και σε άλλες πλατφόρμες SponsorBlock. Αυτό περιλαμβάνει το ιδιωτικό σας αναγνωριστικό χρήστη. Φροντίστε να το μοιραστείτε με σύνεση.</string>
     <string name="revanced_sb_settings_import_successful">Οι ρυθμίσεις εισήχθησαν επιτυχώς.</string>
     <string name="revanced_sb_settings_import_failed">Η εισαγωγή απέτυχε: %s.</string>
     <string name="revanced_sb_settings_export_failed">Η εξαγωγή απέτυχε: %s.</string>
@@ -1726,28 +1796,22 @@ Playlists
     <string name="revanced_sb_about_api_sum">Τα δεδομένα παρέχονται από το SponsorBlock API. Πατήστε για να μάθετε περισσότερα και να δείτε λήψεις για άλλες πλατφόρμες.</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Διάφορα</string>
-    <string name="revanced_enable_open_links_directly_title">Παράκαμψη ανακατευθύνσεων συνδέσμων</string>
-    <string name="revanced_enable_open_links_directly_summary_on">Οι ανακατευθύνσεις URL παρακάμπτονται κατά το άνοιγμα συνδέσμων.</string>
-    <string name="revanced_enable_open_links_directly_summary_off">Οι ανακατευθύνσεις URL δεν παρακάμπτονται κατά το άνοιγμα συνδέσμων.</string>
     <string name="revanced_disable_quic_protocol_title">Απενεργοποίηση πρωτοκόλλου QUIC</string>
     <string name="revanced_disable_quic_protocol_summary">"Απενεργοποίηση πρωτοκόλλου QUIC του CronetEngine.
 
-Αυτή η λειτουργία αποτρέπει την συμπίεση και αποσυμπίεση των βίντεο κατά την αναπαραγωγή, τα οποία μπορούν να προκαλέσουν κολλήματα, ενδέχεται όμως να χρησιμοποιηθούν περισσότερα δεδομένα."</string>
+Αυτή η λειτουργία αποτρέπει την συμπίεση και αποσυμπίεση των βίντεο κατά την αναπαραγωγή, οι οποίες μπορούν να προκαλέσουν κολλήματα, ενδέχεται όμως να χρησιμοποιηθούν περισσότερα δεδομένα."</string>
     <string name="revanced_enable_debug_logging_title">Καταγραφή εντοπισμού σφαλμάτων</string>
     <string name="revanced_enable_debug_logging_summary_on">Η καταγραφή εντοπισμού σφαλμάτων είναι ενεργοποιημένη.</string>
     <string name="revanced_enable_debug_logging_summary_off">Η καταγραφή εντοπισμού σφαλμάτων είναι απενεργοποιημένη.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Συμπερίληψη του buffer στην καταγραφή</string>
     <string name="revanced_enable_debug_buffer_logging_summary_on">Η καταγραφή εντοπισμού σφαλμάτων περιλαμβάνει το proto buffer.</string>
     <string name="revanced_enable_debug_buffer_logging_summary_off">Η καταγραφή εντοπισμού σφαλμάτων δεν περιλαμβάνει το proto buffer.</string>
-    <string name="revanced_enable_external_browser_title">Εξωτερικό πρόγραμμα περιήγησης</string>
-    <string name="revanced_enable_external_browser_summary_on">Οι συνδέσμοι ανοίγουν σε εξωτερικό πρόγραμμα περιήγησης.</string>
-    <string name="revanced_enable_external_browser_summary_off">Οι συνδέσμοι ανοίγουν εσωτερικά στην εφαρμογή.</string>
     <string name="revanced_sanitize_sharing_links_title">Καθαρισμός συνδέσμων κοινοποίησης</string>
     <string name="revanced_sanitize_sharing_links_summary">Αφαίρεση των παραμέτρων παρακολούθησης από τις διευθύνσεις URL κατά την κοινοποίηση συνδέσμων.</string>
     <string name="revanced_default_app_settings_title">Άνοιγμα ρυθμίσεων προεπιλεγμένων εφαρμογών</string>
     <string name="revanced_default_app_settings_summary">Για να ανοίγουν οι συνδέσμοι YouTube στο RVX, ενεργοποιήστε το «Άνοιγμα υποστηριζόμενων συνδέσμων» και τις υποστηριζόμενες διευθύνσεις ιστού.</string>
-    <string name="gms_core_settings_title">Άνοιγμα του MicroG GmsCore</string>
-    <string name="gms_core_settings_summary">Ενεργοποιήστε τις ρυθμίσεις cloud messaging για να λαμβάνετε ειδοποιήσεις.</string>
+    <string name="gms_core_settings_title">Άνοιγμα ρυθμίσεων του MicroG GmsCore</string>
+    <string name="gms_core_settings_summary">Για να λαμβάνετε ειδοποιήσεις στο RVX, ενεργοποιήστε τις ρυθμίσεις Cloud Messaging.</string>
     <string name="gms_core_toast_not_installed_message">Το MicroG GmsCore δεν είναι εγκατεστημένο. Εγκαταστήστε το.</string>
     <string name="gms_core_dialog_title">Απαιτείται ενέργεια</string>
     <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"Το MicroG GmsCore δεν έχει άδεια να τρέχει στο παρασκήνιο.
@@ -1769,7 +1833,7 @@ Playlists
     <string name="revanced_enable_opus_codec_summary">Ενεργοποίηση του κωδικοποιητή OPUS αν η ανταπόκριση του προγράμματος αναπαραγωγής τον περιλαμβάνει.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings -->
     <string name="revanced_preference_screen_import_export_title">Εισαγωγή / Εξαγωγή ρυθμίσεων</string>
-    <string name="revanced_preference_screen_import_export_summary">Εισαγωγή ή εξαγωγή των ρυθμίσεών σας.</string>
+    <string name="revanced_preference_screen_import_export_summary">Εισαγωγή ή εξαγωγή των ρυθμίσεών RVX σας.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings, PreferenceCategory: Import / Export as file -->
     <string name="revanced_preference_category_import_export_as_file">Εισαγωγή / Εξαγωγή ως αρχείο</string>
     <string name="revanced_extended_settings_export_title">Εξαγωγή ρυθμίσεων</string>
@@ -1800,6 +1864,8 @@ Playlists
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">"Android TV
 <small>(Απαιτείται σύνδεση)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr_no_auth">"Android VR
+<small>(χωρίς auth)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
 <small>(Απαιτείται αναγνωριστικό PoToken)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
@@ -1821,6 +1887,7 @@ Playlists
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Εμφάνιση στο «Στατιστικά για σπασίκλες»</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Το πρόγραμμα πελάτη που χρησιμοποιείται για τη λήψη δεδομένων ροής εμφανίζεται στο μενού «Στατιστικά για σπασίκλες».</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Το πρόγραμμα πελάτη που χρησιμοποιείται για τη λήψη δεδομένων ροής δεν εμφανίζεται στο μενού «Στατιστικά για σπασίκλες».</string>
+    <string name="revanced_spoof_streaming_data_language_title">Προεπιλεγμένη γλώσσα ροής ήχου VR</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <string name="revanced_preference_category_po_token_visitor_data">PoToken / VisitorData</string>
     <string name="revanced_spoof_streaming_data_po_token_title">PoToken προς χρήση</string>

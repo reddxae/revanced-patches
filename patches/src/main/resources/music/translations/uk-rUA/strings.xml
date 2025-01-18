@@ -195,8 +195,6 @@
     <string name="revanced_hide_navigation_bar_summary">Приховує панель навігації.</string>
     <string name="revanced_hide_navigation_label_title">Приховати підписи кнопок навігації</string>
     <string name="revanced_hide_navigation_label_summary">Приховує підпис під кожною навігаційною кнопкою.</string>
-    <string name="revanced_enable_black_navigation_bar_title">Увімкнути чорну панель навігації</string>
-    <string name="revanced_enable_black_navigation_bar_summary">Встановлює чорний колір для панелі навігації.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Плеєр</string>
     <string name="revanced_enable_mini_player_next_button_title">Додати кнопку наступне у мініплеєр</string>

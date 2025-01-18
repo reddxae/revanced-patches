@@ -19,6 +19,59 @@
     <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s не встановлено.
 Будь ласка, завантажте %2$s з сайту."</string>
     <string name="revanced_external_downloader_not_installed_warning">%s не встановлено. Будь ласка, встановіть його.</string>
+    <string name="revanced_language_title">Мова RVX</string>
+    <string name="revanced_language_DEFAULT">Мова додатка</string>
+    <string name="revanced_language_AR">Арабська</string>
+    <string name="revanced_language_AZ">Азербайджанська</string>
+    <string name="revanced_language_BG">Болгарська</string>
+    <string name="revanced_language_BN">Бенгальська</string>
+    <string name="revanced_language_CA">Каталонська</string>
+    <string name="revanced_language_CS">Чеська</string>
+    <string name="revanced_language_DA">Данська</string>
+    <string name="revanced_language_DE">Німецька</string>
+    <string name="revanced_language_EL">Грецька</string>
+    <string name="revanced_language_EN">Англійська</string>
+    <string name="revanced_language_ES">Іспанська</string>
+    <string name="revanced_language_ET">Естонська</string>
+    <string name="revanced_language_FA">Перська</string>
+    <string name="revanced_language_FI">Фінська</string>
+    <string name="revanced_language_FR">Французька</string>
+    <string name="revanced_language_GU">Гуджаратська</string>
+    <string name="revanced_language_HI">Хінді</string>
+    <string name="revanced_language_HR">Хорватська</string>
+    <string name="revanced_language_HU">Угорська</string>
+    <string name="revanced_language_ID">Індонезійська</string>
+    <string name="revanced_language_IT">Італійська</string>
+    <string name="revanced_language_JA">Японська</string>
+    <string name="revanced_language_KK">Казахська</string>
+    <string name="revanced_language_KO">Корейська</string>
+    <string name="revanced_language_LT">Литовська</string>
+    <string name="revanced_language_LV">Латвійська</string>
+    <string name="revanced_language_MK">Македонська</string>
+    <string name="revanced_language_MN">Монгольська</string>
+    <string name="revanced_language_MR">Маратхі</string>
+    <string name="revanced_language_MS">Малайська</string>
+    <string name="revanced_language_MY">Бірманська</string>
+    <string name="revanced_language_NL">Голландська</string>
+    <string name="revanced_language_OR">Одія</string>
+    <string name="revanced_language_PA">Пенджабі</string>
+    <string name="revanced_language_PL">Польська</string>
+    <string name="revanced_language_PT">Португальська</string>
+    <string name="revanced_language_RO">Румунська</string>
+    <string name="revanced_language_RU">Російська</string>
+    <string name="revanced_language_SK">Словацька</string>
+    <string name="revanced_language_SL">Словенська</string>
+    <string name="revanced_language_SR">Сербська</string>
+    <string name="revanced_language_SV">Шведська</string>
+    <string name="revanced_language_SW">Суахілі</string>
+    <string name="revanced_language_TA">Тамільська</string>
+    <string name="revanced_language_TE">Телуґу</string>
+    <string name="revanced_language_TH">Тайська</string>
+    <string name="revanced_language_TR">Турецька</string>
+    <string name="revanced_language_UK">Українська</string>
+    <string name="revanced_language_UR">Урду</string>
+    <string name="revanced_language_VI">В’єтнамська</string>
+    <string name="revanced_language_ZH">Китайська</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Реклама</string>
     <string name="revanced_hide_fullscreen_ads_title">Приховати повноекранну рекламу</string>
@@ -66,7 +119,9 @@
     <string name="revanced_alt_thumbnail_options_entry_3">DeArrow та кадри</string>
     <string name="revanced_alt_thumbnail_options_entry_4">Кадри</string>
     <string name="revanced_alt_thumbnail_dearrow_about_title">DeArrow</string>
-    <string name="revanced_alt_thumbnail_dearrow_about_summary">"DeArrow надає краудсорсингові мініатюри для відео з YouTube. Ці мініатюри часто більш релевантні, ніж ті, що надаються YouTube. Якщо увімкнено, URL-адреси відео надсилатиметься на сервер API, а інші дані не надсилатиметься. Якщо для відео немає мініатюр DeArrow, зображається оригінал або кадр.
+    <string name="revanced_alt_thumbnail_dearrow_about_summary">"DeArrow надає краудсорсингові мініатюри для відео з YouTube. Ці мініатюри часто більш релевантні, ніж ті, що надаються YouTube.
+
+Якщо увімкнено, URL-адреси відео надсилатиметься на сервер API, а інші дані не надсилатиметься. Якщо для відео немає мініатюр DeArrow, зображається оригінал або кадр.
 
 Натисніть тут, щоб дізнатися більше про DeArrow."</string>
     <string name="revanced_alt_thumbnail_dearrow_connection_toast_title">Показувати тост, якщо API не доступний</string>
@@ -99,7 +154,15 @@
     <string name="revanced_hide_feed_captions_button_title">Приховати кнопку Субтитри</string>
     <string name="revanced_hide_feed_captions_button_on">Кнопку субтитрів приховано.</string>
     <string name="revanced_hide_feed_captions_button_off">Кнопку субтитрів показується.</string>
-    <string name="revanced_hide_carousel_shelf_title">Приховати карусельну полицю</string>
+    <string name="revanced_hide_carousel_shelf_title">Приховати карусельні полиці</string>
+    <string name="revanced_hide_carousel_shelf_summary_on">"Карусельні полиці приховано:
+• Важливі новини
+• Продовжити перегляд
+• Переглянути більше каналів
+• Прослухати знову
+• Покупки
+• Переглянути ще раз"</string>
+    <string name="revanced_hide_carousel_shelf_summary_off">Карусельні полиці показується.</string>
     <string name="revanced_hide_chips_shelf_title">Приховати полицю фішок</string>
     <string name="revanced_hide_chips_shelf_on">Полицю фішок приховано</string>
     <string name="revanced_hide_chips_shelf_off">Полицю фішок показується</string>
@@ -282,17 +345,12 @@
     <string name="revanced_related_videos_offset_title">Зміщення</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Загальне</string>
-    <string name="revanced_change_layout_title">Змінити макет</string>
-    <string name="revanced_change_layout_entry_1">Оригінал</string>
-    <string name="revanced_change_layout_entry_2">Телефонний</string>
-    <string name="revanced_change_layout_entry_3">Телефонний (Макс 480 dp)</string>
-    <string name="revanced_change_layout_entry_4">Планшетний</string>
-    <string name="revanced_change_layout_entry_5">Планшетний (Мін 600 dp)</string>
     <string name="revanced_change_start_page_title">Змінити початкову сторінку</string>
+    <string name="revanced_change_start_page_entry_default">Стандартна</string>
     <string name="revanced_change_start_page_entry_browse">Перегляд каналів</string>
     <string name="revanced_change_start_page_entry_courses">Навчання</string>
-    <string name="revanced_change_start_page_entry_default">Стандартна</string>
     <string name="revanced_change_start_page_entry_explore">Що нового</string>
+    <string name="revanced_change_start_page_entry_fashion">Мода і краса</string>
     <string name="revanced_change_start_page_entry_gaming">Ігри</string>
     <string name="revanced_change_start_page_entry_history">Історія</string>
     <string name="revanced_change_start_page_entry_library">Бібліотека</string>
@@ -300,8 +358,11 @@
     <string name="revanced_change_start_page_entry_live">Наживо</string>
     <string name="revanced_change_start_page_entry_movies">Фільми</string>
     <string name="revanced_change_start_page_entry_music">Музика</string>
+    <string name="revanced_change_start_page_entry_news">Новини</string>
     <string name="revanced_change_start_page_entry_notifications">Сповіщення</string>
+    <string name="revanced_change_start_page_entry_podcasts">Подкасти</string>
     <string name="revanced_change_start_page_entry_search">Пошук</string>
+    <string name="revanced_change_start_page_entry_shopping">Покупки</string>
     <string name="revanced_change_start_page_entry_shorts">YouTube Shorts</string>
     <string name="revanced_change_start_page_entry_sports">Спорт</string>
     <string name="revanced_change_start_page_entry_subscriptions">Підписки</string>
@@ -340,6 +401,12 @@
     <string name="revanced_remove_viewer_discretion_dialog_title">Вилучати діалогове вікно</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Вилучається діалогове вікно.
 Це не обходить вікові обмеження, а просто приймається автоматично."</string>
+    <string name="revanced_change_layout_title">Змінити макет</string>
+    <string name="revanced_change_layout_entry_1">Оригінал</string>
+    <string name="revanced_change_layout_entry_2">Телефонний</string>
+    <string name="revanced_change_layout_entry_3">Телефонний (Макс 480 dp)</string>
+    <string name="revanced_change_layout_entry_4">Планшетний</string>
+    <string name="revanced_change_layout_entry_5">Планшетний (Мін 600 dp)</string>
     <string name="revanced_spoof_app_version_title">Підробити версію програми</string>
     <string name="revanced_spoof_app_version_summary_on">Версію підроблено</string>
     <string name="revanced_spoof_app_version_summary_off">Версію не підроблено</string>
@@ -512,6 +579,9 @@
     <string name="revanced_hide_settings_menu_data_saving_title">Приховати меню Заощадження трафіку</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_on">Меню Заощадження трафіку приховано.</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_off">Меню Заощадження трафіку показується.</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_title">Приховати меню Автовідтворення чи Відтворення</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_summary_on">Меню Автовідтворення чи Відтворення приховано.</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_summary_off">Меню Автовідтворення чи Відтворення показується.</string>
     <string name="revanced_hide_settings_menu_video_quality_title">Приховати меню Параметри якості відео</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_on">Меню Параметри якості відео приховано.</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_off">Меню Параметри якості відео показується.</string>
@@ -567,8 +637,8 @@
     <string name="revanced_enable_wide_search_bar_summary_on">Широку панель пошуку увімкнено.</string>
     <string name="revanced_enable_wide_search_bar_summary_off">Широку панель пошуку вимкнено.</string>
     <string name="revanced_enable_wide_search_bar_with_header_title">Увімкнути широку панель пошуку з заголовком</string>
-    <string name="revanced_enable_wide_search_bar_with_header_summary_on">Широка панель пошуку включає заголовок YouTube.</string>
-    <string name="revanced_enable_wide_search_bar_with_header_summary_off">Широка панель пошуку не включає заголовок YouTube.</string>
+    <string name="revanced_enable_wide_search_bar_with_header_summary_on">Широка панель пошуку включно зі заголовком YouTube.</string>
+    <string name="revanced_enable_wide_search_bar_with_header_summary_off">Широка панель пошуку виключає та використовує місце заголовка YouTube.</string>
     <string name="revanced_enable_wide_search_bar_in_you_tab_title">Увімкнути широку панель пошуку у вкладці Ви</string>
     <string name="revanced_enable_wide_search_bar_in_you_tab_summary">"Увімкнення цього налаштування вимкне кнопку налаштувань у вкладці Ви.
 
@@ -615,7 +685,7 @@
     <string name="revanced_disable_auto_switch_mix_playlists_summary_off">"Автоперемикання списків створення Мікс увімкнено коли автовідтворення увімкнене.
 
 Автовідтворення можна змінити у налаштуваннях YouTube:
-Налаштування → Автоматичне відтворення → Автовідтворення наступного відео"</string>
+Налаштування → Автоматичне відтворення / Відтворення → Автовідтворення наступного відео"</string>
     <string name="revanced_disable_auto_switch_mix_playlists_user_dialog_message">Вмикання цієї функції вимкне автоматичне перемикання на YouTube Mix коли музика відтворюється якщо автовідтворення увімкнене.</string>
     <string name="revanced_disable_auto_player_popup_panels_title">Вимкнути висувні панелі плеєра</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_on">Автовисувні панелі плеєра вимкнено.</string>
@@ -916,6 +986,8 @@
     <string name="revanced_enable_compact_controls_overlay_summary_on">Компактне керування не заповнює весь екран.</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">Компактне керування заповнює весь екран.</string>
     <string name="revanced_keep_landscape_mode_title">Зберігати ландшафтний режим</string>
+    <string name="revanced_keep_landscape_mode_summary_on">Відео відтворюється у ландшафтному режимі після перемикання екрана.</string>
+    <string name="revanced_keep_landscape_mode_summary_off">Відео відтворюється у портретному режимі після перемикання екрана.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">Скільки зберігати ландшафтний режим</string>
     <string name="revanced_keep_landscape_mode_timeout_summary">Кількість мілісекунд примусового ландшафтного режиму.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Haptic feedback -->
@@ -1704,9 +1776,6 @@
     <string name="revanced_sb_about_api_sum">Дані надаються Спонсорблок API. Натисніть тут, щоб дізнатися більше та побачити завантаження для інших платформ</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Різне</string>
-    <string name="revanced_enable_open_links_directly_title">Увімкнути безпосереднє відкриття посилань</string>
-    <string name="revanced_enable_open_links_directly_summary_on">Обхід URL переадресацій.</string>
-    <string name="revanced_enable_open_links_directly_summary_off">Політика перенаправлення.</string>
     <string name="revanced_disable_quic_protocol_title">Вимкнути протокол QUIC</string>
     <string name="revanced_disable_quic_protocol_summary">"Вимкнути протокол CronetEngine's QUIC"</string>
     <string name="revanced_enable_debug_logging_title">Увімкнути журнал налагодження</string>
@@ -1715,15 +1784,12 @@
     <string name="revanced_enable_debug_buffer_logging_title">Увімкнути ведення журналу буфера налагодження</string>
     <string name="revanced_enable_debug_buffer_logging_summary_on">Журнали налагодження містять буфер.</string>
     <string name="revanced_enable_debug_buffer_logging_summary_off">Журнали налагодження не містять буфер.</string>
-    <string name="revanced_enable_external_browser_title">Увімкнути зовнішній браузер</string>
-    <string name="revanced_enable_external_browser_summary_on">Зовнішній браузер увімкнено.</string>
-    <string name="revanced_enable_external_browser_summary_off">Зовнішній браузер вимкнено.</string>
     <string name="revanced_sanitize_sharing_links_title">Обробляти поширення посилань</string>
     <string name="revanced_sanitize_sharing_links_summary">Вилучає параметри запиту відстеження з посилань під час поширення посилань.</string>
     <string name="revanced_default_app_settings_title">Відкрити налаштування</string>
-    <string name="revanced_default_app_settings_summary">Щоб відкривати додаток у зовнішньому перегляді, увімкніть \"Відкривати підтримувані посилання\" та підтримувані вебадреси</string>
+    <string name="revanced_default_app_settings_summary">Щоб відкривати додаток у зовнішньому перегляді, увімкніть Відкривати всі підтримувані посилання та підтримувані вебадреси.</string>
     <string name="gms_core_settings_title">Відкрити налаштування GmsCore</string>
-    <string name="gms_core_settings_summary">Відкриються налаштування GmsCore. Після цього увімкніть хмарний обмін повідомленнями, щоб отримувати сповіщення.</string>
+    <string name="gms_core_settings_summary">Щоб отримувати сповіщення у RVX, увімкніть Хмарні повідомлення.</string>
     <string name="gms_core_toast_not_installed_message">GmsCore не встановлено. Встановіть.</string>
     <string name="gms_core_dialog_title">Потрібна дія</string>
     <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"GmsCore не дозволено працювати у фоні.\n\nДотримуйтесь посібника \"Don't kill my app\" для вашого телефону і застосуйте інструкції для встановлення GmsCore.\n\nЦе необхідно для того, щоб програма працювала."</string>
@@ -1738,10 +1804,10 @@
     <string name="revanced_change_share_sheet_summary_on">Використовується системний діалог поширення.</string>
     <string name="revanced_change_share_sheet_summary_off">Використовується діалог Поділитися додатка.</string>
     <string name="revanced_enable_opus_codec_title">Увімкнути кодек OPUS</string>
-    <string name="revanced_enable_opus_codec_summary">Вмикає кодек OPUS, якщо відповідь плеєра включає кодек OPUS.</string>
+    <string name="revanced_enable_opus_codec_summary">Вмикає кодек OPUS, якщо відповідь плеєра включає його.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings -->
     <string name="revanced_preference_screen_import_export_title">Імпорт/Експорт налаштувань</string>
-    <string name="revanced_preference_screen_import_export_summary">Імпортувати або експортувати налаштування.</string>
+    <string name="revanced_preference_screen_import_export_summary">Імпортувати / експортувати налаштування.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings, PreferenceCategory: Import / Export as file -->
     <string name="revanced_preference_category_import_export_as_file">Імпорт / Експорт як файл</string>
     <string name="revanced_extended_settings_export_title">Експортувати налаштування</string>
@@ -1751,7 +1817,7 @@
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings, PreferenceCategory: Import / Export as text -->
     <string name="revanced_preference_category_import_export_as_text">Імпорт / Експорт як текст</string>
     <string name="revanced_extended_settings_import_export_as_text_title">Імпорт / Експорт як текст</string>
-    <string name="revanced_extended_settings_import_export_as_text_summary">Імпортувати або експортувати налаштування у вигляді тексту.</string>
+    <string name="revanced_extended_settings_import_export_as_text_summary">Імпортувати / експортувати налаштування у вигляді тексту.</string>
     <string name="revanced_extended_settings_export_failed">Не вдалося експортувати налаштування.</string>
     <string name="revanced_extended_settings_export_success">Налаштування було вдало експортовано.</string>
     <string name="revanced_extended_settings_import">Імпортувати</string>
@@ -1772,6 +1838,8 @@
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">"Android TV
 <small>(Потрібна авторизація)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr_no_auth">"Android VR
+<small>(Без авторизації)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
 <small>(Потрібен PoToken)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
@@ -1793,6 +1861,7 @@ AVC має максимальну роздільну здатність 1080p, �
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Показувати в Статистика для сисадмінів</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Клієнт, що використовується для отримання даних трансляції показується у Статистика для сисадмінів.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Клієнт, що використовується для отримання даних трансляції приховано у Статистика для сисадмінів.</string>
+    <string name="revanced_spoof_streaming_data_language_title">Мова звукової доріжки для VR</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <string name="revanced_preference_category_po_token_visitor_data">PoToken / VisitorData</string>
     <string name="revanced_spoof_streaming_data_po_token_title">PoToken для використання</string>

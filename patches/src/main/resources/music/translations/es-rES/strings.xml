@@ -192,8 +192,6 @@ Esto no evita la restricción de edad. Solo la acepta automáticamente."</string
     <string name="revanced_hide_navigation_bar_summary">Oculta barra de navegación.</string>
     <string name="revanced_hide_navigation_label_title">Ocultar etiquetas en barra de navegación</string>
     <string name="revanced_hide_navigation_label_summary">Oculta las etiquetas en la barra de navegación.</string>
-    <string name="revanced_enable_black_navigation_bar_title">Activar barra de navegación negra</string>
-    <string name="revanced_enable_black_navigation_bar_summary">Establece el color de la barra de navegación en negro.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Reproductor</string>
     <string name="revanced_enable_mini_player_next_button_title">Añadir botón siguiente al minireproductor</string>

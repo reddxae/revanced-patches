@@ -273,16 +273,10 @@
     <string name="revanced_related_videos_offset_title">Компенсиране</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Основни настройки</string>
-    <string name="revanced_change_layout_title">Промяна на резолюция</string>
-    <string name="revanced_change_layout_entry_1">Оригинал</string>
-    <string name="revanced_change_layout_entry_2">Телефон</string>
-    <string name="revanced_change_layout_entry_3">Телефон (Max 480 dip)</string>
-    <string name="revanced_change_layout_entry_4">Таблет</string>
-    <string name="revanced_change_layout_entry_5">Таблет (Мин 600 dip)</string>
     <string name="revanced_change_start_page_title">Промяна на началната страница</string>
+    <string name="revanced_change_start_page_entry_default">По подразбиране</string>
     <string name="revanced_change_start_page_entry_browse">Разглеждане на канала</string>
     <string name="revanced_change_start_page_entry_courses">Курсове / Обучение</string>
-    <string name="revanced_change_start_page_entry_default">По подразбиране</string>
     <string name="revanced_change_start_page_entry_explore">Проучване</string>
     <string name="revanced_change_start_page_entry_gaming">Игри</string>
     <string name="revanced_change_start_page_entry_history">История</string>
@@ -330,6 +324,12 @@
     <string name="revanced_hide_snack_bar_summary_off">Лентата на състоянието се показва.</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">Прозорец за възрастово ограничение</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Премахва диалоговите прозорци. Това не заобикаля възрастовите ограничения, но ги приема автоматично."</string>
+    <string name="revanced_change_layout_title">Промяна на резолюция</string>
+    <string name="revanced_change_layout_entry_1">Оригинал</string>
+    <string name="revanced_change_layout_entry_2">Телефон</string>
+    <string name="revanced_change_layout_entry_3">Телефон (Max 480 dip)</string>
+    <string name="revanced_change_layout_entry_4">Таблет</string>
+    <string name="revanced_change_layout_entry_5">Таблет (Мин 600 dip)</string>
     <string name="revanced_spoof_app_version_title">Променете версията на приложението</string>
     <string name="revanced_spoof_app_version_summary_on">Подправена версия</string>
     <string name="revanced_spoof_app_version_summary_off">Не подправена версия</string>
@@ -1684,9 +1684,6 @@
     <string name="revanced_sb_about_api_sum">Данните са предоставени от SponsorBlock API. Докоснете тук за повече информация и изтеглияния.</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Разни</string>
-    <string name="revanced_enable_open_links_directly_title">Отваряне на връзки директно</string>
-    <string name="revanced_enable_open_links_directly_summary_on">Заобикаляне на URL пренасочвания.</string>
-    <string name="revanced_enable_open_links_directly_summary_off">Следване на правилата за пренасочване по подразбиране.</string>
     <string name="revanced_disable_quic_protocol_title">Изключване на QUIC протокол</string>
     <string name="revanced_disable_quic_protocol_summary">"Изключване на CronetEngine's QUIC протокол."</string>
     <string name="revanced_enable_debug_logging_title">Активиране на регистрирането на грешки</string>
@@ -1695,9 +1692,6 @@
     <string name="revanced_enable_debug_buffer_logging_title">Вкл. отчети за грешки</string>
     <string name="revanced_enable_debug_buffer_logging_summary_on">Файлове с отчети за грешки в буфера.</string>
     <string name="revanced_enable_debug_buffer_logging_summary_off">Файлове с отчети за грешки не включват буфера.</string>
-    <string name="revanced_enable_external_browser_title">Включване на външен браузър</string>
-    <string name="revanced_enable_external_browser_summary_on">Външния браузър е включен.</string>
-    <string name="revanced_enable_external_browser_summary_off">Външния браузър е изключен.</string>
     <string name="revanced_sanitize_sharing_links_title">Почистване на споделените връзки</string>
     <string name="revanced_sanitize_sharing_links_summary">Премахва параметрите на заявката за проследяване от URL адресите при споделяне на връзки.</string>
     <string name="revanced_default_app_settings_title">Отвори настройките по подразбиране</string>

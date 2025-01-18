@@ -56,7 +56,7 @@
     <string name="revanced_hide_general_ads_title">Απόκρυψη γενικών διαφημίσεων</string>
     <string name="revanced_hide_general_ads_summary">Απόκρυψη των γενικών διαφημίσεων.</string>
     <string name="revanced_hide_music_ads_title">Απόκρυψη διαφημίσεων μουσικής</string>
-    <string name="revanced_hide_music_ads_summary">Απόκρυψη διαφημίσεων πριν την αναπαραγωγή κομματιού.</string>
+    <string name="revanced_hide_music_ads_summary">Απόκρυψη διαφημίσεων που αναπαράγονται κατά την αναπαραγωγή πολυμέσων.</string>
     <string name="revanced_hide_paid_promotion_label_title">Απόκρυψη ετικέτας προώθησης επί πληρωμή</string>
     <string name="revanced_hide_paid_promotion_label_summary">Απόκρυψη της ετικέτας προώθησης επί πληρωμή.</string>
     <string name="revanced_hide_premium_promotion_title">Απόκρυψη παραθύρων προώθησης Premium</string>
@@ -181,6 +181,11 @@
     <string name="revanced_spoof_app_version_target_entry_7_16_53">7.16.53 - Επαναφορά παλιάς γραμμής ενεργειών</string>
     <!-- PreferenceScreen: Navigation Bar -->
     <string name="revanced_preference_screen_navigation_title">Γραμμή πλοήγησης</string>
+    <string name="revanced_enable_custom_navigation_bar_color_title">Προσαρμοσμένο χρώμα γραμμής πλοήγησης</string>
+    <string name="revanced_enable_custom_navigation_bar_color_summary">Ορισμός του χρώματος της γραμμής πλοήγησης.</string>
+    <string name="revanced_custom_navigation_bar_color_value_title">Τιμή χρώματος γραμμής πλοήγησης</string>
+    <string name="revanced_custom_navigation_bar_color_value_summary">Πληκτρολογήστε τον κωδικό hex του χρώματος της γραμμής πλοήγησης.</string>
+    <string name="revanced_custom_navigation_bar_color_value_invalid_invalid_toast">Μη έγκυρη τιμή χρώματος γραμμής πλοήγησης.</string>
     <string name="revanced_hide_navigation_home_button_title">Απόκρυψη κουμπιού «Αρχική»</string>
     <string name="revanced_hide_navigation_home_button_summary">Απόκρυψη της καρτέλας «Αρχική».</string>
     <string name="revanced_hide_navigation_samples_button_title">Απόκρυψη κουμπιού «Δείγματα»</string>
@@ -195,8 +200,6 @@
     <string name="revanced_hide_navigation_bar_summary">Απόκρυψη της γραμμής πλοήγησης.</string>
     <string name="revanced_hide_navigation_label_title">Απόκρυψη ονομασιών γραμμής πλοήγησης</string>
     <string name="revanced_hide_navigation_label_summary">Απόκρυψη ονομασιών των κουμπιών στη γραμμή πλοήγησης.</string>
-    <string name="revanced_enable_black_navigation_bar_title">Μαύρη γραμμής πλοήγησης</string>
-    <string name="revanced_enable_black_navigation_bar_summary">Ορισμός του χρώματος της γραμμής πλοήγησης σε μαύρο.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Οθόνη αναπαραγωγής</string>
     <string name="revanced_enable_mini_player_next_button_title">Κουμπί επόμενου βίντεο στον miniplayer</string>
@@ -368,7 +371,7 @@
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Διάφορα</string>
     <string name="revanced_extended_settings_import_export_title">Εισαγωγή / Εξαγωγή</string>
-    <string name="revanced_extended_settings_import_export_summary">Εισαγωγή ή εξαγωγή των ρυθμίσεών σας.</string>
+    <string name="revanced_extended_settings_import_export_summary">Εισαγωγή ή εξαγωγή των ρυθμίσεών RVX σας.</string>
     <string name="revanced_extended_settings_export_as_file">Εξαγωγή ρυθμίσεων σε αρχείο</string>
     <string name="revanced_extended_settings_import_as_file">Εισαγωγή ρυθμίσεων από αρχείο</string>
     <string name="revanced_extended_settings_import_export_as_text">Εισαγωγή / Εξαγωγή ρυθμίσεων ως κείμενο</string>
@@ -384,7 +387,7 @@
     <string name="revanced_bypass_image_region_restrictions_title">Παράκαμψη μπλοκαρίσματος φόρτωσης εικόνων</string>
     <string name="revanced_bypass_image_region_restrictions_summary">Αντικατάσταση του domain για την φόρτωση εικόνων όπου είναι μπλοκαρισμένες σε ορισμένες περιοχές ώστε να μπορούν να ληφθούν μικρογραφίες βίντεο, εικόνες δημοσιεύσεων, κλπ.</string>
     <string name="revanced_change_share_sheet_title">Αλλαγή μενού κοινοποίησης</string>
-    <string name="revanced_change_share_sheet_summary">Αλλαγή του μενού κοινοποίησης σε αυτό του συστήματος σας αντί του YouTube Music.</string>
+    <string name="revanced_change_share_sheet_summary">Αλλαγή του μενού κοινοποίησης σε αυτό του συστήματος σας αντί αυτού της εφαρμογής.</string>
     <string name="revanced_disable_cairo_splash_animation_title">Απενεργοποίηση εφέ εκκίνησης θέματος Cairo</string>
     <string name="revanced_disable_cairo_splash_animation_summary">Απενεργοποίηση των εφέ θέματος Cairo κατά την εκκίνηση της εφαρμογής.</string>
     <string name="revanced_disable_drc_audio_title">Απενεργοποίηση ήχου DRC</string>
@@ -407,7 +410,7 @@
     <string name="revanced_enable_opus_codec_title">Ενεργοποίηση κωδικοποιητή opus</string>
     <string name="revanced_enable_opus_codec_summary">"Ενεργοποίηση του κωδικοποιητή OPUS αν η ανταπόκριση του προγράμματος αναπαραγωγής τον περιλαμβάνει.
 
-Πληροφορία: Οι τελευταίες εκδόσεις Android χρησιμοποιούν τον κωδικοποιητή opus από προεπιλογή, οπότε αυτή η ρύθμιση ισχύει μόνο για χρήστες που χρησιμοποιούν τη λειτουργία παραποίησης έκδοσης εφαρμογής, σε πολύ παλιές εκδόσεις."</string>
+Οι τελευταίες εκδόσεις Android χρησιμοποιούν τον κωδικοποιητή opus από προεπιλογή, οπότε αυτή η ρύθμιση ισχύει μόνο για χρήστες που χρησιμοποιούν τη λειτουργία παραποίησης έκδοσης εφαρμογής, σε πολύ παλιές εκδόσεις."</string>
     <string name="revanced_sanitize_sharing_links_title">Καθαρισμός συνδέσμων κοινοποίησης</string>
     <string name="revanced_sanitize_sharing_links_summary">Αφαίρεση των παραμέτρων παρακολούθησης από τις διευθύνσεις URL κατά την κοινοποίηση συνδέσμων.</string>
     <string name="revanced_spoof_client_title">Παραποίηση προγράμματος πελάτη</string>
@@ -433,8 +436,8 @@
     <string name="revanced_spoof_streaming_data_type_entry_android_music">Android Music</string>
     <string name="revanced_default_app_settings_title">Άνοιγμα ρυθμίσεων προεπιλεγμένων εφαρμογών</string>
     <string name="revanced_default_app_settings_summary">Για να ανοίγουν οι συνδέσμοι YouTube Music στο RVX Music, ενεργοποιήστε το «Άνοιγμα υποστηριζόμενων συνδέσμων» και τις υποστηριζόμενες διευθύνσεις ιστού.</string>
-    <string name="gms_core_settings_title">Άνοιγμα του MicroG GmsCore</string>
-    <string name="gms_core_settings_summary">Ενεργοποιήστε τις ρυθμίσεις cloud messaging για να λαμβάνετε ειδοποιήσεις.</string>
+    <string name="gms_core_settings_title">Άνοιγμα ρυθμίσεων του MicroG GmsCore</string>
+    <string name="gms_core_settings_summary">Για να λαμβάνετε ειδοποιήσεις στο RVX Music, ενεργοποιήστε τις ρυθμίσεις Cloud Messaging.</string>
     <string name="gms_core_toast_not_installed_message">Το MicroG GmsCore δεν είναι εγκατεστημένο. Εγκαταστήστε το.</string>
     <string name="gms_core_dialog_title">Απαιτείται ενέργεια</string>
     <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"Το MicroG GmsCore δεν έχει άδεια να τρέχει στο παρασκήνιο.

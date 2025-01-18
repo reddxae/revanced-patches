@@ -284,16 +284,10 @@ Si la mise en page de l'écran du lecteur change en raison de modifications côt
     <string name="revanced_related_videos_offset_title">Décalage</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Interface</string>
-    <string name="revanced_change_layout_title">Modifier la mise en page</string>
-    <string name="revanced_change_layout_entry_1">Original</string>
-    <string name="revanced_change_layout_entry_2">Téléphone</string>
-    <string name="revanced_change_layout_entry_3">Téléphone (Max 480 dpi)</string>
-    <string name="revanced_change_layout_entry_4">Tablette</string>
-    <string name="revanced_change_layout_entry_5">Tablette (Min 600 dpi)</string>
     <string name="revanced_change_start_page_title">Modifier la page de démarrage</string>
+    <string name="revanced_change_start_page_entry_default">Par défaut</string>
     <string name="revanced_change_start_page_entry_browse">Parcourir les chaînes</string>
     <string name="revanced_change_start_page_entry_courses">Savoir / Culture</string>
-    <string name="revanced_change_start_page_entry_default">Par défaut</string>
     <string name="revanced_change_start_page_entry_explore">Explorer</string>
     <string name="revanced_change_start_page_entry_gaming">Jeux vidéos</string>
     <string name="revanced_change_start_page_entry_history">Historique</string>
@@ -342,6 +336,12 @@ Limitation : Le bouton Retour de la barre d'outils peut ne pas fonctionner."</st
     <string name="revanced_remove_viewer_discretion_dialog_title">Suppr. Message \'Confirmer votre âge\'</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Supprime le message 'Confirmer votre âge'.
 Cela ne contourne pas la restriction d'âge, mais le confirme automatiquement."</string>
+    <string name="revanced_change_layout_title">Modifier la mise en page</string>
+    <string name="revanced_change_layout_entry_1">Original</string>
+    <string name="revanced_change_layout_entry_2">Téléphone</string>
+    <string name="revanced_change_layout_entry_3">Téléphone (Max 480 dpi)</string>
+    <string name="revanced_change_layout_entry_4">Tablette</string>
+    <string name="revanced_change_layout_entry_5">Tablette (Min 600 dpi)</string>
     <string name="revanced_spoof_app_version_title">Falsifier la version de l\'app</string>
     <string name="revanced_spoof_app_version_summary_on">Version falsifiée</string>
     <string name="revanced_spoof_app_version_summary_off">Version non falsifiée</string>
@@ -1706,9 +1706,6 @@ Cliquez ici pour découvrir comment créer une clé API."</string>
     <string name="revanced_sb_about_api_sum">Les données sont fournies par l\'API SponsorBlock. Cliquez ici pour en savoir plus et voir les téléchargements pour d\'autres plateformes.</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Paramètres avancés</string>
-    <string name="revanced_enable_open_links_directly_title">Activer l\'ouverture des liens directement</string>
-    <string name="revanced_enable_open_links_directly_summary_on">Contourne les redirections URL.</string>
-    <string name="revanced_enable_open_links_directly_summary_off">Suit la règle de redirection par défaut.</string>
     <string name="revanced_disable_quic_protocol_title">Protocole QUIC</string>
     <string name="revanced_disable_quic_protocol_summary">"Désactiver le protocole QUIC de CronetEngine."</string>
     <string name="revanced_enable_debug_logging_title">Activer le journal de débogage</string>
@@ -1717,9 +1714,6 @@ Cliquez ici pour découvrir comment créer une clé API."</string>
     <string name="revanced_enable_debug_buffer_logging_title">Activer info. mémoire tampon dans journal de débogage</string>
     <string name="revanced_enable_debug_buffer_logging_summary_on">Les journaux de débogage incluent le tampon.</string>
     <string name="revanced_enable_debug_buffer_logging_summary_off">Les journaux de débogage n\'incluent pas de tampon.</string>
-    <string name="revanced_enable_external_browser_title">Activer le navigateur externe</string>
-    <string name="revanced_enable_external_browser_summary_on">Le navigateur externe est activé.</string>
-    <string name="revanced_enable_external_browser_summary_off">Le navigateur externe est désactivé.</string>
     <string name="revanced_sanitize_sharing_links_title">Nettoyer les liens partagés</string>
     <string name="revanced_sanitize_sharing_links_summary">Nettoies les liens de partage en supprimant les paramètres de suivi (tracking).</string>
     <string name="revanced_default_app_settings_title">Ouvrir les paramètres \'Liens compatibles\'</string>

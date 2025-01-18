@@ -19,6 +19,59 @@
     <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s 未安裝
 請從網站下載 %2$s"</string>
     <string name="revanced_external_downloader_not_installed_warning">%s 未安裝，請先安裝</string>
+    <string name="revanced_language_title">RVX語言</string>
+    <string name="revanced_language_DEFAULT">應用語言</string>
+    <string name="revanced_language_AR">阿拉伯語</string>
+    <string name="revanced_language_AZ">亞塞拜然語</string>
+    <string name="revanced_language_BG">保加利亞語</string>
+    <string name="revanced_language_BN">孟加拉語</string>
+    <string name="revanced_language_CA">加泰隆尼亞語</string>
+    <string name="revanced_language_CS">捷克語</string>
+    <string name="revanced_language_DA">丹麥語</string>
+    <string name="revanced_language_DE">德語</string>
+    <string name="revanced_language_EL">希臘語</string>
+    <string name="revanced_language_EN">英語</string>
+    <string name="revanced_language_ES">西班牙語</string>
+    <string name="revanced_language_ET">愛沙尼亞語</string>
+    <string name="revanced_language_FA">波斯語</string>
+    <string name="revanced_language_FI">芬蘭語</string>
+    <string name="revanced_language_FR">法語</string>
+    <string name="revanced_language_GU">古吉拉特語</string>
+    <string name="revanced_language_HI">印地語</string>
+    <string name="revanced_language_HR">克羅埃西亞語</string>
+    <string name="revanced_language_HU">匈牙利語</string>
+    <string name="revanced_language_ID">印尼語</string>
+    <string name="revanced_language_IT">義大利語</string>
+    <string name="revanced_language_JA">日語</string>
+    <string name="revanced_language_KK">哈薩克語</string>
+    <string name="revanced_language_KO">韓語</string>
+    <string name="revanced_language_LT">立陶宛語</string>
+    <string name="revanced_language_LV">拉脫維亞語</string>
+    <string name="revanced_language_MK">馬其頓語</string>
+    <string name="revanced_language_MN">蒙古語</string>
+    <string name="revanced_language_MR">馬拉提語</string>
+    <string name="revanced_language_MS">馬來語</string>
+    <string name="revanced_language_MY">緬甸語</string>
+    <string name="revanced_language_NL">荷蘭語</string>
+    <string name="revanced_language_OR">歐迪亞語</string>
+    <string name="revanced_language_PA">旁遮普語</string>
+    <string name="revanced_language_PL">波蘭語</string>
+    <string name="revanced_language_PT">葡萄牙語</string>
+    <string name="revanced_language_RO">羅馬尼亞語</string>
+    <string name="revanced_language_RU">俄語</string>
+    <string name="revanced_language_SK">斯洛伐克語</string>
+    <string name="revanced_language_SL">斯洛維尼亞語</string>
+    <string name="revanced_language_SR">塞爾維亞語</string>
+    <string name="revanced_language_SV">瑞典語</string>
+    <string name="revanced_language_SW">史瓦希利語</string>
+    <string name="revanced_language_TA">坦米爾語</string>
+    <string name="revanced_language_TE">泰盧固語</string>
+    <string name="revanced_language_TH">泰語</string>
+    <string name="revanced_language_TR">土耳其語</string>
+    <string name="revanced_language_UK">烏克蘭語</string>
+    <string name="revanced_language_UR">烏爾都語</string>
+    <string name="revanced_language_VI">越南語</string>
+    <string name="revanced_language_ZH">中文</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">廣告</string>
     <string name="revanced_hide_fullscreen_ads_title">隱藏全螢幕廣告</string>
@@ -102,6 +155,14 @@
     <string name="revanced_hide_feed_captions_button_on">字幕按鈕已隱藏</string>
     <string name="revanced_hide_feed_captions_button_off">字幕按鈕已顯示</string>
     <string name="revanced_hide_carousel_shelf_title">隱藏輪播內容</string>
+    <string name="revanced_hide_carousel_shelf_summary_on">"隱藏以下分類區，如：
+• 突發新聞
+• 繼續觀看
+• 探索更多管道
+• 再聽一遍
+• 購物
+• 再看一遍"</string>
+    <string name="revanced_hide_carousel_shelf_summary_off">分類區已顯示</string>
     <string name="revanced_hide_chips_shelf_title">隱藏剪輯</string>
     <string name="revanced_hide_chips_shelf_on">剪輯已隱藏</string>
     <string name="revanced_hide_chips_shelf_off">剪輯已顯示</string>
@@ -281,16 +342,10 @@
     <string name="revanced_related_videos_offset_title">偏移</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">一般設定</string>
-    <string name="revanced_change_layout_title">變更佈局</string>
-    <string name="revanced_change_layout_entry_1">原始</string>
-    <string name="revanced_change_layout_entry_2">手機</string>
-    <string name="revanced_change_layout_entry_3">手機 (最大 480 dip)</string>
-    <string name="revanced_change_layout_entry_4">平板電腦</string>
-    <string name="revanced_change_layout_entry_5">平板電腦 (最少 600 dip)</string>
     <string name="revanced_change_start_page_title">更改起始頁</string>
+    <string name="revanced_change_start_page_entry_default">預設</string>
     <string name="revanced_change_start_page_entry_browse">瀏覽頻道</string>
     <string name="revanced_change_start_page_entry_courses">課程/學習</string>
-    <string name="revanced_change_start_page_entry_default">預設</string>
     <string name="revanced_change_start_page_entry_explore">探索</string>
     <string name="revanced_change_start_page_entry_gaming">遊戲</string>
     <string name="revanced_change_start_page_entry_history">歷史</string>
@@ -339,6 +394,12 @@
     <string name="revanced_remove_viewer_discretion_dialog_title">移除查看器的自由裁量對話框</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"移除觀眾酌情觀看對話方塊。
 這項選項不會繞過年齡限制，它只會自動接受。"</string>
+    <string name="revanced_change_layout_title">變更佈局</string>
+    <string name="revanced_change_layout_entry_1">原始</string>
+    <string name="revanced_change_layout_entry_2">手機</string>
+    <string name="revanced_change_layout_entry_3">手機 (最大 480 dip)</string>
+    <string name="revanced_change_layout_entry_4">平板電腦</string>
+    <string name="revanced_change_layout_entry_5">平板電腦 (最少 600 dip)</string>
     <string name="revanced_spoof_app_version_title">偽裝應用程式版本</string>
     <string name="revanced_spoof_app_version_summary_on">已偽裝版本</string>
     <string name="revanced_spoof_app_version_summary_off">未偽裝版本</string>
@@ -511,6 +572,9 @@
     <string name="revanced_hide_settings_menu_data_saving_title">隱藏資料保存選單</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_on">資料保存選單已隱藏。</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_off">資料保存選單已顯示。</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_title">隱藏自動播放或播放選單</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_summary_on">自動播放或播放選單已隱藏。</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_summary_off">顯示自動播放或播放選單。</string>
     <string name="revanced_hide_settings_menu_video_quality_title">隱藏影片品質選項選單</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_on">影片品質選項選單已隱藏。</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_off">影片品質選項選單已顯示。</string>
@@ -915,6 +979,8 @@
     <string name="revanced_enable_compact_controls_overlay_summary_on">精簡控制選單已啟用</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">緊湊的播放器佈局已停用</string>
     <string name="revanced_keep_landscape_mode_title">保持橫向模式</string>
+    <string name="revanced_keep_landscape_mode_summary_on">關閉和開啟螢幕後，影片繼續以橫向模式播放。</string>
+    <string name="revanced_keep_landscape_mode_summary_off">關閉和開啟螢幕後，影片會以縱向模式播放。</string>
     <string name="revanced_keep_landscape_mode_timeout_title">保持橫向模式的超時時間</string>
     <string name="revanced_keep_landscape_mode_timeout_summary">已強制橫向模式的毫秒數。</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Haptic feedback -->
@@ -1702,9 +1768,6 @@
 點擊此處了解更多資訊並查看其他平台的下載</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">其他設定</string>
-    <string name="revanced_enable_open_links_directly_title">啟用直接打開連結</string>
-    <string name="revanced_enable_open_links_directly_summary_on">繞過連結重定向</string>
-    <string name="revanced_enable_open_links_directly_summary_off">跟隨預設的重新載入行為</string>
     <string name="revanced_disable_quic_protocol_title">停用 QUIC 協議</string>
     <string name="revanced_disable_quic_protocol_summary">"停用 Cronet 引擎的 QUIC 協議"</string>
     <string name="revanced_enable_debug_logging_title">啟用 Debug 日誌</string>
@@ -1713,9 +1776,6 @@
     <string name="revanced_enable_debug_buffer_logging_title">啟用 Debug 緩衝區日誌記錄</string>
     <string name="revanced_enable_debug_buffer_logging_summary_on">Debug 日誌不包括緩衝區</string>
     <string name="revanced_enable_debug_buffer_logging_summary_off">Debug 日誌不包括緩衝區</string>
-    <string name="revanced_enable_external_browser_title">啟用外部瀏覽器</string>
-    <string name="revanced_enable_external_browser_summary_on">外部瀏覽器已啟用</string>
-    <string name="revanced_enable_external_browser_summary_off">外部瀏覽器已停用</string>
     <string name="revanced_sanitize_sharing_links_title">清理共享連結</string>
     <string name="revanced_sanitize_sharing_links_summary">共享連結時，刪除 URL 中的跟蹤查詢參數</string>
     <string name="revanced_default_app_settings_title">開啟預設應用程式設定</string>
@@ -1772,6 +1832,8 @@
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">"Android TV
 <small>(需要登入)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr_no_auth">"Android VR
+<small>(無授權)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
 <small>(需要 PoToken)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
@@ -1793,6 +1855,7 @@ AVC 的最大解析度為 1080p，Opus 音訊編解碼器不可用，影片播�
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">顯示統計資料</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">用於取得串流資料的用戶端顯示在統計資料中。</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">用於獲取串流資料的用戶端隱藏在統計資料中。</string>
+    <string name="revanced_spoof_streaming_data_language_title">VR預設音訊串流語言</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <string name="revanced_preference_category_po_token_visitor_data">Potoken / 訪客數據</string>
     <string name="revanced_spoof_streaming_data_po_token_title">使用PoToken</string>

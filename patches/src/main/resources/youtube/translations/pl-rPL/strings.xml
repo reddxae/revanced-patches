@@ -19,6 +19,59 @@
     <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s nie jest zainstalowany.
 Pobierz %2$s ze strony internetowej."</string>
     <string name="revanced_external_downloader_not_installed_warning">%s nie jest zainstalowany. Proszę go zainstalować.</string>
+    <string name="revanced_language_title">Język RVX</string>
+    <string name="revanced_language_DEFAULT">Język aplikacji</string>
+    <string name="revanced_language_AR">Arabski</string>
+    <string name="revanced_language_AZ">Azerbejdżański</string>
+    <string name="revanced_language_BG">Bułgarski</string>
+    <string name="revanced_language_BN">Bengalski</string>
+    <string name="revanced_language_CA">Kataloński</string>
+    <string name="revanced_language_CS">Czeski</string>
+    <string name="revanced_language_DA">Duński</string>
+    <string name="revanced_language_DE">Niemiecki</string>
+    <string name="revanced_language_EL">Grecki</string>
+    <string name="revanced_language_EN">Angielski</string>
+    <string name="revanced_language_ES">Hiszpański</string>
+    <string name="revanced_language_ET">Estoński</string>
+    <string name="revanced_language_FA">Perski</string>
+    <string name="revanced_language_FI">Fiński</string>
+    <string name="revanced_language_FR">Francuski</string>
+    <string name="revanced_language_GU">Gudżaracki</string>
+    <string name="revanced_language_HI">Hindi</string>
+    <string name="revanced_language_HR">Chorwacki</string>
+    <string name="revanced_language_HU">Węgierski</string>
+    <string name="revanced_language_ID">Indonezyjski</string>
+    <string name="revanced_language_IT">Włoski</string>
+    <string name="revanced_language_JA">Japoński</string>
+    <string name="revanced_language_KK">Kazachski</string>
+    <string name="revanced_language_KO">Koreański</string>
+    <string name="revanced_language_LT">Litewski</string>
+    <string name="revanced_language_LV">Łotewski</string>
+    <string name="revanced_language_MK">Macedoński</string>
+    <string name="revanced_language_MN">Mongolski</string>
+    <string name="revanced_language_MR">Maratyjski</string>
+    <string name="revanced_language_MS">Malajski</string>
+    <string name="revanced_language_MY">Birmański</string>
+    <string name="revanced_language_NL">Niderlandzki</string>
+    <string name="revanced_language_OR">Orija</string>
+    <string name="revanced_language_PA">Pendżabski</string>
+    <string name="revanced_language_PL">Polski</string>
+    <string name="revanced_language_PT">Portugalski</string>
+    <string name="revanced_language_RO">Rumuński</string>
+    <string name="revanced_language_RU">Rosyjski</string>
+    <string name="revanced_language_SK">Słowacki</string>
+    <string name="revanced_language_SL">Słoweński</string>
+    <string name="revanced_language_SR">Serbski</string>
+    <string name="revanced_language_SV">Szwedzki</string>
+    <string name="revanced_language_SW">Suahili</string>
+    <string name="revanced_language_TA">Tamilski</string>
+    <string name="revanced_language_TE">Telugu</string>
+    <string name="revanced_language_TH">Tajski</string>
+    <string name="revanced_language_TR">Turecki</string>
+    <string name="revanced_language_UK">Ukraiński</string>
+    <string name="revanced_language_UR">Urdu</string>
+    <string name="revanced_language_VI">Wietnamski</string>
+    <string name="revanced_language_ZH">Chiński</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Reklamy</string>
     <string name="revanced_hide_fullscreen_ads_title">Pełnoekranowe reklamy</string>
@@ -66,7 +119,9 @@ Pobierz %2$s ze strony internetowej."</string>
     <string name="revanced_alt_thumbnail_options_entry_3">DeArrow i miniaturki przechwycone z filmu</string>
     <string name="revanced_alt_thumbnail_options_entry_4">Miniaturki przechwycone z filmu</string>
     <string name="revanced_alt_thumbnail_dearrow_about_title">DeArrow</string>
-    <string name="revanced_alt_thumbnail_dearrow_about_summary">"DeArrow dostarcza miniaturki filmów z YouTube pochodzące z procesu crowdsourcingu. Miniaturki te są często bardziej trafne niż te dostarczane przez YouTube. Jeśli opcja ta jest włączona, adresy URL filmów będą wysyłane do serwera API i nie będą wysyłane żadne inne dane. Jeśli film nie posiada miniaturki od DeArrow, to wyświetla się oryginalna lub przechwycona z filmu.
+    <string name="revanced_alt_thumbnail_dearrow_about_summary">"DeArrow dostarcza miniaturki filmów z YouTube pochodzące z procesu crowdsourcingu. Miniaturki te są często bardziej trafne niż te dostarczane przez YouTube. 
+
+Jeśli opcja ta jest włączona, adresy URL filmów będą wysyłane do serwera API i nie będą wysyłane żadne inne dane. Jeśli film nie posiada miniaturki od DeArrow, to wyświetla się oryginalna lub przechwycona z filmu.
 
 Stuknij tutaj, aby dowiedzieć się więcej o DeArrow."</string>
     <string name="revanced_alt_thumbnail_dearrow_connection_toast_title">Komunikat, jeśli API jest niedostępne</string>
@@ -100,6 +155,14 @@ Stuknij tutaj, aby dowiedzieć się więcej o DeArrow."</string>
     <string name="revanced_hide_feed_captions_button_on">Ukryty</string>
     <string name="revanced_hide_feed_captions_button_off">Widoczny</string>
     <string name="revanced_hide_carousel_shelf_title">Półki karuzelowe</string>
+    <string name="revanced_hide_carousel_shelf_summary_on">"Ukryte, konkretnie półki:
+• z najnowszymi informacjami
+• z filmami, które nie zostały dokończone
+• od odkrywania kanałów
+• z muzyką do ponownego odsłuchania
+• od kupowania
+• z filmami, które nie zostały obejrzane"</string>
+    <string name="revanced_hide_carousel_shelf_summary_off">Widoczne</string>
     <string name="revanced_hide_chips_shelf_title">Paski z kategoriami</string>
     <string name="revanced_hide_chips_shelf_on">Ukryte</string>
     <string name="revanced_hide_chips_shelf_off">Widoczne</string>
@@ -282,16 +345,10 @@ Jeśli układ ekranu odtwarzacza zmieni się w skutek zmian po stronie serwera, 
     <string name="revanced_related_videos_offset_title">Przesunięcie</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Ogólne</string>
-    <string name="revanced_change_layout_title">Układ aplikacji</string>
-    <string name="revanced_change_layout_entry_1">Oryginalny</string>
-    <string name="revanced_change_layout_entry_2">Telefonowy</string>
-    <string name="revanced_change_layout_entry_3">Telefonowy (max. 480 dpi)</string>
-    <string name="revanced_change_layout_entry_4">Tabletowy</string>
-    <string name="revanced_change_layout_entry_5">Tabletowy (max. 600 dpi)</string>
     <string name="revanced_change_start_page_title">Strona startowa</string>
+    <string name="revanced_change_start_page_entry_default">Domyślna</string>
     <string name="revanced_change_start_page_entry_browse">Przeglądaj kanały</string>
     <string name="revanced_change_start_page_entry_courses">Nauka</string>
-    <string name="revanced_change_start_page_entry_default">Domyślna</string>
     <string name="revanced_change_start_page_entry_explore">Odkrywanie</string>
     <string name="revanced_change_start_page_entry_gaming">Gry</string>
     <string name="revanced_change_start_page_entry_history">Historia</string>
@@ -340,6 +397,12 @@ Ograniczenie: Przycisk wstecz na pasku narzędzi może nie działać."</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">Usuń okno dialogowe treści ograniczonej do oglądania</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Usuwa okno dialogowe treści ograniczonej do oglądania.
 Nie pomija to ograniczeń wiekowych, lecz akceptuje je automatycznie."</string>
+    <string name="revanced_change_layout_title">Układ aplikacji</string>
+    <string name="revanced_change_layout_entry_1">Oryginalny</string>
+    <string name="revanced_change_layout_entry_2">Telefonowy</string>
+    <string name="revanced_change_layout_entry_3">Telefonowy (max. 480 dpi)</string>
+    <string name="revanced_change_layout_entry_4">Tabletowy</string>
+    <string name="revanced_change_layout_entry_5">Tabletowy (max. 600 dpi)</string>
     <string name="revanced_spoof_app_version_title">Oszukiwanie wersji aplikacji</string>
     <string name="revanced_spoof_app_version_summary_on">Włączone</string>
     <string name="revanced_spoof_app_version_summary_off">Wyłączone</string>
@@ -511,6 +574,9 @@ Jeśli opcja nie przynosi skutku, spróbuj przełączyć się na tryb incognito.
     <string name="revanced_hide_settings_menu_data_saving_title">Oszczędzanie danych</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_on">Ukryte</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_title">Autoodtwarzanie/odtwarzanie</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_summary_off">Widoczne</string>
     <string name="revanced_hide_settings_menu_video_quality_title">Preferencje dotyczące jakości filmu</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_on">Ukryte</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_off">Widoczne</string>
@@ -915,6 +981,8 @@ Ograniczenie: tytuły filmów znikają po stuknięciu w nie."</string>
     <string name="revanced_enable_compact_controls_overlay_summary_on">Przyciski w odtwarzaczu nie zajmują całego ekranu</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">Przyciski w odtwarzaczu zajmują cały ekran</string>
     <string name="revanced_keep_landscape_mode_title">Zachowaj tryb poziomy</string>
+    <string name="revanced_keep_landscape_mode_summary_on">Filmy są nadal odtwarzane w trybie poziomym po wyłączeniu i włączeniu ekranu.</string>
+    <string name="revanced_keep_landscape_mode_summary_off">Filmy są odtwarzane w trybie pionowym po wyłączeniu i włączeniu ekranu.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">Limit czasu zachowania trybu poziomego</string>
     <string name="revanced_keep_landscape_mode_timeout_summary">Ilość milisekund, podczas których tryb poziomy jest wymuszony.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Haptic feedback -->
@@ -1633,8 +1701,8 @@ Kliknij, by zobaczyć, jak zgłosić klucz API."</string>
     <string name="revanced_sb_api_url_changed">Adres API został zmieniony.</string>
     <string name="revanced_sb_settings_copy">Skopiuj</string>
     <string name="revanced_sb_settings_ie">Zaimportuj / Wyeksportuj ustawienia</string>
-    <string name="revanced_sb_settings_ie_sum">Twoja konfiguracja JSON SponsorBlock może zostać zaimportowana / wyeksportowana do ReVacned Extended i innych platform SponsorBlock.</string>
-    <string name="revanced_sb_settings_ie_sum_warning">Twoja konfiguracja JSON SponsorBlock, która może zostać zaimportowana / wyeksportowana do ReVanced Extended i innych platform SponsorBlocka. Zawiera twój prywatny identyfikator użytkownika. Dziel się nią mądrze.</string>
+    <string name="revanced_sb_settings_ie_sum">Twoja konfiguracja JSON SponsorBlock może zostać zaimportowana / wyeksportowana do RVX i innych platform SponsorBlocka.</string>
+    <string name="revanced_sb_settings_ie_sum_warning">Twoja konfiguracja JSON SponsorBlock, która może zostać zaimportowana / wyeksportowana do RVX i innych platform SponsorBlocka. Zawiera twój prywatny identyfikator użytkownika. Dziel się nią mądrze.</string>
     <string name="revanced_sb_settings_import_successful">Ustawienia zostały pomyślnie zaimportowane.</string>
     <string name="revanced_sb_settings_import_failed">Nie udało się zaimportować: %s.</string>
     <string name="revanced_sb_settings_export_failed">Nie udało się wyeksportować: %s.</string>
@@ -1702,9 +1770,6 @@ Kliknij, by zobaczyć, jak zgłosić klucz API."</string>
     <string name="revanced_sb_about_api_sum">Dane są dostarczane przez API SponsorBlock. Stuknij tutaj, aby dowiedzieć się więcej i pobrać na inne platformy.</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Pozostałe</string>
-    <string name="revanced_enable_open_links_directly_title">Bezpośrednie otwieranie linków</string>
-    <string name="revanced_enable_open_links_directly_summary_on">Tak</string>
-    <string name="revanced_enable_open_links_directly_summary_off">Nie</string>
     <string name="revanced_disable_quic_protocol_title">Wyłącz protokół QUIC</string>
     <string name="revanced_disable_quic_protocol_summary">"Wyłącz protokół QUIC w CronetEngine"</string>
     <string name="revanced_enable_debug_logging_title">Logi do debugowania</string>
@@ -1713,15 +1778,12 @@ Kliknij, by zobaczyć, jak zgłosić klucz API."</string>
     <string name="revanced_enable_debug_buffer_logging_title">Logi do debugowania buforu</string>
     <string name="revanced_enable_debug_buffer_logging_summary_on">Z buforem</string>
     <string name="revanced_enable_debug_buffer_logging_summary_off">Bez bufora</string>
-    <string name="revanced_enable_external_browser_title">Zewnętrzna przeglądarka</string>
-    <string name="revanced_enable_external_browser_summary_on">Włączona</string>
-    <string name="revanced_enable_external_browser_summary_off">Wyłączona</string>
     <string name="revanced_sanitize_sharing_links_title">Oczyść udostępniane linki</string>
     <string name="revanced_sanitize_sharing_links_summary">Usuwa śledzące parametry z adresów URL podczas udostępniania linków</string>
     <string name="revanced_default_app_settings_title">Otwórz systemowe ustawienia aplikacji</string>
     <string name="revanced_default_app_settings_summary">Aby otwierać linki YouTube w RVX, przejdź do opcji obsługiwanych linków w ustawieniach i włącz obsługiwane adresy internetowe dla RVX.</string>
     <string name="gms_core_settings_title">Otwórz ustawienia GmsCore</string>
-    <string name="gms_core_settings_summary">Otwiera ustawienia GmsCore. Następnie włącz cloud messaging, by otrzymywać powiadomienia.</string>
+    <string name="gms_core_settings_summary">Aby otrzymywać powiadomienia w RVX, włącz Cloud Messaging.</string>
     <string name="gms_core_toast_not_installed_message">GmsCore nie jest zainstalowany. Zainstaluj go.</string>
     <string name="gms_core_dialog_title">Wymagana akcja</string>
     <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"GmsCore nie ma uprawnień do działania w tle.
@@ -1743,7 +1805,7 @@ Stuknij przycisk kontynuacji i zezwól na zmiany w optymalizacji."</string>
     <string name="revanced_enable_opus_codec_summary">Włącza kodek OPUS, jeśli odpowiedź odtwarzacza zawiera ten kodek.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings -->
     <string name="revanced_preference_screen_import_export_title">Zaimportuj / Wyeksportuj ustawienia</string>
-    <string name="revanced_preference_screen_import_export_summary">Ustawienia importu oraz eksportu</string>
+    <string name="revanced_preference_screen_import_export_summary">Zaimportuj / wyeksportuj ustawienia RVX</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings, PreferenceCategory: Import / Export as file -->
     <string name="revanced_preference_category_import_export_as_file">Zaimportuj / Wyeksportuj jako plik</string>
     <string name="revanced_extended_settings_export_title">Wyeksportuj ustawienia</string>
@@ -1753,7 +1815,7 @@ Stuknij przycisk kontynuacji i zezwól na zmiany w optymalizacji."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings, PreferenceCategory: Import / Export as text -->
     <string name="revanced_preference_category_import_export_as_text">Zaimportuj / Wyeksportuj jako tekst</string>
     <string name="revanced_extended_settings_import_export_as_text_title">Zaimportuj / Wyeksportuj jako tekst</string>
-    <string name="revanced_extended_settings_import_export_as_text_summary">Importuje bądź eksportuje ustawienia w formie tekstu</string>
+    <string name="revanced_extended_settings_import_export_as_text_summary">Importuje / eksportuje ustawienia w formie tekstu</string>
     <string name="revanced_extended_settings_export_failed">Nie udało się wyeksportować ustawień.</string>
     <string name="revanced_extended_settings_export_success">Ustawienia zostały pomyślnie wyeksportowane.</string>
     <string name="revanced_extended_settings_import">Zaimportuj</string>
@@ -1774,6 +1836,8 @@ Stuknij przycisk kontynuacji i zezwól na zmiany w optymalizacji."</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">"Android TV
 <small>(Wymagane zalogowanie)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr_no_auth">"Android VR
+<small>(Bez autoryzacji)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
 <small>(Wymagany PoToken)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
@@ -1795,6 +1859,7 @@ AVC obsługuje maksymalnie rozdzielczość 1080p, kodek audio OPUS nie jest dost
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Informacja w statystykach dla nerdów</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Widoczna</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Ukryta</string>
+    <string name="revanced_spoof_streaming_data_language_title">Domyślny język dla transmisji na żywo dla VR</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <string name="revanced_preference_category_po_token_visitor_data">PoToken / VisitorData</string>
     <string name="revanced_spoof_streaming_data_po_token_title">PoToken do użycia</string>

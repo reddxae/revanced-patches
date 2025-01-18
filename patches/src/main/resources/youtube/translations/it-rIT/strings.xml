@@ -344,17 +344,12 @@ Se l'interfaccia della schermata del riproduttore cambia a causa di modifiche la
     <string name="revanced_related_videos_offset_title">Numero massimo di interfacce</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Generale</string>
-    <string name="revanced_change_layout_title">Cambia l\'interfaccia</string>
-    <string name="revanced_change_layout_entry_1">Originale</string>
-    <string name="revanced_change_layout_entry_2">Telefono</string>
-    <string name="revanced_change_layout_entry_3">Telefono (Massimo 480 dp)</string>
-    <string name="revanced_change_layout_entry_4">Tablet</string>
-    <string name="revanced_change_layout_entry_5">Tablet (Minimo 600 dp)</string>
     <string name="revanced_change_start_page_title">Cambia la scheda iniziale</string>
+    <string name="revanced_change_start_page_entry_default">Predefinita (Home)</string>
     <string name="revanced_change_start_page_entry_browse">Esplora canali</string>
     <string name="revanced_change_start_page_entry_courses">Apprendimento</string>
-    <string name="revanced_change_start_page_entry_default">Predefinita (Home)</string>
     <string name="revanced_change_start_page_entry_explore">Esplora</string>
+    <string name="revanced_change_start_page_entry_fashion">Moda e bellezza</string>
     <string name="revanced_change_start_page_entry_gaming">Giochi</string>
     <string name="revanced_change_start_page_entry_history">Cronologia</string>
     <string name="revanced_change_start_page_entry_library">Tu (Raccolta)</string>
@@ -362,8 +357,11 @@ Se l'interfaccia della schermata del riproduttore cambia a causa di modifiche la
     <string name="revanced_change_start_page_entry_live">Live</string>
     <string name="revanced_change_start_page_entry_movies">Film e TV</string>
     <string name="revanced_change_start_page_entry_music">Musica</string>
+    <string name="revanced_change_start_page_entry_news">Notizie</string>
     <string name="revanced_change_start_page_entry_notifications">Notifiche</string>
+    <string name="revanced_change_start_page_entry_podcasts">Podcast</string>
     <string name="revanced_change_start_page_entry_search">Cerca</string>
+    <string name="revanced_change_start_page_entry_shopping">Shopping</string>
     <string name="revanced_change_start_page_entry_shorts">Shorts</string>
     <string name="revanced_change_start_page_entry_sports">Sport</string>
     <string name="revanced_change_start_page_entry_subscriptions">Iscrizioni</string>
@@ -402,6 +400,12 @@ Nota: il pulsante Indietro della barra degli strumenti potrebbe non funzionare."
     <string name="revanced_remove_viewer_discretion_dialog_title">Rimuovi la finestra sulla discrezione dello spettatore</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Rimuove la finestra sulla discrezione dello spettatore.
 Nota: questo non bypassa la restrizione di età, ma la accetta automaticamente."</string>
+    <string name="revanced_change_layout_title">Cambia l\'interfaccia</string>
+    <string name="revanced_change_layout_entry_1">Originale</string>
+    <string name="revanced_change_layout_entry_2">Telefono</string>
+    <string name="revanced_change_layout_entry_3">Telefono (Massimo 480 dp)</string>
+    <string name="revanced_change_layout_entry_4">Tablet</string>
+    <string name="revanced_change_layout_entry_5">Tablet (Minimo 600 dp)</string>
     <string name="revanced_spoof_app_version_title">Attiva il camuffamento della versione dell\'app</string>
     <string name="revanced_spoof_app_version_summary_on">Il camuffamento della versione dell\'app è attivato.</string>
     <string name="revanced_spoof_app_version_summary_off">Il camuffamento della versione dell\'app è disattivato.</string>
@@ -682,7 +686,7 @@ Tocca e tieni premuto per aprire le impostazioni di RVX."</string>
     <string name="revanced_disable_auto_switch_mix_playlists_summary_off">"Il cambio automatico alle playlist miste è attivato quando è attivata anche la riproduzione automatica.
 
 La riproduzione automatica può essere modificata seguendo questo percorso:
-Impostazioni → Riproduzione automatica / Riproduzione → Telefono cellulare/tablet"</string>
+Impostazioni → Riproduzione automatica / Riproduzione → Riproduci automatic. video successivo"</string>
     <string name="revanced_disable_auto_switch_mix_playlists_user_dialog_message">L\'attivazione di questa impostazione disattiverà il cambio automatico alle playlist miste durante la riproduzione di musica con la riproduzione automatica attiva.</string>
     <string name="revanced_disable_auto_player_popup_panels_title">Disattiva il pannello a comparsa automatico</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_on">Il pannello a comparsa automatico è disattivato.</string>
@@ -733,7 +737,7 @@ Note:
     <string name="revanced_hide_suggested_video_end_screen_summary_on">"La schermata finale del video consigliato è nascosta quando la riproduzione automatica è disattivata.
 
 La riproduzione automatica può essere modificata seguendo questo percorso:
-Impostazioni → Riproduzione / Riproduzione → Riproduci automatic. video successivo"</string>
+Impostazioni → Riproduzione automatica / Riproduzione → Riproduci automatic. video successivo"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">La schermata finale del video consigliato è visibile.</string>
     <string name="revanced_skip_autoplay_countdown_title">Salta il conto alla rovescia della riproduzione automatica</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">Se la riproduzione automatica è attivata, il video successivo verrà riprodotto immediatamente.</string>
@@ -1770,9 +1774,6 @@ Tocca qui per vedere come emettere una chiave API."</string>
     <string name="revanced_sb_about_api_sum">I dati sono forniti dall\'API di SponsorBlock. Tocca qui per saperne di più e vedere i download per altre piattaforme.</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Varie</string>
-    <string name="revanced_enable_open_links_directly_title">Bypassa il reindirizzamento dei link</string>
-    <string name="revanced_enable_open_links_directly_summary_on">Bypassando i reindirizzamenti degli URL.</string>
-    <string name="revanced_enable_open_links_directly_summary_off">Seguendo la regola predefinita di reindirizzamento.</string>
     <string name="revanced_disable_quic_protocol_title">Disattiva il protocollo QUIC</string>
     <string name="revanced_disable_quic_protocol_summary">"Disattiva il protocollo QUIC di CronetEngine."</string>
     <string name="revanced_enable_debug_logging_title">Attiva il registro del debug</string>
@@ -1781,9 +1782,6 @@ Tocca qui per vedere come emettere una chiave API."</string>
     <string name="revanced_enable_debug_buffer_logging_title">Attiva il registro del debug con il buffer</string>
     <string name="revanced_enable_debug_buffer_logging_summary_on">Il registro del debug include il buffer.</string>
     <string name="revanced_enable_debug_buffer_logging_summary_off">Il registro del debug non include il buffer.</string>
-    <string name="revanced_enable_external_browser_title">Apri i link nel browser esterno</string>
-    <string name="revanced_enable_external_browser_summary_on">Aprendo i link nel browser esterno.</string>
-    <string name="revanced_enable_external_browser_summary_off">Aprendo i link nel browser dell\'app.</string>
     <string name="revanced_sanitize_sharing_links_title">Sanitizza i link di condivisione</string>
     <string name="revanced_sanitize_sharing_links_summary">Rimuove i parametri di tracciamento dagli URL durante la condivisione dei link.</string>
     <string name="revanced_default_app_settings_title">Apri le impostazioni predefinite dell\'app</string>

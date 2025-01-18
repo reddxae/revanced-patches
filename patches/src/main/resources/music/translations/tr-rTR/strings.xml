@@ -193,8 +193,6 @@ Bilinen sorunlar:
     <string name="revanced_hide_navigation_bar_summary">Gezinme çubuğunu gizler.</string>
     <string name="revanced_hide_navigation_label_title">Navigasyon paneli altyazılarını gizle</string>
     <string name="revanced_hide_navigation_label_summary">Gezinme çubuğunun altındaki etiketleri gizleyin.</string>
-    <string name="revanced_enable_black_navigation_bar_title">Siyah gezinme çubuğunu etkinleştir</string>
-    <string name="revanced_enable_black_navigation_bar_summary">Gezinme çubuğunun rengini siyah yapar.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Oynatıcı</string>
     <string name="revanced_enable_mini_player_next_button_title">Mini oynatıcıyıdaki sonraki düğmesini etkinleştir</string>

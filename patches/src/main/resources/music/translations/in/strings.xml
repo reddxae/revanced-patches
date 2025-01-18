@@ -186,8 +186,6 @@ This does not bypass the age restriction. It just accepts it automatically."</st
     <string name="revanced_hide_navigation_bar_summary">Sembunyikan bilah navigasi.</string>
     <string name="revanced_hide_navigation_label_title">Sembunyikan label navigasi</string>
     <string name="revanced_hide_navigation_label_summary">Menyembunyikan label di bilah navigasi.</string>
-    <string name="revanced_enable_black_navigation_bar_title">Aktifkan bilah navigasi hitam</string>
-    <string name="revanced_enable_black_navigation_bar_summary">Mengatur warna bilah navigasi menjadi hitam.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Player</string>
     <string name="revanced_enable_mini_player_next_button_title">Add miniplayer next button</string>

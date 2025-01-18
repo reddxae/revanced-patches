@@ -19,6 +19,59 @@
     <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s não está instalado.
 Por favor, baixe %2$s do site."</string>
     <string name="revanced_external_downloader_not_installed_warning">%s não está instalado. Por favor, instale-o.</string>
+    <string name="revanced_language_title">Idioma do RVX</string>
+    <string name="revanced_language_DEFAULT">Idioma do app</string>
+    <string name="revanced_language_AR">Árabe</string>
+    <string name="revanced_language_AZ">Azerbaijano</string>
+    <string name="revanced_language_BG">Búlgaro</string>
+    <string name="revanced_language_BN">Bengalês</string>
+    <string name="revanced_language_CA">Catalão</string>
+    <string name="revanced_language_CS">Tcheco</string>
+    <string name="revanced_language_DA">Dinamarquês</string>
+    <string name="revanced_language_DE">Alemão</string>
+    <string name="revanced_language_EL">Grego</string>
+    <string name="revanced_language_EN">Inglês</string>
+    <string name="revanced_language_ES">Espanhol</string>
+    <string name="revanced_language_ET">Estoniano</string>
+    <string name="revanced_language_FA">Persa</string>
+    <string name="revanced_language_FI">Finlandês</string>
+    <string name="revanced_language_FR">Francês</string>
+    <string name="revanced_language_GU">Guzerate</string>
+    <string name="revanced_language_HI">Hindu</string>
+    <string name="revanced_language_HR">Croata</string>
+    <string name="revanced_language_HU">Húngaro</string>
+    <string name="revanced_language_ID">Indonésio</string>
+    <string name="revanced_language_IT">Italiano</string>
+    <string name="revanced_language_JA">Japonês</string>
+    <string name="revanced_language_KK">Cazaque</string>
+    <string name="revanced_language_KO">Coreano</string>
+    <string name="revanced_language_LT">Lituano</string>
+    <string name="revanced_language_LV">Letão</string>
+    <string name="revanced_language_MK">Macedônio</string>
+    <string name="revanced_language_MN">Mongol</string>
+    <string name="revanced_language_MR">Marata</string>
+    <string name="revanced_language_MS">Malaio</string>
+    <string name="revanced_language_MY">Birmanês</string>
+    <string name="revanced_language_NL">Holandês</string>
+    <string name="revanced_language_OR">Odia</string>
+    <string name="revanced_language_PA">Punjabi</string>
+    <string name="revanced_language_PL">Polonês</string>
+    <string name="revanced_language_PT">Português</string>
+    <string name="revanced_language_RO">Romeno</string>
+    <string name="revanced_language_RU">Russo</string>
+    <string name="revanced_language_SK">Eslovaco</string>
+    <string name="revanced_language_SL">Esloveno</string>
+    <string name="revanced_language_SR">Sérvio</string>
+    <string name="revanced_language_SV">Sueco</string>
+    <string name="revanced_language_SW">Suaíli</string>
+    <string name="revanced_language_TA">Tâmil</string>
+    <string name="revanced_language_TE">Telugu</string>
+    <string name="revanced_language_TH">Tailandês</string>
+    <string name="revanced_language_TR">Turco</string>
+    <string name="revanced_language_UK">Ucraniano</string>
+    <string name="revanced_language_UR">Urdu</string>
+    <string name="revanced_language_VI">Vietnamita</string>
+    <string name="revanced_language_ZH">Chinês</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Anúncios</string>
     <string name="revanced_hide_fullscreen_ads_title">Ocultar anúncios em tela cheia</string>
@@ -102,6 +155,14 @@ Toque aqui para saber mais sobre o DeArrow."</string>
     <string name="revanced_hide_feed_captions_button_on">O botão de legendas está oculto.</string>
     <string name="revanced_hide_feed_captions_button_off">O botão de legendas será exibido.</string>
     <string name="revanced_hide_carousel_shelf_title">Ocultar painel de carrossel</string>
+    <string name="revanced_hide_carousel_shelf_summary_on">"Os painéis do carrossel estão ocultas, como:
+• Últimas notícias
+• Continuar assistindo
+• Explorar mais canais
+• Ouça novamente
+• Compras
+• Assistir novamente"</string>
+    <string name="revanced_hide_carousel_shelf_summary_off">Os painéis do carrossel serão exibidos.</string>
     <string name="revanced_hide_chips_shelf_title">Ocultar painel de chips</string>
     <string name="revanced_hide_chips_shelf_on">O painel de chips está oculto.</string>
     <string name="revanced_hide_chips_shelf_off">O painel de chips será exibido.</string>
@@ -282,16 +343,10 @@ Se o layout da tela do reprodutor mudar devido a alterações no lado do servido
     <string name="revanced_related_videos_offset_title">Desvio</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Geral</string>
-    <string name="revanced_change_layout_title">Alterar layout</string>
-    <string name="revanced_change_layout_entry_1">Original</string>
-    <string name="revanced_change_layout_entry_2">Telefone</string>
-    <string name="revanced_change_layout_entry_3">Telefone (Máximo 480 dp)</string>
-    <string name="revanced_change_layout_entry_4">Tablet</string>
-    <string name="revanced_change_layout_entry_5">Tablet (Min 600 dp)</string>
     <string name="revanced_change_start_page_title">Alterar a página inicial</string>
+    <string name="revanced_change_start_page_entry_default">Padrão</string>
     <string name="revanced_change_start_page_entry_browse">Explorar canais</string>
     <string name="revanced_change_start_page_entry_courses">Cursos / Aprendizagem</string>
-    <string name="revanced_change_start_page_entry_default">Padrão</string>
     <string name="revanced_change_start_page_entry_explore">Explorar</string>
     <string name="revanced_change_start_page_entry_gaming">Jogos</string>
     <string name="revanced_change_start_page_entry_history">Histórico</string>
@@ -340,6 +395,12 @@ Limitação: O botão voltar na barra de ferramentas pode não funcionar."</stri
     <string name="revanced_remove_viewer_discretion_dialog_title">Remover o diálogo discricionário do visualizador</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Remover o diálogo discricionário de visualização.
 Isso não ignora a restrição de idade, apenas aceita isso automaticamente."</string>
+    <string name="revanced_change_layout_title">Alterar layout</string>
+    <string name="revanced_change_layout_entry_1">Original</string>
+    <string name="revanced_change_layout_entry_2">Telefone</string>
+    <string name="revanced_change_layout_entry_3">Telefone (Máximo 480 dp)</string>
+    <string name="revanced_change_layout_entry_4">Tablet</string>
+    <string name="revanced_change_layout_entry_5">Tablet (Min 600 dp)</string>
     <string name="revanced_spoof_app_version_title">Falsificar versão do aplicativo</string>
     <string name="revanced_spoof_app_version_summary_on">Versão falsificada</string>
     <string name="revanced_spoof_app_version_summary_off">Versão não falsificada</string>
@@ -512,6 +573,9 @@ Se essa configuração não surtir efeito, tente alternar para o modo anônimo."
     <string name="revanced_hide_settings_menu_data_saving_title">Ocultar menu Economia de dados</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_on">O menu Economia de dados está oculto.</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_off">O menu Economia de dados será exibido.</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_title">Ocultar menu de reprodução automática ou de reprodução</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_summary_on">O menu de reprodução automática ou reprodução está oculto.</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_summary_off">O menu de reprodução automática ou reprodução será exibido.</string>
     <string name="revanced_hide_settings_menu_video_quality_title">Ocultar menu Preferências de qualidade de vídeo</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_on">O menu Preferências de qualidade de vídeo está oculto.</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_off">O menu Preferências de qualidade de vídeo será exibido.</string>
@@ -916,6 +980,8 @@ Limitação: Título do vídeo desaparece quando clicado."</string>
     <string name="revanced_enable_compact_controls_overlay_summary_on">A sobreposição de controles não preenche a tela inteira.</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">A sobreposição de controles preenche a tela inteira.</string>
     <string name="revanced_keep_landscape_mode_title">Manter o modo paisagem</string>
+    <string name="revanced_keep_landscape_mode_summary_on">Os vídeos continuam sendo reproduzidos no modo paisagem depois de desligar e ligar a tela.</string>
+    <string name="revanced_keep_landscape_mode_summary_off">Os vídeos serão reproduzidos no modo retrato depois de desligar e ligar a tela.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">Tempo limite para manter o modo paisagem</string>
     <string name="revanced_keep_landscape_mode_timeout_summary">A quantidade de milissegundos que o modo paisagem é forçado.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Haptic feedback -->
@@ -1700,9 +1766,6 @@ Clique para ver como emitir uma chave de API."</string>
     <string name="revanced_sb_about_api_sum">Os dados são fornecidos pela API do SponsorBlock. Toque aqui para aprender mais e ver downloads para outras plataformas.</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Diversos</string>
-    <string name="revanced_enable_open_links_directly_title">Ativar abrir links diretamente</string>
-    <string name="revanced_enable_open_links_directly_summary_on">Ignorando redirecionamentos de URL</string>
-    <string name="revanced_enable_open_links_directly_summary_off">Seguindo a política de redirecionamento padrão</string>
     <string name="revanced_disable_quic_protocol_title">Desativar protocolo QUIC</string>
     <string name="revanced_disable_quic_protocol_summary">"Desativar o protocolo QUIC do CronetEngine."</string>
     <string name="revanced_enable_debug_logging_title">Ativar o registro de depuração</string>
@@ -1711,9 +1774,6 @@ Clique para ver como emitir uma chave de API."</string>
     <string name="revanced_enable_debug_buffer_logging_title">Ativar o registro de depuração do buffer</string>
     <string name="revanced_enable_debug_buffer_logging_summary_on">Os registros de depuração incluem o buffer.</string>
     <string name="revanced_enable_debug_buffer_logging_summary_off">Os registros de depuração não incluem o buffer.</string>
-    <string name="revanced_enable_external_browser_title">Ativar navegador externo</string>
-    <string name="revanced_enable_external_browser_summary_on">O navegador externo está ativado.</string>
-    <string name="revanced_enable_external_browser_summary_off">O navegador externo está desativado.</string>
     <string name="revanced_sanitize_sharing_links_title">Limpar links compartilhados</string>
     <string name="revanced_sanitize_sharing_links_summary">Remove os parâmetros de consulta de rastreamento das URLs ao compartilhar os links.</string>
     <string name="revanced_default_app_settings_title">Abrir configurações padrão do aplicativo</string>
@@ -1770,6 +1830,8 @@ Toque no botão continuar e desative as otimizações da bateria."</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">"Android TV
 <small>(é necessário logar)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr_no_auth">"Android VR
+<small>(Sem autenticação)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
 <small>(requer PoToken)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
@@ -1791,6 +1853,7 @@ O AVC tem uma resolução máxima de 1080p, o codec de áudio Opus não está di
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Exibir em Estatísticas para nerds</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">O cliente usado para buscar dados de streaming é mostrado em Estatísticas para nerds.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">O cliente usado para buscar dados de streaming está oculto em Estatísticas para nerds.</string>
+    <string name="revanced_spoof_streaming_data_language_title">Idioma padrão de áudio do VR</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <string name="revanced_preference_category_po_token_visitor_data">PoToken / VisitorData</string>
     <string name="revanced_spoof_streaming_data_po_token_title">PoToken a ser utilizado</string>

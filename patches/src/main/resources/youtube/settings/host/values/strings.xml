@@ -1318,6 +1318,9 @@ Info:
     <string name="revanced_change_shorts_repeat_state_entry_default">Default</string>
     <string name="revanced_change_shorts_repeat_state_entry_pause">Pause</string>
     <string name="revanced_change_shorts_repeat_state_entry_repeat">Repeat</string>
+    <string name="revanced_open_shorts_in_regular_player_title">Open Shorts in regular player</string>
+    <string name="revanced_open_shorts_in_regular_player_summary_on">Open Shorts in the regular player.</string>
+    <string name="revanced_open_shorts_in_regular_player_summary_off">Do not open Shorts in the regular player.</string>
 
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player -->
     <string name="revanced_preference_screen_shorts_player_title">Shorts player</string>

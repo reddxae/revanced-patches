@@ -373,13 +373,6 @@ If the layout of the player screen changes due to server-side changes, unintende
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">General</string>
 
-    <string name="revanced_change_layout_title">Change layout</string>
-    <string name="revanced_change_layout_entry_1">Original</string>
-    <string name="revanced_change_layout_entry_2">Phone</string>
-    <string name="revanced_change_layout_entry_3">Phone (Max 480 dp)</string>
-    <string name="revanced_change_layout_entry_4">Tablet</string>
-    <string name="revanced_change_layout_entry_5">Tablet (Min 600 dp)</string>
-
     <string name="revanced_change_start_page_title">Change start page</string>
     <string name="revanced_change_start_page_entry_default">Default</string>
     <string name="revanced_change_start_page_entry_browse">Browse channels</string>
@@ -438,6 +431,15 @@ Limitation: Back button on the toolbar may not work."</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Removes the viewer discretion dialog.
 This does not bypass the age restriction. It just accepts it automatically."</string>
 
+    <string name="revanced_change_layout_title">Change layout</string>
+    <string name="revanced_change_layout_entry_1">Original</string>
+    <string name="revanced_change_layout_entry_2">Phone</string>
+    <string name="revanced_change_layout_entry_3">Phone (Max 480 dp)</string>
+    <string name="revanced_change_layout_entry_4">Tablet</string>
+    <string name="revanced_change_layout_entry_5">Tablet (Min 600 dp)</string>
+    <string name="revanced_open_channel_of_live_avatar_title">Open channel of live avatar</string>
+    <string name="revanced_open_channel_of_live_avatar_summary_on">Channel opens when the live avatar is clicked.</string>
+    <string name="revanced_open_channel_of_live_avatar_summary_off">Live stream opens when the live avatar is clicked.</string>
     <string name="revanced_spoof_app_version_title">Spoof app version</string>
     <string name="revanced_spoof_app_version_summary_on">Version spoofed</string>
     <string name="revanced_spoof_app_version_summary_off">Version not spoofed</string>

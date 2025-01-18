@@ -304,6 +304,9 @@
         <!-- SETTINGS: LAYOUT_SWITCH
         <ListPreference android:entries="@array/revanced_change_layout_entries" android:title="@string/revanced_change_layout_title" android:key="revanced_change_layout" android:entryValues="@array/revanced_change_layout_entry_values" />SETTINGS: LAYOUT_SWITCH -->
 
+        <!-- SETTINGS: OPEN_CHANNEL_OF_LIVE_AVATAR
+        <SwitchPreference android:title="@string/revanced_open_channel_of_live_avatar_title" android:key="revanced_open_channel_of_live_avatar" android:summaryOn="@string/revanced_open_channel_of_live_avatar_summary_on" android:summaryOff="@string/revanced_open_channel_of_live_avatar_summary_off" />SETTINGS: OPEN_CHANNEL_OF_LIVE_AVATAR -->
+
         <!-- SETTINGS: SPOOF_APP_VERSION
         <SwitchPreference android:title="@string/revanced_spoof_app_version_title" android:key="revanced_spoof_app_version" android:summaryOn="@string/revanced_spoof_app_version_summary_on" android:summaryOff="@string/revanced_spoof_app_version_summary_off" />
         <app.revanced.extension.shared.settings.preference.WideListPreference android:title="@string/revanced_spoof_app_version_target_entry_title" android:key="revanced_spoof_app_version_target" android:entries="@array/revanced_spoof_app_version_target_entries" android:entryValues="@array/revanced_spoof_app_version_target_entry_values" />
@@ -885,6 +888,7 @@
                 <Preference android:title="Layout switch" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="Miniplayer" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="Navigation bar components" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
+                <Preference android:title="Open channel of live avatar" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="Remove viewer discretion dialog" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="Spoof app version" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="Toolbar components" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>

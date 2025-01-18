@@ -44,6 +44,14 @@ object PlayerRoutes {
                 "&alt=proto"
     ).compile()
 
+    @JvmField
+    val GET_VIDEO_DETAILS: CompiledRoute = Route(
+        Route.Method.POST,
+        "player" +
+                "?prettyPrint=false" +
+                "&fields=videoDetails.channelId"
+    ).compile()
+
     private const val YT_API_URL = "https://youtubei.googleapis.com/youtubei/v1/"
 
     /**

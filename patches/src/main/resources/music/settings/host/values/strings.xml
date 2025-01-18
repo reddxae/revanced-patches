@@ -199,6 +199,11 @@ This does not bypass the age restriction. It just accepts it automatically."</st
     <!-- PreferenceScreen: Navigation Bar -->
     <string name="revanced_preference_screen_navigation_title">Navigation Bar</string>
 
+    <string name="revanced_enable_custom_navigation_bar_color_title">Enable custom navigation bar color</string>
+    <string name="revanced_enable_custom_navigation_bar_color_summary">Sets the navigation bar color.</string>
+    <string name="revanced_custom_navigation_bar_color_value_title">Custom navigation bar color value</string>
+    <string name="revanced_custom_navigation_bar_color_value_summary">Type the hex code of the navigation bar color.</string>
+    <string name="revanced_custom_navigation_bar_color_value_invalid_invalid_toast">Invalid navigation bar color value.</string>
     <string name="revanced_hide_navigation_home_button_title">Hide Home button</string>
     <string name="revanced_hide_navigation_home_button_summary">Hides the Home button.</string>
     <string name="revanced_hide_navigation_samples_button_title">Hide Samples button</string>
@@ -213,8 +218,6 @@ This does not bypass the age restriction. It just accepts it automatically."</st
     <string name="revanced_hide_navigation_bar_summary">Hides the navigation bar.</string>
     <string name="revanced_hide_navigation_label_title">Hide navigation labels</string>
     <string name="revanced_hide_navigation_label_summary">Hides the label below each navigation buttons.</string>
-    <string name="revanced_enable_black_navigation_bar_title">Set navigation bar to black</string>
-    <string name="revanced_enable_black_navigation_bar_summary">Sets the navigation bar color to black.</string>
 
 
     <!-- PreferenceScreen: Player -->

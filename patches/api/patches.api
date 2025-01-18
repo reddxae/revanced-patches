@@ -48,6 +48,8 @@ public final class app/revanced/patches/music/general/oldstylelibraryshelf/OldSt
 
 public final class app/revanced/patches/music/general/redirection/DislikeRedirectionPatchKt {
 	public static final fun getDislikeRedirectionPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+	public static final fun getOnClickReference ()Ljava/lang/String;
+	public static final fun setOnClickReference (Ljava/lang/String;)V
 }
 
 public final class app/revanced/patches/music/general/spoofappversion/SpoofAppVersionPatchKt {
@@ -205,6 +207,8 @@ public final class app/revanced/patches/music/utils/playservice/VersionCheckPatc
 	public static final fun is_7_20_or_greater ()Z
 	public static final fun is_7_23_or_greater ()Z
 	public static final fun is_7_25_or_greater ()Z
+	public static final fun is_7_27_or_greater ()Z
+	public static final fun is_7_29_or_greater ()Z
 }
 
 public final class app/revanced/patches/music/utils/resourceid/SharedResourceIdPatchKt {
@@ -603,6 +607,10 @@ public final class app/revanced/patches/youtube/general/autocaptions/AutoCaption
 	public static final fun getAutoCaptionsPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
+public final class app/revanced/patches/youtube/general/channel/OpenChannelOfLiveAvatarPatchKt {
+	public static final fun getLayoutSwitchPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
 public final class app/revanced/patches/youtube/general/components/LayoutComponentsPatchKt {
 	public static final fun getLayoutComponentsPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
@@ -716,12 +724,12 @@ public final class app/revanced/patches/youtube/misc/debugging/DebuggingPatchKt 
 	public static final fun getDebuggingPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
-public final class app/revanced/patches/youtube/misc/externalbrowser/OpenLinksExternallyPatchKt {
-	public static final fun getOpenLinksExternallyPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+public final class app/revanced/patches/youtube/misc/openlinks/directly/OpenLinksDirectlyPatchKt {
+	public static final fun getOpenLinksDirectlyPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
-public final class app/revanced/patches/youtube/misc/openlinksdirectly/OpenLinksDirectlyPatchKt {
-	public static final fun getOpenLinksDirectlyPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+public final class app/revanced/patches/youtube/misc/openlinks/externally/OpenLinksExternallyPatchKt {
+	public static final fun getOpenLinksExternallyPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
 public final class app/revanced/patches/youtube/misc/quic/QUICProtocolPatchKt {
@@ -999,6 +1007,7 @@ public final class app/revanced/patches/youtube/utils/resourceid/SharedResourceI
 	public static final fun getDrawerResults ()J
 	public static final fun getEasySeekEduContainer ()J
 	public static final fun getEditSettingsAction ()J
+	public static final fun getElementsImage ()J
 	public static final fun getEmojiPickerIcon ()J
 	public static final fun getEndScreenElementLayoutCircle ()J
 	public static final fun getEndScreenElementLayoutIcon ()J
@@ -1124,6 +1133,14 @@ public final class app/revanced/patches/youtube/video/information/VideoInformati
 
 public final class app/revanced/patches/youtube/video/playback/VideoPlaybackPatchKt {
 	public static final fun getVideoPlaybackPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
+public final class app/revanced/patches/youtube/video/playbackstart/FingerprintsKt {
+	public static final field PLAYBACK_START_DESCRIPTOR_CLASS_DESCRIPTOR Ljava/lang/String;
+}
+
+public final class app/revanced/patches/youtube/video/playbackstart/PlaybackStartDescriptorPatchKt {
+	public static final fun getPlaybackStartDescriptorPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
 public abstract class app/revanced/patches/youtube/video/playerresponse/Hook {

@@ -737,7 +737,7 @@ Tap and hold to open RVX settings."</string>
     <string name="revanced_disable_auto_switch_mix_playlists_summary_off">"Auto switch mix playlists is enabled when autoplay is turned on.
 
 Autoplay can be changed in YouTube settings:
-Settings → Autoplay → Autoplay next video"</string>
+Settings → Autoplay / Playback → Autoplay next video"</string>
     <string name="revanced_disable_auto_switch_mix_playlists_user_dialog_message">Enabling this feature will disable automatic switching to YouTube Mix when playing music while autoplay is turned on.</string>
     <string name="revanced_disable_auto_player_popup_panels_title">Disable player popup panels</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_on">Auto player popup panels are disabled.</string>

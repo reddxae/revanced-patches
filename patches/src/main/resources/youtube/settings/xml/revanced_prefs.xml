@@ -820,8 +820,8 @@
             <app.revanced.extension.youtube.settings.preference.WatchHistoryStatusPreference android:title="@string/revanced_watch_history_about_title" />
         </PreferenceScreen>SETTINGS: WATCH_HISTORY -->
 
-        <!-- SETTINGS: ENABLE_OPEN_LINKS_DIRECTLY
-        <SwitchPreference android:title="@string/revanced_enable_open_links_directly_title" android:key="revanced_enable_open_links_directly" android:summaryOn="@string/revanced_enable_open_links_directly_summary_on" android:summaryOff="@string/revanced_enable_open_links_directly_summary_off" />SETTINGS: ENABLE_OPEN_LINKS_DIRECTLY -->
+        <!-- SETTINGS: BYPASS_URL_REDIRECTS
+        <SwitchPreference android:title="@string/revanced_bypass_url_redirects_title" android:key="revanced_bypass_url_redirects" android:summaryOn="@string/revanced_bypass_url_redirects_summary_on" android:summaryOff="@string/revanced_bypass_url_redirects_summary_off" />SETTINGS: BYPASS_URL_REDIRECTS -->
 
         <!-- SETTINGS: DISABLE_QUIC_PROTOCOL
         <SwitchPreference android:title="@string/revanced_disable_quic_protocol_title" android:key="revanced_disable_quic_protocol" android:summary="@string/revanced_disable_quic_protocol_summary" />SETTINGS: DISABLE_QUIC_PROTOCOL -->
@@ -830,8 +830,8 @@
         <SwitchPreference android:title="@string/revanced_enable_debug_logging_title" android:key="revanced_enable_debug_logging" android:summaryOn="@string/revanced_enable_debug_logging_summary_on" android:summaryOff="@string/revanced_enable_debug_logging_summary_off" />
         <SwitchPreference android:title="@string/revanced_enable_debug_buffer_logging_title" android:key="revanced_enable_debug_buffer_logging" android:summaryOn="@string/revanced_enable_debug_buffer_logging_summary_on" android:summaryOff="@string/revanced_enable_debug_buffer_logging_summary_off" android:dependency="revanced_enable_debug_logging" />SETTINGS: ENABLE_DEBUG_LOGGING -->
 
-        <!-- SETTINGS: ENABLE_EXTERNAL_BROWSER
-        <SwitchPreference android:title="@string/revanced_enable_external_browser_title" android:key="revanced_enable_external_browser" android:summaryOn="@string/revanced_enable_external_browser_summary_on" android:summaryOff="@string/revanced_enable_external_browser_summary_off" />SETTINGS: ENABLE_EXTERNAL_BROWSER -->
+        <!-- SETTINGS: OPEN_LINKS_EXTERNALLY
+        <SwitchPreference android:title="@string/revanced_open_links_externally_title" android:key="revanced_open_links_externally" android:summaryOn="@string/revanced_open_links_externally_summary_on" android:summaryOff="@string/revanced_open_links_externally_summary_off" />SETTINGS: OPEN_LINKS_EXTERNALLY -->
 
         <!-- SETTINGS: SANITIZE_SHARING_LINKS
         <SwitchPreference android:title="@string/revanced_sanitize_sharing_links_title" android:key="revanced_sanitize_sharing_links" android:summary="@string/revanced_sanitize_sharing_links_summary" />SETTINGS: SANITIZE_SHARING_LINKS -->
@@ -919,12 +919,12 @@
             </PreferenceCategory>
 
             <PreferenceCategory android:title="@string/revanced_preference_screen_misc_title" android:layout="@layout/revanced_settings_preferences_category">
+                <Preference android:title="Bypass URL redirects" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="Change share sheet" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="Disable QUIC protocol" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="Enable debug logging" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-                <Preference android:title="Enable external browser" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-                <Preference android:title="Enable open links directly" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="Enable OPUS codec" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
+                <Preference android:title="Open links externally" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="Remove background playback restrictions" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="Sanitize sharing links" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="Spoof streaming data" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>

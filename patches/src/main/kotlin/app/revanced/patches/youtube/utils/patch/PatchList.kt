@@ -17,9 +17,9 @@ internal enum class PatchList(
         "Bypass image region restrictions",
         "Adds an option to use a different host for static images, so that images blocked in some countries can be received."
     ),
-    ENABLE_OPEN_LINKS_DIRECTLY(
-        "Bypass link redirection",
-        "Adds an option to bypass redirection when opening external links."
+    BYPASS_URL_REDIRECTS(
+        "Bypass URL redirects",
+        "Adds an option to bypass URL redirects and open the original URL directly."
     ),
     CHANGE_PLAYER_FLYOUT_MENU_TOGGLES(
         "Change player flyout menu toggles",
@@ -169,8 +169,8 @@ internal enum class PatchList(
         "Navigation bar components",
         "Adds options to hide or change components related to the navigation bar."
     ),
-    ENABLE_EXTERNAL_BROWSER(
-        "Open links in browser",
+    OPEN_LINKS_EXTERNALLY(
+        "Open links externally",
         "Adds an option to always open links in your browser instead of in the in-app-browser."
     ),
     OVERLAY_BUTTONS(

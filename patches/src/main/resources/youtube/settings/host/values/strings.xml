@@ -1904,9 +1904,9 @@ Click to see how to issue an API key."</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Miscellaneous</string>
 
-    <string name="revanced_enable_open_links_directly_title">Bypass link redirection</string>
-    <string name="revanced_enable_open_links_directly_summary_on">Bypasses link redirection.</string>
-    <string name="revanced_enable_open_links_directly_summary_off">Follows default redirection policy.</string>
+    <string name="revanced_bypass_url_redirects_title">Bypass URL redirects</string>
+    <string name="revanced_bypass_url_redirects_summary_on">URL redirects are bypassed.</string>
+    <string name="revanced_bypass_url_redirects_summary_off">URL redirects are not bypassed.</string>
     <string name="revanced_disable_quic_protocol_title">Disable QUIC protocol</string>
     <string name="revanced_disable_quic_protocol_summary">"Disables CronetEngine's QUIC protocol."</string>
     <string name="revanced_enable_debug_logging_title">Enable debug logging</string>
@@ -1915,9 +1915,9 @@ Click to see how to issue an API key."</string>
     <string name="revanced_enable_debug_buffer_logging_title">Enable debug buffer logging</string>
     <string name="revanced_enable_debug_buffer_logging_summary_on">Debug logs include the buffer.</string>
     <string name="revanced_enable_debug_buffer_logging_summary_off">Debug logs do not include the buffer.</string>
-    <string name="revanced_enable_external_browser_title">Open links in browser</string>
-    <string name="revanced_enable_external_browser_summary_on">Opens links in the external browser.</string>
-    <string name="revanced_enable_external_browser_summary_off">Opens links in the in-app browser.</string>
+    <string name="revanced_open_links_externally_title">Open links in browser</string>
+    <string name="revanced_open_links_externally_summary_on">Opens links in the external browser.</string>
+    <string name="revanced_open_links_externally_summary_off">Opens links in the in-app browser.</string>
     <string name="revanced_sanitize_sharing_links_title">Sanitize sharing links</string>
     <string name="revanced_sanitize_sharing_links_summary">Sanitizes sharing links by removing tracking query parameters.</string>
 

@@ -607,10 +607,6 @@ public final class app/revanced/patches/youtube/general/autocaptions/AutoCaption
 	public static final fun getAutoCaptionsPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
-public final class app/revanced/patches/youtube/general/channel/OpenChannelOfLiveAvatarPatchKt {
-	public static final fun getLayoutSwitchPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
-}
-
 public final class app/revanced/patches/youtube/general/components/LayoutComponentsPatchKt {
 	public static final fun getLayoutComponentsPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
@@ -625,6 +621,10 @@ public final class app/revanced/patches/youtube/general/downloads/DownloadAction
 
 public final class app/revanced/patches/youtube/general/layoutswitch/LayoutSwitchPatchKt {
 	public static final fun getLayoutSwitchPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
+public final class app/revanced/patches/youtube/general/livering/OpenChannelOfLiveAvatarPatchKt {
+	public static final fun getOpenChannelOfLiveAvatarPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
 public final class app/revanced/patches/youtube/general/loadingscreen/GradientLoadingScreenPatchKt {

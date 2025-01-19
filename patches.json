@@ -17,8 +17,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -39,8 +38,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -80,8 +78,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -123,8 +120,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -143,6 +139,48 @@
         "7.16.53",
         "7.25.53",
         "8.02.53"
+      ]
+    },
+    "options": []
+  },
+  {
+    "name": "Change layout",
+    "description": "Adds an option to change the dp in order to use a tablet or phone layout.",
+    "use": true,
+    "dependencies": [
+      "Settings for YouTube"
+    ],
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.29.38",
+        "18.33.40",
+        "18.38.44",
+        "18.48.39",
+        "19.05.36",
+        "19.16.39",
+        "19.44.39"
+      ]
+    },
+    "options": []
+  },
+  {
+    "name": "Change live ring click action",
+    "description": "Adds an option to open the channel instead of the live stream when clicking on the live ring.",
+    "use": true,
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch",
+      "Settings for YouTube"
+    ],
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.29.38",
+        "18.33.40",
+        "18.38.44",
+        "18.48.39",
+        "19.05.36",
+        "19.16.39",
+        "19.44.39"
       ]
     },
     "options": []
@@ -186,8 +224,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -231,8 +268,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -272,8 +308,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -315,8 +350,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": [
@@ -354,8 +388,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": [
@@ -453,7 +486,7 @@
   },
   {
     "name": "Custom branding name for Reddit",
-    "description": "Renames the Reddit app to the name specified in patch options.",
+    "description": "Changes the Reddit app name to the name specified in patch options.",
     "use": false,
     "dependencies": [],
     "compatiblePackages": {
@@ -476,7 +509,7 @@
   },
   {
     "name": "Custom branding name for YouTube",
-    "description": "Renames the YouTube app to the name specified in patch options.",
+    "description": "Changes the YouTube app name to the name specified in patch options.",
     "use": true,
     "dependencies": [
       "Settings for YouTube"
@@ -489,8 +522,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": [
@@ -512,7 +544,7 @@
   },
   {
     "name": "Custom branding name for YouTube Music",
-    "description": "Renames the YouTube Music app to the name specified in patch options.",
+    "description": "Changes the YouTube Music app name to the name specified in patch options.",
     "use": true,
     "dependencies": [
       "Settings for YouTube Music"
@@ -574,8 +606,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": [
@@ -605,8 +636,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": [
@@ -724,8 +754,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -785,8 +814,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -827,8 +855,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -870,8 +897,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -891,8 +917,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -935,8 +960,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -969,15 +993,14 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
   },
   {
     "name": "Enable OPUS codec",
-    "description": "Adds an options to enable the OPUS audio codec if the player response includes it.",
+    "description": "Adds an option to enable the OPUS audio codec if the player response includes it.",
     "use": true,
     "dependencies": [
       "BytecodePatch",
@@ -998,7 +1021,7 @@
   },
   {
     "name": "Enable OPUS codec",
-    "description": "Adds an options to enable the OPUS audio codec if the player response includes it.",
+    "description": "Adds an option to enable the OPUS audio codec if the player response includes it.",
     "use": true,
     "dependencies": [
       "BytecodePatch",
@@ -1012,8 +1035,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -1053,8 +1075,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -1074,8 +1095,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -1143,8 +1163,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -1171,8 +1190,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -1259,8 +1277,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": [
@@ -1337,8 +1354,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -1394,6 +1410,7 @@
     "use": true,
     "dependencies": [
       "Settings for YouTube",
+      "BytecodePatch",
       "BytecodePatch"
     ],
     "compatiblePackages": {
@@ -1404,11 +1421,20 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
-    "options": []
+    "options": [
+      {
+        "key": "hideActionButtonByIndex",
+        "title": "Hide action buttons by index",
+        "description": "Add an option to hide action buttons by index.\n\nThis setting is still experimental, so use it only for debugging purposes.",
+        "required": true,
+        "type": "kotlin.Boolean",
+        "default": false,
+        "values": null
+      }
+    ]
   },
   {
     "name": "Hide ads",
@@ -1468,8 +1494,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -1492,8 +1517,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -1519,8 +1543,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -1541,8 +1564,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -1591,8 +1613,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -1649,8 +1670,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -1674,8 +1694,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -1726,8 +1745,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": [
@@ -1784,8 +1802,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -1807,29 +1824,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
-      ]
-    },
-    "options": []
-  },
-  {
-    "name": "Layout switch",
-    "description": "Adds an option to spoof the dpi in order to use a tablet or phone layout.",
-    "use": true,
-    "dependencies": [
-      "Settings for YouTube"
-    ],
-    "compatiblePackages": {
-      "com.google.android.youtube": [
-        "18.29.38",
-        "18.33.40",
-        "18.38.44",
-        "18.48.39",
-        "19.05.36",
-        "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -1850,8 +1845,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -1873,8 +1867,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -1920,31 +1913,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
-      ]
-    },
-    "options": []
-  },
-  {
-    "name": "Open channel of live avatar",
-    "description": "Adds an option to open channel instead of video when clicking on live avatar.",
-    "use": true,
-    "dependencies": [
-      "BytecodePatch",
-      "ResourcePatch",
-      "Settings for YouTube"
-    ],
-    "compatiblePackages": {
-      "com.google.android.youtube": [
-        "18.29.38",
-        "18.33.40",
-        "18.38.44",
-        "18.48.39",
-        "19.05.36",
-        "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -1977,7 +1946,7 @@
   },
   {
     "name": "Open links externally",
-    "description": "Adds an option to always open links in your browser instead of in the in-app-browser.",
+    "description": "Adds an option to always open links in your browser instead of the in-app browser.",
     "use": true,
     "dependencies": [
       "BytecodePatch",
@@ -1991,8 +1960,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -2007,8 +1975,7 @@
       "BytecodePatch",
       "ResourcePatch",
       "ResourcePatch",
-      "Settings for YouTube",
-      "ResourcePatch"
+      "Settings for YouTube"
     ],
     "compatiblePackages": {
       "com.google.android.youtube": [
@@ -2018,8 +1985,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": [
@@ -2039,7 +2005,7 @@
       {
         "key": "bottomMargin",
         "title": "Bottom margin",
-        "description": "The bottom margin for the overlay buttons and timestamp. Supports from YouTube 18.29.38 to YouTube 19.16.39.",
+        "description": "The bottom margin for the overlay buttons and timestamp.",
         "required": true,
         "type": "kotlin.String",
         "default": "2.5dip",
@@ -2052,7 +2018,7 @@
       {
         "key": "widerButtonsSpace",
         "title": "Wider between-buttons space",
-        "description": "Prevent adjacent button presses by increasing the horizontal spacing between buttons. Supports from YouTube 18.29.38 to YouTube 19.16.39.",
+        "description": "Prevent adjacent button presses by increasing the horizontal spacing between buttons.",
         "required": true,
         "type": "kotlin.Boolean",
         "default": false,
@@ -2118,8 +2084,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -2170,8 +2135,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -2225,8 +2189,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -2291,8 +2254,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -2335,8 +2297,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -2390,8 +2351,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -2417,8 +2377,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -2465,8 +2424,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": [
@@ -2572,8 +2530,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -2616,8 +2573,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": [
@@ -2671,8 +2627,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -2734,8 +2689,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -2760,8 +2714,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -2782,8 +2735,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": [
@@ -2845,8 +2797,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -2866,8 +2817,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": [
@@ -2994,8 +2944,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []
@@ -3015,8 +2964,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": [
@@ -3099,8 +3047,7 @@
         "18.48.39",
         "19.05.36",
         "19.16.39",
-        "19.44.39",
-        "19.47.53"
+        "19.44.39"
       ]
     },
     "options": []

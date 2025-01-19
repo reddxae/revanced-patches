@@ -329,11 +329,12 @@ Limitations:
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Recommended video</string>
     <string name="revanced_hide_low_views_video_title">Hide low views video</string>
-    <string name="revanced_hide_low_views_video_summary">Hide videos with less than 1,000 views from home feeds that have been uploaded from unsubscribed channels.</string>
+    <string name="revanced_hide_low_views_video_summary">"Hide videos with less than 1,000 views from home feeds that have been uploaded from unsubscribed channels.
+
+This filter may no longer work, use 'View count filter' instead."</string>
     <string name="revanced_hide_recommended_video_title">Hide recommended videos</string>
     <string name="revanced_hide_recommended_video_summary">"Hides the following recommended videos:
 
-• Videos with the Members only tag.
 • Videos with phrases such as 'People also watched' underneath."</string>
 
 

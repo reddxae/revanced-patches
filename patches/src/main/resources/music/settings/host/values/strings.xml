@@ -23,8 +23,8 @@
     <string name="revanced_hide_terms_container_summary">Hides the Terms of Service container.</string>
 
 
-    <!-- PreferenceScreen: Action Bar -->
-    <string name="revanced_preference_screen_action_bar_title">Action Bar</string>
+    <!-- PreferenceScreen: Action bar -->
+    <string name="revanced_preference_screen_action_bar_title">Action bar</string>
 
     <string name="revanced_hide_action_button_like_dislike_title">Hide Like and Dislike buttons</string>
     <string name="revanced_hide_action_button_like_dislike_summary">Hides the Like and Dislike buttons. It does not work in the old player layout.</string>
@@ -76,8 +76,8 @@ Limitations:
     <string name="revanced_hide_promotion_alert_banner_summary">Hides the promotion alert banner.</string>
 
 
-    <!-- PreferenceScreen: Flyout -->
-    <string name="revanced_preference_screen_flyout_title">Flyout Menu</string>
+    <!-- PreferenceScreen: Flyout menu -->
+    <string name="revanced_preference_screen_flyout_title">Flyout menu</string>
 
     <string name="revanced_enable_trim_silence_title">Add Trim silence switch</string>
     <string name="revanced_enable_trim_silence_summary">"Adds a Trim silence switch to the playback speed flyout menu.
@@ -196,8 +196,8 @@ This does not bypass the age restriction. It just accepts it automatically."</st
     <string name="revanced_spoof_app_version_target_entry_7_16_53">7.16.53 - Restore old action bar</string>
 
 
-    <!-- PreferenceScreen: Navigation Bar -->
-    <string name="revanced_preference_screen_navigation_title">Navigation Bar</string>
+    <!-- PreferenceScreen: Navigation bar -->
+    <string name="revanced_preference_screen_navigation_title">Navigation bar</string>
 
     <string name="revanced_enable_custom_navigation_bar_color_title">Enable custom navigation bar color</string>
     <string name="revanced_enable_custom_navigation_bar_color_summary">Sets the navigation bar color.</string>
@@ -506,3 +506,4 @@ Disabling battery optimizations for GmsCore will not negatively affect battery u
 Tap the continue button and allow optimization changes."</string>
     <string name="gms_core_dialog_continue_text">Continue</string>
 </resources>
+

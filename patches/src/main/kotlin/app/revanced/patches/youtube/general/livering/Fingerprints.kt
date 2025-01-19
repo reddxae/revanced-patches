@@ -1,4 +1,4 @@
-package app.revanced.patches.youtube.general.channel
+package app.revanced.patches.youtube.general.livering
 
 import app.revanced.patches.youtube.utils.resourceid.elementsImage
 import app.revanced.util.fingerprint.legacyFingerprint

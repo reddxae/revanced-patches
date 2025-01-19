@@ -11,7 +11,7 @@ internal enum class PatchList(
     ),
     CUSTOM_BRANDING_NAME_FOR_REDDIT(
         "Custom branding name for Reddit",
-        "Renames the Reddit app to the name specified in patch options."
+        "Changes the Reddit app name to the name specified in patch options."
     ),
     DISABLE_SCREENSHOT_POPUP(
         "Disable screenshot popup",

@@ -156,7 +156,7 @@ public class Settings extends BaseSettings {
     public static final BooleanSetting REMOVE_VIEWER_DISCRETION_DIALOG = new BooleanSetting("revanced_remove_viewer_discretion_dialog", FALSE);
 
     public static final EnumSetting<FormFactor> CHANGE_LAYOUT = new EnumSetting<>("revanced_change_layout", FormFactor.ORIGINAL, true);
-    public static final BooleanSetting OPEN_CHANNEL_OF_LIVE_AVATAR = new BooleanSetting("revanced_open_channel_of_live_avatar", FALSE, true);
+    public static final BooleanSetting CHANGE_LIVE_RING_CLICK_ACTION = new BooleanSetting("revanced_change_live_ring_click_action", FALSE, true);
     public static final BooleanSetting SPOOF_APP_VERSION = new BooleanSetting("revanced_spoof_app_version", false, true, "revanced_spoof_app_version_user_dialog_message");
     public static final StringSetting SPOOF_APP_VERSION_TARGET = new StringSetting("revanced_spoof_app_version_target", PatchStatus.SpoofAppVersionDefaultString(), true, parent(SPOOF_APP_VERSION));
 
@@ -236,7 +236,7 @@ public class Settings extends BaseSettings {
     public static final BooleanSetting CHANGE_YOUTUBE_HEADER = new BooleanSetting("revanced_change_youtube_header", TRUE, true);
     public static final BooleanSetting ENABLE_WIDE_SEARCH_BAR = new BooleanSetting("revanced_enable_wide_search_bar", FALSE, true);
     public static final BooleanSetting ENABLE_WIDE_SEARCH_BAR_WITH_HEADER = new BooleanSetting("revanced_enable_wide_search_bar_with_header", TRUE, true);
-    public static final BooleanSetting ENABLE_WIDE_SEARCH_BAR_IN_YOU_TAB = new BooleanSetting("revanced_enable_wide_search_bar_in_you_tab", FALSE, true);
+    public static final BooleanSetting ENABLE_WIDE_SEARCH_BAR_IN_YOU_TAB = new BooleanSetting("revanced_enable_wide_search_bar_in_you_tab", FALSE, true, "revanced_enable_wide_search_bar_in_you_tab_user_dialog_message");
     public static final BooleanSetting HIDE_TOOLBAR_CAST_BUTTON = new BooleanSetting("revanced_hide_toolbar_cast_button", TRUE, true);
     public static final BooleanSetting HIDE_TOOLBAR_CREATE_BUTTON = new BooleanSetting("revanced_hide_toolbar_create_button", FALSE, true);
     public static final BooleanSetting HIDE_TOOLBAR_NOTIFICATION_BUTTON = new BooleanSetting("revanced_hide_toolbar_notification_button", FALSE, true);

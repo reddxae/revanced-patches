@@ -437,9 +437,9 @@ This does not bypass the age restriction. It just accepts it automatically."</st
     <string name="revanced_change_layout_entry_3">Phone (Max 480 dp)</string>
     <string name="revanced_change_layout_entry_4">Tablet</string>
     <string name="revanced_change_layout_entry_5">Tablet (Min 600 dp)</string>
-    <string name="revanced_open_channel_of_live_avatar_title">Open channel of live avatar</string>
-    <string name="revanced_open_channel_of_live_avatar_summary_on">Channel opens when the live avatar is clicked.</string>
-    <string name="revanced_open_channel_of_live_avatar_summary_off">Live stream opens when the live avatar is clicked.</string>
+    <string name="revanced_change_live_ring_click_action_title">Change live ring click action</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">Channel opens when the live ring is clicked.</string>
+    <string name="revanced_change_live_ring_click_action_summary_off">Live stream opens when the live ring is clicked.</string>
     <string name="revanced_spoof_app_version_title">Spoof app version</string>
     <string name="revanced_spoof_app_version_summary_on">Version spoofed</string>
     <string name="revanced_spoof_app_version_summary_off">Version not spoofed</string>
@@ -694,9 +694,11 @@ If this setting do not take effect, try switching to Incognito mode."</string>
 
 To access settings, please use the following path:
 You tab → View channel → Menu → Settings"</string>
-    <string name="revanced_enable_wide_search_bar_in_you_tab_summary_off">"Wide search bar is disabled in the You tab.
-        
-Enabling this setting will disable the Settings button in the You tab."</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_summary_off">Wide search bar is disabled in the You tab.</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_user_dialog_message">"Enabling this setting will disable the Settings button in the You tab.
+
+In this case, you may need to use the following path to access the settings:
+You tab → View channel → Menu → Settings"</string>
     <string name="revanced_hide_toolbar_cast_button_title">Hide Cast button</string>
     <string name="revanced_hide_toolbar_cast_button_summary_on">Cast button is hidden.</string>
     <string name="revanced_hide_toolbar_cast_button_summary_off">Cast button is shown.</string>
@@ -1653,14 +1655,14 @@ A different codec will be applied after about 20 seconds of buffering."</string>
     <string name="revanced_ryd_enable_summary_on">Dislikes are shown.</string>
     <string name="revanced_ryd_enable_summary_off">Dislikes are not shown.</string>
     <string name="revanced_ryd_shorts_title">Show dislikes on Shorts</string>
-    <string name="revanced_ryd_shorts_summary_on">Dislikes shown on Shorts.</string>
-    <string name="revanced_ryd_shorts_summary_on_disclaimer">"Dislikes shown on Shorts.
+    <string name="revanced_ryd_shorts_summary_on">Dislikes are shown on Shorts.</string>
+    <string name="revanced_ryd_shorts_summary_on_disclaimer">"Dislikes are shown on Shorts.
 
 Limitation: Dislikes may not appear if the user is not logged in or in incognito mode."</string>
-    <string name="revanced_ryd_shorts_summary_off">Dislikes hidden on Shorts.</string>
+    <string name="revanced_ryd_shorts_summary_off">Dislikes are hidden on Shorts.</string>
     <string name="revanced_ryd_dislike_percentage_title">Dislikes as percentage</string>
-    <string name="revanced_ryd_dislike_percentage_summary_on">Dislikes shown as a percentage.</string>
-    <string name="revanced_ryd_dislike_percentage_summary_off">Dislikes shown as a number.</string>
+    <string name="revanced_ryd_dislike_percentage_summary_on">Dislikes are shown as a percentage.</string>
+    <string name="revanced_ryd_dislike_percentage_summary_off">Dislikes are shown as a number.</string>
     <string name="revanced_ryd_compact_layout_title">Compact Like button</string>
     <string name="revanced_ryd_compact_layout_summary_on">Like button styled for minimum width.</string>
     <string name="revanced_ryd_compact_layout_summary_off">Like button styled for best appearance.</string>
@@ -1923,7 +1925,7 @@ Click to see how to issue an API key."</string>
     <string name="revanced_enable_debug_buffer_logging_title">Enable debug buffer logging</string>
     <string name="revanced_enable_debug_buffer_logging_summary_on">Debug logs include the buffer.</string>
     <string name="revanced_enable_debug_buffer_logging_summary_off">Debug logs do not include the buffer.</string>
-    <string name="revanced_open_links_externally_title">Open links in browser</string>
+    <string name="revanced_open_links_externally_title">Open links externally</string>
     <string name="revanced_open_links_externally_summary_on">Opens links in the external browser.</string>
     <string name="revanced_open_links_externally_summary_off">Opens links in the in-app browser.</string>
     <string name="revanced_sanitize_sharing_links_title">Sanitize sharing links</string>

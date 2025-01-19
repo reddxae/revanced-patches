@@ -1,4 +1,4 @@
-package app.revanced.patches.youtube.general.channel
+package app.revanced.patches.youtube.general.livering
 
 import app.revanced.patcher.extensions.InstructionExtensions.addInstruction
 import app.revanced.patcher.extensions.InstructionExtensions.addInstructions
@@ -7,7 +7,7 @@ import app.revanced.patcher.extensions.InstructionExtensions.getInstruction
 import app.revanced.patcher.patch.bytecodePatch
 import app.revanced.patches.youtube.utils.compatibility.Constants.COMPATIBLE_PACKAGE
 import app.revanced.patches.youtube.utils.extension.Constants.GENERAL_PATH
-import app.revanced.patches.youtube.utils.patch.PatchList.OPEN_CHANNEL_OF_LIVE_AVATAR
+import app.revanced.patches.youtube.utils.patch.PatchList.CHANGE_LIVE_RING_CLICK_ACTION
 import app.revanced.patches.youtube.utils.resourceid.sharedResourceIdPatch
 import app.revanced.patches.youtube.utils.settings.ResourceUtils.addPreference
 import app.revanced.patches.youtube.utils.settings.settingsPatch
@@ -23,9 +23,9 @@ private const val EXTENSION_CLASS_DESCRIPTOR =
     "$GENERAL_PATH/OpenChannelOfLiveAvatarPatch;"
 
 @Suppress("unused")
-val layoutSwitchPatch = bytecodePatch(
-    OPEN_CHANNEL_OF_LIVE_AVATAR.title,
-    OPEN_CHANNEL_OF_LIVE_AVATAR.summary,
+val openChannelOfLiveAvatarPatch = bytecodePatch(
+    CHANGE_LIVE_RING_CLICK_ACTION.title,
+    CHANGE_LIVE_RING_CLICK_ACTION.summary,
 ) {
     compatibleWith(COMPATIBLE_PACKAGE)
 
@@ -79,9 +79,9 @@ val layoutSwitchPatch = bytecodePatch(
             arrayOf(
                 "PREFERENCE_SCREEN: GENERAL",
                 "PREFERENCE_CATEGORY: GENERAL_EXPERIMENTAL_FLAGS",
-                "SETTINGS: OPEN_CHANNEL_OF_LIVE_AVATAR"
+                "SETTINGS: CHANGE_LIVE_RING_CLICK_ACTION"
             ),
-            OPEN_CHANNEL_OF_LIVE_AVATAR
+            CHANGE_LIVE_RING_CLICK_ACTION
         )
 
         // endregion

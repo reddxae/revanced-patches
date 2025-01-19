@@ -301,11 +301,11 @@
         <!-- PREFERENCE_CATEGORY: GENERAL_EXPERIMENTAL_FLAGS
         <PreferenceCategory android:title="@string/revanced_preference_category_experimental_flag" android:layout="@layout/revanced_settings_preferences_category"/>PREFERENCE_CATEGORY: GENERAL_EXPERIMENTAL_FLAGS -->
 
-        <!-- SETTINGS: LAYOUT_SWITCH
-        <ListPreference android:entries="@array/revanced_change_layout_entries" android:title="@string/revanced_change_layout_title" android:key="revanced_change_layout" android:entryValues="@array/revanced_change_layout_entry_values" />SETTINGS: LAYOUT_SWITCH -->
+        <!-- SETTINGS: CHANGE_LAYOUT
+        <ListPreference android:entries="@array/revanced_change_layout_entries" android:title="@string/revanced_change_layout_title" android:key="revanced_change_layout" android:entryValues="@array/revanced_change_layout_entry_values" />SETTINGS: CHANGE_LAYOUT -->
 
-        <!-- SETTINGS: OPEN_CHANNEL_OF_LIVE_AVATAR
-        <SwitchPreference android:title="@string/revanced_open_channel_of_live_avatar_title" android:key="revanced_open_channel_of_live_avatar" android:summaryOn="@string/revanced_open_channel_of_live_avatar_summary_on" android:summaryOff="@string/revanced_open_channel_of_live_avatar_summary_off" />SETTINGS: OPEN_CHANNEL_OF_LIVE_AVATAR -->
+        <!-- SETTINGS: CHANGE_LIVE_RING_CLICK_ACTION
+        <SwitchPreference android:title="@string/revanced_change_live_ring_click_action_title" android:key="revanced_change_live_ring_click_action" android:summaryOn="@string/revanced_change_live_ring_click_action_summary_on" android:summaryOff="@string/revanced_change_live_ring_click_action_summary_off" />SETTINGS: CHANGE_LIVE_RING_CLICK_ACTION -->
 
         <!-- SETTINGS: SPOOF_APP_VERSION
         <SwitchPreference android:title="@string/revanced_spoof_app_version_title" android:key="revanced_spoof_app_version" android:summaryOn="@string/revanced_spoof_app_version_summary_on" android:summaryOff="@string/revanced_spoof_app_version_summary_off" />
@@ -879,6 +879,8 @@
             </PreferenceCategory>
 
             <PreferenceCategory android:title="@string/revanced_preference_screen_general_title" android:layout="@layout/revanced_settings_preferences_category">
+                <Preference android:title="Change layout" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
+                <Preference android:title="Change live ring click action" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="Change start page" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="Disable forced auto audio tracks" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="Disable forced auto captions" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
@@ -886,10 +888,8 @@
                 <Preference android:title="Enable gradient loading screen" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="Hide layout components" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="Hook download actions" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-                <Preference android:title="Layout switch" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="Miniplayer" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="Navigation bar components" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-                <Preference android:title="Open channel of live avatar" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="Remove viewer discretion dialog" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="Spoof app version" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="Toolbar components" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>

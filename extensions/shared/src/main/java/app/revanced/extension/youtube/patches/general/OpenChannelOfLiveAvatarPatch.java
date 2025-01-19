@@ -7,8 +7,8 @@ import app.revanced.extension.youtube.utils.VideoUtils;
 
 @SuppressWarnings("unused")
 public final class OpenChannelOfLiveAvatarPatch {
-    private static final boolean OPEN_CHANNEL_OF_LIVE_AVATAR =
-            Settings.OPEN_CHANNEL_OF_LIVE_AVATAR.get();
+    private static final boolean CHANGE_LIVE_RING_CLICK_ACTION =
+            Settings.CHANGE_LIVE_RING_CLICK_ACTION.get();
 
     private static volatile String videoId = "";
     private static volatile boolean liveChannelAvatarClicked = false;
@@ -19,7 +19,7 @@ public final class OpenChannelOfLiveAvatarPatch {
 
     public static boolean openChannelOfLiveAvatar() {
         try {
-            if (!OPEN_CHANNEL_OF_LIVE_AVATAR) {
+            if (!CHANGE_LIVE_RING_CLICK_ACTION) {
                 return false;
             }
             if (!liveChannelAvatarClicked) {
@@ -42,7 +42,7 @@ public final class OpenChannelOfLiveAvatarPatch {
 
     public static void openChannelOfLiveAvatar(String newlyLoadedVideoId) {
         try {
-            if (!OPEN_CHANNEL_OF_LIVE_AVATAR) {
+            if (!CHANGE_LIVE_RING_CLICK_ACTION) {
                 return;
             }
             if (newlyLoadedVideoId.isEmpty()) {

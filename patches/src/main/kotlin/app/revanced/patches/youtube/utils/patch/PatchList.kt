@@ -21,6 +21,14 @@ internal enum class PatchList(
         "Bypass URL redirects",
         "Adds an option to bypass URL redirects and open the original URL directly."
     ),
+    CHANGE_LAYOUT(
+        "Change layout",
+        "Adds an option to change the dp in order to use a tablet or phone layout."
+    ),
+    CHANGE_LIVE_RING_CLICK_ACTION(
+        "Change live ring click action",
+        "Adds an option to open the channel instead of the live stream when clicking on the live ring."
+    ),
     CHANGE_PLAYER_FLYOUT_MENU_TOGGLES(
         "Change player flyout menu toggles",
         "Adds an option to use text toggles instead of switch toggles within the additional settings menu."
@@ -43,7 +51,7 @@ internal enum class PatchList(
     ),
     CUSTOM_BRANDING_NAME_FOR_YOUTUBE(
         "Custom branding name for YouTube",
-        "Renames the YouTube app to the name specified in patch options."
+        "Changes the YouTube app name to the name specified in patch options."
     ),
     CUSTOM_DOUBLE_TAP_LENGTH(
         "Custom double tap length",
@@ -83,7 +91,7 @@ internal enum class PatchList(
     ),
     ENABLE_OPUS_CODEC(
         "Enable OPUS codec",
-        "Adds an options to enable the OPUS audio codec if the player response includes it."
+        "Adds an option to enable the OPUS audio codec if the player response includes it."
     ),
     ENABLE_DEBUG_LOGGING(
         "Enable debug logging",
@@ -153,10 +161,6 @@ internal enum class PatchList(
         "Hook download actions",
         "Adds support to download videos with an external downloader app using the in-app download button."
     ),
-    LAYOUT_SWITCH(
-        "Layout switch",
-        "Adds an option to spoof the dpi in order to use a tablet or phone layout."
-    ),
     MATERIALYOU(
         "MaterialYou",
         "Applies the MaterialYou theme for Android 12+ devices."
@@ -169,13 +173,9 @@ internal enum class PatchList(
         "Navigation bar components",
         "Adds options to hide or change components related to the navigation bar."
     ),
-    OPEN_CHANNEL_OF_LIVE_AVATAR(
-        "Open channel of live avatar",
-        "Adds an option to open channel instead of video when clicking on live avatar."
-    ),
     OPEN_LINKS_EXTERNALLY(
         "Open links externally",
-        "Adds an option to always open links in your browser instead of in the in-app-browser."
+        "Adds an option to always open links in your browser instead of the in-app browser."
     ),
     OVERLAY_BUTTONS(
         "Overlay buttons",

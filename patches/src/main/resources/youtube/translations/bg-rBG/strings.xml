@@ -237,7 +237,7 @@
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Препоръчани видеоклипове</string>
     <string name="revanced_hide_low_views_video_title">Скриване на видеоклипове с малко гледания</string>
-    <string name="revanced_hide_low_views_video_summary">Скрийте видеоклипове с по-малко от 1000 гледания от емисията и от канали, за които сте се абонирали.</string>
+    <string name="revanced_hide_low_views_video_summary">"Скрийте видеоклипове с по-малко от 1000 гледания от емисията и от канали, за които сте се абонирали."</string>
     <string name="revanced_hide_recommended_video_title">Скриване на Препоръчани видеоклипове</string>
     <string name="revanced_hide_recommended_video_summary">"Скрива следните препоръчани видеоклипове:
 
@@ -380,7 +380,7 @@
     <string name="revanced_override_video_download_button_summary_off">Бутонът за изтегляне на YouTube отваря собствената програма за изтегляне на приложението.</string>
     <string name="revanced_external_downloader_package_name_playlist_title">Име на приложението за изтегляне</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">Име на пакета на приложението за изтегляне като NewPipe или YTDLnis.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental flags -->
     <string name="revanced_override_youtube_music_button_title">Замяна на бутона YouTube Music</string>
     <string name="revanced_override_youtube_music_button_summary_on">Бутонът YouTube Music отваря RVX Music.</string>
     <string name="revanced_override_youtube_music_button_summary_off">Бутонът YouTube Music отваря вграденото приложение.</string>
@@ -440,7 +440,7 @@
     <string name="revanced_miniplayer_opacity_title">Прозрачност на менютата</string>
     <string name="revanced_miniplayer_opacity_summary">Стойност на прозрачност между 0-100, където 0 е прозрачно.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">Прозрачността на менюто на плейъра трябва да бъде между 0-100. Нулирайте стойностите по подразбирне.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation Bar -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_bar_title">Лента за навигация</string>
     <string name="revanced_preference_screen_navigation_bar_summary">Скриване или показване на елементи от лентата за навигация.</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">Бутони за навигация в тесен стил</string>
@@ -556,9 +556,6 @@
     <string name="revanced_enable_wide_search_bar_with_header_summary_on">Логото на YouTube се появява до широката лента за търсене.</string>
     <string name="revanced_enable_wide_search_bar_with_header_summary_off">Широка лента за търсене замества логото на YouTube.</string>
     <string name="revanced_enable_wide_search_bar_in_you_tab_title">Активирайте широката лента за търсене в раздела \"Вие\"</string>
-    <string name="revanced_enable_wide_search_bar_in_you_tab_summary">"Тази опция ще деактивира бутона \"Настройки\" в раздела \"Вие\" 
-Използвайте следната последователност: 
-раздел \"Вие\" -> Страница на канала -> Меню -> Настройки"</string>
     <string name="revanced_hide_toolbar_cast_button_title">Скриване на бутона за предаване на Тв</string>
     <string name="revanced_hide_toolbar_cast_button_summary_on">Бутонът за предаване е скрит.</string>
     <string name="revanced_hide_toolbar_cast_button_summary_off">Бутонът за предаване се показва.</string>
@@ -700,6 +697,8 @@
     <string name="revanced_hide_thanks_button_title">Скриване на бурона за благодарност</string>
     <string name="revanced_hide_thanks_button_summary_on">Бутона за благодарност е скрит.</string>
     <string name="revanced_hide_thanks_button_summary_off">Бутона за благодарност се показва.</string>
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Подсветка около видеото</string>
     <string name="revanced_preference_screen_ambient_mode_summary">Изключете подсветка около видеото или прескочете ограничението в режим за пестене на батерията.</string>
@@ -894,7 +893,7 @@
     <string name="revanced_quick_actions_top_margin_title">Височина на лентата за напредък</string>
     <string name="revanced_quick_actions_top_margin_summary">Промяна на височината на лентата за прогрес, стойности между 0-32.</string>
     <string name="revanced_quick_actions_top_margin_invalid_toast">Височината трябва да е между 0-32, нулиране.</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Fullscreen, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Fullscreen, PreferenceCategory: Experimental flags -->
     <string name="revanced_disable_landscape_mode_title">Пейзажен режим при отиване на цял екран</string>
     <string name="revanced_disable_landscape_mode_summary_on">Пейзажният режим в режим на цял екран е деактивиран.</string>
     <string name="revanced_disable_landscape_mode_summary_off">Пейзажният режим в режим на цял екран е активиран.</string>
@@ -1086,7 +1085,7 @@
     <string name="revanced_hide_transcript_section_title">Скриване на раздела за транскрипция</string>
     <string name="revanced_hide_transcript_section_summary_on">Разделът за транскрипция е скрит.</string>
     <string name="revanced_hide_transcript_section_summary_off">Разделът за транскрипция е показан.</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Video description, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Video description, PreferenceCategory: Experimental flags -->
     <string name="revanced_disable_video_description_interaction_title">Деактивирайте взаимодействието с описание на видеоклипа</string>
     <string name="revanced_disable_video_description_interaction_summary">"Деактивирайте следните взаимодействия, когато се отвори описанието на видеоклипа:
 
@@ -1110,7 +1109,7 @@
     <string name="revanced_hide_shorts_floating_button_title">Скриване на изскачащ бутон</string>
     <string name="revanced_hide_shorts_floating_button_summary_on">"Изскачащи бутони като „Използване на този звук“ са скрити в раздела Shorts."</string>
     <string name="revanced_hide_shorts_floating_button_summary_off">"Изскачащи бутони като „Използване на този звук“ Се показват в раздела Shorts."</string>
-    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts shelf -->
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts shelves -->
     <string name="revanced_preference_category_shorts_shelf">Shorts рафтове</string>
     <string name="revanced_hide_shorts_shelf_title">Скрийте рафтовете Shorts</string>
     <string name="revanced_hide_shorts_shelf_summary">"Скрива рафтовете за кратки видеа
@@ -1134,7 +1133,7 @@
     <string name="revanced_hide_shorts_shelf_history_title">Скриване в историята на гледане</string>
     <string name="revanced_hide_shorts_shelf_history_summary_on">Скрити в историята на гледане.</string>
     <string name="revanced_hide_shorts_shelf_history_summary_off">Показват се в историята на гледане.</string>
-    <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental flags -->
     <string name="revanced_change_shorts_background_repeat_state_title">Промяна на фона на Shorts приповторение</string>
     <string name="revanced_change_shorts_repeat_state_title">Промяна на състоянието - повторение на Shorts</string>
     <string name="revanced_change_shorts_repeat_state_entry_auto_play">Автоматично изпълнение</string>
@@ -1286,10 +1285,7 @@
     <string name="revanced_shorts_custom_actions_repeat_state_summary_on">Показва се режим на повторение.</string>
     <string name="revanced_shorts_custom_actions_repeat_state_summary_off">Режим на повторение е скрит.</string>
     <string name="revanced_shorts_custom_actions_about_title">Относно действията на потребителя</string>
-    <string name="revanced_shorts_custom_actions_about_about_summary">"Експериментална функция!
-Без гаранция за работа!
-Повечето грешки не могат да бъдат коригирани поради ограничения от страна на клиента, така че го използвайте само за тестване."</string>
-    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental flags -->
     <string name="revanced_enable_shorts_time_stamp_title">Активиране на дата и час</string>
     <string name="revanced_enable_shorts_time_stamp_summary_on">"Времевите показатели са активирани.
 Ограничения:

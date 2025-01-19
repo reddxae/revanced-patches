@@ -18,7 +18,7 @@
     <string name="revanced_hide_handle_summary">Скрывает электронную почту / @ник в меню смены аккаунтов.</string>
     <string name="revanced_hide_terms_container_title">Скрыть \"Конфиденциальность • Условия\"</string>
     <string name="revanced_hide_terms_container_summary">Скрывает пункт \"Конфиденциальность • Условия\".</string>
-    <!-- PreferenceScreen: Action Bar -->
+    <!-- PreferenceScreen: Action bar -->
     <string name="revanced_preference_screen_action_bar_title">Панель действий</string>
     <string name="revanced_hide_action_button_like_dislike_title">Скрыть кнопки \"Нравится\" и \"Не нравится\"</string>
     <string name="revanced_hide_action_button_like_dislike_summary">Скрывает кнопки \"Нравится\" и \"Не нравится\". Не работает в старом интерфейсе проигрывателя.</string>
@@ -62,7 +62,7 @@
     <string name="revanced_hide_premium_renewal_summary">Скрывает баннер продления Premium.</string>
     <string name="revanced_hide_promotion_alert_banner_title">Скрыть баннер с уведомлением о промо акции</string>
     <string name="revanced_hide_promotion_alert_banner_summary">Скрывает баннер с уведомлением о промо акции.</string>
-    <!-- PreferenceScreen: Flyout -->
+    <!-- PreferenceScreen: Flyout menu -->
     <string name="revanced_preference_screen_flyout_title">Выдвижное меню</string>
     <string name="revanced_enable_trim_silence_title">Включить обрезание тишины</string>
     <string name="revanced_enable_trim_silence_summary">"Включает переключатель \"Обрезать тишину\" во всплывающем меню скорости воспроизведения.
@@ -176,8 +176,13 @@
     <string name="revanced_spoof_app_version_target_entry_4_27_53">4.27.53 - Отключить режим радиостанции в канадских регионах</string>
     <string name="revanced_spoof_app_version_target_entry_6_11_52">6.11.52 - Отключить динамические текста</string>
     <string name="revanced_spoof_app_version_target_entry_7_16_53">7.16.53 - Восстановить старую панель действий</string>
-    <!-- PreferenceScreen: Navigation Bar -->
+    <!-- PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_title">Панель навигации</string>
+    <string name="revanced_enable_custom_navigation_bar_color_title">Включить пользовательский цвет панели навигации</string>
+    <string name="revanced_enable_custom_navigation_bar_color_summary">Устанавливает цвет для панели навигации.</string>
+    <string name="revanced_custom_navigation_bar_color_value_title">Значение пользовательского цвета панели навигации</string>
+    <string name="revanced_custom_navigation_bar_color_value_summary">Введите hex код цвета панели навигации.</string>
+    <string name="revanced_custom_navigation_bar_color_value_invalid_invalid_toast">Неверное значение цвета панели навигации.</string>
     <string name="revanced_hide_navigation_home_button_title">Скрыть кнопку \"Главная\"</string>
     <string name="revanced_hide_navigation_home_button_summary">Скрывает кнопку \"Главная\".</string>
     <string name="revanced_hide_navigation_samples_button_title">Скрыть кнопку \"Семплы\"</string>

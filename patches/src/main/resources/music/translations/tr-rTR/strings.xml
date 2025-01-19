@@ -18,7 +18,7 @@
     <string name="revanced_hide_handle_summary">Hesap menüsündeki etiketi gizler.</string>
     <string name="revanced_hide_terms_container_title">Terimler kapsayıcısını gizle</string>
     <string name="revanced_hide_terms_container_summary">Hizmet Şartları kapsayıcısını gizler.</string>
-    <!-- PreferenceScreen: Action Bar -->
+    <!-- PreferenceScreen: Action bar -->
     <string name="revanced_preference_screen_action_bar_title">Görev Çubuğu</string>
     <string name="revanced_hide_action_button_like_dislike_title">\"Beğen\" ve \"Beğenme\" butonlarını gizle</string>
     <string name="revanced_hide_action_button_like_dislike_summary">Beğenme ve beğenmeme düğmelerini gizler. Eski oynatıcı arayüzünde çalışmayabilir.</string>
@@ -65,7 +65,7 @@ Sınırlamalar:
     <string name="revanced_hide_premium_renewal_summary">Premium yenileme başlığını gizler.</string>
     <string name="revanced_hide_promotion_alert_banner_title">Promosyon uyarı başlığını gizle</string>
     <string name="revanced_hide_promotion_alert_banner_summary">Promosyon uyarı başlığını gizler.</string>
-    <!-- PreferenceScreen: Flyout -->
+    <!-- PreferenceScreen: Flyout menu -->
     <string name="revanced_preference_screen_flyout_title">Açılır menü</string>
     <string name="revanced_enable_trim_silence_title">Kırpma sessizliğini etkinleştir</string>
     <string name="revanced_enable_trim_silence_summary">"Oynatma hızı açılır menüsüne 'Sessizliği kırp' geçişini etkinleştirir.
@@ -177,7 +177,7 @@ Bilinen sorunlar:
     <string name="revanced_spoof_app_version_target_entry_4_27_53">4.27.53 - Kanada bölgelerinde radyo modunu devre dışı bırakın</string>
     <string name="revanced_spoof_app_version_target_entry_6_11_52">6.11.52 - Gerçek zamanlı şarkı sözlerini devre dışı bırak</string>
     <string name="revanced_spoof_app_version_target_entry_7_16_53">7.16.53 - Eski eylem çubuğunu geri yükle</string>
-    <!-- PreferenceScreen: Navigation Bar -->
+    <!-- PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_title">Gezinti çubuğu</string>
     <string name="revanced_hide_navigation_home_button_title">Ana sayfa düğmesini gizle</string>
     <string name="revanced_hide_navigation_home_button_summary">Ev düğmesini gizler.</string>

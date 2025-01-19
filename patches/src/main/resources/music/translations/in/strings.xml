@@ -17,7 +17,7 @@
     <string name="revanced_hide_handle_summary">Menyembunyikan handle di menu akun.</string>
     <string name="revanced_hide_terms_container_title">Sembunyikan kontainer ketentuan</string>
     <string name="revanced_hide_terms_container_summary">Menyembunyikan kontainer ketentuan layanan.</string>
-    <!-- PreferenceScreen: Action Bar -->
+    <!-- PreferenceScreen: Action bar -->
     <string name="revanced_preference_screen_action_bar_title">Bilah Tindakan</string>
     <string name="revanced_hide_action_button_like_dislike_title">Sembunyikan tombol Like dan Dislike</string>
     <string name="revanced_hide_action_button_like_dislike_summary">Menyembunyikan tombol Like dan Dislike. Itu tidak akan bekerja di layout player lama.</string>
@@ -59,7 +59,7 @@ Download %2$s dari website."</string>
     <string name="revanced_hide_premium_promotion_summary">Menyembunyikan popup promosi premium.</string>
     <string name="revanced_hide_premium_renewal_title">Sembunyikan banner pembaruan premium</string>
     <string name="revanced_hide_premium_renewal_summary">Menyembunyikan banner pembaruan premium.</string>
-    <!-- PreferenceScreen: Flyout -->
+    <!-- PreferenceScreen: Flyout menu -->
     <string name="revanced_preference_screen_flyout_title">Menu flyout</string>
     <string name="revanced_enable_trim_silence_title">Tambah switch Trim silence</string>
     <string name="revanced_enable_trim_silence_summary">"Menambahkan tombol Trim silence ke menu flyout playback speed.
@@ -170,7 +170,7 @@ This does not bypass the age restriction. It just accepts it automatically."</st
     <string name="revanced_spoof_app_version_target_summary">Pilih target pemalsuan versi aplikasi.</string>
     <string name="revanced_spoof_app_version_target_entry_4_27_53">4.27.53 - Nonaktifkan mode radio di wilayah Kanada</string>
     <string name="revanced_spoof_app_version_target_entry_6_11_52">6.11.52 - Matikan Lirik real-time</string>
-    <!-- PreferenceScreen: Navigation Bar -->
+    <!-- PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_title">Bilah Navigasi</string>
     <string name="revanced_hide_navigation_home_button_title">Hide Home button</string>
     <string name="revanced_hide_navigation_home_button_summary">Hides the Home button.</string>

@@ -18,7 +18,7 @@
     <string name="revanced_hide_handle_summary">계정 메뉴에서 핸들(@사용자 아이디)을 숨깁니다.</string>
     <string name="revanced_hide_terms_container_title">서비스 약관 컨테이너 제거</string>
     <string name="revanced_hide_terms_container_summary">서비스 약관 컨테이너를 숨깁니다.</string>
-    <!-- PreferenceScreen: Action Bar -->
+    <!-- PreferenceScreen: Action bar -->
     <string name="revanced_preference_screen_action_bar_title">액션바</string>
     <string name="revanced_hide_action_button_like_dislike_title">좋아요 &amp; 싫어요 버튼 제거</string>
     <string name="revanced_hide_action_button_like_dislike_summary">좋아요 &amp; 싫어요 버튼을 숨깁니다. \n이전 플레이어 레이아웃에서는 작동하지 않습니다.</string>
@@ -65,7 +65,7 @@
     <string name="revanced_hide_premium_renewal_summary">YT Premium 갱신 배너를 숨깁니다.</string>
     <string name="revanced_hide_promotion_alert_banner_title">프로모션 알림 배너 제거</string>
     <string name="revanced_hide_promotion_alert_banner_summary">프로모션 알림 배너를 숨깁니다.</string>
-    <!-- PreferenceScreen: Flyout -->
+    <!-- PreferenceScreen: Flyout menu -->
     <string name="revanced_preference_screen_flyout_title">메뉴 구성요소</string>
     <string name="revanced_enable_trim_silence_title">무음 건너뛰기 스위치 추가</string>
     <string name="revanced_enable_trim_silence_summary">"재생 속도 메뉴 구성요소에 '무음 건너뛰기' 스위치를 추가합니다.
@@ -180,7 +180,7 @@
     <string name="revanced_spoof_app_version_target_entry_4_27_53">4.27.53 - 캐나다 지역에서 뮤직 스테이션 모드를 비활성화합니다.</string>
     <string name="revanced_spoof_app_version_target_entry_6_11_52">6.11.52 - 실시간 가사를 비활성화합니다.</string>
     <string name="revanced_spoof_app_version_target_entry_7_16_53">7.16.53 - 이전 액션바로 복원합니다.</string>
-    <!-- PreferenceScreen: Navigation Bar -->
+    <!-- PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_title">하단바</string>
     <string name="revanced_enable_custom_navigation_bar_color_title">사용자 정의 하단바 색상 활성화</string>
     <string name="revanced_enable_custom_navigation_bar_color_summary">사용자 정의 하단바 색상을 활성화합니다.</string>

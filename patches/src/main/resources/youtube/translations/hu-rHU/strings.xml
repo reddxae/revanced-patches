@@ -306,7 +306,7 @@ Korlátozások:
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Ajánlott videó</string>
     <string name="revanced_hide_low_views_video_title">Alacsony nézettségű videók elrejtése</string>
-    <string name="revanced_hide_low_views_video_summary">Az 1000-nél kevesebb megtekintést elért videók elrejtése a Kezdőlapon, amiket a leiratkozott csatornákról töltöttek fel.</string>
+    <string name="revanced_hide_low_views_video_summary">"Az 1000-nél kevesebb megtekintést elért videók elrejtése a Kezdőlapon, amiket a leiratkozott csatornákról töltöttek fel."</string>
     <string name="revanced_hide_recommended_video_title">Ajánlott videók elrejtése</string>
     <string name="revanced_hide_recommended_video_summary">"Elrejti a következő ajánlott videókat:
 
@@ -456,7 +456,7 @@ Előfordulhat, hogy egyes komponensek nincsenek elrejtve."</string>
     <string name="revanced_override_video_download_button_summary_off">Az eredeti letöltés gomb megnyitja az eredeti, beépített letöltőt.</string>
     <string name="revanced_external_downloader_package_name_playlist_title">Lejátszási lista letöltő csomag neve</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">A telepített külső letöltő alkalmazás csomagneve, például YTDLnis.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental flags -->
     <string name="revanced_override_youtube_music_button_title">YouTube Music gomb felülbírálása</string>
     <string name="revanced_override_youtube_music_button_summary_on">A YouTube Music gomb az RVX Music-ot indítja.</string>
     <string name="revanced_override_youtube_music_button_summary_off">A YouTube Music gomb az erdetit app-ot nyitja meg.</string>
@@ -517,7 +517,7 @@ Csúsztasson a kibontáshoz vagy bezáráshoz."</string>
     <string name="revanced_miniplayer_opacity_title">Átfedés átlátszósága</string>
     <string name="revanced_miniplayer_opacity_summary">Átlátszósági érték 0 és 100 között, ahol a 0 az átlátszó.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">A minilejátszó átlátszóságának 0 és 100 között kell lennie. Visszaállítás alapértelmezettre.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation Bar -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_bar_title">Navigációs sáv</string>
     <string name="revanced_preference_screen_navigation_bar_summary">Navigációs sáv komponenseinek láthatósága.</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">Keskeny navigációs gombok engedélyezése</string>
@@ -636,10 +636,6 @@ Ha ez a beállítás nem működik, váltson inkognító módra."</string>
     <string name="revanced_enable_wide_search_bar_with_header_summary_on">A széles keresősáv nem takarja el a YouTube fejlécét.</string>
     <string name="revanced_enable_wide_search_bar_with_header_summary_off">A széles keresősáv elakarja a YouTube fejlécét.</string>
     <string name="revanced_enable_wide_search_bar_in_you_tab_title">Széles kereső sáv engedélyezése a Te lapon</string>
-    <string name="revanced_enable_wide_search_bar_in_you_tab_summary">"Ha bekapcsolja ezt a beállítást, letiltja a beállítások gombot a Te lapon.
-
-Ebben az esetben kérjük használja a következő utat a beállításokhoz való hozzáféréshez:
-Te lap → Csatorna megtekintése → Menü → Beállítások"</string>
     <string name="revanced_hide_toolbar_cast_button_title">Kivetítés gomb elrejtése</string>
     <string name="revanced_hide_toolbar_cast_button_summary_on">A kivetítés gomb el van rejtve.</string>
     <string name="revanced_hide_toolbar_cast_button_summary_off">A kivetítés gomb látható.</string>
@@ -780,6 +776,8 @@ Beállítások → Automatikus lejátszás → Következő videó automatikus le
     <string name="revanced_hide_thanks_button_title">Köszönet gomb elrejtése</string>
     <string name="revanced_hide_thanks_button_summary_on">A köszönet gomb el van rejtve.</string>
     <string name="revanced_hide_thanks_button_summary_off">A köszönet gomb látható.</string>
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Mozifilmes világítás mód</string>
     <string name="revanced_preference_screen_ambient_mode_summary">Tiltsa le a mozifilmes világítás módot, vagy kerülje meg a korlátozásait.</string>
@@ -972,7 +970,7 @@ Korlátozás: A videó címe eltűnik, ha rákattint."</string>
     <string name="revanced_quick_actions_top_margin_title">Gyorsműveletek felső margó</string>
     <string name="revanced_quick_actions_top_margin_summary">Állítsa be a keresősáv és a gyorsművelet rész közötti távolságot 0-32 között.</string>
     <string name="revanced_quick_actions_top_margin_invalid_toast">A gyors műveletek felső margójának 0 és 32 között kell lennie.</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Fullscreen, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Fullscreen, PreferenceCategory: Experimental flags -->
     <string name="revanced_disable_landscape_mode_title">Fekvő mód letiltása</string>
     <string name="revanced_disable_landscape_mode_summary_on">A videó tájolása álló mód teljes képernyő esetén.</string>
     <string name="revanced_disable_landscape_mode_summary_off">A videó tájolása követi a készülék beállításait teljes képernyő esetén.</string>
@@ -1169,7 +1167,7 @@ Ez a funkció nagyon gyors internetkapcsolat mellett működik a legjobban."</st
     <string name="revanced_hide_transcript_section_title">Átirat rész elrejtése</string>
     <string name="revanced_hide_transcript_section_summary_on">Az átirat rész el van rejtve.</string>
     <string name="revanced_hide_transcript_section_summary_off">Az átirat rész látható.</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Video description, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Video description, PreferenceCategory: Experimental flags -->
     <string name="revanced_disable_video_description_interaction_title">Videoleírás interakció letiltása</string>
     <string name="revanced_disable_video_description_interaction_summary">"Letiltja a következő interakciókat, ha a videoleírás ki lett bővítve:
 
@@ -1193,7 +1191,7 @@ A videoleírások kibővítése nem működik, ha a beírt név nem egyezik meg 
     <string name="revanced_hide_shorts_floating_button_title">Lebegő gomb elrejtése</string>
     <string name="revanced_hide_shorts_floating_button_summary_on">"Az olyan lebegő gombok, mint a „Használja ezt a hangot”, el vannak rejtve a Shorts csatorna lapon."</string>
     <string name="revanced_hide_shorts_floating_button_summary_off">"Az olyan lebegő gombok, mint a „Használja ezt a hangot”, a Shorts csatorna lapon láthatóak."</string>
-    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts shelf -->
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts shelves -->
     <string name="revanced_preference_category_shorts_shelf">Shorts polcok</string>
     <string name="revanced_hide_shorts_shelf_title">Shorts polcok elrejtése</string>
     <string name="revanced_hide_shorts_shelf_summary">"Elrejti a Shorts polcokat.
@@ -1217,7 +1215,7 @@ Információ:
     <string name="revanced_hide_shorts_shelf_history_title">Elrejtés a nézési előzmények között</string>
     <string name="revanced_hide_shorts_shelf_history_summary_on">Elrejtve a nézési előzmények között.</string>
     <string name="revanced_hide_shorts_shelf_history_summary_off">Megjelenítve a nézési előzmények között.</string>
-    <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental flags -->
     <string name="revanced_change_shorts_background_repeat_state_title">Shorts háttér ismétlési állapotának módosítása</string>
     <string name="revanced_change_shorts_repeat_state_title">Shorts ismétlési állapotának módosítása</string>
     <string name="revanced_change_shorts_repeat_state_entry_auto_play">Automatikus lejátszás</string>
@@ -1369,10 +1367,7 @@ Nyomja meg és tartsa lenyomva a További gombot az egyéni műveletek párbesz�
     <string name="revanced_shorts_custom_actions_repeat_state_summary_on">Az ismétlés állapot menü látható.</string>
     <string name="revanced_shorts_custom_actions_repeat_state_summary_off">Az ismétlés állapot menü el van rejtve.</string>
     <string name="revanced_shorts_custom_actions_about_title">Az egyéni műveletekről</string>
-    <string name="revanced_shorts_custom_actions_about_about_summary">"Ez a funkció még kísérleti jellegű, így nincs garancia arra, hogy tökéletesen fog működni.
-
-A legtöbb hiba nem javítható az ügyféloldali korlátozások miatt, ezért csak tesztelési célokra használja."</string>
-    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental flags -->
     <string name="revanced_enable_shorts_time_stamp_title">Fejezetek engedélyezése</string>
     <string name="revanced_enable_shorts_time_stamp_summary_on">"Az időbélyeg engedélyezve van.
 

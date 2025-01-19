@@ -306,7 +306,7 @@
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Рекомендовані відео</string>
     <string name="revanced_hide_low_views_video_title">Приховати відео з малою кількістю переглядів</string>
-    <string name="revanced_hide_low_views_video_summary">Приховати відео з менш ніж 1,000 переглядів з головної стрічки, вантажені з каналів, на які не підписані.</string>
+    <string name="revanced_hide_low_views_video_summary">"Приховати відео з менш ніж 1,000 переглядів з головної стрічки, вантажені з каналів, на які не підписані."</string>
     <string name="revanced_hide_recommended_video_title">Приховати рекомендовані відео</string>
     <string name="revanced_hide_recommended_video_summary">"Приховуються такі рекомендовані відео:
 
@@ -460,7 +460,7 @@
     <string name="revanced_override_video_download_button_summary_off">Кнопка завантаження відео відкриває вбудований завантажувач.</string>
     <string name="revanced_external_downloader_package_name_playlist_title">Ім\'я пакета завантажувача списку відтворення</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">Ім\'я пакета встановленого зовнішнього завантажувача, наприклад YTDLnis.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental flags -->
     <string name="revanced_override_youtube_music_button_title">Перевизначити кнопку YouTube Music</string>
     <string name="revanced_override_youtube_music_button_summary_on">Кнопка YouTube Music відкриває RVX Music.</string>
     <string name="revanced_override_youtube_music_button_summary_off">Кнопка YouTube Music відкриває стандартний додаток.</string>
@@ -521,7 +521,7 @@
     <string name="revanced_miniplayer_opacity_title">Непрозорість затемнення</string>
     <string name="revanced_miniplayer_opacity_summary">Значення непрозорості в межах 0-100, де 0 це прозоро.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">Непрозорість затемнення мініплеєра має бути в межах 0-100.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation Bar -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_bar_title">Панель навігації</string>
     <string name="revanced_preference_screen_navigation_bar_summary">Приховувати чи показувати секцію компонентів панелі навігації.</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">Увімкнути вузькі кнопки навігації</string>
@@ -640,10 +640,6 @@
     <string name="revanced_enable_wide_search_bar_with_header_summary_on">Широка панель пошуку включно зі заголовком YouTube.</string>
     <string name="revanced_enable_wide_search_bar_with_header_summary_off">Широка панель пошуку виключає та використовує місце заголовка YouTube.</string>
     <string name="revanced_enable_wide_search_bar_in_you_tab_title">Увімкнути широку панель пошуку у вкладці Ви</string>
-    <string name="revanced_enable_wide_search_bar_in_you_tab_summary">"Увімкнення цього налаштування вимкне кнопку налаштувань у вкладці Ви.
-
-У цьому випадку, будь ласка, використовуйте такий шлях для доступу до налаштувань:
-'Вкладка Ви → Перегляд каналу → Меню → Налаштування'"</string>
     <string name="revanced_hide_toolbar_cast_button_title">Приховати кнопку трансляції</string>
     <string name="revanced_hide_toolbar_cast_button_summary_on">Кнопку трансляції приховано.</string>
     <string name="revanced_hide_toolbar_cast_button_summary_off">Кнопку трансляції показується.</string>
@@ -786,6 +782,8 @@
     <string name="revanced_hide_thanks_button_title">Приховати кнопку Дякую</string>
     <string name="revanced_hide_thanks_button_summary_on">Кнопку Дякую приховано.</string>
     <string name="revanced_hide_thanks_button_summary_off">Кнопку Дякую показується.</string>
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Кінематографічне освітлення</string>
     <string name="revanced_preference_screen_ambient_mode_summary">Обходити обмеження кінематографічного освітлення чи вимкнути кінематографічне освітлення.</string>
@@ -978,7 +976,7 @@
     <string name="revanced_quick_actions_top_margin_title">Верхній відступ швидких дій</string>
     <string name="revanced_quick_actions_top_margin_summary">Налаштуйте відстань від панелі прогресу до контейнера швидких дій, діапазон 0-32.</string>
     <string name="revanced_quick_actions_top_margin_invalid_toast">Верхній відступ швидких дій повинен бути в межах 0-32.</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Fullscreen, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Fullscreen, PreferenceCategory: Experimental flags -->
     <string name="revanced_disable_landscape_mode_title">Вимкнути ландшафтний режим</string>
     <string name="revanced_disable_landscape_mode_summary_on">Орієнтація відео портретна в повноекранному режимі.</string>
     <string name="revanced_disable_landscape_mode_summary_off">Орієнтація відео згідно налаштувань пристрою в повноекранному режимі.</string>
@@ -1175,7 +1173,7 @@
     <string name="revanced_hide_transcript_section_title">Приховати секції Текст відео</string>
     <string name="revanced_hide_transcript_section_summary_on">Секції Текст відео приховано.</string>
     <string name="revanced_hide_transcript_section_summary_off">Секції Текст відео показується.</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Video description, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Video description, PreferenceCategory: Experimental flags -->
     <string name="revanced_disable_video_description_interaction_title">Вимкнути взаємодію з описом відео</string>
     <string name="revanced_disable_video_description_interaction_summary">"Вимикається такі взаємодії під час розгортання опису відео:
 
@@ -1200,7 +1198,7 @@
     <string name="revanced_hide_shorts_floating_button_title">Приховати плавучу кнопку</string>
     <string name="revanced_hide_shorts_floating_button_summary_on">"Плавучі кнопки, такі як 'Використати цей звук' приховано у вкладці YouTube Shorts каналу."</string>
     <string name="revanced_hide_shorts_floating_button_summary_off">"Плавучі кнопки, такі як 'Використати цей звук' показується у вкладці YouTube Shorts каналу."</string>
-    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts shelf -->
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts shelves -->
     <string name="revanced_preference_category_shorts_shelf">Полиця Shorts</string>
     <string name="revanced_hide_shorts_shelf_title">Приховати полицю Shorts</string>
     <string name="revanced_hide_shorts_shelf_summary">"Приховується полиці Shorts.
@@ -1224,13 +1222,16 @@
     <string name="revanced_hide_shorts_shelf_history_title">Приховати в історії перегляду</string>
     <string name="revanced_hide_shorts_shelf_history_summary_on">Приховано в історії перегляду.</string>
     <string name="revanced_hide_shorts_shelf_history_summary_off">Показується в історії перегляду.</string>
-    <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental flags -->
     <string name="revanced_change_shorts_background_repeat_state_title">Змінити стан повторення Shorts у фоні</string>
     <string name="revanced_change_shorts_repeat_state_title">Змінити стан повторення Shorts</string>
     <string name="revanced_change_shorts_repeat_state_entry_auto_play">Автовідворення</string>
     <string name="revanced_change_shorts_repeat_state_entry_default">Стандартно</string>
     <string name="revanced_change_shorts_repeat_state_entry_pause">Призупинити</string>
     <string name="revanced_change_shorts_repeat_state_entry_repeat">Повторювати</string>
+    <string name="revanced_open_shorts_in_regular_player_title">Відкривати Shorts у поточному плеєрі</string>
+    <string name="revanced_open_shorts_in_regular_player_summary_on">Shorts відкриваються у поточному плеєрі.</string>
+    <string name="revanced_open_shorts_in_regular_player_summary_off">Shorts не відкриваються у поточному плеєрі.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player -->
     <string name="revanced_preference_screen_shorts_player_title">Плеєр Shorts</string>
     <string name="revanced_preference_screen_shorts_player_summary">Приховувати чи показувати компоненти у плеєрі Shorts.</string>
@@ -1376,10 +1377,7 @@
     <string name="revanced_shorts_custom_actions_repeat_state_summary_on">Меню Стан повторення показується.</string>
     <string name="revanced_shorts_custom_actions_repeat_state_summary_off">Меню Стан повторення приховано.</string>
     <string name="revanced_shorts_custom_actions_about_title">Про Спеціальні дії</string>
-    <string name="revanced_shorts_custom_actions_about_about_summary">"Ця функція все ще експериментальна, тому немає гарантії, що буде працювати.
-
-Більшість помилок неможливо виправити через обмеження на стороні клієнта, тому використовуйте лише для тестування."</string>
-    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental flags -->
     <string name="revanced_enable_shorts_time_stamp_title">Увімкнути мітку часу</string>
     <string name="revanced_enable_shorts_time_stamp_summary_on">"Мітку часу увімкнено.
 
@@ -1776,6 +1774,9 @@
     <string name="revanced_sb_about_api_sum">Дані надаються Спонсорблок API. Натисніть тут, щоб дізнатися більше та побачити завантаження для інших платформ</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Різне</string>
+    <string name="revanced_bypass_url_redirects_title">Обходити перенаправлення посилань</string>
+    <string name="revanced_bypass_url_redirects_summary_on">Перенаправлення посилань обходяться.</string>
+    <string name="revanced_bypass_url_redirects_summary_off">Перенаправлення посилань не обходяться.</string>
     <string name="revanced_disable_quic_protocol_title">Вимкнути протокол QUIC</string>
     <string name="revanced_disable_quic_protocol_summary">"Вимкнути протокол CronetEngine's QUIC"</string>
     <string name="revanced_enable_debug_logging_title">Увімкнути журнал налагодження</string>
@@ -1784,6 +1785,9 @@
     <string name="revanced_enable_debug_buffer_logging_title">Увімкнути ведення журналу буфера налагодження</string>
     <string name="revanced_enable_debug_buffer_logging_summary_on">Журнали налагодження містять буфер.</string>
     <string name="revanced_enable_debug_buffer_logging_summary_off">Журнали налагодження не містять буфер.</string>
+    <string name="revanced_open_links_externally_title">Відкривати посилання у браузері</string>
+    <string name="revanced_open_links_externally_summary_on">Посилання відкриваються у зовнішньому браузері.</string>
+    <string name="revanced_open_links_externally_summary_off">Посилання відкриваються у браузері додатка.</string>
     <string name="revanced_sanitize_sharing_links_title">Обробляти поширення посилань</string>
     <string name="revanced_sanitize_sharing_links_summary">Вилучає параметри запиту відстеження з посилань під час поширення посилань.</string>
     <string name="revanced_default_app_settings_title">Відкрити налаштування</string>

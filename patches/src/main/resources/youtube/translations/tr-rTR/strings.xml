@@ -240,7 +240,7 @@ Kısıtlamalar:
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Önerilen video</string>
     <string name="revanced_hide_low_views_video_title">Az izlenen videoları gizle</string>
-    <string name="revanced_hide_low_views_video_summary">Abone olunmayan kanallardan yüklenen ana sayfa yayınlarında 1.000\'den az izlenen videoları gizleyin.</string>
+    <string name="revanced_hide_low_views_video_summary">"Abone olunmayan kanallardan yüklenen ana sayfa yayınlarında 1.000'den az izlenen videoları gizleyin."</string>
     <string name="revanced_hide_recommended_video_title">Önerilen videoları gizle</string>
     <string name="revanced_hide_recommended_video_summary">"Aşağıdaki önerilen videoları gizler:
 
@@ -380,7 +380,7 @@ Daha sonra kapatılırsa kullanıcı arayüzü hatalarını önlemek için uygul
     <string name="revanced_override_video_download_button_summary_off">Yerel video indirme butonu, yerel uygulama içi indiriciyi açar.</string>
     <string name="revanced_external_downloader_package_name_playlist_title">Oynatma listesi indirici paket ismi</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">Yüklü harici indirici uygulamanızın paket adı, örneğin YTDLnis.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental flags -->
     <string name="revanced_override_youtube_music_button_title">YouTube Müzik düğmesini geçersiz kıl</string>
     <string name="revanced_override_youtube_music_button_summary_on">YouTube Müzik butonu RVX Müzik\'i açar.</string>
     <string name="revanced_override_youtube_music_button_summary_off">YouTube Müzik düğmesi yerel uygulamayı açar.</string>
@@ -441,7 +441,7 @@ Genişletmek veya kapatmak için kaydırın."</string>
     <string name="revanced_miniplayer_opacity_title">Kaplama opaklığı</string>
     <string name="revanced_miniplayer_opacity_summary">0-100 arası opaklık değeri, 0 şeffaftır.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">Mini oynatıcının siyah arkaplan opaklığı 0 ila 100 arasında olmalıdır. Varsayılan değere sıfırlandı.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation Bar -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_bar_title">Gezinme çubuğu</string>
     <string name="revanced_preference_screen_navigation_bar_summary">Gezinme çubuğu bölümü bileşenlerini gizleyin veya gösterin.</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">Dar gezinme düğmelerini etkinleştir</string>
@@ -515,10 +515,6 @@ Bu ayar etkili olmazsa Gizli moda geçmeyi deneyin."</string>
     <string name="revanced_enable_wide_search_bar_with_header_summary_on">Geniş arama çubuğu YouTube başlığını içerir.</string>
     <string name="revanced_enable_wide_search_bar_with_header_summary_off">Geniş arama çubuğu YouTube başlığını içermez.</string>
     <string name="revanced_enable_wide_search_bar_in_you_tab_title">\"Siz\" sekmesinde de etkinleştir</string>
-    <string name="revanced_enable_wide_search_bar_in_you_tab_summary">"Bu ayarın etkinleştirilmesi, Siz sekmesindeki Ayarlar butonunu kaldıracaktır.
-
-Bu durumda lütfen şu yolu kullanın:
-Siz sekmesi→ Kanalı görüntüle→ Menü→ Ayarlar"</string>
     <string name="revanced_hide_toolbar_cast_button_title">Yayınla butonunu gizle</string>
     <string name="revanced_hide_toolbar_cast_button_summary_on">\"Yayınla\" butonu gizli durumda.</string>
     <string name="revanced_hide_toolbar_cast_button_summary_off">Yansıtma düğmesi görünür.</string>
@@ -644,6 +640,8 @@ Otomatik oynatma YouTube ayarlarından değiştirilebilir:
     <string name="revanced_hide_thanks_button_title">Teşekkürler butonunu gizle</string>
     <string name="revanced_hide_thanks_button_summary_on">\"Teşekkürler\" butonu gizleniyor.</string>
     <string name="revanced_hide_thanks_button_summary_off">\"Teşekkürler\" butonu gösteriliyor.</string>
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Ortam modu</string>
     <string name="revanced_preference_screen_ambient_mode_summary">Ambiyans modu kısıtlamalarını atlayın veya ortam modunu devre dışı bırakın.</string>
@@ -823,7 +821,7 @@ Sınırlama: Tıklandığında video başlığı kayboluyor."</string>
     <string name="revanced_quick_actions_top_margin_title">Hızlı ayarlar çubuğunun yerden yüksekliği</string>
     <string name="revanced_quick_actions_top_margin_summary">Zaman çubuğundan hızlı işlem kapsayıcısına kadar olan aralığı 0-32 arasında yapılandırın.</string>
     <string name="revanced_quick_actions_top_margin_invalid_toast">Hızlı eylemler üst kenar boşluğu 0-32 arasında olmalıdır. Varsayılan değerlere sıfırlayın.</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Fullscreen, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Fullscreen, PreferenceCategory: Experimental flags -->
     <string name="revanced_disable_landscape_mode_title">Videoyu otomatik yatay moda geçirmeyi kapat</string>
     <string name="revanced_disable_landscape_mode_summary_on">Videoyu tam ekrana alırken otomatik olarak yatay moda geçme devre dışı</string>
     <string name="revanced_disable_landscape_mode_summary_off">Videoyu tam ekrana alırken otomatik olarak yatay moda geçme etkin</string>
@@ -982,7 +980,7 @@ Bilgi:
     <string name="revanced_hide_transcript_section_title">\"Transkripti göster\" butonunu gizle</string>
     <string name="revanced_hide_transcript_section_summary_on">\"Transkripti göster\" butonu gizleniyor</string>
     <string name="revanced_hide_transcript_section_summary_off">\"Transkripti göster\" butonu gizlenmiyor</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Video description, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Video description, PreferenceCategory: Experimental flags -->
     <string name="revanced_disable_video_description_interaction_title">Video açıklama etkileşimini devre dışı bırak</string>
     <string name="revanced_disable_video_description_interaction_summary">"Video açıklaması genişletildiğinde aşağıdaki etkileşimleri devre dışı bırakır:
 
@@ -1000,7 +998,7 @@ Bilgi:
     <string name="revanced_disable_resuming_shorts_player_summary_on">Shorts oynatıcı açılışta devam etmeyecek</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">Shorts oynatıcı açılışta devam edecek</string>
     <string name="revanced_hide_shorts_floating_button_title">Butonları gizle</string>
-    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts shelf -->
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts shelves -->
     <string name="revanced_preference_category_shorts_shelf">Shorts rafları</string>
     <string name="revanced_hide_shorts_shelf_title">Shorts raflarını gizle</string>
     <string name="revanced_hide_shorts_shelf_summary">"Shorts raflarını gizler.
@@ -1018,7 +1016,7 @@ Bilinen sorun: Arama sonuçlarındaki resmi başlıklar da gizlenebiliyor."</str
     <string name="revanced_hide_shorts_shelf_history_title">İzleme geçmişinde gizle</string>
     <string name="revanced_hide_shorts_shelf_history_summary_on">İzleme geçmişinde gizli.</string>
     <string name="revanced_hide_shorts_shelf_history_summary_off">İzleme geçmişinde gizlenmiyor.</string>
-    <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental flags -->
     <string name="revanced_change_shorts_repeat_state_title">Shorts tekrarlama durumunu değiştirme</string>
     <string name="revanced_change_shorts_repeat_state_entry_auto_play">Otomatik Oynat</string>
     <string name="revanced_change_shorts_repeat_state_entry_default">Varsayılan</string>
@@ -1108,7 +1106,7 @@ Bilinen sorun: Arama sonuçlarındaki resmi başlıklar da gizlenebiliyor."</str
     <string name="revanced_hide_shorts_play_pause_button_background_summary_on">Buton arka planı gizli.</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_off">Buton arka planı gizlenmiyor.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Custom actions -->
-    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental flags -->
     <string name="revanced_enable_shorts_time_stamp_title">Zaman damgalarını etkinleştir</string>
     <string name="revanced_enable_shorts_time_stamp_summary_on">"Zaman damgası etkin.
 

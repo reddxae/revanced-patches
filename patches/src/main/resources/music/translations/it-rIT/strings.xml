@@ -17,13 +17,13 @@
     <string name="revanced_hide_handle_title">Nascondi l\'intestazione</string>
     <string name="revanced_hide_terms_container_title">Nascondi contenitore termini</string>
     <string name="revanced_hide_terms_container_summary">Nasconde il contenitore dei termini di servizio.</string>
-    <!-- PreferenceScreen: Action Bar -->
+    <!-- PreferenceScreen: Action bar -->
     <string name="revanced_external_downloader_package_name_title">Nome del pacchetto downloader esterno</string>
     <string name="revanced_external_downloader_package_name_summary">Nome del pacchetto dell\'app downloader esterna installata, come NewPipe o Seal.</string>
     <string name="revanced_external_downloader_not_installed_warning">%s non è installato. Installalo.</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_hide_music_ads_title">Nascondi le pubblicità musicali</string>
-    <!-- PreferenceScreen: Flyout -->
+    <!-- PreferenceScreen: Flyout menu -->
     <string name="revanced_enable_compact_dialog_title">Abilita dialogo compatto</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_disable_auto_captions_title">Disabilita i sottotitoli automatici forzati</string>
@@ -41,7 +41,7 @@
     <string name="revanced_hide_cast_button_title">Nascondi il bottone cast</string>
     <string name="revanced_hide_cast_button_summary">Nascondo il pulsante cast nella parte superiore della homepage e in cima al riproduttore.</string>
     <string name="revanced_spoof_app_version_title">Versione dell\'app falsificata</string>
-    <!-- PreferenceScreen: Navigation Bar -->
+    <!-- PreferenceScreen: Navigation bar -->
     <string name="revanced_hide_navigation_label_title">Nascondi etichetta di navigazione</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_enable_color_match_player_title">Abilita l\'abbinamento di colore dei Riproduttori</string>

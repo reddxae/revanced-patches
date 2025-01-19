@@ -6,6 +6,7 @@ import app.revanced.patcher.extensions.InstructionExtensions.addInstructionsWith
 import app.revanced.patcher.extensions.InstructionExtensions.getInstruction
 import app.revanced.patcher.patch.bytecodePatch
 import app.revanced.patches.youtube.utils.compatibility.Constants.COMPATIBLE_PACKAGE
+import app.revanced.patches.youtube.utils.engagementPanelTitleParentFingerprint
 import app.revanced.patches.youtube.utils.extension.Constants.GENERAL_PATH
 import app.revanced.patches.youtube.utils.patch.PatchList.CHANGE_LIVE_RING_CLICK_ACTION
 import app.revanced.patches.youtube.utils.resourceid.sharedResourceIdPatch
@@ -36,6 +37,18 @@ val openChannelOfLiveAvatarPatch = bytecodePatch(
     )
 
     execute {
+
+        mapOf(
+            engagementPanelCommentsClosedFingerprint to "commentsPanelClosed",
+            engagementPanelCommentsOpenFingerprint to "commentsPanelOpen",
+        ).forEach { (fingerprint, methodName) ->
+            fingerprint
+                .methodOrThrow(engagementPanelTitleParentFingerprint)
+                .addInstruction(
+                    0,
+                    "invoke-static {}, $EXTENSION_CLASS_DESCRIPTOR->$methodName()V"
+                )
+        }
 
         elementsImageFingerprint.methodOrThrow().addInstruction(
             0,

@@ -11,7 +11,16 @@ public final class OpenChannelOfLiveAvatarPatch {
             Settings.CHANGE_LIVE_RING_CLICK_ACTION.get();
 
     private static volatile String videoId = "";
+    private static volatile boolean isCommentsPanelOpen = false;
     private static volatile boolean liveChannelAvatarClicked = false;
+
+    public static void commentsPanelClosed() {
+        isCommentsPanelOpen = false;
+    }
+
+    public static void commentsPanelOpen() {
+        isCommentsPanelOpen = true;
+    }
 
     public static void liveChannelAvatarClicked() {
         liveChannelAvatarClicked = true;
@@ -23,6 +32,9 @@ public final class OpenChannelOfLiveAvatarPatch {
                 return false;
             }
             if (!liveChannelAvatarClicked) {
+                return false;
+            }
+            if (isCommentsPanelOpen) {
                 return false;
             }
             VideoDetailsRequest request = VideoDetailsRequest.getRequestForVideoId(videoId);
@@ -45,10 +57,13 @@ public final class OpenChannelOfLiveAvatarPatch {
             if (!CHANGE_LIVE_RING_CLICK_ACTION) {
                 return;
             }
-            if (newlyLoadedVideoId.isEmpty()) {
+            if (!liveChannelAvatarClicked) {
                 return;
             }
-            if (!liveChannelAvatarClicked) {
+            if (isCommentsPanelOpen) {
+                return;
+            }
+            if (newlyLoadedVideoId.isEmpty()) {
                 return;
             }
             videoId = newlyLoadedVideoId;

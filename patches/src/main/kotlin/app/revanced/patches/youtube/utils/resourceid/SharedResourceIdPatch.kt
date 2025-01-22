@@ -243,7 +243,8 @@ var ytPremiumWordMarkHeader = -1L
     private set
 var ytWordMarkHeader = -1L
     private set
-
+var ytYoutubeMagenta = -1L
+    private set
 
 internal val sharedResourceIdPatch = resourcePatch(
     description = "sharedResourceIdPatch"
@@ -706,6 +707,10 @@ internal val sharedResourceIdPatch = resourcePatch(
         ytWordMarkHeader = resourceMappings[
             ATTR,
             "ytWordmarkHeader"
+        ]
+        ytYoutubeMagenta = resourceMappings[
+            COLOR,
+            "yt_youtube_magenta",
         ]
     }
 }

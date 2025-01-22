@@ -2572,8 +2572,9 @@
         "description": "Specify a background color for the snack bar. You can specify hex color (#AARRGGBB) or color resource reference.",
         "required": true,
         "type": "kotlin.String",
-        "default": "#FF181825",
+        "default": "@color/yt_black3",
         "values": {
+          "YouTube Dark": "@color/yt_black3",
           "Amoled Black": "@android:color/black",
           "Catppuccin (Mocha)": "#FF181825",
           "Dark Pink": "#FF290025",
@@ -2590,8 +2591,9 @@
         "description": "Specify a background color for the snack bar. You can specify hex color (#AARRGGBB) or color resource reference.",
         "required": true,
         "type": "kotlin.String",
-        "default": "#FFE6E9EF",
+        "default": "@color/yt_white3",
         "values": {
+          "YouTube Light": "@color/yt_white3",
           "White": "@android:color/white",
           "Catppuccin (Latte)": "#FFE6E9EF",
           "Light Pink": "#FFFCCFF3",

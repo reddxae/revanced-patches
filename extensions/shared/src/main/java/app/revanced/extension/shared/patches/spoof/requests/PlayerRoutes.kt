@@ -86,13 +86,10 @@ object PlayerRoutes {
             client.put("clientVersion", clientType.clientVersion)
             client.put("osName", clientType.osName)
             client.put("osVersion", clientType.osVersion)
-            if (clientType.osName == "Android") {
+            if (clientType.androidSdkVersion != null) {
                 client.put("androidSdkVersion", clientType.androidSdkVersion)
                 if (clientType.gmscoreVersionCode != null) {
                     client.put("gmscoreVersionCode", clientType.gmscoreVersionCode)
-                }
-                if (clientType.chipset != null) {
-                    client.put("chipset", clientType.chipset)
                 }
             }
             client.put(

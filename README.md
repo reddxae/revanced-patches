@@ -64,6 +64,7 @@ See the [documentation](https://github.com/inotia00/revanced-documentation#readm
 | `Seekbar components` | Adds options to hide or change components related to the seekbar. | 18.29.38 ~ 19.44.39 |
 | `Settings for YouTube` | Applies mandatory patches to implement ReVanced Extended settings into the application. | 18.29.38 ~ 19.44.39 |
 | `Shorts components` | Adds options to hide or change components related to YouTube Shorts. | 18.29.38 ~ 19.44.39 |
+| `Snack bar components` | Adds options to hide or change components related to the snack bar. | 18.29.38 ~ 19.44.39 |
 | `SponsorBlock` | Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as sponsored content. | 18.29.38 ~ 19.44.39 |
 | `Spoof app version` | Adds options to spoof the YouTube client version. This can be used to restore old UI elements and features. | 18.29.38 ~ 19.44.39 |
 | `Spoof streaming data` | Adds options to spoof the streaming data to allow playback. | 18.29.38 ~ 19.44.39 |

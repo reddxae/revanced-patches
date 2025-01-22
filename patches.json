@@ -168,9 +168,10 @@
     "description": "Adds an option to open the channel instead of the live stream when clicking on the live ring.",
     "use": true,
     "dependencies": [
-      "BytecodePatch",
+      "Settings for YouTube",
       "ResourcePatch",
-      "Settings for YouTube"
+      "BytecodePatch",
+      "BytecodePatch"
     ],
     "compatiblePackages": {
       "com.google.android.youtube": [
@@ -1533,6 +1534,7 @@
       "ResourcePatch",
       "Settings for YouTube",
       "BytecodePatch",
+      "BytecodePatch",
       "ResourcePatch"
     ],
     "compatiblePackages": {
@@ -2011,7 +2013,7 @@
         "default": "2.5dip",
         "values": {
           "Default": "2.5dip",
-          "None": "0.0dip",
+          "Minimum": "0.1dip",
           "Wider": "5.0dip"
         }
       },
@@ -2536,6 +2538,86 @@
     "options": []
   },
   {
+    "name": "Snack bar components",
+    "description": "Adds options to hide or change components related to the snack bar.",
+    "use": true,
+    "dependencies": [
+      "Settings for YouTube",
+      "BytecodePatch"
+    ],
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.29.38",
+        "18.33.40",
+        "18.38.44",
+        "18.48.39",
+        "19.05.36",
+        "19.16.39",
+        "19.44.39"
+      ]
+    },
+    "options": [
+      {
+        "key": "cornerRadius",
+        "title": "Corner radius",
+        "description": "Specify a corner radius for the snack bar.",
+        "required": true,
+        "type": "kotlin.String",
+        "default": "8.0dip",
+        "values": null
+      },
+      {
+        "key": "darkThemeBackgroundColor",
+        "title": "Dark theme background color",
+        "description": "Specify a background color for the snack bar. You can specify hex color (#AARRGGBB) or color resource reference.",
+        "required": true,
+        "type": "kotlin.String",
+        "default": "#FF181825",
+        "values": {
+          "Amoled Black": "@android:color/black",
+          "Catppuccin (Mocha)": "#FF181825",
+          "Dark Pink": "#FF290025",
+          "Dark Blue": "#FF001029",
+          "Dark Green": "#FF002905",
+          "Dark Yellow": "#FF282900",
+          "Dark Orange": "#FF291800",
+          "Dark Red": "#FF290000"
+        }
+      },
+      {
+        "key": "lightThemeBackgroundColor",
+        "title": "Light theme background color",
+        "description": "Specify a background color for the snack bar. You can specify hex color (#AARRGGBB) or color resource reference.",
+        "required": true,
+        "type": "kotlin.String",
+        "default": "#FFE6E9EF",
+        "values": {
+          "White": "@android:color/white",
+          "Catppuccin (Latte)": "#FFE6E9EF",
+          "Light Pink": "#FFFCCFF3",
+          "Light Blue": "#FFD1E0FF",
+          "Light Green": "#FFCCFFCC",
+          "Light Yellow": "#FFFDFFCC",
+          "Light Orange": "#FFFFE6CC",
+          "Light Red": "#FFFFD6D6"
+        }
+      },
+      {
+        "key": "strokeColor",
+        "title": "Stroke color",
+        "description": "Specify a stroke color for the snack bar. You can specify hex color.",
+        "required": true,
+        "type": "kotlin.String",
+        "default": "",
+        "values": {
+          "None": "",
+          "Blue": "?attr/ytThemedBlue",
+          "Chip": "?attr/ytChipBackground"
+        }
+      }
+    ]
+  },
+  {
     "name": "SponsorBlock",
     "description": "Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as non-music sections.",
     "use": true,
@@ -2743,7 +2825,7 @@
         "key": "darkThemeBackgroundColor",
         "title": "Dark theme background color",
         "description": "Can be a hex color (#AARRGGBB) or a color resource reference.",
-        "required": false,
+        "required": true,
         "type": "kotlin.String",
         "default": "@android:color/black",
         "values": {
@@ -2762,7 +2844,7 @@
         "key": "lightThemeBackgroundColor",
         "title": "Light theme background color",
         "description": "Can be a hex color (#AARRGGBB) or a color resource reference.",
-        "required": false,
+        "required": true,
         "type": "kotlin.String",
         "default": "@android:color/white",
         "values": {

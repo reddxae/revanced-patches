@@ -347,8 +347,9 @@ public final class app/revanced/patches/reddit/layout/screenshotpopup/Screenshot
 }
 
 public final class app/revanced/patches/reddit/layout/subredditdialog/FingerprintsKt {
-	public static final fun indexOfDismissScreenInstruction (Lcom/android/tools/smali/dexlib2/iface/Method;)I
+	public static final fun indexOfHasBeenVisitedInstruction (Lcom/android/tools/smali/dexlib2/iface/Method;)I
 	public static final fun indexOfSetBackgroundTintListInstruction (Lcom/android/tools/smali/dexlib2/iface/Method;)I
+	public static final fun listOfIsLoggedInInstruction (Lcom/android/tools/smali/dexlib2/iface/Method;)Ljava/util/List;
 }
 
 public final class app/revanced/patches/reddit/layout/subredditdialog/SubRedditDialogPatchKt {
@@ -394,6 +395,7 @@ public final class app/revanced/patches/reddit/utils/settings/SettingsPatchKt {
 	public static final fun getSettingsPatch ()Lapp/revanced/patcher/patch/ResourcePatch;
 	public static final fun is_2024_26_or_greater ()Z
 	public static final fun is_2024_41_or_greater ()Z
+	public static final fun is_2025_01_or_greater ()Z
 }
 
 public final class app/revanced/patches/shared/FingerprintsKt {
@@ -643,6 +645,10 @@ public final class app/revanced/patches/youtube/general/navigation/NavigationBar
 	public static final fun getNavigationBarComponentsPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
+public final class app/revanced/patches/youtube/general/snackbar/SnackBarComponentsPatchKt {
+	public static final fun getSnackBarComponentsPatch ()Lapp/revanced/patcher/patch/ResourcePatch;
+}
+
 public final class app/revanced/patches/youtube/general/splashanimation/SplashAnimationPatchKt {
 	public static final fun getSplashAnimationPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
@@ -829,6 +835,10 @@ public final class app/revanced/patches/youtube/utils/controlsoverlay/ControlsOv
 	public static final fun getControlsOverlayConfigPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
+public final class app/revanced/patches/youtube/utils/engagement/EngagementPanelHookPatchKt {
+	public static final fun getEngagementPanelHookPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
 public final class app/revanced/patches/youtube/utils/extension/SharedExtensionPatchKt {
 	public static final fun getSharedExtensionPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
@@ -964,6 +974,7 @@ public final class app/revanced/patches/youtube/utils/playservice/VersionCheckPa
 	public static final fun is_19_43_or_greater ()Z
 	public static final fun is_19_44_or_greater ()Z
 	public static final fun is_19_46_or_greater ()Z
+	public static final fun is_19_49_or_greater ()Z
 	public static final fun is_20_02_or_greater ()Z
 }
 
@@ -1024,6 +1035,7 @@ public final class app/revanced/patches/youtube/utils/resourceid/SharedResourceI
 	public static final fun getImageOnlyTab ()J
 	public static final fun getInlineTimeBarColorizedBarPlayedColorDark ()J
 	public static final fun getInlineTimeBarPlayedNotHighlightedColor ()J
+	public static final fun getInsetElementsWrapper ()J
 	public static final fun getInsetOverlayViewLayout ()J
 	public static final fun getInterstitialsContainer ()J
 	public static final fun getMenuItemView ()J
@@ -1086,6 +1098,7 @@ public final class app/revanced/patches/youtube/utils/resourceid/SharedResourceI
 	public static final fun getYtOutlineXWhite ()J
 	public static final fun getYtPremiumWordMarkHeader ()J
 	public static final fun getYtWordMarkHeader ()J
+	public static final fun getYtYoutubeMagenta ()J
 }
 
 public final class app/revanced/patches/youtube/utils/returnyoutubedislike/ReturnYouTubeDislikePatchKt {

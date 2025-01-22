@@ -310,13 +310,13 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">おすすめ動画</string>
     <string name="revanced_hide_low_views_video_title">再生回数が少ない動画を非表示</string>
-    <string name="revanced_hide_low_views_video_summary">"登録していないチャンネルからアップロードされた、再生回数が 1,000 回未満の動画をホームフィードから非表示にします。"</string>
+    <string name="revanced_hide_low_views_video_summary">"登録していないチャンネルからアップロードされた、再生回数が 1,000 回未満の動画をホームフィードから非表示にします。
+
+このフィルターはもう機能していない可能性があります。代わりに「再生回数フィルター」を使用してください。"</string>
     <string name="revanced_hide_recommended_video_title">おすすめ動画を非表示</string>
     <string name="revanced_hide_recommended_video_summary">"以下のおすすめ動画を非表示にします:
 
-・「メンバーシップ限定」タグの付いた動画
-・動画の下部に「他のユーザーも視聴しています」などのフレーズがある動画
-・登録していないチャンネルからアップロードされた、再生回数が 1,000 回未満の動画"</string>
+・動画の下部に「他のユーザーも視聴しています」などのフレーズがある動画"</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">再生回数フィルター</string>
     <string name="revanced_hide_video_by_view_counts_home_title">ホームフィードをフィルタリング</string>
@@ -404,9 +404,6 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_hide_gray_separator_title">グレーのセパレーターを非表示</string>
     <string name="revanced_hide_gray_separator_summary_on">ホームフィードの動画の間に表示される、グレーのセパレーターを非表示にします。</string>
     <string name="revanced_hide_gray_separator_summary_off">ホームフィードの動画の間に表示される、グレーのセパレーターを非表示にします。</string>
-    <string name="revanced_hide_snack_bar_title">スナックバーを非表示</string>
-    <string name="revanced_hide_snack_bar_summary_on">共有からリンクをコピーした際などに画面下部に表示されるポップアップを非表示にします。</string>
-    <string name="revanced_hide_snack_bar_summary_off">共有からリンクをコピーした際などに画面下部に表示されるポップアップを非表示にします。</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">年齢制限ダイアログを削除</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"年齢制限ダイアログを削除します。 
 
@@ -417,6 +414,9 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_change_layout_entry_3">スマホ(最大 480 dp)</string>
     <string name="revanced_change_layout_entry_4">タブレット</string>
     <string name="revanced_change_layout_entry_5">タブレット(最小 600 dp)</string>
+    <string name="revanced_change_live_ring_click_action_title">ライブ状態のアイコンをタップした際の動作を変更</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">現在の設定: 「ライブ」状態のアイコンをタップすると、チャンネルが開きます。</string>
+    <string name="revanced_change_live_ring_click_action_summary_off">現在の設定: 「ライブ」状態のアイコンをタップすると、ライブ配信が開きます。</string>
     <string name="revanced_spoof_app_version_title">アプリのバージョンを偽装</string>
     <string name="revanced_spoof_app_version_summary_on">アプリのバージョンを偽装できます。</string>
     <string name="revanced_spoof_app_version_summary_off">アプリのバージョンを偽装できます。</string>
@@ -637,6 +637,26 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_hide_settings_menu_about_title">アプリに関する情報メニューを非表示</string>
     <string name="revanced_hide_settings_menu_about_summary_on">「アプリに関する情報」メニューを非表示にします。</string>
     <string name="revanced_hide_settings_menu_about_summary_off">「アプリに関する情報」メニューを非表示にします。</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Snack bar -->
+    <string name="revanced_preference_screen_snack_bar_title">スナックバー</string>
+    <string name="revanced_preference_screen_snack_bar_summary">スナックバー(画質を変更した時などに下部に表示される白いバー)に関連するコンポーネントを非表示または変更します。</string>
+    <string name="revanced_hide_snack_bar_title">スナックバーを非表示</string>
+    <string name="revanced_hide_snack_bar_summary_on">共有からリンクをコピーした際などに画面下部に表示されるポップアップを非表示にします。</string>
+    <string name="revanced_hide_snack_bar_summary_off">共有からリンクをコピーした際などに画面下部に表示されるポップアップを非表示にします。</string>
+    <string name="revanced_hide_server_side_snack_bar_title">サーバー側のスナックバーを非表示</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_on">サーバー側のスナックバーを非表示を非表示にします。</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_off">サーバー側のスナックバーを非表示を非表示にします。</string>
+    <string name="revanced_invert_snack_bar_theme_title">スナックバーのテーマを反転</string>
+    <string name="revanced_invert_snack_bar_theme_summary_on">スナックバーのテーマを反転させます。</string>
+    <string name="revanced_invert_snack_bar_theme_summary_off">スナックバーのテーマを反転させます。</string>
+    <string name="revanced_change_server_side_snack_bar_background_title">サーバー側のスナックバーの背景を変更</string>
+    <string name="revanced_change_server_side_snack_bar_background_summary_on">サーバー側のスナックバーの背景を変更します。</string>
+    <string name="revanced_change_server_side_snack_bar_background_summary_off">サーバー側のスナックバーの背景を変更します。</string>
+    <string name="revanced_change_server_side_snack_bar_background_user_dialog_message">"一部のスナックバーでは、アプリのテーマではなく、サーバー側で定義されたテーマが使用されます。
+
+これらのスナックバーの背景色を変更します。
+
+サーバー側で変更があった場合、スナックバーの背景色は変更されない可能性があります。"</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">ツールバー</string>
     <string name="revanced_preference_screen_toolbar_summary">ツールバーのボタン、検索バー、ヘッダーなどのツールバーにあるコンポーネントを非表示または変更できます。</string>
@@ -650,6 +670,17 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_enable_wide_search_bar_with_header_summary_on">ヘッダー付きの幅広い検索バーを有効化します。</string>
     <string name="revanced_enable_wide_search_bar_with_header_summary_off">ヘッダー付きの幅広い検索バーを有効化します。</string>
     <string name="revanced_enable_wide_search_bar_in_you_tab_title">マイページ タブで幅広い検索バーを有効化</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_summary_on">"[マイページ] タブで幅広い検索バーを有効化します。
+
+注意:
+この設定を有効にすると、[マイページ] タブ内の設定ボタンが無効になります。
+設定にアクセスするには、次の手順に従ってください:
+[マイページ] タブ → チャンネルを表示 → メニュー → 設定"</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_summary_off">[マイページ] タブで幅広い検索バーを有効化します。\n\n注意:\nこの設定を有効にすると、[マイページ] タブ内の設定ボタンが無効になります。\n設定にアクセスするには、次の手順に従ってください:\n[マイページ] タブ → チャンネルを表示 → メニュー → 設定</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_user_dialog_message">"この設定を有効にすると、[マイページ] タブ内の設定ボタンが無効になります。
+
+この場合、設定にアクセスするためには次の手順に従ってください:
+[マイページ] タブ → チャンネルを表示 → メニュー → 設定"</string>
     <string name="revanced_hide_toolbar_cast_button_title">キャストボタンを非表示</string>
     <string name="revanced_hide_toolbar_cast_button_summary_on">「キャスト」ボタンを非表示にします。</string>
     <string name="revanced_hide_toolbar_cast_button_summary_off">「キャスト」ボタンを非表示にします。</string>
@@ -789,7 +820,39 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_hide_thanks_button_summary_on">「Thanks」ボタンを非表示にします。</string>
     <string name="revanced_hide_thanks_button_summary_off">「Thanks」ボタンを非表示にします。</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
+    <string name="revanced_preference_category_hide_by_index">インデックスで非表示</string>
+    <string name="revanced_hide_action_button_index_0_title">1 番目のボタンを非表示</string>
+    <string name="revanced_hide_action_button_index_0_summary_on">1 番目のボタンを非表示にします。</string>
+    <string name="revanced_hide_action_button_index_0_summary_off">1 番目のボタンを非表示にします。</string>
+    <string name="revanced_hide_action_button_index_1_title">2 番目のボタンを非表示</string>
+    <string name="revanced_hide_action_button_index_1_summary_on">2 番目のボタンを非表示にします。</string>
+    <string name="revanced_hide_action_button_index_1_summary_off">2 番目のボタンを非表示にします。</string>
+    <string name="revanced_hide_action_button_index_2_title">3 番目のボタンを非表示</string>
+    <string name="revanced_hide_action_button_index_2_summary_on">3 番目のボタンを非表示にします。</string>
+    <string name="revanced_hide_action_button_index_2_summary_off">3 番目のボタンを非表示にします。</string>
+    <string name="revanced_hide_action_button_index_3_title">4 番目のボタンを非表示</string>
+    <string name="revanced_hide_action_button_index_3_summary_on">4 番目のボタンを非表示にします。</string>
+    <string name="revanced_hide_action_button_index_3_summary_off">4 番目のボタンを非表示にします。</string>
+    <string name="revanced_hide_action_button_index_4_title">5 番目のボタンを非表示</string>
+    <string name="revanced_hide_action_button_index_4_summary_on">5 番目のボタンを非表示にします。</string>
+    <string name="revanced_hide_action_button_index_4_summary_off">5 番目のボタンを非表示にします。</string>
+    <string name="revanced_hide_action_button_index_5_title">6 番目のボタンを非表示</string>
+    <string name="revanced_hide_action_button_index_5_summary_on">6 番目のボタンを非表示にします。</string>
+    <string name="revanced_hide_action_button_index_5_summary_off">6 番目のボタンを非表示にします。</string>
+    <string name="revanced_hide_action_button_index_6_title">7 番目のボタンを非表示</string>
+    <string name="revanced_hide_action_button_index_6_summary_on">7 番目のボタンを非表示にします。</string>
+    <string name="revanced_hide_action_button_index_6_summary_off">7 番目のボタンを非表示にします。</string>
+    <string name="revanced_hide_action_button_index_7_title">8 番目のボタンを非表示</string>
+    <string name="revanced_hide_action_button_index_7_summary_on">8 番目のボタンを非表示にします。</string>
+    <string name="revanced_hide_action_button_index_7_summary_off">8 番目のボタンを非表示にします。</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
+    <string name="revanced_preference_category_hide_by_index_live">ライブ配信でインデックスで非表示</string>
+    <string name="revanced_hide_action_button_index_about_title">「インデックスで非表示」について</string>
+    <string name="revanced_hide_action_button_index_about_summary">"アクションボタンが初期化される前に、インデックスによってアクションボタンを非表示にします。
+
+注意:
+・アクションボタンを非表示にすると、空きスペースが残りません。
+・ボタンの順序は YouTube のバージョン、地域、動画によって異なる場合があります。"</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">アンビエントモード</string>
     <string name="revanced_preference_screen_ambient_mode_summary">アンビエントモードの制限を回避またはアンビエントモードを無効化します。</string>
@@ -1379,6 +1442,9 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_shorts_custom_actions_repeat_state_summary_on">リピート状態のメニューを表示します。</string>
     <string name="revanced_shorts_custom_actions_repeat_state_summary_off">リピート状態のメニューを表示します。</string>
     <string name="revanced_shorts_custom_actions_about_title">カスタムアクションについて</string>
+    <string name="revanced_shorts_custom_actions_about_summary">"この機能はまだ実験段階であるため、完璧に動作するという保証はありません。
+
+ほとんどのバグはクライアント側の制限により修正できないため、テスト目的でのみ使用してください。"</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental flags -->
     <string name="revanced_enable_shorts_time_stamp_title">タイムスタンプを表示</string>
     <string name="revanced_enable_shorts_time_stamp_summary_on">"プレーヤーの左下にタイムスタンプを表示します。
@@ -1545,11 +1611,11 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_ryd_enable_summary_on">低評価数の表示を復活させます。\n\n注意: 正確な値ではありません。</string>
     <string name="revanced_ryd_enable_summary_off">低評価数の表示を復活させます。\n\n注意: 正確な値ではありません。</string>
     <string name="revanced_ryd_shorts_title">ショートで低評価数を表示</string>
-    <string name="revanced_ryd_shorts_summary_on">ショートで低評価数を表示します。\n\n注意: シークレットモードでは低評価数が表示されないことがあります。</string>
+    <string name="revanced_ryd_shorts_summary_on">ショートで低評価数を表示します。\n\n注意: ログインをしていない or シークレットモードでは低評価数が表示されないことがあります。</string>
     <string name="revanced_ryd_shorts_summary_on_disclaimer">"ショートで低評価数を表示します。
 
-注意: シークレットモードでは低評価数が表示されないことがあります。"</string>
-    <string name="revanced_ryd_shorts_summary_off">ショートで低評価数を表示します。\n\n注意: シークレットモードでは低評価数が表示されないことがあります。</string>
+注意: ログインをしていない or シークレットモードでは低評価数が表示されない可能性があります。"</string>
+    <string name="revanced_ryd_shorts_summary_off">ショートで低評価数を表示します。\n\n注意: ログインをしていない or シークレットモードでは低評価数が表示されないことがあります。</string>
     <string name="revanced_ryd_dislike_percentage_title">低評価数をパーセントで表示</string>
     <string name="revanced_ryd_dislike_percentage_summary_on">低評価数をパーセントで表示します。</string>
     <string name="revanced_ryd_dislike_percentage_summary_off">低評価数をパーセントで表示します。</string>
@@ -1715,7 +1781,7 @@ API キーの発行方法については、ここをタップしてください�
     <string name="revanced_sb_settings_import_successful">設定は正常にインポートされました。</string>
     <string name="revanced_sb_settings_import_failed">インポート失敗: %s</string>
     <string name="revanced_sb_settings_export_failed">エクスポート失敗: %s</string>
-    <string name="revanced_sb_settings_revanced_export_user_id_warning">この設定には SponsorBlock のプライベートユーザー ID が含まれています。\n\nユーザー ID はパスワードのようなもののため、誰とも共有しないようにしてください。\n</string>
+    <string name="revanced_sb_settings_revanced_export_user_id_warning">この設定には SponsorBlock のプライベートユーザー ID が含まれています。\n\nユーザー ID はパスワードのようなものであるため、誰とも共有しないようにしてください。\n</string>
     <string name="revanced_sb_settings_revanced_export_user_id_warning_dismiss">今後表示しない</string>
     <string name="revanced_sb_sponsorblock_connection_failure_generic">SponsorBlock は一時的に利用できません。</string>
     <string name="revanced_sb_sponsorblock_connection_failure_status">SponsorBlock は一時的に利用できません。(ステータス %d)</string>

@@ -306,11 +306,12 @@
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Рекомендовані відео</string>
     <string name="revanced_hide_low_views_video_title">Приховати відео з малою кількістю переглядів</string>
-    <string name="revanced_hide_low_views_video_summary">"Приховати відео з менш ніж 1,000 переглядів з головної стрічки, вантажені з каналів, на які не підписані."</string>
+    <string name="revanced_hide_low_views_video_summary">"Приховати відео з менш ніж 1,000 переглядів з головної стрічки, вантажені з каналів, на які не підписані.
+
+Цей фільтр може більше не працювати, натомість використовуйте \"Фільтр кількості переглядів\"."</string>
     <string name="revanced_hide_recommended_video_title">Приховати рекомендовані відео</string>
     <string name="revanced_hide_recommended_video_summary">"Приховуються такі рекомендовані відео:
 
-• Відео з тегом 'Тільки для спонсорів'.
 • Відео з фразами на кшталт 'Людей також дивилися' внизу."</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Фільтр за кількістю переглядів</string>
@@ -395,9 +396,6 @@
     <string name="revanced_hide_gray_separator_title">Приховати сірий роздільник</string>
     <string name="revanced_hide_gray_separator_summary_on">Сірі роздільники приховано.</string>
     <string name="revanced_hide_gray_separator_summary_off">Сірі роздільники показується.</string>
-    <string name="revanced_hide_snack_bar_title">Приховати панель взаємодії</string>
-    <string name="revanced_hide_snack_bar_summary_on">Панель взаємодії приховано.</string>
-    <string name="revanced_hide_snack_bar_summary_off">Панель взаємодії показується.</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">Вилучати діалогове вікно</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Вилучається діалогове вікно.
 Це не обходить вікові обмеження, а просто приймається автоматично."</string>
@@ -407,6 +405,9 @@
     <string name="revanced_change_layout_entry_3">Телефонний (Макс 480 dp)</string>
     <string name="revanced_change_layout_entry_4">Планшетний</string>
     <string name="revanced_change_layout_entry_5">Планшетний (Мін 600 dp)</string>
+    <string name="revanced_change_live_ring_click_action_title">Змінити дію натискання на кружечок наживо</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">При натисканні на кружечок наживо відкривається канал.</string>
+    <string name="revanced_change_live_ring_click_action_summary_off">При натисканні на кружечок наживо відкривається пряма трансляція.</string>
     <string name="revanced_spoof_app_version_title">Підробити версію програми</string>
     <string name="revanced_spoof_app_version_summary_on">Версію підроблено</string>
     <string name="revanced_spoof_app_version_summary_off">Версію не підроблено</string>
@@ -627,6 +628,10 @@
     <string name="revanced_hide_settings_menu_about_title">Приховати меню Про додаток</string>
     <string name="revanced_hide_settings_menu_about_summary_on">Меню Про додаток приховано.</string>
     <string name="revanced_hide_settings_menu_about_summary_off">Меню Про додаток показується.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Snack bar -->
+    <string name="revanced_hide_snack_bar_title">Приховати панель взаємодії</string>
+    <string name="revanced_hide_snack_bar_summary_on">Панель взаємодії приховано.</string>
+    <string name="revanced_hide_snack_bar_summary_off">Панель взаємодії показується.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Панель інструментів</string>
     <string name="revanced_preference_screen_toolbar_summary">Приховати або змінити компоненти, розташовані на панелі інструментів, такі як кнопки панелі інструментів, панель пошуку, заголовок.</string>
@@ -640,6 +645,15 @@
     <string name="revanced_enable_wide_search_bar_with_header_summary_on">Широка панель пошуку включно зі заголовком YouTube.</string>
     <string name="revanced_enable_wide_search_bar_with_header_summary_off">Широка панель пошуку виключає та використовує місце заголовка YouTube.</string>
     <string name="revanced_enable_wide_search_bar_in_you_tab_title">Увімкнути широку панель пошуку у вкладці Ви</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_summary_on">"Широку панель пошуку увімкнено у вкладці Ви.
+
+Для доступу до налаштувань, будь ласка, використовуйте такий шлях:
+Вкладка Ви → Перегляд каналу → Меню → Налаштування"</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_summary_off">Широку панель пошуку вимкнено у вкладці Ви.</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_user_dialog_message">"Увімкнення цього налаштування вимкне кнопку Налаштування у вкладці Ви.
+
+У цьому випадку, потрібно використовувати такий шлях для доступу до налаштувань:
+Вкладка Ви → Перегляд каналу → Меню → Налаштування"</string>
     <string name="revanced_hide_toolbar_cast_button_title">Приховати кнопку трансляції</string>
     <string name="revanced_hide_toolbar_cast_button_summary_on">Кнопку трансляції приховано.</string>
     <string name="revanced_hide_toolbar_cast_button_summary_off">Кнопку трансляції показується.</string>
@@ -783,7 +797,38 @@
     <string name="revanced_hide_thanks_button_summary_on">Кнопку Дякую приховано.</string>
     <string name="revanced_hide_thanks_button_summary_off">Кнопку Дякую показується.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
+    <string name="revanced_preference_category_hide_by_index">Приховати за індексом</string>
+    <string name="revanced_hide_action_button_index_0_title">Приховати першу кнопку</string>
+    <string name="revanced_hide_action_button_index_0_summary_on">Першу кнопку приховано.</string>
+    <string name="revanced_hide_action_button_index_0_summary_off">Першу кнопку показується.</string>
+    <string name="revanced_hide_action_button_index_1_title">Приховати другу кнопку</string>
+    <string name="revanced_hide_action_button_index_1_summary_on">Другу кнопку приховано.</string>
+    <string name="revanced_hide_action_button_index_1_summary_off">Другу кнопку показується.</string>
+    <string name="revanced_hide_action_button_index_2_title">Приховати третю кнопку</string>
+    <string name="revanced_hide_action_button_index_2_summary_on">Третю кнопку приховано.</string>
+    <string name="revanced_hide_action_button_index_2_summary_off">Третю кнопку показується.</string>
+    <string name="revanced_hide_action_button_index_3_title">Приховати четверту кнопку</string>
+    <string name="revanced_hide_action_button_index_3_summary_on">Четверту кнопку приховано.</string>
+    <string name="revanced_hide_action_button_index_3_summary_off">Четверту кнопку показується.</string>
+    <string name="revanced_hide_action_button_index_4_title">Приховати п\'яту кнопку</string>
+    <string name="revanced_hide_action_button_index_4_summary_on">П\'яту кнопку приховано.</string>
+    <string name="revanced_hide_action_button_index_4_summary_off">П\'яту кнопку показується.</string>
+    <string name="revanced_hide_action_button_index_5_title">Приховати шосту кнопку</string>
+    <string name="revanced_hide_action_button_index_5_summary_on">Шосту кнопку приховано.</string>
+    <string name="revanced_hide_action_button_index_5_summary_off">Шосту кнопку показується.</string>
+    <string name="revanced_hide_action_button_index_6_title">Приховати сьому кнопку</string>
+    <string name="revanced_hide_action_button_index_6_summary_on">Сьому кнопку приховано.</string>
+    <string name="revanced_hide_action_button_index_6_summary_off">Сьому кнопку показується.</string>
+    <string name="revanced_hide_action_button_index_7_title">Приховати восьму кнопку</string>
+    <string name="revanced_hide_action_button_index_7_summary_on">Восьму кнопку приховано.</string>
+    <string name="revanced_hide_action_button_index_7_summary_off">Восьму кнопку показується.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
+    <string name="revanced_preference_category_hide_by_index_live">Приховати за індексом у прямій трансляції</string>
+    <string name="revanced_hide_action_button_index_about_title">Про Приховати кнопку дії за індексом</string>
+    <string name="revanced_hide_action_button_index_about_summary">"Приховати кнопки дії за індексом до ініціалізації кнопок дій.
+
+- Приховування кнопок дій не залишає порожнього місця.
+- Індекс кнопок дій може не завжди бути потрібної кнопки."</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Кінематографічне освітлення</string>
     <string name="revanced_preference_screen_ambient_mode_summary">Обходити обмеження кінематографічного освітлення чи вимкнути кінематографічне освітлення.</string>
@@ -1377,6 +1422,9 @@
     <string name="revanced_shorts_custom_actions_repeat_state_summary_on">Меню Стан повторення показується.</string>
     <string name="revanced_shorts_custom_actions_repeat_state_summary_off">Меню Стан повторення приховано.</string>
     <string name="revanced_shorts_custom_actions_about_title">Про Спеціальні дії</string>
+    <string name="revanced_shorts_custom_actions_about_summary">"Ця функція все ще експериментальна, тому немає гарантії, що буде працювати.
+
+Більшість помилок неможливо виправити через обмеження на стороні клієнта, тому використовуйте лише для тестування."</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental flags -->
     <string name="revanced_enable_shorts_time_stamp_title">Увімкнути мітку часу</string>
     <string name="revanced_enable_shorts_time_stamp_summary_on">"Мітку часу увімкнено.
@@ -1785,7 +1833,7 @@
     <string name="revanced_enable_debug_buffer_logging_title">Увімкнути ведення журналу буфера налагодження</string>
     <string name="revanced_enable_debug_buffer_logging_summary_on">Журнали налагодження містять буфер.</string>
     <string name="revanced_enable_debug_buffer_logging_summary_off">Журнали налагодження не містять буфер.</string>
-    <string name="revanced_open_links_externally_title">Відкривати посилання у браузері</string>
+    <string name="revanced_open_links_externally_title">Відкривати посилання ззовні</string>
     <string name="revanced_open_links_externally_summary_on">Посилання відкриваються у зовнішньому браузері.</string>
     <string name="revanced_open_links_externally_summary_off">Посилання відкриваються у браузері додатка.</string>
     <string name="revanced_sanitize_sharing_links_title">Обробляти поширення посилань</string>

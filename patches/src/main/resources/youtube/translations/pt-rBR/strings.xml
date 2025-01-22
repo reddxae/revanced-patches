@@ -393,9 +393,6 @@ Limitação: O botão voltar na barra de ferramentas pode não funcionar."</stri
     <string name="revanced_hide_gray_separator_title">Ocultar separador cinza</string>
     <string name="revanced_hide_gray_separator_summary_on">Os separadores cinza estão ocultos.</string>
     <string name="revanced_hide_gray_separator_summary_off">Os separadores cinza serão exibidos.</string>
-    <string name="revanced_hide_snack_bar_title">Ocultar barra de busca</string>
-    <string name="revanced_hide_snack_bar_summary_on">A barra de busca está oculta.</string>
-    <string name="revanced_hide_snack_bar_summary_off">A barra de busca será exibida.</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">Remover o diálogo discricionário do visualizador</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Remover o diálogo discricionário de visualização.
 Isso não ignora a restrição de idade, apenas aceita isso automaticamente."</string>
@@ -628,6 +625,26 @@ Se essa configuração não surtir efeito, tente alternar para o modo anônimo."
     <string name="revanced_hide_settings_menu_about_title">Ocultar menu Sobre</string>
     <string name="revanced_hide_settings_menu_about_summary_on">O menu Sobre está oculto.</string>
     <string name="revanced_hide_settings_menu_about_summary_off">O menu Sobre será exibido.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Snack bar -->
+    <string name="revanced_preference_screen_snack_bar_title">Barra de busca</string>
+    <string name="revanced_preference_screen_snack_bar_summary">Ocultar ou alterar componentes relacionados à barra de busca.</string>
+    <string name="revanced_hide_snack_bar_title">Ocultar barra de busca</string>
+    <string name="revanced_hide_snack_bar_summary_on">A barra de busca está oculta.</string>
+    <string name="revanced_hide_snack_bar_summary_off">A barra de busca será exibida.</string>
+    <string name="revanced_hide_server_side_snack_bar_title">Ocultar barra de busca do servidor</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_on">A barra de busca do servidor está oculta.</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_off">A barra de busca do servidor será exibida.</string>
+    <string name="revanced_invert_snack_bar_theme_title">Inverter o tema da barra de busca</string>
+    <string name="revanced_invert_snack_bar_theme_summary_on">O tema da barra de busca está invertido.</string>
+    <string name="revanced_invert_snack_bar_theme_summary_off">O tema da barra de busca não está invertido.</string>
+    <string name="revanced_change_server_side_snack_bar_background_title">Alterar fundo da barra de busca do servidor</string>
+    <string name="revanced_change_server_side_snack_bar_background_summary_on">A cor de fundo da barra de busca do servidor foi alterada.</string>
+    <string name="revanced_change_server_side_snack_bar_background_summary_off">A cor de fundo da barra de busca do servidor não foi alterada.</string>
+    <string name="revanced_change_server_side_snack_bar_background_user_dialog_message">"Algumas barras de buscas usam um tema definido no lado do servidor, não o tema do aplicativo.
+
+Altere a cor de fundo dessas barras de busca.
+
+Se houver alterações no lado do servidor, a cor de fundo da barra de busca pode não mudar."</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Barra de ferramentas</string>
     <string name="revanced_preference_screen_toolbar_summary">Ocultar ou alterar componentes localizados na barra de ferramentas, como botões da barra de ferramentas, barra de pesquisa, cabeçalho.</string>

@@ -392,9 +392,6 @@
     <string name="revanced_hide_gray_separator_title">隱藏灰色分隔線</string>
     <string name="revanced_hide_gray_separator_summary_on">灰色分隔線已隱藏</string>
     <string name="revanced_hide_gray_separator_summary_off">灰色分隔線已顯示</string>
-    <string name="revanced_hide_snack_bar_title">隱藏彈出訊息</string>
-    <string name="revanced_hide_snack_bar_summary_on">彈出訊息已隱藏</string>
-    <string name="revanced_hide_snack_bar_summary_off">彈出訊息已顯示</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">移除查看器的自由裁量對話框</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"移除觀眾酌情觀看對話方塊。
 這項選項不會繞過年齡限制，它只會自動接受。"</string>
@@ -405,6 +402,8 @@
     <string name="revanced_change_layout_entry_4">平板電腦</string>
     <string name="revanced_change_layout_entry_5">平板電腦 (最少 600 dip)</string>
     <string name="revanced_change_live_ring_click_action_title">เปลี่ยนการกระทำคลิกวงแหวนสด</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">點擊直播按鈕 頻道將會開啟。</string>
+    <string name="revanced_change_live_ring_click_action_summary_off">點擊直播按鈕 直播將會開啟。</string>
     <string name="revanced_spoof_app_version_title">偽裝應用程式版本</string>
     <string name="revanced_spoof_app_version_summary_on">已偽裝版本</string>
     <string name="revanced_spoof_app_version_summary_off">未偽裝版本</string>
@@ -625,6 +624,10 @@
     <string name="revanced_hide_settings_menu_about_title">隱藏關於選單</string>
     <string name="revanced_hide_settings_menu_about_summary_on">關於選單已隱藏。</string>
     <string name="revanced_hide_settings_menu_about_summary_off">關於選單已顯示。</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Snack bar -->
+    <string name="revanced_hide_snack_bar_title">隱藏彈出訊息</string>
+    <string name="revanced_hide_snack_bar_summary_on">彈出訊息已隱藏</string>
+    <string name="revanced_hide_snack_bar_summary_off">彈出訊息已顯示</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">工具欄</string>
     <string name="revanced_preference_screen_toolbar_summary">隱藏或變更工具欄上的元件，例如工具欄按鈕、搜尋欄、標題</string>
@@ -638,6 +641,15 @@
     <string name="revanced_enable_wide_search_bar_with_header_summary_on">寬搜尋欄包括 YouTube 標題</string>
     <string name="revanced_enable_wide_search_bar_with_header_summary_off">寬搜尋欄不包括 YouTube 標題</string>
     <string name="revanced_enable_wide_search_bar_in_you_tab_title">在你的內容分頁中啟用寬搜尋欄</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_summary_on">"您標籤中啟用了寬搜尋欄。
+
+若要存取設置，請使用以下路徑：
+您標籤 → 檢視頻道 → 選單 → 設定"</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_summary_off">您標籤中的寬搜尋欄已停用。</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_user_dialog_message">"啟用此設定將停用您標籤中的設定按鈕。
+
+在這種情況下，您可能需要使用以下路徑來存取設定：
+您標籤 → 檢視頻道 → 選單 → 設定"</string>
     <string name="revanced_hide_toolbar_cast_button_title">隱藏螢幕投放按鈕</string>
     <string name="revanced_hide_toolbar_cast_button_summary_on">投放按鈕已隱藏</string>
     <string name="revanced_hide_toolbar_cast_button_summary_off">投放按鈕已顯示</string>
@@ -781,7 +793,38 @@
     <string name="revanced_hide_thanks_button_summary_on">感謝按鈕已隱藏</string>
     <string name="revanced_hide_thanks_button_summary_off">感謝按鈕已顯示</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
+    <string name="revanced_preference_category_hide_by_index">按索引隱藏</string>
+    <string name="revanced_hide_action_button_index_0_title">隱藏第一個按鈕</string>
+    <string name="revanced_hide_action_button_index_0_summary_on">第一個按鈕已隱藏。</string>
+    <string name="revanced_hide_action_button_index_0_summary_off">第一個按鈕已顯示。</string>
+    <string name="revanced_hide_action_button_index_1_title">隱藏第二個按鈕</string>
+    <string name="revanced_hide_action_button_index_1_summary_on">第二個按鈕已隱藏。</string>
+    <string name="revanced_hide_action_button_index_1_summary_off">第二個按鈕已顯示。</string>
+    <string name="revanced_hide_action_button_index_2_title">隱藏第三個按鈕</string>
+    <string name="revanced_hide_action_button_index_2_summary_on">第三個按鈕已隱藏。</string>
+    <string name="revanced_hide_action_button_index_2_summary_off">第三個按鈕已顯示。</string>
+    <string name="revanced_hide_action_button_index_3_title">隱藏第四個按鈕</string>
+    <string name="revanced_hide_action_button_index_3_summary_on">第四個按鈕已隱藏。</string>
+    <string name="revanced_hide_action_button_index_3_summary_off">第四個按鈕已顯示。</string>
+    <string name="revanced_hide_action_button_index_4_title">隱藏第五個按鈕</string>
+    <string name="revanced_hide_action_button_index_4_summary_on">第五個按鈕已隱藏。</string>
+    <string name="revanced_hide_action_button_index_4_summary_off">第五個按鈕已顯示。</string>
+    <string name="revanced_hide_action_button_index_5_title">隱藏第六個按鈕</string>
+    <string name="revanced_hide_action_button_index_5_summary_on">第六個按鈕已隱藏。</string>
+    <string name="revanced_hide_action_button_index_5_summary_off">第六個按鈕已顯示。</string>
+    <string name="revanced_hide_action_button_index_6_title">隱藏第七個按鈕</string>
+    <string name="revanced_hide_action_button_index_6_summary_on">第七個按鈕已隱藏。</string>
+    <string name="revanced_hide_action_button_index_6_summary_off">第七個按鈕已顯示。</string>
+    <string name="revanced_hide_action_button_index_7_title">隱藏第八個按鈕</string>
+    <string name="revanced_hide_action_button_index_7_summary_on">第八個按鈕已隱藏。</string>
+    <string name="revanced_hide_action_button_index_7_summary_off">第八個按鈕已顯示。</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
+    <string name="revanced_preference_category_hide_by_index_live">在直播串流中按索引隱藏</string>
+    <string name="revanced_hide_action_button_index_about_title">關於按索引隱藏操作按鈕</string>
+    <string name="revanced_hide_action_button_index_about_summary">"在初始化操作按鈕之前按下索引隱藏操作按鈕。
+
+- 隱藏操作按鈕，不留任何空白。
+- 操作按鈕的索引可能不會總是相同的按鈕。"</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">微光模式</string>
     <string name="revanced_preference_screen_ambient_mode_summary">繞過微光模式限制或停用微光模式</string>
@@ -1371,6 +1414,9 @@
     <string name="revanced_shorts_custom_actions_repeat_state_summary_on">重複狀態選單已顯示。</string>
     <string name="revanced_shorts_custom_actions_repeat_state_summary_off">重複狀態選單被已隱藏。</string>
     <string name="revanced_shorts_custom_actions_about_title">關於自訂操作</string>
+    <string name="revanced_shorts_custom_actions_about_summary">"此功能仍處於實驗階段，因此不能保證它能完美運作。
+
+由於用戶端限制，大多數錯誤無法修復，因此僅將其用於測試目的。"</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental flags -->
     <string name="revanced_enable_shorts_time_stamp_title">啟用時間戳</string>
     <string name="revanced_enable_shorts_time_stamp_summary_on">"已知問題：由於這是 Google 開發階段的功能，因此佈局可能會被破壞。"</string>

@@ -165,7 +165,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
 • 맞춤 실시간 스트림
 • 라이브 쇼핑
 • 보건 정보 출처, etc."</string>
-    <string name="revanced_hide_carousel_shelf_summary_off">다음 선반이 숨겨집니다:\n• 다시 듣기\n• 다시 시청하기\n• 이어서 시청하기\n• 채널 더보기\n• 이 게임 더보기\n• 주요 뉴스, 뉴스 속보\n• 맞춤 실시간 스트림\n• 라이브 쇼핑\n• 보건 정보 출처, etc.</string>
+    <string name="revanced_hide_carousel_shelf_summary_off">다음 선반이 표시됩니다:\n• 다시 듣기\n• 다시 시청하기\n• 이어서 시청하기\n• 채널 더보기\n• 이 게임 더보기\n• 주요 뉴스, 뉴스 속보\n• 맞춤 실시간 스트림\n• 라이브 쇼핑\n• 보건 정보 출처, etc.</string>
     <string name="revanced_hide_chips_shelf_title">더 많은 주제 탐색 선반 숨기기</string>
     <string name="revanced_hide_chips_shelf_on">더 많은 주제 탐색 선반이 숨겨집니다.</string>
     <string name="revanced_hide_chips_shelf_off">더 많은 주제 탐색 선반이 표시됩니다.</string>
@@ -310,7 +310,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_low_views_video_title">조회수가 낮은 추천 동영상 숨기기</string>
     <string name="revanced_hide_low_views_video_summary">"구독하지 않는 채널에서 업로드한 동영상 중 조회수가 1,000회 미만인 동영상이 홈 피드에서 숨겨집니다.
 
-이 필터는 더 이상 작동하지 않을 수 있으므로 대신 '조회 수 필터'를 사용하세요."</string>
+이 필터는 더 이상 작동하지 않을 수 있으므로 대신 '조회수 필터'를 사용하세요."</string>
     <string name="revanced_hide_recommended_video_title">추천 동영상 숨기기</string>
     <string name="revanced_hide_recommended_video_summary">"다음 추천 동영상이 숨겨집니다:
 
@@ -399,9 +399,6 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_gray_separator_title">회색 구분선 숨기기</string>
     <string name="revanced_hide_gray_separator_summary_on">동영상들 사이에서 회색 구분선이 숨겨집니다.</string>
     <string name="revanced_hide_gray_separator_summary_off">동영상들 사이에서 회색 구분선이 표시됩니다.</string>
-    <string name="revanced_hide_snack_bar_title">스낵바(팝업 메시지바) 숨기기</string>
-    <string name="revanced_hide_snack_bar_summary_on">스낵바(팝업 메시지바)가 숨겨집니다.</string>
-    <string name="revanced_hide_snack_bar_summary_off">스낵바(팝업 메시지바)가 표시됩니다.</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">시청 경고 다이얼로그 제거하기</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"• 이 설정은 다이얼로그를 자동으로 허용하기만 하며, 연령 제한(성인인증 절차)을 우회할 수 없습니다.\n• 즉, 성인인증이 필요한 동영상에서 인증을 하려 할 때, 휴대폰 번호가 필요하다고 알려주는 소형 팝업창(다이얼로그) 없이 바로 휴대폰 번호 인증 페이지가 표시됩니다.\n• '당신은 혼자가 아닙니다' 페이지는 제거할 수 없으며, 해당 페이지에서 '확인하기' 버튼이 표시되지 않는다면 이 설정이 아닌 플레이어 설정에서 '정보 패널 숨기기'를 비활성화해야 합니다."</string>
     <string name="revanced_change_layout_title">레이아웃 변경하기</string>
@@ -411,8 +408,8 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_change_layout_entry_4">태블릿</string>
     <string name="revanced_change_layout_entry_5">태블릿 (최소 너비: 600 dp)</string>
     <string name="revanced_change_live_ring_click_action_title">\'라이브 링 누르기\' 액션 변경하기</string>
-    <string name="revanced_change_live_ring_click_action_summary_on">라이브 링을 눌렀을 경우에 채널 페이지로 연결됩니다.</string>
-    <string name="revanced_change_live_ring_click_action_summary_off">라이브 링을 눌렀을 경우에 실시간 스트림 동영상으로 연결됩니다.</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">라이브 링이 있는 채널 아바타를 눌렀을 경우에 채널 페이지로 연결됩니다.\n\n• Shorts 실시간 스트림일 경우에는 채널 페이지로 연결되지 않을 수 있습니다.</string>
+    <string name="revanced_change_live_ring_click_action_summary_off">라이브 링이 있는 채널 아바타를 눌렀을 경우에 실시간 스트림 동영상으로 연결됩니다.</string>
     <string name="revanced_spoof_app_version_title">앱 버전 변경하기</string>
     <string name="revanced_spoof_app_version_summary_on">앱 버전을 변경합니다.</string>
     <string name="revanced_spoof_app_version_summary_off">앱 버전을 변경하지 않습니다.</string>
@@ -628,6 +625,26 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_settings_menu_about_title">정보 메뉴 숨기기</string>
     <string name="revanced_hide_settings_menu_about_summary_on">정보 메뉴가 숨겨집니다.</string>
     <string name="revanced_hide_settings_menu_about_summary_off">정보 메뉴가 표시됩니다.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Snack bar -->
+    <string name="revanced_preference_screen_snack_bar_title">스낵바 (팝업메세지바)</string>
+    <string name="revanced_preference_screen_snack_bar_summary">스낵바와 관련된 구성요소를 숨기거나 변경할 수 있습니다.</string>
+    <string name="revanced_hide_snack_bar_title">스낵바 숨기기</string>
+    <string name="revanced_hide_snack_bar_summary_on">스낵바가 숨겨집니다.</string>
+    <string name="revanced_hide_snack_bar_summary_off">스낵바가 표시됩니다.</string>
+    <string name="revanced_hide_server_side_snack_bar_title">서버 측 스낵바 숨기기</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_on">서버 측 스낵바가 숨겨집니다.</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_off">서버 측 스낵바가 표시됩니다.</string>
+    <string name="revanced_invert_snack_bar_theme_title">스낵바 테마 반전시키기</string>
+    <string name="revanced_invert_snack_bar_theme_summary_on">스낵바 테마를 반전시킵니다.</string>
+    <string name="revanced_invert_snack_bar_theme_summary_off">스낵바 테마를 반전시키지 않습니다.</string>
+    <string name="revanced_change_server_side_snack_bar_background_title">서버 측 스낵바 배경 변경하기</string>
+    <string name="revanced_change_server_side_snack_bar_background_summary_on">서버 측 스낵바 배경 색상을 변경합니다 </string>
+    <string name="revanced_change_server_side_snack_bar_background_summary_off">서버 측 스낵바 배경 색상을 변경하지 않습니다.</string>
+    <string name="revanced_change_server_side_snack_bar_background_user_dialog_message">"일부 스낵바는 앱 테마가 아닌 서버 측에 정의된 테마가 사용됩니다.
+
+이러한 스낵바 배경 색상을 변경할 수 있습니다.
+
+서버 측 변경 사항이 있는 경우에는 스낵바 배경 색상이 변경되지 않을 수 있습니다."</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">툴바</string>
     <string name="revanced_preference_screen_toolbar_summary">툴바에서 버튼, 검색창, 헤더와 같은 구성요소를 숨기거나 변경할 수 있습니다.</string>
@@ -641,15 +658,15 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_enable_wide_search_bar_with_header_summary_on">YouTube 헤더가 있는 넓은 검색창을 활성화합니다.</string>
     <string name="revanced_enable_wide_search_bar_with_header_summary_off">YouTube 헤더가 없는 넓은 검색창을 활성화합니다.</string>
     <string name="revanced_enable_wide_search_bar_in_you_tab_title">내 페이지에서 넓은 검색창 활성화하기</string>
-    <string name="revanced_enable_wide_search_bar_in_you_tab_summary_on">"'내 페이지' 탭에서 넓은 검색창을 활성화합니다.
+    <string name="revanced_enable_wide_search_bar_in_you_tab_summary_on">"내 페이지에서 넓은 검색창을 활성화합니다.
 
 설정 메뉴에 접근하려면, 다음 경로를 사용하새요:
-'내 페이지' 탭 → 채널 보기 → 메뉴 더보기 → 설정"</string>
-    <string name="revanced_enable_wide_search_bar_in_you_tab_summary_off">\'내 페이지\' 탭에서 넓은 검색창을 비활성화합니다.</string>
-    <string name="revanced_enable_wide_search_bar_in_you_tab_user_dialog_message">"이 설정을 활성화하면 '내 페이지' 탭의 설정 버튼이 비활성화됩니다.
+내 페이지 → 채널 보기 → 메뉴 더보기 (툴바) → 설정"</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_summary_off">내 페이지에서 넓은 검색창을 비활성화합니다.</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_user_dialog_message">"이 설정을 활성화하면 내 페이지의 설정 버튼이 비활성화됩니다.
 
-이 경우 다음 경로를 사용하여 설정에 접근할 수 있습니다:
-'내 페이지' 탭 → 채널 보기 → 메뉴 더보기 → 설정"</string>
+이 경우에는 다음 경로를 사용하여 설정에 접근할 수 있습니다:
+내 페이지 → 채널 보기 → 메뉴 더보기 (툴바) → 설정"</string>
     <string name="revanced_hide_toolbar_cast_button_title">크롬캐스트 버튼 숨기기</string>
     <string name="revanced_hide_toolbar_cast_button_summary_on">크롬캐스트 버튼이 숨겨집니다.</string>
     <string name="revanced_hide_toolbar_cast_button_summary_off">크롬캐스트 버튼이 표시됩니다.</string>
@@ -794,7 +811,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_thanks_button_summary_on">Thanks 버튼이 숨겨집니다.</string>
     <string name="revanced_hide_thanks_button_summary_off">Thanks 버튼이 표시됩니다.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
-    <string name="revanced_preference_category_hide_by_index">인덱스로 숨기기</string>
+    <string name="revanced_preference_category_hide_by_index">인덱스로 액션 버튼 숨기기</string>
     <string name="revanced_hide_action_button_index_0_title">첫 번째 버튼 숨기기</string>
     <string name="revanced_hide_action_button_index_0_summary_on">첫 번째 버튼이 숨겨집니다.</string>
     <string name="revanced_hide_action_button_index_0_summary_off">첫 번째 버튼이 표시됩니다.</string>

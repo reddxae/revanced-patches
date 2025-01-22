@@ -19,6 +19,59 @@
     <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s не е инсталиран.
 Моля, изтеглете %2$s от уебсайта."</string>
     <string name="revanced_external_downloader_not_installed_warning">%s не е инсталирано. Моля инсталирайте го.</string>
+    <string name="revanced_language_title">RVX език</string>
+    <string name="revanced_language_DEFAULT">Език на приложението</string>
+    <string name="revanced_language_AR">Арабски</string>
+    <string name="revanced_language_AZ">Азербайджански</string>
+    <string name="revanced_language_BG">Български</string>
+    <string name="revanced_language_BN">Бенгалски</string>
+    <string name="revanced_language_CA">Каталонски</string>
+    <string name="revanced_language_CS">Чешки</string>
+    <string name="revanced_language_DA">Датски</string>
+    <string name="revanced_language_DE">Немски</string>
+    <string name="revanced_language_EL">Гръцки</string>
+    <string name="revanced_language_EN">Английски</string>
+    <string name="revanced_language_ES">Испански</string>
+    <string name="revanced_language_ET">Естонски</string>
+    <string name="revanced_language_FA">Персийски</string>
+    <string name="revanced_language_FI">Финландски</string>
+    <string name="revanced_language_FR">Френски</string>
+    <string name="revanced_language_GU">Гуджарати</string>
+    <string name="revanced_language_HI">Хинди</string>
+    <string name="revanced_language_HR">Хърватски</string>
+    <string name="revanced_language_HU">Унгарски</string>
+    <string name="revanced_language_ID">Индонезийски</string>
+    <string name="revanced_language_IT">Италиански</string>
+    <string name="revanced_language_JA">Японски</string>
+    <string name="revanced_language_KK">Казахстански</string>
+    <string name="revanced_language_KO">Корейски</string>
+    <string name="revanced_language_LT">Литовски</string>
+    <string name="revanced_language_LV">Латвийски</string>
+    <string name="revanced_language_MK">Македонски</string>
+    <string name="revanced_language_MN">Монголски</string>
+    <string name="revanced_language_MR">Маратхи</string>
+    <string name="revanced_language_MS">Малайски</string>
+    <string name="revanced_language_MY">Бирмански</string>
+    <string name="revanced_language_NL">Холандски</string>
+    <string name="revanced_language_OR">Ория</string>
+    <string name="revanced_language_PA">Пенджабски</string>
+    <string name="revanced_language_PL">Полски</string>
+    <string name="revanced_language_PT">Португалски</string>
+    <string name="revanced_language_RO">Румънски</string>
+    <string name="revanced_language_RU">Руски</string>
+    <string name="revanced_language_SK">Словашки</string>
+    <string name="revanced_language_SL">Словенски</string>
+    <string name="revanced_language_SR">Сръбски</string>
+    <string name="revanced_language_SV">Шведски</string>
+    <string name="revanced_language_SW">Суахили</string>
+    <string name="revanced_language_TA">Тамилски</string>
+    <string name="revanced_language_TE">Телугу</string>
+    <string name="revanced_language_TH">Тайландски</string>
+    <string name="revanced_language_TR">Турски</string>
+    <string name="revanced_language_UK">Украински</string>
+    <string name="revanced_language_UR">Урду</string>
+    <string name="revanced_language_VI">Виетнамски</string>
+    <string name="revanced_language_ZH">Китайски</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Реклами</string>
     <string name="revanced_hide_fullscreen_ads_title">Скриване на рекламите в режим на цял екран</string>
@@ -98,6 +151,14 @@
     <string name="revanced_hide_feed_captions_button_on">Бутона за субтити е скрит.</string>
     <string name="revanced_hide_feed_captions_button_off">Бутона за субтити се показва.</string>
     <string name="revanced_hide_carousel_shelf_title">Скриване на рафта с Препоръчани</string>
+    <string name="revanced_hide_carousel_shelf_summary_on">"Скрива рафтове:
+• Извънредни новини
+• Продължете да разглеждате
+• Още канали
+• Слушайте отново
+• Покупки
+• Гледайте отново"</string>
+    <string name="revanced_hide_carousel_shelf_summary_off">Показани са рафтовете.</string>
     <string name="revanced_hide_chips_shelf_title">Скриване на филмовите рафтове</string>
     <string name="revanced_hide_chips_shelf_on">Филмовите рафтове са скрити.</string>
     <string name="revanced_hide_chips_shelf_off">Филмовите рафтове се показват.</string>
@@ -278,6 +339,7 @@
     <string name="revanced_change_start_page_entry_browse">Разглеждане на канала</string>
     <string name="revanced_change_start_page_entry_courses">Курсове / Обучение</string>
     <string name="revanced_change_start_page_entry_explore">Проучване</string>
+    <string name="revanced_change_start_page_entry_fashion">Мода &amp; Красота</string>
     <string name="revanced_change_start_page_entry_gaming">Игри</string>
     <string name="revanced_change_start_page_entry_history">История</string>
     <string name="revanced_change_start_page_entry_library">Библиотека</string>
@@ -285,8 +347,11 @@
     <string name="revanced_change_start_page_entry_live">На Живо</string>
     <string name="revanced_change_start_page_entry_movies">Филми</string>
     <string name="revanced_change_start_page_entry_music">Музика</string>
+    <string name="revanced_change_start_page_entry_news">Новини</string>
     <string name="revanced_change_start_page_entry_notifications">Известия</string>
+    <string name="revanced_change_start_page_entry_podcasts">Подкасти</string>
     <string name="revanced_change_start_page_entry_search">Търсене</string>
+    <string name="revanced_change_start_page_entry_shopping">Пазаруване</string>
     <string name="revanced_change_start_page_entry_shorts">Shorts</string>
     <string name="revanced_change_start_page_entry_sports">Спорт</string>
     <string name="revanced_change_start_page_entry_subscriptions">Абонаменти</string>
@@ -319,9 +384,6 @@
     <string name="revanced_hide_gray_separator_title">Скриване на сивия разделител</string>
     <string name="revanced_hide_gray_separator_summary_on">Сивите разделители са скрити.</string>
     <string name="revanced_hide_gray_separator_summary_off">Сивите разделители са показани.</string>
-    <string name="revanced_hide_snack_bar_title">Скриване на лентата за състояние</string>
-    <string name="revanced_hide_snack_bar_summary_on">Лентата на състоянието е скрита.</string>
-    <string name="revanced_hide_snack_bar_summary_off">Лентата на състоянието се показва.</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">Прозорец за възрастово ограничение</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Премахва диалоговите прозорци. Това не заобикаля възрастовите ограничения, но ги приема автоматично."</string>
     <string name="revanced_change_layout_title">Промяна на резолюция</string>
@@ -330,6 +392,9 @@
     <string name="revanced_change_layout_entry_3">Телефон (Max 480 dip)</string>
     <string name="revanced_change_layout_entry_4">Таблет</string>
     <string name="revanced_change_layout_entry_5">Таблет (Мин 600 dip)</string>
+    <string name="revanced_change_live_ring_click_action_title">Действие на кликване върху точка за предаване на живо</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">Каналът се отваря, когато се щракне върху пръстена на живо.</string>
+    <string name="revanced_change_live_ring_click_action_summary_off">Потокът на живо се отваря, когато се щракне върху пръстена на живо.</string>
     <string name="revanced_spoof_app_version_title">Променете версията на приложението</string>
     <string name="revanced_spoof_app_version_summary_on">Подправена версия</string>
     <string name="revanced_spoof_app_version_summary_off">Не подправена версия</string>
@@ -498,6 +563,9 @@
     <string name="revanced_hide_settings_menu_data_saving_title">Икономия на данни</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_on">Менюто за икономия на данни е скрито.</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_off">Менюто за икономия на данни се показва.</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_title">Меню за автоматично пускане или възпроизвеждане</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_summary_on">Менюто е скрито.</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_summary_off">Менюто се показва.</string>
     <string name="revanced_hide_settings_menu_video_quality_title">Меню „Предпочитания за качество на видеото“</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_on">Менюто ескрито.</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_off">Менюто се показва.</string>
@@ -543,6 +611,12 @@
     <string name="revanced_hide_settings_menu_about_title">Скрийте менюто „Относно“</string>
     <string name="revanced_hide_settings_menu_about_summary_on">Менюто е скрито.</string>
     <string name="revanced_hide_settings_menu_about_summary_off">Менюто се пказва.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Snack bar -->
+    <string name="revanced_preference_screen_snack_bar_title">Snack bar (долната лента със съобщения)</string>
+    <string name="revanced_preference_screen_snack_bar_summary">Скрива или модифицира компоненти, свързани със снекбара (бялата лента, която се появява в долната част, когато промените качеството на изображението и т.н.).</string>
+    <string name="revanced_hide_snack_bar_title">Скриване на лентата за състояние</string>
+    <string name="revanced_hide_snack_bar_summary_on">Лентата на състоянието е скрита.</string>
+    <string name="revanced_hide_snack_bar_summary_off">Лентата на състоянието се показва.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Лента с инструменти</string>
     <string name="revanced_preference_screen_toolbar_summary">Скрива или променя елементи, разположени в лентата с инструменти, като бутони на лентата с инструменти, лента за търсене, заглавия.</string>
@@ -556,6 +630,15 @@
     <string name="revanced_enable_wide_search_bar_with_header_summary_on">Логото на YouTube се появява до широката лента за търсене.</string>
     <string name="revanced_enable_wide_search_bar_with_header_summary_off">Широка лента за търсене замества логото на YouTube.</string>
     <string name="revanced_enable_wide_search_bar_in_you_tab_title">Активирайте широката лента за търсене в раздела \"Вие\"</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_summary_on">"Широката лента за търсене е активирана в раздела Вие.
+
+За достъп до настройките, моля, използвайте следния път:
+Вие → Преглед на канала → Меню → Настройки"</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_summary_off">Широката лента за търсене е деактивирана в раздела Вие.</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_user_dialog_message">"Тази опция ще деактивира бутона \"Настройки\" в раздела \"Вие\" 
+
+Използвайте следната последователност в настройките: 
+раздел \"Вие\" -> Страница на канала -> Меню -> Настройки"</string>
     <string name="revanced_hide_toolbar_cast_button_title">Скриване на бутона за предаване на Тв</string>
     <string name="revanced_hide_toolbar_cast_button_summary_on">Бутонът за предаване е скрит.</string>
     <string name="revanced_hide_toolbar_cast_button_summary_off">Бутонът за предаване се показва.</string>
@@ -698,6 +781,12 @@
     <string name="revanced_hide_thanks_button_summary_on">Бутона за благодарност е скрит.</string>
     <string name="revanced_hide_thanks_button_summary_off">Бутона за благодарност се показва.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
+    <string name="revanced_hide_action_button_index_2_title">Скриване на третия бутон</string>
+    <string name="revanced_hide_action_button_index_2_summary_on">Бутона е скрит.</string>
+    <string name="revanced_hide_action_button_index_2_summary_off">Бутона се показва.</string>
+    <string name="revanced_hide_action_button_index_3_title">Скриване на четвъртия бутон</string>
+    <string name="revanced_hide_action_button_index_3_summary_on">Бутона е скрит.</string>
+    <string name="revanced_hide_action_button_index_3_summary_off">Бутона се показва.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Подсветка около видеото</string>
@@ -1741,6 +1830,8 @@
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">"Android TV
 <small>(Изисква се влизане)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr_no_auth">"Android VR
+<small>(Няма удостоверение)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
 <small>(Необходим PoToken)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS
@@ -1762,6 +1853,7 @@ AVC има максимална разделителна способност о
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Показване в \"Разширени статистики\"</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Клиентът, използван за получаване на данни за потока, се показва в Статистика за системни администратори.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Клиентът, използван за получаване на данни за поток, е скрит в Статистика за системни администратори.</string>
+    <string name="revanced_spoof_streaming_data_language_title">VR език по подразбиране на аудиопотока</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <string name="revanced_preference_category_po_token_visitor_data">PoToken / VisitorData</string>
     <string name="revanced_spoof_streaming_data_po_token_title">PoToken</string>

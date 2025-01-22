@@ -322,9 +322,6 @@
     <string name="revanced_hide_gray_separator_title">隐藏灰色分隔符</string>
     <string name="revanced_hide_gray_separator_summary_on">灰色分隔符已隐藏</string>
     <string name="revanced_hide_gray_separator_summary_off">灰色分隔符已显示</string>
-    <string name="revanced_hide_snack_bar_title">隐藏弹出消息</string>
-    <string name="revanced_hide_snack_bar_summary_on">弹出消息已隐藏</string>
-    <string name="revanced_hide_snack_bar_summary_off">弹出消息已显示</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">移除查看器的自由裁量对话框</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"移除查看器的自由裁量对话框
 这不会绕过年龄限制它只会自动同意"</string>
@@ -518,6 +515,10 @@
     <string name="revanced_hide_settings_menu_about_title">隐藏关于菜单</string>
     <string name="revanced_hide_settings_menu_about_summary_on">关于菜单已隐藏</string>
     <string name="revanced_hide_settings_menu_about_summary_off">关于菜单已显示</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Snack bar -->
+    <string name="revanced_hide_snack_bar_title">隐藏弹出消息</string>
+    <string name="revanced_hide_snack_bar_summary_on">弹出消息已隐藏</string>
+    <string name="revanced_hide_snack_bar_summary_off">弹出消息已显示</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">工具栏</string>
     <string name="revanced_preference_screen_toolbar_summary">隐藏或更改工具栏上的组件，如工具栏按钮、搜索栏、标题</string>

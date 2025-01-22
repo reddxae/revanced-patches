@@ -394,9 +394,6 @@ Nota: il pulsante Indietro della barra degli strumenti potrebbe non funzionare."
     <string name="revanced_hide_gray_separator_title">Nascondi i separatori grigi</string>
     <string name="revanced_hide_gray_separator_summary_on">I separatori grigi sono nascosti.</string>
     <string name="revanced_hide_gray_separator_summary_off">I separatori grigi sono visibili.</string>
-    <string name="revanced_hide_snack_bar_title">Nascondi le notifiche snackbar</string>
-    <string name="revanced_hide_snack_bar_summary_on">Le notifiche snackbar sono nascoste.</string>
-    <string name="revanced_hide_snack_bar_summary_off">Le notifiche snackbar sono visibili.</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">Rimuovi la finestra sulla discrezione dello spettatore</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Rimuove la finestra sulla discrezione dello spettatore.
 Nota: questo non bypassa la restrizione di età, ma la accetta automaticamente."</string>
@@ -630,6 +627,26 @@ Se questa impostazione non ha effetto, prova a passare alla navigazione in incog
     <string name="revanced_hide_settings_menu_about_title">Nascondi il menù Informazioni</string>
     <string name="revanced_hide_settings_menu_about_summary_on">Il menù Informazioni è nascosto.</string>
     <string name="revanced_hide_settings_menu_about_summary_off">Il menù Informazioni è visibile.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Snack bar -->
+    <string name="revanced_preference_screen_snack_bar_title">Notifiche snackbar</string>
+    <string name="revanced_preference_screen_snack_bar_summary">Personalizza i componenti delle notifiche snackbar.</string>
+    <string name="revanced_hide_snack_bar_title">Nascondi le notifiche snackbar</string>
+    <string name="revanced_hide_snack_bar_summary_on">Le notifiche snackbar sono nascoste.</string>
+    <string name="revanced_hide_snack_bar_summary_off">Le notifiche snackbar sono visibili.</string>
+    <string name="revanced_hide_server_side_snack_bar_title">Nascondi le notifiche snackbar lato server</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_on">Le notifiche snackbar lato server sono nascoste.</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_off">Le notifiche snackbar lato server sono visibili.</string>
+    <string name="revanced_invert_snack_bar_theme_title">Inverti il tema delle notifiche snackbar</string>
+    <string name="revanced_invert_snack_bar_theme_summary_on">Il tema delle notifiche snackbar è invertito.</string>
+    <string name="revanced_invert_snack_bar_theme_summary_off">Il tema delle notifiche snackbar non è invertito.</string>
+    <string name="revanced_change_server_side_snack_bar_background_title">Cambia lo sfondo delle notifiche snackbar lato server</string>
+    <string name="revanced_change_server_side_snack_bar_background_summary_on">Lo sfondo delle notifiche snackbar lato server è cambiato.</string>
+    <string name="revanced_change_server_side_snack_bar_background_summary_off">Lo sfondo delle notifiche snackbar lato server non è cambiato.</string>
+    <string name="revanced_change_server_side_snack_bar_background_user_dialog_message">"Alcune notifiche snackbar usano un tema definito sul lato server, non sul tema dell'app.
+
+Cambia il colore di sfondo di queste notifiche.
+
+Se ci sono cambiamenti sul lato server, il colore potrebbe non cambiare."</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Barra degli strumenti</string>
     <string name="revanced_preference_screen_toolbar_summary">Personalizza i componenti della barra degli strumenti, come la barra di ricerca, i pulsanti e l\'intestazione.</string>
@@ -824,7 +841,7 @@ Impostazioni → Riproduzione automatica / Riproduzione → Riproduci automatic.
     <string name="revanced_hide_action_button_index_7_summary_off">L\'ottavo pulsante è visibile.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
     <string name="revanced_preference_category_hide_by_index_live">Nascondi in base all\'indice nei video live</string>
-    <string name="revanced_hide_action_button_index_about_title">Nascondi i pulsanti di azione in base all\'indice</string>
+    <string name="revanced_hide_action_button_index_about_title">Informazioni sul nascondere in base all\'indice</string>
     <string name="revanced_hide_action_button_index_about_summary">"Nascondi i pulsanti di azione in base al loro indice prima che vengano inizializzati.
 
 Nota: in questo modo non ci saranno spazi vuoti tra i pulsanti, ma l'indice potrebbe non corrispondere sempre allo stesso pulsante."</string>

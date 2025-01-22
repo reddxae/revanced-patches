@@ -306,11 +306,12 @@
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">الفيديو الموصى به</string>
     <string name="revanced_hide_low_views_video_title">إخفاء فيديو المشاهدات المنخفضة</string>
-    <string name="revanced_hide_low_views_video_summary">"إخفاء الفيديوهات التي حصلت على أقل من 1000 مشاهدة من موجز الصفحة الرئيسية التي تم تحميلها من القنوات غير المشترك بها."</string>
+    <string name="revanced_hide_low_views_video_summary">"إخفاء الفيديوهات التي حصلت على أقل من 1000 مشاهدة من موجز الصفحة الرئيسية التي تم تحميلها من القنوات غير المشترك بها.
+
+قد لا يعمل هذا الفلتر بعد الآن، استخدم \"فلتر عدد المشاهدات\" بدلاً من ذلك."</string>
     <string name="revanced_hide_recommended_video_title">إخفاء الفيديوهات الموصى بها</string>
     <string name="revanced_hide_recommended_video_summary">"يخفي الفيديوهات الموصى بها التالية:
 
-• الفيديوهات التي تحمل علامة للأعضاء فقط.
 • فيديوهات تحتوي على عبارات مثل 'شاهد الأشخاص أيضًا' أسفلها."</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">تصفية عدد المشاهدات</string>
@@ -395,9 +396,6 @@
     <string name="revanced_hide_gray_separator_title">إخفاء الفواصل الرمادية</string>
     <string name="revanced_hide_gray_separator_summary_on">تم إخفاء الفواصل الرمادية.</string>
     <string name="revanced_hide_gray_separator_summary_off">يتم عرض الفواصل الرمادية.</string>
-    <string name="revanced_hide_snack_bar_title">إخفاء شريط Snack Bar</string>
-    <string name="revanced_hide_snack_bar_summary_on">تم إخفاء شريط Snack Bar.</string>
-    <string name="revanced_hide_snack_bar_summary_off">يتم عرض شريط Snack Bar.</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">إزالة مربع حوار تقدير المشاهد</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"يزيل مربع حوار تقدير المشاهد. هذا لا يتجاوز القيود العمرية. إنه يقبل ذلك تلقائيًا."</string>
     <string name="revanced_change_layout_title">تغيير التخطيط</string>
@@ -406,6 +404,9 @@
     <string name="revanced_change_layout_entry_3">الجوّال (الحد الأقصى 480 dp)</string>
     <string name="revanced_change_layout_entry_4">الجهاز اللوحي</string>
     <string name="revanced_change_layout_entry_5">الجهاز اللوحي (الحد الأدنى 600 dp)</string>
+    <string name="revanced_change_live_ring_click_action_title">تغيير إجراء النقر على البث المباشر</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">يتم فتح القناة عند النقر على الحلقة المباشرة.</string>
+    <string name="revanced_change_live_ring_click_action_summary_off">يتم فتح البث المباشر عند النقر على الحلقة المباشرة.</string>
     <string name="revanced_spoof_app_version_title">إصدار تطبيق وهمي</string>
     <string name="revanced_spoof_app_version_summary_on">تم تغيير اصدار التطبيق</string>
     <string name="revanced_spoof_app_version_summary_off">لم يتم تغيير اصدار التطبيق</string>
@@ -626,6 +627,26 @@
     <string name="revanced_hide_settings_menu_about_title">إخفاء قائمة لمحة</string>
     <string name="revanced_hide_settings_menu_about_summary_on">تم إخفاء قائمة لمحة.</string>
     <string name="revanced_hide_settings_menu_about_summary_off">يتم عرض قائمة لمحة.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Snack bar -->
+    <string name="revanced_preference_screen_snack_bar_title">Snack Bar</string>
+    <string name="revanced_preference_screen_snack_bar_summary">إخفاء أو تغيير المكونات المتعلقة بشريط Snack Bar.</string>
+    <string name="revanced_hide_snack_bar_title">إخفاء شريط Snack Bar</string>
+    <string name="revanced_hide_snack_bar_summary_on">تم إخفاء شريط Snack Bar.</string>
+    <string name="revanced_hide_snack_bar_summary_off">يتم عرض شريط Snack Bar.</string>
+    <string name="revanced_hide_server_side_snack_bar_title">إخفاء شريط Snack Bar على جانب الخادم</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_on">تم إخفاء شريط Snack Bar على جانب الخادم.</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_off">يتم عرض شريط Snack Bar على جانب الخادم.</string>
+    <string name="revanced_invert_snack_bar_theme_title">عكس سمة شريط Snack Bar</string>
+    <string name="revanced_invert_snack_bar_theme_summary_on">يتم عكس سمة شريط Snack Bar.</string>
+    <string name="revanced_invert_snack_bar_theme_summary_off">لا يتم عكس سمة شريط Snack Bar.</string>
+    <string name="revanced_change_server_side_snack_bar_background_title">تغيير خلفية شريط Snack Bar على جانب الخادم</string>
+    <string name="revanced_change_server_side_snack_bar_background_summary_on">تم تغيير لون الخلفية لشريط Snack Bar على جانب الخادم.</string>
+    <string name="revanced_change_server_side_snack_bar_background_summary_off">لا يتم تغيير لون الخلفية لشريط Snack Bar على جانب الخادم.</string>
+    <string name="revanced_change_server_side_snack_bar_background_user_dialog_message">"تستخدم بعض شرائط Snack Bar سمة محددة على جانب الخادم، وليس سمة التطبيق.
+
+غيّر لون الخلفية لشرائط Snack Bar هذه.
+
+إذا كانت هناك تغييرات على جانب الخادم، فقد لا يتغير لون خلفية شريط Snack Bar."</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">شريط الأدوات</string>
     <string name="revanced_preference_screen_toolbar_summary">إخفاء أو تغيير المكونات الموجودة على شريط الأدوات، مثل شريط الأدوات وأزرار شريط الأدوات والعلامة.</string>
@@ -639,6 +660,15 @@
     <string name="revanced_enable_wide_search_bar_with_header_summary_on">تم تمكين شريط البحث العريض جنبًا إلى جنب مع علامة YouTube.</string>
     <string name="revanced_enable_wide_search_bar_with_header_summary_off">يؤدي شريط البحث العريض إلى تعطيل مساحة علامة YouTube واستخدامها.</string>
     <string name="revanced_enable_wide_search_bar_in_you_tab_title">تمكين شريط البحث العريض في علامة التبويب أنت</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_summary_on">"تم تمكين شريط البحث العريض في علامة التبويب \"أنت\".
+
+للوصول إلى الإعدادات، يرجى استخدام المسار التالي:
+علامة التبويب \"أنت\" ← عرض القناة ← القائمة ← الإعدادات"</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_summary_off">تم تعطيل شريط البحث العريض في علامة التبويب \"أنت\".</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_user_dialog_message">"سيؤدي تمكين هذا الإعداد إلى تعطيل زر \"الإعدادات\" في علامة التبويب \"أنت\".
+
+في هذه الحالة، قد تحتاج إلى استخدام المسار التالي للوصول إلى الإعدادات:
+علامة التبويب \"أنت\" ← عرض القناة ← القائمة ← الإعدادات"</string>
     <string name="revanced_hide_toolbar_cast_button_title">إخفاء زر البث</string>
     <string name="revanced_hide_toolbar_cast_button_summary_on">تم إخفاء زر البث.</string>
     <string name="revanced_hide_toolbar_cast_button_summary_off">يتم عرض زر البث.</string>
@@ -782,7 +812,38 @@
     <string name="revanced_hide_thanks_button_summary_on">تم إخفاء زر شكرًا.</string>
     <string name="revanced_hide_thanks_button_summary_off">يتم عرض زر شكرًا.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
+    <string name="revanced_preference_category_hide_by_index">إخفاء حسب الفهرس</string>
+    <string name="revanced_hide_action_button_index_0_title">إخفاء الزر الأول</string>
+    <string name="revanced_hide_action_button_index_0_summary_on">تم إخفاء الزر الأول.</string>
+    <string name="revanced_hide_action_button_index_0_summary_off">يتم عرض الزر الأول.</string>
+    <string name="revanced_hide_action_button_index_1_title">إخفاء الزر الثاني</string>
+    <string name="revanced_hide_action_button_index_1_summary_on">تم إخفاء الزر الثاني.</string>
+    <string name="revanced_hide_action_button_index_1_summary_off">يتم عرض الزر الثاني.</string>
+    <string name="revanced_hide_action_button_index_2_title">إخفاء الزر الثالث</string>
+    <string name="revanced_hide_action_button_index_2_summary_on">تم إخفاء الزر الثالث.</string>
+    <string name="revanced_hide_action_button_index_2_summary_off">يتم عرض الزر الثالث.</string>
+    <string name="revanced_hide_action_button_index_3_title">إخفاء الزر الرابع</string>
+    <string name="revanced_hide_action_button_index_3_summary_on">تم إخفاء الزر الرابع.</string>
+    <string name="revanced_hide_action_button_index_3_summary_off">يتم عرض الزر الرابع.</string>
+    <string name="revanced_hide_action_button_index_4_title">إخفاء الزر الخامس</string>
+    <string name="revanced_hide_action_button_index_4_summary_on">تم إخفاء الزر الخامس.</string>
+    <string name="revanced_hide_action_button_index_4_summary_off">يتم عرض الزر الخامس.</string>
+    <string name="revanced_hide_action_button_index_5_title">إخفاء الزر السادس</string>
+    <string name="revanced_hide_action_button_index_5_summary_on">تم إخفاء الزر السادس.</string>
+    <string name="revanced_hide_action_button_index_5_summary_off">يتم عرض الزر السادس.</string>
+    <string name="revanced_hide_action_button_index_6_title">إخفاء الزر السابع</string>
+    <string name="revanced_hide_action_button_index_6_summary_on">تم إخفاء الزر السابع.</string>
+    <string name="revanced_hide_action_button_index_6_summary_off">يتم عرض الزر السابع.</string>
+    <string name="revanced_hide_action_button_index_7_title">إخفاء الزر الثامن</string>
+    <string name="revanced_hide_action_button_index_7_summary_on">تم إخفاء الزر الثامن.</string>
+    <string name="revanced_hide_action_button_index_7_summary_off">يتم عرض الزر الثامن.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
+    <string name="revanced_preference_category_hide_by_index_live">إخفاء حسب الفهرس في البث المباشر</string>
+    <string name="revanced_hide_action_button_index_about_title">لمحة عن إخفاء زر الإجراء حسب الفهرس</string>
+    <string name="revanced_hide_action_button_index_about_summary">"إخفاء أزرار الإجراءات بواسطة الفهرس قبل تهيئة أزرار الإجراءات.
+
+- إخفاء أزرار الإجراءات لا يترك أي مساحة فارغة.
+- قد لا يكون فهرس أزرار الإجراءات هو الزر نفسه دائمًا."</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">وضع الإضاءة السينمائية</string>
     <string name="revanced_preference_screen_ambient_mode_summary">تعطيل وضع الإضاءة السينمائية أو تجاوز قيود وضع الإضاءة السينمائية.</string>
@@ -1375,6 +1436,9 @@
     <string name="revanced_shorts_custom_actions_repeat_state_summary_on">يتم عرض قائمة حالة التكرار.</string>
     <string name="revanced_shorts_custom_actions_repeat_state_summary_off">تم إخفاء قائمة حالة التكرار.</string>
     <string name="revanced_shorts_custom_actions_about_title">لمحة عن الإجراءات المخصصة</string>
+    <string name="revanced_shorts_custom_actions_about_summary">"لا تزال هذه الميزة تجريبية، لذا لا يوجد ضمان بأنها ستعمل بشكل مثالي.
+
+لا يمكن إصلاح معظم الأخطاء بسبب القيود المفروضة على جانب العميل، لذا استخدمها لأغراض الاختبار فقط."</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental flags -->
     <string name="revanced_enable_shorts_time_stamp_title">تمكين الطوابع الزمنية</string>
     <string name="revanced_enable_shorts_time_stamp_summary_on">"تم تمكين الطابع الزمني.
@@ -1710,7 +1774,7 @@
     <string name="revanced_sb_settings_import_successful">تم استيراد الإعدادات بنجاح.</string>
     <string name="revanced_sb_settings_import_failed">فشل استيراد: %s.</string>
     <string name="revanced_sb_settings_export_failed">فشل تصدير: %s.</string>
-    <string name="revanced_sb_settings_revanced_export_user_id_warning">تحتوي إعداداتك على معرف مستخدم خاص لـ SponsorBlock.\n\n معرف المستخدم الخاص بك يشبه كلمة المرور ويجب عدم مشاركته أبدًا.\n</string>
+    <string name="revanced_sb_settings_revanced_export_user_id_warning">تحتوي إعداداتك على معرف مستخدم SponsorBlock خاص.\n\nمعرف المستخدم الخاص بك يشبه كلمة مرور، ولا ينبغي مشاركته مطلقًا.\n</string>
     <string name="revanced_sb_settings_revanced_export_user_id_warning_dismiss">لا تعرض مرة أخرى</string>
     <string name="revanced_sb_sponsorblock_connection_failure_generic">SponsorBlock غير متوفر مؤقتًا.</string>
     <string name="revanced_sb_sponsorblock_connection_failure_status">SponsorBlock غير متوفر مؤقتًا (الحالة %d).</string>
@@ -1785,7 +1849,7 @@
     <string name="revanced_enable_debug_buffer_logging_title">تمكين تسجيل تصحيح المخزن المؤقت</string>
     <string name="revanced_enable_debug_buffer_logging_summary_on">سجلات التصحيح تشمل التخزين المؤقت.</string>
     <string name="revanced_enable_debug_buffer_logging_summary_off">سجلات التصحيح لا تشمل التخزين المؤقت.</string>
-    <string name="revanced_open_links_externally_title">فتح الروابط في المتصفح</string>
+    <string name="revanced_open_links_externally_title">فتح الروابط خارجيًا</string>
     <string name="revanced_open_links_externally_summary_on">يفتح الروابط في المتصفح الخارجي.</string>
     <string name="revanced_open_links_externally_summary_off">يفتح الروابط في متصفح التطبيق.</string>
     <string name="revanced_sanitize_sharing_links_title">تطهير روابط المشاركة</string>

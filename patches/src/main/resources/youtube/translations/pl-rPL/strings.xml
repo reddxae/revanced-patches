@@ -7,7 +7,7 @@
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">Wyszukaj w %s</string>
     <string name="revanced_extended_reset_to_default_toast">Przywrócono domyślne wartości.</string>
-    <string name="revanced_preference_category_experimental_flag">Ustawienia Eksperymentalne</string>
+    <string name="revanced_preference_category_experimental_flag">Eksperymentalne flagi</string>
     <string name="revanced_extended_confirm_user_dialog_title">Czy chcesz kontynuować?</string>
     <string name="revanced_extended_restart_first_run">Uruchom ponownie, aby wczytać poprawnie układ aplikacji</string>
     <string name="revanced_extended_restart_message">Odśwież i uruchom ponownie</string>
@@ -306,11 +306,12 @@ Ograniczenia:
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Rekomendowane filmy</string>
     <string name="revanced_hide_low_views_video_title">Ukryj filmy z małą ilością wyświetleń</string>
-    <string name="revanced_hide_low_views_video_summary">"Ukrywa filmy poniżej 1000 wyświetleń ze strony głównej, które zostały przesłane z niesubskrybowanych kanałów."</string>
+    <string name="revanced_hide_low_views_video_summary">"Ukrywa filmy poniżej 1000 wyświetleń ze strony głównej, które zostały przesłane z niesubskrybowanych kanałów.
+
+Filtr może już nie działać - zamiast niego użyj filtru ilości wyświetleń."</string>
     <string name="revanced_hide_recommended_video_title">Ukryj rekomendowane filmy</string>
     <string name="revanced_hide_recommended_video_summary">"Ukrywa następujące rekomendowane filmy:
 
-• Filmy z tagiem 'Dla wspierających'
 • Filmy z takimi frazami jak 'Inne osoby również obejrzały' u dołu filmu"</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Filtr ilości wyświetleń</string>
@@ -395,9 +396,6 @@ Ograniczenie: Przycisk wstecz na pasku narzędzi może nie działać."</string>
     <string name="revanced_hide_gray_separator_title">Szare separatory</string>
     <string name="revanced_hide_gray_separator_summary_on">Ukryte</string>
     <string name="revanced_hide_gray_separator_summary_off">Widoczne</string>
-    <string name="revanced_hide_snack_bar_title">Komunikaty</string>
-    <string name="revanced_hide_snack_bar_summary_on">Ukryte</string>
-    <string name="revanced_hide_snack_bar_summary_off">Widoczne</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">Usuń okno dialogowe treści ograniczonej do oglądania</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Usuwa okno dialogowe treści ograniczonej do oglądania.
 Nie pomija to ograniczeń wiekowych, lecz akceptuje je automatycznie."</string>
@@ -407,6 +405,9 @@ Nie pomija to ograniczeń wiekowych, lecz akceptuje je automatycznie."</string>
     <string name="revanced_change_layout_entry_3">Telefonowy (max. 480 dpi)</string>
     <string name="revanced_change_layout_entry_4">Tabletowy</string>
     <string name="revanced_change_layout_entry_5">Tabletowy (max. 600 dpi)</string>
+    <string name="revanced_change_live_ring_click_action_title">Zachowanie po kliknięciu okręgu od transmisji na żywo</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">Otwarcie kanału</string>
+    <string name="revanced_change_live_ring_click_action_summary_off">Otwarcie transmisji na żywo</string>
     <string name="revanced_spoof_app_version_title">Oszukiwanie wersji aplikacji</string>
     <string name="revanced_spoof_app_version_summary_on">Włączone</string>
     <string name="revanced_spoof_app_version_summary_off">Wyłączone</string>
@@ -626,6 +627,26 @@ Jeśli opcja nie przynosi skutku, spróbuj przełączyć się na tryb incognito.
     <string name="revanced_hide_settings_menu_about_title">Informacje</string>
     <string name="revanced_hide_settings_menu_about_summary_on">Ukryte</string>
     <string name="revanced_hide_settings_menu_about_summary_off">Widoczne</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Snack bar -->
+    <string name="revanced_preference_screen_snack_bar_title">Komunikaty</string>
+    <string name="revanced_preference_screen_snack_bar_summary">Ukryj lub zmień elementy komunikatów</string>
+    <string name="revanced_hide_snack_bar_title">Komunikaty</string>
+    <string name="revanced_hide_snack_bar_summary_on">Ukryte</string>
+    <string name="revanced_hide_snack_bar_summary_off">Widoczne</string>
+    <string name="revanced_hide_server_side_snack_bar_title">Komunikaty po stronie serwera</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_on">Ukryte</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_off">Widoczne</string>
+    <string name="revanced_invert_snack_bar_theme_title">Odwróć motyw komunikatów</string>
+    <string name="revanced_invert_snack_bar_theme_summary_on">Tak</string>
+    <string name="revanced_invert_snack_bar_theme_summary_off">Nie</string>
+    <string name="revanced_change_server_side_snack_bar_background_title">Tło komunikatów po stronie serwera</string>
+    <string name="revanced_change_server_side_snack_bar_background_summary_on">Zmienione</string>
+    <string name="revanced_change_server_side_snack_bar_background_summary_off">Niezmienione</string>
+    <string name="revanced_change_server_side_snack_bar_background_user_dialog_message">"Większość komunikatów używa zdefiniowanego motywu po stronie serwera, a nie motywu aplikacji.
+
+To ustawienie zmienia kolor tła tych komunikatów.
+
+Jeśli zajdą zmiany po stronie serwera, kolor tła tych komunikatów może się nie zmienić."</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Pasek narzędzi</string>
     <string name="revanced_preference_screen_toolbar_summary">Ukryj lub pokazuj przyciski na pasku narzędzi, takie jak pasek wyszukiwania, nagłówek i inne</string>
@@ -639,6 +660,16 @@ Jeśli opcja nie przynosi skutku, spróbuj przełączyć się na tryb incognito.
     <string name="revanced_enable_wide_search_bar_with_header_summary_on">Włączony</string>
     <string name="revanced_enable_wide_search_bar_with_header_summary_off">Wyłączony</string>
     <string name="revanced_enable_wide_search_bar_in_you_tab_title">Szeroki pasek wyszukiwania na stronie Ty</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_summary_on">"Włączony
+
+By dostać się do ustawień, użyj następującej ścieżki:
+Zakładka Ty → Zobacz kanał → Menu → Ustawienia
+"</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_summary_off">Wyłączony</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_user_dialog_message">"Włączenie tego ustawienia ukryje przycisk ustawień w zakładce Ty.
+
+W takim razie, by dostać się do ustawień, użyj następującej ścieżki:
+Zakładka Ty → Zobacz kanał → Menu → Ustawienia"</string>
     <string name="revanced_hide_toolbar_cast_button_title">Przycisk od castowania</string>
     <string name="revanced_hide_toolbar_cast_button_summary_on">Ukryty</string>
     <string name="revanced_hide_toolbar_cast_button_summary_off">Widoczny</string>
@@ -782,7 +813,38 @@ Ustawienia → Autoodtwarzanie/Odtwarzanie → Autoodtwarzanie następnego filmu
     <string name="revanced_hide_thanks_button_summary_on">Ukryty</string>
     <string name="revanced_hide_thanks_button_summary_off">Widoczny</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
+    <string name="revanced_preference_category_hide_by_index">Ukryj wg indeksu</string>
+    <string name="revanced_hide_action_button_index_0_title">Pierwszy przycisk</string>
+    <string name="revanced_hide_action_button_index_0_summary_on">Ukryty</string>
+    <string name="revanced_hide_action_button_index_0_summary_off">Widoczny</string>
+    <string name="revanced_hide_action_button_index_1_title">Drugi przycisk</string>
+    <string name="revanced_hide_action_button_index_1_summary_on">Ukryty</string>
+    <string name="revanced_hide_action_button_index_1_summary_off">Widoczny</string>
+    <string name="revanced_hide_action_button_index_2_title">Trzeci przycisk</string>
+    <string name="revanced_hide_action_button_index_2_summary_on">Ukryty</string>
+    <string name="revanced_hide_action_button_index_2_summary_off">Widoczny</string>
+    <string name="revanced_hide_action_button_index_3_title">Czwarty przycisk</string>
+    <string name="revanced_hide_action_button_index_3_summary_on">Ukryty</string>
+    <string name="revanced_hide_action_button_index_3_summary_off">Widoczny</string>
+    <string name="revanced_hide_action_button_index_4_title">Piąty przycisk</string>
+    <string name="revanced_hide_action_button_index_4_summary_on">Ukryty</string>
+    <string name="revanced_hide_action_button_index_4_summary_off">Widoczny</string>
+    <string name="revanced_hide_action_button_index_5_title">Szósty przycisk</string>
+    <string name="revanced_hide_action_button_index_5_summary_on">Ukryty</string>
+    <string name="revanced_hide_action_button_index_5_summary_off">Widoczny</string>
+    <string name="revanced_hide_action_button_index_6_title">Siódmy przycisk</string>
+    <string name="revanced_hide_action_button_index_6_summary_on">Ukryty</string>
+    <string name="revanced_hide_action_button_index_6_summary_off">Widoczny</string>
+    <string name="revanced_hide_action_button_index_7_title">Ósmy przycisk</string>
+    <string name="revanced_hide_action_button_index_7_summary_on">Ukryty</string>
+    <string name="revanced_hide_action_button_index_7_summary_off">Widoczny</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
+    <string name="revanced_preference_category_hide_by_index_live">Ukryj wg indeksu w transmisjach na żywo</string>
+    <string name="revanced_hide_action_button_index_about_title">O ukrywaniu przycisków akcji po indeksie</string>
+    <string name="revanced_hide_action_button_index_about_summary">"Ukrywa przyciski akcji według indeksu przed zainicjowaniem przycisków akcji.
+
+- ukrywanie przycisków akcji nie pozostawia pustego miejsca
+- indeks przycisków akcji nie zawsze jest tym samym przyciskiem"</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Oświetlenie kinowe</string>
     <string name="revanced_preference_screen_ambient_mode_summary">Wyłącz oświetlenie kinowe lub obejdź jego ograniczenia</string>
@@ -1030,7 +1092,7 @@ Ograniczenie: tytuły filmów znikają po stuknięciu w nie."</string>
     <string name="revanced_hide_player_youtube_music_button_summary_on">Ukryty</string>
     <string name="revanced_hide_player_youtube_music_button_summary_off">Widoczny</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Player buttons, PreferenceCategory: Overlay buttons -->
-    <string name="revanced_preference_category_overlay_buttons">Przyciski w odtwarzaczu</string>
+    <string name="revanced_preference_category_overlay_buttons">Dodatkowe przyciski w odtwarzaczu</string>
     <string name="revanced_overlay_button_always_repeat_title">Przycisk od pętli</string>
     <string name="revanced_overlay_button_always_repeat_summary">"Stuknij, by zmienić stan pętli.
 Stuknij i przytrzymaj, by zmienić stan pętli z pauzą."</string>
@@ -1375,6 +1437,9 @@ Kliknij i przytrzymaj przycisk 'Więcej', by wyświetlić okno z własnymi akcja
     <string name="revanced_shorts_custom_actions_repeat_state_summary_on">Widoczne</string>
     <string name="revanced_shorts_custom_actions_repeat_state_summary_off">Ukryte</string>
     <string name="revanced_shorts_custom_actions_about_title">O własnych akcjach</string>
+    <string name="revanced_shorts_custom_actions_about_summary">"Funkcja jest nadal eksperymentalna, więc nie ma gwarancji, że będzie działać perfekcyjnie.
+
+Większość błędów nie może być naprawiona w skutek ograniczeń po stronie klienta, więc używaj tej funkcji w celach testowych."</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental flags -->
     <string name="revanced_enable_shorts_time_stamp_title">Czas Shortsa</string>
     <string name="revanced_enable_shorts_time_stamp_summary_on">"Włączony

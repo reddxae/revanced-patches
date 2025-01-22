@@ -319,9 +319,6 @@ Sınırlama: Araç çubuğundaki geri butonu çalışmayabilir."</string>
     <string name="revanced_hide_gray_separator_title">Gri ayırıcıyı gizle</string>
     <string name="revanced_hide_gray_separator_summary_on">Video ve topluluk gönderisi arasındaki gri çubuk gizleniyor.</string>
     <string name="revanced_hide_gray_separator_summary_off">Video ve topluluk gönderisi arasındaki gri çubuk gizlenmiyor.</string>
-    <string name="revanced_hide_snack_bar_title">Yapılan eylemi bildiren çubuğu gizle</string>
-    <string name="revanced_hide_snack_bar_summary_on">Gizleniyor</string>
-    <string name="revanced_hide_snack_bar_summary_off">Gizlenmiyor</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">İzleyicinin takdirine bağlı iletişim kutusunu kaldır</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Görüntüleyicinin takdirine ilişkin iletişim kutusunu kaldırır. Bu yaş sınırlamasını atlamaz. Sadece otomatik olarak kabul ediyor."</string>
     <string name="revanced_change_layout_title">Düzeni değiştir</string>
@@ -502,6 +499,10 @@ Bu ayar etkili olmazsa Gizli moda geçmeyi deneyin."</string>
     <string name="revanced_hide_settings_menu_offline_title">Arkaplan menüsünü gizle</string>
     <string name="revanced_hide_settings_menu_offline_summary_on">Arkaplan menüsü gizlendi.</string>
     <string name="revanced_hide_settings_menu_offline_summary_off">Arkaplan menüsü gösteriliriyor.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Snack bar -->
+    <string name="revanced_hide_snack_bar_title">Yapılan eylemi bildiren çubuğu gizle</string>
+    <string name="revanced_hide_snack_bar_summary_on">Gizleniyor</string>
+    <string name="revanced_hide_snack_bar_summary_off">Gizlenmiyor</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Araç Çubuğu</string>
     <string name="revanced_preference_screen_toolbar_summary">Araç çubuğu düğmeleri, arama çubuğu, başlık gibi araç çubuğunda bulunan bileşenleri gizleyin veya değiştirin.</string>

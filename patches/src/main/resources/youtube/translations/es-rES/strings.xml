@@ -393,9 +393,6 @@ Limitación: Es posible que el botón Atrás de la barra de herramientas no func
     <string name="revanced_hide_gray_separator_title">Ocultar separadores grises</string>
     <string name="revanced_hide_gray_separator_summary_on">Los separadores grises están ocultos.</string>
     <string name="revanced_hide_gray_separator_summary_off">Los separadores grises están visibles.</string>
-    <string name="revanced_hide_snack_bar_title">Ocultar barra de notificaciones</string>
-    <string name="revanced_hide_snack_bar_summary_on">La barra de notificaciones está oculta.</string>
-    <string name="revanced_hide_snack_bar_summary_off">La barra de notificaciones está visible.</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">Eliminar diálogo de discreción del espectador</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Elimina el diálogo de discreción del espectador.
 Esto no evita la restricción de edad. Solo la acepta automáticamente."</string>
@@ -405,6 +402,9 @@ Esto no evita la restricción de edad. Solo la acepta automáticamente."</string
     <string name="revanced_change_layout_entry_3">Teléfono (máx. 480 dpi)</string>
     <string name="revanced_change_layout_entry_4">Tablet</string>
     <string name="revanced_change_layout_entry_5">Tablet (min. 600 dpi)</string>
+    <string name="revanced_change_live_ring_click_action_title">Cambiar acción de pulsación en anillo del directo</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">El canal se abre al pulsar en el anillo del directo.</string>
+    <string name="revanced_change_live_ring_click_action_summary_off">El directo se abre al pulsar en el anillo del directo.</string>
     <string name="revanced_spoof_app_version_title">Falsificar versión de la app</string>
     <string name="revanced_spoof_app_version_summary_on">Versión falsificada</string>
     <string name="revanced_spoof_app_version_summary_off">Versión no falsificada</string>
@@ -625,6 +625,10 @@ Si este ajuste no surte efecto, prueba a cambiar al modo incógnito."</string>
     <string name="revanced_hide_settings_menu_about_title">Ocultar menú \"Información\"</string>
     <string name="revanced_hide_settings_menu_about_summary_on">El menú \"Información\" está oculto.</string>
     <string name="revanced_hide_settings_menu_about_summary_off">El menú \"Información\" está visible.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Snack bar -->
+    <string name="revanced_hide_snack_bar_title">Ocultar barra de notificaciones</string>
+    <string name="revanced_hide_snack_bar_summary_on">La barra de notificaciones está oculta.</string>
+    <string name="revanced_hide_snack_bar_summary_off">La barra de notificaciones está visible.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Barra de herramientas</string>
     <string name="revanced_preference_screen_toolbar_summary">Ocultar o cambiar los componentes situados en la barra de herramientas, como los botones, la barra de búsqueda o la cabecera.</string>
@@ -638,6 +642,15 @@ Si este ajuste no surte efecto, prueba a cambiar al modo incógnito."</string>
     <string name="revanced_enable_wide_search_bar_with_header_summary_on">La barra de búsqueda ancha incluye la cabecera de YouTube.</string>
     <string name="revanced_enable_wide_search_bar_with_header_summary_off">La barra de búsqueda ancha no incluye la cabecera de YouTube.</string>
     <string name="revanced_enable_wide_search_bar_in_you_tab_title">Activar barra de búsqueda ancha en pestaña Tú</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_summary_on">"La barra de búsqueda ancha está activada en la pestaña Tú.
+
+Para acceder a la configuración, utilice la siguiente ruta:
+Pestaña Tú → Ver canal → Menú → Configuración"</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_summary_off">La barra de búsqueda ancha está desactivada en la pestaña Tú.</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_user_dialog_message">"Si activas esta opción, se desactivará el botón Configuración de la pestaña Tú.
+
+En este caso, es posible que tengas que utilizar la siguiente ruta para acceder a la configuración:
+Pestaña Tú → Ver canal → Menú → Configuración"</string>
     <string name="revanced_hide_toolbar_cast_button_title">Ocultar botón de transmitir</string>
     <string name="revanced_hide_toolbar_cast_button_summary_on">El botón de transmitir está oculto.</string>
     <string name="revanced_hide_toolbar_cast_button_summary_off">El botón de transmitir está visible.</string>
@@ -781,7 +794,38 @@ La reproducción automática se puede cambiar en la configuración de YouTube:
     <string name="revanced_hide_thanks_button_summary_on">El botón de gracias está oculto.</string>
     <string name="revanced_hide_thanks_button_summary_off">El botón de gracias está visible.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
+    <string name="revanced_preference_category_hide_by_index">Ocultar por índice</string>
+    <string name="revanced_hide_action_button_index_0_title">Ocultar primer botón</string>
+    <string name="revanced_hide_action_button_index_0_summary_on">El primer botón está oculto.</string>
+    <string name="revanced_hide_action_button_index_0_summary_off">El primer botón está visible.</string>
+    <string name="revanced_hide_action_button_index_1_title">Ocultar segundo botón</string>
+    <string name="revanced_hide_action_button_index_1_summary_on">El segundo botón está oculto.</string>
+    <string name="revanced_hide_action_button_index_1_summary_off">El segundo botón está visible.</string>
+    <string name="revanced_hide_action_button_index_2_title">Ocultar tercer botón</string>
+    <string name="revanced_hide_action_button_index_2_summary_on">El tercer botón está oculto.</string>
+    <string name="revanced_hide_action_button_index_2_summary_off">El tercer botón está visible.</string>
+    <string name="revanced_hide_action_button_index_3_title">Ocultar cuarto botón</string>
+    <string name="revanced_hide_action_button_index_3_summary_on">El cuarto botón está oculto.</string>
+    <string name="revanced_hide_action_button_index_3_summary_off">El cuarto botón está visible.</string>
+    <string name="revanced_hide_action_button_index_4_title">Ocultar quinto botón</string>
+    <string name="revanced_hide_action_button_index_4_summary_on">El quinto botón está oculto.</string>
+    <string name="revanced_hide_action_button_index_4_summary_off">El quinto botón está visible.</string>
+    <string name="revanced_hide_action_button_index_5_title">Ocultar sexto botón</string>
+    <string name="revanced_hide_action_button_index_5_summary_on">El sexto botón está oculto.</string>
+    <string name="revanced_hide_action_button_index_5_summary_off">El sexto botón está visible.</string>
+    <string name="revanced_hide_action_button_index_6_title">Ocultar séptimo botón</string>
+    <string name="revanced_hide_action_button_index_6_summary_on">El séptimo botón está oculto.</string>
+    <string name="revanced_hide_action_button_index_6_summary_off">El séptimo botón está visible.</string>
+    <string name="revanced_hide_action_button_index_7_title">Ocultar octavo botón</string>
+    <string name="revanced_hide_action_button_index_7_summary_on">El octavo botón está oculto.</string>
+    <string name="revanced_hide_action_button_index_7_summary_off">El octavo botón está visible.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
+    <string name="revanced_preference_category_hide_by_index_live">Ocultar por índice en directo</string>
+    <string name="revanced_hide_action_button_index_about_title">Acerca de Ocultar botón de acción por índice</string>
+    <string name="revanced_hide_action_button_index_about_summary">"Oculta los botones de acción por índice antes de que se inicialicen los botones de acción.
+
+- Al ocultar los botones de acción no se deja ningún espacio vacío.
+- El índice de los botones de acción puede no ser siempre el mismo botón."</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Modo ambiente</string>
     <string name="revanced_preference_screen_ambient_mode_summary">Omite las restricciones del modo ambiente o desactiva el modo ambiente.</string>
@@ -1372,6 +1416,9 @@ Mantén pulsado el botón Más para mostrar el cuadro de diálogo Acciones perso
     <string name="revanced_shorts_custom_actions_repeat_state_summary_on">El menú del estado de repetición está visible.</string>
     <string name="revanced_shorts_custom_actions_repeat_state_summary_off">El menú del estado de repetición está oculto.</string>
     <string name="revanced_shorts_custom_actions_about_title">Acerca de las acciones personalizadas</string>
+    <string name="revanced_shorts_custom_actions_about_summary">"Esta función es aún experimental, por lo que no hay garantía de que funcione perfectamente.
+
+La mayoría de los errores no pueden solucionarse debido a las limitaciones del lado del cliente, así que utilízala solo con fines de prueba."</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental flags -->
     <string name="revanced_enable_shorts_time_stamp_title">Activar marcas de tiempo</string>
     <string name="revanced_enable_shorts_time_stamp_summary_on">"La marca de tiempo está activada.

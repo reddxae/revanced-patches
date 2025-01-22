@@ -396,9 +396,6 @@ Limitation : Le bouton Retour de la barre d'outils peut ne pas fonctionner."</st
     <string name="revanced_hide_gray_separator_title">Masquer les séparateurs gris</string>
     <string name="revanced_hide_gray_separator_summary_on">Les séparateurs gris sont masqués.</string>
     <string name="revanced_hide_gray_separator_summary_off">Les séparateurs gris sont affichés.</string>
-    <string name="revanced_hide_snack_bar_title">Masquer les barres d\'actions</string>
-    <string name="revanced_hide_snack_bar_summary_on">Les barres d\'actions présentes en haut ou en bas de l\'écran permettant généralement de rafraîchir la page sont masquée.</string>
-    <string name="revanced_hide_snack_bar_summary_off">Les barres d\'actions présentes en haut ou en bas de l\'écran permettant généralement de rafraîchir la page sont affiché.</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">Suppr. Message \'Confirmer votre âge\'</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Supprime le message 'Confirmer votre âge'.
 Cela ne contourne pas la restriction d'âge, mais le confirme automatiquement."</string>
@@ -631,6 +628,10 @@ Si ce paramètre ne fait pas effet, essayer de passer en mode Incognito."</strin
     <string name="revanced_hide_settings_menu_about_title">Masquer le menu \'À propos\'</string>
     <string name="revanced_hide_settings_menu_about_summary_on">Le menu \'À propos\' est masqué.</string>
     <string name="revanced_hide_settings_menu_about_summary_off">Le menu \'À propos\' est affiché.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Snack bar -->
+    <string name="revanced_hide_snack_bar_title">Masquer les barres d\'actions</string>
+    <string name="revanced_hide_snack_bar_summary_on">Les barres d\'actions présentes en haut ou en bas de l\'écran permettant généralement de rafraîchir la page sont masquée.</string>
+    <string name="revanced_hide_snack_bar_summary_off">Les barres d\'actions présentes en haut ou en bas de l\'écran permettant généralement de rafraîchir la page sont affiché.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Barre d\'outils</string>
     <string name="revanced_preference_screen_toolbar_summary">Masque ou change les éléments situés dans la barre d\'outils, tels que les boutons de la barre d\'outils, la barre de recherche, l\'en-tête.</string>
@@ -796,6 +797,7 @@ La lecture automatique peut être modifiée dans les paramètres de YouTube :
     <string name="revanced_hide_thanks_button_summary_on">Le bouton \'Merci\' est masqué.</string>
     <string name="revanced_hide_thanks_button_summary_off">Le bouton \'Merci\' est affiché.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
+    <string name="revanced_preference_category_hide_by_index">Masquer par Index</string>
     <string name="revanced_hide_action_button_index_0_title">Masquer le premier bouton</string>
     <string name="revanced_hide_action_button_index_0_summary_on">Le premier bouton est masqué.</string>
     <string name="revanced_hide_action_button_index_0_summary_off">Le premier bouton est affiché.</string>
@@ -821,12 +823,12 @@ La lecture automatique peut être modifiée dans les paramètres de YouTube :
     <string name="revanced_hide_action_button_index_7_summary_on">Le huitième bouton est masqué.</string>
     <string name="revanced_hide_action_button_index_7_summary_off">Le huitième bouton est affiché.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
+    <string name="revanced_preference_category_hide_by_index_live">Masquer par index pour diff. en direct</string>
     <string name="revanced_hide_action_button_index_about_title">A propos du masquage du bouton d\'action par l\'index</string>
     <string name="revanced_hide_action_button_index_about_summary">"Masquer les boutons d'action par index avant que les boutons d'action ne soient initialisés.
 
-- Masquer les boutons d'action ne laisse pas d'espace vide.
-- L'index des boutons d'action ne correspond pas toujours au même bouton.
-(Le premier bouton sont toujours les boutons 'J'aime' et 'Je n'aime pas', mais le troisième bouton peut être le bouton 'Remix' ou le bouton 'Télécharger')"</string>
+- Masque les boutons d'action sans laisser d'espace vide.
+- L'index des boutons d'action ne correspond pas toujours au même bouton."</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Mode ambiant</string>
     <string name="revanced_preference_screen_ambient_mode_summary">Désactive ou contourne les restrictions du Mode ambiant.</string>

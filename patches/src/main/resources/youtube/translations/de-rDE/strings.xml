@@ -321,9 +321,6 @@ Einschränkung: Zurück-Taste in der Symbolleiste funktioniert möglicherweise n
     <string name="revanced_hide_gray_separator_title">Graue Trennzeichen ausblenden</string>
     <string name="revanced_hide_gray_separator_summary_on">Graue Trennzeichen sind ausgeblendet</string>
     <string name="revanced_hide_gray_separator_summary_off">Graue Trennzeichen werden angezeigt</string>
-    <string name="revanced_hide_snack_bar_title">Snackbar verstecken</string>
-    <string name="revanced_hide_snack_bar_summary_on">Snackbar ist versteckt</string>
-    <string name="revanced_hide_snack_bar_summary_off">Snackbar wird angezeigt</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">Diskretion des Betrachters entfernen</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Entfernt den Diskretionsdialog des Betrachters.
 Dies umgeht nicht die Altersbeschränkung. Es akzeptiert ihn nur automatisch."</string>
@@ -519,6 +516,10 @@ Wenn diese Einstellung nicht wirksam ist, versuchen Sie in den Inkognito-Modus z
     <string name="revanced_hide_settings_menu_about_title">\"Über\" ausblenden</string>
     <string name="revanced_hide_settings_menu_about_summary_on">\"Über\" wird ausgeblendet.</string>
     <string name="revanced_hide_settings_menu_about_summary_off">\"Über\" wird angezeigt.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Snack bar -->
+    <string name="revanced_hide_snack_bar_title">Snackbar verstecken</string>
+    <string name="revanced_hide_snack_bar_summary_on">Snackbar ist versteckt</string>
+    <string name="revanced_hide_snack_bar_summary_off">Snackbar wird angezeigt</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Werkzeugleiste</string>
     <string name="revanced_preference_screen_toolbar_summary">Verstecke oder ändere Toolbar-Komponenten, wie die Suchleiste, Buttons und Header.</string>

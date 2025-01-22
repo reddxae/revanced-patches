@@ -7,7 +7,7 @@
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">Αναζήτηση %s</string>
     <string name="revanced_extended_reset_to_default_toast">Έγινε επαναφορά στις προεπιλεγμένες τιμές.</string>
-    <string name="revanced_preference_category_experimental_flag">Πειραματικές Λειτουργίες</string>
+    <string name="revanced_preference_category_experimental_flag">Πειραματικές λειτουργίες</string>
     <string name="revanced_extended_confirm_user_dialog_title">Θέλετε να συνεχίσετε;</string>
     <string name="revanced_extended_restart_first_run">Επανεκκίνηση ώστε να φορτωθεί σωστά η διεπαφή</string>
     <string name="revanced_extended_restart_message">Ανανέωση και επανεκκίνηση</string>
@@ -302,11 +302,12 @@ Playlists
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Προτεινόμενα βίντεο</string>
     <string name="revanced_hide_low_views_video_title">Απόκρυψη βίντεο χαμηλών προβολών</string>
-    <string name="revanced_hide_low_views_video_summary">"Απόκρυψη των βίντεο με λιγότερες από 1,000 προβολές από τη ροή τα οποία ανήκουν σε κανάλια που δεν είστε συνδρομητές."</string>
+    <string name="revanced_hide_low_views_video_summary">"Απόκρυψη των βίντεο με λιγότερες από 1,000 προβολές από τη ροή τα οποία ανήκουν σε κανάλια που δεν είστε συνδρομητές.
+
+Αυτό το φίλτρο ενδέχεται να μη λειτουργεί πλέον, αντί αυτού χρησιμοποιείστε το «Φίλτρο αριθμού προβολών»."</string>
     <string name="revanced_hide_recommended_video_title">Απόκρυψη προτεινόμενων βίντεο</string>
     <string name="revanced_hide_recommended_video_summary">"Απόκρυψη των παρακάτω προτεινόμενων βίντεο:
 
-• Βίντεο με ετικέτα «Μόνο για Μέλη».
 • Βίντεο με φράσεις όπως «Άλλοι χρήστες παρακολούθησαν επίσης» στο κάτω μέρος τους."</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Φίλτρο αριθμού προβολών</string>
@@ -391,9 +392,6 @@ Playlists
     <string name="revanced_hide_gray_separator_title">Γκρι διαχωριστικά</string>
     <string name="revanced_hide_gray_separator_summary_on">Κρυμμένα.</string>
     <string name="revanced_hide_gray_separator_summary_off">Εμφανίζονται.</string>
-    <string name="revanced_hide_snack_bar_title">Μηνύματα αλληλεπίδρασης</string>
-    <string name="revanced_hide_snack_bar_summary_on">Κρυμμένα.</string>
-    <string name="revanced_hide_snack_bar_summary_off">Εμφανίζονται.</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">Παράθυρο ηλικιακού περιορισμού</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Αφαίρεση του παραθύρου προειδοποίησης ηλικιακού περιορισμού.
 Αυτό δεν παρακάμπτει τον ηλικιακό περιορισμό, απλά τον αποδέχεται αυτόματα."</string>
@@ -403,6 +401,9 @@ Playlists
     <string name="revanced_change_layout_entry_3">Κινητό (Μέγιστο dp 480)</string>
     <string name="revanced_change_layout_entry_4">Τάμπλετ</string>
     <string name="revanced_change_layout_entry_5">Τάμπλετ (Μέγιστο dp 600)</string>
+    <string name="revanced_change_live_ring_click_action_title">Αλλαγή ενέργειας πατήματος δακτυλίου ζωντανής μετάδοσης</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">Το κανάλι ανοίγει όταν πατιέται ο δακτύλιος ζωντανής μετάδοσης.</string>
+    <string name="revanced_change_live_ring_click_action_summary_off">Η ζωντανή μετάδοση ανοίγει όταν πατιέται ο δακτύλιος ζωντανής μετάδοσης.</string>
     <string name="revanced_spoof_app_version_title">Παραποίηση έκδοσης εφαρμογής</string>
     <string name="revanced_spoof_app_version_summary_on">Η έκδοση παραποιείται.</string>
     <string name="revanced_spoof_app_version_summary_off">Η έκδοση δεν παραποιείται.</string>
@@ -623,6 +624,10 @@ Playlists
     <string name="revanced_hide_settings_menu_about_title">Μενού «Σχετικά με»</string>
     <string name="revanced_hide_settings_menu_about_summary_on">Κρυμμένο.</string>
     <string name="revanced_hide_settings_menu_about_summary_off">Εμφανίζεται.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Snack bar -->
+    <string name="revanced_hide_snack_bar_title">Μηνύματα αλληλεπίδρασης</string>
+    <string name="revanced_hide_snack_bar_summary_on">Κρυμμένα.</string>
+    <string name="revanced_hide_snack_bar_summary_off">Εμφανίζονται.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Γραμμή εργαλείων</string>
     <string name="revanced_preference_screen_toolbar_summary">Απόκρυψη ή αλλαγή στοιχείων που βρίσκονται στη γραμμή εργαλείων, όπως τα κουμπιά, την γραμμή αναζήτησης, ή την επικεφαλίδα.</string>
@@ -636,6 +641,15 @@ Playlists
     <string name="revanced_enable_wide_search_bar_with_header_summary_on">Η ευρεία γραμμή αναζήτησης περιλαμβάνει την επικεφαλίδα του YouTube.</string>
     <string name="revanced_enable_wide_search_bar_with_header_summary_off">Η ευρεία γραμμή αναζήτησης κρύβει την επικεφαλίδα του YouTube και χρησιμοποιεί τον χώρο της.</string>
     <string name="revanced_enable_wide_search_bar_in_you_tab_title">Ευρεία γραμμή αναζήτησης στο «Εσείς»</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_summary_on">"Η ευρεία γραμμή αναζήτησης είναι ενεργοποιημένη στην καρτέλα «Εσείς».
+
+Για πρόσβαση στις ρυθμίσεις, ακολουθήστε την εξής διαδρομή:
+Καρτέλα «Εσείς» → Προβολή καναλιού → Μενού → Ρυθμίσεις"</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_summary_off">Η ευρεία γραμμή αναζήτησης είναι απενεργοποιημένη στην καρτέλα «Εσείς».</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_user_dialog_message">"Η ενεργοποίηση αυτής της λειτουργίας θα απενεργοποιήσει το κουμπί ρυθμίσεων στην καρτέλα «Εσείς».
+
+Σε αυτή την περίπτωση, για πρόσβαση στις ρυθμίσεις χρησιμοποιήστε την εξής διαδρομή:
+Καρτέλα «Εσείς» → Προβολή καναλιού → Μενού → Ρυθμίσεις"</string>
     <string name="revanced_hide_toolbar_cast_button_title">Κουμπί μετάδοσης</string>
     <string name="revanced_hide_toolbar_cast_button_summary_on">Κρυμμένο.</string>
     <string name="revanced_hide_toolbar_cast_button_summary_off">Εμφανίζεται.</string>
@@ -780,7 +794,38 @@ Playlists
     <string name="revanced_hide_thanks_button_summary_on">Κρυμμένο.</string>
     <string name="revanced_hide_thanks_button_summary_off">Εμφανίζεται.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
+    <string name="revanced_preference_category_hide_by_index">Απόκρυψη ανά ευρετήριο</string>
+    <string name="revanced_hide_action_button_index_0_title">Πρώτο κουμπί</string>
+    <string name="revanced_hide_action_button_index_0_summary_on">Κρυμμένο.</string>
+    <string name="revanced_hide_action_button_index_0_summary_off">Εμφανίζεται.</string>
+    <string name="revanced_hide_action_button_index_1_title">Δεύτερο κουμπί</string>
+    <string name="revanced_hide_action_button_index_1_summary_on">Κρυμμένο.</string>
+    <string name="revanced_hide_action_button_index_1_summary_off">Εμφανίζεται.</string>
+    <string name="revanced_hide_action_button_index_2_title">Τρίτο κουμπί</string>
+    <string name="revanced_hide_action_button_index_2_summary_on">Κρυμμένο.</string>
+    <string name="revanced_hide_action_button_index_2_summary_off">Εμφανίζεται.</string>
+    <string name="revanced_hide_action_button_index_3_title">Τέταρτο κουμπί</string>
+    <string name="revanced_hide_action_button_index_3_summary_on">Κρυμμένο.</string>
+    <string name="revanced_hide_action_button_index_3_summary_off">Εμφανίζεται.</string>
+    <string name="revanced_hide_action_button_index_4_title">Πέμπτο κουμπί</string>
+    <string name="revanced_hide_action_button_index_4_summary_on">Κρυμμένο.</string>
+    <string name="revanced_hide_action_button_index_4_summary_off">Εμφανίζεται.</string>
+    <string name="revanced_hide_action_button_index_5_title">Έκτο κουμπί</string>
+    <string name="revanced_hide_action_button_index_5_summary_on">Κρυμμένο.</string>
+    <string name="revanced_hide_action_button_index_5_summary_off">Εμφανίζεται.</string>
+    <string name="revanced_hide_action_button_index_6_title">Έβδομο κουμπί</string>
+    <string name="revanced_hide_action_button_index_6_summary_on">Κρυμμένο.</string>
+    <string name="revanced_hide_action_button_index_6_summary_off">Εμφανίζεται.</string>
+    <string name="revanced_hide_action_button_index_7_title">Όγδοο κουμπί</string>
+    <string name="revanced_hide_action_button_index_7_summary_on">Κρυμμένο.</string>
+    <string name="revanced_hide_action_button_index_7_summary_off">Εμφανίζεται.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
+    <string name="revanced_preference_category_hide_by_index_live">Απόκρυψη ανά ευρετήριο σε ζωντανή μετάδοση</string>
+    <string name="revanced_hide_action_button_index_about_title">Σχετικά με την απόκρυψη κουμπιού ενέργειας ανά ευρετήριο</string>
+    <string name="revanced_hide_action_button_index_about_summary">"Απόκρυψη των κουμπιών ενεργειών ανά ευρετήριο πριν την αρχικοποίηση των κουμπιών ενεργειών.
+
+- Η απόκρυψη των κουμπιών ενεργειών δεν αφήνει κενό χώρο.
+- Το ευρετήριο των κουμπιών ενεργειών μπορεί να μην είναι πάντα το ίδιο κουμπί."</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Λειτουργία περιβάλλοντος</string>
     <string name="revanced_preference_screen_ambient_mode_summary">Παράκαμψη περιορισμών λειτουργίας περιβάλλοντος ή απενεργοποίηση της.</string>
@@ -1249,6 +1294,9 @@ Playlists
     <string name="revanced_change_shorts_repeat_state_entry_default">Προεπιλογή</string>
     <string name="revanced_change_shorts_repeat_state_entry_pause">Παύση</string>
     <string name="revanced_change_shorts_repeat_state_entry_repeat">Επανάληψη</string>
+    <string name="revanced_open_shorts_in_regular_player_title">Άνοιγμα των Shorts στην κανονική οθόνη αναπαραγωγής</string>
+    <string name="revanced_open_shorts_in_regular_player_summary_on">Τα Shorts ανοίγουν στην οθόνη αναπαραγωγής κανονικών βίντεο.</string>
+    <string name="revanced_open_shorts_in_regular_player_summary_off">Τα Shorts δεν ανοίγουν στην οθόνη αναπαραγωγής κανονικών βίντεο.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player -->
     <string name="revanced_preference_screen_shorts_player_title">Οθόνη αναπαραγωγής Shorts</string>
     <string name="revanced_preference_screen_shorts_player_summary">Απόκρυψη ή εμφάνιση στοιχείων στην οθόνη αναπαραγωγής Shorts.</string>
@@ -1394,6 +1442,9 @@ Playlists
     <string name="revanced_shorts_custom_actions_repeat_state_summary_on">Το μενού κατάστασης επανάληψης εμφανίζεται.</string>
     <string name="revanced_shorts_custom_actions_repeat_state_summary_off">Το μενού κατάστασης επανάληψης δεν εμφανίζεται.</string>
     <string name="revanced_shorts_custom_actions_about_title">Σχετικά με τις προσαρμοσμένες ενέργειες</string>
+    <string name="revanced_shorts_custom_actions_about_summary">"Αυτή η λειτουργία είναι ακόμη πειραματική, οπότε δεν είναι εγγυημένο ότι θα λειτουργήσει χωρίς σφάλματα.
+
+Τα περισσότερα σφάλματα δε γίνεται να διορθωθούν λόγω περιορισμών, οπότε χρησιμοποιήστε την μόνο για σκοπούς δοκιμής."</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental flags -->
     <string name="revanced_enable_shorts_time_stamp_title">Ενεργοποίηση χρονοσφραγίδων</string>
     <string name="revanced_enable_shorts_time_stamp_summary_on">"Οι χρονοσφραγίδες είναι ενεργοποιημένες.
@@ -1557,11 +1608,11 @@ Playlists
     <string name="revanced_ryd_enable_summary_on">Τα «Δεν μου αρέσει» εμφανίζονται.</string>
     <string name="revanced_ryd_enable_summary_off">Τα «Δεν μου αρέσει» δεν εμφανίζονται.</string>
     <string name="revanced_ryd_shorts_title">Εμφάνιση στα Shorts</string>
-    <string name="revanced_ryd_shorts_summary_on">Τα dislike εμφανίζονται στα Shorts. %s</string>
+    <string name="revanced_ryd_shorts_summary_on">Τα dislike εμφανίζονται στα Shorts.</string>
     <string name="revanced_ryd_shorts_summary_on_disclaimer">"Τα «Δεν μου αρέσει» εμφανίζονται στα Shorts.
 
 Περιορισμός: Τα «Δεν μου αρέσει» ενδέχεται να μην εμφανίζονται σε λειτουργία ανώνυμης περιήγησης ή αν δεν έχετε συνδεθεί στον λογαριασμό σας."</string>
-    <string name="revanced_ryd_shorts_summary_off">Τα dislike δεν εμφανίζονται στα Shorts.</string>
+    <string name="revanced_ryd_shorts_summary_off">Τα «Δεν μου αρέσει» δεν εμφανίζονται στα Shorts.</string>
     <string name="revanced_ryd_dislike_percentage_title">Εμφάνιση ως ποσοστό</string>
     <string name="revanced_ryd_dislike_percentage_summary_on">Τα «Δεν μου αρέσει» εμφανίζονται ως ποσοστό.</string>
     <string name="revanced_ryd_dislike_percentage_summary_off">Τα «Δεν μου αρέσει» εμφανίζονται ως αριθμός.</string>
@@ -1791,6 +1842,9 @@ Playlists
     <string name="revanced_sb_about_api_sum">Τα δεδομένα παρέχονται από το SponsorBlock API. Πατήστε για να μάθετε περισσότερα και να δείτε λήψεις για άλλες πλατφόρμες.</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Διάφορα</string>
+    <string name="revanced_bypass_url_redirects_title">Παράκαμψη ανακατευθύνσεων συνδέσμων</string>
+    <string name="revanced_bypass_url_redirects_summary_on">Οι ανακατευθύνσεις URL παρακάμπτονται.</string>
+    <string name="revanced_bypass_url_redirects_summary_off">Οι ανακατευθύνσεις URL δεν παρακάμπτονται.</string>
     <string name="revanced_disable_quic_protocol_title">Απενεργοποίηση πρωτοκόλλου QUIC</string>
     <string name="revanced_disable_quic_protocol_summary">"Απενεργοποίηση πρωτοκόλλου QUIC του CronetEngine.
 
@@ -1801,6 +1855,9 @@ Playlists
     <string name="revanced_enable_debug_buffer_logging_title">Συμπερίληψη του buffer στην καταγραφή</string>
     <string name="revanced_enable_debug_buffer_logging_summary_on">Η καταγραφή εντοπισμού σφαλμάτων περιλαμβάνει το proto buffer.</string>
     <string name="revanced_enable_debug_buffer_logging_summary_off">Η καταγραφή εντοπισμού σφαλμάτων δεν περιλαμβάνει το proto buffer.</string>
+    <string name="revanced_open_links_externally_title">Άνοιγμα συνδέσμων σε πρόγραμμα περιήγησης</string>
+    <string name="revanced_open_links_externally_summary_on">Οι σύνδεσμοι ανοίγουν σε εξωτερικό πρόγραμμα περιήγησης.</string>
+    <string name="revanced_open_links_externally_summary_off">Οι σύνδεσμοι ανοίγουν εσωτερικά στην εφαρμογή.</string>
     <string name="revanced_sanitize_sharing_links_title">Καθαρισμός συνδέσμων κοινοποίησης</string>
     <string name="revanced_sanitize_sharing_links_summary">Αφαίρεση των παραμέτρων παρακολούθησης από τις διευθύνσεις URL κατά την κοινοποίηση συνδέσμων.</string>
     <string name="revanced_default_app_settings_title">Άνοιγμα ρυθμίσεων προεπιλεγμένων εφαρμογών</string>

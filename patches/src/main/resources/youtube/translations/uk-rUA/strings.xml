@@ -629,9 +629,25 @@
     <string name="revanced_hide_settings_menu_about_summary_on">Меню Про додаток приховано.</string>
     <string name="revanced_hide_settings_menu_about_summary_off">Меню Про додаток показується.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Snack bar -->
+    <string name="revanced_preference_screen_snack_bar_title">Панель взаємодії</string>
+    <string name="revanced_preference_screen_snack_bar_summary">Приховати або змінити компоненти, пов\'язані з панеллю взаємодії.</string>
     <string name="revanced_hide_snack_bar_title">Приховати панель взаємодії</string>
     <string name="revanced_hide_snack_bar_summary_on">Панель взаємодії приховано.</string>
     <string name="revanced_hide_snack_bar_summary_off">Панель взаємодії показується.</string>
+    <string name="revanced_hide_server_side_snack_bar_title">Приховати серверну панель взаємодії</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_on">Серверну панель взаємодії приховано.</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_off">Серверну панель взаємодії показується.</string>
+    <string name="revanced_invert_snack_bar_theme_title">Інвертувати тему панелі взаємодії</string>
+    <string name="revanced_invert_snack_bar_theme_summary_on">Тема панелі взаємодії інвертована.</string>
+    <string name="revanced_invert_snack_bar_theme_summary_off">Тема панелі взаємодії не інвертована.</string>
+    <string name="revanced_change_server_side_snack_bar_background_title">Змінити фон серверної панелі взаємодії</string>
+    <string name="revanced_change_server_side_snack_bar_background_summary_on">Колір фону серверної панелі взаємодії змінений.</string>
+    <string name="revanced_change_server_side_snack_bar_background_summary_off">Колір фону серверної панелі взаємодії не змінений.</string>
+    <string name="revanced_change_server_side_snack_bar_background_user_dialog_message">"Деякі панелі взаємодії використовують тему, задану на стороні сервера, а не тему програми.
+
+Змінюється колір фону цих панелей взаємодії.
+
+Якщо є серверні зміни, колір фону панелі взаємодії може не змінитися."</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Панель інструментів</string>
     <string name="revanced_preference_screen_toolbar_summary">Приховати або змінити компоненти, розташовані на панелі інструментів, такі як кнопки панелі інструментів, панель пошуку, заголовок.</string>

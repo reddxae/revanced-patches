@@ -343,7 +343,7 @@ Note:
 Se l'interfaccia della schermata del riproduttore cambia a causa di modifiche lato server, potrebbero esserci delle interfacce indesiderate nascosti nella schermata del riproduttore."</string>
     <string name="revanced_related_videos_offset_title">Numero massimo di interfacce</string>
     <!-- PreferenceScreen: General -->
-    <string name="revanced_preference_screen_general_title">Generale</string>
+    <string name="revanced_preference_screen_general_title">Generali</string>
     <string name="revanced_change_start_page_title">Cambia la scheda iniziale</string>
     <string name="revanced_change_start_page_entry_default">Predefinita (Home)</string>
     <string name="revanced_change_start_page_entry_browse">Esplora canali</string>

@@ -644,8 +644,8 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_hide_snack_bar_summary_on">共有からリンクをコピーした際などに画面下部に表示されるポップアップを非表示にします。</string>
     <string name="revanced_hide_snack_bar_summary_off">共有からリンクをコピーした際などに画面下部に表示されるポップアップを非表示にします。</string>
     <string name="revanced_hide_server_side_snack_bar_title">サーバー側のスナックバーを非表示</string>
-    <string name="revanced_hide_server_side_snack_bar_summary_on">サーバー側のスナックバーを非表示を非表示にします。</string>
-    <string name="revanced_hide_server_side_snack_bar_summary_off">サーバー側のスナックバーを非表示を非表示にします。</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_on">サーバー側のスナックバーを非表示にします。</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_off">サーバー側のスナックバーを非表示にします。</string>
     <string name="revanced_invert_snack_bar_theme_title">スナックバーのテーマを反転</string>
     <string name="revanced_invert_snack_bar_theme_summary_on">スナックバーのテーマを反転させます。</string>
     <string name="revanced_invert_snack_bar_theme_summary_off">スナックバーのテーマを反転させます。</string>

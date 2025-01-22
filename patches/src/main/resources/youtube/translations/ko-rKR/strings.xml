@@ -407,9 +407,9 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_change_layout_entry_3">폰 (최대 너비: 480 dp)</string>
     <string name="revanced_change_layout_entry_4">태블릿</string>
     <string name="revanced_change_layout_entry_5">태블릿 (최소 너비: 600 dp)</string>
-    <string name="revanced_change_live_ring_click_action_title">\'라이브 링 누르기\' 액션 변경하기</string>
-    <string name="revanced_change_live_ring_click_action_summary_on">라이브 링이 있는 채널 아바타를 눌렀을 경우에 채널 페이지로 연결됩니다.\n\n• Shorts 실시간 스트림일 경우에는 채널 페이지로 연결되지 않을 수 있습니다.</string>
-    <string name="revanced_change_live_ring_click_action_summary_off">라이브 링이 있는 채널 아바타를 눌렀을 경우에 실시간 스트림 동영상으로 연결됩니다.</string>
+    <string name="revanced_change_live_ring_click_action_title">라이브 링 누르기 동작 변경하기</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">라이브 링이 있는 채널 아바타를 누르면 채널 페이지로 연결됩니다.\n\n• Shorts 실시간 스트림일 경우에는 채널 페이지로 연결되지 않을 수 있습니다.</string>
+    <string name="revanced_change_live_ring_click_action_summary_off">라이브 링이 있는 채널 아바타를 누르면 실시간 스트림 동영상으로 연결됩니다.</string>
     <string name="revanced_spoof_app_version_title">앱 버전 변경하기</string>
     <string name="revanced_spoof_app_version_summary_on">앱 버전을 변경합니다.</string>
     <string name="revanced_spoof_app_version_summary_off">앱 버전을 변경하지 않습니다.</string>
@@ -448,7 +448,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">잘못된 필터 값입니다: %s</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons -->
     <string name="revanced_preference_screen_hook_buttons_title">버튼 재정의</string>
-    <string name="revanced_preference_screen_hook_buttons_summary">\'앱 내에 있는 버튼을 터치 시 실행 동작\'을 재정의할 수 있습니다.</string>
+    <string name="revanced_preference_screen_hook_buttons_summary">\'앱 내에 있는 버튼을 누를 시 실행 동작\'을 재정의할 수 있습니다.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Download button -->
     <string name="revanced_preference_category_download_button">오프라인 저장 버튼</string>
     <string name="revanced_override_playlist_download_button_title">재생목록 오프라인 저장 버튼 재정의하기</string>
@@ -1163,7 +1163,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_append_time_stamp_information_type_title">추가되는 정보 유형</string>
     <string name="revanced_append_time_stamp_information_type_summary_on">현재 동영상 화질 값을 추가합니다.</string>
     <string name="revanced_append_time_stamp_information_type_summary_off">현재 동영상 재생 속도 값을 추가합니다.</string>
-    <string name="revanced_replace_time_stamp_action_title">타임스탬프 액션 변경하기</string>
+    <string name="revanced_replace_time_stamp_action_title">타임스탬프 누르기 동작 변경하기</string>
     <string name="revanced_replace_time_stamp_action_summary_on">타임스탬프를 누르면 동영상 재생 속도 또는 동영상 화질 설정 메뉴 구성요소를 열 수 있습니다.</string>
     <string name="revanced_replace_time_stamp_action_summary_off">타임스탬프를 누르면 남은 시간을 표시할 수 있습니다.</string>
     <string name="revanced_disable_seekbar_chapters_title">재생바 챕터 비활성화하기</string>
@@ -1653,7 +1653,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
 
 API Key를 발급받는 방법을 보려면 여기를 누르세요."</string>
     <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_title">YouTube Data API v3 Developer Key 발급받기</string>
-    <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_message">1. &lt;a href=%1$s&gt;새 프로젝트 만들기&lt;/a&gt; 로 이동합니다.&lt;br&gt;2. &lt;b&gt;만들기&lt;/b&gt; 버튼을 터치합니다.&lt;br&gt;3. &lt;a href=%2$s&gt;YouTube Data API v3&lt;/a&gt; 로 이동합니다.&lt;br&gt;4. &lt;b&gt;사용&lt;/b&gt; 버튼을 터치합니다.&lt;br&gt;5. &lt;b&gt;사용자 인증 정보 만들기&lt;/b&gt; 버튼을 터치합니다.&lt;br&gt;6. &lt;b&gt;공개 데이터&lt;/b&gt; 옵션을 선택합니다.&lt;br&gt;7. &lt;b&gt;다음&lt;/b&gt; 버튼을 터치합니다.&lt;br&gt;8. API Key를 복사합니다.&lt;br&gt;&lt;br&gt;※ API Key는 다른 사람과 공유해서는 안 되므로 가져오기 / 내보내기 설정에 포함되지 않습니다.</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_message">1. &lt;a href=%1$s&gt;새 프로젝트 만들기&lt;/a&gt; 로 이동합니다.&lt;br&gt;2. &lt;b&gt;만들기&lt;/b&gt; 버튼을 누릅니다.&lt;br&gt;3. &lt;a href=%2$s&gt;YouTube Data API v3&lt;/a&gt; 로 이동합니다.&lt;br&gt;4. &lt;b&gt;사용&lt;/b&gt; 버튼을 누릅니다.&lt;br&gt;5. &lt;b&gt;사용자 인증 정보 만들기&lt;/b&gt; 버튼을 누릅니다.&lt;br&gt;6. &lt;b&gt;공개 데이터&lt;/b&gt; 옵션을 선택합니다.&lt;br&gt;7. &lt;b&gt;다음&lt;/b&gt; 버튼을 누릅니다.&lt;br&gt;8. API Key를 복사합니다.&lt;br&gt;&lt;br&gt;※ API Key는 다른 사람과 공유해서는 안 되므로 가져오기 / 내보내기 설정에 포함되지 않습니다.</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enable_sb">SponsorBlock 활성화하기</string>

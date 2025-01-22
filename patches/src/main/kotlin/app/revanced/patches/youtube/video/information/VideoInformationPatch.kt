@@ -421,7 +421,10 @@ val videoInformationPatch = bytecodePatch(
                                 
                                 # Get the container class field.
                                 iget-object v0, v2, $setPlaybackSpeedContainerClassFieldReference  
-                                                                
+
+                                # For some reason, in YouTube 19.44.39 this value is sometimes null.
+                                if-eqz v0, :ignore
+
                                 # Get the field from its class.
                                 iget-object v1, v0, $setPlaybackSpeedClassFieldReference
                                 

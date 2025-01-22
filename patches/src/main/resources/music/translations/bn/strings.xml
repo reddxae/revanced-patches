@@ -11,14 +11,14 @@
     <string name="revanced_hide_handle_summary">অ্যাকাউন্ট পরিবর্তনের হ্যান্ডল লুকায়।</string>
     <string name="revanced_hide_terms_container_title">নীতিমালা কন্টেইনার লুকান</string>
     <string name="revanced_hide_terms_container_summary">সার্ভিস কন্টেইনারের নীতিমালা লুকায়।</string>
-    <!-- PreferenceScreen: Action Bar -->
+    <!-- PreferenceScreen: Action bar -->
     <string name="revanced_external_downloader_package_name_title">বাহিরের ডাউনলোডারের প্যাকেজ নাম</string>
     <string name="revanced_external_downloader_package_name_summary">আপনার ইনস্টল করা বাইরের ডাউনলোডার অ্যাপের প্যাকেজ নাম, যেমন NewPipe বা Seal</string>
     <string name="revanced_external_downloader_not_installed_warning">%s ইনস্টল করা হয়নি। অনুগ্রপূর্বক এটি ইনস্টল করুন।</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_hide_music_ads_title">সঙ্গীতের বিজ্ঞাপন লুকান</string>
     <string name="revanced_hide_music_ads_summary">ট্র্যাক চালু হওয়ার আগে বিজ্ঞাপনগুলি লুকান।</string>
-    <!-- PreferenceScreen: Flyout -->
+    <!-- PreferenceScreen: Flyout menu -->
     <string name="revanced_enable_compact_dialog_title">কম্প্যাক্ট ডায়ালগ সক্রিয় করুন</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_disable_auto_captions_title">স্বয়ংক্রিয় ক্যাপশন বন্ধ করুন</string>
@@ -39,9 +39,7 @@
     <string name="revanced_hide_category_bar_title">বিভাগ বার লুকান</string>
     <string name="revanced_hide_category_bar_summary">প্রধান পাতার উপর থেকে বিভাগ বার লুকান।</string>
     <string name="revanced_spoof_app_version_title">অ্যাপ সংস্করণ স্পুফ করুন</string>
-    <!-- PreferenceScreen: Navigation Bar -->
-    <string name="revanced_enable_black_navigation_bar_title">কালো নেভিগেশন বার সক্রিয় করুন</string>
-    <string name="revanced_enable_black_navigation_bar_summary">নেভিগেমন বার এর রং কালো করে।</string>
+    <!-- PreferenceScreen: Navigation bar -->
     <string name="revanced_hide_navigation_bar_title">নেভিগেশন বার লুকান</string>
     <string name="revanced_hide_navigation_bar_summary">নেভিগেশন বার লুকায়।</string>
     <string name="revanced_hide_navigation_label_title">নেভিগেশন বারের লেবেল লুকান</string>

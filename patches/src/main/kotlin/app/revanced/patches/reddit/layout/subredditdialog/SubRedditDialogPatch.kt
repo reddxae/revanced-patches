@@ -3,15 +3,14 @@ package app.revanced.patches.reddit.layout.subredditdialog
 import app.revanced.patcher.extensions.InstructionExtensions.addInstruction
 import app.revanced.patcher.extensions.InstructionExtensions.addInstructions
 import app.revanced.patcher.extensions.InstructionExtensions.getInstruction
-import app.revanced.patcher.extensions.InstructionExtensions.removeInstruction
 import app.revanced.patcher.patch.bytecodePatch
 import app.revanced.patches.reddit.utils.compatibility.Constants.COMPATIBLE_PACKAGE
 import app.revanced.patches.reddit.utils.extension.Constants.PATCHES_PATH
 import app.revanced.patches.reddit.utils.patch.PatchList.REMOVE_SUBREDDIT_DIALOG
 import app.revanced.patches.reddit.utils.settings.is_2024_41_or_greater
+import app.revanced.patches.reddit.utils.settings.is_2025_01_or_greater
 import app.revanced.patches.reddit.utils.settings.settingsPatch
 import app.revanced.patches.reddit.utils.settings.updatePatchStatus
-import app.revanced.util.findMethodOrThrow
 import app.revanced.util.fingerprint.methodOrThrow
 import app.revanced.util.getReference
 import app.revanced.util.indexOfFirstInstructionOrThrow
@@ -19,7 +18,6 @@ import app.revanced.util.indexOfFirstInstructionReversedOrThrow
 import com.android.tools.smali.dexlib2.Opcode
 import com.android.tools.smali.dexlib2.iface.instruction.FiveRegisterInstruction
 import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
-import com.android.tools.smali.dexlib2.iface.instruction.ReferenceInstruction
 import com.android.tools.smali.dexlib2.iface.reference.MethodReference
 
 private const val EXTENSION_CLASS_DESCRIPTOR =
@@ -36,6 +34,25 @@ val subRedditDialogPatch = bytecodePatch(
 
     execute {
 
+        if (is_2024_41_or_greater) {
+            frequentUpdatesHandlerFingerprint
+                .methodOrThrow()
+                .apply {
+                    listOfIsLoggedInInstruction(this)
+                        .forEach { index ->
+                            val register = getInstruction<OneRegisterInstruction>(index + 1).registerA
+
+                            addInstructions(
+                                index + 2, """
+                                    invoke-static {v$register}, $EXTENSION_CLASS_DESCRIPTOR->spoofLoggedInStatus(Z)Z
+                                    move-result v$register
+                                    """
+                            )
+                        }
+                }
+        }
+
+        // Not used in latest Reddit client.
         frequentUpdatesSheetScreenFingerprint.methodOrThrow().apply {
             val index = indexOfFirstInstructionReversedOrThrow(Opcode.RETURN_OBJECT)
             val register =
@@ -43,42 +60,27 @@ val subRedditDialogPatch = bytecodePatch(
 
             addInstruction(
                 index,
-                "invoke-static {v$register}, $EXTENSION_CLASS_DESCRIPTOR->onDialogCreated(Landroid/view/View;)V"
+                "invoke-static {v$register}, $EXTENSION_CLASS_DESCRIPTOR->dismissDialog(Landroid/view/View;)V"
             )
         }
 
-        if (is_2024_41_or_greater) {
-            val dismissReference = with (frequentUpdatesSheetV2ScreenInvokeFingerprint.methodOrThrow()) {
-                val index = indexOfDismissScreenInstruction(this)
-                getInstruction<ReferenceInstruction>(index).reference as MethodReference
+        if (is_2025_01_or_greater) {
+            nsfwAlertEmitFingerprint.methodOrThrow().apply {
+                val hasBeenVisitedIndex = indexOfHasBeenVisitedInstruction(this)
+                val hasBeenVisitedRegister =
+                    getInstruction<OneRegisterInstruction>(hasBeenVisitedIndex + 1).registerA
+
+                addInstructions(
+                    hasBeenVisitedIndex + 2, """
+                        invoke-static {v$hasBeenVisitedRegister}, $EXTENSION_CLASS_DESCRIPTOR->spoofHasBeenVisitedStatus(Z)Z
+                        move-result v$hasBeenVisitedRegister
+                        """
+                )
             }
-
-            findMethodOrThrow(EXTENSION_CLASS_DESCRIPTOR) {
-                name == "dismissRedditDialogV2"
-            }.addInstructions(
-                0, """
-                    check-cast p0, ${dismissReference.definingClass}
-                    invoke-virtual {p0}, $dismissReference
-                    """
-            )
-
-            frequentUpdatesSheetV2ScreenFingerprint
-                .methodOrThrow()
-                .apply {
-                    val targetIndex = implementation!!.instructions.lastIndex
-
-                    addInstructions(
-                        targetIndex + 1, """
-                            invoke-static {p0}, $EXTENSION_CLASS_DESCRIPTOR->dismissDialogV2(Ljava/lang/Object;)V
-                            return-void
-                            """
-                    )
-                    removeInstruction(targetIndex)
-                }
         }
 
         // Not used in latest Reddit client.
-        redditAlertDialogsFingerprint.second.methodOrNull?.apply {
+        redditAlertDialogsFingerprint.methodOrThrow().apply {
             val backgroundTintIndex = indexOfSetBackgroundTintListInstruction(this)
             val insertIndex =
                 indexOfFirstInstructionOrThrow(backgroundTintIndex) {

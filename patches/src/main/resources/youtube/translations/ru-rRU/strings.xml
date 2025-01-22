@@ -19,6 +19,59 @@
     <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s не установлен.
 Пожалуйста, скачайте %2$s с сайта."</string>
     <string name="revanced_external_downloader_not_installed_warning">%s не установлен. Установите его.</string>
+    <string name="revanced_language_title">Язык RVX</string>
+    <string name="revanced_language_DEFAULT">Язык приложения</string>
+    <string name="revanced_language_AR">عَرَبِيّ</string>
+    <string name="revanced_language_AZ">Azərbaycan</string>
+    <string name="revanced_language_BG">Български</string>
+    <string name="revanced_language_BN">বাংলা</string>
+    <string name="revanced_language_CA">Català</string>
+    <string name="revanced_language_CS">Čeština</string>
+    <string name="revanced_language_DA">Dansk</string>
+    <string name="revanced_language_DE">Deutsch</string>
+    <string name="revanced_language_EL">Ελληνικά</string>
+    <string name="revanced_language_EN">English</string>
+    <string name="revanced_language_ES">Español</string>
+    <string name="revanced_language_ET">Eesti keel</string>
+    <string name="revanced_language_FA">فارسی</string>
+    <string name="revanced_language_FI">Suomalainen</string>
+    <string name="revanced_language_FR">Le français</string>
+    <string name="revanced_language_GU">ગુજરાતી</string>
+    <string name="revanced_language_HI">हिन्दी</string>
+    <string name="revanced_language_HR">Hrvatski</string>
+    <string name="revanced_language_HU">Magyar</string>
+    <string name="revanced_language_ID">Indonesia</string>
+    <string name="revanced_language_IT">Italiano</string>
+    <string name="revanced_language_JA">日本語</string>
+    <string name="revanced_language_KK">Қазақ</string>
+    <string name="revanced_language_KO">한국어</string>
+    <string name="revanced_language_LT">Lietùvių</string>
+    <string name="revanced_language_LV">Latviešu</string>
+    <string name="revanced_language_MK">Македонски</string>
+    <string name="revanced_language_MN">Монгол</string>
+    <string name="revanced_language_MR">Marāṭhī / मराठी</string>
+    <string name="revanced_language_MS">Melayu</string>
+    <string name="revanced_language_MY">မြန်မာ</string>
+    <string name="revanced_language_NL">Nederlands</string>
+    <string name="revanced_language_OR">ଓଡ଼ିଆ</string>
+    <string name="revanced_language_PA">ਪੰਜਾਬੀ / پنجابی</string>
+    <string name="revanced_language_PL">Polski</string>
+    <string name="revanced_language_PT">Português</string>
+    <string name="revanced_language_RO">Romanesc</string>
+    <string name="revanced_language_RU">Русский</string>
+    <string name="revanced_language_SK">Slovenský</string>
+    <string name="revanced_language_SL">Slovenski</string>
+    <string name="revanced_language_SR">Српски</string>
+    <string name="revanced_language_SV">Svenska</string>
+    <string name="revanced_language_SW">Kiswahili</string>
+    <string name="revanced_language_TA">தமிழ்</string>
+    <string name="revanced_language_TE">తెలుగు</string>
+    <string name="revanced_language_TH">แบบไทย</string>
+    <string name="revanced_language_TR">Türkçe</string>
+    <string name="revanced_language_UK">Українська</string>
+    <string name="revanced_language_UR">اردو</string>
+    <string name="revanced_language_VI">Tiếng Việt</string>
+    <string name="revanced_language_ZH">中文</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Реклама</string>
     <string name="revanced_hide_fullscreen_ads_title">Полноэкранная реклама</string>
@@ -103,13 +156,14 @@
     <string name="revanced_hide_feed_captions_button_on">Кнопка \"Субтитры\" в ленте скрыта.</string>
     <string name="revanced_hide_feed_captions_button_off">Кнопка \"Субтитры\" в ленте отображена.</string>
     <string name="revanced_hide_carousel_shelf_title">Скрыть рекомендуемые секции</string>
-    <string name="revanced_hide_carousel_shelf_summary">"Скрывает следующие полки:
+    <string name="revanced_hide_carousel_shelf_summary_on">"Скрывает полки карусели:
 • Срочные новости
 • Продолжить просмотр
 • Больше каналов
 • Слушать ещё раз
 • Покупки
 • Смотреть ещё раз"</string>
+    <string name="revanced_hide_carousel_shelf_summary_off">Полки карусели отображены.</string>
     <string name="revanced_hide_chips_shelf_title">Полка эпизодов</string>
     <string name="revanced_hide_chips_shelf_on">Полка эпизодов скрыта.</string>
     <string name="revanced_hide_chips_shelf_off">Полка эпизодов отображена.</string>
@@ -143,18 +197,18 @@
     <string name="revanced_hide_playables_title">Встроенные игры</string>
     <string name="revanced_hide_playables_summary_on">Встроенные игры скрыты.</string>
     <string name="revanced_hide_playables_summary_off">Встроенные игры отображены.</string>
-    <string name="revanced_hide_show_more_button_title">Кнопка \"Показать еще\"</string>
-    <string name="revanced_hide_show_more_button_summary_on">Кнопка \"Показать еще\" скрыта.</string>
-    <string name="revanced_hide_show_more_button_summary_off">Кнопка \"Показать еще\" отображена.</string>
     <string name="revanced_hide_feed_search_bar_title">Панель поиска в ленте</string>
     <string name="revanced_hide_feed_search_bar_summary_on">Панель поиска в ленте скрыта.</string>
     <string name="revanced_hide_feed_search_bar_summary_off">Панель поиска в ленте отображена.</string>
-    <string name="revanced_hide_feed_survey_title">Опросы в ленте</string>
-    <string name="revanced_hide_feed_survey_summary_on">Опросы в ленте скрыты.</string>
-    <string name="revanced_hide_feed_survey_summary_off">Опросы в ленте отображены.</string>
+    <string name="revanced_hide_show_more_button_title">Кнопка \"Показать еще\"</string>
+    <string name="revanced_hide_show_more_button_summary_on">Кнопка \"Показать еще\" скрыта.</string>
+    <string name="revanced_hide_show_more_button_summary_off">Кнопка \"Показать еще\" отображена.</string>
     <string name="revanced_hide_subscriptions_carousel_title">Строка иконок с подписками</string>
     <string name="revanced_hide_subscriptions_carousel_summary_on">Строка иконок с подписками скрыта.</string>
     <string name="revanced_hide_subscriptions_carousel_summary_off">Строка иконок с подписками отображена.</string>
+    <string name="revanced_hide_feed_survey_title">Опросы в ленте</string>
+    <string name="revanced_hide_feed_survey_summary_on">Опросы в ленте скрыты.</string>
+    <string name="revanced_hide_feed_survey_summary_off">Опросы в ленте отображены.</string>
     <string name="revanced_hide_ticket_shelf_title">Полки билетов</string>
     <string name="revanced_hide_ticket_shelf_summary_on">Полки билетов скрыты.</string>
     <string name="revanced_hide_ticket_shelf_summary_off">Полки билетов отображены.</string>
@@ -253,7 +307,7 @@ Shorts
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Рекомендованное видео</string>
     <string name="revanced_hide_low_views_video_title">Скрыть видео с низкими просмотрами</string>
-    <string name="revanced_hide_low_views_video_summary">Скрыть видео с менее 1000 просмотров из ленты, из каналов от которых Вы отписались.</string>
+    <string name="revanced_hide_low_views_video_summary">"Скрыть видео с менее 1000 просмотров из ленты, из каналов от которых Вы отписались."</string>
     <string name="revanced_hide_recommended_video_title">Скрыть рекомендованные видео</string>
     <string name="revanced_hide_recommended_video_summary">"Скрывает следующие рекомендованные видео:
 
@@ -302,17 +356,12 @@ Shorts
     <string name="revanced_related_videos_offset_title">Оффсет - Алгоритм выдачи похожих видео</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Основные настройки</string>
-    <string name="revanced_change_layout_title">Изменить макет</string>
-    <string name="revanced_change_layout_entry_1">Оригинал</string>
-    <string name="revanced_change_layout_entry_2">Телефон</string>
-    <string name="revanced_change_layout_entry_3">Телефон (Макс. 480 dip)</string>
-    <string name="revanced_change_layout_entry_4">Планшет</string>
-    <string name="revanced_change_layout_entry_5">Планшет (Мин. 600 dip)</string>
     <string name="revanced_change_start_page_title">Начальная страница</string>
+    <string name="revanced_change_start_page_entry_default">По умолчанию</string>
     <string name="revanced_change_start_page_entry_browse">Обзор каналов</string>
     <string name="revanced_change_start_page_entry_courses">Курсы / Обучение</string>
-    <string name="revanced_change_start_page_entry_default">По умолчанию</string>
     <string name="revanced_change_start_page_entry_explore">Навигатор</string>
+    <string name="revanced_change_start_page_entry_fashion">Модная</string>
     <string name="revanced_change_start_page_entry_gaming">Игры</string>
     <string name="revanced_change_start_page_entry_history">История</string>
     <string name="revanced_change_start_page_entry_library">Библиотека</string>
@@ -320,8 +369,11 @@ Shorts
     <string name="revanced_change_start_page_entry_live">Трансляции</string>
     <string name="revanced_change_start_page_entry_movies">Фильмы</string>
     <string name="revanced_change_start_page_entry_music">Музыка</string>
+    <string name="revanced_change_start_page_entry_news">Новости</string>
     <string name="revanced_change_start_page_entry_notifications">Уведомления</string>
+    <string name="revanced_change_start_page_entry_podcasts">Подкасты</string>
     <string name="revanced_change_start_page_entry_search">Поиск</string>
+    <string name="revanced_change_start_page_entry_shopping">Покупки</string>
     <string name="revanced_change_start_page_entry_shorts">Shorts</string>
     <string name="revanced_change_start_page_entry_sports">Спорт</string>
     <string name="revanced_change_start_page_entry_subscriptions">Подписки</string>
@@ -353,11 +405,17 @@ Shorts
     <string name="revanced_hide_gray_separator_title">Серые разделители</string>
     <string name="revanced_hide_gray_separator_summary_on">Серые разделители скрыты.</string>
     <string name="revanced_hide_gray_separator_summary_off">Серые разделители отображены.</string>
-    <string name="revanced_hide_snack_bar_title">Виджет коротких уведомлений</string>
-    <string name="revanced_hide_snack_bar_summary_on">Виджет коротких уведомлений скрыт.</string>
-    <string name="revanced_hide_snack_bar_summary_off">Виджет коротких уведомлений отображен.</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">Скрыть диалог возрастного ограничения</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Возрастные ограничения будут приниматься автоматически."</string>
+    <string name="revanced_change_layout_title">Изменить макет</string>
+    <string name="revanced_change_layout_entry_1">Оригинал</string>
+    <string name="revanced_change_layout_entry_2">Телефон</string>
+    <string name="revanced_change_layout_entry_3">Телефон (Макс. 480 dip)</string>
+    <string name="revanced_change_layout_entry_4">Планшет</string>
+    <string name="revanced_change_layout_entry_5">Планшет (Мин. 600 dip)</string>
+    <string name="revanced_change_live_ring_click_action_title">Действие нажатия на точку прямого эфира</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">Открывается канал.</string>
+    <string name="revanced_change_live_ring_click_action_summary_off">Открывается прямой эфир.</string>
     <string name="revanced_spoof_app_version_title">Подмена версии приложения</string>
     <string name="revanced_spoof_app_version_summary_on">Версия приложения подменена</string>
     <string name="revanced_spoof_app_version_summary_off">Версия приложения не подменена</string>
@@ -411,7 +469,7 @@ Shorts
     <string name="revanced_override_video_download_button_summary_off">Кнопка \"Скачать\" использует внутренний загрузчик.</string>
     <string name="revanced_external_downloader_package_name_playlist_title">Внешний загрузчик для плейлиста, название пакета</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">Например: NewPipe или YTDLnis, или др. (Для плейлиста).</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental flags -->
     <string name="revanced_override_youtube_music_button_title">Переопределить кнопку YouTube Music</string>
     <string name="revanced_override_youtube_music_button_summary_on">Кнопка YouTube Music открывает RVX Music.</string>
     <string name="revanced_override_youtube_music_button_summary_off">Кнопка YouTube Music открывает встроенное приложение.</string>
@@ -531,9 +589,9 @@ Shorts
     <string name="revanced_hide_settings_menu_data_saving_title">Экономия трафика</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_on">Экономия трафика скрыта.</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_off">Экономия трафика отображена.</string>
-    <string name="revanced_hide_settings_menu_auto_play_title">Автовоспроизведение</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_on">Автовоспроизведение скрыто.</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_off">Автовоспроизведение отображено.</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_title">Меню автовоспроизведения или воспроизведения</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_summary_on">Скрыто.</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_summary_off">Отображено.</string>
     <string name="revanced_hide_settings_menu_video_quality_title">Качество видео</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_on">Качество видео скрыто.</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_off">Качество видео отображено.</string>
@@ -579,6 +637,10 @@ Shorts
     <string name="revanced_hide_settings_menu_about_title">О приложении</string>
     <string name="revanced_hide_settings_menu_about_summary_on">О приложении скрыто.</string>
     <string name="revanced_hide_settings_menu_about_summary_off">О приложении отображено.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Snack bar -->
+    <string name="revanced_hide_snack_bar_title">Виджет коротких уведомлений</string>
+    <string name="revanced_hide_snack_bar_summary_on">Виджет коротких уведомлений скрыт.</string>
+    <string name="revanced_hide_snack_bar_summary_off">Виджет коротких уведомлений отображен.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Панель инструментов</string>
     <string name="revanced_preference_screen_toolbar_summary">Скрыть или изменить компоненты на панели инструментов - строка поиска, кнопки и заголовок.</string>
@@ -592,9 +654,15 @@ Shorts
     <string name="revanced_enable_wide_search_bar_with_header_summary_on">Логотип YouTube отображается рядом с широкой строкой поиска.</string>
     <string name="revanced_enable_wide_search_bar_with_header_summary_off">Широкая строка поиска замещает логотип YouTube.</string>
     <string name="revanced_enable_wide_search_bar_in_you_tab_title">Широкая строка поиска во вкладке \"Вы\"</string>
-    <string name="revanced_enable_wide_search_bar_in_you_tab_summary">"Эта опция отключит кнопку \"Настройки\" во вкладке \"Вы\".
+    <string name="revanced_enable_wide_search_bar_in_you_tab_summary_on">"Широкая панель поиска во вкладке «Вы» включена.
 
-Используйте такую последовательность: Вкладка \"Вы\" -> Страница канала -> Меню -> Настройки."</string>
+Настройки здесь:
+Вкладка «Вы» → Просмотр канала → Меню → Настройки"</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_summary_off">Широкая панель поиска во вкладке «Вы» отключена.</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_user_dialog_message">"Включая эту функцию кнопка Настройки отключится во вкладке «Вы».
+
+Настройки здесь:
+Вкладка «Вы» → Просмотр канала → Меню → Настройки"</string>
     <string name="revanced_hide_toolbar_cast_button_title">Кнопка \"Трансляция\"</string>
     <string name="revanced_hide_toolbar_cast_button_summary_on">Кнопка \"Трансляция\" скрыта.</string>
     <string name="revanced_hide_toolbar_cast_button_summary_off">Кнопка \"Трансляция\" отображена.</string>
@@ -737,6 +805,39 @@ Shorts
     <string name="revanced_hide_thanks_button_title">Кнопка \"Спасибо\"</string>
     <string name="revanced_hide_thanks_button_summary_on">Кнопка \"Спасибо\" скрыта.</string>
     <string name="revanced_hide_thanks_button_summary_off">Кнопка \"Спасибо\" отображена.</string>
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
+    <string name="revanced_preference_category_hide_by_index">Скрытие по индексу</string>
+    <string name="revanced_hide_action_button_index_0_title">Первая кнопка</string>
+    <string name="revanced_hide_action_button_index_0_summary_on">Скрыта.</string>
+    <string name="revanced_hide_action_button_index_0_summary_off">Отображена.</string>
+    <string name="revanced_hide_action_button_index_1_title">Вторая кнопка</string>
+    <string name="revanced_hide_action_button_index_1_summary_on">Скрыта.</string>
+    <string name="revanced_hide_action_button_index_1_summary_off">Отображена.</string>
+    <string name="revanced_hide_action_button_index_2_title">Третья кнопка</string>
+    <string name="revanced_hide_action_button_index_2_summary_on">Скрыта.</string>
+    <string name="revanced_hide_action_button_index_2_summary_off">Отображена.</string>
+    <string name="revanced_hide_action_button_index_3_title">Четвертая кнопка</string>
+    <string name="revanced_hide_action_button_index_3_summary_on">Скрыта.</string>
+    <string name="revanced_hide_action_button_index_3_summary_off">Отображена.</string>
+    <string name="revanced_hide_action_button_index_4_title">Пятая кнопка</string>
+    <string name="revanced_hide_action_button_index_4_summary_on">Скрыта.</string>
+    <string name="revanced_hide_action_button_index_4_summary_off">Отображена.</string>
+    <string name="revanced_hide_action_button_index_5_title">Шестая кнопка</string>
+    <string name="revanced_hide_action_button_index_5_summary_on">Скрыта.</string>
+    <string name="revanced_hide_action_button_index_5_summary_off">Отображена.</string>
+    <string name="revanced_hide_action_button_index_6_title">Седьмая кнопка</string>
+    <string name="revanced_hide_action_button_index_6_summary_on">Скрыта.</string>
+    <string name="revanced_hide_action_button_index_6_summary_off">Отображена.</string>
+    <string name="revanced_hide_action_button_index_7_title">Восьмая кнопка</string>
+    <string name="revanced_hide_action_button_index_7_summary_on">Скрыта.</string>
+    <string name="revanced_hide_action_button_index_7_summary_off">Отображена.</string>
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
+    <string name="revanced_preference_category_hide_by_index_live">Скрытие по индексу в прямых эфирах</string>
+    <string name="revanced_hide_action_button_index_about_title">О скрытии по индексу</string>
+    <string name="revanced_hide_action_button_index_about_summary">"Скрытие кнопок по индексу до их инициализации.
+
+- Скрытие кнопок действий не оставляет пустого места.
+- Индекс кнопок действий не всегда может быть одной и той же кнопкой."</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Окружающая подсветка</string>
     <string name="revanced_preference_screen_ambient_mode_summary">Отключить окружающую подсветку или обойти ограничение в режиме экономии заряда батареи.</string>
@@ -932,7 +1033,7 @@ Shorts
     <string name="revanced_quick_actions_top_margin_title">Отступ над быстрыми действиями</string>
     <string name="revanced_quick_actions_top_margin_summary">Значение отступа поля быстрых действий от шкалы воспроизведения\nДиапазон от 0 до 32.</string>
     <string name="revanced_quick_actions_top_margin_invalid_toast">Значение должно быть в диапазоне от 0 до 32. Сброс по умолчанию.</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Fullscreen, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Fullscreen, PreferenceCategory: Experimental flags -->
     <string name="revanced_disable_landscape_mode_title">Альбомный режим</string>
     <string name="revanced_disable_landscape_mode_summary_on">Портретная ориентация в полноэкранном режиме включена.</string>
     <string name="revanced_disable_landscape_mode_summary_off">Ориентация в полноэкранном режиме по настройкам устройства.</string>
@@ -940,7 +1041,8 @@ Shorts
     <string name="revanced_enable_compact_controls_overlay_summary_on">Наложение элементов управления не полноэкранное.</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">Наложение элементов управления полноэкранное.</string>
     <string name="revanced_keep_landscape_mode_title">Удерживать альбомный режим</string>
-    <string name="revanced_keep_landscape_mode_summary">Удерживает альбомный режим в полноэкранном режиме.</string>
+    <string name="revanced_keep_landscape_mode_summary_on">Ландшафтный режим при выкл / вкл экрана.</string>
+    <string name="revanced_keep_landscape_mode_summary_off">Портретный режим при выкл / вкл экрана.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">Сохранять таймаут альбомного режима</string>
     <string name="revanced_keep_landscape_mode_timeout_summary">Количество миллисекунд, в течение которых принудительно работает альбомный режим.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Haptic feedback -->
@@ -1125,7 +1227,7 @@ Shorts
     <string name="revanced_hide_transcript_section_title">Секция \"Расшифровка видео\"</string>
     <string name="revanced_hide_transcript_section_summary_on">Секция \"Расшифровка видео\" скрыта.</string>
     <string name="revanced_hide_transcript_section_summary_off">Секция \"Расшифровка видео\" отображена.</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Video description, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Video description, PreferenceCategory: Experimental flags -->
     <string name="revanced_disable_video_description_interaction_title">Взаимодействие с описанием видео</string>
     <string name="revanced_disable_video_description_interaction_summary">"Отключает следующее взаимодействие при расширении описания видео:
 
@@ -1150,7 +1252,7 @@ Shorts
     <string name="revanced_hide_shorts_floating_button_title">Всплывающая кнопка</string>
     <string name="revanced_hide_shorts_floating_button_summary_on">"Всплывающие кнопки, такие как «Использовать этот звук», во вкладке Shorts скрыты."</string>
     <string name="revanced_hide_shorts_floating_button_summary_off">"Всплывающие кнопки, такие как «Использовать этот звук», во вкладке Shorts отображены."</string>
-    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts shelf -->
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts shelves -->
     <string name="revanced_preference_category_shorts_shelf">Настройки скрытия Shorts</string>
     <string name="revanced_hide_shorts_shelf_title">Полки Shorts</string>
     <string name="revanced_hide_shorts_shelf_summary">"Скрывает полки Shorts.
@@ -1175,13 +1277,16 @@ Shorts
     <string name="revanced_hide_shorts_shelf_history_title">Shorts в истории просмотра</string>
     <string name="revanced_hide_shorts_shelf_history_summary_on">В истории просмотра скрыты.</string>
     <string name="revanced_hide_shorts_shelf_history_summary_off">В истории просмотра отображены.</string>
-    <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental flags -->
     <string name="revanced_change_shorts_background_repeat_state_title">Состояние повтора Shorts в фоне</string>
     <string name="revanced_change_shorts_repeat_state_title">Состояние повторов в Shorts</string>
     <string name="revanced_change_shorts_repeat_state_entry_auto_play">Автопереход</string>
     <string name="revanced_change_shorts_repeat_state_entry_default">По умолчанию</string>
     <string name="revanced_change_shorts_repeat_state_entry_pause">Остановить</string>
     <string name="revanced_change_shorts_repeat_state_entry_repeat">Повторять</string>
+    <string name="revanced_open_shorts_in_regular_player_title">Открывать Shorts в обычном плеере</string>
+    <string name="revanced_open_shorts_in_regular_player_summary_on">Включено.</string>
+    <string name="revanced_open_shorts_in_regular_player_summary_off">Отключено.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player -->
     <string name="revanced_preference_screen_shorts_player_title">Плеер Shorts</string>
     <string name="revanced_preference_screen_shorts_player_summary">Компоненты в плеере Shorts.</string>
@@ -1331,11 +1436,11 @@ Shorts
     <string name="revanced_shorts_custom_actions_repeat_state_summary_on">Меню режима повтора отображено.</string>
     <string name="revanced_shorts_custom_actions_repeat_state_summary_off">Меню режима повтора скрыто.</string>
     <string name="revanced_shorts_custom_actions_about_title">О пользовательских действиях</string>
-    <string name="revanced_shorts_custom_actions_about_about_summary">"Экспериментальная функция!
+    <string name="revanced_shorts_custom_actions_about_summary">"Экспериментальная функция!
 Гарантии работы нет!
 
 Большинство ошибок не может быть исправлено из-за ограничений со стороны клиента, поэтому используйте их только для тестирования."</string>
-    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental flags -->
     <string name="revanced_enable_shorts_time_stamp_title">Метка времени</string>
     <string name="revanced_enable_shorts_time_stamp_summary_on">"Метка времени включена.
 
@@ -1736,6 +1841,9 @@ Shorts
     <string name="revanced_sb_about_api_sum">Данные предоставлены SponsorBlock API. Нажмите здесь, чтобы узнать больше и скачать версии для других платформ.</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Разное</string>
+    <string name="revanced_bypass_url_redirects_title">Обход URL переадресации</string>
+    <string name="revanced_bypass_url_redirects_summary_on">Включено.</string>
+    <string name="revanced_bypass_url_redirects_summary_off">Отключено.</string>
     <string name="revanced_disable_quic_protocol_title">Отключить протокол QUIC</string>
     <string name="revanced_disable_quic_protocol_summary">"Отключает протокол, построенный поверх UDP, переходя на TCP."</string>
     <string name="revanced_enable_debug_logging_title">Журнал отладки</string>
@@ -1744,12 +1852,9 @@ Shorts
     <string name="revanced_enable_debug_buffer_logging_title">Журнал отладки буфера</string>
     <string name="revanced_enable_debug_buffer_logging_summary_on">Журнал отладки буфера включен.</string>
     <string name="revanced_enable_debug_buffer_logging_summary_off">Журнал отладки буфера отключен.</string>
-    <string name="revanced_enable_external_browser_title">Внешние ссылки</string>
-    <string name="revanced_enable_external_browser_summary_on">Внешние ссылки открываются в браузере.</string>
-    <string name="revanced_enable_external_browser_summary_off">Внешние ссылки открываются в приложении.</string>
-    <string name="revanced_enable_open_links_directly_title">Перенаправление ссылок</string>
-    <string name="revanced_enable_open_links_directly_summary_on">Обход youtube.com/redirect при открытии ссылок включен.</string>
-    <string name="revanced_enable_open_links_directly_summary_off">Обход youtube.com/redirect при открытии ссылок отключен.</string>
+    <string name="revanced_open_links_externally_title">Открывать внешние ссылки</string>
+    <string name="revanced_open_links_externally_summary_on">Открывает ссылки во внешнем браузере.</string>
+    <string name="revanced_open_links_externally_summary_off">Открывает ссылки в браузере приложения.</string>
     <string name="revanced_sanitize_sharing_links_title">Очистить ссылки при отправке</string>
     <string name="revanced_sanitize_sharing_links_summary">Убирает параметры отслеживания запросов из URL при отправке ссылки.</string>
     <string name="revanced_default_app_settings_title">Использование по умолчанию</string>
@@ -1807,6 +1912,8 @@ Shorts
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">"Android TV
 <small>(Требуется вход)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr_no_auth">"Android VR
+<small>(Без автора)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
 <small>(Необходим PoToken)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS
@@ -1830,6 +1937,7 @@ Shorts
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Статистике для сисадминов</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Клиент потоковых данных отображается в Статистике для сисадминов.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Клиент потоковых данных скрыт в Статистике для сисадминов.</string>
+    <string name="revanced_spoof_streaming_data_language_title">Язык аудио потока по умолчанию VR</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <string name="revanced_preference_category_po_token_visitor_data">PoToken / VisitorData</string>
     <string name="revanced_spoof_streaming_data_po_token_title">PoToken</string>

@@ -102,12 +102,6 @@ Tippen Sie hier, um mehr über DeArrow zu erfahren."</string>
     <string name="revanced_hide_feed_captions_button_on">Schaltfläche \"Untertitel\" ist versteckt.</string>
     <string name="revanced_hide_feed_captions_button_off">Schaltfläche \"Untertitel\" wird angezeigt.</string>
     <string name="revanced_hide_carousel_shelf_title">Karussellregal ausblenden</string>
-    <string name="revanced_hide_carousel_shelf_summary">"Versteckt folgende Abschnitte:
-- Aktuelle Nachrichten
-- Weiterschauen
-- Entdecke mehr Kanäle
-- Shopping
-- Erneut anschauen"</string>
     <string name="revanced_hide_chips_shelf_title">Chips-Abschnitt verstecken</string>
     <string name="revanced_hide_chips_shelf_on">Chips-Abschnitt wird versteckt.</string>
     <string name="revanced_hide_chips_shelf_off">Chips-Abschnitt wird angezeigt</string>
@@ -141,18 +135,18 @@ Tippen Sie hier, um mehr über DeArrow zu erfahren."</string>
     <string name="revanced_hide_playables_title">Spielbare Elemente ausblenden</string>
     <string name="revanced_hide_playables_summary_on">Spielbare Elemente sind ausgeblendet.</string>
     <string name="revanced_hide_playables_summary_off">Spielbare Elemente werden angezeigt.</string>
-    <string name="revanced_hide_show_more_button_title">Schaltfläche „Mehr anzeigen“ ausblenden</string>
-    <string name="revanced_hide_show_more_button_summary_on">Die Schaltfläche „Mehr anzeigen“ ist ausgeblendet.</string>
-    <string name="revanced_hide_show_more_button_summary_off">Die Schaltfläche „Mehr anzeigen“ wird angezeigt.</string>
     <string name="revanced_hide_feed_search_bar_title">Feed Suchleiste ausblenden</string>
     <string name="revanced_hide_feed_search_bar_summary_on">Feed Suchleiste ist ausgeblendet.</string>
     <string name="revanced_hide_feed_search_bar_summary_off">Feed Suchleiste wird angezeigt.</string>
-    <string name="revanced_hide_feed_survey_title">Feed-Umfragen verstecken</string>
-    <string name="revanced_hide_feed_survey_summary_on">Feed-Umfragen sind versteckt</string>
-    <string name="revanced_hide_feed_survey_summary_off">Feed-Umfragen werden angezeigt</string>
+    <string name="revanced_hide_show_more_button_title">Schaltfläche „Mehr anzeigen“ ausblenden</string>
+    <string name="revanced_hide_show_more_button_summary_on">Die Schaltfläche „Mehr anzeigen“ ist ausgeblendet.</string>
+    <string name="revanced_hide_show_more_button_summary_off">Die Schaltfläche „Mehr anzeigen“ wird angezeigt.</string>
     <string name="revanced_hide_subscriptions_carousel_title">Abonnement-Karussell ausblenden</string>
     <string name="revanced_hide_subscriptions_carousel_summary_on">Abonnement-Karussell ist versteckt.</string>
     <string name="revanced_hide_subscriptions_carousel_summary_off">Karussell für Abonnements wird angezeigt.</string>
+    <string name="revanced_hide_feed_survey_title">Feed-Umfragen verstecken</string>
+    <string name="revanced_hide_feed_survey_summary_on">Feed-Umfragen sind versteckt</string>
+    <string name="revanced_hide_feed_survey_summary_off">Feed-Umfragen werden angezeigt</string>
     <string name="revanced_hide_ticket_shelf_title">Ticket-Abschnitte verstecken</string>
     <string name="revanced_hide_ticket_shelf_summary_on">Ticket-Abschnitte sind versteckt</string>
     <string name="revanced_hide_ticket_shelf_summary_off">Ticket-Abschnitte werden angezeigt</string>
@@ -248,7 +242,7 @@ Einschränkungen:
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Empfohlene Videos</string>
     <string name="revanced_hide_low_views_video_title">Videos mit wenigen Aufrufen verstecken</string>
-    <string name="revanced_hide_low_views_video_summary">Verstecke Videos mit weniger als 1000 Aufrufen von nicht abonnierten Kanälen von der Startseite.</string>
+    <string name="revanced_hide_low_views_video_summary">"Verstecke Videos mit weniger als 1000 Aufrufen von nicht abonnierten Kanälen von der Startseite."</string>
     <string name="revanced_hide_recommended_video_title">Empfohlene Videos ausblenden</string>
     <string name="revanced_hide_recommended_video_summary">"Versteckt die folgenden empfohlenen Videos:
 
@@ -287,15 +281,9 @@ Wenn sich das Layout des Wiedergabebildschirms aufgrund serverseitiger Änderung
     <string name="revanced_related_videos_offset_title">Offset</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Allgemein</string>
-    <string name="revanced_change_layout_title">Layout ändern</string>
-    <string name="revanced_change_layout_entry_1">Original</string>
-    <string name="revanced_change_layout_entry_2">Telefon</string>
-    <string name="revanced_change_layout_entry_3">Telefon (max. 480 dp)</string>
-    <string name="revanced_change_layout_entry_4">Tablet</string>
-    <string name="revanced_change_layout_entry_5">Tablet (min. 600 dp)</string>
     <string name="revanced_change_start_page_title">Startseite ändern</string>
-    <string name="revanced_change_start_page_entry_browse">Kanäle durchstöbern</string>
     <string name="revanced_change_start_page_entry_default">Standard</string>
+    <string name="revanced_change_start_page_entry_browse">Kanäle durchstöbern</string>
     <string name="revanced_change_start_page_entry_explore">Entdecken</string>
     <string name="revanced_change_start_page_entry_gaming">Spiele</string>
     <string name="revanced_change_start_page_entry_history">Verlauf</string>
@@ -333,12 +321,15 @@ Einschränkung: Zurück-Taste in der Symbolleiste funktioniert möglicherweise n
     <string name="revanced_hide_gray_separator_title">Graue Trennzeichen ausblenden</string>
     <string name="revanced_hide_gray_separator_summary_on">Graue Trennzeichen sind ausgeblendet</string>
     <string name="revanced_hide_gray_separator_summary_off">Graue Trennzeichen werden angezeigt</string>
-    <string name="revanced_hide_snack_bar_title">Snackbar verstecken</string>
-    <string name="revanced_hide_snack_bar_summary_on">Snackbar ist versteckt</string>
-    <string name="revanced_hide_snack_bar_summary_off">Snackbar wird angezeigt</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">Diskretion des Betrachters entfernen</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Entfernt den Diskretionsdialog des Betrachters.
 Dies umgeht nicht die Altersbeschränkung. Es akzeptiert ihn nur automatisch."</string>
+    <string name="revanced_change_layout_title">Layout ändern</string>
+    <string name="revanced_change_layout_entry_1">Original</string>
+    <string name="revanced_change_layout_entry_2">Telefon</string>
+    <string name="revanced_change_layout_entry_3">Telefon (max. 480 dp)</string>
+    <string name="revanced_change_layout_entry_4">Tablet</string>
+    <string name="revanced_change_layout_entry_5">Tablet (min. 600 dp)</string>
     <string name="revanced_spoof_app_version_title">Spoof App Version</string>
     <string name="revanced_spoof_app_version_summary_on">Version gefälscht</string>
     <string name="revanced_spoof_app_version_summary_off">Version nicht gefälscht</string>
@@ -383,7 +374,7 @@ Manche Komponenten könnten nicht versteckt werden."</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Download button -->
     <string name="revanced_preference_category_download_button">Download-Button</string>
     <string name="revanced_override_video_download_button_title">Überschreibe Video-Download-Button</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental flags -->
     <string name="revanced_override_youtube_music_button_title">YouTube Musik-Button überschreiben</string>
     <string name="revanced_override_youtube_music_button_summary_on">YouTube Music Button öffnet RVX Music.</string>
     <string name="revanced_override_youtube_music_button_summary_off">YouTube Musik-Button öffnet die native App.</string>
@@ -480,9 +471,6 @@ Wenn diese Einstellung nicht wirksam ist, versuchen Sie in den Inkognito-Modus z
     <string name="revanced_hide_settings_menu_data_saving_title">\"Niedrigerer Datenverbrauch\" ausblenden</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_on">\"Niedrigerer Datenverbrauch\" wird ausgeblendet.</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_off">\"Niedrigerer Datenverbrauch\" wird angezeigt.</string>
-    <string name="revanced_hide_settings_menu_auto_play_title">Autoplay ausblenden</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_on">Autoplay wird ausgeblendet.</string>
-    <string name="revanced_hide_settings_menu_auto_play_summary_off">Autoplay wird angezeigt.</string>
     <string name="revanced_hide_settings_menu_video_quality_title">Einstellungen für Videoqualität ausblenden</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_on">Einstellungen für Videoqualität wird ausgeblendet.</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_off">Einstellungen für Videoqualität wird angezeigt.</string>
@@ -528,6 +516,10 @@ Wenn diese Einstellung nicht wirksam ist, versuchen Sie in den Inkognito-Modus z
     <string name="revanced_hide_settings_menu_about_title">\"Über\" ausblenden</string>
     <string name="revanced_hide_settings_menu_about_summary_on">\"Über\" wird ausgeblendet.</string>
     <string name="revanced_hide_settings_menu_about_summary_off">\"Über\" wird angezeigt.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Snack bar -->
+    <string name="revanced_hide_snack_bar_title">Snackbar verstecken</string>
+    <string name="revanced_hide_snack_bar_summary_on">Snackbar ist versteckt</string>
+    <string name="revanced_hide_snack_bar_summary_off">Snackbar wird angezeigt</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Werkzeugleiste</string>
     <string name="revanced_preference_screen_toolbar_summary">Verstecke oder ändere Toolbar-Komponenten, wie die Suchleiste, Buttons und Header.</string>
@@ -541,10 +533,6 @@ Wenn diese Einstellung nicht wirksam ist, versuchen Sie in den Inkognito-Modus z
     <string name="revanced_enable_wide_search_bar_with_header_summary_on">Breite Suchleiste enthält YouTube Header</string>
     <string name="revanced_enable_wide_search_bar_with_header_summary_off">Breite Suchleiste enthält nicht YouTube Header.</string>
     <string name="revanced_enable_wide_search_bar_in_you_tab_title">Aktiviere breite Suchleiste in deinem Tab</string>
-    <string name="revanced_enable_wide_search_bar_in_you_tab_summary">"Aktivieren dieser Einstellung deaktiviert die Einstellungsschaltfläche in der Registerkarte \"Sie\".
-
-In diesem Fall verwenden Sie bitte den folgenden Pfad:
-Sie Registerkarte &gt; Kanal &gt; Menü &gt; Einstellungen."</string>
     <string name="revanced_hide_toolbar_cast_button_title">Verstecke Erstellen Schaltfläche</string>
     <string name="revanced_hide_toolbar_cast_button_summary_on">Cast Button ist versteckt.</string>
     <string name="revanced_hide_toolbar_cast_button_summary_off">Der Cast button wird angezeigt.</string>
@@ -679,6 +667,8 @@ Einstellungen → Autoplay → Nächstes Video automatisch abspielen"</string>
     <string name="revanced_hide_thanks_button_title">Verstecke \"Danke\" Schaltfläche</string>
     <string name="revanced_hide_thanks_button_summary_on">\"Danke\" Schaltfläche wird versteckt.</string>
     <string name="revanced_hide_thanks_button_summary_off">\"Danke\" Schaltfläche wird angezeigt.</string>
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Ambient-Modus</string>
     <string name="revanced_preference_screen_ambient_mode_summary">Ambient-Modus deaktivieren oder Einschränkungen des Ambient-Modus umgehen.</string>
@@ -837,7 +827,7 @@ Einschränkung: Videotitel verschwindet beim Klicken auf den Bildschirm."</strin
     <string name="revanced_quick_actions_top_margin_title">Schnelle Aktionen oberer Rand</string>
     <string name="revanced_quick_actions_top_margin_summary">Konfigurieren Sie den Abstand von der Suchleiste auf die Meta-Leiste zwischen 0-32.</string>
     <string name="revanced_quick_actions_top_margin_invalid_toast">Der obere Rand der Schnellaktionen muss zwischen 0-32 liegen. Zurückgesetzt auf Standardwerte.</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Fullscreen, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Fullscreen, PreferenceCategory: Experimental flags -->
     <string name="revanced_disable_landscape_mode_title">Querformat deaktivieren</string>
     <string name="revanced_disable_landscape_mode_summary_on">Querformat im Fullscreen Modus deaktiviert</string>
     <string name="revanced_disable_landscape_mode_summary_off">Querformat im Fullscreen Modus aktiviert</string>
@@ -845,7 +835,6 @@ Einschränkung: Videotitel verschwindet beim Klicken auf den Bildschirm."</strin
     <string name="revanced_enable_compact_controls_overlay_summary_on">Kompaktsteuerungs-Overlay ist aktiviert</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">Kompaktsteuerungs-Overlay ist deaktiviert</string>
     <string name="revanced_keep_landscape_mode_title">Querformat behalten</string>
-    <string name="revanced_keep_landscape_mode_summary">Bewahrt den Querformat beim Ausschalten des Bildschirms im Vollbild.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">Timeout für den Wechsel zum Querformat</string>
     <string name="revanced_keep_landscape_mode_timeout_summary">Die Anzahl der Millisekunden nach dem Einschalten des Bildschirms, nachdem Querformat erzwungen wird.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Haptic feedback -->
@@ -984,7 +973,7 @@ Tippen und halten Sie, um den Einstellungsdialog für die Whitelist anzuzeigen.<
     <string name="revanced_hide_key_concepts_section_summary_on">Schlüsselkonzepte sind ausgeblendet.</string>
     <string name="revanced_hide_key_concepts_section_summary_off">Schlüsselkonzepte werden angezeigt.</string>
     <string name="revanced_hide_transcript_section_summary_off">Transkriptabschnitte werden angezeigt</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Video description, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Video description, PreferenceCategory: Experimental flags -->
     <string name="revanced_disable_video_description_interaction_title">Videobeschreibungsinteraktion deaktivieren</string>
     <string name="revanced_disable_video_description_interaction_summary">"Deaktiviert die folgenden Interaktionen, wenn die Videobeschreibung erweitert wird:
 
@@ -1002,7 +991,7 @@ Die Option \"Videobeschreibung\" kann nicht funktionieren, wenn die eingegebene 
     <string name="revanced_disable_resuming_shorts_player_title">Shorts-Player beim App-Start ausblenden</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">Shorts-Player aktiv beim Start der Anwendung.</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">Shorts-Player aktiv beim Start der Anwendung</string>
-    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts shelf -->
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts shelves -->
     <string name="revanced_hide_shorts_shelf_title">Verstecke Ausschnitte aus Shorts in Kanälen</string>
     <string name="revanced_hide_shorts_shelf_summary">"Verstecke Shorts Regale.
 
@@ -1017,7 +1006,7 @@ Nebeneffekt: Offizielle Kopfzeilen in Suchergebnissen werden ausgeblendet."</str
     <string name="revanced_hide_shorts_shelf_subscriptions_summary_on">Community-Beiträge im Abonnement-Feed sind versteckt.</string>
     <string name="revanced_hide_shorts_shelf_subscriptions_summary_off">Community-Beiträge im Abonnement-Feed werden angezeigt.</string>
     <string name="revanced_hide_shorts_shelf_history_title">Verstecke im Beobachtungsverlauf</string>
-    <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental flags -->
     <string name="revanced_change_shorts_repeat_state_entry_auto_play">Autoplay</string>
     <string name="revanced_change_shorts_repeat_state_entry_default">Standard</string>
     <string name="revanced_change_shorts_repeat_state_entry_pause">Pause</string>
@@ -1093,7 +1082,7 @@ Nebeneffekt: Offizielle Kopfzeilen in Suchergebnissen werden ausgeblendet."</str
     <string name="revanced_shorts_custom_actions_toolbar_dialog_title">Benutzerdefinierte Aktionen</string>
     <string name="revanced_shorts_custom_actions_copy_video_url_label">Video-URL kopieren</string>
     <string name="revanced_shorts_custom_actions_open_video_label">Video öffnen</string>
-    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental flags -->
     <string name="revanced_enable_shorts_time_stamp_title">Zeitstempel aktivieren</string>
     <string name="revanced_enable_shorts_time_stamp_summary_on">"Zeitstempel ist aktiviert.
 
@@ -1429,12 +1418,6 @@ Einschränkung: Dislikes werden im Inkognito Modus nicht angezeigt."</string>
     <string name="revanced_enable_debug_buffer_logging_title">Debug-Pufferprotokollierung aktivieren</string>
     <string name="revanced_enable_debug_buffer_logging_summary_on">Debug-Protokolle enthalten Puffer.</string>
     <string name="revanced_enable_debug_buffer_logging_summary_off">Debug-Protokolle enthalten keinen Puffer.</string>
-    <string name="revanced_enable_external_browser_title">Aktiviere externen Browser</string>
-    <string name="revanced_enable_external_browser_summary_on">Externer Browser ist aktiviert</string>
-    <string name="revanced_enable_external_browser_summary_off">Externer Browser ist deaktiviert</string>
-    <string name="revanced_enable_open_links_directly_title">Links direkt öffnen</string>
-    <string name="revanced_enable_open_links_directly_summary_on">Umgehung von URL-Umleitungen</string>
-    <string name="revanced_enable_open_links_directly_summary_off">Standard-Umleitungsrichtlinie folgen</string>
     <string name="revanced_default_app_settings_title">Standard-App-Einstellungen öffnen</string>
     <string name="revanced_default_app_settings_summary">Um RVX in einem externen Browser zu öffnen, aktivieren Sie \'Unterstützte Links öffnen\' und aktivieren Sie die unterstützen Web-Adressen</string>
     <string name="gms_core_settings_title">GmsCore öffnen</string>

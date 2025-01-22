@@ -18,7 +18,7 @@
     <string name="revanced_hide_handle_summary">Ukrywa nicki w przełączniku kont.</string>
     <string name="revanced_hide_terms_container_title">Ukryj kontener warunków usług</string>
     <string name="revanced_hide_terms_container_summary">Ukrywa kontener warunków usług z menu konta.</string>
-    <!-- PreferenceScreen: Action Bar -->
+    <!-- PreferenceScreen: Action bar -->
     <string name="revanced_preference_screen_action_bar_title">Pasek akcji</string>
     <string name="revanced_hide_action_button_like_dislike_title">Ukryj przyciski łapki w górę i dół</string>
     <string name="revanced_hide_action_button_like_dislike_summary">Ukrywa przyciski łapki w górę i dół. Nie będzie działać na starym układzie odtwarzacza.</string>
@@ -56,7 +56,7 @@ Ograniczenie:
     <string name="revanced_hide_general_ads_title">Ukryj ogólne reklamy</string>
     <string name="revanced_hide_general_ads_summary">Ukrywa ogólne reklamy.</string>
     <string name="revanced_hide_music_ads_title">Ukryj reklamy multimedialne</string>
-    <string name="revanced_hide_music_ads_summary">Ukrywa reklamy przed odtworzeniem multimediów.</string>
+    <string name="revanced_hide_music_ads_summary">Ukrywa reklamy w trakcie odtwarzania multimediów.</string>
     <string name="revanced_hide_paid_promotion_label_title">Ukryj etykiety oznaczające płatne promocje</string>
     <string name="revanced_hide_paid_promotion_label_summary">Ukrywa etykiety oznaczające płatne promocje.</string>
     <string name="revanced_hide_premium_promotion_title">Ukryj wyskakujące okienka promocyjne Premium</string>
@@ -65,7 +65,7 @@ Ograniczenie:
     <string name="revanced_hide_premium_renewal_summary">Ukrywa baner odnawiania Premium.</string>
     <string name="revanced_hide_promotion_alert_banner_title">Ukryj banery z alertami promocyjnymi</string>
     <string name="revanced_hide_promotion_alert_banner_summary">Ukrywa banery z alertami promocyjnymi.</string>
-    <!-- PreferenceScreen: Flyout -->
+    <!-- PreferenceScreen: Flyout menu -->
     <string name="revanced_preference_screen_flyout_title">Menu ustawień utworu</string>
     <string name="revanced_enable_trim_silence_title">Włącz przełącznik do pomijania ciszy</string>
     <string name="revanced_enable_trim_silence_summary">"Dodaje przycisk pomijania ciszy do menu od prędkości odtwarzania.
@@ -179,10 +179,13 @@ Nie pomija to ograniczeń wiekowych, lecz akceptuje je automatycznie."</string>
     <string name="revanced_spoof_app_version_target_entry_4_27_53">4.27.53 - Wyłącza tryb radia w rejonach kanadyjskich</string>
     <string name="revanced_spoof_app_version_target_entry_6_11_52">6.11.52 - Wyłącza teksty w czasie rzeczywistym</string>
     <string name="revanced_spoof_app_version_target_entry_7_16_53">7.16.53 - Przywraca stary pasek akcji</string>
-    <!-- PreferenceScreen: Navigation Bar -->
+    <!-- PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_title">Pasek nawigacji</string>
-    <string name="revanced_enable_black_navigation_bar_title">Włącz czarny pasek nawigacji</string>
-    <string name="revanced_enable_black_navigation_bar_summary">Ustawia kolor paska nawigacji na czarny.</string>
+    <string name="revanced_enable_custom_navigation_bar_color_title">Włącz niestandardowy kolor paska nawigacji</string>
+    <string name="revanced_enable_custom_navigation_bar_color_summary">Ustawia kolor paska nawigacji.</string>
+    <string name="revanced_custom_navigation_bar_color_value_title">Niestandardowy kolor paska nawigacji</string>
+    <string name="revanced_custom_navigation_bar_color_value_summary">Wpisz kod hex koloru paska nawigacji.</string>
+    <string name="revanced_custom_navigation_bar_color_value_invalid_invalid_toast">Nieprawidłowa wartość koloru paska nawigacji.</string>
     <string name="revanced_hide_navigation_home_button_title">Ukryj przycisk do strony głównej</string>
     <string name="revanced_hide_navigation_home_button_summary">Ukrywa przycisk do strony głównej.</string>
     <string name="revanced_hide_navigation_samples_button_title">Ukryj przycisk od sampli</string>
@@ -368,7 +371,7 @@ Kliknij, by zobaczyć, jak zgłosić klucz API."</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Pozostałe</string>
     <string name="revanced_extended_settings_import_export_title">Importuj/Eksportuj ustawienia</string>
-    <string name="revanced_extended_settings_import_export_summary">Zaimportuj lub wyeksportuj ustawienia</string>
+    <string name="revanced_extended_settings_import_export_summary">Zaimportuj / wyeksportuj ustawienia RVX Music</string>
     <string name="revanced_extended_settings_export_as_file">Wyeksportuj ustawienia do pliku</string>
     <string name="revanced_extended_settings_import_as_file">Zaimportuj ustawienia z pliku</string>
     <string name="revanced_extended_settings_import_export_as_text">Zaimportuj/Wyeksportuj ustawienia jako tekst</string>
@@ -435,9 +438,9 @@ Informacje:
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_music">Android Music</string>
     <string name="revanced_default_app_settings_title">Otwórz systemowe ustawienia aplikacji</string>
-    <string name="revanced_default_app_settings_summary">Aby otwierać linki YouTube Music w RVX Music, przejdź do opcji obsługiwanych linków w ustawieniach i włącz obsługiwane adresy internetowe dla RVX.</string>
+    <string name="revanced_default_app_settings_summary">Aby otwierać linki YouTube Music w RVX Music, przejdź do opcji obsługiwanych linków w ustawieniach i włącz obsługiwane adresy internetowe dla RVX Music.</string>
     <string name="gms_core_settings_title">Otwórz ustawienia GmsCore</string>
-    <string name="gms_core_settings_summary">Otwiera ustawienia GmsCore. Następnie włącz cloud messaging, by otrzymywać powiadomienia.</string>
+    <string name="gms_core_settings_summary">Aby otrzymywać powiadomienia w RVX Music, włącz Cloud Messaging.</string>
     <string name="gms_core_toast_not_installed_message">GmsCore nie jest zainstalowany. Zainstaluj go.</string>
     <string name="gms_core_dialog_title">Wymagane działanie</string>
     <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"GmsCore nie ma uprawnień do działania w tle.

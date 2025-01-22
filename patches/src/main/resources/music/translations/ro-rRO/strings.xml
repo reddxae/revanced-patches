@@ -11,14 +11,14 @@
     <string name="revanced_hide_handle_summary">Ascunde mânerul în comutatorul de conturi.</string>
     <string name="revanced_hide_terms_container_title">Ascunde containerul termenilor</string>
     <string name="revanced_hide_terms_container_summary">Ascunde containerul termenilor și condițiilor de utilizare.</string>
-    <!-- PreferenceScreen: Action Bar -->
+    <!-- PreferenceScreen: Action bar -->
     <string name="revanced_external_downloader_package_name_title">Numele pachetului de descărcare extern</string>
     <string name="revanced_external_downloader_package_name_summary">Numele pachetului al aplicației externe de descărcare instalate, cum ar fi NewPipe sau YTDLnis.</string>
     <string name="revanced_external_downloader_not_installed_warning">%s nu este instalat. Vă rugăm să-l instalaţi.</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_hide_music_ads_title">Ascunde reclamele muzicale</string>
     <string name="revanced_hide_music_ads_summary">Ascunde reclamele înainte de a reda o piesă.</string>
-    <!-- PreferenceScreen: Flyout -->
+    <!-- PreferenceScreen: Flyout menu -->
     <string name="revanced_enable_compact_dialog_title">Activare dialog compact</string>
     <string name="revanced_enable_compact_dialog_summary">"Activați dialogul compact pe telefon.
 
@@ -46,9 +46,7 @@ Probleme cunoscute:
     <string name="revanced_hide_history_button_title">Ascunde butonul de istoric</string>
     <string name="revanced_hide_history_button_summary">Ascunde butonul de istoric în bara de instrumente.</string>
     <string name="revanced_spoof_app_version_target_entry_4_27_53">4.27.53 - Dezactivare mod radio în regiunile canadiene</string>
-    <!-- PreferenceScreen: Navigation Bar -->
-    <string name="revanced_enable_black_navigation_bar_title">Activare bară neagră de navigare</string>
-    <string name="revanced_enable_black_navigation_bar_summary">Setează culoarea barei de navigare la negru.</string>
+    <!-- PreferenceScreen: Navigation bar -->
     <string name="revanced_hide_navigation_bar_title">Ascunde bara de navigare</string>
     <string name="revanced_hide_navigation_bar_summary">Ascunde bara de navigare.</string>
     <string name="revanced_hide_navigation_label_title">Ascunde eticheta de navigare</string>

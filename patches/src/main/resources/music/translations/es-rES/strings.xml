@@ -18,7 +18,7 @@
     <string name="revanced_hide_handle_summary">Oculta el asa en el conmutador de cuenta.</string>
     <string name="revanced_hide_terms_container_title">Ocultar contenedor de términos</string>
     <string name="revanced_hide_terms_container_summary">Oculta los términos del contenedor de servicio.</string>
-    <!-- PreferenceScreen: Action Bar -->
+    <!-- PreferenceScreen: Action bar -->
     <string name="revanced_preference_screen_action_bar_title">Barra de Acción</string>
     <string name="revanced_hide_action_button_like_dislike_title">Ocultar botones Me gusta y No me gusta</string>
     <string name="revanced_hide_action_button_like_dislike_summary">Oculta los botones \"Me gusta\" y \"no me gusta\". No funciona en el diseño del reproductor antiguo.</string>
@@ -62,7 +62,7 @@ Descarga %2$s desde el sitio web."</string>
     <string name="revanced_hide_premium_renewal_summary">Oculta banner de renovación premium.</string>
     <string name="revanced_hide_promotion_alert_banner_title">Ocultar banner de alerta de promoción</string>
     <string name="revanced_hide_promotion_alert_banner_summary">Oculta el banner de alerta de promoción.</string>
-    <!-- PreferenceScreen: Flyout -->
+    <!-- PreferenceScreen: Flyout menu -->
     <string name="revanced_preference_screen_flyout_title">Menú desplegable</string>
     <string name="revanced_enable_trim_silence_title">Añadir interruptor para recortar silencios</string>
     <string name="revanced_enable_trim_silence_summary">"Añade un interruptor para recortar silencios en el menú desplegable de velocidad de reproducción.
@@ -176,10 +176,8 @@ Esto no evita la restricción de edad. Solo la acepta automáticamente."</string
     <string name="revanced_spoof_app_version_target_entry_4_27_53">4.27.53 - Desactivar el modo radio en las regiones canadienses</string>
     <string name="revanced_spoof_app_version_target_entry_6_11_52">6.11.52 - Desactivar letras en tiempo real</string>
     <string name="revanced_spoof_app_version_target_entry_7_16_53">7.16.53 - Restaurar la antigua barra de acción</string>
-    <!-- PreferenceScreen: Navigation Bar -->
+    <!-- PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_title">Barra de navegación</string>
-    <string name="revanced_enable_black_navigation_bar_title">Activar barra de navegación negra</string>
-    <string name="revanced_enable_black_navigation_bar_summary">Establece el color de la barra de navegación en negro.</string>
     <string name="revanced_hide_navigation_home_button_title">Ocultar botón de Inicio</string>
     <string name="revanced_hide_navigation_home_button_summary">Oculta el botón de Inicio.</string>
     <string name="revanced_hide_navigation_samples_button_title">Ocultar botón de Samples</string>

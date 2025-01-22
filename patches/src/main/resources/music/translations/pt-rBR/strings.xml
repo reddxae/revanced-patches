@@ -18,7 +18,7 @@
     <string name="revanced_hide_handle_summary">Oculta o identificador no menu da conta.</string>
     <string name="revanced_hide_terms_container_title">Ocultar contêiner de termos</string>
     <string name="revanced_hide_terms_container_summary">Oculta o contêiner dos Termos de Serviço.</string>
-    <!-- PreferenceScreen: Action Bar -->
+    <!-- PreferenceScreen: Action bar -->
     <string name="revanced_preference_screen_action_bar_title">Barra de ação</string>
     <string name="revanced_hide_action_button_like_dislike_title">Ocultar botões de Like e Deslike</string>
     <string name="revanced_hide_action_button_like_dislike_summary">Oculta os botões de Like e Deslike. Não funciona no antigo layout do reprodutor.</string>
@@ -56,16 +56,16 @@ Limitações:
     <string name="revanced_hide_general_ads_title">Ocultar anúncios gerais</string>
     <string name="revanced_hide_general_ads_summary">Oculta anúncios gerais.</string>
     <string name="revanced_hide_music_ads_title">Ocultar anúncios de mídia</string>
-    <string name="revanced_hide_music_ads_summary">Oculta os anúncios antes de reproduzir mídia.</string>
+    <string name="revanced_hide_music_ads_summary">Oculta os anúncios reproduzidos durante a reprodução de mídia.</string>
     <string name="revanced_hide_paid_promotion_label_title">Ocultar rótulo de promoção paga</string>
     <string name="revanced_hide_paid_promotion_label_summary">Oculta o rótulo de promoção paga.</string>
     <string name="revanced_hide_premium_promotion_title">Ocultar pop-ups de promoção premium</string>
-    <string name="revanced_hide_premium_promotion_summary">Oculta pop-ups de promoção premium.</string>
+    <string name="revanced_hide_premium_promotion_summary">Oculta os pop-ups de promoção premium.</string>
     <string name="revanced_hide_premium_renewal_title">Ocultar banner de renovação premium</string>
     <string name="revanced_hide_premium_renewal_summary">Oculta o banner de renovação premium.</string>
     <string name="revanced_hide_promotion_alert_banner_title">Ocultar banner de alerta de promoção</string>
     <string name="revanced_hide_promotion_alert_banner_summary">Oculta o banner de alerta de promoção.</string>
-    <!-- PreferenceScreen: Flyout -->
+    <!-- PreferenceScreen: Flyout menu -->
     <string name="revanced_preference_screen_flyout_title">Menu flutuante</string>
     <string name="revanced_enable_trim_silence_title">Adicionar alternador para Cortar silêncio</string>
     <string name="revanced_enable_trim_silence_summary">"Adiciona a opção Cortar silêncio ao menu flutuante de velocidade de reprodução.
@@ -165,7 +165,7 @@ Limitações:
     <string name="revanced_hide_voice_search_button_title">Ocultar botão de pesquisa por voz</string>
     <string name="revanced_hide_voice_search_button_summary">Oculta o botão de pesquisa por voz na barra de pesquisa.</string>
     <string name="revanced_restore_old_style_library_shelf_title">Restaurar a aba antiga da Biblioteca</string>
-    <string name="revanced_restore_old_style_library_shelf_summary">Retorna a aba da Biblioteca para o estilo antigo. (Experimental)</string>
+    <string name="revanced_restore_old_style_library_shelf_summary">Restaura a aba da Biblioteca para o estilo antigo. (Experimental)</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">Remover o diálogo discricionário do visualizador</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Remover o diálogo discricionário de visualização.
 Isso não ignora a restrição de idade, apenas aceita isso automaticamente."</string>
@@ -179,10 +179,13 @@ Isso não ignora a restrição de idade, apenas aceita isso automaticamente."</s
     <string name="revanced_spoof_app_version_target_entry_4_27_53">4.27.53 - Desativar modo de Rádio em regiões Canadenses</string>
     <string name="revanced_spoof_app_version_target_entry_6_11_52">6.11.52 - Desativar letras em tempo real</string>
     <string name="revanced_spoof_app_version_target_entry_7_16_53">7.16.53 - Restaurar barra de ação antiga</string>
-    <!-- PreferenceScreen: Navigation Bar -->
+    <!-- PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_title">Barra de Navegação</string>
-    <string name="revanced_enable_black_navigation_bar_title">Ativar barra de navegação preta</string>
-    <string name="revanced_enable_black_navigation_bar_summary">Define a cor da barra de navegação para preto.</string>
+    <string name="revanced_enable_custom_navigation_bar_color_title">Ativar cor personalizada da barra de navegação</string>
+    <string name="revanced_enable_custom_navigation_bar_color_summary">Define a cor da barra de navegação.</string>
+    <string name="revanced_custom_navigation_bar_color_value_title">Valor da cor da barra de navegação personalizada</string>
+    <string name="revanced_custom_navigation_bar_color_value_summary">Digite o código hexadecimal da cor da barra de navegação.</string>
+    <string name="revanced_custom_navigation_bar_color_value_invalid_invalid_toast">Valor da cor da barra de navegação inválido.</string>
     <string name="revanced_hide_navigation_home_button_title">Ocultar botão Início</string>
     <string name="revanced_hide_navigation_home_button_summary">Oculta o botão de Início.</string>
     <string name="revanced_hide_navigation_samples_button_title">Ocultar botão Descobertas</string>
@@ -196,49 +199,49 @@ Isso não ignora a restrição de idade, apenas aceita isso automaticamente."</s
     <string name="revanced_hide_navigation_bar_title">Ocultar barra de navegação</string>
     <string name="revanced_hide_navigation_bar_summary">Oculta a barra de navegação.</string>
     <string name="revanced_hide_navigation_label_title">Ocultar rótulos de navegação</string>
-    <string name="revanced_hide_navigation_label_summary">Oculta rótulos abaixo dos botões de navegação.</string>
+    <string name="revanced_hide_navigation_label_summary">Oculta o rótulo abaixo de cada botão de navegação.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Reprodutor</string>
     <string name="revanced_enable_mini_player_next_button_title">Adicionar o botão próximo no mini reprodutor</string>
     <string name="revanced_enable_mini_player_next_button_summary">Adiciona o botão próximo no mini reprodutor.</string>
     <string name="revanced_enable_mini_player_previous_button_title">Adicionar o botão anterior no mini reprodutor</string>
     <string name="revanced_enable_mini_player_previous_button_summary">Adiciona o botão anterior no mini reprodutor.</string>
-    <string name="revanced_enable_color_match_player_title">Alterar cor do miniplayer</string>
-    <string name="revanced_enable_color_match_player_summary">Corresponde à cor do mini reprodutor para o reprodutor em tela cheia.</string>
-    <string name="revanced_enable_black_player_background_title">Ativar fundo do reprodutor preto</string>
+    <string name="revanced_enable_color_match_player_title">Alterar cor do mini reprodutor</string>
+    <string name="revanced_enable_color_match_player_summary">Altera a cor do mini reprodutor para a cor do reprodutor em tela cheia.</string>
+    <string name="revanced_enable_black_player_background_title">Alterar cor de fundo do reprodutor</string>
     <string name="revanced_enable_black_player_background_summary">Altera a cor de fundo do reprodutor para preto.</string>
     <string name="revanced_disable_mini_player_gesture_title">Desativar gesto do mini reprodutor</string>
-    <string name="revanced_disable_mini_player_gesture_summary">Desativar deslize para alterar faixas no mini reprodutor.</string>
+    <string name="revanced_disable_mini_player_gesture_summary">Desativa a função de deslizar para alterar faixa no mini reprodutor.</string>
     <string name="revanced_disable_player_gesture_title">Desativar gesto do reprodutor</string>
-    <string name="revanced_disable_player_gesture_summary">Desativar deslize para alterar faixas no reprodutor.</string>
-    <string name="revanced_enable_force_minimized_player_title">Ativar reprodutor minimizado forçado</string>
-    <string name="revanced_enable_force_minimized_player_summary">Mantém o reprodutor minimizado mesmo quando outra faixa é reproduzida.</string>
+    <string name="revanced_disable_player_gesture_summary">Desativa a função de deslizar para alterar faixa no reprodutor.</string>
+    <string name="revanced_enable_force_minimized_player_title">Ativar mini reprodutor forçado</string>
+    <string name="revanced_enable_force_minimized_player_summary">Ativa o mini reprodutor forçado ao alternar para uma nova faixa.</string>
     <string name="revanced_enable_swipe_to_dismiss_mini_player_title">Ativar deslizar para dispensar o mini reprodutor</string>
     <string name="revanced_enable_swipe_to_dismiss_mini_player_summary">Permite deslizar para baixo para dispensar o mini reprodutor.</string>
     <string name="revanced_enable_zen_mode_title">Ativar modo Calmo</string>
-    <string name="revanced_enable_zen_mode_summary">Altera a cor de fundo do reprodutor para cinza claro para reduzir o cansaço visual.</string>
+    <string name="revanced_enable_zen_mode_summary">Ativa uma cor cinza claro para o fundo do reprodutor para reduzir o cansaço visual.</string>
     <string name="revanced_enable_zen_mode_podcast_title">Ativar o modo Calmo em podcasts</string>
-    <string name="revanced_enable_zen_mode_podcast_summary">Também ativa o modo Calmo para podcasts.</string>
+    <string name="revanced_enable_zen_mode_podcast_summary">Ativa o modo Calmo em podcasts.</string>
     <string name="revanced_hide_comment_channel_guidelines_title">Ocultar diretrizes do canal</string>
     <string name="revanced_hide_comment_channel_guidelines_summary">Oculta as diretrizes do canal na parte superior da seção de comentários.</string>
     <string name="revanced_hide_double_tap_overlay_filter_title">Ocultar filtro de sobreposição de toque duplo</string>
     <string name="revanced_hide_double_tap_overlay_filter_summary">Oculta a sobreposição escura que aparece quando um duplo toque para procurar.</string>
-    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_title">Ocultar botões de marcação de tempo e emoji</string>
-    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">Oculta os botões de marcação de tempo e emoji ao escrever comentários.</string>
+    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_title">Ocultar botões de emoji e marcação de tempo</string>
+    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">Oculta os botões de emoji e marcação de tempo ao escrever comentários.</string>
     <string name="revanced_hide_fullscreen_share_button_title">Ocultar botão Compartilhar em tela cheia</string>
     <string name="revanced_hide_fullscreen_share_button_summary">Oculta o botão Compartilhar no reprodutor de tela cheia.</string>
-    <string name="revanced_hide_audio_video_switch_toggle_title">Ocultar alternador de Áudio / Vídeo</string>
-    <string name="revanced_hide_audio_video_switch_toggle_summary">Oculta o alternador de Áudio / Vídeo no reprodutor.</string>
+    <string name="revanced_hide_audio_video_switch_toggle_title">Ocultar alternador de Música / Vídeo</string>
+    <string name="revanced_hide_audio_video_switch_toggle_summary">Oculta o alternador de Música / Vídeo no reprodutor.</string>
     <string name="revanced_remember_repeat_state_title">Lembrar estado de repetição</string>
     <string name="revanced_remember_repeat_state_summary">Lembra o estado da alternância de repetição.</string>
     <string name="revanced_remember_shuffle_state_title">Lembrar estado do modo aleatório</string>
     <string name="revanced_remember_shuffle_state_summary">Lembre o estado da alternância do modo aleatório.</string>
-    <string name="revanced_restore_old_comments_popup_panels_title">Restaurar antigo painel popup de comentários</string>
-    <string name="revanced_restore_old_comments_popup_panels_summary">Retorna os painéis popup de comentários ao estilo antigo.</string>
+    <string name="revanced_restore_old_comments_popup_panels_title">Restaurar antigo painel pop-up de comentários</string>
+    <string name="revanced_restore_old_comments_popup_panels_summary">Restaura os painéis pop-up de comentários ao estilo antigo.</string>
     <string name="revanced_restore_old_player_background_title">Restaurar antigo fundo do reprodutor</string>
-    <string name="revanced_restore_old_player_background_summary">Retorna o fundo do reprodutor para o estilo antigo.</string>
+    <string name="revanced_restore_old_player_background_summary">Restaura o fundo do reprodutor para o estilo antigo.</string>
     <string name="revanced_restore_old_player_layout_title">Restaurar antigo layout do reprodutor</string>
-    <string name="revanced_restore_old_player_layout_summary">"Retorna o layout do reprodutor ao estilo antigo.
+    <string name="revanced_restore_old_player_layout_summary">"Restaura o layout do reprodutor ao estilo antigo.
 Alguns recursos podem não funcionar corretamente no layout antigo do reprodutor."</string>
     <!-- PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_title">Menu de configurações</string>
@@ -259,11 +262,11 @@ Alguns recursos podem não funcionar corretamente no layout antigo do reprodutor
     <string name="revanced_remember_playback_speed_last_selected_title">Lembrar mudança na velocidade de reprodução</string>
     <string name="revanced_remember_playback_speed_last_selected_summary">Lembra a última velocidade de reprodução selecionada.</string>
     <string name="revanced_remember_playback_speed_last_selected_toast_title">Exibir uma notificação flutuante</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_summary">Exibir uma notificação flutuante quando alterar a velocidade padrão de reprodução.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary">Exibe uma notificação flutuante quando alterar a velocidade padrão de reprodução.</string>
     <string name="revanced_remember_video_quality_last_selected_title">Lembrar mudança na qualidade do vídeo</string>
     <string name="revanced_remember_video_quality_last_selected_summary">Lembra a última qualidade de vídeo selecionada.</string>
     <string name="revanced_remember_video_quality_last_selected_toast_title">Exibir uma notificação flutuante</string>
-    <string name="revanced_remember_video_quality_last_selected_toast_summary">Exibir uma notificação flutuante quando alterar a qualidade padrão do vídeo.</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary">Exibe uma notificação flutuante quando alterar a qualidade padrão do vídeo.</string>
     <string name="revanced_custom_playback_speeds_invalid">Velocidades personalizadas devem ser menores que %sx.</string>
     <string name="revanced_custom_playback_speeds_parse_exception">Velocidades de reprodução personalizadas inválidas.</string>
     <string name="revanced_remember_playback_speed_toast">Alterando a velocidade padrão para %s.</string>
@@ -368,7 +371,7 @@ Clique para ver como emitir uma chave de API."</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Diversos</string>
     <string name="revanced_extended_settings_import_export_title">Importar / Exportar configurações</string>
-    <string name="revanced_extended_settings_import_export_summary">Importar ou exportar as configurações como texto.</string>
+    <string name="revanced_extended_settings_import_export_summary">Importar / Exportar configurações do RVX Music.</string>
     <string name="revanced_extended_settings_export_as_file">Exportar configurações para um arquivo</string>
     <string name="revanced_extended_settings_import_as_file">Importar configurações de um arquivo</string>
     <string name="revanced_extended_settings_import_export_as_text">Importar / Exportar as configurações como texto</string>
@@ -382,9 +385,9 @@ Clique para ver como emitir uma chave de API."</string>
     <string name="revanced_extended_settings_reset">Reiniciar</string>
     <string name="revanced_share_copy_settings_success">Configurações copiadas para área de transferência.</string>
     <string name="revanced_bypass_image_region_restrictions_title">Ignorar restrições de imagem por região</string>
-    <string name="revanced_bypass_image_region_restrictions_summary">Substitui o domínio que está bloqueado em algumas regiões para que miniaturas para playlists, avatares de canais, etc. possam ser recebidos.</string>
+    <string name="revanced_bypass_image_region_restrictions_summary">Ignora o domínio que está bloqueado em algumas regiões para que miniaturas para playlists, avatares de canais, etc. possam ser recebidos.</string>
     <string name="revanced_change_share_sheet_title">Alterar menu de compartilhamento</string>
-    <string name="revanced_change_share_sheet_summary">Alterar o menu de compartilhamento do app para o meno de compartilhamento do sistema.</string>
+    <string name="revanced_change_share_sheet_summary">Altera o menu de compartilhamento do app para o meno de compartilhamento do sistema.</string>
     <string name="revanced_disable_cairo_splash_animation_title">Desativar a animação inicial do Cairo</string>
     <string name="revanced_disable_cairo_splash_animation_summary">Desabilita a animação inicial do Cairo quando o aplicativo é iniciado.</string>
     <string name="revanced_disable_drc_audio_title">Desativar áudio DRC</string>
@@ -398,20 +401,20 @@ Encontre a música oficial se um videoclipe for detectado tocando de um álbum.
     <string name="revanced_disable_music_video_in_album_redirect_type_title">Tipo de redirecionamento</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_summary">Especifica como redirecionar para a música oficial.</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect">Redirecionar</string>
-    <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_click">Tocar alternador de Áudio / Vídeo</string>
-    <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_long_click">Tocar e segurar alternador de Áudio / Vídeo</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_click">Tocar alternador de Música / Vídeo</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_long_click">Tocar e segurar alternador de Música / Vídeo</string>
     <string name="revanced_enable_debug_logging_title">Ativar o relatório de depuração</string>
     <string name="revanced_enable_debug_logging_summary">Imprime o relatório de depuração</string>
     <string name="revanced_enable_debug_buffer_logging_title">Ativar o registro de depuração do buffer</string>
     <string name="revanced_enable_debug_buffer_logging_summary">Inclui o buffer no log de depuração.</string>
     <string name="revanced_enable_opus_codec_title">Ativar codec OPUS</string>
-    <string name="revanced_enable_opus_codec_summary">"Ative o codec OPUS se a resposta do reprodutor incluir o codec OPUS.
+    <string name="revanced_enable_opus_codec_summary">"Ativa o codec OPUS se a resposta do reprodutor o incluir.
 
 Informações:
 • Os clientes mais recentes do YouTube Music usam o codec de áudio OPUS por padrão.
 • Isto só é válido para usuários que falsificam com clientes muito antigos."</string>
     <string name="revanced_sanitize_sharing_links_title">Limpar links compartilhados</string>
-    <string name="revanced_sanitize_sharing_links_summary">Remove os parâmetros de consulta de rastreamento das URLs ao compartilhar os links.</string>
+    <string name="revanced_sanitize_sharing_links_summary">Limpa links de compartilhamento removendo parâmetros de consulta de rastreamento.</string>
     <string name="revanced_spoof_client_title">Falsificar cliente</string>
     <string name="revanced_spoof_client_summary">"Falsificar o cliente para evitar problemas de reprodução.
 
@@ -434,9 +437,9 @@ Informações:
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_music">Android Music</string>
     <string name="revanced_default_app_settings_title">Abrir configurações padrão do aplicativo</string>
-    <string name="revanced_default_app_settings_summary">Para abrir os links de música do YouTube no RVX Music, ative \'Abrir links suportados\' e ative os endereços web suportados.</string>
-    <string name="gms_core_settings_title">Abrir GmsCore</string>
-    <string name="gms_core_settings_summary">Ative as mensagens na nuvem para receber notificações.</string>
+    <string name="revanced_default_app_settings_summary">Para abrir links do YouTube Music no RVX Music, ative Abrir links suportados e ative todos os endereços da web suportados.</string>
+    <string name="gms_core_settings_title">Abrir configurações do GmsCore</string>
+    <string name="gms_core_settings_summary">Para receber notificações no RVX Music, ative as mensagens na nuvem.</string>
     <string name="gms_core_toast_not_installed_message">O GmsCore não está instalado. Instale-o.</string>
     <string name="gms_core_dialog_title">Ação necessária</string>
     <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"O GmsCore não tem permissão para executar em segundo plano.

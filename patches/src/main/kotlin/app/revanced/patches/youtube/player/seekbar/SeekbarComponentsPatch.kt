@@ -25,6 +25,7 @@ import app.revanced.patches.youtube.utils.playerButtonsVisibilityFingerprint
 import app.revanced.patches.youtube.utils.playerSeekbarColorFingerprint
 import app.revanced.patches.youtube.utils.playservice.is_19_25_or_greater
 import app.revanced.patches.youtube.utils.playservice.is_19_46_or_greater
+import app.revanced.patches.youtube.utils.playservice.is_19_49_or_greater
 import app.revanced.patches.youtube.utils.playservice.versionCheckPatch
 import app.revanced.patches.youtube.utils.resourceid.inlineTimeBarColorizedBarPlayedColorDark
 import app.revanced.patches.youtube.utils.resourceid.inlineTimeBarPlayedNotHighlightedColor
@@ -253,15 +254,34 @@ val seekbarComponentsPatch = bytecodePatch(
         addDrawableColorHook("$EXTENSION_SEEKBAR_COLOR_CLASS_DESCRIPTOR->getLithoColor(I)I")
 
         if (is_19_25_or_greater) {
-            playerSeekbarGradientConfigFingerprint.injectLiteralInstructionBooleanCall(
-                PLAYER_SEEKBAR_GRADIENT_FEATURE_FLAG,
-                "$EXTENSION_SEEKBAR_COLOR_CLASS_DESCRIPTOR->playerSeekbarGradientEnabled(Z)Z"
-            )
-
             lithoLinearGradientFingerprint.methodOrThrow().addInstruction(
                 0,
                 "invoke-static/range { p4 .. p5 },  $EXTENSION_SEEKBAR_COLOR_CLASS_DESCRIPTOR->setLinearGradient([I[F)V"
             )
+
+            if (!is_19_49_or_greater) {
+                playerLinearGradientLegacyFingerprint.matchOrThrow().let {
+                    it.method.apply {
+                        val index = it.patternMatch!!.endIndex
+                        val register = getInstruction<OneRegisterInstruction>(index).registerA
+
+                        addInstructions(
+                            index + 1,
+                            """
+                            invoke-static { v$register },  $EXTENSION_SEEKBAR_COLOR_CLASS_DESCRIPTOR->getLinearGradient([I)[I
+                            move-result-object v$register
+                            """
+                        )
+                    }
+                }
+            } else {
+                // TODO: add 19.49 support
+                playerSeekbarGradientConfigFingerprint.injectLiteralInstructionBooleanCall(
+                    PLAYER_SEEKBAR_GRADIENT_FEATURE_FLAG,
+                    "$EXTENSION_SEEKBAR_COLOR_CLASS_DESCRIPTOR->playerSeekbarGradientEnabled(Z)Z"
+                )
+            }
+
 
             if (!restoreOldSplashAnimationIncluded) {
                 // Don't use the lotte splash screen layout if using custom seekbar.

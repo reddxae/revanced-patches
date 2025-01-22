@@ -17,7 +17,7 @@
     <string name="revanced_hide_handle_summary">隐藏账号菜单中的句柄</string>
     <string name="revanced_hide_terms_container_title">隐藏服务条款栏</string>
     <string name="revanced_hide_terms_container_summary">隐藏服务条款栏</string>
-    <!-- PreferenceScreen: Action Bar -->
+    <!-- PreferenceScreen: Action bar -->
     <string name="revanced_preference_screen_action_bar_title">快捷操作栏</string>
     <string name="revanced_hide_action_button_like_dislike_title">隐藏点赞和点踩按钮</string>
     <string name="revanced_hide_action_button_like_dislike_summary">隐藏点赞和点踩按钮（在旧的播放器布局中不生效）</string>
@@ -59,7 +59,7 @@
     <string name="revanced_hide_premium_promotion_summary">隐藏 Premium 推广弹出窗口</string>
     <string name="revanced_hide_premium_renewal_title">隐藏 Premium 续订横幅</string>
     <string name="revanced_hide_premium_renewal_summary">隐藏 Premium 续订横幅</string>
-    <!-- PreferenceScreen: Flyout -->
+    <!-- PreferenceScreen: Flyout menu -->
     <string name="revanced_preference_screen_flyout_title">弹出菜单</string>
     <string name="revanced_enable_trim_silence_title">新增修改静音开关</string>
     <string name="revanced_enable_trim_silence_summary">"将修改静音开关新增至播放速度弹出式选单
@@ -170,10 +170,8 @@
     <string name="revanced_spoof_app_version_target_summary">选择伪装的应用版本</string>
     <string name="revanced_spoof_app_version_target_entry_4_27_53">4.27.53 - 在加拿大地区禁用收音机模式</string>
     <string name="revanced_spoof_app_version_target_entry_6_11_52">6.11.52 - 禁用实时歌词</string>
-    <!-- PreferenceScreen: Navigation Bar -->
+    <!-- PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_title">导航栏</string>
-    <string name="revanced_enable_black_navigation_bar_title">黑色导航栏</string>
-    <string name="revanced_enable_black_navigation_bar_summary">将导航栏设为黑色</string>
     <string name="revanced_hide_navigation_home_button_title">隐藏首页按钮</string>
     <string name="revanced_hide_navigation_home_button_summary">隐藏首页按钮</string>
     <string name="revanced_hide_navigation_samples_button_title">隐藏样品按钮</string>

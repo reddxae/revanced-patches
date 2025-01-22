@@ -17,7 +17,7 @@
     <string name="revanced_hide_handle_summary">Verbergt de handgreep in de account wijziger.</string>
     <string name="revanced_hide_terms_container_title">Container van termen verbergen</string>
     <string name="revanced_hide_terms_container_summary">Verbergt de gebruikersvoorwaarden in het accountmenu.</string>
-    <!-- PreferenceScreen: Action Bar -->
+    <!-- PreferenceScreen: Action bar -->
     <string name="revanced_preference_screen_action_bar_title">Actie bar</string>
     <string name="revanced_hide_action_button_like_dislike_title">Verberg de like- en dislike-knoppen</string>
     <string name="revanced_hide_action_button_like_dislike_summary">Verbergt de knoppen \'Vind ik leuk\' en \'Niet leuk\'.  Het werkt niet in de oude spelerindeling.</string>
@@ -59,7 +59,7 @@
     <string name="revanced_hide_premium_promotion_summary">Verbergt pop-ups van premiumpromoties.</string>
     <string name="revanced_hide_premium_renewal_title">Banner voor premiumverlenging verbergen</string>
     <string name="revanced_hide_premium_renewal_summary">Verbergt de banner voor premiumverlenging.</string>
-    <!-- PreferenceScreen: Flyout -->
+    <!-- PreferenceScreen: Flyout menu -->
     <string name="revanced_preference_screen_flyout_title">Flyout-menu</string>
     <string name="revanced_enable_trim_silence_title">Voeg een trimstilteschakelaar toe</string>
     <string name="revanced_enable_trim_silence_summary">"Voegt de schakelaar 'Trim stilte' toe aan het vervolgmenu voor afspeelsnelheid.
@@ -120,10 +120,8 @@ Bekende problemen:
     <string name="revanced_spoof_app_version_target_summary">Selecteer het doel van de spoof app versie</string>
     <string name="revanced_spoof_app_version_target_entry_4_27_53">4.27.53 - Radio modus uitschakelen in Canadese regio\'s</string>
     <string name="revanced_spoof_app_version_target_entry_6_11_52">6.11.52 - Realtime songteksten uitschakelen</string>
-    <!-- PreferenceScreen: Navigation Bar -->
+    <!-- PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_title">Navigatiebalk</string>
-    <string name="revanced_enable_black_navigation_bar_title">Activeer zwarte navigatie balk</string>
-    <string name="revanced_enable_black_navigation_bar_summary">Zet de navigatie balk kleur naar zwart.</string>
     <string name="revanced_hide_navigation_home_button_title">Home-knop verbergen</string>
     <string name="revanced_hide_navigation_home_button_summary">Verbergt de homeknop.</string>
     <string name="revanced_hide_navigation_samples_button_title">Knop Monsters verbergen</string>

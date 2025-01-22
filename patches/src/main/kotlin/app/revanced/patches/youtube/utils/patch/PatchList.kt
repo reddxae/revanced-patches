@@ -217,6 +217,10 @@ internal enum class PatchList(
         "Shorts components",
         "Adds options to hide or change components related to YouTube Shorts."
     ),
+    SNACK_BAR_COMPONENTS(
+        "Snack bar components",
+        "Adds options to hide or change components related to the snack bar."
+    ),
     SPONSORBLOCK(
         "SponsorBlock",
         "Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as sponsored content."

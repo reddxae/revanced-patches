@@ -425,9 +425,6 @@ Limitation: Back button on the toolbar may not work."</string>
     <string name="revanced_hide_gray_separator_title">Hide gray separators</string>
     <string name="revanced_hide_gray_separator_summary_on">Gray separators are hidden.</string>
     <string name="revanced_hide_gray_separator_summary_off">Gray separators are shown.</string>
-    <string name="revanced_hide_snack_bar_title">Hide snack bar</string>
-    <string name="revanced_hide_snack_bar_summary_on">Snack bar is hidden.</string>
-    <string name="revanced_hide_snack_bar_summary_off">Snack bar is shown.</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">Remove viewer discretion dialog</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Removes the viewer discretion dialog.
 This does not bypass the age restriction. It just accepts it automatically."</string>
@@ -676,6 +673,28 @@ If this setting do not take effect, try switching to Incognito mode."</string>
     <string name="revanced_hide_settings_menu_about_title">Hide About menu</string>
     <string name="revanced_hide_settings_menu_about_summary_on">About menu is hidden.</string>
     <string name="revanced_hide_settings_menu_about_summary_off">About menu is shown.</string>
+
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Snack bar -->
+    <string name="revanced_preference_screen_snack_bar_title">Snack bar</string>
+    <string name="revanced_preference_screen_snack_bar_summary">Hide or change components related to snack bar.</string>
+
+    <string name="revanced_hide_snack_bar_title">Hide snack bar</string>
+    <string name="revanced_hide_snack_bar_summary_on">Snack bar is hidden.</string>
+    <string name="revanced_hide_snack_bar_summary_off">Snack bar is shown.</string>
+    <string name="revanced_hide_server_side_snack_bar_title">Hide server-side snack bar</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_on">Server-side snack bar is hidden.</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_off">Server-side snack bar is shown.</string>
+    <string name="revanced_invert_snack_bar_theme_title">Invert snack bar theme</string>
+    <string name="revanced_invert_snack_bar_theme_summary_on">Theme of the snack bar is inverted.</string>
+    <string name="revanced_invert_snack_bar_theme_summary_off">Theme of the snack bar is not inverted.</string>
+    <string name="revanced_change_server_side_snack_bar_background_title">Change server-side snack bar background</string>
+    <string name="revanced_change_server_side_snack_bar_background_summary_on">Background color of the server-side snackbar has changed.</string>
+    <string name="revanced_change_server_side_snack_bar_background_summary_off">Background color of the server-side snackbar has not changed.</string>
+    <string name="revanced_change_server_side_snack_bar_background_user_dialog_message">"Some snack bars use a theme defined on the server side, not the app theme.
+
+Change the background color of these snack bars.
+
+If there are server-side changes, the background color of the snack bar may not change."</string>
 
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Toolbar</string>

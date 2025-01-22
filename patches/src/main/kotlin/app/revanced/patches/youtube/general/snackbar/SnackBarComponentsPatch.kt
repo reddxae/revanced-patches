@@ -177,10 +177,11 @@ val snackBarComponentsPatch = resourcePatch(
         snackBarComponentsBytecodePatch,
     )
 
-    val catppuccinMochaColor = "#FF181825"
-    val catppuccinLatteColor = "#FFE6E9EF"
+    val ytBackgroundColorDark = "@color/yt_black3"
+    val ytBackgroundColorLight = "@color/yt_white3"
 
     val availableDarkTheme = mapOf(
+        "YouTube Dark" to ytBackgroundColorDark,
         "Amoled Black" to "@android:color/black",
         "Catppuccin (Mocha)" to "#FF181825",
         "Dark Pink" to "#FF290025",
@@ -192,6 +193,7 @@ val snackBarComponentsPatch = resourcePatch(
     )
 
     val availableLightTheme = mapOf(
+        "YouTube Light" to ytBackgroundColorLight,
         "White" to "@android:color/white",
         "Catppuccin (Latte)" to "#FFE6E9EF",
         "Light Pink" to "#FFFCCFF3",
@@ -212,7 +214,7 @@ val snackBarComponentsPatch = resourcePatch(
 
     val darkThemeBackgroundColor = stringOption(
         key = "darkThemeBackgroundColor",
-        default = catppuccinMochaColor,
+        default = ytBackgroundColorDark,
         values = availableDarkTheme,
         title = "Dark theme background color",
         description = "Specify a background color for the snack bar. You can specify hex color (#AARRGGBB) or color resource reference.",
@@ -221,7 +223,7 @@ val snackBarComponentsPatch = resourcePatch(
 
     val lightThemeBackgroundColor = stringOption(
         key = "lightThemeBackgroundColor",
-        default = catppuccinLatteColor,
+        default = ytBackgroundColorLight,
         values = availableLightTheme,
         title = "Light theme background color",
         description = "Specify a background color for the snack bar. You can specify hex color (#AARRGGBB) or color resource reference.",

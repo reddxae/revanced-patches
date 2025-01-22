@@ -123,7 +123,10 @@ class VideoDetailsRequest private constructor(
                     .getJSONObject("videoDetails")
                     .getString("channelId")
             } catch (e: JSONException) {
-                Logger.printException ({ "Fetch failed while processing response data for response: $videoDetailsJson" }, e)
+                Logger.printException(
+                    { "Fetch failed while processing response data for response: $videoDetailsJson" },
+                    e
+                )
             }
 
             return null

@@ -243,9 +243,10 @@ public final class FeedComponentsFilter extends Filter {
             if (!communityPostsFeedGroupSearch.matches(allValue) && Settings.HIDE_COMMUNITY_POSTS_CHANNEL.get()) {
                 return super.isFiltered(path, identifier, allValue, protobufBufferArray, matchedGroup, contentType, contentIndex);
             }
-            if (!communityPostsFeedGroup.check(allValue).isFiltered()) {
-                return false;
+            if (communityPostsFeedGroup.check(allValue).isFiltered()) {
+                return super.isFiltered(path, identifier, allValue, protobufBufferArray, matchedGroup, contentType, contentIndex);
             }
+            return false;
         } else if (matchedGroup == expandableChip) {
             if (path.startsWith(FEED_VIDEO_PATH)) {
                 return super.isFiltered(path, identifier, allValue, protobufBufferArray, matchedGroup, contentType, contentIndex);

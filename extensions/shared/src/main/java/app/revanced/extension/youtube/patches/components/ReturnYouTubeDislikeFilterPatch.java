@@ -169,7 +169,7 @@ public final class ReturnYouTubeDislikeFilterPatch extends Filter {
                     return videoId;
                 }
             }
-            
+
             return null;
         }
     }

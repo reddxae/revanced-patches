@@ -15,7 +15,7 @@ public class DrawableColorPatch {
     };
 
     private static final int[] LIGHT_COLORS = {
-            0xFFFF,     // comments chip background
+            -1,         // comments chip background
             0xFFF9F9F9, // music related results panel background
             0xFAFFFFFF, // video chapters list background
     };

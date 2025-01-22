@@ -54,6 +54,7 @@ val themePatch = resourcePatch(
         values = availableDarkTheme,
         title = "Dark theme background color",
         description = "Can be a hex color (#AARRGGBB) or a color resource reference.",
+        required = true,
     )
 
     val lightThemeBackgroundColor = stringOption(
@@ -62,6 +63,7 @@ val themePatch = resourcePatch(
         values = availableLightTheme,
         title = "Light theme background color",
         description = "Can be a hex color (#AARRGGBB) or a color resource reference.",
+        required = true,
     )
 
     execute {

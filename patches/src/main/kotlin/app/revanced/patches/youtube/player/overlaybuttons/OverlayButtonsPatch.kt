@@ -135,7 +135,7 @@ val overlayButtonsPatch = resourcePatch(
                 printWarn("Patch option \"Bottom margin\" must be greater than 0, fallback to minimum.")
                 marginBottom = MARGIN_MINIMUM
             }
-        } catch (e: NumberFormatException) {
+        } catch (_: Exception) {
             printWarn("Patch option \"Bottom margin\" failed validation, fallback to default.")
             marginBottom = MARGIN_DEFAULT
         }

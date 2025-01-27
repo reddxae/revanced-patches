@@ -138,11 +138,17 @@ Limitations:
 
     <string name="revanced_change_start_page_title">Change start page</string>
     <string name="revanced_change_start_page_summary">Select which page the app opens in.</string>
-    <string name="revanced_change_start_page_entry_chart">Charts</string>
+    <string name="revanced_change_start_page_entry_default">Default</string>
+    <string name="revanced_change_start_page_entry_charts">Charts</string>
+    <string name="revanced_change_start_page_entry_episodes_for_later">Episodes for Later</string>
     <string name="revanced_change_start_page_entry_explore">Explore</string>
-    <string name="revanced_change_start_page_entry_home">Home</string>
+    <string name="revanced_change_start_page_entry_history">History</string>
     <string name="revanced_change_start_page_entry_library">Library</string>
-    <string name="revanced_change_start_page_entry_subscription">Subscriptions</string>
+    <string name="revanced_change_start_page_entry_liked_music">Liked Music</string>
+    <string name="revanced_change_start_page_entry_podcasts">Podcasts</string>
+    <string name="revanced_change_start_page_entry_samples">Samples</string>
+    <string name="revanced_change_start_page_entry_search">Search</string>
+    <string name="revanced_change_start_page_entry_subscriptions">Subscriptions</string>
     <string name="revanced_disable_dislike_redirection_title">Disable dislike redirection</string>
     <string name="revanced_disable_dislike_redirection_summary">Disables redirection to the next track when clicking the Dislike button.</string>
     <string name="revanced_disable_auto_captions_title">Disable forced auto captions</string>

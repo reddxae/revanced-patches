@@ -187,8 +187,6 @@ fun gmsCoreSupportPatch(
                 in AUTHORITIES,
                     -> referencedString.replace("com.google", gmsCoreVendorGroupId!!)
 
-                // No vendor prefix for whatever reason...
-                "subscribedfeeds" -> "$gmsCoreVendorGroupId.subscribedfeeds"
                 else -> null
             }
 
@@ -204,15 +202,6 @@ fun gmsCoreSupportPatch(
                             "content://${authority.replace("com.google", gmsCoreVendorGroupId!!)}",
                         )
                     }
-                }
-
-                // gms also has a 'subscribedfeeds' authority, check for that one too
-                val subFeedsUriPrefix = "content://subscribedfeeds"
-                if (str.startsWith(subFeedsUriPrefix)) {
-                    return str.replace(
-                        subFeedsUriPrefix,
-                        "content://$gmsCoreVendorGroupId.subscribedfeeds"
-                    )
                 }
             }
 

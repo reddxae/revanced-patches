@@ -473,6 +473,13 @@ If later turned off, it is recommended to clear the app data to prevent UI bugs.
     <string name="revanced_hide_account_menu_title">Hide account menu</string>
     <string name="revanced_hide_account_menu_summary">"Hide elements of the account menu and You tab.
 Some components may not be hidden."</string>
+    <string name="revanced_hide_account_menu_filter_type_title">Account menu filter type</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_on">"Filter if contains.
+
+To hide the <b>Get YouTube Premium</b> menu, you can use <b>YouTube Premium</b> or <b>Premium</b> as keywords."</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_off">"Filter if matches.
+
+To hide the <b>Get YouTube Premium</b> menu, you can only use <b>Get YouTube Premium</b> as keywords."</string>
     <string name="revanced_hide_account_menu_filter_strings_title">Account menu filter</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">List of account menu names to filter, separated by new lines.</string>
     <string name="revanced_hide_handle_title">Hide handle</string>

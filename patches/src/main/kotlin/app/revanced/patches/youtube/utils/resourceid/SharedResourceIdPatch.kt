@@ -105,6 +105,8 @@ var floatyBarTopMargin = -1L
     private set
 var fullScreenButton = -1L
     private set
+var fullScreenEngagementAdContainer = -1L
+    private set
 var fullScreenEngagementOverlay = -1L
     private set
 var fullScreenEngagementPanel = -1L
@@ -431,6 +433,10 @@ internal val sharedResourceIdPatch = resourcePatch(
         fullScreenButton = resourceMappings[
             ID,
             "fullscreen_button"
+        ]
+        fullScreenEngagementAdContainer = resourceMappings[
+            ID,
+            "fullscreen_engagement_ad_container"
         ]
         fullScreenEngagementOverlay = resourceMappings[
             LAYOUT,

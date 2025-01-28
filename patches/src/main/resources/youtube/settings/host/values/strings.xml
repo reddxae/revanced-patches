@@ -80,6 +80,9 @@ Please download %2$s from the website."</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Ads</string>
 
+    <string name="revanced_hide_end_screen_store_banner_title">Hide end screen store banner</string>
+    <string name="revanced_hide_end_screen_store_banner_summary_on">Store banner is hidden.</string>
+    <string name="revanced_hide_end_screen_store_banner_summary_off">Store banner is shown.</string>
     <string name="revanced_hide_fullscreen_ads_title">Hide fullscreen ads</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">Fullscreen ads are hidden.</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">Fullscreen ads are shown.</string>

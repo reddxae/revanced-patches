@@ -83,8 +83,6 @@ var easySeekEduContainer = -1L
     private set
 var editSettingsAction = -1L
     private set
-var elementsImage = -1L
-    private set
 var endScreenElementLayoutCircle = -1L
     private set
 var endScreenElementLayoutIcon = -1L
@@ -389,10 +387,6 @@ internal val sharedResourceIdPatch = resourcePatch(
         editSettingsAction = resourceMappings[
             STRING,
             "edit_settings_action"
-        ]
-        elementsImage = resourceMappings[
-            ID,
-            "elements_image"
         ]
         endScreenElementLayoutCircle = resourceMappings[
             LAYOUT,

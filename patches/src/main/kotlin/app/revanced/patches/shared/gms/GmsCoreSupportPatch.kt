@@ -187,6 +187,8 @@ fun gmsCoreSupportPatch(
                 in AUTHORITIES,
                     -> referencedString.replace("com.google", gmsCoreVendorGroupId!!)
 
+                // TODO: Add this permission when bumping GmsCore
+                // "android.media.MediaRouteProviderService" -> "$gmsCoreVendorGroupId.android.media.MediaRouteProviderService"
                 else -> null
             }
 
@@ -338,6 +340,13 @@ private object Constants {
         "com.google.android.c2dm.permission.RECEIVE",
         "com.google.android.c2dm.permission.SEND",
         "com.google.android.providers.gsf.permission.READ_GSERVICES",
+
+        // ads
+        "com.google.android.gms.permission.AD_ID",
+        "com.google.android.gms.permission.AD_ID_NOTIFICATION",
+
+        // TODO: Add this permission when bumping GmsCore
+        // "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
     )
 
     val ACTIONS = setOf(
@@ -370,6 +379,9 @@ private object Constants {
         "com.google.android.gms.cast.firstparty.START",
         "com.google.android.gms.cast.service.BIND_CAST_DEVICE_CONTROLLER_SERVICE",
 
+        // TODO: Add this permission when bumping GmsCore
+        // "android.media.MediaRouteProviderService",
+
         // fonts
         "com.google.android.gms.fonts",
 
@@ -377,6 +389,7 @@ private object Constants {
         "com.google.android.gms.phenotype.service.START",
 
         // misc
+        "com.google.android.gms.ads.identifier.service.START",
         "com.google.android.gms.clearcut.service.START",
         "com.google.android.gms.common.telemetry.service.START",
         "com.google.android.gms.gmscompliance.service.START",
@@ -505,7 +518,11 @@ fun gmsCoreSupportResourcePatch(
                 "$fromPackageName.permission.C2D_MESSAGE" to "$packageName.permission.C2D_MESSAGE",
                 "$fromPackageName.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" to "$packageName.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
                 "com.google.android.c2dm" to "$gmsCoreVendorGroupId.android.c2dm",
+                "com.google.android.gms.permission.AD_ID" to "$gmsCoreVendorGroupId.android.gms.permission.AD_ID",
                 "com.google.android.libraries.photos.api.mars" to "$gmsCoreVendorGroupId.android.apps.photos.api.mars",
+                "com.google.android.providers.gsf.permission.READ_GSERVICES" to "$gmsCoreVendorGroupId.android.providers.gsf.permission.READ_GSERVICES",
+                // TODO: Add this permission when bumping GmsCore
+                // "com.google.android.gms.permission.ACTIVITY_RECOGNITION" to "$gmsCoreVendorGroupId.android.gms.permission.ACTIVITY_RECOGNITION",
             )
 
             // 'QUERY_ALL_PACKAGES' permission is required,

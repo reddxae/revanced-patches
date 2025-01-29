@@ -287,6 +287,13 @@ Store"</string>
     <string name="revanced_hide_feed_flyout_menu_title">Enable feed flyout menu filter</string>
     <string name="revanced_hide_feed_flyout_menu_summary_on">Feed flyout menu filter is enabled.</string>
     <string name="revanced_hide_feed_flyout_menu_summary_off">Feed flyout menu filter is disabled.</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_title">Feed flyout menu filter type</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_on">"Filter if contains.
+
+To hide the <b>Play next in queue</b> menu, you can use <b>Play next</b> or <b>in queue</b> as keywords."</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_off">"Filter if matches.
+
+To hide the <b>Play next in queue</b> menu, you can only use <b>Play next in queue</b> as keywords."</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_title">Feed flyout menu filter</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_summary">List of flyout menu names to filter, separated by new lines.</string>
 

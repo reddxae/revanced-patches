@@ -169,9 +169,8 @@
     "use": true,
     "dependencies": [
       "Settings for YouTube",
-      "ResourcePatch",
       "BytecodePatch",
-      "BytecodePatch"
+      "ResourcePatch"
     ],
     "compatiblePackages": {
       "com.google.android.youtube": [
@@ -2413,7 +2412,7 @@
     "use": true,
     "dependencies": [
       "BytecodePatch",
-      "BytecodePatch",
+      "ResourcePatch",
       "ResourcePatch",
       "BytecodePatch",
       "BytecodePatch"
@@ -2678,15 +2677,11 @@
     "use": true,
     "dependencies": [
       "BytecodePatch",
-      "Restore old style library shelf",
       "Settings for YouTube Music",
       "ResourcePatch"
     ],
     "compatiblePackages": {
       "com.google.android.apps.youtube.music": [
-        "6.20.51",
-        "6.29.59",
-        "6.42.55",
         "6.51.53",
         "7.16.53"
       ]
@@ -2719,28 +2714,8 @@
   {
     "name": "Spoof client",
     "description": "Adds options to spoof the client to allow playback.",
-    "use": false,
-    "dependencies": [
-      "Settings for YouTube Music",
-      "ResourcePatch"
-    ],
-    "compatiblePackages": {
-      "com.google.android.apps.youtube.music": [
-        "6.20.51",
-        "6.29.59",
-        "6.42.55",
-        "6.51.53",
-        "7.16.53"
-      ]
-    },
-    "options": []
-  },
-  {
-    "name": "Spoof streaming data",
-    "description": "Adds options to spoof the streaming data to allow playback.",
     "use": true,
     "dependencies": [
-      "BytecodePatch",
       "Settings for YouTube Music",
       "BytecodePatch"
     ],
@@ -2762,8 +2737,9 @@
     "description": "Adds options to spoof the streaming data to allow playback.",
     "use": true,
     "dependencies": [
+      "Settings for YouTube",
       "BytecodePatch",
-      "Settings for YouTube"
+      "BytecodePatch"
     ],
     "compatiblePackages": {
       "com.google.android.youtube": [

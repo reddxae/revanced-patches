@@ -115,11 +115,8 @@
     <string name="revanced_preference_screen_general_title">Главни</string>
     <string name="revanced_change_start_page_title">Промяна на началната страница</string>
     <string name="revanced_change_start_page_summary">Изберете на коя страница да се отвори приложението.</string>
-    <string name="revanced_change_start_page_entry_chart">Хит-парад</string>
     <string name="revanced_change_start_page_entry_explore">Преглед</string>
-    <string name="revanced_change_start_page_entry_home">Начало</string>
     <string name="revanced_change_start_page_entry_library">Библиотека</string>
-    <string name="revanced_change_start_page_entry_subscription">Абонаменти</string>
     <string name="revanced_disable_dislike_redirection_title">Désactiver la redirection du bouton \"Je n\'aime pas\"</string>
     <string name="revanced_disable_dislike_redirection_summary">Деактивира пренасочването към следващата песен, когато щракнете върху бутона „Не харесвам“.</string>
     <string name="revanced_disable_auto_captions_title">Изкл. принудителни автоматични субтититри</string>
@@ -167,8 +164,6 @@
 • Ако деактивирате тази опция, след като я активирате, старият интерфейс може да остане, докато данните на приложението не бъдат изчистени."</string>
     <string name="revanced_spoof_app_version_target_title">Подлъгване за версията на приложението</string>
     <string name="revanced_spoof_app_version_target_summary">Задайте желаната фалшива версия на приложението.</string>
-    <string name="revanced_spoof_app_version_target_entry_4_27_53">4.27.53 - Деактивира радио режима в регионите на Канада</string>
-    <string name="revanced_spoof_app_version_target_entry_6_11_52">6.11.52 -Изключва речта в реално време</string>
     <!-- PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_title">Лента за навигация</string>
     <string name="revanced_hide_navigation_home_button_title">Скриване на бутон за Начало</string>

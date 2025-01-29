@@ -123,11 +123,8 @@ Hạn chế:
     <string name="revanced_preference_screen_general_title">Tổng quan</string>
     <string name="revanced_change_start_page_title">Thay đổi trang khởi động</string>
     <string name="revanced_change_start_page_summary">Chọn trang sẽ hiển thị khi bạn khởi động ứng dụng.</string>
-    <string name="revanced_change_start_page_entry_chart">Bảng xếp hạng</string>
     <string name="revanced_change_start_page_entry_explore">Khám phá</string>
-    <string name="revanced_change_start_page_entry_home">Trang chủ</string>
     <string name="revanced_change_start_page_entry_library">Thư viện</string>
-    <string name="revanced_change_start_page_entry_subscription">Kênh đăng ký</string>
     <string name="revanced_disable_dislike_redirection_title">Tắt chuyển hướng khi nhấn nút Không thích</string>
     <string name="revanced_disable_dislike_redirection_summary">Không chuyển đến bài hát tiếp theo khi nhấn vào nút Không thích.</string>
     <string name="revanced_disable_auto_captions_title">Tắt tự động hiển thị phụ đề</string>
@@ -176,8 +173,6 @@ Hạn chế:
 • Nếu tắt tuỳ chọn này sau đó, giao diện cũ có thể vẫn tồn tại cho đến khi bạn xoá dữ liệu ứng dụng."</string>
     <string name="revanced_spoof_app_version_target_title">Phiên bản giả mạo</string>
     <string name="revanced_spoof_app_version_target_summary">Chọn phiên bản YouTube Music mà bạn muốn giả mạo.</string>
-    <string name="revanced_spoof_app_version_target_entry_4_27_53">4.27.53 - Tắt chế độ Đài phát ở một số vùng của Canada</string>
-    <string name="revanced_spoof_app_version_target_entry_6_11_52">6.11.52 - Tắt lời bài hát theo thời gian thực</string>
     <string name="revanced_spoof_app_version_target_entry_7_16_53">7.16.53 - Khôi phục thanh thao tác kiểu cũ</string>
     <!-- PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_title">Thanh điều hướng</string>
@@ -426,16 +421,6 @@ Cụ thể:
     <string name="revanced_spoof_client_type_entry_android_music_4_27">Android Music 4.27.53</string>
     <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
     <string name="revanced_spoof_client_type_entry_ios_music_6_21">Music iOS 6.21</string>
-    <string name="revanced_spoof_streaming_data_title">Giả mạo luồng dữ liệu trực tuyến</string>
-    <string name="revanced_spoof_streaming_data_summary">"Giả mạo luồng dữ liệu trực tuyến nhằm khắc phục sự cố phát.
-
-• Khi được sử dụng đồng thời với \"Giả mạo ứng dụng khách\", có thể gây ra sự cố phát."</string>
-    <string name="revanced_spoof_streaming_data_type_title">Ứng dụng khách mặc định</string>
-    <string name="revanced_spoof_streaming_data_type_summary">Xác định một ứng dụng khách mặc định để nạp luồng dữ liệu trực tuyến.</string>
-    <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Hiển thị trong Thống kê chi tiết</string>
-    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary">Hiển thị ứng dụng khách được sử dụng để nạp luồng dữ liệu trực tuyến trong Thống kê chi tiết.</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_music">Android Music</string>
     <string name="revanced_default_app_settings_title">Mở theo mặc định</string>
     <string name="revanced_default_app_settings_summary">Để mở liên kết YouTube Music trong RVX Music, hãy kích hoạt \"Mở các đường liên kết được hỗ trợ\" và thêm các đường liên kết được hỗ trợ.</string>
     <string name="gms_core_settings_title">Cài đặt GmsCore</string>

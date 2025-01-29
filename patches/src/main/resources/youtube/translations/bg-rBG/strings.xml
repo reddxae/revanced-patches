@@ -393,7 +393,7 @@
     <string name="revanced_change_layout_entry_4">Таблет</string>
     <string name="revanced_change_layout_entry_5">Таблет (Мин 600 dip)</string>
     <string name="revanced_change_live_ring_click_action_title">Действие на кликване върху точка за предаване на живо</string>
-    <string name="revanced_change_live_ring_click_action_summary_on">Каналът се отваря, когато се щракне върху пръстена на живо.</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">"Каналът се отваря, когато се щракне върху пръстена на живо."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">Потокът на живо се отваря, когато се щракне върху пръстена на живо.</string>
     <string name="revanced_spoof_app_version_title">Променете версията на приложението</string>
     <string name="revanced_spoof_app_version_summary_on">Подправена версия</string>
@@ -781,6 +781,8 @@
     <string name="revanced_hide_thanks_button_summary_on">Бутона за благодарност е скрит.</string>
     <string name="revanced_hide_thanks_button_summary_off">Бутона за благодарност се показва.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
+    <string name="revanced_hide_action_button_index_1_summary_on">Бутона е скрит.</string>
+    <string name="revanced_hide_action_button_index_1_summary_off">Бутона се показва.</string>
     <string name="revanced_hide_action_button_index_2_title">Скриване на третия бутон</string>
     <string name="revanced_hide_action_button_index_2_summary_on">Бутона е скрит.</string>
     <string name="revanced_hide_action_button_index_2_summary_off">Бутона се показва.</string>
@@ -1111,9 +1113,6 @@
     <string name="revanced_enable_custom_seekbar_color_title">Промяна на цвета на индикатора за време</string>
     <string name="revanced_enable_custom_seekbar_color_summary_on">Стойността за избор на цвят на лентата за време е включена.</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">Стойността за избор на цвят на лентата за време е изключена.</string>
-    <string name="revanced_custom_seekbar_color_value_title">Стойност по избор за цвят на лентата за време</string>
-    <string name="revanced_custom_seekbar_color_value_summary">Въведете кода за цвят на лентата за време.</string>
-    <string name="revanced_custom_seekbar_color_value_invalid_invalid_toast">Невалидна стойност за цвят на лентата на прогреса.</string>
     <string name="revanced_enable_seekbar_tapping_title">Активиране на докосването на лентата за време</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">Докосването на лентата за време е включено.</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">Докосването на лентата за време е изключено.</string>

@@ -120,11 +120,8 @@ Problemas conocidos:
     <string name="revanced_preference_screen_general_title">General</string>
     <string name="revanced_change_start_page_title">Cambiar página de inicio</string>
     <string name="revanced_change_start_page_summary">Seleccione en qué página se abre la aplicación.</string>
-    <string name="revanced_change_start_page_entry_chart">Ranking</string>
     <string name="revanced_change_start_page_entry_explore">Explorar</string>
-    <string name="revanced_change_start_page_entry_home">Inicio</string>
     <string name="revanced_change_start_page_entry_library">Biblioteca</string>
-    <string name="revanced_change_start_page_entry_subscription">Suscripciones</string>
     <string name="revanced_disable_dislike_redirection_title">Desactivar redirección de No me Gusta</string>
     <string name="revanced_disable_dislike_redirection_summary">Deshabilita la redirección a la siguiente pista al hacer clic en el botón No me Gusta.</string>
     <string name="revanced_disable_auto_captions_title">Desactivar subtítulos automáticos</string>
@@ -173,8 +170,6 @@ Esto no evita la restricción de edad. Solo la acepta automáticamente."</string
 - Si más tarde se desactiva, la antigua interfaz de usuario puede permanecer hasta que se borren los datos de la aplicación."</string>
     <string name="revanced_spoof_app_version_target_title">Objetivo de la versión de la app a modificar</string>
     <string name="revanced_spoof_app_version_target_summary">Seleccione el objetivo de la versión de la app a modificar.</string>
-    <string name="revanced_spoof_app_version_target_entry_4_27_53">4.27.53 - Desactivar el modo radio en las regiones canadienses</string>
-    <string name="revanced_spoof_app_version_target_entry_6_11_52">6.11.52 - Desactivar letras en tiempo real</string>
     <string name="revanced_spoof_app_version_target_entry_7_16_53">7.16.53 - Restaurar la antigua barra de acción</string>
     <!-- PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_title">Barra de navegación</string>
@@ -417,16 +412,6 @@ Limitaciones:
     <string name="revanced_spoof_client_type_entry_android_music_4_27">Android Music 4.27.53</string>
     <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
     <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>
-    <string name="revanced_spoof_streaming_data_title">Falsificar datos de transmisión</string>
-    <string name="revanced_spoof_streaming_data_summary">"Falsificar los datos de streaming para evitar problemas de reproducción.
-
-※ Cuando se utiliza con 'Cliente de spoof', problemas de reproducción pueden producirse."</string>
-    <string name="revanced_spoof_streaming_data_type_title">Cliente por defecto</string>
-    <string name="revanced_spoof_streaming_data_type_summary">Define un cliente por defecto que obtiene datos de streaming.</string>
-    <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Mostrar en estadísticas para nerds</string>
-    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary">Muestra el cliente utilizado para obtener datos de streaming en Estadísticas para nerds.</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_music">Android Music</string>
     <string name="revanced_default_app_settings_title">Abrir ajustes predeterminados de la app</string>
     <string name="revanced_default_app_settings_summary">Para abrir los enlaces de YouTube Music en RVX Music, activa \'Abrir enlaces soportados\' y activa las direcciones web soportadas.</string>
     <string name="gms_core_settings_title">Abrir GmsCore</string>

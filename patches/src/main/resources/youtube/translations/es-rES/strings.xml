@@ -403,7 +403,7 @@ Esto no evita la restricción de edad. Solo la acepta automáticamente."</string
     <string name="revanced_change_layout_entry_4">Tablet</string>
     <string name="revanced_change_layout_entry_5">Tablet (min. 600 dpi)</string>
     <string name="revanced_change_live_ring_click_action_title">Cambiar acción de pulsación en anillo del directo</string>
-    <string name="revanced_change_live_ring_click_action_summary_on">El canal se abre al pulsar en el anillo del directo.</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">"El canal se abre al pulsar en el anillo del directo."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">El directo se abre al pulsar en el anillo del directo.</string>
     <string name="revanced_spoof_app_version_title">Falsificar versión de la app</string>
     <string name="revanced_spoof_app_version_summary_on">Versión falsificada</string>
@@ -577,9 +577,9 @@ Si este ajuste no surte efecto, prueba a cambiar al modo incógnito."</string>
     <string name="revanced_hide_settings_menu_data_saving_title">Ocultar menú \"Ahorro de datos\"</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_on">El menú \"Ahorro de datos\" está oculto.</string>
     <string name="revanced_hide_settings_menu_data_saving_summary_off">El menú \"Ahorro de datos\" está visible.</string>
-    <string name="revanced_hide_settings_menu_autoplay_playback_title">Ocultar menú de reproducción automática o de reproducción</string>
-    <string name="revanced_hide_settings_menu_autoplay_playback_summary_on">El menú de reproducción automática o de reproducción está oculto.</string>
-    <string name="revanced_hide_settings_menu_autoplay_playback_summary_off">El menú de reproducción automática o de reproducción está visible.</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_title">Ocultar menú \"Reproducción automática\"</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_summary_on">El menú de reproducción automática está oculto.</string>
+    <string name="revanced_hide_settings_menu_autoplay_playback_summary_off">El menú de reproducción automática está visible.</string>
     <string name="revanced_hide_settings_menu_video_quality_title">Ocultar menú \"Preferencias de calidad de vídeo\"</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_on">El menú \"Preferencias de calidad de vídeo\" está oculto.</string>
     <string name="revanced_hide_settings_menu_video_quality_summary_off">El menú \"Preferencias de calidad de vídeo\" está visible.</string>
@@ -626,9 +626,25 @@ Si este ajuste no surte efecto, prueba a cambiar al modo incógnito."</string>
     <string name="revanced_hide_settings_menu_about_summary_on">El menú \"Información\" está oculto.</string>
     <string name="revanced_hide_settings_menu_about_summary_off">El menú \"Información\" está visible.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Snack bar -->
+    <string name="revanced_preference_screen_snack_bar_title">Barra de notificaciones</string>
+    <string name="revanced_preference_screen_snack_bar_summary">Ocultar o cambiar los componentes relacionados con la barra de notificaciones.</string>
     <string name="revanced_hide_snack_bar_title">Ocultar barra de notificaciones</string>
     <string name="revanced_hide_snack_bar_summary_on">La barra de notificaciones está oculta.</string>
     <string name="revanced_hide_snack_bar_summary_off">La barra de notificaciones está visible.</string>
+    <string name="revanced_hide_server_side_snack_bar_title">Ocultar barra de notificaciones del lado del servidor</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_on">La barra de notificaciones del lado del servidor está oculta.</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_off">La barra de notificaciones del lado del servidor está visible.</string>
+    <string name="revanced_invert_snack_bar_theme_title">Invertir tema de barra de notificaciones</string>
+    <string name="revanced_invert_snack_bar_theme_summary_on">El tema de la barra de notificaciones está invertido.</string>
+    <string name="revanced_invert_snack_bar_theme_summary_off">El tema de la barra de notificaciones no está invertido.</string>
+    <string name="revanced_change_server_side_snack_bar_background_title">Cambiar fondo de barra de notificaciones del lado del servidor</string>
+    <string name="revanced_change_server_side_snack_bar_background_summary_on">El color de fondo de la barra de notificaciones del lado del servidor ha cambiado.</string>
+    <string name="revanced_change_server_side_snack_bar_background_summary_off">El color de fondo de la barra de notificaciones del lado del servidor no ha cambiado.</string>
+    <string name="revanced_change_server_side_snack_bar_background_user_dialog_message">"Algunas barras de notificaciones utilizan un tema definido en el lado del servidor, no el tema de la aplicación.
+
+Cambie el color de fondo de estas barras de notificaciones.
+
+Si hay cambios en el lado del servidor, es posible que el color de fondo de la barra de notificaciones no cambie."</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Barra de herramientas</string>
     <string name="revanced_preference_screen_toolbar_summary">Ocultar o cambiar los componentes situados en la barra de herramientas, como los botones, la barra de búsqueda o la cabecera.</string>
@@ -1150,9 +1166,6 @@ Información:
     <string name="revanced_enable_custom_seekbar_color_title">Activar color personalizado de barra de progreso</string>
     <string name="revanced_enable_custom_seekbar_color_summary_on">El color personalizado de la barra de progreso está activado.</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">El color personalizado de la barra de progreso está desactivado.</string>
-    <string name="revanced_custom_seekbar_color_value_title">Valor de color personalizado de barra de progreso</string>
-    <string name="revanced_custom_seekbar_color_value_summary">Escribe el código hexadecimal del color de la barra de progreso.</string>
-    <string name="revanced_custom_seekbar_color_value_invalid_invalid_toast">Valor de color de la barra de búsqueda inválido.</string>
     <string name="revanced_enable_seekbar_tapping_title">Activar pulsación en barra de progreso</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">La pulsación en la barra de progreso está activada.</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">La pulsación en la barra de progreso está desactivada.</string>

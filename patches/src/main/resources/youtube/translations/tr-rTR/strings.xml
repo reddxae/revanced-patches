@@ -934,8 +934,6 @@ Bilgi:
     <string name="revanced_enable_custom_seekbar_color_title">Özel zaman çubuğu rengini etkinleştir</string>
     <string name="revanced_enable_custom_seekbar_color_summary_on">Özel zaman çubuğu rengi etkin</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">Özel zaman çubuğu rengi kapalı</string>
-    <string name="revanced_custom_seekbar_color_value_title">Zaman çubuğu renk kodu</string>
-    <string name="revanced_custom_seekbar_color_value_summary">Zaman çubuğunun olmasını istediğiniz rengin kodunu (6\'lı/hex) girin</string>
     <string name="revanced_enable_seekbar_tapping_title">Zaman çubuğuna dokunmayı etkinleştir</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">Zaman çubuğuna dokunma etkin</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">Zaman çubuğuna dokunma kapalı</string>

@@ -118,8 +118,6 @@ Bekende problemen:
 • Als later uitgeschakeld kan de oude UI blijven totdat de appgegevens gewist worden"</string>
     <string name="revanced_spoof_app_version_target_title">Spoof app versie doel</string>
     <string name="revanced_spoof_app_version_target_summary">Selecteer het doel van de spoof app versie</string>
-    <string name="revanced_spoof_app_version_target_entry_4_27_53">4.27.53 - Radio modus uitschakelen in Canadese regio\'s</string>
-    <string name="revanced_spoof_app_version_target_entry_6_11_52">6.11.52 - Realtime songteksten uitschakelen</string>
     <!-- PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_title">Navigatiebalk</string>
     <string name="revanced_hide_navigation_home_button_title">Home-knop verbergen</string>

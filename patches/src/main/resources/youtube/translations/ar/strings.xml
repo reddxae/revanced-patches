@@ -405,7 +405,7 @@
     <string name="revanced_change_layout_entry_4">الجهاز اللوحي</string>
     <string name="revanced_change_layout_entry_5">الجهاز اللوحي (الحد الأدنى 600 dp)</string>
     <string name="revanced_change_live_ring_click_action_title">تغيير إجراء النقر على البث المباشر</string>
-    <string name="revanced_change_live_ring_click_action_summary_on">يتم فتح القناة عند النقر على الحلقة المباشرة.</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">"يتم فتح القناة عند النقر على الحلقة المباشرة."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">يتم فتح البث المباشر عند النقر على الحلقة المباشرة.</string>
     <string name="revanced_spoof_app_version_title">إصدار تطبيق وهمي</string>
     <string name="revanced_spoof_app_version_summary_on">تم تغيير اصدار التطبيق</string>
@@ -1171,9 +1171,6 @@
     <string name="revanced_enable_custom_seekbar_color_title">تمكين لون شريط تقدم الفيديو المخصص</string>
     <string name="revanced_enable_custom_seekbar_color_summary_on">تم تمكين لون شريط تقدم الفيديو المخصص.</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">تم تعطيل لون شريط تقدم الفيديو المخصص.</string>
-    <string name="revanced_custom_seekbar_color_value_title">قيمة لون شريط تقدم الفيديو المخصصة</string>
-    <string name="revanced_custom_seekbar_color_value_summary">اكتب رمز اللون للون شريط تقدم الفيديو.</string>
-    <string name="revanced_custom_seekbar_color_value_invalid_invalid_toast">قيمة لون شريط التقدم غير صالحة.</string>
     <string name="revanced_enable_seekbar_tapping_title">تمكين النقر على شريط التقدم</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">تم تمكين النقر على شريط الوقت (شريط تقدم الفيديو).</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">تم تعطيل النقر على شريط الوقت (شريط تقدم الفيديو).</string>

@@ -121,11 +121,8 @@ Bilinen sorunlar:
     <string name="revanced_preference_screen_general_title">Genel</string>
     <string name="revanced_change_start_page_title">Başlangıç ​​sayfasını değiştir</string>
     <string name="revanced_change_start_page_summary">Uygulamanın başlangıç sayfasını değiştirin.</string>
-    <string name="revanced_change_start_page_entry_chart">Listeler</string>
     <string name="revanced_change_start_page_entry_explore">Keşfet</string>
-    <string name="revanced_change_start_page_entry_home">Ana Sayfa</string>
     <string name="revanced_change_start_page_entry_library">Kitaplık</string>
-    <string name="revanced_change_start_page_entry_subscription">Abonelikler</string>
     <string name="revanced_disable_dislike_redirection_title">Beğenmeme yönlendirmesini devre dışı bırak</string>
     <string name="revanced_disable_dislike_redirection_summary">Beğenmedim düğmesine tıklandığında sonraki parçaya yönlendirmeyi devre dışı bırakır.</string>
     <string name="revanced_disable_auto_captions_title">Altyazıların kendiliğinden açılmasını kapat</string>
@@ -174,8 +171,6 @@ Bilinen sorunlar:
 • Daha sonra kapatılırsa, uygulama verileri temizlenene kadar eski kullanıcı arayüzü kalabilir."</string>
     <string name="revanced_spoof_app_version_target_title">Uygulama hedef sürümünü kandırma hedefi</string>
     <string name="revanced_spoof_app_version_target_summary">Sahte uygulama sürümü hedefini seçin.</string>
-    <string name="revanced_spoof_app_version_target_entry_4_27_53">4.27.53 - Kanada bölgelerinde radyo modunu devre dışı bırakın</string>
-    <string name="revanced_spoof_app_version_target_entry_6_11_52">6.11.52 - Gerçek zamanlı şarkı sözlerini devre dışı bırak</string>
     <string name="revanced_spoof_app_version_target_entry_7_16_53">7.16.53 - Eski eylem çubuğunu geri yükle</string>
     <!-- PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_title">Gezinti çubuğu</string>

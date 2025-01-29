@@ -406,7 +406,7 @@
     <string name="revanced_change_layout_entry_4">Планшетний</string>
     <string name="revanced_change_layout_entry_5">Планшетний (Мін 600 dp)</string>
     <string name="revanced_change_live_ring_click_action_title">Змінити дію натискання на кружечок наживо</string>
-    <string name="revanced_change_live_ring_click_action_summary_on">При натисканні на кружечок наживо відкривається канал.</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">"При натисканні на кружечок наживо відкривається канал."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">При натисканні на кружечок наживо відкривається пряма трансляція.</string>
     <string name="revanced_spoof_app_version_title">Підробити версію програми</string>
     <string name="revanced_spoof_app_version_summary_on">Версію підроблено</string>
@@ -1172,9 +1172,6 @@
     <string name="revanced_enable_custom_seekbar_color_title">Увімкнути користувацький колір смуги прогресу</string>
     <string name="revanced_enable_custom_seekbar_color_summary_on">Користувацький колір смуги прогресу увімкнено.</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">Користувацький колір смуги прогресу вимкнено.</string>
-    <string name="revanced_custom_seekbar_color_value_title">Користувацьке значення кольору смуги прогресу</string>
-    <string name="revanced_custom_seekbar_color_value_summary">Введіть hex код кольору смуги прогресу.</string>
-    <string name="revanced_custom_seekbar_color_value_invalid_invalid_toast">Недійсне значення кольору смуги прогресу.</string>
     <string name="revanced_enable_seekbar_tapping_title">Увімкнути натискання на смугу прогресу</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">Натискання на смугу прогресу увімкнено.</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">Натискання на смугу прогресу вимкнено.</string>

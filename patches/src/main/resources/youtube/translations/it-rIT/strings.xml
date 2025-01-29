@@ -247,8 +247,8 @@ Negozio"</string>
     <string name="revanced_hide_browse_store_button_summary_on">Il pulsante Esplora Negozio è nascosto.</string>
     <string name="revanced_hide_browse_store_button_summary_off">Il pulsante Esplora Negozio è visibile.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Community posts -->
-    <string name="revanced_preference_screen_community_posts_title">Post della community</string>
-    <string name="revanced_preference_screen_community_posts_summary">Nascondi o mostra i post della community nelle schede e nel canale.</string>
+    <string name="revanced_preference_screen_community_posts_title">Post delle community</string>
+    <string name="revanced_preference_screen_community_posts_summary">Nascondi o mostra i post delle community nelle schede e nel canale.</string>
     <string name="revanced_hide_community_posts_channel_title">Nascondi nel canale</string>
     <string name="revanced_hide_community_posts_channel_summary_on">Sono nascosti nel canale.</string>
     <string name="revanced_hide_community_posts_channel_summary_off">Sono visibili nel canale.</string>
@@ -404,7 +404,7 @@ Nota: questo non bypassa la restrizione di età, ma la accetta automaticamente."
     <string name="revanced_change_layout_entry_4">Tablet</string>
     <string name="revanced_change_layout_entry_5">Tablet (Minimo 600 dp)</string>
     <string name="revanced_change_live_ring_click_action_title">Cambia cosa apre l\'anello live quando viene toccato</string>
-    <string name="revanced_change_live_ring_click_action_summary_on">Canale</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">"Canale"</string>
     <string name="revanced_change_live_ring_click_action_summary_off">Video live</string>
     <string name="revanced_spoof_app_version_title">Attiva il camuffamento della versione dell\'app</string>
     <string name="revanced_spoof_app_version_summary_on">Il camuffamento della versione dell\'app è attivato.</string>
@@ -1172,9 +1172,6 @@ Tocca e tieni premuto l'informazione mostrata per cambiare il tipo."</string>
     <string name="revanced_enable_custom_seekbar_color_title">Attiva il colore personalizzato</string>
     <string name="revanced_enable_custom_seekbar_color_summary_on">Il colore personalizzato è attivato.</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">Il colore personalizzato è disattivato.</string>
-    <string name="revanced_custom_seekbar_color_value_title">Valore del colore personalizzato</string>
-    <string name="revanced_custom_seekbar_color_value_summary">Digita il codice esadecimale del colore.</string>
-    <string name="revanced_custom_seekbar_color_value_invalid_invalid_toast">Valore del colore della barra di avanzamento non valido</string>
     <string name="revanced_enable_seekbar_tapping_title">Attiva il tocco</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">Il tocco è attivato.</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">Il tocco è disattivato.</string>
@@ -1249,7 +1246,7 @@ Nota: l'opzione Espandi Automaticamente potrebbe non funzionare se il titolo ins
     <string name="revanced_expand_video_description_strings_default_value">Descrizione</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">Shorts</string>
-    <string name="revanced_disable_shorts_background_playback_title">Disattiva la riproduzione in background degli Shorts</string>
+    <string name="revanced_disable_shorts_background_playback_title">Disattiva la riproduzione in background</string>
     <string name="revanced_disable_shorts_background_playback_summary_on">La riproduzione in background degli Shorts è disattivata.</string>
     <string name="revanced_disable_shorts_background_playback_summary_off">La riproduzione in background degli Shorts è attivata.</string>
     <string name="revanced_disable_resuming_shorts_player_title">Disattiva la ripresa del riproduttore</string>
@@ -1286,7 +1283,7 @@ Nota: solo gli scaffali con l'intestazione Shorts nella scheda Home sono nascost
     <string name="revanced_change_shorts_repeat_state_entry_default">Predefinito</string>
     <string name="revanced_change_shorts_repeat_state_entry_pause">Pausa</string>
     <string name="revanced_change_shorts_repeat_state_entry_repeat">Ripeti</string>
-    <string name="revanced_open_shorts_in_regular_player_title">Apri i Shorts nel riproduttore normale</string>
+    <string name="revanced_open_shorts_in_regular_player_title">Apri nel riproduttore normale</string>
     <string name="revanced_open_shorts_in_regular_player_summary_on">I Shorts sono aperti nel riproduttore normale.</string>
     <string name="revanced_open_shorts_in_regular_player_summary_off">I Shorts non sono aperti nel riproduttore normale.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player -->

@@ -415,7 +415,7 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_change_layout_entry_4">タブレット</string>
     <string name="revanced_change_layout_entry_5">タブレット(最小 600 dp)</string>
     <string name="revanced_change_live_ring_click_action_title">ライブ状態のアイコンをタップした際の動作を変更</string>
-    <string name="revanced_change_live_ring_click_action_summary_on">現在の設定: 「ライブ」状態のアイコンをタップすると、チャンネルが開きます。</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">"現在の設定: 「ライブ」状態のアイコンをタップすると、チャンネルが開きます。"</string>
     <string name="revanced_change_live_ring_click_action_summary_off">現在の設定: 「ライブ」状態のアイコンをタップすると、ライブ配信が開きます。</string>
     <string name="revanced_spoof_app_version_title">アプリのバージョンを偽装</string>
     <string name="revanced_spoof_app_version_summary_on">アプリのバージョンを偽装できます。</string>
@@ -458,10 +458,10 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_custom_filter_strings_summary">フィルタリングするコンポーネントパスビルダーの文字列を並べたリスト。（改行区切り）</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">無効なカスタムフィルターです: %s。</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons -->
-    <string name="revanced_preference_screen_hook_buttons_title">ボタンをフック</string>
-    <string name="revanced_preference_screen_hook_buttons_summary">YouTube アプリ内の「YouTube Music」ボタンを置換します。</string>
+    <string name="revanced_preference_screen_hook_buttons_title">ボタンを置換</string>
+    <string name="revanced_preference_screen_hook_buttons_summary">アプリ内のボタンを別のボタンに置き換えます。</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Download button -->
-    <string name="revanced_preference_category_download_button">ダウンロードボタン</string>
+    <string name="revanced_preference_category_download_button">「オフライン」ボタン</string>
     <string name="revanced_override_playlist_download_button_title">プレイリストにダウンロードボタンを追加</string>
     <string name="revanced_override_playlist_download_button_summary_on">「ダウンロード」ボタンで外部ダウンローダーを開きます。</string>
     <string name="revanced_override_playlist_download_button_summary_off">「オフライン」ボタンで外部ダウンローダーを開きます。</string>
@@ -1178,9 +1178,6 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_enable_custom_seekbar_color_title">シークバーの色のカスタマイズを有効化</string>
     <string name="revanced_enable_custom_seekbar_color_summary_on">シークバーの色のカスタマイズを有効化します。</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">シークバーの色のカスタマイズを有効化します。</string>
-    <string name="revanced_custom_seekbar_color_value_title">シークバーの色</string>
-    <string name="revanced_custom_seekbar_color_value_summary">シークバーの色を16進数カラーコードで入力してください。</string>
-    <string name="revanced_custom_seekbar_color_value_invalid_invalid_toast">無効なシークバーの色の値です。</string>
     <string name="revanced_enable_seekbar_tapping_title">シークバーのタップを有効化</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">シークバーのタップを有効化します。</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">シークバーのタップを有効化します。</string>

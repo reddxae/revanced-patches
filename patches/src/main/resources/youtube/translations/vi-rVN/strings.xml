@@ -406,7 +406,7 @@ Tuỳ chọn này chỉ tự động chấp nhận hộp thoại cảnh báo, ch
     <string name="revanced_change_layout_entry_4">Máy tính bảng</string>
     <string name="revanced_change_layout_entry_5">Máy tính bảng (Tối thiểu 600 dp)</string>
     <string name="revanced_change_live_ring_click_action_title">Thay đổi thao tác nhấn vào vòng phát trực tiếp</string>
-    <string name="revanced_change_live_ring_click_action_summary_on">Mở kênh khi nhấn vào vòng phát trực tiếp.</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">"Mở kênh khi nhấn vào vòng phát trực tiếp."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">Mở video đang phát trực tiếp khi nhấn vào vòng phát trực tiếp.</string>
     <string name="revanced_spoof_app_version_title">Giả mạo phiên bản ứng dụng</string>
     <string name="revanced_spoof_app_version_summary_on">Phiên bản được giả mạo</string>
@@ -1170,9 +1170,6 @@ Nhấn và giữ để chuyển loại thông tin cần thêm vào."</string>
     <string name="revanced_enable_custom_seekbar_color_title">Màu thanh tiến trình tuỳ chỉnh</string>
     <string name="revanced_enable_custom_seekbar_color_summary_on">Màu thanh tiến trình tuỳ chỉnh được áp dụng.</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">Màu thanh tiến trình mặc định được áp dụng.</string>
-    <string name="revanced_custom_seekbar_color_value_title">Thay đổi màu thanh tiến trình</string>
-    <string name="revanced_custom_seekbar_color_value_summary">Nhập mã màu hex của thanh tiến trình mà bạn muốn thay đổi.</string>
-    <string name="revanced_custom_seekbar_color_value_invalid_invalid_toast">Mã màu thanh tiến trình đã nhập không hợp lệ.</string>
     <string name="revanced_enable_seekbar_tapping_title">Chạm thanh tiến trình để tua</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">Chạm thanh tiến trình video để tua đã bật.</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">Chạm thanh tiến trình video để tua đã tắt.</string>

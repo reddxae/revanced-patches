@@ -406,7 +406,7 @@ Cela ne contourne pas la restriction d'âge, mais le confirme automatiquement."<
     <string name="revanced_change_layout_entry_4">Tablette</string>
     <string name="revanced_change_layout_entry_5">Tablette (Min 600 dpi)</string>
     <string name="revanced_change_live_ring_click_action_title">Changer l\'action du cercle \'En direct\'</string>
-    <string name="revanced_change_live_ring_click_action_summary_on">La chaîne s\'ouvre lorsque vous cliquez sur le cercle \'En direct\'.</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">"La chaîne s'ouvre lorsque vous cliquez sur le cercle 'En direct'."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">La diffusion en direct s\'ouvre lorsque vous cliquez sur le cercle \'En direct\'.</string>
     <string name="revanced_spoof_app_version_title">Falsifier la version de l\'app</string>
     <string name="revanced_spoof_app_version_summary_on">Version falsifiée</string>
@@ -1156,9 +1156,6 @@ Appuyez longuement pour modifier le type d'information ajouté."</string>
     <string name="revanced_enable_custom_seekbar_color_title">Activer une couleur perso. barre de progression</string>
     <string name="revanced_enable_custom_seekbar_color_summary_on">La couleur personnalisée de la barre de progression est activée.</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">La couleur personnalisée de la barre de progression est désactivée.</string>
-    <string name="revanced_custom_seekbar_color_value_title">Couleur perso. barre de progression</string>
-    <string name="revanced_custom_seekbar_color_value_summary">Saisissez le code hexadécimal de la couleur de la barre de progression.</string>
-    <string name="revanced_custom_seekbar_color_value_invalid_invalid_toast">Valeur de la couleur de la barre de progression invalide.</string>
     <string name="revanced_enable_seekbar_tapping_title">Activer l\'appui sur la barre de progression</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">L\'appui sur la barre de progression est activé.</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">L\'appui sur la barre de progression est désactivé.</string>

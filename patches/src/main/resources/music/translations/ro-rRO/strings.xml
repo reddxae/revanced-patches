@@ -45,7 +45,6 @@ Probleme cunoscute:
     <string name="revanced_hide_category_bar_summary">Ascunde bara de categorii de muzică din partea de sus a paginii principale.</string>
     <string name="revanced_hide_history_button_title">Ascunde butonul de istoric</string>
     <string name="revanced_hide_history_button_summary">Ascunde butonul de istoric în bara de instrumente.</string>
-    <string name="revanced_spoof_app_version_target_entry_4_27_53">4.27.53 - Dezactivare mod radio în regiunile canadiene</string>
     <!-- PreferenceScreen: Navigation bar -->
     <string name="revanced_hide_navigation_bar_title">Ascunde bara de navigare</string>
     <string name="revanced_hide_navigation_bar_summary">Ascunde bara de navigare.</string>

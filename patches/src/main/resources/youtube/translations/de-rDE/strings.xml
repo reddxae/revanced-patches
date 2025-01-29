@@ -934,8 +934,6 @@ Tippen und halten Sie, um den Einstellungsdialog für die Whitelist anzuzeigen.<
     <string name="revanced_enable_custom_seekbar_color_title">Eigene Suchleistenfarbe aktivieren</string>
     <string name="revanced_enable_custom_seekbar_color_summary_on">Die benutzerdefinierte Farbe der Suchleiste ist aktiviert</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">Die benutzerdefinierte Farbe der Suchleiste ist deaktiviert</string>
-    <string name="revanced_custom_seekbar_color_value_title">Benutzerdefinierter Farbwert für die Suchleiste</string>
-    <string name="revanced_custom_seekbar_color_value_summary">Hex-Code der Suchleisten-Farbe eingeben</string>
     <string name="revanced_enable_seekbar_tapping_title">Aktiviere Suchleisten-Tippen (Video Fortschrittsbalken)</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">Tippen der Suchleiste ist aktiviert</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">Tippen der Suchleiste ist deaktiviert</string>

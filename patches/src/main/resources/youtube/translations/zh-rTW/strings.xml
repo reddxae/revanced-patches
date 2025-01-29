@@ -401,8 +401,8 @@
     <string name="revanced_change_layout_entry_3">手機 (最大 480 dip)</string>
     <string name="revanced_change_layout_entry_4">平板電腦</string>
     <string name="revanced_change_layout_entry_5">平板電腦 (最少 600 dip)</string>
-    <string name="revanced_change_live_ring_click_action_title">เปลี่ยนการกระทำคลิกวงแหวนสด</string>
-    <string name="revanced_change_live_ring_click_action_summary_on">點擊直播按鈕 頻道將會開啟。</string>
+    <string name="revanced_change_live_ring_click_action_title">變更點擊直播狀態頻道圖示的動作</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">"點擊直播按鈕 頻道將會開啟。"</string>
     <string name="revanced_change_live_ring_click_action_summary_off">點擊直播按鈕 直播將會開啟。</string>
     <string name="revanced_spoof_app_version_title">偽裝應用程式版本</string>
     <string name="revanced_spoof_app_version_summary_on">已偽裝版本</string>
@@ -625,9 +625,25 @@
     <string name="revanced_hide_settings_menu_about_summary_on">關於選單已隱藏。</string>
     <string name="revanced_hide_settings_menu_about_summary_off">關於選單已顯示。</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Snack bar -->
+    <string name="revanced_preference_screen_snack_bar_title">短暫通知</string>
+    <string name="revanced_preference_screen_snack_bar_summary">隱藏或更改與短暫通知相關的組件。</string>
     <string name="revanced_hide_snack_bar_title">隱藏彈出訊息</string>
     <string name="revanced_hide_snack_bar_summary_on">彈出訊息已隱藏</string>
     <string name="revanced_hide_snack_bar_summary_off">彈出訊息已顯示</string>
+    <string name="revanced_hide_server_side_snack_bar_title">隱藏伺服器端短暫通知</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_on">伺服器端短暫通知已隱藏。</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_off">伺服器端短暫通知已顯示。</string>
+    <string name="revanced_invert_snack_bar_theme_title">反轉短暫通知主題</string>
+    <string name="revanced_invert_snack_bar_theme_summary_on">短暫通知的主題是倒置的。</string>
+    <string name="revanced_invert_snack_bar_theme_summary_off">短暫通知的主題沒有倒置。</string>
+    <string name="revanced_change_server_side_snack_bar_background_title">更改伺服器端短暫通知背景</string>
+    <string name="revanced_change_server_side_snack_bar_background_summary_on">伺服器端短暫通知的背景顏色已變更。</string>
+    <string name="revanced_change_server_side_snack_bar_background_summary_off">伺服器端短暫通知的背景顏色沒有改變。</string>
+    <string name="revanced_change_server_side_snack_bar_background_user_dialog_message">"一些短暫通知使用伺服器端定義的主題，而不是應用程式主題。
+
+更改這些短暫通知的背景顏色。
+
+如果伺服器端發生變化，短暫通知的背景顏色可能不會改變。"</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">工具欄</string>
     <string name="revanced_preference_screen_toolbar_summary">隱藏或變更工具欄上的元件，例如工具欄按鈕、搜尋欄、標題</string>
@@ -1149,9 +1165,6 @@
     <string name="revanced_enable_custom_seekbar_color_title">啟用自訂搜尋欄顏色</string>
     <string name="revanced_enable_custom_seekbar_color_summary_on">自定義進度條顏色已啟用</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">自定義進度條顏色已停用</string>
-    <string name="revanced_custom_seekbar_color_value_title">自定義進度條顏色</string>
-    <string name="revanced_custom_seekbar_color_value_summary">輸入套用於搜尋欄的十六進制顏色代碼</string>
-    <string name="revanced_custom_seekbar_color_value_invalid_invalid_toast">搜尋欄顏色值無效。</string>
     <string name="revanced_enable_seekbar_tapping_title">啟用進度條點擊</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">進度條點擊已啟用</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">進度條點擊已停用</string>

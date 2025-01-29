@@ -414,7 +414,7 @@ Shorts
     <string name="revanced_change_layout_entry_4">Планшет</string>
     <string name="revanced_change_layout_entry_5">Планшет (Мин. 600 dip)</string>
     <string name="revanced_change_live_ring_click_action_title">Действие нажатия на точку прямого эфира</string>
-    <string name="revanced_change_live_ring_click_action_summary_on">Открывается канал.</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">"Открывается канал."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">Открывается прямой эфир.</string>
     <string name="revanced_spoof_app_version_title">Подмена версии приложения</string>
     <string name="revanced_spoof_app_version_summary_on">Версия приложения подменена</string>
@@ -638,9 +638,25 @@ Shorts
     <string name="revanced_hide_settings_menu_about_summary_on">О приложении скрыто.</string>
     <string name="revanced_hide_settings_menu_about_summary_off">О приложении отображено.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Snack bar -->
+    <string name="revanced_preference_screen_snack_bar_title">Панель взаимодействия</string>
+    <string name="revanced_preference_screen_snack_bar_summary">Скрыть или изменить компоненты, относящиеся к панели взаимодействия.</string>
     <string name="revanced_hide_snack_bar_title">Виджет коротких уведомлений</string>
     <string name="revanced_hide_snack_bar_summary_on">Виджет коротких уведомлений скрыт.</string>
     <string name="revanced_hide_snack_bar_summary_off">Виджет коротких уведомлений отображен.</string>
+    <string name="revanced_hide_server_side_snack_bar_title">Скрыть серверную панель взаимодействия</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_on">Серверная панель взаимодействия скрыта.</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_off">Серверная панель взаимодействия показывается.</string>
+    <string name="revanced_invert_snack_bar_theme_title">Инвертировать тему панели взаимодействия</string>
+    <string name="revanced_invert_snack_bar_theme_summary_on">Тема панели взаимодействия инвертирована.</string>
+    <string name="revanced_invert_snack_bar_theme_summary_off">Тема панели взаимодействия не инвертирована.</string>
+    <string name="revanced_change_server_side_snack_bar_background_title">Изменить фон серверной панели взаимодействия</string>
+    <string name="revanced_change_server_side_snack_bar_background_summary_on">Цвет фона серверной панели взаимодействия изменен.</string>
+    <string name="revanced_change_server_side_snack_bar_background_summary_off">Цвет фона серверной панели взаимодействия не изменен.</string>
+    <string name="revanced_change_server_side_snack_bar_background_user_dialog_message">"Некоторые панели взаимодействия используют тему, заданную на стороне сервера, а не тему программы.
+
+Изменяется цвет фона этих панелей взаимодействия.
+
+Если есть серверные изменения, цвет фона панели взаимодействия может не измениться."</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Панель инструментов</string>
     <string name="revanced_preference_screen_toolbar_summary">Скрыть или изменить компоненты на панели инструментов - строка поиска, кнопки и заголовок.</string>
@@ -727,9 +743,9 @@ Shorts
     <string name="revanced_hide_double_tap_overlay_filter_title">Фильтр двойного нажатия</string>
     <string name="revanced_hide_double_tap_overlay_filter_summary_on">Фильтр двойного нажатия скрыт.</string>
     <string name="revanced_hide_double_tap_overlay_filter_summary_off">Фильтр двойного нажатия отображен.</string>
-    <string name="revanced_hide_end_screen_cards_title">Заставки следующих видео</string>
-    <string name="revanced_hide_end_screen_cards_summary_on">Заставки следующих видео скрыты.</string>
-    <string name="revanced_hide_end_screen_cards_summary_off">Заставки следующих видео отображены.</string>
+    <string name="revanced_hide_end_screen_cards_title">Карточки следующих видео</string>
+    <string name="revanced_hide_end_screen_cards_summary_on">Карточки следующих видео скрыты.</string>
+    <string name="revanced_hide_end_screen_cards_summary_off">Карточки следующих видео отображены.</string>
     <string name="revanced_hide_filmstrip_overlay_title">Покадровая лента при перемотке</string>
     <string name="revanced_hide_filmstrip_overlay_summary_on">Покадровая лента при перемотке скрыта.</string>
     <string name="revanced_hide_filmstrip_overlay_summary_off">Покадровая лента при перемотке отображена.</string>
@@ -972,19 +988,19 @@ Shorts
     <string name="revanced_disable_engagement_panel_title">Панель взаимодействия</string>
     <string name="revanced_disable_engagement_panel_summary_on">Панель взаимодействия отключена.</string>
     <string name="revanced_disable_engagement_panel_summary_off">Панель взаимодействия включена.</string>
-    <string name="revanced_enter_fullscreen_title">Полноэкранный режим при запуске видео</string>
-    <string name="revanced_enter_fullscreen_summary_on">"Полноэкранный режим при запуске видео включен.
+    <string name="revanced_enter_fullscreen_title">Переход в полноэкранный режим при запуске видео</string>
+    <string name="revanced_enter_fullscreen_summary_on">"Переходит в полноэкранный режим при запуске видео.
 
 Не работает когда:
 - плеер свернут
 - картинка в картинке (PiP)
 - фоновый режим."</string>
-    <string name="revanced_enter_fullscreen_summary_off">Полноэкранный режим при запуске видео отключен.</string>
-    <string name="revanced_exit_fullscreen_title">Полноэкранный режим в конце видео</string>
+    <string name="revanced_enter_fullscreen_summary_off">Не переходит в полноэкранный режим при запуске видео.</string>
+    <string name="revanced_exit_fullscreen_title">Переход из полноэкранного режима в конце видео</string>
     <string name="revanced_exit_fullscreen_entry_1">Отключено</string>
     <string name="revanced_exit_fullscreen_entry_2">Портретный вид</string>
     <string name="revanced_exit_fullscreen_entry_3">Альбомный вид</string>
-    <string name="revanced_exit_fullscreen_entry_4">Авто поворот</string>
+    <string name="revanced_exit_fullscreen_entry_4">Портретный и альбомный</string>
     <string name="revanced_show_video_title_section_title">Секция заголовка видео</string>
     <string name="revanced_show_video_title_section_summary">"Показывает секцию заголовка видео в полноэкранном режиме.
 
@@ -1165,9 +1181,6 @@ Shorts
     <string name="revanced_enable_custom_seekbar_color_title">Цвет шкалы воспроизведения</string>
     <string name="revanced_enable_custom_seekbar_color_summary_on">Используется пользовательский цвет шкалы воспроизведения.</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">Используется оригинальный цвет шкалы воспроизведения.</string>
-    <string name="revanced_custom_seekbar_color_value_title">HEX код цвета шкалы воспроизведения</string>
-    <string name="revanced_custom_seekbar_color_value_summary">Введите HEX код цвета шкалы воспроизведения.</string>
-    <string name="revanced_custom_seekbar_color_value_invalid_invalid_toast">Неверное значение цвета полосы прогресса.</string>
     <string name="revanced_enable_seekbar_tapping_title">Перемотка нажатием</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">Перемотка нажатием включена.</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">Перемотка нажатием отключена.</string>

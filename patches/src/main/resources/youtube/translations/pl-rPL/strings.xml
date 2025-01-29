@@ -406,7 +406,7 @@ Nie pomija to ograniczeń wiekowych, lecz akceptuje je automatycznie."</string>
     <string name="revanced_change_layout_entry_4">Tabletowy</string>
     <string name="revanced_change_layout_entry_5">Tabletowy (max. 600 dpi)</string>
     <string name="revanced_change_live_ring_click_action_title">Zachowanie po kliknięciu okręgu od transmisji na żywo</string>
-    <string name="revanced_change_live_ring_click_action_summary_on">Otwarcie kanału</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">"Otwarcie kanału"</string>
     <string name="revanced_change_live_ring_click_action_summary_off">Otwarcie transmisji na żywo</string>
     <string name="revanced_spoof_app_version_title">Oszukiwanie wersji aplikacji</string>
     <string name="revanced_spoof_app_version_summary_on">Włączone</string>
@@ -1172,9 +1172,6 @@ Stuknij j przytrzymaj, by przełączać się pomiędzy typami wyświetlanej info
     <string name="revanced_enable_custom_seekbar_color_title">Niestandardowy kolor paska postępu filmu</string>
     <string name="revanced_enable_custom_seekbar_color_summary_on">Widoczny</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">Niewidoczny</string>
-    <string name="revanced_custom_seekbar_color_value_title">Niestandardowy kolor paska postępu filmu</string>
-    <string name="revanced_custom_seekbar_color_value_summary">Wpisz kod hex koloru paska postępu filmu</string>
-    <string name="revanced_custom_seekbar_color_value_invalid_invalid_toast">Nieprawidłowa wartość koloru paska postępu.</string>
     <string name="revanced_enable_seekbar_tapping_title">Stukanie w pasek postępu filmu</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">Włączone</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">Wyłączone</string>

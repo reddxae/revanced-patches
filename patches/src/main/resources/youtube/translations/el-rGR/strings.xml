@@ -402,7 +402,7 @@ Playlists
     <string name="revanced_change_layout_entry_4">Τάμπλετ</string>
     <string name="revanced_change_layout_entry_5">Τάμπλετ (Μέγιστο dp 600)</string>
     <string name="revanced_change_live_ring_click_action_title">Αλλαγή ενέργειας πατήματος δακτυλίου ζωντανής μετάδοσης</string>
-    <string name="revanced_change_live_ring_click_action_summary_on">Το κανάλι ανοίγει όταν πατιέται ο δακτύλιος ζωντανής μετάδοσης.</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">"Το κανάλι ανοίγει όταν πατιέται ο δακτύλιος ζωντανής μετάδοσης."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">Η ζωντανή μετάδοση ανοίγει όταν πατιέται ο δακτύλιος ζωντανής μετάδοσης.</string>
     <string name="revanced_spoof_app_version_title">Παραποίηση έκδοσης εφαρμογής</string>
     <string name="revanced_spoof_app_version_summary_on">Η έκδοση παραποιείται.</string>
@@ -625,9 +625,25 @@ Playlists
     <string name="revanced_hide_settings_menu_about_summary_on">Κρυμμένο.</string>
     <string name="revanced_hide_settings_menu_about_summary_off">Εμφανίζεται.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Snack bar -->
+    <string name="revanced_preference_screen_snack_bar_title">Γραμμή ειδοποιήσεων αλληλεπίδρασης</string>
+    <string name="revanced_preference_screen_snack_bar_summary">Απόκρυψη ή αλλαγή στοιχείων που σχετίζονται με τη γραμμή ειδοποιήσεων αλληλεπίδρασης.</string>
     <string name="revanced_hide_snack_bar_title">Μηνύματα αλληλεπίδρασης</string>
     <string name="revanced_hide_snack_bar_summary_on">Κρυμμένα.</string>
     <string name="revanced_hide_snack_bar_summary_off">Εμφανίζονται.</string>
+    <string name="revanced_hide_server_side_snack_bar_title">Γραμμή ειδοποιήσεων αλληλεπίδρασης πλευράς του διακομιστή</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_on">Κρυμμένη.</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_off">Εμφανίζεται.</string>
+    <string name="revanced_invert_snack_bar_theme_title">Αντιστροφή θέματος γραμμής ειδοποιήσεων αλληλεπίδρασης</string>
+    <string name="revanced_invert_snack_bar_theme_summary_on">Το θέμα της γραμμής ειδοποιήσεων αλληλεπίδρασης είναι ανεστραμμένο.</string>
+    <string name="revanced_invert_snack_bar_theme_summary_off">Το θέμα της γραμμής ειδοποιήσεων αλληλεπίδρασης δεν είναι ανεστραμμένο.</string>
+    <string name="revanced_change_server_side_snack_bar_background_title">Αλλαγή φόντου γραμμής ειδοποιήσεων αλληλεπίδρασης</string>
+    <string name="revanced_change_server_side_snack_bar_background_summary_on">Το χρώμα φόντου της γραμμής ειδοποιήσεων αλληλεπίδρασης έχει αλλάξει.</string>
+    <string name="revanced_change_server_side_snack_bar_background_summary_off">Το χρώμα φόντου της γραμμής ειδοποιήσεων αλληλεπίδρασης δεν έχει αλλάξει.</string>
+    <string name="revanced_change_server_side_snack_bar_background_user_dialog_message">"Κάποιες γραμμές ειδοποιήσεων αλληλεπίδρασης χρησιμοποιούν ένα θέμα που έχει οριστεί στην πλευρά του διακομιστή, και όχι το θέμα της εφαρμογής.
+
+Αλλαγή χρώματος του φόντου αυτών των γραμμών.
+
+Αν υπάρξουν αλλαγές στην πλευρά του διακομιστή, το χρώμα φόντου της γραμμής ενδέχεται να μην αλλάξει."</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Γραμμή εργαλείων</string>
     <string name="revanced_preference_screen_toolbar_summary">Απόκρυψη ή αλλαγή στοιχείων που βρίσκονται στη γραμμή εργαλείων, όπως τα κουμπιά, την γραμμή αναζήτησης, ή την επικεφαλίδα.</string>
@@ -1165,9 +1181,6 @@ Playlists
     <string name="revanced_enable_custom_seekbar_color_title">Προσαρμοσμένο χρώμα γραμμής προόδου</string>
     <string name="revanced_enable_custom_seekbar_color_summary_on">Το προσαρμοσμένο χρώμα γραμμής προόδου είναι ενεργοποιημένο.</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">Το προσαρμοσμένο χρώμα γραμμής προόδου είναι απενεργοποιημένο.</string>
-    <string name="revanced_custom_seekbar_color_value_title">Τιμή χρώματος γραμμής προόδου</string>
-    <string name="revanced_custom_seekbar_color_value_summary">Εισάγετε τον κωδικό hex του χρώματος της γραμμής προόδου.</string>
-    <string name="revanced_custom_seekbar_color_value_invalid_invalid_toast">Μη έγκυρη τιμή χρώματος γραμμής προόδου.</string>
     <string name="revanced_enable_seekbar_tapping_title">Πάτημα γραμμής προόδου</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">Το πάτημα γραμμής προόδου είναι ενεργοποιημένο.</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">Το πάτημα γραμμής προόδου είναι απενεργοποιημένο.</string>
@@ -1536,8 +1549,8 @@ Playlists
     <string name="revanced_default_video_quality_mobile_title">Προεπιλεγμένη ποιότητα βίντεο με δεδομένα κινητής τηλεφωνίας</string>
     <string name="revanced_default_video_quality_wifi_title">Προεπιλεγμένη ποιότητα βίντεο με Wi-Fi</string>
     <string name="revanced_disable_hdr_video_title">Απενεργοποίηση βίντεο HDR</string>
-    <string name="revanced_disable_hdr_video_summary_on">Τα βίντεο που υποστηρίζουν HDR δεν θα παίζουν σε HDR ποιότητα.</string>
-    <string name="revanced_disable_hdr_video_summary_off">Τα βίντεο που υποστηρίζουν HDR θα παίζουν σε HDR ποιότητα.</string>
+    <string name="revanced_disable_hdr_video_summary_on">Τα βίντεο που υποστηρίζουν HDR δεν αναπαράγονται σε HDR ποιότητα.</string>
+    <string name="revanced_disable_hdr_video_summary_off">Τα βίντεο που υποστηρίζουν HDR αναπαράγονται σε HDR ποιότητα.</string>
     <string name="revanced_enable_custom_playback_speed_title">Προσαρμοσμένη ταχύτητα αναπαραγωγής</string>
     <string name="revanced_enable_custom_playback_speed_summary_on">Η προσαρμοσμένη ταχύτητα αναπαραγωγής είναι ενεργοποιημένη.</string>
     <string name="revanced_enable_custom_playback_speed_summary_off">Η προσαρμοσμένη ταχύτητα αναπαραγωγής είναι απενεργοποιημένη.</string>

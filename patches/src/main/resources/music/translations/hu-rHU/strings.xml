@@ -120,11 +120,8 @@ Korlátozások:
     <string name="revanced_preference_screen_general_title">Általános</string>
     <string name="revanced_change_start_page_title">Kezdőlap megváltoztatása</string>
     <string name="revanced_change_start_page_summary">Kiválaszthatod, hogy milyen oldalon nyíljon meg az alkalmazás.</string>
-    <string name="revanced_change_start_page_entry_chart">Diagramok</string>
     <string name="revanced_change_start_page_entry_explore">Felfedezés</string>
-    <string name="revanced_change_start_page_entry_home">Kezdőlap</string>
     <string name="revanced_change_start_page_entry_library">Könyvtár</string>
-    <string name="revanced_change_start_page_entry_subscription">Feliratkozások</string>
     <string name="revanced_disable_dislike_redirection_title">Nem tetszik átirányítás letiltása</string>
     <string name="revanced_disable_dislike_redirection_summary">Letiltja az átirányítást a következő számra, amikor rányomsz a nem tetszik gombra.</string>
     <string name="revanced_disable_auto_captions_title">Kényszerített automatikus feliratok letiltása</string>
@@ -173,8 +170,6 @@ Ez nem kerüli meg a korhatárkorlátozást. Csak automatikusan elfogadja azt."<
 • Ha később kikapcsolod, a régi felhasználói felület megmaradhat, amíg az alkalmazás adatait nem törlöd."</string>
     <string name="revanced_spoof_app_version_target_title">Cél alkalmazásverzió</string>
     <string name="revanced_spoof_app_version_target_summary">Válaszd ki, hogy melyik alkalmazásverziót akarod használni.</string>
-    <string name="revanced_spoof_app_version_target_entry_4_27_53">4.27.53 - Letiltja a rádió módot Kanada területén</string>
-    <string name="revanced_spoof_app_version_target_entry_6_11_52">6.11.52 - Letiltja a valós idejű dalszövegeket</string>
     <string name="revanced_spoof_app_version_target_entry_7_16_53">7.16.53 - Régi menüsor visszaállítása</string>
     <!-- PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_title">Navigációs sor</string>
@@ -423,16 +418,6 @@ Információk:
     <string name="revanced_spoof_client_type_entry_android_music_4_27">Android Music 4.27.53</string>
     <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
     <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>
-    <string name="revanced_spoof_streaming_data_title">Adatfolyam meghamisítása</string>
-    <string name="revanced_spoof_streaming_data_summary">"A lejátszási problémák megelőzése érdekében hamisítja a streaming-adatokat.
-
-• A 'Kliens hamisítása' használata esetén lejátszási problémák léphetnek fel."</string>
-    <string name="revanced_spoof_streaming_data_type_title">Alapértelmezett kliens</string>
-    <string name="revanced_spoof_streaming_data_type_summary">Meghatároz egy alapértelmezett klienst, amely streaming adatokat hív le.</string>
-    <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Megjelenik a statisztikák kockáknakban</string>
-    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary">Megmutatja a streaming adatok lekérdezésére használt klienst a Statisztikák kockáknakban.</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_music">Android Music</string>
     <string name="revanced_default_app_settings_title">Alapértelmezett program beállítások megnyitása</string>
     <string name="revanced_default_app_settings_summary">A YouTube Music linkek megnyitásához az RVX Musicban engedélyezze a Támogatott linkek megnyitása és az összes Támogatott webcím engedélyezése opciót.</string>
     <string name="gms_core_settings_title">GmsCore megnyitása</string>

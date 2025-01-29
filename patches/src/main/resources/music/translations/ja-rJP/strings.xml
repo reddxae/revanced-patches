@@ -120,11 +120,8 @@
     <string name="revanced_preference_screen_general_title">全般</string>
     <string name="revanced_change_start_page_title">スタートページを変更</string>
     <string name="revanced_change_start_page_summary">アプリのスタートページを変更します。</string>
-    <string name="revanced_change_start_page_entry_chart">チャート</string>
     <string name="revanced_change_start_page_entry_explore">探索</string>
-    <string name="revanced_change_start_page_entry_home">ホーム</string>
     <string name="revanced_change_start_page_entry_library">ライブラリ</string>
-    <string name="revanced_change_start_page_entry_subscription">定期購入</string>
     <string name="revanced_disable_dislike_redirection_title">低評価リダイレクトを無効化</string>
     <string name="revanced_disable_dislike_redirection_summary">低評価ボタンを押したとき、次の曲へのリダイレクトするのを無効にする。</string>
     <string name="revanced_disable_auto_captions_title">字幕の強制を無効化</string>
@@ -173,8 +170,6 @@
 • 後からこの機能を無効にしても、データを消去するまで古い UI のままになる場合があります。"</string>
     <string name="revanced_spoof_app_version_target_title">偽装するバージョン</string>
     <string name="revanced_spoof_app_version_target_summary">偽装するバージョンを選択してください。</string>
-    <string name="revanced_spoof_app_version_target_entry_4_27_53">4.27.53 - カナダの地域でラジオモードを無効化</string>
-    <string name="revanced_spoof_app_version_target_entry_6_11_52">6.11.52 - リアルタイムの歌詞を無効化</string>
     <string name="revanced_spoof_app_version_target_entry_7_16_53">7.16.53 - 古いアクションバーを復元</string>
     <!-- PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_title">ナビゲーションバー</string>
@@ -422,16 +417,6 @@ API キーの発行方法については、ここをタップしてください�
     <string name="revanced_spoof_client_type_entry_android_music_4_27">Android Music 4.27.53</string>
     <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
     <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>
-    <string name="revanced_spoof_streaming_data_title">ストリーミングデータを偽装</string>
-    <string name="revanced_spoof_streaming_data_summary">"ストリーミングデータを偽装して、再生の問題を防ぎます。
-
-• Spoof client と併用すると、再生に問題が発生する場合があります。"</string>
-    <string name="revanced_spoof_streaming_data_type_title">既定のクライアント</string>
-    <string name="revanced_spoof_streaming_data_type_summary">ストリーミングデータを取得するデフォルトのクライアントを定義します。</string>
-    <string name="revanced_spoof_streaming_data_stats_for_nerds_title">マニア向けの統計を表示</string>
-    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary">Stats for nerds でストリーミングデータの取得に使用されるクライアントを定義する。</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_music">Android Music</string>
     <string name="revanced_default_app_settings_title">「デフォルトで開く」の設定</string>
     <string name="revanced_default_app_settings_summary">RVX Music でYouTube Music のURLを開くには、「対応リンクを開く」を有効にし、サポートされているURLを有効にします。</string>
     <string name="gms_core_settings_title">GmsCoreを開く</string>

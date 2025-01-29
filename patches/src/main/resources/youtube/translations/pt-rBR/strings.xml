@@ -403,7 +403,7 @@ Isso não ignora a restrição de idade, apenas aceita isso automaticamente."</s
     <string name="revanced_change_layout_entry_4">Tablet</string>
     <string name="revanced_change_layout_entry_5">Tablet (Min 600 dp)</string>
     <string name="revanced_change_live_ring_click_action_title">Alterar ação de clique do anel ao vivo</string>
-    <string name="revanced_change_live_ring_click_action_summary_on">O canal é aberto quando o anel ao vivo é clicado.</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">"O canal é aberto quando o anel ao vivo é clicado."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">A transmissão ao vivo é aberta quando o anel ao vivo é clicado.</string>
     <string name="revanced_spoof_app_version_title">Falsificar versão do aplicativo</string>
     <string name="revanced_spoof_app_version_summary_on">Versão falsificada</string>
@@ -1167,9 +1167,6 @@ Informação:
     <string name="revanced_enable_custom_seekbar_color_title">Ativar cor personalizada da barra de progresso</string>
     <string name="revanced_enable_custom_seekbar_color_summary_on">A cor personalizada da barra de progresso está ativada.</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">A cor personalizada da barra de progresso está desativada.</string>
-    <string name="revanced_custom_seekbar_color_value_title">Valor da cor personalizada da barra de progresso</string>
-    <string name="revanced_custom_seekbar_color_value_summary">Digite o código hexadecimal da cor da barra de progresso.</string>
-    <string name="revanced_custom_seekbar_color_value_invalid_invalid_toast">Valor de cor da barra de busca inválido.</string>
     <string name="revanced_enable_seekbar_tapping_title">Ativar toque na barra de progresso</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">O toque na barra de progresso está ativado.</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">O toque na barra de progresso desativado.</string>

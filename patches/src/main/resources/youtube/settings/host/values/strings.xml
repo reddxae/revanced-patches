@@ -451,7 +451,7 @@ This does not bypass the age restriction. It just accepts it automatically."</st
     <string name="revanced_change_live_ring_click_action_title">Change live ring click action</string>
     <string name="revanced_change_live_ring_click_action_summary_on">"Channel opens when the live ring is clicked.
 
-Limitation: Live ring of the Vertical live streams (Shorts live streams) cannot open a channel."</string>
+Limitation: When the Shorts live stream is opened in regular player due to the 'Open Shorts in regular player' setting, channel does not open."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">Live stream opens when the live ring is clicked.</string>
     <string name="revanced_spoof_app_version_title">Spoof app version</string>
     <string name="revanced_spoof_app_version_summary_on">Version spoofed</string>

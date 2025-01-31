@@ -5,7 +5,7 @@
     <string name="accessibility_settings_edu_opt_out_text">Your controls are modified because an accessibility service is on.</string>
 
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced Extended</string>
+    <string name="revanced_extended_settings_title">RVX</string>
     <string name="revanced_extended_settings_search_title">Search %s</string>
     <string name="revanced_extended_reset_to_default_toast">Reset to default values.</string>
 

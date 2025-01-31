@@ -480,6 +480,13 @@ Info:
     <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
     <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>
     <string name="revanced_spoof_client_type_entry_ios_music_7_04">iOS Music 7.04</string>
+    <string name="revanced_watch_history_type_title">Watch history type</string>
+    <string name="revanced_watch_history_type_summary">"• Original: Follows the watch history settings of Google account, but watch history may not work due to DNS or VPN.
+• Replace domain: Follows the watch history settings of Google account.
+• Block watch history: Watch history is blocked."</string>
+    <string name="revanced_watch_history_type_entry_1">Original</string>
+    <string name="revanced_watch_history_type_entry_2">Replace domain</string>
+    <string name="revanced_watch_history_type_entry_3">Block watch history</string>
 
     <string name="revanced_default_app_settings_title">Open default app settings</string>
     <string name="revanced_default_app_settings_summary">To open YouTube Music links in RVX Music, enable Open supported links and enable all the Supported web addresses.</string>

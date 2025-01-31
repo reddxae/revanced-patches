@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_reset_to_default_toast">Restablecer a valores por defecto.</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">Reiniciar para cargar el diseño normalmente</string>
@@ -120,8 +119,17 @@ Problemas conocidos:
     <string name="revanced_preference_screen_general_title">General</string>
     <string name="revanced_change_start_page_title">Cambiar página de inicio</string>
     <string name="revanced_change_start_page_summary">Seleccione en qué página se abre la aplicación.</string>
+    <string name="revanced_change_start_page_entry_default">Predeterminado</string>
+    <string name="revanced_change_start_page_entry_charts">Ranking</string>
+    <string name="revanced_change_start_page_entry_episodes_for_later">Episodios para luego</string>
     <string name="revanced_change_start_page_entry_explore">Explorar</string>
+    <string name="revanced_change_start_page_entry_history">Historial</string>
     <string name="revanced_change_start_page_entry_library">Biblioteca</string>
+    <string name="revanced_change_start_page_entry_liked_music">Música \"Me gusta\"</string>
+    <string name="revanced_change_start_page_entry_podcasts">Pódcasts</string>
+    <string name="revanced_change_start_page_entry_samples">Muestras</string>
+    <string name="revanced_change_start_page_entry_search">Buscar</string>
+    <string name="revanced_change_start_page_entry_subscriptions">Suscripciones</string>
     <string name="revanced_disable_dislike_redirection_title">Desactivar redirección de No me Gusta</string>
     <string name="revanced_disable_dislike_redirection_summary">Deshabilita la redirección a la siguiente pista al hacer clic en el botón No me Gusta.</string>
     <string name="revanced_disable_auto_captions_title">Desactivar subtítulos automáticos</string>
@@ -170,9 +178,11 @@ Esto no evita la restricción de edad. Solo la acepta automáticamente."</string
 - Si más tarde se desactiva, la antigua interfaz de usuario puede permanecer hasta que se borren los datos de la aplicación."</string>
     <string name="revanced_spoof_app_version_target_title">Objetivo de la versión de la app a modificar</string>
     <string name="revanced_spoof_app_version_target_summary">Seleccione el objetivo de la versión de la app a modificar.</string>
+    <string name="revanced_spoof_app_version_target_entry_6_42_55">6.42.55 - Desactivar letras en tiempo real</string>
     <string name="revanced_spoof_app_version_target_entry_7_16_53">7.16.53 - Restaurar la antigua barra de acción</string>
     <!-- PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_title">Barra de navegación</string>
+    <string name="revanced_enable_custom_navigation_bar_color_title">Activar color personalizado de la barra de navegación</string>
     <string name="revanced_hide_navigation_home_button_title">Ocultar botón de Inicio</string>
     <string name="revanced_hide_navigation_home_button_summary">Oculta el botón de Inicio.</string>
     <string name="revanced_hide_navigation_samples_button_title">Ocultar botón de Samples</string>
@@ -399,16 +409,7 @@ Se usa una instancia redireccionada, pero la API puede no estar disponible en al
     <string name="revanced_sanitize_sharing_links_title">Desinfectar enlaces compartidos</string>
     <string name="revanced_sanitize_sharing_links_summary">Elimina los parámetros de consulta de seguimiento de las URL al compartir enlaces.</string>
     <string name="revanced_spoof_client_title">Falsificar cliente</string>
-    <string name="revanced_spoof_client_summary">"\"falsifica al cliente para evitar problemas de reproducción.
-
-Limitaciones:
-• Código de audio OPUS puede no ser compatible.
-• La miniatura de la barra de Seekbar puede no estar presente.
-• El historial de la vista no funciona con una cuenta de marca."</string>
     <string name="revanced_spoof_client_type_title">Cliente por defecto</string>
-    <string name="revanced_spoof_client_type_summary">"Define un cliente predeterminado a falsear.
-
-※ Al usar el cliente Android, se recomienda usarlo con 'Versión de aplicación Spoof'."</string>
     <string name="revanced_spoof_client_type_entry_android_music_4_27">Android Music 4.27.53</string>
     <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
     <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>

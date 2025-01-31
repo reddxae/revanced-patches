@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_reset_to_default_toast">Varsayılan değerlere sıfırlayın.</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">Düzeni normal şekilde yüklemek için yeniden başlatın</string>
@@ -398,12 +397,6 @@ Bilgi:
     <string name="revanced_sanitize_sharing_links_title">Paylaşılan bağlantıları sterilize edin</string>
     <string name="revanced_sanitize_sharing_links_summary">Bağlantıları paylaşırken, tracking query parametrelerini URL\'lerden kaldırır.</string>
     <string name="revanced_spoof_client_title">Sahte istemci</string>
-    <string name="revanced_spoof_client_summary">"\"Oynatma sorunlarını önlemek için istemciyi taklit edin.
-
-Sınırlamalar:
-• OPUS ses kodeği desteklenmiyor olabilir.
-• Arama çubuğu küçük resmi mevcut olmayabilir.
-• İzleme geçmişi marka hesabında çalışmaz."</string>
     <string name="revanced_default_app_settings_title">Varsayılan uygulama ayarlarını aç</string>
     <string name="revanced_default_app_settings_summary">YouTube Müzik bağlantılarını RVX Music\'te açmak için \'Desteklenen bağlantıları aç\'ı etkinleştirin ve desteklenen web adreslerini etkinleştirin.</string>
     <string name="gms_core_settings_title">GmsCore\'yi aç</string>

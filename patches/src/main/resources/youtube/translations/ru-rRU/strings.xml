@@ -4,7 +4,6 @@
     <string name="accessibility_settings_edu_opt_in_text">Включить специальные возможности в плеере?</string>
     <string name="accessibility_settings_edu_opt_out_text">Служба специальных возможностей включена. Управление изменено.</string>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">Поиск %s</string>
     <string name="revanced_extended_reset_to_default_toast">К значениям по умолчанию.</string>
     <string name="revanced_preference_category_experimental_flag">Экспериментальные опции</string>
@@ -74,6 +73,9 @@
     <string name="revanced_language_ZH">中文</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Реклама</string>
+    <string name="revanced_hide_end_screen_store_banner_title">Скрыть баннер магазина на конечном экране</string>
+    <string name="revanced_hide_end_screen_store_banner_summary_on">Баннер магазина скрыт.</string>
+    <string name="revanced_hide_end_screen_store_banner_summary_off">Баннер магазина отображается.</string>
     <string name="revanced_hide_fullscreen_ads_title">Полноэкранная реклама</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">Полноэкранная реклама скрыта.</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">Полноэкранная реклама отображена.</string>
@@ -266,6 +268,13 @@ Shorts
     <string name="revanced_hide_feed_flyout_menu_title">Фильтр всплывающего меню ленты</string>
     <string name="revanced_hide_feed_flyout_menu_summary_on">Фильтр всплывающего меню ленты включен.</string>
     <string name="revanced_hide_feed_flyout_menu_summary_off">Фильтр всплывающего меню ленты отключен.</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_title">Тип фильтра выдвижного меню в ленте</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_on">"Фильтровать, если содержит.
+
+Чтобы скрыть меню <b>Воспроизвести следующим в очереди</b>, можно использовать <b>Воспроизвести следующим</b> или <b>в очереди</b> в качестве ключевых слов."</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_off">"Фильтровать, если совпадают.
+
+Чтобы скрыть меню <b>Воспроизведение следующих в очереди</b>, можно использовать только <b>Воспроизведение следующих в очереди</b> в качестве ключевых слов."</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_title">Фильтр всплывающего меню ленты</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_summary">Список имен всплывающего меню ленты для скрытия.\nРазделять новой строкой.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter -->
@@ -358,6 +367,7 @@ Shorts
     <string name="revanced_preference_screen_general_title">Основные настройки</string>
     <string name="revanced_change_start_page_title">Начальная страница</string>
     <string name="revanced_change_start_page_entry_default">По умолчанию</string>
+    <string name="revanced_change_start_page_entry_all_subscriptions">Все подписки</string>
     <string name="revanced_change_start_page_entry_browse">Обзор каналов</string>
     <string name="revanced_change_start_page_entry_courses">Курсы / Обучение</string>
     <string name="revanced_change_start_page_entry_explore">Навигатор</string>
@@ -371,6 +381,7 @@ Shorts
     <string name="revanced_change_start_page_entry_music">Музыка</string>
     <string name="revanced_change_start_page_entry_news">Новости</string>
     <string name="revanced_change_start_page_entry_notifications">Уведомления</string>
+    <string name="revanced_change_start_page_entry_playlists">Плейлисты</string>
     <string name="revanced_change_start_page_entry_podcasts">Подкасты</string>
     <string name="revanced_change_start_page_entry_search">Поиск</string>
     <string name="revanced_change_start_page_entry_shopping">Покупки</string>
@@ -378,6 +389,7 @@ Shorts
     <string name="revanced_change_start_page_entry_sports">Спорт</string>
     <string name="revanced_change_start_page_entry_subscriptions">Подписки</string>
     <string name="revanced_change_start_page_entry_trending">В тренде</string>
+    <string name="revanced_change_start_page_entry_virtual_reality">Виртуальная реальность</string>
     <string name="revanced_change_start_page_entry_watch_later">Смотреть позже</string>
     <string name="revanced_change_start_page_entry_your_clips">Ваши клипы</string>
     <string name="revanced_change_start_page_type_title">Тип начальной страницы</string>
@@ -441,6 +453,13 @@ Shorts
     <string name="revanced_hide_account_menu_title">Скрыть меню аккаунта</string>
     <string name="revanced_hide_account_menu_summary">"Скрыть элементы меню аккаунта и вкладки \"Вы\".
 Некоторые компоненты не могут быть скрыты."</string>
+    <string name="revanced_hide_account_menu_filter_type_title">Тип фильтра меню аккаунта</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_on">"Фильтровать, если содержит.
+
+Чтобы скрыть меню <b>Оформить подписку YouTube Premium</b>, можно использовать <b>YouTube Premium</b> или <b>Premium</b> в качестве ключевых слов."</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_off">"Фильтровать, если совпадают.
+
+Чтобы скрыть меню <b>Оформить подписку YouTube Premium</b>, можно использовать только <b>Оформить подписку YouTube Premium</b> в качестве ключевых слов."</string>
     <string name="revanced_hide_account_menu_filter_strings_title">Фильтр элементов меню аккаунта</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">Список элементов меню учетной записи для скрытия.\nРазделять новой строкой.</string>
     <string name="revanced_hide_handle_title">Скрыть псевдоним</string>
@@ -1181,6 +1200,11 @@ Shorts
     <string name="revanced_enable_custom_seekbar_color_title">Цвет шкалы воспроизведения</string>
     <string name="revanced_enable_custom_seekbar_color_summary_on">Используется пользовательский цвет шкалы воспроизведения.</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">Используется оригинальный цвет шкалы воспроизведения.</string>
+    <string name="revanced_custom_seekbar_color_primary_title">Пользовательский основной цвет полосы прогресса</string>
+    <string name="revanced_custom_seekbar_color_primary_summary">Введите hex код основного цвета полосы прогресса.</string>
+    <string name="revanced_custom_seekbar_color_accent_title">Пользовательский акцентный цвет полосы прогресса</string>
+    <string name="revanced_custom_seekbar_color_accent_summary">Введите hex код акцентного цвета полосы прогресса.</string>
+    <string name="revanced_custom_seekbar_color_invalid_toast">Неверный цвет полосы прогресса.</string>
     <string name="revanced_enable_seekbar_tapping_title">Перемотка нажатием</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">Перемотка нажатием включена.</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">Перемотка нажатием отключена.</string>

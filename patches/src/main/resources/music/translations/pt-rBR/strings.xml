@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_reset_to_default_toast">Redefinir para os valores padrão.</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">Reinicie para carregar o layout normalmente</string>
@@ -411,13 +410,7 @@ Informações:
     <string name="revanced_sanitize_sharing_links_title">Limpar links compartilhados</string>
     <string name="revanced_sanitize_sharing_links_summary">Limpa links de compartilhamento removendo parâmetros de consulta de rastreamento.</string>
     <string name="revanced_spoof_client_title">Falsificar cliente</string>
-    <string name="revanced_spoof_client_summary">"Falsificar o cliente para evitar problemas de reprodução.
-
-• Quando usado com 'Dados de streaming falsos', podem ocorrer problemas de reprodução."</string>
     <string name="revanced_spoof_client_type_title">Cliente padrão</string>
-    <string name="revanced_spoof_client_type_summary">"Define um cliente padrão para falsificar.
-
-• Ao usar o cliente Android, é recomendado usar também 'Falsificar versão do aplicativo'."</string>
     <string name="revanced_spoof_client_type_entry_android_music_4_27">Android Music 4.27.53</string>
     <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
     <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>

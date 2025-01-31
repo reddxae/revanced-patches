@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">Настройки ReVanced Extended</string>
     <string name="revanced_extended_reset_to_default_toast">Сброшены до значений по умолчанию.</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">Перезапустите для правильной загрузки интерфейса</string>
@@ -408,16 +407,7 @@
     <string name="revanced_sanitize_sharing_links_title">Подчищать ссылки</string>
     <string name="revanced_sanitize_sharing_links_summary">Убирает параметры отслеживания запросов из адресов при отправке ссылки.</string>
     <string name="revanced_spoof_client_title">Подмена клиента</string>
-    <string name="revanced_spoof_client_summary">"Подмена клиента для предотвращения проблем с воспроизведением.
-
-Ограничения:
-• Кодек OPUS может не работать.
-• Превью во время перемотки может отсутствовать.
-• История просмотра не работает при использовании аккаунта компании."</string>
     <string name="revanced_spoof_client_type_title">Клиент по умолчанию</string>
-    <string name="revanced_spoof_client_type_summary">"Определяет клиент по умолчанию для подмены.
-
-※ При использовании клиента Android рекомендуется использовать его вместе с \"Подмена версии приложения\"."</string>
     <string name="revanced_spoof_client_type_entry_android_music_4_27">Android Music 4.27.53</string>
     <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
     <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>

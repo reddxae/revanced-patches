@@ -4,7 +4,6 @@
     <string name="accessibility_settings_edu_opt_in_text">Включване на контролите за достъпност на видеоплеaра?</string>
     <string name="accessibility_settings_edu_opt_out_text">Вашите контроли са променени, защото е активирана услуга за достъпност.</string>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">Настройки ReVanced</string>
     <string name="revanced_extended_settings_search_title">Търсене %s</string>
     <string name="revanced_extended_reset_to_default_toast">Възстановяване на стандартните стойности.</string>
     <string name="revanced_preference_category_experimental_flag">Експериментални настройки</string>

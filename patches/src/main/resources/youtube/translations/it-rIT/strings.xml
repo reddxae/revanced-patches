@@ -4,7 +4,6 @@
     <string name="accessibility_settings_edu_opt_in_text">Vuoi attivare i controlli di accessibilità del riproduttore?</string>
     <string name="accessibility_settings_edu_opt_out_text">I tuoi controlli sono diversi poiché un servizio di accessibilità è attivato.</string>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">Cerca su %s</string>
     <string name="revanced_extended_reset_to_default_toast">Ripristinato ai valori predefiniti</string>
     <string name="revanced_preference_category_experimental_flag">Opzioni sperimentali</string>
@@ -74,6 +73,9 @@ Si prega di scaricare %2$s dal sito web."</string>
     <string name="revanced_language_ZH">Cinese</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Annunci</string>
+    <string name="revanced_hide_end_screen_store_banner_title">Nascondi il banner del negozio alla fine dei video</string>
+    <string name="revanced_hide_end_screen_store_banner_summary_on">Il banner del negozio alla fine dei video è nascosto.</string>
+    <string name="revanced_hide_end_screen_store_banner_summary_off">Il banner del negozio alla fine dei video è visibile.</string>
     <string name="revanced_hide_fullscreen_ads_title">Nascondi gli annunci a schermo intero</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">Gli annunci a schermo intero sono nascosti.</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">Gli annunci a schermo intero sono visibili.</string>
@@ -264,6 +266,13 @@ Negozio"</string>
     <string name="revanced_hide_feed_flyout_menu_title">Attiva il filtro dei menù a comparsa</string>
     <string name="revanced_hide_feed_flyout_menu_summary_on">Il filtro dei menù a comparsa è attivato.</string>
     <string name="revanced_hide_feed_flyout_menu_summary_off">Il filtro dei menù a comparsa è disattivato.</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_title">Cambia il tipo di filtro dei menù a comparsa</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_on">"Filtra se contiene.
+
+Per nascondere il menù <b>Riproduci come il prossimo in coda</b>, puoi usare le parole chiave come <b>Riproduci come</b> o <b>in coda</b>."</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_off">"Filtra se corrisponde.
+
+Per nascondere il menù <b>Riproduci come il prossimo in coda</b>, puoi usare solo la parola chiave <b>Riproduci come il prossimo in coda</b>."</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_title">Filtro dei menù a comparsa</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_summary">L\'elenco dei nomi dei menù a comparsa da filtrare, separati da nuove righe.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter -->
@@ -346,6 +355,7 @@ Se l'interfaccia della schermata del riproduttore cambia a causa di modifiche la
     <string name="revanced_preference_screen_general_title">Generali</string>
     <string name="revanced_change_start_page_title">Cambia la scheda iniziale</string>
     <string name="revanced_change_start_page_entry_default">Predefinita (Home)</string>
+    <string name="revanced_change_start_page_entry_all_subscriptions">Tutte le iscrizioni</string>
     <string name="revanced_change_start_page_entry_browse">Esplora canali</string>
     <string name="revanced_change_start_page_entry_courses">Apprendimento</string>
     <string name="revanced_change_start_page_entry_explore">Esplora</string>
@@ -359,6 +369,7 @@ Se l'interfaccia della schermata del riproduttore cambia a causa di modifiche la
     <string name="revanced_change_start_page_entry_music">Musica</string>
     <string name="revanced_change_start_page_entry_news">Notizie</string>
     <string name="revanced_change_start_page_entry_notifications">Notifiche</string>
+    <string name="revanced_change_start_page_entry_playlists">Playlist</string>
     <string name="revanced_change_start_page_entry_podcasts">Podcast</string>
     <string name="revanced_change_start_page_entry_search">Cerca</string>
     <string name="revanced_change_start_page_entry_shopping">Shopping</string>
@@ -366,6 +377,7 @@ Se l'interfaccia della schermata del riproduttore cambia a causa di modifiche la
     <string name="revanced_change_start_page_entry_sports">Sport</string>
     <string name="revanced_change_start_page_entry_subscriptions">Iscrizioni</string>
     <string name="revanced_change_start_page_entry_trending">Tendenze</string>
+    <string name="revanced_change_start_page_entry_virtual_reality">Realtà virtuale</string>
     <string name="revanced_change_start_page_entry_watch_later">Guarda più tardi</string>
     <string name="revanced_change_start_page_entry_your_clips">I tuoi clip</string>
     <string name="revanced_change_start_page_type_title">Cambia il comportamento della pagina iniziale</string>
@@ -404,7 +416,9 @@ Nota: questo non bypassa la restrizione di età, ma la accetta automaticamente."
     <string name="revanced_change_layout_entry_4">Tablet</string>
     <string name="revanced_change_layout_entry_5">Tablet (Minimo 600 dp)</string>
     <string name="revanced_change_live_ring_click_action_title">Cambia cosa apre l\'anello live quando viene toccato</string>
-    <string name="revanced_change_live_ring_click_action_summary_on">"Canale"</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">"Canale
+
+Nota: i canali non si aprono se gli Shorts live sono aperti nel riproduttore normale."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">Video live</string>
     <string name="revanced_spoof_app_version_title">Attiva il camuffamento della versione dell\'app</string>
     <string name="revanced_spoof_app_version_summary_on">Il camuffamento della versione dell\'app è attivato.</string>
@@ -431,6 +445,13 @@ Se in seguito verrà disattivato, si consiglia di cancellare i dati dell'app per
     <string name="revanced_hide_account_menu_title">Nascondi i menù dell\'account</string>
     <string name="revanced_hide_account_menu_summary">"Nascondi i componenti dei menù dell'account e della scheda Tu.
 Nota: alcuni componenti potrebbero non essere nascosti."</string>
+    <string name="revanced_hide_account_menu_filter_type_title">Cambia il tipo di filtro dei menù dell\'account</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_on">"Filtra se contiene.
+
+Per nascondere il menù <b>Passa a YouTube Premium</b>, puoi usare le parole chiave come <b>YouTube Premium</b> o <b>Premium</b>."</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_off">"Filtra se corrisponde.
+
+Per nascondere il menù <b>Passa a YouTube Premium</b>, puoi usare solo la parola chiave <b>Passa a YouTube Premium</b>."</string>
     <string name="revanced_hide_account_menu_filter_strings_title">Modifica il filtro dei menù dell\'account</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">L\'elenco dei nomi dei menù degli account da filtrare, separati da nuove righe.</string>
     <string name="revanced_hide_handle_title">Nascondi l\'handle</string>
@@ -759,12 +780,12 @@ Note:
     <string name="revanced_hide_suggested_actions_title">Nascondi le azioni consigliate</string>
     <string name="revanced_hide_suggested_actions_summary_on">Le azioni consigliate sono nascoste.</string>
     <string name="revanced_hide_suggested_actions_summary_off">Le azioni consigliate sono visibili.</string>
-    <string name="revanced_hide_suggested_video_end_screen_title">Nascondi la schermata finale del video consigliato</string>
-    <string name="revanced_hide_suggested_video_end_screen_summary_on">"La schermata finale del video consigliato è nascosta quando la riproduzione automatica è disattivata.
+    <string name="revanced_hide_suggested_video_end_screen_title">Nascondi il video consigliato alla fine dei video</string>
+    <string name="revanced_hide_suggested_video_end_screen_summary_on">"Il video consigliato alla fine dei video è nascosto quando la riproduzione automatica è disattivata.
 
 La riproduzione automatica può essere modificata seguendo questo percorso:
 Impostazioni → Riproduzione automatica / Riproduzione → Riproduci automatic. video successivo"</string>
-    <string name="revanced_hide_suggested_video_end_screen_summary_off">La schermata finale del video consigliato è visibile.</string>
+    <string name="revanced_hide_suggested_video_end_screen_summary_off">Il video consigliato alla fine dei video è visibile.</string>
     <string name="revanced_skip_autoplay_countdown_title">Salta il conto alla rovescia della riproduzione automatica</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">Se la riproduzione automatica è attivata, il video successivo verrà riprodotto immediatamente.</string>
     <string name="revanced_skip_autoplay_countdown_summary_off">Se la riproduzione automatica è attivata, il video successivo verrà riprodotto al termine del conto alla rovescia.</string>
@@ -1172,6 +1193,11 @@ Tocca e tieni premuto l'informazione mostrata per cambiare il tipo."</string>
     <string name="revanced_enable_custom_seekbar_color_title">Attiva il colore personalizzato</string>
     <string name="revanced_enable_custom_seekbar_color_summary_on">Il colore personalizzato è attivato.</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">Il colore personalizzato è disattivato.</string>
+    <string name="revanced_custom_seekbar_color_primary_title">Colore primario personalizzato</string>
+    <string name="revanced_custom_seekbar_color_primary_summary">Digita il codice esadecimale del colore.</string>
+    <string name="revanced_custom_seekbar_color_accent_title">Colore accento personalizzato</string>
+    <string name="revanced_custom_seekbar_color_accent_summary">Digita il codice esadecimale del colore.</string>
+    <string name="revanced_custom_seekbar_color_invalid_toast">Colore della barra di avanzamento non valido</string>
     <string name="revanced_enable_seekbar_tapping_title">Attiva il tocco</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">Il tocco è attivato.</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">Il tocco è disattivato.</string>
@@ -1284,8 +1310,8 @@ Nota: solo gli scaffali con l'intestazione Shorts nella scheda Home sono nascost
     <string name="revanced_change_shorts_repeat_state_entry_pause">Pausa</string>
     <string name="revanced_change_shorts_repeat_state_entry_repeat">Ripeti</string>
     <string name="revanced_open_shorts_in_regular_player_title">Apri nel riproduttore normale</string>
-    <string name="revanced_open_shorts_in_regular_player_summary_on">I Shorts sono aperti nel riproduttore normale.</string>
-    <string name="revanced_open_shorts_in_regular_player_summary_off">I Shorts non sono aperti nel riproduttore normale.</string>
+    <string name="revanced_open_shorts_in_regular_player_summary_on">Gli Shorts sono aperti nel riproduttore normale.</string>
+    <string name="revanced_open_shorts_in_regular_player_summary_off">Gli Shorts non sono aperti nel riproduttore normale.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player -->
     <string name="revanced_preference_screen_shorts_player_title">Riproduttore</string>
     <string name="revanced_preference_screen_shorts_player_summary">Personalizza i componenti del riproduttore degli Shorts.</string>

@@ -4,7 +4,6 @@
     <string name="accessibility_settings_edu_opt_in_text">Увімкнути спеціальні можливості для відеоплеєра?</string>
     <string name="accessibility_settings_edu_opt_out_text">Керування змінено, оскільки служба спеціальних можливостей увімкнена.</string>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">Розширені</string>
     <string name="revanced_extended_settings_search_title">Пошук %s</string>
     <string name="revanced_extended_reset_to_default_toast">Скинуто.</string>
     <string name="revanced_preference_category_experimental_flag">Експериментальні опції</string>
@@ -74,6 +73,9 @@
     <string name="revanced_language_ZH">Китайська</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Реклама</string>
+    <string name="revanced_hide_end_screen_store_banner_title">Приховати банер магазину на кінцевому екрані</string>
+    <string name="revanced_hide_end_screen_store_banner_summary_on">Банер магазину приховано.</string>
+    <string name="revanced_hide_end_screen_store_banner_summary_off">Банер магазину показується.</string>
     <string name="revanced_hide_fullscreen_ads_title">Приховати повноекранну рекламу</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">Повноекранну рекламу приховано.</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">Повноекранну рекламу показується.</string>
@@ -264,6 +266,13 @@
     <string name="revanced_hide_feed_flyout_menu_title">Увімкнути фільтр висувного меню у стрічці</string>
     <string name="revanced_hide_feed_flyout_menu_summary_on">Фільтр висувного меню у стрічці увімкнено.</string>
     <string name="revanced_hide_feed_flyout_menu_summary_off">Фільтр висувного меню у стрічці вимкнено.</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_title">Тип фільтра висувного меню у стрічці</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_on">"Фільтрується, якщо містять.
+
+Щоб приховати меню <b>Відтворити наступним у черзі</b>, можете використати <b>Відтворити наступним</b> або <b>у черзі</b> як ключові слова."</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_off">"Фільтрується, якщо збігаються.
+
+Щоб приховати меню <b>Відтворити наступним у черзі</b>, можете використати лише <b>Відтворити наступним у черзі</b> як ключові слова."</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_title">Фільтр висувного меню у стрічці</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_summary">Список назв висувного меню для фільтрування, розділених новим рядком.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter -->
@@ -348,6 +357,7 @@
     <string name="revanced_preference_screen_general_title">Загальне</string>
     <string name="revanced_change_start_page_title">Змінити початкову сторінку</string>
     <string name="revanced_change_start_page_entry_default">Стандартна</string>
+    <string name="revanced_change_start_page_entry_all_subscriptions">Підписки</string>
     <string name="revanced_change_start_page_entry_browse">Перегляд каналів</string>
     <string name="revanced_change_start_page_entry_courses">Навчання</string>
     <string name="revanced_change_start_page_entry_explore">Що нового</string>
@@ -361,6 +371,7 @@
     <string name="revanced_change_start_page_entry_music">Музика</string>
     <string name="revanced_change_start_page_entry_news">Новини</string>
     <string name="revanced_change_start_page_entry_notifications">Сповіщення</string>
+    <string name="revanced_change_start_page_entry_playlists">Списки відтворення</string>
     <string name="revanced_change_start_page_entry_podcasts">Подкасти</string>
     <string name="revanced_change_start_page_entry_search">Пошук</string>
     <string name="revanced_change_start_page_entry_shopping">Покупки</string>
@@ -368,6 +379,7 @@
     <string name="revanced_change_start_page_entry_sports">Спорт</string>
     <string name="revanced_change_start_page_entry_subscriptions">Підписки</string>
     <string name="revanced_change_start_page_entry_trending">Тенденції</string>
+    <string name="revanced_change_start_page_entry_virtual_reality">Віртуальна реальність</string>
     <string name="revanced_change_start_page_entry_watch_later">Переглянути пізніше</string>
     <string name="revanced_change_start_page_entry_your_clips">Ваші кліпи</string>
     <string name="revanced_change_start_page_type_title">Тип зміни початкової сторінки</string>
@@ -406,7 +418,9 @@
     <string name="revanced_change_layout_entry_4">Планшетний</string>
     <string name="revanced_change_layout_entry_5">Планшетний (Мін 600 dp)</string>
     <string name="revanced_change_live_ring_click_action_title">Змінити дію натискання на кружечок наживо</string>
-    <string name="revanced_change_live_ring_click_action_summary_on">"При натисканні на кружечок наживо відкривається канал."</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">"При натисканні на кружечок наживо відкривається канал.
+
+Застереження: Коли відкрито пряму трансляцію Shorts у поточному плеєрі налаштуванням 'Відкривати Shorts у поточному плеєрі', канал не відкривається."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">При натисканні на кружечок наживо відкривається пряма трансляція.</string>
     <string name="revanced_spoof_app_version_title">Підробити версію програми</string>
     <string name="revanced_spoof_app_version_summary_on">Версію підроблено</string>
@@ -433,6 +447,13 @@
     <string name="revanced_hide_account_menu_title">Приховати меню акаунту</string>
     <string name="revanced_hide_account_menu_summary">"Приховуються елементи меню облікового запису і вкладки Ви.
 Деякі компоненти не можуть бути приховані."</string>
+    <string name="revanced_hide_account_menu_filter_type_title">Тип фільтра меню облікового запису</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_on">"Фільтрується, якщо містять.
+
+Щоб приховати меню <b>Оформити підписку YouTube Premium</b>, можете використати <b>YouTube Premium</b> або <b>Premium</b> як ключові слова."</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_off">"Фільтрується, якщо збігаються.
+
+Щоб приховати меню <b>Оформити підписку YouTube Premium</b>, можете використати лише <b>Оформити підписку YouTube Premium</b> як ключові слова."</string>
     <string name="revanced_hide_account_menu_filter_strings_title">Фільтр меню облікового запису</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">Список назв меню облікового запису для фільтрування, розділених новим рядком.</string>
     <string name="revanced_hide_handle_title">Приховати ідентифікатор</string>
@@ -1172,6 +1193,11 @@
     <string name="revanced_enable_custom_seekbar_color_title">Увімкнути користувацький колір смуги прогресу</string>
     <string name="revanced_enable_custom_seekbar_color_summary_on">Користувацький колір смуги прогресу увімкнено.</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">Користувацький колір смуги прогресу вимкнено.</string>
+    <string name="revanced_custom_seekbar_color_primary_title">Користувацький основний колір смуги прогресу</string>
+    <string name="revanced_custom_seekbar_color_primary_summary">Введіть hex код основного кольору смуги прогресу.</string>
+    <string name="revanced_custom_seekbar_color_accent_title">Користувацький акцентний колір смуги прогресу</string>
+    <string name="revanced_custom_seekbar_color_accent_summary">Введіть hex код акцентного кольору смуги прогресу.</string>
+    <string name="revanced_custom_seekbar_color_invalid_toast">Недійсний колір смуги прогресу.</string>
     <string name="revanced_enable_seekbar_tapping_title">Увімкнути натискання на смугу прогресу</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">Натискання на смугу прогресу увімкнено.</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">Натискання на смугу прогресу вимкнено.</string>

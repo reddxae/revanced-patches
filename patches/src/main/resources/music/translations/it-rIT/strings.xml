@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_reset_to_default_toast">Resetta ai valori iniziali.</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">Riavvia per caricare il layout normalmente</string>

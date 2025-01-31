@@ -4,7 +4,6 @@
     <string name="accessibility_settings_edu_opt_in_text">플레이어에서 접근성 컨트롤을 표시하시겠습니까?</string>
     <string name="accessibility_settings_edu_opt_out_text">접근성 서비스가 켜져있기 때문에 플레이어 컨트롤을 변경합니다.</string>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced Extended 설정</string>
     <string name="revanced_extended_settings_search_title">%s 검색</string>
     <string name="revanced_extended_reset_to_default_toast">기본값으로 초기화합니다.</string>
     <string name="revanced_preference_category_experimental_flag">실험 기능</string>
@@ -74,6 +73,9 @@
     <string name="revanced_language_ZH">중국어</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">광고</string>
+    <string name="revanced_hide_end_screen_store_banner_title">최종 화면에서 스토어 배너 숨기기</string>
+    <string name="revanced_hide_end_screen_store_banner_summary_on">스토어 배너가 숨겨집니다.</string>
+    <string name="revanced_hide_end_screen_store_banner_summary_off">스토어 배너가 표시됩니다.</string>
     <string name="revanced_hide_fullscreen_ads_title">전체 화면 광고 숨기기</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">전체 화면 광고가 숨겨집니다.</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">전체 화면 광고가 표시됩니다.</string>
@@ -267,6 +269,13 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_feed_flyout_menu_title">피드 메뉴 구성요소 필터 활성화하기</string>
     <string name="revanced_hide_feed_flyout_menu_summary_on">피드 메뉴 구성요소 필터를 활성화합니다.</string>
     <string name="revanced_hide_feed_flyout_menu_summary_off">피드 메뉴 구성요소 필터를 비활성화합니다.</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_title">피드 메뉴 구성요소 필터 유형</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_on">"포함된 경우에 필터링합니다.
+
+• '<b>현재 재생목록에서 다음 순서로 재생</b>' 메뉴를 숨기려면, '<b>다음 순서</b>' 또는 '<b>현재 재생목록에서</b>'를 키워드로 사용할 수 있습니다."</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_off">"일치하는 경우에 필터링합니다.
+
+• '<b>현재 재생목록에서 다음 순서로 재생</b>' 메뉴를 숨기려면, '<b>현재 재생목록에서 다음 순서로 재생</b>'만 키워드로 사용할 수 있습니다."</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_title">피드 메뉴 구성요소 필터</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_summary">필터링할 메뉴 구성요소 이름을 줄바꿈으로 구분하여 설정합니다.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter -->
@@ -350,6 +359,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_preference_screen_general_title">일반</string>
     <string name="revanced_change_start_page_title">앱 시작 페이지 변경하기</string>
     <string name="revanced_change_start_page_entry_default">홈 (기본값)</string>
+    <string name="revanced_change_start_page_entry_all_subscriptions">모든 구독 채널</string>
     <string name="revanced_change_start_page_entry_browse">채널 둘러보기</string>
     <string name="revanced_change_start_page_entry_courses">학습 프로그램</string>
     <string name="revanced_change_start_page_entry_explore">탐색</string>
@@ -363,6 +373,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_change_start_page_entry_music">음악</string>
     <string name="revanced_change_start_page_entry_news">뉴스</string>
     <string name="revanced_change_start_page_entry_notifications">알림</string>
+    <string name="revanced_change_start_page_entry_playlists">재생목록</string>
     <string name="revanced_change_start_page_entry_podcasts">팟캐스트</string>
     <string name="revanced_change_start_page_entry_search">검색</string>
     <string name="revanced_change_start_page_entry_shopping">쇼핑</string>
@@ -370,6 +381,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_change_start_page_entry_sports">스포츠</string>
     <string name="revanced_change_start_page_entry_subscriptions">구독</string>
     <string name="revanced_change_start_page_entry_trending">인기 급상승</string>
+    <string name="revanced_change_start_page_entry_virtual_reality">가상 현실</string>
     <string name="revanced_change_start_page_entry_watch_later">나중에 볼 동영상</string>
     <string name="revanced_change_start_page_entry_your_clips">내 클립</string>
     <string name="revanced_change_start_page_type_title">앱 시작 페이지 유형 변경하기</string>
@@ -408,7 +420,10 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_change_layout_entry_4">태블릿</string>
     <string name="revanced_change_layout_entry_5">태블릿 (최소 너비: 600 dp)</string>
     <string name="revanced_change_live_ring_click_action_title">라이브 링 누르기 동작 변경하기</string>
-    <string name="revanced_change_live_ring_click_action_summary_on">"라이브 링이 표시된 채널 아이콘을 누르면 채널 페이지로 연결됩니다.\n\n• Shorts 실시간 스트림일 경우에는 채널 페이지로 연결되지 않을 수 있습니다."</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">"라이브 링이 표시된 채널 아이콘을 누르면 채널 페이지로 연결됩니다.
+
+알려진 문제점: 
+• '일반 플레이어에서 Shorts 재생하기' 설정으로 인하여 일반 플레이어에서 Shorts 실시간 스트림이 재생된다면, 채널 페이지로 연결되지 않을 수 있습니다."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">라이브 링이 표시된 채널 아이콘을 누르면 실시간 스트림 동영상으로 연결됩니다.</string>
     <string name="revanced_spoof_app_version_title">앱 버전 변경하기</string>
     <string name="revanced_spoof_app_version_summary_on">앱 버전을 변경합니다.</string>
@@ -431,6 +446,13 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_account_menu_title">계정 메뉴 숨기기</string>
     <string name="revanced_hide_account_menu_summary">"계정 메뉴 및 내 페이지에서 구성요소가 숨겨집니다.
 일부 구성요소는 숨겨지지 않을 수 있습니다."</string>
+    <string name="revanced_hide_account_menu_filter_type_title">계정 메뉴 필터 유형</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_on">"포함된 경우에 필터링합니다.
+
+• '<b>YouTube Premium 가입</b>' 메뉴를 숨기려면, '<b>YouTube Premium</b>' 또는 '<b>Premium</b>'을 키워드로 사용할 수 있습니다."</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_off">"일치하는 경우에 필터링합니다.
+
+• '<b>YouTube Premium 가입</b>' 메뉴를 숨기려면, '<b>YouTube Premium 가입</b>'만 키워드로 사용할 수 있습니다."</string>
     <string name="revanced_hide_account_menu_filter_strings_title">계정 메뉴 필터 편집하기</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">필터링할 계정 메뉴 이름을 줄바꿈으로 구분하여 설정합니다.</string>
     <string name="revanced_hide_handle_title">핸들(@사용자 아이디) 숨기기</string>
@@ -515,10 +537,10 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_off">\'되감기\' &amp; \'빨리 감기\' 버튼이 표시됩니다.</string>
     <string name="revanced_miniplayer_width_dip_title">화면 크기 초기값</string>
     <string name="revanced_miniplayer_width_dip_summary">화면 크기 초기값을 지정할 수 있습니다. (픽셀)</string>
-    <string name="revanced_miniplayer_width_dip_invalid_toast">픽셀 크기는 %1$s-%2$s 사이어야 합니다.</string>
+    <string name="revanced_miniplayer_width_dip_invalid_toast">픽셀 크기는 %1$s-%2$s 사이여야 합니다.</string>
     <string name="revanced_miniplayer_opacity_title">미니 플레이어 오버레이 불투명도</string>
     <string name="revanced_miniplayer_opacity_summary">불투명도 값은 0-100 사이이며, 0은 투명입니다.</string>
-    <string name="revanced_miniplayer_opacity_invalid_toast">미니 플레이어 오버레이 불투명도 값은 0-100 사이어야 합니다.</string>
+    <string name="revanced_miniplayer_opacity_invalid_toast">미니 플레이어 오버레이 불투명도 값은 0-100 사이여야 합니다.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_bar_title">하단바</string>
     <string name="revanced_preference_screen_navigation_bar_summary">하단바에서 섹션 구성요소를 숨기거나 표시할 수 있습니다.</string>
@@ -702,7 +724,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_preference_screen_player_title">플레이어</string>
     <string name="revanced_custom_player_overlay_opacity_title">사용자 정의 플레이어 오버레이 불투명도</string>
     <string name="revanced_custom_player_overlay_opacity_summary">불투명도 값은 0-100 사이이며, 0은 투명입니다.</string>
-    <string name="revanced_custom_player_overlay_opacity_invalid_toast">플레이어 오버레이 불투명도 값은 0-100 사이어야 합니다.</string>
+    <string name="revanced_custom_player_overlay_opacity_invalid_toast">플레이어 오버레이 불투명도 값은 0-100 사이여야 합니다.</string>
     <string name="revanced_disable_auto_switch_mix_playlists_title">믹스 재생목록 자동전환 비활성화하기</string>
     <string name="revanced_disable_auto_switch_mix_playlists_summary_on">믹스 재생목록 자동전환을 비활성화합니다.</string>
     <string name="revanced_disable_auto_switch_mix_playlists_summary_off">"자동재생이 켜져 있으면 믹스 재생목록 자동전환을 활성화합니다.
@@ -720,8 +742,8 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
 • 동영상 재생 속도 오버레이를 비활성화하면 이전 레이아웃의 '왼쪽이나 오른쪽으로 슬라이드하여 탐색' 동작이 복원됩니다.
 • 이 설정을 비활성화해도 동영상 재생 속도 오버레이가 강제로 활성화되지는 않습니다."</string>
     <string name="revanced_speed_overlay_value_title">동영상 재생 속도 오버레이 값</string>
-    <string name="revanced_speed_overlay_value_summary">동영상 재생 속도 오버레이 값은 0-8.0 사이어야 합니다.</string>
-    <string name="revanced_speed_overlay_value_invalid_toast">재생 속도 오버레이 값은 0-8.0 사이어야 합니다.</string>
+    <string name="revanced_speed_overlay_value_summary">동영상 재생 속도 오버레이 값은 0-8.0 사이여야 합니다.</string>
+    <string name="revanced_speed_overlay_value_invalid_toast">재생 속도 오버레이 값은 0-8.0 사이여야 합니다.</string>
     <string name="revanced_hide_channel_watermark_title">동영상 하단에서 채널 워터마크 숨기기</string>
     <string name="revanced_hide_channel_watermark_summary_on">동영상 하단에서 채널 워터마크가 숨겨집니다.</string>
     <string name="revanced_hide_channel_watermark_summary_off">동영상 하단에서 채널 워터마크가 표시됩니다.</string>
@@ -1036,7 +1058,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_quick_actions_share_button_summary_off">공유 버튼이 표시됩니다.</string>
     <string name="revanced_quick_actions_top_margin_title">빠른 작업 상단 여백</string>
     <string name="revanced_quick_actions_top_margin_summary">재생바에서 빠른 작업 컨테이너까지의 간격을 0-32 사이에서 지정할 수 있습니다.</string>
-    <string name="revanced_quick_actions_top_margin_invalid_toast">빠른 작업 상단 여백 값은 0-32 사이어야 합니다.</string>
+    <string name="revanced_quick_actions_top_margin_invalid_toast">빠른 작업 상단 여백 값은 0-32 사이여야 합니다.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Fullscreen, PreferenceCategory: Experimental flags -->
     <string name="revanced_disable_landscape_mode_title">전체 화면에서 세로 모드 활성화하기</string>
     <string name="revanced_disable_landscape_mode_summary_on">전체 화면에서 동영상의 방향을 세로 모드로 활성화합니다.</string>
@@ -1172,6 +1194,11 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_enable_custom_seekbar_color_title">사용자 정의 재생바 색상 활성화하기</string>
     <string name="revanced_enable_custom_seekbar_color_summary_on">사용자 정의 재생바 색상을 활성화합니다.</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">사용자 정의 재생바 색상을 비활성화합니다.</string>
+    <string name="revanced_custom_seekbar_color_primary_title">사용자 정의 재생바 주요 색상</string>
+    <string name="revanced_custom_seekbar_color_primary_summary">사용하고 싶은 재생바 주요 색상의 헥스 코드를 입력하세요.</string>
+    <string name="revanced_custom_seekbar_color_accent_title">사용자 정의 재생바 보조 색상</string>
+    <string name="revanced_custom_seekbar_color_accent_summary">사용하고 싶은 재생바 보조 색상의 헥스 코드를 입력하세요.</string>
+    <string name="revanced_custom_seekbar_color_invalid_toast">잘못된 재생바 색상입니다.</string>
     <string name="revanced_enable_seekbar_tapping_title">재생바 터치 조작 활성화하기</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">재생바 터치 조작을 활성화합니다.</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">재생바 터치 조작을 비활성화합니다.</string>
@@ -1460,7 +1487,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_shorts_navigation_bar_summary_off">하단바가 표시됩니다.</string>
     <string name="revanced_shorts_navigation_bar_height_percentage_title">빈 공간의 높이 비율</string>
     <string name="revanced_shorts_navigation_bar_height_percentage_summary">하단바가 숨겨졌을 때, 남는 빈 공간의 높이 비율을 0-100 사이에서 지정할 수 있습니다. (백분율)</string>
-    <string name="revanced_shorts_navigation_bar_height_percentage_invalid_toast">높이 비율은 0-100 사이어야 합니다 (백분율).</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_invalid_toast">높이 비율은 0-100 사이여야 합니다 (백분율).</string>
     <string name="revanced_hide_shorts_toolbar_title">툴바 숨기기</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">툴바가 숨겨집니다.</string>
     <string name="revanced_hide_shorts_toolbar_summary_off">툴바가 표시됩니다.</string>
@@ -1507,10 +1534,10 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_swipe_overlay_timeout_summary">오버레이가 표시되는 시간을 지정할 수 있습니다. (밀리초)</string>
     <string name="revanced_swipe_brightness_sensitivity_title">밝기 스와이프 감도</string>
     <string name="revanced_swipe_brightness_sensitivity_summary">밝기 스와이프의 최소 거리를 1-1000 사이에서 지정할 수 있습니다. (퍼센트)\n\n최소 거리가 짧을수록 밝기 레벨이 더 빠르게 변경됩니다.</string>
-    <string name="revanced_swipe_brightness_sensitivity_invalid_toast">밝기 스와이프 감도는 1-1000 사이어야 합니다. (퍼센트)</string>
+    <string name="revanced_swipe_brightness_sensitivity_invalid_toast">밝기 스와이프 감도는 1-1000 사이여야 합니다. (퍼센트)</string>
     <string name="revanced_swipe_volume_sensitivity_title">볼륨 스와이프 감도</string>
     <string name="revanced_swipe_volume_sensitivity_summary" formatted="false">볼륨 스와이프의 최소 거리를 1-1000 사이에서 지정할 수 있습니다. (퍼센트)\n\n최소 거리가 짧을수록 볼륨 레벨이 더 빠르게 변경됩니다.\n\n권장 볼륨 스와이프 감도는 15단계 볼륨에서 100%, 150단계 볼륨에서 10%입니다.</string>
-    <string name="revanced_swipe_volume_sensitivity_invalid_toast">볼륨 스와이프 감도는 1-1000 사이어야 합니다. (퍼센트)</string>
+    <string name="revanced_swipe_volume_sensitivity_invalid_toast">볼륨 스와이프 감도는 1-1000 사이여야 합니다. (퍼센트)</string>
     <string name="revanced_disable_hdr_auto_brightness_title">HDR 자동 밝기 비활성화하기</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">HDR 자동 밝기를 비활성화합니다.</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">HDR 자동 밝기를 활성화합니다.</string>

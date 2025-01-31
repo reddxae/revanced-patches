@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">Рестартирайте, за да заредите оформлението нормално</string>
     <string name="revanced_extended_restart_message">Опреснете и рестартирайте</string>

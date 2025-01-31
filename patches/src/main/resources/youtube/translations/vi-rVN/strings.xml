@@ -4,7 +4,6 @@
     <string name="accessibility_settings_edu_opt_in_text">Bật các điều khiển trợ năng cho trình phát video?</string>
     <string name="accessibility_settings_edu_opt_out_text">Các điều khiển của bạn đã được sửa đổi vì dịch vụ trợ năng đang bật.</string>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">Tìm kiếm trong %s</string>
     <string name="revanced_extended_reset_to_default_toast">Đã đặt lại giá trị về mặc định.</string>
     <string name="revanced_preference_category_experimental_flag">Tính năng thử nghiệm</string>
@@ -74,6 +73,9 @@
     <string name="revanced_language_ZH">Tiếng Trung</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Quảng cáo</string>
+    <string name="revanced_hide_end_screen_store_banner_title">Ẩn dải quảng cáo cửa hàng ở cuối video</string>
+    <string name="revanced_hide_end_screen_store_banner_summary_on">Dải quảng cáo cửa hàng đã ẩn.</string>
+    <string name="revanced_hide_end_screen_store_banner_summary_off">Dải quảng cáo cửa hàng được hiển thị.</string>
     <string name="revanced_hide_fullscreen_ads_title">Ẩn quảng cáo toàn màn hình</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">Quảng cáo toàn màn hình đã ẩn.</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">Quảng cáo toàn màn hình được hiển thị.</string>
@@ -264,6 +266,13 @@ Cửa hàng"</string>
     <string name="revanced_hide_feed_flyout_menu_title">Bộ lọc trình đơn tuỳ chọn trên bảng tin</string>
     <string name="revanced_hide_feed_flyout_menu_summary_on">Bộ lọc trình đơn tuỳ chọn trên bảng tin đã bật.</string>
     <string name="revanced_hide_feed_flyout_menu_summary_off">Bộ lọc trình đơn tuỳ chọn trên bảng tin đã tắt.</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_title">Cài đặt kiểu lọc</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_on">"Lọc nếu trong đó có chứa từ khoá đã nhập.
+
+Để ẩn trình đơn <b>Phát tiếp theo trong hàng chờ</b>, bạn có thể sử dụng từ khoá <b>Phát tiếp theo</b> hoặc <b>hàng chờ</b>."</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_off">"Lọc nếu khớp toàn bộ từ khoá đã nhập.
+
+Để ẩn trình đơn <b>Phát tiếp theo trong hàng chờ</b>, bạn chỉ có thể sử dụng từ khoá <b>Phát tiếp theo trong hàng chờ</b>."</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_title">Cài đặt bộ lọc</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_summary">Nhập tên các mục thành phần của trình đơn tuỳ chọn mà bạn muốn lọc được phân cách bằng dòng.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter -->
@@ -348,6 +357,7 @@ Nếu bố cục của màn hình trình phát thay đổi do các thay đổi t
     <string name="revanced_preference_screen_general_title">Tổng quan</string>
     <string name="revanced_change_start_page_title">Thay đổi trang khởi động</string>
     <string name="revanced_change_start_page_entry_default">Mặc định</string>
+    <string name="revanced_change_start_page_entry_all_subscriptions">Tất cả kênh đã đăng ký</string>
     <string name="revanced_change_start_page_entry_browse">Duyệt kênh</string>
     <string name="revanced_change_start_page_entry_courses">Học tập</string>
     <string name="revanced_change_start_page_entry_explore">Khám phá</string>
@@ -361,6 +371,7 @@ Nếu bố cục của màn hình trình phát thay đổi do các thay đổi t
     <string name="revanced_change_start_page_entry_music">Âm nhạc</string>
     <string name="revanced_change_start_page_entry_news">Tin tức</string>
     <string name="revanced_change_start_page_entry_notifications">Thông báo</string>
+    <string name="revanced_change_start_page_entry_playlists">Danh sách phát</string>
     <string name="revanced_change_start_page_entry_podcasts">Podcast</string>
     <string name="revanced_change_start_page_entry_search">Tìm kiếm</string>
     <string name="revanced_change_start_page_entry_shopping">Mua sắm</string>
@@ -368,6 +379,7 @@ Nếu bố cục của màn hình trình phát thay đổi do các thay đổi t
     <string name="revanced_change_start_page_entry_sports">Thể thao</string>
     <string name="revanced_change_start_page_entry_subscriptions">Kênh đăng ký</string>
     <string name="revanced_change_start_page_entry_trending">Thịnh hành</string>
+    <string name="revanced_change_start_page_entry_virtual_reality">Thực tế ảo</string>
     <string name="revanced_change_start_page_entry_watch_later">Xem sau</string>
     <string name="revanced_change_start_page_entry_your_clips">Đoạn video của bạn</string>
     <string name="revanced_change_start_page_type_title">Thay đổi kiểu trang khởi động</string>
@@ -406,7 +418,9 @@ Tuỳ chọn này chỉ tự động chấp nhận hộp thoại cảnh báo, ch
     <string name="revanced_change_layout_entry_4">Máy tính bảng</string>
     <string name="revanced_change_layout_entry_5">Máy tính bảng (Tối thiểu 600 dp)</string>
     <string name="revanced_change_live_ring_click_action_title">Thay đổi thao tác nhấn vào vòng phát trực tiếp</string>
-    <string name="revanced_change_live_ring_click_action_summary_on">"Mở kênh khi nhấn vào vòng phát trực tiếp."</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">"Mở kênh khi nhấn vào vòng phát trực tiếp.
+
+Hạn chế: Khi video ngắn phát trực tiếp được mở trong trình phát do cài đặt \"Mở video ngắn trong trình phát\", thì kênh sẽ không được mở."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">Mở video đang phát trực tiếp khi nhấn vào vòng phát trực tiếp.</string>
     <string name="revanced_spoof_app_version_title">Giả mạo phiên bản ứng dụng</string>
     <string name="revanced_spoof_app_version_summary_on">Phiên bản được giả mạo</string>
@@ -433,6 +447,13 @@ Nếu muốn tắt tính năng này sau đó, bạn nên xóa dữ liệu ứng 
     <string name="revanced_hide_account_menu_title">Bộ lọc trình đơn Tài khoản</string>
     <string name="revanced_hide_account_menu_summary">"Ẩn các mục của trình đơn Tài khoản và thẻ Bạn.
 Một số mục có thể không bị ẩn."</string>
+    <string name="revanced_hide_account_menu_filter_type_title">Cài đặt kiểu lọc</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_on">"Lọc nếu trong đó có chứa từ khoá đã nhập.
+
+Để ẩn trình đơn <b>Mua Youtube Premium</b>, bạn có thể sử dụng từ khoá <b>YouTube Premium</b> hoặc <b>Premium</b>."</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_off">"Lọc nếu khớp toàn bộ từ khoá đã nhập.
+
+Để ẩn trình đơn <b>Mua Youtube Premium</b>, bạn chỉ có thể sử dụng từ khoá <b>Mua Youtube Premium</b>."</string>
     <string name="revanced_hide_account_menu_filter_strings_title">Cài đặt bộ lọc</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">Nhập tên các mục thành phần của trình đơn Tài khoản mà bạn muốn lọc được phân cách bằng dòng.</string>
     <string name="revanced_hide_handle_title">Ẩn tên hiển thị</string>
@@ -1170,6 +1191,11 @@ Nhấn và giữ để chuyển loại thông tin cần thêm vào."</string>
     <string name="revanced_enable_custom_seekbar_color_title">Màu thanh tiến trình tuỳ chỉnh</string>
     <string name="revanced_enable_custom_seekbar_color_summary_on">Màu thanh tiến trình tuỳ chỉnh được áp dụng.</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">Màu thanh tiến trình mặc định được áp dụng.</string>
+    <string name="revanced_custom_seekbar_color_primary_title">Tuỳ chỉnh màu chính của thanh tiến trình</string>
+    <string name="revanced_custom_seekbar_color_primary_summary">Nhập mã hex cho màu chính của thanh tiến trình mà bạn muốn thay đổi.</string>
+    <string name="revanced_custom_seekbar_color_accent_title">Tuỳ chỉnh màu nhấn của thanh tiến trình</string>
+    <string name="revanced_custom_seekbar_color_accent_summary">Nhập mã hex cho màu nhấn của thanh tiến trình mà bạn muốn thay đổi.</string>
+    <string name="revanced_custom_seekbar_color_invalid_toast">Mã hex mà bạn đã nhập không hợp lệ.</string>
     <string name="revanced_enable_seekbar_tapping_title">Chạm thanh tiến trình để tua</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">Chạm thanh tiến trình video để tua đã bật.</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">Chạm thanh tiến trình video để tua đã tắt.</string>

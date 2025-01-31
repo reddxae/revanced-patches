@@ -4,7 +4,6 @@
     <string name="accessibility_settings_edu_opt_in_text">Video oynatıcı için erişilebilirlik kontrolleri açılsın mı?</string>
     <string name="accessibility_settings_edu_opt_out_text">Bir erişilebilirlik hizmeti açık olduğundan kontrolleriniz değiştirildi.</string>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">Arama %s</string>
     <string name="revanced_extended_reset_to_default_toast">Varsayılan değerlere sıfırla.</string>
     <string name="revanced_preference_category_experimental_flag">Deneysel Parametreler</string>

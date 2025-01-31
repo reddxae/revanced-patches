@@ -4,7 +4,6 @@
     <string name="accessibility_settings_edu_opt_in_text">Activer les contrôles d\'accessibilité pour le lecteur vidéo ?</string>
     <string name="accessibility_settings_edu_opt_out_text">Vos contrôles sont modifiés car un service d\'accessibilité est activé.</string>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">Rechercher sur %s</string>
     <string name="revanced_extended_reset_to_default_toast">Réinitialiser les valeurs par défaut.</string>
     <string name="revanced_preference_category_experimental_flag">Options expérimentales</string>
@@ -74,6 +73,9 @@ Veuillez télécharger %2$s à partir du site web."</string>
     <string name="revanced_language_ZH">Chinois</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Publicités</string>
+    <string name="revanced_hide_end_screen_store_banner_title">Masquer la bannière de boutique de l\'écran de fin</string>
+    <string name="revanced_hide_end_screen_store_banner_summary_on">La bannière de boutique de l\'écran de fin est masquée.</string>
+    <string name="revanced_hide_end_screen_store_banner_summary_off">La bannière de boutique de l\'écran de fin est affichée.</string>
     <string name="revanced_hide_fullscreen_ads_title">Masquer les publicités en plein écran</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">Les publicités en plein écran sont masquées.</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">Les publicités en plein écran sont affichées.</string>
@@ -264,6 +266,13 @@ Boutique"</string>
     <string name="revanced_hide_feed_flyout_menu_title">Activer le filtre du menu déroulant</string>
     <string name="revanced_hide_feed_flyout_menu_summary_on">Le filtre du menu déroulant est activé.</string>
     <string name="revanced_hide_feed_flyout_menu_summary_off">Le filtre du menu déroulant est désactivé.</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_title">Type de filtre du menu déroulant dans les flux</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_on">"Filtrer si contient.
+
+Pour masquer le menu <b>Lire ensuite dans la file d'attente</b>, vous pouvez utiliser <b>Lire ensuite</b> ou <b>dans la file d'attente</b> comme mots-clés."</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_off">"Filtrer les correspondances.
+
+Pour masquer le menu <b>Lire ensuite dans la file d'attente</b>, vous pouvez uniquement utiliser <b>Lire ensuite dans la file d'attente</b> comme mots-clés."</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_title">Filtre du menu déroulant</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_summary">Liste de menus déroulant à filtrer, séparés par un saut de ligne.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter -->
@@ -348,6 +357,7 @@ Si la mise en page de l'écran du lecteur change en raison de modifications côt
     <string name="revanced_preference_screen_general_title">Interface</string>
     <string name="revanced_change_start_page_title">Modifier la page de démarrage</string>
     <string name="revanced_change_start_page_entry_default">Par défaut</string>
+    <string name="revanced_change_start_page_entry_all_subscriptions">Tous les abonnements</string>
     <string name="revanced_change_start_page_entry_browse">Parcourir les chaînes</string>
     <string name="revanced_change_start_page_entry_courses">Savoir / Culture</string>
     <string name="revanced_change_start_page_entry_explore">Explorer</string>
@@ -361,6 +371,7 @@ Si la mise en page de l'écran du lecteur change en raison de modifications côt
     <string name="revanced_change_start_page_entry_music">Musique</string>
     <string name="revanced_change_start_page_entry_news">Actualités</string>
     <string name="revanced_change_start_page_entry_notifications">Notifications</string>
+    <string name="revanced_change_start_page_entry_playlists">Playlists</string>
     <string name="revanced_change_start_page_entry_podcasts">Podcasts</string>
     <string name="revanced_change_start_page_entry_search">Rechercher sur YouTube</string>
     <string name="revanced_change_start_page_entry_shopping">Produits</string>
@@ -368,6 +379,7 @@ Si la mise en page de l'écran du lecteur change en raison de modifications côt
     <string name="revanced_change_start_page_entry_sports">Sports</string>
     <string name="revanced_change_start_page_entry_subscriptions">Abonnements</string>
     <string name="revanced_change_start_page_entry_trending">Tendances</string>
+    <string name="revanced_change_start_page_entry_virtual_reality">Réalité virtuelle</string>
     <string name="revanced_change_start_page_entry_watch_later">Regarder plus tard</string>
     <string name="revanced_change_start_page_entry_your_clips">Vos clips</string>
     <string name="revanced_change_start_page_type_title">Type de modification de la page de démarrage</string>
@@ -406,7 +418,9 @@ Cela ne contourne pas la restriction d'âge, mais le confirme automatiquement."<
     <string name="revanced_change_layout_entry_4">Tablette</string>
     <string name="revanced_change_layout_entry_5">Tablette (Min 600 dpi)</string>
     <string name="revanced_change_live_ring_click_action_title">Changer l\'action du cercle \'En direct\'</string>
-    <string name="revanced_change_live_ring_click_action_summary_on">"La chaîne s'ouvre lorsque vous cliquez sur le cercle 'En direct'."</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">"La chaîne s'ouvre lorsque vous cliquez sur le cercle 'En direct'.
+
+Limitation : Lorsque la diffusion en direct de Shorts est ouverte dans le lecteur normal en raison du paramètre \"Ouvrir Shorts dans le lecteur normal\", la chaîne ne s'ouvre pas."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">La diffusion en direct s\'ouvre lorsque vous cliquez sur le cercle \'En direct\'.</string>
     <string name="revanced_spoof_app_version_title">Falsifier la version de l\'app</string>
     <string name="revanced_spoof_app_version_summary_on">Version falsifiée</string>
@@ -433,6 +447,13 @@ Si désactivé ultérieurement, il est recommandé d'effacer les données de l'a
     <string name="revanced_hide_account_menu_title">Masquer le menu du compte</string>
     <string name="revanced_hide_account_menu_summary">"Masque les éléments du menu du compte et de l'onglet 'Vous'.
 Certains composants peuvent ne pas être masqués."</string>
+    <string name="revanced_hide_account_menu_filter_type_title">Type de filtre de menu du compte</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_on">"Filtrer si contient.
+
+Pour masquer le menu <b>S'abonner à YouTube Premium</b>, vous pouvez utiliser <b>YouTube Premium</b> ou <b>Premium</b> comme mots-clés."</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_off">"Filtrer les correspondances.
+
+Pour masquer le menu <b>S'abonner à YouTube Premium</b>, vous pouvez uniquement utiliser <b>S'abonner à YouTube Premium</b> comme mots-clés."</string>
     <string name="revanced_hide_account_menu_filter_strings_title">Filtre du menu du compte</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">Liste de noms du menu de compte à filtrer, séparés par un saut de ligne.</string>
     <string name="revanced_hide_handle_title">Masquer l\'identifiant</string>
@@ -629,9 +650,25 @@ Si ce paramètre ne fait pas effet, essayer de passer en mode Incognito."</strin
     <string name="revanced_hide_settings_menu_about_summary_on">Le menu \'À propos\' est masqué.</string>
     <string name="revanced_hide_settings_menu_about_summary_off">Le menu \'À propos\' est affiché.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Snack bar -->
+    <string name="revanced_preference_screen_snack_bar_title">Snack bar</string>
+    <string name="revanced_preference_screen_snack_bar_summary">Masquer ou modifier les éléments relatifs a la snack bar.</string>
     <string name="revanced_hide_snack_bar_title">Masquer les barres d\'actions</string>
     <string name="revanced_hide_snack_bar_summary_on">Les barres d\'actions présentes en haut ou en bas de l\'écran permettant généralement de rafraîchir la page sont masquée.</string>
     <string name="revanced_hide_snack_bar_summary_off">Les barres d\'actions présentes en haut ou en bas de l\'écran permettant généralement de rafraîchir la page sont affiché.</string>
+    <string name="revanced_hide_server_side_snack_bar_title">Cacher la snack bar côté serveur</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_on">La snack bar côté serveur est masquée.</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_off">La snack bar côté serveur est affichée.</string>
+    <string name="revanced_invert_snack_bar_theme_title">Inverser le thème de la snack bar</string>
+    <string name="revanced_invert_snack_bar_theme_summary_on">Le thème de la snack bar est inversé.</string>
+    <string name="revanced_invert_snack_bar_theme_summary_off">Le thème de la snack bar n\'est pas inversé.</string>
+    <string name="revanced_change_server_side_snack_bar_background_title">Modifier l\'arrière-plan de la snack bar côté serveur</string>
+    <string name="revanced_change_server_side_snack_bar_background_summary_on">La couleur d\'arrière-plan de la snack bar côté serveur a été changée.</string>
+    <string name="revanced_change_server_side_snack_bar_background_summary_off">La couleur d\'arrière-plan de la snack bar côté serveur n\'a pas été changée.</string>
+    <string name="revanced_change_server_side_snack_bar_background_user_dialog_message">"Certaines snack bar utilisent un thème défini côté serveur, et non le thème de l'application.
+
+Modifiez la couleur d'arrière-plan de ces snack bar
+
+Si des modifications sont apportées côté serveur, il se peut que la couleur d'arrière-plan de la snack bar ne change pas."</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Barre d\'outils</string>
     <string name="revanced_preference_screen_toolbar_summary">Masque ou change les éléments situés dans la barre d\'outils, tels que les boutons de la barre d\'outils, la barre de recherche, l\'en-tête.</string>
@@ -1156,6 +1193,11 @@ Appuyez longuement pour modifier le type d'information ajouté."</string>
     <string name="revanced_enable_custom_seekbar_color_title">Activer une couleur perso. barre de progression</string>
     <string name="revanced_enable_custom_seekbar_color_summary_on">La couleur personnalisée de la barre de progression est activée.</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">La couleur personnalisée de la barre de progression est désactivée.</string>
+    <string name="revanced_custom_seekbar_color_primary_title">Personnaliser la couleur primaire de la barre de progression</string>
+    <string name="revanced_custom_seekbar_color_primary_summary">Saisissez le code hexadécimal de la couleur primaire de la barre de progression.</string>
+    <string name="revanced_custom_seekbar_color_accent_title">Personnaliser la couleur d\'accentuation de la barre de progression</string>
+    <string name="revanced_custom_seekbar_color_accent_summary">Saisissez le code hexadécimal de la couleur d\'accentuation de la barre de progression.</string>
+    <string name="revanced_custom_seekbar_color_invalid_toast">Couleur de la barre de progression invalide.</string>
     <string name="revanced_enable_seekbar_tapping_title">Activer l\'appui sur la barre de progression</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">L\'appui sur la barre de progression est activé.</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">L\'appui sur la barre de progression est désactivé.</string>

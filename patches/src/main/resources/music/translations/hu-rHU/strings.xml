@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_reset_to_default_toast">Visszaállítás az alapértelmezett értékekre.</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">Indítsd újra az elrendezés normál betöltéséhez</string>
@@ -408,13 +407,7 @@ Információk:
     <string name="revanced_sanitize_sharing_links_title">Megosztási linkek tisztítása</string>
     <string name="revanced_sanitize_sharing_links_summary">A megosztási linkeket a nyomkövető lekérdezési paraméterek eltávolításával tisztítja.</string>
     <string name="revanced_spoof_client_title">Kliens hamisítása</string>
-    <string name="revanced_spoof_client_summary">"Az kliens meghamisítása a lejátszási problémák megelőzése érdekében.
-
-• Az 'Adatfolyam meghamisítása' funkcióval együtt használva lejátszási problémák léphetnek fel."</string>
     <string name="revanced_spoof_client_type_title">Alapértelmezett kliens</string>
-    <string name="revanced_spoof_client_type_summary">"Meghatározza az alapértelmezett klienst a hamisításhoz.
-
-• Az Android kliens használata esetén ajánlott a 'Alkalmazás verziójának meghamisítása' használni."</string>
     <string name="revanced_spoof_client_type_entry_android_music_4_27">Android Music 4.27.53</string>
     <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
     <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>

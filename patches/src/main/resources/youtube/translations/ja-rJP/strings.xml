@@ -4,7 +4,6 @@
     <string name="accessibility_settings_edu_opt_in_text">動画プレーヤーのアクセシビリティコントロールを有効にしますか？</string>
     <string name="accessibility_settings_edu_opt_out_text">ユーザー補助サービスが有効になっているため、操作方法が変わります。</string>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">設定を検索</string>
     <string name="revanced_extended_reset_to_default_toast">デフォルト値にリセットしました。</string>
     <string name="revanced_preference_category_experimental_flag">実験的な機能</string>
@@ -19,7 +18,7 @@
     <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s はインストールされていません。
 ウェブサイトから %2$s をダウンロードしてください。"</string>
     <string name="revanced_external_downloader_not_installed_warning">%s はインストールされていません。インストールしてください。</string>
-    <string name="revanced_language_title">Revanced Extended 設定の言語</string>
+    <string name="revanced_language_title">YouTube と Revanced Extended 設定の言語</string>
     <string name="revanced_language_DEFAULT">アプリの設定言語に従う</string>
     <string name="revanced_language_AR">アラビア語</string>
     <string name="revanced_language_AZ">アゼルバイジャン語</string>
@@ -74,6 +73,9 @@
     <string name="revanced_language_ZH">中国語</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">広告</string>
+    <string name="revanced_hide_end_screen_store_banner_title">終了画面の商品バナーを非表示</string>
+    <string name="revanced_hide_end_screen_store_banner_summary_on">動画の終了時に表示される商品バナーを非表示にします。</string>
+    <string name="revanced_hide_end_screen_store_banner_summary_off">動画の終了時に表示される商品バナーを非表示にします。</string>
     <string name="revanced_hide_fullscreen_ads_title">全画面広告を非表示</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">アプリ起動時に表示される全画面広告を非表示にします。</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">アプリ起動時に表示される全画面広告を非表示にします。</string>
@@ -268,6 +270,13 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_hide_feed_flyout_menu_title">フィードのフライアアウトメニューのフィルタを有効化</string>
     <string name="revanced_hide_feed_flyout_menu_summary_on">フィードのフライアアウトメニューのフィルタを有効化します。</string>
     <string name="revanced_hide_feed_flyout_menu_summary_off">フィードのフライアアウトメニューのフィルタを有効化します。</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_title">フィードのフライアウトメニューのフィルタの種類</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_on">"現在の設定: 設定したキーワードが部分的に一致した場合にメニューを非表示にします。
+
+例えば、「キューの最初に追加」メニューを非表示にしたい場合、「キュー」や「追加」などをキーワードとして使用できます。"</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_off">"現在の設定: 設定したキーワードが完全に一致した場合にメニューを非表示にします。
+
+例えば、「キューの最初に追加」メニューを非表示にしたい場合、「キューの最初に追加」のみをキーワードとして使用できます。"</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_title">フィードのフライアウトメニューのフィルタ</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_summary">フィルタリングするフライアウトメニューの項目名をリストしてください 。(改行区切り)</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter -->
@@ -352,19 +361,21 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_preference_screen_general_title">一般</string>
     <string name="revanced_change_start_page_title">起動時のページを変更</string>
     <string name="revanced_change_start_page_entry_default">デフォルト</string>
-    <string name="revanced_change_start_page_entry_browse">新しい動画の発見</string>
-    <string name="revanced_change_start_page_entry_courses">コース</string>
+    <string name="revanced_change_start_page_entry_all_subscriptions">すべての登録チャンネル</string>
+    <string name="revanced_change_start_page_entry_browse">チャンネルを探す</string>
+    <string name="revanced_change_start_page_entry_courses">学び</string>
     <string name="revanced_change_start_page_entry_explore">探索</string>
-    <string name="revanced_change_start_page_entry_fashion">ファッション &amp; 美容</string>
+    <string name="revanced_change_start_page_entry_fashion">ファッションと美容</string>
     <string name="revanced_change_start_page_entry_gaming">ゲーム</string>
     <string name="revanced_change_start_page_entry_history">履歴</string>
     <string name="revanced_change_start_page_entry_library">ライブラリ</string>
-    <string name="revanced_change_start_page_entry_liked_videos">高評価した動画</string>
+    <string name="revanced_change_start_page_entry_liked_videos">高く評価した動画</string>
     <string name="revanced_change_start_page_entry_live">ライブ</string>
     <string name="revanced_change_start_page_entry_movies">ムービー＆TV</string>
     <string name="revanced_change_start_page_entry_music">音楽</string>
     <string name="revanced_change_start_page_entry_news">ニュース</string>
     <string name="revanced_change_start_page_entry_notifications">通知</string>
+    <string name="revanced_change_start_page_entry_playlists">再生リスト</string>
     <string name="revanced_change_start_page_entry_podcasts">ポッドキャスト</string>
     <string name="revanced_change_start_page_entry_search">検索</string>
     <string name="revanced_change_start_page_entry_shopping">ショッピング</string>
@@ -372,6 +383,7 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_change_start_page_entry_sports">スポーツ</string>
     <string name="revanced_change_start_page_entry_subscriptions">登録チャンネル</string>
     <string name="revanced_change_start_page_entry_trending">トレンド</string>
+    <string name="revanced_change_start_page_entry_virtual_reality">バーチャル リアリティ</string>
     <string name="revanced_change_start_page_entry_watch_later">後で見る</string>
     <string name="revanced_change_start_page_entry_your_clips">クリップ</string>
     <string name="revanced_change_start_page_type_title">「起動時のページを変更」の種類</string>
@@ -415,8 +427,12 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_change_layout_entry_4">タブレット</string>
     <string name="revanced_change_layout_entry_5">タブレット(最小 600 dp)</string>
     <string name="revanced_change_live_ring_click_action_title">ライブ状態のアイコンをタップした際の動作を変更</string>
-    <string name="revanced_change_live_ring_click_action_summary_on">"現在の設定: 「ライブ」状態のアイコンをタップすると、チャンネルが開きます。"</string>
-    <string name="revanced_change_live_ring_click_action_summary_off">現在の設定: 「ライブ」状態のアイコンをタップすると、ライブ配信が開きます。</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">"現在の設定: 「ライブ」状態のアイコンをタップすると、チャンネルが開きます。
+
+注意: 「通常のプレーヤーでショートを再生」設定を有効にしている場合、ショートのライブ配信を通常のプレーヤーで開くとチャンネルは開きません。"</string>
+    <string name="revanced_change_live_ring_click_action_summary_off">現在の設定: 「ライブ」状態のアイコンをタップすると、チャンネルが開きます。
+
+注意: 「通常のプレーヤーでショートを再生」設定を有効にしている場合、ショートのライブ配信を通常のプレーヤーで開くとチャンネルは開きません。</string>
     <string name="revanced_spoof_app_version_title">アプリのバージョンを偽装</string>
     <string name="revanced_spoof_app_version_summary_on">アプリのバージョンを偽装できます。</string>
     <string name="revanced_spoof_app_version_summary_off">アプリのバージョンを偽装できます。</string>
@@ -442,6 +458,13 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_hide_account_menu_title">アカウントメニューを非表示</string>
     <string name="revanced_hide_account_menu_summary">"アカウントメニューとマイページタブの要素を非表示にします。
 一部のコンポーネントは非表示にならない可能性があります。"</string>
+    <string name="revanced_hide_account_menu_filter_type_title">アカウントメニューのフィルタリングの種類を選択</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_on">"現在の設定: 設定したキーワードが部分的に一致した場合にメニューを非表示にします。
+
+例えば、「YouTube Premium に登録」メニューを非表示にしたい場合、「YouTube Premium」や「Premium に登録」などをキーワードとして使用できます。"</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_off">"現在の設定: 設定したキーワードが完全に一致した場合にメニューを非表示にします。
+
+例えば、「YouTube Premium に登録」メニューを非表示にしたい場合、「YouTube Premium に登録」のみをキーワードとして使用できます。"</string>
     <string name="revanced_hide_account_menu_filter_strings_title">アカウントメニューフィルター</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">フィルタリングするアカウントメニュー名のリスト。（改行区切り）</string>
     <string name="revanced_hide_handle_title">ハンドルを非表示</string>
@@ -1178,6 +1201,11 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_enable_custom_seekbar_color_title">シークバーの色のカスタマイズを有効化</string>
     <string name="revanced_enable_custom_seekbar_color_summary_on">シークバーの色のカスタマイズを有効化します。</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">シークバーの色のカスタマイズを有効化します。</string>
+    <string name="revanced_custom_seekbar_color_primary_title">シークバーのメインカラー</string>
+    <string name="revanced_custom_seekbar_color_primary_summary">シークバーのメインカラーを 16 進数カラーコードで入力してください。</string>
+    <string name="revanced_custom_seekbar_color_accent_title">シークバーのアクセントカラー</string>
+    <string name="revanced_custom_seekbar_color_accent_summary">シークバーのアクセントカラーを 16 進数カラーコードで入力してください。</string>
+    <string name="revanced_custom_seekbar_color_invalid_toast">無効なシークバーの色です。</string>
     <string name="revanced_enable_seekbar_tapping_title">シークバーのタップを有効化</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">シークバーのタップを有効化します。</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">シークバーのタップを有効化します。</string>

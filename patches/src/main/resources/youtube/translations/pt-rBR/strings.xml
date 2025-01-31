@@ -4,7 +4,6 @@
     <string name="accessibility_settings_edu_opt_in_text">Ativar os controles de acessibilidade para o reprodutor de vídeo?</string>
     <string name="accessibility_settings_edu_opt_out_text">Seus controles foram modificados porque um serviço de acessibilidade está ativado.</string>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">Pesquisar %s</string>
     <string name="revanced_extended_reset_to_default_toast">Redefinir para os valores padrão.</string>
     <string name="revanced_preference_category_experimental_flag">Sinalizadores experimentais</string>

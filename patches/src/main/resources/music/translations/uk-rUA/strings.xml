@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_reset_to_default_toast">Скинуто до значень за замовчуванням.</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">Перезапустіть, щоб нормально завантажився макет</string>
@@ -411,13 +410,7 @@
     <string name="revanced_sanitize_sharing_links_title">Обробляти поширення посилань</string>
     <string name="revanced_sanitize_sharing_links_summary">Видаляє параметри запиту відстеження з посилання перед тим, як поділитися ним.</string>
     <string name="revanced_spoof_client_title">Підміна клієнта</string>
-    <string name="revanced_spoof_client_summary">"Підробити клієнт, щоб запобігти проблемам із відтворенням.
-
-※ Під час використання разом з \"Підробка потокових даних\" можуть виникнути проблеми з відтворенням."</string>
     <string name="revanced_spoof_client_type_title">Клієнт за замовчуванням</string>
-    <string name="revanced_spoof_client_type_summary">"Визначає клієнт за замовчуванням для підробки. 
-
-※ Під час використання клієнта Android рекомендується використовувати його разом з \"Підробити версію програми\"."</string>
     <string name="revanced_spoof_client_type_entry_android_music_4_27">Android Music 4.27.53</string>
     <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
     <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>

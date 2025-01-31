@@ -4,7 +4,6 @@
     <string name="accessibility_settings_edu_opt_in_text">Włączyć gesty ułatwień dostępu dla odtwarzacza filmów?</string>
     <string name="accessibility_settings_edu_opt_out_text">Twoje ustawienia są zmienione, ponieważ serwis ułatwień dostępu jest włączony.</string>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">Wyszukaj w %s</string>
     <string name="revanced_extended_reset_to_default_toast">Przywrócono domyślne wartości.</string>
     <string name="revanced_preference_category_experimental_flag">Eksperymentalne flagi</string>
@@ -74,6 +73,9 @@ Pobierz %2$s ze strony internetowej."</string>
     <string name="revanced_language_ZH">Chiński</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Reklamy</string>
+    <string name="revanced_hide_end_screen_store_banner_title">Baner sklepowy po zakończeniu filmu</string>
+    <string name="revanced_hide_end_screen_store_banner_summary_on">Ukryty</string>
+    <string name="revanced_hide_end_screen_store_banner_summary_off">Widoczny</string>
     <string name="revanced_hide_fullscreen_ads_title">Pełnoekranowe reklamy</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">Ukryte</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">Widoczne</string>
@@ -264,6 +266,13 @@ Sklep"</string>
     <string name="revanced_hide_feed_flyout_menu_title">Filtr menu ze strony głównej</string>
     <string name="revanced_hide_feed_flyout_menu_summary_on">Włączony</string>
     <string name="revanced_hide_feed_flyout_menu_summary_off">Wyłączony</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_title">Typ filtrowania</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_on">"Musi zawierać
+
+Aby ukryć menu <b>Odtwórz jako następny w kolejce</b>, możesz użyć <b>Odtwórz jako następny</b> lub <b>w kolejce</b> jako słowa kluczowe."</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_off">"Musi pasować
+
+Aby ukryć menu <b>Odtwórz jako następny w kolejce</b>, możesz użyć jedynie <b>Odtwórz jako następny w kolejce</b> jako słowo kluczowe."</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_title">Filtr menu ze strony głównej</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_summary">Lista nazw menu do filtrowania, która musi być oddzielona nowymi liniami.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter -->
@@ -348,6 +357,7 @@ Jeśli układ ekranu odtwarzacza zmieni się w skutek zmian po stronie serwera, 
     <string name="revanced_preference_screen_general_title">Ogólne</string>
     <string name="revanced_change_start_page_title">Strona startowa</string>
     <string name="revanced_change_start_page_entry_default">Domyślna</string>
+    <string name="revanced_change_start_page_entry_all_subscriptions">Wszystkie subskrypcje</string>
     <string name="revanced_change_start_page_entry_browse">Przeglądaj kanały</string>
     <string name="revanced_change_start_page_entry_courses">Nauka</string>
     <string name="revanced_change_start_page_entry_explore">Odkrywanie</string>
@@ -361,6 +371,7 @@ Jeśli układ ekranu odtwarzacza zmieni się w skutek zmian po stronie serwera, 
     <string name="revanced_change_start_page_entry_music">Muzyka</string>
     <string name="revanced_change_start_page_entry_news">Wiadomości</string>
     <string name="revanced_change_start_page_entry_notifications">Powiadomienia</string>
+    <string name="revanced_change_start_page_entry_playlists">Playlisty</string>
     <string name="revanced_change_start_page_entry_podcasts">Podcasty</string>
     <string name="revanced_change_start_page_entry_search">Wyszukiwanie</string>
     <string name="revanced_change_start_page_entry_shopping">Zakupy</string>
@@ -368,6 +379,7 @@ Jeśli układ ekranu odtwarzacza zmieni się w skutek zmian po stronie serwera, 
     <string name="revanced_change_start_page_entry_sports">Sport</string>
     <string name="revanced_change_start_page_entry_subscriptions">Subskrypcje</string>
     <string name="revanced_change_start_page_entry_trending">Na czasie</string>
+    <string name="revanced_change_start_page_entry_virtual_reality">Rzeczywistość wirtualna</string>
     <string name="revanced_change_start_page_entry_watch_later">Do obejrzenia</string>
     <string name="revanced_change_start_page_entry_your_clips">Twoje klipy</string>
     <string name="revanced_change_start_page_type_title">Działanie zmieniania strony głównej</string>
@@ -406,7 +418,9 @@ Nie pomija to ograniczeń wiekowych, lecz akceptuje je automatycznie."</string>
     <string name="revanced_change_layout_entry_4">Tabletowy</string>
     <string name="revanced_change_layout_entry_5">Tabletowy (max. 600 dpi)</string>
     <string name="revanced_change_live_ring_click_action_title">Zachowanie po kliknięciu okręgu od transmisji na żywo</string>
-    <string name="revanced_change_live_ring_click_action_summary_on">"Otwarcie kanału"</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">"Otwarcie kanału
+
+Ograniczenie: jeśli transmisja na żywo Shortsa jest otwierana w zwykłym odtwarzaczu przy użyciu opcji 'Otwieranie Shortsów w zwykłym odtwarzaczu', kanał się nie otworzy."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">Otwarcie transmisji na żywo</string>
     <string name="revanced_spoof_app_version_title">Oszukiwanie wersji aplikacji</string>
     <string name="revanced_spoof_app_version_summary_on">Włączone</string>
@@ -433,6 +447,13 @@ Jeśli później zostanie to wyłączone, rekomendowane jest usunięcie danych a
     <string name="revanced_hide_account_menu_title">Menu konta</string>
     <string name="revanced_hide_account_menu_summary">"Ukrywa elementy menu konta i zakładki Ty.
 Niektóre komponenty mogą nie być ukryte."</string>
+    <string name="revanced_hide_account_menu_filter_type_title">Typ filtrowania</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_on">"Musi zawierać
+
+Aby ukryć menu <b>Przejdź na YouTube Premium</b>, możesz użyć <b>YouTube Premium</b> lub <b>Premium</b> jako słowa kluczowe."</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_off">"Musi pasować
+
+Aby ukryć menu <b>Przejdź na YouTube Premium</b>, możesz użyć jedynie <b>Przejdź na YouTube Premium</b> jako słowo kluczowe."</string>
     <string name="revanced_hide_account_menu_filter_strings_title">Filtr menu konta</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">Lista nazw menu konta do filtrowania, która musi być oddzielona nowymi liniami.</string>
     <string name="revanced_hide_handle_title">Nicki</string>
@@ -1172,6 +1193,11 @@ Stuknij j przytrzymaj, by przełączać się pomiędzy typami wyświetlanej info
     <string name="revanced_enable_custom_seekbar_color_title">Niestandardowy kolor paska postępu filmu</string>
     <string name="revanced_enable_custom_seekbar_color_summary_on">Widoczny</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">Niewidoczny</string>
+    <string name="revanced_custom_seekbar_color_primary_title">Niestandardowy kolor pierwszorzędny</string>
+    <string name="revanced_custom_seekbar_color_primary_summary">Wpisz kod hex pierwszorzędnego koloru paska postępu filmu.</string>
+    <string name="revanced_custom_seekbar_color_accent_title">Niestandardowy kolor akcentu</string>
+    <string name="revanced_custom_seekbar_color_accent_summary">Wpisz kod hex akcentu paska postępu filmu.</string>
+    <string name="revanced_custom_seekbar_color_invalid_toast">Nieprawidłowy kolor paska postępu filmu.</string>
     <string name="revanced_enable_seekbar_tapping_title">Stukanie w pasek postępu filmu</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">Włączone</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">Wyłączone</string>

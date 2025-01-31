@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced 擴充功能</string>
     <string name="revanced_extended_reset_to_default_toast">重設為預設值。</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">重新啟動以套用更改後的介面</string>
@@ -388,9 +387,6 @@
     <string name="revanced_sanitize_sharing_links_title">清理分享連結</string>
     <string name="revanced_sanitize_sharing_links_summary">分享連結時從 URL 中刪除追蹤參數。</string>
     <string name="revanced_spoof_client_title">偽裝客戶端</string>
-    <string name="revanced_spoof_client_summary">"偽裝客戶端以避免播放問題
-
-• 使用「偽裝串流資料」時可能會發生播放問題"</string>
     <string name="revanced_spoof_client_type_title">預設客戶端</string>
     <string name="revanced_spoof_client_type_entry_android_music_4_27">Android Music 4.27.53</string>
     <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_reset_to_default_toast">デフォルト値にリセット。</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">再起動してレイアウトを正常に読み込みます</string>
@@ -404,16 +403,7 @@ API キーの発行方法については、ここをタップしてください�
     <string name="revanced_sanitize_sharing_links_title">共有リンクのクリーンアップ</string>
     <string name="revanced_sanitize_sharing_links_summary">リンクを共有する際に、URL からトラッキングクエリパラメーターを削除します。</string>
     <string name="revanced_spoof_client_title">クライアントを偽装</string>
-    <string name="revanced_spoof_client_summary">"再生の問題を防ぐためにクライアントを偽装します
-
-制限事項
-• OPUSオーディオコーデックはサポートされていない可能性があります。
-• シークバーのサムネイルが表示されない場合があります。
-• 再生履歴はブランドアカウントでは動作しません。"</string>
     <string name="revanced_spoof_client_type_title">既定のクライアント</string>
-    <string name="revanced_spoof_client_type_summary">"偽装のデフォルトクライアントを定義します。
-
-• Androidクライアントを使用する場合は、「Spoof app version」も使用することを推奨します。"</string>
     <string name="revanced_spoof_client_type_entry_android_music_4_27">Android Music 4.27.53</string>
     <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
     <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>

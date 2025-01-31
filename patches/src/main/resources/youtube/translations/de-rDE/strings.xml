@@ -4,7 +4,6 @@
     <string name="accessibility_settings_edu_opt_in_text">Bedienungshilfen für den Video-Player aktivieren?</string>
     <string name="accessibility_settings_edu_opt_out_text">Ihre Steuerungen wurden angepasst, da ein Barrierefreiheitsdienst aktiviert ist.</string>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">Suche %s</string>
     <string name="revanced_extended_reset_to_default_toast">Auf Standardwerte zurücksetzen.</string>
     <string name="revanced_preference_category_experimental_flag">Experimentelle Flags</string>

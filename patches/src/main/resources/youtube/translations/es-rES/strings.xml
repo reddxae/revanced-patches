@@ -4,7 +4,6 @@
     <string name="accessibility_settings_edu_opt_in_text">¿Activar controles de accesibilidad para el reproductor de vídeo?</string>
     <string name="accessibility_settings_edu_opt_out_text">Tus controles se modifican porque un servicio de accesibilidad está activado.</string>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">Buscar en %s</string>
     <string name="revanced_extended_reset_to_default_toast">Restablecer valores predeterminados.</string>
     <string name="revanced_preference_category_experimental_flag">Funciones Experimentales</string>
@@ -74,6 +73,9 @@ Por favor, descarga %2$s desde el sitio web."</string>
     <string name="revanced_language_ZH">Chino</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Anuncios</string>
+    <string name="revanced_hide_end_screen_store_banner_title">Ocultar banner de tienda de pantalla final</string>
+    <string name="revanced_hide_end_screen_store_banner_summary_on">El banner de la tienda está oculto.</string>
+    <string name="revanced_hide_end_screen_store_banner_summary_off">El banner de la tienda está visible.</string>
     <string name="revanced_hide_fullscreen_ads_title">Ocultar anuncios en pantalla completa</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">Los anuncios en pantalla completa están ocultos.</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">Los anuncios en pantalla completa están visibles.</string>
@@ -264,6 +266,13 @@ Tienda"</string>
     <string name="revanced_hide_feed_flyout_menu_title">Activar filtro del menú desplegable del feed</string>
     <string name="revanced_hide_feed_flyout_menu_summary_on">El filtro del menú desplegable del feed está activado.</string>
     <string name="revanced_hide_feed_flyout_menu_summary_off">El filtro del menú desplegable del feed está desactivado.</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_title">Tipo de filtro del menú desplegable del feed</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_on">"Filtrar si contiene.
+
+Para ocultar el menú <b>Reproducir el siguiente de la cola</b>, puedes utilizar <b>Reproducir el siguiente</b> o <b>de la cola</b> como palabras clave."</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_off">"Filtrar si coincide.
+
+Para ocultar el menú <b>Reproducir el siguiente de la cola</b>, solo puedes utilizar <b>Reproducir el siguiente de la cola</b> como palabras clave."</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_title">Filtro del menú desplegable del feed</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_summary">Lista de nombres del menú desplegable a filtrar separados por una nueva línea.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter -->
@@ -345,6 +354,7 @@ Si el diseño de la pantalla del reproductor cambia debido a cambios en el servi
     <string name="revanced_preference_screen_general_title">General</string>
     <string name="revanced_change_start_page_title">Cambiar página de inicio</string>
     <string name="revanced_change_start_page_entry_default">Predeterminada</string>
+    <string name="revanced_change_start_page_entry_all_subscriptions">Todas las suscripciones</string>
     <string name="revanced_change_start_page_entry_browse">Explorar canales</string>
     <string name="revanced_change_start_page_entry_courses">Cursos / Aprendizaje</string>
     <string name="revanced_change_start_page_entry_explore">Explorar</string>
@@ -358,6 +368,7 @@ Si el diseño de la pantalla del reproductor cambia debido a cambios en el servi
     <string name="revanced_change_start_page_entry_music">Música</string>
     <string name="revanced_change_start_page_entry_news">Noticias</string>
     <string name="revanced_change_start_page_entry_notifications">Notificaciones</string>
+    <string name="revanced_change_start_page_entry_playlists">Listas de reproducción</string>
     <string name="revanced_change_start_page_entry_podcasts">Podcasts</string>
     <string name="revanced_change_start_page_entry_search">Búsqueda</string>
     <string name="revanced_change_start_page_entry_shopping">Compras</string>
@@ -365,6 +376,7 @@ Si el diseño de la pantalla del reproductor cambia debido a cambios en el servi
     <string name="revanced_change_start_page_entry_sports">Deportes</string>
     <string name="revanced_change_start_page_entry_subscriptions">Suscripciones</string>
     <string name="revanced_change_start_page_entry_trending">Tendencias</string>
+    <string name="revanced_change_start_page_entry_virtual_reality">Realidad virtual</string>
     <string name="revanced_change_start_page_entry_watch_later">Ver más tarde</string>
     <string name="revanced_change_start_page_entry_your_clips">Tus clips</string>
     <string name="revanced_change_start_page_type_title">Cambiar tipo de página de inicio</string>
@@ -430,6 +442,13 @@ Si se desactiva más tarde, se recomienda borrar los datos de la aplicación par
     <string name="revanced_hide_account_menu_title">Ocultar menú de cuenta</string>
     <string name="revanced_hide_account_menu_summary">"Oculta elementos del menú de la cuenta y de la pestaña Tú.
 Algunos componentes pueden no estar ocultos."</string>
+    <string name="revanced_hide_account_menu_filter_type_title">Tipo de filtro de menú de cuenta</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_on">"Filtrar si contiene.
+
+Para ocultar el menú <b>Obtener YouTube Premium</b>, puedes utilizar <b>YouTube Premium</b> o <b>Premium</b> como palabras clave."</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_off">"Filtrar si coincide.
+
+Para ocultar el menú <b>Obtener YouTube Premium</b>, solo puedes utilizar <b>Obtener YouTube Premium</b> como palabras clave."</string>
     <string name="revanced_hide_account_menu_filter_strings_title">Filtro de menú de cuenta</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">Lista de nombres del menú de la cuenta a filtrar separados por una nueva línea.</string>
     <string name="revanced_hide_handle_title">Ocultar nombre de usuario</string>
@@ -1166,6 +1185,11 @@ Información:
     <string name="revanced_enable_custom_seekbar_color_title">Activar color personalizado de barra de progreso</string>
     <string name="revanced_enable_custom_seekbar_color_summary_on">El color personalizado de la barra de progreso está activado.</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">El color personalizado de la barra de progreso está desactivado.</string>
+    <string name="revanced_custom_seekbar_color_primary_title">Color primario personalizado de barra de progreso</string>
+    <string name="revanced_custom_seekbar_color_primary_summary">Escribe el código hexadecimal del color primario de la barra de progreso.</string>
+    <string name="revanced_custom_seekbar_color_accent_title">Color de acento personalizado de barra de progreso</string>
+    <string name="revanced_custom_seekbar_color_accent_summary">Escribe el código hexadecimal del color de acento de la barra de progreso.</string>
+    <string name="revanced_custom_seekbar_color_invalid_toast">Color de la barra de progreso no válido.</string>
     <string name="revanced_enable_seekbar_tapping_title">Activar pulsación en barra de progreso</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">La pulsación en la barra de progreso está activada.</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">La pulsación en la barra de progreso está desactivada.</string>

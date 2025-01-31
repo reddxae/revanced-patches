@@ -469,13 +469,9 @@ Info:
     <string name="revanced_sanitize_sharing_links_title">Sanitize sharing links</string>
     <string name="revanced_sanitize_sharing_links_summary">Sanitizes sharing links by removing tracking query parameters.</string>
     <string name="revanced_spoof_client_title">Spoof client</string>
-    <string name="revanced_spoof_client_summary">"Spoof the client to prevent playback issues.
-
-• When used with 'Spoofing streaming data', playback issues may occur."</string>
+    <string name="revanced_spoof_client_summary">Spoof the client to prevent playback issues.</string>
     <string name="revanced_spoof_client_type_title">Default client</string>
-    <string name="revanced_spoof_client_type_summary">"Defines a default client for spoofing.
-
-• When using the Android client, it is recommended to also use 'Spoof app version'."</string>
+    <string name="revanced_spoof_client_type_summary">Defines a default client for spoofing.</string>
     <string name="revanced_spoof_client_type_entry_android_music_4_27">Android Music 4.27.53</string>
     <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
     <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>

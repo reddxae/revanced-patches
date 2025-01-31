@@ -9,6 +9,8 @@ import java.util.regex.Pattern;
 
 import app.revanced.extension.shared.patches.components.Filter;
 import app.revanced.extension.shared.patches.components.StringFilterGroup;
+import app.revanced.extension.shared.settings.StringSetting;
+import app.revanced.extension.shared.utils.ResourceUtils;
 import app.revanced.extension.youtube.settings.Settings;
 import app.revanced.extension.youtube.shared.NavigationBar;
 import app.revanced.extension.youtube.shared.RootView;
@@ -70,10 +72,26 @@ public final class FeedVideoViewsFilter extends Filter {
         return false;
     }
 
-    private final String ARROW = " -> ";
-    private final String VIEWS = "views";
-    private final String[] parts = Settings.HIDE_VIDEO_VIEW_COUNTS_MULTIPLIER.get().split("\\n");
-    private Pattern[] viewCountPatterns = null;
+    private static final String ARROW = " -> ";
+    private static final String VIEWS = "views";
+    private static final StringSetting HIDE_VIDEO_VIEW_COUNTS_MULTIPLIER =
+            Settings.HIDE_VIDEO_VIEW_COUNTS_MULTIPLIER;
+    private static final String HIDE_VIDEO_VIEW_COUNTS_MULTIPLIER_DEFAULT_VALUE =
+            "revanced_hide_video_view_counts_multiplier_default_value";
+    private static String[] parts;
+    private static Pattern[] viewCountPatterns = null;
+
+    static {
+        final String multiplierString = HIDE_VIDEO_VIEW_COUNTS_MULTIPLIER.get();
+        if (multiplierString.equals(HIDE_VIDEO_VIEW_COUNTS_MULTIPLIER_DEFAULT_VALUE) &&
+                ResourceUtils.getContext() != null) {
+            String defaultValue = ResourceUtils.getString(HIDE_VIDEO_VIEW_COUNTS_MULTIPLIER_DEFAULT_VALUE);
+            if (!multiplierString.equals(defaultValue)) {
+                HIDE_VIDEO_VIEW_COUNTS_MULTIPLIER.save(defaultValue);
+            }
+        }
+        parts = HIDE_VIDEO_VIEW_COUNTS_MULTIPLIER.get().split("\\n");
+    }
 
     /**
      * Hide videos based on views count

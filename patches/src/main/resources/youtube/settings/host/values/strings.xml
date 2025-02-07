@@ -628,6 +628,7 @@ If this setting do not take effect, try switching to Incognito mode."</string>
     <string name="revanced_enable_translucent_navigation_bar_title">Enable translucent navigation bar</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">Navigation bar is translucent.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">Navigation bar is opaque.</string>
+    <string name="revanced_enable_translucent_navigation_bar_user_dialog_message">In certain YouTube versions, this setting can make the system navigation bar transparent or the layout can be broken in PIP mode.</string>
     <string name="revanced_hide_navigation_bar_title">Hide navigation bar</string>
     <string name="revanced_hide_navigation_bar_summary_on">Navigation bar is hidden.</string>
     <string name="revanced_hide_navigation_bar_summary_off">Navigation bar is shown.</string>

@@ -1,10 +1,14 @@
 package app.revanced.extension.youtube.patches.misc;
 
+import app.revanced.extension.shared.settings.BooleanSetting;
 import app.revanced.extension.youtube.settings.Settings;
+import app.revanced.extension.youtube.shared.PlayerType;
 import app.revanced.extension.youtube.shared.ShortsPlayerState;
 
 @SuppressWarnings("unused")
 public class BackgroundPlaybackPatch {
+    private static final BooleanSetting DISABLE_SHORTS_BACKGROUND_PLAYBACK =
+            Settings.DISABLE_SHORTS_BACKGROUND_PLAYBACK;
 
     /**
      * Injection point.
@@ -17,8 +21,18 @@ public class BackgroundPlaybackPatch {
     /**
      * Injection point.
      */
+    public static boolean isBackgroundShortsPlaybackAllowed() {
+        if (PlayerType.getCurrent().isNoneHiddenOrMinimized()) {
+            return !DISABLE_SHORTS_BACKGROUND_PLAYBACK.get();
+        }
+        return false;
+    }
+
+    /**
+     * Injection point.
+     */
     public static boolean isBackgroundShortsPlaybackAllowed(boolean original) {
-        return !Settings.DISABLE_SHORTS_BACKGROUND_PLAYBACK.get();
+        return !DISABLE_SHORTS_BACKGROUND_PLAYBACK.get();
     }
 
 }

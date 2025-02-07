@@ -1,5 +1,6 @@
 package app.revanced.patches.youtube.misc.backgroundplayback
 
+import app.revanced.patcher.extensions.InstructionExtensions.addInstructionsWithLabels
 import app.revanced.patcher.extensions.InstructionExtensions.getInstruction
 import app.revanced.patcher.extensions.InstructionExtensions.instructions
 import app.revanced.patcher.patch.bytecodePatch
@@ -39,7 +40,7 @@ val backgroundPlaybackPatch = bytecodePatch(
         arrayOf(
             backgroundPlaybackManagerFingerprint to "isBackgroundPlaybackAllowed",
             backgroundPlaybackManagerShortsFingerprint to "isBackgroundShortsPlaybackAllowed",
-        ).forEach { (fingerprint, integrationsMethod) ->
+        ).forEach { (fingerprint, extensionsMethod) ->
             fingerprint.methodOrThrow().apply {
                 findInstructionIndicesReversedOrThrow(Opcode.RETURN).forEach { index ->
                     val register = getInstruction<OneRegisterInstruction>(index).registerA
@@ -47,7 +48,7 @@ val backgroundPlaybackPatch = bytecodePatch(
                     addInstructionsAtControlFlowLabel(
                         index,
                         """
-                            invoke-static { v$register }, $EXTENSION_CLASS_DESCRIPTOR->$integrationsMethod(Z)Z
+                            invoke-static { v$register }, $EXTENSION_CLASS_DESCRIPTOR->$extensionsMethod(Z)Z
                             move-result v$register 
                         """,
                     )
@@ -68,7 +69,17 @@ val backgroundPlaybackPatch = bytecodePatch(
         }
 
         // Force allowing background play for Shorts.
-        shortsBackgroundPlaybackFeatureFlagFingerprint.methodOrThrow().returnEarly(true)
+        shortsBackgroundPlaybackFeatureFlagFingerprint.methodOrThrow().addInstructionsWithLabels(
+            0,
+            """
+                invoke-static {}, $EXTENSION_CLASS_DESCRIPTOR->isBackgroundShortsPlaybackAllowed()Z
+                move-result v0
+                if-eqz v0, :disabled
+                return v0
+                :disabled
+                nop
+                """
+        )
 
         // Force allowing background play for videos labeled for kids.
         kidsBackgroundPlaybackPolicyControllerFingerprint.methodOrThrow(

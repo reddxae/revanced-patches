@@ -154,7 +154,7 @@ val settingsPatch = resourcePatch(
     )
 
     val rvxSettingsLabel = stringOption(
-        key = "settingsLabel",
+        key = "rvxSettingsLabel",
         default = DEFAULT_LABEL,
         values = mapOf(
             "ReVanced Extended" to "ReVanced Extended",

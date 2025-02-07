@@ -265,8 +265,11 @@ val seekbarComponentsPatch = bytecodePatch(
                 "$EXTENSION_SEEKBAR_COLOR_CLASS_DESCRIPTOR->playerSeekbarGradientEnabled(Z)Z"
             )
 
-            playerSeekbarHandleColorFingerprint.methodOrThrow().apply {
-                addColorChangeInstructions(ytStaticBrandRed, "getVideoPlayerSeekbarColorAccent")
+            arrayOf(
+                playerSeekbarHandleColorPrimaryFingerprint,
+                playerSeekbarHandleColorSecondaryFingerprint
+            ).forEach {
+                it.methodOrThrow().addColorChangeInstructions(ytStaticBrandRed, "getVideoPlayerSeekbarColorAccent")
             }
             // If hiding feed seekbar thumbnails, then turn off the cairo gradient
             // of the watch history menu items as they use the same gradient as the

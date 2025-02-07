@@ -21,16 +21,6 @@ public class BackgroundPlaybackPatch {
     /**
      * Injection point.
      */
-    public static boolean isBackgroundShortsPlaybackAllowed() {
-        if (PlayerType.getCurrent().isNoneHiddenOrMinimized()) {
-            return !DISABLE_SHORTS_BACKGROUND_PLAYBACK.get();
-        }
-        return false;
-    }
-
-    /**
-     * Injection point.
-     */
     public static boolean isBackgroundShortsPlaybackAllowed(boolean original) {
         return !DISABLE_SHORTS_BACKGROUND_PLAYBACK.get();
     }

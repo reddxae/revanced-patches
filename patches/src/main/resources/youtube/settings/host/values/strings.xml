@@ -891,42 +891,19 @@ Settings → Autoplay / Playback → Autoplay next video"</string>
     <string name="revanced_hide_thanks_button_summary_on">Thanks button is hidden.</string>
     <string name="revanced_hide_thanks_button_summary_off">Thanks button is shown.</string>
 
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
-    <string name="revanced_preference_category_hide_by_index">Hide by index</string>
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Experimental flags -->
+    <string name="revanced_hide_action_button_index_title">Hide action button by index</string>
+    <string name="revanced_hide_action_button_index_summary_on">"Action buttons are hidden by index.
 
-    <string name="revanced_hide_action_button_index_0_title">Hide first button</string>
-    <string name="revanced_hide_action_button_index_0_summary_on">First button is hidden.</string>
-    <string name="revanced_hide_action_button_index_0_summary_off">First button is shown.</string>
-    <string name="revanced_hide_action_button_index_1_title">Hide second button</string>
-    <string name="revanced_hide_action_button_index_1_summary_on">Second button is hidden.</string>
-    <string name="revanced_hide_action_button_index_1_summary_off">Second button is shown.</string>
-    <string name="revanced_hide_action_button_index_2_title">Hide third button</string>
-    <string name="revanced_hide_action_button_index_2_summary_on">Third button is hidden.</string>
-    <string name="revanced_hide_action_button_index_2_summary_off">Third button is shown.</string>
-    <string name="revanced_hide_action_button_index_3_title">Hide fourth button</string>
-    <string name="revanced_hide_action_button_index_3_summary_on">Fourth button is hidden.</string>
-    <string name="revanced_hide_action_button_index_3_summary_off">Fourth button is shown.</string>
-    <string name="revanced_hide_action_button_index_4_title">Hide fifth button</string>
-    <string name="revanced_hide_action_button_index_4_summary_on">Fifth button is hidden.</string>
-    <string name="revanced_hide_action_button_index_4_summary_off">Fifth button is shown.</string>
-    <string name="revanced_hide_action_button_index_5_title">Hide sixth button</string>
-    <string name="revanced_hide_action_button_index_5_summary_on">Sixth button is hidden.</string>
-    <string name="revanced_hide_action_button_index_5_summary_off">Sixth button is shown.</string>
-    <string name="revanced_hide_action_button_index_6_title">Hide seventh button</string>
-    <string name="revanced_hide_action_button_index_6_summary_on">Seventh button is hidden.</string>
-    <string name="revanced_hide_action_button_index_6_summary_off">Seventh button is shown.</string>
-    <string name="revanced_hide_action_button_index_7_title">Hide eighth button</string>
-    <string name="revanced_hide_action_button_index_7_summary_on">Eighth button is hidden.</string>
-    <string name="revanced_hide_action_button_index_7_summary_off">Eighth button is shown.</string>
+Info:
+• Wrong action buttons may be hidden, or action buttons may not be hidden.
+• Hiding action buttons leaves no empty space."</string>
+    <string name="revanced_hide_action_button_index_summary_off">"Action buttons are hidden by identifier filter.
 
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
-    <string name="revanced_preference_category_hide_by_index_live">Hide by index in live stream</string>
-
-    <string name="revanced_hide_action_button_index_about_title">About Hide action button by index</string>
-    <string name="revanced_hide_action_button_index_about_summary">"Hide the action buttons by index before the action buttons are initialized.
-
-- Hiding the action buttons leaves no empty space.
-- Index of the action buttons may not always be the same button."</string>
+Info:
+• Right action buttons are hidden.
+• Hiding action buttons leaves empty space."</string>
+    <string name="revanced_remix_button_index_title">Remix button index</string>
 
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Ambient mode</string>

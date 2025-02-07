@@ -465,15 +465,12 @@
     <string name="revanced_miniplayer_type_entry_4">Modern 1</string>
     <string name="revanced_miniplayer_type_entry_5">Modern 2</string>
     <string name="revanced_miniplayer_type_entry_6">Modern 3</string>
-    <string name="revanced_miniplayer_hide_expand_close_title">隐藏展开和关闭按钮</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_on">按钮已隐藏\n(滑动迷你播放器来展开或关闭)</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_off">展开和关闭按钮已显示</string>
-    <string name="revanced_miniplayer_hide_subtext_title">隐藏子文本</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_on">子文本已隐藏</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_off">子文本已显示</string>
     <string name="revanced_miniplayer_hide_rewind_forward_title">隐藏跳过和返回按钮</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_on">跳过和返回按钮已隐藏</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_off">跳过和返回按钮已显示</string>
+    <string name="revanced_miniplayer_hide_subtext_title">隐藏子文本</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_on">子文本已隐藏</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_off">子文本已显示</string>
     <string name="revanced_miniplayer_opacity_title">叠加层不透明度</string>
     <string name="revanced_miniplayer_opacity_summary">不透明度值介于 0-100 之间，0 为透明</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">迷你播放器的叠加层不透明度必须介于 0-100 之间 重置为默认值</string>
@@ -734,8 +731,7 @@
     <string name="revanced_hide_thanks_button_title">隐藏感谢按钮</string>
     <string name="revanced_hide_thanks_button_summary_on">感谢按钮已隐藏</string>
     <string name="revanced_hide_thanks_button_summary_off">感谢按钮已显示</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Experimental flags -->
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">氛围模式</string>
     <string name="revanced_preference_screen_ambient_mode_summary">绕过氛围模式限制或禁用氛围模式</string>

@@ -400,15 +400,12 @@ Manche Komponenten könnten nicht versteckt werden."</string>
     <string name="revanced_miniplayer_double_tap_action_title">Aktiviere doppeltes Tippen und Pinchen um die Größe zu ändern</string>
     <string name="revanced_miniplayer_drag_and_drop_title">Drag and Drop aktivieren</string>
     <string name="revanced_miniplayer_drag_and_drop_summary_off">Drag and Drop ist deaktiviert.</string>
-    <string name="revanced_miniplayer_hide_expand_close_title">Ausklappen und Schließen der Tasten ausblenden</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_on">Tasten sind ausgeblendet.\n(wischen Sie den Miniplayer zum erweitern oder schließen)</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_off">Erweitern und Schließen Schaltflächen werden angezeigt.</string>
-    <string name="revanced_miniplayer_hide_subtext_title">Untertitel ausblenden</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_on">Untertitel sind versteckt.</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_off">Untertitel werden angezeigt.</string>
     <string name="revanced_miniplayer_hide_rewind_forward_title">Vorwärts- und Rückwärts-Buttons ausblenden</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Vorwärts springen und zurück sind versteckt.</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Vor- und zurückspringen wird angezeigt.</string>
+    <string name="revanced_miniplayer_hide_subtext_title">Untertitel ausblenden</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_on">Untertitel sind versteckt.</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_off">Untertitel werden angezeigt.</string>
     <string name="revanced_miniplayer_width_dip_title">Initiale Größe</string>
     <string name="revanced_miniplayer_width_dip_summary">Initiale Bildschirmgröße (in Pixel).</string>
     <string name="revanced_miniplayer_width_dip_invalid_toast">Pixelgröße muss zwischen %1$s und %2$s liegen.</string>
@@ -666,8 +663,7 @@ Einstellungen → Autoplay → Nächstes Video automatisch abspielen"</string>
     <string name="revanced_hide_thanks_button_title">Verstecke \"Danke\" Schaltfläche</string>
     <string name="revanced_hide_thanks_button_summary_on">\"Danke\" Schaltfläche wird versteckt.</string>
     <string name="revanced_hide_thanks_button_summary_off">\"Danke\" Schaltfläche wird angezeigt.</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Experimental flags -->
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Ambient-Modus</string>
     <string name="revanced_preference_screen_ambient_mode_summary">Ambient-Modus deaktivieren oder Einschränkungen des Ambient-Modus umgehen.</string>

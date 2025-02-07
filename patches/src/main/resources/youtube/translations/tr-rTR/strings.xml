@@ -417,20 +417,12 @@ Miniplayer'ı ekranın herhangi bir köşesine sürükleyebilirsiniz."</string>
 
 Miniplayer ekranın soluna veya sağına sürüklenebilir."</string>
     <string name="revanced_miniplayer_horizontal_drag_summary_off">Yatay sürükleme hareketi devre dışı.</string>
-    <string name="revanced_miniplayer_hide_expand_close_title">Genişlet ve kapat butonlarını gizle</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_on">Butonlar gizlendi. \n(mini oynatıcıyı kaydırarak genişletin veya kapatın)</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_off">Genişletme ve kapatma butonları gösteriliyor.</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_title">Genişlet ve kapat butonlarını gizle</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_on">"Düğmeler gizlendi.
-
-Genişletmek veya kapatmak için kaydırın."</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_off">Genişletme ve kapatma butonları gösteriliyor.</string>
-    <string name="revanced_miniplayer_hide_subtext_title">Alt metinleri gizle</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_on">Alt metinler gizli.</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_off">Alt metinler gizlenmiyor.</string>
     <string name="revanced_miniplayer_hide_rewind_forward_title">Atla ileri ve geri butonlarını gizle</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Atla ileri ve geri butonlarını gizli.</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Atla ileri ve geri butonlarını gizlenmiyor.</string>
+    <string name="revanced_miniplayer_hide_subtext_title">Alt metinleri gizle</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_on">Alt metinler gizli.</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_off">Alt metinler gizlenmiyor.</string>
     <string name="revanced_miniplayer_width_dip_title">Başlangıç boyutu</string>
     <string name="revanced_miniplayer_width_dip_summary">Başlangıçtaki boyut, piksel cinsinden.</string>
     <string name="revanced_miniplayer_width_dip_invalid_toast">Piksel boyutu %1$s ve %2$s arasında olmalıdır.</string>
@@ -640,8 +632,7 @@ Otomatik oynatma YouTube ayarlarından değiştirilebilir:
     <string name="revanced_hide_thanks_button_title">Teşekkürler butonunu gizle</string>
     <string name="revanced_hide_thanks_button_summary_on">\"Teşekkürler\" butonu gizleniyor.</string>
     <string name="revanced_hide_thanks_button_summary_off">\"Teşekkürler\" butonu gösteriliyor.</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Experimental flags -->
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Ortam modu</string>
     <string name="revanced_preference_screen_ambient_mode_summary">Ambiyans modu kısıtlamalarını atlayın veya ortam modunu devre dışı bırakın.</string>

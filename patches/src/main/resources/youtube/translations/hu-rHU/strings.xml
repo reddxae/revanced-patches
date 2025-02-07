@@ -4,6 +4,7 @@
     <string name="accessibility_settings_edu_opt_in_text">Engedélyezi a videolejátszó akadálymentesítési vezérlőit?</string>
     <string name="accessibility_settings_edu_opt_out_text">Az eszközök azért módosulnak, mert egy akadálymentesítési szolgáltatás be van kapcsolva.</string>
     <!-- Shared -->
+    <string name="revanced_extended_settings_title">RVX</string>
     <string name="revanced_extended_settings_search_title">%s keresése</string>
     <string name="revanced_extended_reset_to_default_toast">Visszaállítás az alapértelmezett értékekre.</string>
     <string name="revanced_preference_category_experimental_flag">Kísérleti funkciók</string>
@@ -267,12 +268,6 @@ Lejátszási listák
     <string name="revanced_hide_feed_flyout_menu_summary_on">A hírfolyam lebegő menü szűrő engedélyezve van.</string>
     <string name="revanced_hide_feed_flyout_menu_summary_off">A hírfolyam lebegő menü szűrő ki van kapcsolva.</string>
     <string name="revanced_hide_feed_flyout_menu_filter_type_title">Hírfolyam előugró menü szűrés típusa</string>
-    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_on">"Szűrje, ha tartalmazza.
-
-A <b>Következő lejátszás a sorban</b> menü elrejtéséhez használhatja a <b>Következő lejátszás</b> vagy <b>a sorban</b> kulcsszót."</string>
-    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_off">"Szűrje, ha egyezik.
-
-A <b>Következő lejátszás a sorban</b> menü elrejtéséhez csak a <b>Következő lejátszás a sorban</b> lehetőséget használhatja kulcsszóként."</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_title">Hírfolyam lebegő menü szűrő</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_summary">Szűrendő lebegő menü neveinek listája, új sorokkal elválasztva.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter -->
@@ -446,12 +441,6 @@ Ha kikapcsolja, akkor ajánlott törölni az app adatait, hogy elkerülje a UI h
     <string name="revanced_hide_account_menu_summary">"Fiókmenü és az Te lap elemeinek elrejtése.
 Előfordulhat, hogy egyes komponensek nincsenek elrejtve."</string>
     <string name="revanced_hide_account_menu_filter_type_title">Fiók menü szűrés típusa</string>
-    <string name="revanced_hide_account_menu_filter_type_summary_on">"Szűrje, ha tartalmazza.
-
-A <b>YouTube Prémium beszerzése</b> menü elrejtéséhez használhatja a <b>YouTube Prémium</b> vagy a <b>Prémium</b> kulcsszót."</string>
-    <string name="revanced_hide_account_menu_filter_type_summary_off">"Szűrje, ha egyezik.
-
-A <b>YouTube Prémium beszerzése</b> menü elrejtéséhez csak a <b>YouTube Prémium beszerzése</b> lehetőséget használhatja kulcsszóként."</string>
     <string name="revanced_hide_account_menu_filter_strings_title">Fiók menü szűrő</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">A fiók menüben szűrendő menüpontok listája, új sorokkal elválasztva.</string>
     <string name="revanced_hide_handle_title">Kezelő elrejtése</string>
@@ -502,6 +491,7 @@ A <b>YouTube Prémium beszerzése</b> menü elrejtéséhez csak a <b>YouTube Pr�
     <string name="revanced_miniplayer_type_entry_4">Modern 1</string>
     <string name="revanced_miniplayer_type_entry_5">Modern 2</string>
     <string name="revanced_miniplayer_type_entry_6">Modern 3</string>
+    <string name="revanced_miniplayer_type_entry_7">Modern 4</string>
     <string name="revanced_miniplayer_rounded_corners_title">Lekerekített sarkok engedélyezése</string>
     <string name="revanced_miniplayer_rounded_corners_summary_on">A sarkok lekerekítettek.</string>
     <string name="revanced_miniplayer_rounded_corners_summary_off">A sarkok négyzet alakúak.</string>
@@ -521,20 +511,20 @@ A minilejátszó a képernyő bármely sarkába elhúzható."</string>
 
 A minilejátszó jobbra vagy balra húzható a képernyőn."</string>
     <string name="revanced_miniplayer_horizontal_drag_summary_off">A vízszintes húzás le van tiltva.</string>
-    <string name="revanced_miniplayer_hide_expand_close_title">Kibontás és bezárás gombok elrejtése</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_on">A bezárás gomb el van rejtve.</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_off">A kibontás és bezárás gombok láthatóak.</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_title">Kibontás és bezárás gombok elrejtése</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_on">"A gombok rejtettek.
+    <string name="revanced_miniplayer_hide_overlay_buttons_title">Átfedés gombok elrejtése</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_on">Az átfedés gombok el vannak rejtve.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_off">Az átfedés gombok láthatóak.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_title">Kibontás és bezárás gombok elrejtése</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_on">"A gombok rejtettek.
 
 Csúsztasson a kibontáshoz vagy bezáráshoz."</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_off">A kibontás és bezárás gombok láthatóak.</string>
-    <string name="revanced_miniplayer_hide_subtext_title">Alszövegek elrejtése</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_on">Az alszövegek elrejtve.</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_off">Az alszövegek megjelennek.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_off">A kibontás és bezárás gombok láthatóak.</string>
     <string name="revanced_miniplayer_hide_rewind_forward_title">Előre és vissza ugrás gombok elrejtése</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Az előre és hátra ugrás elrejtve.</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Az előre és hátra ugrás láthatóak.</string>
+    <string name="revanced_miniplayer_hide_subtext_title">Alszövegek elrejtése</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_on">Az alszövegek elrejtve.</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_off">Az alszövegek megjelennek.</string>
     <string name="revanced_miniplayer_width_dip_title">Kezdeti méret</string>
     <string name="revanced_miniplayer_width_dip_summary">Kezdeti méret a képernyőn, képpontban.</string>
     <string name="revanced_miniplayer_width_dip_invalid_toast">A képpont méretének %1$s és %2$s között kell lennie.</string>
@@ -581,6 +571,7 @@ Ha ez a beállítás nem működik, váltson inkognító módra."</string>
     <string name="revanced_enable_translucent_navigation_bar_title">Átlátszó navigációs sáv engedélyezése</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">A navigációs sáv átlátszó.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">A navigációs sáv nem átlátszó.</string>
+    <string name="revanced_enable_translucent_navigation_bar_user_dialog_message">Egyes YouTube-verziókban ez a beállítás átlátszóvá teheti a rendszer navigációs sávját, vagy kép a képben módban az elrendezés széteshet.</string>
     <string name="revanced_hide_navigation_bar_title">Navigációs sáv elrejtése</string>
     <string name="revanced_hide_navigation_bar_summary_on">A navigációs sáv el van rejtve.</string>
     <string name="revanced_hide_navigation_bar_summary_off">A navigációs sáv látható.</string>
@@ -829,39 +820,7 @@ Beállítások → Automatikus lejátszás → Következő videó automatikus le
     <string name="revanced_hide_thanks_button_title">Köszönet gomb elrejtése</string>
     <string name="revanced_hide_thanks_button_summary_on">A köszönet gomb el van rejtve.</string>
     <string name="revanced_hide_thanks_button_summary_off">A köszönet gomb látható.</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
-    <string name="revanced_preference_category_hide_by_index">Elrejtés index alapján</string>
-    <string name="revanced_hide_action_button_index_0_title">Első gomb elrejtése</string>
-    <string name="revanced_hide_action_button_index_0_summary_on">Az első gomb el van rejtve.</string>
-    <string name="revanced_hide_action_button_index_0_summary_off">Az első gomb látható.</string>
-    <string name="revanced_hide_action_button_index_1_title">Második gomb elrejtése</string>
-    <string name="revanced_hide_action_button_index_1_summary_on">A második gomb el van rejtve.</string>
-    <string name="revanced_hide_action_button_index_1_summary_off">A második gomb látható.</string>
-    <string name="revanced_hide_action_button_index_2_title">Harmadik gomb elrejtése</string>
-    <string name="revanced_hide_action_button_index_2_summary_on">A harmadik gomb el van rejtve.</string>
-    <string name="revanced_hide_action_button_index_2_summary_off">A harmadik gomb látható.</string>
-    <string name="revanced_hide_action_button_index_3_title">Negyedik gomb elrejtése</string>
-    <string name="revanced_hide_action_button_index_3_summary_on">A negyedik gomb el van rejtve.</string>
-    <string name="revanced_hide_action_button_index_3_summary_off">A negyedik gomb látható.</string>
-    <string name="revanced_hide_action_button_index_4_title">Ötödik gomb elrejtése</string>
-    <string name="revanced_hide_action_button_index_4_summary_on">Az ötödik gomb el van rejtve.</string>
-    <string name="revanced_hide_action_button_index_4_summary_off">Az ötödik gomb látható.</string>
-    <string name="revanced_hide_action_button_index_5_title">Hatodik gomb elrejtése</string>
-    <string name="revanced_hide_action_button_index_5_summary_on">A hatodik gomb el van rejtve.</string>
-    <string name="revanced_hide_action_button_index_5_summary_off">A hatodik gomb látható.</string>
-    <string name="revanced_hide_action_button_index_6_title">Hetedik gomb elrejtése</string>
-    <string name="revanced_hide_action_button_index_6_summary_on">A hetedik gomb el van rejtve.</string>
-    <string name="revanced_hide_action_button_index_6_summary_off">A hetedik gomb látható.</string>
-    <string name="revanced_hide_action_button_index_7_title">Nyolcadik gomb elrejtése</string>
-    <string name="revanced_hide_action_button_index_7_summary_on">A nyolcadik gomb el van rejtve.</string>
-    <string name="revanced_hide_action_button_index_7_summary_off">A nyolcadik gomb látható.</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
-    <string name="revanced_preference_category_hide_by_index_live">Elrejtés az élő közvetítésben index alapján</string>
-    <string name="revanced_hide_action_button_index_about_title">Műveletgomb elrejtése index alapján</string>
-    <string name="revanced_hide_action_button_index_about_summary">"A műveletgombok index szerint elrejtése, mielőtt inicializálná azokat.
-
-- A műveletgombok elrejtése nem hagy üres helyet.
-- Előfordulhat, hogy a műveletgombok indexe nem mindig ugyanaz a gomb."</string>
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Experimental flags -->
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Mozifilmes világítás mód</string>
     <string name="revanced_preference_screen_ambient_mode_summary">Tiltsa le a mozifilmes világítás módot, vagy kerülje meg a korlátozásait.</string>

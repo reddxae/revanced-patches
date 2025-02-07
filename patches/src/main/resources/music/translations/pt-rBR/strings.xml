@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Shared -->
+    <string name="revanced_extended_settings_title">RVX</string>
     <string name="revanced_extended_reset_to_default_toast">Redefinir para os valores padrão.</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">Reinicie para carregar o layout normalmente</string>
@@ -122,8 +123,17 @@ Limitações:
     <string name="revanced_preference_screen_general_title">Geral</string>
     <string name="revanced_change_start_page_title">Alterar a página inicial</string>
     <string name="revanced_change_start_page_summary">Selecione em qual página o aplicativo será aberto.</string>
+    <string name="revanced_change_start_page_entry_default">Padrão</string>
+    <string name="revanced_change_start_page_entry_charts">Paradas</string>
+    <string name="revanced_change_start_page_entry_episodes_for_later">Episódios para Mais Tarde</string>
     <string name="revanced_change_start_page_entry_explore">Explorar</string>
+    <string name="revanced_change_start_page_entry_history">Histórico</string>
     <string name="revanced_change_start_page_entry_library">Biblioteca</string>
+    <string name="revanced_change_start_page_entry_liked_music">Músicas curtidas</string>
+    <string name="revanced_change_start_page_entry_podcasts">Podcasts</string>
+    <string name="revanced_change_start_page_entry_samples">Descobertas</string>
+    <string name="revanced_change_start_page_entry_search">Buscar</string>
+    <string name="revanced_change_start_page_entry_subscriptions">Inscrições</string>
     <string name="revanced_disable_dislike_redirection_title">Desativar redirecionamento de dislike</string>
     <string name="revanced_disable_dislike_redirection_summary">Desativa o redirecionamento para a próxima faixa ao clicar no botão de Dislike.</string>
     <string name="revanced_disable_auto_captions_title">Desativar legendas automáticas</string>
@@ -172,6 +182,7 @@ Isso não ignora a restrição de idade, apenas aceita isso automaticamente."</s
 • Se for desativada posteriormente, a interface do usuário antiga poderá permanecer até que os dados do aplicativo sejam apagados."</string>
     <string name="revanced_spoof_app_version_target_title">Versão da falsificação do aplicativo</string>
     <string name="revanced_spoof_app_version_target_summary">Selecione a versão do app para falsificação.</string>
+    <string name="revanced_spoof_app_version_target_entry_6_42_55">6.42.55 - Desativar letras em tempo real</string>
     <string name="revanced_spoof_app_version_target_entry_7_16_53">7.16.53 - Restaurar barra de ação antiga</string>
     <!-- PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_title">Barra de Navegação</string>
@@ -410,10 +421,20 @@ Informações:
     <string name="revanced_sanitize_sharing_links_title">Limpar links compartilhados</string>
     <string name="revanced_sanitize_sharing_links_summary">Limpa links de compartilhamento removendo parâmetros de consulta de rastreamento.</string>
     <string name="revanced_spoof_client_title">Falsificar cliente</string>
+    <string name="revanced_spoof_client_summary">Falsificar o cliente para evitar problemas de reprodução.</string>
     <string name="revanced_spoof_client_type_title">Cliente padrão</string>
+    <string name="revanced_spoof_client_type_summary">Define um cliente padrão para falsificar.</string>
     <string name="revanced_spoof_client_type_entry_android_music_4_27">Android Music 4.27.53</string>
     <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
     <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>
+    <string name="revanced_spoof_client_type_entry_ios_music_7_04">iOS Music 7.04</string>
+    <string name="revanced_watch_history_type_title">Tipo de histórico de exibição</string>
+    <string name="revanced_watch_history_type_summary">"• Original: segue as configurações do histórico de exibição da conta do Google, mas o histórico de exibição pode não funcionar devido a DNS ou VPN.
+• Substituir domínio: segue as configurações do histórico de exibição da conta do Google.
+• Bloquear histórico de exibição: o histórico de exibição é bloqueado."</string>
+    <string name="revanced_watch_history_type_entry_1">Original</string>
+    <string name="revanced_watch_history_type_entry_2">Substituir domínio</string>
+    <string name="revanced_watch_history_type_entry_3">Bloquear histórico de exibição</string>
     <string name="revanced_default_app_settings_title">Abrir configurações padrão do aplicativo</string>
     <string name="revanced_default_app_settings_summary">Para abrir links do YouTube Music no RVX Music, ative Abrir links suportados e ative todos os endereços da web suportados.</string>
     <string name="gms_core_settings_title">Abrir configurações do GmsCore</string>

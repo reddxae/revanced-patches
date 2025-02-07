@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Shared -->
+    <string name="revanced_extended_settings_title">RVX</string>
     <string name="revanced_extended_reset_to_default_toast">Đặt lại về giá trị mặc định.</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">Vui lòng khởi động lại ứng dụng để các tính năng hoạt động bình thường</string>
@@ -420,11 +421,20 @@ Cụ thể:
     <string name="revanced_sanitize_sharing_links_title">Liên kết sạch khi chia sẻ</string>
     <string name="revanced_sanitize_sharing_links_summary">Loại bỏ các tham số truy vấn theo dõi khỏi URL khi chia sẻ liên kết.</string>
     <string name="revanced_spoof_client_title">Giả mạo ứng dụng khách</string>
+    <string name="revanced_spoof_client_summary">Giả mạo ứng dụng khách khách để ngăn chặn sự cố phát.</string>
     <string name="revanced_spoof_client_type_title">Ứng dụng khách mặc định</string>
+    <string name="revanced_spoof_client_type_summary">Xác định ứng dụng khách mặc định để giả mạo.</string>
     <string name="revanced_spoof_client_type_entry_android_music_4_27">Android Music 4.27.53</string>
     <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
     <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>
     <string name="revanced_spoof_client_type_entry_ios_music_7_04">iOS Music 7.04</string>
+    <string name="revanced_watch_history_type_title">Kiểu nhật ký</string>
+    <string name="revanced_watch_history_type_summary">"• Gốc: Tuân theo cài đặt nhật ký xem của tài khoản Google, nhưng có thể không hoạt động do DNS hoặc VPN.
+• Thay thế miền: Vẫn tuân theo cài đặt nhật ký xem của tài khoản Google.
+• Chặn nhật ký: Nhật ký xem bị chặn hoàn toàn."</string>
+    <string name="revanced_watch_history_type_entry_1">Gốc</string>
+    <string name="revanced_watch_history_type_entry_2">Thay thế miền</string>
+    <string name="revanced_watch_history_type_entry_3">Chặn nhật ký</string>
     <string name="revanced_default_app_settings_title">Mở theo mặc định</string>
     <string name="revanced_default_app_settings_summary">Để mở liên kết YouTube Music trong RVX Music, hãy kích hoạt \"Mở các đường liên kết được hỗ trợ\" và thêm các đường liên kết được hỗ trợ.</string>
     <string name="gms_core_settings_title">Cài đặt GmsCore</string>

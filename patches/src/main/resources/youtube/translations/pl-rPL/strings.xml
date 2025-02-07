@@ -4,6 +4,7 @@
     <string name="accessibility_settings_edu_opt_in_text">Włączyć gesty ułatwień dostępu dla odtwarzacza filmów?</string>
     <string name="accessibility_settings_edu_opt_out_text">Twoje ustawienia są zmienione, ponieważ serwis ułatwień dostępu jest włączony.</string>
     <!-- Shared -->
+    <string name="revanced_extended_settings_title">RVX</string>
     <string name="revanced_extended_settings_search_title">Wyszukaj w %s</string>
     <string name="revanced_extended_reset_to_default_toast">Przywrócono domyślne wartości.</string>
     <string name="revanced_preference_category_experimental_flag">Eksperymentalne flagi</string>
@@ -267,12 +268,6 @@ Sklep"</string>
     <string name="revanced_hide_feed_flyout_menu_summary_on">Włączony</string>
     <string name="revanced_hide_feed_flyout_menu_summary_off">Wyłączony</string>
     <string name="revanced_hide_feed_flyout_menu_filter_type_title">Typ filtrowania</string>
-    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_on">"Musi zawierać
-
-Aby ukryć menu <b>Odtwórz jako następny w kolejce</b>, możesz użyć <b>Odtwórz jako następny</b> lub <b>w kolejce</b> jako słowa kluczowe."</string>
-    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_off">"Musi pasować
-
-Aby ukryć menu <b>Odtwórz jako następny w kolejce</b>, możesz użyć jedynie <b>Odtwórz jako następny w kolejce</b> jako słowo kluczowe."</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_title">Filtr menu ze strony głównej</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_summary">Lista nazw menu do filtrowania, która musi być oddzielona nowymi liniami.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter -->
@@ -448,12 +443,6 @@ Jeśli później zostanie to wyłączone, rekomendowane jest usunięcie danych a
     <string name="revanced_hide_account_menu_summary">"Ukrywa elementy menu konta i zakładki Ty.
 Niektóre komponenty mogą nie być ukryte."</string>
     <string name="revanced_hide_account_menu_filter_type_title">Typ filtrowania</string>
-    <string name="revanced_hide_account_menu_filter_type_summary_on">"Musi zawierać
-
-Aby ukryć menu <b>Przejdź na YouTube Premium</b>, możesz użyć <b>YouTube Premium</b> lub <b>Premium</b> jako słowa kluczowe."</string>
-    <string name="revanced_hide_account_menu_filter_type_summary_off">"Musi pasować
-
-Aby ukryć menu <b>Przejdź na YouTube Premium</b>, możesz użyć jedynie <b>Przejdź na YouTube Premium</b> jako słowo kluczowe."</string>
     <string name="revanced_hide_account_menu_filter_strings_title">Filtr menu konta</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">Lista nazw menu konta do filtrowania, która musi być oddzielona nowymi liniami.</string>
     <string name="revanced_hide_handle_title">Nicki</string>
@@ -505,6 +494,7 @@ Stuknij tutaj, by pobrać YouTube Music.</string>
     <string name="revanced_miniplayer_type_entry_4">Nowoczesny 1</string>
     <string name="revanced_miniplayer_type_entry_5">Nowoczesny 2</string>
     <string name="revanced_miniplayer_type_entry_6">Nowoczesny 3</string>
+    <string name="revanced_miniplayer_type_entry_7">Nowoczesny 4</string>
     <string name="revanced_miniplayer_rounded_corners_title">Zaokrąglone boki</string>
     <string name="revanced_miniplayer_rounded_corners_summary_on">Włączone</string>
     <string name="revanced_miniplayer_rounded_corners_summary_off">Wyłączone (boki są kwadratowe)</string>
@@ -524,18 +514,20 @@ Miniodtwarzacz można przeciągnąć do dowolnego rogu ekranu."</string>
 
 Miniodtwarzacz można przeciągnąć poza ekran w lewo lub prawo."</string>
     <string name="revanced_miniplayer_horizontal_drag_summary_off">Wyłączony</string>
-    <string name="revanced_miniplayer_hide_expand_close_title">Przycisk zamykania</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_on">Ukryty</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_off">Widoczny</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_title">Przyciski rozwijania i zamykania</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_on">"Ukryte. Przesuń, aby rozwinąć lub zamknąć."</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_off">Widoczne</string>
-    <string name="revanced_miniplayer_hide_subtext_title">Podteksty</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_on">Ukryte</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_off">Widoczne</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_title">Przyciski w miniodtwarzaczu</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_on">Ukryte</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_off">Widoczne</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_title">Przyciski rozwijania i zamykania</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_on">"Ukryte
+
+Przesuń, by rozwinąć lub zamknąć."</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_off">Widoczne</string>
     <string name="revanced_miniplayer_hide_rewind_forward_title">Przyciski przewijania do przodu i wstecz</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Ukryte</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Widoczne</string>
+    <string name="revanced_miniplayer_hide_subtext_title">Podteksty</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_on">Ukryte</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_off">Widoczne</string>
     <string name="revanced_miniplayer_width_dip_title">Rozmiar początkowy</string>
     <string name="revanced_miniplayer_width_dip_summary">Początkowy rozmiar ekranu, w pikselach.</string>
     <string name="revanced_miniplayer_width_dip_invalid_toast">Rozmiar w pikselach musi znajdować się w przedziale od %1$s do %2$s.</string>
@@ -582,6 +574,7 @@ Jeśli opcja nie przynosi skutku, spróbuj przełączyć się na tryb incognito.
     <string name="revanced_enable_translucent_navigation_bar_title">Wygląd paska nawigacji</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">Półprzezroczysty</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">Nieprzezroczysty</string>
+    <string name="revanced_enable_translucent_navigation_bar_user_dialog_message">W niektórych wersjach YouTube, to ustawienie może sprawić systemowy pasek nawigacji przezroczystym, lub popsuć układ w trybie PiP.</string>
     <string name="revanced_hide_navigation_bar_title">Pasek nawigacji</string>
     <string name="revanced_hide_navigation_bar_summary_on">Ukryty</string>
     <string name="revanced_hide_navigation_bar_summary_off">Widoczny</string>
@@ -833,39 +826,7 @@ Ustawienia → Autoodtwarzanie/Odtwarzanie → Autoodtwarzanie następnego filmu
     <string name="revanced_hide_thanks_button_title">Przycisk od dziękowania</string>
     <string name="revanced_hide_thanks_button_summary_on">Ukryty</string>
     <string name="revanced_hide_thanks_button_summary_off">Widoczny</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
-    <string name="revanced_preference_category_hide_by_index">Ukryj wg indeksu</string>
-    <string name="revanced_hide_action_button_index_0_title">Pierwszy przycisk</string>
-    <string name="revanced_hide_action_button_index_0_summary_on">Ukryty</string>
-    <string name="revanced_hide_action_button_index_0_summary_off">Widoczny</string>
-    <string name="revanced_hide_action_button_index_1_title">Drugi przycisk</string>
-    <string name="revanced_hide_action_button_index_1_summary_on">Ukryty</string>
-    <string name="revanced_hide_action_button_index_1_summary_off">Widoczny</string>
-    <string name="revanced_hide_action_button_index_2_title">Trzeci przycisk</string>
-    <string name="revanced_hide_action_button_index_2_summary_on">Ukryty</string>
-    <string name="revanced_hide_action_button_index_2_summary_off">Widoczny</string>
-    <string name="revanced_hide_action_button_index_3_title">Czwarty przycisk</string>
-    <string name="revanced_hide_action_button_index_3_summary_on">Ukryty</string>
-    <string name="revanced_hide_action_button_index_3_summary_off">Widoczny</string>
-    <string name="revanced_hide_action_button_index_4_title">Piąty przycisk</string>
-    <string name="revanced_hide_action_button_index_4_summary_on">Ukryty</string>
-    <string name="revanced_hide_action_button_index_4_summary_off">Widoczny</string>
-    <string name="revanced_hide_action_button_index_5_title">Szósty przycisk</string>
-    <string name="revanced_hide_action_button_index_5_summary_on">Ukryty</string>
-    <string name="revanced_hide_action_button_index_5_summary_off">Widoczny</string>
-    <string name="revanced_hide_action_button_index_6_title">Siódmy przycisk</string>
-    <string name="revanced_hide_action_button_index_6_summary_on">Ukryty</string>
-    <string name="revanced_hide_action_button_index_6_summary_off">Widoczny</string>
-    <string name="revanced_hide_action_button_index_7_title">Ósmy przycisk</string>
-    <string name="revanced_hide_action_button_index_7_summary_on">Ukryty</string>
-    <string name="revanced_hide_action_button_index_7_summary_off">Widoczny</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
-    <string name="revanced_preference_category_hide_by_index_live">Ukryj wg indeksu w transmisjach na żywo</string>
-    <string name="revanced_hide_action_button_index_about_title">O ukrywaniu przycisków akcji po indeksie</string>
-    <string name="revanced_hide_action_button_index_about_summary">"Ukrywa przyciski akcji według indeksu przed zainicjowaniem przycisków akcji.
-
-- ukrywanie przycisków akcji nie pozostawia pustego miejsca
-- indeks przycisków akcji nie zawsze jest tym samym przyciskiem"</string>
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Experimental flags -->
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Oświetlenie kinowe</string>
     <string name="revanced_preference_screen_ambient_mode_summary">Wyłącz oświetlenie kinowe lub obejdź jego ograniczenia</string>

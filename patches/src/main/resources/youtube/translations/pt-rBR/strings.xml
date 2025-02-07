@@ -4,6 +4,7 @@
     <string name="accessibility_settings_edu_opt_in_text">Ativar os controles de acessibilidade para o reprodutor de vídeo?</string>
     <string name="accessibility_settings_edu_opt_out_text">Seus controles foram modificados porque um serviço de acessibilidade está ativado.</string>
     <!-- Shared -->
+    <string name="revanced_extended_settings_title">RVX</string>
     <string name="revanced_extended_settings_search_title">Pesquisar %s</string>
     <string name="revanced_extended_reset_to_default_toast">Redefinir para os valores padrão.</string>
     <string name="revanced_preference_category_experimental_flag">Sinalizadores experimentais</string>
@@ -73,6 +74,9 @@ Por favor, baixe %2$s do site."</string>
     <string name="revanced_language_ZH">Chinês</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Anúncios</string>
+    <string name="revanced_hide_end_screen_store_banner_title">Ocultar banner da loja na tela final</string>
+    <string name="revanced_hide_end_screen_store_banner_summary_on">O banner da loja está oculto.</string>
+    <string name="revanced_hide_end_screen_store_banner_summary_off">O banner da loja será exibido.</string>
     <string name="revanced_hide_fullscreen_ads_title">Ocultar anúncios em tela cheia</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">Os anúncios em tela cheia estão ocultos.</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">Os anúncios em tela cheia serão exibidos.</string>
@@ -263,6 +267,7 @@ Loja"</string>
     <string name="revanced_hide_feed_flyout_menu_title">Ativar filtro do menu flutuante do feed</string>
     <string name="revanced_hide_feed_flyout_menu_summary_on">O filtro do menu flutuante do feed está ativado.</string>
     <string name="revanced_hide_feed_flyout_menu_summary_off">O filtro do menu flutuante do feed está desativado.</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_title">Tipo de filtro de menu de flutuante do feed</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_title">Filtro do menu flutuante do feed</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_summary">Lista de nomes do menu flutuante para filtrar separados por uma nova linha.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter -->
@@ -344,6 +349,7 @@ Se o layout da tela do reprodutor mudar devido a alterações no lado do servido
     <string name="revanced_preference_screen_general_title">Geral</string>
     <string name="revanced_change_start_page_title">Alterar a página inicial</string>
     <string name="revanced_change_start_page_entry_default">Padrão</string>
+    <string name="revanced_change_start_page_entry_all_subscriptions">Todas as inscrições</string>
     <string name="revanced_change_start_page_entry_browse">Explorar canais</string>
     <string name="revanced_change_start_page_entry_courses">Cursos / Aprendizagem</string>
     <string name="revanced_change_start_page_entry_explore">Explorar</string>
@@ -357,6 +363,7 @@ Se o layout da tela do reprodutor mudar devido a alterações no lado do servido
     <string name="revanced_change_start_page_entry_music">Música</string>
     <string name="revanced_change_start_page_entry_news">Notícias</string>
     <string name="revanced_change_start_page_entry_notifications">Notificações</string>
+    <string name="revanced_change_start_page_entry_playlists">Listas de reprodução</string>
     <string name="revanced_change_start_page_entry_podcasts">Podcasts</string>
     <string name="revanced_change_start_page_entry_search">Buscar</string>
     <string name="revanced_change_start_page_entry_shopping">Compras</string>
@@ -364,6 +371,7 @@ Se o layout da tela do reprodutor mudar devido a alterações no lado do servido
     <string name="revanced_change_start_page_entry_sports">Esportes</string>
     <string name="revanced_change_start_page_entry_subscriptions">Inscrições</string>
     <string name="revanced_change_start_page_entry_trending">Em alta</string>
+    <string name="revanced_change_start_page_entry_virtual_reality">Realidade Virtual</string>
     <string name="revanced_change_start_page_entry_watch_later">Assistir mais tarde</string>
     <string name="revanced_change_start_page_entry_your_clips">Seus clipes</string>
     <string name="revanced_change_start_page_type_title">Alterar tipo de página inicial</string>
@@ -429,6 +437,7 @@ Se for desativado posteriormente, é recomendável limpar os dados do aplicativo
     <string name="revanced_hide_account_menu_title">Ocultar menu de contas</string>
     <string name="revanced_hide_account_menu_summary">"Ocultar elementos do menu de contas e aba Você
 Alguns componentes podem não ser ocultos"</string>
+    <string name="revanced_hide_account_menu_filter_type_title">Tipo de filtro do menu Conta</string>
     <string name="revanced_hide_account_menu_filter_strings_title">Filtro do menu da conta</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">Lista de nomes do menu de conta a serem filtrados separados por uma nova linha.</string>
     <string name="revanced_hide_handle_title">Ocultar identificador</string>
@@ -479,6 +488,7 @@ Alguns componentes podem não ser ocultos"</string>
     <string name="revanced_miniplayer_type_entry_4">Moderno 1</string>
     <string name="revanced_miniplayer_type_entry_5">Moderno 2</string>
     <string name="revanced_miniplayer_type_entry_6">Moderno 3</string>
+    <string name="revanced_miniplayer_type_entry_7">Moderno 4</string>
     <string name="revanced_miniplayer_rounded_corners_title">Ativar cantos arredondados</string>
     <string name="revanced_miniplayer_rounded_corners_summary_on">Os cantos serão arredondados.</string>
     <string name="revanced_miniplayer_rounded_corners_summary_off">Os cantos serão quadrados.</string>
@@ -498,20 +508,20 @@ O mini reprodutor pode ser arrastado para qualquer canto da tela."</string>
 
 O mini reprodutor pode ser arrastado para fora da tela para a esquerda ou direita."</string>
     <string name="revanced_miniplayer_horizontal_drag_summary_off">Gesto de arrastar horizontalmente desativado.</string>
-    <string name="revanced_miniplayer_hide_expand_close_title">Ocultar botões de expansão e fechamento</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_on">Os botões estão ocultos.\n(deslize o mini reprodutor para expandir ou fechar)</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_off">Os botões de expansão e fechamento serão exibidos.</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_title">Ocultar botões de expandir e fechar</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_on">"Os botões estão ocultos.
+    <string name="revanced_miniplayer_hide_overlay_buttons_title">Ocultar botões de sobreposição</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_on">Os botões de sobreposição estão ocultos.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_off">Os botões de sobreposição serão exibidos.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_title">Ocultar botões de expandir e fechar</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_on">"Os botões estão ocultos.
 
 Deslize para expandir ou fechar."</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_off">Os botões de expandir e fechar serão exibidos.</string>
-    <string name="revanced_miniplayer_hide_subtext_title">Ocultar subtextos</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_on">Os subtextos estão ocultos.</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_off">Os subtextos serão exibidos.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_off">Os botões de expandir e fechar serão exibidos.</string>
     <string name="revanced_miniplayer_hide_rewind_forward_title">Ocultar os botões avançar e retroceder</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Os botões avançar e retroceder estão ocultos.</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Os botões avançar e retroceder serão exibidos.</string>
+    <string name="revanced_miniplayer_hide_subtext_title">Ocultar subtextos</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_on">Os subtextos estão ocultos.</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_off">Os subtextos serão exibidos.</string>
     <string name="revanced_miniplayer_width_dip_title">Tamanho inicial</string>
     <string name="revanced_miniplayer_width_dip_summary">Tamanho inicial na tela, em pixels.</string>
     <string name="revanced_miniplayer_width_dip_invalid_toast">O tamanho do pixel deve estar entre %1$s e %2$s.</string>
@@ -558,6 +568,7 @@ Se essa configuração não surtir efeito, tente alternar para o modo anônimo."
     <string name="revanced_enable_translucent_navigation_bar_title">Ativar barra de navegação transparente</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">A barra de navegação está transparente.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">A barra de navegação está opaca.</string>
+    <string name="revanced_enable_translucent_navigation_bar_user_dialog_message">Em certas versões do YouTube, esta configuração pode tornar a barra de navegação do sistema transparente ou o layout pode ser quebrado no modo PIP.</string>
     <string name="revanced_hide_navigation_bar_title">Ocultar barra de navegação</string>
     <string name="revanced_hide_navigation_bar_summary_on">A barra de navegação está oculta.</string>
     <string name="revanced_hide_navigation_bar_summary_off">A barra de navegação será exibida.</string>
@@ -808,39 +819,7 @@ A reprodução automática pode ser alterada nas configurações do YouTube:
     <string name="revanced_hide_thanks_button_title">Ocultar botão valeu</string>
     <string name="revanced_hide_thanks_button_summary_on">O botão valeu está oculto.</string>
     <string name="revanced_hide_thanks_button_summary_off">O botão valeu será exibido.</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
-    <string name="revanced_preference_category_hide_by_index">Ocultar por índice</string>
-    <string name="revanced_hide_action_button_index_0_title">Ocultar o primeiro botão</string>
-    <string name="revanced_hide_action_button_index_0_summary_on">O primeiro botão está oculto.</string>
-    <string name="revanced_hide_action_button_index_0_summary_off">O primeiro botão será exibido.</string>
-    <string name="revanced_hide_action_button_index_1_title">Ocultar o segundo botão</string>
-    <string name="revanced_hide_action_button_index_1_summary_on">O segundo botão está oculto.</string>
-    <string name="revanced_hide_action_button_index_1_summary_off">O segundo botão será exibido.</string>
-    <string name="revanced_hide_action_button_index_2_title">Ocultar o terceiro botão</string>
-    <string name="revanced_hide_action_button_index_2_summary_on">O terceiro botão está oculto.</string>
-    <string name="revanced_hide_action_button_index_2_summary_off">O terceiro botão será exibido.</string>
-    <string name="revanced_hide_action_button_index_3_title">Ocultar o quarto botão</string>
-    <string name="revanced_hide_action_button_index_3_summary_on">O quarto botão está oculto.</string>
-    <string name="revanced_hide_action_button_index_3_summary_off">O quarto botão será exibido.</string>
-    <string name="revanced_hide_action_button_index_4_title">Ocultar o quinto botão</string>
-    <string name="revanced_hide_action_button_index_4_summary_on">O quinto botão está oculto.</string>
-    <string name="revanced_hide_action_button_index_4_summary_off">O quinto botão será exibido.</string>
-    <string name="revanced_hide_action_button_index_5_title">Ocultar o sexto botão</string>
-    <string name="revanced_hide_action_button_index_5_summary_on">O sexto botão está oculto.</string>
-    <string name="revanced_hide_action_button_index_5_summary_off">O sexto botão será exibido.</string>
-    <string name="revanced_hide_action_button_index_6_title">Ocultar o sétimo botão</string>
-    <string name="revanced_hide_action_button_index_6_summary_on">O sétimo botão está oculto.</string>
-    <string name="revanced_hide_action_button_index_6_summary_off">O sétimo botão será exibido.</string>
-    <string name="revanced_hide_action_button_index_7_title">Ocultar o oitavo botão</string>
-    <string name="revanced_hide_action_button_index_7_summary_on">O oitavo botão está oculto.</string>
-    <string name="revanced_hide_action_button_index_7_summary_off">O oitavo botão será exibido.</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
-    <string name="revanced_preference_category_hide_by_index_live">Ocultar por índice na transmissão ao vivo</string>
-    <string name="revanced_hide_action_button_index_about_title">Sobre o Ocultar botão de ação por índice</string>
-    <string name="revanced_hide_action_button_index_about_summary">"Oculte os botões de ação por índice antes que os botões de ação sejam inicializados.
-
-- Ocultar os botões de ação não deixa espaço vazio.
-- Índice dos botões de ação podem não ser sempre o mesmo botão."</string>
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Experimental flags -->
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Modo ambiente</string>
     <string name="revanced_preference_screen_ambient_mode_summary">Ignorar restrições do modo ambiente ou desativar o modo ambiente.</string>
@@ -1166,6 +1145,11 @@ Informação:
     <string name="revanced_enable_custom_seekbar_color_title">Ativar cor personalizada da barra de progresso</string>
     <string name="revanced_enable_custom_seekbar_color_summary_on">A cor personalizada da barra de progresso está ativada.</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">A cor personalizada da barra de progresso está desativada.</string>
+    <string name="revanced_custom_seekbar_color_primary_title">Cor primária personalizada da barra de progresso</string>
+    <string name="revanced_custom_seekbar_color_primary_summary">Digite o código hexadecimal da cor primária da barra de busca.</string>
+    <string name="revanced_custom_seekbar_color_accent_title">Cor de destaque personalizada para a barra de progresso</string>
+    <string name="revanced_custom_seekbar_color_accent_summary">Digite o código hexadecimal da cor de destaque da barra de progresso.</string>
+    <string name="revanced_custom_seekbar_color_invalid_toast">Valor da cor da barra de progresso inválido.</string>
     <string name="revanced_enable_seekbar_tapping_title">Ativar toque na barra de progresso</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">O toque na barra de progresso está ativado.</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">O toque na barra de progresso desativado.</string>

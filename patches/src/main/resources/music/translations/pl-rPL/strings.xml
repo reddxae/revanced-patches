@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Shared -->
+    <string name="revanced_extended_settings_title">RVX</string>
     <string name="revanced_extended_reset_to_default_toast">Przywrócono domyślne wartości.</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">Uruchom ponownie, aby wczytać układ poprawnie</string>
@@ -420,11 +421,20 @@ Informacje:
     <string name="revanced_sanitize_sharing_links_title">Oczyść udostępniane linki</string>
     <string name="revanced_sanitize_sharing_links_summary">Usuwa parametry śledzących zapytań z adresów URL podczas udostępniania linków.</string>
     <string name="revanced_spoof_client_title">Oszukuj klienta</string>
+    <string name="revanced_spoof_client_summary">Oszukuj klienta, by zapobiec problemom z odtwarzaniem.</string>
     <string name="revanced_spoof_client_type_title">Domyślny klient</string>
+    <string name="revanced_spoof_client_type_summary">Definiuje domyślny klient do oszukiwania.</string>
     <string name="revanced_spoof_client_type_entry_android_music_4_27">Android Music 4.27.53</string>
     <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
     <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>
     <string name="revanced_spoof_client_type_entry_ios_music_7_04">iOS Music 7.04</string>
+    <string name="revanced_watch_history_type_title">Typ historii oglądania</string>
+    <string name="revanced_watch_history_type_summary">"• Oryginalny: Stosuje się do ustawień historii oglądania konta Google, lecz historia oglądania może nie działać przy używaniu DNS lub VPN
+• Zastąpienie domeny: Stosuje się do ustawień historii oglądania konta Google
+• Zablokowanie historii oglądania: Historia oglądania jest zablokowana"</string>
+    <string name="revanced_watch_history_type_entry_1">Oryginalny</string>
+    <string name="revanced_watch_history_type_entry_2">Zastąpienie domeny</string>
+    <string name="revanced_watch_history_type_entry_3">Zablokowanie historii oglądania</string>
     <string name="revanced_default_app_settings_title">Otwórz systemowe ustawienia aplikacji</string>
     <string name="revanced_default_app_settings_summary">Aby otwierać linki YouTube Music w RVX Music, przejdź do opcji obsługiwanych linków w ustawieniach i włącz obsługiwane adresy internetowe dla RVX Music.</string>
     <string name="gms_core_settings_title">Otwórz ustawienia GmsCore</string>

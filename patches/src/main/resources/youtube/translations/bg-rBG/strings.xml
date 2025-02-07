@@ -484,20 +484,12 @@
 
 Миниплейърът може да се плъзга извън екрана наляво или надясно."</string>
     <string name="revanced_miniplayer_horizontal_drag_summary_off">Хоризонтално плъзгане е деактивиран.</string>
-    <string name="revanced_miniplayer_hide_expand_close_title">Бутони за разширяване и свиване на екрана</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_on">Бутоните са скрити.\n(плъзнете миниплейъра, за да разширите или затворите)</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_off">Бутони за разширяване и свиване на екрана са видими.</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_title">Бутони за разширяване и свиване на екрана</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_on">"Бутоните са скрити. 
-
-Плъзнете, за да разширите или затворите."</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_off">Бутони за разширяване и свиване на екрана са видими.</string>
-    <string name="revanced_miniplayer_hide_subtext_title">Възпроизвеждане на екранни текстове, етикети</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_on">Подтекстовете са скрити.</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_off">Подтекстовете се показват.</string>
     <string name="revanced_miniplayer_hide_rewind_forward_title">Бутони за напред и назад</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Бутони за напред и назад са скрити.</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Бутони за напред и назад са показани.</string>
+    <string name="revanced_miniplayer_hide_subtext_title">Възпроизвеждане на екранни текстове, етикети</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_on">Подтекстовете са скрити.</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_off">Подтекстовете се показват.</string>
     <string name="revanced_miniplayer_width_dip_title">Първоначален размер</string>
     <string name="revanced_miniplayer_width_dip_summary">Първоначален размер на екрана, в пиксели.</string>
     <string name="revanced_miniplayer_width_dip_invalid_toast">Размерът на пиксела трябва да бъде между %1$s и %2$s.</string>
@@ -779,16 +771,7 @@
     <string name="revanced_hide_thanks_button_title">Скриване на бурона за благодарност</string>
     <string name="revanced_hide_thanks_button_summary_on">Бутона за благодарност е скрит.</string>
     <string name="revanced_hide_thanks_button_summary_off">Бутона за благодарност се показва.</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
-    <string name="revanced_hide_action_button_index_1_summary_on">Бутона е скрит.</string>
-    <string name="revanced_hide_action_button_index_1_summary_off">Бутона се показва.</string>
-    <string name="revanced_hide_action_button_index_2_title">Скриване на третия бутон</string>
-    <string name="revanced_hide_action_button_index_2_summary_on">Бутона е скрит.</string>
-    <string name="revanced_hide_action_button_index_2_summary_off">Бутона се показва.</string>
-    <string name="revanced_hide_action_button_index_3_title">Скриване на четвъртия бутон</string>
-    <string name="revanced_hide_action_button_index_3_summary_on">Бутона е скрит.</string>
-    <string name="revanced_hide_action_button_index_3_summary_off">Бутона се показва.</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Experimental flags -->
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Подсветка около видеото</string>
     <string name="revanced_preference_screen_ambient_mode_summary">Изключете подсветка около видеото или прескочете ограничението в режим за пестене на батерията.</string>

@@ -4,6 +4,7 @@
     <string name="accessibility_settings_edu_opt_in_text">動画プレーヤーのアクセシビリティコントロールを有効にしますか？</string>
     <string name="accessibility_settings_edu_opt_out_text">ユーザー補助サービスが有効になっているため、操作方法が変わります。</string>
     <!-- Shared -->
+    <string name="revanced_extended_settings_title">RVX</string>
     <string name="revanced_extended_settings_search_title">設定を検索</string>
     <string name="revanced_extended_reset_to_default_toast">デフォルト値にリセットしました。</string>
     <string name="revanced_preference_category_experimental_flag">実験的な機能</string>
@@ -162,13 +163,7 @@ DeArrow の詳細については、ここをタップしてください。"</str
 ・もう一度聴く
 ・他のチャンネルを探す
 ・ショッピング"</string>
-    <string name="revanced_hide_carousel_shelf_summary_off">以下の欄を非表示にします:
-・ニュース速報
-・続きを見る
-・もう一度見る
-・もう一度聴く
-・他のチャンネルを探す
-・ショッピング</string>
+    <string name="revanced_hide_carousel_shelf_summary_off">以下の欄を非表示にします:\n・ニュース速報\n・続きを見る\n・もう一度見る\n・もう一度聴く\n・他のチャンネルを探す\n・ショッピング</string>
     <string name="revanced_hide_chips_shelf_title">チップ欄を非表示</string>
     <string name="revanced_hide_chips_shelf_on">フィードに表示される、似ている動画のチップ欄を非表示にします。</string>
     <string name="revanced_hide_chips_shelf_off">フィードに表示される、似ている動画のチップ欄を非表示にします。</string>
@@ -271,12 +266,6 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_hide_feed_flyout_menu_summary_on">フィードのフライアアウトメニューのフィルタを有効化します。</string>
     <string name="revanced_hide_feed_flyout_menu_summary_off">フィードのフライアアウトメニューのフィルタを有効化します。</string>
     <string name="revanced_hide_feed_flyout_menu_filter_type_title">フィードのフライアウトメニューのフィルタの種類</string>
-    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_on">"現在の設定: 設定したキーワードが部分的に一致した場合にメニューを非表示にします。
-
-例えば、「キューの最初に追加」メニューを非表示にしたい場合、「キュー」や「追加」などをキーワードとして使用できます。"</string>
-    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_off">"現在の設定: 設定したキーワードが完全に一致した場合にメニューを非表示にします。
-
-例えば、「キューの最初に追加」メニューを非表示にしたい場合、「キューの最初に追加」のみをキーワードとして使用できます。"</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_title">フィードのフライアウトメニューのフィルタ</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_summary">フィルタリングするフライアウトメニューの項目名をリストしてください 。(改行区切り)</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter -->
@@ -430,9 +419,7 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_change_live_ring_click_action_summary_on">"現在の設定: 「ライブ」状態のアイコンをタップすると、チャンネルが開きます。
 
 注意: 「通常のプレーヤーでショートを再生」設定を有効にしている場合、ショートのライブ配信を通常のプレーヤーで開くとチャンネルは開きません。"</string>
-    <string name="revanced_change_live_ring_click_action_summary_off">現在の設定: 「ライブ」状態のアイコンをタップすると、チャンネルが開きます。
-
-注意: 「通常のプレーヤーでショートを再生」設定を有効にしている場合、ショートのライブ配信を通常のプレーヤーで開くとチャンネルは開きません。</string>
+    <string name="revanced_change_live_ring_click_action_summary_off">現在の設定: 「ライブ」状態のアイコンをタップすると、チャンネルが開きます。\n\n注意: 「通常のプレーヤーでショートを再生」設定を有効にしている場合、ショートのライブ配信を通常のプレーヤーで開くとチャンネルは開きません。</string>
     <string name="revanced_spoof_app_version_title">アプリのバージョンを偽装</string>
     <string name="revanced_spoof_app_version_summary_on">アプリのバージョンを偽装できます。</string>
     <string name="revanced_spoof_app_version_summary_off">アプリのバージョンを偽装できます。</string>
@@ -459,12 +446,6 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_hide_account_menu_summary">"アカウントメニューとマイページタブの要素を非表示にします。
 一部のコンポーネントは非表示にならない可能性があります。"</string>
     <string name="revanced_hide_account_menu_filter_type_title">アカウントメニューのフィルタリングの種類を選択</string>
-    <string name="revanced_hide_account_menu_filter_type_summary_on">"現在の設定: 設定したキーワードが部分的に一致した場合にメニューを非表示にします。
-
-例えば、「YouTube Premium に登録」メニューを非表示にしたい場合、「YouTube Premium」や「Premium に登録」などをキーワードとして使用できます。"</string>
-    <string name="revanced_hide_account_menu_filter_type_summary_off">"現在の設定: 設定したキーワードが完全に一致した場合にメニューを非表示にします。
-
-例えば、「YouTube Premium に登録」メニューを非表示にしたい場合、「YouTube Premium に登録」のみをキーワードとして使用できます。"</string>
     <string name="revanced_hide_account_menu_filter_strings_title">アカウントメニューフィルター</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">フィルタリングするアカウントメニュー名のリスト。（改行区切り）</string>
     <string name="revanced_hide_handle_title">ハンドルを非表示</string>
@@ -515,6 +496,7 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_miniplayer_type_entry_4">モダン1</string>
     <string name="revanced_miniplayer_type_entry_5">モダン2</string>
     <string name="revanced_miniplayer_type_entry_6">モダン3</string>
+    <string name="revanced_miniplayer_type_entry_7">モダン 4</string>
     <string name="revanced_miniplayer_rounded_corners_title">角の丸みを有効化</string>
     <string name="revanced_miniplayer_rounded_corners_summary_on">ミニプレーヤーの角を丸くします。</string>
     <string name="revanced_miniplayer_rounded_corners_summary_off">ミニプレーヤーの角を丸くします。</string>
@@ -534,20 +516,20 @@ DeArrow の詳細については、ここをタップしてください。"</str
 
 ミニプレーヤーは画面の左右にドラッグして移動できます。"</string>
     <string name="revanced_miniplayer_horizontal_drag_summary_off">水平ドラッグジェスチャーを有効化します。\n\nミニプレーヤーは画面の左右にドラッグして移動できます。</string>
-    <string name="revanced_miniplayer_hide_expand_close_title">閉じるボタンを非表示</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_on">ミニプレーヤー右上の「‪✕‬」ボタンを非表示にします。</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_off">ミニプレーヤー右上の「‪✕‬」ボタンを非表示にします。</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_title">拡大/縮小ボタンを非表示</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_on">"拡大/縮小のボタンを非表示にします。
+    <string name="revanced_miniplayer_hide_overlay_buttons_title">オーバーレイボタンを非表示</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_on">オーバーレイボタンを非表示にします。</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_off">オーバーレイボタンを非表示にします。</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_title">拡大/縮小ボタンを非表示</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_on">"拡大/縮小のボタンを非表示にします。
 
 ミニプレーヤーをスワイプして拡大/縮小できます。"</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_off">拡大/縮小のボタンを非表示にします。\n\nミニプレーヤーをスワイプして拡大/縮小できます。</string>
-    <string name="revanced_miniplayer_hide_subtext_title">サブテキストを非表示</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_on">ミニプレーヤーに表示される「プロモーションを含みます」などの文章を非表示にします。</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_off">ミニプレーヤーに表示される「プロモーションを含みます」などの文章を非表示にします。</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_off">拡大/縮小のボタンを非表示にします。\n\nミニプレーヤーをスワイプして拡大/縮小できます。</string>
     <string name="revanced_miniplayer_hide_rewind_forward_title">スキップボタンを非表示</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_on">次の動画/前の動画へスキップするボタンを非表示にします。</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_off">次の動画/前の動画へスキップするボタンを非表示にします。</string>
+    <string name="revanced_miniplayer_hide_subtext_title">サブテキストを非表示</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_on">ミニプレーヤーに表示される「プロモーションを含みます」などの文章を非表示にします。</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_off">ミニプレーヤーに表示される「プロモーションを含みます」などの文章を非表示にします。</string>
     <string name="revanced_miniplayer_width_dip_title">初期の画面サイズ</string>
     <string name="revanced_miniplayer_width_dip_summary">ミニプレーヤーの初期の画面サイズを設定します。(単位: ピクセル)</string>
     <string name="revanced_miniplayer_width_dip_invalid_toast">ピクセルサイズは %1$s から %2$s の間でなければなりません。</string>
@@ -594,6 +576,7 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_enable_translucent_navigation_bar_title">半透明のナビゲーションバーを有効化</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">ナビゲーションバー (ホーム、登録チャンネルなどのボタン) を半透明にします。</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">ナビゲーションバー (ホーム、登録チャンネルなどのボタン) を半透明にします。</string>
+    <string name="revanced_enable_translucent_navigation_bar_user_dialog_message">特定の YouTube バージョンでは、この設定によりシステムナビゲーションバーが透明になるか、ピクチャーインピクチャーモードでレイアウトが崩れることがあります。</string>
     <string name="revanced_hide_navigation_bar_title">ナビゲーションバーを非表示</string>
     <string name="revanced_hide_navigation_bar_summary_on">ナビゲーションバー(ホーム、登録チャンネルなどのボタン)を非表示にします。</string>
     <string name="revanced_hide_navigation_bar_summary_off">ナビゲーションバー(ホーム、登録チャンネルなどのボタン)を非表示にします。</string>
@@ -842,40 +825,7 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_hide_thanks_button_title">「Thanks」ボタンを非表示</string>
     <string name="revanced_hide_thanks_button_summary_on">「Thanks」ボタンを非表示にします。</string>
     <string name="revanced_hide_thanks_button_summary_off">「Thanks」ボタンを非表示にします。</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
-    <string name="revanced_preference_category_hide_by_index">インデックスで非表示</string>
-    <string name="revanced_hide_action_button_index_0_title">1 番目のボタンを非表示</string>
-    <string name="revanced_hide_action_button_index_0_summary_on">1 番目のボタンを非表示にします。</string>
-    <string name="revanced_hide_action_button_index_0_summary_off">1 番目のボタンを非表示にします。</string>
-    <string name="revanced_hide_action_button_index_1_title">2 番目のボタンを非表示</string>
-    <string name="revanced_hide_action_button_index_1_summary_on">2 番目のボタンを非表示にします。</string>
-    <string name="revanced_hide_action_button_index_1_summary_off">2 番目のボタンを非表示にします。</string>
-    <string name="revanced_hide_action_button_index_2_title">3 番目のボタンを非表示</string>
-    <string name="revanced_hide_action_button_index_2_summary_on">3 番目のボタンを非表示にします。</string>
-    <string name="revanced_hide_action_button_index_2_summary_off">3 番目のボタンを非表示にします。</string>
-    <string name="revanced_hide_action_button_index_3_title">4 番目のボタンを非表示</string>
-    <string name="revanced_hide_action_button_index_3_summary_on">4 番目のボタンを非表示にします。</string>
-    <string name="revanced_hide_action_button_index_3_summary_off">4 番目のボタンを非表示にします。</string>
-    <string name="revanced_hide_action_button_index_4_title">5 番目のボタンを非表示</string>
-    <string name="revanced_hide_action_button_index_4_summary_on">5 番目のボタンを非表示にします。</string>
-    <string name="revanced_hide_action_button_index_4_summary_off">5 番目のボタンを非表示にします。</string>
-    <string name="revanced_hide_action_button_index_5_title">6 番目のボタンを非表示</string>
-    <string name="revanced_hide_action_button_index_5_summary_on">6 番目のボタンを非表示にします。</string>
-    <string name="revanced_hide_action_button_index_5_summary_off">6 番目のボタンを非表示にします。</string>
-    <string name="revanced_hide_action_button_index_6_title">7 番目のボタンを非表示</string>
-    <string name="revanced_hide_action_button_index_6_summary_on">7 番目のボタンを非表示にします。</string>
-    <string name="revanced_hide_action_button_index_6_summary_off">7 番目のボタンを非表示にします。</string>
-    <string name="revanced_hide_action_button_index_7_title">8 番目のボタンを非表示</string>
-    <string name="revanced_hide_action_button_index_7_summary_on">8 番目のボタンを非表示にします。</string>
-    <string name="revanced_hide_action_button_index_7_summary_off">8 番目のボタンを非表示にします。</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
-    <string name="revanced_preference_category_hide_by_index_live">ライブ配信でインデックスで非表示</string>
-    <string name="revanced_hide_action_button_index_about_title">「インデックスで非表示」について</string>
-    <string name="revanced_hide_action_button_index_about_summary">"アクションボタンが初期化される前に、インデックスによってアクションボタンを非表示にします。
-
-注意:
-・アクションボタンを非表示にすると、空きスペースが残りません。
-・ボタンの順序は YouTube のバージョン、地域、動画によって異なる場合があります。"</string>
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Experimental flags -->
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">アンビエントモード</string>
     <string name="revanced_preference_screen_ambient_mode_summary">アンビエントモードの制限を回避またはアンビエントモードを無効化します。</string>

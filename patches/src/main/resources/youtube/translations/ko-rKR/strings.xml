@@ -4,6 +4,7 @@
     <string name="accessibility_settings_edu_opt_in_text">플레이어에서 접근성 컨트롤을 표시하시겠습니까?</string>
     <string name="accessibility_settings_edu_opt_out_text">접근성 서비스가 켜져있기 때문에 플레이어 컨트롤을 변경합니다.</string>
     <!-- Shared -->
+    <string name="revanced_extended_settings_title">RVX 설정</string>
     <string name="revanced_extended_settings_search_title">%s 검색</string>
     <string name="revanced_extended_reset_to_default_toast">기본값으로 초기화합니다.</string>
     <string name="revanced_preference_category_experimental_flag">실험 기능</string>
@@ -270,12 +271,6 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_feed_flyout_menu_summary_on">피드 메뉴 구성요소 필터를 활성화합니다.</string>
     <string name="revanced_hide_feed_flyout_menu_summary_off">피드 메뉴 구성요소 필터를 비활성화합니다.</string>
     <string name="revanced_hide_feed_flyout_menu_filter_type_title">피드 메뉴 구성요소 필터 유형</string>
-    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_on">"포함된 경우에 필터링합니다.
-
-• '<b>현재 재생목록에서 다음 순서로 재생</b>' 메뉴를 숨기려면, '<b>다음 순서</b>' 또는 '<b>현재 재생목록에서</b>'를 키워드로 사용할 수 있습니다."</string>
-    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_off">"일치하는 경우에 필터링합니다.
-
-• '<b>현재 재생목록에서 다음 순서로 재생</b>' 메뉴를 숨기려면, '<b>현재 재생목록에서 다음 순서로 재생</b>'만 키워드로 사용할 수 있습니다."</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_title">피드 메뉴 구성요소 필터</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_summary">필터링할 메뉴 구성요소 이름을 줄바꿈으로 구분하여 설정합니다.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter -->
@@ -353,7 +348,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_related_videos_summary_off">관련 동영상이 표시됩니다.</string>
     <string name="revanced_hide_related_videos_user_dialog_message">"이 설정은 플레이어 화면에서 로드할 수 있는 최대 레이아웃 수를 제한합니다.
 
-서버 측 변경으로 인해 플레이어 화면의 레이아웃이 변경되면 플레이어 화면에서 의도하지 않은 레이아웃이 숨겨질 수 있습니다."</string>
+서버 측 변경으로 인하여 플레이어 화면의 레이아웃이 변경되면 플레이어 화면에서 의도하지 않은 레이아웃이 숨겨질 수 있습니다."</string>
     <string name="revanced_related_videos_offset_title">오프셋</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">일반</string>
@@ -447,12 +442,6 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_account_menu_summary">"계정 메뉴 및 내 페이지에서 구성요소가 숨겨집니다.
 일부 구성요소는 숨겨지지 않을 수 있습니다."</string>
     <string name="revanced_hide_account_menu_filter_type_title">계정 메뉴 필터 유형</string>
-    <string name="revanced_hide_account_menu_filter_type_summary_on">"포함된 경우에 필터링합니다.
-
-• '<b>YouTube Premium 가입</b>' 메뉴를 숨기려면, '<b>YouTube Premium</b>' 또는 '<b>Premium</b>'을 키워드로 사용할 수 있습니다."</string>
-    <string name="revanced_hide_account_menu_filter_type_summary_off">"일치하는 경우에 필터링합니다.
-
-• '<b>YouTube Premium 가입</b>' 메뉴를 숨기려면, '<b>YouTube Premium 가입</b>'만 키워드로 사용할 수 있습니다."</string>
     <string name="revanced_hide_account_menu_filter_strings_title">계정 메뉴 필터 편집하기</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">필터링할 계정 메뉴 이름을 줄바꿈으로 구분하여 설정합니다.</string>
     <string name="revanced_hide_handle_title">핸들(@사용자 아이디) 숨기기</string>
@@ -503,6 +492,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_miniplayer_type_entry_4">모던 스타일 1</string>
     <string name="revanced_miniplayer_type_entry_5">모던 스타일 2</string>
     <string name="revanced_miniplayer_type_entry_6">모던 스타일 3</string>
+    <string name="revanced_miniplayer_type_entry_7">모던 스타일 4</string>
     <string name="revanced_miniplayer_rounded_corners_title">둥근 모서리 활성화하기</string>
     <string name="revanced_miniplayer_rounded_corners_summary_on">모서리를 둥글게 활성화합니다.</string>
     <string name="revanced_miniplayer_rounded_corners_summary_off">모서리를 각지게 활성화합니다.</string>
@@ -521,20 +511,20 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
 
 • 미니 플레이어 절반 정도를 왼쪽 밖 또는 오른쪽 밖으로 드래그하여 숨길 수 있습니다."</string>
     <string name="revanced_miniplayer_horizontal_drag_summary_off">수평 드래그 제스처를 비활성화합니다.</string>
-    <string name="revanced_miniplayer_hide_expand_close_title">\'닫기\' 버튼 숨기기</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_on">\'닫기\' 버튼이 숨겨집니다.</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_off">\'닫기\' 버튼이 표시됩니다.</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_title">\'펼치기\' &amp; \'닫기\' 버튼 숨기기</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_on">"'펼치기' &amp; '닫기' 버튼이 숨겨집니다.
+    <string name="revanced_miniplayer_hide_overlay_buttons_title">오버레이 버튼 숨기기</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_on">오버레이 버튼이 숨겨집니다.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_off">오버레이 버튼이 표시됩니다.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_title">\'펼치기\' &amp; \'닫기\' 버튼 숨기기</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_on">"'펼치기' &amp; '닫기' 버튼이 숨겨집니다.
 
 • 미니 플레이어를 스와이프하여 펼치거나 닫을 수 있습니다."</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_off">\'펼치기\' &amp; \'닫기\' 버튼이 표시됩니다.</string>
-    <string name="revanced_miniplayer_hide_subtext_title">서브텍스트 숨기기</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_on">서브텍스트가 숨겨집니다.\n• 왼쪽 하단에서 표시되는 \'유료 광고 포함\'과 같은 라벨</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_off">서브텍스트가 표시됩니다.\n• 왼쪽 하단에서 표시되는 \'유료 광고 포함\'과 같은 라벨</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_off">\'펼치기\' &amp; \'닫기\' 버튼이 표시됩니다.</string>
     <string name="revanced_miniplayer_hide_rewind_forward_title">\'되감기\' &amp; \'빨리 감기\' 버튼 숨기기</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_on">\'되감기\' &amp; \'빨리 감기\' 버튼이 숨겨집니다.</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_off">\'되감기\' &amp; \'빨리 감기\' 버튼이 표시됩니다.</string>
+    <string name="revanced_miniplayer_hide_subtext_title">서브텍스트 숨기기</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_on">서브텍스트가 숨겨집니다.\n• 왼쪽 하단에서 표시되는 \'유료 광고 포함\'과 같은 라벨</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_off">서브텍스트가 표시됩니다.\n• 왼쪽 하단에서 표시되는 \'유료 광고 포함\'과 같은 라벨</string>
     <string name="revanced_miniplayer_width_dip_title">화면 크기 초기값</string>
     <string name="revanced_miniplayer_width_dip_summary">화면 크기 초기값을 지정할 수 있습니다. (픽셀)</string>
     <string name="revanced_miniplayer_width_dip_invalid_toast">픽셀 크기는 %1$s-%2$s 사이여야 합니다.</string>
@@ -581,6 +571,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_enable_translucent_navigation_bar_title">반투명 하단바 활성화하기</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">하단바가 반투명합니다.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">하단바가 불투명합니다.</string>
+    <string name="revanced_enable_translucent_navigation_bar_user_dialog_message">특정 YouTube 앱 버전에서는 이 설정으로 인하여 시스템 네비게이션 바가 투명해지거나 PIP 모드에서 레이아웃이 깨질 수 있습니다.</string>
     <string name="revanced_hide_navigation_bar_title">하단바 숨기기</string>
     <string name="revanced_hide_navigation_bar_summary_on">하단바가 숨겨집니다.</string>
     <string name="revanced_hide_navigation_bar_summary_off">하단바가 표시됩니다.</string>
@@ -832,39 +823,19 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_thanks_button_title">Thanks 버튼 숨기기</string>
     <string name="revanced_hide_thanks_button_summary_on">Thanks 버튼이 숨겨집니다.</string>
     <string name="revanced_hide_thanks_button_summary_off">Thanks 버튼이 표시됩니다.</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
-    <string name="revanced_preference_category_hide_by_index">인덱스로 액션 버튼 숨기기</string>
-    <string name="revanced_hide_action_button_index_0_title">첫 번째 버튼 숨기기</string>
-    <string name="revanced_hide_action_button_index_0_summary_on">첫 번째 버튼이 숨겨집니다.</string>
-    <string name="revanced_hide_action_button_index_0_summary_off">첫 번째 버튼이 표시됩니다.</string>
-    <string name="revanced_hide_action_button_index_1_title">두 번째 버튼 숨기기</string>
-    <string name="revanced_hide_action_button_index_1_summary_on">두 번째 버튼이 숨겨집니다.</string>
-    <string name="revanced_hide_action_button_index_1_summary_off">두 번째 버튼이 표시됩니다.</string>
-    <string name="revanced_hide_action_button_index_2_title">세 번째 버튼 숨기기</string>
-    <string name="revanced_hide_action_button_index_2_summary_on">세 번째 버튼이 숨겨집니다.</string>
-    <string name="revanced_hide_action_button_index_2_summary_off">세 번째 버튼이 표시됩니다.</string>
-    <string name="revanced_hide_action_button_index_3_title">네 번째 버튼 숨기기</string>
-    <string name="revanced_hide_action_button_index_3_summary_on">네 번째 버튼이 숨겨집니다.</string>
-    <string name="revanced_hide_action_button_index_3_summary_off">네 번째 버튼이 표시됩니다.</string>
-    <string name="revanced_hide_action_button_index_4_title">다섯 번째 버튼 숨기기</string>
-    <string name="revanced_hide_action_button_index_4_summary_on">다섯 번째 버튼이 숨겨집니다.</string>
-    <string name="revanced_hide_action_button_index_4_summary_off">다섯 번째 버튼이 표시됩니다.</string>
-    <string name="revanced_hide_action_button_index_5_title">여섯 번째 버튼 숨기기</string>
-    <string name="revanced_hide_action_button_index_5_summary_on">여섯 번째 버튼이 숨겨집니다.</string>
-    <string name="revanced_hide_action_button_index_5_summary_off">여섯 번째 버튼이 표시됩니다.</string>
-    <string name="revanced_hide_action_button_index_6_title">일곱 번째 버튼 숨기기</string>
-    <string name="revanced_hide_action_button_index_6_summary_on">일곱 번째 버튼이 숨겨집니다.</string>
-    <string name="revanced_hide_action_button_index_6_summary_off">일곱 번째 버튼이 표시됩니다.</string>
-    <string name="revanced_hide_action_button_index_7_title">여덟 번째 버튼 숨기기</string>
-    <string name="revanced_hide_action_button_index_7_summary_on">여덟 번째 버튼이 숨겨집니다.</string>
-    <string name="revanced_hide_action_button_index_7_summary_off">여덟 번째 버튼이 표시됩니다.</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
-    <string name="revanced_preference_category_hide_by_index_live">실시간 스트림에서 인덱스로 숨기기</string>
-    <string name="revanced_hide_action_button_index_about_title">\'인덱스로 액션 버튼 숨기기\' 정보</string>
-    <string name="revanced_hide_action_button_index_about_summary">"액션 버튼이 초기화되기 전에 인덱스로 액션 버튼이 숨겨집니다.
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Experimental flags -->
+    <string name="revanced_hide_action_button_index_title">인덱스로 액션 버튼 숨기기</string>
+    <string name="revanced_hide_action_button_index_summary_on">"인덱스로 액션 버튼이 숨겨집니다.
 
-• 액션 버튼이 숨겨지면 빈 공간이 남겨지지 않습니다.
-• 액션 버튼의 인덱스는 항상 같은 버튼이 아닐 수도 있습니다."</string>
+알림:
+• 잘못된 액션 버튼이 숨겨지거나 액션 버튼이 숨겨지지 않을 수 있습니다.
+• 액션 버튼을 숨기면 빈 공간이 남지 않습니다."</string>
+    <string name="revanced_hide_action_button_index_summary_off">"식별자 필터로 액션 버튼이 숨겨집니다.
+
+알림:
+• 올바른 액션 버튼이 숨겨집니다.
+• 액션 버튼을 숨기면 빈 공간이 남습니다."</string>
+    <string name="revanced_remix_button_index_title">리믹스 버튼 숨기기</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">앰비언트 모드</string>
     <string name="revanced_preference_screen_ambient_mode_summary">앰비언트 모드 제한을 우회하거나 앰비언트 모드를 비활성화할 수 있습니다.</string>
@@ -1194,8 +1165,8 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_enable_custom_seekbar_color_title">사용자 정의 재생바 색상 활성화하기</string>
     <string name="revanced_enable_custom_seekbar_color_summary_on">사용자 정의 재생바 색상을 활성화합니다.</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">사용자 정의 재생바 색상을 비활성화합니다.</string>
-    <string name="revanced_custom_seekbar_color_primary_title">사용자 정의 재생바 주요 색상</string>
-    <string name="revanced_custom_seekbar_color_primary_summary">사용하고 싶은 재생바 주요 색상의 헥스 코드를 입력하세요.</string>
+    <string name="revanced_custom_seekbar_color_primary_title">사용자 정의 재생바 메인 색상</string>
+    <string name="revanced_custom_seekbar_color_primary_summary">사용하고 싶은 재생바 메인 색상의 헥스 코드를 입력하세요.</string>
     <string name="revanced_custom_seekbar_color_accent_title">사용자 정의 재생바 보조 색상</string>
     <string name="revanced_custom_seekbar_color_accent_summary">사용하고 싶은 재생바 보조 색상의 헥스 코드를 입력하세요.</string>
     <string name="revanced_custom_seekbar_color_invalid_toast">잘못된 재생바 색상입니다.</string>
@@ -1468,7 +1439,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_shorts_custom_actions_about_title">사용자 정의 동작 정보</string>
     <string name="revanced_shorts_custom_actions_about_summary">"이 설정은 아직 실험 기능이므로 완벽하게 작동한다는 보장은 없습니다.
 
-대부분의 버그는 클라이언트 측의 제한으로 인해 수정할 수 없으므로 테스트 목적으로만 사용하세요."</string>
+대부분의 버그는 클라이언트 측의 제한으로 인하여 수정할 수 없으므로 테스트 목적으로만 사용하세요."</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental flags -->
     <string name="revanced_enable_shorts_time_stamp_title">타임스탬프 활성화하기</string>
     <string name="revanced_enable_shorts_time_stamp_summary_on">"타임스탬프를 활성화합니다.
@@ -1533,11 +1504,11 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_swipe_overlay_timeout_title">스와이프 오버레이 타임아웃</string>
     <string name="revanced_swipe_overlay_timeout_summary">오버레이가 표시되는 시간을 지정할 수 있습니다. (밀리초)</string>
     <string name="revanced_swipe_brightness_sensitivity_title">밝기 스와이프 감도</string>
-    <string name="revanced_swipe_brightness_sensitivity_summary">밝기 스와이프의 최소 거리를 1-1000 사이에서 지정할 수 있습니다. (퍼센트)\n\n최소 거리가 짧을수록 밝기 레벨이 더 빠르게 변경됩니다.</string>
-    <string name="revanced_swipe_brightness_sensitivity_invalid_toast">밝기 스와이프 감도는 1-1000 사이여야 합니다. (퍼센트)</string>
+    <string name="revanced_swipe_brightness_sensitivity_summary">밝기 스와이프의 최소 거리를 1-1000 사이에서 지정할 수 있습니다. (백분율)\n\n최소 거리가 짧을수록 밝기 레벨이 더 빠르게 변경됩니다.</string>
+    <string name="revanced_swipe_brightness_sensitivity_invalid_toast">밝기 스와이프 감도는 1-1000 사이여야 합니다. (백분율)</string>
     <string name="revanced_swipe_volume_sensitivity_title">볼륨 스와이프 감도</string>
-    <string name="revanced_swipe_volume_sensitivity_summary" formatted="false">볼륨 스와이프의 최소 거리를 1-1000 사이에서 지정할 수 있습니다. (퍼센트)\n\n최소 거리가 짧을수록 볼륨 레벨이 더 빠르게 변경됩니다.\n\n권장 볼륨 스와이프 감도는 15단계 볼륨에서 100%, 150단계 볼륨에서 10%입니다.</string>
-    <string name="revanced_swipe_volume_sensitivity_invalid_toast">볼륨 스와이프 감도는 1-1000 사이여야 합니다. (퍼센트)</string>
+    <string name="revanced_swipe_volume_sensitivity_summary" formatted="false">볼륨 스와이프의 최소 거리를 1-1000 사이에서 지정할 수 있습니다. (백분율)\n\n최소 거리가 짧을수록 볼륨 레벨이 더 빠르게 변경됩니다.\n\n권장 볼륨 스와이프 감도는 15단계 볼륨에서 100%, 150단계 볼륨에서 10%입니다.</string>
+    <string name="revanced_swipe_volume_sensitivity_invalid_toast">볼륨 스와이프 감도는 1-1000 사이여야 합니다. (백분율)</string>
     <string name="revanced_disable_hdr_auto_brightness_title">HDR 자동 밝기 비활성화하기</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">HDR 자동 밝기를 비활성화합니다.</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">HDR 자동 밝기를 활성화합니다.</string>
@@ -1618,7 +1589,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_reject_av1_codec_title">AV1 코덱 응답 거부하기</string>
     <string name="revanced_reject_av1_codec_summary">"AV1 코덱 응답을 강제로 거부합니다.
 • 약 20초정도의 버퍼링 후에 다른 코덱으로 전환됩니다."</string>
-    <string name="revanced_reject_av1_codec_toast">Fallback 프로세스로 인해 약 20초정도의 버퍼링이 발생합니다.</string>
+    <string name="revanced_reject_av1_codec_toast">Fallback 프로세스로 인하여 약 20초정도의 버퍼링이 발생합니다.</string>
     <string name="revanced_remember_playback_speed_toast">기본 동영상 재생 속도 값을 %s으로 변경합니다.</string>
     <string name="revanced_remember_video_quality_mobile">모바일 네트워크 이용 시 기본 동영상 화질 값을 %s로 변경합니다.</string>
     <string name="revanced_remember_video_quality_none">동영상 화질을 설정할 수 없습니다.</string>
@@ -1992,7 +1963,7 @@ iOS를 기본 클라이언트로 사용하려는 경우에 이 값이 필요할 
     <string name="revanced_watch_history_about_status_blocked">• 시청 기록이 차단됩니다.</string>
     <string name="revanced_watch_history_about_status_replaced">• Google 계정의 시청 기록 설정을 따릅니다.</string>
     <string name="revanced_watch_history_about_status_original">"• Google 계정의 시청 기록 설정을 따릅니다.
-• '광고 차단기', '광고 &amp; 추적 차단 기능이 내장된 DNS 또는 VPN'으로 인해 시청 기록이 작동되지 않을 수 있습니다."</string>
+• DNS 또는 VPN으로 인하여 시청 기록이 작동되지 않을 수 있습니다."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">패치 정보</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

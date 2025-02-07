@@ -4,6 +4,7 @@
     <string name="accessibility_settings_edu_opt_in_text">Включить специальные возможности в плеере?</string>
     <string name="accessibility_settings_edu_opt_out_text">Служба специальных возможностей включена. Управление изменено.</string>
     <!-- Shared -->
+    <string name="revanced_extended_settings_title">RVX</string>
     <string name="revanced_extended_settings_search_title">Поиск %s</string>
     <string name="revanced_extended_reset_to_default_toast">К значениям по умолчанию.</string>
     <string name="revanced_preference_category_experimental_flag">Экспериментальные опции</string>
@@ -269,12 +270,6 @@ Shorts
     <string name="revanced_hide_feed_flyout_menu_summary_on">Фильтр всплывающего меню ленты включен.</string>
     <string name="revanced_hide_feed_flyout_menu_summary_off">Фильтр всплывающего меню ленты отключен.</string>
     <string name="revanced_hide_feed_flyout_menu_filter_type_title">Тип фильтра выдвижного меню в ленте</string>
-    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_on">"Фильтровать, если содержит.
-
-Чтобы скрыть меню <b>Воспроизвести следующим в очереди</b>, можно использовать <b>Воспроизвести следующим</b> или <b>в очереди</b> в качестве ключевых слов."</string>
-    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_off">"Фильтровать, если совпадают.
-
-Чтобы скрыть меню <b>Воспроизведение следующих в очереди</b>, можно использовать только <b>Воспроизведение следующих в очереди</b> в качестве ключевых слов."</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_title">Фильтр всплывающего меню ленты</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_summary">Список имен всплывающего меню ленты для скрытия.\nРазделять новой строкой.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter -->
@@ -454,12 +449,6 @@ Shorts
     <string name="revanced_hide_account_menu_summary">"Скрыть элементы меню аккаунта и вкладки \"Вы\".
 Некоторые компоненты не могут быть скрыты."</string>
     <string name="revanced_hide_account_menu_filter_type_title">Тип фильтра меню аккаунта</string>
-    <string name="revanced_hide_account_menu_filter_type_summary_on">"Фильтровать, если содержит.
-
-Чтобы скрыть меню <b>Оформить подписку YouTube Premium</b>, можно использовать <b>YouTube Premium</b> или <b>Premium</b> в качестве ключевых слов."</string>
-    <string name="revanced_hide_account_menu_filter_type_summary_off">"Фильтровать, если совпадают.
-
-Чтобы скрыть меню <b>Оформить подписку YouTube Premium</b>, можно использовать только <b>Оформить подписку YouTube Premium</b> в качестве ключевых слов."</string>
     <string name="revanced_hide_account_menu_filter_strings_title">Фильтр элементов меню аккаунта</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">Список элементов меню учетной записи для скрытия.\nРазделять новой строкой.</string>
     <string name="revanced_hide_handle_title">Скрыть псевдоним</string>
@@ -511,6 +500,7 @@ Shorts
     <string name="revanced_miniplayer_type_entry_4">Современный 1</string>
     <string name="revanced_miniplayer_type_entry_5">Современный 2</string>
     <string name="revanced_miniplayer_type_entry_6">Современный 3</string>
+    <string name="revanced_miniplayer_type_entry_7">Новейший 4</string>
     <string name="revanced_miniplayer_rounded_corners_title">Скругления углов мини-плеера</string>
     <string name="revanced_miniplayer_rounded_corners_summary_on">Скругления углов включено.</string>
     <string name="revanced_miniplayer_rounded_corners_summary_off">Скругления углов отключено.</string>
@@ -530,20 +520,20 @@ Shorts
 
 Мини-плеер можно перетаскивать за пределы экрана влево или вправо."</string>
     <string name="revanced_miniplayer_horizontal_drag_summary_off">Жест горизонтального перетаскивания отключен.</string>
-    <string name="revanced_miniplayer_hide_expand_close_title">Кнопки \"Развернуть\" и \"Закрыть\"</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_on">Кнопки скрыты.
-(развернуть или закрыть мини-плеер жестом)</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_off">Кнопки \"Развернуть\" и \"Закрыть\" отображены.</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_title">Кнопки \"Развернуть\" и \"Закрыть\"</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_on">"Кнопки \"Развернуть\" и \"Закрыть\" скрыты.
-Только жесты."</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_off">Кнопки \"Развернуть\" и \"Закрыть\" отображены.</string>
-    <string name="revanced_miniplayer_hide_subtext_title">Подстрочный текст</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_on">Подстрочный текст скрыт.</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_off">Подстрочный текст отображен.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_title">Скрыть наложенные кнопки</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_on">Наложенные кнопки скрыты.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_off">Наложенные кнопки отображаются.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_title">Скрыть кнопки развертывания и закрытия</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_on">"Кнопки скрыты.
+
+Проведите, чтобы развернуть или закрыть."</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_off">Кнопки развертывания и закрытия показываются.</string>
     <string name="revanced_miniplayer_hide_rewind_forward_title">Кнопки перемотки</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Кнопки перемотки скрыты.</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Кнопки перемотки отображены.</string>
+    <string name="revanced_miniplayer_hide_subtext_title">Подстрочный текст</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_on">Подстрочный текст скрыт.</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_off">Подстрочный текст отображен.</string>
     <string name="revanced_miniplayer_width_dip_title">Начальный размер</string>
     <string name="revanced_miniplayer_width_dip_summary">Начальный размер мини-плеера в пикселях.</string>
     <string name="revanced_miniplayer_width_dip_invalid_toast">Размер в пикселях должен быть между %1$s и %2$s.</string>
@@ -590,6 +580,7 @@ Shorts
     <string name="revanced_enable_translucent_navigation_bar_title">Полупрозрачность панели навигации</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">Полупрозрачность включена.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">Полупрозрачность отключена.</string>
+    <string name="revanced_enable_translucent_navigation_bar_user_dialog_message">В некоторых версиях YouTube этот параметр может сделать панель навигации прозрачной или нарушить макет в режиме PIP.</string>
     <string name="revanced_hide_navigation_bar_title">Панель навигации</string>
     <string name="revanced_hide_navigation_bar_summary_on">Панель навигации скрыта.</string>
     <string name="revanced_hide_navigation_bar_summary_off">Панель навигации отображена.</string>
@@ -840,39 +831,7 @@ Shorts
     <string name="revanced_hide_thanks_button_title">Кнопка \"Спасибо\"</string>
     <string name="revanced_hide_thanks_button_summary_on">Кнопка \"Спасибо\" скрыта.</string>
     <string name="revanced_hide_thanks_button_summary_off">Кнопка \"Спасибо\" отображена.</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
-    <string name="revanced_preference_category_hide_by_index">Скрытие по индексу</string>
-    <string name="revanced_hide_action_button_index_0_title">Первая кнопка</string>
-    <string name="revanced_hide_action_button_index_0_summary_on">Скрыта.</string>
-    <string name="revanced_hide_action_button_index_0_summary_off">Отображена.</string>
-    <string name="revanced_hide_action_button_index_1_title">Вторая кнопка</string>
-    <string name="revanced_hide_action_button_index_1_summary_on">Скрыта.</string>
-    <string name="revanced_hide_action_button_index_1_summary_off">Отображена.</string>
-    <string name="revanced_hide_action_button_index_2_title">Третья кнопка</string>
-    <string name="revanced_hide_action_button_index_2_summary_on">Скрыта.</string>
-    <string name="revanced_hide_action_button_index_2_summary_off">Отображена.</string>
-    <string name="revanced_hide_action_button_index_3_title">Четвертая кнопка</string>
-    <string name="revanced_hide_action_button_index_3_summary_on">Скрыта.</string>
-    <string name="revanced_hide_action_button_index_3_summary_off">Отображена.</string>
-    <string name="revanced_hide_action_button_index_4_title">Пятая кнопка</string>
-    <string name="revanced_hide_action_button_index_4_summary_on">Скрыта.</string>
-    <string name="revanced_hide_action_button_index_4_summary_off">Отображена.</string>
-    <string name="revanced_hide_action_button_index_5_title">Шестая кнопка</string>
-    <string name="revanced_hide_action_button_index_5_summary_on">Скрыта.</string>
-    <string name="revanced_hide_action_button_index_5_summary_off">Отображена.</string>
-    <string name="revanced_hide_action_button_index_6_title">Седьмая кнопка</string>
-    <string name="revanced_hide_action_button_index_6_summary_on">Скрыта.</string>
-    <string name="revanced_hide_action_button_index_6_summary_off">Отображена.</string>
-    <string name="revanced_hide_action_button_index_7_title">Восьмая кнопка</string>
-    <string name="revanced_hide_action_button_index_7_summary_on">Скрыта.</string>
-    <string name="revanced_hide_action_button_index_7_summary_off">Отображена.</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
-    <string name="revanced_preference_category_hide_by_index_live">Скрытие по индексу в прямых эфирах</string>
-    <string name="revanced_hide_action_button_index_about_title">О скрытии по индексу</string>
-    <string name="revanced_hide_action_button_index_about_summary">"Скрытие кнопок по индексу до их инициализации.
-
-- Скрытие кнопок действий не оставляет пустого места.
-- Индекс кнопок действий не всегда может быть одной и той же кнопкой."</string>
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Experimental flags -->
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Окружающая подсветка</string>
     <string name="revanced_preference_screen_ambient_mode_summary">Отключить окружающую подсветку или обойти ограничение в режиме экономии заряда батареи.</string>

@@ -228,22 +228,22 @@ This does not bypass the age restriction. It just accepts it automatically."</st
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Player</string>
 
-    <string name="revanced_enable_mini_player_next_button_title">Add miniplayer next button</string>
-    <string name="revanced_enable_mini_player_next_button_summary">Adds a next track button to the miniplayer.</string>
-    <string name="revanced_enable_mini_player_previous_button_title">Add miniplayer previous button</string>
-    <string name="revanced_enable_mini_player_previous_button_summary">Adds a previous track button to the miniplayer.</string>
-    <string name="revanced_enable_color_match_player_title">Change miniplayer color</string>
-    <string name="revanced_enable_color_match_player_summary">Changes the miniplayer color to match the fullscreen player.</string>
-    <string name="revanced_enable_black_player_background_title">Change player background color</string>
-    <string name="revanced_enable_black_player_background_summary">Changes the player background color to black.</string>
-    <string name="revanced_disable_mini_player_gesture_title">Disable miniplayer gesture</string>
-    <string name="revanced_disable_mini_player_gesture_summary">Disables swipe to change tracks in the miniplayer.</string>
+    <string name="revanced_add_miniplayer_next_button_title">Add miniplayer next button</string>
+    <string name="revanced_add_miniplayer_next_button_summary">Adds a next track button to the miniplayer.</string>
+    <string name="revanced_add_miniplayer_previous_button_title">Add miniplayer previous button</string>
+    <string name="revanced_add_miniplayer_previous_button_summary">Adds a previous track button to the miniplayer.</string>
+    <string name="revanced_change_miniplayer_color_title">Change miniplayer color</string>
+    <string name="revanced_change_miniplayer_color_summary">Changes the miniplayer color to match the fullscreen player.</string>
+    <string name="revanced_change_player_background_color_title">Change player background color</string>
+    <string name="revanced_change_player_background_color_summary">Changes the player background color to black.</string>
+    <string name="revanced_disable_miniplayer_gesture_title">Disable miniplayer gesture</string>
+    <string name="revanced_disable_miniplayer_gesture_summary">Disables swipe to change tracks in the miniplayer.</string>
     <string name="revanced_disable_player_gesture_title">Disable player gesture</string>
     <string name="revanced_disable_player_gesture_summary">Disables swipe to change tracks in the player.</string>
-    <string name="revanced_enable_force_minimized_player_title">Enable forced miniplayer</string>
-    <string name="revanced_enable_force_minimized_player_summary">Enables forced miniplayer when switching to a new track.</string>
-    <string name="revanced_enable_swipe_to_dismiss_mini_player_title">Enable swipe to dismiss miniplayer</string>
-    <string name="revanced_enable_swipe_to_dismiss_mini_player_summary">Enables swipe down to dismiss miniplayer.</string>
+    <string name="revanced_enable_forced_miniplayer_title">Enable forced miniplayer</string>
+    <string name="revanced_enable_forced_miniplayer_summary">Enables forced miniplayer when switching to a new track.</string>
+    <string name="revanced_enable_swipe_to_dismiss_miniplayer_title">Enable swipe to dismiss miniplayer</string>
+    <string name="revanced_enable_swipe_to_dismiss_miniplayer_summary">Enables swipe down to dismiss miniplayer.</string>
     <string name="revanced_enable_zen_mode_title">Enable Zen mode</string>
     <string name="revanced_enable_zen_mode_summary">Enables a light grey color for the player background to reduce eye strain.</string>
     <string name="revanced_enable_zen_mode_podcast_title">Enable Zen mode in podcasts</string>
@@ -256,8 +256,8 @@ This does not bypass the age restriction. It just accepts it automatically."</st
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">Hides the emoji and timestamp buttons when typing comments.</string>
     <string name="revanced_hide_fullscreen_share_button_title">Hide fullscreen Share button</string>
     <string name="revanced_hide_fullscreen_share_button_summary">Hides the Share button in the fullscreen player.</string>
-    <string name="revanced_hide_audio_video_switch_toggle_title">Hide Song / Video toggle</string>
-    <string name="revanced_hide_audio_video_switch_toggle_summary">Hides the Song / Video toggle in the player.</string>
+    <string name="revanced_hide_song_video_toggle_title">Hide Song / Video toggle</string>
+    <string name="revanced_hide_song_video_toggle_summary">Hides the Song / Video toggle in the player.</string>
     <string name="revanced_remember_repeat_state_title">Remember repeat state</string>
     <string name="revanced_remember_repeat_state_summary">Remembers the state of the repeat toggle.</string>
     <string name="revanced_remember_shuffle_state_title">Remember shuffle state</string>

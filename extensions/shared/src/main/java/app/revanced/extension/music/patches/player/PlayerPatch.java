@@ -108,12 +108,6 @@ public class PlayerPatch {
         return colors;
     }
 
-    public static boolean changeSeekBarPosition(boolean original) {
-        return SETTINGS_INITIALIZED
-                ? CHANGE_SEEK_BAR_POSITION
-                : original;
-    }
-
     public static boolean disableMiniPlayerGesture() {
         return Settings.DISABLE_MINIPLAYER_GESTURE.get();
     }

@@ -215,7 +215,6 @@ val customBrandingIconPatch = resourcePatch(
                             copyResources(
                                 "$youtubeMusicIconResourcePath/splash",
                                 it,
-                                createDirectoryIfNotExist = true
                             )
                         }
                     }

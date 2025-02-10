@@ -25,6 +25,7 @@ import app.revanced.patches.shared.litho.addLithoFilter
 import app.revanced.patches.shared.litho.lithoFilterPatch
 import app.revanced.patches.shared.textcomponent.hookSpannableString
 import app.revanced.patches.shared.textcomponent.textComponentPatch
+import app.revanced.util.fingerprint.injectLiteralInstructionBooleanCall
 import app.revanced.util.fingerprint.matchOrThrow
 import app.revanced.util.fingerprint.methodOrThrow
 import app.revanced.util.getReference
@@ -77,6 +78,19 @@ val actionBarComponentsPatch = bytecodePatch(
                     nop
                     """
             )
+
+            if (is_7_25_or_greater) {
+                actionBarPositionFeatureFlagFingerprint.injectLiteralInstructionBooleanCall(
+                    ACTION_BAR_POSITION_FEATURE_FLAG,
+                    "$ACTIONBAR_CLASS_DESCRIPTOR->changeActionBarPosition(Z)Z"
+                )
+
+                addSwitchPreference(
+                    CategoryType.ACTION_BAR,
+                    "revanced_change_action_bar_position",
+                    "false"
+                )
+            }
         }
 
         if (!is_7_25_or_greater) {

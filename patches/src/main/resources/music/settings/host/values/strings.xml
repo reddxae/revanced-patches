@@ -26,6 +26,8 @@
     <!-- PreferenceScreen: Action bar -->
     <string name="revanced_preference_screen_action_bar_title">Action bar</string>
 
+    <string name="revanced_change_action_bar_position_title">Change action bar position</string>
+    <string name="revanced_change_action_bar_position_summary">Moves the action bar below the play button.</string>
     <string name="revanced_hide_action_button_like_dislike_title">Hide Like and Dislike buttons</string>
     <string name="revanced_hide_action_button_like_dislike_summary">Hides the Like and Dislike buttons. It does not work in the old player layout.</string>
     <string name="revanced_hide_action_button_comment_title">Hide Comments button</string>

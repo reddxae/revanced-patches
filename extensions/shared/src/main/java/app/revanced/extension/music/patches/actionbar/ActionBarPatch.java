@@ -19,6 +19,8 @@ import app.revanced.extension.shared.utils.PackageUtils;
 
 @SuppressWarnings("unused")
 public class ActionBarPatch {
+    private static final boolean CHANGE_ACTION_BAR_POSITION =
+            Settings.CHANGE_ACTION_BAR_POSITION.get();
     private static final boolean HIDE_ACTION_BUTTON_LABEL =
             Settings.HIDE_ACTION_BUTTON_LABEL.get();
     private static final boolean HIDE_ACTION_BUTTON_LIKE_DISLIKE =
@@ -35,6 +37,12 @@ public class ActionBarPatch {
 
     @NonNull
     private static String buttonType = "";
+
+    public static boolean changeActionBarPosition(boolean original) {
+        return SETTINGS_INITIALIZED
+                ? CHANGE_ACTION_BAR_POSITION
+                : original;
+    }
 
     public static boolean hideActionBarLabel() {
         return HIDE_ACTION_BUTTON_LABEL;

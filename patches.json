@@ -192,7 +192,10 @@
     "use": false,
     "dependencies": [],
     "compatiblePackages": {
-      "com.reddit.frontpage": null
+      "com.reddit.frontpage": [
+        "2024.17.0",
+        "2025.05.1"
+      ]
     },
     "options": [
       {
@@ -491,7 +494,10 @@
     "use": false,
     "dependencies": [],
     "compatiblePackages": {
-      "com.reddit.frontpage": null
+      "com.reddit.frontpage": [
+        "2024.17.0",
+        "2025.05.1"
+      ]
     },
     "options": [
       {
@@ -744,6 +750,7 @@
       "BytecodePatch",
       "BytecodePatch",
       "BytecodePatch",
+      "BytecodePatch",
       "ResourcePatch",
       "ResourcePatch"
     ],
@@ -974,7 +981,10 @@
       "Settings for Reddit"
     ],
     "compatiblePackages": {
-      "com.reddit.frontpage": null
+      "com.reddit.frontpage": [
+        "2024.17.0",
+        "2025.05.1"
+      ]
     },
     "options": []
   },
@@ -1336,7 +1346,10 @@
       "Settings for Reddit"
     ],
     "compatiblePackages": {
-      "com.reddit.frontpage": null
+      "com.reddit.frontpage": [
+        "2024.17.0",
+        "2025.05.1"
+      ]
     },
     "options": []
   },
@@ -1410,6 +1423,7 @@
       "BytecodePatch",
       "ResourcePatch",
       "BytecodePatch",
+      "BytecodePatch",
       "ResourcePatch"
     ],
     "compatiblePackages": {
@@ -1458,6 +1472,7 @@
       "BytecodePatch",
       "Navigation bar components",
       "BytecodePatch",
+      "ResourcePatch",
       "ResourcePatch"
     ],
     "compatiblePackages": {
@@ -1481,7 +1496,10 @@
       "Settings for Reddit"
     ],
     "compatiblePackages": {
-      "com.reddit.frontpage": null
+      "com.reddit.frontpage": [
+        "2024.17.0",
+        "2025.05.1"
+      ]
     },
     "options": []
   },
@@ -1638,7 +1656,10 @@
       "Settings for Reddit"
     ],
     "compatiblePackages": {
-      "com.reddit.frontpage": null
+      "com.reddit.frontpage": [
+        "2024.17.0",
+        "2025.05.1"
+      ]
     },
     "options": []
   },
@@ -1737,7 +1758,10 @@
       "Settings for Reddit"
     ],
     "compatiblePackages": {
-      "com.reddit.frontpage": null
+      "com.reddit.frontpage": [
+        "2024.17.0",
+        "2025.05.1"
+      ]
     },
     "options": []
   },
@@ -1939,7 +1963,10 @@
       "BytecodePatch"
     ],
     "compatiblePackages": {
-      "com.reddit.frontpage": null
+      "com.reddit.frontpage": [
+        "2024.17.0",
+        "2025.05.1"
+      ]
     },
     "options": []
   },
@@ -1952,7 +1979,10 @@
       "BytecodePatch"
     ],
     "compatiblePackages": {
-      "com.reddit.frontpage": null
+      "com.reddit.frontpage": [
+        "2024.17.0",
+        "2025.05.1"
+      ]
     },
     "options": []
   },
@@ -2086,7 +2116,8 @@
       "BytecodePatch",
       "BytecodePatch",
       "BytecodePatch",
-      "ResourcePatch"
+      "ResourcePatch",
+      "BytecodePatch"
     ],
     "compatiblePackages": {
       "com.google.android.youtube": [
@@ -2107,7 +2138,10 @@
     "use": true,
     "dependencies": [],
     "compatiblePackages": {
-      "com.reddit.frontpage": null
+      "com.reddit.frontpage": [
+        "2024.17.0",
+        "2025.05.1"
+      ]
     },
     "options": []
   },
@@ -2161,7 +2195,10 @@
       "Settings for Reddit"
     ],
     "compatiblePackages": {
-      "com.reddit.frontpage": null
+      "com.reddit.frontpage": [
+        "2024.17.0",
+        "2025.05.1"
+      ]
     },
     "options": []
   },
@@ -2344,7 +2381,10 @@
       "Settings for Reddit"
     ],
     "compatiblePackages": {
-      "com.reddit.frontpage": null
+      "com.reddit.frontpage": [
+        "2024.17.0",
+        "2025.05.1"
+      ]
     },
     "options": []
   },
@@ -2404,7 +2444,10 @@
       "BytecodePatch"
     ],
     "compatiblePackages": {
-      "com.reddit.frontpage": null
+      "com.reddit.frontpage": [
+        "2024.17.0",
+        "2025.05.1"
+      ]
     },
     "options": [
       {
@@ -2757,6 +2800,9 @@
     "use": true,
     "dependencies": [
       "Settings for YouTube Music",
+      "ResourcePatch",
+      "BytecodePatch",
+      "ResourcePatch",
       "BytecodePatch"
     ],
     "compatiblePackages": {

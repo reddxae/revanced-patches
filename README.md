@@ -131,19 +131,19 @@ See the [documentation](https://github.com/inotia00/revanced-documentation#readm
 
 | 💊 Patch | 📜 Description | 🏹 Target Version |
 |:--------:|:--------------:|:-----------------:|
-| `Change package name` | Changes the package name for Reddit to the name specified in patch options. | ALL |
-| `Custom branding name for Reddit` | Changes the Reddit app name to the name specified in patch options. | ALL |
-| `Disable screenshot popup` | Adds an option to disable the popup that appears when taking a screenshot. | ALL |
-| `Hide Recently Visited shelf` | Adds an option to hide the Recently Visited shelf in the sidebar. | ALL |
-| `Hide ads` | Adds options to hide ads. | ALL |
-| `Hide navigation buttons` | Adds options to hide buttons in the navigation bar. | ALL |
-| `Hide recommended communities shelf` | Adds an option to hide the recommended communities shelves in subreddits. | ALL |
-| `Open links directly` | Adds an option to skip over redirection URLs in external links. | ALL |
-| `Open links externally` | Adds an option to always open links in your browser instead of in the in-app-browser. | ALL |
-| `Premium icon` | Unlocks premium app icons. | ALL |
-| `Remove subreddit dialog` | Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically. | ALL |
-| `Sanitize sharing links` | Adds an option to sanitize sharing links by removing tracking query parameters. | ALL |
-| `Settings for Reddit` | Applies mandatory patches to implement ReVanced Extended settings into the application. | ALL |
+| `Change package name` | Changes the package name for Reddit to the name specified in patch options. | 2024.17.0 ~ 2025.05.1 |
+| `Custom branding name for Reddit` | Changes the Reddit app name to the name specified in patch options. | 2024.17.0 ~ 2025.05.1 |
+| `Disable screenshot popup` | Adds an option to disable the popup that appears when taking a screenshot. | 2024.17.0 ~ 2025.05.1 |
+| `Hide Recently Visited shelf` | Adds an option to hide the Recently Visited shelf in the sidebar. | 2024.17.0 ~ 2025.05.1 |
+| `Hide ads` | Adds options to hide ads. | 2024.17.0 ~ 2025.05.1 |
+| `Hide navigation buttons` | Adds options to hide buttons in the navigation bar. | 2024.17.0 ~ 2025.05.1 |
+| `Hide recommended communities shelf` | Adds an option to hide the recommended communities shelves in subreddits. | 2024.17.0 ~ 2025.05.1 |
+| `Open links directly` | Adds an option to skip over redirection URLs in external links. | 2024.17.0 ~ 2025.05.1 |
+| `Open links externally` | Adds an option to always open links in your browser instead of in the in-app-browser. | 2024.17.0 ~ 2025.05.1 |
+| `Premium icon` | Unlocks premium app icons. | 2024.17.0 ~ 2025.05.1 |
+| `Remove subreddit dialog` | Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically. | 2024.17.0 ~ 2025.05.1 |
+| `Sanitize sharing links` | Adds an option to sanitize sharing links by removing tracking query parameters. | 2024.17.0 ~ 2025.05.1 |
+| `Settings for Reddit` | Applies mandatory patches to implement ReVanced Extended settings into the application. | 2024.17.0 ~ 2025.05.1 |
 </details>
 
 
@@ -195,7 +195,10 @@ Example:
     "description": "Adds options to hide ads.",
     "use":true,
     "compatiblePackages": {
-      "com.reddit.frontpage": "ALL"
+      "com.reddit.frontpage": [
+        "2024.17.0",
+        "2025.05.1"
+      ]
     },
     "options": []
   }

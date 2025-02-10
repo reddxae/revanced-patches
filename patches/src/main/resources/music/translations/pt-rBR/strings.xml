@@ -28,10 +28,10 @@
     <string name="revanced_hide_action_button_add_to_playlist_summary">Oculta o botão Salvar.</string>
     <string name="revanced_hide_action_button_download_title">Ocultar botão Download</string>
     <string name="revanced_hide_action_button_download_summary">Oculta o botão de Download.</string>
-    <string name="revanced_hide_action_button_share_title">Ocultar botão Compartilhar</string>
-    <string name="revanced_hide_action_button_share_summary">Oculta botão de Compartilhar.</string>
     <string name="revanced_hide_action_button_radio_title">Ocultar botão Rádio</string>
     <string name="revanced_hide_action_button_radio_summary">Oculta o botão de Rádio.</string>
+    <string name="revanced_hide_action_button_share_title">Ocultar botão Compartilhar</string>
+    <string name="revanced_hide_action_button_share_summary">Oculta botão de Compartilhar.</string>
     <string name="revanced_hide_action_button_label_title">Ocultar rótulo do botão de ação</string>
     <string name="revanced_hide_action_button_label_summary">Oculta os rótulos dos botões de ação.</string>
     <string name="revanced_external_downloader_action_title">Substituir ação do botão de Download</string>
@@ -49,10 +49,6 @@ Por favor, baixe %2$s do site."</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Anúncios</string>
     <string name="revanced_hide_fullscreen_ads_title">Ocultar anúncios em tela cheia</string>
-    <string name="revanced_hide_fullscreen_ads_summary">"Oculta anúncios de tela cheia.
-
-Limitações:
-• Às vezes você pode ver uma tela preta em branco ao invés da fonte inicial."</string>
     <string name="revanced_hide_general_ads_title">Ocultar anúncios gerais</string>
     <string name="revanced_hide_general_ads_summary">Oculta anúncios gerais.</string>
     <string name="revanced_hide_music_ads_title">Ocultar anúncios de mídia</string>
@@ -207,22 +203,8 @@ Isso não ignora a restrição de idade, apenas aceita isso automaticamente."</s
     <string name="revanced_hide_navigation_label_summary">Oculta o rótulo abaixo de cada botão de navegação.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Reprodutor</string>
-    <string name="revanced_enable_mini_player_next_button_title">Adicionar o botão próximo no mini reprodutor</string>
-    <string name="revanced_enable_mini_player_next_button_summary">Adiciona o botão próximo no mini reprodutor.</string>
-    <string name="revanced_enable_mini_player_previous_button_title">Adicionar o botão anterior no mini reprodutor</string>
-    <string name="revanced_enable_mini_player_previous_button_summary">Adiciona o botão anterior no mini reprodutor.</string>
-    <string name="revanced_enable_color_match_player_title">Alterar cor do mini reprodutor</string>
-    <string name="revanced_enable_color_match_player_summary">Altera a cor do mini reprodutor para a cor do reprodutor em tela cheia.</string>
-    <string name="revanced_enable_black_player_background_title">Alterar cor de fundo do reprodutor</string>
-    <string name="revanced_enable_black_player_background_summary">Altera a cor de fundo do reprodutor para preto.</string>
-    <string name="revanced_disable_mini_player_gesture_title">Desativar gesto do mini reprodutor</string>
-    <string name="revanced_disable_mini_player_gesture_summary">Desativa a função de deslizar para alterar faixa no mini reprodutor.</string>
     <string name="revanced_disable_player_gesture_title">Desativar gesto do reprodutor</string>
     <string name="revanced_disable_player_gesture_summary">Desativa a função de deslizar para alterar faixa no reprodutor.</string>
-    <string name="revanced_enable_force_minimized_player_title">Ativar mini reprodutor forçado</string>
-    <string name="revanced_enable_force_minimized_player_summary">Ativa o mini reprodutor forçado ao alternar para uma nova faixa.</string>
-    <string name="revanced_enable_swipe_to_dismiss_mini_player_title">Ativar deslizar para dispensar o mini reprodutor</string>
-    <string name="revanced_enable_swipe_to_dismiss_mini_player_summary">Permite deslizar para baixo para dispensar o mini reprodutor.</string>
     <string name="revanced_enable_zen_mode_title">Ativar modo Calmo</string>
     <string name="revanced_enable_zen_mode_summary">Ativa uma cor cinza claro para o fundo do reprodutor para reduzir o cansaço visual.</string>
     <string name="revanced_enable_zen_mode_podcast_title">Ativar o modo Calmo em podcasts</string>
@@ -235,8 +217,6 @@ Isso não ignora a restrição de idade, apenas aceita isso automaticamente."</s
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">Oculta os botões de emoji e marcação de tempo ao escrever comentários.</string>
     <string name="revanced_hide_fullscreen_share_button_title">Ocultar botão Compartilhar em tela cheia</string>
     <string name="revanced_hide_fullscreen_share_button_summary">Oculta o botão Compartilhar no reprodutor de tela cheia.</string>
-    <string name="revanced_hide_audio_video_switch_toggle_title">Ocultar alternador de Música / Vídeo</string>
-    <string name="revanced_hide_audio_video_switch_toggle_summary">Oculta o alternador de Música / Vídeo no reprodutor.</string>
     <string name="revanced_remember_repeat_state_title">Lembrar estado de repetição</string>
     <string name="revanced_remember_repeat_state_summary">Lembra o estado da alternância de repetição.</string>
     <string name="revanced_remember_shuffle_state_title">Lembrar estado do modo aleatório</string>

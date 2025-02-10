@@ -80,6 +80,7 @@
     <string name="revanced_hide_fullscreen_ads_title">전체 화면 광고 숨기기</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">전체 화면 광고가 숨겨집니다.</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">전체 화면 광고가 표시됩니다.</string>
+    <string name="revanced_fullscreen_ads_closed_toast">전체 화면 광고가 닫아집니다.</string>
     <string name="revanced_hide_general_ads_title">일반 레이아웃 광고 숨기기</string>
     <string name="revanced_hide_general_ads_summary_on">일반 레이아웃 광고가 숨겨집니다.</string>
     <string name="revanced_hide_general_ads_summary_off">일반 레이아웃 광고가 표시됩니다.</string>
@@ -271,6 +272,8 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_feed_flyout_menu_summary_on">피드 메뉴 구성요소 필터를 활성화합니다.</string>
     <string name="revanced_hide_feed_flyout_menu_summary_off">피드 메뉴 구성요소 필터를 비활성화합니다.</string>
     <string name="revanced_hide_feed_flyout_menu_filter_type_title">피드 메뉴 구성요소 필터 유형</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_on">부분 일치하는 경우에도 필터링합니다.&lt;br&gt;&lt;br&gt;• &lt;b&gt;\'현재 재생목록에서 다음 순서로 재생\'&lt;/b&gt; 메뉴를 숨기려면, &lt;b&gt;\'다음 순서\'&lt;/b&gt; 또는 &lt;b&gt;\'현재 재생목록에서\'&lt;/b&gt;와 같은 부분 일치하는 키워드도 필터링 키워드로 사용할 수 있습니다.</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_off">완전 일치하는 경우에만 필터링합니다.&lt;br&gt;&lt;br&gt;• &lt;b&gt;\'현재 재생목록에서 다음 순서로 재생\'&lt;/b&gt; 메뉴를 숨기려면, &lt;b&gt;\'현재 재생목록에서 다음 순서로 재생\'&lt;/b&gt;와 같은 완전 일치하는 키워드만 필터링 키워드로 사용할 수 있습니다.</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_title">피드 메뉴 구성요소 필터</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_summary">필터링할 메뉴 구성요소 이름을 줄바꿈으로 구분하여 설정합니다.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter -->
@@ -442,6 +445,8 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_account_menu_summary">"계정 메뉴 및 내 페이지에서 구성요소가 숨겨집니다.
 일부 구성요소는 숨겨지지 않을 수 있습니다."</string>
     <string name="revanced_hide_account_menu_filter_type_title">계정 메뉴 필터 유형</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_on">부분 일치하는 경우에도 필터링합니다.&lt;br&gt;&lt;br&gt;• &lt;b&gt;\'YouTube Premium 가입\'&lt;/b&gt; 메뉴를 숨기려면, &lt;b&gt;\'YouTube Premium\'&lt;/b&gt; 또는 &lt;b&gt;\'Premium\'&lt;/b&gt;와 같은 부분 일치하는 키워드도 필터링 키워드로 사용할 수 있습니다.</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_off">완전 일치하는 경우에만 필터링합니다.&lt;br&gt;&lt;br&gt;• &lt;b&gt;\'YouTube Premium 가입\'&lt;/b&gt; 메뉴를 숨기려면, &lt;b&gt;\'YouTube Premium 가입\'&lt;/b&gt;와 같은 완전 일치하는 키워드만 필터링 키워드로 사용할 수 있습니다.</string>
     <string name="revanced_hide_account_menu_filter_strings_title">계정 메뉴 필터 편집하기</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">필터링할 계정 메뉴 이름을 줄바꿈으로 구분하여 설정합니다.</string>
     <string name="revanced_hide_handle_title">핸들(@사용자 아이디) 숨기기</string>
@@ -829,13 +834,13 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
 
 알림:
 • 잘못된 액션 버튼이 숨겨지거나 액션 버튼이 숨겨지지 않을 수 있습니다.
-• 액션 버튼을 숨기면 빈 공간이 남지 않습니다."</string>
+• 액션 버튼이 숨겨지면 빈 공간이 남지 않습니다."</string>
     <string name="revanced_hide_action_button_index_summary_off">"식별자 필터로 액션 버튼이 숨겨집니다.
 
 알림:
 • 올바른 액션 버튼이 숨겨집니다.
-• 액션 버튼을 숨기면 빈 공간이 남습니다."</string>
-    <string name="revanced_remix_button_index_title">리믹스 버튼 숨기기</string>
+• 액션 버튼이 숨겨지면 빈 공간이 남습니다."</string>
+    <string name="revanced_remix_button_index_title">리믹스 버튼 인덱스</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">앰비언트 모드</string>
     <string name="revanced_preference_screen_ambient_mode_summary">앰비언트 모드 제한을 우회하거나 앰비언트 모드를 비활성화할 수 있습니다.</string>
@@ -1238,10 +1243,6 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_expand_video_description_title">동영상 설명 펼치기</string>
     <string name="revanced_expand_video_description_summary_on">동영상 설명이 자동으로 펼쳐집니다.</string>
     <string name="revanced_expand_video_description_summary_off">동영상 설명이 수동으로 펼쳐집니다.</string>
-    <string name="revanced_expand_video_description_strings_title">동영상 설명 패널 제목</string>
-    <string name="revanced_expand_video_description_strings_summary">"동영상 설명 패널의 제목을 사용자의 언어로 입력하세요.
-입력한 문자열이 동영상 설명 패널 제목과 일치하지 않으면 '동영상 설명 펼치기'가 작동되지 않을 수 있습니다. "</string>
-    <string name="revanced_expand_video_description_strings_default_value">설명</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">Shorts</string>
     <string name="revanced_disable_shorts_background_playback_title">Shorts 백그라운드 재생 비활성화하기</string>
@@ -1503,12 +1504,12 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_swipe_overlay_rect_size_invalid_toast">스와이프 영역 크기는 50 보다 클 수 없습니다.</string>
     <string name="revanced_swipe_overlay_timeout_title">스와이프 오버레이 타임아웃</string>
     <string name="revanced_swipe_overlay_timeout_summary">오버레이가 표시되는 시간을 지정할 수 있습니다. (밀리초)</string>
-    <string name="revanced_swipe_brightness_sensitivity_title">밝기 스와이프 감도</string>
+    <string name="revanced_swipe_brightness_sensitivity_title">밝기 스와이프 민감도</string>
     <string name="revanced_swipe_brightness_sensitivity_summary">밝기 스와이프의 최소 거리를 1-1000 사이에서 지정할 수 있습니다. (백분율)\n\n최소 거리가 짧을수록 밝기 레벨이 더 빠르게 변경됩니다.</string>
-    <string name="revanced_swipe_brightness_sensitivity_invalid_toast">밝기 스와이프 감도는 1-1000 사이여야 합니다. (백분율)</string>
-    <string name="revanced_swipe_volume_sensitivity_title">볼륨 스와이프 감도</string>
-    <string name="revanced_swipe_volume_sensitivity_summary" formatted="false">볼륨 스와이프의 최소 거리를 1-1000 사이에서 지정할 수 있습니다. (백분율)\n\n최소 거리가 짧을수록 볼륨 레벨이 더 빠르게 변경됩니다.\n\n권장 볼륨 스와이프 감도는 15단계 볼륨에서 100%, 150단계 볼륨에서 10%입니다.</string>
-    <string name="revanced_swipe_volume_sensitivity_invalid_toast">볼륨 스와이프 감도는 1-1000 사이여야 합니다. (백분율)</string>
+    <string name="revanced_swipe_brightness_sensitivity_invalid_toast">밝기 스와이프 민감도는 1-1000 사이여야 합니다. (백분율)</string>
+    <string name="revanced_swipe_volume_sensitivity_title">볼륨 스와이프 민감도</string>
+    <string name="revanced_swipe_volume_sensitivity_summary" formatted="false">볼륨 스와이프의 최소 거리를 1-1000 사이에서 지정할 수 있습니다. (백분율)\n\n최소 거리가 짧을수록 볼륨 레벨이 더 빠르게 변경됩니다.\n\n권장 볼륨 스와이프 민감도는 15단계 볼륨에서 100%, 150단계 볼륨에서 10%입니다.</string>
+    <string name="revanced_swipe_volume_sensitivity_invalid_toast">볼륨 스와이프 민감도는 1-1000 사이여야 합니다. (백분율)</string>
     <string name="revanced_disable_hdr_auto_brightness_title">HDR 자동 밝기 비활성화하기</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">HDR 자동 밝기를 비활성화합니다.</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">HDR 자동 밝기를 활성화합니다.</string>
@@ -1940,14 +1941,14 @@ AVC의 최대 화질 값은 1080p이고, OPUS 코덱을 사용불가 및 HDR 동
     <string name="revanced_spoof_streaming_data_language_title">Android VR 기본 오디오 스트림 언어</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <string name="revanced_preference_category_po_token_visitor_data">PoToken / VisitorData</string>
-    <string name="revanced_spoof_streaming_data_po_token_title">사용할 PoToken</string>
-    <string name="revanced_spoof_streaming_data_po_token_summary">\'신뢰할 수 있는 브라우저에서 BotGuard로 발행한 PoToken\'을 사용할 수 있습니다.</string>
-    <string name="revanced_spoof_streaming_data_visitor_data_title">사용할 VisitorData</string>
-    <string name="revanced_spoof_streaming_data_visitor_data_summary">\'신뢰할 수 있는 브라우저에서 BotGuard로 발행한 VisitorData\'를 사용할 수 있습니다.</string>
+    <string name="revanced_spoof_streaming_data_po_token_title">PoToken 등록하기</string>
+    <string name="revanced_spoof_streaming_data_po_token_summary">\'정보 메뉴와 연결된 페이지에 있는 사용법을 따라하여 발급받은 PoToken\'을 등록할 수 있습니다.</string>
+    <string name="revanced_spoof_streaming_data_visitor_data_title">VisitorData 등록하기</string>
+    <string name="revanced_spoof_streaming_data_visitor_data_summary">\'정보 메뉴와 연결된 페이지에 있는 사용법을 따라하여 발급받은 VisitorData\'를 등록할 수 있습니다.</string>
     <string name="revanced_spoof_streaming_data_po_token_visitor_data_about_title">PoToken / VisitorData에 대한 정보</string>
-    <string name="revanced_spoof_streaming_data_po_token_visitor_data_about_summary">"일부 클라이언트는 유효한 스트리밍 데이터 응답을 받기 위해 PoToken과 VisitorData가 필요합니다.
+    <string name="revanced_spoof_streaming_data_po_token_visitor_data_about_summary">"일부 클라이언트는 유효한 스트리밍 데이터 응답을 받기 위해 PoToken과 VisitorData가 요구됩니다.
 
-iOS를 기본 클라이언트로 사용하려는 경우에 이 값이 필요할 수 있습니다.
+iOS를 기본 클라이언트로 사용하려는 경우에 이 값이 요구될 수 있습니다.
 
 자세한 정보를 보려면 여기를 누르세요."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->

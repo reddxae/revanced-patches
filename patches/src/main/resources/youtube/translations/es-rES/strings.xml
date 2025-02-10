@@ -80,6 +80,7 @@ Por favor, descarga %2$s desde el sitio web."</string>
     <string name="revanced_hide_fullscreen_ads_title">Ocultar anuncios en pantalla completa</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">Los anuncios en pantalla completa están ocultos.</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">Los anuncios en pantalla completa están visibles.</string>
+    <string name="revanced_fullscreen_ads_closed_toast">Los anuncios en pantalla completa están cerrados.</string>
     <string name="revanced_hide_general_ads_title">Ocultar anuncios generales</string>
     <string name="revanced_hide_general_ads_summary_on">Los anuncios generales están ocultos.</string>
     <string name="revanced_hide_general_ads_summary_off">Los anuncios generales están visibles.</string>
@@ -1229,11 +1230,6 @@ Esta función funciona mejor con una conexión a Internet muy rápida."</string>
     <string name="revanced_expand_video_description_title">Expandir descripción de vídeo</string>
     <string name="revanced_expand_video_description_summary_on">La descripción del vídeo se expande automáticamente.</string>
     <string name="revanced_expand_video_description_summary_off">La descripción del vídeo se expande manualmente.</string>
-    <string name="revanced_expand_video_description_strings_title">Título en panel de descripción del vídeo</string>
-    <string name="revanced_expand_video_description_strings_summary">"Ingresa un título en el panel de descripción del vídeo.
-Estos caracteres varían dependiendo de tu idioma.
-\"Expandir descripción de vídeo\" puede no funcionar si guardas una cadena incorrecta."</string>
-    <string name="revanced_expand_video_description_strings_default_value">Descripción</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">Shorts</string>
     <string name="revanced_disable_shorts_background_playback_title">Desactivar la reproducción en segundo plano de Shorts</string>

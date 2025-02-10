@@ -26,10 +26,10 @@
     <string name="revanced_hide_action_button_add_to_playlist_summary">Verbergt de knop Toevoegen aan afspeellijst.</string>
     <string name="revanced_hide_action_button_download_title">Downloadknop verbergen</string>
     <string name="revanced_hide_action_button_download_summary">Verbergt de downloadknop.</string>
-    <string name="revanced_hide_action_button_share_title">Deelknop verbergen</string>
-    <string name="revanced_hide_action_button_share_summary">Verbergt de deelknop.</string>
     <string name="revanced_hide_action_button_radio_title">Keuzerondje verbergen</string>
     <string name="revanced_hide_action_button_radio_summary">Verbergt het startkeuzerondje.</string>
+    <string name="revanced_hide_action_button_share_title">Deelknop verbergen</string>
+    <string name="revanced_hide_action_button_share_summary">Verbergt de deelknop.</string>
     <string name="revanced_hide_action_button_label_title">Actieknoplabels verbergen</string>
     <string name="revanced_hide_action_button_label_summary">Verbergt labels in actieknoppen.</string>
     <string name="revanced_external_downloader_action_title">Downloadactieknop negeren</string>
@@ -47,7 +47,6 @@
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Advertenties</string>
     <string name="revanced_hide_fullscreen_ads_title">Advertenties op volledig scherm verbergen</string>
-    <string name="revanced_hide_fullscreen_ads_summary">"Verbergt advertenties op volledig scherm."</string>
     <string name="revanced_hide_general_ads_title">Algemene advertenties verbergen</string>
     <string name="revanced_hide_general_ads_summary">Verbergt algemene advertenties.</string>
     <string name="revanced_hide_music_ads_title">Verberg muziek advertenties</string>
@@ -135,16 +134,6 @@ Bekende problemen:
     <string name="revanced_hide_navigation_label_summary">Verberg labels in de navigatie balk.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Speler</string>
-    <string name="revanced_enable_mini_player_next_button_title">Schakel de volgende knop voor de minispeler in</string>
-    <string name="revanced_enable_mini_player_next_button_summary">Schakelt de volgende knop in de minispeler in.</string>
-    <string name="revanced_enable_mini_player_previous_button_title">Knop Vorige minispeler inschakelen</string>
-    <string name="revanced_enable_mini_player_previous_button_summary">Schakelt de vorige knop in de minispeler in.</string>
-    <string name="revanced_enable_color_match_player_title">Kleuren overeenkomst van de speler inschakelen</string>
-    <string name="revanced_enable_color_match_player_summary">Komt overeen met de kleur van de mini speler en de volschermspeler.</string>
-    <string name="revanced_enable_force_minimized_player_title">Forceer geminimaliseerde speler</string>
-    <string name="revanced_enable_force_minimized_player_summary">Houd de speler permanent geminimaliseerd, zelfs als er een ander nummer wordt afgespeeld.</string>
-    <string name="revanced_enable_swipe_to_dismiss_mini_player_title">Schakel vegen in om de minispeler te sluiten</string>
-    <string name="revanced_enable_swipe_to_dismiss_mini_player_summary">Hiermee kun je naar beneden vegen om de minispeler te sluiten.</string>
     <string name="revanced_enable_zen_mode_title">Zen-modus inschakelen</string>
     <string name="revanced_enable_zen_mode_summary">Een grijze tint toevoegen aan de videospeler om vermoeidheid van de ogen te verminderen.</string>
     <string name="revanced_enable_zen_mode_podcast_title">Schakel de zen-modus in podcasts in</string>
@@ -155,8 +144,6 @@ Bekende problemen:
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">Verbergt tijdstempel- en emoji-knoppen tijdens het typen van opmerkingen.</string>
     <string name="revanced_hide_fullscreen_share_button_title">Knop voor delen op volledig scherm verbergen</string>
     <string name="revanced_hide_fullscreen_share_button_summary">Verbergt de deelknop in de speler op volledig scherm.</string>
-    <string name="revanced_hide_audio_video_switch_toggle_title">Verberg audio-videoschakelaar</string>
-    <string name="revanced_hide_audio_video_switch_toggle_summary">Verbergt de audio-videoschakelaar in de speler.</string>
     <string name="revanced_remember_repeat_state_title">Herinner me de herhalingsstatus</string>
     <string name="revanced_remember_repeat_state_summary">Onthoudt de status van de herhaling.</string>
     <string name="revanced_remember_shuffle_state_title">Onthoud shuffle status</string>

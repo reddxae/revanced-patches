@@ -27,10 +27,10 @@
     <string name="revanced_hide_action_button_add_to_playlist_summary">プレイリストに追加ボタンを非表示にします。</string>
     <string name="revanced_hide_action_button_download_title">ダウンロードボタンを非表示</string>
     <string name="revanced_hide_action_button_download_summary">ダウンロードボタンを非表示にします。</string>
-    <string name="revanced_hide_action_button_share_title">共有ボタンを非表示</string>
-    <string name="revanced_hide_action_button_share_summary">共有ボタンを非表示にします。</string>
     <string name="revanced_hide_action_button_radio_title">ラジオボタンを非表示</string>
     <string name="revanced_hide_action_button_radio_summary">ラジオボタンを非表示にします。</string>
+    <string name="revanced_hide_action_button_share_title">共有ボタンを非表示</string>
+    <string name="revanced_hide_action_button_share_summary">共有ボタンを非表示にします。</string>
     <string name="revanced_hide_action_button_label_title">アクションボタンのラベルを非表示</string>
     <string name="revanced_hide_action_button_label_summary">アクションボタンのラベルを非表示にします。</string>
     <string name="revanced_external_downloader_action_title">ダウンロードボタンを置き換える</string>
@@ -48,7 +48,6 @@
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">広告</string>
     <string name="revanced_hide_fullscreen_ads_title">全画面広告を非表示</string>
-    <string name="revanced_hide_fullscreen_ads_summary">"全画面広告を非表示にします。"</string>
     <string name="revanced_hide_general_ads_title">一般広告を非表示</string>
     <string name="revanced_hide_general_ads_summary">一般広告を非表示にします。</string>
     <string name="revanced_hide_music_ads_title">音楽の広告を非表示</string>
@@ -193,22 +192,8 @@
     <string name="revanced_hide_navigation_label_summary">ナビゲーションバーのラベルを非表示にします。</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">プレーヤー</string>
-    <string name="revanced_enable_mini_player_next_button_title">「次の曲に進むボタン」を表示</string>
-    <string name="revanced_enable_mini_player_next_button_summary">ミニプレーヤーの「次の曲に進むボタン」を表示します。</string>
-    <string name="revanced_enable_mini_player_previous_button_title">「前の曲に戻るボタン」を表示</string>
-    <string name="revanced_enable_mini_player_previous_button_summary">ミニプレーヤーで「前の曲に戻るボタン」を表示します。</string>
-    <string name="revanced_enable_color_match_player_title">カラーマッチプレーヤーを有効化</string>
-    <string name="revanced_enable_color_match_player_summary">ミニプレーヤーと全画面プレーヤーの色を統一します。</string>
-    <string name="revanced_enable_black_player_background_title">黒のプレイヤー背景を有効化</string>
-    <string name="revanced_enable_black_player_background_summary">プレイヤーの背景の色を黒に固定します。</string>
-    <string name="revanced_disable_mini_player_gesture_title">ミニプレーヤージェスチャーを無効にする</string>
-    <string name="revanced_disable_mini_player_gesture_summary">ミニプレーヤーでスワイプによる曲の変更を無効にします</string>
     <string name="revanced_disable_player_gesture_title">プレイヤージェスチャーを無効にする</string>
     <string name="revanced_disable_player_gesture_summary">プレイヤーでスワイプによる曲の変更を無効にします。</string>
-    <string name="revanced_enable_force_minimized_player_title">最小化されたプレーヤーを有効にする</string>
-    <string name="revanced_enable_force_minimized_player_summary">他のトラックが再生されていても、プレーヤーを常に最小化したままにします。</string>
-    <string name="revanced_enable_swipe_to_dismiss_mini_player_title">スワイプしてミニプレーヤーを閉じる</string>
-    <string name="revanced_enable_swipe_to_dismiss_mini_player_summary">下にスワイプしてミニプレーヤーを閉じられるようにします。</string>
     <string name="revanced_enable_zen_mode_title">Zen モードを有効化</string>
     <string name="revanced_enable_zen_mode_summary">動画プレーヤーに灰色の色合いを追加し、目の疲れを軽減します。</string>
     <string name="revanced_enable_zen_mode_podcast_title">ポッドキャストでZenモードを有効化</string>
@@ -221,8 +206,6 @@
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">コメントを入力するときにタイムスタンプと絵文字ボタンを非表示にします。</string>
     <string name="revanced_hide_fullscreen_share_button_title">全画面共有ボタンを非表示</string>
     <string name="revanced_hide_fullscreen_share_button_summary">全画面表示のプレイヤーの共有ボタンを非表示にします。</string>
-    <string name="revanced_hide_audio_video_switch_toggle_title">曲と動画の切り替えスイッチを非表示</string>
-    <string name="revanced_hide_audio_video_switch_toggle_summary">プレイヤーの曲と動画の切り替えスイッチを非表示にします。</string>
     <string name="revanced_remember_repeat_state_title">リピートの状態を保存</string>
     <string name="revanced_remember_repeat_state_summary">リピートの状態を記憶します。</string>
     <string name="revanced_remember_shuffle_state_title">シャッフルの状態を保存</string>

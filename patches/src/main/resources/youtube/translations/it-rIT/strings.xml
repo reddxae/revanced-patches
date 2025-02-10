@@ -80,6 +80,7 @@ Si prega di scaricare %2$s dal sito web."</string>
     <string name="revanced_hide_fullscreen_ads_title">Nascondi gli annunci a schermo intero</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">Gli annunci a schermo intero sono nascosti.</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">Gli annunci a schermo intero sono visibili.</string>
+    <string name="revanced_fullscreen_ads_closed_toast">Annunci a schermo intero chiusi</string>
     <string name="revanced_hide_general_ads_title">Nascondi gli annunci generali</string>
     <string name="revanced_hide_general_ads_summary_on">Gli annunci generali sono nascosti.</string>
     <string name="revanced_hide_general_ads_summary_off">Gli annunci generali sono visibili.</string>
@@ -826,6 +827,18 @@ Impostazioni → Riproduzione automatica / Riproduzione → Riproduci automatic.
     <string name="revanced_hide_thanks_button_summary_on">Il pulsante Grazie è nascosto.</string>
     <string name="revanced_hide_thanks_button_summary_off">Il pulsante Grazie è visibile.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Experimental flags -->
+    <string name="revanced_hide_action_button_index_title">Nascondi i pulsanti di azione in base all\'indice</string>
+    <string name="revanced_hide_action_button_index_summary_on">"I pulsanti di azione sono nascosti in base all'indice.
+
+Note:
+• I pulsanti sbagliati potrebbero essere nascosti o potrebbero non essere nascosti affatto.
+• Nascondendoli in questo modo, non ci saranno spazi vuoti tra i pulsanti."</string>
+    <string name="revanced_hide_action_button_index_summary_off">"I pulsanti di azione sono nascosti in base al filtro identificatore.
+
+Note:
+• I pulsanti a destra sono nascosti.
+• Nascondendoli in questo modo, ci saranno spazi vuoti tra i pulsanti."</string>
+    <string name="revanced_remix_button_index_title">Indice del pulsante Remix</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Modalità Ambient</string>
     <string name="revanced_preference_screen_ambient_mode_summary">Disattiva la modalità Ambient o bypassa le sue restrizioni.</string>
@@ -1225,11 +1238,6 @@ Questa impostazione funziona meglio con una connessione internet molto veloce."<
     <string name="revanced_expand_video_description_title">Espandi automaticamente</string>
     <string name="revanced_expand_video_description_summary_on">La descrizione dei video viene espansa automaticamente.</string>
     <string name="revanced_expand_video_description_summary_off">La descrizione dei video non viene espansa automaticamente.</string>
-    <string name="revanced_expand_video_description_strings_title">Titolo del pannello</string>
-    <string name="revanced_expand_video_description_strings_summary">"Inserisci il titolo del pannello della descrizione nella tua lingua.
-
-Nota: l'opzione Espandi Automaticamente potrebbe non funzionare se il titolo inserito non corrisponde al titolo del pannello della descrizione."</string>
-    <string name="revanced_expand_video_description_strings_default_value">Descrizione</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">Shorts</string>
     <string name="revanced_disable_shorts_background_playback_title">Disattiva la riproduzione in background</string>

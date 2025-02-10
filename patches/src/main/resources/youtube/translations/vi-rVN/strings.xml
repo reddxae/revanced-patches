@@ -80,6 +80,7 @@
     <string name="revanced_hide_fullscreen_ads_title">Ẩn quảng cáo toàn màn hình</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">Quảng cáo toàn màn hình đã ẩn.</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">Quảng cáo toàn màn hình được hiển thị.</string>
+    <string name="revanced_fullscreen_ads_closed_toast">Quảng cáo toàn màn hình đã đóng.</string>
     <string name="revanced_hide_general_ads_title">Ẩn quảng cáo chung</string>
     <string name="revanced_hide_general_ads_summary_on">Quảng cáo chung đã ẩn.</string>
     <string name="revanced_hide_general_ads_summary_off">Quảng cáo chung được hiển thị.</string>
@@ -268,6 +269,8 @@ Cửa hàng"</string>
     <string name="revanced_hide_feed_flyout_menu_summary_on">Bộ lọc trình đơn tuỳ chọn trên bảng tin đã bật.</string>
     <string name="revanced_hide_feed_flyout_menu_summary_off">Bộ lọc trình đơn tuỳ chọn trên bảng tin đã tắt.</string>
     <string name="revanced_hide_feed_flyout_menu_filter_type_title">Cài đặt kiểu lọc</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_on">Lọc nếu trong đó có chứa từ khoá đã nhập.&lt;br&gt;&lt;br&gt;Để ẩn mục &lt;b&gt;\"Phát tiếp theo trong hàng chờ\"&lt;/b&gt;, bạn có thể sử dụng từ khoá &lt;b&gt;\"Phát tiếp theo\"&lt;/b&gt; hoặc &lt;b&gt;\"hàng chờ\"&lt;/b&gt;.</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_off">Lọc nếu khớp toàn bộ từ khoá đã nhập.&lt;br&gt;&lt;br&gt;Để ẩn mục &lt;b&gt;\"Phát tiếp theo trong hàng chờ\"&lt;/b&gt;, bạn chỉ có thể sử dụng từ khoá &lt;b&gt;\"Phát tiếp theo trong hàng chờ\"&lt;/b&gt;.</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_title">Cài đặt bộ lọc</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_summary">Nhập tên các mục thành phần của trình đơn tuỳ chọn mà bạn muốn lọc được phân cách bằng dòng.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter -->
@@ -443,6 +446,8 @@ Nếu muốn tắt tính năng này sau đó, bạn nên xóa dữ liệu ứng 
     <string name="revanced_hide_account_menu_summary">"Ẩn các mục của trình đơn Tài khoản và thẻ Bạn.
 Một số mục có thể không bị ẩn."</string>
     <string name="revanced_hide_account_menu_filter_type_title">Cài đặt kiểu lọc</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_on">Lọc nếu trong đó có chứa từ khoá đã nhập.&lt;br&gt;&lt;br&gt;Để ẩn mục &lt;b&gt;\"Mua Youtube Premium\"&lt;/b&gt;, bạn có thể sử dụng từ khoá &lt;b&gt;\"YouTube Premium\"&lt;/b&gt; hoặc &lt;b&gt;\"Premium\"&lt;/b&gt;.</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_off">Lọc nếu khớp toàn bộ từ khoá đã nhập.&lt;br&gt;&lt;br&gt;Để ẩn mục &lt;b&gt;\"Mua Youtube Premium\"&lt;/b&gt;, bạn chỉ có thể sử dụng từ khoá &lt;b&gt;\"Mua Youtube Premium\"&lt;/b&gt;.</string>
     <string name="revanced_hide_account_menu_filter_strings_title">Cài đặt bộ lọc</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">Nhập tên các mục thành phần của trình đơn Tài khoản mà bạn muốn lọc được phân cách bằng dòng.</string>
     <string name="revanced_hide_handle_title">Ẩn tên hiển thị</string>
@@ -787,8 +792,8 @@ Cài đặt → Tự động phát/Phát → Tự động phát video tiếp the
     <string name="revanced_sanitize_video_subtitle_summary_on">"Các tag có cụm từ như \"#\", \"Chiến dịch gây quỹ\", \"Cửa hàng\" và \"sản phẩm\" đã ẩn bên dưới tiêu đề video."</string>
     <string name="revanced_sanitize_video_subtitle_summary_off">"Các tag có các cụm từ như \"#\", \"Chiến dịch gây quỹ\", \"Cửa hàng\" và \"sản phẩm\" được hiển thị trong phụ đề video."</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons -->
-    <string name="revanced_preference_screen_action_buttons_title">Nút thao tác</string>
-    <string name="revanced_preference_screen_action_buttons_summary">Ẩn hoặc hiển thị các nút thao tác bên dưới video.</string>
+    <string name="revanced_preference_screen_action_buttons_title">Nút tương tác</string>
+    <string name="revanced_preference_screen_action_buttons_summary">Ẩn hoặc hiển thị các nút tương tác bên dưới video.</string>
     <string name="revanced_disable_like_dislike_glow_title">Tắt hoạt ảnh các nút Thích và Không thích</string>
     <string name="revanced_disable_like_dislike_glow_summary_on">Các nút Thích và Không thích sẽ không sáng lên khi nhấn vào.</string>
     <string name="revanced_disable_like_dislike_glow_summary_off">Các nút Thích và Không thích sẽ sáng lên khi nhấn vào.</string>
@@ -823,6 +828,18 @@ Cài đặt → Tự động phát/Phát → Tự động phát video tiếp the
     <string name="revanced_hide_thanks_button_summary_on">Nút Cảm ơn đã ẩn.</string>
     <string name="revanced_hide_thanks_button_summary_off">Nút Cảm ơn được hiển thị.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Experimental flags -->
+    <string name="revanced_hide_action_button_index_title">Ẩn nút thao tác theo thứ tự</string>
+    <string name="revanced_hide_action_button_index_summary_on">"Nút tương tác đã ẩn theo thứ tự.
+
+Cụ thể:
+• Các nút tương tác có thể ẩn không đúng, hoặc không bị ẩn.
+• Các nút tương tác đang bị ẩn sẽ không để lại khoảng trống."</string>
+    <string name="revanced_hide_action_button_index_summary_off">"Các nút tương tác đã ẩn theo tên.
+
+Cụ thể:
+• Các nút tương tác bên phải bị ẩn.
+• Các nút tương tác đang bị ẩn sẽ để lại khoảng trống."</string>
+    <string name="revanced_remix_button_index_title">Vị trí nút Phối lại</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Chế độ môi trường xung quanh</string>
     <string name="revanced_preference_screen_ambient_mode_summary">Tắt hoặc bỏ qua các hạn chế của Chế độ môi trường xung quanh.</string>
@@ -1223,10 +1240,6 @@ Vì vậy, bạn nên bật tính năng này khi có kết nối mạng ổn đ�
     <string name="revanced_expand_video_description_title">Mở rộng mô tả video</string>
     <string name="revanced_expand_video_description_summary_on">Mô tả video được mở rộng tự động.</string>
     <string name="revanced_expand_video_description_summary_off">Mô tả video được mở rộng thủ công.</string>
-    <string name="revanced_expand_video_description_strings_title">Tiêu đề trong bảng mô tả video</string>
-    <string name="revanced_expand_video_description_strings_summary">"Nhập tiêu đề vào bảng mô tả video.
-Mở rộng mô tả video có thể không hoạt động nếu bạn nhập nội dung không khớp với tiêu đề thực tế của bảng mô tả video."</string>
-    <string name="revanced_expand_video_description_strings_default_value">Mô tả</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">Shorts</string>
     <string name="revanced_disable_shorts_background_playback_title">Tắt tính năng phát trong nền cho trình Shorts</string>
@@ -1345,7 +1358,7 @@ Cụ thể:
     <string name="revanced_hide_shorts_use_this_sound_button_summary_on">Nút \"Dùng âm thanh này\" đã ẩn.</string>
     <string name="revanced_hide_shorts_use_this_sound_button_summary_off">Nút \"Dùng âm thanh này\" được hiển thị.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Action buttons -->
-    <string name="revanced_preference_category_action_buttons">Nút thao tác</string>
+    <string name="revanced_preference_category_action_buttons">Nút tương tác</string>
     <string name="revanced_hide_shorts_like_button_title">Ẩn nút Thích</string>
     <string name="revanced_hide_shorts_like_button_summary_on">Nút Thích đã ẩn.</string>
     <string name="revanced_hide_shorts_like_button_summary_off">Nút Thích được hiển thị.</string>

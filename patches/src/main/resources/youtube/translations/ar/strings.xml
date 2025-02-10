@@ -80,6 +80,7 @@
     <string name="revanced_hide_fullscreen_ads_title">إخفاء إعلانات ملء الشاشة</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">تم إخفاء إعلانات ملء الشاشة.</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">يتم عرض إعلانات ملء الشاشة.</string>
+    <string name="revanced_fullscreen_ads_closed_toast">تم إغلاق الإعلانات على كامل الشاشة.</string>
     <string name="revanced_hide_general_ads_title">إخفاء الإعلانات العامة</string>
     <string name="revanced_hide_general_ads_summary_on">تم إخفاء الإعلانات العامة.</string>
     <string name="revanced_hide_general_ads_summary_off">يتم عرض الإعلانات العامة.</string>
@@ -824,6 +825,18 @@
     <string name="revanced_hide_thanks_button_summary_on">تم إخفاء زر شكرًا.</string>
     <string name="revanced_hide_thanks_button_summary_off">يتم عرض زر شكرًا.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Experimental flags -->
+    <string name="revanced_hide_action_button_index_title">إخفاء زر الإجراء حسب الفهرس</string>
+    <string name="revanced_hide_action_button_index_summary_on">"تم إخفاء أزرار الإجراءات بواسطة الفهرس.
+
+معلومات:
+• قد تكون أزرار الإجراءات مخفية بشكل خاطئ، أو قد لا تكون أزرار الإجراءات مخفية.
+• لا يترك إخفاء أزرار الإجراءات أي مساحة فارغة."</string>
+    <string name="revanced_hide_action_button_index_summary_off">"تم إخفاء أزرار الإجراءات بواسطة مرشح المعرف.
+
+معلومات:
+• يتم إخفاء أزرار الإجراءات اليمنى.
+• يؤدي إخفاء أزرار الإجراءات إلى ترك مساحة فارغة."</string>
+    <string name="revanced_remix_button_index_title">فهرس زر ريمكس</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">وضع الإضاءة السينمائية</string>
     <string name="revanced_preference_screen_ambient_mode_summary">تعطيل وضع الإضاءة السينمائية أو تجاوز قيود وضع الإضاءة السينمائية.</string>
@@ -1224,10 +1237,6 @@
     <string name="revanced_expand_video_description_title">توسيع وصف الفيديو</string>
     <string name="revanced_expand_video_description_summary_on">يتم توسيع أوصاف الفيديو تلقائيًا.</string>
     <string name="revanced_expand_video_description_summary_off">لا يتم توسيع أوصاف الفيديو تلقائيًا.</string>
-    <string name="revanced_expand_video_description_strings_title">العنوان في لوحة وصف الفيديو</string>
-    <string name="revanced_expand_video_description_strings_summary">"أدخل عنوان لوحة وصف الفيديو بلغتك.
-قد لا يعمل خيار توسيع وصف الفيديو إذا كانت السلسلة المدخلة لا تتطابق مع عنوان لوحة وصف الفيديو."</string>
-    <string name="revanced_expand_video_description_strings_default_value">الوصف</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">Shorts</string>
     <string name="revanced_disable_shorts_background_playback_title">تعطيل تشغيل فيديوهات Shorts في الخلفية</string>

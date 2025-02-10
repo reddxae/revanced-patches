@@ -26,10 +26,10 @@
     <string name="revanced_hide_action_button_add_to_playlist_summary">隐藏添加到播放列表按钮</string>
     <string name="revanced_hide_action_button_download_title">隐藏下载按钮</string>
     <string name="revanced_hide_action_button_download_summary">隐藏下载按钮</string>
-    <string name="revanced_hide_action_button_share_title">隐藏分享按钮</string>
-    <string name="revanced_hide_action_button_share_summary">隐藏分享按钮</string>
     <string name="revanced_hide_action_button_radio_title">隐藏电台按钮</string>
     <string name="revanced_hide_action_button_radio_summary">隐藏开启电台按钮</string>
+    <string name="revanced_hide_action_button_share_title">隐藏分享按钮</string>
+    <string name="revanced_hide_action_button_share_summary">隐藏分享按钮</string>
     <string name="revanced_hide_action_button_label_title">隐藏操作按钮标签</string>
     <string name="revanced_hide_action_button_label_summary">隐藏操作按钮中的标签</string>
     <string name="revanced_external_downloader_action_title">覆盖下载操作按钮</string>
@@ -47,7 +47,6 @@
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">广告</string>
     <string name="revanced_hide_fullscreen_ads_title">隐藏全屏广告</string>
-    <string name="revanced_hide_fullscreen_ads_summary">"隐藏全屏广告"</string>
     <string name="revanced_hide_general_ads_title">隐藏一般广告</string>
     <string name="revanced_hide_general_ads_summary">隐藏一般广告</string>
     <string name="revanced_hide_music_ads_title">音乐广告</string>
@@ -182,18 +181,6 @@
     <string name="revanced_hide_navigation_label_summary">隐藏导航栏标签</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">播放器</string>
-    <string name="revanced_enable_mini_player_next_button_title">启用迷你播放器的下一首按钮</string>
-    <string name="revanced_enable_mini_player_next_button_summary">启用迷你播放器的下一首按钮</string>
-    <string name="revanced_enable_mini_player_previous_button_title">启用迷你播放器的上一首按钮</string>
-    <string name="revanced_enable_mini_player_previous_button_summary">启用迷你播放器的上一首按钮</string>
-    <string name="revanced_enable_color_match_player_title">匹配播放器颜色</string>
-    <string name="revanced_enable_color_match_player_summary">使导航栏播放器与全屏播放器颜色一致.</string>
-    <string name="revanced_enable_black_player_background_title">启用黑色播放器背景</string>
-    <string name="revanced_enable_black_player_background_summary">将播放器背景颜色更改为黑色</string>
-    <string name="revanced_enable_force_minimized_player_title">强制最小化播放器</string>
-    <string name="revanced_enable_force_minimized_player_summary">保持播放器最小化，即使播放另一首曲目</string>
-    <string name="revanced_enable_swipe_to_dismiss_mini_player_title">启用滑动以关闭迷你播放器</string>
-    <string name="revanced_enable_swipe_to_dismiss_mini_player_summary">启用向下滑动以关闭迷你播放器</string>
     <string name="revanced_enable_zen_mode_title">禅定模式</string>
     <string name="revanced_enable_zen_mode_summary">在视频播放器上添加灰色阴影以减少眼睛疲劳</string>
     <string name="revanced_enable_zen_mode_podcast_title">在播客中启用 Zen 模式</string>
@@ -205,8 +192,6 @@
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">输入评论时隐藏时间戳和表情符号按钮</string>
     <string name="revanced_hide_fullscreen_share_button_title">隐藏全屏分享按钮</string>
     <string name="revanced_hide_fullscreen_share_button_summary">隐藏全屏播放器中的分享按钮</string>
-    <string name="revanced_hide_audio_video_switch_toggle_title">隐藏音频/视频开关</string>
-    <string name="revanced_hide_audio_video_switch_toggle_summary">隐藏播放器中的音频/视频开关</string>
     <string name="revanced_remember_repeat_state_title">记住重复播放状态</string>
     <string name="revanced_remember_repeat_state_summary">记住重复播放状态</string>
     <string name="revanced_remember_shuffle_state_title">记住随机播放状态</string>

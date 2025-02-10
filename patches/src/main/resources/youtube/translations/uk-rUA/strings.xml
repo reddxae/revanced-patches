@@ -80,6 +80,7 @@
     <string name="revanced_hide_fullscreen_ads_title">Приховати повноекранну рекламу</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">Повноекранну рекламу приховано.</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">Повноекранну рекламу показується.</string>
+    <string name="revanced_fullscreen_ads_closed_toast">Повноекранну рекламу закрито.</string>
     <string name="revanced_hide_general_ads_title">Приховати загальну рекламу</string>
     <string name="revanced_hide_general_ads_summary_on">Загальну рекламу приховано.</string>
     <string name="revanced_hide_general_ads_summary_off">Загальну рекламу показується.</string>
@@ -825,6 +826,18 @@
     <string name="revanced_hide_thanks_button_summary_on">Кнопку Дякую приховано.</string>
     <string name="revanced_hide_thanks_button_summary_off">Кнопку Дякую показується.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Experimental flags -->
+    <string name="revanced_hide_action_button_index_title">Приховувати кнопки дії за індексом</string>
+    <string name="revanced_hide_action_button_index_summary_on">"Кнопки дії приховуються за індексом.
+
+Інформація:
+• Можуть неправильно приховуватися чи не приховуватися кнопки дії.
+• Приховування кнопок дії не залишає порожніх місць."</string>
+    <string name="revanced_hide_action_button_index_summary_off">"Кнопки дії приховуються за фільтром ідентифікаторів.
+
+Інформація:
+• Праві кнопки дії приховано.
+• Приховування кнопок дії залишає порожні місця."</string>
+    <string name="revanced_remix_button_index_title">Індекс кнопки Ремікс</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Кінематографічне освітлення</string>
     <string name="revanced_preference_screen_ambient_mode_summary">Обходити обмеження кінематографічного освітлення чи вимкнути кінематографічне освітлення.</string>
@@ -1225,11 +1238,6 @@
     <string name="revanced_expand_video_description_title">Розгортати опис відео</string>
     <string name="revanced_expand_video_description_summary_on">Опис відео розгортається автоматично.</string>
     <string name="revanced_expand_video_description_summary_off">Опис відео розгортається вручну.</string>
-    <string name="revanced_expand_video_description_strings_title">Назва в панелі опису відео</string>
-    <string name="revanced_expand_video_description_strings_summary">"Введіть назву в панелі опису відео.
-Ці символи варіюються залежно від вашої мови.
-'Розгортати опис відео' може не працювати, якщо збережете неправильний рядок."</string>
-    <string name="revanced_expand_video_description_strings_default_value">Опис</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">YouTube Shorts</string>
     <string name="revanced_disable_shorts_background_playback_title">Вимкнути фонове відтворення Shorts</string>

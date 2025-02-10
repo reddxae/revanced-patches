@@ -27,10 +27,10 @@
     <string name="revanced_hide_action_button_add_to_playlist_summary">Oculta botón Guardar.</string>
     <string name="revanced_hide_action_button_download_title">Ocultar botón Descargar</string>
     <string name="revanced_hide_action_button_download_summary">Oculta el botón Descargar.</string>
-    <string name="revanced_hide_action_button_share_title">Ocultar botón de compartir</string>
-    <string name="revanced_hide_action_button_share_summary">Oculta el botón Compartir.</string>
     <string name="revanced_hide_action_button_radio_title">Ocultar botón de emisoras de radio</string>
     <string name="revanced_hide_action_button_radio_summary">Oculta el botón Radio.</string>
+    <string name="revanced_hide_action_button_share_title">Ocultar botón de compartir</string>
+    <string name="revanced_hide_action_button_share_summary">Oculta el botón Compartir.</string>
     <string name="revanced_hide_action_button_label_title">Ocultar etiquetas de botón de acción</string>
     <string name="revanced_hide_action_button_label_summary">Oculta las etiquetas de los botones de acción.</string>
     <string name="revanced_external_downloader_action_title">Reemplazar botón de acción de Descarga</string>
@@ -48,7 +48,6 @@ Descarga %2$s desde el sitio web."</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Anuncios</string>
     <string name="revanced_hide_fullscreen_ads_title">Ocultar anuncios en pantalla completa</string>
-    <string name="revanced_hide_fullscreen_ads_summary">"Oculta anuncios en pantalla completa."</string>
     <string name="revanced_hide_general_ads_title">Ocultar anuncios generales</string>
     <string name="revanced_hide_general_ads_summary">Oculta anuncios generales.</string>
     <string name="revanced_hide_music_ads_title">Ocultar anuncios de música</string>
@@ -199,22 +198,8 @@ Esto no evita la restricción de edad. Solo la acepta automáticamente."</string
     <string name="revanced_hide_navigation_label_summary">Oculta las etiquetas en la barra de navegación.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Reproductor</string>
-    <string name="revanced_enable_mini_player_next_button_title">Añadir botón siguiente al minireproductor</string>
-    <string name="revanced_enable_mini_player_next_button_summary">Añadir botón siguiente pista al minireproductor.</string>
-    <string name="revanced_enable_mini_player_previous_button_title">Añadir botón anterior al minireproductor</string>
-    <string name="revanced_enable_mini_player_previous_button_summary">Añadir botón pista anterior al minireproductor.</string>
-    <string name="revanced_enable_color_match_player_title">Activar coincidencia de color de reproductores</string>
-    <string name="revanced_enable_color_match_player_summary">Hace coincidir el color del reproductor a pantalla completa con el de minimizado.</string>
-    <string name="revanced_enable_black_player_background_title">Activar fondo de reproductor negro</string>
-    <string name="revanced_enable_black_player_background_summary">Cambia el color de fondo del reproductor a negro.</string>
-    <string name="revanced_disable_mini_player_gesture_title">Desactivar gesto de minireproductor</string>
-    <string name="revanced_disable_mini_player_gesture_summary">Desactivar el gesto de deslizar para cambiar de pista en el minireproductor.</string>
     <string name="revanced_disable_player_gesture_title">Desactivar gesto del reproductor</string>
     <string name="revanced_disable_player_gesture_summary">Desactivar el gesto de deslizar para cambiar de pista en el reproductor.</string>
-    <string name="revanced_enable_force_minimized_player_title">Activar reproductor minimizado forzado</string>
-    <string name="revanced_enable_force_minimized_player_summary">Mantiene el reproductor permanentemente minimizado incluso si se reproduce otra pista.</string>
-    <string name="revanced_enable_swipe_to_dismiss_mini_player_title">Activar deslizar para descartar el minireproductor</string>
-    <string name="revanced_enable_swipe_to_dismiss_mini_player_summary">Permite deslizar hacia abajo para descartar el minireproductor.</string>
     <string name="revanced_enable_zen_mode_title">Activar modo zen</string>
     <string name="revanced_enable_zen_mode_summary">Añade un tinte gris al reproductor de vídeo para reducir la fatiga visual.</string>
     <string name="revanced_enable_zen_mode_podcast_title">Activar el modo Zen en podcasts</string>
@@ -227,8 +212,6 @@ Esto no evita la restricción de edad. Solo la acepta automáticamente."</string
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">Oculta los botones marca de tiempo y emoji al escribir comentarios.</string>
     <string name="revanced_hide_fullscreen_share_button_title">Ocultar el botón Compartir en pantalla completa</string>
     <string name="revanced_hide_fullscreen_share_button_summary">Oculta el botón Compartir en el reproductor de pantalla completa.</string>
-    <string name="revanced_hide_audio_video_switch_toggle_title">Ocultar Interruptor de Audio / Video</string>
-    <string name="revanced_hide_audio_video_switch_toggle_summary">Oculta el interruptor de Audio / Video en el reproductor.</string>
     <string name="revanced_remember_repeat_state_title">Recordar estado de repetición</string>
     <string name="revanced_remember_repeat_state_summary">Recuerda el estado de la repetición.</string>
     <string name="revanced_remember_shuffle_state_title">Recordar estado aleatorio</string>

@@ -80,6 +80,7 @@ Pobierz %2$s ze strony internetowej."</string>
     <string name="revanced_hide_fullscreen_ads_title">Pełnoekranowe reklamy</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">Ukryte</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">Widoczne</string>
+    <string name="revanced_fullscreen_ads_closed_toast">Zamknięto pełnoreklamowe reklamy.</string>
     <string name="revanced_hide_general_ads_title">Ogólne reklamy</string>
     <string name="revanced_hide_general_ads_summary_on">Ukryte</string>
     <string name="revanced_hide_general_ads_summary_off">Widoczne</string>
@@ -268,6 +269,8 @@ Sklep"</string>
     <string name="revanced_hide_feed_flyout_menu_summary_on">Włączony</string>
     <string name="revanced_hide_feed_flyout_menu_summary_off">Wyłączony</string>
     <string name="revanced_hide_feed_flyout_menu_filter_type_title">Typ filtrowania</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_on">Musi zawierać.&lt;br&gt;&lt;br&gt;Aby ukryć menu &lt;br&gt;\'Odtwórz jako następny w kolejce\'&lt;br&gt;, możesz użyć &lt;b&gt;\'Odtwórz jako następny\'&lt;/b&gt; lub &lt;b&gt;\'następny w kolejce\'&lt;/b&gt; jako słowa kluczowe.</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_off">Musi pasować.&lt;br&gt;&lt;br&gt;Aby ukryć menu &lt;b&gt;\'Odtwórz jako następny w kolejce\'&lt;/b&gt;, możesz użyć jedynie &lt;b&gt;\'Odtwórz jako następny w kolejce\'&lt;/b&gt; jako słowo kluczowe.</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_title">Filtr menu ze strony głównej</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_summary">Lista nazw menu do filtrowania, która musi być oddzielona nowymi liniami.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter -->
@@ -443,6 +446,8 @@ Jeśli później zostanie to wyłączone, rekomendowane jest usunięcie danych a
     <string name="revanced_hide_account_menu_summary">"Ukrywa elementy menu konta i zakładki Ty.
 Niektóre komponenty mogą nie być ukryte."</string>
     <string name="revanced_hide_account_menu_filter_type_title">Typ filtrowania</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_on">Musi zawierać.&lt;br&gt;&lt;br&gt;Aby ukryć menu &lt;br&gt;\'Przejdź na YouTube Premium\'&lt;br&gt;, możesz użyć &lt;b&gt;\'YouTube Premium\'&lt;/b&gt; lub &lt;b&gt;\'Premium\'&lt;/b&gt; jako słowa kluczowe.</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_off">Musi pasować.&lt;br&gt;&lt;br&gt;Aby ukryć menu &lt;br&gt;\'Przejdź na YouTube Premium\'&lt;br&gt;, możesz użyć jedynie &lt;b&gt;\'Przejdź na YouTube Premium\'&lt;/b&gt; jako słowo kluczowe.</string>
     <string name="revanced_hide_account_menu_filter_strings_title">Filtr menu konta</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">Lista nazw menu konta do filtrowania, która musi być oddzielona nowymi liniami.</string>
     <string name="revanced_hide_handle_title">Nicki</string>
@@ -827,6 +832,18 @@ Ustawienia → Autoodtwarzanie/Odtwarzanie → Autoodtwarzanie następnego filmu
     <string name="revanced_hide_thanks_button_summary_on">Ukryty</string>
     <string name="revanced_hide_thanks_button_summary_off">Widoczny</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Experimental flags -->
+    <string name="revanced_hide_action_button_index_title">Typ ukrywania przycisków akcji</string>
+    <string name="revanced_hide_action_button_index_summary_on">"Po indeksie
+
+Informacje:
+• mogą zostać ukryte niewłaściwe przyciski akcji, bądź nie zostaną wg ukryte
+• ukrywanie przycisków akcji nie pozostawia pustego miejsca"</string>
+    <string name="revanced_hide_action_button_index_summary_off">"Po identyfikatorze
+
+Informacje:
+• zostaną ukryte właściwe przyciski akcji
+• ukrywanie przycisków akcji pozostawia puste miejsce"</string>
+    <string name="revanced_remix_button_index_title">Indeks przycisku od remiksowania</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Oświetlenie kinowe</string>
     <string name="revanced_preference_screen_ambient_mode_summary">Wyłącz oświetlenie kinowe lub obejdź jego ograniczenia</string>
@@ -1227,10 +1244,6 @@ Funkcja działa najlepiej przy bardzo szybkim połączeniu internetowym."</strin
     <string name="revanced_expand_video_description_title">Otwieraj opisy filmów</string>
     <string name="revanced_expand_video_description_summary_on">Automatycznie</string>
     <string name="revanced_expand_video_description_summary_off">Ręcznie</string>
-    <string name="revanced_expand_video_description_strings_title">Tytuł w panelu opisu filmu</string>
-    <string name="revanced_expand_video_description_strings_summary">"Wprowadź tytuł panelu opisu filmu w twoim języku.
-Opcja rozwijania opisu filmu może nie działać, jeśli wprowadzony ciąg znaków nie zgadza się z tytułem panelu opisu filmu."</string>
-    <string name="revanced_expand_video_description_strings_default_value">Opis</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">Shortsy</string>
     <string name="revanced_disable_shorts_background_playback_title">Odtwarzanie Shortsów w tle</string>

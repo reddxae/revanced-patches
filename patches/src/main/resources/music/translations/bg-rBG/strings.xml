@@ -26,10 +26,10 @@
     <string name="revanced_hide_action_button_add_to_playlist_summary">Скрива бутона \"Запазване\".</string>
     <string name="revanced_hide_action_button_download_title">Скриване на бутона за изтегляне</string>
     <string name="revanced_hide_action_button_download_summary">Скрива бутона „Изтегляне“.</string>
-    <string name="revanced_hide_action_button_share_title">Скриване на бутона за споделяне</string>
-    <string name="revanced_hide_action_button_share_summary">Скрива бутона „Споделяне“.</string>
     <string name="revanced_hide_action_button_radio_title">Скрийте бутона \"Радио\"</string>
     <string name="revanced_hide_action_button_radio_summary">Скрива бутона \"Радио\".</string>
+    <string name="revanced_hide_action_button_share_title">Скриване на бутона за споделяне</string>
+    <string name="revanced_hide_action_button_share_summary">Скрива бутона „Споделяне“.</string>
     <string name="revanced_hide_action_button_label_title">Скриване на етикетите на бутоните за действие</string>
     <string name="revanced_hide_action_button_label_summary">Скрива. етикетите на бутоните за действие.</string>
     <string name="revanced_external_downloader_action_title">Замяна на бутона за изтегляне</string>
@@ -47,7 +47,6 @@
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Реклами</string>
     <string name="revanced_hide_fullscreen_ads_title">Скриване на рекламите в режим на цял екран</string>
-    <string name="revanced_hide_fullscreen_ads_summary">"Скриване на рекламите в режим на цял екран."</string>
     <string name="revanced_hide_general_ads_title">Скриване на общите реклами</string>
     <string name="revanced_hide_general_ads_summary">Скриване на общите реклами.</string>
     <string name="revanced_hide_music_ads_title">Скриване на музикални реклами</string>
@@ -175,10 +174,6 @@
     <string name="revanced_hide_navigation_label_title">Скриване на навигационен панел</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Плеър</string>
-    <string name="revanced_enable_color_match_player_title">A játékos színmegfelelésének engedélyezése</string>
-    <string name="revanced_enable_color_match_player_summary">Цветът на плейъра на цял екран съответства с цвета на минимизирания.</string>
-    <string name="revanced_enable_force_minimized_player_title">Kapcsolja be az állandó összeomlott lejátszót</string>
-    <string name="revanced_enable_force_minimized_player_summary">Tartsa a lejátszót mindig minimálisra, még akkor is, ha egy másik számot játszik le.</string>
     <string name="revanced_enable_zen_mode_title">Включване на zen режим</string>
     <string name="revanced_enable_zen_mode_summary">Добавя сив оттенък към видеоплейъра, за да намали напрежението на очите.</string>
     <!-- PreferenceScreen: Settings menu -->

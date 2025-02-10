@@ -4,6 +4,7 @@
     <string name="accessibility_settings_edu_opt_in_text">Bedienungshilfen für den Video-Player aktivieren?</string>
     <string name="accessibility_settings_edu_opt_out_text">Ihre Steuerungen wurden angepasst, da ein Barrierefreiheitsdienst aktiviert ist.</string>
     <!-- Shared -->
+    <string name="revanced_extended_settings_title">RVX</string>
     <string name="revanced_extended_settings_search_title">Suche %s</string>
     <string name="revanced_extended_reset_to_default_toast">Auf Standardwerte zurücksetzen.</string>
     <string name="revanced_preference_category_experimental_flag">Experimentelle Flags</string>
@@ -18,6 +19,7 @@
     <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s ist nicht installiert.
 Bitte lade %2$s von der Webseite herunter."</string>
     <string name="revanced_external_downloader_not_installed_warning">%s ist nicht installiert. Bitte installieren.</string>
+    <string name="revanced_language_title">RVX Sprache</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Werbung</string>
     <string name="revanced_hide_fullscreen_ads_title">Vollbildwerbung verstecken</string>
@@ -975,10 +977,6 @@ Tippen und halten Sie, um den Einstellungsdialog für die Whitelist anzuzeigen.<
     <string name="revanced_expand_video_description_title">Videobeschreibungen erweitern</string>
     <string name="revanced_expand_video_description_summary_on">Videobeschreibungen werden automatisch erweitert.</string>
     <string name="revanced_expand_video_description_summary_off">Videobeschreibungen werden nicht automatisch erweitert.</string>
-    <string name="revanced_expand_video_description_strings_title">Titel im Video-Beschreibungsfeld</string>
-    <string name="revanced_expand_video_description_strings_summary">"Geben Sie den Titel des Video-Beschreibungsfensters in Ihrer Sprache ein.
-Die Option \"Videobeschreibung\" kann nicht funktionieren, wenn die eingegebene Zeichenkette nicht mit dem Titel des Videobeschreibungsfensters übereinstimmt."</string>
-    <string name="revanced_expand_video_description_strings_default_value">Beschreibung</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">Shorts</string>
     <string name="revanced_disable_resuming_shorts_player_title">Shorts-Player beim App-Start ausblenden</string>

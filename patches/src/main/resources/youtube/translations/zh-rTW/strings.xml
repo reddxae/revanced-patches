@@ -487,6 +487,7 @@
     <string name="revanced_miniplayer_type_entry_4">Modern 1</string>
     <string name="revanced_miniplayer_type_entry_5">Modern 2</string>
     <string name="revanced_miniplayer_type_entry_6">Modern 3</string>
+    <string name="revanced_miniplayer_type_entry_7">Modern 4</string>
     <string name="revanced_miniplayer_rounded_corners_title">啟用圓角角落</string>
     <string name="revanced_miniplayer_rounded_corners_summary_on">已設定角落為圓角。</string>
     <string name="revanced_miniplayer_rounded_corners_summary_off">已設定角落為方形。</string>
@@ -506,6 +507,14 @@
 
 迷你播放器可以向左或向右拖曳出螢幕。"</string>
     <string name="revanced_miniplayer_horizontal_drag_summary_off">水平拖曳手勢已停用。</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_title">隱藏覆蓋按鈕</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_on">覆蓋按鈕已隱藏。</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_off">覆蓋按鈕已顯示。</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_title">隱藏展開和關閉按鈕</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_on">"按鈕被隱藏。
+
+滑動即可展開或關閉。"</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_off">顯示展開和關閉按鈕。</string>
     <string name="revanced_miniplayer_hide_rewind_forward_title">隱藏快轉和倒轉按鈕</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_on">快轉和倒轉按鈕已隱藏</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_off">快轉和倒轉按鈕已顯示</string>
@@ -558,6 +567,7 @@
     <string name="revanced_enable_translucent_navigation_bar_title">啟用半透明導覽列</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">導覽列是半透明的。</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">導覽列不透明。</string>
+    <string name="revanced_enable_translucent_navigation_bar_user_dialog_message">在某些 YouTube 版本中，此設定可以使系統導覽列透明，或在 PIP 模式下可以破壞佈局。</string>
     <string name="revanced_hide_navigation_bar_title">隱藏導覽列</string>
     <string name="revanced_hide_navigation_bar_summary_on">導覽列已隱藏。</string>
     <string name="revanced_hide_navigation_bar_summary_off">導覽列已顯示。</string>
@@ -809,6 +819,18 @@
     <string name="revanced_hide_thanks_button_summary_on">感謝按鈕已隱藏</string>
     <string name="revanced_hide_thanks_button_summary_off">感謝按鈕已顯示</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Experimental flags -->
+    <string name="revanced_hide_action_button_index_title">按索引隱藏操作按鈕</string>
+    <string name="revanced_hide_action_button_index_summary_on">"操作按鈕被索引隱藏。
+
+資訊:
+• 可能隱藏了錯誤的操作按鈕，或可能未隱藏操作按鈕。
+• 隱藏操作按鈕不留任何空白。"</string>
+    <string name="revanced_hide_action_button_index_summary_off">"操作按鈕被標識符過濾器隱藏。
+
+資訊:
+• 右側操作按鈕被隱藏。
+• 隱藏操作按鈕會留下空白空間。"</string>
+    <string name="revanced_remix_button_index_title">混音按鈕索引</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">微光模式</string>
     <string name="revanced_preference_screen_ambient_mode_summary">繞過微光模式限制或停用微光模式</string>
@@ -1206,10 +1228,6 @@
     <string name="revanced_expand_video_description_title">自動展開影片描述</string>
     <string name="revanced_expand_video_description_summary_on">自動展開影片描述</string>
     <string name="revanced_expand_video_description_summary_off">手動展開影片描述</string>
-    <string name="revanced_expand_video_description_strings_title">影片描述面板中的標題</string>
-    <string name="revanced_expand_video_description_strings_summary">"在影片描述面板中輸入標題
-如果保存了不正確的字符串，則「展開影片描述」可能無法正常工作"</string>
-    <string name="revanced_expand_video_description_strings_default_value">描述</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">短片</string>
     <string name="revanced_disable_shorts_background_playback_title">停用 短影片 後台播放</string>

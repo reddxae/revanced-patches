@@ -1088,10 +1088,6 @@
     <string name="revanced_expand_video_description_title">自动展开视频描述</string>
     <string name="revanced_expand_video_description_summary_on">自动展开视频描述</string>
     <string name="revanced_expand_video_description_summary_off">手动展开视频描述</string>
-    <string name="revanced_expand_video_description_strings_title">视频描述面板中的标题</string>
-    <string name="revanced_expand_video_description_strings_summary">"在视频描述面板中输入标题
-如果保存了不正确的字符串，则“展开视频描述”可能无法正常工作"</string>
-    <string name="revanced_expand_video_description_strings_default_value">描述</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">Shorts</string>
     <string name="revanced_disable_resuming_shorts_player_title">禁止恢复 Shorts 播放器</string>

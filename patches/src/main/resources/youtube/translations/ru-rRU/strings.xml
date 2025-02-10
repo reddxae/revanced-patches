@@ -80,6 +80,7 @@
     <string name="revanced_hide_fullscreen_ads_title">Полноэкранная реклама</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">Полноэкранная реклама скрыта.</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">Полноэкранная реклама отображена.</string>
+    <string name="revanced_fullscreen_ads_closed_toast">Полноэкранная реклама закрыта.</string>
     <string name="revanced_hide_general_ads_title">Реклама общего формата</string>
     <string name="revanced_hide_general_ads_summary_on">Реклама общего формата скрыта.</string>
     <string name="revanced_hide_general_ads_summary_off">Реклама общего формата отображена.</string>
@@ -832,6 +833,18 @@ Shorts
     <string name="revanced_hide_thanks_button_summary_on">Кнопка \"Спасибо\" скрыта.</string>
     <string name="revanced_hide_thanks_button_summary_off">Кнопка \"Спасибо\" отображена.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Experimental flags -->
+    <string name="revanced_hide_action_button_index_title">Действия с кнопками по индексу</string>
+    <string name="revanced_hide_action_button_index_summary_on">"Кнопки действий скрыты по индексу.
+
+Информация:
+• Неправильные кнопки действий могут быть скрыты, остальные будут отображаться.
+• Кнопки скрытия действий не оставляют пустого места."</string>
+    <string name="revanced_hide_action_button_index_summary_off">"Кнопки действий скрыты фильтром идентификаторов.
+
+Информация:
+• Кнопки действий справа скрыты.
+• Скрытие кнопок действий оставляет пустое место."</string>
+    <string name="revanced_remix_button_index_title">Индекс кнопки \"Микс\"</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Окружающая подсветка</string>
     <string name="revanced_preference_screen_ambient_mode_summary">Отключить окружающую подсветку или обойти ограничение в режиме экономии заряда батареи.</string>
@@ -1232,11 +1245,6 @@ Shorts
     <string name="revanced_expand_video_description_title">Развернуть описание видео</string>
     <string name="revanced_expand_video_description_summary_on">Описание видео автоматически развернуто.</string>
     <string name="revanced_expand_video_description_summary_off">Описание видео разворачивается вручную.</string>
-    <string name="revanced_expand_video_description_strings_title">Название в панели описания видео</string>
-    <string name="revanced_expand_video_description_strings_summary">"Введите название на панели описания видео.
-Символы различаются в зависимости от языка.
-«Развернуть описание видео» может не работать, если вы сохраните неверную строку."</string>
-    <string name="revanced_expand_video_description_strings_default_value">Описание</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">Shorts</string>
     <string name="revanced_disable_shorts_background_playback_title">Фоновое воспроизведение Shorts</string>

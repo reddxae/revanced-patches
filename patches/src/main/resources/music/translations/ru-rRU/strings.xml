@@ -28,10 +28,10 @@
     <string name="revanced_hide_action_button_add_to_playlist_summary">Скрывает кнопку \"Добавить в плейлист\".</string>
     <string name="revanced_hide_action_button_download_title">Скрыть кнопку \"Скачать\"</string>
     <string name="revanced_hide_action_button_download_summary">Скрывает кнопку \"Скачать\".</string>
-    <string name="revanced_hide_action_button_share_title">Скрыть кнопку \"Поделиться\"</string>
-    <string name="revanced_hide_action_button_share_summary">Скрывает кнопку \"Поделиться\".</string>
     <string name="revanced_hide_action_button_radio_title">Скрыть кнопку \"Включить радиостанцию\"</string>
     <string name="revanced_hide_action_button_radio_summary">Скрывает кнопку \"Включить радиостанцию\".</string>
+    <string name="revanced_hide_action_button_share_title">Скрыть кнопку \"Поделиться\"</string>
+    <string name="revanced_hide_action_button_share_summary">Скрывает кнопку \"Поделиться\".</string>
     <string name="revanced_hide_action_button_label_title">Скрыть подписи кнопок действий</string>
     <string name="revanced_hide_action_button_label_summary">Скрывает подписи на кнопках действий.</string>
     <string name="revanced_external_downloader_action_title">Подменить кнопку \"Скачать\"</string>
@@ -49,7 +49,6 @@
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Реклама</string>
     <string name="revanced_hide_fullscreen_ads_title">Полноэкранная реклама</string>
-    <string name="revanced_hide_fullscreen_ads_summary">"Скрывает полноэкранную рекламу."</string>
     <string name="revanced_hide_general_ads_title">Скрыть рекламу общего формата</string>
     <string name="revanced_hide_general_ads_summary">Скрывает рекламу общего формата.</string>
     <string name="revanced_hide_music_ads_title">Скрыть музыкальную рекламу</string>
@@ -204,22 +203,8 @@
     <string name="revanced_hide_navigation_label_summary">Скрывает подписи под кнопками навигации.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Плеер</string>
-    <string name="revanced_enable_mini_player_next_button_title">Включить кнопку следующего в миниплеере</string>
-    <string name="revanced_enable_mini_player_next_button_summary">Включает кнопку следующего трека в миниплеере.</string>
-    <string name="revanced_enable_mini_player_previous_button_title">Включить кнопку предыдущего в миниплеере</string>
-    <string name="revanced_enable_mini_player_previous_button_summary">Включает кнопку предыдущего трека в миниплеере.</string>
-    <string name="revanced_enable_color_match_player_title">Цветовое соответствие проигрывателей</string>
-    <string name="revanced_enable_color_match_player_summary">Цвет мини-проигрывателя соответствует цвету полноэкранного проигрывателя.</string>
-    <string name="revanced_enable_black_player_background_title">Включить черный фон плеера</string>
-    <string name="revanced_enable_black_player_background_summary">Меняет адаптивный цвет фона плеера на черный.</string>
-    <string name="revanced_disable_mini_player_gesture_title">Отключить жест мини плеера</string>
-    <string name="revanced_disable_mini_player_gesture_summary">Отключает свайп для переключения треков в миниплеере.</string>
     <string name="revanced_disable_player_gesture_title">Отключить жест плеера</string>
     <string name="revanced_disable_player_gesture_summary">Отключает свайп для переключения треков в плеере.</string>
-    <string name="revanced_enable_force_minimized_player_title">Удерживать проигрыватель свёрнутым</string>
-    <string name="revanced_enable_force_minimized_player_summary">Удерживает проигрыватель свёрнутым, даже если играет другой трек.</string>
-    <string name="revanced_enable_swipe_to_dismiss_mini_player_title">Включить жест скрытия миниплеера</string>
-    <string name="revanced_enable_swipe_to_dismiss_mini_player_summary">Включает жест вниз для скрытия миниплеера.</string>
     <string name="revanced_enable_zen_mode_title">Режим \"Дзен\"</string>
     <string name="revanced_enable_zen_mode_summary">Меняет оттенок фона проигрывателя видео на светло-серый, чтобы уменьшить нагрузку на глаза.</string>
     <string name="revanced_enable_zen_mode_podcast_title">Включить режим \"Дзен\" в подкастах</string>
@@ -232,8 +217,6 @@
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">Скрывает кнопки метки времени и эмодзи при вводе комментариев.</string>
     <string name="revanced_hide_fullscreen_share_button_title">Скрыть кнопку \"Поделиться\" в полноэкранном режиме</string>
     <string name="revanced_hide_fullscreen_share_button_summary">Скрывает кнопку \"Поделиться\" в полноэкранном проигрывателе.</string>
-    <string name="revanced_hide_audio_video_switch_toggle_title">Скрыть переключатель \"аудио/видео\"</string>
-    <string name="revanced_hide_audio_video_switch_toggle_summary">Скрывает переключатель \"аудио/видео\" в плеере.</string>
     <string name="revanced_remember_repeat_state_title">Запоминать состояние повтора</string>
     <string name="revanced_remember_repeat_state_summary">Запоминает состояние переключателя \"Повтор воспроизведения\".</string>
     <string name="revanced_remember_shuffle_state_title">Запоминать состояние перемешивания</string>

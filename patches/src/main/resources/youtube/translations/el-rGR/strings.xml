@@ -80,6 +80,7 @@
     <string name="revanced_hide_fullscreen_ads_title">Διαφημίσεις πλήρους οθόνης</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">Κρυμμένες.</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">Εμφανίζονται.</string>
+    <string name="revanced_fullscreen_ads_closed_toast">Οι διαφημίσεις πλήρους οθόνης έκλεισαν.</string>
     <string name="revanced_hide_general_ads_title">Γενικές διαφημίσεις</string>
     <string name="revanced_hide_general_ads_summary_on">Κρυμμένες.</string>
     <string name="revanced_hide_general_ads_summary_off">Εμφανίζονται.</string>
@@ -266,6 +267,8 @@ Playlists
     <string name="revanced_hide_feed_flyout_menu_summary_on">Το φιλτράρισμα του αναδυόμενου μενού στη ροή είναι ενεργοποιημένο.</string>
     <string name="revanced_hide_feed_flyout_menu_summary_off">Το φιλτράρισμα του αναδυόμενου μενού στη ροή είναι απενεργοποιημένο.</string>
     <string name="revanced_hide_feed_flyout_menu_filter_type_title">Τύπος φίλτρου αναδυόμενου μενού ροής</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_on">Φιλτράρισμα αν στο μενού περιέχονται οι εισαγόμενες λέξεις-κλειδιά. &lt;br&gt;&lt;br&gt;Παράδειγμα: Για απόκρυψη του μενού &lt;br&gt;«Αναπαραγωγή επόμενου στην ουρά»&lt;br&gt;, μπορεί να εισαχθεί το &lt;b&gt;«Αναπαραγωγή επόμενου»&lt;/b&gt; ή το &lt;b&gt;«στην ουρά»&lt;/b&gt; ως λέξεις-κλειδιά.</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_off">Φιλτράρισμα αν το μενού ταιριάζει με τις εισαγόμενες λέξεις-κλειδιά.&lt;br&gt;&lt;br&gt;Παράδειγμα: Για απόκρυψη του μενού &lt;b&gt;«Αναπαραγωγή επόμενου στην ουρά»&lt;/b&gt;, πρέπει να εισαχθεί το &lt;b&gt;«Αναπαραγωγή επόμενου στην ουρά»&lt;/b&gt; ως λέξεις-κλειδιά.</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_title">Επεξεργασία φίλτρου αναδυόμενων μενού ροής</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_summary">Λίστα ονομάτων των επιλογών του αναδυόμενου μενού για φιλτράρισμα, διαχωρισμένα με νέες γραμμές.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter -->
@@ -439,6 +442,8 @@ Playlists
     <string name="revanced_hide_account_menu_summary">"Απόκρυψη στοιχείων του μενού λογαριασμού και της καρτέλας «Εσείς».
 Κάποια στοιχεία ενδέχεται να μην κρύβονται."</string>
     <string name="revanced_hide_account_menu_filter_type_title">Τύπος φίλτρου μενού λογαριασμού</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_on">Φιλτράρισμα αν στο μενού περιέχονται οι εισαγόμενες λέξεις-κλειδιά. &lt;br&gt;&lt;br&gt;Παράδειγμα: Για απόκρυψη του μενού &lt;br&gt;«Αποκτήστε το YouTube Premium»&lt;br&gt;, μπορεί να εισαχθεί το &lt;b&gt;«YouTube Premium»&lt;/b&gt; ή το &lt;b&gt;«Premium»&lt;/b&gt; ως λέξεις-κλειδιά.</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_off">Φιλτράρισμα αν το μενού ταιριάζει με τις εισαγόμενες λέξεις-κλειδιά. &lt;br&gt;&lt;br&gt;Παράδειγμα: Για απόκρυψη του μενού &lt;br&gt;«Αποκτήστε το YouTube Premium»&lt;br&gt;, πρέπει να εισαχθεί το &lt;b&gt;«Αποκτήστε το YouTube Premium»&lt;/b&gt; ως λέξεις-κλειδιά.</string>
     <string name="revanced_hide_account_menu_filter_strings_title">Επεξεργασία φίλτρου μενού λογαριασμού</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">Λίστα ονομάτων των επιλογών του μενού λογαριασμού για φιλτράρισμα, διαχωρισμένα με νέες γραμμές.</string>
     <string name="revanced_hide_handle_title">Ψευδώνυμο &amp; διεύθυνση e-mail</string>
@@ -822,6 +827,18 @@ Playlists
     <string name="revanced_hide_thanks_button_summary_on">Κρυμμένο.</string>
     <string name="revanced_hide_thanks_button_summary_off">Εμφανίζεται.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Experimental flags -->
+    <string name="revanced_hide_action_button_index_title">Απόκρυψη κουμπιoύ ενεργειών ανά ευρετήριο</string>
+    <string name="revanced_hide_action_button_index_summary_on">"Τα κουμπιά ενεργειών είναι κρυμμένα βάσει ευρετηρίου.
+
+Πληροφορίες:
+• Μπορεί να γίνεται απόκρυψη των λάθος κουμπιών, ή να μη γίνεται καθόλου απόκρυψη.
+• Η απόκρυψη ανά ευρετήριο δεν αφήνει κενό χώρο."</string>
+    <string name="revanced_hide_action_button_index_summary_off">"Τα κουμπιά ενεργειών είναι κρυμμένα βάσει φίλτρου αναγνωριστικού.
+
+Πληροφορίες:
+• Γίνεται πάντα απόκρυψη των σωστών κουμπιών ενεργειών.
+• Η απόκρυψη βάσει φίλτρου αναγνωριστικού αφήνει κενό χώρο."</string>
+    <string name="revanced_remix_button_index_title">Ευρετήριο κουμπιού Remix</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Λειτουργία περιβάλλοντος</string>
     <string name="revanced_preference_screen_ambient_mode_summary">Παράκαμψη περιορισμών λειτουργίας περιβάλλοντος ή απενεργοποίηση της.</string>
@@ -1242,10 +1259,6 @@ Playlists
     <string name="revanced_expand_video_description_title">Αυτόματο άνοιγμα περιγραφής βίντεο</string>
     <string name="revanced_expand_video_description_summary_on">Η περιγραφή βίντεο ανοίγεται αυτόματα.</string>
     <string name="revanced_expand_video_description_summary_off">Η περιγραφή βίντεο ανοίγεται χειροκίνητα.</string>
-    <string name="revanced_expand_video_description_strings_title">Τίτλος του πίνακα περιγραφής βίντεο</string>
-    <string name="revanced_expand_video_description_strings_summary">"Εισάγετε τον τίτλο του πίνακα περιγραφής βίντεο στη γλώσσα σας.
-Η λειτουργία «Αυτόματο άνοιγμα περιγραφής βίντεο» ενδέχεται να μη λειτουργήσει αν η εισαγόμενη συμβολοσειρά σας δεν ταιριάζει με τον τίτλο."</string>
-    <string name="revanced_expand_video_description_strings_default_value">Περιγραφή</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">Shorts</string>
     <string name="revanced_disable_shorts_background_playback_title">Απενεργοποίηση αναπαραγωγής παρασκηνίου για τα Shorts</string>

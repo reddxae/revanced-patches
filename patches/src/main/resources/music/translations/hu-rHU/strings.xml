@@ -28,10 +28,10 @@
     <string name="revanced_hide_action_button_add_to_playlist_summary">Elrejti a mentés gombot.</string>
     <string name="revanced_hide_action_button_download_title">Letöltés gomb elrejtése</string>
     <string name="revanced_hide_action_button_download_summary">Elrejti a letöltés gombot.</string>
-    <string name="revanced_hide_action_button_share_title">Megosztás gomb elrejtése</string>
-    <string name="revanced_hide_action_button_share_summary">Elrejti a Megosztás gombot.</string>
     <string name="revanced_hide_action_button_radio_title">Rádió gomb elrejtése</string>
     <string name="revanced_hide_action_button_radio_summary">Elrejti a rádió gombot.</string>
+    <string name="revanced_hide_action_button_share_title">Megosztás gomb elrejtése</string>
+    <string name="revanced_hide_action_button_share_summary">Elrejti a Megosztás gombot.</string>
     <string name="revanced_hide_action_button_label_title">Navigációs gombok címkéinek elrejtése</string>
     <string name="revanced_hide_action_button_label_summary">Elrejti a címkéket az műveleti gombokon.</string>
     <string name="revanced_external_downloader_action_title">Letöltés gomb felülírása</string>
@@ -49,7 +49,6 @@ Töltsd le a(z) %2$s weboldalról."</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Hirdetések</string>
     <string name="revanced_hide_fullscreen_ads_title">Teljes képernyős hirdetések elrejtése</string>
-    <string name="revanced_hide_fullscreen_ads_summary">"Teljes képernyős hirdetések elrejtése."</string>
     <string name="revanced_hide_general_ads_title">Általános hirdetések elrejtése</string>
     <string name="revanced_hide_general_ads_summary">Elrejti az általános hirdetéseket.</string>
     <string name="revanced_hide_music_ads_title">Zenei hirdetések elrejtése</string>
@@ -204,22 +203,8 @@ Ez nem kerüli meg a korhatárkorlátozást. Csak automatikusan elfogadja azt."<
     <string name="revanced_hide_navigation_label_summary">Elrejti a szöveget a navigációs gombok alatt.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Lejátszó</string>
-    <string name="revanced_enable_mini_player_next_button_title">Minilejátszó következő gomb engedélyezése</string>
-    <string name="revanced_enable_mini_player_next_button_summary">Engedélyezi a következő szám gombot a minilejátszónál.</string>
-    <string name="revanced_enable_mini_player_previous_button_title">Minilejátszó előző gomb engedélyezése</string>
-    <string name="revanced_enable_mini_player_previous_button_summary">Engedélyezi a előző szám gombot a minilejátszónál.</string>
-    <string name="revanced_enable_color_match_player_title">Minialejátszó színének módosítása</string>
-    <string name="revanced_enable_color_match_player_summary">A minialejátszó színét a teljes képernyős lejátszó színéhez igazítja.</string>
-    <string name="revanced_enable_black_player_background_title">A lejátszó háttérszínének módosítása</string>
-    <string name="revanced_enable_black_player_background_summary">Megváltoztatja a lejátszó háttér színét feketére.</string>
-    <string name="revanced_disable_mini_player_gesture_title">Minilejátszó gesztus letiltása</string>
-    <string name="revanced_disable_mini_player_gesture_summary">Letiltja a zeneszámok váltását a minilejátszóban.</string>
     <string name="revanced_disable_player_gesture_title">Lejtászó gesztus letiltása</string>
     <string name="revanced_disable_player_gesture_summary">Letiltja a zeneszámok váltását a lejátszóban.</string>
-    <string name="revanced_enable_force_minimized_player_title">Minilejátszó kényszerítése</string>
-    <string name="revanced_enable_force_minimized_player_summary">A lejátszó akkor is minimalizálva marad, amikor új zeneszámra vált.</string>
-    <string name="revanced_enable_swipe_to_dismiss_mini_player_title">Minilejátszó elhagyása egy húzással</string>
-    <string name="revanced_enable_swipe_to_dismiss_mini_player_summary">Lehetővé teszi a minialejátszó elhagyását lefelé húzással.</string>
     <string name="revanced_enable_zen_mode_title">Zen mód bekapcsolása</string>
     <string name="revanced_enable_zen_mode_summary">Világosszürke színt használ a lejátszó hátteréhez, hogy csökkentse a szem megerőltetését.</string>
     <string name="revanced_enable_zen_mode_podcast_title">Zen mód engedélyezése podcastekben</string>
@@ -232,8 +217,6 @@ Ez nem kerüli meg a korhatárkorlátozást. Csak automatikusan elfogadja azt."<
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">Elrejti az emoji és az időbélyeg gombokat a hozzászólás beírásakor.</string>
     <string name="revanced_hide_fullscreen_share_button_title">Teljes képernyős megosztás gomb elrejtése</string>
     <string name="revanced_hide_fullscreen_share_button_summary">Elrejti a megosztás gombot a teljes képernyős lejátszóban.</string>
-    <string name="revanced_hide_audio_video_switch_toggle_title">Hang/Videó gomb elrejtése</string>
-    <string name="revanced_hide_audio_video_switch_toggle_summary">Elrejti a Hang / Videó gombot a lejátszóban.</string>
     <string name="revanced_remember_repeat_state_title">Isméltés állapotának megjegyzése</string>
     <string name="revanced_remember_repeat_state_summary">Emlékezik az ismétlés állapotára.</string>
     <string name="revanced_remember_shuffle_state_title">Keverés állapotának megjegyzése</string>

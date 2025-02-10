@@ -821,6 +821,18 @@ Beállítások → Automatikus lejátszás → Következő videó automatikus le
     <string name="revanced_hide_thanks_button_summary_on">A köszönet gomb el van rejtve.</string>
     <string name="revanced_hide_thanks_button_summary_off">A köszönet gomb látható.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Experimental flags -->
+    <string name="revanced_hide_action_button_index_title">Műveletgomb elrejtése index alapján</string>
+    <string name="revanced_hide_action_button_index_summary_on">"A műveletgombok index alapján vannak elrejtve.
+
+Információ:
+• Előfordulhat, hogy a műveletgombok nincsenek vagy rosszak vannak elrejtve.
+• A műveletgombok elrejtése nem hagy üres helyet."</string>
+    <string name="revanced_hide_action_button_index_summary_off">"A műveletgombokat az azonosító szűrő rejti el.
+
+Információ:
+• A megfelelő műveletgombok vannak elrejtve.
+• A műveletgombok elrejtése üres helyet hagy."</string>
+    <string name="revanced_remix_button_index_title">Gomb index megkeverése</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Mozifilmes világítás mód</string>
     <string name="revanced_preference_screen_ambient_mode_summary">Tiltsa le a mozifilmes világítás módot, vagy kerülje meg a korlátozásait.</string>
@@ -1221,10 +1233,6 @@ Ez a funkció nagyon gyors internetkapcsolat mellett működik a legjobban."</st
     <string name="revanced_expand_video_description_title">Videoleírások kibővítése</string>
     <string name="revanced_expand_video_description_summary_on">A videoleírások automatikusan kibővülnek.</string>
     <string name="revanced_expand_video_description_summary_off">A videoleírások nem bővülnek ki automatikusan.</string>
-    <string name="revanced_expand_video_description_strings_title">Cím a videoleírás panelen</string>
-    <string name="revanced_expand_video_description_strings_summary">"Írja be a videoleírás panel nevét az Ön nyelvén.
-A videoleírások kibővítése nem működik, ha a beírt név nem egyezik meg a videoleírás panel nevével."</string>
-    <string name="revanced_expand_video_description_strings_default_value">Leírás</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">Shorts</string>
     <string name="revanced_disable_shorts_background_playback_title">Shortok háttérben történő lejátszásának tiltása</string>

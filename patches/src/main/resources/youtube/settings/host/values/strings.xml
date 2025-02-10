@@ -1323,10 +1323,6 @@ This feature works best with a very fast internet connection."</string>
     <string name="revanced_expand_video_description_title">Expand video descriptions</string>
     <string name="revanced_expand_video_description_summary_on">Video descriptions are expanded automatically.</string>
     <string name="revanced_expand_video_description_summary_off">Video descriptions are not expanded automatically.</string>
-    <string name="revanced_expand_video_description_strings_title">Title in video description panel</string>
-    <string name="revanced_expand_video_description_strings_summary">"Enter the title of the video description panel in your language.
-The Expand video description option may not work if the entered string does not match the video description panel title."</string>
-    <string name="revanced_expand_video_description_strings_default_value">Description</string>
 
 
     <!-- PreferenceScreen: Shorts -->

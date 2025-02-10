@@ -34,10 +34,10 @@
     <string name="revanced_hide_action_button_add_to_playlist_summary">Hides the Save button.</string>
     <string name="revanced_hide_action_button_download_title">Hide Download button</string>
     <string name="revanced_hide_action_button_download_summary">Hides the Download button.</string>
-    <string name="revanced_hide_action_button_share_title">Hide Share button</string>
-    <string name="revanced_hide_action_button_share_summary">Hides the Share button.</string>
     <string name="revanced_hide_action_button_radio_title">Hide Radio button</string>
     <string name="revanced_hide_action_button_radio_summary">Hides the Radio button.</string>
+    <string name="revanced_hide_action_button_share_title">Hide Share button</string>
+    <string name="revanced_hide_action_button_share_summary">Hides the Share button.</string>
     <string name="revanced_hide_action_button_label_title">Hide action button labels</string>
     <string name="revanced_hide_action_button_label_summary">Hides the labels of the action buttons.</string>
     <string name="revanced_external_downloader_action_title">Override Download action button</string>

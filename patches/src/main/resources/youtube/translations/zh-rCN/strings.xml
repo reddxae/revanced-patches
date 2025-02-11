@@ -455,25 +455,6 @@
     <string name="revanced_third_party_youtube_music_not_installed_warning">%s 未安装，请先安装</string>
     <string name="revanced_override_youtube_music_button_about_prerequisite_title">前提条件</string>
     <string name="revanced_override_youtube_music_button_about_prerequisite_summary">需要 YouTube Music 来覆盖按钮操作，点击此处下载 YouTube Music</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
-    <string name="revanced_preference_screen_miniplayer_title">迷你播放器</string>
-    <string name="revanced_preference_screen_miniplayer_summary">更改应用最小化播放器样式</string>
-    <string name="revanced_miniplayer_type_title">迷你播放器样式</string>
-    <string name="revanced_miniplayer_type_entry_1">原版</string>
-    <string name="revanced_miniplayer_type_entry_2">手机</string>
-    <string name="revanced_miniplayer_type_entry_3">平板</string>
-    <string name="revanced_miniplayer_type_entry_4">Modern 1</string>
-    <string name="revanced_miniplayer_type_entry_5">Modern 2</string>
-    <string name="revanced_miniplayer_type_entry_6">Modern 3</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_title">隐藏跳过和返回按钮</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">跳过和返回按钮已隐藏</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">跳过和返回按钮已显示</string>
-    <string name="revanced_miniplayer_hide_subtext_title">隐藏子文本</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_on">子文本已隐藏</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_off">子文本已显示</string>
-    <string name="revanced_miniplayer_opacity_title">叠加层不透明度</string>
-    <string name="revanced_miniplayer_opacity_summary">不透明度值介于 0-100 之间，0 为透明</string>
-    <string name="revanced_miniplayer_opacity_invalid_toast">迷你播放器的叠加层不透明度必须介于 0-100 之间 重置为默认值</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_bar_title">导航栏</string>
     <string name="revanced_preference_screen_navigation_bar_summary">隐藏或显示导航栏区域的组件</string>
@@ -939,6 +920,25 @@
     <string name="revanced_disable_haptic_feedback_zoom_title">缩放触感反馈</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_on">禁用缩放触感反馈</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_off">启用缩放触感反馈</string>
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Miniplayer -->
+    <string name="revanced_preference_screen_miniplayer_title">迷你播放器</string>
+    <string name="revanced_preference_screen_miniplayer_summary">更改应用最小化播放器样式</string>
+    <string name="revanced_miniplayer_type_title">迷你播放器样式</string>
+    <string name="revanced_miniplayer_type_entry_1">原版</string>
+    <string name="revanced_miniplayer_type_entry_2">手机</string>
+    <string name="revanced_miniplayer_type_entry_3">平板</string>
+    <string name="revanced_miniplayer_type_entry_4">Modern 1</string>
+    <string name="revanced_miniplayer_type_entry_5">Modern 2</string>
+    <string name="revanced_miniplayer_type_entry_6">Modern 3</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_title">隐藏跳过和返回按钮</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">跳过和返回按钮已隐藏</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">跳过和返回按钮已显示</string>
+    <string name="revanced_miniplayer_hide_subtext_title">隐藏子文本</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_on">子文本已隐藏</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_off">子文本已显示</string>
+    <string name="revanced_miniplayer_opacity_title">叠加层不透明度</string>
+    <string name="revanced_miniplayer_opacity_summary">不透明度值介于 0-100 之间，0 为透明</string>
+    <string name="revanced_miniplayer_opacity_invalid_toast">迷你播放器的叠加层不透明度必须介于 0-100 之间 重置为默认值</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Player buttons -->
     <string name="revanced_preference_screen_player_buttons_title">播放器按钮</string>
     <string name="revanced_preference_screen_player_buttons_summary">隐藏或显示视频中的按钮</string>

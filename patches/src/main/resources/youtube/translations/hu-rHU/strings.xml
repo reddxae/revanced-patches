@@ -80,6 +80,7 @@ Töltsd le a(z) %2$s weboldalról."</string>
     <string name="revanced_hide_fullscreen_ads_title">Teljes képernyős hirdetések elrejtése</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">A teljes képernyős hirdetések rejtve vannak.</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">A teljes képernyős hirdetések láthatók.</string>
+    <string name="revanced_fullscreen_ads_closed_toast">A teljes képernyős hirdetések bezárva.</string>
     <string name="revanced_hide_general_ads_title">Általános hirdetések elrejtése</string>
     <string name="revanced_hide_general_ads_summary_on">Az általános hirdetések el vannak rejtve.</string>
     <string name="revanced_hide_general_ads_summary_off">Az általános hirdetések láthatóak.</string>
@@ -268,6 +269,8 @@ Lejátszási listák
     <string name="revanced_hide_feed_flyout_menu_summary_on">A hírfolyam lebegő menü szűrő engedélyezve van.</string>
     <string name="revanced_hide_feed_flyout_menu_summary_off">A hírfolyam lebegő menü szűrő ki van kapcsolva.</string>
     <string name="revanced_hide_feed_flyout_menu_filter_type_title">Hírfolyam előugró menü szűrés típusa</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_on">Szűrje, ha tartalmazza.&lt;br&gt;&lt;br&gt;A &lt;b&gt;Következő a lejátszási sorban&lt;/b&gt; menü elrejtéséhez használhatja a &lt;b&gt;Következő a&lt;/b&gt; vagy &lt;b&gt;lejátszási sorban&lt;/b&gt; kulcsszót.</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_off">Szűrje, ha egyezik.&lt;br&gt;&lt;br&gt;A &lt;b&gt;\'Következő a lejátszási sorban\'&lt;/b&gt; menü elrejtéséhez csak a &lt;b&gt;\'Következő a lejátszási sorban\'&lt;/b&gt;lehetőséget használhatja kulcsszóként.</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_title">Hírfolyam lebegő menü szűrő</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_summary">Szűrendő lebegő menü neveinek listája, új sorokkal elválasztva.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter -->
@@ -441,6 +444,8 @@ Ha kikapcsolja, akkor ajánlott törölni az app adatait, hogy elkerülje a UI h
     <string name="revanced_hide_account_menu_summary">"Fiókmenü és az Te lap elemeinek elrejtése.
 Előfordulhat, hogy egyes komponensek nincsenek elrejtve."</string>
     <string name="revanced_hide_account_menu_filter_type_title">Fiók menü szűrés típusa</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_on">Szűrje, ha tartalmazza.&lt;br&gt;&lt;br&gt;A &lt;b&gt;YouTube Prémium beszerzése&lt;/b&gt; menü elrejtéséhez használhatja a &lt;b&gt;YouTube Prémium&lt;/b&gt; vagy a &lt;b&gt;Prémium&lt;/b&gt; kulcsszót.</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_off">Szűrje, ha egyezik.&lt;br&gt;&lt;br&gt;A &lt;br&gt;YouTube Prémium beszerzése&lt;br&gt; menü elrejtéséhez csak a &lt;b&gt;YouTube Prémium beszerzése&lt;/b&gt; lehetőséget használhatja kulcsszóként.</string>
     <string name="revanced_hide_account_menu_filter_strings_title">Fiók menü szűrő</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">A fiók menüben szűrendő menüpontok listája, új sorokkal elválasztva.</string>
     <string name="revanced_hide_handle_title">Kezelő elrejtése</string>
@@ -480,57 +485,6 @@ Előfordulhat, hogy egyes komponensek nincsenek elrejtve."</string>
     <string name="revanced_third_party_youtube_music_not_installed_warning">%s nincs telepítve. Kérlek telepítsd.</string>
     <string name="revanced_override_youtube_music_button_about_prerequisite_title">Előfeltétel</string>
     <string name="revanced_override_youtube_music_button_about_prerequisite_summary">A YouTube Music szükséges a gombművelet felülbírálásához. Koppints ide a YouTube Music letöltéséhez.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
-    <string name="revanced_preference_screen_miniplayer_title">Minilejátszó</string>
-    <string name="revanced_preference_screen_miniplayer_summary">Módosítsa az alkalmazáson belüli minilejátszó stílusát.</string>
-    <string name="revanced_miniplayer_type_title">Minilejátszó típusa</string>
-    <string name="revanced_miniplayer_type_entry_0">Letiltva</string>
-    <string name="revanced_miniplayer_type_entry_1">Eredeti</string>
-    <string name="revanced_miniplayer_type_entry_2">Minimális</string>
-    <string name="revanced_miniplayer_type_entry_3">Tablet</string>
-    <string name="revanced_miniplayer_type_entry_4">Modern 1</string>
-    <string name="revanced_miniplayer_type_entry_5">Modern 2</string>
-    <string name="revanced_miniplayer_type_entry_6">Modern 3</string>
-    <string name="revanced_miniplayer_type_entry_7">Modern 4</string>
-    <string name="revanced_miniplayer_rounded_corners_title">Lekerekített sarkok engedélyezése</string>
-    <string name="revanced_miniplayer_rounded_corners_summary_on">A sarkok lekerekítettek.</string>
-    <string name="revanced_miniplayer_rounded_corners_summary_off">A sarkok négyzet alakúak.</string>
-    <string name="revanced_miniplayer_double_tap_action_title">Dupla koppintás és összehúzás engedélyezése átméretezéshez</string>
-    <string name="revanced_miniplayer_double_tap_action_summary_on">"A dupla koppintás és összehúzás átméretezéshez engedélyezett.
-
-• Koppintson duplán a minilejátszó méretének növeléséhez.
-• Koppintson duplán az eredeti méret visszaállításához."</string>
-    <string name="revanced_miniplayer_double_tap_action_summary_off">A dupla koppintás és összehúzás átméretezéshez le van tiltva.</string>
-    <string name="revanced_miniplayer_drag_and_drop_title">Fogd és vidd engedélyezése</string>
-    <string name="revanced_miniplayer_drag_and_drop_summary_on">"A fogd és vidd engedélyezett.
-
-A minilejátszó a képernyő bármely sarkába elhúzható."</string>
-    <string name="revanced_miniplayer_drag_and_drop_summary_off">A fogd és vidd le van tiltva.</string>
-    <string name="revanced_miniplayer_horizontal_drag_title">Vízszintes húzás engedélyezése.</string>
-    <string name="revanced_miniplayer_horizontal_drag_summary_on">"A vízszintes húzás engedélyezett.
-
-A minilejátszó jobbra vagy balra húzható a képernyőn."</string>
-    <string name="revanced_miniplayer_horizontal_drag_summary_off">A vízszintes húzás le van tiltva.</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_title">Átfedés gombok elrejtése</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_summary_on">Az átfedés gombok el vannak rejtve.</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_summary_off">Az átfedés gombok láthatóak.</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_title">Kibontás és bezárás gombok elrejtése</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_on">"A gombok rejtettek.
-
-Csúsztasson a kibontáshoz vagy bezáráshoz."</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_off">A kibontás és bezárás gombok láthatóak.</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_title">Előre és vissza ugrás gombok elrejtése</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Az előre és hátra ugrás elrejtve.</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Az előre és hátra ugrás láthatóak.</string>
-    <string name="revanced_miniplayer_hide_subtext_title">Alszövegek elrejtése</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_on">Az alszövegek elrejtve.</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_off">Az alszövegek megjelennek.</string>
-    <string name="revanced_miniplayer_width_dip_title">Kezdeti méret</string>
-    <string name="revanced_miniplayer_width_dip_summary">Kezdeti méret a képernyőn, képpontban.</string>
-    <string name="revanced_miniplayer_width_dip_invalid_toast">A képpont méretének %1$s és %2$s között kell lennie.</string>
-    <string name="revanced_miniplayer_opacity_title">Átfedés átlátszósága</string>
-    <string name="revanced_miniplayer_opacity_summary">Átlátszósági érték 0 és 100 között, ahol a 0 az átlátszó.</string>
-    <string name="revanced_miniplayer_opacity_invalid_toast">A minilejátszó átlátszóságának 0 és 100 között kell lennie. Visszaállítás alapértelmezettre.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_bar_title">Navigációs sáv</string>
     <string name="revanced_preference_screen_navigation_bar_summary">Navigációs sáv komponenseinek láthatósága.</string>
@@ -571,7 +525,7 @@ Ha ez a beállítás nem működik, váltson inkognító módra."</string>
     <string name="revanced_enable_translucent_navigation_bar_title">Átlátszó navigációs sáv engedélyezése</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">A navigációs sáv átlátszó.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">A navigációs sáv nem átlátszó.</string>
-    <string name="revanced_enable_translucent_navigation_bar_user_dialog_message">Egyes YouTube-verziókban ez a beállítás átlátszóvá teheti a rendszer navigációs sávját, vagy kép a képben módban az elrendezés széteshet.</string>
+    <string name="revanced_enable_translucent_navigation_bar_user_dialog_message">Egyes YouTube verziókban ez a beállítás átlátszóvá teheti a rendszer navigációs sávját, vagy kép a képben módban az elrendezés széteshet.</string>
     <string name="revanced_hide_navigation_bar_title">Navigációs sáv elrejtése</string>
     <string name="revanced_hide_navigation_bar_summary_on">A navigációs sáv el van rejtve.</string>
     <string name="revanced_hide_navigation_bar_summary_off">A navigációs sáv látható.</string>
@@ -1055,6 +1009,60 @@ Korlátozás: A videó címe eltűnik, ha rákattint."</string>
     <string name="revanced_disable_haptic_feedback_zoom_title">Nagyítás haptikus visszajelzésének letiltása</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_on">A haptikus visszajelzés le van tiltva.</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_off">A haptikus visszajelzés engedélyezett.</string>
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Miniplayer -->
+    <string name="revanced_preference_screen_miniplayer_title">Minilejátszó</string>
+    <string name="revanced_preference_screen_miniplayer_summary">Módosítsa az alkalmazáson belüli minilejátszó stílusát.</string>
+    <string name="revanced_disable_resuming_miniplayer_title">Minilejátszó folytatásának letiltása</string>
+    <string name="revanced_disable_resuming_miniplayer_summary_on">A &lt;b&gt;Folytassa a lejátszást&lt;/b&gt; nem fog elindulni az alkalmazás indításakor.</string>
+    <string name="revanced_disable_resuming_miniplayer_summary_off">A &lt;b&gt;Folytassa a lejátszást&lt;/b&gt; el fog indulni az alkalmazás indításakor. &lt;br&gt;&lt;br&gt;Infó:&lt;br&gt;• A &lt;b&gt;Folytassa a lejátszást&lt;/b&gt; egy YouTube Prémium funkció.&lt;br&gt;• Ez a beállítás nem erőlteti a &lt;b&gt;Folytassa a lejátszást&lt;/b&gt; engedélyezését.</string>
+    <string name="revanced_miniplayer_type_title">Minilejátszó típusa</string>
+    <string name="revanced_miniplayer_type_entry_0">Letiltva</string>
+    <string name="revanced_miniplayer_type_entry_1">Eredeti</string>
+    <string name="revanced_miniplayer_type_entry_2">Minimális</string>
+    <string name="revanced_miniplayer_type_entry_3">Tablet</string>
+    <string name="revanced_miniplayer_type_entry_4">Modern 1</string>
+    <string name="revanced_miniplayer_type_entry_5">Modern 2</string>
+    <string name="revanced_miniplayer_type_entry_6">Modern 3</string>
+    <string name="revanced_miniplayer_type_entry_7">Modern 4</string>
+    <string name="revanced_miniplayer_rounded_corners_title">Lekerekített sarkok engedélyezése</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_on">A sarkok lekerekítettek.</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_off">A sarkok négyzet alakúak.</string>
+    <string name="revanced_miniplayer_double_tap_action_title">Dupla koppintás és összehúzás engedélyezése átméretezéshez</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_on">"A dupla koppintás és összehúzás átméretezéshez engedélyezett.
+
+• Koppintson duplán a minilejátszó méretének növeléséhez.
+• Koppintson duplán az eredeti méret visszaállításához."</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_off">A dupla koppintás és összehúzás átméretezéshez le van tiltva.</string>
+    <string name="revanced_miniplayer_drag_and_drop_title">Fogd és vidd engedélyezése</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_on">"A fogd és vidd engedélyezett.
+
+A minilejátszó a képernyő bármely sarkába elhúzható."</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_off">A fogd és vidd le van tiltva.</string>
+    <string name="revanced_miniplayer_horizontal_drag_title">Vízszintes húzás engedélyezése.</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_on">"A vízszintes húzás engedélyezett.
+
+A minilejátszó jobbra vagy balra húzható a képernyőn."</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_off">A vízszintes húzás le van tiltva.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_title">Átfedés gombok elrejtése</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_on">Az átfedés gombok el vannak rejtve.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_off">Az átfedés gombok láthatóak.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_title">Kibontás és bezárás gombok elrejtése</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_on">"A gombok rejtettek.
+
+Csúsztasson a kibontáshoz vagy bezáráshoz."</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_off">A kibontás és bezárás gombok láthatóak.</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_title">Előre és vissza ugrás gombok elrejtése</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Az előre és hátra ugrás elrejtve.</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Az előre és hátra ugrás láthatóak.</string>
+    <string name="revanced_miniplayer_hide_subtext_title">Alszövegek elrejtése</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_on">Az alszövegek elrejtve.</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_off">Az alszövegek megjelennek.</string>
+    <string name="revanced_miniplayer_width_dip_title">Kezdeti méret</string>
+    <string name="revanced_miniplayer_width_dip_summary">Kezdeti méret a képernyőn, képpontban.</string>
+    <string name="revanced_miniplayer_width_dip_invalid_toast">A képpont méretének %1$s és %2$s között kell lennie.</string>
+    <string name="revanced_miniplayer_opacity_title">Átfedés átlátszósága</string>
+    <string name="revanced_miniplayer_opacity_summary">Átlátszósági érték 0 és 100 között, ahol a 0 az átlátszó.</string>
+    <string name="revanced_miniplayer_opacity_invalid_toast">A minilejátszó átlátszóságának 0 és 100 között kell lennie. Visszaállítás alapértelmezettre.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Player buttons -->
     <string name="revanced_preference_screen_player_buttons_title">Lejátszó gombok</string>
     <string name="revanced_preference_screen_player_buttons_summary">A videólejátszó gombok elrejtése vagy megjelenítése.</string>

@@ -269,6 +269,8 @@ Tienda"</string>
     <string name="revanced_hide_feed_flyout_menu_summary_on">El filtro del menú desplegable del feed está activado.</string>
     <string name="revanced_hide_feed_flyout_menu_summary_off">El filtro del menú desplegable del feed está desactivado.</string>
     <string name="revanced_hide_feed_flyout_menu_filter_type_title">Tipo de filtro del menú desplegable del feed</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_on">Filtrar si contiene.&lt;br&gt;&lt;br&gt;Para ocultar el menú &lt;b&gt;\'Reproducir el siguiente de la cola\'&lt;/b&gt;, puedes utilizar &lt;b&gt;\'Reproducir el siguiente\'&lt;/b&gt; o &lt;b&gt;\'de la cola\'&lt;/b&gt; como palabras clave.</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_off">Filtrar si coincide.&lt;br&gt;&lt;br&gt;Para ocultar el menú &lt;b&gt;\'Reproducir el siguiente de la cola\'&lt;/b&gt;, solo puedes utilizar &lt;b&gt;\'Reproducir el siguiente de la cola\'&lt;/b&gt; como palabras clave.</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_title">Filtro del menú desplegable del feed</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_summary">Lista de nombres del menú desplegable a filtrar separados por una nueva línea.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter -->
@@ -439,6 +441,8 @@ Si se desactiva más tarde, se recomienda borrar los datos de la aplicación par
     <string name="revanced_hide_account_menu_summary">"Oculta elementos del menú de la cuenta y de la pestaña Tú.
 Algunos componentes pueden no estar ocultos."</string>
     <string name="revanced_hide_account_menu_filter_type_title">Tipo de filtro de menú de cuenta</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_on">Filtrar si contiene.&lt;br&gt;&lt;br&gt;Para ocultar el menú &lt;b&gt;\'Obtener YouTube Premium\'&lt;/b&gt;, puedes utilizar &lt;b&gt;\'YouTube Premium\'&lt;/b&gt; o &lt;b&gt;\'Premium\'&lt;/b&gt; como palabras clave.</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_off">Filtrar si coincide.&lt;br&gt;&lt;br&gt;Para ocultar el menú &lt;b&gt;\'Obtener YouTube Premium\'&lt;/b&gt;, solo puedes utilizar &lt;b&gt;\'Obtener YouTube Premium\'&lt;/b&gt; como palabras claves.</string>
     <string name="revanced_hide_account_menu_filter_strings_title">Filtro de menú de cuenta</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">Lista de nombres del menú de la cuenta a filtrar separados por una nueva línea.</string>
     <string name="revanced_hide_handle_title">Ocultar nombre de usuario</string>
@@ -478,57 +482,6 @@ Algunos componentes pueden no estar ocultos."</string>
     <string name="revanced_third_party_youtube_music_not_installed_warning">%s no está instalado. Por favor, instálalo.</string>
     <string name="revanced_override_youtube_music_button_about_prerequisite_title">Requisito previo</string>
     <string name="revanced_override_youtube_music_button_about_prerequisite_summary">Se requiere YouTube Music para reemplazar la acción del botón. Pulsa aquí para descargar YouTube Music.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
-    <string name="revanced_preference_screen_miniplayer_title">Minirreproductor</string>
-    <string name="revanced_preference_screen_miniplayer_summary">Cambia el estilo del reproductor minimizado de la aplicación.</string>
-    <string name="revanced_miniplayer_type_title">Tipo de minirreproductor</string>
-    <string name="revanced_miniplayer_type_entry_0">Desactivada</string>
-    <string name="revanced_miniplayer_type_entry_1">Original</string>
-    <string name="revanced_miniplayer_type_entry_2">Teléfono</string>
-    <string name="revanced_miniplayer_type_entry_3">Tablet</string>
-    <string name="revanced_miniplayer_type_entry_4">Moderno 1</string>
-    <string name="revanced_miniplayer_type_entry_5">Moderno 2</string>
-    <string name="revanced_miniplayer_type_entry_6">Moderno 3</string>
-    <string name="revanced_miniplayer_type_entry_7">Moderno 4</string>
-    <string name="revanced_miniplayer_rounded_corners_title">Habilitar esquinas redondeadas</string>
-    <string name="revanced_miniplayer_rounded_corners_summary_on">Las esquinas están redondeadas.</string>
-    <string name="revanced_miniplayer_rounded_corners_summary_off">Las esquinas son cuadradas.</string>
-    <string name="revanced_miniplayer_double_tap_action_title">Habilitar doble toque y pellizco para redimensionar</string>
-    <string name="revanced_miniplayer_double_tap_action_summary_on">"Acción de doble toque y pulsar para cambiar el tamaño está habilitado.
-
-• Doble toque para aumentar el tamaño de mini reproductor.
-• Doble toque de nuevo para restaurar el tamaño original."</string>
-    <string name="revanced_miniplayer_double_tap_action_summary_off">Acción de doble toque y pellizco para redimensionar está desactivado.</string>
-    <string name="revanced_miniplayer_drag_and_drop_title">Activar arrastrar y soltar</string>
-    <string name="revanced_miniplayer_drag_and_drop_summary_on">"Arrastrar y soltar está habilitado.
-
-El mini reproductor puede ser arrastrado a cualquier esquina de la pantalla."</string>
-    <string name="revanced_miniplayer_drag_and_drop_summary_off">Arrastrar y soltar está desactivado.</string>
-    <string name="revanced_miniplayer_horizontal_drag_title">Activar gesto de arrastre horizontal.</string>
-    <string name="revanced_miniplayer_horizontal_drag_summary_on">"Gesto de arrastre horizontal habilitado.
-
-El mini reproductor puede ser arrastrado de la pantalla a la izquierda o derecha."</string>
-    <string name="revanced_miniplayer_horizontal_drag_summary_off">Gesto de arrastre horizontal desactivado.</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_title">Ocultar botones superpuestos</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_summary_on">Los botones superpuestos están ocultos.</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_summary_off">Los botones superpuestos están visibles.</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_title">Ocultar botones de expandir y cerrar</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_on">"Los botones están ocultos.
-
-Desliza para expandir o cerrar."</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_off">Los botones de expandir y cerrar están visibles.</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_title">Ocultar botones de avanzar y retroceder</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Avanzar y retroceder están ocultos.</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Avanzar y retroceder están visibles.</string>
-    <string name="revanced_miniplayer_hide_subtext_title">Ocultar subtextos</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_on">Los subtextos están ocultos.</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_off">Los subtextos están visibles.</string>
-    <string name="revanced_miniplayer_width_dip_title">Tamaño inicial</string>
-    <string name="revanced_miniplayer_width_dip_summary">Inicial en tamaño de pantalla, en píxeles.</string>
-    <string name="revanced_miniplayer_width_dip_invalid_toast">El tamaño del píxel debe estar entre %1$s y %2$s.</string>
-    <string name="revanced_miniplayer_opacity_title">Opacidad de superposición</string>
-    <string name="revanced_miniplayer_opacity_summary">Valor de opacidad entre 0-100, donde 0 es transparente.</string>
-    <string name="revanced_miniplayer_opacity_invalid_toast">La opacidad del minirreproductor debe estar entre 0-100. Restablezca a los valores predeterminados.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_bar_title">Barra de navegación</string>
     <string name="revanced_preference_screen_navigation_bar_summary">Ocultar o mostrar los componentes de la sección de la barra de navegación.</string>
@@ -1055,6 +1008,57 @@ Limitación: el título de vídeo desaparece cuando se pulsa."</string>
     <string name="revanced_disable_haptic_feedback_zoom_title">Desactivar vibración al hacer zoom</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_on">La vibración está desactivada.</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_off">La vibración está activada.</string>
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Miniplayer -->
+    <string name="revanced_preference_screen_miniplayer_title">Minirreproductor</string>
+    <string name="revanced_preference_screen_miniplayer_summary">Cambia el estilo del reproductor minimizado de la aplicación.</string>
+    <string name="revanced_miniplayer_type_title">Tipo de minirreproductor</string>
+    <string name="revanced_miniplayer_type_entry_0">Desactivada</string>
+    <string name="revanced_miniplayer_type_entry_1">Original</string>
+    <string name="revanced_miniplayer_type_entry_2">Teléfono</string>
+    <string name="revanced_miniplayer_type_entry_3">Tablet</string>
+    <string name="revanced_miniplayer_type_entry_4">Moderno 1</string>
+    <string name="revanced_miniplayer_type_entry_5">Moderno 2</string>
+    <string name="revanced_miniplayer_type_entry_6">Moderno 3</string>
+    <string name="revanced_miniplayer_type_entry_7">Moderno 4</string>
+    <string name="revanced_miniplayer_rounded_corners_title">Habilitar esquinas redondeadas</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_on">Las esquinas están redondeadas.</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_off">Las esquinas son cuadradas.</string>
+    <string name="revanced_miniplayer_double_tap_action_title">Habilitar doble toque y pellizco para redimensionar</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_on">"Acción de doble toque y pulsar para cambiar el tamaño está habilitado.
+
+• Doble toque para aumentar el tamaño de mini reproductor.
+• Doble toque de nuevo para restaurar el tamaño original."</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_off">Acción de doble toque y pellizco para redimensionar está desactivado.</string>
+    <string name="revanced_miniplayer_drag_and_drop_title">Activar arrastrar y soltar</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_on">"Arrastrar y soltar está habilitado.
+
+El mini reproductor puede ser arrastrado a cualquier esquina de la pantalla."</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_off">Arrastrar y soltar está desactivado.</string>
+    <string name="revanced_miniplayer_horizontal_drag_title">Activar gesto de arrastre horizontal.</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_on">"Gesto de arrastre horizontal habilitado.
+
+El mini reproductor puede ser arrastrado de la pantalla a la izquierda o derecha."</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_off">Gesto de arrastre horizontal desactivado.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_title">Ocultar botones superpuestos</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_on">Los botones superpuestos están ocultos.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_off">Los botones superpuestos están visibles.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_title">Ocultar botones de expandir y cerrar</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_on">"Los botones están ocultos.
+
+Desliza para expandir o cerrar."</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_off">Los botones de expandir y cerrar están visibles.</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_title">Ocultar botones de avanzar y retroceder</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Avanzar y retroceder están ocultos.</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Avanzar y retroceder están visibles.</string>
+    <string name="revanced_miniplayer_hide_subtext_title">Ocultar subtextos</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_on">Los subtextos están ocultos.</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_off">Los subtextos están visibles.</string>
+    <string name="revanced_miniplayer_width_dip_title">Tamaño inicial</string>
+    <string name="revanced_miniplayer_width_dip_summary">Inicial en tamaño de pantalla, en píxeles.</string>
+    <string name="revanced_miniplayer_width_dip_invalid_toast">El tamaño del píxel debe estar entre %1$s y %2$s.</string>
+    <string name="revanced_miniplayer_opacity_title">Opacidad de superposición</string>
+    <string name="revanced_miniplayer_opacity_summary">Valor de opacidad entre 0-100, donde 0 es transparente.</string>
+    <string name="revanced_miniplayer_opacity_invalid_toast">La opacidad del minirreproductor debe estar entre 0-100. Restablezca a los valores predeterminados.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Player buttons -->
     <string name="revanced_preference_screen_player_buttons_title">Botones del reproductor</string>
     <string name="revanced_preference_screen_player_buttons_summary">Ocultar o mostrar botones en vídeos.</string>

@@ -35,7 +35,7 @@
     <string name="revanced_hide_action_button_share_title">Ẩn nút Chia sẻ</string>
     <string name="revanced_hide_action_button_share_summary">Ẩn nút Chia sẻ trong thanh tương tác.</string>
     <string name="revanced_hide_action_button_song_video_title">Ẩn nút chuyển đổi giữa Bài hát và Video</string>
-    <string name="revanced_hide_action_button_song_video_summary">"Ẩn nút chuyển đổi giữa Bài hát và Video trong trình phát.
+    <string name="revanced_hide_action_button_song_video_summary">"Ẩn nút chuyển đổi giữa Bài hát và Video trên thanh tương tác.
 (Nút này chỉ có sẵn với một số người dùng)"</string>
     <string name="revanced_hide_action_button_label_title">Ẩn tên nút</string>
     <string name="revanced_hide_action_button_label_summary">Ẩn tên nút trong thanh tương tác.</string>
@@ -231,7 +231,7 @@ Nếu có thể, hãy sử dụng màu tối vì ứng dụng không hỗ trợ 
     <string name="revanced_custom_player_background_invalid_toast">Màu nền của trình phát mà bạn đã nhập không hợp lệ.</string>
     <string name="revanced_change_seekbar_position_title">Thay đổi vị trí thanh tiến trình</string>
     <string name="revanced_change_seekbar_position_summary">Di chuyển thanh tiến trình xuống bên dưới nút Phát.</string>
-    <string name="revanced_disable_miniplayer_gesture_title">Tắt cử chỉ vuốt trong trình phát thu nhỏ</string>
+    <string name="revanced_disable_miniplayer_gesture_title">Tắt cử chỉ trình phát thu nhỏ</string>
     <string name="revanced_disable_miniplayer_gesture_summary">Tắt vuốt để chuyển bài hát trong trình phát thu nhỏ.</string>
     <string name="revanced_disable_player_gesture_title">Tắt cử chỉ trình phát</string>
     <string name="revanced_disable_player_gesture_summary">Tắt vuốt để chuyển bài hát trong trình phát.</string>

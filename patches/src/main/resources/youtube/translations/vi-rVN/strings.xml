@@ -487,57 +487,6 @@ Một số mục có thể không bị ẩn."</string>
     <string name="revanced_third_party_youtube_music_not_installed_warning">Hiện %s chưa được cài đặt. Hãy cài đặt và thử lại.</string>
     <string name="revanced_override_youtube_music_button_about_prerequisite_title">Điều kiện tiên quyết</string>
     <string name="revanced_override_youtube_music_button_about_prerequisite_summary">Cần phải có YouTube Music để ghi đè chức năng của nút. Nhấn vào đây để tải YouTube Music.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
-    <string name="revanced_preference_screen_miniplayer_title">Trình phát thu nhỏ</string>
-    <string name="revanced_preference_screen_miniplayer_summary">Thay đổi kiểu trình phát thu nhỏ trong ứng dụng.</string>
-    <string name="revanced_miniplayer_type_title">Loại trình phát thu nhỏ</string>
-    <string name="revanced_miniplayer_type_entry_0">Tắt</string>
-    <string name="revanced_miniplayer_type_entry_1">Mặc định</string>
-    <string name="revanced_miniplayer_type_entry_2">Tối giản</string>
-    <string name="revanced_miniplayer_type_entry_3">Máy tính bảng</string>
-    <string name="revanced_miniplayer_type_entry_4">Hiện đại 1</string>
-    <string name="revanced_miniplayer_type_entry_5">Hiện đại 2</string>
-    <string name="revanced_miniplayer_type_entry_6">Hiện đại 3</string>
-    <string name="revanced_miniplayer_type_entry_7">Hiện đại 4</string>
-    <string name="revanced_miniplayer_rounded_corners_title">Bo tròn góc</string>
-    <string name="revanced_miniplayer_rounded_corners_summary_on">Các góc của trình phát thu nhỏ được bo tròn.</string>
-    <string name="revanced_miniplayer_rounded_corners_summary_off">Các góc của trình phát thu nhỏ như mặc định.</string>
-    <string name="revanced_miniplayer_double_tap_action_title">Nhấn đúp và chụm để thay đổi kích thước</string>
-    <string name="revanced_miniplayer_double_tap_action_summary_on">"Thao tác nhấn đúp và chụm để thay đổi kích thước được bật.
-
-• Nhấn đúp để tăng kích thước trình phát thu nhỏ.
-• Nhấn đúp lần nữa để khôi phục kích thước ban đầu."</string>
-    <string name="revanced_miniplayer_double_tap_action_summary_off">Thao tác nhấn đúp và chụm để thay đổi kích thước đã tắt.</string>
-    <string name="revanced_miniplayer_drag_and_drop_title">Kéo và thả</string>
-    <string name="revanced_miniplayer_drag_and_drop_summary_on">"Kéo và thả được bật.
-
-Trình phát thu nhỏ có thể được kéo đến bất kỳ góc nào trên màn hình."</string>
-    <string name="revanced_miniplayer_drag_and_drop_summary_off">Kéo và thả đã tắt.</string>
-    <string name="revanced_miniplayer_horizontal_drag_title">Cử chỉ kéo ngang</string>
-    <string name="revanced_miniplayer_horizontal_drag_summary_on">"Cử chỉ kéo ngang được bật.
-
-Trình phát thu nhỏ có thể được kéo vào rìa bên trái hoặc phải trên màn hình."</string>
-    <string name="revanced_miniplayer_horizontal_drag_summary_off">Cử chỉ kéo ngang đã tắt.</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_title">Ẩn các nút trong trình phát thu nhỏ</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_summary_on">Các nút trong trình phát thu nhỏ đã ẩn.</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_summary_off">Các nút trong trình phát thu nhỏ được hiển thị.</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_title">Ẩn các nút Mở rộng và Đóng</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_on">"Các nút Mở rộng và Đóng đã ẩn.
-
-Vuốt trình phát thu nhỏ để mở rộng hoặc đóng."</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_off">Các nút Mở rộng và Đóng được hiển thị.</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_title">Ẩn các nút tua nhanh và tua lại</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Các nút tua nhanh và tua lại đã ẩn.</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Các nút tua nhanh và tua lại được hiển thị.</string>
-    <string name="revanced_miniplayer_hide_subtext_title">Ẩn các văn bản phụ</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_on">Các văn bản phụ đã ẩn.</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_off">Các văn bản phụ được hiển thị.</string>
-    <string name="revanced_miniplayer_width_dip_title">Kích thước ban đầu</string>
-    <string name="revanced_miniplayer_width_dip_summary">Nhập kích thước ban đầu của trình phát thu nhỏ, tính bằng pixel.</string>
-    <string name="revanced_miniplayer_width_dip_invalid_toast">Kích thước pixel phải nằm trong khoảng từ %1$s tới %2$s.</string>
-    <string name="revanced_miniplayer_opacity_title">Độ mờ lớp phủ</string>
-    <string name="revanced_miniplayer_opacity_summary">Giá trị độ mờ của lớp phủ trình phát thu nhỏ trong khoảng từ 0 đến 100, trong đó 0 là trong suốt.</string>
-    <string name="revanced_miniplayer_opacity_invalid_toast">Độ mờ của lớp phủ trình phát thu nhỏ phải nằm trong khoảng 0 - 100.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_bar_title">Thanh điều hướng</string>
     <string name="revanced_preference_screen_navigation_bar_summary">Ẩn hoặc hiển thị các thành phần trên Thanh điều hướng.</string>
@@ -1062,6 +1011,57 @@ Hạn chế: Tiêu đề video sẽ biến mất khi nhấn vào."</string>
     <string name="revanced_disable_haptic_feedback_zoom_title">Tắt phản hồi xúc giác khi chụm để thu phóng</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_on">Phản hồi xúc giác đã tắt.</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_off">Phản hồi xúc giác được bật.</string>
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Miniplayer -->
+    <string name="revanced_preference_screen_miniplayer_title">Trình phát thu nhỏ</string>
+    <string name="revanced_preference_screen_miniplayer_summary">Thay đổi kiểu trình phát thu nhỏ trong ứng dụng.</string>
+    <string name="revanced_miniplayer_type_title">Loại trình phát thu nhỏ</string>
+    <string name="revanced_miniplayer_type_entry_0">Tắt</string>
+    <string name="revanced_miniplayer_type_entry_1">Mặc định</string>
+    <string name="revanced_miniplayer_type_entry_2">Tối giản</string>
+    <string name="revanced_miniplayer_type_entry_3">Máy tính bảng</string>
+    <string name="revanced_miniplayer_type_entry_4">Hiện đại 1</string>
+    <string name="revanced_miniplayer_type_entry_5">Hiện đại 2</string>
+    <string name="revanced_miniplayer_type_entry_6">Hiện đại 3</string>
+    <string name="revanced_miniplayer_type_entry_7">Hiện đại 4</string>
+    <string name="revanced_miniplayer_rounded_corners_title">Bo tròn góc</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_on">Các góc của trình phát thu nhỏ được bo tròn.</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_off">Các góc của trình phát thu nhỏ như mặc định.</string>
+    <string name="revanced_miniplayer_double_tap_action_title">Nhấn đúp và chụm để thay đổi kích thước</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_on">"Thao tác nhấn đúp và chụm để thay đổi kích thước được bật.
+
+• Nhấn đúp để tăng kích thước trình phát thu nhỏ.
+• Nhấn đúp lần nữa để khôi phục kích thước ban đầu."</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_off">Thao tác nhấn đúp và chụm để thay đổi kích thước đã tắt.</string>
+    <string name="revanced_miniplayer_drag_and_drop_title">Kéo và thả</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_on">"Kéo và thả được bật.
+
+Trình phát thu nhỏ có thể được kéo đến bất kỳ góc nào trên màn hình."</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_off">Kéo và thả đã tắt.</string>
+    <string name="revanced_miniplayer_horizontal_drag_title">Cử chỉ kéo ngang</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_on">"Cử chỉ kéo ngang được bật.
+
+Trình phát thu nhỏ có thể được kéo vào rìa bên trái hoặc phải trên màn hình."</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_off">Cử chỉ kéo ngang đã tắt.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_title">Ẩn các nút trong trình phát thu nhỏ</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_on">Các nút trong trình phát thu nhỏ đã ẩn.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_off">Các nút trong trình phát thu nhỏ được hiển thị.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_title">Ẩn các nút Mở rộng và Đóng</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_on">"Các nút Mở rộng và Đóng đã ẩn.
+
+Vuốt trình phát thu nhỏ để mở rộng hoặc đóng."</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_off">Các nút Mở rộng và Đóng được hiển thị.</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_title">Ẩn các nút tua nhanh và tua lại</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Các nút tua nhanh và tua lại đã ẩn.</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Các nút tua nhanh và tua lại được hiển thị.</string>
+    <string name="revanced_miniplayer_hide_subtext_title">Ẩn các văn bản phụ</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_on">Các văn bản phụ đã ẩn.</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_off">Các văn bản phụ được hiển thị.</string>
+    <string name="revanced_miniplayer_width_dip_title">Kích thước ban đầu</string>
+    <string name="revanced_miniplayer_width_dip_summary">Nhập kích thước ban đầu của trình phát thu nhỏ, tính bằng pixel.</string>
+    <string name="revanced_miniplayer_width_dip_invalid_toast">Kích thước pixel phải nằm trong khoảng từ %1$s tới %2$s.</string>
+    <string name="revanced_miniplayer_opacity_title">Độ mờ lớp phủ</string>
+    <string name="revanced_miniplayer_opacity_summary">Giá trị độ mờ của lớp phủ trình phát thu nhỏ trong khoảng từ 0 đến 100, trong đó 0 là trong suốt.</string>
+    <string name="revanced_miniplayer_opacity_invalid_toast">Độ mờ của lớp phủ trình phát thu nhỏ phải nằm trong khoảng 0 - 100.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Player buttons -->
     <string name="revanced_preference_screen_player_buttons_title">Nút trong trình phát</string>
     <string name="revanced_preference_screen_player_buttons_summary">Ẩn hoặc hiển thị các nút trong trình phát.</string>

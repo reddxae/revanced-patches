@@ -271,6 +271,8 @@ Shorts
     <string name="revanced_hide_feed_flyout_menu_summary_on">Фильтр всплывающего меню ленты включен.</string>
     <string name="revanced_hide_feed_flyout_menu_summary_off">Фильтр всплывающего меню ленты отключен.</string>
     <string name="revanced_hide_feed_flyout_menu_filter_type_title">Тип фильтра выдвижного меню в ленте</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_on">Фильтруется, если содержат.&lt;br&gt;&lt;br&gt;Чтобы скрыть меню &lt;b&gt;\'Воспроизвести следующим в очереди\'&lt;/b&gt;, можете использовать &lt;b&gt;\'Воспроизвести следующим\'&lt;/b&gt; или &lt;b&gt;\'в очереди\'&lt;/b&gt; как ключевые слова.</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_off">Фильтруется, если совпадают.&lt;br&gt;&lt;br&gt;Чтобы скрыть меню &lt;b&gt;\'Воспроизвести следующим в очереди\'&lt;/b&gt;, можете использовать только &lt;b&gt;\'Воспроизвести следующим в очереди\'&lt;/b&gt; как ключевые слова.</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_title">Фильтр всплывающего меню ленты</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_summary">Список имен всплывающего меню ленты для скрытия.\nРазделять новой строкой.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter -->
@@ -450,6 +452,8 @@ Shorts
     <string name="revanced_hide_account_menu_summary">"Скрыть элементы меню аккаунта и вкладки \"Вы\".
 Некоторые компоненты не могут быть скрыты."</string>
     <string name="revanced_hide_account_menu_filter_type_title">Тип фильтра меню аккаунта</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_on">Фильтруется, если содержат.&lt;br&gt;&lt;br&gt;Чтобы скрыть меню &lt;b&gt;\'Оформить подписку YouTube Premium\'&lt;/b&gt;, можете использовать &lt;b&gt;\'YouTube Premium\'&lt;/b&gt; или &lt;b&gt;\'Premium\'&lt;/b&gt; как ключевые слова.</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_off">Фильтруется, если совпадают.&lt;br&gt;&lt;br&gt;Чтобы скрыть меню &lt;b&gt;\'Оформить подписку YouTube Premium\'&lt;/b&gt;, можете использовать только &lt;b&gt;\'Оформить подписку YouTube Premium\'&lt;/b&gt; как ключевые слова.</string>
     <string name="revanced_hide_account_menu_filter_strings_title">Фильтр элементов меню аккаунта</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">Список элементов меню учетной записи для скрытия.\nРазделять новой строкой.</string>
     <string name="revanced_hide_handle_title">Скрыть псевдоним</string>
@@ -490,57 +494,6 @@ Shorts
     <string name="revanced_override_youtube_music_button_about_prerequisite_title">Обязательное условие</string>
     <string name="revanced_override_youtube_music_button_about_prerequisite_summary">Для переопределения кнопки требуется YouTube Music.
 Нажмите здесь, чтобы загрузить YouTube Music.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
-    <string name="revanced_preference_screen_miniplayer_title">Мини-плеер</string>
-    <string name="revanced_preference_screen_miniplayer_summary">Стиль мини-плеера.</string>
-    <string name="revanced_miniplayer_type_title">Тип мини-плеера</string>
-    <string name="revanced_miniplayer_type_entry_0">Отключено</string>
-    <string name="revanced_miniplayer_type_entry_1">Оригинал</string>
-    <string name="revanced_miniplayer_type_entry_2">Телефон</string>
-    <string name="revanced_miniplayer_type_entry_3">Планшет</string>
-    <string name="revanced_miniplayer_type_entry_4">Современный 1</string>
-    <string name="revanced_miniplayer_type_entry_5">Современный 2</string>
-    <string name="revanced_miniplayer_type_entry_6">Современный 3</string>
-    <string name="revanced_miniplayer_type_entry_7">Новейший 4</string>
-    <string name="revanced_miniplayer_rounded_corners_title">Скругления углов мини-плеера</string>
-    <string name="revanced_miniplayer_rounded_corners_summary_on">Скругления углов включено.</string>
-    <string name="revanced_miniplayer_rounded_corners_summary_off">Скругления углов отключено.</string>
-    <string name="revanced_miniplayer_double_tap_action_title">Изменение размера жестом</string>
-    <string name="revanced_miniplayer_double_tap_action_summary_on">"Двойное нажатие и щипок для изменения размера включено.
-
-• Двойное нажатие для увеличения размера мини-плеера.
-• Двойное нажатие еще раз для восстановления исходного размера."</string>
-    <string name="revanced_miniplayer_double_tap_action_summary_off">Двойное нажатие и щипок для изменения размера отключено.</string>
-    <string name="revanced_miniplayer_drag_and_drop_title">Перетаскивание мини-плеера</string>
-    <string name="revanced_miniplayer_drag_and_drop_summary_on">"Перетаскивание мини-плеера включено.
-
-Мини-плеер можно перемещать по экрану."</string>
-    <string name="revanced_miniplayer_drag_and_drop_summary_off">Перетаскивание мини-плеера отключено.</string>
-    <string name="revanced_miniplayer_horizontal_drag_title">Жест горизонтального перетаскивания.</string>
-    <string name="revanced_miniplayer_horizontal_drag_summary_on">"Жест горизонтального перетаскивания включен.
-
-Мини-плеер можно перетаскивать за пределы экрана влево или вправо."</string>
-    <string name="revanced_miniplayer_horizontal_drag_summary_off">Жест горизонтального перетаскивания отключен.</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_title">Скрыть наложенные кнопки</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_summary_on">Наложенные кнопки скрыты.</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_summary_off">Наложенные кнопки отображаются.</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_title">Скрыть кнопки развертывания и закрытия</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_on">"Кнопки скрыты.
-
-Проведите, чтобы развернуть или закрыть."</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_off">Кнопки развертывания и закрытия показываются.</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_title">Кнопки перемотки</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Кнопки перемотки скрыты.</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Кнопки перемотки отображены.</string>
-    <string name="revanced_miniplayer_hide_subtext_title">Подстрочный текст</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_on">Подстрочный текст скрыт.</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_off">Подстрочный текст отображен.</string>
-    <string name="revanced_miniplayer_width_dip_title">Начальный размер</string>
-    <string name="revanced_miniplayer_width_dip_summary">Начальный размер мини-плеера в пикселях.</string>
-    <string name="revanced_miniplayer_width_dip_invalid_toast">Размер в пикселях должен быть между %1$s и %2$s.</string>
-    <string name="revanced_miniplayer_opacity_title">Непрозрачность мини-плеера</string>
-    <string name="revanced_miniplayer_opacity_summary">Значение непрозрачности в промежутке 0-100, где 0 это прозрачный.</string>
-    <string name="revanced_miniplayer_opacity_invalid_toast">Непрозрачность должна быть в диапазоне 0-100. Сброс по умолчанию.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_bar_title">Панель навигации</string>
     <string name="revanced_preference_screen_navigation_bar_summary">Настроить компоненты панели навигации.</string>
@@ -1070,6 +1023,57 @@ Shorts
     <string name="revanced_disable_haptic_feedback_zoom_title">Виброотклик при жесте увеличения экрана</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_on">Виброотклик отключен.</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_off">Виброотклик включен.</string>
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Miniplayer -->
+    <string name="revanced_preference_screen_miniplayer_title">Мини-плеер</string>
+    <string name="revanced_preference_screen_miniplayer_summary">Стиль мини-плеера.</string>
+    <string name="revanced_miniplayer_type_title">Тип мини-плеера</string>
+    <string name="revanced_miniplayer_type_entry_0">Отключено</string>
+    <string name="revanced_miniplayer_type_entry_1">Оригинал</string>
+    <string name="revanced_miniplayer_type_entry_2">Телефон</string>
+    <string name="revanced_miniplayer_type_entry_3">Планшет</string>
+    <string name="revanced_miniplayer_type_entry_4">Современный 1</string>
+    <string name="revanced_miniplayer_type_entry_5">Современный 2</string>
+    <string name="revanced_miniplayer_type_entry_6">Современный 3</string>
+    <string name="revanced_miniplayer_type_entry_7">Новейший 4</string>
+    <string name="revanced_miniplayer_rounded_corners_title">Скругления углов мини-плеера</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_on">Скругления углов включено.</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_off">Скругления углов отключено.</string>
+    <string name="revanced_miniplayer_double_tap_action_title">Изменение размера жестом</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_on">"Двойное нажатие и щипок для изменения размера включено.
+
+• Двойное нажатие для увеличения размера мини-плеера.
+• Двойное нажатие еще раз для восстановления исходного размера."</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_off">Двойное нажатие и щипок для изменения размера отключено.</string>
+    <string name="revanced_miniplayer_drag_and_drop_title">Перетаскивание мини-плеера</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_on">"Перетаскивание мини-плеера включено.
+
+Мини-плеер можно перемещать по экрану."</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_off">Перетаскивание мини-плеера отключено.</string>
+    <string name="revanced_miniplayer_horizontal_drag_title">Жест горизонтального перетаскивания.</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_on">"Жест горизонтального перетаскивания включен.
+
+Мини-плеер можно перетаскивать за пределы экрана влево или вправо."</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_off">Жест горизонтального перетаскивания отключен.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_title">Скрыть наложенные кнопки</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_on">Наложенные кнопки скрыты.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_off">Наложенные кнопки отображаются.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_title">Скрыть кнопки развертывания и закрытия</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_on">"Кнопки скрыты.
+
+Проведите, чтобы развернуть или закрыть."</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_off">Кнопки развертывания и закрытия показываются.</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_title">Кнопки перемотки</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Кнопки перемотки скрыты.</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Кнопки перемотки отображены.</string>
+    <string name="revanced_miniplayer_hide_subtext_title">Подстрочный текст</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_on">Подстрочный текст скрыт.</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_off">Подстрочный текст отображен.</string>
+    <string name="revanced_miniplayer_width_dip_title">Начальный размер</string>
+    <string name="revanced_miniplayer_width_dip_summary">Начальный размер мини-плеера в пикселях.</string>
+    <string name="revanced_miniplayer_width_dip_invalid_toast">Размер в пикселях должен быть между %1$s и %2$s.</string>
+    <string name="revanced_miniplayer_opacity_title">Непрозрачность мини-плеера</string>
+    <string name="revanced_miniplayer_opacity_summary">Значение непрозрачности в промежутке 0-100, где 0 это прозрачный.</string>
+    <string name="revanced_miniplayer_opacity_invalid_toast">Непрозрачность должна быть в диапазоне 0-100. Сброс по умолчанию.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Player buttons -->
     <string name="revanced_preference_screen_player_buttons_title">Кнопки плеера</string>
     <string name="revanced_preference_screen_player_buttons_summary">Скрыть или показать кнопки в видео.</string>

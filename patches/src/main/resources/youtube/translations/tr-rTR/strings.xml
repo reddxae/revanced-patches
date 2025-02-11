@@ -474,57 +474,6 @@ Daha sonra kapatılırsa kullanıcı arayüzü hatalarını önlemek için uygul
     <string name="revanced_third_party_youtube_music_not_installed_warning">%s kurulu değil. Lütfen kurun.</string>
     <string name="revanced_override_youtube_music_button_about_prerequisite_title">Önkoşul</string>
     <string name="revanced_override_youtube_music_button_about_prerequisite_summary">Düğme eylemini geçersiz kılmak için Resmi YouTube Music uygulaması gereklidir. YouTube Müzik\'i indirmek için buraya dokunun.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
-    <string name="revanced_preference_screen_miniplayer_title">Miniplayer</string>
-    <string name="revanced_preference_screen_miniplayer_summary">Uygulama içi simge durumuna küçültülmüş oynatıcının stilini değiştirin.</string>
-    <string name="revanced_miniplayer_type_title">Miniplayer tipi</string>
-    <string name="revanced_miniplayer_type_entry_0">Devre dışı</string>
-    <string name="revanced_miniplayer_type_entry_1">Orjinal</string>
-    <string name="revanced_miniplayer_type_entry_2">Telefon</string>
-    <string name="revanced_miniplayer_type_entry_3">Tablet</string>
-    <string name="revanced_miniplayer_type_entry_4">Modern 1</string>
-    <string name="revanced_miniplayer_type_entry_5">Modern 2</string>
-    <string name="revanced_miniplayer_type_entry_6">Modern 3</string>
-    <string name="revanced_miniplayer_type_entry_7">Modern 4</string>
-    <string name="revanced_miniplayer_rounded_corners_title">Yuvarlatılmış köşeleri etkinleştir</string>
-    <string name="revanced_miniplayer_rounded_corners_summary_on">Köşeler yuvarlatılmış.</string>
-    <string name="revanced_miniplayer_rounded_corners_summary_off">Köşeler kare şeklinde.</string>
-    <string name="revanced_miniplayer_double_tap_action_title">Boyutlandırmak için çift dokunmayı ve sıkıştırmayı etkinleştir</string>
-    <string name="revanced_miniplayer_double_tap_action_summary_on">"Çift dokunma eylemi ve yeniden boyutlandırmak için çimdikleme etkinleştirildi.
-
-- Miniplayer boyutunu artırmak için çift dokunun.
-- Orijinal boyuta geri dönmek için tekrar çift dokunun."</string>
-    <string name="revanced_miniplayer_double_tap_action_summary_off">Çift dokunma ve sıkıştırma ile yeniden boyutlandırma özelliği devre dışı bırakıldı.</string>
-    <string name="revanced_miniplayer_drag_and_drop_title">Sürükle ve Bırak\'ı etkinleştir</string>
-    <string name="revanced_miniplayer_drag_and_drop_summary_on">"Sürükle ve bırak etkin.
-
-Miniplayer'ı ekranın herhangi bir köşesine sürükleyebilirsiniz."</string>
-    <string name="revanced_miniplayer_drag_and_drop_summary_off">Sürükle ve bırak devre dışı.</string>
-    <string name="revanced_miniplayer_horizontal_drag_title">Yatay sürükleme hareketini etkinleştir.</string>
-    <string name="revanced_miniplayer_horizontal_drag_summary_on">"Yatay sürükleme hareketi etkinleştirildi.
-
-Miniplayer ekranın soluna veya sağına sürüklenebilir."</string>
-    <string name="revanced_miniplayer_horizontal_drag_summary_off">Yatay sürükleme hareketi devre dışı.</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_title">Arayüz düğmelerini gizle</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_summary_on">Arayüz düğmeleri gizli.</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_summary_off">Arayüz düğmeleri gösteriliyor.</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_title">Genişlet ve kapat butonlarını gizle</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_on">"Düğmeler gizlendi.
-
-Genişletmek veya kapatmak için kaydırın."</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_off">Genişletme ve kapatma butonları gösterilir.</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_title">Atla ileri ve geri butonlarını gizle</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Atla ileri ve geri butonlarını gizli.</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Atla ileri ve geri butonlarını gizlenmiyor.</string>
-    <string name="revanced_miniplayer_hide_subtext_title">Alt metinleri gizle</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_on">Alt metinler gizli.</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_off">Alt metinler gizlenmiyor.</string>
-    <string name="revanced_miniplayer_width_dip_title">Başlangıç boyutu</string>
-    <string name="revanced_miniplayer_width_dip_summary">Başlangıçtaki boyut, piksel cinsinden.</string>
-    <string name="revanced_miniplayer_width_dip_invalid_toast">Piksel boyutu %1$s ve %2$s arasında olmalıdır.</string>
-    <string name="revanced_miniplayer_opacity_title">Kaplama opaklığı</string>
-    <string name="revanced_miniplayer_opacity_summary">0-100 arası opaklık değeri, 0 şeffaftır.</string>
-    <string name="revanced_miniplayer_opacity_invalid_toast">Mini oynatıcının siyah arkaplan opaklığı 0 ila 100 arasında olmalıdır. Varsayılan değere sıfırlandı.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_bar_title">Gezinme çubuğu</string>
     <string name="revanced_preference_screen_navigation_bar_summary">Gezinme çubuğu bölümü bileşenlerini gizleyin veya gösterin.</string>
@@ -963,6 +912,57 @@ Sınırlama: Tıklandığında video başlığı kayboluyor."</string>
     <string name="revanced_disable_haptic_feedback_zoom_title">Videoyu yakınlaştırırkenki titreşimi kapat</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_on">Titreşim kapalı.</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_off">Titreşim açık.</string>
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Miniplayer -->
+    <string name="revanced_preference_screen_miniplayer_title">Miniplayer</string>
+    <string name="revanced_preference_screen_miniplayer_summary">Uygulama içi simge durumuna küçültülmüş oynatıcının stilini değiştirin.</string>
+    <string name="revanced_miniplayer_type_title">Miniplayer tipi</string>
+    <string name="revanced_miniplayer_type_entry_0">Devre dışı</string>
+    <string name="revanced_miniplayer_type_entry_1">Orjinal</string>
+    <string name="revanced_miniplayer_type_entry_2">Telefon</string>
+    <string name="revanced_miniplayer_type_entry_3">Tablet</string>
+    <string name="revanced_miniplayer_type_entry_4">Modern 1</string>
+    <string name="revanced_miniplayer_type_entry_5">Modern 2</string>
+    <string name="revanced_miniplayer_type_entry_6">Modern 3</string>
+    <string name="revanced_miniplayer_type_entry_7">Modern 4</string>
+    <string name="revanced_miniplayer_rounded_corners_title">Yuvarlatılmış köşeleri etkinleştir</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_on">Köşeler yuvarlatılmış.</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_off">Köşeler kare şeklinde.</string>
+    <string name="revanced_miniplayer_double_tap_action_title">Boyutlandırmak için çift dokunmayı ve sıkıştırmayı etkinleştir</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_on">"Çift dokunma eylemi ve yeniden boyutlandırmak için çimdikleme etkinleştirildi.
+
+- Miniplayer boyutunu artırmak için çift dokunun.
+- Orijinal boyuta geri dönmek için tekrar çift dokunun."</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_off">Çift dokunma ve sıkıştırma ile yeniden boyutlandırma özelliği devre dışı bırakıldı.</string>
+    <string name="revanced_miniplayer_drag_and_drop_title">Sürükle ve Bırak\'ı etkinleştir</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_on">"Sürükle ve bırak etkin.
+
+Miniplayer'ı ekranın herhangi bir köşesine sürükleyebilirsiniz."</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_off">Sürükle ve bırak devre dışı.</string>
+    <string name="revanced_miniplayer_horizontal_drag_title">Yatay sürükleme hareketini etkinleştir.</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_on">"Yatay sürükleme hareketi etkinleştirildi.
+
+Miniplayer ekranın soluna veya sağına sürüklenebilir."</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_off">Yatay sürükleme hareketi devre dışı.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_title">Arayüz düğmelerini gizle</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_on">Arayüz düğmeleri gizli.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_off">Arayüz düğmeleri gösteriliyor.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_title">Genişlet ve kapat butonlarını gizle</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_on">"Düğmeler gizlendi.
+
+Genişletmek veya kapatmak için kaydırın."</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_off">Genişletme ve kapatma butonları gösterilir.</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_title">Atla ileri ve geri butonlarını gizle</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Atla ileri ve geri butonlarını gizli.</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Atla ileri ve geri butonlarını gizlenmiyor.</string>
+    <string name="revanced_miniplayer_hide_subtext_title">Alt metinleri gizle</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_on">Alt metinler gizli.</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_off">Alt metinler gizlenmiyor.</string>
+    <string name="revanced_miniplayer_width_dip_title">Başlangıç boyutu</string>
+    <string name="revanced_miniplayer_width_dip_summary">Başlangıçtaki boyut, piksel cinsinden.</string>
+    <string name="revanced_miniplayer_width_dip_invalid_toast">Piksel boyutu %1$s ve %2$s arasında olmalıdır.</string>
+    <string name="revanced_miniplayer_opacity_title">Kaplama opaklığı</string>
+    <string name="revanced_miniplayer_opacity_summary">0-100 arası opaklık değeri, 0 şeffaftır.</string>
+    <string name="revanced_miniplayer_opacity_invalid_toast">Mini oynatıcının siyah arkaplan opaklığı 0 ila 100 arasında olmalıdır. Varsayılan değere sıfırlandı.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Player buttons -->
     <string name="revanced_preference_screen_player_buttons_title">Oynatıcı butonları</string>
     <string name="revanced_preference_screen_player_buttons_summary">Videolardaki düğmeleri gizle veya göster.</string>

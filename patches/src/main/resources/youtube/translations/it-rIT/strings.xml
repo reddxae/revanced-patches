@@ -269,6 +269,8 @@ Negozio"</string>
     <string name="revanced_hide_feed_flyout_menu_summary_on">Il filtro dei menù a comparsa è attivato.</string>
     <string name="revanced_hide_feed_flyout_menu_summary_off">Il filtro dei menù a comparsa è disattivato.</string>
     <string name="revanced_hide_feed_flyout_menu_filter_type_title">Cambia il tipo di filtro dei menù a comparsa</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_on">Filtra se contiene.&lt;br&gt;&lt;br&gt;Per nascondere il menù &lt;b&gt;Riproduci come il prossimo in coda&lt;/b&gt;, puoi usare le parole chiave come &lt;b&gt;Riproduci come&lt;/b&gt; o &lt;b&gt;in coda&lt;/b&gt;.</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_off">Filtra se corrisponde.&lt;br&gt;&lt;br&gt;Per nascondere il menù &lt;b&gt;Riproduci come il prossimo in coda&lt;/b&gt;, puoi usare solo la parola chiave &lt;b&gt;Riproduci come il prossimo in coda&lt;/b&gt;.</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_title">Filtro dei menù a comparsa</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_summary">L\'elenco dei nomi dei menù a comparsa da filtrare, separati da nuove righe.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter -->
@@ -442,6 +444,8 @@ Se in seguito verrà disattivato, si consiglia di cancellare i dati dell'app per
     <string name="revanced_hide_account_menu_summary">"Nascondi i componenti dei menù dell'account e della scheda Tu.
 Nota: alcuni componenti potrebbero non essere nascosti."</string>
     <string name="revanced_hide_account_menu_filter_type_title">Cambia il tipo di filtro dei menù dell\'account</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_on">Filtra se contiene.&lt;br&gt;&lt;br&gt;Per nascondere il menù &lt;b&gt;Passa a YouTube Premium&lt;/b&gt;, puoi usare le parole chiave come &lt;b&gt;YouTube Premium&lt;/b&gt; o &lt;b&gt;Premium&lt;/b&gt;.</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_off">Filtra se corrisponde.&lt;br&gt;&lt;br&gt;Per nascondere il menù &lt;b&gt;Passa a YouTube Premium&lt;/b&gt;, puoi usare solo la parola chiave &lt;b&gt;Passa a YouTube Premium&lt;/b&gt;.</string>
     <string name="revanced_hide_account_menu_filter_strings_title">Modifica il filtro dei menù dell\'account</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">L\'elenco dei nomi dei menù degli account da filtrare, separati da nuove righe.</string>
     <string name="revanced_hide_handle_title">Nascondi l\'handle</string>
@@ -481,58 +485,6 @@ Nota: alcuni componenti potrebbero non essere nascosti."</string>
     <string name="revanced_third_party_youtube_music_not_installed_warning">%s non è installato. Per favore installalo.</string>
     <string name="revanced_override_youtube_music_button_about_prerequisite_title">Prerequisito</string>
     <string name="revanced_override_youtube_music_button_about_prerequisite_summary">L\'app YouTube Music è necessario per sovrascrivere l\'azione del pulsante. Tocca qui per scaricare YouTube Music.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
-    <string name="revanced_preference_screen_miniplayer_title">Riproduttore minimizzato</string>
-    <string name="revanced_preference_screen_miniplayer_summary">Personalizza i componenti del riproduttore minimizzato.</string>
-    <string name="revanced_miniplayer_type_title">Cambia lo stile del riproduttore minimizzato</string>
-    <string name="revanced_miniplayer_type_entry_0">Disattivato</string>
-    <string name="revanced_miniplayer_type_entry_1">Predefinito</string>
-    <string name="revanced_miniplayer_type_entry_2">Minimale</string>
-    <string name="revanced_miniplayer_type_entry_3">Tablet</string>
-    <string name="revanced_miniplayer_type_entry_4">Moderno 1</string>
-    <string name="revanced_miniplayer_type_entry_5">Moderno 2</string>
-    <string name="revanced_miniplayer_type_entry_6">Moderno 3</string>
-    <string name="revanced_miniplayer_type_entry_7">Moderno 4</string>
-    <string name="revanced_miniplayer_rounded_corners_title">Attiva gli angoli arrotondati</string>
-    <string name="revanced_miniplayer_rounded_corners_summary_on">Gli angoli sono arrotondati.</string>
-    <string name="revanced_miniplayer_rounded_corners_summary_off">Gli angoli sono quadrati.</string>
-    <string name="revanced_miniplayer_double_tap_action_title">Attiva il gesto Doppio Tocco e Pizzico per ridimensionare</string>
-    <string name="revanced_miniplayer_double_tap_action_summary_on">"Il gesto Doppio Tocco e Pizzico per ridimensionare è attivato.
-
-Note:
-• Tocca due volte per aumentare la dimesione del riproduttore minimizzato.
-• Tocca di nuovo due volte per ripristinare la dimensione originale."</string>
-    <string name="revanced_miniplayer_double_tap_action_summary_off">Il gesto Doppio Tocco e Pizzico per ridimensionare è disattivato.</string>
-    <string name="revanced_miniplayer_drag_and_drop_title">Attiva il gesto Trascina e Rilascia</string>
-    <string name="revanced_miniplayer_drag_and_drop_summary_on">"Il gesto Trascina e Rilascia è attivato.
-
-Il riproduttore minimizzato può essere trascinato in qualsiasi angolo dello schermo."</string>
-    <string name="revanced_miniplayer_drag_and_drop_summary_off">Il gesto Trascina e Rilascia è disattivato.</string>
-    <string name="revanced_miniplayer_horizontal_drag_title">Attiva il gesto Trascina Orizzontalmente</string>
-    <string name="revanced_miniplayer_horizontal_drag_summary_on">"Il gesto Trascina Orizzontalmente è attivato.
-
-Il riproduttore minimizzato può essere trascinato fuori dallo schermo a sinistra o a destra."</string>
-    <string name="revanced_miniplayer_horizontal_drag_summary_off">Il gesto Trascina Orizzontalmente è disattivato.</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_title">Nascondi i pulsanti in sovrapposizione</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_summary_on">I pulsanti in sovrapposizione sono nascosti.</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_summary_off">I pulsanti in sovrapposizione sono visibili.</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_title">Nascondi i pulsanti Espandi e Chiudi</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_on">"I pulsanti Espandi e Chiudi sono nascosti.
-
-Trascina il riproduttore minimizzato per espanderlo o chiuderlo."</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_off">I pulsanti Espandi e Chiudi sono visibili.</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_title">Nascondi i pulsanti Salta Avanti e Salta Indietro</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">I pulsanti Salta Avanti e Salta Indietro sono nascosti.</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">I pulsanti Salta Avanti e Salta Indietro sono visibili.</string>
-    <string name="revanced_miniplayer_hide_subtext_title">Nascondi i sottotesti</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_on">I sottotesti sono nascosti.</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_off">I sottotesti sono visibili.</string>
-    <string name="revanced_miniplayer_width_dip_title">Dimensione iniziale</string>
-    <string name="revanced_miniplayer_width_dip_summary">La dimensione iniziale sullo schermo in pixel.</string>
-    <string name="revanced_miniplayer_width_dip_invalid_toast">La dimensione in pixel deve essere tra %1$s e %2$s</string>
-    <string name="revanced_miniplayer_opacity_title">Opacità della sovrapposizione</string>
-    <string name="revanced_miniplayer_opacity_summary">Il valore dell\'opacità è tra 0 e 100, dove 0 è trasparente.</string>
-    <string name="revanced_miniplayer_opacity_invalid_toast">L\'opacità della sovrapposizione del riproduttore minimizzato deve essere tra 0 e 100</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_bar_title">Barra di navigazione</string>
     <string name="revanced_preference_screen_navigation_bar_summary">Personalizza i componenti della barra di navigazione.</string>
@@ -1061,6 +1013,58 @@ Nota: il titolo scompare quando lo si tocca."</string>
     <string name="revanced_disable_haptic_feedback_zoom_title">Disattiva la vibrazione tattile dello zoom</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_on">La vibrazione tattile dello zoom è disattivata.</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_off">La vibrazione tattile dello zoom è attivata.</string>
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Miniplayer -->
+    <string name="revanced_preference_screen_miniplayer_title">Riproduttore minimizzato</string>
+    <string name="revanced_preference_screen_miniplayer_summary">Personalizza i componenti del riproduttore minimizzato.</string>
+    <string name="revanced_miniplayer_type_title">Cambia lo stile del riproduttore minimizzato</string>
+    <string name="revanced_miniplayer_type_entry_0">Disattivato</string>
+    <string name="revanced_miniplayer_type_entry_1">Predefinito</string>
+    <string name="revanced_miniplayer_type_entry_2">Minimale</string>
+    <string name="revanced_miniplayer_type_entry_3">Tablet</string>
+    <string name="revanced_miniplayer_type_entry_4">Moderno 1</string>
+    <string name="revanced_miniplayer_type_entry_5">Moderno 2</string>
+    <string name="revanced_miniplayer_type_entry_6">Moderno 3</string>
+    <string name="revanced_miniplayer_type_entry_7">Moderno 4</string>
+    <string name="revanced_miniplayer_rounded_corners_title">Attiva gli angoli arrotondati</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_on">Gli angoli sono arrotondati.</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_off">Gli angoli sono quadrati.</string>
+    <string name="revanced_miniplayer_double_tap_action_title">Attiva il gesto Doppio Tocco e Pizzico per ridimensionare</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_on">"Il gesto Doppio Tocco e Pizzico per ridimensionare è attivato.
+
+Note:
+• Tocca due volte per aumentare la dimesione del riproduttore minimizzato.
+• Tocca di nuovo due volte per ripristinare la dimensione originale."</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_off">Il gesto Doppio Tocco e Pizzico per ridimensionare è disattivato.</string>
+    <string name="revanced_miniplayer_drag_and_drop_title">Attiva il gesto Trascina e Rilascia</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_on">"Il gesto Trascina e Rilascia è attivato.
+
+Il riproduttore minimizzato può essere trascinato in qualsiasi angolo dello schermo."</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_off">Il gesto Trascina e Rilascia è disattivato.</string>
+    <string name="revanced_miniplayer_horizontal_drag_title">Attiva il gesto Trascina Orizzontalmente</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_on">"Il gesto Trascina Orizzontalmente è attivato.
+
+Il riproduttore minimizzato può essere trascinato fuori dallo schermo a sinistra o a destra."</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_off">Il gesto Trascina Orizzontalmente è disattivato.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_title">Nascondi i pulsanti in sovrapposizione</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_on">I pulsanti in sovrapposizione sono nascosti.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_off">I pulsanti in sovrapposizione sono visibili.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_title">Nascondi i pulsanti Espandi e Chiudi</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_on">"I pulsanti Espandi e Chiudi sono nascosti.
+
+Trascina il riproduttore minimizzato per espanderlo o chiuderlo."</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_off">I pulsanti Espandi e Chiudi sono visibili.</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_title">Nascondi i pulsanti Salta Avanti e Salta Indietro</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">I pulsanti Salta Avanti e Salta Indietro sono nascosti.</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">I pulsanti Salta Avanti e Salta Indietro sono visibili.</string>
+    <string name="revanced_miniplayer_hide_subtext_title">Nascondi i sottotesti</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_on">I sottotesti sono nascosti.</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_off">I sottotesti sono visibili.</string>
+    <string name="revanced_miniplayer_width_dip_title">Dimensione iniziale</string>
+    <string name="revanced_miniplayer_width_dip_summary">La dimensione iniziale sullo schermo in pixel.</string>
+    <string name="revanced_miniplayer_width_dip_invalid_toast">La dimensione in pixel deve essere tra %1$s e %2$s</string>
+    <string name="revanced_miniplayer_opacity_title">Opacità della sovrapposizione</string>
+    <string name="revanced_miniplayer_opacity_summary">Il valore dell\'opacità è tra 0 e 100, dove 0 è trasparente.</string>
+    <string name="revanced_miniplayer_opacity_invalid_toast">L\'opacità della sovrapposizione del riproduttore minimizzato deve essere tra 0 e 100</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Player buttons -->
     <string name="revanced_preference_screen_player_buttons_title">Pulsanti</string>
     <string name="revanced_preference_screen_player_buttons_summary">Personalizza i pulsanti del riproduttore.</string>

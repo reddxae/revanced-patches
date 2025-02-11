@@ -483,57 +483,6 @@ Playlists
     <string name="revanced_third_party_youtube_music_not_installed_warning">%s δεν έχει εγκατασταθεί. Παρακαλούμε εγκαταστήστε το.</string>
     <string name="revanced_override_youtube_music_button_about_prerequisite_title">Προαπαιτούμενο</string>
     <string name="revanced_override_youtube_music_button_about_prerequisite_summary">Το YouTube Music είναι απαραίτητο για την μετατροπή ενέργειας του κουμπιού. Πατήστε για να κατεβάσετε το YouTube Music.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
-    <string name="revanced_preference_screen_miniplayer_title">Ελαχιστοποιημένη οθόνη αναπαραγωγής</string>
-    <string name="revanced_preference_screen_miniplayer_summary">Αλλαγή του στυλ της ελαχιστοποιημένης οθόνης αναπαραγωγής.</string>
-    <string name="revanced_miniplayer_type_title">Τύπος ελαχιστοποιημένης οθόνης αναπαραγωγής</string>
-    <string name="revanced_miniplayer_type_entry_0">Απενεργοποιημένη</string>
-    <string name="revanced_miniplayer_type_entry_1">Αρχικός</string>
-    <string name="revanced_miniplayer_type_entry_2">Ελάχιστος</string>
-    <string name="revanced_miniplayer_type_entry_3">Τάμπλετ</string>
-    <string name="revanced_miniplayer_type_entry_4">Μοντέρνος 1</string>
-    <string name="revanced_miniplayer_type_entry_5">Μοντέρνος 2</string>
-    <string name="revanced_miniplayer_type_entry_6">Μοντέρνος 3</string>
-    <string name="revanced_miniplayer_type_entry_7">Μοντέρνος 4</string>
-    <string name="revanced_miniplayer_rounded_corners_title">Στρογγυλεμένες γωνίες</string>
-    <string name="revanced_miniplayer_rounded_corners_summary_on">Οι γωνίες της ελαχιστοποιημένης οθόνης είναι στρογγυλεμένες.</string>
-    <string name="revanced_miniplayer_rounded_corners_summary_off">Οι γωνίες της ελαχιστοποιημένης οθόνης είναι τετράγωνες.</string>
-    <string name="revanced_miniplayer_double_tap_action_title">Διπλό πάτημα &amp; τσίμπημα για αλλαγή μεγέθους</string>
-    <string name="revanced_miniplayer_double_tap_action_summary_on">"Η λειτουργία διπλού πατήματος και τσιμπήματος για αλλαγή μεγέθους είναι ενεργοποιημένη.
-
-• Πατήστε δύο φορές για να αυξήσετε το μέγεθος της ελαχιστοποιημένης οθόνης.
-• Πατήστε ξανά δύο φορές για επαναφορά στο αρχικό της μέγεθος."</string>
-    <string name="revanced_miniplayer_double_tap_action_summary_off">Η λειτουργία διπλού πατήματος και τσιμπήματος για αλλαγή μεγέθους είναι απενεργοποιημένη.</string>
-    <string name="revanced_miniplayer_drag_and_drop_title">Μεταφορά και απόθεση</string>
-    <string name="revanced_miniplayer_drag_and_drop_summary_on">"Η λειτουργία μεταφοράς και απόθεσης είναι ενεργοποιημένη. 
-
-Η ελαχιστοποιημένη οθόνη αναπαραγωγής μπορεί να μετακινηθεί σε οποιαδήποτε γωνία της οθόνης."</string>
-    <string name="revanced_miniplayer_drag_and_drop_summary_off">Η λειτουργία μεταφοράς και απόθεσης είναι απενεργοποιημένη.</string>
-    <string name="revanced_miniplayer_horizontal_drag_title">Χειρονομία οριζόντιας σύρσης</string>
-    <string name="revanced_miniplayer_horizontal_drag_summary_on">"Η χειρονομία οριζόντιας σύρσης είναι ενεργοποιημένη.
-
-Η ελαχιστοποιημένη οθόνη μπορεί να συρθεί εκτός οθόνης προς τα αριστερά ή δεξιά."</string>
-    <string name="revanced_miniplayer_horizontal_drag_summary_off">Η χειρονομία οριζόντιας σύρσης είναι απενεργοποιημένη.</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_title">Κουμπιά οθόνης</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_summary_on">Κρυμμένα.</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_summary_off">Εμφανίζονται.</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_title">Κουμπιά επέκτασης και κλεισίματος</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_on">"Κρυμμένα.
-
-Σύρετε την ελαχιστοποιημένη οθόνη αναπαραγωγής για επέκταση ή κλείσιμο του βίντεο."</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_off">Εμφανίζονται.</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_title">Κουμπιά παράλειψης και επιστροφής</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Κρυμμένα.</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Εμφανίζονται.</string>
-    <string name="revanced_miniplayer_hide_subtext_title">Κείμενα οθόνης αναπαραγωγής</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_on">Κρυμμένα.</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_off">Εμφανίζονται.</string>
-    <string name="revanced_miniplayer_width_dip_title">Αρχικό μέγεθος</string>
-    <string name="revanced_miniplayer_width_dip_summary">Αρχικό μέγεθος οθόνης, σε pixels.</string>
-    <string name="revanced_miniplayer_width_dip_invalid_toast">Τα pixel πρέπει να είναι μεταξύ %1$s και %2$s.</string>
-    <string name="revanced_miniplayer_opacity_title">Αδιαφάνεια φόντου παρασκηνίου</string>
-    <string name="revanced_miniplayer_opacity_summary">Τιμή αδιαφάνειας μεταξύ 0-100, όπου το 0 είναι διαφανές.</string>
-    <string name="revanced_miniplayer_opacity_invalid_toast">Η αδιαφάνεια πρέπει να ναι μεταξύ 0-100.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_bar_title">Γραμμή πλοήγησης</string>
     <string name="revanced_preference_screen_navigation_bar_summary">Απόκρυψη ή εμφάνιση των στοιχείων της γραμμής πλοήγησης.</string>
@@ -1065,6 +1014,57 @@ Playlists
     <string name="revanced_disable_haptic_feedback_zoom_title">Απενεργοποίηση απόκρισης δόνησης κατά την χειρονομία ζουμ</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_on">Η απόκριση δόνησης είναι απενεργοποιημένη.</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_off">Η απόκριση δόνησης είναι ενεργοποιημένη.</string>
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Miniplayer -->
+    <string name="revanced_preference_screen_miniplayer_title">Ελαχιστοποιημένη οθόνη αναπαραγωγής</string>
+    <string name="revanced_preference_screen_miniplayer_summary">Αλλαγή του στυλ της ελαχιστοποιημένης οθόνης αναπαραγωγής.</string>
+    <string name="revanced_miniplayer_type_title">Τύπος ελαχιστοποιημένης οθόνης αναπαραγωγής</string>
+    <string name="revanced_miniplayer_type_entry_0">Απενεργοποιημένη</string>
+    <string name="revanced_miniplayer_type_entry_1">Αρχικός</string>
+    <string name="revanced_miniplayer_type_entry_2">Ελάχιστος</string>
+    <string name="revanced_miniplayer_type_entry_3">Τάμπλετ</string>
+    <string name="revanced_miniplayer_type_entry_4">Μοντέρνος 1</string>
+    <string name="revanced_miniplayer_type_entry_5">Μοντέρνος 2</string>
+    <string name="revanced_miniplayer_type_entry_6">Μοντέρνος 3</string>
+    <string name="revanced_miniplayer_type_entry_7">Μοντέρνος 4</string>
+    <string name="revanced_miniplayer_rounded_corners_title">Στρογγυλεμένες γωνίες</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_on">Οι γωνίες της ελαχιστοποιημένης οθόνης είναι στρογγυλεμένες.</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_off">Οι γωνίες της ελαχιστοποιημένης οθόνης είναι τετράγωνες.</string>
+    <string name="revanced_miniplayer_double_tap_action_title">Διπλό πάτημα &amp; τσίμπημα για αλλαγή μεγέθους</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_on">"Η λειτουργία διπλού πατήματος και τσιμπήματος για αλλαγή μεγέθους είναι ενεργοποιημένη.
+
+• Πατήστε δύο φορές για να αυξήσετε το μέγεθος της ελαχιστοποιημένης οθόνης.
+• Πατήστε ξανά δύο φορές για επαναφορά στο αρχικό της μέγεθος."</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_off">Η λειτουργία διπλού πατήματος και τσιμπήματος για αλλαγή μεγέθους είναι απενεργοποιημένη.</string>
+    <string name="revanced_miniplayer_drag_and_drop_title">Μεταφορά και απόθεση</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_on">"Η λειτουργία μεταφοράς και απόθεσης είναι ενεργοποιημένη. 
+
+Η ελαχιστοποιημένη οθόνη αναπαραγωγής μπορεί να μετακινηθεί σε οποιαδήποτε γωνία της οθόνης."</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_off">Η λειτουργία μεταφοράς και απόθεσης είναι απενεργοποιημένη.</string>
+    <string name="revanced_miniplayer_horizontal_drag_title">Χειρονομία οριζόντιας σύρσης</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_on">"Η χειρονομία οριζόντιας σύρσης είναι ενεργοποιημένη.
+
+Η ελαχιστοποιημένη οθόνη μπορεί να συρθεί εκτός οθόνης προς τα αριστερά ή δεξιά."</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_off">Η χειρονομία οριζόντιας σύρσης είναι απενεργοποιημένη.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_title">Κουμπιά οθόνης</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_on">Κρυμμένα.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_off">Εμφανίζονται.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_title">Κουμπιά επέκτασης και κλεισίματος</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_on">"Κρυμμένα.
+
+Σύρετε την ελαχιστοποιημένη οθόνη αναπαραγωγής για επέκταση ή κλείσιμο του βίντεο."</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_off">Εμφανίζονται.</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_title">Κουμπιά παράλειψης και επιστροφής</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Κρυμμένα.</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Εμφανίζονται.</string>
+    <string name="revanced_miniplayer_hide_subtext_title">Κείμενα οθόνης αναπαραγωγής</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_on">Κρυμμένα.</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_off">Εμφανίζονται.</string>
+    <string name="revanced_miniplayer_width_dip_title">Αρχικό μέγεθος</string>
+    <string name="revanced_miniplayer_width_dip_summary">Αρχικό μέγεθος οθόνης, σε pixels.</string>
+    <string name="revanced_miniplayer_width_dip_invalid_toast">Τα pixel πρέπει να είναι μεταξύ %1$s και %2$s.</string>
+    <string name="revanced_miniplayer_opacity_title">Αδιαφάνεια φόντου παρασκηνίου</string>
+    <string name="revanced_miniplayer_opacity_summary">Τιμή αδιαφάνειας μεταξύ 0-100, όπου το 0 είναι διαφανές.</string>
+    <string name="revanced_miniplayer_opacity_invalid_toast">Η αδιαφάνεια πρέπει να ναι μεταξύ 0-100.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Player buttons -->
     <string name="revanced_preference_screen_player_buttons_title">Κουμπιά οθόνης αναπαραγωγής</string>
     <string name="revanced_preference_screen_player_buttons_summary">Απόκρυψη ή εμφάνιση κουμπιών στην οθόνη αναπαραγωγής βίντεο.</string>

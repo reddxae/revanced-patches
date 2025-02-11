@@ -80,6 +80,7 @@
     <string name="revanced_hide_fullscreen_ads_title">隱藏全螢幕廣告</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">全螢幕廣告已隱藏</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">全螢幕廣告已顯示</string>
+    <string name="revanced_fullscreen_ads_closed_toast">全螢幕廣告已關閉。</string>
     <string name="revanced_hide_general_ads_title">隱藏一般廣告</string>
     <string name="revanced_hide_general_ads_summary_on">一般廣告已隱藏</string>
     <string name="revanced_hide_general_ads_summary_off">一般廣告已顯示</string>
@@ -268,6 +269,8 @@
     <string name="revanced_hide_feed_flyout_menu_summary_on">資訊彈出式選單已隱藏</string>
     <string name="revanced_hide_feed_flyout_menu_summary_off">資訊彈出式選單已顯示</string>
     <string name="revanced_hide_feed_flyout_menu_filter_type_title">資訊彈出式選單過濾類型</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_on">如果包含則進行過濾。&lt;br&gt;&lt;br&gt;隱藏隊列中的 &lt;b&gt;\'播放隊列中的下一個\'&lt;/b&gt; 選單中，您可以使用 &lt;b&gt;\'播放下一個\'&lt;/b&gt; 或&lt;b&gt;\'在隊列\'&lt;/b&gt; 作為關鍵字。</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_off">如果符合則進行過濾。&lt;br&gt;&lt;br&gt;隱藏隊列中的 &lt;b&gt;\'播放隊列中的下一個\'&lt;/b&gt; 選單中，您只能使用 &lt;b&gt;\'播放隊列中下一個\'&lt;/b&gt; 作為關鍵字。</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_title">編輯資訊彈出式選單篩選</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_summary">要過濾的動態彈出選單名稱清單，每行一個名稱</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter -->
@@ -437,6 +440,8 @@
     <string name="revanced_hide_account_menu_summary">"隱藏帳戶選單和你的內容分頁的元素
 部分元件可能不會隱藏"</string>
     <string name="revanced_hide_account_menu_filter_type_title">帳戶選單過濾類型</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_on">如果包含則進行過濾。&lt;br&gt;&lt;br&gt;隱藏隊列中的 &lt;b&gt;\'獲取 YouTube Premium\'&lt;/b&gt; 選單中，您可以使用 &lt;b&gt;\'YouTube Premium\'&lt;/b&gt; 或 &lt;b&gt;\'Premium\'&lt;/b&gt; 作為關鍵字。</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_off">如果匹配則進行過濾。&lt;br&gt;&lt;br&gt;隱藏隊列中的 &lt;b&gt;\'獲取 YouTube Premium\'&lt;/b&gt; 選單中，您可以使用 &lt;b&gt;\'獲取 YouTube Premium\'&lt;/b&gt; 作為關鍵字。</string>
     <string name="revanced_hide_account_menu_filter_strings_title">編輯帳號選單篩選</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">要篩選的帳戶選單名稱清單，每行一個名稱</string>
     <string name="revanced_hide_handle_title">隱藏控制列</string>
@@ -476,57 +481,6 @@
     <string name="revanced_third_party_youtube_music_not_installed_warning">%s 未安裝。 請安裝它。</string>
     <string name="revanced_override_youtube_music_button_about_prerequisite_title">先決條件</string>
     <string name="revanced_override_youtube_music_button_about_prerequisite_summary">YouTube音樂 需要覆蓋按鈕操作。 按此下載 YouTube音樂。</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
-    <string name="revanced_preference_screen_miniplayer_title">最小化播放器</string>
-    <string name="revanced_preference_screen_miniplayer_summary">變更應用程式內最小化播放器的樣式。</string>
-    <string name="revanced_miniplayer_type_title">最小化播放器類型</string>
-    <string name="revanced_miniplayer_type_entry_0">已停用</string>
-    <string name="revanced_miniplayer_type_entry_1">原始</string>
-    <string name="revanced_miniplayer_type_entry_2">電話</string>
-    <string name="revanced_miniplayer_type_entry_3">平板電腦</string>
-    <string name="revanced_miniplayer_type_entry_4">Modern 1</string>
-    <string name="revanced_miniplayer_type_entry_5">Modern 2</string>
-    <string name="revanced_miniplayer_type_entry_6">Modern 3</string>
-    <string name="revanced_miniplayer_type_entry_7">Modern 4</string>
-    <string name="revanced_miniplayer_rounded_corners_title">啟用圓角角落</string>
-    <string name="revanced_miniplayer_rounded_corners_summary_on">已設定角落為圓角。</string>
-    <string name="revanced_miniplayer_rounded_corners_summary_off">已設定角落為方形。</string>
-    <string name="revanced_miniplayer_double_tap_action_title">啟用雙擊操作和縮放手勢來調整大小</string>
-    <string name="revanced_miniplayer_double_tap_action_summary_on">"啟用雙擊操作和縮放手勢來調整大小。
-
-• 雙擊可增加迷你播放器的大小。
-• 再次雙擊可恢復原始大小。"</string>
-    <string name="revanced_miniplayer_double_tap_action_summary_off">已停用雙擊操作和縮放手勢來調整大小。</string>
-    <string name="revanced_miniplayer_drag_and_drop_title">啟用拖曳</string>
-    <string name="revanced_miniplayer_drag_and_drop_summary_on">"拖放已啟用。
-
-迷你播放器可以拖曳到螢幕的任何角落。"</string>
-    <string name="revanced_miniplayer_drag_and_drop_summary_off">拖曳已停用。</string>
-    <string name="revanced_miniplayer_horizontal_drag_title">啟用水平拖曳手勢。</string>
-    <string name="revanced_miniplayer_horizontal_drag_summary_on">"啟用水平拖曳手勢。
-
-迷你播放器可以向左或向右拖曳出螢幕。"</string>
-    <string name="revanced_miniplayer_horizontal_drag_summary_off">水平拖曳手勢已停用。</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_title">隱藏覆蓋按鈕</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_summary_on">覆蓋按鈕已隱藏。</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_summary_off">覆蓋按鈕已顯示。</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_title">隱藏展開和關閉按鈕</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_on">"按鈕被隱藏。
-
-滑動即可展開或關閉。"</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_off">顯示展開和關閉按鈕。</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_title">隱藏快轉和倒轉按鈕</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">快轉和倒轉按鈕已隱藏</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">快轉和倒轉按鈕已顯示</string>
-    <string name="revanced_miniplayer_hide_subtext_title">隱藏對話</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_on">對話已隱藏</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_off">對話已顯示</string>
-    <string name="revanced_miniplayer_width_dip_title">初始尺寸</string>
-    <string name="revanced_miniplayer_width_dip_summary">初始螢幕尺寸（以像素為單位）。</string>
-    <string name="revanced_miniplayer_width_dip_invalid_toast">像素大小必須介於 %1$s 和 %2$s 之間。</string>
-    <string name="revanced_miniplayer_opacity_title">覆蓋層不透明度</string>
-    <string name="revanced_miniplayer_opacity_summary">不透明度值介於 0-100 之間，其中 0 表示透明</string>
-    <string name="revanced_miniplayer_opacity_invalid_toast">小型播放器覆蓋層不透明度必須介於 0-100 之間。重設為預設值。</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_bar_title">導覽列</string>
     <string name="revanced_preference_screen_navigation_bar_summary">隱藏或顯示導覽列部分組件。</string>
@@ -1053,6 +1007,57 @@
     <string name="revanced_disable_haptic_feedback_zoom_title">停用縮放觸覺反饋</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_on">縮放觸覺反饋已停用</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_off">縮放觸覺反饋已啟用</string>
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Miniplayer -->
+    <string name="revanced_preference_screen_miniplayer_title">最小化播放器</string>
+    <string name="revanced_preference_screen_miniplayer_summary">變更應用程式內最小化播放器的樣式。</string>
+    <string name="revanced_miniplayer_type_title">最小化播放器類型</string>
+    <string name="revanced_miniplayer_type_entry_0">已停用</string>
+    <string name="revanced_miniplayer_type_entry_1">原始</string>
+    <string name="revanced_miniplayer_type_entry_2">電話</string>
+    <string name="revanced_miniplayer_type_entry_3">平板電腦</string>
+    <string name="revanced_miniplayer_type_entry_4">Modern 1</string>
+    <string name="revanced_miniplayer_type_entry_5">Modern 2</string>
+    <string name="revanced_miniplayer_type_entry_6">Modern 3</string>
+    <string name="revanced_miniplayer_type_entry_7">Modern 4</string>
+    <string name="revanced_miniplayer_rounded_corners_title">啟用圓角角落</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_on">已設定角落為圓角。</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_off">已設定角落為方形。</string>
+    <string name="revanced_miniplayer_double_tap_action_title">啟用雙擊操作和縮放手勢來調整大小</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_on">"啟用雙擊操作和縮放手勢來調整大小。
+
+• 雙擊可增加迷你播放器的大小。
+• 再次雙擊可恢復原始大小。"</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_off">已停用雙擊操作和縮放手勢來調整大小。</string>
+    <string name="revanced_miniplayer_drag_and_drop_title">啟用拖曳</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_on">"拖放已啟用。
+
+迷你播放器可以拖曳到螢幕的任何角落。"</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_off">拖曳已停用。</string>
+    <string name="revanced_miniplayer_horizontal_drag_title">啟用水平拖曳手勢。</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_on">"啟用水平拖曳手勢。
+
+迷你播放器可以向左或向右拖曳出螢幕。"</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_off">水平拖曳手勢已停用。</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_title">隱藏覆蓋按鈕</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_on">覆蓋按鈕已隱藏。</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_off">覆蓋按鈕已顯示。</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_title">隱藏展開和關閉按鈕</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_on">"按鈕被隱藏。
+
+滑動即可展開或關閉。"</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_off">顯示展開和關閉按鈕。</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_title">隱藏快轉和倒轉按鈕</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">快轉和倒轉按鈕已隱藏</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">快轉和倒轉按鈕已顯示</string>
+    <string name="revanced_miniplayer_hide_subtext_title">隱藏對話</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_on">對話已隱藏</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_off">對話已顯示</string>
+    <string name="revanced_miniplayer_width_dip_title">初始尺寸</string>
+    <string name="revanced_miniplayer_width_dip_summary">初始螢幕尺寸（以像素為單位）。</string>
+    <string name="revanced_miniplayer_width_dip_invalid_toast">像素大小必須介於 %1$s 和 %2$s 之間。</string>
+    <string name="revanced_miniplayer_opacity_title">覆蓋層不透明度</string>
+    <string name="revanced_miniplayer_opacity_summary">不透明度值介於 0-100 之間，其中 0 表示透明</string>
+    <string name="revanced_miniplayer_opacity_invalid_toast">小型播放器覆蓋層不透明度必須介於 0-100 之間。重設為預設值。</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Player buttons -->
     <string name="revanced_preference_screen_player_buttons_title">播放器按鈕</string>
     <string name="revanced_preference_screen_player_buttons_summary">隱藏或顯示影片中的按鈕</string>

@@ -422,7 +422,7 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_change_live_ring_click_action_summary_on">"現在の設定: 「ライブ」状態のアイコンをタップすると、チャンネルが開きます。
 
 注意: 「通常のプレーヤーでショートを再生」設定を有効にしている場合、ショートのライブ配信を通常のプレーヤーで開くとチャンネルは開きません。"</string>
-    <string name="revanced_change_live_ring_click_action_summary_off">現在の設定: 「ライブ」状態のアイコンをタップすると、チャンネルが開きます。\n\n注意: 「通常のプレーヤーでショートを再生」設定を有効にしている場合、ショートのライブ配信を通常のプレーヤーで開くとチャンネルは開きません。</string>
+    <string name="revanced_change_live_ring_click_action_summary_off">現在の設定: 「ライブ」状態のアイコンをタップすると、ライブ配信が開きます。\n\n注意: 「通常のプレーヤーでショートを再生」設定を有効にしている場合、ショートのライブ配信を通常のプレーヤーで開くとチャンネルは開きません。</string>
     <string name="revanced_spoof_app_version_title">アプリのバージョンを偽装</string>
     <string name="revanced_spoof_app_version_summary_on">アプリのバージョンを偽装できます。</string>
     <string name="revanced_spoof_app_version_summary_off">アプリのバージョンを偽装できます。</string>
@@ -449,8 +449,8 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_hide_account_menu_summary">"アカウントメニューとマイページタブの要素を非表示にします。
 一部のコンポーネントは非表示にならない可能性があります。"</string>
     <string name="revanced_hide_account_menu_filter_type_title">アカウントメニューのフィルタリングの種類を選択</string>
-    <string name="revanced_hide_account_menu_filter_type_summary_on">現在の設定: 設定したキーワードが部分的に一致した場合にメニューを非表示にします。&lt;br&gt;&lt;br&gt;例えば、&lt;br&gt;「YouTube Premium に登録」&lt;br&gt;メニューを非表示にしたい場合、&lt;b&gt;「YouTube Premium」&lt;/b&gt;や&lt;b&gt;「Premium に登録」&lt;/b&gt;などをキーワードとして使用できます。</string>
-    <string name="revanced_hide_account_menu_filter_type_summary_off">現在の設定: 設定したキーワードが完全に一致した場合にメニューを非表示にします。&lt;br&gt;&lt;br&gt;例えば、&lt;br&gt;「YouTube Premium に登録」&lt;br&gt;メニューを非表示にしたい場合、&lt;b&gt;「YouTube Premium に登録」&lt;/b&gt;のみをキーワードとして使用できます。</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_on">現在の設定: 設定したキーワードが部分的に一致した場合にメニューを非表示にします。&lt;br&gt;&lt;br&gt;例えば、&lt;b&gt;「YouTube Premium に登録」&lt;/b&gt;メニューを非表示にしたい場合、&lt;b&gt;「YouTube Premium」&lt;/b&gt;や&lt;b&gt;「Premium に登録」&lt;/b&gt;などをキーワードとして使用できます。</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_off">現在の設定: 設定したキーワードが完全に一致した場合にメニューを非表示にします。&lt;br&gt;&lt;br&gt;例えば、&lt;b&gt;「YouTube Premium に登録」&lt;/b&gt;メニューを非表示にしたい場合、&lt;b&gt;「YouTube Premium に登録」&lt;/b&gt;のみをキーワードとして使用できます。</string>
     <string name="revanced_hide_account_menu_filter_strings_title">アカウントメニューフィルター</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">フィルタリングするアカウントメニュー名のリスト。（改行区切り）</string>
     <string name="revanced_hide_handle_title">ハンドルを非表示</string>
@@ -490,63 +490,12 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_third_party_youtube_music_not_installed_warning">%s はインストールされていません。インストールしてください。</string>
     <string name="revanced_override_youtube_music_button_about_prerequisite_title">前提条件</string>
     <string name="revanced_override_youtube_music_button_about_prerequisite_summary">ボタンを置換するには YouTube Music が必要です。ここをタップして YouTube Music をダウンロードします。</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
-    <string name="revanced_preference_screen_miniplayer_title">ミニプレーヤー</string>
-    <string name="revanced_preference_screen_miniplayer_summary">ミニプレーヤーのスタイルを変更します。</string>
-    <string name="revanced_miniplayer_type_title">ミニプレーヤーの種類</string>
-    <string name="revanced_miniplayer_type_entry_0">無効</string>
-    <string name="revanced_miniplayer_type_entry_1">オリジナル</string>
-    <string name="revanced_miniplayer_type_entry_2">最小</string>
-    <string name="revanced_miniplayer_type_entry_3">タブレット</string>
-    <string name="revanced_miniplayer_type_entry_4">モダン1</string>
-    <string name="revanced_miniplayer_type_entry_5">モダン2</string>
-    <string name="revanced_miniplayer_type_entry_6">モダン3</string>
-    <string name="revanced_miniplayer_type_entry_7">モダン 4</string>
-    <string name="revanced_miniplayer_rounded_corners_title">角の丸みを有効化</string>
-    <string name="revanced_miniplayer_rounded_corners_summary_on">ミニプレーヤーの角を丸くします。</string>
-    <string name="revanced_miniplayer_rounded_corners_summary_off">ミニプレーヤーの角を丸くします。</string>
-    <string name="revanced_miniplayer_double_tap_action_title">ダブルタップとピンチでサイズを変更</string>
-    <string name="revanced_miniplayer_double_tap_action_summary_on">"ダブルタップとピンチ(画面を 2 本指でつまむようにして拡大や縮小する操作)でサイズを変更できるようにします。
-
-・ダブルタップするとミニプレーヤーのサイズを拡大できます。
-・再度ダブルタップすると元のサイズに戻ります。"</string>
-    <string name="revanced_miniplayer_double_tap_action_summary_off">ダブルタップとピンチ(画面を 2 本指でつまむようにして拡大や縮小する操作)でサイズを変更できるようにします。\n\n・ダブルタップするとミニプレーヤーのサイズを拡大できます。\n・再度ダブルタップすると元のサイズに戻ります。</string>
-    <string name="revanced_miniplayer_drag_and_drop_title">ドラッグ&amp;ドロップを有効化</string>
-    <string name="revanced_miniplayer_drag_and_drop_summary_on">"ドラッグ&amp;ドロップを有効化します。
-
-ミニプレーヤーは画面のどの隅にもドラッグできます。"</string>
-    <string name="revanced_miniplayer_drag_and_drop_summary_off">ドラッグ&amp;ドロップを有効化します。\n\nミニプレーヤーは画面のどの隅にもドラッグできます。</string>
-    <string name="revanced_miniplayer_horizontal_drag_title">水平ドラッグジェスチャーを有効化</string>
-    <string name="revanced_miniplayer_horizontal_drag_summary_on">"水平ドラッグジェスチャーを有効化します。
-
-ミニプレーヤーは画面の左右にドラッグして移動できます。"</string>
-    <string name="revanced_miniplayer_horizontal_drag_summary_off">水平ドラッグジェスチャーを有効化します。\n\nミニプレーヤーは画面の左右にドラッグして移動できます。</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_title">オーバーレイボタンを非表示</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_summary_on">オーバーレイボタンを非表示にします。</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_summary_off">オーバーレイボタンを非表示にします。</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_title">拡大/縮小ボタンを非表示</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_on">"拡大/縮小のボタンを非表示にします。
-
-ミニプレーヤーをスワイプして拡大/縮小できます。"</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_off">拡大/縮小のボタンを非表示にします。\n\nミニプレーヤーをスワイプして拡大/縮小できます。</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_title">スキップボタンを非表示</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">次の動画/前の動画へスキップするボタンを非表示にします。</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">次の動画/前の動画へスキップするボタンを非表示にします。</string>
-    <string name="revanced_miniplayer_hide_subtext_title">サブテキストを非表示</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_on">ミニプレーヤーに表示される「プロモーションを含みます」などの文章を非表示にします。</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_off">ミニプレーヤーに表示される「プロモーションを含みます」などの文章を非表示にします。</string>
-    <string name="revanced_miniplayer_width_dip_title">初期の画面サイズ</string>
-    <string name="revanced_miniplayer_width_dip_summary">ミニプレーヤーの初期の画面サイズを設定します。(単位: ピクセル)</string>
-    <string name="revanced_miniplayer_width_dip_invalid_toast">ピクセルサイズは %1$s から %2$s の間でなければなりません。</string>
-    <string name="revanced_miniplayer_opacity_title">オーバーレイの不透明度</string>
-    <string name="revanced_miniplayer_opacity_summary">不透明度の値は 0 ~ 100 の間で、 0 が透明です。</string>
-    <string name="revanced_miniplayer_opacity_invalid_toast">ミニプレーヤーのオーバーレイの不透明度は0 ~ 100の間でなければなりません。デフォルト値にリセットします。</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_bar_title">ナビゲーションバー</string>
     <string name="revanced_preference_screen_navigation_bar_summary">ナビゲーションバーセクションのコンポーネントを非表示または表示します。</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">幅の狭いナビゲーションボタンを有効化</string>
-    <string name="revanced_enable_narrow_navigation_buttons_summary_on">ナビゲーション ボタンの間隔は狭くなります。</string>
-    <string name="revanced_enable_narrow_navigation_buttons_summary_off">ナビゲーション ボタンの間隔を狭くします。</string>
+    <string name="revanced_enable_narrow_navigation_buttons_summary_on">ナビゲーションボタンの間隔を狭くします。</string>
+    <string name="revanced_enable_narrow_navigation_buttons_summary_off">ナビゲーションボタンの間隔を狭くします。</string>
     <string name="revanced_hide_navigation_create_button_title">作成ボタンを非表示</string>
     <string name="revanced_hide_navigation_create_button_summary_on">「作成」ボタンを非表示にします。</string>
     <string name="revanced_hide_navigation_create_button_summary_off">「作成」ボタンを非表示にします。</string>
@@ -1065,6 +1014,57 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_disable_haptic_feedback_zoom_title">動画ズーム時の触覚フィードバックを無効化</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_on">動画ズーム時の触覚フィードバックを無効化します。</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_off">動画ズーム時の触覚フィードバックを無効化します。</string>
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Miniplayer -->
+    <string name="revanced_preference_screen_miniplayer_title">ミニプレーヤー</string>
+    <string name="revanced_preference_screen_miniplayer_summary">ミニプレーヤーのスタイルを変更します。</string>
+    <string name="revanced_miniplayer_type_title">ミニプレーヤーの種類</string>
+    <string name="revanced_miniplayer_type_entry_0">無効</string>
+    <string name="revanced_miniplayer_type_entry_1">オリジナル</string>
+    <string name="revanced_miniplayer_type_entry_2">最小</string>
+    <string name="revanced_miniplayer_type_entry_3">タブレット</string>
+    <string name="revanced_miniplayer_type_entry_4">モダン1</string>
+    <string name="revanced_miniplayer_type_entry_5">モダン2</string>
+    <string name="revanced_miniplayer_type_entry_6">モダン3</string>
+    <string name="revanced_miniplayer_type_entry_7">モダン 4</string>
+    <string name="revanced_miniplayer_rounded_corners_title">角の丸みを有効化</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_on">ミニプレーヤーの角を丸くします。</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_off">ミニプレーヤーの角を丸くします。</string>
+    <string name="revanced_miniplayer_double_tap_action_title">ダブルタップとピンチでサイズを変更</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_on">"ダブルタップとピンチ(画面を 2 本指でつまむようにして拡大や縮小する操作)でサイズを変更できるようにします。
+
+・ダブルタップするとミニプレーヤーのサイズを拡大できます。
+・再度ダブルタップすると元のサイズに戻ります。"</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_off">ダブルタップとピンチ(画面を 2 本指でつまむようにして拡大や縮小する操作)でサイズを変更できるようにします。\n\n・ダブルタップするとミニプレーヤーのサイズを拡大できます。\n・再度ダブルタップすると元のサイズに戻ります。</string>
+    <string name="revanced_miniplayer_drag_and_drop_title">ドラッグ&amp;ドロップを有効化</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_on">"ドラッグ&amp;ドロップを有効化します。
+
+ミニプレーヤーは画面のどの隅にもドラッグできます。"</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_off">ドラッグ&amp;ドロップを有効化します。\n\nミニプレーヤーは画面のどの隅にもドラッグできます。</string>
+    <string name="revanced_miniplayer_horizontal_drag_title">水平ドラッグジェスチャーを有効化</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_on">"水平ドラッグジェスチャーを有効化します。
+
+ミニプレーヤーは画面の左右にドラッグして移動できます。"</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_off">水平ドラッグジェスチャーを有効化します。\n\nミニプレーヤーは画面の左右にドラッグして移動できます。</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_title">オーバーレイボタンを非表示</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_on">オーバーレイボタンを非表示にします。</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_off">オーバーレイボタンを非表示にします。</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_title">拡大/縮小ボタンを非表示</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_on">"拡大/縮小のボタンを非表示にします。
+
+ミニプレーヤーをスワイプして拡大/縮小できます。"</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_off">拡大/縮小のボタンを非表示にします。\n\nミニプレーヤーをスワイプして拡大/縮小できます。</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_title">スキップボタンを非表示</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">次の動画/前の動画へスキップするボタンを非表示にします。</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">次の動画/前の動画へスキップするボタンを非表示にします。</string>
+    <string name="revanced_miniplayer_hide_subtext_title">サブテキストを非表示</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_on">ミニプレーヤーに表示される「プロモーションを含みます」などの文章を非表示にします。</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_off">ミニプレーヤーに表示される「プロモーションを含みます」などの文章を非表示にします。</string>
+    <string name="revanced_miniplayer_width_dip_title">初期の画面サイズ</string>
+    <string name="revanced_miniplayer_width_dip_summary">ミニプレーヤーの初期の画面サイズを設定します。(単位: ピクセル)</string>
+    <string name="revanced_miniplayer_width_dip_invalid_toast">ピクセルサイズは %1$s から %2$s の間でなければなりません。</string>
+    <string name="revanced_miniplayer_opacity_title">オーバーレイの不透明度</string>
+    <string name="revanced_miniplayer_opacity_summary">不透明度の値は 0 ~ 100 の間で、 0 が透明です。</string>
+    <string name="revanced_miniplayer_opacity_invalid_toast">ミニプレーヤーのオーバーレイの不透明度は0 ~ 100の間でなければなりません。デフォルト値にリセットします。</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Player buttons -->
     <string name="revanced_preference_screen_player_buttons_title">プレーヤーボタン</string>
     <string name="revanced_preference_screen_player_buttons_summary">プレーヤー内のボタンを非表示または表示します。</string>

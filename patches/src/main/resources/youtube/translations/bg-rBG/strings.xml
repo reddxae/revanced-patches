@@ -455,47 +455,6 @@
     <string name="revanced_third_party_youtube_music_not_installed_warning">%s не е инсталирано. Моля инсталирайте го.</string>
     <string name="revanced_override_youtube_music_button_about_prerequisite_title">Изисквания</string>
     <string name="revanced_override_youtube_music_button_about_prerequisite_summary">Изисква се YouTube Music, за да замени действието на бутона. Докоснете тук, за да изтеглите YouTube Music.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
-    <string name="revanced_preference_screen_miniplayer_title">Минимизиран екран за възпроизвеждане</string>
-    <string name="revanced_preference_screen_miniplayer_summary">Променете стила на минимизирания екран за възпроизвеждане.</string>
-    <string name="revanced_miniplayer_type_title">Минимизиран тип екран за гледане</string>
-    <string name="revanced_miniplayer_type_entry_0">Изключено</string>
-    <string name="revanced_miniplayer_type_entry_1">Оригинал</string>
-    <string name="revanced_miniplayer_type_entry_2">Телефон</string>
-    <string name="revanced_miniplayer_type_entry_3">Таблет</string>
-    <string name="revanced_miniplayer_type_entry_4">Модерен 1</string>
-    <string name="revanced_miniplayer_type_entry_5">Модерен 2</string>
-    <string name="revanced_miniplayer_type_entry_6">Модерен 3</string>
-    <string name="revanced_miniplayer_rounded_corners_title">Активирайте заоблени ъгли</string>
-    <string name="revanced_miniplayer_rounded_corners_summary_on">Ъглите са заоблени.</string>
-    <string name="revanced_miniplayer_rounded_corners_summary_off">Ъглите са нормални.</string>
-    <string name="revanced_miniplayer_double_tap_action_title">Активирайте двойното докосване и щипване за преоразмеряване</string>
-    <string name="revanced_miniplayer_double_tap_action_summary_on">"Действието с двойно докосване и щипване за преоразмеряване е активирано.
-• Докоснете двукратно, за да увеличите размера на миниплейъра.
-• Докоснете два пъти отново, за да възстановите оригиналния размер."</string>
-    <string name="revanced_miniplayer_double_tap_action_summary_off">Двойно докосване и щипване за преоразмеряване е деактивирано.</string>
-    <string name="revanced_miniplayer_drag_and_drop_title">Разрешете плъзгане и местене</string>
-    <string name="revanced_miniplayer_drag_and_drop_summary_on">"Плъзгане и местенето е активирано.
-
-Миниплейърът може да се плъзга до всеки ъгъл на екрана."</string>
-    <string name="revanced_miniplayer_drag_and_drop_summary_off">Плъзгането и преместването е деактивирано.</string>
-    <string name="revanced_miniplayer_horizontal_drag_title">Активиране на хоризонтално плъзгане.</string>
-    <string name="revanced_miniplayer_horizontal_drag_summary_on">"Хоризонталното плъзгане е активиран.
-
-Миниплейърът може да се плъзга извън екрана наляво или надясно."</string>
-    <string name="revanced_miniplayer_horizontal_drag_summary_off">Хоризонтално плъзгане е деактивиран.</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_title">Бутони за напред и назад</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Бутони за напред и назад са скрити.</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Бутони за напред и назад са показани.</string>
-    <string name="revanced_miniplayer_hide_subtext_title">Възпроизвеждане на екранни текстове, етикети</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_on">Подтекстовете са скрити.</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_off">Подтекстовете се показват.</string>
-    <string name="revanced_miniplayer_width_dip_title">Първоначален размер</string>
-    <string name="revanced_miniplayer_width_dip_summary">Първоначален размер на екрана, в пиксели.</string>
-    <string name="revanced_miniplayer_width_dip_invalid_toast">Размерът на пиксела трябва да бъде между %1$s и %2$s.</string>
-    <string name="revanced_miniplayer_opacity_title">Прозрачност на менютата</string>
-    <string name="revanced_miniplayer_opacity_summary">Стойност на прозрачност между 0-100, където 0 е прозрачно.</string>
-    <string name="revanced_miniplayer_opacity_invalid_toast">Прозрачността на менюто на плейъра трябва да бъде между 0-100. Нулирайте стойностите по подразбирне.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_bar_title">Лента за навигация</string>
     <string name="revanced_preference_screen_navigation_bar_summary">Скриване или показване на елементи от лентата за навигация.</string>
@@ -994,6 +953,47 @@
     <string name="revanced_disable_haptic_feedback_zoom_title">Изкл. вибрация при зум</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_on">Вибрация за обратна връзка е изключена.</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_off">Вибрация за обратна връзка е включена.</string>
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Miniplayer -->
+    <string name="revanced_preference_screen_miniplayer_title">Минимизиран екран за възпроизвеждане</string>
+    <string name="revanced_preference_screen_miniplayer_summary">Променете стила на минимизирания екран за възпроизвеждане.</string>
+    <string name="revanced_miniplayer_type_title">Минимизиран тип екран за гледане</string>
+    <string name="revanced_miniplayer_type_entry_0">Изключено</string>
+    <string name="revanced_miniplayer_type_entry_1">Оригинал</string>
+    <string name="revanced_miniplayer_type_entry_2">Телефон</string>
+    <string name="revanced_miniplayer_type_entry_3">Таблет</string>
+    <string name="revanced_miniplayer_type_entry_4">Модерен 1</string>
+    <string name="revanced_miniplayer_type_entry_5">Модерен 2</string>
+    <string name="revanced_miniplayer_type_entry_6">Модерен 3</string>
+    <string name="revanced_miniplayer_rounded_corners_title">Активирайте заоблени ъгли</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_on">Ъглите са заоблени.</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_off">Ъглите са нормални.</string>
+    <string name="revanced_miniplayer_double_tap_action_title">Активирайте двойното докосване и щипване за преоразмеряване</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_on">"Действието с двойно докосване и щипване за преоразмеряване е активирано.
+• Докоснете двукратно, за да увеличите размера на миниплейъра.
+• Докоснете два пъти отново, за да възстановите оригиналния размер."</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_off">Двойно докосване и щипване за преоразмеряване е деактивирано.</string>
+    <string name="revanced_miniplayer_drag_and_drop_title">Разрешете плъзгане и местене</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_on">"Плъзгане и местенето е активирано.
+
+Миниплейърът може да се плъзга до всеки ъгъл на екрана."</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_off">Плъзгането и преместването е деактивирано.</string>
+    <string name="revanced_miniplayer_horizontal_drag_title">Активиране на хоризонтално плъзгане.</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_on">"Хоризонталното плъзгане е активиран.
+
+Миниплейърът може да се плъзга извън екрана наляво или надясно."</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_off">Хоризонтално плъзгане е деактивиран.</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_title">Бутони за напред и назад</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Бутони за напред и назад са скрити.</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Бутони за напред и назад са показани.</string>
+    <string name="revanced_miniplayer_hide_subtext_title">Възпроизвеждане на екранни текстове, етикети</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_on">Подтекстовете са скрити.</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_off">Подтекстовете се показват.</string>
+    <string name="revanced_miniplayer_width_dip_title">Първоначален размер</string>
+    <string name="revanced_miniplayer_width_dip_summary">Първоначален размер на екрана, в пиксели.</string>
+    <string name="revanced_miniplayer_width_dip_invalid_toast">Размерът на пиксела трябва да бъде между %1$s и %2$s.</string>
+    <string name="revanced_miniplayer_opacity_title">Прозрачност на менютата</string>
+    <string name="revanced_miniplayer_opacity_summary">Стойност на прозрачност между 0-100, където 0 е прозрачно.</string>
+    <string name="revanced_miniplayer_opacity_invalid_toast">Прозрачността на менюто на плейъра трябва да бъде между 0-100. Нулирайте стойностите по подразбирне.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Player buttons -->
     <string name="revanced_preference_screen_player_buttons_title">Бутони на екрана за възпроизвеждане</string>
     <string name="revanced_preference_screen_player_buttons_summary">Скриване или показване на бутони на екрана на видеоплейъра.</string>

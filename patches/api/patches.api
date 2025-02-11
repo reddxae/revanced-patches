@@ -645,10 +645,6 @@ public final class app/revanced/patches/youtube/general/loadingscreen/GradientLo
 	public static final fun getGradientLoadingScreenPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
-public final class app/revanced/patches/youtube/general/miniplayer/MiniplayerPatchKt {
-	public static final fun getMiniplayerPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
-}
-
 public final class app/revanced/patches/youtube/general/music/YouTubeMusicActionsPatchKt {
 	public static final fun getYoutubeMusicActionsPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
@@ -808,6 +804,14 @@ public final class app/revanced/patches/youtube/player/fullscreen/FullscreenComp
 
 public final class app/revanced/patches/youtube/player/hapticfeedback/HapticFeedbackPatchKt {
 	public static final fun getHapticFeedbackPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
+public final class app/revanced/patches/youtube/player/miniplayer/general/MiniplayerPatchKt {
+	public static final fun getMiniplayerPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
+public final class app/revanced/patches/youtube/player/miniplayer/startup/ResumingMiniplayerOnStartupPatchKt {
+	public static final fun getResumingMiniplayerOnStartupPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
 public final class app/revanced/patches/youtube/player/overlaybuttons/OverlayButtonsPatchKt {

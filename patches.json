@@ -953,6 +953,26 @@
     "options": []
   },
   {
+    "name": "Disable resuming Miniplayer on startup",
+    "description": "Adds an option to disable the Miniplayer \u0027Continue watching\u0027 from resuming on app startup.",
+    "use": true,
+    "dependencies": [
+      "Settings for YouTube"
+    ],
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.29.38",
+        "18.33.40",
+        "18.38.44",
+        "18.48.39",
+        "19.05.36",
+        "19.16.39",
+        "19.44.39"
+      ]
+    },
+    "options": []
+  },
+  {
     "name": "Disable resuming Shorts on startup",
     "description": "Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched.",
     "use": true,

@@ -30,6 +30,7 @@ See the [documentation](https://github.com/inotia00/revanced-documentation#readm
 | `Disable forced auto audio tracks` | Adds an option to disable audio tracks from being automatically enabled. | 18.29.38 ~ 19.44.39 |
 | `Disable forced auto captions` | Adds an option to disable captions from being automatically enabled. | 18.29.38 ~ 19.44.39 |
 | `Disable haptic feedback` | Adds options to disable haptic feedback when swiping in the video player. | 18.29.38 ~ 19.44.39 |
+| `Disable resuming Miniplayer on startup` | Adds an option to disable the Miniplayer 'Continue watching' from resuming on app startup. | 18.29.38 ~ 19.44.39 |
 | `Disable resuming Shorts on startup` | Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched. | 18.29.38 ~ 19.44.39 |
 | `Disable splash animation` | Adds an option to disable the splash animation on app startup. | 18.29.38 ~ 19.44.39 |
 | `Enable OPUS codec` | Adds an option to enable the OPUS audio codec if the player response includes it. | 18.29.38 ~ 19.44.39 |

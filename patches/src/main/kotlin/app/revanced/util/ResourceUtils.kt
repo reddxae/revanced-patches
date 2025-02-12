@@ -11,8 +11,6 @@ import org.w3c.dom.Node
 import org.w3c.dom.NodeList
 import java.io.File
 import java.io.InputStream
-import java.nio.file.Files
-import java.nio.file.StandardCopyOption
 
 private val classLoader = object {}.javaClass.classLoader
 
@@ -115,14 +113,9 @@ fun ResourcePatchContext.copyAdaptiveIcon(
         if (oldIconResourceFile != newIconResourceFile) {
             mipmapDirectories.forEach {
                 val mipmapDirectory = get("res").resolve(it)
-                Files.copy(
-                    mipmapDirectory
-                        .resolve("$oldIconResourceFile.png")
-                        .toPath(),
-                    mipmapDirectory
-                        .resolve("$newIconResourceFile.png")
-                        .toPath(),
-                    StandardCopyOption.REPLACE_EXISTING
+                FilesCompat.copy(
+                    mipmapDirectory.resolve("$oldIconResourceFile.png"),
+                    mipmapDirectory.resolve("$newIconResourceFile.png")
                 )
             }
         }
@@ -132,14 +125,9 @@ fun ResourcePatchContext.copyAdaptiveIcon(
         adaptiveIconMonoChromeFileName != getAdaptiveIconMonoChromeResourceFile()
     ) {
         val drawableDirectory = get("res").resolve("drawable")
-        Files.copy(
-            drawableDirectory
-                .resolve("$adaptiveIconMonoChromeFileName.xml")
-                .toPath(),
-            drawableDirectory
-                .resolve("${getAdaptiveIconMonoChromeResourceFile()}.xml")
-                .toPath(),
-            StandardCopyOption.REPLACE_EXISTING
+        FilesCompat.copy(
+            drawableDirectory.resolve("$adaptiveIconMonoChromeFileName.xml"),
+            drawableDirectory.resolve("${getAdaptiveIconMonoChromeResourceFile()}.xml")
         )
     }
 }
@@ -201,9 +189,9 @@ fun ResourcePatchContext.copyFile(
                 val toDirectory = resourceDirectory.resolve(group.resourceDirectoryName)
 
                 group.resources.forEach { iconFileName ->
-                    Files.write(
-                        toDirectory.resolve(iconFileName).toPath(),
-                        fromDirectory.resolve(iconFileName).readBytes()
+                    FilesCompat.copy(
+                        fromDirectory.resolve(iconFileName),
+                        toDirectory.resolve(iconFileName)
                     )
                 }
             }
@@ -307,16 +295,15 @@ fun ResourcePatchContext.copyResources(
         resourceGroup.resources.forEach { resource ->
             val resourceDirectoryName = resourceGroup.resourceDirectoryName
             val targetDirectory = resourceDirectory.resolve(resourceDirectoryName)
-            if (!targetDirectory.isDirectory) Files.createDirectories(targetDirectory.toPath())
+            if (!targetDirectory.isDirectory) targetDirectory.mkdirs()
             val resourceFile = "$resourceDirectoryName/$resource"
             inputStreamFromBundledResource(
                 sourceResourceDirectory,
                 resourceFile
             )?.let { inputStream ->
-                Files.copy(
+                FilesCompat.copy(
                     inputStream,
-                    resourceDirectory.resolve(resourceFile).toPath(),
-                    StandardCopyOption.REPLACE_EXISTING,
+                    resourceDirectory.resolve(resourceFile),
                 )
             }
         }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">RVX 설정</string>
+    <string name="revanced_extended_settings_title">RVX Music 설정</string>
     <string name="revanced_extended_reset_to_default_toast">기본값으로 초기화합니다.</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">레이아웃을 정상적으로 불러오기 위해 다시 시작합니다.</string>
@@ -62,13 +62,13 @@
     <string name="revanced_hide_music_ads_summary">음악을 재생하는 동안에 광고를 숨깁니다.</string>
     <string name="revanced_hide_paid_promotion_label_title">유료 광고 포함 라벨 제거</string>
     <string name="revanced_hide_paid_promotion_label_summary">유료 광고 포함 라벨을 숨깁니다.</string>
-    <string name="revanced_hide_premium_promotion_title">YT Premium 프로모션 팝업 제거</string>
-    <string name="revanced_hide_premium_promotion_summary">YT Premium 프로모션 팝업을 숨깁니다.</string>
-    <string name="revanced_hide_premium_promotion_closed_toast">YT Premium 프로모션 팝업이 닫아집니다.</string>
-    <string name="revanced_hide_premium_renewal_title">YT Premium 갱신 배너 제거</string>
-    <string name="revanced_hide_premium_renewal_summary">YT Premium 갱신 배너를 숨깁니다.</string>
-    <string name="revanced_hide_promotion_alert_banner_title">프로모션 알림 배너 제거</string>
-    <string name="revanced_hide_promotion_alert_banner_summary">프로모션 알림 배너를 숨깁니다.</string>
+    <string name="revanced_hide_premium_promotion_title">Premium 프로모션 팝업 제거</string>
+    <string name="revanced_hide_premium_promotion_summary">Premium 프로모션 팝업을 숨깁니다.</string>
+    <string name="revanced_hide_premium_promotion_closed_toast">Premium 프로모션 팝업이 닫아집니다.</string>
+    <string name="revanced_hide_premium_renewal_title">Premium 갱신 배너 제거</string>
+    <string name="revanced_hide_premium_renewal_summary">Premium 갱신 배너를 숨깁니다.</string>
+    <string name="revanced_hide_promotion_alert_banner_title">Premium 프로모션 알림 배너 제거</string>
+    <string name="revanced_hide_promotion_alert_banner_summary">Premium 프로모션 알림 배너를 숨깁니다.</string>
     <!-- PreferenceScreen: Flyout menu -->
     <string name="revanced_preference_screen_flyout_title">메뉴 구성요소</string>
     <string name="revanced_enable_trim_silence_title">무음 건너뛰기 스위치 추가</string>
@@ -115,11 +115,11 @@
     <string name="revanced_hide_flyout_menu_unpin_from_speed_dial_title">빠른 선곡에서 고정 해제 제거</string>
     <string name="revanced_hide_flyout_menu_view_song_credit_title">노래 크레딧 보기 메뉴 제거</string>
     <string name="revanced_replace_flyout_menu_dismiss_queue_continue_watch_title">이어서 시청</string>
-    <string name="revanced_replace_flyout_menu_dismiss_queue_continue_watch_summary">\'YouTube로 시청\' 메뉴를 누르면 YouTube로 변경하여 동영상을 현재 재생 시간부터 이어서 시청합니다.</string>
-    <string name="revanced_replace_flyout_menu_dismiss_queue_watch_on_youtube_label">YouTube로 시청</string>
+    <string name="revanced_replace_flyout_menu_dismiss_queue_continue_watch_summary">\'YouTube에서 감상하기\' 메뉴를 누르면 YouTube 앱으로 변경하여 동영상을 현재 재생 시간부터 이어서 감상합니다.</string>
+    <string name="revanced_replace_flyout_menu_dismiss_queue_watch_on_youtube_label">YouTube에서 감상하기</string>
     <string name="revanced_replace_flyout_menu_dismiss_queue_watch_on_youtube_warning">잘못된 동영상 URL입니다.</string>
     <string name="revanced_replace_flyout_menu_dismiss_queue_title">현재 재생목록 닫기 메뉴 변경</string>
-    <string name="revanced_replace_flyout_menu_dismiss_queue_summary">\'현재 재생목록 닫기\' 메뉴를 \'YouTube로 시청\' 메뉴로 변경합니다.</string>
+    <string name="revanced_replace_flyout_menu_dismiss_queue_summary">\'현재 재생목록 닫기\' 메뉴를 \'YouTube에서 감상하기\' 메뉴로 변경합니다.</string>
     <string name="revanced_replace_flyout_menu_report_title">신고 메뉴 변경</string>
     <string name="revanced_replace_flyout_menu_report_summary">\'신고\' 메뉴를 \'재생 속도\' 메뉴로 변경합니다.</string>
     <string name="revanced_replace_flyout_menu_report_only_player_title">댓글에서 신고 메뉴 유지</string>
@@ -395,7 +395,7 @@ API Key를 발급받는 방법을 보려면 여기를 누르세요."</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">기타</string>
     <string name="revanced_extended_settings_import_export_title">설정 가져오기 / 내보내기</string>
-    <string name="revanced_extended_settings_import_export_summary">설정을 가져오거나 내보낼 수 있습니다.</string>
+    <string name="revanced_extended_settings_import_export_summary">RVX Music 설정을 가져오거나 내보낼 수 있습니다.</string>
     <string name="revanced_extended_settings_export_as_file">파일로 설정 내보내기</string>
     <string name="revanced_extended_settings_import_as_file">파일에서 설정 가져오기</string>
     <string name="revanced_extended_settings_import_export_as_text">텍스트로 설정 가져오기 / 내보내기</string>
@@ -411,7 +411,7 @@ API Key를 발급받는 방법을 보려면 여기를 누르세요."</string>
     <string name="revanced_bypass_image_region_restrictions_title">이미지 표시 제한 국가 우회</string>
     <string name="revanced_bypass_image_region_restrictions_summary">이미지 도메인을 변경하여 일부 국가에서 차단된 재생목록 썸네일, 채널 프로필 사진, 커뮤니티 게시물 이미지 등을 수신할 수 있습니다.</string>
     <string name="revanced_change_share_sheet_title">공유 시트 변경</string>
-    <string name="revanced_change_share_sheet_summary">YT Music 기본 공유 시트에서 Android 기본 공유 시트로 변경합니다.\n\n• 공유 버튼으로 바로 Android 기본 공유 메뉴를 실행할 수 있습니다.</string>
+    <string name="revanced_change_share_sheet_summary">YT Music 기본 공유 시트에서 Android 시스템 공유 시트로 변경합니다.\n\n• 공유 버튼으로 바로 Android 시스템 공유 메뉴를 실행할 수 있습니다.</string>
     <string name="revanced_disable_cairo_splash_animation_title">Cairo 스플래시 애니메이션 비활성화</string>
     <string name="revanced_disable_cairo_splash_animation_summary">앱을 시작할 때, Cairo 스플래시 애니메이션을 비활성화합니다.</string>
     <string name="revanced_disable_drc_audio_title">DRC 오디오 비활성화</string>
@@ -457,7 +457,7 @@ API Key를 발급받는 방법을 보려면 여기를 누르세요."</string>
     <string name="revanced_default_app_settings_title">기본 앱 설정 열기</string>
     <string name="revanced_default_app_settings_summary">YT Music 링크를 RVX Music으로 열려면 \'지원되는 링크 열기\'를 활성화하고 지원되는 링크를 추가하세요. 링크 추가가 잠겨있다면 순정 YT Music 앱 정보 → \'기본적으로 열기\'에서 \'지원되는 링크 열기\'를 비활성화한 후에 추가할 수 있습니다.</string>
     <string name="gms_core_settings_title">GmsCore 설정 열기</string>
-    <string name="gms_core_settings_summary">알림 수신을 위한 클라우드 메시징 설정을 할 수 있습니다.</string>
+    <string name="gms_core_settings_summary">RVX Music 알림 수신을 위한 클라우드 메시징 설정을 할 수 있습니다.</string>
     <string name="gms_core_toast_not_installed_message">GmsCore가 설치되어 있지 않습니다. 설치하세요.</string>
     <string name="gms_core_dialog_title">필수 조치</string>
     <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"GmsCore에 백그라운드에서 실행할 수 있는 권한이 없습니다.

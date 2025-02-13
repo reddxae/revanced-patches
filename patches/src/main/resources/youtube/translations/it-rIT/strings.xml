@@ -1016,6 +1016,9 @@ Nota: il titolo scompare quando lo si tocca."</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">Riproduttore minimizzato</string>
     <string name="revanced_preference_screen_miniplayer_summary">Personalizza i componenti del riproduttore minimizzato.</string>
+    <string name="revanced_disable_resuming_miniplayer_title">Disattiva la ripresa del riproduttore</string>
+    <string name="revanced_disable_resuming_miniplayer_summary_on">&lt;b&gt;Continua a guardare&lt;/b&gt; non riprenderà all\'avvio dell\'app.</string>
+    <string name="revanced_disable_resuming_miniplayer_summary_off">&lt;b&gt;Continua a guardare&lt;/b&gt; riprenderà all\'avvio dell\'app.&lt;br&gt;&lt;br&gt;Note:&lt;br&gt;• &lt;b&gt;Continua a guardare&lt;/b&gt; è un impostazione Premium di YouTube del riproduttore minimizzato.&lt;br&gt;• Questa impostazione non attiva forzatamente &lt;b&gt;Continua a guardare&lt;/b&gt;.</string>
     <string name="revanced_miniplayer_type_title">Cambia lo stile del riproduttore minimizzato</string>
     <string name="revanced_miniplayer_type_entry_0">Disattivato</string>
     <string name="revanced_miniplayer_type_entry_1">Predefinito</string>

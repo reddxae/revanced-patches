@@ -1010,6 +1010,9 @@
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">最小化播放器</string>
     <string name="revanced_preference_screen_miniplayer_summary">變更應用程式內最小化播放器的樣式。</string>
+    <string name="revanced_disable_resuming_miniplayer_title">停用恢復迷你播放器</string>
+    <string name="revanced_disable_resuming_miniplayer_summary_on">&lt;b&gt;繼續觀看&lt;/b&gt; 不會在應用程式啟動時恢復。</string>
+    <string name="revanced_disable_resuming_miniplayer_summary_off">&lt;b&gt;繼續觀看&lt;/b&gt; 將在應用程式啟動時恢復。&lt;br&gt;&lt;br&gt;訊息:&lt;br&gt;• &lt;b&gt;繼續觀看&lt;/b&gt; 是 YouTube Premium 功能。&lt;br&gt;• 此設定不會強制 &lt;b&gt;繼續觀看&lt;/b&gt; 被啟用。</string>
     <string name="revanced_miniplayer_type_title">最小化播放器類型</string>
     <string name="revanced_miniplayer_type_entry_0">已停用</string>
     <string name="revanced_miniplayer_type_entry_1">原始</string>

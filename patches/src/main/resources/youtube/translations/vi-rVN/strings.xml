@@ -162,7 +162,7 @@ Nhấn vào đây để tìm hiểu thêm về DeArrow."</string>
     <string name="revanced_hide_carousel_shelf_summary_on">"Các kệ đã ẩn, chẳng hạn như:
 • Tin nổi bật
 • Tiếp tục xem
-• Khám phá các chủ đề khác
+• Khám phá thêm
 • Nghe lại
 • Mua sắm
 • Xem lại"</string>
@@ -342,7 +342,7 @@ Bộ lọc này có thể không còn hoạt động nữa, thay vào đó, hãy
     <string name="revanced_hide_video_by_view_counts_about_summary">"Các video có số lượt xem ít hoặc nhiều hơn con số bạn đã đặt sẽ bị ẩn trên thẻ Trang chủ/Kênh đăng ký/Kết quả tìm kiếm.
 
 Hạn chế:
-• Không ẩn đối với các video Short.
+• Không ẩn đối với các video ngắn.
 • Các video có 0 lượt xem cũng không bị lọc."</string>
     <string name="revanced_hide_related_videos_title">Ẩn các video có liên quan</string>
     <string name="revanced_hide_related_videos_summary_on">Các video có liên quan đã ẩn.</string>
@@ -778,14 +778,14 @@ Cài đặt → Tự động phát/Phát → Tự động phát video tiếp the
     <string name="revanced_hide_thanks_button_summary_off">Nút Cảm ơn được hiển thị.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Experimental flags -->
     <string name="revanced_hide_action_button_index_title">Ẩn nút thao tác theo thứ tự</string>
-    <string name="revanced_hide_action_button_index_summary_on">"Nút tương tác đã ẩn theo thứ tự.
+    <string name="revanced_hide_action_button_index_summary_on">"Các nút tương tác đã ẩn theo thứ tự.
 
-Cụ thể:
+Chi tiết:
 • Các nút tương tác có thể ẩn không đúng, hoặc không bị ẩn.
 • Các nút tương tác đang bị ẩn sẽ không để lại khoảng trống."</string>
     <string name="revanced_hide_action_button_index_summary_off">"Các nút tương tác đã ẩn theo tên.
 
-Cụ thể:
+Chi tiết:
 • Các nút tương tác bên phải bị ẩn.
 • Các nút tương tác đang bị ẩn sẽ để lại khoảng trống."</string>
     <string name="revanced_remix_button_index_title">Vị trí nút Phối lại</string>
@@ -1013,7 +1013,10 @@ Hạn chế: Tiêu đề video sẽ biến mất khi nhấn vào."</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_off">Phản hồi xúc giác được bật.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">Trình phát thu nhỏ</string>
-    <string name="revanced_preference_screen_miniplayer_summary">Thay đổi kiểu trình phát thu nhỏ trong ứng dụng.</string>
+    <string name="revanced_preference_screen_miniplayer_summary">Ẩn hoặc thay đổi các thành phần liên quan đến trình phát thu nhỏ.</string>
+    <string name="revanced_disable_resuming_miniplayer_title">Tắt tính năng tiếp tục video trong trình phát thu nhỏ</string>
+    <string name="revanced_disable_resuming_miniplayer_summary_on">&lt;b&gt;Tiếp tục xem&lt;/b&gt; sẽ không còn được tiếp tục mỗi khi khởi động ứng dụng.</string>
+    <string name="revanced_disable_resuming_miniplayer_summary_off">&lt;b&gt;Tiếp tục xem&lt;/b&gt; sẽ được tiếp tục mỗi khi khởi động ứng dụng.&lt;br&gt;&lt;br&gt;Chi tiết:&lt;br&gt;• &lt;b&gt;Tiếp tục xem&lt;/b&gt; là một trong những tính năng của Youtube Premium.&lt;br&gt;• Cài đặt này không giúp cho &lt;b&gt;Tiếp tục xem&lt;/b&gt; luôn được bật.</string>
     <string name="revanced_miniplayer_type_title">Loại trình phát thu nhỏ</string>
     <string name="revanced_miniplayer_type_entry_0">Tắt</string>
     <string name="revanced_miniplayer_type_entry_1">Mặc định</string>
@@ -1245,9 +1248,9 @@ Vì vậy, bạn nên bật tính năng này khi có kết nối mạng ổn đ�
     <string name="revanced_disable_shorts_background_playback_title">Tắt tính năng phát trong nền cho trình Shorts</string>
     <string name="revanced_disable_shorts_background_playback_summary_on">Phát trong nền cho trình Shorts đã tắt.</string>
     <string name="revanced_disable_shorts_background_playback_summary_off">Phát trong nền cho trình Shorts được bật.</string>
-    <string name="revanced_disable_resuming_shorts_player_title">Tắt tính năng tiếp tục phát video Shorts</string>
-    <string name="revanced_disable_resuming_shorts_player_summary_on">Trinh phát Shorts sẽ không tiếp tục khi ứng dụng khởi chạy.</string>
-    <string name="revanced_disable_resuming_shorts_player_summary_off">Trinh phát Shorts sẽ tiếp tục khi ứng dụng khởi chạy.</string>
+    <string name="revanced_disable_resuming_shorts_player_title">Tắt tính năng tiếp tục video Shorts</string>
+    <string name="revanced_disable_resuming_shorts_player_summary_on">Trinh phát Shorts sẽ không còn được tiếp tục khi khởi động ứng dụng.</string>
+    <string name="revanced_disable_resuming_shorts_player_summary_off">Trinh phát Shorts vẫn sẽ tiếp tục khi khởi động ứng dụng.</string>
     <string name="revanced_hide_shorts_floating_button_title">Ẩn nút nổi</string>
     <string name="revanced_hide_shorts_floating_button_summary_on">"Các nút nổi như \"Dùng âm thanh này\" đã ẩn trong thẻ kênh Shorts."</string>
     <string name="revanced_hide_shorts_floating_button_summary_off">"Các nút nổi như \"Dùng âm thanh này\" được hiển thị trong thẻ kênh Shorts."</string>
@@ -1258,7 +1261,7 @@ Vì vậy, bạn nên bật tính năng này khi có kết nối mạng ổn đ�
     <string name="revanced_hide_shorts_shelf_channel_title">Ẩn trong hồ sơ kênh</string>
     <string name="revanced_hide_shorts_shelf_channel_summary_on">"Đã ẩn trong hồ sơ kênh.
 
-Cụ thể:
+Chi tiết:
 • Chỉ những kệ có tiêu đề Shorts trên thẻ trang chủ mới bị ẩn."</string>
     <string name="revanced_hide_shorts_shelf_channel_summary_off">Được hiển thị trong hồ sơ kênh.</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_title">Ẩn trên thẻ Trang chủ và các video liên quan</string>

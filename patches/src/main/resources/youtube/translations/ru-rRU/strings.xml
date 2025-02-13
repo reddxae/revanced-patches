@@ -1026,6 +1026,9 @@ Shorts
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">Мини-плеер</string>
     <string name="revanced_preference_screen_miniplayer_summary">Стиль мини-плеера.</string>
+    <string name="revanced_disable_resuming_miniplayer_title">Отключить восстановление миниплеера</string>
+    <string name="revanced_disable_resuming_miniplayer_summary_on">&lt;b&gt;Продолжить просмотр&lt;/b&gt; не будет восстанавливаться при запуске программы.</string>
+    <string name="revanced_disable_resuming_miniplayer_summary_off">&lt;b&gt;Продолжить просмотр&lt;/b&gt; возобновляется при запуске программы.&lt;br&gt;&lt;br&gt;Информация:&lt;br&gt;• &lt;b&gt;Продолжить просмотр&lt;/b&gt; это функция YouTube Premium.&lt;br&gt;• Этот параметр не включает принудительно &lt;b&gt;Продолжить просмотр&lt;/b&gt;.</string>
     <string name="revanced_miniplayer_type_title">Тип мини-плеера</string>
     <string name="revanced_miniplayer_type_entry_0">Отключено</string>
     <string name="revanced_miniplayer_type_entry_1">Оригинал</string>

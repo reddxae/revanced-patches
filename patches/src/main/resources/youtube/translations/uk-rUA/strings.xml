@@ -1015,7 +1015,10 @@
     <string name="revanced_disable_haptic_feedback_zoom_summary_off">Вібрацію увімкнено.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">Мініплеєр</string>
-    <string name="revanced_preference_screen_miniplayer_summary">Зміна стилю мінімізованого плеєра в додатку.</string>
+    <string name="revanced_preference_screen_miniplayer_summary">Приховати або змінити компоненти, пов\'язані з Мініплеєром.</string>
+    <string name="revanced_disable_resuming_miniplayer_title">Вимкнути відновлення Мініплеєра</string>
+    <string name="revanced_disable_resuming_miniplayer_summary_on">&lt;b&gt;Продовжити перегляд&lt;/b&gt; не відновлюватиметься при запуску програми.</string>
+    <string name="revanced_disable_resuming_miniplayer_summary_off">&lt;b&gt;Продовжити перегляд&lt;/b&gt; відновлюватиметься при запуску програми.&lt;br&gt;&lt;br&gt;Інформація:&lt;br&gt;• &lt;b&gt;Продовжити перегляд&lt;/b&gt; це функція YouTube Premium.&lt;br&gt;• Цей параметр не вмикає примусово &lt;b&gt;Продовжити перегляд&lt;/b&gt;.</string>
     <string name="revanced_miniplayer_type_title">Тип мініплеєра</string>
     <string name="revanced_miniplayer_type_entry_0">Вимкнено</string>
     <string name="revanced_miniplayer_type_entry_1">Оригінал</string>
@@ -1031,7 +1034,7 @@
     <string name="revanced_miniplayer_double_tap_action_title">Увімкнути подвійне натискання та щипок для зміни розміру</string>
     <string name="revanced_miniplayer_double_tap_action_summary_on">"Подвійне натискання та щипок для зміни розміру увімкнено.
 
-• Двічі торкніться, щоб збільшити розмір мініплеєра.
+• Двічі торкніться, щоб збільшити розмір Мініплеєра.
 • Двічі торкніться ще раз, щоб відновити початковий розмір."</string>
     <string name="revanced_miniplayer_double_tap_action_summary_off">Подвійне натискання та щипок для зміни розміру вимкнено.</string>
     <string name="revanced_miniplayer_drag_and_drop_title">Увімкнути перетягування</string>

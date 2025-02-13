@@ -102,9 +102,9 @@
     <string name="revanced_hide_video_ads_title">동영상 광고 숨기기</string>
     <string name="revanced_hide_video_ads_summary_on">동영상 광고가 숨겨집니다.</string>
     <string name="revanced_hide_video_ads_summary_off">동영상 광고가 표시됩니다.</string>
-    <string name="revanced_hide_view_products_title">제품 보기 배너 숨기기</string>
-    <string name="revanced_hide_view_products_summary_on">플레이어에서 제품 보기 배너가 숨겨집니다.</string>
-    <string name="revanced_hide_view_products_summary_off">플레이어에서 제품 보기 배너가 표시됩니다.</string>
+    <string name="revanced_hide_view_products_title">플레이어에서 제품 보기 배너 숨기기</string>
+    <string name="revanced_hide_view_products_summary_on">제품 보기 배너가 숨겨집니다.</string>
+    <string name="revanced_hide_view_products_summary_off">제품 보기 배너가 표시됩니다.</string>
     <string name="revanced_hide_web_search_results_title">웹 검색 결과 숨기기</string>
     <string name="revanced_hide_web_search_results_summary_on">웹 검색 결과가 숨겨집니다.</string>
     <string name="revanced_hide_web_search_results_summary_off">웹 검색 결과가 표시됩니다.</string>
@@ -418,10 +418,10 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_change_layout_entry_4">태블릿</string>
     <string name="revanced_change_layout_entry_5">태블릿 (최소 너비: 600 dp)</string>
     <string name="revanced_change_live_ring_click_action_title">라이브 링 누르기 동작 변경하기</string>
-    <string name="revanced_change_live_ring_click_action_summary_on">"라이브 링이 표시된 채널 아이콘을 누르면 채널 페이지로 연결됩니다.
+    <string name="revanced_change_live_ring_click_action_summary_on">"라이브 링이 표시된 채널 아이콘을 누르면 채널 프로필으로 연결됩니다.
 
 알려진 문제점: 
-• '일반 플레이어에서 Shorts 재생하기' 설정으로 인하여 일반 플레이어에서 Shorts 실시간 스트림이 재생된다면, 채널 페이지로 연결되지 않을 수 있습니다."</string>
+• '일반 플레이어에서 Shorts 재생하기' 설정으로 인하여 일반 플레이어에서 Shorts 실시간 스트림이 재생된다면, 채널 프로필으로 연결되지 않을 수 있습니다."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">라이브 링이 표시된 채널 아이콘을 누르면 실시간 스트림 동영상으로 연결됩니다.</string>
     <string name="revanced_spoof_app_version_title">앱 버전 변경하기</string>
     <string name="revanced_spoof_app_version_summary_on">앱 버전을 변경합니다.</string>
@@ -464,7 +464,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">잘못된 필터 값입니다: %s</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons -->
     <string name="revanced_preference_screen_hook_buttons_title">버튼 재정의</string>
-    <string name="revanced_preference_screen_hook_buttons_summary">\'앱 내에 있는 버튼을 누를 시 실행 동작\'을 재정의할 수 있습니다.</string>
+    <string name="revanced_preference_screen_hook_buttons_summary">앱 내에 있는 버튼을 누를 경우에 실행되는 동작을 재정의할 수 있습니다.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Download button -->
     <string name="revanced_preference_category_download_button">오프라인 저장 버튼</string>
     <string name="revanced_override_playlist_download_button_title">재생목록 오프라인 저장 버튼 재정의하기</string>
@@ -724,12 +724,12 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_suggested_actions_title">동작 추천바 숨기기</string>
     <string name="revanced_hide_suggested_actions_summary_on">동작 추천바가 숨겨집니다.</string>
     <string name="revanced_hide_suggested_actions_summary_off">동작 추천바가 표시됩니다.</string>
-    <string name="revanced_hide_suggested_video_end_screen_title">최종 화면에서 \'다음 재생 추천 동영상\' 숨기기</string>
-    <string name="revanced_hide_suggested_video_end_screen_summary_on">"자동재생이 꺼져 있으면 최종 화면에서 '다음 재생 추천 동영상'이 숨겨집니다.
+    <string name="revanced_hide_suggested_video_end_screen_title">최종 화면에서 다음 재생 추천 동영상 숨기기</string>
+    <string name="revanced_hide_suggested_video_end_screen_summary_on">"자동재생이 꺼져 있으면 최종 화면에서 다음 재생 추천 동영상이 숨겨집니다.
 
 자동재생은 YouTube 설정에서 변경할 수 있습니다:
 설정 → 자동재생 / 재생 → 다음 동영상 자동재생"</string>
-    <string name="revanced_hide_suggested_video_end_screen_summary_off">최종 화면에서 \'다음 재생 추천 동영상\'이 표시됩니다.</string>
+    <string name="revanced_hide_suggested_video_end_screen_summary_off">최종 화면에서 다음 재생 추천 동영상이 표시됩니다.</string>
     <string name="revanced_skip_autoplay_countdown_title">자동재생 카운트다운 건너뛰기</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">자동재생이 활성화되어 있으면, 카운트다운 없이 다음 동영상을 재생합니다.</string>
     <string name="revanced_skip_autoplay_countdown_summary_off">자동재생이 활성화되어 있으면, 카운트다운 종료 후에 다음 동영상을 재생합니다</string>
@@ -1019,8 +1019,8 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_preference_screen_miniplayer_title">미니 플레이어</string>
     <string name="revanced_preference_screen_miniplayer_summary">미니 플레이어와 관련된 구성요소를 숨기거나 변경할 수 있습니다.</string>
     <string name="revanced_disable_resuming_miniplayer_title">미니플레이어 다시 시작 비활성화하기</string>
-    <string name="revanced_disable_resuming_miniplayer_summary_on">앱을 시작할 때, &lt;b&gt;계속 시청하기&lt;/b&gt;를 다시 시작하지 않습니다.</string>
-    <string name="revanced_disable_resuming_miniplayer_summary_off">앱을 시작할 때, &lt;b&gt;계속 시청하기&lt;/b&gt;를 다시 시작합니다.&lt;br&gt;&lt;br&gt;알림:&lt;br&gt;• &lt;b&gt;계속 시청하기&lt;/b&gt;는 YouTube Premium 기능입니다.&lt;br&gt;• 이 설정은 &lt;b&gt;계속 시청하기&lt;/b&gt;를 강제로 사용하도록 설정하지는 않습니다.</string>
+    <string name="revanced_disable_resuming_miniplayer_summary_on">앱을 시작할 때, &lt;b&gt;\'계속 시청하기\'&lt;/b&gt;를 다시 시작하지 않습니다.</string>
+    <string name="revanced_disable_resuming_miniplayer_summary_off">앱을 시작할 때, &lt;b&gt;\'계속 시청하기\'&lt;/b&gt;를 다시 시작합니다.&lt;br&gt;&lt;br&gt;알림:&lt;br&gt;• &lt;b&gt;\'계속 시청하기\'&lt;/b&gt;는 YouTube Premium 기능입니다.&lt;br&gt;• 이 설정은 &lt;b&gt;\'계속 시청하기\'&lt;/b&gt;를 강제로 사용하도록 설정하지는 않습니다.</string>
     <string name="revanced_miniplayer_type_title">미니 플레이어 유형</string>
     <string name="revanced_miniplayer_type_entry_0">사용 안함</string>
     <string name="revanced_miniplayer_type_entry_1">기기 기본값 사용</string>
@@ -1860,7 +1860,7 @@ API Key를 발급받는 방법을 보려면 여기를 누르세요."</string>
     <string name="revanced_default_app_settings_title">기본 앱 설정 열기</string>
     <string name="revanced_default_app_settings_summary">다른 앱에서 YouTube 링크를 RVX로 열려면 \'지원되는 링크 열기\'를 활성화하고 지원되는 링크를 추가하세요. 링크 추가가 잠겨있다면 순정 YouTube 앱 정보 → \'기본적으로 열기\'에서 \'지원되는 링크 열기\'를 비활성화한 후에 추가할 수 있습니다.</string>
     <string name="gms_core_settings_title">GmsCore 설정 열기</string>
-    <string name="gms_core_settings_summary">알림 수신을 위한 클라우드 메시징 설정을 할 수 있습니다.</string>
+    <string name="gms_core_settings_summary">RVX 알림 수신을 위한 클라우드 메시징 설정을 할 수 있습니다.</string>
     <string name="gms_core_toast_not_installed_message">GmsCore가 설치되어 있지 않습니다. 설치하세요.</string>
     <string name="gms_core_dialog_title">필수 조치</string>
     <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"GmsCore에 백그라운드에서 실행할 수 있는 권한이 없습니다.
@@ -1876,13 +1876,13 @@ GmsCore 앱 배터리 최적화를 비활성화(제한 없음)하더라도, 배�
 앱 배터리 최적화를 비활성화(제한 없음)하려면 '계속하기' 버튼을 누르세요."</string>
     <string name="gms_core_dialog_continue_text">계속하기</string>
     <string name="revanced_change_share_sheet_title">공유 시트 변경하기</string>
-    <string name="revanced_change_share_sheet_summary_on">Android 기본 공유 시트를 사용합니다.\n\n• 공유 버튼으로 바로 Android 기본 공유 메뉴를 실행할 수 있습니다.</string>
+    <string name="revanced_change_share_sheet_summary_on">Android 시스템 공유 시트를 사용합니다.\n\n• 공유 버튼으로 바로 Android 시스템 공유 메뉴를 실행할 수 있습니다.</string>
     <string name="revanced_change_share_sheet_summary_off">YouTube 기본 공유 시트를 사용합니다.</string>
     <string name="revanced_enable_opus_codec_title">OPUS 코덱 활성화하기</string>
     <string name="revanced_enable_opus_codec_summary">플레이어 응답에 OPUS 코덱이 포함된 경우에는 OPUS 코덱을 활성화합니다.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings -->
     <string name="revanced_preference_screen_import_export_title">설정 가져오기 / 내보내기</string>
-    <string name="revanced_preference_screen_import_export_summary">설정을 가져오거나 내보낼 수 있습니다.</string>
+    <string name="revanced_preference_screen_import_export_summary">RVX 설정을 가져오거나 내보낼 수 있습니다.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings, PreferenceCategory: Import / Export as file -->
     <string name="revanced_preference_category_import_export_as_file">파일로 가져오기 / 내보내기</string>
     <string name="revanced_extended_settings_export_title">설정 내보내기</string>
@@ -1939,21 +1939,21 @@ GmsCore 앱 배터리 최적화를 비활성화(제한 없음)하더라도, 배�
 
 AVC의 최대 화질 값은 1080p이고, OPUS 코덱을 사용불가 및 HDR 동영상을 재생할 수 없으며, 동영상을 재생했을 경우에는 VP9 또는 AV1보다 더 많은 모바일 데이터를 사용되오니 주의하세요."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">전문 통계에서 표시하기</string>
-    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">\'스트리밍 데이터를 가져오는 데 사용되는 클라이언트\'가 전문 통계에서 표시됩니다.\n\n• 만약 선택한 기본 클라이언트가 재생할 수 없는 동영상을 재생하려하거나 클라이언트 재생 문제가 발생하면, 그 문제를 해결하기 위해 다른 클라이언트가 사용되는 경우도 있기 때문에 전문 통계에서 다르게 표시될 수 있습니다.</string>
-    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">\'스트리밍 데이터를 가져오는 데 사용되는 클라이언트\'가 전문 통계에서 숨겨집니다.\n\n• 만약 선택한 기본 클라이언트가 재생할 수 없는 동영상을 재생하려하거나 클라이언트 재생 문제가 발생하면, 그 문제를 해결하기 위해 다른 클라이언트가 사용되는 경우도 있기 때문에 전문 통계에서 다르게 표시될 수 있습니다.</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">스트리밍 데이터를 가져오는 데 사용되는 클라이언트가 전문 통계에서 표시됩니다.\n\n• 만약 선택한 기본 클라이언트가 재생할 수 없는 동영상을 재생하려하거나 클라이언트 재생 문제가 발생하면, 그 문제를 해결하기 위해 다른 클라이언트가 사용되는 경우도 있기 때문에 전문 통계에서 다르게 표시될 수 있습니다.</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">스트리밍 데이터를 가져오는 데 사용되는 클라이언트가 전문 통계에서 숨겨집니다.\n\n• 만약 선택한 기본 클라이언트가 재생할 수 없는 동영상을 재생하려하거나 클라이언트 재생 문제가 발생하면, 그 문제를 해결하기 위해 다른 클라이언트가 사용되는 경우도 있기 때문에 전문 통계에서 다르게 표시될 수 있습니다.</string>
     <string name="revanced_spoof_streaming_data_language_title">Android VR 기본 오디오 스트림 언어</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
-    <string name="revanced_preference_category_po_token_visitor_data">PoToken / VisitorData</string>
+    <string name="revanced_preference_category_po_token_visitor_data">PoToken &amp; VisitorData</string>
     <string name="revanced_spoof_streaming_data_po_token_title">PoToken 등록하기</string>
-    <string name="revanced_spoof_streaming_data_po_token_summary">\'정보 메뉴와 연결된 페이지에 있는 사용법을 따라하여 발급받은 PoToken\'을 등록할 수 있습니다.</string>
+    <string name="revanced_spoof_streaming_data_po_token_summary">정보 메뉴와 연결된 페이지에 있는 사용법을 따라하여 발급받은 PoToken을 등록할 수 있습니다.</string>
     <string name="revanced_spoof_streaming_data_visitor_data_title">VisitorData 등록하기</string>
-    <string name="revanced_spoof_streaming_data_visitor_data_summary">\'정보 메뉴와 연결된 페이지에 있는 사용법을 따라하여 발급받은 VisitorData\'를 등록할 수 있습니다.</string>
-    <string name="revanced_spoof_streaming_data_po_token_visitor_data_about_title">PoToken / VisitorData에 대한 정보</string>
+    <string name="revanced_spoof_streaming_data_visitor_data_summary">정보 메뉴와 연결된 페이지에 있는 사용법을 따라하여 발급받은 VisitorData를 등록할 수 있습니다.</string>
+    <string name="revanced_spoof_streaming_data_po_token_visitor_data_about_title">PoToken &amp; VisitorData에 대한 정보</string>
     <string name="revanced_spoof_streaming_data_po_token_visitor_data_about_summary">"일부 클라이언트는 유효한 스트리밍 데이터 응답을 받기 위해 PoToken과 VisitorData가 요구됩니다.
 
 iOS를 기본 클라이언트로 사용하려는 경우에 이 값이 요구될 수 있습니다.
 
-자세한 정보를 보려면 여기를 누르세요."</string>
+PoToken과 VisitorData를 발급받는 방법 및 자세한 정보를 보려면 여기를 누르세요."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">시청 기록</string>
     <string name="revanced_preference_screen_watch_history_summary">시청 기록과 관련된 설정을 변경할 수 있습니다.</string>

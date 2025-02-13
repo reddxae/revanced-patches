@@ -1016,7 +1016,10 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_disable_haptic_feedback_zoom_summary_off">動画ズーム時の触覚フィードバックを無効化します。</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">ミニプレーヤー</string>
-    <string name="revanced_preference_screen_miniplayer_summary">ミニプレーヤーのスタイルを変更します。</string>
+    <string name="revanced_preference_screen_miniplayer_summary">ミニプレーヤーに関連するコンポーネントを非表示または変更します。</string>
+    <string name="revanced_disable_resuming_miniplayer_title">ミニプレーヤーの再開を無効化</string>
+    <string name="revanced_disable_resuming_miniplayer_summary_on">&lt;b&gt;ミニプレーヤー(続きを見る)&lt;/b&gt;をアプリ起動時に再開しないようにします。\n\n注意: \n・&lt;b&gt;ミニプレーヤーの再開(続きを見る)&lt;/b&gt;は YouTube Premium 加入者専用の機能です。\n・これを有効にすることにより、&lt;b&gt;ミニプレーヤーの再開(続きを見る)&lt;/b&gt;が強制的に有効になるわけではありません。</string>
+    <string name="revanced_disable_resuming_miniplayer_summary_off">&lt;b&gt;ミニプレーヤー(続きを見る)&lt;/b&gt;をアプリ起動時に再開しないようにします。\n\n注意: \n・&lt;b&gt;ミニプレーヤーの再開(続きを見る)&lt;/b&gt;は YouTube Premium 加入者専用の機能です。\n・これを有効にすることにより、&lt;b&gt;ミニプレーヤーの再開(続きを見る)&lt;/b&gt;が強制的に有効になるわけではありません。</string>
     <string name="revanced_miniplayer_type_title">ミニプレーヤーの種類</string>
     <string name="revanced_miniplayer_type_entry_0">無効</string>
     <string name="revanced_miniplayer_type_entry_1">オリジナル</string>

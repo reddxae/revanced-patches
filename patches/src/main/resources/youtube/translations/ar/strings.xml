@@ -4,7 +4,7 @@
     <string name="accessibility_settings_edu_opt_in_text">تمكين عناصر التحكم في إمكانية الوصول لمشغل الفيديو؟</string>
     <string name="accessibility_settings_edu_opt_out_text">تم تعديل عناصر التحكم الخاصة بك لأن خدمة إمكانية الوصول قيد التشغيل.</string>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced Extended</string>
+    <string name="revanced_extended_settings_title">RVX</string>
     <string name="revanced_extended_settings_search_title">بحث %s</string>
     <string name="revanced_extended_reset_to_default_toast">إعادة التعيين إلى القيم الافتراضية.</string>
     <string name="revanced_preference_category_experimental_flag">تعديلات تجريبية</string>
@@ -74,9 +74,13 @@
     <string name="revanced_language_ZH">Chinese</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">الإعلانات</string>
+    <string name="revanced_hide_end_screen_store_banner_title">إخفاء لافتة شاشة المتجر النهائية</string>
+    <string name="revanced_hide_end_screen_store_banner_summary_on">تم إخفاء لافتة المتجر.</string>
+    <string name="revanced_hide_end_screen_store_banner_summary_off">يتم عرض لافتة المتجر.</string>
     <string name="revanced_hide_fullscreen_ads_title">إخفاء إعلانات ملء الشاشة</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">تم إخفاء إعلانات ملء الشاشة.</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">يتم عرض إعلانات ملء الشاشة.</string>
+    <string name="revanced_fullscreen_ads_closed_toast">تم إغلاق الإعلانات على كامل الشاشة.</string>
     <string name="revanced_hide_general_ads_title">إخفاء الإعلانات العامة</string>
     <string name="revanced_hide_general_ads_summary_on">تم إخفاء الإعلانات العامة.</string>
     <string name="revanced_hide_general_ads_summary_off">يتم عرض الإعلانات العامة.</string>
@@ -264,6 +268,9 @@
     <string name="revanced_hide_feed_flyout_menu_title">تمكين فلتر القائمة المنبثقة بالموجز</string>
     <string name="revanced_hide_feed_flyout_menu_summary_on">تم تمكين فلتر القائمة المنبثقة بالموجز.</string>
     <string name="revanced_hide_feed_flyout_menu_summary_off">تم تعطيل فلتر القائمة المنبثقة بالموجز.</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_title">نوع تصفية القائمة المنبثقة للموجز</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_on">قم بالتصفية إذا كان يحتوي على.&lt;br&gt;&lt;br&gt;لإخفاء القائمة &lt;b&gt;\'تشغيل التالي في قائمة المحتوى التالي\'&lt;/b&gt;، يمكنك استخدام &lt;b&gt;\'تشغيل التالي\'&lt;/b&gt; أو &lt;b&gt;\'في قائمة المحتوى الرئيسي\'&lt;/b&gt; ككلمات رئيسية.</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_off">قم بالتصفية إذا كانت هناك تطابقات.&lt;br&gt;&lt;br&gt;لإخفاء القائمة &lt;b&gt;\'تشغيل التالي في قائمة المحتوى التالي\'&lt;/b&gt;، يمكنك فقط استخدام &lt;b&gt;\'تشغيل التالي في قائمة المحتوى التالي\'&lt;/b&gt; ككلمات رئيسية.</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_title">تصفية القائمة المنبثقة بالموجز</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_summary">قائمة بأسماء القائمة المنبثقة المراد تصفيتها، مفصولة بسطور جديدة.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter -->
@@ -348,6 +355,7 @@
     <string name="revanced_preference_screen_general_title">عام</string>
     <string name="revanced_change_start_page_title">تغيير صفحة البداية</string>
     <string name="revanced_change_start_page_entry_default">الافتراضي</string>
+    <string name="revanced_change_start_page_entry_all_subscriptions">كلّ الاشتراكات</string>
     <string name="revanced_change_start_page_entry_browse">تصفح القنوات</string>
     <string name="revanced_change_start_page_entry_courses">الدورات / التعلم</string>
     <string name="revanced_change_start_page_entry_explore">اكتشف</string>
@@ -361,6 +369,7 @@
     <string name="revanced_change_start_page_entry_music">موسيقى</string>
     <string name="revanced_change_start_page_entry_news">أخبار</string>
     <string name="revanced_change_start_page_entry_notifications">الإشعارات</string>
+    <string name="revanced_change_start_page_entry_playlists">قوائم التشغيل</string>
     <string name="revanced_change_start_page_entry_podcasts">البودكاست</string>
     <string name="revanced_change_start_page_entry_search">البحث</string>
     <string name="revanced_change_start_page_entry_shopping">التسوق</string>
@@ -368,6 +377,7 @@
     <string name="revanced_change_start_page_entry_sports">رياضة</string>
     <string name="revanced_change_start_page_entry_subscriptions">الاشتراكات</string>
     <string name="revanced_change_start_page_entry_trending">المحتوى الرائج</string>
+    <string name="revanced_change_start_page_entry_virtual_reality">الواقع الافتراضي</string>
     <string name="revanced_change_start_page_entry_watch_later">المشاهدة لاحقًا</string>
     <string name="revanced_change_start_page_entry_your_clips">فيديوهاتك</string>
     <string name="revanced_change_start_page_type_title">تغيير نوع صفحة البداية</string>
@@ -405,7 +415,9 @@
     <string name="revanced_change_layout_entry_4">الجهاز اللوحي</string>
     <string name="revanced_change_layout_entry_5">الجهاز اللوحي (الحد الأدنى 600 dp)</string>
     <string name="revanced_change_live_ring_click_action_title">تغيير إجراء النقر على البث المباشر</string>
-    <string name="revanced_change_live_ring_click_action_summary_on">يتم فتح القناة عند النقر على الحلقة المباشرة.</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">"يتم فتح القناة عند النقر على الحلقة المباشرة.
+
+القيود: عند فتح البث المباشر لفيديوهات Shorts في المشغل العادي بسبب إعداد \"فتح فيديوهات Shorts في المشغل العادي\"، لا يتم فتح القناة."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">يتم فتح البث المباشر عند النقر على الحلقة المباشرة.</string>
     <string name="revanced_spoof_app_version_title">إصدار تطبيق وهمي</string>
     <string name="revanced_spoof_app_version_summary_on">تم تغيير اصدار التطبيق</string>
@@ -432,6 +444,9 @@
     <string name="revanced_hide_account_menu_title">إخفاء قائمة الحساب</string>
     <string name="revanced_hide_account_menu_summary">"إخفاء عناصر قائمة الحساب وعلامة التبويب أنت.
 قد لا يتم إخفاء بعض المكونات."</string>
+    <string name="revanced_hide_account_menu_filter_type_title">نوع تصفية قائمة الحساب</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_on">قم بالتصفية إذا كان يحتوي على.&lt;br&gt;&lt;br&gt;لإخفاء قائمة &lt;b&gt;\'الحصول على YouTube Premium\'&lt;/b&gt;، يمكنك استخدام &lt;b&gt;\'YouTube Premium\'&lt;/b&gt; أو &lt;b&gt;\'Premium\'&lt;/b&gt; ككلمات رئيسية.</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_off">قم بالتصفية إذا تطابقت النتائج.&lt;br&gt;&lt;br&gt;لإخفاء قائمة &lt;b&gt;\'الحصول على YouTube Premium\'&lt;/b&gt;، يمكنك فقط استخدام &lt;b&gt;\'الحصول على YouTube Premium\'&lt;/b&gt; ككلمات رئيسية.</string>
     <string name="revanced_hide_account_menu_filter_strings_title">تعديل فلتر قائمة الحساب</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">قائمة بأسماء قائمة الحسابات المراد تصفيتها، مفصولة بسطور جديدة.</string>
     <string name="revanced_hide_handle_title">إخفاء الاسم المعرِّف</string>
@@ -471,56 +486,6 @@
     <string name="revanced_third_party_youtube_music_not_installed_warning">%s لم يتم تثبيته. الرجاء تثبيته.</string>
     <string name="revanced_override_youtube_music_button_about_prerequisite_title">متطلب أساسي</string>
     <string name="revanced_override_youtube_music_button_about_prerequisite_summary">موسيقى YouTube مطلوبًا لتجاوز إجراء الزر. انقر هنا لتنزيل موسيقى YouTube.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
-    <string name="revanced_preference_screen_miniplayer_title">المشغل المصغر</string>
-    <string name="revanced_preference_screen_miniplayer_summary">تغيير نمط المشغل المصغر داخل التطبيق.</string>
-    <string name="revanced_miniplayer_type_title">نوع المشغل المصغر</string>
-    <string name="revanced_miniplayer_type_entry_0">معطَّل</string>
-    <string name="revanced_miniplayer_type_entry_1">الأصلي</string>
-    <string name="revanced_miniplayer_type_entry_2">الحد الأدنى</string>
-    <string name="revanced_miniplayer_type_entry_3">الجهاز اللوحي</string>
-    <string name="revanced_miniplayer_type_entry_4">حديث 1</string>
-    <string name="revanced_miniplayer_type_entry_5">حديث 2</string>
-    <string name="revanced_miniplayer_type_entry_6">حديث 3</string>
-    <string name="revanced_miniplayer_rounded_corners_title">تمكين الزوايا المستديرة</string>
-    <string name="revanced_miniplayer_rounded_corners_summary_on">الزوايا مستديرة.</string>
-    <string name="revanced_miniplayer_rounded_corners_summary_off">الزوايا مربعة.</string>
-    <string name="revanced_miniplayer_double_tap_action_title">تمكين النقر المزدوج والضغط لتغيير الحجم</string>
-    <string name="revanced_miniplayer_double_tap_action_summary_on">"تم تمكين خاصية النقر المزدوج والضغط لتغيير الحجم.
-
-• انقر مرتين لزيادة حجم المشغل المصغر.
-• انقر مرتين مرة أخرى لاستعادة الحجم الأصلي."</string>
-    <string name="revanced_miniplayer_double_tap_action_summary_off">تم تعطيل خاصية النقر المزدوج والضغط لتغيير الحجم.</string>
-    <string name="revanced_miniplayer_drag_and_drop_title">تمكين السحب والإفلات</string>
-    <string name="revanced_miniplayer_drag_and_drop_summary_on">"تم تمكين السحب والإفلات.
-
-يمكن سحب المشغل المصغر إلى أي زاوية من الشاشة."</string>
-    <string name="revanced_miniplayer_drag_and_drop_summary_off">تم تعطيل السحب والإفلات.</string>
-    <string name="revanced_miniplayer_horizontal_drag_title">تمكين إيماءة السحب الأفقية</string>
-    <string name="revanced_miniplayer_horizontal_drag_summary_on">"تم تمكين إيماءة السحب الأفقية.
-
-يمكن سحب المشغل المصغر خارج الشاشة إلى اليمين أو اليسار."</string>
-    <string name="revanced_miniplayer_horizontal_drag_summary_off">تم تعطيل إيماءة السحب الأفقية.</string>
-    <string name="revanced_miniplayer_hide_expand_close_title">إخفاء زر الإغلاق</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_on">تم إخفاء زر الإغلاق.</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_off">يتم عرض زر الإغلاق.</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_title">إخفاء أزرار التوسيع والإغلاق</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_on">"تم إخفاء الأزرار.
-
-مرر للتوسيع أو الإغلاق."</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_off">يتم عرض أزرار التوسيع والإغلاق.</string>
-    <string name="revanced_miniplayer_hide_subtext_title">إخفاء النصوص الفرعية</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_on">تم إخفاء النصوص الفرعية.</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_off">يتم عرض النصوص الفرعية.</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_title">إخفاء أزرار التخطي للأمام والخلف</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">تم إخفاء التخطي للأمام والخلف.</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">يتم عرض التخطي للأمام والخلف.</string>
-    <string name="revanced_miniplayer_width_dip_title">تهيئة الحجم</string>
-    <string name="revanced_miniplayer_width_dip_summary">تهيئة الحجم على الشاشة، بالبكسل.</string>
-    <string name="revanced_miniplayer_width_dip_invalid_toast">حجم البكسل يجب أن يكون بين %1$s و %2$s.</string>
-    <string name="revanced_miniplayer_opacity_title">شفافية الواجهة</string>
-    <string name="revanced_miniplayer_opacity_summary">قيمة الشفافية بين 0-100، حيث يكون 0 شفاف.</string>
-    <string name="revanced_miniplayer_opacity_invalid_toast">يجب أن تكون نسبة شفافية واجهة المشغل المصغر بين 0-100.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_bar_title">شريط التنقل</string>
     <string name="revanced_preference_screen_navigation_bar_summary">إخفاء أو عرض مكونات قسم شريط التنقل.</string>
@@ -561,6 +526,7 @@
     <string name="revanced_enable_translucent_navigation_bar_title">تمكين شريط التنقل الشفاف</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">شريط التنقل شفاف.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">شريط التنقل غير شفاف.</string>
+    <string name="revanced_enable_translucent_navigation_bar_user_dialog_message">في بعض إصدارات YouTube، قد يؤدي هذا الإعداد إلى جعل شريط التنقل في النظام شفافًا أو قد يتم كسر التخطيط في وضع صورة داخل صورة.</string>
     <string name="revanced_hide_navigation_bar_title">إخفاء شريط التنقل</string>
     <string name="revanced_hide_navigation_bar_summary_on">تم إخفاء شريط التنقل.</string>
     <string name="revanced_hide_navigation_bar_summary_off">يتم عرض شريط التنقل.</string>
@@ -811,39 +777,19 @@
     <string name="revanced_hide_thanks_button_title">إخفاء زر شكرًا</string>
     <string name="revanced_hide_thanks_button_summary_on">تم إخفاء زر شكرًا.</string>
     <string name="revanced_hide_thanks_button_summary_off">يتم عرض زر شكرًا.</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
-    <string name="revanced_preference_category_hide_by_index">إخفاء حسب الفهرس</string>
-    <string name="revanced_hide_action_button_index_0_title">إخفاء الزر الأول</string>
-    <string name="revanced_hide_action_button_index_0_summary_on">تم إخفاء الزر الأول.</string>
-    <string name="revanced_hide_action_button_index_0_summary_off">يتم عرض الزر الأول.</string>
-    <string name="revanced_hide_action_button_index_1_title">إخفاء الزر الثاني</string>
-    <string name="revanced_hide_action_button_index_1_summary_on">تم إخفاء الزر الثاني.</string>
-    <string name="revanced_hide_action_button_index_1_summary_off">يتم عرض الزر الثاني.</string>
-    <string name="revanced_hide_action_button_index_2_title">إخفاء الزر الثالث</string>
-    <string name="revanced_hide_action_button_index_2_summary_on">تم إخفاء الزر الثالث.</string>
-    <string name="revanced_hide_action_button_index_2_summary_off">يتم عرض الزر الثالث.</string>
-    <string name="revanced_hide_action_button_index_3_title">إخفاء الزر الرابع</string>
-    <string name="revanced_hide_action_button_index_3_summary_on">تم إخفاء الزر الرابع.</string>
-    <string name="revanced_hide_action_button_index_3_summary_off">يتم عرض الزر الرابع.</string>
-    <string name="revanced_hide_action_button_index_4_title">إخفاء الزر الخامس</string>
-    <string name="revanced_hide_action_button_index_4_summary_on">تم إخفاء الزر الخامس.</string>
-    <string name="revanced_hide_action_button_index_4_summary_off">يتم عرض الزر الخامس.</string>
-    <string name="revanced_hide_action_button_index_5_title">إخفاء الزر السادس</string>
-    <string name="revanced_hide_action_button_index_5_summary_on">تم إخفاء الزر السادس.</string>
-    <string name="revanced_hide_action_button_index_5_summary_off">يتم عرض الزر السادس.</string>
-    <string name="revanced_hide_action_button_index_6_title">إخفاء الزر السابع</string>
-    <string name="revanced_hide_action_button_index_6_summary_on">تم إخفاء الزر السابع.</string>
-    <string name="revanced_hide_action_button_index_6_summary_off">يتم عرض الزر السابع.</string>
-    <string name="revanced_hide_action_button_index_7_title">إخفاء الزر الثامن</string>
-    <string name="revanced_hide_action_button_index_7_summary_on">تم إخفاء الزر الثامن.</string>
-    <string name="revanced_hide_action_button_index_7_summary_off">يتم عرض الزر الثامن.</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
-    <string name="revanced_preference_category_hide_by_index_live">إخفاء حسب الفهرس في البث المباشر</string>
-    <string name="revanced_hide_action_button_index_about_title">لمحة عن إخفاء زر الإجراء حسب الفهرس</string>
-    <string name="revanced_hide_action_button_index_about_summary">"إخفاء أزرار الإجراءات بواسطة الفهرس قبل تهيئة أزرار الإجراءات.
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Experimental flags -->
+    <string name="revanced_hide_action_button_index_title">إخفاء زر الإجراء حسب الفهرس</string>
+    <string name="revanced_hide_action_button_index_summary_on">"تم إخفاء أزرار الإجراءات بواسطة الفهرس.
 
-- إخفاء أزرار الإجراءات لا يترك أي مساحة فارغة.
-- قد لا يكون فهرس أزرار الإجراءات هو الزر نفسه دائمًا."</string>
+معلومات:
+• قد تكون أزرار الإجراءات مخفية بشكل خاطئ، أو قد لا تكون أزرار الإجراءات مخفية.
+• لا يترك إخفاء أزرار الإجراءات أي مساحة فارغة."</string>
+    <string name="revanced_hide_action_button_index_summary_off">"تم إخفاء أزرار الإجراءات بواسطة مرشح المعرف.
+
+معلومات:
+• يتم إخفاء أزرار الإجراءات اليمنى.
+• يؤدي إخفاء أزرار الإجراءات إلى ترك مساحة فارغة."</string>
+    <string name="revanced_remix_button_index_title">فهرس زر ريمكس</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">وضع الإضاءة السينمائية</string>
     <string name="revanced_preference_screen_ambient_mode_summary">تعطيل وضع الإضاءة السينمائية أو تجاوز قيود وضع الإضاءة السينمائية.</string>
@@ -1066,6 +1012,60 @@
     <string name="revanced_disable_haptic_feedback_zoom_title">تعطيل الاهتزاز عند التكبير</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_on">تم تعطيل الاهتزاز.</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_off">تم تمكين الاهتزاز.</string>
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Miniplayer -->
+    <string name="revanced_preference_screen_miniplayer_title">المشغل المصغر</string>
+    <string name="revanced_preference_screen_miniplayer_summary">إخفاء أو تغيير المكونات المتعلقة بالمشغل المصغر.</string>
+    <string name="revanced_disable_resuming_miniplayer_title">تعطيل استئناف المشغل المصغر</string>
+    <string name="revanced_disable_resuming_miniplayer_summary_on">لن يتم استئناف &lt;b&gt;متابعة المشاهدة&lt;/b&gt; عند بدء تشغيل التطبيق.</string>
+    <string name="revanced_disable_resuming_miniplayer_summary_off">سيتم استئناف ميزة &lt;b&gt;متابعة المشاهدة&lt;/b&gt; عند بدء تشغيل التطبيق.&lt;br&gt;&lt;br&gt;معلومات:&lt;br&gt;• &lt;b&gt;متابعة المشاهدة&lt;/b&gt; هي ميزة YouTube Premium.&lt;br&gt;• لا يفرض هذا الإعداد تمكين ميزة &lt;b&gt;متابعة المشاهدة.&lt;/b&gt;</string>
+    <string name="revanced_miniplayer_type_title">نوع المشغل المصغر</string>
+    <string name="revanced_miniplayer_type_entry_0">معطَّل</string>
+    <string name="revanced_miniplayer_type_entry_1">الأصلي</string>
+    <string name="revanced_miniplayer_type_entry_2">الحد الأدنى</string>
+    <string name="revanced_miniplayer_type_entry_3">الجهاز اللوحي</string>
+    <string name="revanced_miniplayer_type_entry_4">حديث 1</string>
+    <string name="revanced_miniplayer_type_entry_5">حديث 2</string>
+    <string name="revanced_miniplayer_type_entry_6">حديث 3</string>
+    <string name="revanced_miniplayer_type_entry_7">حديث 4</string>
+    <string name="revanced_miniplayer_rounded_corners_title">تمكين الزوايا المستديرة</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_on">الزوايا مستديرة.</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_off">الزوايا مربعة.</string>
+    <string name="revanced_miniplayer_double_tap_action_title">تمكين النقر المزدوج والضغط لتغيير الحجم</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_on">"تم تمكين خاصية النقر المزدوج والضغط لتغيير الحجم.
+
+• انقر مرتين لزيادة حجم المشغل المصغر.
+• انقر مرتين مرة أخرى لاستعادة الحجم الأصلي."</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_off">تم تعطيل خاصية النقر المزدوج والضغط لتغيير الحجم.</string>
+    <string name="revanced_miniplayer_drag_and_drop_title">تمكين السحب والإفلات</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_on">"تم تمكين السحب والإفلات.
+
+يمكن سحب المشغل المصغر إلى أي زاوية من الشاشة."</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_off">تم تعطيل السحب والإفلات.</string>
+    <string name="revanced_miniplayer_horizontal_drag_title">تمكين إيماءة السحب الأفقية</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_on">"تم تمكين إيماءة السحب الأفقية.
+
+يمكن سحب المشغل المصغر خارج الشاشة إلى اليمين أو اليسار."</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_off">تم تعطيل إيماءة السحب الأفقية.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_title">إخفاء أزرار الواجهة</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_on">تم إخفاء أزرار الواجهة.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_off">يتم عرض أزرار الواجهة.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_title">إخفاء أزرار التوسيع والإغلاق</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_on">"تم إخفاء الأزرار.
+
+مرر للتوسيع أو الإغلاق."</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_off">يتم عرض أزرار التوسيع والإغلاق.</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_title">إخفاء أزرار التخطي للأمام والخلف</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">تم إخفاء التخطي للأمام والخلف.</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">يتم عرض التخطي للأمام والخلف.</string>
+    <string name="revanced_miniplayer_hide_subtext_title">إخفاء النصوص الفرعية</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_on">تم إخفاء النصوص الفرعية.</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_off">يتم عرض النصوص الفرعية.</string>
+    <string name="revanced_miniplayer_width_dip_title">تهيئة الحجم</string>
+    <string name="revanced_miniplayer_width_dip_summary">تهيئة الحجم على الشاشة، بالبكسل.</string>
+    <string name="revanced_miniplayer_width_dip_invalid_toast">حجم البكسل يجب أن يكون بين %1$s و %2$s.</string>
+    <string name="revanced_miniplayer_opacity_title">شفافية الواجهة</string>
+    <string name="revanced_miniplayer_opacity_summary">قيمة الشفافية بين 0-100، حيث يكون 0 شفاف.</string>
+    <string name="revanced_miniplayer_opacity_invalid_toast">يجب أن تكون نسبة شفافية واجهة المشغل المصغر بين 0-100.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Player buttons -->
     <string name="revanced_preference_screen_player_buttons_title">أزرار المشغل</string>
     <string name="revanced_preference_screen_player_buttons_summary">إخفاء أو عرض الأزرار في مشغل الفيديو.</string>
@@ -1171,9 +1171,11 @@
     <string name="revanced_enable_custom_seekbar_color_title">تمكين لون شريط تقدم الفيديو المخصص</string>
     <string name="revanced_enable_custom_seekbar_color_summary_on">تم تمكين لون شريط تقدم الفيديو المخصص.</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">تم تعطيل لون شريط تقدم الفيديو المخصص.</string>
-    <string name="revanced_custom_seekbar_color_value_title">قيمة لون شريط تقدم الفيديو المخصصة</string>
-    <string name="revanced_custom_seekbar_color_value_summary">اكتب رمز اللون للون شريط تقدم الفيديو.</string>
-    <string name="revanced_custom_seekbar_color_value_invalid_invalid_toast">قيمة لون شريط التقدم غير صالحة.</string>
+    <string name="revanced_custom_seekbar_color_primary_title">اللون الأساسي لشريط التقدم المخصص</string>
+    <string name="revanced_custom_seekbar_color_primary_summary">اكتب رمز اللون لشريط التقدم الأساسي.</string>
+    <string name="revanced_custom_seekbar_color_accent_title">لون لشريط التقدم المميز المخصص</string>
+    <string name="revanced_custom_seekbar_color_accent_summary">اكتب رمز اللون المميز لشريط التقدم الأساسي.</string>
+    <string name="revanced_custom_seekbar_color_invalid_toast">قيمة لون شريط التقدم غير صالحة.</string>
     <string name="revanced_enable_seekbar_tapping_title">تمكين النقر على شريط التقدم</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">تم تمكين النقر على شريط الوقت (شريط تقدم الفيديو).</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">تم تعطيل النقر على شريط الوقت (شريط تقدم الفيديو).</string>
@@ -1242,10 +1244,6 @@
     <string name="revanced_expand_video_description_title">توسيع وصف الفيديو</string>
     <string name="revanced_expand_video_description_summary_on">يتم توسيع أوصاف الفيديو تلقائيًا.</string>
     <string name="revanced_expand_video_description_summary_off">لا يتم توسيع أوصاف الفيديو تلقائيًا.</string>
-    <string name="revanced_expand_video_description_strings_title">العنوان في لوحة وصف الفيديو</string>
-    <string name="revanced_expand_video_description_strings_summary">"أدخل عنوان لوحة وصف الفيديو بلغتك.
-قد لا يعمل خيار توسيع وصف الفيديو إذا كانت السلسلة المدخلة لا تتطابق مع عنوان لوحة وصف الفيديو."</string>
-    <string name="revanced_expand_video_description_strings_default_value">الوصف</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">Shorts</string>
     <string name="revanced_disable_shorts_background_playback_title">تعطيل تشغيل فيديوهات Shorts في الخلفية</string>

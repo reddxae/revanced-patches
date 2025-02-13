@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_reset_to_default_toast">Obnovit na výchozí hodnoty.</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run"></string>
@@ -42,10 +41,6 @@
     <string name="revanced_hide_navigation_label_title">Skrýt popisky navigačního panelu</string>
     <string name="revanced_hide_navigation_label_summary">Skrýt popisky v navigačním panelu.</string>
     <!-- PreferenceScreen: Player -->
-    <string name="revanced_enable_color_match_player_title">Povolit barevně shodný přehrávač</string>
-    <string name="revanced_enable_color_match_player_summary">Odpovídá barvě mini přehrávače a režimu celé obrazovky.</string>
-    <string name="revanced_enable_force_minimized_player_title">Povolit vynucenou minimalizaci přehrávače</string>
-    <string name="revanced_enable_force_minimized_player_summary">Zachovat přehrávač trvale minimalizovaný, i když je přehrávána jiná skladba.</string>
     <string name="revanced_enable_zen_mode_title">Povolit zen mod</string>
     <string name="revanced_enable_zen_mode_summary">Přidá šedý odstín do přehrávače videa ke snížení namáhání očí.</string>
     <!-- PreferenceScreen: Settings menu -->

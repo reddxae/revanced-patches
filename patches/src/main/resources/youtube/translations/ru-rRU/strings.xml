@@ -4,7 +4,7 @@
     <string name="accessibility_settings_edu_opt_in_text">Включить специальные возможности в плеере?</string>
     <string name="accessibility_settings_edu_opt_out_text">Служба специальных возможностей включена. Управление изменено.</string>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced Extended</string>
+    <string name="revanced_extended_settings_title">RVX</string>
     <string name="revanced_extended_settings_search_title">Поиск %s</string>
     <string name="revanced_extended_reset_to_default_toast">К значениям по умолчанию.</string>
     <string name="revanced_preference_category_experimental_flag">Экспериментальные опции</string>
@@ -74,9 +74,13 @@
     <string name="revanced_language_ZH">中文</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Реклама</string>
+    <string name="revanced_hide_end_screen_store_banner_title">Скрыть баннер магазина на конечном экране</string>
+    <string name="revanced_hide_end_screen_store_banner_summary_on">Баннер магазина скрыт.</string>
+    <string name="revanced_hide_end_screen_store_banner_summary_off">Баннер магазина отображается.</string>
     <string name="revanced_hide_fullscreen_ads_title">Полноэкранная реклама</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">Полноэкранная реклама скрыта.</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">Полноэкранная реклама отображена.</string>
+    <string name="revanced_fullscreen_ads_closed_toast">Полноэкранная реклама закрыта.</string>
     <string name="revanced_hide_general_ads_title">Реклама общего формата</string>
     <string name="revanced_hide_general_ads_summary_on">Реклама общего формата скрыта.</string>
     <string name="revanced_hide_general_ads_summary_off">Реклама общего формата отображена.</string>
@@ -266,6 +270,9 @@ Shorts
     <string name="revanced_hide_feed_flyout_menu_title">Фильтр всплывающего меню ленты</string>
     <string name="revanced_hide_feed_flyout_menu_summary_on">Фильтр всплывающего меню ленты включен.</string>
     <string name="revanced_hide_feed_flyout_menu_summary_off">Фильтр всплывающего меню ленты отключен.</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_title">Тип фильтра выдвижного меню в ленте</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_on">Фильтруется, если содержат.&lt;br&gt;&lt;br&gt;Чтобы скрыть меню &lt;b&gt;\'Воспроизвести следующим в очереди\'&lt;/b&gt;, можете использовать &lt;b&gt;\'Воспроизвести следующим\'&lt;/b&gt; или &lt;b&gt;\'в очереди\'&lt;/b&gt; как ключевые слова.</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_off">Фильтруется, если совпадают.&lt;br&gt;&lt;br&gt;Чтобы скрыть меню &lt;b&gt;\'Воспроизвести следующим в очереди\'&lt;/b&gt;, можете использовать только &lt;b&gt;\'Воспроизвести следующим в очереди\'&lt;/b&gt; как ключевые слова.</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_title">Фильтр всплывающего меню ленты</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_summary">Список имен всплывающего меню ленты для скрытия.\nРазделять новой строкой.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter -->
@@ -358,6 +365,7 @@ Shorts
     <string name="revanced_preference_screen_general_title">Основные настройки</string>
     <string name="revanced_change_start_page_title">Начальная страница</string>
     <string name="revanced_change_start_page_entry_default">По умолчанию</string>
+    <string name="revanced_change_start_page_entry_all_subscriptions">Все подписки</string>
     <string name="revanced_change_start_page_entry_browse">Обзор каналов</string>
     <string name="revanced_change_start_page_entry_courses">Курсы / Обучение</string>
     <string name="revanced_change_start_page_entry_explore">Навигатор</string>
@@ -371,6 +379,7 @@ Shorts
     <string name="revanced_change_start_page_entry_music">Музыка</string>
     <string name="revanced_change_start_page_entry_news">Новости</string>
     <string name="revanced_change_start_page_entry_notifications">Уведомления</string>
+    <string name="revanced_change_start_page_entry_playlists">Плейлисты</string>
     <string name="revanced_change_start_page_entry_podcasts">Подкасты</string>
     <string name="revanced_change_start_page_entry_search">Поиск</string>
     <string name="revanced_change_start_page_entry_shopping">Покупки</string>
@@ -378,6 +387,7 @@ Shorts
     <string name="revanced_change_start_page_entry_sports">Спорт</string>
     <string name="revanced_change_start_page_entry_subscriptions">Подписки</string>
     <string name="revanced_change_start_page_entry_trending">В тренде</string>
+    <string name="revanced_change_start_page_entry_virtual_reality">Виртуальная реальность</string>
     <string name="revanced_change_start_page_entry_watch_later">Смотреть позже</string>
     <string name="revanced_change_start_page_entry_your_clips">Ваши клипы</string>
     <string name="revanced_change_start_page_type_title">Тип начальной страницы</string>
@@ -414,7 +424,7 @@ Shorts
     <string name="revanced_change_layout_entry_4">Планшет</string>
     <string name="revanced_change_layout_entry_5">Планшет (Мин. 600 dip)</string>
     <string name="revanced_change_live_ring_click_action_title">Действие нажатия на точку прямого эфира</string>
-    <string name="revanced_change_live_ring_click_action_summary_on">Открывается канал.</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">"Открывается канал."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">Открывается прямой эфир.</string>
     <string name="revanced_spoof_app_version_title">Подмена версии приложения</string>
     <string name="revanced_spoof_app_version_summary_on">Версия приложения подменена</string>
@@ -441,6 +451,9 @@ Shorts
     <string name="revanced_hide_account_menu_title">Скрыть меню аккаунта</string>
     <string name="revanced_hide_account_menu_summary">"Скрыть элементы меню аккаунта и вкладки \"Вы\".
 Некоторые компоненты не могут быть скрыты."</string>
+    <string name="revanced_hide_account_menu_filter_type_title">Тип фильтра меню аккаунта</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_on">Фильтруется, если содержат.&lt;br&gt;&lt;br&gt;Чтобы скрыть меню &lt;b&gt;\'Оформить подписку YouTube Premium\'&lt;/b&gt;, можете использовать &lt;b&gt;\'YouTube Premium\'&lt;/b&gt; или &lt;b&gt;\'Premium\'&lt;/b&gt; как ключевые слова.</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_off">Фильтруется, если совпадают.&lt;br&gt;&lt;br&gt;Чтобы скрыть меню &lt;b&gt;\'Оформить подписку YouTube Premium\'&lt;/b&gt;, можете использовать только &lt;b&gt;\'Оформить подписку YouTube Premium\'&lt;/b&gt; как ключевые слова.</string>
     <string name="revanced_hide_account_menu_filter_strings_title">Фильтр элементов меню аккаунта</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">Список элементов меню учетной записи для скрытия.\nРазделять новой строкой.</string>
     <string name="revanced_hide_handle_title">Скрыть псевдоним</string>
@@ -481,56 +494,6 @@ Shorts
     <string name="revanced_override_youtube_music_button_about_prerequisite_title">Обязательное условие</string>
     <string name="revanced_override_youtube_music_button_about_prerequisite_summary">Для переопределения кнопки требуется YouTube Music.
 Нажмите здесь, чтобы загрузить YouTube Music.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
-    <string name="revanced_preference_screen_miniplayer_title">Мини-плеер</string>
-    <string name="revanced_preference_screen_miniplayer_summary">Стиль мини-плеера.</string>
-    <string name="revanced_miniplayer_type_title">Тип мини-плеера</string>
-    <string name="revanced_miniplayer_type_entry_0">Отключено</string>
-    <string name="revanced_miniplayer_type_entry_1">Оригинал</string>
-    <string name="revanced_miniplayer_type_entry_2">Телефон</string>
-    <string name="revanced_miniplayer_type_entry_3">Планшет</string>
-    <string name="revanced_miniplayer_type_entry_4">Современный 1</string>
-    <string name="revanced_miniplayer_type_entry_5">Современный 2</string>
-    <string name="revanced_miniplayer_type_entry_6">Современный 3</string>
-    <string name="revanced_miniplayer_rounded_corners_title">Скругления углов мини-плеера</string>
-    <string name="revanced_miniplayer_rounded_corners_summary_on">Скругления углов включено.</string>
-    <string name="revanced_miniplayer_rounded_corners_summary_off">Скругления углов отключено.</string>
-    <string name="revanced_miniplayer_double_tap_action_title">Изменение размера жестом</string>
-    <string name="revanced_miniplayer_double_tap_action_summary_on">"Двойное нажатие и щипок для изменения размера включено.
-
-• Двойное нажатие для увеличения размера мини-плеера.
-• Двойное нажатие еще раз для восстановления исходного размера."</string>
-    <string name="revanced_miniplayer_double_tap_action_summary_off">Двойное нажатие и щипок для изменения размера отключено.</string>
-    <string name="revanced_miniplayer_drag_and_drop_title">Перетаскивание мини-плеера</string>
-    <string name="revanced_miniplayer_drag_and_drop_summary_on">"Перетаскивание мини-плеера включено.
-
-Мини-плеер можно перемещать по экрану."</string>
-    <string name="revanced_miniplayer_drag_and_drop_summary_off">Перетаскивание мини-плеера отключено.</string>
-    <string name="revanced_miniplayer_horizontal_drag_title">Жест горизонтального перетаскивания.</string>
-    <string name="revanced_miniplayer_horizontal_drag_summary_on">"Жест горизонтального перетаскивания включен.
-
-Мини-плеер можно перетаскивать за пределы экрана влево или вправо."</string>
-    <string name="revanced_miniplayer_horizontal_drag_summary_off">Жест горизонтального перетаскивания отключен.</string>
-    <string name="revanced_miniplayer_hide_expand_close_title">Кнопки \"Развернуть\" и \"Закрыть\"</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_on">Кнопки скрыты.
-(развернуть или закрыть мини-плеер жестом)</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_off">Кнопки \"Развернуть\" и \"Закрыть\" отображены.</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_title">Кнопки \"Развернуть\" и \"Закрыть\"</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_on">"Кнопки \"Развернуть\" и \"Закрыть\" скрыты.
-Только жесты."</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_off">Кнопки \"Развернуть\" и \"Закрыть\" отображены.</string>
-    <string name="revanced_miniplayer_hide_subtext_title">Подстрочный текст</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_on">Подстрочный текст скрыт.</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_off">Подстрочный текст отображен.</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_title">Кнопки перемотки</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Кнопки перемотки скрыты.</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Кнопки перемотки отображены.</string>
-    <string name="revanced_miniplayer_width_dip_title">Начальный размер</string>
-    <string name="revanced_miniplayer_width_dip_summary">Начальный размер мини-плеера в пикселях.</string>
-    <string name="revanced_miniplayer_width_dip_invalid_toast">Размер в пикселях должен быть между %1$s и %2$s.</string>
-    <string name="revanced_miniplayer_opacity_title">Непрозрачность мини-плеера</string>
-    <string name="revanced_miniplayer_opacity_summary">Значение непрозрачности в промежутке 0-100, где 0 это прозрачный.</string>
-    <string name="revanced_miniplayer_opacity_invalid_toast">Непрозрачность должна быть в диапазоне 0-100. Сброс по умолчанию.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_bar_title">Панель навигации</string>
     <string name="revanced_preference_screen_navigation_bar_summary">Настроить компоненты панели навигации.</string>
@@ -571,6 +534,7 @@ Shorts
     <string name="revanced_enable_translucent_navigation_bar_title">Полупрозрачность панели навигации</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">Полупрозрачность включена.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">Полупрозрачность отключена.</string>
+    <string name="revanced_enable_translucent_navigation_bar_user_dialog_message">В некоторых версиях YouTube этот параметр может сделать панель навигации прозрачной или нарушить макет в режиме PIP.</string>
     <string name="revanced_hide_navigation_bar_title">Панель навигации</string>
     <string name="revanced_hide_navigation_bar_summary_on">Панель навигации скрыта.</string>
     <string name="revanced_hide_navigation_bar_summary_off">Панель навигации отображена.</string>
@@ -638,9 +602,25 @@ Shorts
     <string name="revanced_hide_settings_menu_about_summary_on">О приложении скрыто.</string>
     <string name="revanced_hide_settings_menu_about_summary_off">О приложении отображено.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Snack bar -->
+    <string name="revanced_preference_screen_snack_bar_title">Панель взаимодействия</string>
+    <string name="revanced_preference_screen_snack_bar_summary">Скрыть или изменить компоненты, относящиеся к панели взаимодействия.</string>
     <string name="revanced_hide_snack_bar_title">Виджет коротких уведомлений</string>
     <string name="revanced_hide_snack_bar_summary_on">Виджет коротких уведомлений скрыт.</string>
     <string name="revanced_hide_snack_bar_summary_off">Виджет коротких уведомлений отображен.</string>
+    <string name="revanced_hide_server_side_snack_bar_title">Скрыть серверную панель взаимодействия</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_on">Серверная панель взаимодействия скрыта.</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_off">Серверная панель взаимодействия показывается.</string>
+    <string name="revanced_invert_snack_bar_theme_title">Инвертировать тему панели взаимодействия</string>
+    <string name="revanced_invert_snack_bar_theme_summary_on">Тема панели взаимодействия инвертирована.</string>
+    <string name="revanced_invert_snack_bar_theme_summary_off">Тема панели взаимодействия не инвертирована.</string>
+    <string name="revanced_change_server_side_snack_bar_background_title">Изменить фон серверной панели взаимодействия</string>
+    <string name="revanced_change_server_side_snack_bar_background_summary_on">Цвет фона серверной панели взаимодействия изменен.</string>
+    <string name="revanced_change_server_side_snack_bar_background_summary_off">Цвет фона серверной панели взаимодействия не изменен.</string>
+    <string name="revanced_change_server_side_snack_bar_background_user_dialog_message">"Некоторые панели взаимодействия используют тему, заданную на стороне сервера, а не тему программы.
+
+Изменяется цвет фона этих панелей взаимодействия.
+
+Если есть серверные изменения, цвет фона панели взаимодействия может не измениться."</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Панель инструментов</string>
     <string name="revanced_preference_screen_toolbar_summary">Скрыть или изменить компоненты на панели инструментов - строка поиска, кнопки и заголовок.</string>
@@ -727,9 +707,9 @@ Shorts
     <string name="revanced_hide_double_tap_overlay_filter_title">Фильтр двойного нажатия</string>
     <string name="revanced_hide_double_tap_overlay_filter_summary_on">Фильтр двойного нажатия скрыт.</string>
     <string name="revanced_hide_double_tap_overlay_filter_summary_off">Фильтр двойного нажатия отображен.</string>
-    <string name="revanced_hide_end_screen_cards_title">Заставки следующих видео</string>
-    <string name="revanced_hide_end_screen_cards_summary_on">Заставки следующих видео скрыты.</string>
-    <string name="revanced_hide_end_screen_cards_summary_off">Заставки следующих видео отображены.</string>
+    <string name="revanced_hide_end_screen_cards_title">Карточки следующих видео</string>
+    <string name="revanced_hide_end_screen_cards_summary_on">Карточки следующих видео скрыты.</string>
+    <string name="revanced_hide_end_screen_cards_summary_off">Карточки следующих видео отображены.</string>
     <string name="revanced_hide_filmstrip_overlay_title">Покадровая лента при перемотке</string>
     <string name="revanced_hide_filmstrip_overlay_summary_on">Покадровая лента при перемотке скрыта.</string>
     <string name="revanced_hide_filmstrip_overlay_summary_off">Покадровая лента при перемотке отображена.</string>
@@ -805,39 +785,19 @@ Shorts
     <string name="revanced_hide_thanks_button_title">Кнопка \"Спасибо\"</string>
     <string name="revanced_hide_thanks_button_summary_on">Кнопка \"Спасибо\" скрыта.</string>
     <string name="revanced_hide_thanks_button_summary_off">Кнопка \"Спасибо\" отображена.</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
-    <string name="revanced_preference_category_hide_by_index">Скрытие по индексу</string>
-    <string name="revanced_hide_action_button_index_0_title">Первая кнопка</string>
-    <string name="revanced_hide_action_button_index_0_summary_on">Скрыта.</string>
-    <string name="revanced_hide_action_button_index_0_summary_off">Отображена.</string>
-    <string name="revanced_hide_action_button_index_1_title">Вторая кнопка</string>
-    <string name="revanced_hide_action_button_index_1_summary_on">Скрыта.</string>
-    <string name="revanced_hide_action_button_index_1_summary_off">Отображена.</string>
-    <string name="revanced_hide_action_button_index_2_title">Третья кнопка</string>
-    <string name="revanced_hide_action_button_index_2_summary_on">Скрыта.</string>
-    <string name="revanced_hide_action_button_index_2_summary_off">Отображена.</string>
-    <string name="revanced_hide_action_button_index_3_title">Четвертая кнопка</string>
-    <string name="revanced_hide_action_button_index_3_summary_on">Скрыта.</string>
-    <string name="revanced_hide_action_button_index_3_summary_off">Отображена.</string>
-    <string name="revanced_hide_action_button_index_4_title">Пятая кнопка</string>
-    <string name="revanced_hide_action_button_index_4_summary_on">Скрыта.</string>
-    <string name="revanced_hide_action_button_index_4_summary_off">Отображена.</string>
-    <string name="revanced_hide_action_button_index_5_title">Шестая кнопка</string>
-    <string name="revanced_hide_action_button_index_5_summary_on">Скрыта.</string>
-    <string name="revanced_hide_action_button_index_5_summary_off">Отображена.</string>
-    <string name="revanced_hide_action_button_index_6_title">Седьмая кнопка</string>
-    <string name="revanced_hide_action_button_index_6_summary_on">Скрыта.</string>
-    <string name="revanced_hide_action_button_index_6_summary_off">Отображена.</string>
-    <string name="revanced_hide_action_button_index_7_title">Восьмая кнопка</string>
-    <string name="revanced_hide_action_button_index_7_summary_on">Скрыта.</string>
-    <string name="revanced_hide_action_button_index_7_summary_off">Отображена.</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
-    <string name="revanced_preference_category_hide_by_index_live">Скрытие по индексу в прямых эфирах</string>
-    <string name="revanced_hide_action_button_index_about_title">О скрытии по индексу</string>
-    <string name="revanced_hide_action_button_index_about_summary">"Скрытие кнопок по индексу до их инициализации.
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Experimental flags -->
+    <string name="revanced_hide_action_button_index_title">Действия с кнопками по индексу</string>
+    <string name="revanced_hide_action_button_index_summary_on">"Кнопки действий скрыты по индексу.
 
-- Скрытие кнопок действий не оставляет пустого места.
-- Индекс кнопок действий не всегда может быть одной и той же кнопкой."</string>
+Информация:
+• Неправильные кнопки действий могут быть скрыты, остальные будут отображаться.
+• Кнопки скрытия действий не оставляют пустого места."</string>
+    <string name="revanced_hide_action_button_index_summary_off">"Кнопки действий скрыты фильтром идентификаторов.
+
+Информация:
+• Кнопки действий справа скрыты.
+• Скрытие кнопок действий оставляет пустое место."</string>
+    <string name="revanced_remix_button_index_title">Индекс кнопки \"Микс\"</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Окружающая подсветка</string>
     <string name="revanced_preference_screen_ambient_mode_summary">Отключить окружающую подсветку или обойти ограничение в режиме экономии заряда батареи.</string>
@@ -972,19 +932,19 @@ Shorts
     <string name="revanced_disable_engagement_panel_title">Панель взаимодействия</string>
     <string name="revanced_disable_engagement_panel_summary_on">Панель взаимодействия отключена.</string>
     <string name="revanced_disable_engagement_panel_summary_off">Панель взаимодействия включена.</string>
-    <string name="revanced_enter_fullscreen_title">Полноэкранный режим при запуске видео</string>
-    <string name="revanced_enter_fullscreen_summary_on">"Полноэкранный режим при запуске видео включен.
+    <string name="revanced_enter_fullscreen_title">Переход в полноэкранный режим при запуске видео</string>
+    <string name="revanced_enter_fullscreen_summary_on">"Переходит в полноэкранный режим при запуске видео.
 
 Не работает когда:
 - плеер свернут
 - картинка в картинке (PiP)
 - фоновый режим."</string>
-    <string name="revanced_enter_fullscreen_summary_off">Полноэкранный режим при запуске видео отключен.</string>
-    <string name="revanced_exit_fullscreen_title">Полноэкранный режим в конце видео</string>
+    <string name="revanced_enter_fullscreen_summary_off">Не переходит в полноэкранный режим при запуске видео.</string>
+    <string name="revanced_exit_fullscreen_title">Переход из полноэкранного режима в конце видео</string>
     <string name="revanced_exit_fullscreen_entry_1">Отключено</string>
     <string name="revanced_exit_fullscreen_entry_2">Портретный вид</string>
     <string name="revanced_exit_fullscreen_entry_3">Альбомный вид</string>
-    <string name="revanced_exit_fullscreen_entry_4">Авто поворот</string>
+    <string name="revanced_exit_fullscreen_entry_4">Портретный и альбомный</string>
     <string name="revanced_show_video_title_section_title">Секция заголовка видео</string>
     <string name="revanced_show_video_title_section_summary">"Показывает секцию заголовка видео в полноэкранном режиме.
 
@@ -1063,6 +1023,60 @@ Shorts
     <string name="revanced_disable_haptic_feedback_zoom_title">Виброотклик при жесте увеличения экрана</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_on">Виброотклик отключен.</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_off">Виброотклик включен.</string>
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Miniplayer -->
+    <string name="revanced_preference_screen_miniplayer_title">Мини-плеер</string>
+    <string name="revanced_preference_screen_miniplayer_summary">Стиль мини-плеера.</string>
+    <string name="revanced_disable_resuming_miniplayer_title">Отключить восстановление миниплеера</string>
+    <string name="revanced_disable_resuming_miniplayer_summary_on">&lt;b&gt;Продолжить просмотр&lt;/b&gt; не будет восстанавливаться при запуске программы.</string>
+    <string name="revanced_disable_resuming_miniplayer_summary_off">&lt;b&gt;Продолжить просмотр&lt;/b&gt; возобновляется при запуске программы.&lt;br&gt;&lt;br&gt;Информация:&lt;br&gt;• &lt;b&gt;Продолжить просмотр&lt;/b&gt; это функция YouTube Premium.&lt;br&gt;• Этот параметр не включает принудительно &lt;b&gt;Продолжить просмотр&lt;/b&gt;.</string>
+    <string name="revanced_miniplayer_type_title">Тип мини-плеера</string>
+    <string name="revanced_miniplayer_type_entry_0">Отключено</string>
+    <string name="revanced_miniplayer_type_entry_1">Оригинал</string>
+    <string name="revanced_miniplayer_type_entry_2">Телефон</string>
+    <string name="revanced_miniplayer_type_entry_3">Планшет</string>
+    <string name="revanced_miniplayer_type_entry_4">Современный 1</string>
+    <string name="revanced_miniplayer_type_entry_5">Современный 2</string>
+    <string name="revanced_miniplayer_type_entry_6">Современный 3</string>
+    <string name="revanced_miniplayer_type_entry_7">Новейший 4</string>
+    <string name="revanced_miniplayer_rounded_corners_title">Скругления углов мини-плеера</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_on">Скругления углов включено.</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_off">Скругления углов отключено.</string>
+    <string name="revanced_miniplayer_double_tap_action_title">Изменение размера жестом</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_on">"Двойное нажатие и щипок для изменения размера включено.
+
+• Двойное нажатие для увеличения размера мини-плеера.
+• Двойное нажатие еще раз для восстановления исходного размера."</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_off">Двойное нажатие и щипок для изменения размера отключено.</string>
+    <string name="revanced_miniplayer_drag_and_drop_title">Перетаскивание мини-плеера</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_on">"Перетаскивание мини-плеера включено.
+
+Мини-плеер можно перемещать по экрану."</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_off">Перетаскивание мини-плеера отключено.</string>
+    <string name="revanced_miniplayer_horizontal_drag_title">Жест горизонтального перетаскивания.</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_on">"Жест горизонтального перетаскивания включен.
+
+Мини-плеер можно перетаскивать за пределы экрана влево или вправо."</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_off">Жест горизонтального перетаскивания отключен.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_title">Скрыть наложенные кнопки</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_on">Наложенные кнопки скрыты.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_off">Наложенные кнопки отображаются.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_title">Скрыть кнопки развертывания и закрытия</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_on">"Кнопки скрыты.
+
+Проведите, чтобы развернуть или закрыть."</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_off">Кнопки развертывания и закрытия показываются.</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_title">Кнопки перемотки</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Кнопки перемотки скрыты.</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Кнопки перемотки отображены.</string>
+    <string name="revanced_miniplayer_hide_subtext_title">Подстрочный текст</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_on">Подстрочный текст скрыт.</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_off">Подстрочный текст отображен.</string>
+    <string name="revanced_miniplayer_width_dip_title">Начальный размер</string>
+    <string name="revanced_miniplayer_width_dip_summary">Начальный размер мини-плеера в пикселях.</string>
+    <string name="revanced_miniplayer_width_dip_invalid_toast">Размер в пикселях должен быть между %1$s и %2$s.</string>
+    <string name="revanced_miniplayer_opacity_title">Непрозрачность мини-плеера</string>
+    <string name="revanced_miniplayer_opacity_summary">Значение непрозрачности в промежутке 0-100, где 0 это прозрачный.</string>
+    <string name="revanced_miniplayer_opacity_invalid_toast">Непрозрачность должна быть в диапазоне 0-100. Сброс по умолчанию.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Player buttons -->
     <string name="revanced_preference_screen_player_buttons_title">Кнопки плеера</string>
     <string name="revanced_preference_screen_player_buttons_summary">Скрыть или показать кнопки в видео.</string>
@@ -1165,9 +1179,11 @@ Shorts
     <string name="revanced_enable_custom_seekbar_color_title">Цвет шкалы воспроизведения</string>
     <string name="revanced_enable_custom_seekbar_color_summary_on">Используется пользовательский цвет шкалы воспроизведения.</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">Используется оригинальный цвет шкалы воспроизведения.</string>
-    <string name="revanced_custom_seekbar_color_value_title">HEX код цвета шкалы воспроизведения</string>
-    <string name="revanced_custom_seekbar_color_value_summary">Введите HEX код цвета шкалы воспроизведения.</string>
-    <string name="revanced_custom_seekbar_color_value_invalid_invalid_toast">Неверное значение цвета полосы прогресса.</string>
+    <string name="revanced_custom_seekbar_color_primary_title">Пользовательский основной цвет полосы прогресса</string>
+    <string name="revanced_custom_seekbar_color_primary_summary">Введите hex код основного цвета полосы прогресса.</string>
+    <string name="revanced_custom_seekbar_color_accent_title">Пользовательский акцентный цвет полосы прогресса</string>
+    <string name="revanced_custom_seekbar_color_accent_summary">Введите hex код акцентного цвета полосы прогресса.</string>
+    <string name="revanced_custom_seekbar_color_invalid_toast">Неверный цвет полосы прогресса.</string>
     <string name="revanced_enable_seekbar_tapping_title">Перемотка нажатием</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">Перемотка нажатием включена.</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">Перемотка нажатием отключена.</string>
@@ -1236,11 +1252,6 @@ Shorts
     <string name="revanced_expand_video_description_title">Развернуть описание видео</string>
     <string name="revanced_expand_video_description_summary_on">Описание видео автоматически развернуто.</string>
     <string name="revanced_expand_video_description_summary_off">Описание видео разворачивается вручную.</string>
-    <string name="revanced_expand_video_description_strings_title">Название в панели описания видео</string>
-    <string name="revanced_expand_video_description_strings_summary">"Введите название на панели описания видео.
-Символы различаются в зависимости от языка.
-«Развернуть описание видео» может не работать, если вы сохраните неверную строку."</string>
-    <string name="revanced_expand_video_description_strings_default_value">Описание</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">Shorts</string>
     <string name="revanced_disable_shorts_background_playback_title">Фоновое воспроизведение Shorts</string>

@@ -11,8 +11,6 @@ import org.w3c.dom.Node
 import org.w3c.dom.NodeList
 import java.io.File
 import java.io.InputStream
-import java.nio.file.Files
-import java.nio.file.StandardCopyOption
 
 private val classLoader = object {}.javaClass.classLoader
 
@@ -55,7 +53,8 @@ fun Node.cloneNodes(parent: Node) {
  */
 fun Node.doRecursively(action: (Node) -> Unit) {
     action(this)
-    for (i in 0 until this.childNodes.length) this.childNodes.item(i).doRecursively(action)
+    val childNodes = this.childNodes
+    for (i in 0 until childNodes.length) childNodes.item(i).doRecursively(action)
 }
 
 fun List<String>.getResourceGroup(fileNames: Array<String>) = map { directory ->
@@ -114,14 +113,9 @@ fun ResourcePatchContext.copyAdaptiveIcon(
         if (oldIconResourceFile != newIconResourceFile) {
             mipmapDirectories.forEach {
                 val mipmapDirectory = get("res").resolve(it)
-                Files.copy(
-                    mipmapDirectory
-                        .resolve("$oldIconResourceFile.png")
-                        .toPath(),
-                    mipmapDirectory
-                        .resolve("$newIconResourceFile.png")
-                        .toPath(),
-                    StandardCopyOption.REPLACE_EXISTING
+                FilesCompat.copy(
+                    mipmapDirectory.resolve("$oldIconResourceFile.png"),
+                    mipmapDirectory.resolve("$newIconResourceFile.png")
                 )
             }
         }
@@ -131,14 +125,9 @@ fun ResourcePatchContext.copyAdaptiveIcon(
         adaptiveIconMonoChromeFileName != getAdaptiveIconMonoChromeResourceFile()
     ) {
         val drawableDirectory = get("res").resolve("drawable")
-        Files.copy(
-            drawableDirectory
-                .resolve("$adaptiveIconMonoChromeFileName.xml")
-                .toPath(),
-            drawableDirectory
-                .resolve("${getAdaptiveIconMonoChromeResourceFile()}.xml")
-                .toPath(),
-            StandardCopyOption.REPLACE_EXISTING
+        FilesCompat.copy(
+            drawableDirectory.resolve("$adaptiveIconMonoChromeFileName.xml"),
+            drawableDirectory.resolve("${getAdaptiveIconMonoChromeResourceFile()}.xml")
         )
     }
 }
@@ -164,10 +153,11 @@ fun ResourcePatchContext.addEntryValues(
 ) {
     document(path).use { document ->
         with(document) {
-            val resourcesNode = getElementsByTagName("resources").item(0) as Element
+            val resourcesNode = documentElement
+            val childNodes = resourcesNode.childNodes
             val newElement: Element = createElement("item")
-            for (i in 0 until resourcesNode.childNodes.length) {
-                val node = resourcesNode.childNodes.item(i) as? Element ?: continue
+            for (i in 0 until childNodes.length) {
+                val node = childNodes.item(i) as? Element ?: continue
 
                 if (node.getAttribute("name") == attributeName) {
                     newElement.appendChild(createTextNode(attributeValue))
@@ -177,6 +167,7 @@ fun ResourcePatchContext.addEntryValues(
                     } else {
                         node.insertBefore(newElement, node.firstChild)
                     }
+                    break
                 }
             }
         }
@@ -198,9 +189,9 @@ fun ResourcePatchContext.copyFile(
                 val toDirectory = resourceDirectory.resolve(group.resourceDirectoryName)
 
                 group.resources.forEach { iconFileName ->
-                    Files.write(
-                        toDirectory.resolve(iconFileName).toPath(),
-                        fromDirectory.resolve(iconFileName).readBytes()
+                    FilesCompat.copy(
+                        fromDirectory.resolve(iconFileName),
+                        toDirectory.resolve(iconFileName)
                     )
                 }
             }
@@ -297,26 +288,22 @@ fun Node.insertNode(tagName: String, targetNode: Node, block: Element.() -> Unit
 fun ResourcePatchContext.copyResources(
     sourceResourceDirectory: String,
     vararg resources: ResourceGroup,
-    createDirectoryIfNotExist: Boolean = false,
 ) {
     val resourceDirectory = get("res")
 
     for (resourceGroup in resources) {
         resourceGroup.resources.forEach { resource ->
             val resourceDirectoryName = resourceGroup.resourceDirectoryName
-            if (createDirectoryIfNotExist) {
-                val targetDirectory = resourceDirectory.resolve(resourceDirectoryName)
-                if (!targetDirectory.isDirectory) Files.createDirectories(targetDirectory.toPath())
-            }
+            val targetDirectory = resourceDirectory.resolve(resourceDirectoryName)
+            if (!targetDirectory.isDirectory) targetDirectory.mkdirs()
             val resourceFile = "$resourceDirectoryName/$resource"
             inputStreamFromBundledResource(
                 sourceResourceDirectory,
                 resourceFile
             )?.let { inputStream ->
-                Files.copy(
+                FilesCompat.copy(
                     inputStream,
-                    resourceDirectory.resolve(resourceFile).toPath(),
-                    StandardCopyOption.REPLACE_EXISTING,
+                    resourceDirectory.resolve(resourceFile),
                 )
             }
         }
@@ -355,11 +342,14 @@ fun ResourcePatchContext.copyXmlNode(
     resourceDirectory,
     targetResource
 )?.let { inputStream ->
-    // Copy nodes from the resources node to the real resource node
-    elementTag.copyXmlNode(
-        document(inputStream),
-        document("res/$targetResource"),
-    ).close()
+    val outputPath = "res/$targetResource"
+    if (get(outputPath).exists()) {
+        // Copy nodes from the resources node to the real resource node
+        elementTag.copyXmlNode(
+            document(inputStream),
+            document(outputPath),
+        ).close()
+    }
 }
 
 /**

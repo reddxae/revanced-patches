@@ -4,7 +4,7 @@
     <string name="accessibility_settings_edu_opt_in_text">Bedienungshilfen für den Video-Player aktivieren?</string>
     <string name="accessibility_settings_edu_opt_out_text">Ihre Steuerungen wurden angepasst, da ein Barrierefreiheitsdienst aktiviert ist.</string>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced Extended</string>
+    <string name="revanced_extended_settings_title">RVX</string>
     <string name="revanced_extended_settings_search_title">Suche %s</string>
     <string name="revanced_extended_reset_to_default_toast">Auf Standardwerte zurücksetzen.</string>
     <string name="revanced_preference_category_experimental_flag">Experimentelle Flags</string>
@@ -19,6 +19,7 @@
     <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s ist nicht installiert.
 Bitte lade %2$s von der Webseite herunter."</string>
     <string name="revanced_external_downloader_not_installed_warning">%s ist nicht installiert. Bitte installieren.</string>
+    <string name="revanced_language_title">RVX Sprache</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Werbung</string>
     <string name="revanced_hide_fullscreen_ads_title">Vollbildwerbung verstecken</string>
@@ -384,38 +385,6 @@ Manche Komponenten könnten nicht versteckt werden."</string>
     <string name="revanced_third_party_youtube_music_not_installed_dialog_title">Warnung</string>
     <string name="revanced_third_party_youtube_music_not_installed_warning">%s ist nicht installiert. Bitte installieren.</string>
     <string name="revanced_override_youtube_music_button_about_prerequisite_title">Voraussetzung</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
-    <string name="revanced_preference_screen_miniplayer_title">Miniplayer</string>
-    <string name="revanced_preference_screen_miniplayer_summary">Ändern Sie den Stil des in App minimierten Players.</string>
-    <string name="revanced_miniplayer_type_title">Miniplayer Typ</string>
-    <string name="revanced_miniplayer_type_entry_0">Deaktiviert</string>
-    <string name="revanced_miniplayer_type_entry_1">Original</string>
-    <string name="revanced_miniplayer_type_entry_2">Telefon</string>
-    <string name="revanced_miniplayer_type_entry_3">Tablet</string>
-    <string name="revanced_miniplayer_type_entry_4">Modern 1</string>
-    <string name="revanced_miniplayer_type_entry_5">Modern 2</string>
-    <string name="revanced_miniplayer_type_entry_6">Modern 3</string>
-    <string name="revanced_miniplayer_rounded_corners_title">Abgerundete Ecken aktivieren</string>
-    <string name="revanced_miniplayer_rounded_corners_summary_on">Ecken sind abgerundet.</string>
-    <string name="revanced_miniplayer_rounded_corners_summary_off">Ecken sind nicht abgerundet.</string>
-    <string name="revanced_miniplayer_double_tap_action_title">Aktiviere doppeltes Tippen und Pinchen um die Größe zu ändern</string>
-    <string name="revanced_miniplayer_drag_and_drop_title">Drag and Drop aktivieren</string>
-    <string name="revanced_miniplayer_drag_and_drop_summary_off">Drag and Drop ist deaktiviert.</string>
-    <string name="revanced_miniplayer_hide_expand_close_title">Ausklappen und Schließen der Tasten ausblenden</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_on">Tasten sind ausgeblendet.\n(wischen Sie den Miniplayer zum erweitern oder schließen)</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_off">Erweitern und Schließen Schaltflächen werden angezeigt.</string>
-    <string name="revanced_miniplayer_hide_subtext_title">Untertitel ausblenden</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_on">Untertitel sind versteckt.</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_off">Untertitel werden angezeigt.</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_title">Vorwärts- und Rückwärts-Buttons ausblenden</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Vorwärts springen und zurück sind versteckt.</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Vor- und zurückspringen wird angezeigt.</string>
-    <string name="revanced_miniplayer_width_dip_title">Initiale Größe</string>
-    <string name="revanced_miniplayer_width_dip_summary">Initiale Bildschirmgröße (in Pixel).</string>
-    <string name="revanced_miniplayer_width_dip_invalid_toast">Pixelgröße muss zwischen %1$s und %2$s liegen.</string>
-    <string name="revanced_miniplayer_opacity_title">Deckkraft der Überlagerung</string>
-    <string name="revanced_miniplayer_opacity_summary">Deckkraft Wert zwischen 0-100, wobei 0 transparent ist.</string>
-    <string name="revanced_miniplayer_opacity_invalid_toast">Die Transparenz des Miniplayers muss zwischen 0-100 liegen. Zurückgesetzt auf Standardwerte.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_bar_title">Navigationsleiste</string>
     <string name="revanced_preference_screen_navigation_bar_summary">Komponenten der Navigationsleiste ausblenden oder anzeigen.</string>
@@ -667,8 +636,7 @@ Einstellungen → Autoplay → Nächstes Video automatisch abspielen"</string>
     <string name="revanced_hide_thanks_button_title">Verstecke \"Danke\" Schaltfläche</string>
     <string name="revanced_hide_thanks_button_summary_on">\"Danke\" Schaltfläche wird versteckt.</string>
     <string name="revanced_hide_thanks_button_summary_off">\"Danke\" Schaltfläche wird angezeigt.</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Experimental flags -->
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Ambient-Modus</string>
     <string name="revanced_preference_screen_ambient_mode_summary">Ambient-Modus deaktivieren oder Einschränkungen des Ambient-Modus umgehen.</string>
@@ -855,6 +823,35 @@ Einschränkung: Videotitel verschwindet beim Klicken auf den Bildschirm."</strin
     <string name="revanced_disable_haptic_feedback_zoom_title">Deaktiviere Haptisches Feedback beim Zoomen</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_on">Haptisches Feedback ist deaktiviert.</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_off">Haptisches Feedback ist aktiviert.</string>
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Miniplayer -->
+    <string name="revanced_preference_screen_miniplayer_title">Miniplayer</string>
+    <string name="revanced_preference_screen_miniplayer_summary">Ändern Sie den Stil des in App minimierten Players.</string>
+    <string name="revanced_miniplayer_type_title">Miniplayer Typ</string>
+    <string name="revanced_miniplayer_type_entry_0">Deaktiviert</string>
+    <string name="revanced_miniplayer_type_entry_1">Original</string>
+    <string name="revanced_miniplayer_type_entry_2">Telefon</string>
+    <string name="revanced_miniplayer_type_entry_3">Tablet</string>
+    <string name="revanced_miniplayer_type_entry_4">Modern 1</string>
+    <string name="revanced_miniplayer_type_entry_5">Modern 2</string>
+    <string name="revanced_miniplayer_type_entry_6">Modern 3</string>
+    <string name="revanced_miniplayer_rounded_corners_title">Abgerundete Ecken aktivieren</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_on">Ecken sind abgerundet.</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_off">Ecken sind nicht abgerundet.</string>
+    <string name="revanced_miniplayer_double_tap_action_title">Aktiviere doppeltes Tippen und Pinchen um die Größe zu ändern</string>
+    <string name="revanced_miniplayer_drag_and_drop_title">Drag and Drop aktivieren</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_off">Drag and Drop ist deaktiviert.</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_title">Vorwärts- und Rückwärts-Buttons ausblenden</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Vorwärts springen und zurück sind versteckt.</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Vor- und zurückspringen wird angezeigt.</string>
+    <string name="revanced_miniplayer_hide_subtext_title">Untertitel ausblenden</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_on">Untertitel sind versteckt.</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_off">Untertitel werden angezeigt.</string>
+    <string name="revanced_miniplayer_width_dip_title">Initiale Größe</string>
+    <string name="revanced_miniplayer_width_dip_summary">Initiale Bildschirmgröße (in Pixel).</string>
+    <string name="revanced_miniplayer_width_dip_invalid_toast">Pixelgröße muss zwischen %1$s und %2$s liegen.</string>
+    <string name="revanced_miniplayer_opacity_title">Deckkraft der Überlagerung</string>
+    <string name="revanced_miniplayer_opacity_summary">Deckkraft Wert zwischen 0-100, wobei 0 transparent ist.</string>
+    <string name="revanced_miniplayer_opacity_invalid_toast">Die Transparenz des Miniplayers muss zwischen 0-100 liegen. Zurückgesetzt auf Standardwerte.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Player buttons -->
     <string name="revanced_preference_screen_player_buttons_title">Player Buttons</string>
     <string name="revanced_preference_screen_player_buttons_summary">Verstecke oder zeige Buttons im Video-Player.</string>
@@ -934,8 +931,6 @@ Tippen und halten Sie, um den Einstellungsdialog für die Whitelist anzuzeigen.<
     <string name="revanced_enable_custom_seekbar_color_title">Eigene Suchleistenfarbe aktivieren</string>
     <string name="revanced_enable_custom_seekbar_color_summary_on">Die benutzerdefinierte Farbe der Suchleiste ist aktiviert</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">Die benutzerdefinierte Farbe der Suchleiste ist deaktiviert</string>
-    <string name="revanced_custom_seekbar_color_value_title">Benutzerdefinierter Farbwert für die Suchleiste</string>
-    <string name="revanced_custom_seekbar_color_value_summary">Hex-Code der Suchleisten-Farbe eingeben</string>
     <string name="revanced_enable_seekbar_tapping_title">Aktiviere Suchleisten-Tippen (Video Fortschrittsbalken)</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">Tippen der Suchleiste ist aktiviert</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">Tippen der Suchleiste ist deaktiviert</string>
@@ -982,10 +977,6 @@ Tippen und halten Sie, um den Einstellungsdialog für die Whitelist anzuzeigen.<
     <string name="revanced_expand_video_description_title">Videobeschreibungen erweitern</string>
     <string name="revanced_expand_video_description_summary_on">Videobeschreibungen werden automatisch erweitert.</string>
     <string name="revanced_expand_video_description_summary_off">Videobeschreibungen werden nicht automatisch erweitert.</string>
-    <string name="revanced_expand_video_description_strings_title">Titel im Video-Beschreibungsfeld</string>
-    <string name="revanced_expand_video_description_strings_summary">"Geben Sie den Titel des Video-Beschreibungsfensters in Ihrer Sprache ein.
-Die Option \"Videobeschreibung\" kann nicht funktionieren, wenn die eingegebene Zeichenkette nicht mit dem Titel des Videobeschreibungsfensters übereinstimmt."</string>
-    <string name="revanced_expand_video_description_strings_default_value">Beschreibung</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">Shorts</string>
     <string name="revanced_disable_resuming_shorts_player_title">Shorts-Player beim App-Start ausblenden</string>

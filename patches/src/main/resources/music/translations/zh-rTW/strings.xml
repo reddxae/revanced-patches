@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced 擴充功能</string>
     <string name="revanced_extended_reset_to_default_toast">重設為預設值。</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">重新啟動以套用更改後的介面</string>
@@ -28,10 +27,10 @@
     <string name="revanced_hide_action_button_add_to_playlist_summary">隱藏\"新增至播放列表\"按鈕</string>
     <string name="revanced_hide_action_button_download_title">隱藏下載按鈕</string>
     <string name="revanced_hide_action_button_download_summary">隱藏下載按鈕</string>
-    <string name="revanced_hide_action_button_share_title">隱藏分享按鈕</string>
-    <string name="revanced_hide_action_button_share_summary">隱藏分享按鈕</string>
     <string name="revanced_hide_action_button_radio_title">隱藏電台按鈕</string>
     <string name="revanced_hide_action_button_radio_summary">隱藏開啟電台按鈕</string>
+    <string name="revanced_hide_action_button_share_title">隱藏分享按鈕</string>
+    <string name="revanced_hide_action_button_share_summary">隱藏分享按鈕</string>
     <string name="revanced_hide_action_button_label_title">隱藏操作按鈕中的標籤</string>
     <string name="revanced_hide_action_button_label_summary">隱藏操作按鈕中的標籤</string>
     <string name="revanced_external_downloader_action_title">覆蓋下載動作按鈕</string>
@@ -49,7 +48,6 @@
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">廣告</string>
     <string name="revanced_hide_fullscreen_ads_title">隱藏全螢幕廣告</string>
-    <string name="revanced_hide_fullscreen_ads_summary">"隱藏全螢幕廣告"</string>
     <string name="revanced_hide_general_ads_title">隱藏一般廣告</string>
     <string name="revanced_hide_general_ads_summary">隱藏一般廣告</string>
     <string name="revanced_hide_music_ads_title">隱藏音樂廣告</string>
@@ -120,11 +118,8 @@
     <string name="revanced_preference_screen_general_title">一般設定</string>
     <string name="revanced_change_start_page_title">更改應用程式的起始頁面</string>
     <string name="revanced_change_start_page_summary">更改應用程式開啟時的頁面</string>
-    <string name="revanced_change_start_page_entry_chart">圖表</string>
     <string name="revanced_change_start_page_entry_explore">探索</string>
-    <string name="revanced_change_start_page_entry_home">首頁</string>
     <string name="revanced_change_start_page_entry_library">媒體庫</string>
-    <string name="revanced_change_start_page_entry_subscription">訂閱</string>
     <string name="revanced_disable_dislike_redirection_title">停用不喜歡重定向</string>
     <string name="revanced_disable_dislike_redirection_summary">點擊不喜歡按鈕時停用重定向到下一首歌曲</string>
     <string name="revanced_disable_auto_captions_title">停用強制自動字幕</string>
@@ -174,8 +169,6 @@
  • 如果稍後停用，舊的 UI 可能會保留，直到應用程式資料被清除"</string>
     <string name="revanced_spoof_app_version_target_title">偽裝應用程式版本</string>
     <string name="revanced_spoof_app_version_target_summary">選擇欲偽裝的應用程式版本</string>
-    <string name="revanced_spoof_app_version_target_entry_4_27_53">4.27.53 - 在加拿大地區停用電台模式</string>
-    <string name="revanced_spoof_app_version_target_entry_6_11_52">6.11.52 - 停用即時歌詞</string>
     <string name="revanced_spoof_app_version_target_entry_7_16_53">7.16.53 - 還原舊的動作欄</string>
     <!-- PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_title">導覽列</string>
@@ -195,22 +188,8 @@
     <string name="revanced_hide_navigation_label_summary">隱藏位於導覽列的標籤</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">播放器</string>
-    <string name="revanced_enable_mini_player_next_button_title">啟用迷你播放器的下一首按鈕</string>
-    <string name="revanced_enable_mini_player_next_button_summary">啟用迷你播放器中的下一首按鈕</string>
-    <string name="revanced_enable_mini_player_previous_button_title">啟用迷你播放器上一首按鈕</string>
-    <string name="revanced_enable_mini_player_previous_button_summary">啟用迷你播放器中的上一首按鈕</string>
-    <string name="revanced_enable_color_match_player_title">啟用彩色播放列</string>
-    <string name="revanced_enable_color_match_player_summary">讓播放列顏色和全螢幕播放器一致</string>
-    <string name="revanced_enable_black_player_background_title">啟用黑色播放器背景</string>
-    <string name="revanced_enable_black_player_background_summary">將播放器背景顏色設成為黑色</string>
-    <string name="revanced_disable_mini_player_gesture_title">停用迷你播放器手勢</string>
-    <string name="revanced_disable_mini_player_gesture_summary">停用迷你播放器中的滑動切換曲目功能。</string>
     <string name="revanced_disable_player_gesture_title">停用播放器手勢</string>
     <string name="revanced_disable_player_gesture_summary">停用播放器中的滑動切換歌曲。</string>
-    <string name="revanced_enable_force_minimized_player_title">切換歌曲時保持迷你播放器</string>
-    <string name="revanced_enable_force_minimized_player_summary">切換歌曲時保持迷你播放器狀態</string>
-    <string name="revanced_enable_swipe_to_dismiss_mini_player_title">啟用滑動來關閉迷你播放器</string>
-    <string name="revanced_enable_swipe_to_dismiss_mini_player_summary">允許向下滑動以關閉迷你播放器</string>
     <string name="revanced_enable_zen_mode_title">護眼模式</string>
     <string name="revanced_enable_zen_mode_summary">在影片播放器上增加灰色陰影以減少眼睛疲勞</string>
     <string name="revanced_enable_zen_mode_podcast_title">在播客中啟用護眼模式</string>
@@ -223,8 +202,6 @@
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">輸入留言時隱藏時間戳記和表情符號按鈕</string>
     <string name="revanced_hide_fullscreen_share_button_title">隱藏全螢幕播放器中的分享按鈕</string>
     <string name="revanced_hide_fullscreen_share_button_summary">在全螢幕播放器中隱藏分享按鈕</string>
-    <string name="revanced_hide_audio_video_switch_toggle_title">隱藏音訊影片切換開關</string>
-    <string name="revanced_hide_audio_video_switch_toggle_summary">在播放器中隱藏音訊影片切換開關</string>
     <string name="revanced_remember_repeat_state_title">記住重複播放狀態</string>
     <string name="revanced_remember_repeat_state_summary">記住重複播放的狀態</string>
     <string name="revanced_remember_shuffle_state_title">記住隨機播放狀態</string>
@@ -393,21 +370,10 @@
     <string name="revanced_sanitize_sharing_links_title">清理分享連結</string>
     <string name="revanced_sanitize_sharing_links_summary">分享連結時從 URL 中刪除追蹤參數。</string>
     <string name="revanced_spoof_client_title">偽裝客戶端</string>
-    <string name="revanced_spoof_client_summary">"偽裝客戶端以避免播放問題
-
-• 使用「偽裝串流資料」時可能會發生播放問題"</string>
     <string name="revanced_spoof_client_type_title">預設客戶端</string>
     <string name="revanced_spoof_client_type_entry_android_music_4_27">Android Music 4.27.53</string>
     <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
     <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>
-    <string name="revanced_spoof_streaming_data_title">偽裝串流數據</string>
-    <string name="revanced_spoof_streaming_data_summary">"偽裝客戶端以避免播放問題
-
-• 使用「偽裝串流資料」時可能會發生播放問題"</string>
-    <string name="revanced_spoof_streaming_data_type_title">預設客戶端</string>
-    <string name="revanced_spoof_streaming_data_type_summary">定義預設客戶端以抓取串流資料。</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_music">Android Music</string>
     <string name="revanced_default_app_settings_title">開啟預設應用程式設定</string>
     <string name="revanced_default_app_settings_summary">要在RVX Music中打開YouTube Music連結，啟用「打開支援的連結」並啟用支援的網址。</string>
     <string name="gms_core_settings_title">開啟 GmsCore 設定</string>

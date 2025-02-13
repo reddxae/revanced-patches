@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced Extended</string>
+    <string name="revanced_extended_settings_title">RVX</string>
     <string name="revanced_extended_reset_to_default_toast">Redefinir para os valores padrão.</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">Reinicie para carregar o layout normalmente</string>
@@ -28,10 +28,10 @@
     <string name="revanced_hide_action_button_add_to_playlist_summary">Oculta o botão Salvar.</string>
     <string name="revanced_hide_action_button_download_title">Ocultar botão Download</string>
     <string name="revanced_hide_action_button_download_summary">Oculta o botão de Download.</string>
-    <string name="revanced_hide_action_button_share_title">Ocultar botão Compartilhar</string>
-    <string name="revanced_hide_action_button_share_summary">Oculta botão de Compartilhar.</string>
     <string name="revanced_hide_action_button_radio_title">Ocultar botão Rádio</string>
     <string name="revanced_hide_action_button_radio_summary">Oculta o botão de Rádio.</string>
+    <string name="revanced_hide_action_button_share_title">Ocultar botão Compartilhar</string>
+    <string name="revanced_hide_action_button_share_summary">Oculta botão de Compartilhar.</string>
     <string name="revanced_hide_action_button_label_title">Ocultar rótulo do botão de ação</string>
     <string name="revanced_hide_action_button_label_summary">Oculta os rótulos dos botões de ação.</string>
     <string name="revanced_external_downloader_action_title">Substituir ação do botão de Download</string>
@@ -49,10 +49,6 @@ Por favor, baixe %2$s do site."</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Anúncios</string>
     <string name="revanced_hide_fullscreen_ads_title">Ocultar anúncios em tela cheia</string>
-    <string name="revanced_hide_fullscreen_ads_summary">"Oculta anúncios de tela cheia.
-
-Limitações:
-• Às vezes você pode ver uma tela preta em branco ao invés da fonte inicial."</string>
     <string name="revanced_hide_general_ads_title">Ocultar anúncios gerais</string>
     <string name="revanced_hide_general_ads_summary">Oculta anúncios gerais.</string>
     <string name="revanced_hide_music_ads_title">Ocultar anúncios de mídia</string>
@@ -123,11 +119,17 @@ Limitações:
     <string name="revanced_preference_screen_general_title">Geral</string>
     <string name="revanced_change_start_page_title">Alterar a página inicial</string>
     <string name="revanced_change_start_page_summary">Selecione em qual página o aplicativo será aberto.</string>
-    <string name="revanced_change_start_page_entry_chart">Paradas</string>
+    <string name="revanced_change_start_page_entry_default">Padrão</string>
+    <string name="revanced_change_start_page_entry_charts">Paradas</string>
+    <string name="revanced_change_start_page_entry_episodes_for_later">Episódios para Mais Tarde</string>
     <string name="revanced_change_start_page_entry_explore">Explorar</string>
-    <string name="revanced_change_start_page_entry_home">Início</string>
+    <string name="revanced_change_start_page_entry_history">Histórico</string>
     <string name="revanced_change_start_page_entry_library">Biblioteca</string>
-    <string name="revanced_change_start_page_entry_subscription">Inscrições</string>
+    <string name="revanced_change_start_page_entry_liked_music">Músicas curtidas</string>
+    <string name="revanced_change_start_page_entry_podcasts">Podcasts</string>
+    <string name="revanced_change_start_page_entry_samples">Descobertas</string>
+    <string name="revanced_change_start_page_entry_search">Buscar</string>
+    <string name="revanced_change_start_page_entry_subscriptions">Inscrições</string>
     <string name="revanced_disable_dislike_redirection_title">Desativar redirecionamento de dislike</string>
     <string name="revanced_disable_dislike_redirection_summary">Desativa o redirecionamento para a próxima faixa ao clicar no botão de Dislike.</string>
     <string name="revanced_disable_auto_captions_title">Desativar legendas automáticas</string>
@@ -176,8 +178,7 @@ Isso não ignora a restrição de idade, apenas aceita isso automaticamente."</s
 • Se for desativada posteriormente, a interface do usuário antiga poderá permanecer até que os dados do aplicativo sejam apagados."</string>
     <string name="revanced_spoof_app_version_target_title">Versão da falsificação do aplicativo</string>
     <string name="revanced_spoof_app_version_target_summary">Selecione a versão do app para falsificação.</string>
-    <string name="revanced_spoof_app_version_target_entry_4_27_53">4.27.53 - Desativar modo de Rádio em regiões Canadenses</string>
-    <string name="revanced_spoof_app_version_target_entry_6_11_52">6.11.52 - Desativar letras em tempo real</string>
+    <string name="revanced_spoof_app_version_target_entry_6_42_55">6.42.55 - Desativar letras em tempo real</string>
     <string name="revanced_spoof_app_version_target_entry_7_16_53">7.16.53 - Restaurar barra de ação antiga</string>
     <!-- PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_title">Barra de Navegação</string>
@@ -202,22 +203,8 @@ Isso não ignora a restrição de idade, apenas aceita isso automaticamente."</s
     <string name="revanced_hide_navigation_label_summary">Oculta o rótulo abaixo de cada botão de navegação.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Reprodutor</string>
-    <string name="revanced_enable_mini_player_next_button_title">Adicionar o botão próximo no mini reprodutor</string>
-    <string name="revanced_enable_mini_player_next_button_summary">Adiciona o botão próximo no mini reprodutor.</string>
-    <string name="revanced_enable_mini_player_previous_button_title">Adicionar o botão anterior no mini reprodutor</string>
-    <string name="revanced_enable_mini_player_previous_button_summary">Adiciona o botão anterior no mini reprodutor.</string>
-    <string name="revanced_enable_color_match_player_title">Alterar cor do mini reprodutor</string>
-    <string name="revanced_enable_color_match_player_summary">Altera a cor do mini reprodutor para a cor do reprodutor em tela cheia.</string>
-    <string name="revanced_enable_black_player_background_title">Alterar cor de fundo do reprodutor</string>
-    <string name="revanced_enable_black_player_background_summary">Altera a cor de fundo do reprodutor para preto.</string>
-    <string name="revanced_disable_mini_player_gesture_title">Desativar gesto do mini reprodutor</string>
-    <string name="revanced_disable_mini_player_gesture_summary">Desativa a função de deslizar para alterar faixa no mini reprodutor.</string>
     <string name="revanced_disable_player_gesture_title">Desativar gesto do reprodutor</string>
     <string name="revanced_disable_player_gesture_summary">Desativa a função de deslizar para alterar faixa no reprodutor.</string>
-    <string name="revanced_enable_force_minimized_player_title">Ativar mini reprodutor forçado</string>
-    <string name="revanced_enable_force_minimized_player_summary">Ativa o mini reprodutor forçado ao alternar para uma nova faixa.</string>
-    <string name="revanced_enable_swipe_to_dismiss_mini_player_title">Ativar deslizar para dispensar o mini reprodutor</string>
-    <string name="revanced_enable_swipe_to_dismiss_mini_player_summary">Permite deslizar para baixo para dispensar o mini reprodutor.</string>
     <string name="revanced_enable_zen_mode_title">Ativar modo Calmo</string>
     <string name="revanced_enable_zen_mode_summary">Ativa uma cor cinza claro para o fundo do reprodutor para reduzir o cansaço visual.</string>
     <string name="revanced_enable_zen_mode_podcast_title">Ativar o modo Calmo em podcasts</string>
@@ -230,8 +217,6 @@ Isso não ignora a restrição de idade, apenas aceita isso automaticamente."</s
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">Oculta os botões de emoji e marcação de tempo ao escrever comentários.</string>
     <string name="revanced_hide_fullscreen_share_button_title">Ocultar botão Compartilhar em tela cheia</string>
     <string name="revanced_hide_fullscreen_share_button_summary">Oculta o botão Compartilhar no reprodutor de tela cheia.</string>
-    <string name="revanced_hide_audio_video_switch_toggle_title">Ocultar alternador de Música / Vídeo</string>
-    <string name="revanced_hide_audio_video_switch_toggle_summary">Oculta o alternador de Música / Vídeo no reprodutor.</string>
     <string name="revanced_remember_repeat_state_title">Lembrar estado de repetição</string>
     <string name="revanced_remember_repeat_state_summary">Lembra o estado da alternância de repetição.</string>
     <string name="revanced_remember_shuffle_state_title">Lembrar estado do modo aleatório</string>
@@ -416,26 +401,20 @@ Informações:
     <string name="revanced_sanitize_sharing_links_title">Limpar links compartilhados</string>
     <string name="revanced_sanitize_sharing_links_summary">Limpa links de compartilhamento removendo parâmetros de consulta de rastreamento.</string>
     <string name="revanced_spoof_client_title">Falsificar cliente</string>
-    <string name="revanced_spoof_client_summary">"Falsificar o cliente para evitar problemas de reprodução.
-
-• Quando usado com 'Dados de streaming falsos', podem ocorrer problemas de reprodução."</string>
+    <string name="revanced_spoof_client_summary">Falsificar o cliente para evitar problemas de reprodução.</string>
     <string name="revanced_spoof_client_type_title">Cliente padrão</string>
-    <string name="revanced_spoof_client_type_summary">"Define um cliente padrão para falsificar.
-
-• Ao usar o cliente Android, é recomendado usar também 'Falsificar versão do aplicativo'."</string>
+    <string name="revanced_spoof_client_type_summary">Define um cliente padrão para falsificar.</string>
     <string name="revanced_spoof_client_type_entry_android_music_4_27">Android Music 4.27.53</string>
     <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
     <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>
-    <string name="revanced_spoof_streaming_data_title">Dados de streaming falsos</string>
-    <string name="revanced_spoof_streaming_data_summary">"Falsifique os dados de streaming para evitar problemas de reprodução.
-
-• Quando usado com 'Falsificar cliente', podem ocorrer problemas de reprodução."</string>
-    <string name="revanced_spoof_streaming_data_type_title">Cliente padrão</string>
-    <string name="revanced_spoof_streaming_data_type_summary">Define um cliente padrão que busca dados de streaming.</string>
-    <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Exibir em Estatísticas para nerds</string>
-    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary">Exibir o cliente usado para buscar dados de streaming em estatísticas para nerds.</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_music">Android Music</string>
+    <string name="revanced_spoof_client_type_entry_ios_music_7_04">iOS Music 7.04</string>
+    <string name="revanced_watch_history_type_title">Tipo de histórico de exibição</string>
+    <string name="revanced_watch_history_type_summary">"• Original: segue as configurações do histórico de exibição da conta do Google, mas o histórico de exibição pode não funcionar devido a DNS ou VPN.
+• Substituir domínio: segue as configurações do histórico de exibição da conta do Google.
+• Bloquear histórico de exibição: o histórico de exibição é bloqueado."</string>
+    <string name="revanced_watch_history_type_entry_1">Original</string>
+    <string name="revanced_watch_history_type_entry_2">Substituir domínio</string>
+    <string name="revanced_watch_history_type_entry_3">Bloquear histórico de exibição</string>
     <string name="revanced_default_app_settings_title">Abrir configurações padrão do aplicativo</string>
     <string name="revanced_default_app_settings_summary">Para abrir links do YouTube Music no RVX Music, ative Abrir links suportados e ative todos os endereços da web suportados.</string>
     <string name="gms_core_settings_title">Abrir configurações do GmsCore</string>

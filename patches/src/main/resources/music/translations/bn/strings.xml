@@ -45,10 +45,6 @@
     <string name="revanced_hide_navigation_label_title">নেভিগেশন বারের লেবেল লুকান</string>
     <string name="revanced_hide_navigation_label_summary">নেভিগেশন বার থেকে লেবেল হাইড করুন।</string>
     <!-- PreferenceScreen: Player -->
-    <string name="revanced_enable_color_match_player_title">প্লেয়ারের রং মিলানো সক্রিয় করুন</string>
-    <string name="revanced_enable_color_match_player_summary">পূর্ণস্ক্রীন প্লেয়ারের রং মিনিমাইজ করা প্লেয়ারের রং এর সাথে মিলবে।</string>
-    <string name="revanced_enable_force_minimized_player_title">জোরপূর্বক মিনিমাইজড প্লেয়ার সক্রিয় করুন</string>
-    <string name="revanced_enable_force_minimized_player_summary">প্লেয়ারকে স্থায়ীভাবে মিনিমাইজ করে রাখুন এমনকি যদি অন্য ট্র্যাক চালানো হয়।</string>
     <string name="revanced_enable_zen_mode_title">জেন মোড সক্রিয় করুন</string>
     <string name="revanced_enable_zen_mode_summary">চোখের চাপ কমাতে ভিডিও প্লেয়ারে ধূসর আভা যোগ করুন।</string>
     <!-- PreferenceScreen: Settings menu -->

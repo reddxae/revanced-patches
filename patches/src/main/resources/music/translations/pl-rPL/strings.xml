@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced Extended</string>
+    <string name="revanced_extended_settings_title">RVX</string>
     <string name="revanced_extended_reset_to_default_toast">Przywrócono domyślne wartości.</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">Uruchom ponownie, aby wczytać układ poprawnie</string>
@@ -20,6 +20,8 @@
     <string name="revanced_hide_terms_container_summary">Ukrywa kontener warunków usług z menu konta.</string>
     <!-- PreferenceScreen: Action bar -->
     <string name="revanced_preference_screen_action_bar_title">Pasek akcji</string>
+    <string name="revanced_change_action_bar_position_title">Zmień pozycję paska akcji</string>
+    <string name="revanced_change_action_bar_position_summary">Przenosi pasek akcji pod przycisk odtwarzania.</string>
     <string name="revanced_hide_action_button_like_dislike_title">Ukryj przyciski łapki w górę i dół</string>
     <string name="revanced_hide_action_button_like_dislike_summary">Ukrywa przyciski łapki w górę i dół. Nie będzie działać na starym układzie odtwarzacza.</string>
     <string name="revanced_hide_action_button_comment_title">Ukryj przycisk komentarzy</string>
@@ -28,10 +30,13 @@
     <string name="revanced_hide_action_button_add_to_playlist_summary">Ukrywa przycisk dodawania do playlisty.</string>
     <string name="revanced_hide_action_button_download_title">Ukryj przycisk pobierania</string>
     <string name="revanced_hide_action_button_download_summary">Ukrywa przycisk pobierania.</string>
-    <string name="revanced_hide_action_button_share_title">Ukryj przycisk udostępniania</string>
-    <string name="revanced_hide_action_button_share_summary">Ukrywa przycisk udostępniania.</string>
     <string name="revanced_hide_action_button_radio_title">Ukryj przycisk radia</string>
     <string name="revanced_hide_action_button_radio_summary">Ukrywa przycisk radia.</string>
+    <string name="revanced_hide_action_button_share_title">Ukryj przycisk udostępniania</string>
+    <string name="revanced_hide_action_button_share_summary">Ukrywa przycisk udostępniania.</string>
+    <string name="revanced_hide_action_button_song_video_title">Ukryj przycisk utwór/teledysk</string>
+    <string name="revanced_hide_action_button_song_video_summary">"Ukrywa przycisk utwór/teledysk.
+(Ten przycisk jest jedynie dostępny u niektórych użytkowników)"</string>
     <string name="revanced_hide_action_button_label_title">Ukryj nazwy przycisków akcji</string>
     <string name="revanced_hide_action_button_label_summary">Ukrywa nazwy przycisków akcji.</string>
     <string name="revanced_external_downloader_action_title">Zastąp przycisk od pobierania</string>
@@ -49,10 +54,8 @@ Pobierz %2$s ze strony."</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Reklamy</string>
     <string name="revanced_hide_fullscreen_ads_title">Ukryj reklamy pełnoekranowe</string>
-    <string name="revanced_hide_fullscreen_ads_summary">"Ukrywa reklamy pełnoekranowe.
-
-Ograniczenie:
-• Czasem może pojawić się pusty, czarny ekran zamiast strony głównej"</string>
+    <string name="revanced_hide_fullscreen_ads_summary">Ukrywa pełnoekranowe reklamy.</string>
+    <string name="revanced_fullscreen_ads_closed_toast">Zamknięto pełnoekranowe reklamy</string>
     <string name="revanced_hide_general_ads_title">Ukryj ogólne reklamy</string>
     <string name="revanced_hide_general_ads_summary">Ukrywa ogólne reklamy.</string>
     <string name="revanced_hide_music_ads_title">Ukryj reklamy multimedialne</string>
@@ -61,6 +64,7 @@ Ograniczenie:
     <string name="revanced_hide_paid_promotion_label_summary">Ukrywa etykiety oznaczające płatne promocje.</string>
     <string name="revanced_hide_premium_promotion_title">Ukryj wyskakujące okienka promocyjne Premium</string>
     <string name="revanced_hide_premium_promotion_summary">Ukrywa wyskakujące okienka promocyjne Premium.</string>
+    <string name="revanced_hide_premium_promotion_closed_toast">Zamknięto wyskakujące okienka promocyjne Premium.</string>
     <string name="revanced_hide_premium_renewal_title">Ukryj baner odnawiania Premium</string>
     <string name="revanced_hide_premium_renewal_summary">Ukrywa baner odnawiania Premium.</string>
     <string name="revanced_hide_promotion_alert_banner_title">Ukryj banery z alertami promocyjnymi</string>
@@ -92,6 +96,7 @@ Ograniczenia:
     <string name="revanced_hide_flyout_menu_go_to_episode_title">Ukryj menu od przechodzenia do odcinka</string>
     <string name="revanced_hide_flyout_menu_go_to_podcast_title">Ukryj menu od przechodzenia do podcastu</string>
     <string name="revanced_hide_flyout_menu_help_title">Ukryj menu do pomocy i opinii</string>
+    <string name="revanced_hide_flyout_menu_not_interested_title">Ukryj menu od niezainteresowania</string>
     <string name="revanced_hide_flyout_menu_pin_to_speed_dial_title">Ukryj przypinanie do menu szybkiego wybierania</string>
     <string name="revanced_hide_flyout_menu_play_next_title">Ukryj menu od odtwarzania jako następny</string>
     <string name="revanced_hide_flyout_menu_quality_title">Ukryj menu od jakości</string>
@@ -123,11 +128,17 @@ Ograniczenia:
     <string name="revanced_preference_screen_general_title">Ogólne</string>
     <string name="revanced_change_start_page_title">Zmień stronę startową</string>
     <string name="revanced_change_start_page_summary">Wybierz, na której stronie ma otwierać się aplikacja.</string>
-    <string name="revanced_change_start_page_entry_chart">Listy przebojów</string>
+    <string name="revanced_change_start_page_entry_default">Strona główna</string>
+    <string name="revanced_change_start_page_entry_charts">Listy przebojów</string>
+    <string name="revanced_change_start_page_entry_episodes_for_later">Odcinki na później</string>
     <string name="revanced_change_start_page_entry_explore">Odkrywaj</string>
-    <string name="revanced_change_start_page_entry_home">Strona główna</string>
+    <string name="revanced_change_start_page_entry_history">Historia</string>
     <string name="revanced_change_start_page_entry_library">Biblioteka</string>
-    <string name="revanced_change_start_page_entry_subscription">Subskrypcje</string>
+    <string name="revanced_change_start_page_entry_liked_music">Muzyka, która Ci się podoba</string>
+    <string name="revanced_change_start_page_entry_podcasts">Podcasty</string>
+    <string name="revanced_change_start_page_entry_samples">Sample</string>
+    <string name="revanced_change_start_page_entry_search">Wyszukiwanie</string>
+    <string name="revanced_change_start_page_entry_subscriptions">Subskrypcje</string>
     <string name="revanced_disable_dislike_redirection_title">Wyłącz pomijanie nielubianych piosenek</string>
     <string name="revanced_disable_dislike_redirection_summary">Wyłącza przenoszenie do następnego utworu po kliknięciu łapki w dół.</string>
     <string name="revanced_disable_auto_captions_title">Wyłącz automatyczne napisy</string>
@@ -176,8 +187,7 @@ Nie pomija to ograniczeń wiekowych, lecz akceptuje je automatycznie."</string>
 • Jeśli potem opcja zostanie wyłączona, stary interfejs użytkownika może pozostać do momentu wyczyszczenia danych aplikacji."</string>
     <string name="revanced_spoof_app_version_target_title">Docelowa wersja aplikacji</string>
     <string name="revanced_spoof_app_version_target_summary">Wybierz wersję, którą chcesz oszukiwać.</string>
-    <string name="revanced_spoof_app_version_target_entry_4_27_53">4.27.53 - Wyłącza tryb radia w rejonach kanadyjskich</string>
-    <string name="revanced_spoof_app_version_target_entry_6_11_52">6.11.52 - Wyłącza teksty w czasie rzeczywistym</string>
+    <string name="revanced_spoof_app_version_target_entry_6_42_55">6.42.55 - Wyłącza teksty w czasie rzeczywistym</string>
     <string name="revanced_spoof_app_version_target_entry_7_16_53">7.16.53 - Przywraca stary pasek akcji</string>
     <!-- PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_title">Pasek nawigacji</string>
@@ -202,22 +212,35 @@ Nie pomija to ograniczeń wiekowych, lecz akceptuje je automatycznie."</string>
     <string name="revanced_hide_navigation_label_summary">Ukrywa nazwy każdego przycisku w pasku nawigacji.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Odtwarzacz</string>
-    <string name="revanced_enable_mini_player_next_button_title">Dodaj przycisk do następnej piosenki w miniodtwarzaczu</string>
-    <string name="revanced_enable_mini_player_next_button_summary">Dodaje przycisk do następnej piosenki w miniodtwarzaczu.</string>
-    <string name="revanced_enable_mini_player_previous_button_title">Dodaj przycisk do poprzedniej piosenki w miniodtwarzaczu</string>
-    <string name="revanced_enable_mini_player_previous_button_summary">Dodaje przycisk do poprzedniej piosenki w miniodtwarzaczu.</string>
-    <string name="revanced_enable_color_match_player_title">Zmień kolor miniodtwarzacza</string>
-    <string name="revanced_enable_color_match_player_summary">Zmienia kolor miniodtwarzacza na kolor będący w odtwarzaczu pełnoekranowym.</string>
-    <string name="revanced_enable_black_player_background_title">Zmień kolor tła odtwarzacza</string>
-    <string name="revanced_enable_black_player_background_summary">Zmienia tło odtwarzacza na czarne.</string>
-    <string name="revanced_disable_mini_player_gesture_title">Wyłącz gest w miniodtwarzaczu</string>
-    <string name="revanced_disable_mini_player_gesture_summary">Wyłącza gest przesuwania, aby zmienić utwór w miniodtwarzaczu.</string>
+    <string name="revanced_add_miniplayer_next_button_title">Dodaj przycisk do następnego utworu w miniodtwarzaczu</string>
+    <string name="revanced_add_miniplayer_next_button_summary">Dodaje przycisk do następnego utworu w miniodtwarzaczu.</string>
+    <string name="revanced_add_miniplayer_previous_button_title">Dodaj przycisk do poprzedniego utworu w miniodtwarzaczu</string>
+    <string name="revanced_add_miniplayer_previous_button_summary">Dodaje przycisk do poprzedniego utworu w miniodtwarzaczu.</string>
+    <string name="revanced_change_miniplayer_color_title">Zmień kolor miniodtwarzacza</string>
+    <string name="revanced_change_miniplayer_color_summary">Zmienia kolor miniodtwarzacza na pasujący do odtwarzacza pełnoekranowego.</string>
+    <string name="revanced_change_player_background_color_title">Zmień kolor tła odtwarzacza</string>
+    <string name="revanced_change_player_background_color_summary">Zmienia kolor tła odtwarzacza na własny.</string>
+    <string name="revanced_custom_player_background_color_primary_title">Kolor pierwszorzędny</string>
+    <string name="revanced_custom_player_background_color_primary_summary">"Wpisz kod hex pierwszorzędnego koloru tła odtwarzacza.
+
+Jeśli to możliwe, użyj ciemnych kolorów, gdyż aplikacja nie obsługuje jasnych motywów."</string>
+    <string name="revanced_custom_player_background_color_secondary_title">Kolor drugorzędny</string>
+    <string name="revanced_custom_player_background_color_secondary_summary">"Wpisz kod hex drugorzędnego koloru tła odtwarzacza.
+
+Jeśli to możliwe, użyj ciemnych kolorów, gdyż aplikacja nie obsługuje jasnych motywów."</string>
+    <string name="revanced_custom_player_background_invalid_toast">Nieprawidłowy kolor tła odtwarzacza.</string>
+    <string name="revanced_change_seekbar_position_title">Zmień pozycję paska postępu utworu</string>
+    <string name="revanced_change_seekbar_position_summary">Przenosi pasek postępu utworu pod przycisk odtwarzania.</string>
+    <string name="revanced_disable_miniplayer_gesture_title">Wyłącz gest miniodtwarzacza</string>
+    <string name="revanced_disable_miniplayer_gesture_summary">Wyłącza gest przesunięcia, aby zmienić utwór.</string>
     <string name="revanced_disable_player_gesture_title">Wyłącz gest w odtwarzaczu</string>
     <string name="revanced_disable_player_gesture_summary">Wyłącza gest przesuwania, aby zmienić utwór w odtwarzaczu.</string>
-    <string name="revanced_enable_force_minimized_player_title">Włącz wymuszenie zminimalizowanego odtwarzacza</string>
-    <string name="revanced_enable_force_minimized_player_summary">Zostawia odtwarzacz zminimalizowany, nawet jeśli zostanie odtworzony inny utwór.</string>
-    <string name="revanced_enable_swipe_to_dismiss_mini_player_title">Włącz przesuwanie do zamykania miniodtwarzacza</string>
-    <string name="revanced_enable_swipe_to_dismiss_mini_player_summary">Włącza przesuwanie w dół do zamykania miniodtwarzacza.</string>
+    <string name="revanced_enable_forced_miniplayer_title">Włącz wymuszenie miniodtwarzacza</string>
+    <string name="revanced_enable_forced_miniplayer_summary">Zostawia odtwarzacz zminimalizowany, nawet jeśli zostanie odtworzony inny utwór.</string>
+    <string name="revanced_enable_swipe_to_dismiss_miniplayer_title">Włącz przesunięcie, by zamknąć miniodtwarzacz</string>
+    <string name="revanced_enable_swipe_to_dismiss_miniplayer_summary">Włącza przesunięcie, by zamknąć miniodtwarzacz.</string>
+    <string name="revanced_enable_thick_seekbar_title">Włącz pogrubiony pasek postępu utworu</string>
+    <string name="revanced_enable_thick_seekbar_summary">Włącza pogrubiony pasek postępu utworu.</string>
     <string name="revanced_enable_zen_mode_title">Włącz tryb zen</string>
     <string name="revanced_enable_zen_mode_summary">Włącza jasnoszary kolor tła odtwarzacza, aby zmniejszyć zmęczenie oczu.</string>
     <string name="revanced_enable_zen_mode_podcast_title">Włącz tryb zen w podcastach</string>
@@ -230,8 +253,8 @@ Nie pomija to ograniczeń wiekowych, lecz akceptuje je automatycznie."</string>
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">Ukrywa przyciski czasu i emotikon podczas pisania komentarzy.</string>
     <string name="revanced_hide_fullscreen_share_button_title">Ukryj przycisk udostępniania w trybie pełnoekranowym</string>
     <string name="revanced_hide_fullscreen_share_button_summary">Ukrywa przycisk udostępniania w trybie pełnoekranowym.</string>
-    <string name="revanced_hide_audio_video_switch_toggle_title">Ukryj przełącznik utwór-teledysk</string>
-    <string name="revanced_hide_audio_video_switch_toggle_summary">Ukrywa przełącznik utwór-teledysk w odtwarzaczu.</string>
+    <string name="revanced_hide_song_video_toggle_title">Ukryj przełącznik utwór/teledysk</string>
+    <string name="revanced_hide_song_video_toggle_summary">Ukrywa przełącznik utwór/teledysk w odtwarzaczu.</string>
     <string name="revanced_remember_repeat_state_title">Zapamiętaj stan pętli</string>
     <string name="revanced_remember_repeat_state_summary">Zapisuje stan pętli.</string>
     <string name="revanced_remember_shuffle_state_title">Zapamiętaj stan odtwarzania losowego</string>
@@ -401,8 +424,8 @@ Opcja znajduje oficjalny utwór, jeśli wykryje odtwarzanie teledysku z albumu.
     <string name="revanced_disable_music_video_in_album_redirect_type_title">Typ przekierowania</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_summary">Określa, w jaki sposób przekierowuje do oficjalnego utworu</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect">Przekieruj</string>
-    <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_click">Kliknij przełącznik utwór-teledysk</string>
-    <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_long_click">Kliknij i przytrzymaj przełącznik utwór-teledysk</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_click">Kliknij przełącznik utwór/teledysk</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_long_click">Kliknij i przytrzymaj przełącznik utwór/teledysk</string>
     <string name="revanced_enable_debug_logging_title">Włącz logowanie debugowania</string>
     <string name="revanced_enable_debug_logging_summary">Wyświetla log od debugowania.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Logi do debugowania buforu</string>
@@ -416,27 +439,20 @@ Informacje:
     <string name="revanced_sanitize_sharing_links_title">Oczyść udostępniane linki</string>
     <string name="revanced_sanitize_sharing_links_summary">Usuwa parametry śledzących zapytań z adresów URL podczas udostępniania linków.</string>
     <string name="revanced_spoof_client_title">Oszukuj klienta</string>
-    <string name="revanced_spoof_client_summary">"Oszukuj klienta, by zapobiec problemom z odtwarzaniem.
-
-※ Używane równolegle z opcją 'Oszukuj strumień danych', może powodować problemy z odtwarzaniem
-"</string>
+    <string name="revanced_spoof_client_summary">Oszukuj klienta, by zapobiec problemom z odtwarzaniem.</string>
     <string name="revanced_spoof_client_type_title">Domyślny klient</string>
-    <string name="revanced_spoof_client_type_summary">"Definiuje domyślnego klienta do oszukiwania.
-
-※ Jeśli używasz klienta Androida, zaleca się korzystanie razem z opcją 'Oszukuj wersję aplikacji'."</string>
+    <string name="revanced_spoof_client_type_summary">Definiuje domyślny klient do oszukiwania.</string>
     <string name="revanced_spoof_client_type_entry_android_music_4_27">Android Music 4.27.53</string>
     <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
     <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>
-    <string name="revanced_spoof_streaming_data_title">Oszukuj strumień danych</string>
-    <string name="revanced_spoof_streaming_data_summary">"Oszukuj strumień danych, by zapobiec problemom z odtwarzaniem.
-
-※ Używane równolegle z opcją 'Oszukuj klienta', może powodować problemy z odtwarzaniem"</string>
-    <string name="revanced_spoof_streaming_data_type_title">Domyślny klient</string>
-    <string name="revanced_spoof_streaming_data_type_summary">Denifiuje domyślnego klienta, z którego będzie przechwytywany strumień danych.</string>
-    <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Informacja w statystykach dla nerdów</string>
-    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary">Pokazuje używanego klienta do przechwytywania strumienia danych w statystykach dla nerdów.</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_music">Android Music</string>
+    <string name="revanced_spoof_client_type_entry_ios_music_7_04">iOS Music 7.04</string>
+    <string name="revanced_watch_history_type_title">Typ historii oglądania</string>
+    <string name="revanced_watch_history_type_summary">"• Oryginalny: Stosuje się do ustawień historii oglądania konta Google, lecz historia oglądania może nie działać przy używaniu DNS lub VPN
+• Zastąpienie domeny: Stosuje się do ustawień historii oglądania konta Google
+• Zablokowanie historii oglądania: Historia oglądania jest zablokowana"</string>
+    <string name="revanced_watch_history_type_entry_1">Oryginalny</string>
+    <string name="revanced_watch_history_type_entry_2">Zastąpienie domeny</string>
+    <string name="revanced_watch_history_type_entry_3">Zablokowanie historii oglądania</string>
     <string name="revanced_default_app_settings_title">Otwórz systemowe ustawienia aplikacji</string>
     <string name="revanced_default_app_settings_summary">Aby otwierać linki YouTube Music w RVX Music, przejdź do opcji obsługiwanych linków w ustawieniach i włącz obsługiwane adresy internetowe dla RVX Music.</string>
     <string name="gms_core_settings_title">Otwórz ustawienia GmsCore</string>

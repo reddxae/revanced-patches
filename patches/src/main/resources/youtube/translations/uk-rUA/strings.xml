@@ -4,7 +4,7 @@
     <string name="accessibility_settings_edu_opt_in_text">Увімкнути спеціальні можливості для відеоплеєра?</string>
     <string name="accessibility_settings_edu_opt_out_text">Керування змінено, оскільки служба спеціальних можливостей увімкнена.</string>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">Розширені</string>
+    <string name="revanced_extended_settings_title">RVX</string>
     <string name="revanced_extended_settings_search_title">Пошук %s</string>
     <string name="revanced_extended_reset_to_default_toast">Скинуто.</string>
     <string name="revanced_preference_category_experimental_flag">Експериментальні опції</string>
@@ -74,9 +74,13 @@
     <string name="revanced_language_ZH">Китайська</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Реклама</string>
+    <string name="revanced_hide_end_screen_store_banner_title">Приховати банер магазину на кінцевому екрані</string>
+    <string name="revanced_hide_end_screen_store_banner_summary_on">Банер магазину приховано.</string>
+    <string name="revanced_hide_end_screen_store_banner_summary_off">Банер магазину показується.</string>
     <string name="revanced_hide_fullscreen_ads_title">Приховати повноекранну рекламу</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">Повноекранну рекламу приховано.</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">Повноекранну рекламу показується.</string>
+    <string name="revanced_fullscreen_ads_closed_toast">Повноекранну рекламу закрито.</string>
     <string name="revanced_hide_general_ads_title">Приховати загальну рекламу</string>
     <string name="revanced_hide_general_ads_summary_on">Загальну рекламу приховано.</string>
     <string name="revanced_hide_general_ads_summary_off">Загальну рекламу показується.</string>
@@ -264,6 +268,9 @@
     <string name="revanced_hide_feed_flyout_menu_title">Увімкнути фільтр висувного меню у стрічці</string>
     <string name="revanced_hide_feed_flyout_menu_summary_on">Фільтр висувного меню у стрічці увімкнено.</string>
     <string name="revanced_hide_feed_flyout_menu_summary_off">Фільтр висувного меню у стрічці вимкнено.</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_title">Тип фільтра висувного меню у стрічці</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_on">Фільтрується, якщо містять.&lt;br&gt;&lt;br&gt;Щоб приховати меню &lt;b&gt;\'Відтворити наступним у черзі\'&lt;/b&gt;, можете використати &lt;b&gt;\'Відтворити наступним\'&lt;/b&gt; або &lt;b&gt;\'у черзі\'&lt;/b&gt; як ключові слова.</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_off">Фільтрується, якщо збігаються.&lt;br&gt;&lt;br&gt;Щоб приховати меню &lt;b&gt;\'Відтворити наступним у черзі\'&lt;/b&gt;, можете використати лише &lt;b&gt;\'Відтворити наступним у черзі\'&lt;/b&gt; як ключові слова.</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_title">Фільтр висувного меню у стрічці</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_summary">Список назв висувного меню для фільтрування, розділених новим рядком.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter -->
@@ -348,6 +355,7 @@
     <string name="revanced_preference_screen_general_title">Загальне</string>
     <string name="revanced_change_start_page_title">Змінити початкову сторінку</string>
     <string name="revanced_change_start_page_entry_default">Стандартна</string>
+    <string name="revanced_change_start_page_entry_all_subscriptions">Підписки</string>
     <string name="revanced_change_start_page_entry_browse">Перегляд каналів</string>
     <string name="revanced_change_start_page_entry_courses">Навчання</string>
     <string name="revanced_change_start_page_entry_explore">Що нового</string>
@@ -361,6 +369,7 @@
     <string name="revanced_change_start_page_entry_music">Музика</string>
     <string name="revanced_change_start_page_entry_news">Новини</string>
     <string name="revanced_change_start_page_entry_notifications">Сповіщення</string>
+    <string name="revanced_change_start_page_entry_playlists">Списки відтворення</string>
     <string name="revanced_change_start_page_entry_podcasts">Подкасти</string>
     <string name="revanced_change_start_page_entry_search">Пошук</string>
     <string name="revanced_change_start_page_entry_shopping">Покупки</string>
@@ -368,6 +377,7 @@
     <string name="revanced_change_start_page_entry_sports">Спорт</string>
     <string name="revanced_change_start_page_entry_subscriptions">Підписки</string>
     <string name="revanced_change_start_page_entry_trending">Тенденції</string>
+    <string name="revanced_change_start_page_entry_virtual_reality">Віртуальна реальність</string>
     <string name="revanced_change_start_page_entry_watch_later">Переглянути пізніше</string>
     <string name="revanced_change_start_page_entry_your_clips">Ваші кліпи</string>
     <string name="revanced_change_start_page_type_title">Тип зміни початкової сторінки</string>
@@ -406,7 +416,9 @@
     <string name="revanced_change_layout_entry_4">Планшетний</string>
     <string name="revanced_change_layout_entry_5">Планшетний (Мін 600 dp)</string>
     <string name="revanced_change_live_ring_click_action_title">Змінити дію натискання на кружечок наживо</string>
-    <string name="revanced_change_live_ring_click_action_summary_on">При натисканні на кружечок наживо відкривається канал.</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">"При натисканні на кружечок наживо відкривається канал.
+
+Застереження: Коли відкрито пряму трансляцію Shorts у поточному плеєрі налаштуванням 'Відкривати Shorts у поточному плеєрі', канал не відкривається."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">При натисканні на кружечок наживо відкривається пряма трансляція.</string>
     <string name="revanced_spoof_app_version_title">Підробити версію програми</string>
     <string name="revanced_spoof_app_version_summary_on">Версію підроблено</string>
@@ -433,6 +445,9 @@
     <string name="revanced_hide_account_menu_title">Приховати меню акаунту</string>
     <string name="revanced_hide_account_menu_summary">"Приховуються елементи меню облікового запису і вкладки Ви.
 Деякі компоненти не можуть бути приховані."</string>
+    <string name="revanced_hide_account_menu_filter_type_title">Тип фільтра меню облікового запису</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_on">Фільтрується, якщо містять.&lt;br&gt;&lt;br&gt;Щоб приховати меню &lt;b&gt;\'Оформити підписку YouTube Premium\'&lt;/b&gt;, можете використати &lt;b&gt;\'YouTube Premium\'&lt;/b&gt; або &lt;b&gt;\'Premium\'&lt;/b&gt; як ключові слова.</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_off">Фільтрується, якщо збігаються.&lt;br&gt;&lt;br&gt;Щоб приховати меню &lt;b&gt;\'Оформити підписку YouTube Premium\'&lt;/b&gt;, можете використати лише &lt;b&gt;\'Оформити підписку YouTube Premium\'&lt;/b&gt; як ключові слова.</string>
     <string name="revanced_hide_account_menu_filter_strings_title">Фільтр меню облікового запису</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">Список назв меню облікового запису для фільтрування, розділених новим рядком.</string>
     <string name="revanced_hide_handle_title">Приховати ідентифікатор</string>
@@ -472,56 +487,6 @@
     <string name="revanced_third_party_youtube_music_not_installed_warning">%s не встановлено. Будь ласка, встановіть.</string>
     <string name="revanced_override_youtube_music_button_about_prerequisite_title">Передумова</string>
     <string name="revanced_override_youtube_music_button_about_prerequisite_summary">Для перевизначення дії кнопки потрібно YouTube Music. Натисніть тут, щоб завантажити YouTube Music.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
-    <string name="revanced_preference_screen_miniplayer_title">Мініплеєр</string>
-    <string name="revanced_preference_screen_miniplayer_summary">Зміна стилю мінімізованого плеєра в додатку.</string>
-    <string name="revanced_miniplayer_type_title">Тип мініплеєра</string>
-    <string name="revanced_miniplayer_type_entry_0">Вимкнено</string>
-    <string name="revanced_miniplayer_type_entry_1">Оригінал</string>
-    <string name="revanced_miniplayer_type_entry_2">Мінімальний</string>
-    <string name="revanced_miniplayer_type_entry_3">Планшетний</string>
-    <string name="revanced_miniplayer_type_entry_4">Новітній 1</string>
-    <string name="revanced_miniplayer_type_entry_5">Новітній 2</string>
-    <string name="revanced_miniplayer_type_entry_6">Новітній 3</string>
-    <string name="revanced_miniplayer_rounded_corners_title">Увімкнути округлені кути</string>
-    <string name="revanced_miniplayer_rounded_corners_summary_on">Кути округлені.</string>
-    <string name="revanced_miniplayer_rounded_corners_summary_off">Кути квадратні.</string>
-    <string name="revanced_miniplayer_double_tap_action_title">Увімкнути подвійне натискання та щипок для зміни розміру</string>
-    <string name="revanced_miniplayer_double_tap_action_summary_on">"Подвійне натискання та щипок для зміни розміру увімкнено.
-
-• Двічі торкніться, щоб збільшити розмір мініплеєра.
-• Двічі торкніться ще раз, щоб відновити початковий розмір."</string>
-    <string name="revanced_miniplayer_double_tap_action_summary_off">Подвійне натискання та щипок для зміни розміру вимкнено.</string>
-    <string name="revanced_miniplayer_drag_and_drop_title">Увімкнути перетягування</string>
-    <string name="revanced_miniplayer_drag_and_drop_summary_on">"Перетягування увімкнено.
-
-Мініплеєр можливо перетягнути в будь-який кут екрану."</string>
-    <string name="revanced_miniplayer_drag_and_drop_summary_off">Перетягування вимкнено.</string>
-    <string name="revanced_miniplayer_horizontal_drag_title">Увімкнути жест горизонтального перетягування</string>
-    <string name="revanced_miniplayer_horizontal_drag_summary_on">"Жест горизонтального перетягування увімкнено.
-
-Мініплеєр можливо перетягнути за межі екрана ліворуч чи праворуч."</string>
-    <string name="revanced_miniplayer_horizontal_drag_summary_off">Жест горизонтального перетягування вимкнено.</string>
-    <string name="revanced_miniplayer_hide_expand_close_title">Приховати кнопку закриття</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_on">Кнопку закриття приховано.</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_off">Кнопку закриття показується.</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_title">Приховати кнопки розгортання і закриття</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_on">"Кнопки приховано.
-
-Проведіть, щоб розгорнути або закрити."</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_off">Кнопки розгортання і закриття показується.</string>
-    <string name="revanced_miniplayer_hide_subtext_title">Приховати підтексти</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_on">Підтексти приховано.</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_off">Підтексти показується.</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_title">Приховати кнопки перемотування вперед та назад</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Перемотування вперед та назад приховано.</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Перемотування вперед та назад показується.</string>
-    <string name="revanced_miniplayer_width_dip_title">Початковий розмір</string>
-    <string name="revanced_miniplayer_width_dip_summary">Початковий розмір на екрані, у пікселях.</string>
-    <string name="revanced_miniplayer_width_dip_invalid_toast">Розмір у пікселях повинен бути від %1$s до %2$s.</string>
-    <string name="revanced_miniplayer_opacity_title">Непрозорість затемнення</string>
-    <string name="revanced_miniplayer_opacity_summary">Значення непрозорості в межах 0-100, де 0 це прозоро.</string>
-    <string name="revanced_miniplayer_opacity_invalid_toast">Непрозорість затемнення мініплеєра має бути в межах 0-100.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_bar_title">Панель навігації</string>
     <string name="revanced_preference_screen_navigation_bar_summary">Приховувати чи показувати секцію компонентів панелі навігації.</string>
@@ -562,6 +527,7 @@
     <string name="revanced_enable_translucent_navigation_bar_title">Увімкнути напівпрозорість панелі навігації</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">Панель навігації напівпрозора.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">Панель навігації непрозора.</string>
+    <string name="revanced_enable_translucent_navigation_bar_user_dialog_message">У певних версіях YouTube цей параметр може зробити панель навігації прозорою або порушити макет у режимі PIP.</string>
     <string name="revanced_hide_navigation_bar_title">Приховати панель навігації</string>
     <string name="revanced_hide_navigation_bar_summary_on">Панель навігації приховано.</string>
     <string name="revanced_hide_navigation_bar_summary_off">Панель навігації показується.</string>
@@ -812,39 +778,19 @@
     <string name="revanced_hide_thanks_button_title">Приховати кнопку Дякую</string>
     <string name="revanced_hide_thanks_button_summary_on">Кнопку Дякую приховано.</string>
     <string name="revanced_hide_thanks_button_summary_off">Кнопку Дякую показується.</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
-    <string name="revanced_preference_category_hide_by_index">Приховати за індексом</string>
-    <string name="revanced_hide_action_button_index_0_title">Приховати першу кнопку</string>
-    <string name="revanced_hide_action_button_index_0_summary_on">Першу кнопку приховано.</string>
-    <string name="revanced_hide_action_button_index_0_summary_off">Першу кнопку показується.</string>
-    <string name="revanced_hide_action_button_index_1_title">Приховати другу кнопку</string>
-    <string name="revanced_hide_action_button_index_1_summary_on">Другу кнопку приховано.</string>
-    <string name="revanced_hide_action_button_index_1_summary_off">Другу кнопку показується.</string>
-    <string name="revanced_hide_action_button_index_2_title">Приховати третю кнопку</string>
-    <string name="revanced_hide_action_button_index_2_summary_on">Третю кнопку приховано.</string>
-    <string name="revanced_hide_action_button_index_2_summary_off">Третю кнопку показується.</string>
-    <string name="revanced_hide_action_button_index_3_title">Приховати четверту кнопку</string>
-    <string name="revanced_hide_action_button_index_3_summary_on">Четверту кнопку приховано.</string>
-    <string name="revanced_hide_action_button_index_3_summary_off">Четверту кнопку показується.</string>
-    <string name="revanced_hide_action_button_index_4_title">Приховати п\'яту кнопку</string>
-    <string name="revanced_hide_action_button_index_4_summary_on">П\'яту кнопку приховано.</string>
-    <string name="revanced_hide_action_button_index_4_summary_off">П\'яту кнопку показується.</string>
-    <string name="revanced_hide_action_button_index_5_title">Приховати шосту кнопку</string>
-    <string name="revanced_hide_action_button_index_5_summary_on">Шосту кнопку приховано.</string>
-    <string name="revanced_hide_action_button_index_5_summary_off">Шосту кнопку показується.</string>
-    <string name="revanced_hide_action_button_index_6_title">Приховати сьому кнопку</string>
-    <string name="revanced_hide_action_button_index_6_summary_on">Сьому кнопку приховано.</string>
-    <string name="revanced_hide_action_button_index_6_summary_off">Сьому кнопку показується.</string>
-    <string name="revanced_hide_action_button_index_7_title">Приховати восьму кнопку</string>
-    <string name="revanced_hide_action_button_index_7_summary_on">Восьму кнопку приховано.</string>
-    <string name="revanced_hide_action_button_index_7_summary_off">Восьму кнопку показується.</string>
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
-    <string name="revanced_preference_category_hide_by_index_live">Приховати за індексом у прямій трансляції</string>
-    <string name="revanced_hide_action_button_index_about_title">Про Приховати кнопку дії за індексом</string>
-    <string name="revanced_hide_action_button_index_about_summary">"Приховати кнопки дії за індексом до ініціалізації кнопок дій.
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Experimental flags -->
+    <string name="revanced_hide_action_button_index_title">Приховувати кнопки дії за індексом</string>
+    <string name="revanced_hide_action_button_index_summary_on">"Кнопки дії приховуються за індексом.
 
-- Приховування кнопок дій не залишає порожнього місця.
-- Індекс кнопок дій може не завжди бути потрібної кнопки."</string>
+Інформація:
+• Можуть неправильно приховуватися чи не приховуватися кнопки дії.
+• Приховування кнопок дії не залишає порожніх місць."</string>
+    <string name="revanced_hide_action_button_index_summary_off">"Кнопки дії приховуються за фільтром ідентифікаторів.
+
+Інформація:
+• Праві кнопки дії приховано.
+• Приховування кнопок дії залишає порожні місця."</string>
+    <string name="revanced_remix_button_index_title">Індекс кнопки Ремікс</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Кінематографічне освітлення</string>
     <string name="revanced_preference_screen_ambient_mode_summary">Обходити обмеження кінематографічного освітлення чи вимкнути кінематографічне освітлення.</string>
@@ -1067,6 +1013,60 @@
     <string name="revanced_disable_haptic_feedback_zoom_title">Вимкнути вібрацію при зумі</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_on">Вібрацію вимкнено.</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_off">Вібрацію увімкнено.</string>
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Miniplayer -->
+    <string name="revanced_preference_screen_miniplayer_title">Мініплеєр</string>
+    <string name="revanced_preference_screen_miniplayer_summary">Приховати або змінити компоненти, пов\'язані з Мініплеєром.</string>
+    <string name="revanced_disable_resuming_miniplayer_title">Вимкнути відновлення Мініплеєра</string>
+    <string name="revanced_disable_resuming_miniplayer_summary_on">&lt;b&gt;Продовжити перегляд&lt;/b&gt; не відновлюватиметься при запуску програми.</string>
+    <string name="revanced_disable_resuming_miniplayer_summary_off">&lt;b&gt;Продовжити перегляд&lt;/b&gt; відновлюватиметься при запуску програми.&lt;br&gt;&lt;br&gt;Інформація:&lt;br&gt;• &lt;b&gt;Продовжити перегляд&lt;/b&gt; це функція YouTube Premium.&lt;br&gt;• Цей параметр не вмикає примусово &lt;b&gt;Продовжити перегляд&lt;/b&gt;.</string>
+    <string name="revanced_miniplayer_type_title">Тип мініплеєра</string>
+    <string name="revanced_miniplayer_type_entry_0">Вимкнено</string>
+    <string name="revanced_miniplayer_type_entry_1">Оригінал</string>
+    <string name="revanced_miniplayer_type_entry_2">Мінімальний</string>
+    <string name="revanced_miniplayer_type_entry_3">Планшетний</string>
+    <string name="revanced_miniplayer_type_entry_4">Новітній 1</string>
+    <string name="revanced_miniplayer_type_entry_5">Новітній 2</string>
+    <string name="revanced_miniplayer_type_entry_6">Новітній 3</string>
+    <string name="revanced_miniplayer_type_entry_7">Новітній 4</string>
+    <string name="revanced_miniplayer_rounded_corners_title">Увімкнути округлені кути</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_on">Кути округлені.</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_off">Кути квадратні.</string>
+    <string name="revanced_miniplayer_double_tap_action_title">Увімкнути подвійне натискання та щипок для зміни розміру</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_on">"Подвійне натискання та щипок для зміни розміру увімкнено.
+
+• Двічі торкніться, щоб збільшити розмір Мініплеєра.
+• Двічі торкніться ще раз, щоб відновити початковий розмір."</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_off">Подвійне натискання та щипок для зміни розміру вимкнено.</string>
+    <string name="revanced_miniplayer_drag_and_drop_title">Увімкнути перетягування</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_on">"Перетягування увімкнено.
+
+Мініплеєр можливо перетягнути в будь-який кут екрану."</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_off">Перетягування вимкнено.</string>
+    <string name="revanced_miniplayer_horizontal_drag_title">Увімкнути жест горизонтального перетягування</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_on">"Жест горизонтального перетягування увімкнено.
+
+Мініплеєр можливо перетягнути за межі екрана ліворуч чи праворуч."</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_off">Жест горизонтального перетягування вимкнено.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_title">Приховати накладені кнопки</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_on">Накладені кнопки приховано.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_off">Накладені кнопки показується.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_title">Приховати кнопки розгортання і закриття</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_on">"Кнопки приховано.
+
+Проведіть, щоб розгорнути або закрити."</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_off">Кнопки розгортання і закриття показується.</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_title">Приховати кнопки перемотування вперед та назад</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Перемотування вперед та назад приховано.</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Перемотування вперед та назад показується.</string>
+    <string name="revanced_miniplayer_hide_subtext_title">Приховати підтексти</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_on">Підтексти приховано.</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_off">Підтексти показується.</string>
+    <string name="revanced_miniplayer_width_dip_title">Початковий розмір</string>
+    <string name="revanced_miniplayer_width_dip_summary">Початковий розмір на екрані, у пікселях.</string>
+    <string name="revanced_miniplayer_width_dip_invalid_toast">Розмір у пікселях повинен бути від %1$s до %2$s.</string>
+    <string name="revanced_miniplayer_opacity_title">Непрозорість затемнення</string>
+    <string name="revanced_miniplayer_opacity_summary">Значення непрозорості в межах 0-100, де 0 це прозоро.</string>
+    <string name="revanced_miniplayer_opacity_invalid_toast">Непрозорість затемнення мініплеєра має бути в межах 0-100.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Player buttons -->
     <string name="revanced_preference_screen_player_buttons_title">Кнопки плеєра</string>
     <string name="revanced_preference_screen_player_buttons_summary">Приховувати чи показувати кнопки у відео.</string>
@@ -1172,9 +1172,11 @@
     <string name="revanced_enable_custom_seekbar_color_title">Увімкнути користувацький колір смуги прогресу</string>
     <string name="revanced_enable_custom_seekbar_color_summary_on">Користувацький колір смуги прогресу увімкнено.</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">Користувацький колір смуги прогресу вимкнено.</string>
-    <string name="revanced_custom_seekbar_color_value_title">Користувацьке значення кольору смуги прогресу</string>
-    <string name="revanced_custom_seekbar_color_value_summary">Введіть hex код кольору смуги прогресу.</string>
-    <string name="revanced_custom_seekbar_color_value_invalid_invalid_toast">Недійсне значення кольору смуги прогресу.</string>
+    <string name="revanced_custom_seekbar_color_primary_title">Користувацький основний колір смуги прогресу</string>
+    <string name="revanced_custom_seekbar_color_primary_summary">Введіть hex код основного кольору смуги прогресу.</string>
+    <string name="revanced_custom_seekbar_color_accent_title">Користувацький акцентний колір смуги прогресу</string>
+    <string name="revanced_custom_seekbar_color_accent_summary">Введіть hex код акцентного кольору смуги прогресу.</string>
+    <string name="revanced_custom_seekbar_color_invalid_toast">Недійсний колір смуги прогресу.</string>
     <string name="revanced_enable_seekbar_tapping_title">Увімкнути натискання на смугу прогресу</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">Натискання на смугу прогресу увімкнено.</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">Натискання на смугу прогресу вимкнено.</string>
@@ -1243,11 +1245,6 @@
     <string name="revanced_expand_video_description_title">Розгортати опис відео</string>
     <string name="revanced_expand_video_description_summary_on">Опис відео розгортається автоматично.</string>
     <string name="revanced_expand_video_description_summary_off">Опис відео розгортається вручну.</string>
-    <string name="revanced_expand_video_description_strings_title">Назва в панелі опису відео</string>
-    <string name="revanced_expand_video_description_strings_summary">"Введіть назву в панелі опису відео.
-Ці символи варіюються залежно від вашої мови.
-'Розгортати опис відео' може не працювати, якщо збережете неправильний рядок."</string>
-    <string name="revanced_expand_video_description_strings_default_value">Опис</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">YouTube Shorts</string>
     <string name="revanced_disable_shorts_background_playback_title">Вимкнути фонове відтворення Shorts</string>

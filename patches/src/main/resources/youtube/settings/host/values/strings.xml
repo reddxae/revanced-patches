@@ -5,7 +5,7 @@
     <string name="accessibility_settings_edu_opt_out_text">Your controls are modified because an accessibility service is on.</string>
 
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced Extended</string>
+    <string name="revanced_extended_settings_title">RVX</string>
     <string name="revanced_extended_settings_search_title">Search %s</string>
     <string name="revanced_extended_reset_to_default_toast">Reset to default values.</string>
 
@@ -80,9 +80,13 @@ Please download %2$s from the website."</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Ads</string>
 
+    <string name="revanced_hide_end_screen_store_banner_title">Hide end screen store banner</string>
+    <string name="revanced_hide_end_screen_store_banner_summary_on">Store banner is hidden.</string>
+    <string name="revanced_hide_end_screen_store_banner_summary_off">Store banner is shown.</string>
     <string name="revanced_hide_fullscreen_ads_title">Hide fullscreen ads</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">Fullscreen ads are hidden.</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">Fullscreen ads are shown.</string>
+    <string name="revanced_fullscreen_ads_closed_toast">Fullscreen ads are closed.</string>
     <string name="revanced_hide_general_ads_title">Hide general ads</string>
     <string name="revanced_hide_general_ads_summary_on">General ads are hidden.</string>
     <string name="revanced_hide_general_ads_summary_off">General ads are shown.</string>
@@ -284,6 +288,9 @@ Store"</string>
     <string name="revanced_hide_feed_flyout_menu_title">Enable feed flyout menu filter</string>
     <string name="revanced_hide_feed_flyout_menu_summary_on">Feed flyout menu filter is enabled.</string>
     <string name="revanced_hide_feed_flyout_menu_summary_off">Feed flyout menu filter is disabled.</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_title">Feed flyout menu filter type</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_on">Filter if contains.&lt;br>&lt;br>To hide the &lt;b>\'Play next in queue\'&lt;/b> menu, you can use &lt;b>\'Play next\'&lt;/b> or &lt;b>\'in queue\'&lt;/b> as keywords.</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_off">Filter if matches.&lt;br>&lt;br>To hide the &lt;b>\'Play next in queue\'&lt;/b> menu, you can only use &lt;b>\'Play next in queue\'&lt;/b> as keywords.</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_title">Feed flyout menu filter</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_summary">List of flyout menu names to filter, separated by new lines.</string>
 
@@ -376,6 +383,7 @@ If the layout of the player screen changes due to server-side changes, unintende
 
     <string name="revanced_change_start_page_title">Change start page</string>
     <string name="revanced_change_start_page_entry_default">Default</string>
+    <string name="revanced_change_start_page_entry_all_subscriptions">All subscriptions</string>
     <string name="revanced_change_start_page_entry_browse">Browse channels</string>
     <string name="revanced_change_start_page_entry_courses">Courses / Learning</string>
     <string name="revanced_change_start_page_entry_explore">Explore</string>
@@ -389,6 +397,7 @@ If the layout of the player screen changes due to server-side changes, unintende
     <string name="revanced_change_start_page_entry_music">Music</string>
     <string name="revanced_change_start_page_entry_news">News</string>
     <string name="revanced_change_start_page_entry_notifications">Notifications</string>
+    <string name="revanced_change_start_page_entry_playlists">Playlists</string>
     <string name="revanced_change_start_page_entry_podcasts">Podcasts</string>
     <string name="revanced_change_start_page_entry_search">Search</string>
     <string name="revanced_change_start_page_entry_shopping">Shopping</string>
@@ -396,6 +405,7 @@ If the layout of the player screen changes due to server-side changes, unintende
     <string name="revanced_change_start_page_entry_sports">Sports</string>
     <string name="revanced_change_start_page_entry_subscriptions">Subscriptions</string>
     <string name="revanced_change_start_page_entry_trending">Trending</string>
+    <string name="revanced_change_start_page_entry_virtual_reality">Virtual Reality</string>
     <string name="revanced_change_start_page_entry_watch_later">Watch later</string>
     <string name="revanced_change_start_page_entry_your_clips">Your clips</string>
     <string name="revanced_change_start_page_type_title">Change start page type</string>
@@ -436,7 +446,9 @@ This does not bypass the age restriction. It just accepts it automatically."</st
     <string name="revanced_change_layout_entry_4">Tablet</string>
     <string name="revanced_change_layout_entry_5">Tablet (Min 600 dp)</string>
     <string name="revanced_change_live_ring_click_action_title">Change live ring click action</string>
-    <string name="revanced_change_live_ring_click_action_summary_on">Channel opens when the live ring is clicked.</string>
+    <string name="revanced_change_live_ring_click_action_summary_on">"Channel opens when the live ring is clicked.
+
+Limitation: When the Shorts live stream is opened in regular player due to the 'Open Shorts in regular player' setting, channel does not open."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">Live stream opens when the live ring is clicked.</string>
     <string name="revanced_spoof_app_version_title">Spoof app version</string>
     <string name="revanced_spoof_app_version_summary_on">Version spoofed</string>
@@ -465,6 +477,9 @@ If later turned off, it is recommended to clear the app data to prevent UI bugs.
     <string name="revanced_hide_account_menu_title">Hide account menu</string>
     <string name="revanced_hide_account_menu_summary">"Hide elements of the account menu and You tab.
 Some components may not be hidden."</string>
+    <string name="revanced_hide_account_menu_filter_type_title">Account menu filter type</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_on">Filter if contains.&lt;br>&lt;br>To hide the &lt;b>\'Get YouTube Premium\'&lt;/b> menu, you can use &lt;b>\'YouTube Premium\'&lt;/b> or &lt;b>\'Premium\'&lt;/b> as keywords.</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_off">Filter if matches.&lt;br>&lt;br>To hide the &lt;b>\'Get YouTube Premium\'&lt;/b> menu, you can only use &lt;b>\'Get YouTube Premium\'&lt;/b> as keywords.</string>
     <string name="revanced_hide_account_menu_filter_strings_title">Account menu filter</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">List of account menu names to filter, separated by new lines.</string>
     <string name="revanced_hide_handle_title">Hide handle</string>
@@ -511,58 +526,6 @@ Some components may not be hidden."</string>
     <string name="revanced_override_youtube_music_button_about_prerequisite_title">Prerequisite</string>
     <string name="revanced_override_youtube_music_button_about_prerequisite_summary">YouTube Music is required to override button action. Tap here to download YouTube Music.</string>
 
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
-    <string name="revanced_preference_screen_miniplayer_title">Miniplayer</string>
-    <string name="revanced_preference_screen_miniplayer_summary">Change the style of the in-app minimized player.</string>
-
-    <string name="revanced_miniplayer_type_title">Miniplayer type</string>
-    <string name="revanced_miniplayer_type_entry_0">Disabled</string>
-    <string name="revanced_miniplayer_type_entry_1">Original</string>
-    <string name="revanced_miniplayer_type_entry_2">Minimal</string>
-    <string name="revanced_miniplayer_type_entry_3">Tablet</string>
-    <string name="revanced_miniplayer_type_entry_4">Modern 1</string>
-    <string name="revanced_miniplayer_type_entry_5">Modern 2</string>
-    <string name="revanced_miniplayer_type_entry_6">Modern 3</string>
-    <string name="revanced_miniplayer_rounded_corners_title">Enable rounded corners</string>
-    <string name="revanced_miniplayer_rounded_corners_summary_on">Corners are rounded.</string>
-    <string name="revanced_miniplayer_rounded_corners_summary_off">Corners are square.</string>
-    <string name="revanced_miniplayer_double_tap_action_title">Enable double-tap and pinch to resize</string>
-    <string name="revanced_miniplayer_double_tap_action_summary_on">"Double-tap action and pinch to resize is enabled.
-
-• Double tap to increase miniplayer size.
-• Double tap again to restore original size."</string>
-    <string name="revanced_miniplayer_double_tap_action_summary_off">Double-tap action and pinch to resize is disabled.</string>
-    <string name="revanced_miniplayer_drag_and_drop_title">Enable drag and drop</string>
-    <string name="revanced_miniplayer_drag_and_drop_summary_on">"Drag and drop is enabled.
-
-Miniplayer can be dragged to any corner of the screen."</string>
-    <string name="revanced_miniplayer_drag_and_drop_summary_off">Drag and drop is disabled.</string>
-    <string name="revanced_miniplayer_horizontal_drag_title">Enable horizontal drag gesture.</string>
-    <string name="revanced_miniplayer_horizontal_drag_summary_on">"Horizontal drag gesture enabled.
-
-Miniplayer can be dragged off-screen to the left or right."</string>
-    <string name="revanced_miniplayer_horizontal_drag_summary_off">Horizontal drag gesture disabled.</string>
-    <string name="revanced_miniplayer_hide_expand_close_title">Hide close button</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_on">Close button is hidden.</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_off">Close button is shown.</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_title">Hide expand and close buttons</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_on">"Buttons are hidden.
-
-Swipe to expand or close."</string>
-    <string name="revanced_miniplayer_hide_expand_close_legacy_summary_off">Expand and close buttons are shown.</string>
-    <string name="revanced_miniplayer_hide_subtext_title">Hide subtexts</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_on">Subtexts are hidden.</string>
-    <string name="revanced_miniplayer_hide_subtext_summary_off">Subtexts are shown.</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_title">Hide skip forward and back buttons</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Skip forward and back are hidden.</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Skip forward and back are shown.</string>
-    <string name="revanced_miniplayer_width_dip_title">Initial size</string>
-    <string name="revanced_miniplayer_width_dip_summary">Initial on screen size, in pixels.</string>
-    <string name="revanced_miniplayer_width_dip_invalid_toast">Pixel size must be between %1$s and %2$s.</string>
-    <string name="revanced_miniplayer_opacity_title">Overlay opacity</string>
-    <string name="revanced_miniplayer_opacity_summary">Opacity value between 0-100, where 0 is transparent.</string>
-    <string name="revanced_miniplayer_opacity_invalid_toast">Miniplayer overlay opacity must be between 0-100.</string>
-
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_bar_title">Navigation bar</string>
     <string name="revanced_preference_screen_navigation_bar_summary">Hide or show navigation bar section components.</string>
@@ -605,6 +568,7 @@ If this setting do not take effect, try switching to Incognito mode."</string>
     <string name="revanced_enable_translucent_navigation_bar_title">Enable translucent navigation bar</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">Navigation bar is translucent.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">Navigation bar is opaque.</string>
+    <string name="revanced_enable_translucent_navigation_bar_user_dialog_message">In certain YouTube versions, this setting can make the system navigation bar transparent or the layout can be broken in PIP mode.</string>
     <string name="revanced_hide_navigation_bar_title">Hide navigation bar</string>
     <string name="revanced_hide_navigation_bar_summary_on">Navigation bar is hidden.</string>
     <string name="revanced_hide_navigation_bar_summary_off">Navigation bar is shown.</string>
@@ -868,42 +832,19 @@ Settings → Autoplay / Playback → Autoplay next video"</string>
     <string name="revanced_hide_thanks_button_summary_on">Thanks button is hidden.</string>
     <string name="revanced_hide_thanks_button_summary_off">Thanks button is shown.</string>
 
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index -->
-    <string name="revanced_preference_category_hide_by_index">Hide by index</string>
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Experimental flags -->
+    <string name="revanced_hide_action_button_index_title">Hide action button by index</string>
+    <string name="revanced_hide_action_button_index_summary_on">"Action buttons are hidden by index.
 
-    <string name="revanced_hide_action_button_index_0_title">Hide first button</string>
-    <string name="revanced_hide_action_button_index_0_summary_on">First button is hidden.</string>
-    <string name="revanced_hide_action_button_index_0_summary_off">First button is shown.</string>
-    <string name="revanced_hide_action_button_index_1_title">Hide second button</string>
-    <string name="revanced_hide_action_button_index_1_summary_on">Second button is hidden.</string>
-    <string name="revanced_hide_action_button_index_1_summary_off">Second button is shown.</string>
-    <string name="revanced_hide_action_button_index_2_title">Hide third button</string>
-    <string name="revanced_hide_action_button_index_2_summary_on">Third button is hidden.</string>
-    <string name="revanced_hide_action_button_index_2_summary_off">Third button is shown.</string>
-    <string name="revanced_hide_action_button_index_3_title">Hide fourth button</string>
-    <string name="revanced_hide_action_button_index_3_summary_on">Fourth button is hidden.</string>
-    <string name="revanced_hide_action_button_index_3_summary_off">Fourth button is shown.</string>
-    <string name="revanced_hide_action_button_index_4_title">Hide fifth button</string>
-    <string name="revanced_hide_action_button_index_4_summary_on">Fifth button is hidden.</string>
-    <string name="revanced_hide_action_button_index_4_summary_off">Fifth button is shown.</string>
-    <string name="revanced_hide_action_button_index_5_title">Hide sixth button</string>
-    <string name="revanced_hide_action_button_index_5_summary_on">Sixth button is hidden.</string>
-    <string name="revanced_hide_action_button_index_5_summary_off">Sixth button is shown.</string>
-    <string name="revanced_hide_action_button_index_6_title">Hide seventh button</string>
-    <string name="revanced_hide_action_button_index_6_summary_on">Seventh button is hidden.</string>
-    <string name="revanced_hide_action_button_index_6_summary_off">Seventh button is shown.</string>
-    <string name="revanced_hide_action_button_index_7_title">Hide eighth button</string>
-    <string name="revanced_hide_action_button_index_7_summary_on">Eighth button is hidden.</string>
-    <string name="revanced_hide_action_button_index_7_summary_off">Eighth button is shown.</string>
+Info:
+• Wrong action buttons may be hidden, or action buttons may not be hidden.
+• Hiding action buttons leaves no empty space."</string>
+    <string name="revanced_hide_action_button_index_summary_off">"Action buttons are hidden by identifier filter.
 
-    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Hide by index in live stream -->
-    <string name="revanced_preference_category_hide_by_index_live">Hide by index in live stream</string>
-
-    <string name="revanced_hide_action_button_index_about_title">About Hide action button by index</string>
-    <string name="revanced_hide_action_button_index_about_summary">"Hide the action buttons by index before the action buttons are initialized.
-
-- Hiding the action buttons leaves no empty space.
-- Index of the action buttons may not always be the same button."</string>
+Info:
+• Right action buttons are hidden.
+• Hiding action buttons leaves empty space."</string>
+    <string name="revanced_remix_button_index_title">Remix button index</string>
 
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Ambient mode</string>
@@ -1142,6 +1083,62 @@ Limitation: Video title disappears when clicked."</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_on">Haptic feedback is disabled.</string>
     <string name="revanced_disable_haptic_feedback_zoom_summary_off">Haptic feedback is enabled.</string>
 
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Miniplayer -->
+    <string name="revanced_preference_screen_miniplayer_title">Miniplayer</string>
+    <string name="revanced_preference_screen_miniplayer_summary">Hide or change components related to Miniplayer.</string>
+
+    <string name="revanced_disable_resuming_miniplayer_title">Disable resuming Miniplayer</string>
+    <string name="revanced_disable_resuming_miniplayer_summary_on">&lt;b>Continue watching&lt;/b> will not resume on app startup.</string>
+    <string name="revanced_disable_resuming_miniplayer_summary_off">&lt;b>Continue watching&lt;/b> will resume on app startup.&lt;br>&lt;br>Info:&lt;br>• &lt;b>Continue watching&lt;/b> is the YouTube Premium feature.&lt;br>• This setting does not force &lt;b>Continue watching&lt;/b> to be enabled.</string>
+    <string name="revanced_miniplayer_type_title">Miniplayer type</string>
+    <string name="revanced_miniplayer_type_entry_0">Disabled</string>
+    <string name="revanced_miniplayer_type_entry_1">Default</string>
+    <string name="revanced_miniplayer_type_entry_2">Minimal</string>
+    <string name="revanced_miniplayer_type_entry_3">Tablet</string>
+    <string name="revanced_miniplayer_type_entry_4">Modern 1</string>
+    <string name="revanced_miniplayer_type_entry_5">Modern 2</string>
+    <string name="revanced_miniplayer_type_entry_6">Modern 3</string>
+    <string name="revanced_miniplayer_type_entry_7">Modern 4</string>
+    <string name="revanced_miniplayer_rounded_corners_title">Enable rounded corners</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_on">Corners are rounded.</string>
+    <string name="revanced_miniplayer_rounded_corners_summary_off">Corners are square.</string>
+    <string name="revanced_miniplayer_double_tap_action_title">Enable double-tap and pinch to resize</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_on">"Double-tap action and pinch to resize is enabled.
+
+• Double tap to increase Miniplayer size.
+• Double tap again to restore original size."</string>
+    <string name="revanced_miniplayer_double_tap_action_summary_off">Double-tap action and pinch to resize is disabled.</string>
+    <string name="revanced_miniplayer_drag_and_drop_title">Enable drag and drop</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_on">"Drag and drop is enabled.
+
+Miniplayer can be dragged to any corner of the screen."</string>
+    <string name="revanced_miniplayer_drag_and_drop_summary_off">Drag and drop is disabled.</string>
+    <string name="revanced_miniplayer_horizontal_drag_title">Enable horizontal drag gesture.</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_on">"Horizontal drag gesture enabled.
+
+Miniplayer can be dragged off-screen to the left or right."</string>
+    <string name="revanced_miniplayer_horizontal_drag_summary_off">Horizontal drag gesture disabled.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_title">Hide overlay buttons</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_on">Overlay buttons are hidden.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_summary_off">Overlay buttons are shown.</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_title">Hide expand and close buttons</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_on">"Buttons are hidden.
+
+Swipe to expand or close."</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_off">Expand and close buttons are shown.</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_title">Hide skip forward and back buttons</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Skip forward and back are hidden.</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Skip forward and back are shown.</string>
+    <string name="revanced_miniplayer_hide_subtext_title">Hide subtexts</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_on">Subtexts are hidden.</string>
+    <string name="revanced_miniplayer_hide_subtext_summary_off">Subtexts are shown.</string>
+    <string name="revanced_miniplayer_width_dip_title">Initial size</string>
+    <string name="revanced_miniplayer_width_dip_summary">Initial on screen size, in pixels.</string>
+    <string name="revanced_miniplayer_width_dip_invalid_toast">Pixel size must be between %1$s and %2$s.</string>
+    <string name="revanced_miniplayer_opacity_title">Overlay opacity</string>
+    <string name="revanced_miniplayer_opacity_summary">Opacity value between 0-100, where 0 is transparent.</string>
+    <string name="revanced_miniplayer_opacity_invalid_toast">Miniplayer overlay opacity must be between 0-100.</string>
+
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Player buttons -->
     <string name="revanced_preference_screen_player_buttons_title">Player buttons</string>
     <string name="revanced_preference_screen_player_buttons_summary">Hide or show buttons in the video player.</string>
@@ -1254,9 +1251,11 @@ Tap and hold to toggle the appended information type."</string>
     <string name="revanced_enable_custom_seekbar_color_title">Enable custom seekbar color</string>
     <string name="revanced_enable_custom_seekbar_color_summary_on">Custom seekbar color is enabled.</string>
     <string name="revanced_enable_custom_seekbar_color_summary_off">Custom seekbar color is disabled.</string>
-    <string name="revanced_custom_seekbar_color_value_title">Custom seekbar color value</string>
-    <string name="revanced_custom_seekbar_color_value_summary">Type the hex code of the seekbar color.</string>
-    <string name="revanced_custom_seekbar_color_value_invalid_invalid_toast">Invalid seekbar color value.</string>
+    <string name="revanced_custom_seekbar_color_primary_title">Custom seekbar primary color</string>
+    <string name="revanced_custom_seekbar_color_primary_summary">Type the hex code of the seekbar primary color.</string>
+    <string name="revanced_custom_seekbar_color_accent_title">Custom seekbar accent color</string>
+    <string name="revanced_custom_seekbar_color_accent_summary">Type the hex code of the seekbar accent color.</string>
+    <string name="revanced_custom_seekbar_color_invalid_toast">Invalid seekbar color.</string>
     <string name="revanced_enable_seekbar_tapping_title">Enable seekbar tapping</string>
     <string name="revanced_enable_seekbar_tapping_summary_on">Seekbar tapping is enabled.</string>
     <string name="revanced_enable_seekbar_tapping_summary_off">Seekbar tapping is disabled.</string>
@@ -1328,10 +1327,6 @@ This feature works best with a very fast internet connection."</string>
     <string name="revanced_expand_video_description_title">Expand video descriptions</string>
     <string name="revanced_expand_video_description_summary_on">Video descriptions are expanded automatically.</string>
     <string name="revanced_expand_video_description_summary_off">Video descriptions are not expanded automatically.</string>
-    <string name="revanced_expand_video_description_strings_title">Title in video description panel</string>
-    <string name="revanced_expand_video_description_strings_summary">"Enter the title of the video description panel in your language.
-The Expand video description option may not work if the entered string does not match the video description panel title."</string>
-    <string name="revanced_expand_video_description_strings_default_value">Description</string>
 
 
     <!-- PreferenceScreen: Shorts -->

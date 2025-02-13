@@ -58,7 +58,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": []
@@ -99,7 +99,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": []
@@ -138,7 +138,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": []
@@ -171,7 +171,7 @@
       "Settings for YouTube",
       "ResourcePatch",
       "BytecodePatch",
-      "BytecodePatch"
+      "ResourcePatch"
     ],
     "compatiblePackages": {
       "com.google.android.youtube": [
@@ -192,7 +192,10 @@
     "use": false,
     "dependencies": [],
     "compatiblePackages": {
-      "com.reddit.frontpage": null
+      "com.reddit.frontpage": [
+        "2024.17.0",
+        "2025.05.1"
+      ]
     },
     "options": [
       {
@@ -247,7 +250,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": []
@@ -289,7 +292,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": []
@@ -445,7 +448,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": [
@@ -491,7 +494,10 @@
     "use": false,
     "dependencies": [],
     "compatiblePackages": {
-      "com.reddit.frontpage": null
+      "com.reddit.frontpage": [
+        "2024.17.0",
+        "2025.05.1"
+      ]
     },
     "options": [
       {
@@ -558,7 +564,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": [
@@ -670,7 +676,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": [
@@ -702,7 +708,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": [
@@ -741,6 +747,7 @@
     "use": true,
     "dependencies": [
       "Settings for YouTube",
+      "BytecodePatch",
       "BytecodePatch",
       "BytecodePatch",
       "BytecodePatch",
@@ -795,7 +802,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": []
@@ -836,7 +843,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": []
@@ -877,7 +884,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": []
@@ -940,7 +947,27 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
+      ]
+    },
+    "options": []
+  },
+  {
+    "name": "Disable resuming Miniplayer on startup",
+    "description": "Adds an option to disable the Miniplayer \u0027Continue watching\u0027 from resuming on app startup.",
+    "use": true,
+    "dependencies": [
+      "Settings for YouTube"
+    ],
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.29.38",
+        "18.33.40",
+        "18.38.44",
+        "18.48.39",
+        "19.05.36",
+        "19.16.39",
+        "19.44.39"
       ]
     },
     "options": []
@@ -974,7 +1001,10 @@
       "Settings for Reddit"
     ],
     "compatiblePackages": {
-      "com.reddit.frontpage": null
+      "com.reddit.frontpage": [
+        "2024.17.0",
+        "2025.05.1"
+      ]
     },
     "options": []
   },
@@ -1015,7 +1045,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": []
@@ -1056,7 +1086,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": []
@@ -1117,7 +1147,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": []
@@ -1144,7 +1174,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": []
@@ -1212,7 +1242,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": [
@@ -1336,7 +1366,10 @@
       "Settings for Reddit"
     ],
     "compatiblePackages": {
-      "com.reddit.frontpage": null
+      "com.reddit.frontpage": [
+        "2024.17.0",
+        "2025.05.1"
+      ]
     },
     "options": []
   },
@@ -1344,6 +1377,26 @@
     "name": "Hide Shorts dimming",
     "description": "Removes, at compile time, the dimming effect at the top and bottom of Shorts videos.",
     "use": false,
+    "dependencies": [
+      "Settings for YouTube"
+    ],
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.29.38",
+        "18.33.40",
+        "18.38.44",
+        "18.48.39",
+        "19.05.36",
+        "19.16.39",
+        "19.44.39"
+      ]
+    },
+    "options": []
+  },
+  {
+    "name": "Hide accessibility controls dialog",
+    "description": "Removes, at compile time, accessibility controls dialog \u0027Turn on accessibility controls for the video player?\u0027.",
+    "use": true,
     "dependencies": [
       "Settings for YouTube"
     ],
@@ -1376,7 +1429,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": []
@@ -1390,6 +1443,7 @@
       "BytecodePatch",
       "ResourcePatch",
       "BytecodePatch",
+      "BytecodePatch",
       "ResourcePatch"
     ],
     "compatiblePackages": {
@@ -1400,7 +1454,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": []
@@ -1411,6 +1465,7 @@
     "use": true,
     "dependencies": [
       "Settings for YouTube",
+      "BytecodePatch",
       "BytecodePatch",
       "BytecodePatch"
     ],
@@ -1425,17 +1480,7 @@
         "19.44.39"
       ]
     },
-    "options": [
-      {
-        "key": "hideActionButtonByIndex",
-        "title": "Hide action buttons by index",
-        "description": "Add an option to hide action buttons by index.\n\nThis setting is still experimental, so use it only for debugging purposes.",
-        "required": true,
-        "type": "kotlin.Boolean",
-        "default": false,
-        "values": null
-      }
-    ]
+    "options": []
   },
   {
     "name": "Hide ads",
@@ -1446,6 +1491,8 @@
       "BytecodePatch",
       "BytecodePatch",
       "Navigation bar components",
+      "BytecodePatch",
+      "ResourcePatch",
       "ResourcePatch"
     ],
     "compatiblePackages": {
@@ -1456,7 +1503,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": []
@@ -1466,12 +1513,13 @@
     "description": "Adds options to hide ads.",
     "use": true,
     "dependencies": [
-      "Settings for Reddit",
-      "ResourcePatch",
-      "BytecodePatch"
+      "Settings for Reddit"
     ],
     "compatiblePackages": {
-      "com.reddit.frontpage": null
+      "com.reddit.frontpage": [
+        "2024.17.0",
+        "2025.05.1"
+      ]
     },
     "options": []
   },
@@ -1590,7 +1638,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": []
@@ -1628,7 +1676,10 @@
       "Settings for Reddit"
     ],
     "compatiblePackages": {
-      "com.reddit.frontpage": null
+      "com.reddit.frontpage": [
+        "2024.17.0",
+        "2025.05.1"
+      ]
     },
     "options": []
   },
@@ -1648,7 +1699,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": []
@@ -1714,7 +1765,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": []
@@ -1727,7 +1778,10 @@
       "Settings for Reddit"
     ],
     "compatiblePackages": {
-      "com.reddit.frontpage": null
+      "com.reddit.frontpage": [
+        "2024.17.0",
+        "2025.05.1"
+      ]
     },
     "options": []
   },
@@ -1891,7 +1945,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": []
@@ -1929,7 +1983,10 @@
       "BytecodePatch"
     ],
     "compatiblePackages": {
-      "com.reddit.frontpage": null
+      "com.reddit.frontpage": [
+        "2024.17.0",
+        "2025.05.1"
+      ]
     },
     "options": []
   },
@@ -1942,7 +1999,10 @@
       "BytecodePatch"
     ],
     "compatiblePackages": {
-      "com.reddit.frontpage": null
+      "com.reddit.frontpage": [
+        "2024.17.0",
+        "2025.05.1"
+      ]
     },
     "options": []
   },
@@ -2057,7 +2117,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": []
@@ -2076,7 +2136,8 @@
       "BytecodePatch",
       "BytecodePatch",
       "BytecodePatch",
-      "ResourcePatch"
+      "ResourcePatch",
+      "BytecodePatch"
     ],
     "compatiblePackages": {
       "com.google.android.youtube": [
@@ -2097,7 +2158,10 @@
     "use": true,
     "dependencies": [],
     "compatiblePackages": {
-      "com.reddit.frontpage": null
+      "com.reddit.frontpage": [
+        "2024.17.0",
+        "2025.05.1"
+      ]
     },
     "options": []
   },
@@ -2116,7 +2180,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": []
@@ -2127,7 +2191,8 @@
     "use": true,
     "dependencies": [
       "BytecodePatch",
-      "Settings for YouTube"
+      "Settings for YouTube",
+      "ResourcePatch"
     ],
     "compatiblePackages": {
       "com.google.android.youtube": [
@@ -2150,7 +2215,10 @@
       "Settings for Reddit"
     ],
     "compatiblePackages": {
-      "com.reddit.frontpage": null
+      "com.reddit.frontpage": [
+        "2024.17.0",
+        "2025.05.1"
+      ]
     },
     "options": []
   },
@@ -2170,7 +2238,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": []
@@ -2211,7 +2279,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": []
@@ -2232,7 +2300,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": []
@@ -2278,7 +2346,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": []
@@ -2320,7 +2388,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": []
@@ -2333,7 +2401,10 @@
       "Settings for Reddit"
     ],
     "compatiblePackages": {
-      "com.reddit.frontpage": null
+      "com.reddit.frontpage": [
+        "2024.17.0",
+        "2025.05.1"
+      ]
     },
     "options": []
   },
@@ -2393,17 +2464,23 @@
       "BytecodePatch"
     ],
     "compatiblePackages": {
-      "com.reddit.frontpage": null
+      "com.reddit.frontpage": [
+        "2024.17.0",
+        "2025.05.1"
+      ]
     },
     "options": [
       {
-        "key": "settingsLabel",
+        "key": "rvxSettingsLabel",
         "title": "RVX settings menu name",
         "description": "The name of the RVX settings menu.",
         "required": true,
         "type": "kotlin.String",
-        "default": "ReVanced Extended",
-        "values": null
+        "default": "RVX",
+        "values": {
+          "ReVanced Extended": "ReVanced Extended",
+          "RVX": "RVX"
+        }
       }
     ]
   },
@@ -2413,7 +2490,7 @@
     "use": true,
     "dependencies": [
       "BytecodePatch",
-      "BytecodePatch",
+      "ResourcePatch",
       "ResourcePatch",
       "BytecodePatch",
       "BytecodePatch"
@@ -2463,13 +2540,16 @@
         }
       },
       {
-        "key": "settingsLabel",
+        "key": "rvxSettingsLabel",
         "title": "RVX settings label",
         "description": "The name of the RVX settings menu.",
         "required": true,
         "type": "kotlin.String",
-        "default": "ReVanced Extended",
-        "values": null
+        "default": "RVX",
+        "values": {
+          "ReVanced Extended": "ReVanced Extended",
+          "RVX": "RVX"
+        }
       }
     ]
   },
@@ -2488,18 +2568,21 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": [
       {
-        "key": "settingsLabel",
+        "key": "rvxSettingsLabel",
         "title": "RVX settings label",
         "description": "The name of the RVX settings menu.",
         "required": true,
         "type": "kotlin.String",
-        "default": "ReVanced Extended",
-        "values": null
+        "default": "RVX",
+        "values": {
+          "ReVanced Extended": "ReVanced Extended",
+          "RVX": "RVX"
+        }
       }
     ]
   },
@@ -2564,6 +2647,15 @@
         "required": true,
         "type": "kotlin.String",
         "default": "8.0dip",
+        "values": null
+      },
+      {
+        "key": "applyCornerRadiusToPlaylistBottomBar",
+        "title": "Apply corner radius to playlist bottom bar",
+        "description": "Whether to apply the same corner radius to the bottom bar of the playlist as the snack bar.",
+        "required": true,
+        "type": "kotlin.Boolean",
+        "default": false,
         "values": null
       },
       {
@@ -2635,7 +2727,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": []
@@ -2673,20 +2765,26 @@
     ]
   },
   {
+    "name": "Spoof Wi-Fi connection",
+    "description": "Spoofs an existing Wi-Fi connection.",
+    "use": false,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "compatiblePackages": null,
+    "options": []
+  },
+  {
     "name": "Spoof app version",
-    "description": "Adds options to spoof the YouTube Music client version. This can remove the radio mode restriction in Canadian regions or disable real-time lyrics.",
+    "description": "Adds options to spoof the YouTube Music client version. This can be used to restore old UI elements and features.",
     "use": true,
     "dependencies": [
       "BytecodePatch",
-      "Restore old style library shelf",
       "Settings for YouTube Music",
       "ResourcePatch"
     ],
     "compatiblePackages": {
       "com.google.android.apps.youtube.music": [
-        "6.20.51",
-        "6.29.59",
-        "6.42.55",
         "6.51.53",
         "7.16.53"
       ]
@@ -2719,29 +2817,12 @@
   {
     "name": "Spoof client",
     "description": "Adds options to spoof the client to allow playback.",
-    "use": false,
-    "dependencies": [
-      "Settings for YouTube Music",
-      "ResourcePatch"
-    ],
-    "compatiblePackages": {
-      "com.google.android.apps.youtube.music": [
-        "6.20.51",
-        "6.29.59",
-        "6.42.55",
-        "6.51.53",
-        "7.16.53"
-      ]
-    },
-    "options": []
-  },
-  {
-    "name": "Spoof streaming data",
-    "description": "Adds options to spoof the streaming data to allow playback.",
     "use": true,
     "dependencies": [
-      "BytecodePatch",
       "Settings for YouTube Music",
+      "ResourcePatch",
+      "BytecodePatch",
+      "ResourcePatch",
       "BytecodePatch"
     ],
     "compatiblePackages": {
@@ -2752,7 +2833,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": []
@@ -2762,8 +2843,10 @@
     "description": "Adds options to spoof the streaming data to allow playback.",
     "use": true,
     "dependencies": [
+      "Settings for YouTube",
       "BytecodePatch",
-      "Settings for YouTube"
+      "BytecodePatch",
+      "BytecodePatch"
     ],
     "compatiblePackages": {
       "com.google.android.youtube": [
@@ -2949,7 +3032,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": [
@@ -2999,7 +3082,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": []
@@ -3094,7 +3177,7 @@
         "6.51.53",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": [
@@ -3114,6 +3197,27 @@
         }
       }
     ]
+  },
+  {
+    "name": "Watch history",
+    "description": "Adds an option to change the domain of the watch history or check its status.",
+    "use": true,
+    "dependencies": [
+      "Settings for YouTube Music",
+      "BytecodePatch"
+    ],
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "6.20.51",
+        "6.29.59",
+        "6.42.55",
+        "6.51.53",
+        "7.16.53",
+        "7.25.53",
+        "8.05.51"
+      ]
+    },
+    "options": []
   },
   {
     "name": "Watch history",

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">Mulai ulang untuk memuat layout secara normal</string>
     <string name="revanced_extended_restart_message">Refresh dan mulai ulang</string>
@@ -27,10 +26,10 @@
     <string name="revanced_hide_action_button_add_to_playlist_summary">Menyembunyikan tombol Simpan.</string>
     <string name="revanced_hide_action_button_download_title">Sembunyikan tombol Unduh</string>
     <string name="revanced_hide_action_button_download_summary">Menyembunyikan tombol Unduh.</string>
-    <string name="revanced_hide_action_button_share_title">Sembunyikan tombol Bagikan</string>
-    <string name="revanced_hide_action_button_share_summary">Menyembunyikan tombol Bagikan.</string>
     <string name="revanced_hide_action_button_radio_title">Sembunyikan tombol Radio</string>
     <string name="revanced_hide_action_button_radio_summary">Menyembunyikan tombol Radio.</string>
+    <string name="revanced_hide_action_button_share_title">Sembunyikan tombol Bagikan</string>
+    <string name="revanced_hide_action_button_share_summary">Menyembunyikan tombol Bagikan.</string>
     <string name="revanced_hide_action_button_label_title">Sembunyikan tombol bilah tindakan</string>
     <string name="revanced_hide_action_button_label_summary">Menyembunyikan bilah dari tombol tindakan.</string>
     <string name="revanced_external_downloader_action_title">Ganti tombol tindakan Unduh</string>
@@ -48,7 +47,6 @@ Download %2$s dari website."</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Iklan</string>
     <string name="revanced_hide_fullscreen_ads_title">Sembunyikan iklan fullscreen</string>
-    <string name="revanced_hide_fullscreen_ads_summary">"Menyembunyikan iklan fullscreen."</string>
     <string name="revanced_hide_general_ads_title">Sembunyikan Iklan Umum</string>
     <string name="revanced_hide_general_ads_summary">Menyembunyikan Iklan Umum.</string>
     <string name="revanced_hide_music_ads_title">Sembunyikan iklan musik</string>
@@ -115,11 +113,8 @@ Masalah yang diketahui:
     <string name="revanced_preference_screen_general_title">Umum</string>
     <string name="revanced_change_start_page_title">Ganti Halaman Awal</string>
     <string name="revanced_change_start_page_summary">Select which page the app opens in.</string>
-    <string name="revanced_change_start_page_entry_chart">Charts</string>
     <string name="revanced_change_start_page_entry_explore">Jelajahi</string>
-    <string name="revanced_change_start_page_entry_home">Beranda</string>
     <string name="revanced_change_start_page_entry_library">Koleksi</string>
-    <string name="revanced_change_start_page_entry_subscription">Berlangganan</string>
     <string name="revanced_disable_dislike_redirection_title">Disable dislike redirection</string>
     <string name="revanced_disable_dislike_redirection_summary">Disables redirection to the next track when clicking the Dislike button.</string>
     <string name="revanced_disable_auto_captions_title">Nonaktifkan teks otomatis paksa</string>
@@ -168,8 +163,7 @@ This does not bypass the age restriction. It just accepts it automatically."</st
 • Jika nanti dinonaktifkan, UI lama mungkin tetap ada hingga aplikasi dihapus data."</string>
     <string name="revanced_spoof_app_version_target_title">Target pemalsuan versi aplikasi</string>
     <string name="revanced_spoof_app_version_target_summary">Pilih target pemalsuan versi aplikasi.</string>
-    <string name="revanced_spoof_app_version_target_entry_4_27_53">4.27.53 - Nonaktifkan mode radio di wilayah Kanada</string>
-    <string name="revanced_spoof_app_version_target_entry_6_11_52">6.11.52 - Matikan Lirik real-time</string>
+    <string name="revanced_spoof_app_version_target_entry_6_42_55"></string>
     <!-- PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_title">Bilah Navigasi</string>
     <string name="revanced_hide_navigation_home_button_title">Hide Home button</string>
@@ -188,22 +182,8 @@ This does not bypass the age restriction. It just accepts it automatically."</st
     <string name="revanced_hide_navigation_label_summary">Menyembunyikan label di bilah navigasi.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Player</string>
-    <string name="revanced_enable_mini_player_next_button_title">Add miniplayer next button</string>
-    <string name="revanced_enable_mini_player_next_button_summary">Adds a next track button to the miniplayer.</string>
-    <string name="revanced_enable_mini_player_previous_button_title">Add miniplayer previous button</string>
-    <string name="revanced_enable_mini_player_previous_button_summary">Adds a previous track button to the miniplayer.</string>
-    <string name="revanced_enable_color_match_player_title">Aktifkan pencocokan warna pemutar</string>
-    <string name="revanced_enable_color_match_player_summary">Mencocokkan warna pemutar layar penuh dengan yang diperkecil.</string>
-    <string name="revanced_enable_black_player_background_title">Enable black player background</string>
-    <string name="revanced_enable_black_player_background_summary">Changes the player background color to black.</string>
-    <string name="revanced_disable_mini_player_gesture_title">Nonaktifkan gerakan miniplayer</string>
-    <string name="revanced_disable_mini_player_gesture_summary">Nonaktifkan gesekan untuk mengubah trek di miniplayer.</string>
     <string name="revanced_disable_player_gesture_title">Menonaktifkan gerakan pemutar</string>
     <string name="revanced_disable_player_gesture_summary">Nonaktifkan usap untuk mengubah trek di pemutar.</string>
-    <string name="revanced_enable_force_minimized_player_title">Aktifkan pemutar yang diminimalkan paksa</string>
-    <string name="revanced_enable_force_minimized_player_summary">Mempertahankan pemutar agar tetap diminimalkan secara permanen meskipun trek lain diputar.</string>
-    <string name="revanced_enable_swipe_to_dismiss_mini_player_title">Enable swipe to dismiss miniplayer</string>
-    <string name="revanced_enable_swipe_to_dismiss_mini_player_summary">Enables swipe down to dismiss miniplayer.</string>
     <string name="revanced_enable_zen_mode_title">Aktifkan mode zen</string>
     <string name="revanced_enable_zen_mode_summary">Menambahkan rona abu-abu ke pemutar video untuk mengurangi ketegangan mata.</string>
     <string name="revanced_enable_zen_mode_podcast_title">Enable Zen mode in podcasts</string>
@@ -216,8 +196,6 @@ This does not bypass the age restriction. It just accepts it automatically."</st
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">Hides the timestamp and emoji buttons when typing comments.</string>
     <string name="revanced_hide_fullscreen_share_button_title">Hide fullscreen Share button</string>
     <string name="revanced_hide_fullscreen_share_button_summary">Hides the Share button in the fullscreen player.</string>
-    <string name="revanced_hide_audio_video_switch_toggle_title">Hide Audio / Video toggle</string>
-    <string name="revanced_hide_audio_video_switch_toggle_summary">Hides the Audio / Video toggle in the player.</string>
     <string name="revanced_remember_repeat_state_title">Ingat keadaan pengulangan</string>
     <string name="revanced_remember_repeat_state_summary">Mengingat keadaan pengulangan.</string>
     <string name="revanced_remember_shuffle_state_title">Ingat keadaan pengacakan</string>

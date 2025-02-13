@@ -79,7 +79,7 @@ private val settingsBytecodePatch = bytecodePatch(
 }
 
 private const val DEFAULT_ELEMENT = "@string/about_key"
-private const val DEFAULT_LABEL = "ReVanced Extended"
+private const val DEFAULT_LABEL = "RVX"
 
 private val SETTINGS_ELEMENTS_MAP = mapOf(
     "Parent settings" to "@string/parent_tools_key",
@@ -106,7 +106,7 @@ private val SETTINGS_ELEMENTS_MAP = mapOf(
     "About" to DEFAULT_ELEMENT
 )
 
-private lateinit var customName: String
+private lateinit var settingsLabel: String
 
 val settingsPatch = resourcePatch(
     SETTINGS_FOR_YOUTUBE.title,
@@ -131,9 +131,13 @@ val settingsPatch = resourcePatch(
         required = true,
     )
 
-    val settingsLabel = stringOption(
-        key = "settingsLabel",
+    val rvxSettingsLabel = stringOption(
+        key = "rvxSettingsLabel",
         default = DEFAULT_LABEL,
+        values = mapOf(
+            "ReVanced Extended" to "ReVanced Extended",
+            "RVX" to DEFAULT_LABEL,
+        ),
         title = "RVX settings label",
         description = "The name of the RVX settings menu.",
         required = true,
@@ -143,7 +147,7 @@ val settingsPatch = resourcePatch(
         /**
          * check patch options
          */
-        customName = settingsLabel
+        settingsLabel = rvxSettingsLabel
             .valueOrThrow()
 
         val insertKey = insertPosition
@@ -219,22 +223,21 @@ val settingsPatch = resourcePatch(
         /**
          * remove ReVanced Extended Settings divider
          */
-        arrayOf("Theme.YouTube.Settings", "Theme.YouTube.Settings.Dark").forEach { themeName ->
-            document("res/values/styles.xml").use { document ->
-                with(document) {
-                    val resourcesNode = getElementsByTagName("resources").item(0) as Element
+        document("res/values/styles.xml").use { document ->
+            val themeNames = arrayOf("Theme.YouTube.Settings", "Theme.YouTube.Settings.Dark")
+            with(document) {
+                val resourcesNode = documentElement
+                val childNodes = resourcesNode.childNodes
 
-                    val newElement: Element = createElement("item")
-                    newElement.setAttribute("name", "android:listDivider")
+                for (i in 0 until childNodes.length) {
+                    val node = childNodes.item(i) as? Element ?: continue
 
-                    for (i in 0 until resourcesNode.childNodes.length) {
-                        val node = resourcesNode.childNodes.item(i) as? Element ?: continue
-
-                        if (node.getAttribute("name") == themeName) {
-                            newElement.appendChild(createTextNode("@null"))
-
-                            node.appendChild(newElement)
+                    if (node.getAttribute("name") in themeNames) {
+                        val newElement = createElement("item").apply {
+                            setAttribute("name", "android:listDivider")
+                            appendChild(createTextNode("@null"))
                         }
+                        node.appendChild(newElement)
                     }
                 }
             }
@@ -258,13 +261,13 @@ val settingsPatch = resourcePatch(
          * change RVX settings menu name
          * since it must be invoked after the Translations patch, it must be the last in the order.
          */
-        if (customName != DEFAULT_LABEL) {
+        if (settingsLabel != DEFAULT_LABEL) {
             removeStringsElements(
                 arrayOf("revanced_extended_settings_title")
             )
             document("res/values/strings.xml").use { document ->
                 mapOf(
-                    "revanced_extended_settings_title" to customName
+                    "revanced_extended_settings_title" to settingsLabel
                 ).forEach { (k, v) ->
                     val stringElement = document.createElement("string")
 

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Shared -->
-    <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_reset_to_default_toast">Restablecer a valores por defecto.</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">Reiniciar para cargar el diseño normalmente</string>
@@ -28,10 +27,10 @@
     <string name="revanced_hide_action_button_add_to_playlist_summary">Oculta botón Guardar.</string>
     <string name="revanced_hide_action_button_download_title">Ocultar botón Descargar</string>
     <string name="revanced_hide_action_button_download_summary">Oculta el botón Descargar.</string>
-    <string name="revanced_hide_action_button_share_title">Ocultar botón de compartir</string>
-    <string name="revanced_hide_action_button_share_summary">Oculta el botón Compartir.</string>
     <string name="revanced_hide_action_button_radio_title">Ocultar botón de emisoras de radio</string>
     <string name="revanced_hide_action_button_radio_summary">Oculta el botón Radio.</string>
+    <string name="revanced_hide_action_button_share_title">Ocultar botón de compartir</string>
+    <string name="revanced_hide_action_button_share_summary">Oculta el botón Compartir.</string>
     <string name="revanced_hide_action_button_label_title">Ocultar etiquetas de botón de acción</string>
     <string name="revanced_hide_action_button_label_summary">Oculta las etiquetas de los botones de acción.</string>
     <string name="revanced_external_downloader_action_title">Reemplazar botón de acción de Descarga</string>
@@ -49,7 +48,6 @@ Descarga %2$s desde el sitio web."</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Anuncios</string>
     <string name="revanced_hide_fullscreen_ads_title">Ocultar anuncios en pantalla completa</string>
-    <string name="revanced_hide_fullscreen_ads_summary">"Oculta anuncios en pantalla completa."</string>
     <string name="revanced_hide_general_ads_title">Ocultar anuncios generales</string>
     <string name="revanced_hide_general_ads_summary">Oculta anuncios generales.</string>
     <string name="revanced_hide_music_ads_title">Ocultar anuncios de música</string>
@@ -120,11 +118,17 @@ Problemas conocidos:
     <string name="revanced_preference_screen_general_title">General</string>
     <string name="revanced_change_start_page_title">Cambiar página de inicio</string>
     <string name="revanced_change_start_page_summary">Seleccione en qué página se abre la aplicación.</string>
-    <string name="revanced_change_start_page_entry_chart">Ranking</string>
+    <string name="revanced_change_start_page_entry_default">Predeterminado</string>
+    <string name="revanced_change_start_page_entry_charts">Ranking</string>
+    <string name="revanced_change_start_page_entry_episodes_for_later">Episodios para luego</string>
     <string name="revanced_change_start_page_entry_explore">Explorar</string>
-    <string name="revanced_change_start_page_entry_home">Inicio</string>
+    <string name="revanced_change_start_page_entry_history">Historial</string>
     <string name="revanced_change_start_page_entry_library">Biblioteca</string>
-    <string name="revanced_change_start_page_entry_subscription">Suscripciones</string>
+    <string name="revanced_change_start_page_entry_liked_music">Música \"Me gusta\"</string>
+    <string name="revanced_change_start_page_entry_podcasts">Pódcasts</string>
+    <string name="revanced_change_start_page_entry_samples">Muestras</string>
+    <string name="revanced_change_start_page_entry_search">Buscar</string>
+    <string name="revanced_change_start_page_entry_subscriptions">Suscripciones</string>
     <string name="revanced_disable_dislike_redirection_title">Desactivar redirección de No me Gusta</string>
     <string name="revanced_disable_dislike_redirection_summary">Deshabilita la redirección a la siguiente pista al hacer clic en el botón No me Gusta.</string>
     <string name="revanced_disable_auto_captions_title">Desactivar subtítulos automáticos</string>
@@ -173,11 +177,11 @@ Esto no evita la restricción de edad. Solo la acepta automáticamente."</string
 - Si más tarde se desactiva, la antigua interfaz de usuario puede permanecer hasta que se borren los datos de la aplicación."</string>
     <string name="revanced_spoof_app_version_target_title">Objetivo de la versión de la app a modificar</string>
     <string name="revanced_spoof_app_version_target_summary">Seleccione el objetivo de la versión de la app a modificar.</string>
-    <string name="revanced_spoof_app_version_target_entry_4_27_53">4.27.53 - Desactivar el modo radio en las regiones canadienses</string>
-    <string name="revanced_spoof_app_version_target_entry_6_11_52">6.11.52 - Desactivar letras en tiempo real</string>
+    <string name="revanced_spoof_app_version_target_entry_6_42_55">6.42.55 - Desactivar letras en tiempo real</string>
     <string name="revanced_spoof_app_version_target_entry_7_16_53">7.16.53 - Restaurar la antigua barra de acción</string>
     <!-- PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_title">Barra de navegación</string>
+    <string name="revanced_enable_custom_navigation_bar_color_title">Activar color personalizado de la barra de navegación</string>
     <string name="revanced_hide_navigation_home_button_title">Ocultar botón de Inicio</string>
     <string name="revanced_hide_navigation_home_button_summary">Oculta el botón de Inicio.</string>
     <string name="revanced_hide_navigation_samples_button_title">Ocultar botón de Samples</string>
@@ -194,22 +198,8 @@ Esto no evita la restricción de edad. Solo la acepta automáticamente."</string
     <string name="revanced_hide_navigation_label_summary">Oculta las etiquetas en la barra de navegación.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Reproductor</string>
-    <string name="revanced_enable_mini_player_next_button_title">Añadir botón siguiente al minireproductor</string>
-    <string name="revanced_enable_mini_player_next_button_summary">Añadir botón siguiente pista al minireproductor.</string>
-    <string name="revanced_enable_mini_player_previous_button_title">Añadir botón anterior al minireproductor</string>
-    <string name="revanced_enable_mini_player_previous_button_summary">Añadir botón pista anterior al minireproductor.</string>
-    <string name="revanced_enable_color_match_player_title">Activar coincidencia de color de reproductores</string>
-    <string name="revanced_enable_color_match_player_summary">Hace coincidir el color del reproductor a pantalla completa con el de minimizado.</string>
-    <string name="revanced_enable_black_player_background_title">Activar fondo de reproductor negro</string>
-    <string name="revanced_enable_black_player_background_summary">Cambia el color de fondo del reproductor a negro.</string>
-    <string name="revanced_disable_mini_player_gesture_title">Desactivar gesto de minireproductor</string>
-    <string name="revanced_disable_mini_player_gesture_summary">Desactivar el gesto de deslizar para cambiar de pista en el minireproductor.</string>
     <string name="revanced_disable_player_gesture_title">Desactivar gesto del reproductor</string>
     <string name="revanced_disable_player_gesture_summary">Desactivar el gesto de deslizar para cambiar de pista en el reproductor.</string>
-    <string name="revanced_enable_force_minimized_player_title">Activar reproductor minimizado forzado</string>
-    <string name="revanced_enable_force_minimized_player_summary">Mantiene el reproductor permanentemente minimizado incluso si se reproduce otra pista.</string>
-    <string name="revanced_enable_swipe_to_dismiss_mini_player_title">Activar deslizar para descartar el minireproductor</string>
-    <string name="revanced_enable_swipe_to_dismiss_mini_player_summary">Permite deslizar hacia abajo para descartar el minireproductor.</string>
     <string name="revanced_enable_zen_mode_title">Activar modo zen</string>
     <string name="revanced_enable_zen_mode_summary">Añade un tinte gris al reproductor de vídeo para reducir la fatiga visual.</string>
     <string name="revanced_enable_zen_mode_podcast_title">Activar el modo Zen en podcasts</string>
@@ -222,8 +212,6 @@ Esto no evita la restricción de edad. Solo la acepta automáticamente."</string
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">Oculta los botones marca de tiempo y emoji al escribir comentarios.</string>
     <string name="revanced_hide_fullscreen_share_button_title">Ocultar el botón Compartir en pantalla completa</string>
     <string name="revanced_hide_fullscreen_share_button_summary">Oculta el botón Compartir en el reproductor de pantalla completa.</string>
-    <string name="revanced_hide_audio_video_switch_toggle_title">Ocultar Interruptor de Audio / Video</string>
-    <string name="revanced_hide_audio_video_switch_toggle_summary">Oculta el interruptor de Audio / Video en el reproductor.</string>
     <string name="revanced_remember_repeat_state_title">Recordar estado de repetición</string>
     <string name="revanced_remember_repeat_state_summary">Recuerda el estado de la repetición.</string>
     <string name="revanced_remember_shuffle_state_title">Recordar estado aleatorio</string>
@@ -404,29 +392,10 @@ Se usa una instancia redireccionada, pero la API puede no estar disponible en al
     <string name="revanced_sanitize_sharing_links_title">Desinfectar enlaces compartidos</string>
     <string name="revanced_sanitize_sharing_links_summary">Elimina los parámetros de consulta de seguimiento de las URL al compartir enlaces.</string>
     <string name="revanced_spoof_client_title">Falsificar cliente</string>
-    <string name="revanced_spoof_client_summary">"\"falsifica al cliente para evitar problemas de reproducción.
-
-Limitaciones:
-• Código de audio OPUS puede no ser compatible.
-• La miniatura de la barra de Seekbar puede no estar presente.
-• El historial de la vista no funciona con una cuenta de marca."</string>
     <string name="revanced_spoof_client_type_title">Cliente por defecto</string>
-    <string name="revanced_spoof_client_type_summary">"Define un cliente predeterminado a falsear.
-
-※ Al usar el cliente Android, se recomienda usarlo con 'Versión de aplicación Spoof'."</string>
     <string name="revanced_spoof_client_type_entry_android_music_4_27">Android Music 4.27.53</string>
     <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
     <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>
-    <string name="revanced_spoof_streaming_data_title">Falsificar datos de transmisión</string>
-    <string name="revanced_spoof_streaming_data_summary">"Falsificar los datos de streaming para evitar problemas de reproducción.
-
-※ Cuando se utiliza con 'Cliente de spoof', problemas de reproducción pueden producirse."</string>
-    <string name="revanced_spoof_streaming_data_type_title">Cliente por defecto</string>
-    <string name="revanced_spoof_streaming_data_type_summary">Define un cliente por defecto que obtiene datos de streaming.</string>
-    <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Mostrar en estadísticas para nerds</string>
-    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary">Muestra el cliente utilizado para obtener datos de streaming en Estadísticas para nerds.</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_music">Android Music</string>
     <string name="revanced_default_app_settings_title">Abrir ajustes predeterminados de la app</string>
     <string name="revanced_default_app_settings_summary">Para abrir los enlaces de YouTube Music en RVX Music, activa \'Abrir enlaces soportados\' y activa las direcciones web soportadas.</string>
     <string name="gms_core_settings_title">Abrir GmsCore</string>

@@ -68,6 +68,7 @@ public class PlayerControlsPatch {
 
         // CreateSegmentButtonController.changeVisibility(showing, animation);
         // VotingButtonController.changeVisibility(showing, animation);
+        // SegmentPlaybackController.changeVisibility(showing, animation);
     }
 
     /**
@@ -118,6 +119,7 @@ public class PlayerControlsPatch {
 
         // CreateSegmentButtonController.changeVisibilityNegatedImmediate();
         // VotingButtonController.changeVisibilityNegatedImmediate();
+        // SegmentPlaybackController.changeVisibilityNegatedImmediate();
     }
 
     /**

@@ -197,9 +197,9 @@ Pulsa aquí para saber más sobre DeArrow."</string>
     <string name="revanced_hide_notify_me_button_title">Ocultar botón de notificarme</string>
     <string name="revanced_hide_notify_me_button_summary_on">El botón de notificarme está oculto.</string>
     <string name="revanced_hide_notify_me_button_summary_off">El botón de notificarme está visible.</string>
-    <string name="revanced_hide_playables_title">Ocultar reproducibles</string>
-    <string name="revanced_hide_playables_summary_on">Los reproducibles están ocultos.</string>
-    <string name="revanced_hide_playables_summary_off">Los reproducibles están visibles.</string>
+    <string name="revanced_hide_playables_title">Ocultar jugables</string>
+    <string name="revanced_hide_playables_summary_on">Los jugables están ocultos.</string>
+    <string name="revanced_hide_playables_summary_off">Los jugables están visibles.</string>
     <string name="revanced_hide_feed_search_bar_title">Ocultar barra de búsqueda del feed</string>
     <string name="revanced_hide_feed_search_bar_summary_on">La barra de búsqueda del feed está oculta.</string>
     <string name="revanced_hide_feed_search_bar_summary_off">La barra de búsqueda del feed está visible.</string>

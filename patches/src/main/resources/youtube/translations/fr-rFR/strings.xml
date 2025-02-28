@@ -269,7 +269,7 @@ Boutique"</string>
     <string name="revanced_hide_feed_flyout_menu_summary_on">Le filtre du menu déroulant est activé.</string>
     <string name="revanced_hide_feed_flyout_menu_summary_off">Le filtre du menu déroulant est désactivé.</string>
     <string name="revanced_hide_feed_flyout_menu_filter_type_title">Type de filtre du menu déroulant dans les flux</string>
-    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_on">Filtrer si contient.&lt;br&gt;&lt;br&gt;Pour masquer le menu &lt;b&gt;\'Lire ensuite dans la file d\'\attente\'&lt;/b&gt; vous pouvez uniquement utiliser &lt;b&gt;\'dans la file d\'\attente\'&lt;/b&gt; comme mots-clés.</string>
+    <string name="revanced_hide_feed_flyout_menu_filter_type_summary_on">Filtrer si contient.&lt;br&gt;&lt;br&gt;Pour masquer le menu &lt;b&gt;\'Lire ensuite dans la file d\u0027attente\'&lt;/b&gt;, vous pouvez utiliser &lt;b&gt;\'Lire ensuite\'&lt;/b&gt; ou &lt;b&gt;\'dans la file d\u0027attente\'&lt;/b&gt; comme mots-clés.</string>
     <string name="revanced_hide_feed_flyout_menu_filter_type_summary_off">Filtrer si correspond.&lt;br&gt;&lt;br&gt;Pour masquer le menu &lt;b&gt;\'Lire ensuite dans la file d\'\attente\'&lt;/b&gt; vous pouvez uniquement utiliser &lt;b&gt;\'dans la file d\'\attente\'&lt;/b&gt; comme mots-clés.</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_title">Filtre du menu déroulant</string>
     <string name="revanced_hide_feed_flyout_menu_filter_strings_summary">Liste de menus déroulant à filtrer, séparés par un saut de ligne.</string>
@@ -446,7 +446,7 @@ Si désactivé ultérieurement, il est recommandé d'effacer les données de l'a
     <string name="revanced_hide_account_menu_summary">"Masque les éléments du menu du compte et de l'onglet 'Vous'.
 Certains composants peuvent ne pas être masqués."</string>
     <string name="revanced_hide_account_menu_filter_type_title">Type de filtre de menu du compte</string>
-    <string name="revanced_hide_account_menu_filter_type_summary_on">Filtrer si contient.&lt;br&gt;&lt;br&gt;Pour masquer le menu &lt;b&gt;\'S\'\abonner à YouTube Premium\'&lt;/b&gt; vous pouvez uniquement utiliser &lt;b&gt;\'YouTube Premium\'&lt;/b&gt; comme mots-clés.</string>
+    <string name="revanced_hide_account_menu_filter_type_summary_on">Filtrer si contient.&lt;br&gt;&lt;br&gt;Pour masquer le menu &lt;b&gt;\'S\'\abonner à YouTube Premium\'&lt;/b&gt; vous pouvez utiliser &lt;b&gt;\'YouTube Premium\'&lt;/b&gt; ou &lt;b&gt;\'Premium\'&lt;/b&gt; comme mots-clés.</string>
     <string name="revanced_hide_account_menu_filter_type_summary_off">Filtrer si correspond.&lt;br&gt;&lt;br&gt;Pour masquer le menu &lt;b&gt;\'S\'\abonner à YouTube Premium\'&lt;/b&gt; vous pouvez uniquement utiliser &lt;b&gt;\'YouTube Premium\'&lt;/b&gt; comme mots-clés.</string>
     <string name="revanced_hide_account_menu_filter_strings_title">Filtre du menu du compte</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">Liste de noms du menu de compte à filtrer, séparés par un saut de ligne.</string>
@@ -600,7 +600,7 @@ Si ce paramètre ne fait pas effet, essayer de passer en mode Incognito."</strin
     <string name="revanced_hide_snack_bar_title">Masquer les barres d\'actions</string>
     <string name="revanced_hide_snack_bar_summary_on">Les barres d\'actions présentes en haut ou en bas de l\'écran permettant généralement de rafraîchir la page sont masquée.</string>
     <string name="revanced_hide_snack_bar_summary_off">Les barres d\'actions présentes en haut ou en bas de l\'écran permettant généralement de rafraîchir la page sont affiché.</string>
-    <string name="revanced_hide_server_side_snack_bar_title">Cacher la snack bar côté serveur</string>
+    <string name="revanced_hide_server_side_snack_bar_title">Masquer la snack bar côté serveur</string>
     <string name="revanced_hide_server_side_snack_bar_summary_on">La snack bar côté serveur est masquée.</string>
     <string name="revanced_hide_server_side_snack_bar_summary_off">La snack bar côté serveur est affichée.</string>
     <string name="revanced_invert_snack_bar_theme_title">Inverser le thème de la snack bar</string>
@@ -1015,7 +1015,10 @@ Limitation : Le titre de la vidéo disparaît lorsque vous cliquez dessus."</str
     <string name="revanced_disable_haptic_feedback_zoom_summary_off">La vibration est activée.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">Mini Lecteur</string>
-    <string name="revanced_preference_screen_miniplayer_summary">Change le style du lecteur minimisé de l\'application.</string>
+    <string name="revanced_preference_screen_miniplayer_summary">Masquer ou changer les composants relatifs au lecteur minimisé.</string>
+    <string name="revanced_disable_resuming_miniplayer_title">Désactiver la reprise sur le Mini-lecteur</string>
+    <string name="revanced_disable_resuming_miniplayer_summary_on">&lt;b&gt;Reprendre la lecture&lt;/b&gt; ne reprendra pas au démarrage de l\'application.</string>
+    <string name="revanced_disable_resuming_miniplayer_summary_off">&lt;b&gt;Reprendre la lecture&lt;/b&gt; reprendra au démarrage de l\'application.&lt;br&gt;&lt;br&gt;Info:&lt;br&gt;• &lt;b&gt;Reprendre la lecture&lt;/b&gt; est une fonctionnalité YouTube Premium.&lt;br&gt;• Ce paramètre ne force pas l\'option &lt;b&gt;Reprendre la lecture&lt;/b&gt; à être activé.</string>
     <string name="revanced_miniplayer_type_title">Style du minilecteur</string>
     <string name="revanced_miniplayer_type_entry_0">Désactivé</string>
     <string name="revanced_miniplayer_type_entry_1">Original</string>

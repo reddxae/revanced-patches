@@ -240,7 +240,7 @@ Jeśli to możliwe, użyj ciemnych kolorów, gdyż aplikacja nie obsługuje jasn
     <string name="revanced_enable_swipe_to_dismiss_miniplayer_title">Włącz przesunięcie, by zamknąć miniodtwarzacz</string>
     <string name="revanced_enable_swipe_to_dismiss_miniplayer_summary">Włącza przesunięcie, by zamknąć miniodtwarzacz.</string>
     <string name="revanced_enable_thick_seekbar_title">Włącz pogrubiony pasek postępu utworu</string>
-    <string name="revanced_enable_thick_seekbar_summary">Włącza pogrubiony pasek postępu utworu.</string>
+    <string name="revanced_enable_thick_seekbar_summary">"Włącza pogrubiony pasek postępu utworu."</string>
     <string name="revanced_enable_zen_mode_title">Włącz tryb zen</string>
     <string name="revanced_enable_zen_mode_summary">Włącza jasnoszary kolor tła odtwarzacza, aby zmniejszyć zmęczenie oczu.</string>
     <string name="revanced_enable_zen_mode_podcast_title">Włącz tryb zen w podcastach</string>

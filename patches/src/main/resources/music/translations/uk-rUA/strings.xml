@@ -240,7 +240,7 @@
     <string name="revanced_enable_swipe_to_dismiss_miniplayer_title">Увімкнути жест закриття мініплеєру</string>
     <string name="revanced_enable_swipe_to_dismiss_miniplayer_summary">Вмикає жест вниз для закриття мініплеєру.</string>
     <string name="revanced_enable_thick_seekbar_title">Увімкнути товсту панель прогресу</string>
-    <string name="revanced_enable_thick_seekbar_summary">Вмикає товсту панель прогресу.</string>
+    <string name="revanced_enable_thick_seekbar_summary">"Вмикає товсту панель прогресу."</string>
     <string name="revanced_enable_zen_mode_title">Увімкнути режим \"Дзен\"</string>
     <string name="revanced_enable_zen_mode_summary">Вмикає світло-сірий колір фону плеєра, щоб зменшити навантаження на очі.</string>
     <string name="revanced_enable_zen_mode_podcast_title">Увімкнути режим \"Дзен\" у подкастах</string>

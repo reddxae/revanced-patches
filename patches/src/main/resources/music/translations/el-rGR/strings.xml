@@ -240,7 +240,9 @@
     <string name="revanced_enable_swipe_to_dismiss_miniplayer_title">Χειρονομία απόρριψης ελαχιστοποιημένης οθόνης αναπαραγωγής</string>
     <string name="revanced_enable_swipe_to_dismiss_miniplayer_summary">Ενεργοποίηση χειρονομίας σάρωσης προς τα κάτω για απόρριψη της ελαχιστοποιημένης οθόνης αναπαραγωγής.</string>
     <string name="revanced_enable_thick_seekbar_title">Γραμμή προόδου παχιού στυλ</string>
-    <string name="revanced_enable_thick_seekbar_summary">Ενεργοποίηση της γραμμής προόδου παχιού στυλ.</string>
+    <string name="revanced_enable_thick_seekbar_summary">"Ενεργοποίηση της γραμμής προόδου παχιού στυλ.
+
+Περιορισμοί: Τα τμήματα SponsorBlock δεν εμφανίζονται στη γραμμή προόδου."</string>
     <string name="revanced_enable_zen_mode_title">Ενεργοποίηση λειτουργίας zen</string>
     <string name="revanced_enable_zen_mode_summary">Ενεργοποίηση μιας γκρι απόχρωσης στο παρασκήνιο της οθόνης αναπαραγωγής για να μειωθεί η καταπόνηση των ματιών.</string>
     <string name="revanced_enable_zen_mode_podcast_title">Λειτουργία zen σε ηχητικές εκπομπές</string>
@@ -421,6 +423,8 @@
 Αν ανιχνεύεται αναπαραγωγή ενός μουσικού βίντεο που περιλαμβάνεται σε άλμπουμ, ανακατευθύνεται στο επίσημο τραγούδι.
 
 • Χρησιμοποιείται το Piped Instance API."</string>
+    <string name="revanced_disable_quic_protocol_title">Απενεργοποίηση πρωτοκόλλου QUIC</string>
+    <string name="revanced_disable_quic_protocol_summary">"Απενεργοποίηση πρωτοκόλλου QUIC του CronetEngine."</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_title">Τύπος ανακατεύθυνσης</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_summary">Καθορισμός του τρόπου ανακατεύθυνσης στο επίσημο τραγούδι.</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect">Ανακατεύθυνση</string>

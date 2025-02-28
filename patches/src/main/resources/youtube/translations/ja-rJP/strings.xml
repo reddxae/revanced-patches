@@ -299,8 +299,8 @@ DeArrow の詳細については、ここをタップしてください。"</str
 
 注意:
 ・ショートはチャンネル名で非表示にすることはできません。
-・一部の UI コンポーネントは非表示にならない場合があります。
-・キーワードで検索しても結果が表示されない場合があります。"</string>
+・一部の UI コンポーネントは非表示にならない可能性があります。
+・キーワードで検索しても結果が表示されない可能性があります。"</string>
     <string name="revanced_hide_keyword_content_about_whole_words_title">単語全体を一致させる</string>
     <string name="revanced_hide_keyword_content_about_whole_words_summary">キーワードやフレーズを二重引用符 (\" \") で囲むことで、動画のタイトルやチャンネル名の部分一致を防ぐことができます。&lt;br&gt;&lt;br&gt;例えば、&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; とすると、動画 &lt;b&gt;「AI はどのように機能するのか？」&lt;/b&gt;&lt;br&gt; は表示されなくなりますが、&lt;b&gt;「フェアユースとは何か？ (What does f“ai”r use mean?) 」&lt;/b&gt; は表示されます。</string>
     <string name="revanced_hide_keyword_toast_invalid_common">無効なキーワードです。\'%s\' はフィルターとして使用できません</string>
@@ -381,7 +381,7 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_change_start_page_type_title">「起動時のページを変更」の種類</string>
     <string name="revanced_change_start_page_type_summary_on">"現在の設定: 起動時のページを常に変更します。
 
-注意: ツールバーの戻るボタンが機能しない場合があります。"</string>
+注意: ツールバーの戻るボタンが機能しない可能性があります。"</string>
     <string name="revanced_change_start_page_type_summary_off">現在の設定: 起動時のページを一度のみ変更します。</string>
     <string name="revanced_disable_auto_audio_tracks_title">音声トラックの強制を無効化</string>
     <string name="revanced_disable_auto_audio_tracks_summary_on">音声トラックが自動で選択されるのを無効化します。
@@ -735,8 +735,8 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_skip_autoplay_countdown_summary_on">自動再生がオンの場合、次の動画をカウントダウンなしで再生します。</string>
     <string name="revanced_skip_autoplay_countdown_summary_off">自動再生がオンの場合、次の動画をカウントダウンなしで再生します。</string>
     <string name="revanced_hide_timed_reactions_title">リアクションを非表示</string>
-    <string name="revanced_hide_timed_reactions_summary_on">Timed Reactions を非表示にします。</string>
-    <string name="revanced_hide_timed_reactions_summary_off">Timed Reactions を非表示にします。</string>
+    <string name="revanced_hide_timed_reactions_summary_on">Timed Reactions (ライブ配信で絵文字でリアクションできる機能) を非表示にします。</string>
+    <string name="revanced_hide_timed_reactions_summary_off">Timed Reactions (ライブ配信で絵文字でリアクションできる機能) を非表示にします。</string>
     <string name="revanced_hide_zoom_overlay_title">ズームオーバーレイを非表示</string>
     <string name="revanced_hide_zoom_overlay_summary_on">ズーム時のオーバーレイを非表示にします。</string>
     <string name="revanced_hide_zoom_overlay_summary_off">ズーム時のオーバーレイを非表示にします。</string>
@@ -929,8 +929,8 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_enter_fullscreen_title">動画開始時に全画面表示を開始</string>
     <string name="revanced_enter_fullscreen_summary_on">"動画の再生開始時に全画面表示に切り替えます。
 
-注意: ミニプレーヤーで再生している、ピクチャーインピクチャーモードになっている、またはバックグラウンド再生をしている場合は動作しません。"</string>
-    <string name="revanced_enter_fullscreen_summary_off">動画の再生開始時に全画面表示に切り替えます。\n\n注意: ミニプレーヤーで再生している、ピクチャーインピクチャーモードになっている、またはバックグラウンド再生をしている場合は動作しません。</string>
+注意: ミニプレーヤーで再生している、ピクチャーインピクチャーモードになっている、バックグラウンド再生をしている場合は動作しません。"</string>
+    <string name="revanced_enter_fullscreen_summary_off">動画の再生開始時に全画面表示に切り替えます。\n\n注意: ミニプレーヤーで再生している、ピクチャーインピクチャーモードになっている、バックグラウンド再生をしている場合は動作しません。</string>
     <string name="revanced_exit_fullscreen_title">動画終了時に全画面表示を終了</string>
     <string name="revanced_exit_fullscreen_entry_1">無効</string>
     <string name="revanced_exit_fullscreen_entry_2">縦向きの動画のみ</string>
@@ -1018,8 +1018,8 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_preference_screen_miniplayer_title">ミニプレーヤー</string>
     <string name="revanced_preference_screen_miniplayer_summary">ミニプレーヤーに関連するコンポーネントを非表示または変更します。</string>
     <string name="revanced_disable_resuming_miniplayer_title">ミニプレーヤーの再開を無効化</string>
-    <string name="revanced_disable_resuming_miniplayer_summary_on">&lt;b&gt;ミニプレーヤー(続きを見る)&lt;/b&gt;をアプリ起動時に再開しないようにします。\n\n注意: \n・&lt;b&gt;ミニプレーヤーの再開(続きを見る)&lt;/b&gt;は YouTube Premium 加入者専用の機能です。\n・これを有効にすることにより、&lt;b&gt;ミニプレーヤーの再開(続きを見る)&lt;/b&gt;が強制的に有効になるわけではありません。</string>
-    <string name="revanced_disable_resuming_miniplayer_summary_off">&lt;b&gt;ミニプレーヤー(続きを見る)&lt;/b&gt;をアプリ起動時に再開しないようにします。\n\n注意: \n・&lt;b&gt;ミニプレーヤーの再開(続きを見る)&lt;/b&gt;は YouTube Premium 加入者専用の機能です。\n・これを有効にすることにより、&lt;b&gt;ミニプレーヤーの再開(続きを見る)&lt;/b&gt;が強制的に有効になるわけではありません。</string>
+    <string name="revanced_disable_resuming_miniplayer_summary_on">&lt;b&gt;ミニプレーヤー(続きを見る)&lt;/b&gt;をアプリ起動時に再開しないようにします。&lt;br&gt;&lt;br&gt;注意: &lt;br&gt;・&lt;b&gt;ミニプレーヤーの再開(続きを見る)&lt;/b&gt;は YouTube Premium 加入者専用の機能です。&lt;br&gt;・これを有効にすることにより、&lt;b&gt;ミニプレーヤーの再開(続きを見る)&lt;/b&gt;が強制的に有効になるわけではありません。</string>
+    <string name="revanced_disable_resuming_miniplayer_summary_off">&lt;b&gt;ミニプレーヤー(続きを見る)&lt;/b&gt;をアプリ起動時に再開しないようにします。&lt;br&gt;&lt;br&gt;注意: &lt;br&gt;・&lt;b&gt;ミニプレーヤーの再開(続きを見る)&lt;/b&gt;は YouTube Premium 加入者専用の機能です。&lt;br&gt;・これを有効にすることにより、&lt;b&gt;ミニプレーヤーの再開(続きを見る)&lt;/b&gt;が強制的に有効になるわけではありません。</string>
     <string name="revanced_miniplayer_type_title">ミニプレーヤーの種類</string>
     <string name="revanced_miniplayer_type_entry_0">無効</string>
     <string name="revanced_miniplayer_type_entry_1">オリジナル</string>
@@ -1602,11 +1602,11 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_ryd_enable_summary_on">低評価数の表示を復活させます。\n\n注意: 正確な値ではありません。</string>
     <string name="revanced_ryd_enable_summary_off">低評価数の表示を復活させます。\n\n注意: 正確な値ではありません。</string>
     <string name="revanced_ryd_shorts_title">ショートで低評価数を表示</string>
-    <string name="revanced_ryd_shorts_summary_on">ショートで低評価数を表示します。\n\n注意: ログインをしていない or シークレットモードでは低評価数が表示されないことがあります。</string>
+    <string name="revanced_ryd_shorts_summary_on">ショートで低評価数を表示します。\n\n注意: ログインをしていない場合やシークレットモードでは、低評価数が表示されないことがあります。</string>
     <string name="revanced_ryd_shorts_summary_on_disclaimer">"ショートで低評価数を表示します。
 
-注意: ログインをしていない or シークレットモードでは低評価数が表示されない可能性があります。"</string>
-    <string name="revanced_ryd_shorts_summary_off">ショートで低評価数を表示します。\n\n注意: ログインをしていない or シークレットモードでは低評価数が表示されないことがあります。</string>
+注意: ログインをしていない場合やシークレットモードでは、低評価数が表示されない可能性があります。"</string>
+    <string name="revanced_ryd_shorts_summary_off">ショートで低評価数を表示します。\n\n注意: ログインをしていない場合や、シークレットモードでは低評価数が表示されないことがあります。</string>
     <string name="revanced_ryd_dislike_percentage_title">低評価数をパーセントで表示</string>
     <string name="revanced_ryd_dislike_percentage_summary_on">低評価数をパーセントで表示します。</string>
     <string name="revanced_ryd_dislike_percentage_summary_off">低評価数をパーセントで表示します。</string>
@@ -1918,10 +1918,10 @@ GmsCore の電池の最適化を無効にしても、バッテリーの使用に
     <string name="revanced_spoof_streaming_data_side_effects_android">"・「音声トラック」メニューは表示されません。
 ・「一定音量」は使用できません。
 ・「音声トラックの強制を無効化」は利用できません。
-・ログインをしていない or シークレットモードを有効化している場合、子供向け動画は再生できない可能性があります。"</string>
+・ログインをしていない場合やシークレットモードでは、子供向け動画は再生できない可能性があります。"</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">・動画が再生できない可能性があります(PoToken が必要です)。</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"・映画や有料動画は再生できない可能性があります。
-・ログインをしていない or シークレットモードを有効化している場合、子供向け動画は再生できない可能性があります。"</string>
+・ログインをしていない場合やシークレットモードでは、子供向け動画は再生できない可能性があります。"</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">iOS クライアントで AVC (H.264) を強制</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">iOS クライアントで AVC (H.264) を強制します。</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">iOS クライアントで AVC (H.264) を強制します。</string>
@@ -1944,7 +1944,7 @@ GmsCore の電池の最適化を無効にしても、バッテリーの使用に
     <string name="revanced_spoof_streaming_data_po_token_visitor_data_about_title">PoToken / VisitorData について</string>
     <string name="revanced_spoof_streaming_data_po_token_visitor_data_about_summary">"一部のクライアントでは、有効なストリーミングデータ応答を取得するために PoToken と VisitorData が必要です。
 
-iOS クライアント選択する場合は、これらの値が必要になる場合があります。
+iOS クライアント選択する場合は、これらの値が必要になる可能性があります。
 
 詳細についてはここをタップしてください。"</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->

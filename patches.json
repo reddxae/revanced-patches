@@ -781,7 +781,7 @@
         "7.06.54",
         "7.16.53",
         "7.25.53",
-        "8.02.53"
+        "8.05.51"
       ]
     },
     "options": []
@@ -812,7 +812,29 @@
     "description": "Adds an option to disable CronetEngine\u0027s QUIC protocol.",
     "use": true,
     "dependencies": [
-      "Settings for YouTube"
+      "Settings for YouTube Music",
+      "BytecodePatch"
+    ],
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "6.20.51",
+        "6.29.59",
+        "6.42.55",
+        "6.51.53",
+        "7.16.53",
+        "7.25.53",
+        "8.05.51"
+      ]
+    },
+    "options": []
+  },
+  {
+    "name": "Disable QUIC protocol",
+    "description": "Adds an option to disable CronetEngine\u0027s QUIC protocol.",
+    "use": true,
+    "dependencies": [
+      "Settings for YouTube",
+      "BytecodePatch"
     ],
     "compatiblePackages": {
       "com.google.android.youtube": [
@@ -1034,8 +1056,8 @@
     "description": "Adds an option to enable the OPUS audio codec if the player response includes it.",
     "use": true,
     "dependencies": [
-      "BytecodePatch",
-      "Settings for YouTube Music"
+      "Settings for YouTube Music",
+      "BytecodePatch"
     ],
     "compatiblePackages": {
       "com.google.android.apps.youtube.music": [
@@ -1055,8 +1077,8 @@
     "description": "Adds an option to enable the OPUS audio codec if the player response includes it.",
     "use": true,
     "dependencies": [
-      "BytecodePatch",
-      "Settings for YouTube"
+      "Settings for YouTube",
+      "BytecodePatch"
     ],
     "compatiblePackages": {
       "com.google.android.youtube": [
@@ -1493,7 +1515,8 @@
       "Navigation bar components",
       "BytecodePatch",
       "ResourcePatch",
-      "ResourcePatch"
+      "ResourcePatch",
+      "BytecodePatch"
     ],
     "compatiblePackages": {
       "com.google.android.apps.youtube.music": [

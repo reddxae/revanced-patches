@@ -386,12 +386,12 @@ object YouTubeAppClient {
 
         companion object {
             val CLIENT_ORDER_TO_USE_YOUTUBE: Array<ClientType> = arrayOf(
-                IOS_UNPLUGGED,
+                ANDROID_VR_NO_AUTH,
                 ANDROID_UNPLUGGED,
                 ANDROID_CREATOR,
+                IOS_UNPLUGGED,
                 IOS,
                 ANDROID_VR,
-                ANDROID_VR_NO_AUTH,
             )
         }
     }

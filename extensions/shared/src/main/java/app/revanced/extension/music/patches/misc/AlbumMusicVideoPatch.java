@@ -157,7 +157,7 @@ public class AlbumMusicVideoPatch {
                 playerResponseVideoId = songId;
                 currentVideoId = songId;
                 VideoUtils.openInYouTubeMusic(songId);
-            }, 500);
+            }, 750);
 
             VideoUtils.runOnMainThreadDelayed(() -> isVideoLaunched.compareAndSet(true, false), 1500);
         } catch (Exception ex) {

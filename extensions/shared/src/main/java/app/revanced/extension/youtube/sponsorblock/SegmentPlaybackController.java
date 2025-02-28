@@ -567,11 +567,11 @@ public class SegmentPlaybackController {
         if (!Settings.SB_ENABLED.get()
                 || !Settings.SB_AUTO_HIDE_SKIP_BUTTON.get()
                 || segmentCurrentlyPlaying == null
+                // When the player button appears after the skip button is hidden
                 || !hiddenSkipSegmentsForCurrentVideoTime.contains(segmentCurrentlyPlaying)) {
             return;
         }
 
-        // When the player button appears after the skip button is hidden
         if (visible) {
             SponsorBlockViewController.showSkipSegmentButton(segmentCurrentlyPlaying);
             skipSegmentButtonEndTime = System.currentTimeMillis() + 2000; // Player buttons are hidden after 2000ms
@@ -601,7 +601,7 @@ public class SegmentPlaybackController {
 
         // Continue recursion if the button's visibility duration has not expired
         if (skipSegmentButtonEndTime > System.currentTimeMillis()) {
-            Utils.runOnMainThreadDelayed(() -> checkPlayerControlsVisibilityRecursive(segment), 1000);
+            Utils.runOnMainThreadDelayed(() -> checkPlayerControlsVisibilityRecursive(segment), 500);
         } else {
             // Hide the skip segment button and reset the end time
             skipSegmentButtonEndTime = 0;

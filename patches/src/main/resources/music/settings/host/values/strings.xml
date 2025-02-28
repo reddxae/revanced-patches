@@ -261,7 +261,9 @@ Use dark colors if possible, as the app does not support light themes."</string>
     <string name="revanced_enable_swipe_to_dismiss_miniplayer_title">Enable swipe to dismiss miniplayer</string>
     <string name="revanced_enable_swipe_to_dismiss_miniplayer_summary">Enables swipe down to dismiss miniplayer.</string>
     <string name="revanced_enable_thick_seekbar_title">Enable thick seekbar</string>
-    <string name="revanced_enable_thick_seekbar_summary">Enables the thick seekbar.</string>
+    <string name="revanced_enable_thick_seekbar_summary">"Enables the thick seekbar.
+
+Limitations: SponsorBlock segments are not shown in the seek bar."</string>
     <string name="revanced_enable_zen_mode_title">Enable Zen mode</string>
     <string name="revanced_enable_zen_mode_summary">Enables a light grey color for the player background to reduce eye strain.</string>
     <string name="revanced_enable_zen_mode_podcast_title">Enable Zen mode in podcasts</string>

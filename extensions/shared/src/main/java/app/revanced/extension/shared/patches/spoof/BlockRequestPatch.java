@@ -106,4 +106,18 @@ public class BlockRequestPatch {
 
         return initPlaybackRequestUri;
     }
+
+    /**
+     * Injection point.
+     * Skip response encryption in OnesiePlayerRequest.
+     */
+    public static boolean skipResponseEncryption(boolean original) {
+        Logger.printDebug(() -> "response Encryption: " + original);
+
+        if (BLOCK_REQUEST) {
+            return false;
+        }
+
+        return original;
+    }
 }

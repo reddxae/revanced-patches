@@ -1,3 +1,5 @@
+import java.lang.Boolean.TRUE
+
 extension {
     name = "extensions/shared.rve"
 }
@@ -12,7 +14,7 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = true
+            isMinifyEnabled = TRUE
         }
     }
     compileOptions {

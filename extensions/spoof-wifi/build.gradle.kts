@@ -1,3 +1,5 @@
+import java.lang.Boolean.TRUE
+
 extension {
     name = "extensions/all/connectivity/wifi/spoof/spoof-wifi.rve"
 }
@@ -8,6 +10,12 @@ android {
 
     defaultConfig {
         minSdk = 21
+    }
+
+    buildTypes {
+        release {
+            isMinifyEnabled = TRUE
+        }
     }
 
     compileOptions {

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Shared -->
+    <string name="revanced_extended_settings_title">RVX</string>
+    <string name="revanced_extended_reset_to_default_toast">Atur ulang ke nilai default.</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">Mulai ulang untuk memuat layout secara normal</string>
     <string name="revanced_extended_restart_message">Refresh dan mulai ulang</string>
@@ -18,6 +20,8 @@
     <string name="revanced_hide_terms_container_summary">Menyembunyikan kontainer ketentuan layanan.</string>
     <!-- PreferenceScreen: Action bar -->
     <string name="revanced_preference_screen_action_bar_title">Bilah Tindakan</string>
+    <string name="revanced_change_action_bar_position_title">Ubah posisi bilah aksi</string>
+    <string name="revanced_change_action_bar_position_summary">Pindahkan bilah aksi di bawah tombol putar.</string>
     <string name="revanced_hide_action_button_like_dislike_title">Sembunyikan tombol Like dan Dislike</string>
     <string name="revanced_hide_action_button_like_dislike_summary">Menyembunyikan tombol Like dan Dislike. Itu tidak akan bekerja di layout player lama.</string>
     <string name="revanced_hide_action_button_comment_title">Sembunyikan tombol Komentar</string>
@@ -30,6 +34,9 @@
     <string name="revanced_hide_action_button_radio_summary">Menyembunyikan tombol Radio.</string>
     <string name="revanced_hide_action_button_share_title">Sembunyikan tombol Bagikan</string>
     <string name="revanced_hide_action_button_share_summary">Menyembunyikan tombol Bagikan.</string>
+    <string name="revanced_hide_action_button_song_video_title">Sembunyikan tombol Lagu / Video</string>
+    <string name="revanced_hide_action_button_song_video_summary">"Sembunyikan tombol Lagu / Video.
+(Tombol ini hanya tersedia untuk sebagian pengguna)"</string>
     <string name="revanced_hide_action_button_label_title">Sembunyikan tombol bilah tindakan</string>
     <string name="revanced_hide_action_button_label_summary">Menyembunyikan bilah dari tombol tindakan.</string>
     <string name="revanced_external_downloader_action_title">Ganti tombol tindakan Unduh</string>
@@ -47,6 +54,7 @@ Download %2$s dari website."</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Iklan</string>
     <string name="revanced_hide_fullscreen_ads_title">Sembunyikan iklan fullscreen</string>
+    <string name="revanced_fullscreen_ads_closed_toast">Iklan layar penuh ditutup.</string>
     <string name="revanced_hide_general_ads_title">Sembunyikan Iklan Umum</string>
     <string name="revanced_hide_general_ads_summary">Menyembunyikan Iklan Umum.</string>
     <string name="revanced_hide_music_ads_title">Sembunyikan iklan musik</string>
@@ -55,8 +63,10 @@ Download %2$s dari website."</string>
     <string name="revanced_hide_paid_promotion_label_summary">Menyembunyikan label promosi berbayar.</string>
     <string name="revanced_hide_premium_promotion_title">Sembunyikan popup promosi premium</string>
     <string name="revanced_hide_premium_promotion_summary">Menyembunyikan popup promosi premium.</string>
+    <string name="revanced_hide_premium_promotion_closed_toast">Sembulan promosi premium telah ditutup.</string>
     <string name="revanced_hide_premium_renewal_title">Sembunyikan banner pembaruan premium</string>
     <string name="revanced_hide_premium_renewal_summary">Menyembunyikan banner pembaruan premium.</string>
+    <string name="revanced_hide_promotion_alert_banner_title">Sembunyikan banner peringatan promosi</string>
     <!-- PreferenceScreen: Flyout menu -->
     <string name="revanced_preference_screen_flyout_title">Menu flyout</string>
     <string name="revanced_enable_trim_silence_title">Tambah switch Trim silence</string>

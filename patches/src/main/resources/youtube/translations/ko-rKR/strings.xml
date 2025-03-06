@@ -168,8 +168,8 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
 • 주요 뉴스, 뉴스 속보
 • 맞춤 실시간 스트림
 • 라이브 쇼핑
-• 보건 정보 출처, etc."</string>
-    <string name="revanced_hide_carousel_shelf_summary_off">다음 선반이 표시됩니다:\n• 다시 듣기\n• 다시 시청하기\n• 이어서 시청하기\n• 채널 더보기\n• 이 게임 더보기\n• 주요 뉴스, 뉴스 속보\n• 맞춤 실시간 스트림\n• 라이브 쇼핑\n• 보건 정보 출처, etc.</string>
+• 보건 정보 출처 ..."</string>
+    <string name="revanced_hide_carousel_shelf_summary_off">다음 선반이 표시됩니다:\n• 다시 듣기\n• 다시 시청하기\n• 이어서 시청하기\n• 채널 더보기\n• 이 게임 더보기\n• 주요 뉴스, 뉴스 속보\n• 맞춤 실시간 스트림\n• 라이브 쇼핑\n• 보건 정보 출처 ...</string>
     <string name="revanced_hide_chips_shelf_title">더 많은 주제 탐색 선반 숨기기</string>
     <string name="revanced_hide_chips_shelf_on">더 많은 주제 탐색 선반이 숨겨집니다.</string>
     <string name="revanced_hide_chips_shelf_off">더 많은 주제 탐색 선반이 표시됩니다.</string>
@@ -989,9 +989,9 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_disable_landscape_mode_title">전체 화면에서 세로 모드 활성화하기</string>
     <string name="revanced_disable_landscape_mode_summary_on">전체 화면에서 동영상의 방향을 세로 모드로 활성화합니다.</string>
     <string name="revanced_disable_landscape_mode_summary_off">전체 화면에서 동영상의 방향을 기기의 설정에 따라 활성화합니다.</string>
-    <string name="revanced_enable_compact_controls_overlay_title">컴팩트 컨트롤 오버레이 활성화하기</string>
-    <string name="revanced_enable_compact_controls_overlay_summary_on">전체 화면에서 컨트롤 오버레이를 작게 표시합니다.</string>
-    <string name="revanced_enable_compact_controls_overlay_summary_off">전체 화면에서 컨트롤 오버레이를 작게 표시하지 않습니다.</string>
+    <string name="revanced_enable_compact_controls_overlay_title">좁은 컨트롤 오버레이 활성화하기</string>
+    <string name="revanced_enable_compact_controls_overlay_summary_on">전체 화면에서 컨트롤 오버레이가 좁아집니다.</string>
+    <string name="revanced_enable_compact_controls_overlay_summary_off">전체 화면에서 컨트롤 오버레이가 좁아지지 않습니다.</string>
     <string name="revanced_keep_landscape_mode_title">가로 모드 유지하기</string>
     <string name="revanced_keep_landscape_mode_summary_on">화면을 껐다 켜도 동영상을 가로 모드에서 계속 재생합니다.</string>
     <string name="revanced_keep_landscape_mode_summary_off">화면을 껐다 켜면 동영상을 세로 모드에서 재생합니다.</string>

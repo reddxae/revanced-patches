@@ -378,11 +378,6 @@ Kattintson ide az API-kulcs kiadásának megtekintéséhez."</string>
     <string name="revanced_disable_drc_audio_title">DRC hang letiltása</string>
     <string name="revanced_disable_drc_audio_summary">Letiltja a hangra alkalmazott DRC-t (dinamikatartomány-kompresszió).</string>
     <string name="revanced_disable_music_video_in_album_title">Zenei videó letiltása az albumban</string>
-    <string name="revanced_disable_music_video_in_album_summary">"Amikor egy nem prémium felhasználó lejátszik egy albumban szereplő dalt, néha a hivatalos dal helyett a klip kerül lejátszásra.
-
-Ha egy albumban szereplő zenei videó lejátszását észleli, a rendszer a hivatalos dalra irányítja át.
-
-Piped instance használatban van, és előfordulhat, hogy az API egyes régiókban nem elérhető."</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_title">Átirányítás típusa</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_summary">Meghatározza, hogyan irányítson át a hivatalos dalra.</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect">Átirányítás</string>

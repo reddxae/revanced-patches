@@ -54,7 +54,6 @@
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">广告</string>
     <string name="revanced_hide_fullscreen_ads_title">隐藏全屏广告</string>
-    <string name="revanced_hide_fullscreen_ads_summary">隐藏全屏广告。</string>
     <string name="revanced_fullscreen_ads_closed_toast">全屏广告已关闭。</string>
     <string name="revanced_hide_general_ads_title">隐藏常规广告</string>
     <string name="revanced_hide_general_ads_summary">隐藏常规广告。</string>
@@ -416,11 +415,6 @@
     <string name="revanced_disable_drc_audio_title">禁用动态范围压缩音频</string>
     <string name="revanced_disable_drc_audio_summary">禁用应用于音频的 DRC（动态范围压缩）。</string>
     <string name="revanced_disable_music_video_in_album_title">禁用专辑中的音乐视频</string>
-    <string name="revanced_disable_music_video_in_album_summary">"当非 premium 用户播放专辑中的歌曲时，有时会播放音乐视频而不是官方歌曲。
-
-如果检测到正在播放专辑中的音乐视频，则查找官方歌曲。
-
-• 由 Piped Instance API 提供支持。"</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_title">重定向类型</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_summary">指定如何重定向到官方歌曲。</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect">重定向</string>

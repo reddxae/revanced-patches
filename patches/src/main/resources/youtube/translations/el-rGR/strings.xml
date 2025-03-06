@@ -1013,7 +1013,7 @@ Playlists
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">Ελαχιστοποιημένη οθόνη αναπαραγωγής</string>
     <string name="revanced_preference_screen_miniplayer_summary">Απόκρυψη ή αλλαγή στοιχείων που σχετίζονται με την ελαχιστοποιημένη οθόνη αναπαραγωγής.</string>
-    <string name="revanced_disable_resuming_miniplayer_title">Απενεργοποίηση συνέχισης αναπαραγωγής σε ελαχιστοποιημένη οθόνη</string>
+    <string name="revanced_disable_resuming_miniplayer_title">Απενεργοποίηση συνέχισης αναπαραγωγής της ελαχιστοποιημένης οθόνης</string>
     <string name="revanced_disable_resuming_miniplayer_summary_on">Η λειτουργία &lt;b&gt;«Συνέχιση παρακολούθησης»&lt;/b&gt; είναι απενεργοποιημένη κατά την εκκίνηση της εφαρμογής.</string>
     <string name="revanced_disable_resuming_miniplayer_summary_off">Η λειτουργία &lt;b&gt;«Συνέχιση παρακολούθησης»&lt;/b&gt; είναι ενεργοποιημένη κατά την εκκίνηση της εφαρμογής. &lt;br&gt;&lt;br&gt;Πληροφορίες:&lt;br&gt;• &lt;b&gt;Η λειτουργία &lt;b&gt;«Συνέχιση παρακολούθησης»&lt;b&gt; πρόκειται για λειτουργία YouTube Premium.&lt;br&gt;• Η τρέχουσα ρύθμιση δεν εξαναγκάζει την ενεργοποίηση της λειτουργίας &lt;b&gt;«Συνέχιση παρακολούθησης»&lt;/b&gt;.</string>
     <string name="revanced_miniplayer_type_title">Τύπος ελαχιστοποιημένης οθόνης αναπαραγωγής</string>

@@ -54,7 +54,6 @@
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Quảng cáo</string>
     <string name="revanced_hide_fullscreen_ads_title">Ẩn quảng cáo toàn màn hình</string>
-    <string name="revanced_hide_fullscreen_ads_summary">Ẩn quảng cáo toàn màn hình.</string>
     <string name="revanced_fullscreen_ads_closed_toast">Quảng cáo toàn màn hình đã đóng.</string>
     <string name="revanced_hide_general_ads_title">Ẩn quảng cáo chung</string>
     <string name="revanced_hide_general_ads_summary">Ẩn quảng cáo xuất hiện trước khi phát.</string>
@@ -418,18 +417,13 @@ Nhấp vào đây để xem các bước phát hành khóa API."</string>
     <string name="revanced_disable_drc_audio_title">Vô hiệu hoá audio DRC</string>
     <string name="revanced_disable_drc_audio_summary">Vô hiệu hoá tính năng nén dải âm thanh động.</string>
     <string name="revanced_disable_music_video_in_album_title">Tắt video âm nhạc trong đĩa nhạc</string>
-    <string name="revanced_disable_music_video_in_album_summary">"Khi người dùng không mua gói Premium, đôi khi nghe nhạc có trong đĩa nhạc, video âm nhạc được phát thay vì bài hát chính thức.
-
-Trong trường hợp đó, hệ thống sẽ tìm và chuyển hướng tới bài hát chính thức.
-
-• Được hỗ trợ bởi API của Piped Instance."</string>
-    <string name="revanced_disable_quic_protocol_title">Vô hiệu hoá giao thức QUIC</string>
-    <string name="revanced_disable_quic_protocol_summary">"Vô hiệu hoá giao thức QUIC của CronetEngine."</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_title">Kiểu chuyển hướng</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_summary">Xác định cách chuyển tới bài hát chính thức.</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect">Chuyển hướng</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_click">Nhấn vào nút chuyển đổi giữa Bài hát và Video</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_long_click">Nhấn và giữ nút chuyển đổi giữa Bài hát và Video</string>
+    <string name="revanced_disable_quic_protocol_title">Vô hiệu hoá giao thức QUIC</string>
+    <string name="revanced_disable_quic_protocol_summary">"Vô hiệu hoá giao thức QUIC của CronetEngine."</string>
     <string name="revanced_enable_debug_logging_title">Nhật ký gỡ lỗi</string>
     <string name="revanced_enable_debug_logging_summary">Bật ghi nhật ký gỡ lỗi.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Bật nhật ký bộ đệm gỡ lỗi</string>

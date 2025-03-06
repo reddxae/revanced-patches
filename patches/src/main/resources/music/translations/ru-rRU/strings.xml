@@ -54,7 +54,6 @@
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Реклама</string>
     <string name="revanced_hide_fullscreen_ads_title">Полноэкранная реклама</string>
-    <string name="revanced_hide_fullscreen_ads_summary">Скрывает полноэкранную рекламу.</string>
     <string name="revanced_fullscreen_ads_closed_toast">Полноэкранная реклама закрыта.</string>
     <string name="revanced_hide_general_ads_title">Скрыть рекламу общего формата</string>
     <string name="revanced_hide_general_ads_summary">Скрывает рекламу общего формата.</string>
@@ -416,16 +415,13 @@
     <string name="revanced_disable_drc_audio_title">Отключить DRC аудио</string>
     <string name="revanced_disable_drc_audio_summary">Выключает DRC (сжатие динамического диапазона), применяемого к аудио.</string>
     <string name="revanced_disable_music_video_in_album_title">Отключить музыкальные видео в альбоме</string>
-    <string name="revanced_disable_music_video_in_album_summary">"Когда пользователь без премиума воспроизводит песню из альбома, иногда вместо официальной песни воспроизводится музыкальное видео.
-
-Если будет обнаружено воспроизведение музыкального видео, будет перенаправлено на официальную песню.
-
-• Используется \"Piped Instance\", но в некоторых регионах API может быть недоступен."</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_title">Тип перенаправления</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_summary">Определение способа перенаправления на официальную песню.</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect">Перенаправление</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_click">Нажмите на переключатель Аудио/Видео</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_long_click">Нажмите и удерживайте переключатель Аудио/Видео</string>
+    <string name="revanced_disable_quic_protocol_title">Выключить протокол QUIC</string>
+    <string name="revanced_disable_quic_protocol_summary">"Выключает протокол CronetEngine's QUIC."</string>
     <string name="revanced_enable_debug_logging_title">Ведение журнала отладки</string>
     <string name="revanced_enable_debug_logging_summary">Выводит журнал отладки.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Ведение журналов отладки буфера</string>

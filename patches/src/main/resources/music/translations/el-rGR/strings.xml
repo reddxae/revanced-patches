@@ -54,7 +54,6 @@
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Διαφημίσεις</string>
     <string name="revanced_hide_fullscreen_ads_title">Απόκρυψη διαφημίσεων πλήρους οθόνης</string>
-    <string name="revanced_hide_fullscreen_ads_summary">Απόκρυψη των διαφημίσεων πλήρους οθόνης.</string>
     <string name="revanced_fullscreen_ads_closed_toast">Οι διαφημίσεις πλήρους οθόνης έκλεισαν.</string>
     <string name="revanced_hide_general_ads_title">Απόκρυψη γενικών διαφημίσεων</string>
     <string name="revanced_hide_general_ads_summary">Απόκρυψη των γενικών διαφημίσεων.</string>
@@ -418,18 +417,13 @@
     <string name="revanced_disable_drc_audio_title">Απενεργοποίηση ήχου DRC</string>
     <string name="revanced_disable_drc_audio_summary">Απενεργοποίηση του DRC (Συμπίεση Δυναμικού Εύρους) που εφαρμόζεται στον ήχο.</string>
     <string name="revanced_disable_music_video_in_album_title">Απενεργοποίηση μουσικών βίντεο στα άλμπουμ</string>
-    <string name="revanced_disable_music_video_in_album_summary">"Όταν ένας μη-premium χρήστης παίζει ένα τραγούδι που περιλαμβάνεται σε ένα άλμπουμ, μερικές φορές αναπαράγεται το μουσικό βίντεο αντί για το επίσημο τραγούδι.
-
-Αν ανιχνεύεται αναπαραγωγή ενός μουσικού βίντεο που περιλαμβάνεται σε άλμπουμ, ανακατευθύνεται στο επίσημο τραγούδι.
-
-• Χρησιμοποιείται το Piped Instance API."</string>
-    <string name="revanced_disable_quic_protocol_title">Απενεργοποίηση πρωτοκόλλου QUIC</string>
-    <string name="revanced_disable_quic_protocol_summary">"Απενεργοποίηση πρωτοκόλλου QUIC του CronetEngine."</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_title">Τύπος ανακατεύθυνσης</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_summary">Καθορισμός του τρόπου ανακατεύθυνσης στο επίσημο τραγούδι.</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect">Ανακατεύθυνση</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_click">Πάτημα εναλλαγής ήχου / βίντεο</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_long_click">Παρατεταμένο πάτημα εναλλαγής ήχου / βίντεο</string>
+    <string name="revanced_disable_quic_protocol_title">Απενεργοποίηση πρωτοκόλλου QUIC</string>
+    <string name="revanced_disable_quic_protocol_summary">"Απενεργοποίηση πρωτοκόλλου QUIC του CronetEngine."</string>
     <string name="revanced_enable_debug_logging_title">Ενεργοποίηση καταγραφής σφαλμάτων</string>
     <string name="revanced_enable_debug_logging_summary">Εκτύπωση του αρχείου καταγραφής σφαλμάτων.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Συμπερίληψη του buffer στην καταγραφή</string>

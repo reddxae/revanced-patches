@@ -54,7 +54,6 @@ Por favor, baixe %2$s do site."</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Anúncios</string>
     <string name="revanced_hide_fullscreen_ads_title">Ocultar anúncios em tela cheia</string>
-    <string name="revanced_hide_fullscreen_ads_summary">Oculta anúncios em tela cheia.</string>
     <string name="revanced_fullscreen_ads_closed_toast">Os anúncios em tela cheia são fechados.</string>
     <string name="revanced_hide_general_ads_title">Ocultar anúncios gerais</string>
     <string name="revanced_hide_general_ads_summary">Oculta anúncios gerais.</string>
@@ -416,11 +415,6 @@ Clique para ver como emitir uma chave de API."</string>
     <string name="revanced_disable_drc_audio_title">Desativar áudio DRC</string>
     <string name="revanced_disable_drc_audio_summary">Desativa o DRC (Compressão de faixa dinâmica) aplicada ao áudio.</string>
     <string name="revanced_disable_music_video_in_album_title">Desativar vídeo da música no álbum</string>
-    <string name="revanced_disable_music_video_in_album_summary">"Quando um usuário não premium toca uma música incluída em um álbum, o videoclipe às vezes é tocado em vez da música oficial.
-
-Encontre a música oficial se um videoclipe for detectado tocando de um álbum.
-
-• Desenvolvido pela API de instância do Piped."</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_title">Tipo de redirecionamento</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_summary">Especifica como redirecionar para a música oficial.</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect">Redirecionar</string>

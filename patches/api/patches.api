@@ -1046,6 +1046,7 @@ public final class app/revanced/patches/youtube/utils/resourceid/SharedResourceI
 	public static final fun getChannelListSubMenu ()J
 	public static final fun getCompactLink ()J
 	public static final fun getCompactListItem ()J
+	public static final fun getComponentLongClickListener ()J
 	public static final fun getContentPill ()J
 	public static final fun getControlsLayoutStub ()J
 	public static final fun getDarkBackground ()J
@@ -1087,6 +1088,7 @@ public final class app/revanced/patches/youtube/utils/resourceid/SharedResourceI
 	public static final fun getModernMiniPlayerRewindButton ()J
 	public static final fun getMusicAppDeeplinkButtonView ()J
 	public static final fun getNotificationBigPictureIconWidth ()J
+	public static final fun getOfflineActionsVideoDeletedUndoSnackbarText ()J
 	public static final fun getPlayerCollapseButton ()J
 	public static final fun getPlayerControlNextButtonTouchArea ()J
 	public static final fun getPlayerControlPreviousButtonTouchArea ()J

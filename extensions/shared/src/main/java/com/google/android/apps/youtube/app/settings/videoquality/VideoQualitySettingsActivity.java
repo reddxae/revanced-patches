@@ -4,8 +4,10 @@ import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.util.TypedValue;
+import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.SearchView;
 import android.widget.SearchView.OnQueryTextListener;
 import android.widget.TextView;
@@ -26,6 +28,7 @@ public class VideoQualitySettingsActivity extends Activity {
     private static final String rvxSettingsLabel = ResourceUtils.getString("revanced_extended_settings_title");
     private static final String searchLabel = ResourceUtils.getString("revanced_extended_settings_search_title");
     private static WeakReference<SearchView> searchViewRef = new WeakReference<>(null);
+    private static WeakReference<ImageView> closeButtonRef = new WeakReference<>(null);
     private ReVancedPreferenceFragment fragment;
 
     private final OnQueryTextListener onQueryTextListener = new OnQueryTextListener() {
@@ -175,6 +178,22 @@ public class VideoQualitySettingsActivity extends Activity {
 
         // Keep a weak reference to the SearchView
         searchViewRef = new WeakReference<>(searchView);
+
+        ImageView closeButton = searchView.findViewById(ResourceUtils.getIdIdentifier("android:id/search_close_btn"));
+        closeButtonRef = new WeakReference<>(closeButton);
+    }
+
+    @Override
+    public void onBackPressed() {
+        ImageView closeButton = closeButtonRef.get();
+        if (closeButton != null && closeButton.getVisibility() == View.VISIBLE) {
+            // The click action of the close button in SearchView follows the Android Framework.
+            // Therefore, just click the close button programmatically.
+            closeButton.callOnClick();
+            onWindowFocusChanged(false);
+        } else {
+            super.onBackPressed();
+        }
     }
 
     @Override

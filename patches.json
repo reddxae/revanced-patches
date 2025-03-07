@@ -2869,7 +2869,8 @@
       "Settings for YouTube",
       "BytecodePatch",
       "BytecodePatch",
-      "BytecodePatch"
+      "BytecodePatch",
+      "ResourcePatch"
     ],
     "compatiblePackages": {
       "com.google.android.youtube": [

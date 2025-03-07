@@ -54,6 +54,10 @@ Pobierz %2$s ze strony."</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Reklamy</string>
     <string name="revanced_hide_fullscreen_ads_title">Ukryj reklamy pełnoekranowe</string>
+    <string name="revanced_hide_fullscreen_ads_summary">"Ukrywa reklamy pełnoekranowe.
+
+Ograniczenie:
+• Czasem może pojawić się pusty czarny ekran zamiast strony głównej"</string>
     <string name="revanced_fullscreen_ads_closed_toast">Zamknięto pełnoekranowe reklamy</string>
     <string name="revanced_hide_general_ads_title">Ukryj ogólne reklamy</string>
     <string name="revanced_hide_general_ads_summary">Ukrywa ogólne reklamy.</string>
@@ -417,6 +421,11 @@ Kliknij, by zobaczyć, jak zgłosić klucz API."</string>
     <string name="revanced_disable_drc_audio_title">Wyłącz audio DRC</string>
     <string name="revanced_disable_drc_audio_summary">Wyłącza DRC (Dynamic Range Compression) stosowane w utworach.</string>
     <string name="revanced_disable_music_video_in_album_title">Wyłącz teledyski w albumach</string>
+    <string name="revanced_disable_music_video_in_album_summary">"Gdy użytkownik non-premium odtwarza utwór zawarty w albumie, czasami zamiast oficjalnego utworu, odtwarzany jest teledysk.
+
+Opcja znajduje oficjalny utwór, jeśli wykryje odtwarzanie teledysku z albumu.
+
+Ograniczenie: utwory sklasyfikowane dla dzieci mogą nie być przekierowywane."</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_title">Typ przekierowania</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_summary">Określa, w jaki sposób przekierowuje do oficjalnego utworu</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect">Przekieruj</string>

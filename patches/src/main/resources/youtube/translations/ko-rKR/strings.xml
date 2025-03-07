@@ -302,7 +302,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_keyword_content_about_summary">"홈 / 구독 / 검색 결과가 필터링되어 키워드 구문과 일치하는 콘텐츠가 숨겨집니다.
 
 알려진 문제점:
-• 채널 이름으로 Shorts 동영상은 숨길 수 없습니다.
+• 채널 이름으로 Shorts를 숨길 수 없습니다.
 • 일부 화면 구성요소는 숨겨지지 않을 수 있습니다.
 • 필터링 키워드를 검색하면 검색 결과가 표시되지 않을 수 있습니다."</string>
     <string name="revanced_hide_keyword_content_about_whole_words_title">전체 단어 일치시키기</string>
@@ -344,7 +344,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_video_by_view_counts_about_summary">"홈  / 구독 / 검색 결과가 필터링되어 조회수가 지정한 수보다 적거나 많은 동영상이 숨겨집니다.
 
 알려진 문제점:
-• Shorts 동영상은 숨길 수 없습니다.
+• Shorts를 숨길 수 없습니다.
 • 실시간 스트림과 '조회수 없음' 동영상은 숨길 수 없습니다."</string>
     <string name="revanced_hide_related_videos_title">관련 동영상 숨기기</string>
     <string name="revanced_hide_related_videos_summary_on">관련 동영상이 숨겨집니다.</string>
@@ -1294,8 +1294,8 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_change_shorts_repeat_state_entry_pause">일시정지</string>
     <string name="revanced_change_shorts_repeat_state_entry_repeat">반복하기</string>
     <string name="revanced_open_shorts_in_regular_player_title">일반 플레이어에서 Shorts 재생하기</string>
-    <string name="revanced_open_shorts_in_regular_player_summary_on">일반 플레이어에서 Shorts 동영상을 재생합니다.\n\n• 하단바 Shorts 버튼을 눌러서는 일반 플레이어로 재생되지 않을 수 있습니다.</string>
-    <string name="revanced_open_shorts_in_regular_player_summary_off">일반 플레이어에서 Shorts 동영상을 재생하지 않습니다.</string>
+    <string name="revanced_open_shorts_in_regular_player_summary_on">일반 플레이어에서 Shorts를 재생합니다.\n\n• 하단바 Shorts 버튼을 눌러서는 일반 플레이어로 재생되지 않을 수 있습니다.</string>
+    <string name="revanced_open_shorts_in_regular_player_summary_off">일반 플레이어에서 Shorts를 재생하지 않습니다.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player -->
     <string name="revanced_preference_screen_shorts_player_title">Shorts 플레이어</string>
     <string name="revanced_preference_screen_shorts_player_summary">Shorts 플레이어에서 구성요소를 숨기거나 표시할 수 있습니다.</string>
@@ -1546,14 +1546,14 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_custom_playback_speeds_title">사용자 정의 동영상 재생 속도 편집하기</string>
     <string name="revanced_custom_playback_speeds_summary">사용하고 싶은 동영상 재생 속도 값을 추가 또는 변경할 수 있습니다.</string>
     <string name="revanced_remember_playback_speed_last_selected_title">동영상 재생 속도 저장 활성화하기</string>
-    <string name="revanced_remember_playback_speed_last_selected_summary_on">동영상 재생 속도 값을 변경할 때마다 저장합니다.</string>
-    <string name="revanced_remember_playback_speed_last_selected_summary_off">동영상 재생 속도 값을 변경할 때마다 저장하지 않습니다.</string>
+    <string name="revanced_remember_playback_speed_last_selected_summary_on">동영상 재생 속도 값을 변경할 때마다 기본 동영상 재생 속도로 저장합니다.</string>
+    <string name="revanced_remember_playback_speed_last_selected_summary_off">동영상 재생 속도 값을 변경할 때마다 기본 동영상 재생 속도로 저장하지 않습니다.</string>
     <string name="revanced_remember_playback_speed_last_selected_toast_title">팝업 메시지 표시하기</string>
     <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">기본 동영상 재생 속도 값을 변경하였을 때, 팝업 메시지를 표시합니다.</string>
     <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">기본 동영상 재생 속도 값을 변경하였을 때, 팝업 메시지를 표시하지 않습니다.</string>
     <string name="revanced_remember_video_quality_last_selected_title">동영상 화질 저장 활성화하기</string>
-    <string name="revanced_remember_video_quality_last_selected_summary_on">동영상 화질 값을 변경할 때마다 저장합니다.</string>
-    <string name="revanced_remember_video_quality_last_selected_summary_off">동영상 화질 값을 변경할 때마다 저장하지 않습니다.</string>
+    <string name="revanced_remember_video_quality_last_selected_summary_on">동영상 화질 값을 변경할 때마다 기본 동영상 화질으로 저장합니다.</string>
+    <string name="revanced_remember_video_quality_last_selected_summary_off">동영상 화질 값을 변경할 때마다 기본 동영상 화질으로 저장하지 않습니다.</string>
     <string name="revanced_remember_video_quality_last_selected_toast_title">팝업 메시지 표시하기</string>
     <string name="revanced_remember_video_quality_last_selected_toast_summary_on">기본 동영상 화질 값을 변경하였을 때, 팝업 메시지를 표시합니다.</string>
     <string name="revanced_remember_video_quality_last_selected_toast_summary_off">기본 동영상 화질 값을 변경하였을 때, 팝업 메시지를 표시하지 않습니다.</string>
@@ -1594,10 +1594,10 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_reject_av1_codec_summary">"AV1 코덱 응답을 강제로 거부합니다.
 • 약 20초정도의 버퍼링 후에 다른 코덱으로 전환됩니다."</string>
     <string name="revanced_reject_av1_codec_toast">Fallback 프로세스로 인하여 약 20초정도의 버퍼링이 발생합니다.</string>
-    <string name="revanced_remember_playback_speed_toast">기본 동영상 재생 속도 값을 %s으로 변경합니다.</string>
-    <string name="revanced_remember_video_quality_mobile">모바일 네트워크 이용 시 기본 동영상 화질 값을 %s로 변경합니다.</string>
+    <string name="revanced_remember_playback_speed_toast">기본 동영상 재생 속도 값을 %s 로 변경합니다.</string>
+    <string name="revanced_remember_video_quality_mobile">모바일 네트워크 이용 시 기본 동영상 화질 값을 %s 로 변경합니다.</string>
     <string name="revanced_remember_video_quality_none">동영상 화질을 설정할 수 없습니다.</string>
-    <string name="revanced_remember_video_quality_wifi">Wi-Fi 이용 시 기본 동영상 화질 값을 %s로 변경합니다.</string>
+    <string name="revanced_remember_video_quality_wifi">Wi-Fi 이용 시 기본 동영상 화질 값을 %s 로 변경합니다.</string>
     <string name="revanced_custom_playback_speeds_invalid">사용자 정의 재생 속도는 %s 배속보다 작아야 합니다.</string>
     <string name="revanced_custom_playback_speeds_parse_exception">잘못된 재생 속도 값입니다.</string>
     <!-- PreferenceScreen: Return YouTube Dislike -->

@@ -54,6 +54,10 @@
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Реклама</string>
     <string name="revanced_hide_fullscreen_ads_title">Приховати повноекранну рекламу</string>
+    <string name="revanced_hide_fullscreen_ads_summary">"Приховує повноекранну рекламу.
+
+Обмеження:
+• Іноді замість головної стрічки ви можете побачити порожній чорний екран."</string>
     <string name="revanced_fullscreen_ads_closed_toast">Повноекранну рекламу закрито.</string>
     <string name="revanced_hide_general_ads_title">Приховати загальну рекламу</string>
     <string name="revanced_hide_general_ads_summary">Приховує загальну рекламу.</string>
@@ -417,6 +421,11 @@
     <string name="revanced_disable_drc_audio_title">Вимкнути DRC аудіо</string>
     <string name="revanced_disable_drc_audio_summary">Вимикає DRC (стиснення динамічного діапазону), застосованого до аудіо.</string>
     <string name="revanced_disable_music_video_in_album_title">Вимкнути музичні відео в альбомі</string>
+    <string name="revanced_disable_music_video_in_album_summary">"Коли користувач без преміуму відтворює пісню з альбому, іноді замість офіційної пісні відтворюється музичне відео.
+
+Знайти офіційну пісню, якщо виявлено музичне відео з альбому. 
+
+Обмеження: відео для дітей не можна переспрямовувати."</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_title">Тип перенаправлення</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_summary">Визначає спосіб перенаправлення до офіційної пісні.</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect">Перенаправлення</string>

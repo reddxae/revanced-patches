@@ -54,6 +54,10 @@
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Διαφημίσεις</string>
     <string name="revanced_hide_fullscreen_ads_title">Απόκρυψη διαφημίσεων πλήρους οθόνης</string>
+    <string name="revanced_hide_fullscreen_ads_summary">"Απόκρυψη των διαφημίσεων πλήρους οθόνης.
+
+Περιορισμοί:
+• Ενδέχεται μερικές φορές να φαίνεται μια κενή μαύρη οθόνη αντί για την αρχική ροή."</string>
     <string name="revanced_fullscreen_ads_closed_toast">Οι διαφημίσεις πλήρους οθόνης έκλεισαν.</string>
     <string name="revanced_hide_general_ads_title">Απόκρυψη γενικών διαφημίσεων</string>
     <string name="revanced_hide_general_ads_summary">Απόκρυψη των γενικών διαφημίσεων.</string>
@@ -417,6 +421,11 @@
     <string name="revanced_disable_drc_audio_title">Απενεργοποίηση ήχου DRC</string>
     <string name="revanced_disable_drc_audio_summary">Απενεργοποίηση του DRC (Συμπίεση Δυναμικού Εύρους) που εφαρμόζεται στον ήχο.</string>
     <string name="revanced_disable_music_video_in_album_title">Απενεργοποίηση μουσικών βίντεο στα άλμπουμ</string>
+    <string name="revanced_disable_music_video_in_album_summary">"Όταν ένας μη-premium χρήστης παίζει ένα τραγούδι που περιλαμβάνεται σε ένα άλμπουμ, μερικές φορές αναπαράγεται το μουσικό βίντεο αντί για το επίσημο τραγούδι.
+
+Αν ανιχνεύεται αναπαραγωγή ενός μουσικού βίντεο που περιλαμβάνεται σε άλμπουμ, ανακατευθύνεται στο επίσημο τραγούδι.
+
+Περιορισμοί: Τα βίντεο για παιδιά ενδέχεται να μην ανακατευθυνθούν."</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_title">Τύπος ανακατεύθυνσης</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_summary">Καθορισμός του τρόπου ανακατεύθυνσης στο επίσημο τραγούδι.</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect">Ανακατεύθυνση</string>

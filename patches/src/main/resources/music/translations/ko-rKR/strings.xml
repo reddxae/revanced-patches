@@ -54,6 +54,10 @@
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">광고</string>
     <string name="revanced_hide_fullscreen_ads_title">전체 화면 광고 제거</string>
+    <string name="revanced_hide_fullscreen_ads_summary">"전체 화면 광고를 숨깁니다.
+
+알려진 문제점:
+• 간혹 홈 피드 대신 검은색 빈 화면이 표시될 수 있습니다."</string>
     <string name="revanced_fullscreen_ads_closed_toast">전체 화면 광고가 닫아집니다.</string>
     <string name="revanced_hide_general_ads_title">일반 레이아웃 광고 제거</string>
     <string name="revanced_hide_general_ads_summary">일반 레이아웃 광고를 숨깁니다.</string>
@@ -293,10 +297,10 @@
     <string name="revanced_remember_video_quality_last_selected_toast_summary">기본 동영상 화질 값으로 변경되었을 때, 팝업 메시지를 표시합니다.</string>
     <string name="revanced_custom_playback_speeds_invalid">사용자 정의 재생 속도는 %s배속보다 작아야 합니다.</string>
     <string name="revanced_custom_playback_speeds_parse_exception">잘못된 재생 속도 값입니다.</string>
-    <string name="revanced_remember_playback_speed_toast">기본 재생 속도 값을 %s으로 변경합니다.</string>
-    <string name="revanced_remember_video_quality_mobile">모바일 네트워크 이용 시 기본 동영상 품질 값을 %s로 변경합니다.</string>
+    <string name="revanced_remember_playback_speed_toast">기본 재생 속도 값을 %s 로 변경합니다.</string>
+    <string name="revanced_remember_video_quality_mobile">모바일 네트워크 이용 시 기본 동영상 품질 값을 %s 로 변경합니다.</string>
     <string name="revanced_remember_video_quality_none">동영상 품질을 설정할 수 없습니다.</string>
-    <string name="revanced_remember_video_quality_wifi">Wi-Fi 이용 시 기본 동영상 품질 값을 %s로 변경합니다.</string>
+    <string name="revanced_remember_video_quality_wifi">Wi-Fi 이용 시 기본 동영상 품질 값을 %s 로 변경합니다.</string>
     <!-- PreferenceScreen: Return YouTube Dislike -->
     <string name="revanced_preference_screen_ryd_title">Return YouTube Dislike</string>
     <string name="revanced_ryd_enabled_title">Return YouTube Dislike 활성화</string>
@@ -417,6 +421,12 @@ API Key를 발급받는 방법을 보려면 여기를 누르세요."</string>
     <string name="revanced_disable_drc_audio_title">DRC 오디오 비활성화</string>
     <string name="revanced_disable_drc_audio_summary">오디오에 적용된 DRC (Dynamic Range Compression)를 비활성화합니다.</string>
     <string name="revanced_disable_music_video_in_album_title">앨범에서 뮤직 비디오 비활성화</string>
+    <string name="revanced_disable_music_video_in_album_summary">"프리미엄이 아닌 사용자가 앨범에 포함된 노래를 재생할 때, 간혹 정식 음원 대신 뮤직 비디오가 재생되는 경우가 있습니다.
+
+앨범에서 뮤직 비디오가 재생되는 것이 감지되면 정식 음원을 찾아줍니다.
+
+알려진 문제점:
+• Kids 동영상은 리디렉션되지 않을 수 있습니다."</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_title">리다이렉션 유형</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_summary">정식 음원으로 리다이렉션하는 방법을 지정할 수 있습니다.</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect">리다이렉션</string>

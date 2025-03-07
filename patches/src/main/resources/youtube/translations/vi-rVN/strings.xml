@@ -91,8 +91,8 @@
     <string name="revanced_hide_paid_promotion_label_summary_on">Nhãn nội dung được trả tiền để quảng cáo đã ẩn.</string>
     <string name="revanced_hide_paid_promotion_label_summary_off">Nhãn nội dung được trả tiền để quảng cáo được hiển thị.</string>
     <string name="revanced_hide_player_store_shelf_title">Ẩn kệ Cửa hàng bên dưới trình phát</string>
-    <string name="revanced_hide_player_store_shelf_summary_on">Kệ Cửa hàng được hiển thị.</string>
-    <string name="revanced_hide_player_store_shelf_summary_off">Kệ Cửa hàng đã ẩn.</string>
+    <string name="revanced_hide_player_store_shelf_summary_on">Kệ Cửa hàng đã ẩn.</string>
+    <string name="revanced_hide_player_store_shelf_summary_off">Kệ Cửa hàng đã hiển thị.</string>
     <string name="revanced_hide_promotion_alert_banner_title">Ẩn biểu ngữ thông báo khuyến mãi</string>
     <string name="revanced_hide_promotion_alert_banner_summary_on">Biểu ngữ thông báo khuyến mãi đã ẩn.</string>
     <string name="revanced_hide_promotion_alert_banner_summary_off">Biểu ngữ thông báo khuyến mãi được hiển thị.</string>
@@ -379,7 +379,7 @@ Nếu bố cục của màn hình trình phát thay đổi do các thay đổi t
     <string name="revanced_change_start_page_entry_trending">Thịnh hành</string>
     <string name="revanced_change_start_page_entry_virtual_reality">Thực tế ảo</string>
     <string name="revanced_change_start_page_entry_watch_later">Xem sau</string>
-    <string name="revanced_change_start_page_entry_your_clips">Đoạn video của bạn</string>
+    <string name="revanced_change_start_page_entry_your_clips">Đoạn trích video của bạn</string>
     <string name="revanced_change_start_page_type_title">Thay đổi kiểu trang khởi động</string>
     <string name="revanced_change_start_page_type_summary_on">"Trang khởi động sẽ liên tục thay đổi.
 
@@ -595,21 +595,21 @@ Nếu cài đặt này không có hiệu lực, hãy thử chuyển sang chế �
     <string name="revanced_hide_settings_menu_about_summary_on">Mục Giới thiệu đã ẩn.</string>
     <string name="revanced_hide_settings_menu_about_summary_off">Mục Giới thiệu được hiển thị.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Snack bar -->
-    <string name="revanced_preference_screen_snack_bar_title">Thanh thông báo ngắn</string>
-    <string name="revanced_preference_screen_snack_bar_summary">Ẩn hoặc thay đổi các thành phần liên quan đến thanh thông báo ngắn ở bên dưới cùng của màn hình.</string>
+    <string name="revanced_preference_screen_snack_bar_title">Thanh thông báo nhanh</string>
+    <string name="revanced_preference_screen_snack_bar_summary">Ẩn hoặc thay đổi các thành phần liên quan đến thanh thông báo nhanh ở bên dưới cùng của màn hình.</string>
     <string name="revanced_hide_snack_bar_title">Ẩn thanh thông báo nhanh</string>
     <string name="revanced_hide_snack_bar_summary_on">Thanh thông báo nhanh đã ẩn.</string>
     <string name="revanced_hide_snack_bar_summary_off">Thanh thông báo nhanh được hiển thị.</string>
-    <string name="revanced_hide_server_side_snack_bar_title">Ẩn thanh thông báo ngắn từ phía máy chủ</string>
-    <string name="revanced_hide_server_side_snack_bar_summary_on">Thanh thông báo ngắn phía máy chủ đã ẩn.</string>
-    <string name="revanced_hide_server_side_snack_bar_summary_off">Thanh thông báo ngắn phía máy chủ được hiển thị.</string>
+    <string name="revanced_hide_server_side_snack_bar_title">Ẩn thanh thông báo nhanh từ phía máy chủ</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_on">Thanh thông báo nhanh phía máy chủ đã ẩn.</string>
+    <string name="revanced_hide_server_side_snack_bar_summary_off">Thanh thông báo nhanh phía máy chủ được hiển thị.</string>
     <string name="revanced_invert_snack_bar_theme_title">Đảo ngược chủ đề</string>
-    <string name="revanced_invert_snack_bar_theme_summary_on">Chủ đề của thanh thông báo ngắn đã được đảo ngược.</string>
-    <string name="revanced_invert_snack_bar_theme_summary_off">Chủ đề của thanh thông báo ngắn như mặc định.</string>
-    <string name="revanced_change_server_side_snack_bar_background_title">Thay đổi nền của thanh thông báo ngắn từ phía máy chủ</string>
-    <string name="revanced_change_server_side_snack_bar_background_summary_on">Nền của thanh thông báo ngắn phía máy chủ đã được thay đổi.</string>
-    <string name="revanced_change_server_side_snack_bar_background_summary_off">Nền của thanh thông báo ngắn phía máy chủ như mặc định.</string>
-    <string name="revanced_change_server_side_snack_bar_background_user_dialog_message">"Một số thanh thông báo ngắn lấy chủ đề từ phía máy chủ, chứ không phải chủ đề của ứng dụng.
+    <string name="revanced_invert_snack_bar_theme_summary_on">Chủ đề của thanh thông báo nhanh đã được đảo ngược.</string>
+    <string name="revanced_invert_snack_bar_theme_summary_off">Chủ đề của thanh thông báo nhanh như mặc định.</string>
+    <string name="revanced_change_server_side_snack_bar_background_title">Thay đổi nền của thanh thông báo nhanh từ phía máy chủ</string>
+    <string name="revanced_change_server_side_snack_bar_background_summary_on">Nền của thanh thông báo nhanh phía máy chủ đã được thay đổi.</string>
+    <string name="revanced_change_server_side_snack_bar_background_summary_off">Nền của thanh thông báo nhanh phía máy chủ như mặc định.</string>
+    <string name="revanced_change_server_side_snack_bar_background_user_dialog_message">"Một số thanh thông báo nhanh lấy chủ đề từ phía máy chủ, chứ không phải chủ đề của ứng dụng.
 
 Bạn có thể đổi màu nền cho chúng, nhưng nếu phía máy chủ thay đổi, màu nền có thể sẽ không cập nhật theo được."</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
@@ -777,7 +777,7 @@ Cài đặt → Tự động phát/Phát → Tự động phát video tiếp the
     <string name="revanced_hide_thanks_button_summary_on">Nút Cảm ơn đã ẩn.</string>
     <string name="revanced_hide_thanks_button_summary_off">Nút Cảm ơn được hiển thị.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons, PreferenceCategory: Experimental flags -->
-    <string name="revanced_hide_action_button_index_title">Ẩn nút thao tác theo thứ tự</string>
+    <string name="revanced_hide_action_button_index_title">Ẩn nút tương tác theo thứ tự</string>
     <string name="revanced_hide_action_button_index_summary_on">"Các nút tương tác đã ẩn theo thứ tự.
 
 Chi tiết:
@@ -961,8 +961,8 @@ Hạn chế: Tiêu đề video sẽ biến mất khi nhấn vào."</string>
     <string name="revanced_hide_quick_actions_like_button_summary_on">Nút Thích đã ẩn.</string>
     <string name="revanced_hide_quick_actions_like_button_summary_off">Nút Thích được hiển thị.</string>
     <string name="revanced_hide_quick_actions_live_chat_button_title">Ẩn nút Trò chuyện trực tiếp</string>
-    <string name="revanced_hide_quick_actions_live_chat_button_summary_on">Nút Trò chuyện trực tiếp đã ẩn.</string>
-    <string name="revanced_hide_quick_actions_live_chat_button_summary_off">Nút Trò chuyện trực tiếp được hiển thị.</string>
+    <string name="revanced_hide_quick_actions_live_chat_button_summary_on">Nút trò chuyện trực tiếp đã ẩn.</string>
+    <string name="revanced_hide_quick_actions_live_chat_button_summary_off">Nút trò chuyện trực tiếp được hiển thị.</string>
     <string name="revanced_hide_quick_actions_more_button_title">Ẩn nút thêm</string>
     <string name="revanced_hide_quick_actions_more_button_summary_on">Nút thêm (...) đã ẩn.</string>
     <string name="revanced_hide_quick_actions_more_button_summary_off">Nút thêm (...) được hiển thị.</string>
@@ -973,8 +973,8 @@ Hạn chế: Tiêu đề video sẽ biến mất khi nhấn vào."</string>
     <string name="revanced_hide_quick_actions_open_playlist_button_summary_on">Nút danh sách phát đã ẩn.</string>
     <string name="revanced_hide_quick_actions_open_playlist_button_summary_off">Nút danh sách phát được hiển thị.</string>
     <string name="revanced_hide_quick_actions_save_to_playlist_button_title">Ẩn nút Lưu vào danh sách phát</string>
-    <string name="revanced_hide_quick_actions_save_to_playlist_button_summary_on">Nút Lưu vào danh sách phát đã ẩn.</string>
-    <string name="revanced_hide_quick_actions_save_to_playlist_button_summary_off">Nút Lưu vào danh sách phát được hiển thị.</string>
+    <string name="revanced_hide_quick_actions_save_to_playlist_button_summary_on">Nút lưu vào danh sách phát đã ẩn.</string>
+    <string name="revanced_hide_quick_actions_save_to_playlist_button_summary_off">Nút lưu vào danh sách phát được hiển thị.</string>
     <string name="revanced_hide_quick_actions_share_button_title">Ẩn nút Chia sẻ</string>
     <string name="revanced_hide_quick_actions_share_button_summary_on">Nút Chia sẻ đã ẩn.</string>
     <string name="revanced_hide_quick_actions_share_button_summary_off">Nút Chia sẻ được hiển thị.</string>

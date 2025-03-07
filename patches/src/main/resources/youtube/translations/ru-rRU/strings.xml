@@ -391,9 +391,10 @@ Shorts
     <string name="revanced_change_start_page_entry_watch_later">Смотреть позже</string>
     <string name="revanced_change_start_page_entry_your_clips">Ваши клипы</string>
     <string name="revanced_change_start_page_type_title">Тип начальной страницы</string>
-    <string name="revanced_change_start_page_type_summary_on">"Начальная страница постоянно изменяется.
-Ограничение: Кнопка возврат может не работать."</string>
-    <string name="revanced_change_start_page_type_summary_off">Начальная страница изменится один раз.</string>
+    <string name="revanced_change_start_page_type_summary_on">"Начальная страница всегда меняется.
+
+Ограничение: Кнопка Назад на панели инструментов может не работать."</string>
+    <string name="revanced_change_start_page_type_summary_off">Начальная страница меняется только один раз.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Принудительные автоматические звуковые дорожки</string>
     <string name="revanced_disable_auto_audio_tracks_summary_on">Принудительные автоматические звуковые дорожки отключены.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Принудительные автоматические звуковые дорожки включены.</string>

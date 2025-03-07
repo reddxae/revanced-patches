@@ -20,6 +20,8 @@
     <string name="revanced_hide_terms_container_summary">Oculta o contêiner dos Termos de Serviço.</string>
     <!-- PreferenceScreen: Action bar -->
     <string name="revanced_preference_screen_action_bar_title">Barra de ação</string>
+    <string name="revanced_change_action_bar_position_title">Alterar posição da barra de ação</string>
+    <string name="revanced_change_action_bar_position_summary">Move a barra de ação para baixo do botão reproduzir.</string>
     <string name="revanced_hide_action_button_like_dislike_title">Ocultar botões de Like e Deslike</string>
     <string name="revanced_hide_action_button_like_dislike_summary">Oculta os botões de Like e Deslike. Não funciona no antigo layout do reprodutor.</string>
     <string name="revanced_hide_action_button_comment_title">Ocultar botão Comentários</string>
@@ -32,6 +34,9 @@
     <string name="revanced_hide_action_button_radio_summary">Oculta o botão de Rádio.</string>
     <string name="revanced_hide_action_button_share_title">Ocultar botão Compartilhar</string>
     <string name="revanced_hide_action_button_share_summary">Oculta botão de Compartilhar.</string>
+    <string name="revanced_hide_action_button_song_video_title">Ocultar botão de Música / Vídeo</string>
+    <string name="revanced_hide_action_button_song_video_summary">"Oculta o botão de Música / Vídeo.
+(Este botão só está disponível para alguns usuários)"</string>
     <string name="revanced_hide_action_button_label_title">Ocultar rótulo do botão de ação</string>
     <string name="revanced_hide_action_button_label_summary">Oculta os rótulos dos botões de ação.</string>
     <string name="revanced_external_downloader_action_title">Substituir ação do botão de Download</string>
@@ -49,6 +54,7 @@ Por favor, baixe %2$s do site."</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Anúncios</string>
     <string name="revanced_hide_fullscreen_ads_title">Ocultar anúncios em tela cheia</string>
+    <string name="revanced_fullscreen_ads_closed_toast">Os anúncios em tela cheia são fechados.</string>
     <string name="revanced_hide_general_ads_title">Ocultar anúncios gerais</string>
     <string name="revanced_hide_general_ads_summary">Oculta anúncios gerais.</string>
     <string name="revanced_hide_music_ads_title">Ocultar anúncios de mídia</string>
@@ -57,6 +63,7 @@ Por favor, baixe %2$s do site."</string>
     <string name="revanced_hide_paid_promotion_label_summary">Oculta o rótulo de promoção paga.</string>
     <string name="revanced_hide_premium_promotion_title">Ocultar pop-ups de promoção premium</string>
     <string name="revanced_hide_premium_promotion_summary">Oculta os pop-ups de promoção premium.</string>
+    <string name="revanced_hide_premium_promotion_closed_toast">Os popups de promoção Premium são fechados.</string>
     <string name="revanced_hide_premium_renewal_title">Ocultar banner de renovação premium</string>
     <string name="revanced_hide_premium_renewal_summary">Oculta o banner de renovação premium.</string>
     <string name="revanced_hide_promotion_alert_banner_title">Ocultar banner de alerta de promoção</string>
@@ -88,6 +95,7 @@ Limitações:
     <string name="revanced_hide_flyout_menu_go_to_episode_title">Ocultar menu Acessar episódio</string>
     <string name="revanced_hide_flyout_menu_go_to_podcast_title">Ocultar menu Acessar podcast</string>
     <string name="revanced_hide_flyout_menu_help_title">Ocultar menu Ajuda &amp; feedback</string>
+    <string name="revanced_hide_flyout_menu_not_interested_title">Ocultar o menu Não interessado</string>
     <string name="revanced_hide_flyout_menu_pin_to_speed_dial_title">Ocultar Fixar no menu de discagem rápida</string>
     <string name="revanced_hide_flyout_menu_play_next_title">Ocultar menu Tocar a seguir</string>
     <string name="revanced_hide_flyout_menu_quality_title">Ocultar menu Qualidade</string>
@@ -203,8 +211,35 @@ Isso não ignora a restrição de idade, apenas aceita isso automaticamente."</s
     <string name="revanced_hide_navigation_label_summary">Oculta o rótulo abaixo de cada botão de navegação.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Reprodutor</string>
+    <string name="revanced_add_miniplayer_next_button_title">Adicionar o botão próximo ao mini reprodutor</string>
+    <string name="revanced_add_miniplayer_next_button_summary">Adiciona o botão próxima faixa ao mini reprodutor.</string>
+    <string name="revanced_add_miniplayer_previous_button_title">Adicionar o botão anterior ao mini reprodutor</string>
+    <string name="revanced_add_miniplayer_previous_button_summary">Adiciona o botão faixa anterior ao mini reprodutor.</string>
+    <string name="revanced_change_miniplayer_color_title">Alterar cor do mini reprodutor</string>
+    <string name="revanced_change_miniplayer_color_summary">Altera a cor do mini reprodutor para combinar com o reprodutor em tela cheia.</string>
+    <string name="revanced_change_player_background_color_title">Alterar cor de fundo do reprodutor</string>
+    <string name="revanced_change_player_background_color_summary">Altera a cor de fundo do reprodutor para uma cor personalizada.</string>
+    <string name="revanced_custom_player_background_color_primary_title">Cor primária do fundo do reprodutor</string>
+    <string name="revanced_custom_player_background_color_primary_summary">"Digite o código hexadecimal da cor primária do plano de fundo do reprodutor.
+
+Use cores escuras se possível, pois o aplicativo não suporta temas claros."</string>
+    <string name="revanced_custom_player_background_color_secondary_title">Cor secundária do fundo do reprodutor</string>
+    <string name="revanced_custom_player_background_color_secondary_summary">"Digite o código hexadecimal da cor secundária do plano de fundo do reprodutor.
+
+Use cores escuras se possível, pois o aplicativo não suporta temas claros."</string>
+    <string name="revanced_custom_player_background_invalid_toast">Cor de fundo do reprodutor inválida.</string>
+    <string name="revanced_change_seekbar_position_title">Alterar posição da barra de busca</string>
+    <string name="revanced_change_seekbar_position_summary">Move a barra de busca para baixo do botão reproduzir.</string>
+    <string name="revanced_disable_miniplayer_gesture_title">Desativar gesto do mini reprodutor</string>
+    <string name="revanced_disable_miniplayer_gesture_summary">Desativa a função de deslizar para alterar faixa no mini reprodutor.</string>
     <string name="revanced_disable_player_gesture_title">Desativar gesto do reprodutor</string>
     <string name="revanced_disable_player_gesture_summary">Desativa a função de deslizar para alterar faixa no reprodutor.</string>
+    <string name="revanced_enable_forced_miniplayer_title">Ativar mini reprodutor forçado</string>
+    <string name="revanced_enable_forced_miniplayer_summary">Ativa o mini reprodutor forçado ao alternar para uma nova faixa.</string>
+    <string name="revanced_enable_swipe_to_dismiss_miniplayer_title">Ativar deslizar para dispensar o mini reprodutor</string>
+    <string name="revanced_enable_swipe_to_dismiss_miniplayer_summary">Ativa deslizar para baixo para fechar o mini reprodutor.</string>
+    <string name="revanced_enable_thick_seekbar_title">Ativar barra de busca espessa</string>
+    <string name="revanced_enable_thick_seekbar_summary">"Ativa a barra de busca espessa."</string>
     <string name="revanced_enable_zen_mode_title">Ativar modo Calmo</string>
     <string name="revanced_enable_zen_mode_summary">Ativa uma cor cinza claro para o fundo do reprodutor para reduzir o cansaço visual.</string>
     <string name="revanced_enable_zen_mode_podcast_title">Ativar o modo Calmo em podcasts</string>
@@ -217,6 +252,8 @@ Isso não ignora a restrição de idade, apenas aceita isso automaticamente."</s
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">Oculta os botões de emoji e marcação de tempo ao escrever comentários.</string>
     <string name="revanced_hide_fullscreen_share_button_title">Ocultar botão Compartilhar em tela cheia</string>
     <string name="revanced_hide_fullscreen_share_button_summary">Oculta o botão Compartilhar no reprodutor de tela cheia.</string>
+    <string name="revanced_hide_song_video_toggle_title">Ocultar alternador de Música / Vídeo</string>
+    <string name="revanced_hide_song_video_toggle_summary">Oculta o alternador de Música / Vídeo no reprodutor.</string>
     <string name="revanced_remember_repeat_state_title">Lembrar estado de repetição</string>
     <string name="revanced_remember_repeat_state_summary">Lembra o estado da alternância de repetição.</string>
     <string name="revanced_remember_shuffle_state_title">Lembrar estado do modo aleatório</string>
@@ -378,11 +415,6 @@ Clique para ver como emitir uma chave de API."</string>
     <string name="revanced_disable_drc_audio_title">Desativar áudio DRC</string>
     <string name="revanced_disable_drc_audio_summary">Desativa o DRC (Compressão de faixa dinâmica) aplicada ao áudio.</string>
     <string name="revanced_disable_music_video_in_album_title">Desativar vídeo da música no álbum</string>
-    <string name="revanced_disable_music_video_in_album_summary">"Quando um usuário não premium toca uma música incluída em um álbum, o videoclipe às vezes é tocado em vez da música oficial.
-
-Encontre a música oficial se um videoclipe for detectado tocando de um álbum.
-
-• Desenvolvido pela API de instância do Piped."</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_title">Tipo de redirecionamento</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_summary">Especifica como redirecionar para a música oficial.</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect">Redirecionar</string>

@@ -54,12 +54,15 @@
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">광고</string>
     <string name="revanced_hide_fullscreen_ads_title">전체 화면 광고 제거</string>
-    <string name="revanced_hide_fullscreen_ads_summary">전체 화면 광고를 숨깁니다.</string>
+    <string name="revanced_hide_fullscreen_ads_summary">"전체 화면 광고를 숨깁니다.
+
+알려진 문제점:
+• 간혹 홈 피드 대신 검은색 빈 화면이 표시될 수 있습니다."</string>
     <string name="revanced_fullscreen_ads_closed_toast">전체 화면 광고가 닫아집니다.</string>
     <string name="revanced_hide_general_ads_title">일반 레이아웃 광고 제거</string>
     <string name="revanced_hide_general_ads_summary">일반 레이아웃 광고를 숨깁니다.</string>
-    <string name="revanced_hide_music_ads_title">음악 광고 제거</string>
-    <string name="revanced_hide_music_ads_summary">음악을 재생하는 동안에 광고를 숨깁니다.</string>
+    <string name="revanced_hide_music_ads_title">미디어 광고 제거</string>
+    <string name="revanced_hide_music_ads_summary">미디어를 재생하는 동안에 광고를 숨깁니다.</string>
     <string name="revanced_hide_paid_promotion_label_title">유료 광고 포함 라벨 제거</string>
     <string name="revanced_hide_paid_promotion_label_summary">유료 광고 포함 라벨을 숨깁니다.</string>
     <string name="revanced_hide_premium_promotion_title">Premium 프로모션 팝업 제거</string>
@@ -114,12 +117,12 @@
     <string name="revanced_hide_flyout_menu_subscribe_title">구독 / 구독 취소 메뉴 제거</string>
     <string name="revanced_hide_flyout_menu_unpin_from_speed_dial_title">빠른 선곡에서 고정 해제 제거</string>
     <string name="revanced_hide_flyout_menu_view_song_credit_title">노래 크레딧 보기 메뉴 제거</string>
-    <string name="revanced_replace_flyout_menu_dismiss_queue_continue_watch_title">이어서 시청</string>
-    <string name="revanced_replace_flyout_menu_dismiss_queue_continue_watch_summary">\'YouTube에서 감상하기\' 메뉴를 누르면 YouTube 앱으로 변경하여 동영상을 현재 재생 시간부터 이어서 감상합니다.</string>
-    <string name="revanced_replace_flyout_menu_dismiss_queue_watch_on_youtube_label">YouTube에서 감상하기</string>
+    <string name="revanced_replace_flyout_menu_dismiss_queue_continue_watch_title">이어서 음악 감상</string>
+    <string name="revanced_replace_flyout_menu_dismiss_queue_continue_watch_summary">\'YouTube로 음악 감상\' 메뉴를 누르면 YouTube 앱으로 변경하여 현재 재생 시간부터 이어서 음악을 감상합니다.</string>
+    <string name="revanced_replace_flyout_menu_dismiss_queue_watch_on_youtube_label">YouTube로 음악 감상</string>
     <string name="revanced_replace_flyout_menu_dismiss_queue_watch_on_youtube_warning">잘못된 동영상 URL입니다.</string>
     <string name="revanced_replace_flyout_menu_dismiss_queue_title">현재 재생목록 닫기 메뉴 변경</string>
-    <string name="revanced_replace_flyout_menu_dismiss_queue_summary">\'현재 재생목록 닫기\' 메뉴를 \'YouTube에서 감상하기\' 메뉴로 변경합니다.</string>
+    <string name="revanced_replace_flyout_menu_dismiss_queue_summary">\'현재 재생목록 닫기\' 메뉴를 \'YouTube로 음악 감상\' 메뉴로 변경합니다.</string>
     <string name="revanced_replace_flyout_menu_report_title">신고 메뉴 변경</string>
     <string name="revanced_replace_flyout_menu_report_summary">\'신고\' 메뉴를 \'재생 속도\' 메뉴로 변경합니다.</string>
     <string name="revanced_replace_flyout_menu_report_only_player_title">댓글에서 신고 메뉴 유지</string>
@@ -177,10 +180,8 @@
     <string name="revanced_hide_voice_search_button_summary">툴바에서 음성 검색 버튼을 숨깁니다.</string>
     <string name="revanced_restore_old_style_library_shelf_title">이전 보관함 선반으로 복원</string>
     <string name="revanced_restore_old_style_library_shelf_summary">이전 보관함 탭으로 복원합니다. (실험 기능)</string>
-    <string name="revanced_remove_viewer_discretion_dialog_title">시청자 재량 다이얼로그 제거</string>
-    <string name="revanced_remove_viewer_discretion_dialog_summary">"시청자 재량 다이얼로그를 제거합니다.
-
-이 설정은 다이얼로그를 자동으로 허용하기만 하며, 연령 제한(성인인증 절차)을 우회할 수 없습니다."</string>
+    <string name="revanced_remove_viewer_discretion_dialog_title">시청 경고 다이얼로그 제거</string>
+    <string name="revanced_remove_viewer_discretion_dialog_summary">"다음 콘텐츠를 재생하기 전에 표시되는 시청 경고 다이얼로그를 제거합니다:\n• 연령 제한 콘텐츠\n• 혐오감을 주는 콘텐츠\n• 자살 또는 자해와 관련된 콘텐츠 ...\n\n이 설정은 다이얼로그를 자동으로 허용하기만 하며 연령 제한(성인인증 절차)을 우회할 수 없습니다."</string>
     <string name="revanced_spoof_app_version_title">앱 버전 변경</string>
     <string name="revanced_spoof_app_version_summary">"이전 앱 버전으로 변경합니다.
 
@@ -241,7 +242,10 @@
     <string name="revanced_enable_swipe_to_dismiss_miniplayer_title">스와이프하여 미니 플레이어 닫기 활성화</string>
     <string name="revanced_enable_swipe_to_dismiss_miniplayer_summary">미니 플레이어를 아래로 스와이프하여 닫을 수 있습니다.</string>
     <string name="revanced_enable_thick_seekbar_title">두꺼운 재생바 활성화</string>
-    <string name="revanced_enable_thick_seekbar_summary">두꺼운 재생바를 활성화합니다.</string>
+    <string name="revanced_enable_thick_seekbar_summary">"두꺼운 재생바를 활성화합니다.
+
+알려진 문제점:
+• 재생바에서 SponsorBlock 구간이 표시되지 않습니다."</string>
     <string name="revanced_enable_zen_mode_title">집중 모드 활성화</string>
     <string name="revanced_enable_zen_mode_summary">동영상 플레이어의 색상을 회색조로 설정해 눈의 피로를 줄입니다.</string>
     <string name="revanced_enable_zen_mode_podcast_title">팟캐스트에서 집중 모드 활성화</string>
@@ -293,10 +297,10 @@
     <string name="revanced_remember_video_quality_last_selected_toast_summary">기본 동영상 화질 값으로 변경되었을 때, 팝업 메시지를 표시합니다.</string>
     <string name="revanced_custom_playback_speeds_invalid">사용자 정의 재생 속도는 %s배속보다 작아야 합니다.</string>
     <string name="revanced_custom_playback_speeds_parse_exception">잘못된 재생 속도 값입니다.</string>
-    <string name="revanced_remember_playback_speed_toast">기본 재생 속도 값을 %s으로 변경합니다.</string>
-    <string name="revanced_remember_video_quality_mobile">모바일 네트워크 이용 시 기본 동영상 품질 값을 %s로 변경합니다.</string>
+    <string name="revanced_remember_playback_speed_toast">기본 재생 속도 값을 %s 로 변경합니다.</string>
+    <string name="revanced_remember_video_quality_mobile">모바일 네트워크 이용 시 기본 동영상 품질 값을 %s 로 변경합니다.</string>
     <string name="revanced_remember_video_quality_none">동영상 품질을 설정할 수 없습니다.</string>
-    <string name="revanced_remember_video_quality_wifi">Wi-Fi 이용 시 기본 동영상 품질 값을 %s로 변경합니다.</string>
+    <string name="revanced_remember_video_quality_wifi">Wi-Fi 이용 시 기본 동영상 품질 값을 %s 로 변경합니다.</string>
     <!-- PreferenceScreen: Return YouTube Dislike -->
     <string name="revanced_preference_screen_ryd_title">Return YouTube Dislike</string>
     <string name="revanced_ryd_enabled_title">Return YouTube Dislike 활성화</string>
@@ -306,7 +310,7 @@
     <string name="revanced_ryd_compact_layout_title">좋아요 버튼에서 구분선 제거</string>
     <string name="revanced_ryd_compact_layout_summary">좋아요 버튼에서 구분선을 숨깁니다.</string>
     <string name="revanced_ryd_estimated_like_title">추정되는 좋아요 수 표시</string>
-    <string name="revanced_ryd_estimated_like_summary">좋아요 수가 숨겨진 음악(동영상)에서 추정되는 좋아요 수를 표시합니다.</string>
+    <string name="revanced_ryd_estimated_like_summary">좋아요 수가 숨겨진 음악에서 추정되는 좋아요 수를 표시합니다.</string>
     <string name="revanced_ryd_toast_on_connection_error_title">API를 사용할 수 없을 때 팝업 메시지 표시</string>
     <string name="revanced_ryd_toast_on_connection_error_summary">ReturnYouTubeDislike를 사용할 수 없을 때, 팝업 메시지를 표시합니다.</string>
     <string name="revanced_ryd_about">정보</string>
@@ -417,16 +421,19 @@ API Key를 발급받는 방법을 보려면 여기를 누르세요."</string>
     <string name="revanced_disable_drc_audio_title">DRC 오디오 비활성화</string>
     <string name="revanced_disable_drc_audio_summary">오디오에 적용된 DRC (Dynamic Range Compression)를 비활성화합니다.</string>
     <string name="revanced_disable_music_video_in_album_title">앨범에서 뮤직 비디오 비활성화</string>
-    <string name="revanced_disable_music_video_in_album_summary">"프리미엄이 아닌 사용자가 앨범에 포함된 노래를 재생할 때, 간혹 공식 음악 대신 뮤직 비디오가 재생되는 경우가 있습니다.
+    <string name="revanced_disable_music_video_in_album_summary">"프리미엄이 아닌 사용자가 앨범에 포함된 노래를 재생할 때, 간혹 정식 음원 대신 뮤직 비디오가 재생되는 경우가 있습니다.
 
-앨범에서 뮤직 비디오가 재생되는 것이 감지되면 공식 음원을 찾아줍니다.
+앨범에서 뮤직 비디오가 재생되는 것이 감지되면 정식 음원을 찾아줍니다.
 
-• 파이핑된 인스턴스 API로 구동됩니다."</string>
+알려진 문제점:
+• Kids 동영상은 리디렉션되지 않을 수 있습니다."</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_title">리다이렉션 유형</string>
-    <string name="revanced_disable_music_video_in_album_redirect_type_summary">공식 음원으로 리다이렉션하는 방법을 지정할 수 있습니다.</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_summary">정식 음원으로 리다이렉션하는 방법을 지정할 수 있습니다.</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect">리다이렉션</string>
-    <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_click">\'노래↔동영상\' 토글 누르기</string>
-    <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_long_click">\'노래↔동영상\' 토글 길게 누르기</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_click">노래 / 동영상 토글 누르기</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_long_click">노래 / 동영상 토글 길게 누르기</string>
+    <string name="revanced_disable_quic_protocol_title">QUIC 프로토콜 비활성화</string>
+    <string name="revanced_disable_quic_protocol_summary">"QUIC 프로토콜을 비활성화합니다.\n동영상 로딩 속도가 개선될 수 있습니다."</string>
     <string name="revanced_enable_debug_logging_title">디버그 로깅 활성화</string>
     <string name="revanced_enable_debug_logging_summary">디버그 로그를 출력합니다.</string>
     <string name="revanced_enable_debug_buffer_logging_title">디버그 버퍼 로깅 활성화</string>

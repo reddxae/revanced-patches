@@ -54,7 +54,10 @@
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Διαφημίσεις</string>
     <string name="revanced_hide_fullscreen_ads_title">Απόκρυψη διαφημίσεων πλήρους οθόνης</string>
-    <string name="revanced_hide_fullscreen_ads_summary">Απόκρυψη των διαφημίσεων πλήρους οθόνης.</string>
+    <string name="revanced_hide_fullscreen_ads_summary">"Απόκρυψη των διαφημίσεων πλήρους οθόνης.
+
+Περιορισμοί:
+• Ενδέχεται μερικές φορές να φαίνεται μια κενή μαύρη οθόνη αντί για την αρχική ροή."</string>
     <string name="revanced_fullscreen_ads_closed_toast">Οι διαφημίσεις πλήρους οθόνης έκλεισαν.</string>
     <string name="revanced_hide_general_ads_title">Απόκρυψη γενικών διαφημίσεων</string>
     <string name="revanced_hide_general_ads_summary">Απόκρυψη των γενικών διαφημίσεων.</string>
@@ -240,7 +243,9 @@
     <string name="revanced_enable_swipe_to_dismiss_miniplayer_title">Χειρονομία απόρριψης ελαχιστοποιημένης οθόνης αναπαραγωγής</string>
     <string name="revanced_enable_swipe_to_dismiss_miniplayer_summary">Ενεργοποίηση χειρονομίας σάρωσης προς τα κάτω για απόρριψη της ελαχιστοποιημένης οθόνης αναπαραγωγής.</string>
     <string name="revanced_enable_thick_seekbar_title">Γραμμή προόδου παχιού στυλ</string>
-    <string name="revanced_enable_thick_seekbar_summary">Ενεργοποίηση της γραμμής προόδου παχιού στυλ.</string>
+    <string name="revanced_enable_thick_seekbar_summary">"Ενεργοποίηση της γραμμής προόδου παχιού στυλ.
+
+Περιορισμοί: Τα τμήματα SponsorBlock δεν εμφανίζονται στη γραμμή προόδου."</string>
     <string name="revanced_enable_zen_mode_title">Ενεργοποίηση λειτουργίας zen</string>
     <string name="revanced_enable_zen_mode_summary">Ενεργοποίηση μιας γκρι απόχρωσης στο παρασκήνιο της οθόνης αναπαραγωγής για να μειωθεί η καταπόνηση των ματιών.</string>
     <string name="revanced_enable_zen_mode_podcast_title">Λειτουργία zen σε ηχητικές εκπομπές</string>
@@ -420,12 +425,14 @@
 
 Αν ανιχνεύεται αναπαραγωγή ενός μουσικού βίντεο που περιλαμβάνεται σε άλμπουμ, ανακατευθύνεται στο επίσημο τραγούδι.
 
-• Χρησιμοποιείται το Piped Instance API."</string>
+Περιορισμοί: Τα βίντεο για παιδιά ενδέχεται να μην ανακατευθυνθούν."</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_title">Τύπος ανακατεύθυνσης</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_summary">Καθορισμός του τρόπου ανακατεύθυνσης στο επίσημο τραγούδι.</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect">Ανακατεύθυνση</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_click">Πάτημα εναλλαγής ήχου / βίντεο</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_long_click">Παρατεταμένο πάτημα εναλλαγής ήχου / βίντεο</string>
+    <string name="revanced_disable_quic_protocol_title">Απενεργοποίηση πρωτοκόλλου QUIC</string>
+    <string name="revanced_disable_quic_protocol_summary">"Απενεργοποίηση πρωτοκόλλου QUIC του CronetEngine."</string>
     <string name="revanced_enable_debug_logging_title">Ενεργοποίηση καταγραφής σφαλμάτων</string>
     <string name="revanced_enable_debug_logging_summary">Εκτύπωση του αρχείου καταγραφής σφαλμάτων.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Συμπερίληψη του buffer στην καταγραφή</string>

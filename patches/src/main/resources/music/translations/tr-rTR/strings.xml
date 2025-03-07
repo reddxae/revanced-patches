@@ -383,11 +383,6 @@ APl anahtarının nasıl verileceğini görmek için tıklayın."</string>
     <string name="revanced_disable_drc_audio_title">Sabit sesi devre dışı bırak</string>
     <string name="revanced_disable_drc_audio_summary">Sese uygulanan Dinamik Aralık Sıkıştırmayı devre dışı bırakır.</string>
     <string name="revanced_disable_music_video_in_album_title">Albümdeki müzik videosunu devre dışı bırak</string>
-    <string name="revanced_disable_music_video_in_album_summary">"Premium olmayan bir kullanıcı bir albümde yer alan bir şarkıyı çaldığında, bazen resmi şarkı yerine müzik videosu çalınır.
-
-Bir albümden müzik videosu çalındığı algılanırsa resmi şarkıyı bulur.
-
-• Piped Instance API tarafından desteklenmektedir."</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_title">Yönlendirme türü</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_summary">Resmi şarkıya nasıl yönlendireleceğini belirtir.</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect">Yönlendirme</string>

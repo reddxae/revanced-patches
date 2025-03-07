@@ -54,7 +54,9 @@
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Quảng cáo</string>
     <string name="revanced_hide_fullscreen_ads_title">Ẩn quảng cáo toàn màn hình</string>
-    <string name="revanced_hide_fullscreen_ads_summary">Ẩn quảng cáo toàn màn hình.</string>
+    <string name="revanced_hide_fullscreen_ads_summary">"Ẩn quảng cáo toàn màn hình.
+
+Hạn chế: Đôi khi mở thẻ Trang chủ, bạn chỉ thấy một màn hình màu đen."</string>
     <string name="revanced_fullscreen_ads_closed_toast">Quảng cáo toàn màn hình đã đóng.</string>
     <string name="revanced_hide_general_ads_title">Ẩn quảng cáo chung</string>
     <string name="revanced_hide_general_ads_summary">Ẩn quảng cáo xuất hiện trước khi phát.</string>
@@ -239,8 +241,10 @@ Nếu có thể, hãy sử dụng màu tối vì ứng dụng không hỗ trợ 
     <string name="revanced_enable_forced_miniplayer_summary">Luôn phát nhạc trong trình phát thu nhỏ bất cứ khi nào bạn nghe một bài hát mới.</string>
     <string name="revanced_enable_swipe_to_dismiss_miniplayer_title">Vuốt để đóng trình phát thu nhỏ</string>
     <string name="revanced_enable_swipe_to_dismiss_miniplayer_summary">Vuốt xuống để đóng trình phát thu nhỏ.</string>
-    <string name="revanced_enable_thick_seekbar_title">Thanh tiến trình dày</string>
-    <string name="revanced_enable_thick_seekbar_summary">Bật thanh tiến trình dày.</string>
+    <string name="revanced_enable_thick_seekbar_title">Thanh tiến trình lớn</string>
+    <string name="revanced_enable_thick_seekbar_summary">"Bật thanh tiến trình lớn trong trình phát.
+
+Hạn chế: các phân đoạn SponsorBlock không được hiển thị trên thanh tiến tình."</string>
     <string name="revanced_enable_zen_mode_title">Chế độ tập trung</string>
     <string name="revanced_enable_zen_mode_summary">Thay đổi nền của trình phát thành màu xám nhạt để giúp mắt của bạn thư giãn hơn.</string>
     <string name="revanced_enable_zen_mode_podcast_title">Chế độ tập trung cho Podcast</string>
@@ -420,12 +424,14 @@ Nhấp vào đây để xem các bước phát hành khóa API."</string>
 
 Trong trường hợp đó, hệ thống sẽ tìm và chuyển hướng tới bài hát chính thức.
 
-• Được hỗ trợ bởi API của Piped Instance."</string>
+Hạn chế: Video dành cho trẻ em có thể không được chuyển hướng."</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_title">Kiểu chuyển hướng</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_summary">Xác định cách chuyển tới bài hát chính thức.</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect">Chuyển hướng</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_click">Nhấn vào nút chuyển đổi giữa Bài hát và Video</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_long_click">Nhấn và giữ nút chuyển đổi giữa Bài hát và Video</string>
+    <string name="revanced_disable_quic_protocol_title">Vô hiệu hoá giao thức QUIC</string>
+    <string name="revanced_disable_quic_protocol_summary">"Vô hiệu hoá giao thức QUIC của CronetEngine."</string>
     <string name="revanced_enable_debug_logging_title">Nhật ký gỡ lỗi</string>
     <string name="revanced_enable_debug_logging_summary">Bật ghi nhật ký gỡ lỗi.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Bật nhật ký bộ đệm gỡ lỗi</string>

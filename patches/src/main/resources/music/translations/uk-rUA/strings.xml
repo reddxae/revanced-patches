@@ -54,7 +54,10 @@
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Реклама</string>
     <string name="revanced_hide_fullscreen_ads_title">Приховати повноекранну рекламу</string>
-    <string name="revanced_hide_fullscreen_ads_summary">Приховує повноекранну рекламу.</string>
+    <string name="revanced_hide_fullscreen_ads_summary">"Приховує повноекранну рекламу.
+
+Обмеження:
+• Іноді замість головної стрічки ви можете побачити порожній чорний екран."</string>
     <string name="revanced_fullscreen_ads_closed_toast">Повноекранну рекламу закрито.</string>
     <string name="revanced_hide_general_ads_title">Приховати загальну рекламу</string>
     <string name="revanced_hide_general_ads_summary">Приховує загальну рекламу.</string>
@@ -240,7 +243,9 @@
     <string name="revanced_enable_swipe_to_dismiss_miniplayer_title">Увімкнути жест закриття мініплеєру</string>
     <string name="revanced_enable_swipe_to_dismiss_miniplayer_summary">Вмикає жест вниз для закриття мініплеєру.</string>
     <string name="revanced_enable_thick_seekbar_title">Увімкнути товсту панель прогресу</string>
-    <string name="revanced_enable_thick_seekbar_summary">Вмикає товсту панель прогресу.</string>
+    <string name="revanced_enable_thick_seekbar_summary">"Вмикає товсту панель прогресу.
+
+Обмеження: сегменти SponsorBlock не показуються на панелі прогресу."</string>
     <string name="revanced_enable_zen_mode_title">Увімкнути режим \"Дзен\"</string>
     <string name="revanced_enable_zen_mode_summary">Вмикає світло-сірий колір фону плеєра, щоб зменшити навантаження на очі.</string>
     <string name="revanced_enable_zen_mode_podcast_title">Увімкнути режим \"Дзен\" у подкастах</string>
@@ -420,12 +425,14 @@
 
 Знайти офіційну пісню, якщо виявлено музичне відео з альбому. 
 
-• На базі Piped Instance API."</string>
+Обмеження: відео для дітей не можна переспрямовувати."</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_title">Тип перенаправлення</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_summary">Визначає спосіб перенаправлення до офіційної пісні.</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect">Перенаправлення</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_click">Натиснення перемикача \"пісня | відео\"</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_long_click">Натиснення та утримання перемикача \"пісня | відео\"</string>
+    <string name="revanced_disable_quic_protocol_title">Вимкнути протокол QUIC</string>
+    <string name="revanced_disable_quic_protocol_summary">"Вимикає протокол CronetEngine's QUIC."</string>
     <string name="revanced_enable_debug_logging_title">Увімкнути протоколи налагодження</string>
     <string name="revanced_enable_debug_logging_summary">Виводить протокол налагодження.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Увімкнути ведення журналу буфера налагодження</string>

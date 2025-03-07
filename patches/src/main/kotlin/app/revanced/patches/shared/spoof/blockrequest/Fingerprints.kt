@@ -40,14 +40,3 @@ internal fun indexOfUriToStringInstruction(method: Method) =
         opcode == Opcode.INVOKE_VIRTUAL &&
                 getReference<MethodReference>().toString() == "Landroid/net/Uri;->toString()Ljava/lang/String;"
     }
-
-// Feature flag that turns on Platypus programming language code compiled to native C++.
-// This code appears to replace the player config after the streams are loaded.
-// Flag is present in YouTube 19.34, but is missing Platypus stream replacement code until 19.43.
-// Flag and Platypus code is also present in newer versions of YouTube Music.
-internal const val ONESIE_ENCRYPTION_FEATURE_FLAG = 45645570L
-
-internal val onesieEncryptionFeatureFlagFingerprint = legacyFingerprint(
-    name = "onesieEncryptionFeatureFlagFingerprint",
-    literals = listOf(ONESIE_ENCRYPTION_FEATURE_FLAG),
-)

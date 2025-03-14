@@ -242,7 +242,7 @@ There are structural limitations of the patch, as Activities such as Search and 
 Known issues:
 • When a replaced Activity such as Search and Settings is closed, the start page opens.
 
-You can open the Change start page settings by clicking here."</string>
+Click to open the 'Change start page' settings."</string>
 
 
     <!-- PreferenceScreen: Player -->

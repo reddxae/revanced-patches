@@ -30,7 +30,7 @@ public class BaseSettings {
      * These settings are used by YouTube Music.
      * Some patches are in a shared path, so they are declared here.
      */
-    public static final BooleanSetting SPOOF_CLIENT = new BooleanSetting("revanced_spoof_client", TRUE, true);
+    public static final BooleanSetting SPOOF_CLIENT = new BooleanSetting("revanced_spoof_client", FALSE, true);
     public static final EnumSetting<MusicAppClient.ClientType> SPOOF_CLIENT_TYPE = new EnumSetting<>("revanced_spoof_client_type", MusicAppClient.ClientType.IOS_MUSIC_6_21, true);
 
     /**

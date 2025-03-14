@@ -21,6 +21,8 @@ import android.os.Looper;
 import android.preference.Preference;
 import android.preference.PreferenceGroup;
 import android.preference.PreferenceScreen;
+import android.text.SpannableString;
+import android.text.Spanned;
 import android.util.TypedValue;
 import android.view.View;
 import android.view.ViewGroup;
@@ -508,6 +510,26 @@ public class Utils {
 
         return false;
     }
+
+    public static CharSequence newSpanUsingStylingOfAnotherSpan(@Nullable CharSequence sourceStyle, @NonNull CharSequence newSpanText) {
+        if (sourceStyle instanceof Spanned spanned) {
+            return newSpanUsingStylingOfAnotherSpan(spanned, newSpanText);
+        }
+        return sourceStyle;
+    }
+
+    public static SpannableString newSpanUsingStylingOfAnotherSpan(@NonNull Spanned sourceStyle, @NonNull CharSequence newSpanText) {
+        if (sourceStyle == newSpanText && sourceStyle instanceof SpannableString spannableString) {
+            return spannableString; // Nothing to do.
+        }
+        SpannableString destination = new SpannableString(newSpanText);
+        Object[] spans = sourceStyle.getSpans(0, sourceStyle.length(), Object.class);
+        for (Object span : spans) {
+            destination.setSpan(span, 0, destination.length(), sourceStyle.getSpanFlags(span));
+        }
+        return destination;
+    }
+
 
     /**
      * @return whether the device's API level is higher than a specific SDK version.

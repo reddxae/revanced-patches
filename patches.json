@@ -288,6 +288,7 @@
     "description": "Adds an option to set which page the app opens in instead of the homepage.",
     "use": true,
     "dependencies": [
+      "ResourcePatch",
       "Settings for YouTube Music"
     ],
     "compatiblePackages": {
@@ -1988,7 +1989,8 @@
       "Change start page",
       "ResourcePatch",
       "ResourcePatch",
-      "Settings for YouTube Music"
+      "Settings for YouTube Music",
+      "ResourcePatch"
     ],
     "compatiblePackages": {
       "com.google.android.apps.youtube.music": [

@@ -61,6 +61,10 @@ val spoofStreamingDataPatch = bytecodePatch(
 
     execute {
 
+        var settingArray = arrayOf(
+            "SETTINGS: SPOOF_STREAMING_DATA"
+        )
+
         // region Get replacement streams at player requests.
 
         hookBuildRequest("$EXTENSION_CLASS_DESCRIPTOR->fetchStreams(Ljava/lang/String;Ljava/util/Map;)V")
@@ -327,6 +331,8 @@ val spoofStreamingDataPatch = bytecodePatch(
                 ONESIE_ENCRYPTION_FEATURE_FLAG,
                 "$EXTENSION_CLASS_DESCRIPTOR->skipResponseEncryption(Z)Z"
             )
+
+            settingArray += "SETTINGS: SKIP_RESPONSE_ENCRYPTION"
         }
 
         // endregion
@@ -339,9 +345,7 @@ val spoofStreamingDataPatch = bytecodePatch(
         )
 
         addPreference(
-            arrayOf(
-                "SETTINGS: SPOOF_STREAMING_DATA"
-            ),
+            settingArray,
             SPOOF_STREAMING_DATA
         )
     }

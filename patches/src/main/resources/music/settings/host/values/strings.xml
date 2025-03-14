@@ -501,6 +501,11 @@ Info:
     <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
     <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>
     <string name="revanced_spoof_client_type_entry_ios_music_7_04">iOS Music 7.04</string>
+    <string name="revanced_spoof_player_parameter_title">Spoof player parameter</string>
+    <string name="revanced_spoof_player_parameter_summary">"Spoof the player parameter to prevent playback issues.
+
+Side effect:
+• Sometimes the subtitles are located at the top of the player instead of the bottom."</string>
     <string name="revanced_watch_history_type_title">Watch history type</string>
     <string name="revanced_watch_history_type_summary">"• Original: Follows the watch history settings of Google account, but watch history may not work due to DNS or VPN.
 • Replace domain: Follows the watch history settings of Google account.

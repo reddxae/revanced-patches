@@ -2068,7 +2068,8 @@ Tap the continue button and allow optimization changes."</string>
 • Disable forced auto audio tracks is not available.
 • Kids videos may not play when logged out or in incognito mode."</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">• There may be playback issues (PoToken required).</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• Movies or paid videos may not play.
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• Stable volume is not available.
+• Movies or paid videos may not play.
 • Kids videos may not play when logged out or in incognito mode."</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Force iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Video codec is forced to AVC (H.264).</string>

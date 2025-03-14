@@ -10,6 +10,8 @@ import app.revanced.patches.music.general.startpage.changeStartPagePatch
 import app.revanced.patches.music.utils.compatibility.Constants.COMPATIBLE_PACKAGE
 import app.revanced.patches.music.utils.extension.Constants.NAVIGATION_CLASS_DESCRIPTOR
 import app.revanced.patches.music.utils.patch.PatchList.NAVIGATION_BAR_COMPONENTS
+import app.revanced.patches.music.utils.playservice.is_6_27_or_greater
+import app.revanced.patches.music.utils.playservice.versionCheckPatch
 import app.revanced.patches.music.utils.resourceid.colorGrey
 import app.revanced.patches.music.utils.resourceid.sharedResourceIdPatch
 import app.revanced.patches.music.utils.resourceid.text1
@@ -70,6 +72,7 @@ val navigationBarComponentsPatch = bytecodePatch(
         navigationBarComponentsResourcePatch,
         sharedResourceIdPatch,
         settingsPatch,
+        versionCheckPatch,
     )
 
     execute {
@@ -228,11 +231,13 @@ val navigationBarComponentsPatch = bytecodePatch(
             "revanced_hide_navigation_label",
             "false"
         )
-        addSwitchPreference(
-            CategoryType.NAVIGATION,
-            "revanced_replace_navigation_samples_button",
-            "false"
-        )
+        if (is_6_27_or_greater) {
+            addSwitchPreference(
+                CategoryType.NAVIGATION,
+                "revanced_replace_navigation_samples_button",
+                "false"
+            )
+        }
         addSwitchPreference(
             CategoryType.NAVIGATION,
             "revanced_replace_navigation_upgrade_button",

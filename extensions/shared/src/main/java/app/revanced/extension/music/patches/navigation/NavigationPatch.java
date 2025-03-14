@@ -65,6 +65,7 @@ public class NavigationPatch {
                     Runnable onClickAction = button.onClickAction;
                     if (onClickAction != null) {
                         view.setOnClickListener(v -> onClickAction.run());
+                        Utils.runOnMainThreadDelayed(() -> view.setOnClickListener(v -> onClickAction.run()), 500);
                     }
                 }
                 hideViewUnderCondition(button.hidden, view);

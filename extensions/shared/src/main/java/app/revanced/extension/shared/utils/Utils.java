@@ -53,7 +53,8 @@ import kotlin.text.Regex;
 public class Utils {
 
     private static WeakReference<Activity> activityRef = new WeakReference<>(null);
-    private static WeakReference<Context> contextRef = new WeakReference<>(null);
+    @SuppressLint("StaticFieldLeak")
+    private static volatile Context context;
 
     protected Utils() {
     } // utility class
@@ -274,17 +275,15 @@ public class Utils {
     }
 
     public static Context getContext() {
-        Context mContext = contextRef.get();
-        if (mContext == null) {
+        if (context == null) {
             Logger.initializationException(Utils.class, "Context is null, returning null!", null);
         }
-        return mContext;
+        return context;
     }
 
     public static Resources getResources() {
-        Context mContext = contextRef.get();
-        if (mContext != null) {
-            return mContext.getResources();
+        if (context != null) {
+            return context.getResources();
         }
         Activity mActivity = activityRef.get();
         if (mActivity != null) {
@@ -347,7 +346,7 @@ public class Utils {
         }
 
         // Must initially set context to check the app language.
-        contextRef = new WeakReference<>(appContext);
+        context = appContext;
         Logger.initializationInfo(Utils.class, "Set context: " + appContext);
 
         AppLanguage language = BaseSettings.REVANCED_LANGUAGE.get();
@@ -355,7 +354,7 @@ public class Utils {
             // Create a new context with the desired language.
             Configuration config = appContext.getResources().getConfiguration();
             config.setLocale(language.getLocale());
-            contextRef = new WeakReference<>(appContext.createConfigurationContext(config));
+            context = appContext.createConfigurationContext(config);
         }
     }
 
@@ -364,8 +363,7 @@ public class Utils {
     }
 
     public static void setClipboard(@NonNull String text, @Nullable String toastMessage) {
-        Context mContext = contextRef.get();
-        if (mContext != null && mContext.getSystemService(Context.CLIPBOARD_SERVICE) instanceof ClipboardManager clipboardManager) {
+        if (context != null && context.getSystemService(Context.CLIPBOARD_SERVICE) instanceof ClipboardManager clipboardManager) {
             android.content.ClipData clip = android.content.ClipData.newPlainText("ReVanced", text);
             clipboardManager.setPrimaryClip(clip);
 
@@ -516,20 +514,18 @@ public class Utils {
     }
 
     public static int dpToPx(float dp) {
-        Context mContext = contextRef.get();
-        if (mContext == null) {
+        if (context == null) {
             return (int) dp;
         } else {
-            return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dp, mContext.getResources().getDisplayMetrics());
+            return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dp, context.getResources().getDisplayMetrics());
         }
     }
 
     public static int dpToPx(int dp) {
-        Context mContext = contextRef.get();
-        if (mContext == null) {
+        if (context == null) {
             return dp;
         } else {
-            return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dp, mContext.getResources().getDisplayMetrics());
+            return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dp, context.getResources().getDisplayMetrics());
         }
     }
 
@@ -550,20 +546,18 @@ public class Utils {
     private static void showToast(@NonNull String messageToToast, int toastDuration) {
         Objects.requireNonNull(messageToToast);
         runOnMainThreadNowOrLater(() -> {
-            Context mContext = contextRef.get();
-            if (mContext == null) {
+            if (context == null) {
                 Logger.initializationException(Utils.class, "Cannot show toast (context is null): " + messageToToast, null);
             } else {
                 Logger.printDebug(() -> "Showing toast: " + messageToToast);
-                Toast.makeText(mContext, messageToToast, toastDuration).show();
+                Toast.makeText(context, messageToToast, toastDuration).show();
             }
         });
     }
 
     public static boolean isLandscapeOrientation() {
-        Context mContext = contextRef.get();
-        if (mContext == null) return false;
-        final int orientation = mContext.getResources().getConfiguration().orientation;
+        if (context == null) return false;
+        final int orientation = context.getResources().getConfiguration().orientation;
         return orientation == Configuration.ORIENTATION_LANDSCAPE;
     }
 
@@ -654,8 +648,7 @@ public class Utils {
 
     @SuppressLint("MissingPermission") // permission already included in YouTube
     public static NetworkType getNetworkType() {
-        Context mContext = contextRef.get();
-        if (mContext == null || !(mContext.getSystemService(Context.CONNECTIVITY_SERVICE) instanceof ConnectivityManager cm))
+        if (context == null || !(context.getSystemService(Context.CONNECTIVITY_SERVICE) instanceof ConnectivityManager cm))
             return NetworkType.NONE;
 
         final NetworkInfo networkInfo = cm.getActiveNetworkInfo();
@@ -762,7 +755,6 @@ public class Utils {
      * If a preference has no key or no {@link Sort} suffix,
      * then the preferences are left unsorted.
      */
-    @SuppressWarnings("deprecation")
     public static void sortPreferenceGroups(@NonNull PreferenceGroup group) {
         Sort groupSort = Sort.fromKey(group.getKey(), Sort.UNSORTED);
         SortedMap<String, Preference> preferences = new TreeMap<>();

@@ -385,12 +385,6 @@
     <string name="revanced_hide_gray_separator_summary_off">Сивите разделители са показани.</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">Прозорец за възрастово ограничение</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Премахва диалоговите прозорци. Това не заобикаля възрастовите ограничения, но ги приема автоматично."</string>
-    <string name="revanced_change_layout_title">Промяна на резолюция</string>
-    <string name="revanced_change_layout_entry_1">Оригинал</string>
-    <string name="revanced_change_layout_entry_2">Телефон</string>
-    <string name="revanced_change_layout_entry_3">Телефон (Max 480 dip)</string>
-    <string name="revanced_change_layout_entry_4">Таблет</string>
-    <string name="revanced_change_layout_entry_5">Таблет (Мин 600 dip)</string>
     <string name="revanced_change_live_ring_click_action_title">Действие на кликване върху точка за предаване на живо</string>
     <string name="revanced_change_live_ring_click_action_summary_on">"Каналът се отваря, когато се щракне върху пръстена на живо."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">Потокът на живо се отваря, когато се щракне върху пръстена на живо.</string>

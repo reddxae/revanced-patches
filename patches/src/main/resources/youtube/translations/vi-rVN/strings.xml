@@ -409,17 +409,27 @@ Hạn chế: Nút Quay lại trên thanh công cụ có thể không hoạt đ�
     <string name="revanced_remove_viewer_discretion_dialog_title">Loại bỏ hộp thoại cảnh báo trước khi xem</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Loại bỏ hộp thoại cảnh báo nội dung cần cân nhắc trước khi xem.
 Tuỳ chọn này chỉ tự động chấp nhận hộp thoại cảnh báo, chứ không thể bỏ qua giới hạn về độ tuổi."</string>
-    <string name="revanced_change_layout_title">Thay đổi giao diện</string>
-    <string name="revanced_change_layout_entry_1">Gốc</string>
-    <string name="revanced_change_layout_entry_2">Điện thoại</string>
-    <string name="revanced_change_layout_entry_3">Điện thoại (Tối đa 480 dp)</string>
-    <string name="revanced_change_layout_entry_4">Máy tính bảng</string>
-    <string name="revanced_change_layout_entry_5">Máy tính bảng (Tối thiểu 600 dp)</string>
     <string name="revanced_change_live_ring_click_action_title">Thay đổi thao tác nhấn vào vòng phát trực tiếp</string>
     <string name="revanced_change_live_ring_click_action_summary_on">"Mở kênh khi nhấn vào vòng phát trực tiếp.
 
-Hạn chế: Khi video ngắn phát trực tiếp được mở trong trình phát do cài đặt \"Mở video ngắn trong trình phát\", thì kênh sẽ không được mở."</string>
+Hạn chế: Khi video ngắn phát trực tiếp được mở trong trình phát thông thường do cài đặt \"Mở video ngắn trong trình phát\", thì kênh sẽ không được mở."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">Mở video đang phát trực tiếp khi nhấn vào vòng phát trực tiếp.</string>
+    <string name="revanced_change_form_factor_title">Hình thức bố cục</string>
+    <string name="revanced_change_form_factor_entry_1">Mặc định</string>
+    <string name="revanced_change_form_factor_entry_2">Điện thoại</string>
+    <string name="revanced_change_form_factor_entry_3">Điện thoại (Tối đa 480 dp)</string>
+    <string name="revanced_change_form_factor_entry_4">Máy tính bảng</string>
+    <string name="revanced_change_form_factor_entry_5">Máy tính bảng (Tối thiểu 600 dp)</string>
+    <string name="revanced_change_form_factor_entry_6">Màn hình ô tô</string>
+    <string name="revanced_change_form_factor_user_dialog_message">"Các thay đổi bao gồm:
+
+Bố cục máy tính bảng
+• Bài đăng cộng đồng bị ẩn.
+
+Bố cục màn hình ô tô
+• Video ngắn sẽ được mở trong trình phát thông thường.
+• Bảng tin được sắp xếp theo chủ đề và kênh.
+• Không thể mở mô tả video khi cài đặt \"Giả mạo luồng dữ liệu trực tuyến\" đang tắt."</string>
     <string name="revanced_spoof_app_version_title">Giả mạo phiên bản ứng dụng</string>
     <string name="revanced_spoof_app_version_summary_on">Phiên bản được giả mạo</string>
     <string name="revanced_spoof_app_version_summary_off">Phiên bản không được giả mạo</string>
@@ -1283,8 +1293,8 @@ Chi tiết:
     <string name="revanced_change_shorts_repeat_state_entry_default">Mặc định</string>
     <string name="revanced_change_shorts_repeat_state_entry_pause">Dừng</string>
     <string name="revanced_change_shorts_repeat_state_entry_repeat">Lặp lại</string>
-    <string name="revanced_open_shorts_in_regular_player_title">Mở video ngắn trong trình phát</string>
-    <string name="revanced_open_shorts_in_regular_player_summary_on">Đang mở video ngắn trong trình phát thay vì trình phát Shorts.</string>
+    <string name="revanced_open_shorts_in_regular_player_title">Mở video ngắn trong trình phát thông thường</string>
+    <string name="revanced_open_shorts_in_regular_player_summary_on">Đang mở video ngắn trong trình phát thông thường thay vì trình phát Shorts.</string>
     <string name="revanced_open_shorts_in_regular_player_summary_off">Đang mở video ngắn trong trình phát Shorts.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player -->
     <string name="revanced_preference_screen_shorts_player_title">Trình phát Shorts</string>
@@ -1927,6 +1937,14 @@ Hạn chế:
 • AVC có độ phân giải tối đa là 1080p.
 • Codec âm thanh OPUS không khả dụng.
 • Dùng nhiều dữ liệu di động hơn với VP9 hoặc AV1."</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_title">Bỏ qua mã hóa phản hồi Onesie</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_summary_on">"Bỏ qua mã hóa phản hồi Onesie.
+
+• Khắc phục sự cố phát mới mà một số người dùng đang gặp phải.
+• Codec AV1 có thể không khả dụng."</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_summary_off">"Không bỏ qua mã hoá phản hồi Onesie.
+
+• Một số người dùng có thể gặp phải sự cố phát mới."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Hiển thị trong Thống kê chi tiết</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Ứng dụng khách sử dụng để nạp luồng dữ liệu trực tuyến được hiển thị trong Thống kê chi tiết.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Ứng dụng khách sử dụng để nạp luồng dữ liệu trực tuyến đã ẩn trong Thống kê chi tiết.</string>

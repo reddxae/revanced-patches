@@ -54,6 +54,10 @@ Por favor, baixe %2$s do site."</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Anúncios</string>
     <string name="revanced_hide_fullscreen_ads_title">Ocultar anúncios em tela cheia</string>
+    <string name="revanced_hide_fullscreen_ads_summary">"Oculta anúncios de tela cheia.
+
+Limitações:
+• Às vezes você pode ver uma tela preta em branco ao invés do feed inicial."</string>
     <string name="revanced_fullscreen_ads_closed_toast">Os anúncios em tela cheia são fechados.</string>
     <string name="revanced_hide_general_ads_title">Ocultar anúncios gerais</string>
     <string name="revanced_hide_general_ads_summary">Oculta anúncios gerais.</string>
@@ -239,7 +243,9 @@ Use cores escuras se possível, pois o aplicativo não suporta temas claros."</s
     <string name="revanced_enable_swipe_to_dismiss_miniplayer_title">Ativar deslizar para dispensar o mini reprodutor</string>
     <string name="revanced_enable_swipe_to_dismiss_miniplayer_summary">Ativa deslizar para baixo para fechar o mini reprodutor.</string>
     <string name="revanced_enable_thick_seekbar_title">Ativar barra de busca espessa</string>
-    <string name="revanced_enable_thick_seekbar_summary">"Ativa a barra de busca espessa."</string>
+    <string name="revanced_enable_thick_seekbar_summary">"Ativar a barra de busca espessa.
+
+Limitações: segmentos de patrocinadores não são exibidos na barra de busca."</string>
     <string name="revanced_enable_zen_mode_title">Ativar modo Calmo</string>
     <string name="revanced_enable_zen_mode_summary">Ativa uma cor cinza claro para o fundo do reprodutor para reduzir o cansaço visual.</string>
     <string name="revanced_enable_zen_mode_podcast_title">Ativar o modo Calmo em podcasts</string>
@@ -415,11 +421,18 @@ Clique para ver como emitir uma chave de API."</string>
     <string name="revanced_disable_drc_audio_title">Desativar áudio DRC</string>
     <string name="revanced_disable_drc_audio_summary">Desativa o DRC (Compressão de faixa dinâmica) aplicada ao áudio.</string>
     <string name="revanced_disable_music_video_in_album_title">Desativar vídeo da música no álbum</string>
+    <string name="revanced_disable_music_video_in_album_summary">"Quando um usuário não premium reproduz uma música incluída em um álbum, o vídeo da música é tocado às vezes em vez da música oficial.
+
+Encontre a música oficial se um vídeo de música for detectado tocando de um álbum.
+
+Limitações: Vídeos infantis não podem ser redirecionados."</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_title">Tipo de redirecionamento</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_summary">Especifica como redirecionar para a música oficial.</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect">Redirecionar</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_click">Tocar alternador de Música / Vídeo</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_long_click">Tocar e segurar alternador de Música / Vídeo</string>
+    <string name="revanced_disable_quic_protocol_title">Desativar protocolo QUIC</string>
+    <string name="revanced_disable_quic_protocol_summary">"Desativa o protocolo QUIC da CronetEngine."</string>
     <string name="revanced_enable_debug_logging_title">Ativar o relatório de depuração</string>
     <string name="revanced_enable_debug_logging_summary">Imprime o relatório de depuração</string>
     <string name="revanced_enable_debug_buffer_logging_title">Ativar o registro de depuração do buffer</string>

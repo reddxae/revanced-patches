@@ -405,17 +405,27 @@ Playlists
     <string name="revanced_remove_viewer_discretion_dialog_title">Παράθυρο ηλικιακού περιορισμού</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Αφαίρεση του παραθύρου προειδοποίησης ηλικιακού περιορισμού.
 Αυτό δεν παρακάμπτει τον ηλικιακό περιορισμό, απλά τον αποδέχεται αυτόματα."</string>
-    <string name="revanced_change_layout_title">Αλλαγή διεπαφής</string>
-    <string name="revanced_change_layout_entry_1">Προεπιλογή</string>
-    <string name="revanced_change_layout_entry_2">Κινητό</string>
-    <string name="revanced_change_layout_entry_3">Κινητό (Μέγιστο dp 480)</string>
-    <string name="revanced_change_layout_entry_4">Τάμπλετ</string>
-    <string name="revanced_change_layout_entry_5">Τάμπλετ (Μέγιστο dp 600)</string>
     <string name="revanced_change_live_ring_click_action_title">Αλλαγή ενέργειας πατήματος δακτυλίου ζωντανής μετάδοσης</string>
     <string name="revanced_change_live_ring_click_action_summary_on">"Το κανάλι ανοίγει όταν πατιέται ο δακτύλιος ζωντανής μετάδοσης.
 
 Περιορισμός: Όταν πρόκειται για ζωντανή μετάδοση Shorts και η λειτουργία «Άνοιγμα των Shorts στην κανονική οθόνη αναπαραγωγής» είναι ενεργοποιημένη, δεν ανοίγει το κανάλι."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">Η ζωντανή μετάδοση ανοίγει όταν πατιέται ο δακτύλιος ζωντανής μετάδοσης.</string>
+    <string name="revanced_change_form_factor_title">Αλλαγή μορφής διάταξης</string>
+    <string name="revanced_change_form_factor_entry_1">Προεπιλογή</string>
+    <string name="revanced_change_form_factor_entry_2">Τηλέφωνο</string>
+    <string name="revanced_change_form_factor_entry_3">Τηλέφωνο (Μέγιστο dp 480)</string>
+    <string name="revanced_change_form_factor_entry_4">Τάμπλετ</string>
+    <string name="revanced_change_form_factor_entry_5">Τάμπλετ (Μέγιστο dp 600)</string>
+    <string name="revanced_change_form_factor_entry_6">Αυτοκίνητο</string>
+    <string name="revanced_change_form_factor_user_dialog_message">"Οι αλλαγές περιλαμβάνουν:
+
+Διάταξη tablet
+• Οι δημοσιεύσεις κοινότητας δεν εμφανίζονται.
+
+Διάταξη αυτοκινήτου
+• Τα Shorts ανοίγουν στην κανονική οθόνη αναπαραγωγής.
+• Η ροή οργανώνεται ανά θέματα και κανάλια.
+• Η περιγραφή βίντεο δεν γίνεται να ανοιχτεί όταν η λειτουργία «Παραποίηση ροών βίντεο» είναι ενεργοποιημένη."</string>
     <string name="revanced_spoof_app_version_title">Παραποίηση έκδοσης εφαρμογής</string>
     <string name="revanced_spoof_app_version_summary_on">Η έκδοση παραποιείται.</string>
     <string name="revanced_spoof_app_version_summary_off">Η έκδοση δεν παραποιείται.</string>
@@ -1942,6 +1952,14 @@ Playlists
     <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"Η ενεργοποίηση αυτής της λειτουργίας ενδέχεται να βελτιώσει τη διάρκεια ζωής της μπαταρίας και να διορθώσει κολλήματα αναπαραγωγής.
 
 Ο AVC έχει μέγιστη ανάλυση 1080p, ο κωδικοποιητής ήχου Opus δεν είναι διαθέσιμος και η αναπαραγωγή βίντεο θα χρησιμοποιεί περισσότερα δεδομένα ίντερνετ από τον VP9 ή τον AV1."</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_title">Παράλειψη απόκρισης κρυπτογράφησης Onesie</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_summary_on">"Γίνεται παράλειψη απόκρισης κρυπτογράφησης Onesie.
+
+• Διόρθωση ενός νέου είδους προβλήματος αναπαραγωγής που επηρεάζει ορισμένους χρήστες.
+• Ο κωδικοποιητής AV1 μπορεί να μην είναι διαθέσιμος."</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_summary_off">"Δεν γίνεται παράλειψη απόκρισης κρυπτογράφησης Onesie.
+
+• Ορισμένοι χρήστες ενδέχεται να αντιμετωπίσουν ένα νέο πρόβλημα αναπαραγωγής."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Εμφάνιση στο «Στατιστικά για σπασίκλες»</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Το πρόγραμμα πελάτη που χρησιμοποιείται για τη λήψη δεδομένων ροής εμφανίζεται στο μενού «Στατιστικά για σπασίκλες».</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Το πρόγραμμα πελάτη που χρησιμοποιείται για τη λήψη δεδομένων ροής δεν εμφανίζεται στο μενού «Στατιστικά για σπασίκλες».</string>

@@ -409,17 +409,27 @@
     <string name="revanced_remove_viewer_discretion_dialog_title">Вилучати діалогове вікно</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Вилучається діалогове вікно.
 Це не обходить вікові обмеження, а просто приймається автоматично."</string>
-    <string name="revanced_change_layout_title">Змінити макет</string>
-    <string name="revanced_change_layout_entry_1">Оригінал</string>
-    <string name="revanced_change_layout_entry_2">Телефонний</string>
-    <string name="revanced_change_layout_entry_3">Телефонний (Макс 480 dp)</string>
-    <string name="revanced_change_layout_entry_4">Планшетний</string>
-    <string name="revanced_change_layout_entry_5">Планшетний (Мін 600 dp)</string>
     <string name="revanced_change_live_ring_click_action_title">Змінити дію натискання на кружечок наживо</string>
     <string name="revanced_change_live_ring_click_action_summary_on">"При натисканні на кружечок наживо відкривається канал.
 
 Застереження: Коли відкрито пряму трансляцію Shorts у поточному плеєрі налаштуванням 'Відкривати Shorts у поточному плеєрі', канал не відкривається."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">При натисканні на кружечок наживо відкривається пряма трансляція.</string>
+    <string name="revanced_change_form_factor_title">Формат макету</string>
+    <string name="revanced_change_form_factor_entry_1">Стандартний</string>
+    <string name="revanced_change_form_factor_entry_2">Телефонний</string>
+    <string name="revanced_change_form_factor_entry_3">Телефонний (Макс 480 dp)</string>
+    <string name="revanced_change_form_factor_entry_4">Планшетний</string>
+    <string name="revanced_change_form_factor_entry_5">Планшетний (Мін 600 dp)</string>
+    <string name="revanced_change_form_factor_entry_6">Автомобільний</string>
+    <string name="revanced_change_form_factor_user_dialog_message">"Зміни включають:
+
+Планшетний макет
+• Публікації спільноти приховано.
+
+Автомобільний макет
+• Shorts відкриваються у поточному плеєрі.
+• Стрічка організована за темами та каналами.
+• Опис відео не відкривається, якщо вимкнена функція 'Підробити дані трансляції'."</string>
     <string name="revanced_spoof_app_version_title">Підробити версію програми</string>
     <string name="revanced_spoof_app_version_summary_on">Версію підроблено</string>
     <string name="revanced_spoof_app_version_summary_off">Версію не підроблено</string>
@@ -1923,6 +1933,14 @@
     <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"Увімкнення може зменшити споживання акумулятора та виправити затинання відтворення.
 
 AVC має максимальну роздільну здатність 1080p, аудіокодек Opus недоступний, а відтворення відео використовуватиме більше інтернет-даних, ніж кодек VP9 чи AV1."</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_title">Пропустити шифрування відповіді Onesie</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_summary_on">"Шифрування відповіді Onesie пропускається.
+
+• Виправлено новий тип проблеми відтворення, з якою стикаються деякі користувачі.
+• Кодек AV1 може бути недоступний."</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_summary_off">"Шифрування відповіді Onesie не пропускається.
+
+• Деякі користувачі можуть стикатися з новим типом проблеми відтворення."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Показувати в Статистика для сисадмінів</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Клієнт, що використовується для отримання даних трансляції показується у Статистика для сисадмінів.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Клієнт, що використовується для отримання даних трансляції приховано у Статистика для сисадмінів.</string>

@@ -409,12 +409,6 @@ Ograniczenie: Przycisk wstecz na pasku narzędzi może nie działać."</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">Usuń okno dialogowe treści ograniczonej do oglądania</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Usuwa okno dialogowe treści ograniczonej do oglądania.
 Nie pomija to ograniczeń wiekowych, lecz akceptuje je automatycznie."</string>
-    <string name="revanced_change_layout_title">Układ aplikacji</string>
-    <string name="revanced_change_layout_entry_1">Oryginalny</string>
-    <string name="revanced_change_layout_entry_2">Telefonowy</string>
-    <string name="revanced_change_layout_entry_3">Telefonowy (max. 480 dpi)</string>
-    <string name="revanced_change_layout_entry_4">Tabletowy</string>
-    <string name="revanced_change_layout_entry_5">Tabletowy (max. 600 dpi)</string>
     <string name="revanced_change_live_ring_click_action_title">Zachowanie po kliknięciu okręgu od transmisji na żywo</string>
     <string name="revanced_change_live_ring_click_action_summary_on">"Otwarcie kanału
 

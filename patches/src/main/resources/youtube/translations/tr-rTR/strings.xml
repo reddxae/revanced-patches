@@ -399,12 +399,6 @@ Sınırlama: Araç çubuğundaki geri butonu çalışmayabilir."</string>
     <string name="revanced_hide_gray_separator_summary_off">Video ve topluluk gönderisi arasındaki gri çubuk gizlenmiyor.</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">İzleyicinin takdirine bağlı iletişim kutusunu kaldır</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Görüntüleyicinin takdirine ilişkin iletişim kutusunu kaldırır. Bu yaş sınırlamasını atlamaz. Sadece otomatik olarak kabul ediyor."</string>
-    <string name="revanced_change_layout_title">Düzeni değiştir</string>
-    <string name="revanced_change_layout_entry_1">Orijinal</string>
-    <string name="revanced_change_layout_entry_2">Telefon</string>
-    <string name="revanced_change_layout_entry_3">Telefon (En fazla 480 dp)</string>
-    <string name="revanced_change_layout_entry_4">Tablet</string>
-    <string name="revanced_change_layout_entry_5">Tablet (En az 600 dp)</string>
     <string name="revanced_change_live_ring_click_action_title">Canlı halka eylemini değiştir</string>
     <string name="revanced_change_live_ring_click_action_summary_on">"Canlı halkaya tıklandığında kanal açılır.
 

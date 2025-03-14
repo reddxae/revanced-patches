@@ -406,15 +406,25 @@ Limitación: Es posible que el botón Atrás de la barra de herramientas no func
     <string name="revanced_remove_viewer_discretion_dialog_title">Eliminar diálogo de discreción del espectador</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Elimina el diálogo de discreción del espectador.
 Esto no evita la restricción de edad. Solo la acepta automáticamente."</string>
-    <string name="revanced_change_layout_title">Cambiar diseño</string>
-    <string name="revanced_change_layout_entry_1">Original</string>
-    <string name="revanced_change_layout_entry_2">Teléfono</string>
-    <string name="revanced_change_layout_entry_3">Teléfono (máx. 480 dpi)</string>
-    <string name="revanced_change_layout_entry_4">Tablet</string>
-    <string name="revanced_change_layout_entry_5">Tablet (min. 600 dpi)</string>
     <string name="revanced_change_live_ring_click_action_title">Cambiar acción de pulsación en anillo del directo</string>
     <string name="revanced_change_live_ring_click_action_summary_on">"El canal se abre al pulsar en el anillo del directo."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">El directo se abre al pulsar en el anillo del directo.</string>
+    <string name="revanced_change_form_factor_title">Factor de forma del diseño</string>
+    <string name="revanced_change_form_factor_entry_1">Por defecto</string>
+    <string name="revanced_change_form_factor_entry_2">Teléfono</string>
+    <string name="revanced_change_form_factor_entry_3">Teléfono (máx. 480 dp)</string>
+    <string name="revanced_change_form_factor_entry_4">Tablet</string>
+    <string name="revanced_change_form_factor_entry_5">Tablet (min. 600 dp)</string>
+    <string name="revanced_change_form_factor_entry_6">Automóvil</string>
+    <string name="revanced_change_form_factor_user_dialog_message">"Los cambios incluyen:
+
+Diseño para tablet
+• Las publicaciones de la comunidad están ocultas.
+
+Diseño para automóvil
+• Los Shorts se abren en el reproductor normal.
+• El feed está organizado por temas y canales.
+• La descripción del vídeo no se puede abrir cuando está desactivado \"Falsificar datos de transmisión\"."</string>
     <string name="revanced_spoof_app_version_title">Falsificar versión de la app</string>
     <string name="revanced_spoof_app_version_summary_on">Versión falsificada</string>
     <string name="revanced_spoof_app_version_summary_off">Versión no falsificada</string>
@@ -1915,6 +1925,14 @@ Pulsa el botón de continuar y desactiva las optimizaciones de la batería."</st
     <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"Activar este ajuste podría mejorar la duración de la batería y solucionar el problema de la reproducción entrecortada.
 
 AVC tiene una resolución máxima de 1080p, el códec de audio Opus no está disponible y la reproducción de vídeo utilizará más datos de Internet que VP9 o AV1."</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_title">Omitir cifrado de respuesta de Onesie</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_summary_on">"Omite el cifrado de respuesta de Onesie.
+
+• Corrige un nuevo tipo de problema de reproducción que algunos usuarios están experimentando.
+• El código AV1 puede no estar disponible."</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_summary_off">"No omite el cifrado de respuesta de Onesie.
+
+• Algunos usuarios pueden experimentar un nuevo tipo de problema de reproducción."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Mostrar en estadísticas para nerds</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">El cliente utilizado para obtener datos de transmisión se muestra en estadísticas para nerds.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">El cliente utilizado para obtener datos de transmisión no se muestra en estadísticas para nerds.</string>

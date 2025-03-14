@@ -126,6 +126,9 @@
     <string name="revanced_change_start_page_summary">アプリのスタートページを変更します。</string>
     <string name="revanced_change_start_page_entry_explore">探索</string>
     <string name="revanced_change_start_page_entry_library">ライブラリ</string>
+    <string name="revanced_change_start_page_entry_podcasts">ポッドキャスト</string>
+    <string name="revanced_change_start_page_entry_samples">サンプル</string>
+    <string name="revanced_change_start_page_entry_search">検索</string>
     <string name="revanced_disable_dislike_redirection_title">低評価リダイレクトを無効化</string>
     <string name="revanced_disable_dislike_redirection_summary">低評価ボタンを押したとき、次の曲へのリダイレクトするのを無効にする。</string>
     <string name="revanced_disable_auto_captions_title">字幕の強制を無効化</string>

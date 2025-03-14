@@ -409,12 +409,6 @@ Limitation : Le bouton Retour de la barre d'outils peut ne pas fonctionner."</st
     <string name="revanced_remove_viewer_discretion_dialog_title">Suppr. Message \'Confirmer votre âge\'</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Supprime le message 'Confirmer votre âge'.
 Cela ne contourne pas la restriction d'âge, mais le confirme automatiquement."</string>
-    <string name="revanced_change_layout_title">Modifier la mise en page</string>
-    <string name="revanced_change_layout_entry_1">Original</string>
-    <string name="revanced_change_layout_entry_2">Téléphone</string>
-    <string name="revanced_change_layout_entry_3">Téléphone (Max 480 dpi)</string>
-    <string name="revanced_change_layout_entry_4">Tablette</string>
-    <string name="revanced_change_layout_entry_5">Tablette (Min 600 dpi)</string>
     <string name="revanced_change_live_ring_click_action_title">Changer l\'action du cercle \'En direct\'</string>
     <string name="revanced_change_live_ring_click_action_summary_on">"La chaîne s'ouvre lorsque vous cliquez sur le cercle 'En direct'.
 

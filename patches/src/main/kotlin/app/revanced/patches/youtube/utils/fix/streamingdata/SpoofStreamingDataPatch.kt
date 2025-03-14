@@ -19,6 +19,7 @@ import app.revanced.patches.youtube.utils.compatibility.Constants.COMPATIBLE_PAC
 import app.revanced.patches.youtube.utils.compatibility.Constants.YOUTUBE_PACKAGE_NAME
 import app.revanced.patches.youtube.utils.patch.PatchList.SPOOF_STREAMING_DATA
 import app.revanced.patches.youtube.utils.playservice.is_19_34_or_greater
+import app.revanced.patches.youtube.utils.playservice.is_20_10_or_greater
 import app.revanced.patches.youtube.utils.playservice.versionCheckPatch
 import app.revanced.patches.youtube.utils.request.buildRequestPatch
 import app.revanced.patches.youtube.utils.request.hookBuildRequest
@@ -331,6 +332,13 @@ val spoofStreamingDataPatch = bytecodePatch(
                 ONESIE_ENCRYPTION_FEATURE_FLAG,
                 "$EXTENSION_CLASS_DESCRIPTOR->skipResponseEncryption(Z)Z"
             )
+
+            if (is_20_10_or_greater) {
+                onesieEncryptionAlternativeFeatureFlagFingerprint.injectLiteralInstructionBooleanCall(
+                    ONESIE_ENCRYPTION_ALTERNATIVE_FEATURE_FLAG,
+                    "$EXTENSION_CLASS_DESCRIPTOR->skipResponseEncryption(Z)Z"
+                )
+            }
 
             settingArray += "SETTINGS: SKIP_RESPONSE_ENCRYPTION"
         }

@@ -1926,11 +1926,11 @@ GmsCore の電池の最適化を無効にしても、バッテリーの使用に
 <small>(Google アカウントへのログインが必要)</small>"</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">ストリーミングデータを偽装することによる副作用</string>
     <string name="revanced_spoof_streaming_data_side_effects_android">"・「音声トラック」メニューは表示されません。
-・「一定音量」は使用できません。
+・「一定音量」は利用できません。
 ・「音声トラックの強制を無効化」は利用できません。
 ・ログインをしていない場合やシークレットモードでは、子供向け動画は再生できない可能性があります。"</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">・動画が再生できない可能性があります(PoToken が必要です)。</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"・「音声トラック」メニューは表示されません。
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"・「一定音量」は利用できません。
 ・映画や有料動画は再生できない可能性があります。
 ・ログインをしていない場合やシークレットモードでは、子供向け動画は再生できない可能性があります。"</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">iOS クライアントで AVC (H.264) を強制</string>

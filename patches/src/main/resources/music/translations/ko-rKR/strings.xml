@@ -223,7 +223,7 @@ YouTube Music의 검색 및 설정과 같은 활동은 공개되지 않으므로
 알려진 문제:
 • 검색 및 설정과 같은 교체된 활동이 닫히면 앱 시작 페이지가 열립니다.
 
-여기를 눌러서 앱 시작 페이지 변경 설정을 열 수 있습니다."</string>
+앱 시작 페이지 설정을 열려면 여기를 누르세요."</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">플레이어</string>
     <string name="revanced_add_miniplayer_next_button_title">미니 플레이어 다음 재생 버튼 추가</string>

@@ -414,6 +414,22 @@ Nie pomija to ograniczeń wiekowych, lecz akceptuje je automatycznie."</string>
 
 Ograniczenie: jeśli transmisja na żywo Shortsa jest otwierana w zwykłym odtwarzaczu przy użyciu opcji 'Otwieranie Shortsów w zwykłym odtwarzaczu', kanał się nie otworzy."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">Otwarcie transmisji na żywo</string>
+    <string name="revanced_change_form_factor_title">Współczynik kształtu układu aplikacji</string>
+    <string name="revanced_change_form_factor_entry_1">Domyślny</string>
+    <string name="revanced_change_form_factor_entry_2">Telefonowy</string>
+    <string name="revanced_change_form_factor_entry_3">Telefonowy (max. 480 dpi)</string>
+    <string name="revanced_change_form_factor_entry_4">Tabletowy</string>
+    <string name="revanced_change_form_factor_entry_5">Tabletowy (max. 600 dpi)</string>
+    <string name="revanced_change_form_factor_entry_6">Samochodowy</string>
+    <string name="revanced_change_form_factor_user_dialog_message">"Zmiany zawierają:
+
+Układ tabletowy:
+• Posty społeczności są ukryte
+
+Układ samochodowy:
+• Shortsy otwierają się w zwykłym odtwarzaczu
+• Strona główna jest sortowana po tematach i kanałach
+• Opis filmu nie może być otwarty po wyłączeniu 'Oszukuj strumień danych'"</string>
     <string name="revanced_spoof_app_version_title">Oszukiwanie wersji aplikacji</string>
     <string name="revanced_spoof_app_version_summary_on">Włączone</string>
     <string name="revanced_spoof_app_version_summary_off">Wyłączone</string>
@@ -1915,7 +1931,8 @@ Stuknij przycisk kontynuacji i zezwól na zmiany w optymalizacji."</string>
 • Automatyczne wymuszenie ścieżki dźwiękowej nie jest dostępne
 • Filmy dla dzieci mogą się nie odtwarzać będąc zalogowanym lub w trybie incognito"</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">• Mogą wystąpić problemy z odtwarzaniem (wymagany PoToken)</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• Filmy kinowe lub płatne mogą się nie odtwarzać
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• Stabilna głośność nie jest dostępna
+• Filmy kinowe lub płatne mogą się nie odtwarzać
 • Filmy dla dzieci mogą się nie odtwarzać będąc zalogowanym lub w trybie incognito"</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Wymuś kodek iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Wymuszony</string>
@@ -1923,6 +1940,14 @@ Stuknij przycisk kontynuacji i zezwól na zmiany w optymalizacji."</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"Włączenie tego może poprawić czas pracy baterii i naprawić zacinanie się odtwarzacza.
 
 AVC obsługuje maksymalnie rozdzielczość 1080p, kodek audio OPUS nie jest dostępny, a odtwarzanie wideo będzie zużywać więcej danych internetowych niż VP9 lub AV1."</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_title">Pomijaj szyfrowanie odpowiedzi Onesie</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_summary_on">"Tak
+
+• Naprawia nowy typ problemu z odtwarzaniem, którego doświadczają niektórzy użytkownicy
+• Kodek AV1 może nie być dostępny"</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_summary_off">"Nie
+• Niektórzy użytkownicy mogą doświadczyć nowego typu problemów z odtwarzaniem
+"</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Informacja w statystykach dla nerdów</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Widoczna</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Ukryta</string>

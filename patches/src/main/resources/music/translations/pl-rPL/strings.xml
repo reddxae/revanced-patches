@@ -213,6 +213,18 @@ Nie pomija to ograniczeń wiekowych, lecz akceptuje je automatycznie."</string>
     <string name="revanced_hide_navigation_bar_summary">Ukrywa pasek nawigacji.</string>
     <string name="revanced_hide_navigation_label_title">Ukryj nazwy w pasku nawigacji</string>
     <string name="revanced_hide_navigation_label_summary">Ukrywa nazwy każdego przycisku w pasku nawigacji.</string>
+    <string name="revanced_replace_navigation_samples_button_title">Zastąp przycisk sampli</string>
+    <string name="revanced_replace_navigation_samples_button_summary">Zastępuje przycisk sampli przyciskiem wyszukiwania.</string>
+    <string name="revanced_replace_navigation_upgrade_button_title">Zastąp przycisk przejścia na YouTube Premium</string>
+    <string name="revanced_replace_navigation_upgrade_button_summary">Zastępuje przycisk przejścia na YouTube Premium przyciskiem ustawień.</string>
+    <string name="revanced_replace_navigation_button_about_title">O zastępowaniu przycisków</string>
+    <string name="revanced_replace_navigation_button_about_summary">"Ta funkcja jest eksperymentalna.
+Istnieją strukturalne ograniczenia łatki, ponieważ działania takie jak wyszukiwanie i ustawienia w YouTube Music nie są publiczne.
+
+Znane problemy:
+• Po zamknięciu zastąpionego działania, takiego jak wyszukiwanie i ustawienia, otwierana jest strona startowa.
+
+Kliknij, by otworzyć ustawienia 'Zmień stronę startową'."</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Odtwarzacz</string>
     <string name="revanced_add_miniplayer_next_button_title">Dodaj przycisk do następnego utworu w miniodtwarzaczu</string>
@@ -453,6 +465,11 @@ Informacje:
     <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
     <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>
     <string name="revanced_spoof_client_type_entry_ios_music_7_04">iOS Music 7.04</string>
+    <string name="revanced_spoof_player_parameter_title">Oszukuj parametry odtwarzacza</string>
+    <string name="revanced_spoof_player_parameter_summary">"Oszukuje parametry odtwarzacza, by zapobiec problemom z odtwarzaniem.
+
+Efekt uboczny:
+• Czasem napisy są u góry odtwarzacza, zamiast na dole"</string>
     <string name="revanced_watch_history_type_title">Typ historii oglądania</string>
     <string name="revanced_watch_history_type_summary">"• Oryginalny: Stosuje się do ustawień historii oglądania konta Google, lecz historia oglądania może nie działać przy używaniu DNS lub VPN
 • Zastąpienie domeny: Stosuje się do ustawień historii oglądania konta Google

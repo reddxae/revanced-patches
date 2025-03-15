@@ -1925,7 +1925,8 @@
 • Вимкнення примусових авто звукових доріжок недоступне.
 • Відео для дітей можуть не відтворюватися коли вийшли з системи або в анонімному режимі."</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">• Можуть бути проблеми з відтворенням (Потрібен PoToken).</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• Фільми та платні відео можуть не відтворюватися.
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• Стабілізація гучності недоступна.
+• Фільми та платні відео можуть не відтворюватися.
 • Відео для дітей можуть не відтворюватися коли вийшли з системи або в анонімному режимі."</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Примусово AVC (H.264) iOS</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Примусово увімкнено відеокодек AVC (H.264).</string>

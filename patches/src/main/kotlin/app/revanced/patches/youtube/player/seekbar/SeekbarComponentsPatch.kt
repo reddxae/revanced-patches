@@ -123,7 +123,7 @@ val seekbarComponentsPatch = bytecodePatch(
     execute {
 
         val restoreOldSplashAnimationIncluded = CUSTOM_BRANDING_ICON_FOR_YOUTUBE.included == true &&
-                customBrandingIconPatch.getBooleanOptionValue("restoreOldSplashAnimationOption").value == true
+                customBrandingIconPatch.getBooleanOptionValue("restoreOldSplashAnimation").value == true
 
         var settingArray = arrayOf(
             "PREFERENCE_SCREEN: PLAYER",

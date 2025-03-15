@@ -1,6 +1,7 @@
 package app.revanced.patches.youtube.utils.settings
 
 import app.revanced.patcher.extensions.InstructionExtensions.getInstruction
+import app.revanced.patcher.patch.BytecodePatchContext
 import app.revanced.patcher.patch.bytecodePatch
 import app.revanced.patcher.patch.resourcePatch
 import app.revanced.patcher.patch.stringOption
@@ -39,6 +40,10 @@ private const val EXTENSION_INITIALIZATION_CLASS_DESCRIPTOR =
 private const val EXTENSION_THEME_METHOD_DESCRIPTOR =
     "$EXTENSION_UTILS_PATH/BaseThemeUtils;->setTheme(Ljava/lang/Enum;)V"
 
+private lateinit var bytecodeContext: BytecodePatchContext
+
+internal fun getBytecodeContext() = bytecodeContext
+
 private val settingsBytecodePatch = bytecodePatch(
     description = "settingsBytecodePatch"
 ) {
@@ -50,6 +55,7 @@ private val settingsBytecodePatch = bytecodePatch(
     )
 
     execute {
+        bytecodeContext = this
 
         // apply the current theme of the settings page
         themeSetterSystemFingerprint.methodOrThrow().apply {

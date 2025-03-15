@@ -147,7 +147,7 @@ public class Settings extends BaseSettings {
     public static final BooleanSetting CHANGE_START_PAGE_TYPE = new BooleanSetting("revanced_change_start_page_type", FALSE, true,
             new ChangeStartPagePatch.ChangeStartPageTypeAvailability());
     public static final BooleanSetting DISABLE_AUTO_AUDIO_TRACKS = new BooleanSetting("revanced_disable_auto_audio_tracks", FALSE);
-    public static final BooleanSetting DISABLE_SPLASH_ANIMATION = new BooleanSetting("revanced_disable_splash_animation", FALSE, true);
+    public static final BooleanSetting DISABLE_SPLASH_ANIMATION = new BooleanSetting("revanced_disable_splash_animation", PatchStatus.SplashAnimation(), true);
     public static final BooleanSetting DISABLE_TRANSLUCENT_STATUS_BAR = new BooleanSetting("revanced_disable_translucent_status_bar", TRUE, true);
     public static final BooleanSetting ENABLE_GRADIENT_LOADING_SCREEN = new BooleanSetting("revanced_enable_gradient_loading_screen", FALSE, true);
     public static final BooleanSetting HIDE_FLOATING_MICROPHONE = new BooleanSetting("revanced_hide_floating_microphone", TRUE, true);

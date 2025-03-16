@@ -1930,7 +1930,8 @@
 • لا يتوفر تعطيل المقطع الصوتي التلقائي المفروض.
 • قد لا يتم تشغيل الفيديوهات المخصصة للأطفال عند تسجيل الخروج أو في وضع التصفح المتخفي."</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">• قد تكون هناك مشكلات في التشغيل (يتطلب PoToken).</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• قد لا يتم تشغيل الأفلام أو الفيديوهات المدفوعة.
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• مستوى الصوت الثابت غير متوفر.
+• قد لا يتم تشغيل الأفلام أو الفيديوهات المدفوعة.
 • قد لا يتم تشغيل الفيديوهات المخصصة للأطفال عند تسجيل الخروج أو في وضع التصفح المتخفي."</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">فرض iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">يتم فرض ترميز الفيديو على AVC (H.264).</string>

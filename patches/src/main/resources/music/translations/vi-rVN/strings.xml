@@ -468,7 +468,7 @@ Chi tiết:
     <string name="revanced_spoof_player_parameter_summary">"Giả mạo thông số trình phát để khắc phục sự cố phát.
 
 Hạn chế:
-• Đôi khi phụ đề hiển thị ở phía trên của trình phát thay vì ở phía dưới."</string>
+• Đôi khi phụ đề hiển thị ở phía trên của trình phát thay vì ở phía dưới như thường lệ."</string>
     <string name="revanced_watch_history_type_title">Kiểu nhật ký</string>
     <string name="revanced_watch_history_type_summary">"• Gốc: Tuân theo cài đặt nhật ký xem của tài khoản Google, nhưng có thể không hoạt động do DNS hoặc VPN.
 • Thay thế miền: Vẫn tuân theo cài đặt nhật ký xem của tài khoản Google.

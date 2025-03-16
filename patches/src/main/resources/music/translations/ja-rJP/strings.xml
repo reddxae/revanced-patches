@@ -464,7 +464,7 @@ API キーの発行方法については、ここをタップしてください�
     <string name="revanced_spoof_player_parameter_title">プレイヤーパラメータを偽装</string>
     <string name="revanced_spoof_player_parameter_summary">"再生の問題を防ぐためにプレイヤーパラメーターを偽装します。
 
-副作用：
+副作用:
 • 字幕が下部ではなくプレーヤーの上部に配置されることがあります。"</string>
     <string name="revanced_watch_history_type_title">再生履歴の種類</string>
     <string name="revanced_watch_history_type_summary">"・オリジナル：　Google アカウントの視聴履歴設定に従いますが、DNSやVPNにより視聴履歴が機能しない場合があります。

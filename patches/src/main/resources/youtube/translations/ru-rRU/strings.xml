@@ -418,15 +418,25 @@ Shorts
     <string name="revanced_hide_gray_separator_summary_off">Серые разделители отображены.</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">Скрыть диалог возрастного ограничения</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Возрастные ограничения будут приниматься автоматически."</string>
-    <string name="revanced_change_layout_title">Изменить макет</string>
-    <string name="revanced_change_layout_entry_1">Оригинал</string>
-    <string name="revanced_change_layout_entry_2">Телефон</string>
-    <string name="revanced_change_layout_entry_3">Телефон (Макс. 480 dip)</string>
-    <string name="revanced_change_layout_entry_4">Планшет</string>
-    <string name="revanced_change_layout_entry_5">Планшет (Мин. 600 dip)</string>
     <string name="revanced_change_live_ring_click_action_title">Действие нажатия на точку прямого эфира</string>
     <string name="revanced_change_live_ring_click_action_summary_on">"Открывается канал."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">Открывается прямой эфир.</string>
+    <string name="revanced_change_form_factor_title">Макет интерфейса</string>
+    <string name="revanced_change_form_factor_entry_1">Стандартный</string>
+    <string name="revanced_change_form_factor_entry_2">Телефон</string>
+    <string name="revanced_change_form_factor_entry_3">Телефон (Макс. 480 dip)</string>
+    <string name="revanced_change_form_factor_entry_4">Планшет</string>
+    <string name="revanced_change_form_factor_entry_5">Планшет (Мин. 600 dip)</string>
+    <string name="revanced_change_form_factor_entry_6">Автомобильный</string>
+    <string name="revanced_change_form_factor_user_dialog_message">"Изменения включают:
+
+Макет для планшета
+• Сообщения сообщества скрыты.
+
+Автомобильный макет
+• Shorts открываются в обычном плеере.
+• Лента организована по темам и каналам.
+• Описание видео нельзя открыть, если «Подмена потоковых данных» отключена."</string>
     <string name="revanced_spoof_app_version_title">Подмена версии приложения</string>
     <string name="revanced_spoof_app_version_summary_on">Версия приложения подменена</string>
     <string name="revanced_spoof_app_version_summary_off">Версия приложения не подменена</string>
@@ -1477,10 +1487,10 @@ Shorts
     <string name="revanced_replace_channel_handle_title">Заменить псевдоним канала</string>
     <string name="revanced_replace_channel_handle_summary_on">Используется имя канала.</string>
     <string name="revanced_replace_channel_handle_summary_off">Используется псевдоним канала.</string>
-    <string name="revanced_restore_shorts_old_player_layout_title">Старый интерфейс проигрывателя</string>
-    <string name="revanced_restore_shorts_old_player_layout_summary_on">"Старый интерфейс проигрывателя включен.
-Без отступов сверху и снизу плеера."</string>
-    <string name="revanced_restore_shorts_old_player_layout_summary_off">Старый интерфейс проигрывателя отключен.</string>
+    <string name="revanced_restore_shorts_old_player_layout_title">Старый интерфейс плеера</string>
+    <string name="revanced_restore_shorts_old_player_layout_summary_on">"Старый макет плеера используется.
+Нет полей сверху и снизу плеера."</string>
+    <string name="revanced_restore_shorts_old_player_layout_summary_off">Старый интерфейс плеера отключен.</string>
     <!-- PreferenceScreen: Swipe controls -->
     <string name="revanced_preference_screen_swipe_controls_title">Управление жестами</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_title">Управление автояркостью жестом</string>
@@ -1946,6 +1956,14 @@ Shorts
 - устранить прерывания при воспроизведении.
 
 Максимальное разрешение видео AVC составляет 1080p. Кодек Opus недоступен. Потребление интернет трафика будет больше, чем при VP9 или AV1."</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_title">Пропустить шифрование ответа Onesie</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_summary_on">"Шифрование ответа Onesie пропускается.
+
+• Исправлен новый тип воспроизведения, с которыми сталкиваются некоторые пользователи.
+• Кодек AV1 может быть недоступен."</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_summary_off">"Шифрование ответа Onesie не пропускается.
+
+• Некоторые пользователи могут сталкиваться с новым типом проблемы воспроизведения."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Статистике для сисадминов</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Клиент потоковых данных отображается в Статистике для сисадминов.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Клиент потоковых данных скрыт в Статистике для сисадминов.</string>

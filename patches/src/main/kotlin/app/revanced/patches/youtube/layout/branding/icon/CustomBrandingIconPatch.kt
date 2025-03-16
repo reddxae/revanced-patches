@@ -4,12 +4,14 @@ import app.revanced.patcher.patch.booleanOption
 import app.revanced.patcher.patch.resourcePatch
 import app.revanced.patcher.patch.stringOption
 import app.revanced.patches.youtube.utils.compatibility.Constants.COMPATIBLE_PACKAGE
+import app.revanced.patches.youtube.utils.extension.Constants.PATCH_STATUS_CLASS_DESCRIPTOR
 import app.revanced.patches.youtube.utils.patch.PatchList.CUSTOM_BRANDING_ICON_FOR_YOUTUBE
 import app.revanced.patches.youtube.utils.playservice.is_19_17_or_greater
 import app.revanced.patches.youtube.utils.playservice.is_19_32_or_greater
 import app.revanced.patches.youtube.utils.playservice.is_19_34_or_greater
 import app.revanced.patches.youtube.utils.playservice.versionCheckPatch
 import app.revanced.patches.youtube.utils.settings.ResourceUtils.updatePatchStatusIcon
+import app.revanced.patches.youtube.utils.settings.getBytecodeContext
 import app.revanced.patches.youtube.utils.settings.settingsPatch
 import app.revanced.util.ResourceGroup
 import app.revanced.util.Utils.printWarn
@@ -19,6 +21,7 @@ import app.revanced.util.copyFile
 import app.revanced.util.copyResources
 import app.revanced.util.getResourceGroup
 import app.revanced.util.underBarOrThrow
+import app.revanced.util.updatePatchStatus
 import app.revanced.util.valueOrThrow
 import org.w3c.dom.Element
 
@@ -247,10 +250,16 @@ val customBrandingIconPatch = resourcePatch(
                         resourcesNode.appendChild(style)
                     }
                 }
+
+                getBytecodeContext().apply {
+                    updatePatchStatus(PATCH_STATUS_CLASS_DESCRIPTOR, "OldSplashAnimation")
+                }
             }
 
             updatePatchStatusIcon(appIcon)
         }
+
+        CUSTOM_BRANDING_ICON_FOR_YOUTUBE.included = true
 
         // region fix app icon
 

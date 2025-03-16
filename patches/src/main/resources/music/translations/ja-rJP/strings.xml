@@ -54,6 +54,11 @@
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">広告</string>
     <string name="revanced_hide_fullscreen_ads_title">全画面広告を非表示</string>
+    <string name="revanced_hide_fullscreen_ads_summary">"全画面広告を隠す
+
+注意:
+・ホームフィードの代わりに真っ黒な画面が表示されることがあります。"</string>
+    <string name="revanced_fullscreen_ads_closed_toast">全画面広告を閉じました。</string>
     <string name="revanced_hide_general_ads_title">一般広告を非表示</string>
     <string name="revanced_hide_general_ads_summary">一般広告を非表示にします。</string>
     <string name="revanced_hide_music_ads_title">音楽の広告を非表示</string>
@@ -62,6 +67,7 @@
     <string name="revanced_hide_paid_promotion_label_summary">有料プロモーションラベルを非表示にします。</string>
     <string name="revanced_hide_premium_promotion_title">プレミアムプロモーションポップアップを非表示</string>
     <string name="revanced_hide_premium_promotion_summary">プレミアムプロモーションポップアップを非表示にします。</string>
+    <string name="revanced_hide_premium_promotion_closed_toast">プレミアムプロモーションのポップアップは閉じられました。</string>
     <string name="revanced_hide_premium_renewal_title">プレミアム更新バナーを非表示</string>
     <string name="revanced_hide_premium_renewal_summary">プレミアム更新バナーを非表示にします。</string>
     <string name="revanced_hide_promotion_alert_banner_title">プロモーションバナーを非表示</string>
@@ -93,6 +99,7 @@
     <string name="revanced_hide_flyout_menu_go_to_episode_title">「エピソードに移動」を非表示</string>
     <string name="revanced_hide_flyout_menu_go_to_podcast_title">「ポッドキャストに移動」を非表示</string>
     <string name="revanced_hide_flyout_menu_help_title">「ヘルプとフィードバック」を非表示</string>
+    <string name="revanced_hide_flyout_menu_not_interested_title">「興味なし」を非表示</string>
     <string name="revanced_hide_flyout_menu_pin_to_speed_dial_title">「[クイック アクセス] に固定」を非表示</string>
     <string name="revanced_hide_flyout_menu_play_next_title">「次に再生」を非表示</string>
     <string name="revanced_hide_flyout_menu_quality_title">画質メニューを非表示</string>
@@ -124,8 +131,17 @@
     <string name="revanced_preference_screen_general_title">全般</string>
     <string name="revanced_change_start_page_title">スタートページを変更</string>
     <string name="revanced_change_start_page_summary">アプリのスタートページを変更します。</string>
+    <string name="revanced_change_start_page_entry_default">デフォルト</string>
+    <string name="revanced_change_start_page_entry_charts">チャート</string>
+    <string name="revanced_change_start_page_entry_episodes_for_later">次に再生</string>
     <string name="revanced_change_start_page_entry_explore">探索</string>
+    <string name="revanced_change_start_page_entry_history">履歴</string>
     <string name="revanced_change_start_page_entry_library">ライブラリ</string>
+    <string name="revanced_change_start_page_entry_liked_music">高く評価した音楽</string>
+    <string name="revanced_change_start_page_entry_podcasts">ポッドキャスト</string>
+    <string name="revanced_change_start_page_entry_samples">サンプル</string>
+    <string name="revanced_change_start_page_entry_search">検索</string>
+    <string name="revanced_change_start_page_entry_subscriptions">登録チャンネル</string>
     <string name="revanced_disable_dislike_redirection_title">低評価リダイレクトを無効化</string>
     <string name="revanced_disable_dislike_redirection_summary">低評価ボタンを押したとき、次の曲へのリダイレクトするのを無効にする。</string>
     <string name="revanced_disable_auto_captions_title">字幕の強制を無効化</string>
@@ -197,6 +213,18 @@
     <string name="revanced_hide_navigation_bar_summary">ナビゲーションバーを非表示にします。</string>
     <string name="revanced_hide_navigation_label_title">ナビゲーションバーのラベルを非表示</string>
     <string name="revanced_hide_navigation_label_summary">ナビゲーションバーのラベルを非表示にします。</string>
+    <string name="revanced_replace_navigation_samples_button_title">サンプルボタンを置換</string>
+    <string name="revanced_replace_navigation_samples_button_summary">「サンプル」を「検索」に置き換えます。</string>
+    <string name="revanced_replace_navigation_upgrade_button_title">アップグレードボタンを置換</string>
+    <string name="revanced_replace_navigation_upgrade_button_summary">「アップグレード」を「設定」に置き換えます。</string>
+    <string name="revanced_replace_navigation_button_about_title">ボタンの置き換えについて</string>
+    <string name="revanced_replace_navigation_button_about_summary">"この機能は実験的なものです。
+YouTube Music の検索や設定などのアクティビティは公開されていないため、このパッチには構造的な制限があります。
+
+既知の問題：
+・検索や設定などの置換されたアクティビティを閉じると、スタートページが開きます。
+
+クリックすると「スタートページの変更」設定が開きます。"</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">プレーヤー</string>
     <string name="revanced_add_miniplayer_next_button_title">「次の曲に進むボタン」を表示</string>
@@ -222,8 +250,14 @@
     <string name="revanced_disable_miniplayer_gesture_summary">ミニプレイヤーでスワイプによる曲の変更を無効にします。</string>
     <string name="revanced_disable_player_gesture_title">プレイヤージェスチャーを無効にする</string>
     <string name="revanced_disable_player_gesture_summary">プレイヤーでスワイプによる曲の変更を無効にします。</string>
+    <string name="revanced_enable_forced_miniplayer_title">ミニプレイヤーの強制</string>
+    <string name="revanced_enable_forced_miniplayer_summary">新しいトラックに切り替えたときに強制的にミニプレーヤーを有効にします。</string>
     <string name="revanced_enable_swipe_to_dismiss_miniplayer_title">スワイプしてミニプレーヤーを閉じる</string>
     <string name="revanced_enable_swipe_to_dismiss_miniplayer_summary">下にスワイプしてミニプレーヤーを閉じられるようにします。</string>
+    <string name="revanced_enable_thick_seekbar_title">太いシークバーを有効化</string>
+    <string name="revanced_enable_thick_seekbar_summary">"太いシークバーを有効にします。
+
+注意: SponsorBlock セグメントはシークバーに表示されません。"</string>
     <string name="revanced_enable_zen_mode_title">Zen モードを有効化</string>
     <string name="revanced_enable_zen_mode_summary">動画プレーヤーに灰色の色合いを追加し、目の疲れを軽減します。</string>
     <string name="revanced_enable_zen_mode_podcast_title">ポッドキャストでZenモードを有効化</string>
@@ -399,11 +433,18 @@ API キーの発行方法については、ここをタップしてください�
     <string name="revanced_disable_drc_audio_title">DRCオーディオを無効にする</string>
     <string name="revanced_disable_drc_audio_summary">音声に適用されるDRC (Dynamic Range Compression) を無効にします。</string>
     <string name="revanced_disable_music_video_in_album_title">アルバム内のミュージックビデオを無効にする</string>
+    <string name="revanced_disable_music_video_in_album_summary">"非プレミアムユーザーがアルバムに含まれる曲を再生すると、公式の曲ではなくMVが再生されることがあります。
+
+アルバムからMVの再生が検出された場合は、公式楽曲を検索します。
+
+注意: キッズビデオはリダイレクトされない場合があります。"</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_title">リダイレクトのタイプ</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_summary">公式楽曲にリダイレクトする方法を指定します。</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect">リダイレクト</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_click">曲 / 動画 の切り替えをタップ</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_long_click">曲 / 動画 の切り替えをタップし長押し</string>
+    <string name="revanced_disable_quic_protocol_title">QUIC プロトコルを無効化</string>
+    <string name="revanced_disable_quic_protocol_summary">"CronetEngine の QUIC プロトコルを無効化します。"</string>
     <string name="revanced_enable_debug_logging_title">デバッグログ</string>
     <string name="revanced_enable_debug_logging_summary">デバッグログを出力します。</string>
     <string name="revanced_enable_debug_buffer_logging_title">デバッグバッファログを有効化</string>
@@ -415,10 +456,23 @@ API キーの発行方法については、ここをタップしてください�
     <string name="revanced_spoof_client_title">クライアントを偽装</string>
     <string name="revanced_spoof_client_summary">再生の問題を防ぐためにクライアントを偽装します。</string>
     <string name="revanced_spoof_client_type_title">既定のクライアント</string>
+    <string name="revanced_spoof_client_type_summary">偽装するデフォルトのクライアントを定義します。</string>
     <string name="revanced_spoof_client_type_entry_android_music_4_27">Android Music 4.27.53</string>
     <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
     <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>
     <string name="revanced_spoof_client_type_entry_ios_music_7_04">iOS Music 7.04</string>
+    <string name="revanced_spoof_player_parameter_title">プレイヤーパラメータを偽装</string>
+    <string name="revanced_spoof_player_parameter_summary">"再生の問題を防ぐためにプレイヤーパラメーターを偽装します。
+
+副作用:
+• 字幕が下部ではなくプレーヤーの上部に配置されることがあります。"</string>
+    <string name="revanced_watch_history_type_title">再生履歴の種類</string>
+    <string name="revanced_watch_history_type_summary">"・オリジナル：　Google アカウントの視聴履歴設定に従いますが、DNSやVPNにより視聴履歴が機能しない場合があります。
+・ドメインを置き換えます：　 Google アカウントの視聴履歴設定に従います。
+・視聴履歴をブロックします：　 視聴履歴をブロックします。"</string>
+    <string name="revanced_watch_history_type_entry_1">オリジナル</string>
+    <string name="revanced_watch_history_type_entry_2">ドメインを置換</string>
+    <string name="revanced_watch_history_type_entry_3">再生履歴をブロック</string>
     <string name="revanced_default_app_settings_title">「デフォルトで開く」の設定</string>
     <string name="revanced_default_app_settings_summary">RVX Music でYouTube Music のURLを開くには、「対応リンクを開く」を有効にし、サポートされているURLを有効にします。</string>
     <string name="gms_core_settings_title">GmsCoreを開く</string>

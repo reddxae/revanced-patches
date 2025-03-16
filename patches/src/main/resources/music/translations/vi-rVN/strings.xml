@@ -212,6 +212,18 @@ Hạn chế:
     <string name="revanced_hide_navigation_bar_summary">Ẩn thanh điều hướng.</string>
     <string name="revanced_hide_navigation_label_title">Ẩn tên bên dưới nút</string>
     <string name="revanced_hide_navigation_label_summary">Ẩn tên bên dưới các nút trên thanh điều hướng.</string>
+    <string name="revanced_replace_navigation_samples_button_title">Thay thế nút Đoạn nhạc</string>
+    <string name="revanced_replace_navigation_samples_button_summary">Thay thế nút Đoạn nhạc bằng nút Tìm kiếm.</string>
+    <string name="revanced_replace_navigation_upgrade_button_title">Thay thế nút Nâng cấp</string>
+    <string name="revanced_replace_navigation_upgrade_button_summary">Thay thế nút Nâng cấp bằng nút Cài đặt.</string>
+    <string name="revanced_replace_navigation_button_about_title">Về tính năng thay thế nút</string>
+    <string name="revanced_replace_navigation_button_about_summary">"Hiện tính năng này đang trong giai đoạn thử nghiệm.
+Bản vá có một số hạn chế về mặt cấu trúc vì các hoạt động như Tìm kiếm và Cài đặt trong YouTube Music không được công khai.
+
+Các sự cố đã biết:
+• Khi một hoạt động thay thế như Tìm kiếm và Cài đặt bị đóng, trang khởi động sẽ được mở.
+
+Bạn có thể mở Thay đổi cài đặt trang khởi động bằng cách nhấp vào đây."</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Trình phát</string>
     <string name="revanced_add_miniplayer_next_button_title">Nút tiếp theo trong trình phát thu nhỏ</string>
@@ -452,6 +464,11 @@ Chi tiết:
     <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
     <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>
     <string name="revanced_spoof_client_type_entry_ios_music_7_04">iOS Music 7.04</string>
+    <string name="revanced_spoof_player_parameter_title">Giả mạo thông số trình phát</string>
+    <string name="revanced_spoof_player_parameter_summary">"Giả mạo thông số trình phát để khắc phục sự cố phát.
+
+Hạn chế:
+• Đôi khi phụ đề hiển thị ở phía trên của trình phát thay vì ở phía dưới như thường lệ."</string>
     <string name="revanced_watch_history_type_title">Kiểu nhật ký</string>
     <string name="revanced_watch_history_type_summary">"• Gốc: Tuân theo cài đặt nhật ký xem của tài khoản Google, nhưng có thể không hoạt động do DNS hoặc VPN.
 • Thay thế miền: Vẫn tuân theo cài đặt nhật ký xem của tài khoản Google.

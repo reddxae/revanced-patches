@@ -231,6 +231,18 @@ This does not bypass the age restriction. It just accepts it automatically."</st
     <string name="revanced_hide_navigation_bar_summary">Hides the navigation bar.</string>
     <string name="revanced_hide_navigation_label_title">Hide navigation labels</string>
     <string name="revanced_hide_navigation_label_summary">Hides the label below each navigation button.</string>
+    <string name="revanced_replace_navigation_samples_button_title">Replace Samples button</string>
+    <string name="revanced_replace_navigation_samples_button_summary">Replaces the Samples button with the Search button.</string>
+    <string name="revanced_replace_navigation_upgrade_button_title">Replace Upgrade button</string>
+    <string name="revanced_replace_navigation_upgrade_button_summary">Replaces the Upgrade button with the Settings button.</string>
+    <string name="revanced_replace_navigation_button_about_title">About replace button</string>
+    <string name="revanced_replace_navigation_button_about_summary">"This feature is experimental.
+There are structural limitations of the patch, as Activities such as Search and Settings in YouTube Music are not public.
+
+Known issues:
+• When a replaced Activity such as Search and Settings is closed, the start page opens.
+
+Click to open the 'Change start page' settings."</string>
 
 
     <!-- PreferenceScreen: Player -->
@@ -501,6 +513,11 @@ Info:
     <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
     <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>
     <string name="revanced_spoof_client_type_entry_ios_music_7_04">iOS Music 7.04</string>
+    <string name="revanced_spoof_player_parameter_title">Spoof player parameter</string>
+    <string name="revanced_spoof_player_parameter_summary">"Spoof the player parameter to prevent playback issues.
+
+Side effect:
+• Sometimes the subtitles are located at the top of the player instead of the bottom."</string>
     <string name="revanced_watch_history_type_title">Watch history type</string>
     <string name="revanced_watch_history_type_summary">"• Original: Follows the watch history settings of Google account, but watch history may not work due to DNS or VPN.
 • Replace domain: Follows the watch history settings of Google account.

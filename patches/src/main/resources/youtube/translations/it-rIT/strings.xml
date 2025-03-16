@@ -407,17 +407,25 @@ Nota: il pulsante Indietro della barra degli strumenti potrebbe non funzionare."
     <string name="revanced_remove_viewer_discretion_dialog_title">Rimuovi la finestra sulla discrezione dello spettatore</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Rimuove la finestra sulla discrezione dello spettatore.
 Nota: questo non bypassa la restrizione di età, ma la accetta automaticamente."</string>
-    <string name="revanced_change_layout_title">Cambia l\'interfaccia</string>
-    <string name="revanced_change_layout_entry_1">Originale</string>
-    <string name="revanced_change_layout_entry_2">Telefono</string>
-    <string name="revanced_change_layout_entry_3">Telefono (Massimo 480 dp)</string>
-    <string name="revanced_change_layout_entry_4">Tablet</string>
-    <string name="revanced_change_layout_entry_5">Tablet (Minimo 600 dp)</string>
     <string name="revanced_change_live_ring_click_action_title">Cambia cosa apre l\'anello live quando viene toccato</string>
     <string name="revanced_change_live_ring_click_action_summary_on">"Canale
 
 Nota: i canali non si aprono se gli Shorts live sono aperti nel riproduttore normale."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">Video live</string>
+    <string name="revanced_change_form_factor_title">Fattore di forma dell\'interfaccia</string>
+    <string name="revanced_change_form_factor_entry_1">Predefinito</string>
+    <string name="revanced_change_form_factor_entry_2">Telefono</string>
+    <string name="revanced_change_form_factor_entry_3">Telefono (massimo 480 dp)</string>
+    <string name="revanced_change_form_factor_entry_4">Tablet</string>
+    <string name="revanced_change_form_factor_entry_5">Tablet (minimo 600 dp)</string>
+    <string name="revanced_change_form_factor_entry_6">Semovente</string>
+    <string name="revanced_change_form_factor_user_dialog_message">"Le modifiche dell'interfaccia:
+Tablet: i post della community sono nascosti.
+
+Semovente:
+• Gli Shorts verranno aperti nel riproduttore normale.
+• Il feed è organizzato per argomenti e canali.
+• La descrizione dei video non può essere aperta quando \"Camuffa i dati in streaming\" è disattivato."</string>
     <string name="revanced_spoof_app_version_title">Attiva il camuffamento della versione dell\'app</string>
     <string name="revanced_spoof_app_version_summary_on">Il camuffamento della versione dell\'app è attivato.</string>
     <string name="revanced_spoof_app_version_summary_off">Il camuffamento della versione dell\'app è disattivato.</string>
@@ -1915,7 +1923,8 @@ Tocca il pulsante Continua e consenti le modifiche di ottimizzazione."</string>
 • La disattivazione delle tracce audio automatiche forzate non funziona.
 • I video per bambini potrebbero non essere riprodotti se si è disconnessi o navigando in incognito."</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">• Ci potrebbero essere problemi di riproduzione (PoToken richiesto).</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• I film o i video a pagamento potrebbero non essere riproducibili.
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• Il volume stabile non funziona.
+• I film o i video a pagamento potrebbero non essere riproducibili.
 • I video per bambini potrebbero non essere riprodotti se si è disconnessi o navigando in incognito."</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Forza iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Il codec video è forzato ad AVC (H.264).</string>
@@ -1923,6 +1932,13 @@ Tocca il pulsante Continua e consenti le modifiche di ottimizzazione."</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"L'attivazione di questa impostazione potrebbe migliorare la durata della batteria e risolvere il problema della riproduzione a scatti.
 
 Nota: AVC ha una risoluzione massima di 1080p, il codec Opus non è disponibile e la riproduzione userà più dati internet rispetto a VP9 o AV1."</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_title">Salta la crittografia di risposta Onesie</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_summary_on">"La crittografia di risposta Onesie è saltata.
+
+Note:
+• Risolve un nuovo tipo di problema di riproduzione che alcuni utenti stanno riscontrando.
+• Il codec AV1 potrebbe non funzionare."</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_summary_off">"La crittografia di risposta Onesie non è saltata."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Mostra nelle statistiche per nerd</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Il client usato per recuperare i dati in streaming è visibile nelle statistiche per nerd.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Il client usato per recuperare i dati in streaming è nascosto nelle statistiche per nerd.</string>

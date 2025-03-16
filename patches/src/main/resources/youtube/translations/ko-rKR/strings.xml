@@ -297,7 +297,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_keyword_content_phrases_summary">"필터링할 키워드 및 구문을 줄바꿈으로 구분하여 설정합니다.
 
 • 필터링 키워드는 채널 이름 또는 동영상 제목에 표시되는 모든 텍스트가 될 수 있습니다.
-• 가운데 대문자가 있는 단어는 대소문자를 함께 입력해야 합니다 (예: iPhone, TikTok, LeBlanc)."</string>
+• 대문자가 있는 단어는 대소문자를 함께 입력해야 합니다 (예: iPhone, TikTok, LeBlanc)."</string>
     <string name="revanced_hide_keyword_content_about_title">키워드 필터링에 대한 정보</string>
     <string name="revanced_hide_keyword_content_about_summary">"홈 / 구독 / 검색 결과가 필터링되어 키워드 구문과 일치하는 콘텐츠가 숨겨집니다.
 
@@ -411,18 +411,28 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_gray_separator_summary_off">동영상들 사이에서 회색 구분선이 표시됩니다.</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">시청 경고 다이얼로그 제거하기</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"다음 동영상을 시청하기 전에 표시되는 시청 경고 다이얼로그를 제거합니다:\n• 연령 제한 동영상\n• 혐오감을 주는 동영상\n• 자살 또는 자해와 관련된 동영상 ...\n\n이 설정은 다이얼로그를 자동으로 허용하기만 하며 연령 제한(성인인증 절차)을 우회할 수 없습니다."</string>
-    <string name="revanced_change_layout_title">레이아웃 변경하기</string>
-    <string name="revanced_change_layout_entry_1">기기 기본값 사용</string>
-    <string name="revanced_change_layout_entry_2">폰</string>
-    <string name="revanced_change_layout_entry_3">폰 (최대 너비: 480 dp)</string>
-    <string name="revanced_change_layout_entry_4">태블릿</string>
-    <string name="revanced_change_layout_entry_5">태블릿 (최소 너비: 600 dp)</string>
     <string name="revanced_change_live_ring_click_action_title">라이브 링 누르기 동작 변경하기</string>
     <string name="revanced_change_live_ring_click_action_summary_on">"라이브 링이 표시된 채널 아이콘을 누르면 채널 프로필으로 연결됩니다.
 
 알려진 문제점: 
 • '일반 플레이어에서 Shorts 재생하기' 설정으로 인하여 일반 플레이어에서 Shorts 실시간 스트림이 재생된다면, 채널 프로필으로 연결되지 않을 수 있습니다."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">라이브 링이 표시된 채널 아이콘을 누르면 실시간 스트림 동영상으로 연결됩니다.</string>
+    <string name="revanced_change_form_factor_title">레이아웃 폼 팩터 변경하기</string>
+    <string name="revanced_change_form_factor_entry_1">기기 기본값 사용</string>
+    <string name="revanced_change_form_factor_entry_2">폰</string>
+    <string name="revanced_change_form_factor_entry_3">폰 (최대 너비: 480 dp)</string>
+    <string name="revanced_change_form_factor_entry_4">태블릿</string>
+    <string name="revanced_change_form_factor_entry_5">태블릿 (최소 너비: 600 dp)</string>
+    <string name="revanced_change_form_factor_entry_6">오토모티브</string>
+    <string name="revanced_change_form_factor_user_dialog_message">"변경 사항:
+
+태블릿 레이아웃
+• 커뮤니티 게시물이 숨겨집니다.
+
+오토모티브 레이아웃
+• Shorts가 일반 플레이어에서 재생됩니다.
+• 피드가 주제와 채널별로 구성됩니다.
+• '스트리밍 데이터 변경하기'가 비활성화되어있으면 동영상 설명을 열 수 없습니다."</string>
     <string name="revanced_spoof_app_version_title">앱 버전 변경하기</string>
     <string name="revanced_spoof_app_version_summary_on">앱 버전을 변경합니다.</string>
     <string name="revanced_spoof_app_version_summary_off">앱 버전을 변경하지 않습니다.</string>
@@ -925,13 +935,13 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_disable_engagement_panel_title">참여 패널 비활성화하기</string>
     <string name="revanced_disable_engagement_panel_summary_on">참여 패널을 비활성화합니다.</string>
     <string name="revanced_disable_engagement_panel_summary_off">참여 패널을 활성화합니다.</string>
-    <string name="revanced_enter_fullscreen_title">동영상이 시작할 때, 전체 화면 모드로 들어가기</string>
-    <string name="revanced_enter_fullscreen_summary_on">"동영상이 시작할 때, 전체 화면 모드로 들어갑니다.
+    <string name="revanced_enter_fullscreen_title">동영상이 시작할 때, 전체 화면으로 들어가기</string>
+    <string name="revanced_enter_fullscreen_summary_on">"동영상이 시작할 때, 전체 화면으로 들어갑니다.
 
 알려진 문제점: 
 • 플레이어가 최소화되어 있거나 PIP 모드 또는 백그라운드 재생에 있는 경우에는 작동되지 않습니다."</string>
-    <string name="revanced_enter_fullscreen_summary_off">동영상이 시작할 때, 전체 화면 모드로 들어가지 않습니다.</string>
-    <string name="revanced_exit_fullscreen_title">동영상이 종료할 때, 전체 화면 모드에서 나가기</string>
+    <string name="revanced_enter_fullscreen_summary_off">동영상이 시작할 때, 전체 화면으로 들어가지 않습니다.</string>
+    <string name="revanced_exit_fullscreen_title">동영상이 종료할 때, 전체 화면에서 나가기</string>
     <string name="revanced_exit_fullscreen_entry_1">사용 안함</string>
     <string name="revanced_exit_fullscreen_entry_2">세로 모드</string>
     <string name="revanced_exit_fullscreen_entry_3">가로 모드</string>
@@ -1476,14 +1486,14 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <!-- PreferenceScreen: Swipe controls -->
     <string name="revanced_preference_screen_swipe_controls_title">스와이프 제스처</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_title">스와이프 제스처로 자동 밝기 활성화하기</string>
-    <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_on">스와이프 제스처로 밝기가 0이 되면 자동 밝기를 활성화합니다.</string>
-    <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_off">스와이프 제스처로 밝기가 0이 되면 자동 밝기를 활성화하지 않습니다.</string>
+    <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_on">전체 화면에서 스와이프하여 밝기가 0이 되면 자동 밝기를 활성화합니다.</string>
+    <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_off">전체 화면에서 스와이프하여 밝기가 0이 되더라도 자동 밝기를 활성화하지 않습니다.</string>
     <string name="revanced_enable_swipe_brightness_title">스와이프 제스처로 밝기 조절 활성화하기</string>
-    <string name="revanced_enable_swipe_brightness_summary_on">스와이프 제스처로 밝기 조절을 활성화합니다.</string>
-    <string name="revanced_enable_swipe_brightness_summary_off">스와이프 제스처로 밝기 조절을 비활성화합니다.</string>
+    <string name="revanced_enable_swipe_brightness_summary_on">전체 화면 왼쪽에서 위로/아래로 스와이프하여 밝기 조절합니다.</string>
+    <string name="revanced_enable_swipe_brightness_summary_off">전체 화면 왼쪽에서 위로/아래로 스와이프하여 밝기 조절하지 않습니다.</string>
     <string name="revanced_enable_swipe_volume_title">스와이프 제스처로 볼륨 조절 활성화하기</string>
-    <string name="revanced_enable_swipe_volume_summary_on">스와이프 제스처로 볼륨 조절을 활성화합니다.</string>
-    <string name="revanced_enable_swipe_volume_summary_off">스와이프 제스처로 볼륨 조절을 비활성화합니다.</string>
+    <string name="revanced_enable_swipe_volume_summary_on">전체 화면 오른쪽에서 위로/아래로 스와이프하여 볼륨 조절합니다.</string>
+    <string name="revanced_enable_swipe_volume_summary_off">전체 화면 오른쪽에서 위로/아래로 스와이프하여 볼륨 조절하지 않습니다.</string>
     <string name="revanced_enable_save_and_restore_brightness_title">화면 밝기 값 저장 및 복원 활성화하기</string>
     <string name="revanced_enable_save_and_restore_brightness_summary_on">전체 화면에서 나가거나 들어갈 때마다 화면 밝기 값을 저장 및 복원합니다.</string>
     <string name="revanced_enable_save_and_restore_brightness_summary_off">전체 화면에서 나가거나 들어갈 때마다 화면 밝기 값을 저장 및 복원하지 않습니다.</string>
@@ -1493,9 +1503,9 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_enable_swipe_haptic_feedback_title">길게 눌러서 스와이프 제스처를 사용할 때, 진동 피드백 활성화하기</string>
     <string name="revanced_enable_swipe_haptic_feedback_summary_on">진동 피드백을 활성화합니다.</string>
     <string name="revanced_enable_swipe_haptic_feedback_summary_off">진동 피드백을 비활성화합니다.</string>
-    <string name="revanced_swipe_gestures_lock_mode_title">잠금 화면 모드에서 스와이프 제스처 활성화하기</string>
-    <string name="revanced_swipe_gestures_lock_mode_summary_on">잠금 화면 모드에서 스와이프 제스처를 활성화합니다.</string>
-    <string name="revanced_swipe_gestures_lock_mode_summary_off">잠금 화면 모드에서 스와이프 제스처를 비활성화합니다.</string>
+    <string name="revanced_swipe_gestures_lock_mode_title">잠금 화면에서 스와이프 제스처 활성화하기</string>
+    <string name="revanced_swipe_gestures_lock_mode_summary_on">잠금 화면에서 스와이프 제스처를 활성화합니다.</string>
+    <string name="revanced_swipe_gestures_lock_mode_summary_off">잠금 화면에서 스와이프 제스처를 비활성화합니다.</string>
     <string name="revanced_swipe_overlay_background_alpha_title">스와이프 오버레이 배경 투명도</string>
     <string name="revanced_swipe_overlay_background_alpha_summary">스와이프 오버레이 배경 투명도 값을 지정할 수 있습니다.</string>
     <string name="revanced_swipe_magnitude_threshold_title">스와이프 한계치</string>
@@ -1517,17 +1527,17 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">HDR 자동 밝기를 비활성화합니다.</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">HDR 자동 밝기를 활성화합니다.</string>
     <string name="revanced_disable_swipe_to_switch_video_title">스와이프 제스처로 동영상 전환 비활성화하기</string>
-    <string name="revanced_disable_swipe_to_switch_video_summary_on">전체 화면 모드에서 위로/아래로 스와이프하여 다음/이전 동영상으로 전환하지 않습니다.</string>
-    <string name="revanced_disable_swipe_to_switch_video_summary_off">전체 화면 모드에서 위로/아래로 스와이프하여 다음/이전 동영상으로 전환합니다.</string>
-    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_title">스와이프 제스처로 전체 화면 모드 전환 비활성화하기 (플레이어 하단)</string>
-    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_summary_on">플레이어 하단에서 아래로 스와이프하여 전체 화면 모드로 들어가지 않습니다.</string>
-    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_summary_off">플레이어 하단에서 아래로 스와이프하여 전체 화면 모드로 들어갑니다.</string>
-    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_title">스와이프 제스처로 전체 화면 모드 전환 비활성화하기 (플레이어 내부)</string>
-    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_summary_on">플레이어 내부에서 위로 스와이프하여 전체 화면 모드로 들어가지 않습니다.</string>
-    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_summary_off">플레이어 내부에서 위로 스와이프하여 전체 화면 모드로 들어갑니다.</string>
-    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_title">스와이프 제스처로 전체 화면 모드 종료 비활성화하기</string>
-    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_summary_on">전체 화면에서 아래로 스와이프하여 전체 화면 모드를 나가지 않습니다.</string>
-    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_summary_off">전체 화면에서 아래로 스와이프하여 전체 화면 모드를 나갑니다.</string>
+    <string name="revanced_disable_swipe_to_switch_video_summary_on">전체 화면 중앙에서 위로/아래로 스와이프하여 다음/이전 동영상으로 전환하지 않습니다.</string>
+    <string name="revanced_disable_swipe_to_switch_video_summary_off">전체 화면 중앙에서 위로/아래로 스와이프하여 다음/이전 동영상으로 전환합니다.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_title">스와이프 제스처로 전체 화면 전환 비활성화하기 (플레이어 하단)</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_summary_on">플레이어 하단에서 아래로 스와이프하여 전체 화면으로 들어가지 않습니다.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_below_the_player_summary_off">플레이어 하단에서 아래로 스와이프하여 전체 화면으로 들어갑니다.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_title">스와이프 제스처로 전체 화면 전환 비활성화하기 (플레이어 내부)</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_summary_on">플레이어 내부에서 위로 스와이프하여 전체 화면으로 들어가지 않습니다.</string>
+    <string name="revanced_disable_swipe_to_enter_fullscreen_mode_in_the_player_summary_off">플레이어 내부에서 위로 스와이프하여 전체 화면으로 들어갑니다.</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_title">스와이프 제스처로 전체 화면 종료 비활성화하기</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_summary_on">전체 화면에서 아래로 스와이프하여 전체 화면을 나가지 않습니다.</string>
+    <string name="revanced_disable_swipe_to_exit_fullscreen_mode_summary_off">전체 화면에서 아래로 스와이프하여 전체 화면을 나갑니다.</string>
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">자동</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">동영상</string>
@@ -1904,7 +1914,7 @@ GmsCore 앱 배터리 최적화를 비활성화(제한 없음)하더라도, 배�
     <string name="revanced_share_copy_settings_success">설정을 클립보드에 복사하였습니다.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data -->
     <string name="revanced_preference_screen_spoof_streaming_data_title">스트리밍 데이터 변경하기</string>
-    <string name="revanced_preference_screen_spoof_streaming_data_summary">스트리밍 데이터를 변경하여 재생 문제를 방지할 수 있습니다.</string>
+    <string name="revanced_preference_screen_spoof_streaming_data_summary">스트리밍 데이터를 변경하여 동영상 재생 문제를 방지할 수 있습니다.</string>
     <string name="revanced_spoof_streaming_data_title">스트리밍 데이터 변경하기</string>
     <string name="revanced_spoof_streaming_data_summary_on">스트리밍 데이터를 변경합니다.</string>
     <string name="revanced_spoof_streaming_data_summary_off">"스트리밍 데이터를 변경하지 않습니다.\n동영상 재생 문제가 발생할 수 있습니다."</string>
@@ -1914,7 +1924,7 @@ GmsCore 앱 배터리 최적화를 비활성화(제한 없음)하더라도, 배�
 <small>(로그인이 요구됨)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr_no_auth">"Android VR
-<small>(미인증)</small>"</string>
+<small>(인증 없음)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
 <small>(PoToken이 요구됨)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
@@ -1926,10 +1936,10 @@ GmsCore 앱 배터리 최적화를 비활성화(제한 없음)하더라도, 배�
 • 사용자가 로그인을 하지 않았거나 시크릿 모드에서는 Kids 동영상이 재생되지 않을 수 있습니다.
 • VR은 Kids // TV는 재생목록과 음악 동영상에서 다른 클라이언트가 사용될 수 있습니다.
 • TV는 AV1 코덱이 지원되지 않습니다.
-• VR은 화질 저하 문제가 발생할 수 있습니다."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• 재생 문제가 발생할 수 있습니다 (PoToken이 요구됨).\n• 영화, 유료, 비공개 그리고 연령 제한 동영상에서 다른 클라이언트가 사용될 수 있습니다.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• 영화 또는 유료 동영상이 재생되지 않을 수 있습니다.
-• 안정적인 볼륨을 사용할 수 없습니다.
+• 인증 없음: 사용자 로그인 정보를 사용하지 않음"</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">• 동영상 재생 문제가 발생할 수 있습니다 (PoToken이 요구됨).\n• 영화, 유료, 비공개 그리고 연령 제한 동영상에서 다른 클라이언트가 사용될 수 있습니다.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• 안정적인 볼륨을 사용할 수 없습니다.
+• 영화 또는 유료 동영상이 재생되지 않을 수 있습니다.
 • 사용자가 로그인을 하지 않았거나 시크릿 모드에서는 Kids 동영상이 재생되지 않을 수 있습니다.
 • 음악 동영상에서 다른 클라이언트가 사용될 수 있습니다.
 • AV1 코덱이 지원되지 않습니다."</string>
@@ -1939,6 +1949,14 @@ GmsCore 앱 배터리 최적화를 비활성화(제한 없음)하더라도, 배�
     <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"이 설정를 활성화하면 배터리 수명이 향상되고, 동영상 재생 끊김 문제가 해결될 수 있습니다.
 
 AVC의 최대 화질 값은 1080p이고, OPUS 코덱을 사용불가 및 HDR 동영상을 재생할 수 없으며, 동영상을 재생했을 경우에는 VP9 또는 AV1보다 더 많은 모바일 데이터를 사용되오니 주의하세요."</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_title">Onesie 응답 암호화 건너뛰기</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_summary_on">"Onesie 응답 암호화를 건너뜁니다.
+
+• 일부 사용자에게 발생되는 새로운 유형의 동영상 재생 문제가 고쳐질 수 있습니다.
+• AV1 코덱을 사용하지 못할 수 있습니다."</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_summary_off">"Onesie 응답 암호화를 건너뛰지 않습니다.
+
+• 일부 사용자에게 새로운 유형의 동영상 재생 문제가 발생할 수 있습니다."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">전문 통계에서 표시하기</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">스트리밍 데이터를 가져오는 데 사용되는 클라이언트가 전문 통계에서 표시됩니다.\n\n• 만약 선택한 기본 클라이언트가 재생할 수 없는 동영상을 재생하려하거나 클라이언트 재생 문제가 발생하면, 그 문제를 해결하기 위해 다른 클라이언트가 사용되는 경우도 있기 때문에 전문 통계에서 다르게 표시될 수 있습니다.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">스트리밍 데이터를 가져오는 데 사용되는 클라이언트가 전문 통계에서 숨겨집니다.\n\n• 만약 선택한 기본 클라이언트가 재생할 수 없는 동영상을 재생하려하거나 클라이언트 재생 문제가 발생하면, 그 문제를 해결하기 위해 다른 클라이언트가 사용되는 경우도 있기 때문에 전문 통계에서 다르게 표시될 수 있습니다.</string>
@@ -1946,9 +1964,9 @@ AVC의 최대 화질 값은 1080p이고, OPUS 코덱을 사용불가 및 HDR 동
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <string name="revanced_preference_category_po_token_visitor_data">PoToken &amp; VisitorData</string>
     <string name="revanced_spoof_streaming_data_po_token_title">PoToken 등록하기</string>
-    <string name="revanced_spoof_streaming_data_po_token_summary">정보 메뉴와 연결된 페이지에 있는 사용법을 따라하여 발급받은 PoToken을 등록할 수 있습니다.</string>
+    <string name="revanced_spoof_streaming_data_po_token_summary">\'신뢰할 수 있는 브라우저에서 BotGuard에 의해 발급된 PoToken\'을 등록할 수 있습니다.\n\n• PoToken 발급 방법은 \'PoToken &amp; VisitorData에 대한 정보\' 메뉴와 연결된 페이지에 나와있습니다.</string>
     <string name="revanced_spoof_streaming_data_visitor_data_title">VisitorData 등록하기</string>
-    <string name="revanced_spoof_streaming_data_visitor_data_summary">정보 메뉴와 연결된 페이지에 있는 사용법을 따라하여 발급받은 VisitorData를 등록할 수 있습니다.</string>
+    <string name="revanced_spoof_streaming_data_visitor_data_summary">\'신뢰할 수 있는 브라우저에서 BotGuard에 의해 발급된 VisitorData\'를 등록할 수 있습니다.\n\n• VisitorData 발급 방법은 \'PoToken &amp; VisitorData에 대한 정보\' 메뉴와 연결된 페이지에 나와있습니다.</string>
     <string name="revanced_spoof_streaming_data_po_token_visitor_data_about_title">PoToken &amp; VisitorData에 대한 정보</string>
     <string name="revanced_spoof_streaming_data_po_token_visitor_data_about_summary">"일부 클라이언트는 유효한 스트리밍 데이터 응답을 받기 위해 PoToken과 VisitorData가 요구됩니다.
 

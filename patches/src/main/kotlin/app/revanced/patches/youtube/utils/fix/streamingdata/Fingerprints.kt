@@ -146,4 +146,10 @@ internal val onesieEncryptionFeatureFlagFingerprint = legacyFingerprint(
     literals = listOf(ONESIE_ENCRYPTION_FEATURE_FLAG),
 )
 
+// YouTube 20.10 ~
+internal const val ONESIE_ENCRYPTION_ALTERNATIVE_FEATURE_FLAG = 45683169L
 
+internal val onesieEncryptionAlternativeFeatureFlagFingerprint = legacyFingerprint(
+    name = "onesieEncryptionAlternativeFeatureFlagFingerprint",
+    literals = listOf(ONESIE_ENCRYPTION_ALTERNATIVE_FEATURE_FLAG),
+)

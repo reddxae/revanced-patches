@@ -387,12 +387,6 @@
     <string name="revanced_remove_viewer_discretion_dialog_title">移除查看器的自由裁量对话框</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"移除查看器的自由裁量对话框
 这不会绕过年龄限制它只会自动同意"</string>
-    <string name="revanced_change_layout_title">调整布局</string>
-    <string name="revanced_change_layout_entry_1">原版</string>
-    <string name="revanced_change_layout_entry_2">手机</string>
-    <string name="revanced_change_layout_entry_3">手机 (最大 480 dip)</string>
-    <string name="revanced_change_layout_entry_4">平板</string>
-    <string name="revanced_change_layout_entry_5">平板 (最小 600 dip)</string>
     <string name="revanced_spoof_app_version_title">伪装应用版本</string>
     <string name="revanced_spoof_app_version_summary_on">客户端版本已伪装</string>
     <string name="revanced_spoof_app_version_summary_off">客户端版本未伪装</string>

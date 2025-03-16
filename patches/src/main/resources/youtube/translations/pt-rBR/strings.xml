@@ -404,12 +404,6 @@ Limitação: O botão voltar na barra de ferramentas pode não funcionar."</stri
     <string name="revanced_remove_viewer_discretion_dialog_title">Remover o diálogo discricionário do visualizador</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Remover o diálogo discricionário de visualização.
 Isso não ignora a restrição de idade, apenas aceita isso automaticamente."</string>
-    <string name="revanced_change_layout_title">Alterar layout</string>
-    <string name="revanced_change_layout_entry_1">Original</string>
-    <string name="revanced_change_layout_entry_2">Telefone</string>
-    <string name="revanced_change_layout_entry_3">Telefone (Máximo 480 dp)</string>
-    <string name="revanced_change_layout_entry_4">Tablet</string>
-    <string name="revanced_change_layout_entry_5">Tablet (Min 600 dp)</string>
     <string name="revanced_change_live_ring_click_action_title">Alterar ação de clique do anel ao vivo</string>
     <string name="revanced_change_live_ring_click_action_summary_on">"O canal é aberto quando o anel ao vivo é clicado."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">A transmissão ao vivo é aberta quando o anel ao vivo é clicado.</string>

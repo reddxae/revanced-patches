@@ -325,12 +325,6 @@ Einschränkung: Zurück-Taste in der Symbolleiste funktioniert möglicherweise n
     <string name="revanced_remove_viewer_discretion_dialog_title">Diskretion des Betrachters entfernen</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Entfernt den Diskretionsdialog des Betrachters.
 Dies umgeht nicht die Altersbeschränkung. Es akzeptiert ihn nur automatisch."</string>
-    <string name="revanced_change_layout_title">Layout ändern</string>
-    <string name="revanced_change_layout_entry_1">Original</string>
-    <string name="revanced_change_layout_entry_2">Telefon</string>
-    <string name="revanced_change_layout_entry_3">Telefon (max. 480 dp)</string>
-    <string name="revanced_change_layout_entry_4">Tablet</string>
-    <string name="revanced_change_layout_entry_5">Tablet (min. 600 dp)</string>
     <string name="revanced_spoof_app_version_title">Spoof App Version</string>
     <string name="revanced_spoof_app_version_summary_on">Version gefälscht</string>
     <string name="revanced_spoof_app_version_summary_off">Version nicht gefälscht</string>

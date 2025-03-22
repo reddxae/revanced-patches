@@ -19,6 +19,7 @@ import app.revanced.patches.youtube.utils.extension.Constants.SHARED_PATH
 import app.revanced.patches.youtube.utils.playertype.playerTypeHookPatch
 import app.revanced.patches.youtube.utils.resourceid.sharedResourceIdPatch
 import app.revanced.patches.youtube.utils.videoEndFingerprint
+import app.revanced.patches.youtube.utils.videoIdFingerprintShorts
 import app.revanced.patches.youtube.video.playerresponse.Hook
 import app.revanced.patches.youtube.video.playerresponse.addPlayerResponseMethodHook
 import app.revanced.patches.youtube.video.playerresponse.playerResponseMethodHookPatch

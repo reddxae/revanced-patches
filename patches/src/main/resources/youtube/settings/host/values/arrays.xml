@@ -197,8 +197,10 @@
     </string-array>
     <string-array name="revanced_language_entries">
         <item>@string/revanced_language_DEFAULT</item>
+        <item>@string/revanced_language_AM</item>
         <item>@string/revanced_language_AR</item>
         <item>@string/revanced_language_AZ</item>
+        <item>@string/revanced_language_BE</item>
         <item>@string/revanced_language_BG</item>
         <item>@string/revanced_language_BN</item>
         <item>@string/revanced_language_CA</item>
@@ -213,6 +215,7 @@
         <item>@string/revanced_language_FI</item>
         <item>@string/revanced_language_FR</item>
         <item>@string/revanced_language_GU</item>
+        <item>@string/revanced_language_HE</item>
         <item>@string/revanced_language_HI</item>
         <item>@string/revanced_language_HR</item>
         <item>@string/revanced_language_HU</item>
@@ -236,6 +239,7 @@
         <item>@string/revanced_language_RO</item>
         <item>@string/revanced_language_RU</item>
         <item>@string/revanced_language_SK</item>
+        <item>@string/revanced_language_SQ</item>
         <item>@string/revanced_language_SL</item>
         <item>@string/revanced_language_SR</item>
         <item>@string/revanced_language_SV</item>
@@ -251,8 +255,10 @@
     </string-array>
     <string-array name="revanced_language_entry_values">
         <item>DEFAULT</item>
+        <item>AM</item>
         <item>AR</item>
         <item>AZ</item>
+        <item>BE</item>
         <item>BG</item>
         <item>BN</item>
         <item>CA</item>
@@ -267,6 +273,7 @@
         <item>FI</item>
         <item>FR</item>
         <item>GU</item>
+        <item>HE</item>
         <item>HI</item>
         <item>HR</item>
         <item>HU</item>
@@ -290,6 +297,7 @@
         <item>RO</item>
         <item>RU</item>
         <item>SK</item>
+        <item>SQ</item>
         <item>SL</item>
         <item>SR</item>
         <item>SV</item>

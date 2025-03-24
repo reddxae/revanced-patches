@@ -213,7 +213,7 @@ object YouTubeAppClient {
     }
 
     fun availableClientTypes(preferredClient: ClientType): Array<ClientType> {
-        val availableClientTypes = ClientType.CLIENT_ORDER_TO_USE_YOUTUBE
+        val availableClientTypes = ClientType.CLIENT_ORDER_TO_USE
 
         if (ArrayUtils.contains(availableClientTypes, preferredClient)) {
             val clientToUse: Array<ClientType?> = arrayOfNulls(availableClientTypes.size)
@@ -230,7 +230,7 @@ object YouTubeAppClient {
         }
     }
 
-    @Suppress("DEPRECATION")
+    @Suppress("DEPRECATION", "unused")
     enum class ClientType(
         /**
          * [YouTube client type](https://github.com/zerodytrash/YouTube-Internal-Clients?tab=readme-ov-file#clients)
@@ -381,12 +381,11 @@ object YouTubeAppClient {
         );
 
         companion object {
-            val CLIENT_ORDER_TO_USE_YOUTUBE: Array<ClientType> = arrayOf(
+            val CLIENT_ORDER_TO_USE: Array<ClientType> = arrayOf(
                 ANDROID_VR_NO_AUTH,
                 ANDROID_UNPLUGGED,
                 ANDROID_CREATOR,
                 IOS_UNPLUGGED,
-                IOS,
                 ANDROID_VR,
             )
         }

@@ -2,9 +2,12 @@ package app.revanced.patches.youtube.video.playback
 
 import app.revanced.util.containsLiteralInstruction
 import app.revanced.util.fingerprint.legacyFingerprint
+import app.revanced.util.getReference
+import app.revanced.util.indexOfFirstInstruction
 import app.revanced.util.or
 import com.android.tools.smali.dexlib2.AccessFlags
 import com.android.tools.smali.dexlib2.Opcode
+import com.android.tools.smali.dexlib2.iface.reference.FieldReference
 
 internal val av1CodecFingerprint = legacyFingerprint(
     name = "av1CodecFingerprint",
@@ -61,16 +64,17 @@ internal val playbackSpeedChangedFromRecyclerViewFingerprint = legacyFingerprint
     accessFlags = AccessFlags.PUBLIC or AccessFlags.FINAL,
     parameters = listOf("L"),
     opcodes = listOf(
-        Opcode.IGET_OBJECT,
-        Opcode.INVOKE_INTERFACE,
-        Opcode.MOVE_RESULT_OBJECT,
-        Opcode.IF_EQZ,
-        Opcode.IGET_OBJECT,
         Opcode.INVOKE_INTERFACE,
         Opcode.MOVE_RESULT_OBJECT,
         Opcode.IGET,
         Opcode.INVOKE_VIRTUAL
-    )
+    ),
+    customFingerprint = { method, _ ->
+        method.indexOfFirstInstruction {
+            opcode == Opcode.IGET &&
+                    getReference<FieldReference>()?.type == "F"
+        } >= 0
+    }
 )
 
 internal val playbackSpeedInitializeFingerprint = legacyFingerprint(

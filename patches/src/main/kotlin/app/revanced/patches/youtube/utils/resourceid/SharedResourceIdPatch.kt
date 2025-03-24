@@ -193,8 +193,6 @@ var rightComment = -1L
     private set
 var scrimOverlay = -1L
     private set
-var scrubbing = -1L
-    private set
 var seekEasyHorizontalTouchOffsetToStartScrubbing = -1L
     private set
 var seekUndoEduOverlayStub = -1L
@@ -225,6 +223,10 @@ var videoQualityBottomSheet = -1L
     private set
 var varispeedUnavailableTitle = -1L
     private set
+var verticalTouchOffsetToEnterFineScrubbing = -1L
+    private set
+var verticalTouchOffsetToStartFineScrubbing = -1L
+    private set
 var videoQualityUnavailableAnnouncement = -1L
     private set
 var videoZoomSnapIndicator = -1L
@@ -234,6 +236,8 @@ var voiceSearch = -1L
 var youTubeControlsOverlaySubtitleButton = -1L
     private set
 var youTubeLogo = -1L
+    private set
+var ytCallToAction = -1L
     private set
 var ytFillBell = -1L
     private set
@@ -620,10 +624,6 @@ internal val sharedResourceIdPatch = resourcePatch(
             ID,
             "scrim_overlay"
         ]
-        scrubbing = resourceMappings[
-            DIMEN,
-            "vertical_touch_offset_to_enter_fine_scrubbing"
-        ]
         seekEasyHorizontalTouchOffsetToStartScrubbing = resourceMappings[
             DIMEN,
             "seek_easy_horizontal_touch_offset_to_start_scrubbing"
@@ -684,6 +684,14 @@ internal val sharedResourceIdPatch = resourcePatch(
             STRING,
             "varispeed_unavailable_title"
         ]
+        verticalTouchOffsetToEnterFineScrubbing = resourceMappings[
+            DIMEN,
+            "vertical_touch_offset_to_enter_fine_scrubbing"
+        ]
+        verticalTouchOffsetToStartFineScrubbing = resourceMappings[
+            DIMEN,
+            "vertical_touch_offset_to_start_fine_scrubbing"
+        ]
         videoQualityUnavailableAnnouncement = resourceMappings[
             STRING,
             "video_quality_unavailable_announcement"
@@ -703,6 +711,10 @@ internal val sharedResourceIdPatch = resourcePatch(
         youTubeLogo = resourceMappings[
             ID,
             "youtube_logo"
+        ]
+        ytCallToAction = resourceMappings[
+            ATTR,
+            "ytCallToAction"
         ]
         ytFillBell = resourceMappings[
             DRAWABLE,

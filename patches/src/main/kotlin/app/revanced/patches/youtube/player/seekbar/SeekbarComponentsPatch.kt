@@ -132,60 +132,70 @@ val seekbarComponentsPatch = bytecodePatch(
 
         // region patch for enable seekbar tapping patch
 
-        seekbarTappingFingerprint.matchOrThrow().let {
-            it.method.apply {
-                val tapSeekIndex = it.patternMatch!!.startIndex + 1
-                val tapSeekClass = getInstruction(tapSeekIndex)
-                    .getReference<MethodReference>()!!
-                    .definingClass
+        seekbarTappingFingerprint.methodOrThrow().apply {
+            val pointIndex = indexOfPointInstruction(this)
+            val pointInstruction = getInstruction<FiveRegisterInstruction>(pointIndex)
+            val freeRegister = pointInstruction.registerE
+            val xAxisRegister = pointInstruction.registerD
 
-                val tapSeekMethods = findMethodsOrThrow(tapSeekClass)
-                var pMethodCall = ""
-                var oMethodCall = ""
-
-                for (method in tapSeekMethods) {
-                    if (method.implementation == null)
-                        continue
-
-                    val instructions = method.implementation!!.instructions
-                    // here we make sure we actually find the method because it has more than 7 instructions
-                    if (instructions.count() != 10)
-                        continue
-
-                    // we know that the 7th instruction has the opcode CONST_4
-                    val instruction = instructions.elementAt(6)
-                    if (instruction.opcode != Opcode.CONST_4)
-                        continue
-
-                    // the literal for this instruction has to be either 1 or 2
-                    val literal = (instruction as NarrowLiteralInstruction).narrowLiteral
-
-                    // method founds
-                    if (literal == 1)
-                        pMethodCall = "${method.definingClass}->${method.name}(I)V"
-                    else if (literal == 2)
-                        oMethodCall = "${method.definingClass}->${method.name}(I)V"
-                }
-
-                if (pMethodCall.isEmpty()) {
-                    throw PatchException("pMethod not found")
-                }
-                if (oMethodCall.isEmpty()) {
-                    throw PatchException("oMethod not found")
-                }
-
-                val insertIndex = it.patternMatch!!.startIndex + 2
-
-                addInstructionsWithLabels(
-                    insertIndex, """
-                        invoke-static {}, $PLAYER_CLASS_DESCRIPTOR->enableSeekbarTapping()Z
-                        move-result v0
-                        if-eqz v0, :disabled
-                        invoke-virtual { p0, v2 }, $pMethodCall
-                        invoke-virtual { p0, v2 }, $oMethodCall
-                        """, ExternalLabel("disabled", getInstruction(insertIndex))
-                )
+            val tapSeekIndex = indexOfFirstInstructionOrThrow(pointIndex) {
+                val reference = getReference<MethodReference>()
+                opcode == Opcode.INVOKE_VIRTUAL &&
+                        reference?.returnType == "V" &&
+                        reference.parameterTypes.isEmpty()
             }
+            val thisInstanceRegister = getInstruction<FiveRegisterInstruction>(tapSeekIndex).registerC
+
+            val tapSeekClass = getInstruction(tapSeekIndex)
+                .getReference<MethodReference>()!!
+                .definingClass
+
+            val tapSeekMethods = findMethodsOrThrow(tapSeekClass)
+            var pMethodCall = ""
+            var oMethodCall = ""
+
+            for (method in tapSeekMethods) {
+                if (method.implementation == null)
+                    continue
+
+                val instructions = method.implementation!!.instructions
+                // here we make sure we actually find the method because it has more than 7 instructions
+                if (instructions.count() != 10)
+                    continue
+
+                // we know that the 7th instruction has the opcode CONST_4
+                val instruction = instructions.elementAt(6)
+                if (instruction.opcode != Opcode.CONST_4)
+                    continue
+
+                // the literal for this instruction has to be either 1 or 2
+                val literal = (instruction as NarrowLiteralInstruction).narrowLiteral
+
+                // method founds
+                if (literal == 1)
+                    pMethodCall = "${method.definingClass}->${method.name}(I)V"
+                else if (literal == 2)
+                    oMethodCall = "${method.definingClass}->${method.name}(I)V"
+            }
+
+            if (pMethodCall.isEmpty()) {
+                throw PatchException("pMethod not found")
+            }
+            if (oMethodCall.isEmpty()) {
+                throw PatchException("oMethod not found")
+            }
+
+            val insertIndex = tapSeekIndex + 1
+
+            addInstructionsWithLabels(
+                insertIndex, """
+                    invoke-static {}, $PLAYER_CLASS_DESCRIPTOR->enableSeekbarTapping()Z
+                    move-result v$freeRegister
+                    if-eqz v$freeRegister, :disabled
+                    invoke-virtual { v$thisInstanceRegister, v$xAxisRegister }, $pMethodCall
+                    invoke-virtual { v$thisInstanceRegister, v$xAxisRegister }, $oMethodCall
+                    """, ExternalLabel("disabled", getInstruction(insertIndex))
+            )
         }
 
         // endregion

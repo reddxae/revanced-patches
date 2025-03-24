@@ -272,10 +272,11 @@ val toolBarComponentsPatch = bytecodePatch(
                 opcode == Opcode.IGET_OBJECT &&
                         getReference<FieldReference>()?.type == "Landroid/widget/ImageView;"
             }
-            val jumpIndex = indexOfFirstInstructionOrThrow(replaceIndex) {
+            val uriIndex = indexOfFirstInstructionOrThrow(replaceIndex) {
                 opcode == Opcode.INVOKE_STATIC &&
                         getReference<MethodReference>()?.toString() == "Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;"
-            } + 4
+            }
+            val jumpIndex = indexOfFirstInstructionOrThrow(uriIndex, Opcode.CONST_4)
             val replaceIndexInstruction = getInstruction<TwoRegisterInstruction>(replaceIndex)
             val freeRegister = replaceIndexInstruction.registerA
             val classRegister = replaceIndexInstruction.registerB

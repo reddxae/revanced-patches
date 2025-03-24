@@ -109,24 +109,25 @@ internal val qualityMenuViewInflateFingerprint = legacyFingerprint(
     returnType = "L",
     accessFlags = AccessFlags.PUBLIC or AccessFlags.FINAL,
     parameters = listOf("L", "L", "L"),
-    opcodes = listOf(
-        Opcode.INVOKE_SUPER,
-        Opcode.CONST,
-        Opcode.CONST_4,
-        Opcode.INVOKE_VIRTUAL,
-        Opcode.MOVE_RESULT_OBJECT,
-        Opcode.CONST,
-        Opcode.INVOKE_VIRTUAL,
-        Opcode.MOVE_RESULT_OBJECT,
-        Opcode.CONST_16,
-        Opcode.INVOKE_VIRTUAL,
-        Opcode.CONST,
-        Opcode.INVOKE_VIRTUAL,
-        Opcode.MOVE_RESULT_OBJECT,
-        Opcode.CHECK_CAST
-    ),
-    literals = listOf(videoQualityBottomSheet),
+    customFingerprint = custom@{ method, _ ->
+        if (!method.containsLiteralInstruction(videoQualityBottomSheet)) {
+            return@custom false
+        }
+        if (indexOfAddHeaderViewInstruction(method) < 0) {
+            return@custom false
+        }
+        val implementation = method.implementation
+            ?: return@custom false
+
+        implementation.instructions.elementAt(0).opcode == Opcode.INVOKE_SUPER
+    }
 )
+
+internal fun indexOfAddHeaderViewInstruction(method: Method) =
+    method.indexOfFirstInstruction {
+        opcode == Opcode.INVOKE_VIRTUAL &&
+                getReference<MethodReference>()?.name == "addHeaderView"
+    }
 
 internal val rollingNumberTextViewAnimationUpdateFingerprint = legacyFingerprint(
     name = "rollingNumberTextViewAnimationUpdateFingerprint",

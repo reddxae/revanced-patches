@@ -8,25 +8,28 @@ import app.revanced.patches.youtube.utils.playservice.versionCheckPatch
 import app.revanced.util.getBooleanOptionValue
 import org.w3c.dom.Element
 
+/**
+ * Fix the splash screen dark mode background color.
+ * In earlier versions of the app this is white and makes no sense for dark mode.
+ * This is only required for 19.32 and greater, but is applied to all targets.
+ * Only dark mode needs this fix as light mode correctly uses the custom color.
+ *
+ * This is a bug in unpatched YouTube.
+ * Should always be applied even if the `Theme` patch is excluded.
+ */
 val darkModeSplashScreenPatch = resourcePatch(
     description = "darkModeSplashScreenPatch"
 ) {
     dependsOn(versionCheckPatch)
 
     finalize {
-        val restoreOldSplashAnimationIncluded = is_19_32_or_greater &&
-                CUSTOM_BRANDING_ICON_FOR_YOUTUBE.included == true &&
+        if (!is_19_32_or_greater) {
+            return@finalize
+        }
+
+        val restoreOldSplashAnimationIncluded = CUSTOM_BRANDING_ICON_FOR_YOUTUBE.included == true &&
                 customBrandingIconPatch.getBooleanOptionValue("restoreOldSplashAnimation").value == true
 
-        /**
-         * Fix the splash screen dark mode background color.
-         * In earlier versions of the app this is white and makes no sense for dark mode.
-         * This is only required for 19.32 and greater, but is applied to all targets.
-         * Only dark mode needs this fix as light mode correctly uses the custom color.
-         *
-         * This is a bug in unpatched YouTube.
-         * Should always be applied even if the `Theme` patch is excluded.
-         */
         if (restoreOldSplashAnimationIncluded) {
             document("res/values-night/styles.xml").use { document ->
                 val resourcesNode = document.getElementsByTagName("resources").item(0) as Element

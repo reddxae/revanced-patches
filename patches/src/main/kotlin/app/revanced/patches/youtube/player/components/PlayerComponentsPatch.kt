@@ -32,6 +32,7 @@ import app.revanced.patches.youtube.utils.playservice.is_19_18_or_greater
 import app.revanced.patches.youtube.utils.playservice.is_20_02_or_greater
 import app.revanced.patches.youtube.utils.playservice.is_20_03_or_greater
 import app.revanced.patches.youtube.utils.playservice.is_20_05_or_greater
+import app.revanced.patches.youtube.utils.playservice.is_20_12_or_greater
 import app.revanced.patches.youtube.utils.playservice.versionCheckPatch
 import app.revanced.patches.youtube.utils.resourceid.darkBackground
 import app.revanced.patches.youtube.utils.resourceid.fadeDurationFast
@@ -399,18 +400,6 @@ val playerComponentsPatch = bytecodePatch(
             return ""
         }
 
-        fun MutableMethod.hookFilmstripOverlay() {
-            addInstructionsWithLabels(
-                0, """
-                    invoke-static {}, $PLAYER_CLASS_DESCRIPTOR->hideFilmstripOverlay()Z
-                    move-result v0
-                    if-eqz v0, :shown
-                    const/4 v0, 0x0
-                    return v0
-                    """, ExternalLabel("shown", getInstruction(0))
-            )
-        }
-
         // region patch for custom player overlay opacity
 
         youtubeControlsOverlayFingerprint.methodOrThrow().apply {
@@ -581,12 +570,68 @@ val playerComponentsPatch = bytecodePatch(
 
         // region patch for hide filmstrip overlay
 
-        arrayOf(
-            filmStripOverlayConfigFingerprint,
+        fun MutableMethod.hookFilmstripOverlay(
+            index: Int = 0,
+            register: Int = 0
+        ) {
+            val stringInstructions = if (returnType == "Z")
+                """
+                    const/4 v$register, 0x0
+                    return v$register
+                """
+            else if (returnType == "V")
+                """
+                    return-void
+                """
+            else
+                throw Exception("This case should never happen.")
+
+            addInstructionsWithLabels(
+                index, """
+                    invoke-static {}, $PLAYER_CLASS_DESCRIPTOR->hideFilmstripOverlay()Z
+                    move-result v$register
+                    if-eqz v$register, :shown
+                    """ + stringInstructions + """
+                        :shown
+                        nop
+                    """
+            )
+        }
+
+        val filmStripOverlayFingerprints = mutableListOf(
             filmStripOverlayInteractionFingerprint,
             filmStripOverlayPreviewFingerprint
-        ).forEach { fingerprint ->
-            fingerprint.methodOrThrow(filmStripOverlayParentFingerprint).hookFilmstripOverlay()
+        )
+
+        if (is_20_12_or_greater) {
+            filmStripOverlayMotionEventPrimaryFingerprint.matchOrThrow(filmStripOverlayStartParentFingerprint).let {
+                it.method.apply {
+                    val index = it.patternMatch!!.startIndex
+                    val register = getInstruction<TwoRegisterInstruction>(index).registerA
+
+                    hookFilmstripOverlay(index, register)
+                }
+            }
+
+            filmStripOverlayMotionEventSecondaryFingerprint.matchOrThrow(filmStripOverlayStartParentFingerprint).let {
+                it.method.apply {
+                    val index = it.patternMatch!!.startIndex + 2
+                    val register = getInstruction<OneRegisterInstruction>(index).registerA
+
+                    addInstructions(
+                        index, """
+                            invoke-static {v$register}, $PLAYER_CLASS_DESCRIPTOR->hideFilmstripOverlay(Z)Z
+                            move-result v$register
+                            """
+                    )
+                }
+            }
+        } else {
+            filmStripOverlayFingerprints += filmStripOverlayConfigFingerprint
+        }
+
+        filmStripOverlayFingerprints.forEach { fingerprint ->
+            fingerprint.methodOrThrow(filmStripOverlayEnterParentFingerprint).hookFilmstripOverlay()
         }
 
         // Removed in YouTube 20.05+

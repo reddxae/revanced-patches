@@ -197,6 +197,9 @@ public class ReVancedPreferenceFragment extends PreferenceFragment {
             }
         }
 
+        Integer targetSDKVersion = ExtendedUtils.getTargetSDKVersion(getContext().getPackageName());
+        boolean isEdgeToEdgeSupported = isSDKAbove(35) && targetSDKVersion != null && targetSDKVersion >= 35;
+
         for (PreferenceScreen mPreferenceScreen : preferenceScreenMap.values()) {
             mPreferenceScreen.setOnPreferenceClickListener(
                     preferenceScreen -> {
@@ -218,7 +221,7 @@ public class ReVancedPreferenceFragment extends PreferenceFragment {
                         //
                         // Since ReVanced Settings Activity do not use AndroidX libraries,
                         // You will need to manually fix the layout breakage caused by edge-to-edge.
-                        if (isSDKAbove(35)) {
+                        if (isEdgeToEdgeSupported) {
                             rootView.setOnApplyWindowInsetsListener((v, insets) -> {
                                 Insets statusInsets = insets.getInsets(WindowInsets.Type.statusBars());
                                 Insets navInsets = insets.getInsets(WindowInsets.Type.navigationBars());

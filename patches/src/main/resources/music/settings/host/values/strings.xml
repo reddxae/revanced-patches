@@ -187,6 +187,8 @@ Limitations:
     <string name="revanced_hide_playlist_card_shelf_summary">Hides the playlist card shelf in the feed.</string>
     <string name="revanced_hide_samples_shelf_title">Hide Samples shelf</string>
     <string name="revanced_hide_samples_shelf_summary">Hides the Samples shelf in the feed.</string>
+    <string name="revanced_hide_search_button_title">Hide search button</string>
+    <string name="revanced_hide_search_button_summary">Hides the search button in the toolbar.</string>
     <string name="revanced_hide_sound_search_button_title">Hide sound search button</string>
     <string name="revanced_hide_sound_search_button_summary">Hides the sound search button in the search bar.</string>
     <string name="revanced_hide_tap_to_update_button_title">Hide Tap to update button</string>

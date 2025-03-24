@@ -83,6 +83,8 @@ var qualityAuto = -1L
     private set
 var remixGenericButtonSize = -1L
     private set
+var searchButton = -1L
+    private set
 var slidingDialogAnimation = -1L
     private set
 var tapBloomView = -1L
@@ -263,6 +265,10 @@ internal val sharedResourceIdPatch = resourcePatch(
         remixGenericButtonSize = resourceMappings[
             DIMEN,
             "remix_generic_button_size"
+        ]
+        searchButton = resourceMappings[
+            LAYOUT,
+            "search_button"
         ]
         slidingDialogAnimation = resourceMappings[
             STYLE,

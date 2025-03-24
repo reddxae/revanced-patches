@@ -31,6 +31,7 @@ import android.preference.PreferenceGroup;
 import android.preference.PreferenceManager;
 import android.preference.PreferenceScreen;
 import android.preference.SwitchPreference;
+import android.util.Pair;
 import android.util.TypedValue;
 import android.view.ViewGroup;
 import android.view.WindowInsets;
@@ -55,12 +56,15 @@ import java.util.Set;
 import java.util.SortedMap;
 import java.util.TreeMap;
 
+import app.revanced.extension.shared.settings.BaseSettings;
 import app.revanced.extension.shared.settings.BooleanSetting;
+import app.revanced.extension.shared.settings.EnumSetting;
 import app.revanced.extension.shared.settings.Setting;
 import app.revanced.extension.shared.utils.Logger;
 import app.revanced.extension.shared.utils.ResourceUtils;
 import app.revanced.extension.shared.utils.Utils;
 import app.revanced.extension.youtube.patches.video.CustomPlaybackSpeedPatch;
+import app.revanced.extension.youtube.settings.Settings;
 import app.revanced.extension.youtube.utils.ExtendedUtils;
 import app.revanced.extension.youtube.utils.ThemeUtils;
 
@@ -74,14 +78,19 @@ public class ReVancedPreferenceFragment extends PreferenceFragment {
     @SuppressLint("SuspiciousIndentation")
     private final SharedPreferences.OnSharedPreferenceChangeListener listener = (sharedPreferences, str) -> {
         try {
-            if (str == null) return;
-            Setting<?> setting = Setting.getSettingFromPath(Objects.requireNonNull(str));
+            if (str == null) {
+                return;
+            }
 
-            if (setting == null) return;
+            Setting<?> setting = Setting.getSettingFromPath(str);
+            if (setting == null) {
+                return;
+            }
 
             Preference mPreference = findPreference(str);
-
-            if (mPreference == null) return;
+            if (mPreference == null) {
+                return;
+            }
 
             if (mPreference instanceof SwitchPreference switchPreference) {
                 BooleanSetting boolSetting = (BooleanSetting) setting;
@@ -122,17 +131,13 @@ public class ReVancedPreferenceFragment extends PreferenceFragment {
 
             ReVancedSettingsPreference.initializeReVancedSettings();
 
-            if (settingImportInProgress) {
-                return;
-            }
-
-            if (!showingUserDialogMessage) {
+            if (!settingImportInProgress && !showingUserDialogMessage) {
                 final Context context = getActivity();
 
-                if (setting.userDialogMessage != null
-                        && mPreference instanceof SwitchPreference switchPreference
-                        && setting.defaultValue instanceof Boolean defaultValue
-                        && switchPreference.isChecked() != defaultValue) {
+                if (setting.userDialogMessage != null &&
+                        mPreference instanceof SwitchPreference switchPreference &&
+                        setting.defaultValue instanceof Boolean defaultValue &&
+                        switchPreference.isChecked() != defaultValue) {
                     showSettingUserDialogConfirmation(context, switchPreference, (BooleanSetting) setting);
                 } else if (setting.rebootApp) {
                     showRestartDialog(context);
@@ -314,6 +319,10 @@ public class ReVancedPreferenceFragment extends PreferenceFragment {
 
             originalPreferenceScreen = getPreferenceManager().createPreferenceScreen(getActivity());
             copyPreferences(getPreferenceScreen(), originalPreferenceScreen);
+
+            sortPreferenceListMenu(Settings.CHANGE_START_PAGE);
+            sortPreferenceListMenu(Settings.SPOOF_STREAMING_DATA_LANGUAGE);
+            sortPreferenceListMenu(BaseSettings.REVANCED_LANGUAGE);
         } catch (Exception th) {
             Logger.printException(() -> "Error during onCreate()", th);
         }
@@ -329,6 +338,65 @@ public class ReVancedPreferenceFragment extends PreferenceFragment {
     public void onDestroy() {
         mSharedPreferences.unregisterOnSharedPreferenceChangeListener(listener);
         super.onDestroy();
+    }
+
+    /**
+     * Sorts a preference list by menu entries, but preserves the first value as the first entry.
+     *
+     * @noinspection SameParameterValue
+     */
+    private static void sortListPreferenceByValues(ListPreference listPreference, int firstEntriesToPreserve) {
+        CharSequence[] entries = listPreference.getEntries();
+        CharSequence[] entryValues = listPreference.getEntryValues();
+        final int entrySize = entries.length;
+
+        if (entrySize != entryValues.length) {
+            // Xml array declaration has a missing/extra entry.
+            throw new IllegalStateException();
+        }
+
+        // Since the text of Preference is Spanned, CharSequence#toString() should not be used.
+        // If CharSequence#toString() is used, Spanned styling, such as HTML syntax, will be broken.
+        List<Pair<CharSequence, CharSequence>> firstPairs = new ArrayList<>(firstEntriesToPreserve);
+        List<Pair<CharSequence, CharSequence>> pairsToSort = new ArrayList<>(entrySize);
+
+        for (int i = 0; i < entrySize; i++) {
+            Pair<CharSequence, CharSequence> pair = new Pair<>(entries[i], entryValues[i]);
+            if (i < firstEntriesToPreserve) {
+                firstPairs.add(pair);
+            } else {
+                pairsToSort.add(pair);
+            }
+        }
+
+        pairsToSort.sort((pair1, pair2)
+                -> pair1.first.toString().compareToIgnoreCase(pair2.first.toString()));
+
+        CharSequence[] sortedEntries = new CharSequence[entrySize];
+        CharSequence[] sortedEntryValues = new CharSequence[entrySize];
+
+        int i = 0;
+        for (Pair<CharSequence, CharSequence> pair : firstPairs) {
+            sortedEntries[i] = pair.first;
+            sortedEntryValues[i] = pair.second;
+            i++;
+        }
+
+        for (Pair<CharSequence, CharSequence> pair : pairsToSort) {
+            sortedEntries[i] = pair.first;
+            sortedEntryValues[i] = pair.second;
+            i++;
+        }
+
+        listPreference.setEntries(sortedEntries);
+        listPreference.setEntryValues(sortedEntryValues);
+    }
+
+    private void sortPreferenceListMenu(EnumSetting<?> setting) {
+        Preference preference = findPreference(setting.key);
+        if (preference instanceof ListPreference languagePreference) {
+            sortListPreferenceByValues(languagePreference, 1);
+        }
     }
 
     /**

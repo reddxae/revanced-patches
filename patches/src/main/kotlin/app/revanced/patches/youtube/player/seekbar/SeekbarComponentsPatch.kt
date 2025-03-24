@@ -11,14 +11,12 @@ import app.revanced.patcher.util.smali.ExternalLabel
 import app.revanced.patches.shared.drawable.addDrawableColorHook
 import app.revanced.patches.shared.drawable.drawableColorHookPatch
 import app.revanced.patches.shared.mainactivity.onCreateMethod
-import app.revanced.patches.youtube.layout.branding.icon.customBrandingIconPatch
 import app.revanced.patches.youtube.utils.compatibility.Constants.COMPATIBLE_PACKAGE
 import app.revanced.patches.youtube.utils.extension.Constants.PATCH_STATUS_CLASS_DESCRIPTOR
 import app.revanced.patches.youtube.utils.extension.Constants.PLAYER_CLASS_DESCRIPTOR
 import app.revanced.patches.youtube.utils.extension.Constants.PLAYER_PATH
 import app.revanced.patches.youtube.utils.flyoutmenu.flyoutMenuHookPatch
 import app.revanced.patches.youtube.utils.mainactivity.mainActivityResolvePatch
-import app.revanced.patches.youtube.utils.patch.PatchList.CUSTOM_BRANDING_ICON_FOR_YOUTUBE
 import app.revanced.patches.youtube.utils.patch.PatchList.SEEKBAR_COMPONENTS
 import app.revanced.patches.youtube.utils.playerButtonsResourcesFingerprint
 import app.revanced.patches.youtube.utils.playerButtonsVisibilityFingerprint
@@ -37,6 +35,7 @@ import app.revanced.patches.youtube.utils.seekbarFingerprint
 import app.revanced.patches.youtube.utils.seekbarOnDrawFingerprint
 import app.revanced.patches.youtube.utils.settings.ResourceUtils.addPreference
 import app.revanced.patches.youtube.utils.settings.ResourceUtils.getContext
+import app.revanced.patches.youtube.utils.settings.ResourceUtils.restoreOldSplashAnimationIncluded
 import app.revanced.patches.youtube.utils.settings.settingsPatch
 import app.revanced.patches.youtube.utils.totalTimeFingerprint
 import app.revanced.patches.youtube.video.information.videoInformationPatch
@@ -48,7 +47,6 @@ import app.revanced.util.fingerprint.injectLiteralInstructionBooleanCall
 import app.revanced.util.fingerprint.matchOrThrow
 import app.revanced.util.fingerprint.methodOrThrow
 import app.revanced.util.fingerprint.resolvable
-import app.revanced.util.getBooleanOptionValue
 import app.revanced.util.getReference
 import app.revanced.util.getWalkerMethod
 import app.revanced.util.indexOfFirstInstructionOrThrow
@@ -121,9 +119,6 @@ val seekbarComponentsPatch = bytecodePatch(
     )
 
     execute {
-
-        val restoreOldSplashAnimationIncluded = CUSTOM_BRANDING_ICON_FOR_YOUTUBE.included == true &&
-                customBrandingIconPatch.getBooleanOptionValue("restoreOldSplashAnimation").value == true
 
         var settingArray = arrayOf(
             "PREFERENCE_SCREEN: PLAYER",

@@ -1,11 +1,9 @@
 package app.revanced.patches.youtube.utils.fix.splash
 
 import app.revanced.patcher.patch.resourcePatch
-import app.revanced.patches.youtube.layout.branding.icon.customBrandingIconPatch
-import app.revanced.patches.youtube.utils.patch.PatchList.CUSTOM_BRANDING_ICON_FOR_YOUTUBE
 import app.revanced.patches.youtube.utils.playservice.is_19_32_or_greater
 import app.revanced.patches.youtube.utils.playservice.versionCheckPatch
-import app.revanced.util.getBooleanOptionValue
+import app.revanced.patches.youtube.utils.settings.ResourceUtils.restoreOldSplashAnimationIncluded
 import org.w3c.dom.Element
 
 /**
@@ -26,9 +24,6 @@ val darkModeSplashScreenPatch = resourcePatch(
         if (!is_19_32_or_greater) {
             return@finalize
         }
-
-        val restoreOldSplashAnimationIncluded = CUSTOM_BRANDING_ICON_FOR_YOUTUBE.included == true &&
-                customBrandingIconPatch.getBooleanOptionValue("restoreOldSplashAnimation").value == true
 
         if (restoreOldSplashAnimationIncluded) {
             document("res/values-night/styles.xml").use { document ->

@@ -29,6 +29,16 @@ public class PackageUtils extends Utils {
         }
     }
 
+    @Nullable
+    public static Integer getTargetSDKVersion(@NonNull String packageName) {
+        ApplicationInfo applicationInfo = getApplicationInfo(packageName);
+        if (applicationInfo != null) {
+            return applicationInfo.targetSdkVersion;
+        }
+
+        return null;
+    }
+
     public static boolean isPackageEnabled(@NonNull String packageName) {
         ApplicationInfo applicationInfo = getApplicationInfo(packageName);
         if (applicationInfo != null) {
@@ -47,16 +57,6 @@ public class PackageUtils extends Utils {
     }
 
     // utils
-    @Nullable
-    public static Integer getTargetSDKVersion(@NonNull String packageName) {
-        ApplicationInfo applicationInfo = getApplicationInfo(packageName);
-        if (applicationInfo != null) {
-            return applicationInfo.targetSdkVersion;
-        }
-
-        return null;
-    }
-
     @Nullable
     private static ApplicationInfo getApplicationInfo(@NonNull String packageName) {
         try {

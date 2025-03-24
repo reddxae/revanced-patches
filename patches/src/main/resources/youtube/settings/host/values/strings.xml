@@ -22,6 +22,40 @@
     <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s is not installed.
 Please download %2$s from the website."</string>
     <string name="revanced_external_downloader_not_installed_warning">%s is not installed. Please install it.</string>
+
+    <string name="revanced_queue_manager_add_to_queue">Add to queue</string>
+    <string name="revanced_queue_manager_add_to_queue_and_open_queue">Add to queue and open queue</string>
+    <string name="revanced_queue_manager_add_to_queue_and_play_video">Add to queue and play video</string>
+    <string name="revanced_queue_manager_external_downloader">External downloader</string>
+    <string name="revanced_queue_manager_open_queue">Open queue</string>
+    <string name="revanced_queue_manager_queue">Queue</string>
+    <string name="revanced_queue_manager_remove_from_queue">Remove from queue</string>
+    <string name="revanced_queue_manager_remove_from_queue_and_open_queue">Remove from queue and open queue</string>
+    <string name="revanced_queue_manager_remove_queue">Remove queue</string>
+    <string name="revanced_queue_manager_save_queue">Save queue</string>
+    <string name="revanced_queue_manager_user_dialog_message">"Instead of opening an external downloader, open the queue manager dialog.
+
+You can also open the queue manager by pressing and holding the back button on the navigation bar.
+
+This feature is still in progress, so most features may not work.
+
+Please use it for debugging purposes only."</string>
+    <string name="revanced_queue_manager_check_failed_auth">Login required</string>
+    <string name="revanced_queue_manager_check_failed_generic">Queue manager unavailable (%s).</string>
+    <string name="revanced_queue_manager_check_failed_playlist_id">Could not identify playlist</string>
+    <string name="revanced_queue_manager_check_failed_queue">Queue is empty</string>
+    <string name="revanced_queue_manager_check_failed_video_id">Could not identify video</string>
+    <string name="revanced_queue_manager_fetch_failed_add">Failed to add video.</string>
+    <string name="revanced_queue_manager_fetch_failed_create">Failed to create queue.</string>
+    <string name="revanced_queue_manager_fetch_failed_delete">Failed to delete queue.</string>
+    <string name="revanced_queue_manager_fetch_failed_remove">Failed to remove video.</string>
+    <string name="revanced_queue_manager_fetch_failed_save">Failed to save queue.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_add">Video successfully added.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_create">Queue successfully created.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_delete">Queue successfully deleted.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_remove">Video successfully removed.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_save">Queue successfully saved to \'%s\'.</string>
+
     <string name="revanced_language_title">RVX language</string>
     <string name="revanced_language_DEFAULT">App language</string>
     <string name="revanced_language_AM">"Amharic
@@ -595,6 +629,9 @@ Some components may not be hidden."</string>
     <string name="revanced_override_video_download_button_title">Override video download button</string>
     <string name="revanced_override_video_download_button_summary_on">Native video download button opens your external downloader.</string>
     <string name="revanced_override_video_download_button_summary_off">Native video download button opens the native in-app downloader.</string>
+    <string name="revanced_override_video_download_button_queue_manager_title">Queue manager</string>
+    <string name="revanced_override_video_download_button_queue_manager_summary_on">Native video download button opens the queue manager.</string>
+    <string name="revanced_override_video_download_button_queue_manager_summary_off">Native video download button opens your external downloader.</string>
     <string name="revanced_external_downloader_package_name_playlist_title">Playlist downloader package name</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">Package name of your installed external downloader app, such as YTDLnis.</string>
 
@@ -652,7 +689,6 @@ If this setting do not take effect, try switching to Incognito mode."</string>
     <string name="revanced_enable_translucent_navigation_bar_title">Enable translucent navigation bar</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">Navigation bar is translucent.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">Navigation bar is opaque.</string>
-    <string name="revanced_enable_translucent_navigation_bar_user_dialog_message">In certain YouTube versions, this setting can make the system navigation bar transparent or the layout can be broken in PIP mode.</string>
     <string name="revanced_hide_navigation_bar_title">Hide navigation bar</string>
     <string name="revanced_hide_navigation_bar_summary_on">Navigation bar is hidden.</string>
     <string name="revanced_hide_navigation_bar_summary_off">Navigation bar is shown.</string>
@@ -1264,6 +1300,8 @@ Tap and hold to copy video timestamp."</string>
     <string name="revanced_overlay_button_mute_volume_summary">Tap to mute volume of the current video. Tap again to unmute.</string>
     <string name="revanced_overlay_button_external_downloader_title">Show external downloader button</string>
     <string name="revanced_overlay_button_external_downloader_summary">Tap to launch external downloader.</string>
+    <string name="revanced_overlay_button_external_downloader_queue_manager_title">Queue manager</string>
+    <string name="revanced_overlay_button_external_downloader_queue_manager_summary">Instead of launching an external downloader, open the queue manager.</string>
     <string name="revanced_overlay_button_speed_dialog_title">Show speed dialog button</string>
     <string name="revanced_overlay_button_speed_dialog_summary">"Tap to open speed dialog.
 Tap and hold to reset playback speed to 1.0x. Tap and hold again to reset back to default speed."</string>

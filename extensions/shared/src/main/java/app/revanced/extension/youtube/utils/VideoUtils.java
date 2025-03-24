@@ -63,7 +63,7 @@ public class VideoUtils extends IntentUtils {
         return builder.toString();
     }
 
-    private static String getVideoScheme(String videoId, boolean isShorts) {
+    public static String getVideoScheme(String videoId, boolean isShorts) {
         return String.format(
                 Locale.ENGLISH,
                 isShorts ? VIDEO_SCHEME_INTENT_FORMAT : VIDEO_SCHEME_LINK_FORMAT,
@@ -126,6 +126,22 @@ public class VideoUtils extends IntentUtils {
 
     public static void openChannel(@NonNull String channelId) {
         launchView(getChannelUrl(channelId), getContext().getPackageName());
+    }
+
+    public static void openPlaylist(@NonNull String playlistId) {
+        openPlaylist(playlistId, "");
+    }
+
+    public static void openPlaylist(@NonNull String playlistId, @NonNull String videoId) {
+        final StringBuilder sb = new StringBuilder();
+        if (videoId.isEmpty()) {
+            sb.append(getPlaylistUrl(playlistId));
+        } else {
+            sb.append(getVideoScheme(videoId, false));
+            sb.append("&list=");
+            sb.append(playlistId);
+        }
+        launchView(sb.toString(), getContext().getPackageName());
     }
 
     public static void openVideo() {

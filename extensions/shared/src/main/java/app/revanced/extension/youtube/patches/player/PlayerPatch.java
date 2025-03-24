@@ -546,6 +546,10 @@ public class PlayerPatch {
         return Settings.HIDE_FILMSTRIP_OVERLAY.get();
     }
 
+    public static boolean hideFilmstripOverlay(boolean original) {
+        return !Settings.HIDE_FILMSTRIP_OVERLAY.get() && original;
+    }
+
     public static boolean hideInfoCard(boolean original) {
         return !Settings.HIDE_INFO_CARDS.get() && original;
     }

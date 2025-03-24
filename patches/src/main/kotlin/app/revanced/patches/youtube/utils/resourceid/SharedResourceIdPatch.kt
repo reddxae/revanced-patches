@@ -237,6 +237,8 @@ var youTubeLogo = -1L
     private set
 var ytFillBell = -1L
     private set
+var ytOutlineLibrary = -1L
+    private set
 var ytOutlineMoonZ = -1L
     private set
 var ytOutlinePictureInPictureWhite = -1L
@@ -705,6 +707,10 @@ internal val sharedResourceIdPatch = resourcePatch(
         ytFillBell = resourceMappings[
             DRAWABLE,
             "yt_fill_bell_black_24"
+        ]
+        ytOutlineLibrary = resourceMappings[
+            DRAWABLE,
+            "yt_outline_library_black_24"
         ]
         ytOutlineMoonZ = resourceMappings[
             DRAWABLE,

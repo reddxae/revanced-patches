@@ -40,6 +40,8 @@ import java.util.EnumMap;
 import java.util.Map;
 import java.util.Objects;
 
+import app.revanced.extension.shared.settings.BaseSettings;
+import app.revanced.extension.shared.utils.Logger;
 import app.revanced.extension.shared.utils.ResourceUtils;
 import app.revanced.extension.shared.utils.Utils;
 import app.revanced.extension.youtube.settings.Settings;
@@ -232,6 +234,17 @@ public class GeneralPatch {
             // That's why 'EnumMap.putIfAbsent()' is used instead of 'EnumMap.put()'.
             enumMap.putIfAbsent(tabActivityCairo, Integer.valueOf(fillBellCairoBlack));
         }
+    }
+
+    public static int getLibraryDrawableId(int original) {
+        if (ExtendedUtils.IS_19_26_OR_GREATER &&
+                !ExtendedUtils.isSpoofingToLessThan("19.27.00")) {
+            int libraryCairoId = ResourceUtils.getDrawableIdentifier("yt_outline_library_cairo_black_24");
+            if (libraryCairoId != 0) {
+                return libraryCairoId;
+            }
+        }
+        return original;
     }
 
     public static boolean switchCreateWithNotificationButton(boolean original) {

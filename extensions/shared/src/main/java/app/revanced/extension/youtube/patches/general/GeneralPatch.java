@@ -40,7 +40,6 @@ import java.util.EnumMap;
 import java.util.Map;
 import java.util.Objects;
 
-import app.revanced.extension.shared.settings.BaseSettings;
 import app.revanced.extension.shared.utils.Logger;
 import app.revanced.extension.shared.utils.ResourceUtils;
 import app.revanced.extension.shared.utils.Utils;

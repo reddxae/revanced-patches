@@ -21,57 +21,6 @@ Töltsd le a(z) %2$s weboldalról."</string>
     <string name="revanced_external_downloader_not_installed_warning">%s nincs telepítve. Kérlek telepítsd.</string>
     <string name="revanced_language_title">RVX nyelve</string>
     <string name="revanced_language_DEFAULT">Alkalmazás nyelve</string>
-    <string name="revanced_language_AR">Arab</string>
-    <string name="revanced_language_AZ">Azerbajdzsáni</string>
-    <string name="revanced_language_BG">Bolgár</string>
-    <string name="revanced_language_BN">Bengáli</string>
-    <string name="revanced_language_CA">Katalán</string>
-    <string name="revanced_language_CS">Cseh</string>
-    <string name="revanced_language_DA">Dán</string>
-    <string name="revanced_language_DE">Német</string>
-    <string name="revanced_language_EL">Görög</string>
-    <string name="revanced_language_EN">Angol</string>
-    <string name="revanced_language_ES">Spanyol</string>
-    <string name="revanced_language_ET">Észt</string>
-    <string name="revanced_language_FA">Perzsa</string>
-    <string name="revanced_language_FI">Finn</string>
-    <string name="revanced_language_FR">Francia</string>
-    <string name="revanced_language_GU">Gudzsaráti</string>
-    <string name="revanced_language_HI">Hindi</string>
-    <string name="revanced_language_HR">Horvát</string>
-    <string name="revanced_language_HU">Magyar</string>
-    <string name="revanced_language_ID">Indonéz</string>
-    <string name="revanced_language_IT">Olasz</string>
-    <string name="revanced_language_JA">Japán</string>
-    <string name="revanced_language_KK">Kazah</string>
-    <string name="revanced_language_KO">Koreai</string>
-    <string name="revanced_language_LT">Litván</string>
-    <string name="revanced_language_LV">Lett</string>
-    <string name="revanced_language_MK">Macedón</string>
-    <string name="revanced_language_MN">Mongol</string>
-    <string name="revanced_language_MR">Marathi</string>
-    <string name="revanced_language_MS">Maláj</string>
-    <string name="revanced_language_MY">Burmai</string>
-    <string name="revanced_language_NL">Holland</string>
-    <string name="revanced_language_OR">Odia</string>
-    <string name="revanced_language_PA">Pandzsábi</string>
-    <string name="revanced_language_PL">Lengyel</string>
-    <string name="revanced_language_PT">Portugál</string>
-    <string name="revanced_language_RO">Román</string>
-    <string name="revanced_language_RU">Orosz</string>
-    <string name="revanced_language_SK">Szlovák</string>
-    <string name="revanced_language_SL">Szlovén</string>
-    <string name="revanced_language_SR">Szerb</string>
-    <string name="revanced_language_SV">Svéd</string>
-    <string name="revanced_language_SW">Szuahéli</string>
-    <string name="revanced_language_TA">Tamil</string>
-    <string name="revanced_language_TE">Telugu</string>
-    <string name="revanced_language_TH">Thai</string>
-    <string name="revanced_language_TR">Török</string>
-    <string name="revanced_language_UK">Ukrán</string>
-    <string name="revanced_language_UR">Urdu</string>
-    <string name="revanced_language_VI">Vietnámi</string>
-    <string name="revanced_language_ZH">Kínai</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Hirdetések</string>
     <string name="revanced_hide_end_screen_store_banner_title">Záróképernyő üzlet banner elrejtése</string>
@@ -412,7 +361,22 @@ Ez nem kerüli meg a korhatárt. Csak automatikusan fogadja el."</string>
     <string name="revanced_change_live_ring_click_action_title">Élő közvetítés ikon kattintás műveletének módosítása</string>
     <string name="revanced_change_live_ring_click_action_summary_on">"A csatorna nyílik meg az ikonra kattintva."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">Az élő közvetítés nyílik meg az ikonra kattintva.</string>
+    <string name="revanced_change_form_factor_title">Elrendezési alaktényező</string>
     <string name="revanced_change_form_factor_entry_1">Alapértelmezett</string>
+    <string name="revanced_change_form_factor_entry_2">Telefon</string>
+    <string name="revanced_change_form_factor_entry_3">Telefon (max 480 dpi)</string>
+    <string name="revanced_change_form_factor_entry_4">Tablet</string>
+    <string name="revanced_change_form_factor_entry_5">Tablet (min 600 dpi)</string>
+    <string name="revanced_change_form_factor_entry_6">Autóipari</string>
+    <string name="revanced_change_form_factor_user_dialog_message">"A változások a következők:
+
+Táblagép elrendezés
+• A közösségi bejegyzések el vannak rejtve.
+
+Autóipari elrendezés
+• A shortok a normál lejátszóban nyílnak meg.
+• A hírfolyam témák és csatornák szerint van rendezve.
+• A videó leírása nem nyitható meg, ha az 'Adatfolyam hamisítása' ki van kapcsolva."</string>
     <string name="revanced_spoof_app_version_title">Alkalmazásverzió hamisítása</string>
     <string name="revanced_spoof_app_version_summary_on">Verzió hamisítás</string>
     <string name="revanced_spoof_app_version_summary_off">Verzió nincs hamisítva</string>
@@ -520,7 +484,6 @@ Ha ez a beállítás nem működik, váltson inkognító módra."</string>
     <string name="revanced_enable_translucent_navigation_bar_title">Átlátszó navigációs sáv engedélyezése</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">A navigációs sáv átlátszó.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">A navigációs sáv nem átlátszó.</string>
-    <string name="revanced_enable_translucent_navigation_bar_user_dialog_message">Egyes YouTube verziókban ez a beállítás átlátszóvá teheti a rendszer navigációs sávját, vagy kép a képben módban az elrendezés széteshet.</string>
     <string name="revanced_hide_navigation_bar_title">Navigációs sáv elrejtése</string>
     <string name="revanced_hide_navigation_bar_summary_on">A navigációs sáv el van rejtve.</string>
     <string name="revanced_hide_navigation_bar_summary_off">A navigációs sáv látható.</string>
@@ -1912,7 +1875,8 @@ Kattintson a folytatás gombra és kapcsolja ki az akkumulátor optimalizáláso
 • A kényszerített automatikus hangsávok letiltása nem elérhető.
 • Előfordulhat, hogy a gyerekeknek szánt tartalmat nem lehet lejátszani, ha ki van jelentkezve vagy inkognitó módban van."</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">• Lejátszási problémák lehetnek (PoToken szükséges).</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• Előfordulhat, hogy a filmeket vagy a fizetős videókat nem lehet lejátszani.
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• A stabil hangerő nem érhető el.
+• Előfordulhat, hogy a filmeket vagy a fizetős videókat nem lehet lejátszani.
 • Előfordulhat, hogy a gyerekeknek szánt tartalmat nem lehet lejátszani, ha ki van jelentkezve vagy inkognitó módban van."</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Kényszerített iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">A kényszerített videó kodek az AVC (H.264).</string>
@@ -1920,6 +1884,14 @@ Kattintson a folytatás gombra és kapcsolja ki az akkumulátor optimalizáláso
     <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"Ennek engedélyezése javíthatja az akkumulátor élettartamát és javíthatja a lejátszás akadozását.
 
 Az AVC maximális felbontása 1080p, az Opus hangkodek nem érhető el, és a videolejátszás több adatforgalmat igényel, mint a VP9 vagy az AV1."</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_title">Onesie válasz titkosításának kihagyása</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_summary_on">"A Onesie válasz titkosításának kihagyása.
+
+• Javítja az egyes felhasználók által tapasztalt új típusú lejátszási problémát.
+• Előfordulhat, hogy az AV1 kodek nem elérhető."</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_summary_off">"Ne hagyja ki a Onesie válasz titkosítását.
+
+• Egyes felhasználók új típusú lejátszási problémákat tapasztalhatnak."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Megjelenítés a statisztikában kockáknak</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Az adatfolyam lekérésére használt kliens a statisztikában kockáknak látható.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Az adatfolyam lekérésére használt kliens a statisztikában kockáknak nem látható.</string>

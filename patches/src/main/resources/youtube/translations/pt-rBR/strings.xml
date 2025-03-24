@@ -21,57 +21,6 @@ Por favor, baixe %2$s do site."</string>
     <string name="revanced_external_downloader_not_installed_warning">%s não está instalado. Por favor, instale-o.</string>
     <string name="revanced_language_title">Idioma do RVX</string>
     <string name="revanced_language_DEFAULT">Idioma do app</string>
-    <string name="revanced_language_AR">Árabe</string>
-    <string name="revanced_language_AZ">Azerbaijano</string>
-    <string name="revanced_language_BG">Búlgaro</string>
-    <string name="revanced_language_BN">Bengalês</string>
-    <string name="revanced_language_CA">Catalão</string>
-    <string name="revanced_language_CS">Tcheco</string>
-    <string name="revanced_language_DA">Dinamarquês</string>
-    <string name="revanced_language_DE">Alemão</string>
-    <string name="revanced_language_EL">Grego</string>
-    <string name="revanced_language_EN">Inglês</string>
-    <string name="revanced_language_ES">Espanhol</string>
-    <string name="revanced_language_ET">Estoniano</string>
-    <string name="revanced_language_FA">Persa</string>
-    <string name="revanced_language_FI">Finlandês</string>
-    <string name="revanced_language_FR">Francês</string>
-    <string name="revanced_language_GU">Guzerate</string>
-    <string name="revanced_language_HI">Hindu</string>
-    <string name="revanced_language_HR">Croata</string>
-    <string name="revanced_language_HU">Húngaro</string>
-    <string name="revanced_language_ID">Indonésio</string>
-    <string name="revanced_language_IT">Italiano</string>
-    <string name="revanced_language_JA">Japonês</string>
-    <string name="revanced_language_KK">Cazaque</string>
-    <string name="revanced_language_KO">Coreano</string>
-    <string name="revanced_language_LT">Lituano</string>
-    <string name="revanced_language_LV">Letão</string>
-    <string name="revanced_language_MK">Macedônio</string>
-    <string name="revanced_language_MN">Mongol</string>
-    <string name="revanced_language_MR">Marata</string>
-    <string name="revanced_language_MS">Malaio</string>
-    <string name="revanced_language_MY">Birmanês</string>
-    <string name="revanced_language_NL">Holandês</string>
-    <string name="revanced_language_OR">Odia</string>
-    <string name="revanced_language_PA">Punjabi</string>
-    <string name="revanced_language_PL">Polonês</string>
-    <string name="revanced_language_PT">Português</string>
-    <string name="revanced_language_RO">Romeno</string>
-    <string name="revanced_language_RU">Russo</string>
-    <string name="revanced_language_SK">Eslovaco</string>
-    <string name="revanced_language_SL">Esloveno</string>
-    <string name="revanced_language_SR">Sérvio</string>
-    <string name="revanced_language_SV">Sueco</string>
-    <string name="revanced_language_SW">Suaíli</string>
-    <string name="revanced_language_TA">Tâmil</string>
-    <string name="revanced_language_TE">Telugu</string>
-    <string name="revanced_language_TH">Tailandês</string>
-    <string name="revanced_language_TR">Turco</string>
-    <string name="revanced_language_UK">Ucraniano</string>
-    <string name="revanced_language_UR">Urdu</string>
-    <string name="revanced_language_VI">Vietnamita</string>
-    <string name="revanced_language_ZH">Chinês</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Anúncios</string>
     <string name="revanced_hide_end_screen_store_banner_title">Ocultar banner da loja na tela final</string>
@@ -407,6 +356,22 @@ Isso não ignora a restrição de idade, apenas aceita isso automaticamente."</s
     <string name="revanced_change_live_ring_click_action_title">Alterar ação de clique do anel ao vivo</string>
     <string name="revanced_change_live_ring_click_action_summary_on">"O canal é aberto quando o anel ao vivo é clicado."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">A transmissão ao vivo é aberta quando o anel ao vivo é clicado.</string>
+    <string name="revanced_change_form_factor_title">Fator de forma de layout</string>
+    <string name="revanced_change_form_factor_entry_1">Padrão</string>
+    <string name="revanced_change_form_factor_entry_2">Telefone</string>
+    <string name="revanced_change_form_factor_entry_3">Telefone (Máximo 480 dp)</string>
+    <string name="revanced_change_form_factor_entry_4">Tablet</string>
+    <string name="revanced_change_form_factor_entry_5">Tablet (Min 600 dp)</string>
+    <string name="revanced_change_form_factor_entry_6">Automotivo</string>
+    <string name="revanced_change_form_factor_user_dialog_message">"As alterações incluem:
+
+Tablet layout
+• Os posts da comunidade estão ocultos.
+
+Automotivo layout
+• Shorts abertos no reprodutor regular.
+• O feed é organizado por tópicos e canais.
+• A descrição do vídeo não pode ser aberta quando o 'Falsificar dados de reprodução' está desligado."</string>
     <string name="revanced_spoof_app_version_title">Falsificar versão do aplicativo</string>
     <string name="revanced_spoof_app_version_summary_on">Versão falsificada</string>
     <string name="revanced_spoof_app_version_summary_off">Versão não falsificada</string>
@@ -512,7 +477,6 @@ Se essa configuração não surtir efeito, tente alternar para o modo anônimo."
     <string name="revanced_enable_translucent_navigation_bar_title">Ativar barra de navegação transparente</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">A barra de navegação está transparente.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">A barra de navegação está opaca.</string>
-    <string name="revanced_enable_translucent_navigation_bar_user_dialog_message">Em certas versões do YouTube, esta configuração pode tornar a barra de navegação do sistema transparente ou o layout pode ser quebrado no modo PIP.</string>
     <string name="revanced_hide_navigation_bar_title">Ocultar barra de navegação</string>
     <string name="revanced_hide_navigation_bar_summary_on">A barra de navegação está oculta.</string>
     <string name="revanced_hide_navigation_bar_summary_off">A barra de navegação será exibida.</string>
@@ -1001,6 +965,7 @@ Limitação: Título do vídeo desaparece quando clicado."</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">Mini reprodutor</string>
     <string name="revanced_preference_screen_miniplayer_summary">Alterar o estilo do reprodutor minimizado no aplicativo.</string>
+    <string name="revanced_disable_resuming_miniplayer_title">Desativar retomada do mini reprodutor</string>
     <string name="revanced_miniplayer_type_title">Tipo de mini reprodutor</string>
     <string name="revanced_miniplayer_type_entry_0">Desativado</string>
     <string name="revanced_miniplayer_type_entry_1">Original</string>
@@ -1903,6 +1868,14 @@ Toque no botão continuar e desative as otimizações da bateria."</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"Ativar isso pode melhorar a duração da bateria e corrigir travamentos na reprodução.
 
 O AVC tem uma resolução máxima de 1080p, o codec de áudio Opus não está disponível e a reprodução de vídeo usará mais dados da internet do que VP9 ou AV1."</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_title">Pular criptografia de resposta Onesie</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_summary_on">"Pular criptografia de resposta Onesie.
+
+• Corrige um novo tipo de problema de reprodução que alguns usuários estão enfrentando.
+• O codec AV1 pode não estar disponível."</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_summary_off">"Não pule a criptografia de resposta Onesie.
+
+• Alguns usuários podem experimentar um novo tipo de problema de reprodução."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Exibir em Estatísticas para nerds</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">O cliente usado para buscar dados de streaming é mostrado em Estatísticas para nerds.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">O cliente usado para buscar dados de streaming está oculto em Estatísticas para nerds.</string>

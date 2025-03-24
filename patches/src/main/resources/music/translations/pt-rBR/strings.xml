@@ -213,6 +213,18 @@ Isso não ignora a restrição de idade, apenas aceita isso automaticamente."</s
     <string name="revanced_hide_navigation_bar_summary">Oculta a barra de navegação.</string>
     <string name="revanced_hide_navigation_label_title">Ocultar rótulos de navegação</string>
     <string name="revanced_hide_navigation_label_summary">Oculta o rótulo abaixo de cada botão de navegação.</string>
+    <string name="revanced_replace_navigation_samples_button_title">Substituir botão Descobertas</string>
+    <string name="revanced_replace_navigation_samples_button_summary">Substitui o botão Descobertas pelo botão de Pesquisa.</string>
+    <string name="revanced_replace_navigation_upgrade_button_title">Substituir botão Upgrade</string>
+    <string name="revanced_replace_navigation_upgrade_button_summary">Substitui o botão Upgrade pelo botão de Configurações.</string>
+    <string name="revanced_replace_navigation_button_about_title">Sobre a substituição de botão</string>
+    <string name="revanced_replace_navigation_button_about_summary">"Este recurso é experimental.
+Existem limitações estruturais do patch, pois atividades como Pesquisa e Configurações no YouTube Music não são públicas.
+
+Problemas conhecidos:
+• Quando uma atividade substituída, como Pesquisa e Configurações é fechada, a página inicial se abre.
+
+Clique para abrir as configurações de 'Alterar página inicial'."</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Reprodutor</string>
     <string name="revanced_add_miniplayer_next_button_title">Adicionar o botão próximo ao mini reprodutor</string>
@@ -453,6 +465,11 @@ Informações:
     <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
     <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>
     <string name="revanced_spoof_client_type_entry_ios_music_7_04">iOS Music 7.04</string>
+    <string name="revanced_spoof_player_parameter_title">Falsificação de parâmetro do reprodutor</string>
+    <string name="revanced_spoof_player_parameter_summary">"Falsificar o parâmetro de reprodutor para evitar problemas de reprodução.
+
+Efeito lateral:
+• Às vezes as legendas estão localizadas na parte superior do reprodutor ao invés da parte inferior."</string>
     <string name="revanced_watch_history_type_title">Tipo de histórico de exibição</string>
     <string name="revanced_watch_history_type_summary">"• Original: segue as configurações do histórico de exibição da conta do Google, mas o histórico de exibição pode não funcionar devido a DNS ou VPN.
 • Substituir domínio: segue as configurações do histórico de exibição da conta do Google.

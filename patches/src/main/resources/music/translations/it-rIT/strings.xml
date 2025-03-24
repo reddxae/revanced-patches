@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Shared -->
+    <string name="revanced_extended_settings_title">Impostazioni RVX</string>
     <string name="revanced_extended_reset_to_default_toast">Resetta ai valori iniziali.</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">Riavvia per caricare il layout normalmente</string>
@@ -14,16 +15,91 @@
     <string name="revanced_hide_account_menu_empty_component_title">Nascondi componente vuoto</string>
     <string name="revanced_hide_account_menu_empty_component_summary">Nasconde i componenti vuoti nel menu dell\'account</string>
     <string name="revanced_hide_handle_title">Nascondi l\'intestazione</string>
+    <string name="revanced_hide_handle_summary">Nasconde l\'handle nel menù dell\'account.</string>
     <string name="revanced_hide_terms_container_title">Nascondi contenitore termini</string>
     <string name="revanced_hide_terms_container_summary">Nasconde il contenitore dei termini di servizio.</string>
     <!-- PreferenceScreen: Action bar -->
+    <string name="revanced_preference_screen_action_bar_title">Action bar</string>
+    <string name="revanced_change_action_bar_position_title">Cambia la posizione della Action bar</string>
+    <string name="revanced_change_action_bar_position_summary">Sposta l\'Action bar sotto il pulsante Play.</string>
+    <string name="revanced_hide_action_button_like_dislike_title">Nascondi pulsanti Mi Piace e Non Mi Piace</string>
+    <string name="revanced_hide_action_button_like_dislike_summary">Non funziona con il vecchio layout del player.</string>
+    <string name="revanced_hide_action_button_comment_title">Nascondi il pulsante Commenti</string>
+    <string name="revanced_hide_action_button_comment_summary">Nascondi il pulsante Commenti.</string>
+    <string name="revanced_hide_action_button_add_to_playlist_title">Nascondi il pulsante Salva</string>
+    <string name="revanced_hide_action_button_add_to_playlist_summary">Nasconde il pulsante Salva.</string>
+    <string name="revanced_hide_action_button_download_title">Nascondi il pulsante Download</string>
+    <string name="revanced_hide_action_button_download_summary">Nasconde il pulsante del download.</string>
+    <string name="revanced_hide_action_button_radio_title">Nascondi pulsante Radio</string>
+    <string name="revanced_hide_action_button_radio_summary">Nasconde il pulsante Radio.</string>
+    <string name="revanced_hide_action_button_share_title">Nascondi il pulsante Condividi</string>
+    <string name="revanced_hide_action_button_share_summary">Nasconde il pulsante Condividi.</string>
+    <string name="revanced_hide_action_button_song_video_title">Nascondi pulsante Brano / Video</string>
+    <string name="revanced_hide_action_button_song_video_summary">"Nasconde il pulsante Brano / Video. (Il pulsante è visibile solo per alcuni utenti)"</string>
+    <string name="revanced_hide_action_button_label_title">Nascondi le etichette della barra delle azioni</string>
+    <string name="revanced_hide_action_button_label_summary">Nasconde le etichette dei pulsanti di azione.</string>
+    <string name="revanced_external_downloader_action_title">Sovrascrivi il pulsante di azione Download</string>
+    <string name="revanced_external_downloader_action_summary">"Il pulsante Download apre il downloader esterno.
+
+• Sovrascrive solo il pulsante Download nel player.
+• Non sovrascrive il pulsante Download nel menu flyout o nella scheda Libreria."</string>
     <string name="revanced_external_downloader_package_name_title">Nome del pacchetto downloader esterno</string>
     <string name="revanced_external_downloader_package_name_summary">Nome del pacchetto dell\'app downloader esterna installata, come NewPipe o Seal.</string>
+    <string name="revanced_external_downloader_dialog_title">Downloader esterno</string>
+    <string name="revanced_external_downloader_not_installed_dialog_title">Attenzione</string>
+    <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s non è installato.
+Si prega di scaricare %2$s dal sito web."</string>
     <string name="revanced_external_downloader_not_installed_warning">%s non è installato. Installalo.</string>
     <!-- PreferenceScreen: Ads -->
+    <string name="revanced_preference_screen_ads_title">Annunci</string>
+    <string name="revanced_hide_fullscreen_ads_title">Nascondi gli annunci a schermo intero</string>
+    <string name="revanced_hide_fullscreen_ads_summary">"Nasconde gli annunci a schermo intero.
+
+Limitazioni:
+• A volte potrebbe apparire una schermata nera invece della Home."</string>
+    <string name="revanced_fullscreen_ads_closed_toast">Annunci a schermo intero chiusi.</string>
+    <string name="revanced_hide_general_ads_title">Nascondi annunci generici</string>
+    <string name="revanced_hide_general_ads_summary">Nasconde annunci generici.</string>
     <string name="revanced_hide_music_ads_title">Nascondi le pubblicità musicali</string>
+    <string name="revanced_hide_music_ads_summary">Nasconde gli annunci durante la riproduzione.</string>
+    <string name="revanced_hide_paid_promotion_label_title">Nascondi l\'etichetta della promozione a pagamento</string>
+    <string name="revanced_hide_paid_promotion_label_summary">Nasconde l\'etichetta della promozione a pagamento.</string>
+    <string name="revanced_hide_premium_promotion_title">Nascondi popup promozionali premium</string>
+    <string name="revanced_hide_premium_promotion_summary">Nasconde popup promozionali premium.</string>
+    <string name="revanced_hide_premium_promotion_closed_toast">I popup promozionali Premium sono chiusi.</string>
+    <string name="revanced_hide_premium_renewal_title">Nascondi banner di rinnovo premium</string>
+    <string name="revanced_hide_premium_renewal_summary">Nasconde il banner di rinnovo premium.</string>
+    <string name="revanced_hide_promotion_alert_banner_title">Nascondi banner di avviso promozionale</string>
+    <string name="revanced_hide_promotion_alert_banner_summary">Nasconde il banner di avviso promozionale.</string>
     <!-- PreferenceScreen: Flyout menu -->
+    <string name="revanced_preference_screen_flyout_title">Menù a comparsa</string>
+    <string name="revanced_enable_trim_silence_title">Aggiungi interruttore per tagliare le parti di silenzio</string>
+    <string name="revanced_enable_trim_silence_summary">"Aggiunge un interruttore per tagliare le parti di silenzio, nel menù a comparsa della velocità di riproduzione.
+
+Info:
+• Questa funzione è per i podcast.
+• Questa funzione è ancora in fase di sviluppo, potrebbe essere instabile."</string>
     <string name="revanced_enable_compact_dialog_title">Abilita dialogo compatto</string>
+    <string name="revanced_enable_compact_dialog_summary">"Abilita il menù a comparsa compatto sui telefoni.
+
+Limitazioni:
+• Le copertine degli album nella scheda Raccolta diventano più piccole quando viene organizzata in una griglia.
+• Il layout del timer di spegnimento può apparire insolito."</string>
+    <string name="revanced_hide_flyout_menu_like_dislike_title">Nascondi pulsanti Mi Piace e Non Mi Piace</string>
+    <string name="revanced_hide_flyout_menu_3_column_component_title">Nascondi componente a tre tasti</string>
+    <string name="revanced_hide_flyout_menu_add_to_queue_title">Nascondi il menù Aggiungi alla coda</string>
+    <string name="revanced_hide_flyout_menu_captions_title">Nascondi il menù Sottotitoli</string>
+    <string name="revanced_hide_flyout_menu_delete_playlist_title">Nascondi il menu Elimina playlist</string>
+    <string name="revanced_hide_flyout_menu_dismiss_queue_title">Nascondi il menu Ignora coda</string>
+    <string name="revanced_hide_flyout_menu_download_title">Nascondi menù Download</string>
+    <string name="revanced_hide_flyout_menu_edit_playlist_title">Nascondi il menù Modifica playlist</string>
+    <string name="revanced_hide_flyout_menu_go_to_album_title">Nascondi il menu Vai all\'album</string>
+    <string name="revanced_hide_flyout_menu_go_to_artist_title">Nascondi il menu Vai all\'artista</string>
+    <string name="revanced_hide_flyout_menu_go_to_episode_title">Nascondi il menù Vai all\'episodio</string>
+    <string name="revanced_hide_flyout_menu_go_to_podcast_title">Nascondi il menù Vai al podcast</string>
+    <string name="revanced_hide_flyout_menu_help_title">Nascondi il menu Aiuto &amp; feedback</string>
+    <string name="revanced_hide_flyout_menu_not_interested_title">Nascondi il menu Non interessato</string>
+    <string name="revanced_hide_flyout_menu_pin_to_speed_dial_title">Nascondi Aggiungi al menu Selezione rapida</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_disable_auto_captions_title">Disabilita i sottotitoli automatici forzati</string>
     <string name="revanced_disable_auto_captions_summary">Sottotitoli automatici forzati disabilitati.</string>

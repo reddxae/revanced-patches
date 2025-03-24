@@ -165,13 +165,15 @@
     <string name="revanced_hide_floating_button_title">Приховати плаваючу кнопку</string>
     <string name="revanced_hide_floating_button_summary">Приховує плаваючу кнопку у вкладці \"Бібліотека\".</string>
     <string name="revanced_hide_history_button_title">Приховати кнопку історії</string>
-    <string name="revanced_hide_history_button_summary">Приховує кнопку історії на панелі інструментів вкладки \"Бібліотека\".</string>
+    <string name="revanced_hide_history_button_summary">Приховує кнопку історії на панелі інструментів.</string>
     <string name="revanced_hide_notification_button_title">Приховати кнопку сповіщень</string>
     <string name="revanced_hide_notification_button_summary">Приховує кнопку сповіщень на панелі інструментів.</string>
     <string name="revanced_hide_playlist_card_shelf_title">Приховати полицю карток списку відтворення</string>
     <string name="revanced_hide_playlist_card_shelf_summary">Приховує полицю карток списку відтворення в стрічці.</string>
     <string name="revanced_hide_samples_shelf_title">Приховати полицю \"Семпли\"</string>
     <string name="revanced_hide_samples_shelf_summary">Приховує полицю \"Семпли для вас\" у стрічці.</string>
+    <string name="revanced_hide_search_button_title">Приховати кнопку пошуку</string>
+    <string name="revanced_hide_search_button_summary">Приховує кнопку пошуку на панелі інструментів.</string>
     <string name="revanced_hide_sound_search_button_title">Приховати кнопку пошуку музики</string>
     <string name="revanced_hide_sound_search_button_summary">Приховує кнопку пошуку музики у панелі пошуку.</string>
     <string name="revanced_hide_tap_to_update_button_title">Приховати кнопку оновлення</string>
@@ -192,6 +194,7 @@
     <string name="revanced_spoof_app_version_target_summary">Виберіть зі списку цільову версію для підміни.</string>
     <string name="revanced_spoof_app_version_target_entry_6_42_55">6.42.55 - Вимкнення динамічних текстів</string>
     <string name="revanced_spoof_app_version_target_entry_7_16_53">7.16.53 - Відновлення старої панелі дій</string>
+    <string name="revanced_spoof_app_version_target_invalid_toast">Невірна версія підміни: %s.</string>
     <!-- PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_title">Панель навігації</string>
     <string name="revanced_enable_custom_navigation_bar_color_title">Увімкнути користувацький колір панелі навігації</string>

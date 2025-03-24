@@ -21,57 +21,6 @@
     <string name="revanced_external_downloader_not_installed_warning">Hiện %s chưa được cài đặt. Hãy cài đặt và thử lại.</string>
     <string name="revanced_language_title">Ngôn ngữ trong cài đặt RVX</string>
     <string name="revanced_language_DEFAULT">Theo ứng dụng</string>
-    <string name="revanced_language_AR">Tiếng Ả Rập</string>
-    <string name="revanced_language_AZ">Tiếng Azerbaijan</string>
-    <string name="revanced_language_BG">Tiếng Bulgaria</string>
-    <string name="revanced_language_BN">Tiếng Bengal</string>
-    <string name="revanced_language_CA">Tiếng Catalan</string>
-    <string name="revanced_language_CS">Tiếng Séc</string>
-    <string name="revanced_language_DA">Tiếng Đan Mạch</string>
-    <string name="revanced_language_DE">Tiếng Đức</string>
-    <string name="revanced_language_EL">Tiếng Hy Lạp</string>
-    <string name="revanced_language_EN">Tiếng Anh</string>
-    <string name="revanced_language_ES">Tiếng Tây Ban Nha</string>
-    <string name="revanced_language_ET">Tiếng Estonia</string>
-    <string name="revanced_language_FA">Tiếng Ba Tư</string>
-    <string name="revanced_language_FI">Tiếng Phần Lan</string>
-    <string name="revanced_language_FR">Tiếng Pháp</string>
-    <string name="revanced_language_GU">Tiếng Gujarati</string>
-    <string name="revanced_language_HI">Tiếng Hindi</string>
-    <string name="revanced_language_HR">Tiếng Croatia</string>
-    <string name="revanced_language_HU">Tiếng Hungary</string>
-    <string name="revanced_language_ID">Tiếng Indonesia</string>
-    <string name="revanced_language_IT">Tiếng Ý</string>
-    <string name="revanced_language_JA">Tiếng Nhật</string>
-    <string name="revanced_language_KK">Tiếng Kazakh</string>
-    <string name="revanced_language_KO">Tiếng Hàn</string>
-    <string name="revanced_language_LT">Người Lithuania</string>
-    <string name="revanced_language_LV">Tiếng Latvia</string>
-    <string name="revanced_language_MK">Tiếng Macedonia</string>
-    <string name="revanced_language_MN">Tiếng Mông Cổ</string>
-    <string name="revanced_language_MR">Tiếng Marathi</string>
-    <string name="revanced_language_MS">Tiếng Mã Lai</string>
-    <string name="revanced_language_MY">Tiếng Miến Điện</string>
-    <string name="revanced_language_NL">Tiếng Hà Lan</string>
-    <string name="revanced_language_OR">Tiếng Odia</string>
-    <string name="revanced_language_PA">Tiếng Punjab</string>
-    <string name="revanced_language_PL">Tiếng Ba Lan</string>
-    <string name="revanced_language_PT">Tiếng Bồ Đào Nha</string>
-    <string name="revanced_language_RO">Tiếng Romania</string>
-    <string name="revanced_language_RU">Tiếng Nga</string>
-    <string name="revanced_language_SK">Tiếng Slovak</string>
-    <string name="revanced_language_SL">Tiếng Slovenia</string>
-    <string name="revanced_language_SR">Tiếng Serbia</string>
-    <string name="revanced_language_SV">Tiếng Thuỵ Điển</string>
-    <string name="revanced_language_SW">Tiếng Swahili</string>
-    <string name="revanced_language_TA">Tiếng Tamil</string>
-    <string name="revanced_language_TE">Tiếng Telugu</string>
-    <string name="revanced_language_TH">Tiếng Thái</string>
-    <string name="revanced_language_TR">Tiếng Thổ Nhĩ Kỳ</string>
-    <string name="revanced_language_UK">Tiếng Ukraina</string>
-    <string name="revanced_language_UR">Tiếng Urdu</string>
-    <string name="revanced_language_VI">Tiếng Việt</string>
-    <string name="revanced_language_ZH">Tiếng Trung</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Quảng cáo</string>
     <string name="revanced_hide_end_screen_store_banner_title">Ẩn dải quảng cáo cửa hàng ở cuối video</string>
@@ -430,6 +379,19 @@ Bố cục màn hình ô tô
 • Video ngắn sẽ được mở trong trình phát thông thường.
 • Bảng tin được sắp xếp theo chủ đề và kênh.
 • Không thể mở mô tả video khi cài đặt \"Giả mạo luồng dữ liệu trực tuyến\" đang tắt."</string>
+    <string name="revanced_disable_layout_updates_title">Tắt cập nhật bố cục</string>
+    <string name="revanced_disable_layout_updates_summary_on">Bố cục sẽ không được máy chủ cập nhật.</string>
+    <string name="revanced_disable_layout_updates_summary_off">Bố cục sẽ được máy chủ cập nhật.</string>
+    <string name="revanced_disable_layout_updates_user_dialog_message">"Bố cục ứng dụng sẽ trở về như lần đầu bạn mở ứng dụng.
+
+Một số bố cục do máy chủ kiểm soát có thể không được hoàn nguyên.
+
+Các thay đổi bao gồm:
+• Các mục trong trình đơn tuỳ chọn (hoặc các cài đặt liên quan) có thể không hoạt động.
+• Hiệu ứng số cuộn không được hiển thị.
+• Thẻ Thư viện được hiển thị thay vì thẻ Bạn.
+• Phần Âm nhạc trong mô tả video có thể không hoạt động.
+• Nút chuyển đổi tài khoản có thể không xuất hiện trong thẻ Thư viện. Hãy sử dụng tuỳ chọn \"Thanh tìm kiếm rộng trong thẻ Bạn\"."</string>
     <string name="revanced_spoof_app_version_title">Giả mạo phiên bản ứng dụng</string>
     <string name="revanced_spoof_app_version_summary_on">Phiên bản được giả mạo</string>
     <string name="revanced_spoof_app_version_summary_off">Phiên bản không được giả mạo</string>
@@ -447,8 +409,10 @@ Nếu muốn tắt tính năng này sau đó, bạn nên xóa dữ liệu ứng 
     <string name="revanced_spoof_app_version_target_entry_18_33_40">18.33.40 - Khôi phục thanh thao tác trình Shorts kiểu cũ</string>
     <string name="revanced_spoof_app_version_target_entry_18_38_45">18.38.45 - Khôi phục phương thức áp dụng chất lượng video mặc định kiểu cũ</string>
     <string name="revanced_spoof_app_version_target_entry_18_48_39">18.48.39 - Vô hiệu hoá cập nhật số \"lượt xem\" và \"lượt thích\" theo thời gian thực</string>
+    <string name="revanced_spoof_app_version_target_entry_19_01_34">19.01.34 - Tắt tương tác với mô tả video</string>
     <string name="revanced_spoof_app_version_target_entry_19_26_42">19.26.42 - Tắt biểu tượng Cairo trong thanh điều hướng và thanh công cụ</string>
     <string name="revanced_spoof_app_version_target_entry_19_33_37">19.33.37 - Khôi phục bảng trình đơn tốc độ phát kiểu cũ</string>
+    <string name="revanced_spoof_app_version_target_invalid_toast">Phiên bản ứng dụng đã chọn không hợp lệ: %s.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Account menu -->
     <string name="revanced_preference_screen_account_menu_title">Trình đơn Tài khoản</string>
     <string name="revanced_preference_screen_account_menu_summary">Ẩn hoặc hiển thị các mục của trình đơn Tài khoản và thẻ Bạn.</string>
@@ -537,7 +501,6 @@ Nếu cài đặt này không có hiệu lực, hãy thử chuyển sang chế �
     <string name="revanced_enable_translucent_navigation_bar_title">Thanh điều hướng trong suốt</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">Thanh điều hướng trong suốt đang được áp dụng.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">Thanh điều hướng mặc định đang được áp dụng.</string>
-    <string name="revanced_enable_translucent_navigation_bar_user_dialog_message">Trong một số phiên bản YouTube, cài đặt này có thể khiến thanh điều hướng hệ thống trở nên trong suốt hoặc gây ra lỗi giao diện trong chế độ Hình trong hình (PIP).</string>
     <string name="revanced_hide_navigation_bar_title">Ẩn thanh điều hướng</string>
     <string name="revanced_hide_navigation_bar_summary_on">Thanh điều hướng đã ẩn.</string>
     <string name="revanced_hide_navigation_bar_summary_off">Thanh điều hướng được hiển thị.</string>
@@ -634,7 +597,7 @@ Bạn có thể đổi màu nền cho chúng, nhưng nếu phía máy chủ thay
     <string name="revanced_enable_wide_search_bar_with_header_title">Thanh tìm kiếm rộng với tiêu đề YouTube</string>
     <string name="revanced_enable_wide_search_bar_with_header_summary_on">Thanh tìm kiếm rộng được hiển thị cùng với tiêu đề YouTube.</string>
     <string name="revanced_enable_wide_search_bar_with_header_summary_off">Thanh tìm kiếm rộng đã ẩn và làm ẩn tiêu đề YouTube.</string>
-    <string name="revanced_enable_wide_search_bar_in_you_tab_title">Thanh tìm kiếm rộng trên thẻ Bạn</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_title">Thanh tìm kiếm rộng trong thẻ Bạn</string>
     <string name="revanced_enable_wide_search_bar_in_you_tab_summary_on">"Thanh tìm kiếm rộng được bật trong thẻ Bạn. 
 
 Để vào cài đặt, vui lòng thao tác theo đường dẫn sau:
@@ -1408,10 +1371,9 @@ Chi tiết:
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Custom actions -->
     <string name="revanced_preference_category_custom_actions">Tác vụ tuỳ chỉnh</string>
     <string name="revanced_enable_shorts_custom_actions_flyout_menu_title">Tác vụ tuỳ chỉnh trong trình đơn tuỳ chọn</string>
-    <string name="revanced_enable_shorts_custom_actions_flyout_menu_summary_on">"Tác vụ tuỳ chỉnh được bật trong trình đơn tuỳ chọn.
+    <string name="revanced_enable_shorts_custom_actions_flyout_menu_summary_on">"Tác vụ tuỳ chỉnh đã được bật trong trình đơn tuỳ chọn.
 
 Hạn chế:
-• Không hoạt động nếu phiên bản đang được giả mạo sang 18.49.37 hoặc cũ hơn nữa.
 • Không hoạt động đối với video phát trực tiếp."</string>
     <string name="revanced_enable_shorts_custom_actions_flyout_menu_summary_off">Tác vụ tuỳ chỉnh đã tắt trong trình đơn tuỳ chọn.</string>
     <string name="revanced_enable_shorts_custom_actions_toolbar_title">Tác vụ tuỳ chỉnh trong thanh công cụ</string>

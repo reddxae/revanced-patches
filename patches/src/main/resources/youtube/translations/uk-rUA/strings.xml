@@ -19,59 +19,150 @@
     <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s не встановлено.
 Будь ласка, завантажте %2$s з сайту."</string>
     <string name="revanced_external_downloader_not_installed_warning">%s не встановлено. Будь ласка, встановіть його.</string>
+    <string name="revanced_queue_manager_add_to_queue">Додати до черги</string>
+    <string name="revanced_queue_manager_add_to_queue_and_open_queue">Додати до черги й відкрити чергу</string>
+    <string name="revanced_queue_manager_add_to_queue_and_play_video">Додати до черги й відтворити відео</string>
+    <string name="revanced_queue_manager_external_downloader">Зовнішній завантажувач</string>
+    <string name="revanced_queue_manager_open_queue">Відкрити чергу</string>
+    <string name="revanced_queue_manager_queue">Черга</string>
+    <string name="revanced_queue_manager_remove_from_queue">Видалити з черги</string>
+    <string name="revanced_queue_manager_remove_from_queue_and_open_queue">Вилучити з черги й відкрити чергу</string>
+    <string name="revanced_queue_manager_remove_queue">Вилучити чергу</string>
+    <string name="revanced_queue_manager_save_queue">Зберегти чергу</string>
+    <string name="revanced_queue_manager_user_dialog_message">"Замість відкривання зовнішнього завантажувача відкриває діалог керування чергою.
+
+Також можливо відкрити керування чергою натисканням та утриманням кнопки назад на панелі навігації.
+
+Ця функція все ще перебуває в процесі розробки, тому більшість функцій не працюють.
+
+Будь ласка, використовуйте її лише для налагодження."</string>
+    <string name="revanced_queue_manager_check_failed_auth">Необхідна авторизація</string>
+    <string name="revanced_queue_manager_check_failed_generic">Керування чергою недоступне (%s).</string>
+    <string name="revanced_queue_manager_check_failed_playlist_id">Не вдалося ідентифікувати список відтворення</string>
+    <string name="revanced_queue_manager_check_failed_queue">Черга порожня</string>
+    <string name="revanced_queue_manager_check_failed_video_id">Не вдалося ідентифікувати відео</string>
+    <string name="revanced_queue_manager_fetch_failed_add">Не вдалося додати відео.</string>
+    <string name="revanced_queue_manager_fetch_failed_create">Не вдалося створити чергу.</string>
+    <string name="revanced_queue_manager_fetch_failed_delete">Не вдалося видалити чергу.</string>
+    <string name="revanced_queue_manager_fetch_failed_remove">Не вдалося вилучити відео.</string>
+    <string name="revanced_queue_manager_fetch_failed_save">Не вдалося зберегти чергу.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_add">Відео додано успішно.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_create">Чергу створено успішно.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_delete">Чергу видалено успішно.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_remove">Відео вилучено успішно.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_save">Чергу збережено успішно до: \'%s\'.</string>
     <string name="revanced_language_title">Мова RVX</string>
     <string name="revanced_language_DEFAULT">Мова додатка</string>
-    <string name="revanced_language_AR">Арабська</string>
-    <string name="revanced_language_AZ">Азербайджанська</string>
-    <string name="revanced_language_BG">Болгарська</string>
-    <string name="revanced_language_BN">Бенгальська</string>
-    <string name="revanced_language_CA">Каталонська</string>
-    <string name="revanced_language_CS">Чеська</string>
-    <string name="revanced_language_DA">Данська</string>
-    <string name="revanced_language_DE">Німецька</string>
-    <string name="revanced_language_EL">Грецька</string>
-    <string name="revanced_language_EN">Англійська</string>
-    <string name="revanced_language_ES">Іспанська</string>
-    <string name="revanced_language_ET">Естонська</string>
-    <string name="revanced_language_FA">Перська</string>
-    <string name="revanced_language_FI">Фінська</string>
-    <string name="revanced_language_FR">Французька</string>
-    <string name="revanced_language_GU">Гуджаратська</string>
-    <string name="revanced_language_HI">Хінді</string>
-    <string name="revanced_language_HR">Хорватська</string>
-    <string name="revanced_language_HU">Угорська</string>
-    <string name="revanced_language_ID">Індонезійська</string>
-    <string name="revanced_language_IT">Італійська</string>
-    <string name="revanced_language_JA">Японська</string>
-    <string name="revanced_language_KK">Казахська</string>
-    <string name="revanced_language_KO">Корейська</string>
-    <string name="revanced_language_LT">Литовська</string>
-    <string name="revanced_language_LV">Латвійська</string>
-    <string name="revanced_language_MK">Македонська</string>
-    <string name="revanced_language_MN">Монгольська</string>
-    <string name="revanced_language_MR">Маратхі</string>
-    <string name="revanced_language_MS">Малайська</string>
-    <string name="revanced_language_MY">Бірманська</string>
-    <string name="revanced_language_NL">Голландська</string>
-    <string name="revanced_language_OR">Одія</string>
-    <string name="revanced_language_PA">Пенджабі</string>
-    <string name="revanced_language_PL">Польська</string>
-    <string name="revanced_language_PT">Португальська</string>
-    <string name="revanced_language_RO">Румунська</string>
-    <string name="revanced_language_RU">Російська</string>
-    <string name="revanced_language_SK">Словацька</string>
-    <string name="revanced_language_SL">Словенська</string>
-    <string name="revanced_language_SR">Сербська</string>
-    <string name="revanced_language_SV">Шведська</string>
-    <string name="revanced_language_SW">Суахілі</string>
-    <string name="revanced_language_TA">Тамільська</string>
-    <string name="revanced_language_TE">Телуґу</string>
-    <string name="revanced_language_TH">Тайська</string>
-    <string name="revanced_language_TR">Турецька</string>
-    <string name="revanced_language_UK">Українська</string>
-    <string name="revanced_language_UR">Урду</string>
-    <string name="revanced_language_VI">В’єтнамська</string>
-    <string name="revanced_language_ZH">Китайська</string>
+    <string name="revanced_language_AM">"Амхарська
+<small>አማርኛ</small>"</string>
+    <string name="revanced_language_AR">"Арабська
+<small>العربية</small>"</string>
+    <string name="revanced_language_AZ">"Азербайджанська
+<small>Azərbaycan</small>"</string>
+    <string name="revanced_language_BE">"Білоруська
+<small>Беларуская</small>"</string>
+    <string name="revanced_language_BG">"Болгарська
+<small>Български</small>"</string>
+    <string name="revanced_language_BN">"Бенгальська
+<small>বাংলা</small>"</string>
+    <string name="revanced_language_CA">"Каталонська
+<small>Català</small>"</string>
+    <string name="revanced_language_CS">"Чеська
+<small>Čeština</small>"</string>
+    <string name="revanced_language_DA">"Данська
+<small>Dansk</small>"</string>
+    <string name="revanced_language_DE">"Німецька
+<small>Deutsch</small>"</string>
+    <string name="revanced_language_EL">"Грецька
+<small>Ελληνικά</small>"</string>
+    <string name="revanced_language_EN">"Англійська
+<small>English</small>"</string>
+    <string name="revanced_language_ES">"Іспанська
+<small>Español</small>"</string>
+    <string name="revanced_language_ET">"Естонська
+<small>Eesti</small>"</string>
+    <string name="revanced_language_FA">"Перська
+<small>فارسی</small>"</string>
+    <string name="revanced_language_FI">"Фінська
+<small>Suomi</small>"</string>
+    <string name="revanced_language_FR">"Французька
+<small>Français</small>"</string>
+    <string name="revanced_language_GU">"Гуджараті
+<small>ગુજરાતી</small>"</string>
+    <string name="revanced_language_HE">"Іврит
+<small>עברי</small>"</string>
+    <string name="revanced_language_HI">"Хінді
+<small>हिन्दी</small>"</string>
+    <string name="revanced_language_HR">"Хорватська
+<small>Hrvatski</small>"</string>
+    <string name="revanced_language_HU">"Угорська
+<small>Magyar</small>"</string>
+    <string name="revanced_language_ID">"Індонезійська
+<small>Indonesia</small>"</string>
+    <string name="revanced_language_IT">"Італійська
+<small>Italiano</small>"</string>
+    <string name="revanced_language_JA">"Японська
+<small>日本語</small>"</string>
+    <string name="revanced_language_KK">"Казахська
+<small>Қазақ тілі</small>"</string>
+    <string name="revanced_language_KO">"Корейська
+<small>한국어</small>"</string>
+    <string name="revanced_language_LT">"Литовська
+<small>Lietuvių</small>"</string>
+    <string name="revanced_language_LV">"Латвійська
+<small>Latviešu</small>"</string>
+    <string name="revanced_language_MK">"Македонська
+<small>Македонски</small>"</string>
+    <string name="revanced_language_MN">"Монгольська
+<small>Монгол</small>"</string>
+    <string name="revanced_language_MR">"Маратхі
+<small>मराठी</small>"</string>
+    <string name="revanced_language_MS">"Малайська
+<small>Melayu</small>"</string>
+    <string name="revanced_language_MY">"Бірманська
+<small>ဗမာ</small>"</string>
+    <string name="revanced_language_NL">"Нідерландська
+<small>Nederlands</small>"</string>
+    <string name="revanced_language_OR">"Одія
+<small>ଓଡ଼ିଆ</small>"</string>
+    <string name="revanced_language_PA">"Пенджабі
+<small>ਪੰਜਾਬੀ</small>"</string>
+    <string name="revanced_language_PL">"Польська
+<small>Polski</small>"</string>
+    <string name="revanced_language_PT">"Португальська
+<small>Português</small>"</string>
+    <string name="revanced_language_RO">"Румунська
+<small>Română</small>"</string>
+    <string name="revanced_language_RU">"Російська
+<small>Русский</small>"</string>
+    <string name="revanced_language_SK">"Словацька
+<small>Slovenčina</small>"</string>
+    <string name="revanced_language_SQ">"Албанська
+<small>Shqip</small>"</string>
+    <string name="revanced_language_SL">"Словенська
+<small>Slovenščina</small>"</string>
+    <string name="revanced_language_SR">"Сербська
+<small>Српски</small>"</string>
+    <string name="revanced_language_SV">"Шведська
+<small>Svenska</small>"</string>
+    <string name="revanced_language_SW">"Суахілі
+<small>Kiswahili</small>"</string>
+    <string name="revanced_language_TA">"Тамільська
+<small>தமிழ்</small>"</string>
+    <string name="revanced_language_TE">"Телуґу
+<small>తెలుగు</small>"</string>
+    <string name="revanced_language_TH">"Тайська
+<small>ไทย</small>"</string>
+    <string name="revanced_language_TR">"Турецька
+<small>Türkçe</small>"</string>
+    <string name="revanced_language_UK">"Українська
+<small>Українська</small>"</string>
+    <string name="revanced_language_UR">"Урду
+<small>اردو</small>"</string>
+    <string name="revanced_language_VI">"В'єтнамська
+<small>Tiếng Việt</small>"</string>
+    <string name="revanced_language_ZH">"Китайська
+<small>中文</small>"</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Реклама</string>
     <string name="revanced_hide_end_screen_store_banner_title">Приховати банер магазину на кінцевому екрані</string>
@@ -430,6 +521,19 @@
 • Shorts відкриваються у поточному плеєрі.
 • Стрічка організована за темами та каналами.
 • Опис відео не відкривається, якщо вимкнена функція 'Підробити дані трансляції'."</string>
+    <string name="revanced_disable_layout_updates_title">Вимкнути оновлення макета</string>
+    <string name="revanced_disable_layout_updates_summary_on">Макет не оновлюватиметься сервером.</string>
+    <string name="revanced_disable_layout_updates_summary_off">Макет оновлюватиметься сервером.</string>
+    <string name="revanced_disable_layout_updates_user_dialog_message">"Макет програми повертається до макета, який використовувався при першому встановленні.
+
+Деякі серверні макети можуть не повернутися.
+
+Зміни включають:
+• Компоненти у випадаючому меню плеєра (чи пов'язані налаштування) можуть не працювати.
+• Лічильники не анімовані.
+• Використовується вкладку Бібліотека.
+• Секція Музика опису відео може не працювати.
+• Кнопка перемикання облікового запису може не з'являтися у вкладці Бібліотека. Використовуйте налаштування 'Увімкнути широку панель пошуку у вкладці Ви'."</string>
     <string name="revanced_spoof_app_version_title">Підробити версію програми</string>
     <string name="revanced_spoof_app_version_summary_on">Версію підроблено</string>
     <string name="revanced_spoof_app_version_summary_off">Версію не підроблено</string>
@@ -447,8 +551,10 @@
     <string name="revanced_spoof_app_version_target_entry_18_33_40">18.33.40 - відновлення старої панелі дій Shorts</string>
     <string name="revanced_spoof_app_version_target_entry_18_38_45">18.38.45 - Відновлення старої поведінки типової якості відео</string>
     <string name="revanced_spoof_app_version_target_entry_18_48_39">18.48.39 - Виключає \'переглянуті\' та \'вподобані\' з оновлення в режимі реального часу</string>
+    <string name="revanced_spoof_app_version_target_entry_19_01_34">19.01.34 - Вимикання взаємодії з описом відео</string>
     <string name="revanced_spoof_app_version_target_entry_19_26_42">19.26.42 - Вимикання значка Каїр в панелі навігації та інструментів</string>
     <string name="revanced_spoof_app_version_target_entry_19_33_37">19.33.37 - Відновлення старої висувної панелі швидкості відтворення</string>
+    <string name="revanced_spoof_app_version_target_invalid_toast">Недійсне підроблення версії програми: %s.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Account menu -->
     <string name="revanced_preference_screen_account_menu_title">Меню облікового запису</string>
     <string name="revanced_preference_screen_account_menu_summary">Приховувати чи показувати елементи меню облікового запису і вкладки Ви.</string>
@@ -484,6 +590,9 @@
     <string name="revanced_override_video_download_button_title">Перевизначити кнопку завантаження відео</string>
     <string name="revanced_override_video_download_button_summary_on">Кнопка завантаження відео відкриває зовнішній завантажувач.</string>
     <string name="revanced_override_video_download_button_summary_off">Кнопка завантаження відео відкриває вбудований завантажувач.</string>
+    <string name="revanced_override_video_download_button_queue_manager_title">Керування чергою</string>
+    <string name="revanced_override_video_download_button_queue_manager_summary_on">Кнопка завантаження відео відкриває керування чергою.</string>
+    <string name="revanced_override_video_download_button_queue_manager_summary_off">Кнопка завантаження відео відкриває зовнішній завантажувач.</string>
     <string name="revanced_external_downloader_package_name_playlist_title">Ім\'я пакета завантажувача списку відтворення</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">Ім\'я пакета встановленого зовнішнього завантажувача, наприклад YTDLnis.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental flags -->
@@ -537,7 +646,6 @@
     <string name="revanced_enable_translucent_navigation_bar_title">Увімкнути напівпрозорість панелі навігації</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">Панель навігації напівпрозора.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">Панель навігації непрозора.</string>
-    <string name="revanced_enable_translucent_navigation_bar_user_dialog_message">У певних версіях YouTube цей параметр може зробити панель навігації прозорою або порушити макет у режимі PIP.</string>
     <string name="revanced_hide_navigation_bar_title">Приховати панель навігації</string>
     <string name="revanced_hide_navigation_bar_summary_on">Панель навігації приховано.</string>
     <string name="revanced_hide_navigation_bar_summary_off">Панель навігації показується.</string>
@@ -1116,6 +1224,8 @@
     <string name="revanced_overlay_button_mute_volume_summary">Натисніть, щоб вимкнути звук поточного відео. Натисніть знову, щоб увімкнути.</string>
     <string name="revanced_overlay_button_external_downloader_title">Показувати кнопку зовнішнього завантажувача</string>
     <string name="revanced_overlay_button_external_downloader_summary">Натисніть для запуску зовнішнього завантажувача</string>
+    <string name="revanced_overlay_button_external_downloader_queue_manager_title">Керування чергою</string>
+    <string name="revanced_overlay_button_external_downloader_queue_manager_summary">Замість запуску зовнішнього завантажувача відкриває керування чергою.</string>
     <string name="revanced_overlay_button_speed_dialog_title">Показувати кнопку Діалог швидкості</string>
     <string name="revanced_overlay_button_speed_dialog_summary">"Натисніть, щоб відкрити діалог швидкості.
 Натисніть і утримуйте, щоб скинути швидкість відтворення до 1.0x. Натисніть і утримуйте ще раз, щоб скинути швидкість назад до типової."</string>
@@ -1415,7 +1525,6 @@
     <string name="revanced_enable_shorts_custom_actions_flyout_menu_summary_on">"Спеціальні дії увімкнено у висувному меню.
 
 Застереження:
-• Не працює, якщо версію програми підроблено на 18.49.37 чи нижче.
 • Не працює з прямими трансляціями."</string>
     <string name="revanced_enable_shorts_custom_actions_flyout_menu_summary_off">Спеціальні дії вимкнено у висловному меню.</string>
     <string name="revanced_enable_shorts_custom_actions_toolbar_title">Увімкнути спеціальні дії в панелі інструментів</string>

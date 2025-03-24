@@ -21,57 +21,116 @@ Veuillez télécharger %2$s à partir du site web."</string>
     <string name="revanced_external_downloader_not_installed_warning">%s n\'est pas installé. Veuillez l’installer.</string>
     <string name="revanced_language_title">Langue RVX</string>
     <string name="revanced_language_DEFAULT">Langue de l\'application</string>
-    <string name="revanced_language_AR">Arabe</string>
-    <string name="revanced_language_AZ">Azerbaïdjan</string>
-    <string name="revanced_language_BG">Bulgare</string>
-    <string name="revanced_language_BN">Bengali</string>
-    <string name="revanced_language_CA">Catalan</string>
-    <string name="revanced_language_CS">Tchèque</string>
-    <string name="revanced_language_DA">Danois</string>
-    <string name="revanced_language_DE">Allemand</string>
-    <string name="revanced_language_EL">Grec</string>
-    <string name="revanced_language_EN">Anglais</string>
-    <string name="revanced_language_ES">Espagnol</string>
-    <string name="revanced_language_ET">Estonien</string>
-    <string name="revanced_language_FA">Persan</string>
-    <string name="revanced_language_FI">Finlandais</string>
-    <string name="revanced_language_FR">Français</string>
-    <string name="revanced_language_GU">Gujarati</string>
-    <string name="revanced_language_HI">Hindou</string>
-    <string name="revanced_language_HR">Croate</string>
-    <string name="revanced_language_HU">Hongrois</string>
-    <string name="revanced_language_ID">Indonésien</string>
-    <string name="revanced_language_IT">Italien</string>
-    <string name="revanced_language_JA">Japonais</string>
-    <string name="revanced_language_KK">Kazakh</string>
-    <string name="revanced_language_KO">Coréen</string>
-    <string name="revanced_language_LT">Lithuanien</string>
-    <string name="revanced_language_LV">Letton</string>
-    <string name="revanced_language_MK">Macédonien</string>
-    <string name="revanced_language_MN">Mongol</string>
-    <string name="revanced_language_MR">Marathi</string>
-    <string name="revanced_language_MS">Malaisien</string>
-    <string name="revanced_language_MY">Birman</string>
-    <string name="revanced_language_NL">Néerlandais</string>
-    <string name="revanced_language_OR">Odia</string>
-    <string name="revanced_language_PA">Pendjabi</string>
-    <string name="revanced_language_PL">Polonais</string>
-    <string name="revanced_language_PT">Portugais</string>
-    <string name="revanced_language_RO">Roumain</string>
-    <string name="revanced_language_RU">Russe</string>
-    <string name="revanced_language_SK">Slovaque</string>
-    <string name="revanced_language_SL">Slovène</string>
-    <string name="revanced_language_SR">Serbe</string>
-    <string name="revanced_language_SV">Suédois</string>
-    <string name="revanced_language_SW">Swahili</string>
-    <string name="revanced_language_TA">Tamoul</string>
-    <string name="revanced_language_TE">Télougou</string>
-    <string name="revanced_language_TH">Thaïlandais</string>
-    <string name="revanced_language_TR">Turc</string>
-    <string name="revanced_language_UK">Ukrainien</string>
-    <string name="revanced_language_UR">Ourdou</string>
-    <string name="revanced_language_VI">Vietnamien</string>
-    <string name="revanced_language_ZH">Chinois</string>
+    <string name="revanced_language_AM">"Amharique
+<small>አማርኛ</small>"</string>
+    <string name="revanced_language_AR">"Arabe
+<small>العربية</small>"</string>
+    <string name="revanced_language_AZ">"Azerbaïdjanais
+<small>Azərbaycan</small>"</string>
+    <string name="revanced_language_BE">"Biélorusse
+<small>беларуская</small>"</string>
+    <string name="revanced_language_BG">"Bulgare
+<small>Български</small>"</string>
+    <string name="revanced_language_BN">"Bengali
+<small>বাংলা</small>"</string>
+    <string name="revanced_language_CA">"Catalan
+<small>Català</small>"</string>
+    <string name="revanced_language_CS">"Tchèque
+<small>Čeština</small>"</string>
+    <string name="revanced_language_DA">"Danois
+<small>Dansk</small>"</string>
+    <string name="revanced_language_DE">"Allemand
+<small>Deutsch</small>"</string>
+    <string name="revanced_language_EL">"Grec
+<small>Ελληνικά</small>"</string>
+    <string name="revanced_language_EN">"Anglais
+<small>English</small>"</string>
+    <string name="revanced_language_ES">"Espagnol
+<small>Español</small>"</string>
+    <string name="revanced_language_ET">"Estonien
+<small>Eesti</small>"</string>
+    <string name="revanced_language_FA">"Persan
+<small>فارسی</small>"</string>
+    <string name="revanced_language_FI">"Finnois
+<small>Suomi</small>"</string>
+    <string name="revanced_language_FR">"Français
+<small>Français</small>"</string>
+    <string name="revanced_language_GU">"Gujarati
+<small>ગુજરાતી</small>"</string>
+    <string name="revanced_language_HE">"Hébreu
+<small>עברי</small>"</string>
+    <string name="revanced_language_HI">"Hindi
+<small>हिन्दी</small>"</string>
+    <string name="revanced_language_HR">"Croate
+<small>Hrvatski</small>"</string>
+    <string name="revanced_language_HU">"Hongrois
+<small>Magyar</small>"</string>
+    <string name="revanced_language_ID">"Indonésien
+<small>Indonesia</small>"</string>
+    <string name="revanced_language_IT">"Italien
+<small>Italiano</small>"</string>
+    <string name="revanced_language_JA">"Japonais
+<small>日本語</small>"</string>
+    <string name="revanced_language_KK">"Kazakh
+<small>Қазақ тілі</small>"</string>
+    <string name="revanced_language_KO">"Coréen
+<small>한국어</small>"</string>
+    <string name="revanced_language_LT">"Lituanien
+<small>Lietuvių</small>"</string>
+    <string name="revanced_language_LV">"Letton
+<small>Latviešu</small>"</string>
+    <string name="revanced_language_MK">"Macédonien
+<small>Македонски</small>"</string>
+    <string name="revanced_language_MN">"Mongol
+<small>Монгол</small>"</string>
+    <string name="revanced_language_MR">"Marathi
+<small>मराठी</small>"</string>
+    <string name="revanced_language_MS">"Malais
+<small>Melayu</small>"</string>
+    <string name="revanced_language_MY">"Birman
+<small>ဗမာ</small>"</string>
+    <string name="revanced_language_NL">"Néerlandais
+<small>Nederlands</small>"</string>
+    <string name="revanced_language_OR">"Odia
+<small>ଓଡ଼ିଆ</small>"</string>
+    <string name="revanced_language_PA">"Panjabi
+<small>ਪੰਜਾਬੀ</small>"</string>
+    <string name="revanced_language_PL">"Polonais
+<small>Polski</small>"</string>
+    <string name="revanced_language_PT">"Portugais
+<small>Português</small>"</string>
+    <string name="revanced_language_RO">"Roumain
+<small>Română</small>"</string>
+    <string name="revanced_language_RU">"Russe
+<small>Română</small>"</string>
+    <string name="revanced_language_SK">"Slovaque
+<small>Slovenčina</small>"</string>
+    <string name="revanced_language_SQ">"Albanais
+<small>Shqip</small>"</string>
+    <string name="revanced_language_SL">"Slovène
+<small>Slovenščina</small>"</string>
+    <string name="revanced_language_SR">"Serbe
+<small>Српски</small>"</string>
+    <string name="revanced_language_SV">"Suédois 
+<small>Svenska</small>"</string>
+    <string name="revanced_language_SW">"Swahili
+<small>Kiswahili</small>"</string>
+    <string name="revanced_language_TA">"Tamoul
+<small>தமிழ்</small>"</string>
+    <string name="revanced_language_TE">"Télougou
+<small>తెలుగు</small>"</string>
+    <string name="revanced_language_TH">"Siamois
+<small>ไทย</small>"</string>
+    <string name="revanced_language_TR">"Turc
+<small>Türkçe</small>"</string>
+    <string name="revanced_language_UK">"Ukrainien
+<small>Українська</small>"</string>
+    <string name="revanced_language_UR">"Ourdou
+<small>اردو</small>"</string>
+    <string name="revanced_language_VI">"Vietnamien
+<small>Tiếng Việt</small>"</string>
+    <string name="revanced_language_ZH">"Chinois
+<small>中文</small>"</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Publicités</string>
     <string name="revanced_hide_end_screen_store_banner_title">Masquer la bannière de boutique de l\'écran de fin</string>
@@ -414,6 +473,22 @@ Cela ne contourne pas la restriction d'âge, mais le confirme automatiquement."<
 
 Limitation : Lorsque la diffusion en direct de Shorts est ouverte dans le lecteur normal en raison du paramètre \"Ouvrir Shorts dans le lecteur normal\", la chaîne ne s'ouvre pas."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">La diffusion en direct s\'ouvre lorsque vous cliquez sur le cercle \'En direct\'.</string>
+    <string name="revanced_change_form_factor_title">Format de mise en page</string>
+    <string name="revanced_change_form_factor_entry_1">Par défaut</string>
+    <string name="revanced_change_form_factor_entry_2">Téléphone</string>
+    <string name="revanced_change_form_factor_entry_3">Téléphone (Max 480 dpi)</string>
+    <string name="revanced_change_form_factor_entry_4">Tablette</string>
+    <string name="revanced_change_form_factor_entry_5">Tablette (Min 600 dpi)</string>
+    <string name="revanced_change_form_factor_entry_6">Automobile</string>
+    <string name="revanced_change_form_factor_user_dialog_message">"Les changements sont les suivants :
+
+Mise en page tablettes
+- Les messages de la communauté sont masqués.
+
+Mise en page automobile
+- Les Shorts s'ouvrent dans le lecteur normal.
+- Le flux est organisé par thèmes et par chaînes.
+- La description de la vidéo ne peut pas être ouverte lorsque l'option « Falsifier les données de diffusion en direct » est désactivée."</string>
     <string name="revanced_spoof_app_version_title">Falsifier la version de l\'app</string>
     <string name="revanced_spoof_app_version_summary_on">Version falsifiée</string>
     <string name="revanced_spoof_app_version_summary_off">Version non falsifiée</string>
@@ -431,8 +506,10 @@ Si désactivé ultérieurement, il est recommandé d'effacer les données de l'a
     <string name="revanced_spoof_app_version_target_entry_18_33_40">18.33.40 - Restaure l\'ancienne barre d\'action Shorts</string>
     <string name="revanced_spoof_app_version_target_entry_18_38_45">18.38.45 - Restaure l\'ancien menu de qualité vidéo</string>
     <string name="revanced_spoof_app_version_target_entry_18_48_39">18.48.39 - Désactive les \'vues\' et \'j\'aime\'  en temps réel</string>
+    <string name="revanced_spoof_app_version_target_entry_19_01_34">19.01.34 - Désactiver l\'interaction des descriptions vidéo</string>
     <string name="revanced_spoof_app_version_target_entry_19_26_42">19.26.42 - Désactiver l\'icône Cairo de la barre de navigation et d\'outils</string>
     <string name="revanced_spoof_app_version_target_entry_19_33_37">19.33.37 - Restaure l\'ancien menu déroulant de vitesse de lecture du lecteur</string>
+    <string name="revanced_spoof_app_version_target_invalid_toast">Version de falsification de l\'app invalide : %s.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Account menu -->
     <string name="revanced_preference_screen_account_menu_title">Menu du compte</string>
     <string name="revanced_preference_screen_account_menu_summary">Masque ou affiche des éléments dans le menu du compte et dans l\'onglet \'Vous\'.</string>
@@ -521,7 +598,6 @@ Si ce paramètre ne fait pas effet, essayer de passer en mode Incognito."</strin
     <string name="revanced_enable_translucent_navigation_bar_title">Activer la barre de navigation translucide</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">La barre de navigation est translucide.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">La barre de navigation est opaque.</string>
-    <string name="revanced_enable_translucent_navigation_bar_user_dialog_message">Dans certaines versions de YouTube, ce paramètre peut rendre la barre de navigation du système transparente ou la disposition peut être cassée en mode PIP.</string>
     <string name="revanced_hide_navigation_bar_title">Masquer la barre de navigation</string>
     <string name="revanced_hide_navigation_bar_summary_on">La barre de navigation est masqué.</string>
     <string name="revanced_hide_navigation_bar_summary_off">La barre de navigation est affichée.</string>
@@ -1922,6 +1998,14 @@ Cliquez sur le bouton Continuer et autorisez les modifications d'optimisations."
     <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"Activer ceci peut améliorer la durée de vie de la batterie et résoudre les problèmes de lecture saccadée.
 
 AVC a une résolution maximale de 1080p, le codec audio Opus n'est pas disponible et la lecture vidéo utilisera plus de données internet que VP9 ou AV1."</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_title">Passer le chiffrement de réponse Onesie</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_summary_on">"Passer le chiffrement de réponse Onesie
+
+• Résout un nouveau type de problème de lecture que certains utilisateurs rencontrent.
+• Le codec AV1 peut ne pas être disponible."</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_summary_off">"Ne pas passer le chiffrement de réponse Onesie
+
+• Certains utilisateurs peuvent rencontrer un nouveau type de problème de lecture."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Afficher dans \'Statistiques pour les nerds\'</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Le client utilisé pour récupérer les données de lecture en direct est affiché dans \'Statistiques pour les nerds\'.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Le client utilisé pour récupérer les données de lecture en direct est masqué dans \'Statistiques pour les nerds\'.</string>

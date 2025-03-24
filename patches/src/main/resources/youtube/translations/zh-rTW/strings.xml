@@ -21,57 +21,6 @@
     <string name="revanced_external_downloader_not_installed_warning">未安裝 %s。請安裝該應用程式。</string>
     <string name="revanced_language_title">RVX 語言</string>
     <string name="revanced_language_DEFAULT">應用程式語言</string>
-    <string name="revanced_language_AR">阿拉伯文</string>
-    <string name="revanced_language_AZ">亞塞拜然文</string>
-    <string name="revanced_language_BG">保加利亞文</string>
-    <string name="revanced_language_BN">孟加拉文</string>
-    <string name="revanced_language_CA">加泰隆尼亞文</string>
-    <string name="revanced_language_CS">捷克文</string>
-    <string name="revanced_language_DA">丹麥文</string>
-    <string name="revanced_language_DE">德文</string>
-    <string name="revanced_language_EL">希臘文</string>
-    <string name="revanced_language_EN">英文</string>
-    <string name="revanced_language_ES">西班牙文</string>
-    <string name="revanced_language_ET">愛沙尼亞文</string>
-    <string name="revanced_language_FA">波斯文</string>
-    <string name="revanced_language_FI">芬蘭文</string>
-    <string name="revanced_language_FR">法文</string>
-    <string name="revanced_language_GU">古吉拉特文</string>
-    <string name="revanced_language_HI">印地文</string>
-    <string name="revanced_language_HR">克羅埃西亞文</string>
-    <string name="revanced_language_HU">匈牙利文</string>
-    <string name="revanced_language_ID">印尼文</string>
-    <string name="revanced_language_IT">義大利文</string>
-    <string name="revanced_language_JA">日文</string>
-    <string name="revanced_language_KK">哈薩克文</string>
-    <string name="revanced_language_KO">韓文</string>
-    <string name="revanced_language_LT">立陶宛文</string>
-    <string name="revanced_language_LV">拉脫維亞文</string>
-    <string name="revanced_language_MK">馬其頓文</string>
-    <string name="revanced_language_MN">蒙古文</string>
-    <string name="revanced_language_MR">馬拉提文</string>
-    <string name="revanced_language_MS">馬來文</string>
-    <string name="revanced_language_MY">緬甸文</string>
-    <string name="revanced_language_NL">荷蘭文</string>
-    <string name="revanced_language_OR">歐迪亞語</string>
-    <string name="revanced_language_PA">旁遮普語</string>
-    <string name="revanced_language_PL">波蘭語</string>
-    <string name="revanced_language_PT">葡萄牙語</string>
-    <string name="revanced_language_RO">羅馬尼亞語</string>
-    <string name="revanced_language_RU">俄語</string>
-    <string name="revanced_language_SK">斯洛伐克語</string>
-    <string name="revanced_language_SL">斯洛維尼亞語</string>
-    <string name="revanced_language_SR">塞爾維亞語</string>
-    <string name="revanced_language_SV">瑞典語</string>
-    <string name="revanced_language_SW">史瓦希利語</string>
-    <string name="revanced_language_TA">坦米爾語</string>
-    <string name="revanced_language_TE">泰盧固語</string>
-    <string name="revanced_language_TH">泰語</string>
-    <string name="revanced_language_TR">土耳其語</string>
-    <string name="revanced_language_UK">烏克蘭語</string>
-    <string name="revanced_language_UR">烏爾都語</string>
-    <string name="revanced_language_VI">越南語</string>
-    <string name="revanced_language_ZH">中文</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">廣告</string>
     <string name="revanced_hide_end_screen_store_banner_title">隱藏片尾商店橫幅</string>
@@ -408,6 +357,22 @@
     <string name="revanced_change_live_ring_click_action_title">變更點擊直播狀態頻道圖示的動作</string>
     <string name="revanced_change_live_ring_click_action_summary_on">"點擊直播按鈕 頻道將會開啟。"</string>
     <string name="revanced_change_live_ring_click_action_summary_off">點擊直播按鈕 直播將會開啟。</string>
+    <string name="revanced_change_form_factor_title">版面配置形式</string>
+    <string name="revanced_change_form_factor_entry_1">預設</string>
+    <string name="revanced_change_form_factor_entry_2">手機</string>
+    <string name="revanced_change_form_factor_entry_3">手機 (最大 480 dp)</string>
+    <string name="revanced_change_form_factor_entry_4">平板</string>
+    <string name="revanced_change_form_factor_entry_5">平板電腦 (最少 600 dp)</string>
+    <string name="revanced_change_form_factor_entry_6">車用</string>
+    <string name="revanced_change_form_factor_user_dialog_message">"改變包括：
+
+平板佈局
+• 社群貼文被隱藏。
+
+車用佈局
+• 常規播放器中的短影片開啟。
+• 資訊流依主題和頻道進行組織。
+• 關閉「偽裝串流資料」時無法開啟影片說明。"</string>
     <string name="revanced_spoof_app_version_title">偽裝應用程式版本</string>
     <string name="revanced_spoof_app_version_summary_on">已偽裝版本</string>
     <string name="revanced_spoof_app_version_summary_off">未偽裝版本</string>
@@ -515,7 +480,6 @@
     <string name="revanced_enable_translucent_navigation_bar_title">啟用半透明導覽列</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">導覽列是半透明的。</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">導覽列不透明。</string>
-    <string name="revanced_enable_translucent_navigation_bar_user_dialog_message">在某些 YouTube 版本中，此設定可以使系統導覽列透明，或在 PIP 模式下可以破壞佈局。</string>
     <string name="revanced_hide_navigation_bar_title">隱藏導覽列</string>
     <string name="revanced_hide_navigation_bar_summary_on">導覽列已隱藏。</string>
     <string name="revanced_hide_navigation_bar_summary_off">導覽列已顯示。</string>
@@ -1913,6 +1877,14 @@
     <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"啟用此功能可能會延長電池壽命並修復播放卡頓問題。
 
 AVC 的最大解析度為 1080p，Opus 音訊編解碼器不可用，影片播放將使用比 VP9 或 AV1 更多的網路資料。"</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_title">跳過單件式回應加密</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_summary_on">"跳過單件式回應加密。
+
+• 修正了某些使用者遇到的新型播放問題。
+• AV1 編解碼器可能無法使用。"</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_summary_off">"不要跳過單件式回應加密。
+
+• 有些使用者可能會遇到新型播放問題。"</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">顯示統計資料</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">用於取得串流資料的用戶端顯示在統計資料中。</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">用於獲取串流資料的用戶端隱藏在統計資料中。</string>

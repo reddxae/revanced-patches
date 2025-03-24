@@ -205,11 +205,24 @@ public class ReVancedPreferenceFragment extends PreferenceFragment {
                                 .findViewById(android.R.id.content)
                                 .getParent();
 
-                        // Fix required for Android 15
+                        // Edge-to-edge is enforced if the following conditions are met:
+                        // 1. targetSDK is 35 or greater (YouTube 19.44.39 or greater).
+                        // 2. user is using Android 15 or greater.
+                        //
+                        // Related Issues:
+                        // https://github.com/ReVanced/revanced-patches/issues/3976
+                        // https://github.com/ReVanced/revanced-patches/issues/4606
+                        //
+                        // Docs:
+                        // https://developer.android.com/develop/ui/views/layout/edge-to-edge#system-bars-insets
+                        //
+                        // Since ReVanced Settings Activity do not use AndroidX libraries,
+                        // You will need to manually fix the layout breakage caused by edge-to-edge.
                         if (isSDKAbove(35)) {
                             rootView.setOnApplyWindowInsetsListener((v, insets) -> {
                                 Insets statusInsets = insets.getInsets(WindowInsets.Type.statusBars());
-                                v.setPadding(0, statusInsets.top, 0, 0);
+                                Insets navInsets = insets.getInsets(WindowInsets.Type.navigationBars());
+                                v.setPadding(0, statusInsets.top, 0, navInsets.bottom);
                                 return insets;
                             });
                         }

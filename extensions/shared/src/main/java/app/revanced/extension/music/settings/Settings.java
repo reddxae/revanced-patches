@@ -3,6 +3,7 @@ package app.revanced.extension.music.settings;
 import static java.lang.Boolean.FALSE;
 import static java.lang.Boolean.TRUE;
 import static app.revanced.extension.music.sponsorblock.objects.CategoryBehaviour.SKIP_AUTOMATICALLY;
+import static app.revanced.extension.shared.utils.StringRef.str;
 
 import androidx.annotation.NonNull;
 
@@ -241,7 +242,10 @@ public class Settings extends BaseSettings {
         // region Migration
 
         // Old spoof versions that no longer work reliably.
-        if (SPOOF_APP_VERSION_TARGET.get().compareTo(SPOOF_APP_VERSION_TARGET.defaultValue) < 0) {
+        String spoofAppVersionTarget = SPOOF_APP_VERSION_TARGET.get();
+        if (spoofAppVersionTarget.compareTo(SPOOF_APP_VERSION_TARGET.defaultValue) < 0) {
+            Utils.showToastShort(str("revanced_spoof_app_version_target_invalid_toast", spoofAppVersionTarget));
+            Utils.showToastShort(str("revanced_extended_reset_to_default_toast"));
             Logger.printInfo(() -> "Resetting spoof app version target");
             SPOOF_APP_VERSION_TARGET.resetToDefault();
         }

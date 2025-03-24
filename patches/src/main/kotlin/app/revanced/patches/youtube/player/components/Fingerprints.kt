@@ -88,6 +88,8 @@ internal val speedOverlayFingerprint = legacyFingerprint(
     literals = listOf(SPEED_OVERLAY_FEATURE_FLAG),
 )
 
+internal const val SPEED_OVERLAY_LEGACY_FEATURE_FLAG = 45411328L
+
 /**
  * This value is the key for the playback speed overlay value.
  * Deprecated in YouTube v19.18.41+.
@@ -97,7 +99,7 @@ internal val speedOverlayFloatValueFingerprint = legacyFingerprint(
     returnType = "V",
     accessFlags = AccessFlags.PUBLIC or AccessFlags.CONSTRUCTOR,
     opcodes = listOf(Opcode.DOUBLE_TO_FLOAT),
-    literals = listOf(45411328L),
+    literals = listOf(SPEED_OVERLAY_LEGACY_FEATURE_FLAG),
 )
 
 internal val speedOverlayTextValueFingerprint = legacyFingerprint(

@@ -275,6 +275,9 @@
         <!-- SETTINGS: CHANGE_FORM_FACTOR
         <ListPreference android:entries="@array/revanced_change_form_factor_entries" android:title="@string/revanced_change_form_factor_title" android:key="revanced_change_form_factor" android:entryValues="@array/revanced_change_form_factor_entry_values" />SETTINGS: CHANGE_FORM_FACTOR -->
 
+        <!-- SETTINGS: DISABLE_LAYOUT_UPDATES
+        <SwitchPreference android:title="@string/revanced_disable_layout_updates_title" android:key="revanced_disable_layout_updates" android:summaryOn="@string/revanced_disable_layout_updates_summary_on" android:summaryOff="@string/revanced_disable_layout_updates_summary_off" />SETTINGS: DISABLE_LAYOUT_UPDATES -->
+
         <!-- SETTINGS: SPOOF_APP_VERSION
         <SwitchPreference android:title="@string/revanced_spoof_app_version_title" android:key="revanced_spoof_app_version" android:summaryOn="@string/revanced_spoof_app_version_summary_on" android:summaryOff="@string/revanced_spoof_app_version_summary_off" />
         <app.revanced.extension.shared.settings.preference.WideListPreference android:title="@string/revanced_spoof_app_version_target_entry_title" android:key="revanced_spoof_app_version_target" android:entries="@array/revanced_spoof_app_version_target_entries" android:entryValues="@array/revanced_spoof_app_version_target_entry_values" />
@@ -909,6 +912,7 @@
                 <Preference android:title="Change start page" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="Disable forced auto audio tracks" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="Disable forced auto captions" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
+                <Preference android:title="Disable layout updates" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="Disable splash animation" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="Enable gradient loading screen" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="Hide layout components" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>

@@ -518,6 +518,20 @@ Automotive layout
 • Shorts open in the regular player.
 • Feed is organized by topics and channels.
 • Video description cannot be opened when 'Spoof streaming data' is turned off."</string>
+    <string name="revanced_disable_layout_updates_title">Disable layout updates</string>
+    <string name="revanced_disable_layout_updates_summary_on">Layout will not be updated by the server.</string>
+    <string name="revanced_disable_layout_updates_summary_off">Layout will be updated by the server.</string>
+    <string name="revanced_disable_layout_updates_user_dialog_message">"App layout reverts to the layout it was using when it was first installed.
+
+Some server-side layouts may not revert.
+
+Changes include:
+• Components in the player flyout menu (or related settings) may not work.
+• Rolling numbers are not animated.
+• The Library tab is used.
+• The Music section of video description may not work.
+• Account switch button may not appear on the Library tab. Use the 'Enable wide search bar in You tab' setting."</string>
+
     <string name="revanced_spoof_app_version_title">Spoof app version</string>
     <string name="revanced_spoof_app_version_summary_on">Version spoofed</string>
     <string name="revanced_spoof_app_version_summary_off">Version not spoofed</string>

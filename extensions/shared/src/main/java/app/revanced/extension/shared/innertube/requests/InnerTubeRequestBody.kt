@@ -1,9 +1,8 @@
-package app.revanced.extension.shared.patches.spoof.requests
+package app.revanced.extension.shared.innertube.requests
 
-import app.revanced.extension.shared.patches.client.YouTubeAppClient
-import app.revanced.extension.shared.patches.client.YouTubeWebClient
+import app.revanced.extension.shared.innertube.client.YouTubeAppClient
+import app.revanced.extension.shared.innertube.client.YouTubeWebClient
 import app.revanced.extension.shared.requests.Requester
-import app.revanced.extension.shared.requests.Route
 import app.revanced.extension.shared.requests.Route.CompiledRoute
 import app.revanced.extension.shared.settings.BaseSettings
 import app.revanced.extension.shared.utils.Logger
@@ -21,95 +20,16 @@ import java.util.Locale
 import java.util.TimeZone
 
 @Suppress("deprecation")
-object PlayerRoutes {
-    @JvmField
-    val CREATE_PLAYLIST: CompiledRoute = Route(
-        Route.Method.POST,
-        "playlist/create" +
-                "?prettyPrint=false" +
-                "&fields=playlistId"
-    ).compile()
-
-    @JvmField
-    val DELETE_PLAYLIST: CompiledRoute = Route(
-        Route.Method.POST,
-        "playlist/delete" +
-                "?prettyPrint=false"
-    ).compile()
-
-    @JvmField
-    val EDIT_PLAYLIST: CompiledRoute = Route(
-        Route.Method.POST,
-        "browse/edit_playlist" +
-                "?prettyPrint=false" +
-                "&fields=status," +
-                "playlistEditResults"
-    ).compile()
-
-    @JvmField
-    val GET_PLAYLISTS: CompiledRoute = Route(
-        Route.Method.POST,
-        "playlist/get_add_to_playlist" +
-                "?prettyPrint=false" +
-                "&fields=contents.addToPlaylistRenderer.playlists.playlistAddToOptionRenderer"
-    ).compile()
-
-    @JvmField
-    val GET_CATEGORY: CompiledRoute = Route(
-        Route.Method.POST,
-        "player" +
-                "?prettyPrint=false" +
-                "&fields=microformat.playerMicroformatRenderer.category"
-    ).compile()
-
-    @JvmField
-    val GET_SET_VIDEO_ID: CompiledRoute = Route(
-        Route.Method.POST,
-        "next" +
-                "?prettyPrint=false" +
-                "&fields=contents.singleColumnWatchNextResults." +
-                "playlist.playlist.contents.playlistPanelVideoRenderer." +
-                "playlistSetVideoId"
-    ).compile()
-
-    @JvmField
-    val GET_PLAYLIST_PAGE: CompiledRoute = Route(
-        Route.Method.POST,
-        "next" +
-                "?prettyPrint=false" +
-                "&fields=contents.singleColumnWatchNextResults.playlist.playlist"
-    ).compile()
-
-    @JvmField
-    val GET_STREAMING_DATA: CompiledRoute = Route(
-        Route.Method.POST,
-        "player" +
-                "?fields=streamingData" +
-                "&alt=proto"
-    ).compile()
-
-    @JvmField
-    val GET_VIDEO_ACTION_BUTTON: CompiledRoute = Route(
-        Route.Method.POST,
-        "next" +
-                "?prettyPrint=false" +
-                "&fields=contents.singleColumnWatchNextResults." +
-                "results.results.contents.slimVideoMetadataSectionRenderer." +
-                "contents.elementRenderer.newElement.type.componentType." +
-                "model.videoActionBarModel.buttons.buttonViewModel"
-    ).compile()
-
-    @JvmField
-    val GET_VIDEO_DETAILS: CompiledRoute = Route(
-        Route.Method.POST,
-        "player" +
-                "?prettyPrint=false" +
-                "&fields=videoDetails.channelId," +
-                "videoDetails.isLiveContent," +
-                "videoDetails.isUpcoming"
-    ).compile()
+object InnerTubeRequestBody {
 
     private const val YT_API_URL = "https://youtubei.googleapis.com/youtubei/v1/"
+
+    private const val AUTHORIZATION_HEADER = "Authorization"
+    private val REQUEST_HEADER_KEYS = setOf(
+        AUTHORIZATION_HEADER,  // Available only to logged-in users.
+        "X-GOOG-API-FORMAT-VERSION",
+        "X-Goog-Visitor-Id"
+    )
 
     /**
      * TCP connection and HTTP read timeout
@@ -230,16 +150,10 @@ object PlayerRoutes {
             client.put("osName", clientType.osName)
             client.put("osVersion", clientType.osVersion)
             client.put("androidSdkVersion", clientType.androidSdkVersion)
-            if (clientType.gmscoreVersionCode != null) {
-                client.put("gmscoreVersionCode", clientType.gmscoreVersionCode)
-            }
-            client.put(
-                "hl",
-                LOCALE_LANGUAGE
-            )
+            client.put("hl", LOCALE_LANGUAGE)
             client.put("gl", LOCALE_COUNTRY)
             client.put("timeZone", TIME_ZONE_ID)
-            client.put("utcOffsetMinutes", "$UTC_OFFSET_MINUTES")
+            client.put("utcOffsetMinutes", UTC_OFFSET_MINUTES.toString())
 
             val context = JSONObject()
             context.put("client", client)
@@ -269,7 +183,7 @@ object PlayerRoutes {
             videoIds.put(0, videoId)
             innerTubeBody.put("videoIds", videoIds)
         } catch (e: JSONException) {
-            Logger.printException({ "Failed to create playlist innerTubeBody" }, e)
+            Logger.printException({ "Failed to create create/playlist innerTubeBody" }, e)
         }
 
         return innerTubeBody.toString().toByteArray(StandardCharsets.UTF_8)
@@ -284,7 +198,7 @@ object PlayerRoutes {
         try {
             innerTubeBody.put("playlistId", playlistId)
         } catch (e: JSONException) {
-            Logger.printException({ "Failed to create playlist innerTubeBody" }, e)
+            Logger.printException({ "Failed to create delete/playlist innerTubeBody" }, e)
         }
 
         return innerTubeBody.toString().toByteArray(StandardCharsets.UTF_8)
@@ -314,7 +228,7 @@ object PlayerRoutes {
             actionsArray.put(0, actionsObject)
             innerTubeBody.put("actions", actionsArray)
         } catch (e: JSONException) {
-            Logger.printException({ "Failed to create playlist innerTubeBody" }, e)
+            Logger.printException({ "Failed to create edit/playlist innerTubeBody" }, e)
         }
 
         return innerTubeBody.toString().toByteArray(StandardCharsets.UTF_8)
@@ -330,7 +244,7 @@ object PlayerRoutes {
             innerTubeBody.put("playlistId", playlistId)
             innerTubeBody.put("excludeWatchLater", false)
         } catch (e: JSONException) {
-            Logger.printException({ "Failed to create playlist innerTubeBody" }, e)
+            Logger.printException({ "Failed to create get/playlists innerTubeBody" }, e)
         }
 
         return innerTubeBody.toString().toByteArray(StandardCharsets.UTF_8)
@@ -354,44 +268,57 @@ object PlayerRoutes {
             actionsArray.put(0, actionsObject)
             innerTubeBody.put("actions", actionsArray)
         } catch (e: JSONException) {
-            Logger.printException({ "Failed to create playlist innerTubeBody" }, e)
+            Logger.printException({ "Failed to create save/playlist innerTubeBody" }, e)
         }
 
         return innerTubeBody.toString().toByteArray(StandardCharsets.UTF_8)
     }
 
     @JvmStatic
-    fun getPlayerResponseConnectionFromRoute(
+    fun getInnerTubeResponseConnectionFromRoute(
         route: CompiledRoute,
-        clientType: YouTubeAppClient.ClientType
-    ): HttpURLConnection {
-        return getPlayerResponseConnectionFromRoute(
-            route,
-            clientType.userAgent,
-            clientType.id.toString(),
-            clientType.clientVersion
-        )
-    }
+        clientType: YouTubeAppClient.ClientType,
+        requestHeader: Map<String, String>? = null,
+        connectTimeout: Int = CONNECTION_TIMEOUT_MILLISECONDS,
+        readTimeout: Int = CONNECTION_TIMEOUT_MILLISECONDS,
+    ) = getInnerTubeResponseConnectionFromRoute(
+        route = route,
+        userAgent = clientType.userAgent,
+        clientId = clientType.id.toString(),
+        clientVersion = clientType.clientVersion,
+        supportsCookies = clientType.supportsCookies,
+        requestHeader = requestHeader,
+        connectTimeout = connectTimeout,
+        readTimeout = readTimeout,
+    )
 
     @JvmStatic
-    fun getPlayerResponseConnectionFromRoute(
+    fun getInnerTubeResponseConnectionFromRoute(
         route: CompiledRoute,
-        clientType: YouTubeWebClient.ClientType
-    ): HttpURLConnection {
-        return getPlayerResponseConnectionFromRoute(
-            route,
-            clientType.userAgent,
-            clientType.id.toString(),
-            clientType.clientVersion,
-        )
-    }
+        clientType: YouTubeWebClient.ClientType,
+        requestHeader: Map<String, String>? = null,
+        connectTimeout: Int = CONNECTION_TIMEOUT_MILLISECONDS,
+        readTimeout: Int = CONNECTION_TIMEOUT_MILLISECONDS,
+    ) = getInnerTubeResponseConnectionFromRoute(
+        route = route,
+        userAgent = clientType.userAgent,
+        clientId = clientType.id.toString(),
+        clientVersion = clientType.clientVersion,
+        requestHeader = requestHeader,
+        connectTimeout = connectTimeout,
+        readTimeout = readTimeout,
+    )
 
     @Throws(IOException::class)
-    fun getPlayerResponseConnectionFromRoute(
+    fun getInnerTubeResponseConnectionFromRoute(
         route: CompiledRoute,
         userAgent: String,
         clientId: String,
-        clientVersion: String
+        clientVersion: String,
+        supportsCookies: Boolean = true,
+        requestHeader: Map<String, String>? = null,
+        connectTimeout: Int = CONNECTION_TIMEOUT_MILLISECONDS,
+        readTimeout: Int = CONNECTION_TIMEOUT_MILLISECONDS,
     ): HttpURLConnection {
         val connection = Requester.getConnectionFromCompiledRoute(YT_API_URL, route)
 
@@ -403,8 +330,24 @@ object PlayerRoutes {
         connection.useCaches = false
         connection.doOutput = true
 
-        connection.connectTimeout = CONNECTION_TIMEOUT_MILLISECONDS
-        connection.readTimeout = CONNECTION_TIMEOUT_MILLISECONDS
+        connection.connectTimeout = connectTimeout
+        connection.readTimeout = readTimeout
+
+        if (requestHeader != null) {
+            for (key in REQUEST_HEADER_KEYS) {
+                var value = requestHeader[key]
+                if (value != null) {
+                    if (key == AUTHORIZATION_HEADER) {
+                        if (!supportsCookies) {
+                            continue
+                        }
+                    }
+
+                    connection.setRequestProperty(key, value)
+                }
+            }
+        }
+
         return connection
     }
 

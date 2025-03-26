@@ -1,12 +1,15 @@
 package app.revanced.extension.youtube.patches.utils.requests
 
 import androidx.annotation.GuardedBy
-import app.revanced.extension.shared.patches.client.YouTubeAppClient
-import app.revanced.extension.shared.patches.spoof.requests.PlayerRoutes
+import app.revanced.extension.shared.innertube.client.YouTubeAppClient
+import app.revanced.extension.shared.innertube.requests.InnerTubeRequestBody.createApplicationRequestBody
+import app.revanced.extension.shared.innertube.requests.InnerTubeRequestBody.createPlaylistRequestBody
+import app.revanced.extension.shared.innertube.requests.InnerTubeRequestBody.getInnerTubeResponseConnectionFromRoute
+import app.revanced.extension.shared.innertube.requests.InnerTubeRoutes.CREATE_PLAYLIST
+import app.revanced.extension.shared.innertube.requests.InnerTubeRoutes.GET_SET_VIDEO_ID
 import app.revanced.extension.shared.requests.Requester
 import app.revanced.extension.shared.utils.Logger
 import app.revanced.extension.shared.utils.Utils
-import app.revanced.extension.youtube.patches.utils.requests.CreatePlaylistRequest.Companion.HTTP_TIMEOUT_MILLISECONDS
 import org.json.JSONException
 import org.json.JSONObject
 import java.io.IOException
@@ -20,10 +23,10 @@ import java.util.concurrent.TimeoutException
 
 class CreatePlaylistRequest private constructor(
     private val videoId: String,
-    private val playerHeaders: Map<String, String>,
+    private val requestHeader: Map<String, String>,
 ) {
     private val future: Future<Pair<String, String>> = Utils.submitOnBackgroundThread {
-        fetch(videoId, playerHeaders)
+        fetch(videoId, requestHeader)
     }
 
     val playlistId: Pair<String, String>?
@@ -52,14 +55,6 @@ class CreatePlaylistRequest private constructor(
         }
 
     companion object {
-        /**
-         * TCP connection and HTTP read timeout.
-         */
-        private const val HTTP_TIMEOUT_MILLISECONDS = 10 * 1000
-
-        /**
-         * Any arbitrarily large value, but must be at least twice [HTTP_TIMEOUT_MILLISECONDS]
-         */
         private const val MAX_MILLISECONDS_TO_WAIT_FOR_FETCH = 20 * 1000
 
         @GuardedBy("itself")
@@ -80,11 +75,11 @@ class CreatePlaylistRequest private constructor(
         }
 
         @JvmStatic
-        fun fetchRequestIfNeeded(videoId: String, playerHeaders: Map<String, String>) {
+        fun fetchRequestIfNeeded(videoId: String, requestHeader: Map<String, String>) {
             Objects.requireNonNull(videoId)
             synchronized(cache) {
                 if (!cache.containsKey(videoId)) {
-                    cache[videoId] = CreatePlaylistRequest(videoId, playerHeaders)
+                    cache[videoId] = CreatePlaylistRequest(videoId, requestHeader)
                 }
             }
         }
@@ -100,40 +95,26 @@ class CreatePlaylistRequest private constructor(
             Logger.printInfo({ toastMessage }, ex)
         }
 
-        private val REQUEST_HEADER_KEYS = arrayOf(
-            "Authorization",  // Available only to logged-in users.
-            "X-GOOG-API-FORMAT-VERSION",
-            "X-Goog-Visitor-Id"
-        )
-
-        private fun sendCreatePlaylistRequest(videoId: String, playerHeaders: Map<String, String>): JSONObject? {
+        private fun sendCreatePlaylistRequest(
+            videoId: String,
+            requestHeader: Map<String, String>
+        ): JSONObject? {
             Objects.requireNonNull(videoId)
 
             val startTime = System.currentTimeMillis()
-            // 'playlist/create' request does not require PoToken.
+            // 'playlist/create' endpoint does not require PoToken.
             val clientType = YouTubeAppClient.ClientType.ANDROID
             val clientTypeName = clientType.name
             Logger.printDebug { "Fetching create playlist request for: $videoId, using client: $clientTypeName" }
 
             try {
-                val connection = PlayerRoutes.getPlayerResponseConnectionFromRoute(
-                    PlayerRoutes.CREATE_PLAYLIST,
-                    clientType
+                val connection = getInnerTubeResponseConnectionFromRoute(
+                    CREATE_PLAYLIST,
+                    clientType,
+                    requestHeader,
                 )
-                connection.connectTimeout = HTTP_TIMEOUT_MILLISECONDS
-                connection.readTimeout = HTTP_TIMEOUT_MILLISECONDS
 
-                for (key in REQUEST_HEADER_KEYS) {
-                    var value = playerHeaders[key]
-                    if (value != null) {
-                        connection.setRequestProperty(key, value)
-                    }
-                }
-
-                val requestBody =
-                    PlayerRoutes.createPlaylistRequestBody(
-                        videoId = videoId
-                    )
+                val requestBody = createPlaylistRequestBody(videoId = videoId)
 
                 connection.setFixedLengthStreamingMode(requestBody.size)
                 connection.outputStream.write(requestBody)
@@ -159,36 +140,31 @@ class CreatePlaylistRequest private constructor(
             return null
         }
 
-        private fun sendSetVideoIdRequest(videoId: String, playlistId: String, playerHeaders: Map<String, String>): JSONObject? {
+        private fun sendSetVideoIdRequest(
+            videoId: String,
+            playlistId: String,
+            requestHeader: Map<String, String>
+        ): JSONObject? {
             Objects.requireNonNull(playlistId)
 
             val startTime = System.currentTimeMillis()
-            // 'playlist/create' request does not require PoToken.
+            // 'playlist/create' endpoint does not require PoToken.
             val clientType = YouTubeAppClient.ClientType.ANDROID
             val clientTypeName = clientType.name
             Logger.printDebug { "Fetching set video id request for: $playlistId, using client: $clientTypeName" }
 
             try {
-                val connection = PlayerRoutes.getPlayerResponseConnectionFromRoute(
-                    PlayerRoutes.GET_SET_VIDEO_ID,
-                    clientType
+                val connection = getInnerTubeResponseConnectionFromRoute(
+                    GET_SET_VIDEO_ID,
+                    clientType,
+                    requestHeader
                 )
-                connection.connectTimeout = HTTP_TIMEOUT_MILLISECONDS
-                connection.readTimeout = HTTP_TIMEOUT_MILLISECONDS
 
-                for (key in REQUEST_HEADER_KEYS) {
-                    var value = playerHeaders[key]
-                    if (value != null) {
-                        connection.setRequestProperty(key, value)
-                    }
-                }
-
-                val requestBody =
-                    PlayerRoutes.createApplicationRequestBody(
-                        clientType = clientType,
-                        videoId = videoId,
-                        playlistId = playlistId
-                    )
+                val requestBody = createApplicationRequestBody(
+                    clientType = clientType,
+                    videoId = videoId,
+                    playlistId = playlistId
+                )
 
                 connection.setFixedLengthStreamingMode(requestBody.size)
                 connection.outputStream.write(requestBody)
@@ -240,8 +216,8 @@ class CreatePlaylistRequest private constructor(
 
                 if (secondaryContentsJsonObject is JSONObject) {
                     return secondaryContentsJsonObject
-                            .getJSONObject("playlistPanelVideoRenderer")
-                            .getString("playlistSetVideoId")
+                        .getJSONObject("playlistPanelVideoRenderer")
+                        .getString("playlistSetVideoId")
                 }
             } catch (e: JSONException) {
                 val jsonForMessage = json.toString()
@@ -254,12 +230,15 @@ class CreatePlaylistRequest private constructor(
             return null
         }
 
-        private fun fetch(videoId: String, playerHeaders: Map<String, String>): Pair<String, String>? {
-            val createPlaylistJson = sendCreatePlaylistRequest(videoId, playerHeaders)
+        private fun fetch(
+            videoId: String,
+            requestHeader: Map<String, String>
+        ): Pair<String, String>? {
+            val createPlaylistJson = sendCreatePlaylistRequest(videoId, requestHeader)
             if (createPlaylistJson != null) {
                 val playlistId = parseCreatePlaylistResponse(createPlaylistJson)
                 if (playlistId != null) {
-                    val setVideoIdJson = sendSetVideoIdRequest(videoId, playlistId, playerHeaders)
+                    val setVideoIdJson = sendSetVideoIdRequest(videoId, playlistId, requestHeader)
                     if (setVideoIdJson != null) {
                         val setVideoId = parseSetVideoIdResponse(setVideoIdJson)
                         if (setVideoId != null) {

@@ -1,12 +1,13 @@
 package app.revanced.extension.youtube.patches.utils.requests
 
 import androidx.annotation.GuardedBy
-import app.revanced.extension.shared.patches.client.YouTubeAppClient
-import app.revanced.extension.shared.patches.spoof.requests.PlayerRoutes
+import app.revanced.extension.shared.innertube.client.YouTubeAppClient
+import app.revanced.extension.shared.innertube.requests.InnerTubeRequestBody.getInnerTubeResponseConnectionFromRoute
+import app.revanced.extension.shared.innertube.requests.InnerTubeRequestBody.getPlaylistsRequestBody
+import app.revanced.extension.shared.innertube.requests.InnerTubeRoutes.GET_PLAYLISTS
 import app.revanced.extension.shared.requests.Requester
 import app.revanced.extension.shared.utils.Logger
 import app.revanced.extension.shared.utils.Utils
-import app.revanced.extension.youtube.patches.utils.requests.GetPlaylistsRequest.Companion.HTTP_TIMEOUT_MILLISECONDS
 import org.json.JSONException
 import org.json.JSONObject
 import java.io.IOException
@@ -20,12 +21,12 @@ import java.util.concurrent.TimeoutException
 
 class GetPlaylistsRequest private constructor(
     private val playlistId: String,
-    private val playerHeaders: Map<String, String>,
+    private val requestHeader: Map<String, String>,
 ) {
     private val future: Future<Array<Pair<String, String>>> = Utils.submitOnBackgroundThread {
         fetch(
             playlistId,
-            playerHeaders,
+            requestHeader,
         )
     }
 
@@ -55,14 +56,6 @@ class GetPlaylistsRequest private constructor(
         }
 
     companion object {
-        /**
-         * TCP connection and HTTP read timeout.
-         */
-        private const val HTTP_TIMEOUT_MILLISECONDS = 10 * 1000
-
-        /**
-         * Any arbitrarily large value, but must be at least twice [HTTP_TIMEOUT_MILLISECONDS]
-         */
         private const val MAX_MILLISECONDS_TO_WAIT_FOR_FETCH = 20 * 1000
 
         @GuardedBy("itself")
@@ -85,14 +78,14 @@ class GetPlaylistsRequest private constructor(
         @JvmStatic
         fun fetchRequestIfNeeded(
             playlistId: String,
-            playerHeaders: Map<String, String>
+            requestHeader: Map<String, String>
         ) {
             Objects.requireNonNull(playlistId)
             synchronized(cache) {
                 if (!cache.containsKey(playlistId)) {
                     cache[playlistId] = GetPlaylistsRequest(
                         playlistId,
-                        playerHeaders
+                        requestHeader
                     )
                 }
             }
@@ -109,40 +102,26 @@ class GetPlaylistsRequest private constructor(
             Logger.printInfo({ toastMessage }, ex)
         }
 
-        private val REQUEST_HEADER_KEYS = arrayOf(
-            "Authorization",  // Available only to logged-in users.
-            "X-GOOG-API-FORMAT-VERSION",
-            "X-Goog-Visitor-Id"
-        )
-
         private fun sendRequest(
             playlistId: String,
-            playerHeaders: Map<String, String>
+            requestHeader: Map<String, String>
         ): JSONObject? {
             Objects.requireNonNull(playlistId)
 
             val startTime = System.currentTimeMillis()
-            // 'playlist/get_add_to_playlist' request does not require PoToken.
+            // 'playlist/get_add_to_playlist' endpoint does not require PoToken.
             val clientType = YouTubeAppClient.ClientType.ANDROID
             val clientTypeName = clientType.name
             Logger.printDebug { "Fetching get playlists request, playlistId: $playlistId, using client: $clientTypeName" }
 
             try {
-                val connection = PlayerRoutes.getPlayerResponseConnectionFromRoute(
-                    PlayerRoutes.GET_PLAYLISTS,
-                    clientType
+                val connection = getInnerTubeResponseConnectionFromRoute(
+                    GET_PLAYLISTS,
+                    clientType,
+                    requestHeader
                 )
-                connection.connectTimeout = HTTP_TIMEOUT_MILLISECONDS
-                connection.readTimeout = HTTP_TIMEOUT_MILLISECONDS
 
-                for (key in REQUEST_HEADER_KEYS) {
-                    var value = playerHeaders[key]
-                    if (value != null) {
-                        connection.setRequestProperty(key, value)
-                    }
-                }
-
-                val requestBody = PlayerRoutes.getPlaylistsRequestBody(playlistId)
+                val requestBody = getPlaylistsRequestBody(playlistId)
 
                 connection.setFixedLengthStreamingMode(requestBody.size)
                 connection.outputStream.write(requestBody)
@@ -223,9 +202,9 @@ class GetPlaylistsRequest private constructor(
 
         private fun fetch(
             playlistId: String,
-            playerHeaders: Map<String, String>
+            requestHeader: Map<String, String>
         ): Array<Pair<String, String>>? {
-            val json = sendRequest(playlistId, playerHeaders)
+            val json = sendRequest(playlistId, requestHeader)
             if (json != null) {
                 return parseResponse(json)
             }

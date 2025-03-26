@@ -10,7 +10,7 @@ import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import app.revanced.extension.shared.patches.client.YouTubeAppClient.ClientType;
+import app.revanced.extension.shared.innertube.client.YouTubeAppClient.ClientType;
 import app.revanced.extension.shared.patches.spoof.requests.StreamingDataRequest;
 import app.revanced.extension.shared.settings.BaseSettings;
 import app.revanced.extension.shared.settings.Setting;
@@ -19,10 +19,6 @@ import app.revanced.extension.shared.utils.Utils;
 
 @SuppressWarnings("unused")
 public class SpoofStreamingDataPatch extends BlockRequestPatch {
-    private static final String PO_TOKEN =
-            BaseSettings.SPOOF_STREAMING_DATA_PO_TOKEN.get();
-    private static final String VISITOR_DATA =
-            BaseSettings.SPOOF_STREAMING_DATA_VISITOR_DATA.get();
     private static final boolean SPOOF_STREAMING_DATA_SKIP_RESPONSE_ENCRYPTION =
             SPOOF_STREAMING_DATA && BaseSettings.SPOOF_STREAMING_DATA_SKIP_RESPONSE_ENCRYPTION.get();
 
@@ -79,7 +75,7 @@ public class SpoofStreamingDataPatch extends BlockRequestPatch {
     /**
      * Injection point.
      */
-    public static void fetchStreams(String url, Map<String, String> requestHeaders) {
+    public static void fetchStreams(String url, Map<String, String> requestHeader) {
         if (SPOOF_STREAMING_DATA) {
             String id = Utils.getVideoIdFromRequest(url);
             if (id == null) {
@@ -89,7 +85,7 @@ public class SpoofStreamingDataPatch extends BlockRequestPatch {
                 return;
             }
 
-            StreamingDataRequest.fetchRequest(id, requestHeaders, VISITOR_DATA, PO_TOKEN);
+            StreamingDataRequest.fetchRequest(id, requestHeader);
         }
     }
 

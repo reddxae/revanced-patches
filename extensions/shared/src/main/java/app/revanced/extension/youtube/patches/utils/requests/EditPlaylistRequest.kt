@@ -1,12 +1,13 @@
 package app.revanced.extension.youtube.patches.utils.requests
 
 import androidx.annotation.GuardedBy
-import app.revanced.extension.shared.patches.client.YouTubeAppClient
-import app.revanced.extension.shared.patches.spoof.requests.PlayerRoutes
+import app.revanced.extension.shared.innertube.client.YouTubeAppClient
+import app.revanced.extension.shared.innertube.requests.InnerTubeRequestBody.editPlaylistRequestBody
+import app.revanced.extension.shared.innertube.requests.InnerTubeRequestBody.getInnerTubeResponseConnectionFromRoute
+import app.revanced.extension.shared.innertube.requests.InnerTubeRoutes.EDIT_PLAYLIST
 import app.revanced.extension.shared.requests.Requester
 import app.revanced.extension.shared.utils.Logger
 import app.revanced.extension.shared.utils.Utils
-import app.revanced.extension.youtube.patches.utils.requests.EditPlaylistRequest.Companion.HTTP_TIMEOUT_MILLISECONDS
 import org.apache.commons.lang3.StringUtils
 import org.json.JSONException
 import org.json.JSONObject
@@ -23,14 +24,14 @@ class EditPlaylistRequest private constructor(
     private val videoId: String,
     private val playlistId: String,
     private val setVideoId: String?,
-    private val playerHeaders: Map<String, String>,
+    private val requestHeader: Map<String, String>,
 ) {
     private val future: Future<String> = Utils.submitOnBackgroundThread {
         fetch(
             videoId,
             playlistId,
             setVideoId,
-            playerHeaders,
+            requestHeader,
         )
     }
 
@@ -60,14 +61,6 @@ class EditPlaylistRequest private constructor(
         }
 
     companion object {
-        /**
-         * TCP connection and HTTP read timeout.
-         */
-        private const val HTTP_TIMEOUT_MILLISECONDS = 10 * 1000
-
-        /**
-         * Any arbitrarily large value, but must be at least twice [HTTP_TIMEOUT_MILLISECONDS]
-         */
         private const val MAX_MILLISECONDS_TO_WAIT_FOR_FETCH = 20 * 1000
 
         @GuardedBy("itself")
@@ -99,7 +92,7 @@ class EditPlaylistRequest private constructor(
             videoId: String,
             playlistId: String,
             setVideoId: String?,
-            playerHeaders: Map<String, String>
+            requestHeader: Map<String, String>
         ) {
             Objects.requireNonNull(videoId)
             synchronized(cache) {
@@ -108,7 +101,7 @@ class EditPlaylistRequest private constructor(
                         videoId,
                         playlistId,
                         setVideoId,
-                        playerHeaders
+                        requestHeader
                     )
                 }
             }
@@ -125,47 +118,32 @@ class EditPlaylistRequest private constructor(
             Logger.printInfo({ toastMessage }, ex)
         }
 
-        private val REQUEST_HEADER_KEYS = arrayOf(
-            "Authorization",  // Available only to logged-in users.
-            "X-GOOG-API-FORMAT-VERSION",
-            "X-Goog-Visitor-Id"
-        )
-
         private fun sendRequest(
             videoId: String,
             playlistId: String,
             setVideoId: String?,
-            playerHeaders: Map<String, String>
+            requestHeader: Map<String, String>
         ): JSONObject? {
             Objects.requireNonNull(videoId)
 
             val startTime = System.currentTimeMillis()
-            // 'browse/edit_playlist' request does not require PoToken.
+            // 'browse/edit_playlist' endpoint does not require PoToken.
             val clientType = YouTubeAppClient.ClientType.ANDROID
             val clientTypeName = clientType.name
             Logger.printDebug { "Fetching edit playlist request, videoId: $videoId, playlistId: $playlistId, setVideoId: $setVideoId, using client: $clientTypeName" }
 
             try {
-                val connection = PlayerRoutes.getPlayerResponseConnectionFromRoute(
-                    PlayerRoutes.EDIT_PLAYLIST,
-                    clientType
+                val connection = getInnerTubeResponseConnectionFromRoute(
+                    EDIT_PLAYLIST,
+                    clientType,
+                    requestHeader
                 )
-                connection.connectTimeout = HTTP_TIMEOUT_MILLISECONDS
-                connection.readTimeout = HTTP_TIMEOUT_MILLISECONDS
 
-                for (key in REQUEST_HEADER_KEYS) {
-                    var value = playerHeaders[key]
-                    if (value != null) {
-                        connection.setRequestProperty(key, value)
-                    }
-                }
-
-                val requestBody =
-                    PlayerRoutes.editPlaylistRequestBody(
-                        videoId = videoId,
-                        playlistId = playlistId,
-                        setVideoId = setVideoId,
-                    )
+                val requestBody = editPlaylistRequestBody(
+                    videoId = videoId,
+                    playlistId = playlistId,
+                    setVideoId = setVideoId
+                )
 
                 connection.setFixedLengthStreamingMode(requestBody.size)
                 connection.outputStream.write(requestBody)
@@ -197,7 +175,8 @@ class EditPlaylistRequest private constructor(
                     if (remove) {
                         return ""
                     }
-                    val playlistEditResultsJSONObject = json.getJSONArray("playlistEditResults").get(0)
+                    val playlistEditResultsJSONObject =
+                        json.getJSONArray("playlistEditResults").get(0)
 
                     if (playlistEditResultsJSONObject is JSONObject) {
                         return playlistEditResultsJSONObject
@@ -220,9 +199,9 @@ class EditPlaylistRequest private constructor(
             videoId: String,
             playlistId: String,
             setVideoId: String?,
-            playerHeaders: Map<String, String>
+            requestHeader: Map<String, String>
         ): String? {
-            val json = sendRequest(videoId, playlistId, setVideoId, playerHeaders)
+            val json = sendRequest(videoId, playlistId, setVideoId, requestHeader)
             if (json != null) {
                 return parseResponse(json, StringUtils.isNotEmpty(setVideoId))
             }

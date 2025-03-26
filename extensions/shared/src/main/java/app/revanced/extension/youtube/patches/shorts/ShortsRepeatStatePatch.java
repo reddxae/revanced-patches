@@ -101,7 +101,10 @@ public class ShortsRepeatStatePatch {
                             : "Changing Shorts repeat behavior from: " + name + " to: " + overrideBehavior.name();
                 });
 
-                return overrideBehavior;
+                // For some reason, in YouTube 20.09+, 'UNKNOWN' functions as 'Pause'.
+                return ExtendedUtils.IS_20_09_OR_GREATER && behavior == ShortsLoopBehavior.END_SCREEN
+                        ? ShortsLoopBehavior.UNKNOWN.ytEnumValue
+                        : overrideBehavior;
             }
         } catch (Exception ex) {
             Logger.printException(() -> "changeShortsRepeatBehavior failure", ex);

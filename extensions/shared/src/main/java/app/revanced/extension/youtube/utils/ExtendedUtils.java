@@ -39,6 +39,7 @@ public class ExtendedUtils extends PackageUtils {
     public static final boolean IS_19_28_OR_GREATER = getAppVersionName().compareTo("19.28.00") >= 0;
     public static final boolean IS_19_29_OR_GREATER = getAppVersionName().compareTo("19.29.00") >= 0;
     public static final boolean IS_19_34_OR_GREATER = getAppVersionName().compareTo("19.34.00") >= 0;
+    public static final boolean IS_20_09_OR_GREATER = getAppVersionName().compareTo("20.09.00") >= 0;
 
     public static int validateValue(IntegerSetting settings, int min, int max, String message) {
         int value = settings.get();

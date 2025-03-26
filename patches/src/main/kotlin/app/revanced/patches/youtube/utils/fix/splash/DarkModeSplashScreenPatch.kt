@@ -38,7 +38,6 @@ val darkModeSplashScreenPatch = resourcePatch(
 
                 mainActivityElement.setAttribute("android:launchMode", "singleTask")
             }
-            return@finalize
         }
 
         if (restoreOldSplashAnimationIncluded) {

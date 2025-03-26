@@ -1,6 +1,7 @@
 package app.revanced.extension.shared.innertube.client
 
 import android.os.Build
+import app.revanced.extension.shared.patches.PatchStatus
 import app.revanced.extension.shared.settings.BaseSettings
 import app.revanced.extension.shared.utils.PackageUtils
 import org.apache.commons.lang3.ArrayUtils
@@ -11,6 +12,24 @@ import java.util.Locale
  */
 object YouTubeAppClient {
     // IOS
+    /**
+     * Video not playable: Paid / Movie / Private / Age-restricted
+     * Note: Audio track available
+     */
+    private const val PACKAGE_NAME_IOS = "com.google.ios.youtube"
+
+    /**
+     * The hardcoded client version of the iOS app used for InnerTube requests with this client.
+     *
+     * It can be extracted by getting the latest release version of the app on
+     * [the App Store page of the YouTube app](https://apps.apple.com/us/app/youtube-watch-listen-stream/id544007664/),
+     * in the `What’s New` section.
+     */
+    private val CLIENT_VERSION_IOS = if (forceAVC())
+        "17.40.5"
+    else
+        "20.10.4"
+
     private const val DEVICE_MAKE_IOS = "Apple"
     private const val OS_NAME_IOS = "iOS"
 
@@ -31,6 +50,7 @@ object YouTubeAppClient {
         "13_7"
     else
         "18_3_2"
+    private val USER_AGENT_IOS = iOSUserAgent(PACKAGE_NAME_IOS, CLIENT_VERSION_IOS)
 
 
     // IOS UNPLUGGED
@@ -183,7 +203,6 @@ object YouTubeAppClient {
      * Example: 'com.google.ios.youtube/16.38.2 (iPhone9,4; U; CPU iOS 14_7_1 like Mac OS X; en_AU)'
      * Source: https://github.com/mitmproxy/mitmproxy/issues/4836.
      */
-    @Suppress("SameParameterValue")
     private fun iOSUserAgent(
         packageName: String,
         clientVersion: String
@@ -194,8 +213,15 @@ object YouTubeAppClient {
         return BaseSettings.SPOOF_STREAMING_DATA_IOS_FORCE_AVC.get()
     }
 
+    private fun useIOS(): Boolean {
+        return PatchStatus.SpoofStreamingDataIOS() && BaseSettings.SPOOF_STREAMING_DATA_TYPE_IOS.get()
+    }
+
     fun availableClientTypes(preferredClient: ClientType): Array<ClientType> {
-        val availableClientTypes = ClientType.CLIENT_ORDER_TO_USE
+        val availableClientTypes = if (useIOS())
+            ClientType.CLIENT_ORDER_TO_USE_IOS
+        else
+            ClientType.CLIENT_ORDER_TO_USE
 
         if (ArrayUtils.contains(availableClientTypes, preferredClient)) {
             val clientToUse: Array<ClientType?> = arrayOfNulls(availableClientTypes.size)
@@ -340,6 +366,21 @@ object YouTubeAppClient {
                 "iOS TV Force AVC"
             else
                 "iOS TV"
+        ),
+        IOS_DEPRECATED(
+            id = 5,
+            deviceMake = DEVICE_MAKE_IOS,
+            deviceModel = DEVICE_MODEL_IOS,
+            osName = OS_NAME_IOS,
+            osVersion = OS_VERSION_IOS,
+            userAgent = USER_AGENT_IOS,
+            clientVersion = CLIENT_VERSION_IOS,
+            supportsCookies = false,
+            clientName = "IOS",
+            friendlyName = if (forceAVC())
+                "iOS Force AVC"
+            else
+                "iOS"
         );
 
         companion object {
@@ -348,6 +389,15 @@ object YouTubeAppClient {
                 ANDROID_UNPLUGGED,
                 ANDROID_CREATOR,
                 IOS_UNPLUGGED,
+                ANDROID_VR,
+            )
+
+            val CLIENT_ORDER_TO_USE_IOS: Array<ClientType> = arrayOf(
+                ANDROID_VR_NO_AUTH,
+                ANDROID_UNPLUGGED,
+                ANDROID_CREATOR,
+                IOS_UNPLUGGED,
+                IOS_DEPRECATED,
                 ANDROID_VR,
             )
         }

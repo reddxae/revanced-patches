@@ -1,6 +1,7 @@
 package app.revanced.extension.youtube.settings.preference;
 
 import static com.google.android.apps.youtube.app.settings.videoquality.VideoQualitySettingsActivity.setToolbarLayoutParams;
+import static app.revanced.extension.shared.settings.BaseSettings.SPOOF_STREAMING_DATA_TYPE;
 import static app.revanced.extension.shared.settings.preference.AbstractPreferenceFragment.showRestartDialog;
 import static app.revanced.extension.shared.settings.preference.AbstractPreferenceFragment.updateListPreferenceSummary;
 import static app.revanced.extension.shared.utils.ResourceUtils.getXmlIdentifier;
@@ -56,6 +57,7 @@ import java.util.Set;
 import java.util.SortedMap;
 import java.util.TreeMap;
 
+import app.revanced.extension.shared.patches.spoof.SpoofStreamingDataPatch;
 import app.revanced.extension.shared.settings.BaseSettings;
 import app.revanced.extension.shared.settings.BooleanSetting;
 import app.revanced.extension.shared.settings.EnumSetting;
@@ -118,8 +120,12 @@ public class ReVancedPreferenceFragment extends PreferenceFragment {
                     Setting.privateSetValueFromString(setting, listPreference.getValue());
                 }
                 if (setting.equals(DEFAULT_PLAYBACK_SPEED)) {
-                    listPreference.setEntries(CustomPlaybackSpeedPatch.getListEntries());
-                    listPreference.setEntryValues(CustomPlaybackSpeedPatch.getListEntryValues());
+                    listPreference.setEntries(CustomPlaybackSpeedPatch.getEntries());
+                    listPreference.setEntryValues(CustomPlaybackSpeedPatch.getEntryValues());
+                }
+                if (setting.equals(SPOOF_STREAMING_DATA_TYPE)) {
+                    listPreference.setEntries(SpoofStreamingDataPatch.getEntries());
+                    listPreference.setEntryValues(SpoofStreamingDataPatch.getEntryValues());
                 }
                 if (!(mPreference instanceof app.revanced.extension.youtube.settings.preference.SegmentCategoryListPreference)) {
                     updateListPreferenceSummary(listPreference, setting);
@@ -305,8 +311,12 @@ public class ReVancedPreferenceFragment extends PreferenceFragment {
                     editTextPreference.setText(setting.get().toString());
                 } else if (preference instanceof ListPreference listPreference) {
                     if (setting.equals(DEFAULT_PLAYBACK_SPEED)) {
-                        listPreference.setEntries(CustomPlaybackSpeedPatch.getListEntries());
-                        listPreference.setEntryValues(CustomPlaybackSpeedPatch.getListEntryValues());
+                        listPreference.setEntries(CustomPlaybackSpeedPatch.getEntries());
+                        listPreference.setEntryValues(CustomPlaybackSpeedPatch.getEntryValues());
+                    }
+                    if (setting.equals(SPOOF_STREAMING_DATA_TYPE)) {
+                        listPreference.setEntries(SpoofStreamingDataPatch.getEntries());
+                        listPreference.setEntryValues(SpoofStreamingDataPatch.getEntryValues());
                     }
                     if (!(preference instanceof app.revanced.extension.youtube.settings.preference.SegmentCategoryListPreference)) {
                         updateListPreferenceSummary(listPreference, setting);

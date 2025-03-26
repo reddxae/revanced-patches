@@ -836,7 +836,7 @@
         <!-- SETTINGS: SPOOF_STREAMING_DATA
         <PreferenceScreen android:title="@string/revanced_preference_screen_spoof_streaming_data_title" android:key="revanced_preference_screen_spoof_streaming_data" android:summary="@string/revanced_preference_screen_spoof_streaming_data_summary">
             <SwitchPreference android:title="@string/revanced_spoof_streaming_data_title" android:key="revanced_spoof_streaming_data" android:summaryOn="@string/revanced_spoof_streaming_data_summary_on" android:summaryOff="@string/revanced_spoof_streaming_data_summary_off" />
-            <ListPreference android:entries="@array/revanced_spoof_streaming_data_type_entries" android:title="@string/revanced_spoof_streaming_data_type_title" android:key="revanced_spoof_streaming_data_type" android:entryValues="@array/revanced_spoof_streaming_data_type_entry_values" android:dependency="revanced_spoof_streaming_data" />
+            <ListPreference android:title="@string/revanced_spoof_streaming_data_type_title" android:key="revanced_spoof_streaming_data_type" android:dependency="revanced_spoof_streaming_data" />
             <app.revanced.extension.youtube.settings.preference.SpoofStreamingDataSideEffectsPreference android:title="@string/revanced_spoof_streaming_data_side_effects_title" />
             <SwitchPreference android:title="@string/revanced_spoof_streaming_data_ios_force_avc_title" android:key="revanced_spoof_streaming_data_ios_force_avc" android:summaryOn="@string/revanced_spoof_streaming_data_ios_force_avc_summary_on" android:summaryOff="@string/revanced_spoof_streaming_data_ios_force_avc_summary_off" android:dependency="revanced_spoof_streaming_data" />
             <ListPreference android:entries="@array/revanced_language_entries" android:title="@string/revanced_spoof_streaming_data_language_title" android:key="revanced_spoof_streaming_data_language" android:entryValues="@array/revanced_language_entry_values" android:dependency="revanced_spoof_streaming_data" />SETTINGS: SPOOF_STREAMING_DATA -->
@@ -845,7 +845,13 @@
             <SwitchPreference android:title="@string/revanced_spoof_streaming_data_skip_response_encryption_title" android:key="revanced_spoof_streaming_data_skip_response_encryption" android:summaryOn="@string/revanced_spoof_streaming_data_skip_response_encryption_summary_on" android:summaryOff="@string/revanced_spoof_streaming_data_skip_response_encryption_summary_off" android:dependency="revanced_spoof_streaming_data" />SETTINGS: SKIP_RESPONSE_ENCRYPTION -->
 
             <!-- SETTINGS: SPOOF_STREAMING_DATA
-            <SwitchPreference android:title="@string/revanced_spoof_streaming_data_stats_for_nerds_title" android:key="revanced_spoof_streaming_data_stats_for_nerds" android:summaryOn="@string/revanced_spoof_streaming_data_stats_for_nerds_summary_on" android:summaryOff="@string/revanced_spoof_streaming_data_stats_for_nerds_summary_off" android:dependency="revanced_spoof_streaming_data" />
+            <SwitchPreference android:title="@string/revanced_spoof_streaming_data_stats_for_nerds_title" android:key="revanced_spoof_streaming_data_stats_for_nerds" android:summaryOn="@string/revanced_spoof_streaming_data_stats_for_nerds_summary_on" android:summaryOff="@string/revanced_spoof_streaming_data_stats_for_nerds_summary_off" android:dependency="revanced_spoof_streaming_data" />SETTINGS: SPOOF_STREAMING_DATA -->
+
+            <!-- SETTINGS: USE_IOS_DEPRECATED
+            <PreferenceCategory android:title="@string/revanced_preference_category_experimental_flag" android:layout="@layout/revanced_settings_preferences_category"/>
+            <SwitchPreference android:title="@string/revanced_spoof_streaming_data_type_ios_title" android:key="revanced_spoof_streaming_data_type_ios" android:summaryOn="@string/revanced_spoof_streaming_data_type_ios_summary_on" android:summaryOff="@string/revanced_spoof_streaming_data_type_ios_summary_off" android:dependency="revanced_spoof_streaming_data" />SETTINGS: USE_IOS_DEPRECATED -->
+
+            <!-- SETTINGS: SPOOF_STREAMING_DATA
         </PreferenceScreen>SETTINGS: SPOOF_STREAMING_DATA -->
 
         <!-- SETTINGS: WATCH_HISTORY

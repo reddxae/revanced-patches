@@ -2187,8 +2187,8 @@ Tap the continue button and allow optimization changes."</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr_no_auth">"Android VR
 <small>(No auth)</small>"</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
-<small>(PoToken required)</small>"</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_deprecated">"iOS
+<small>(Deprecated)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
 <small>(Login required)</small>"</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Spoofing side effects</string>
@@ -2196,10 +2196,20 @@ Tap the continue button and allow optimization changes."</string>
 • Stable volume is not available.
 • Disable forced auto audio tracks is not available.
 • Kids videos may not play when logged out or in incognito mode."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• There may be playback issues (PoToken required).</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_deprecated">• Whole ASNs/IP ranges may be blocked by the server.</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• Stable volume is not available.
 • Movies or paid videos may not play.
 • Kids videos may not play when logged out or in incognito mode."</string>
+    <string name="revanced_spoof_streaming_data_type_ios_title">Use iOS client</string>
+    <string name="revanced_spoof_streaming_data_type_ios_summary_on">"iOS client added to available clients.
+
+WARNING: iOS client is deprecated. Any issues that arise while using it are at your own risk."</string>
+    <string name="revanced_spoof_streaming_data_type_ios_summary_off">iOS client not added to available clients.</string>
+    <string name="revanced_spoof_streaming_data_type_ios_user_dialog_message">"When requesting YouTube API endpoints using iOS, you will need the Auth tokens issued by the iOS device and the PoTokens issued by iOSGuard.
+
+This means that streaming requests via iOS will be missing both the Auth tokens and the PoTokens, and the server may consider the user as a bot and block the entire ASN/IP range.
+
+USE AT YOUR OWN RISK!"</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Force iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Video codec is forced to AVC (H.264).</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">Video codec is determined automatically.</string>

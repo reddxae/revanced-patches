@@ -486,7 +486,6 @@ private val shortsRepeatPatch = bytecodePatch(
         // As of YouTube 20.09, Google has removed the code for 'Autoplay' and 'Pause' from this method.
         // Manually add the 'Autoplay' code that Google removed.
         // Tested on YouTube 20.10.
-        // TODO: add the 'Pause' code that Google removed.
         if (is_20_09_or_greater) {
             val (directReference, virtualReference) = with (reelPlaybackFingerprint.methodOrThrow(videoIdFingerprintShorts)) {
                 val directIndex = indexOfInitializationInstruction(this)
@@ -535,17 +534,6 @@ private val shortsRepeatPatch = bytecodePatch(
                         :ignore
                         nop
                         """
-                )
-            }
-        } else {
-            getContext().apply {
-                addEntryValues(
-                    "revanced_change_shorts_repeat_state_entries",
-                    "@string/revanced_change_shorts_repeat_state_entry_pause",
-                )
-                addEntryValues(
-                    "revanced_change_shorts_repeat_state_entry_values",
-                    "END_SCREEN",
                 )
             }
         }

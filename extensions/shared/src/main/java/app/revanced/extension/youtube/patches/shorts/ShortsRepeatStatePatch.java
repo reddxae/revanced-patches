@@ -30,8 +30,8 @@ public class ShortsRepeatStatePatch {
         END_SCREEN;
 
         static void setYTEnumValue(Enum<?> ytBehavior) {
-            String ytName = ytBehavior.name();
             for (ShortsLoopBehavior rvBehavior : values()) {
+                String ytName = ytBehavior.name();
                 if (ytName.endsWith(rvBehavior.name())) {
                     if (rvBehavior.ytEnumValue != null) {
                         Logger.printException(() -> "Conflicting behavior names: " + rvBehavior
@@ -87,22 +87,19 @@ public class ShortsRepeatStatePatch {
     @Nullable
     public static Enum<?> changeShortsRepeatBehavior(@Nullable Enum<?> original) {
         try {
-            if (original == null) {
-                Logger.printDebug(() -> "Original is null, returning null");
-                return null;
-            }
-
             ShortsLoopBehavior behavior = ExtendedUtils.IS_19_34_OR_GREATER &&
                     isAppInBackgroundPiPMode()
                     ? Settings.CHANGE_SHORTS_BACKGROUND_REPEAT_STATE.get()
                     : Settings.CHANGE_SHORTS_REPEAT_STATE.get();
             Enum<?> overrideBehavior = behavior.ytEnumValue;
 
-            if (overrideBehavior != null) {
-                Logger.printDebug(() -> overrideBehavior == original
-                        ? "Behavior setting is same as original. Using original: " + original.name()
-                        : "Changing Shorts repeat behavior from: " + original.name() + " to: " + overrideBehavior.name()
-                );
+            if (behavior != ShortsLoopBehavior.UNKNOWN && overrideBehavior != null) {
+                Logger.printDebug(() -> {
+                    String name = original == null ? "unknown (null)" : original.name();
+                    return overrideBehavior == original
+                            ? "Behavior setting is same as original. Using original: " + name
+                            : "Changing Shorts repeat behavior from: " + name + " to: " + overrideBehavior.name();
+                });
 
                 return overrideBehavior;
             }
@@ -117,6 +114,6 @@ public class ShortsRepeatStatePatch {
      * Injection point.
      */
     public static boolean isAutoPlay(@Nullable Enum<?> original) {
-        return original != null && ShortsLoopBehavior.SINGLE_PLAY.ytEnumValue == original;
+        return ShortsLoopBehavior.SINGLE_PLAY.ytEnumValue == original;
     }
 }

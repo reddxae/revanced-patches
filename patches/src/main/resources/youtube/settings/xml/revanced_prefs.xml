@@ -254,9 +254,6 @@
         <!-- SETTINGS: DISABLE_SPLASH_ANIMATION
         <SwitchPreference android:title="@string/revanced_disable_splash_animation_title" android:key="revanced_disable_splash_animation" android:summaryOn="@string/revanced_disable_splash_animation_summary_on" android:summaryOff="@string/revanced_disable_splash_animation_summary_off" />SETTINGS: DISABLE_SPLASH_ANIMATION -->
 
-        <!-- SETTINGS: DISABLE_TRANSLUCENT_STATUS_BAR
-        <SwitchPreference android:title="@string/revanced_disable_translucent_status_bar_title" android:key="revanced_disable_translucent_status_bar" android:summaryOn="@string/revanced_disable_translucent_status_bar_summary_on" android:summaryOff="@string/revanced_disable_translucent_status_bar_summary_off" />SETTINGS: DISABLE_TRANSLUCENT_STATUS_BAR -->
-
         <!-- SETTINGS: ENABLE_GRADIENT_LOADING_SCREEN
         <SwitchPreference android:title="@string/revanced_enable_gradient_loading_screen_title" android:key="revanced_enable_gradient_loading_screen" android:summaryOn="@string/revanced_enable_gradient_loading_screen_summary_on" android:summaryOff="@string/revanced_enable_gradient_loading_screen_summary_off" />SETTINGS: ENABLE_GRADIENT_LOADING_SCREEN -->
 
@@ -278,6 +275,9 @@
 
         <!-- SETTINGS: DISABLE_LAYOUT_UPDATES
         <SwitchPreference android:title="@string/revanced_disable_layout_updates_title" android:key="revanced_disable_layout_updates" android:summaryOn="@string/revanced_disable_layout_updates_summary_on" android:summaryOff="@string/revanced_disable_layout_updates_summary_off" />SETTINGS: DISABLE_LAYOUT_UPDATES -->
+
+        <!-- SETTINGS: DISABLE_TRANSLUCENT_STATUS_BAR
+        <SwitchPreference android:title="@string/revanced_disable_translucent_status_bar_title" android:key="revanced_disable_translucent_status_bar" android:summaryOn="@string/revanced_disable_translucent_status_bar_summary_on" android:summaryOff="@string/revanced_disable_translucent_status_bar_summary_off" />SETTINGS: DISABLE_TRANSLUCENT_STATUS_BAR -->
 
         <!-- SETTINGS: SPOOF_APP_VERSION
         <SwitchPreference android:title="@string/revanced_spoof_app_version_title" android:key="revanced_spoof_app_version" android:summaryOn="@string/revanced_spoof_app_version_summary_on" android:summaryOff="@string/revanced_spoof_app_version_summary_off" />

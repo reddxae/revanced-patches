@@ -103,6 +103,7 @@ val layoutComponentsPatch = bytecodePatch(
                 "$GENERAL_CLASS_DESCRIPTOR->disableTranslucentStatusBar(Z)Z"
             )
 
+            settingArray += "PREFERENCE_CATEGORY: GENERAL_EXPERIMENTAL_FLAGS"
             settingArray += "SETTINGS: DISABLE_TRANSLUCENT_STATUS_BAR"
         }
 

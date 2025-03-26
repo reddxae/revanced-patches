@@ -514,9 +514,6 @@ Limitation: Back button on the toolbar may not work."</string>
     <string name="revanced_disable_splash_animation_title">Disable splash animation</string>
     <string name="revanced_disable_splash_animation_summary_on">Splash animation is disabled.</string>
     <string name="revanced_disable_splash_animation_summary_off">Splash animation is enabled.</string>
-    <string name="revanced_disable_translucent_status_bar_title">Disable translucent status bar</string>
-    <string name="revanced_disable_translucent_status_bar_summary_on">Status bar is opaque.</string>
-    <string name="revanced_disable_translucent_status_bar_summary_off">Status bar is opaque or translucent.</string>
     <string name="revanced_enable_gradient_loading_screen_title">Enable gradient loading screen</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">Gradient loading screen is enabled.</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">Gradient loading screen is disabled.</string>
@@ -565,7 +562,10 @@ Changes include:
 • The Library tab is used.
 • The Music section of video description may not work.
 • Account switch button may not appear on the Library tab. Use the 'Enable wide search bar in You tab' setting."</string>
-
+    <string name="revanced_disable_translucent_status_bar_title">Disable translucent status bar</string>
+    <string name="revanced_disable_translucent_status_bar_summary_on">Status bar is opaque.</string>
+    <string name="revanced_disable_translucent_status_bar_summary_off">Status bar is opaque or translucent.</string>
+    <string name="revanced_disable_translucent_status_bar_user_dialog_message">For some manufacturer ROMs running Android 12+, enabling this feature may make the system navigation bar transparent.</string>
     <string name="revanced_spoof_app_version_title">Spoof app version</string>
     <string name="revanced_spoof_app_version_summary_on">Version spoofed</string>
     <string name="revanced_spoof_app_version_summary_off">Version not spoofed</string>

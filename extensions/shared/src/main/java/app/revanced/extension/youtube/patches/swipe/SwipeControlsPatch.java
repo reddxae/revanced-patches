@@ -4,6 +4,7 @@ import android.view.View;
 
 import java.lang.ref.WeakReference;
 
+import app.revanced.extension.shared.settings.Setting;
 import app.revanced.extension.youtube.settings.Settings;
 
 @SuppressWarnings({"unused", "deprecation"})
@@ -57,6 +58,22 @@ public class SwipeControlsPatch {
     public static boolean isEngagementOverlayVisible() {
         final View engagementOverlayView = fullscreenEngagementOverlayViewRef.get();
         return engagementOverlayView != null && engagementOverlayView.getVisibility() == View.VISIBLE;
+    }
+
+    public static final class SwipeOverlayTextSizeAvailability implements Setting.Availability {
+        @Override
+        public boolean isAvailable() {
+            return (Settings.ENABLE_SWIPE_BRIGHTNESS.get() || Settings.ENABLE_SWIPE_VOLUME.get()) &&
+                    !Settings.SWIPE_OVERLAY_ALTERNATIVE_UI.get();
+        }
+    }
+
+    public static final class SwipeOverlayModernUIAvailability implements Setting.Availability {
+        @Override
+        public boolean isAvailable() {
+            return (Settings.ENABLE_SWIPE_BRIGHTNESS.get() || Settings.ENABLE_SWIPE_VOLUME.get()) &&
+                    Settings.SWIPE_OVERLAY_ALTERNATIVE_UI.get();
+        }
     }
 
 }

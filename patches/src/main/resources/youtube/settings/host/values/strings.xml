@@ -1693,10 +1693,14 @@ No margins on top and bottom of player."</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_on">Lowest value of the brightness gesture activates auto-brightness.</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_off">Lowest value of the brightness gesture does not activate auto-brightness.</string>
     <string name="revanced_enable_swipe_brightness_title">Enable brightness gesture</string>
-    <string name="revanced_enable_swipe_brightness_summary_on">Brightness swipe is enabled.</string>
+    <string name="revanced_enable_swipe_brightness_summary_on">"Fullscreen brightness swipe is enabled.
+ 
+ Adjust brightness by swiping vertically on the left side of the screen."</string>
     <string name="revanced_enable_swipe_brightness_summary_off">Brightness swipe is disabled.</string>
     <string name="revanced_enable_swipe_volume_title">Enable volume gesture</string>
-    <string name="revanced_enable_swipe_volume_summary_on">Volume swipe is enabled.</string>
+    <string name="revanced_enable_swipe_volume_summary_on">"Fullscreen volume swipe is enabled.
+ 
+ Adjust volume by swiping vertically on the right side of the screen."</string>
     <string name="revanced_enable_swipe_volume_summary_off">Volume swipe is disabled.</string>
     <string name="revanced_enable_save_and_restore_brightness_title">Enable save and restore brightness</string>
     <string name="revanced_enable_save_and_restore_brightness_summary_on">Save and restore brightness when exiting or entering fullscreen.</string>
@@ -1710,10 +1714,20 @@ No margins on top and bottom of player."</string>
     <string name="revanced_swipe_gestures_lock_mode_title">Swipe gestures in Lock screen mode</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_on">Swipe gestures are enabled in Lock screen mode.</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_off">Swipe gestures are disabled in Lock screen mode.</string>
-    <string name="revanced_swipe_overlay_background_alpha_title">Swipe background visibility</string>
-    <string name="revanced_swipe_overlay_background_alpha_summary">The visibility of the swipe overlay background.</string>
     <string name="revanced_swipe_magnitude_threshold_title">Swipe magnitude threshold</string>
     <string name="revanced_swipe_magnitude_threshold_summary">The threshold for a swipe to occur.</string>
+    <string name="revanced_swipe_overlay_alternative_ui_title">Swipe overlay alternative UI</string>
+    <string name="revanced_swipe_overlay_alternative_ui_summary_on">Alternative UI is used.</string>
+    <string name="revanced_swipe_overlay_alternative_ui_summary_off">Legacy UI is used.</string>
+    <string name="revanced_swipe_overlay_minimal_style_title">Enable minimal style</string>
+    <string name="revanced_swipe_overlay_minimal_style_summary_on">Minimal overlay style is enabled.</string>
+    <string name="revanced_swipe_overlay_minimal_style_summary_off">Minimal overlay style is disabled.</string>
+    <string name="revanced_swipe_show_circular_overlay_title">Show circular overlay</string>
+    <string name="revanced_swipe_show_circular_overlay_summary_on">Circular overlay is shown.</string>
+    <string name="revanced_swipe_show_circular_overlay_summary_off">Horizontal overlay is shown.</string>
+    <string name="revanced_swipe_overlay_background_opacity_title">Swipe overlay background opacity</string>
+    <string name="revanced_swipe_overlay_background_opacity_summary">Opacity value between 0-100.</string>
+    <string name="revanced_swipe_overlay_background_opacity_invalid_toast">Swipe opacity must be between 0-100.</string>
     <string name="revanced_swipe_overlay_text_size_title">Swipe overlay text size</string>
     <string name="revanced_swipe_overlay_text_size_summary">The text size in the swipe overlay.</string>
     <string name="revanced_swipe_overlay_rect_size_title">Swipe overlay screen size</string>
@@ -1721,6 +1735,7 @@ No margins on top and bottom of player."</string>
     <string name="revanced_swipe_overlay_rect_size_invalid_toast">Swipeable area size cannot be more than 50.</string>
     <string name="revanced_swipe_overlay_timeout_title">Swipe overlay timeout</string>
     <string name="revanced_swipe_overlay_timeout_summary">The amount of milliseconds the overlay is visible.</string>
+
     <string name="revanced_swipe_brightness_sensitivity_title">Brightness swipe sensitivity</string>
     <string name="revanced_swipe_brightness_sensitivity_summary">Configure the minimum distance for brightness swiping between 1 and 1000 (%).\nThe shorter the minimum distance, the faster the brightness level changes.</string>
     <string name="revanced_swipe_brightness_sensitivity_invalid_toast">Brightness swipe sensitivity must be between 1-1000 (%).</string>

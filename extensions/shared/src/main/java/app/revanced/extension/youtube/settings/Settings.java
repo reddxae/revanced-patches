@@ -42,6 +42,7 @@ import app.revanced.extension.youtube.patches.player.ExitFullscreenPatch.Fullscr
 import app.revanced.extension.youtube.patches.player.MiniplayerPatch;
 import app.revanced.extension.youtube.patches.shorts.AnimationFeedbackPatch.AnimationType;
 import app.revanced.extension.youtube.patches.shorts.ShortsRepeatStatePatch.ShortsLoopBehavior;
+import app.revanced.extension.youtube.patches.swipe.SwipeControlsPatch;
 import app.revanced.extension.youtube.patches.utils.PatchStatus;
 import app.revanced.extension.youtube.shared.PlaylistIdPrefix;
 import app.revanced.extension.youtube.sponsorblock.SponsorBlockSettings;
@@ -522,9 +523,15 @@ public class Settings extends BaseSettings {
     public static final BooleanSetting ENABLE_SWIPE_PRESS_TO_ENGAGE = new BooleanSetting("revanced_enable_swipe_press_to_engage", FALSE, true, parentsAny(ENABLE_SWIPE_BRIGHTNESS, ENABLE_SWIPE_VOLUME));
     public static final BooleanSetting ENABLE_SWIPE_HAPTIC_FEEDBACK = new BooleanSetting("revanced_enable_swipe_haptic_feedback", TRUE, true, parentsAny(ENABLE_SWIPE_BRIGHTNESS, ENABLE_SWIPE_VOLUME));
     public static final BooleanSetting SWIPE_LOCK_MODE = new BooleanSetting("revanced_swipe_gestures_lock_mode", FALSE, true, parentsAny(ENABLE_SWIPE_BRIGHTNESS, ENABLE_SWIPE_VOLUME));
+    public static final BooleanSetting SWIPE_OVERLAY_ALTERNATIVE_UI = new BooleanSetting("revanced_swipe_overlay_alternative_ui", TRUE, true, parentsAny(ENABLE_SWIPE_BRIGHTNESS, ENABLE_SWIPE_VOLUME));
+    public static final BooleanSetting SWIPE_SHOW_CIRCULAR_OVERLAY = new BooleanSetting("revanced_swipe_show_circular_overlay", FALSE, true,
+            new SwipeControlsPatch.SwipeOverlayModernUIAvailability());
+    public static final BooleanSetting SWIPE_OVERLAY_MINIMAL_STYLE = new BooleanSetting("revanced_swipe_overlay_minimal_style", FALSE, true,
+            new SwipeControlsPatch.SwipeOverlayModernUIAvailability());
+    public static final IntegerSetting SWIPE_OVERLAY_BACKGROUND_OPACITY = new IntegerSetting("revanced_swipe_overlay_background_opacity", 60, true, parentsAny(ENABLE_SWIPE_BRIGHTNESS, ENABLE_SWIPE_VOLUME));
+    public static final IntegerSetting SWIPE_OVERLAY_TEXT_SIZE = new IntegerSetting("revanced_swipe_overlay_text_size", 20, true,
+            new SwipeControlsPatch.SwipeOverlayTextSizeAvailability());
     public static final IntegerSetting SWIPE_MAGNITUDE_THRESHOLD = new IntegerSetting("revanced_swipe_magnitude_threshold", 0, true, parentsAny(ENABLE_SWIPE_BRIGHTNESS, ENABLE_SWIPE_VOLUME));
-    public static final IntegerSetting SWIPE_OVERLAY_BACKGROUND_ALPHA = new IntegerSetting("revanced_swipe_overlay_background_alpha", 127, true, parentsAny(ENABLE_SWIPE_BRIGHTNESS, ENABLE_SWIPE_VOLUME));
-    public static final IntegerSetting SWIPE_OVERLAY_TEXT_SIZE = new IntegerSetting("revanced_swipe_overlay_text_size", 20, true, parentsAny(ENABLE_SWIPE_BRIGHTNESS, ENABLE_SWIPE_VOLUME));
     public static final IntegerSetting SWIPE_OVERLAY_RECT_SIZE = new IntegerSetting("revanced_swipe_overlay_rect_size", 20, true, parentsAny(ENABLE_SWIPE_BRIGHTNESS, ENABLE_SWIPE_VOLUME));
     public static final LongSetting SWIPE_OVERLAY_TIMEOUT = new LongSetting("revanced_swipe_overlay_timeout", 500L, true, parentsAny(ENABLE_SWIPE_BRIGHTNESS, ENABLE_SWIPE_VOLUME));
 

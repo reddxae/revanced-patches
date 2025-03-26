@@ -343,9 +343,6 @@ Korlátozás: Előfordulhat, hogy az eszköztár Vissza gombja nem működik."</
     <string name="revanced_disable_splash_animation_title">Indító animáció letiltása</string>
     <string name="revanced_disable_splash_animation_summary_on">Az indító animáció le van tiltva.</string>
     <string name="revanced_disable_splash_animation_summary_off">Az indító animáció engedélyezett.</string>
-    <string name="revanced_disable_translucent_status_bar_title">Átlátszó állapotsor letiltása</string>
-    <string name="revanced_disable_translucent_status_bar_summary_on">Az állapotsor nem átlátszó.</string>
-    <string name="revanced_disable_translucent_status_bar_summary_off">Az állapotsor nem átlátszó vagy átlátszó.</string>
     <string name="revanced_enable_gradient_loading_screen_title">Színátmenetes betöltési képernyő engedélyezése</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">A színátmenetes betöltési képernyő engedélyezett.</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">A színátmenetes betöltési képernyő le van tiltva.</string>
@@ -377,6 +374,9 @@ Autóipari elrendezés
 • A shortok a normál lejátszóban nyílnak meg.
 • A hírfolyam témák és csatornák szerint van rendezve.
 • A videó leírása nem nyitható meg, ha az 'Adatfolyam hamisítása' ki van kapcsolva."</string>
+    <string name="revanced_disable_translucent_status_bar_title">Átlátszó állapotsor letiltása</string>
+    <string name="revanced_disable_translucent_status_bar_summary_on">Az állapotsor nem átlátszó.</string>
+    <string name="revanced_disable_translucent_status_bar_summary_off">Az állapotsor nem átlátszó vagy átlátszó.</string>
     <string name="revanced_spoof_app_version_title">Alkalmazásverzió hamisítása</string>
     <string name="revanced_spoof_app_version_summary_on">Verzió hamisítás</string>
     <string name="revanced_spoof_app_version_summary_off">Verzió nincs hamisítva</string>
@@ -1427,10 +1427,10 @@ Nincs margó a lejátszó tetején és alján."</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_on">A gesztus vezérlés legkisebb értékénél az automatikus fényerő bekapcsol.</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_off">A gesztus vezérlés legkisebb értékénél az automatikus fényerő nem kapcsol be.</string>
     <string name="revanced_enable_swipe_brightness_title">Fényerő gesztus vezérlés engedélyezése</string>
-    <string name="revanced_enable_swipe_brightness_summary_on">A fényerő gesztus vezérlés engedélyezett.</string>
+    <string name="revanced_enable_swipe_brightness_summary_on">"A fényerő gesztus vezérlés engedélyezett."</string>
     <string name="revanced_enable_swipe_brightness_summary_off">A fényerő gesztus vezérlés le van tiltva.</string>
     <string name="revanced_enable_swipe_volume_title">Hangerő gesztus vezérlés engedélyezése</string>
-    <string name="revanced_enable_swipe_volume_summary_on">A hangerő gesztus vezérlés engedélyezett.</string>
+    <string name="revanced_enable_swipe_volume_summary_on">"A hangerő gesztus vezérlés engedélyezett."</string>
     <string name="revanced_enable_swipe_volume_summary_off">A hangerő gesztus vezérlés le van tiltva.</string>
     <string name="revanced_enable_save_and_restore_brightness_title">A fényerő mentésének és visszaállításának engedélyezése</string>
     <string name="revanced_enable_save_and_restore_brightness_summary_on">A fényerő mentése és visszaállítása teljes képernyőből való kilépéskor vagy belépéskor.</string>
@@ -1444,8 +1444,6 @@ Nincs margó a lejátszó tetején és alján."</string>
     <string name="revanced_swipe_gestures_lock_mode_title">Gesztus vezérlések a képernyő lezárása módban</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_on">A gesztus vezérlések engedélyezettek a képernyő lezárása módban.</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_off">A gesztus vezérlések le vannak tiltva a képernyő lezárása módban.</string>
-    <string name="revanced_swipe_overlay_background_alpha_title">Gesztus vezérlés átfedésének láthatósága</string>
-    <string name="revanced_swipe_overlay_background_alpha_summary">A gesztus vezérlés átfedésének láthatósága.</string>
     <string name="revanced_swipe_magnitude_threshold_title">Gesztus vezérlés küszöbértéke</string>
     <string name="revanced_swipe_magnitude_threshold_summary">A gesztus vezérléshez szükséges küszöbérték.</string>
     <string name="revanced_swipe_overlay_text_size_title">Gesztus vezérlés átfedésének szövegmérete</string>
@@ -1746,6 +1744,7 @@ Kattintson az API-kulcs kiadás folyamatának megtekintéséhez."</string>
     <string name="revanced_sb_vote_downvote">Leszavazás</string>
     <string name="revanced_sb_vote_category">Kategória módosítása</string>
     <string name="revanced_sb_vote_no_segments">Nincsen szakasz, amire szavazni lehet.</string>
+    <!-- A segment start and end time, such as "02:10 to 03:40" -->
     <string name="revanced_sb_new_segment_choose_category">Válassza ki a szakasz kategóriáját</string>
     <string name="revanced_sb_new_segment_disabled_category">A kategória letiltva a beállításokban. Engedélyezze a beküldéshez.</string>
     <string name="revanced_sb_new_segment_title">Új SponsorBlock szakasz</string>
@@ -1865,8 +1864,6 @@ Kattintson a folytatás gombra és kapcsolja ki az akkumulátor optimalizáláso
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr_no_auth">"Android VR
 <small>(Nincs hitelesítés)</small>"</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
-<small>(PoToken szükséges)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
 <small>(Belépés szükséges)</small>"</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Hamisítás mellékhatásai</string>
@@ -1874,7 +1871,6 @@ Kattintson a folytatás gombra és kapcsolja ki az akkumulátor optimalizáláso
 • A stabil hangerő nem áll rendelkezésre.
 • A kényszerített automatikus hangsávok letiltása nem elérhető.
 • Előfordulhat, hogy a gyerekeknek szánt tartalmat nem lehet lejátszani, ha ki van jelentkezve vagy inkognitó módban van."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• Lejátszási problémák lehetnek (PoToken szükséges).</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• A stabil hangerő nem érhető el.
 • Előfordulhat, hogy a filmeket vagy a fizetős videókat nem lehet lejátszani.
 • Előfordulhat, hogy a gyerekeknek szánt tartalmat nem lehet lejátszani, ha ki van jelentkezve vagy inkognitó módban van."</string>

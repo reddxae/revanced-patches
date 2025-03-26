@@ -334,9 +334,6 @@ Sınırlama: Araç çubuğundaki geri butonu çalışmayabilir."</string>
     <string name="revanced_disable_splash_animation_title">Açılış animasyonunu devre dışı bırak</string>
     <string name="revanced_disable_splash_animation_summary_on">Açılış animasyonu etkin değil.</string>
     <string name="revanced_disable_splash_animation_summary_off">Açılış animasyonu etkin.</string>
-    <string name="revanced_disable_translucent_status_bar_title">Yarı saydam durum çubuğunu devre dışı bırak.</string>
-    <string name="revanced_disable_translucent_status_bar_summary_on">Durum çubuğu opak.</string>
-    <string name="revanced_disable_translucent_status_bar_summary_off">Durum çubuğu opak veya yarı saydam.</string>
     <string name="revanced_enable_gradient_loading_screen_title">Gradyan yükleme ekranını etkinleştir</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">Gradyan yükleme ekranı etkin</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">Gradyan yükleme ekranı devre dışı</string>
@@ -353,6 +350,9 @@ Sınırlama: Araç çubuğundaki geri butonu çalışmayabilir."</string>
 
 Kısıtlamalar: Shorts canlı yayını 'Shorts'u normal oynatıcıda aç' ayarı nedeniyle normal oynatıcıda açıldığında kanal açılmaz."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">Canlı halkaya tıklandığında canlı yayın açılır.</string>
+    <string name="revanced_disable_translucent_status_bar_title">Yarı saydam durum çubuğunu devre dışı bırak.</string>
+    <string name="revanced_disable_translucent_status_bar_summary_on">Durum çubuğu opak.</string>
+    <string name="revanced_disable_translucent_status_bar_summary_off">Durum çubuğu opak veya yarı saydam.</string>
     <string name="revanced_spoof_app_version_title">Uygulama Versiyonunu taklit et</string>
     <string name="revanced_spoof_app_version_summary_on">Sürüm taklit ediliyor</string>
     <string name="revanced_spoof_app_version_summary_off">Sürüm taklit edilmiyor</string>
@@ -1185,10 +1185,10 @@ Bilinen sorunlar:
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_on">Parlaklık hareketinin en düşük değeri otomatik parlaklığı etkinleştirir.</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_off">Parlaklık hareketinin en düşük değeri otomatik parlaklığı etkinleştirmez.</string>
     <string name="revanced_enable_swipe_brightness_title">Kaydırarak parlaklığı ayarla</string>
-    <string name="revanced_enable_swipe_brightness_summary_on">Video tam ekrandayken, ekranın solunu kaydırarak ekran parlaklığını ayarlama açık</string>
+    <string name="revanced_enable_swipe_brightness_summary_on">"Video tam ekrandayken, ekranın solunu kaydırarak ekran parlaklığını ayarlama açık"</string>
     <string name="revanced_enable_swipe_brightness_summary_off">Video tam ekrandayken, ekranın solunu kaydırarak ekran parlaklığını ayarlama kapalı</string>
     <string name="revanced_enable_swipe_volume_title">Kaydırarak sesi ayarla</string>
-    <string name="revanced_enable_swipe_volume_summary_on">Video tam ekrandayken, ekranın sağını kaydırarak sesi ayarlama açık</string>
+    <string name="revanced_enable_swipe_volume_summary_on">"Video tam ekrandayken, ekranın sağını kaydırarak sesi ayarlama açık"</string>
     <string name="revanced_enable_swipe_volume_summary_off">Video tam ekrandayken, ekranın sağını kaydırarak sesi ayarlama kapalı</string>
     <string name="revanced_enable_save_and_restore_brightness_title">Kaydetmeyi ve parlaklığı geri yüklemeyi etkinleştir</string>
     <string name="revanced_enable_save_and_restore_brightness_summary_on">Tam ekrandan çıkarken veya tam ekrana girerken parlaklığı kaydedin ve geri yükleyin.</string>
@@ -1202,8 +1202,6 @@ Bilinen sorunlar:
     <string name="revanced_swipe_gestures_lock_mode_title">\'Kilit ekranı\' modundaki kaydırma hareketleri</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_on">Kaydırma hareketleri \'Kilit ekranı\' modunda etkindir.</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_off">Kaydırma hareketleri \'Kilit ekranı\' modunda devre dışıdır.</string>
-    <string name="revanced_swipe_overlay_background_alpha_title">Kaydırma arka plan şeffaflığı</string>
-    <string name="revanced_swipe_overlay_background_alpha_summary">Kaydırma arka planının şeffaflık değeri</string>
     <string name="revanced_swipe_magnitude_threshold_title">Kaydırma büyüklük eşiği</string>
     <string name="revanced_swipe_magnitude_threshold_summary">Kaydırma işleminin gerçekleşmesi için eşik miktarı</string>
     <string name="revanced_swipe_overlay_text_size_title">Kaydırma metin boyutu</string>
@@ -1442,6 +1440,7 @@ Bir örnek görmek için buraya dokunun.</string>
     <string name="revanced_sb_vote_downvote">Olumsuz oy ver</string>
     <string name="revanced_sb_vote_category">Kategoriyi değiştir</string>
     <string name="revanced_sb_vote_no_segments">Oylanabilecek bir kısım yok.</string>
+    <!-- A segment start and end time, such as "02:10 to 03:40" -->
     <string name="revanced_sb_new_segment_choose_category">Kategori seçin</string>
     <string name="revanced_sb_new_segment_disabled_category">Ayarlarda kategori devre dışı bırakıldı. Göndermek için kategoriyi etkinleştir.</string>
     <string name="revanced_sb_new_segment_title">Yeni SponsorBlock segmenti</string>

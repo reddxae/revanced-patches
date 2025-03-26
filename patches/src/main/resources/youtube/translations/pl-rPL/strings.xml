@@ -19,6 +19,38 @@
     <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s nie jest zainstalowany.
 Pobierz %2$s ze strony internetowej."</string>
     <string name="revanced_external_downloader_not_installed_warning">%s nie jest zainstalowany. Proszę go zainstalować.</string>
+    <string name="revanced_queue_manager_add_to_queue">Dodaj do kolejki</string>
+    <string name="revanced_queue_manager_add_to_queue_and_open_queue">Dodaj do kolejki i otwórz kolejkę</string>
+    <string name="revanced_queue_manager_add_to_queue_and_play_video">Dodaj do kolejki i odtwórz film</string>
+    <string name="revanced_queue_manager_external_downloader">Zewnętrzna aplikacja od pobierania</string>
+    <string name="revanced_queue_manager_open_queue">Otwórz kolejkę</string>
+    <string name="revanced_queue_manager_queue">Kolejka</string>
+    <string name="revanced_queue_manager_remove_from_queue">Usuń z kolejki</string>
+    <string name="revanced_queue_manager_remove_from_queue_and_open_queue">Usuń z kolejki i otwórz kolejkę</string>
+    <string name="revanced_queue_manager_remove_queue">Usuń kolejkę</string>
+    <string name="revanced_queue_manager_save_queue">Zapisz kolejkę</string>
+    <string name="revanced_queue_manager_user_dialog_message">"Zamiast otwierać zewnętrzną aplikację od pobierania, otwiera okno menedżera kolejki.
+
+Możesz również otworzyć menedżer kolejek poprzez kliknięcie i przytrzymanie przycisku cofania na pasku nawigacyjnym.
+
+Funkcja jest nadal rozwijana, więc większość funkcji może nie działać.
+
+Proszę używać tej funkcji wyłącznie w celach debugowania."</string>
+    <string name="revanced_queue_manager_check_failed_auth">Wymagane logowanie</string>
+    <string name="revanced_queue_manager_check_failed_generic">Menedżer kolejki jest niedostępny (%s).</string>
+    <string name="revanced_queue_manager_check_failed_playlist_id">Nie można zidentyfikować playlisty</string>
+    <string name="revanced_queue_manager_check_failed_queue">Kolejka jest pusta</string>
+    <string name="revanced_queue_manager_check_failed_video_id">Nie można zidentyfikować filmu</string>
+    <string name="revanced_queue_manager_fetch_failed_add">Nie udało się dodać filmu.</string>
+    <string name="revanced_queue_manager_fetch_failed_create">Nie udało się utworzyć kolejki.</string>
+    <string name="revanced_queue_manager_fetch_failed_delete">Nie udało się usunąć kolejki.</string>
+    <string name="revanced_queue_manager_fetch_failed_remove">Nie udało się usunąć filmu.</string>
+    <string name="revanced_queue_manager_fetch_failed_save">Nie udało się zapisać kolejki.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_add">Pomyślnie dodano film.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_create">Pomyślnie utworzono kolejkę.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_delete">Pomyślnie usunięto kolejkę.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_remove">Pomyślnie usunięto film.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_save">Pomyślnie zapisano kolejkę do \'%s\'.</string>
     <string name="revanced_language_title">Język RVX</string>
     <string name="revanced_language_DEFAULT">Język aplikacji</string>
     <string name="revanced_language_AM">"Amharski
@@ -453,9 +485,6 @@ Ograniczenie: Przycisk wstecz na pasku narzędzi może nie działać."</string>
     <string name="revanced_disable_splash_animation_title">Animacja uruchamiania aplikacji</string>
     <string name="revanced_disable_splash_animation_summary_on">Wyłączona</string>
     <string name="revanced_disable_splash_animation_summary_off">Włączona</string>
-    <string name="revanced_disable_translucent_status_bar_title">Półprzezroczystość paska statusu</string>
-    <string name="revanced_disable_translucent_status_bar_summary_on">Wyłączona</string>
-    <string name="revanced_disable_translucent_status_bar_summary_off">Włączona</string>
     <string name="revanced_enable_gradient_loading_screen_title">Kolorowy ekran ładowania</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">Włączony</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">Wyłączony</string>
@@ -502,6 +531,9 @@ Zmiany zawierają:
 • Zakładka biblioteki jest używana
 • Sekcja muzyki w opisie filmu może nie działać
 • Przycisk od przełączania konta może się nie pojawiać w zakładce biblioteki. Użyj ustawienia 'Szeroki pasek wyszukiwania w zakładce Ty'"</string>
+    <string name="revanced_disable_translucent_status_bar_title">Półprzezroczystość paska statusu</string>
+    <string name="revanced_disable_translucent_status_bar_summary_on">Wyłączona</string>
+    <string name="revanced_disable_translucent_status_bar_summary_off">Włączona</string>
     <string name="revanced_spoof_app_version_title">Oszukiwanie wersji aplikacji</string>
     <string name="revanced_spoof_app_version_summary_on">Włączone</string>
     <string name="revanced_spoof_app_version_summary_off">Wyłączone</string>
@@ -558,6 +590,9 @@ Niektóre komponenty mogą nie być ukryte."</string>
     <string name="revanced_override_video_download_button_title">Metoda pobierania filmów</string>
     <string name="revanced_override_video_download_button_summary_on">Zewnętrzna aplikacja</string>
     <string name="revanced_override_video_download_button_summary_off">Natywne pobieranie</string>
+    <string name="revanced_override_video_download_button_queue_manager_title">Menedżer kolejki</string>
+    <string name="revanced_override_video_download_button_queue_manager_summary_on">Natywny przycisk od pobierania otworzy menedżer kolejki</string>
+    <string name="revanced_override_video_download_button_queue_manager_summary_off">Natywny przycisk od pobierania otworzy zewnętrzną aplikację od pobierania</string>
     <string name="revanced_external_downloader_package_name_playlist_title">Nazwa pakietu aplikacji od pobierania (playlisty)</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">Nazwa pakietu zainstalowanej zewnętrznej aplikacji od pobierania, takiej jak YTDLnis.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental flags -->
@@ -1191,6 +1226,8 @@ Stuknij i przytrzymaj, by skopiować czas filmu."</string>
     <string name="revanced_overlay_button_mute_volume_summary">Stuknij, by wyciszyć bieżący film. Stuknij ponownie, by odciszyć film.</string>
     <string name="revanced_overlay_button_external_downloader_title">Przycisk do pobierania</string>
     <string name="revanced_overlay_button_external_downloader_summary">Stuknij, by otworzyć aplikacje od pobierania.</string>
+    <string name="revanced_overlay_button_external_downloader_queue_manager_title">Menedżer kolejki</string>
+    <string name="revanced_overlay_button_external_downloader_queue_manager_summary">Zamiast otwierać zewnętrzną aplikację od pobierania, otwiera menedżera kolejki.</string>
     <string name="revanced_overlay_button_speed_dialog_title">Przycisk od prędkości</string>
     <string name="revanced_overlay_button_speed_dialog_summary">"Stuknij, by zmienić prędkość odtwarzania.
 Stuknij i przytrzymaj, by zmienić prędkość odtwarzania na 1.0x. Stuknij i przytrzymaj ponownie, by zresetować do domyślnej prędkości."</string>
@@ -1556,10 +1593,10 @@ Ograniczenia:
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_on">Najniższa wartość jasności aktywowana przesuwaniem włącza automatyczną jasność</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_off">Najniższa wartość jasności aktywowana przesuwaniem nie włącza automatycznej jasności</string>
     <string name="revanced_enable_swipe_brightness_title">Zmienianie jasności przesuwaniem</string>
-    <string name="revanced_enable_swipe_brightness_summary_on">Włączone</string>
+    <string name="revanced_enable_swipe_brightness_summary_on">"Włączone"</string>
     <string name="revanced_enable_swipe_brightness_summary_off">Wyłączone</string>
     <string name="revanced_enable_swipe_volume_title">Zmienianie głośności przesuwaniem</string>
-    <string name="revanced_enable_swipe_volume_summary_on">Włączone</string>
+    <string name="revanced_enable_swipe_volume_summary_on">"Włączone"</string>
     <string name="revanced_enable_swipe_volume_summary_off">Wyłączone</string>
     <string name="revanced_enable_save_and_restore_brightness_title">Zapisuj i przywracaj jasność podczas zamykania lub wchodzenia w tryb pełnoekranowy</string>
     <string name="revanced_enable_save_and_restore_brightness_summary_on">Tak</string>
@@ -1573,8 +1610,6 @@ Ograniczenia:
     <string name="revanced_swipe_gestures_lock_mode_title">Przesuwanie podczas trybu blokady ekranu</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_on">Włączone</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_off">Wyłączone</string>
-    <string name="revanced_swipe_overlay_background_alpha_title">Widoczność tła przesuwania</string>
-    <string name="revanced_swipe_overlay_background_alpha_summary">Widoczność tła nakładki przesuwania</string>
     <string name="revanced_swipe_magnitude_threshold_title">Minimalna długość przesunięcia</string>
     <string name="revanced_swipe_magnitude_threshold_summary">Minimalna długość przesunięcia</string>
     <string name="revanced_swipe_overlay_text_size_title">Rozmiar tekstu nakładki przesuwania</string>
@@ -1874,6 +1909,7 @@ Kliknij, by zobaczyć, jak zgłosić klucz API."</string>
     <string name="revanced_sb_vote_downvote">Głos przeciw</string>
     <string name="revanced_sb_vote_category">Zmień kategorię</string>
     <string name="revanced_sb_vote_no_segments">Brak segmentów, na które można zagłosować.</string>
+    <!-- A segment start and end time, such as "02:10 to 03:40" -->
     <string name="revanced_sb_new_segment_choose_category">Wybierz kategorię segmentu</string>
     <string name="revanced_sb_new_segment_disabled_category">Ta kategoria jest wyłączona w ustawieniach. Włącz kategorię, aby móc wysłać ten segment.</string>
     <string name="revanced_sb_new_segment_title">Nowy segment SponsorBlock</string>
@@ -1993,8 +2029,6 @@ Stuknij przycisk kontynuacji i zezwól na zmiany w optymalizacji."</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr_no_auth">"Android VR
 <small>(Bez autoryzacji)</small>"</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
-<small>(Wymagany PoToken)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
 <small>(Wymagane zalogowanie)</small>"</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Efekty uboczne oszukiwania</string>
@@ -2002,7 +2036,6 @@ Stuknij przycisk kontynuacji i zezwól na zmiany w optymalizacji."</string>
 • Stabilna głośność nie jest dostępna
 • Automatyczne wymuszenie ścieżki dźwiękowej nie jest dostępne
 • Filmy dla dzieci mogą się nie odtwarzać będąc zalogowanym lub w trybie incognito"</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• Mogą wystąpić problemy z odtwarzaniem (wymagany PoToken)</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• Stabilna głośność nie jest dostępna
 • Filmy kinowe lub płatne mogą się nie odtwarzać
 • Filmy dla dzieci mogą się nie odtwarzać będąc zalogowanym lub w trybie incognito"</string>

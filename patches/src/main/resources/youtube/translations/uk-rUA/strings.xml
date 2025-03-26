@@ -485,9 +485,6 @@
     <string name="revanced_disable_splash_animation_title">Вимкнути сплеш анімацію</string>
     <string name="revanced_disable_splash_animation_summary_on">Сплеш анімацію вимкнено.</string>
     <string name="revanced_disable_splash_animation_summary_off">Сплеш анімацію увімкнено.</string>
-    <string name="revanced_disable_translucent_status_bar_title">Вимкнути напівпрозорість рядка стану</string>
-    <string name="revanced_disable_translucent_status_bar_summary_on">Рядок стану непрозорий.</string>
-    <string name="revanced_disable_translucent_status_bar_summary_off">Рядок стану непрозорий чи напівпрозорий.</string>
     <string name="revanced_enable_gradient_loading_screen_title">Увімкнути градієнт екрану завантаження</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">Градієнт екрану завантаження увімкнено.</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">Градієнт екрану завантаження вимкнено.</string>
@@ -534,6 +531,9 @@
 • Використовується вкладку Бібліотека.
 • Секція Музика опису відео може не працювати.
 • Кнопка перемикання облікового запису може не з'являтися у вкладці Бібліотека. Використовуйте налаштування 'Увімкнути широку панель пошуку у вкладці Ви'."</string>
+    <string name="revanced_disable_translucent_status_bar_title">Вимкнути напівпрозорість рядка стану</string>
+    <string name="revanced_disable_translucent_status_bar_summary_on">Рядок стану непрозорий.</string>
+    <string name="revanced_disable_translucent_status_bar_summary_off">Рядок стану непрозорий чи напівпрозорий.</string>
     <string name="revanced_spoof_app_version_title">Підробити версію програми</string>
     <string name="revanced_spoof_app_version_summary_on">Версію підроблено</string>
     <string name="revanced_spoof_app_version_summary_off">Версію не підроблено</string>
@@ -1592,10 +1592,10 @@
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_on">Нижнє значення жесту яскравості активує автояскравість.</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_off">Нижнє значення жесту яскравості не активує автояскравість.</string>
     <string name="revanced_enable_swipe_brightness_title">Увімкнути зміну яскравості жестом</string>
-    <string name="revanced_enable_swipe_brightness_summary_on">Зміну яскравості жестом увімкнено.</string>
+    <string name="revanced_enable_swipe_brightness_summary_on">"Зміну яскравості жестом увімкнено."</string>
     <string name="revanced_enable_swipe_brightness_summary_off">Зміну яскравості жестом вимкнено.</string>
     <string name="revanced_enable_swipe_volume_title">Увімкнути зміну гучності жестом</string>
-    <string name="revanced_enable_swipe_volume_summary_on">Зміну гучності жестом увімкнено.</string>
+    <string name="revanced_enable_swipe_volume_summary_on">"Зміну гучності жестом увімкнено."</string>
     <string name="revanced_enable_swipe_volume_summary_off">Зміну гучності жестом вимкнено.</string>
     <string name="revanced_enable_save_and_restore_brightness_title">Увімкнути збереження та відновлення яскравості</string>
     <string name="revanced_enable_save_and_restore_brightness_summary_on">Зберігається та відновлюється яскравість при переході з/до повноекранного режиму.</string>
@@ -1609,10 +1609,11 @@
     <string name="revanced_swipe_gestures_lock_mode_title">Жести переміщення в режимі \'Блокування екрана\'</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_on">Жести переміщення увімкнено в режимі \'Блокування екрана\'.</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_off">Жести переміщення вимкнено в режимі \'Блокування екрана\'.</string>
-    <string name="revanced_swipe_overlay_background_alpha_title">Видимість фону при жесті</string>
-    <string name="revanced_swipe_overlay_background_alpha_summary">Видимість фону панелі при жесті</string>
     <string name="revanced_swipe_magnitude_threshold_title">Поріг величини жесту</string>
     <string name="revanced_swipe_magnitude_threshold_summary">Мінімальна амплітуда руху, що розпізнається як жест</string>
+    <string name="revanced_swipe_overlay_alternative_ui_title">Альтернативний інтерфейс жесту</string>
+    <string name="revanced_swipe_overlay_alternative_ui_summary_on">Використовується альтернативний інтерфейс.</string>
+    <string name="revanced_swipe_overlay_alternative_ui_summary_off">Використовується старий інтерфейс.</string>
     <string name="revanced_swipe_overlay_text_size_title">Розмір шрифту панелі</string>
     <string name="revanced_swipe_overlay_text_size_summary">Розмір шрифту в панелі при жесті</string>
     <string name="revanced_swipe_overlay_rect_size_title">Розмір екрана накладки проведення</string>
@@ -1909,6 +1910,7 @@
     <string name="revanced_sb_vote_downvote">Проголосувати «проти»</string>
     <string name="revanced_sb_vote_category">Змінити категорію</string>
     <string name="revanced_sb_vote_no_segments">Немає сегментів для голосування</string>
+    <!-- A segment start and end time, such as "02:10 to 03:40" -->
     <string name="revanced_sb_new_segment_choose_category">Вибрати категорію сегмента</string>
     <string name="revanced_sb_new_segment_disabled_category">Категорія вимкнена у налаштуваннях. Увімкніть категорію, щоб надіслати.</string>
     <string name="revanced_sb_new_segment_title">Новий сегмент Спонсорблок</string>
@@ -2024,8 +2026,6 @@
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr_no_auth">"Android VR
 <small>(Без авторизації)</small>"</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
-<small>(Потрібен PoToken)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
 <small>(Потрібна авторизація)</small>"</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Побічні ефекти імітування</string>
@@ -2033,7 +2033,6 @@
 • Стабілізація гучності недоступна.
 • Вимкнення примусових авто звукових доріжок недоступне.
 • Відео для дітей можуть не відтворюватися коли вийшли з системи або в анонімному режимі."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• Можуть бути проблеми з відтворенням (Потрібен PoToken).</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• Стабілізація гучності недоступна.
 • Фільми та платні відео можуть не відтворюватися.
 • Відео для дітей можуть не відтворюватися коли вийшли з системи або в анонімному режимі."</string>

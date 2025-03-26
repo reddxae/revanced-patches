@@ -19,16 +19,16 @@
     <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s 가 설치되어 있지 않습니다.
 웹사이트에서 %2$s 를 다운로드하세요."</string>
     <string name="revanced_external_downloader_not_installed_warning">%s가 설치되지 않았습니다. 설치하세요.</string>
-    <string name="revanced_queue_manager_add_to_queue">현재 재생목록에 추가하기</string>
+    <string name="revanced_queue_manager_add_to_queue">현재 재생목록에 추가</string>
     <string name="revanced_queue_manager_add_to_queue_and_open_queue">현재 재생목록에 추가하고 현재 재생목록 열기</string>
-    <string name="revanced_queue_manager_add_to_queue_and_play_video">현재 재생목록에 추가하고 동영상 재생하기</string>
+    <string name="revanced_queue_manager_add_to_queue_and_play_video">현재 재생목록에 추가하고 동영상 재생</string>
     <string name="revanced_queue_manager_external_downloader">외부 다운로더</string>
     <string name="revanced_queue_manager_open_queue">현재 재생목록 열기</string>
     <string name="revanced_queue_manager_queue">현재 재생목록</string>
-    <string name="revanced_queue_manager_remove_from_queue">현재 재생목록에서 제거하기</string>
+    <string name="revanced_queue_manager_remove_from_queue">현재 재생목록에서 제거</string>
     <string name="revanced_queue_manager_remove_from_queue_and_open_queue">현재 재생목록에서 제거하고 현재 재생목록 열기</string>
-    <string name="revanced_queue_manager_remove_queue">현재 재생목록 제거하기</string>
-    <string name="revanced_queue_manager_save_queue">현재 재생목록 저장하기</string>
+    <string name="revanced_queue_manager_remove_queue">현재 재생목록 제거</string>
+    <string name="revanced_queue_manager_save_queue">현재 재생목록 저장</string>
     <string name="revanced_queue_manager_user_dialog_message">"외부 다운로더가 아닌 현재 재생목록 관리자 다이얼로그를 실행할 수 있습니다.
 
 시스템 네비게이션 바에서 '뒤로 가기' 버튼을 길게 눌러서 현재 재생목록 관리자를 실행할 수도 있습니다.
@@ -51,115 +51,115 @@
     <string name="revanced_queue_manager_fetch_succeeded_save">현재 재생목록을 \'%s\'에 성공적으로 저장하였습니다.</string>
     <string name="revanced_language_title">RVX 언어</string>
     <string name="revanced_language_DEFAULT">앱 언어</string>
-    <string name="revanced_language_AM">"Amharic
+    <string name="revanced_language_AM">"암하라어
 <small>አማርኛ</small>"</string>
-    <string name="revanced_language_AR">"Arabic
+    <string name="revanced_language_AR">"아랍어
 <small>العربية</small>"</string>
-    <string name="revanced_language_AZ">"Azerbaijani
+    <string name="revanced_language_AZ">"아제르바이잔어
 <small>Azərbaycan</small>"</string>
-    <string name="revanced_language_BE">"Belarusian
+    <string name="revanced_language_BE">"벨라루스어
 <small>беларуская</small>"</string>
-    <string name="revanced_language_BG">"Bulgarian
+    <string name="revanced_language_BG">"불가리아어
 <small>Български</small>"</string>
-    <string name="revanced_language_BN">"Bengali
+    <string name="revanced_language_BN">"뱅골어
 <small>বাংলা</small>"</string>
-    <string name="revanced_language_CA">"Catalan
+    <string name="revanced_language_CA">"카탈로니아어
 <small>Català</small>"</string>
-    <string name="revanced_language_CS">"Czech
+    <string name="revanced_language_CS">"체코어
 <small>Čeština</small>"</string>
-    <string name="revanced_language_DA">"Danish
+    <string name="revanced_language_DA">"덴마크어
 <small>Dansk</small>"</string>
-    <string name="revanced_language_DE">"German
+    <string name="revanced_language_DE">"독일어
 <small>Deutsch</small>"</string>
-    <string name="revanced_language_EL">"Greek
+    <string name="revanced_language_EL">"그리스어
 <small>Ελληνικά</small>"</string>
-    <string name="revanced_language_EN">"English
+    <string name="revanced_language_EN">"영어
 <small>English</small>"</string>
-    <string name="revanced_language_ES">"Spanish
+    <string name="revanced_language_ES">"스페인어
 <small>Español</small>"</string>
-    <string name="revanced_language_ET">"Estonian
+    <string name="revanced_language_ET">"에스토니아어
 <small>Eesti</small>"</string>
-    <string name="revanced_language_FA">"Persian
+    <string name="revanced_language_FA">"페르시아어
 <small>فارسی</small>"</string>
-    <string name="revanced_language_FI">"Finnish
+    <string name="revanced_language_FI">"핀란드어
 <small>Suomi</small>"</string>
-    <string name="revanced_language_FR">"French
+    <string name="revanced_language_FR">"프랑스어
 <small>Français</small>"</string>
-    <string name="revanced_language_GU">"Gujarati
+    <string name="revanced_language_GU">"구자라트어
 <small>ગુજરાતી</small>"</string>
-    <string name="revanced_language_HE">"Hebrew
+    <string name="revanced_language_HE">"히브리어
 <small>עברי</small>"</string>
-    <string name="revanced_language_HI">"Hindi
+    <string name="revanced_language_HI">"힌디어
 <small>हिन्दी</small>"</string>
-    <string name="revanced_language_HR">"Croatian
+    <string name="revanced_language_HR">"크로아티아어
 <small>Hrvatski</small>"</string>
-    <string name="revanced_language_HU">"Hungarian
+    <string name="revanced_language_HU">"헝가리어
 <small>Magyar</small>"</string>
-    <string name="revanced_language_ID">"Indonesian
+    <string name="revanced_language_ID">"인도네시아어
 <small>Indonesia</small>"</string>
-    <string name="revanced_language_IT">"Italian
+    <string name="revanced_language_IT">"이탈리아어
 <small>Italiano</small>"</string>
-    <string name="revanced_language_JA">"Japanese
+    <string name="revanced_language_JA">"일본어
 <small>日本語</small>"</string>
-    <string name="revanced_language_KK">"Kazakh
+    <string name="revanced_language_KK">"카자흐어
 <small>Қазақ тілі</small>"</string>
-    <string name="revanced_language_KO">"Korean
+    <string name="revanced_language_KO">"한국어
 <small>한국어</small>"</string>
-    <string name="revanced_language_LT">"Lithuanian
+    <string name="revanced_language_LT">"리투아니아어
 <small>Lietuvių</small>"</string>
-    <string name="revanced_language_LV">"Latvian
+    <string name="revanced_language_LV">"라트비아어
 <small>Latviešu</small>"</string>
-    <string name="revanced_language_MK">"Macedonian
+    <string name="revanced_language_MK">"마케도니아어
 <small>Македонски</small>"</string>
-    <string name="revanced_language_MN">"Mongolian
+    <string name="revanced_language_MN">"몽골어
 <small>Монгол</small>"</string>
-    <string name="revanced_language_MR">"Marathi
+    <string name="revanced_language_MR">"마라티어
 <small>मराठी</small>"</string>
-    <string name="revanced_language_MS">"Malay
+    <string name="revanced_language_MS">"말레이어
 <small>Melayu</small>"</string>
-    <string name="revanced_language_MY">"Burmese
+    <string name="revanced_language_MY">"버마어
 <small>ဗမာ</small>"</string>
-    <string name="revanced_language_NL">"Dutch
+    <string name="revanced_language_NL">"네덜란드어
 <small>Nederlands</small>"</string>
-    <string name="revanced_language_OR">"Odia
+    <string name="revanced_language_OR">"오리야어
 <small>ଓଡ଼ିଆ</small>"</string>
-    <string name="revanced_language_PA">"Punjabi
+    <string name="revanced_language_PA">"펀잡어
 <small>ਪੰਜਾਬੀ</small>"</string>
-    <string name="revanced_language_PL">"Polish
+    <string name="revanced_language_PL">"폴란드어
 <small>Polski</small>"</string>
-    <string name="revanced_language_PT">"Portuguese
+    <string name="revanced_language_PT">"포르투갈어
 <small>Português</small>"</string>
-    <string name="revanced_language_RO">"Romanian
+    <string name="revanced_language_RO">"루마니아어
 <small>Română</small>"</string>
-    <string name="revanced_language_RU">"Russian
+    <string name="revanced_language_RU">"러시아어
 <small>Русский</small>"</string>
-    <string name="revanced_language_SK">"Slovak
+    <string name="revanced_language_SK">"슬로바키아어
 <small>Slovenčina</small>"</string>
-    <string name="revanced_language_SQ">"Albanian
+    <string name="revanced_language_SQ">"알바니아어
 <small>Shqip</small>"</string>
-    <string name="revanced_language_SL">"Slovene
+    <string name="revanced_language_SL">"슬로베니아어
 <small>Slovenščina</small>"</string>
-    <string name="revanced_language_SR">"Serbian
+    <string name="revanced_language_SR">"세르비아어
 <small>Српски</small>"</string>
-    <string name="revanced_language_SV">"Swedish
+    <string name="revanced_language_SV">"스웨덴어
 <small>Svenska</small>"</string>
-    <string name="revanced_language_SW">"Swahili
+    <string name="revanced_language_SW">"스와힐리어
 <small>Kiswahili</small>"</string>
-    <string name="revanced_language_TA">"Tamil
+    <string name="revanced_language_TA">"타밀어
 <small>தமிழ்</small>"</string>
-    <string name="revanced_language_TE">"Telugu
+    <string name="revanced_language_TE">"텔루구어
 <small>తెలుగు</small>"</string>
-    <string name="revanced_language_TH">"Thai
+    <string name="revanced_language_TH">"태국어
 <small>ไทย</small>"</string>
-    <string name="revanced_language_TR">"Turkish
+    <string name="revanced_language_TR">"터키어
 <small>Türkçe</small>"</string>
-    <string name="revanced_language_UK">"Ukrainian
+    <string name="revanced_language_UK">"우크라이나어
 <small>Українська</small>"</string>
-    <string name="revanced_language_UR">"Urdu
+    <string name="revanced_language_UR">"우르두어
 <small>اردو</small>"</string>
-    <string name="revanced_language_VI">"Vietnamese
+    <string name="revanced_language_VI">"베트남어
 <small>Tiếng Việt</small>"</string>
-    <string name="revanced_language_ZH">"Chinese
+    <string name="revanced_language_ZH">"중국어
 <small>中文</small>"</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">광고</string>
@@ -486,9 +486,6 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_disable_splash_animation_title">스플래시 애니메이션 비활성화하기</string>
     <string name="revanced_disable_splash_animation_summary_on">앱을 시작할 때, 스플래시 애니메이션을 비활성화합니다.</string>
     <string name="revanced_disable_splash_animation_summary_off">앱을 시작할 때, 스플래시 애니메이션을 활성화합니다.</string>
-    <string name="revanced_disable_translucent_status_bar_title">반투명 상태바 비활성화하기</string>
-    <string name="revanced_disable_translucent_status_bar_summary_on">상태바가 불투명합니다.</string>
-    <string name="revanced_disable_translucent_status_bar_summary_off">상태바가 불투명하거나 반투명합니다.</string>
     <string name="revanced_enable_gradient_loading_screen_title">그라데이션 색상 로딩 화면 활성화하기</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">그라데이션 색상 로딩 화면을 활성화합니다.</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">그라데이션 색상 로딩 화면을 비활성화합니다.</string>
@@ -535,6 +532,10 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
 • 보관함 탭이 사용됩니다.
 • 동영상 설명에서 음악 섹션이 작동되지 않을 수 있습니다.
 • 보관함 탭에서 계정 전환 버튼이 표시되지 않을 수 있습니다. '내 페이지에서 넓은 검색창 활성화하기' 설정을 사용하세요."</string>
+    <string name="revanced_disable_translucent_status_bar_title">반투명 상태바 비활성화하기</string>
+    <string name="revanced_disable_translucent_status_bar_summary_on">상태바가 불투명합니다.</string>
+    <string name="revanced_disable_translucent_status_bar_summary_off">상태바가 불투명하거나 반투명합니다.</string>
+    <string name="revanced_disable_translucent_status_bar_user_dialog_message">Android 12+가 설치되어 있는 일부 제조사 ROM의 경우에는 이 기능을 활성화하면 시스템 네비게이션 바가 투명해질 수 있습니다.</string>
     <string name="revanced_spoof_app_version_title">앱 버전 변경하기</string>
     <string name="revanced_spoof_app_version_summary_on">앱 버전을 변경합니다.</string>
     <string name="revanced_spoof_app_version_summary_off">앱 버전을 변경하지 않습니다.</string>
@@ -588,8 +589,8 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_override_video_download_button_summary_on">기본 동영상 오프라인 저장 버튼으로 외부 다운로더를 실행할 수 있습니다.</string>
     <string name="revanced_override_video_download_button_summary_off">기본 동영상 오프라인 저장 버튼으로 기본 다운로더를 실행할 수 있습니다. (YouTube Premium 기능)</string>
     <string name="revanced_override_video_download_button_queue_manager_title">현재 재생목록 관리자</string>
-    <string name="revanced_override_video_download_button_queue_manager_summary_on">기본 동영상 오프라인 저장 버튼으로 현재 재생목록 관리자를 실행합니다.</string>
-    <string name="revanced_override_video_download_button_queue_manager_summary_off">기본 동영상 오프라인 저장 버튼으로 외부 다운로더를 실행합니다.</string>
+    <string name="revanced_override_video_download_button_queue_manager_summary_on">기본 동영상 오프라인 저장 버튼으로 현재 재생목록 관리자를 실행할 수 있습니다.</string>
+    <string name="revanced_override_video_download_button_queue_manager_summary_off">기본 동영상 오프라인 저장 버튼으로 외부 다운로더를 실행할 수 있습니다.</string>
     <string name="revanced_external_downloader_package_name_playlist_title">재생목록 외부 다운로더 앱 패키지명</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">YTDLnis와 같은 설치된 외부 다운로더 앱 패키지명을 설정하세요.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental flags -->
@@ -1596,10 +1597,10 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_on">전체 화면에서 스와이프하여 밝기가 0이 되면 자동 밝기를 활성화합니다.</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_off">전체 화면에서 스와이프하여 밝기가 0이 되더라도 자동 밝기를 활성화하지 않습니다.</string>
     <string name="revanced_enable_swipe_brightness_title">스와이프 제스처로 밝기 조절 활성화하기</string>
-    <string name="revanced_enable_swipe_brightness_summary_on">전체 화면 왼쪽에서 위로/아래로 스와이프하여 밝기 조절합니다.</string>
+    <string name="revanced_enable_swipe_brightness_summary_on">"전체 화면 왼쪽에서 위로/아래로 스와이프하여 밝기 조절합니다."</string>
     <string name="revanced_enable_swipe_brightness_summary_off">전체 화면 왼쪽에서 위로/아래로 스와이프하여 밝기 조절하지 않습니다.</string>
     <string name="revanced_enable_swipe_volume_title">스와이프 제스처로 볼륨 조절 활성화하기</string>
-    <string name="revanced_enable_swipe_volume_summary_on">전체 화면 오른쪽에서 위로/아래로 스와이프하여 볼륨 조절합니다.</string>
+    <string name="revanced_enable_swipe_volume_summary_on">"전체 화면 오른쪽에서 위로/아래로 스와이프하여 볼륨 조절합니다."</string>
     <string name="revanced_enable_swipe_volume_summary_off">전체 화면 오른쪽에서 위로/아래로 스와이프하여 볼륨 조절하지 않습니다.</string>
     <string name="revanced_enable_save_and_restore_brightness_title">화면 밝기 값 저장 및 복원 활성화하기</string>
     <string name="revanced_enable_save_and_restore_brightness_summary_on">전체 화면에서 나가거나 들어갈 때마다 화면 밝기 값을 저장 및 복원합니다.</string>
@@ -1613,10 +1614,20 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_swipe_gestures_lock_mode_title">잠금 화면에서 스와이프 제스처 활성화하기</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_on">잠금 화면에서 스와이프 제스처를 활성화합니다.</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_off">잠금 화면에서 스와이프 제스처를 비활성화합니다.</string>
-    <string name="revanced_swipe_overlay_background_alpha_title">스와이프 오버레이 배경 투명도</string>
-    <string name="revanced_swipe_overlay_background_alpha_summary">스와이프 오버레이 배경 투명도 값을 지정할 수 있습니다.</string>
     <string name="revanced_swipe_magnitude_threshold_title">스와이프 한계치</string>
     <string name="revanced_swipe_magnitude_threshold_summary">제스처 인식을 위해 얼마나 스와이프를 해야 할지를 지정할 수 있습니다.</string>
+    <string name="revanced_swipe_overlay_alternative_ui_title">스와이프 오버레이 대체 UI</string>
+    <string name="revanced_swipe_overlay_alternative_ui_summary_on">대체 UI를 사용합니다.</string>
+    <string name="revanced_swipe_overlay_alternative_ui_summary_off">기존 UI를 사용합니다.</string>
+    <string name="revanced_swipe_overlay_minimal_style_title">최소화된 스타일 활성화하기</string>
+    <string name="revanced_swipe_overlay_minimal_style_summary_on">최소화된 오버레이 스타일을 활성화합니다.</string>
+    <string name="revanced_swipe_overlay_minimal_style_summary_off">최소화된 오버레이 스타일을 비활성화합니다.</string>
+    <string name="revanced_swipe_show_circular_overlay_title">원형 조절 오버레이 표시하기</string>
+    <string name="revanced_swipe_show_circular_overlay_summary_on">원형 조절 오버레이를 표시합니다.</string>
+    <string name="revanced_swipe_show_circular_overlay_summary_off">바형 조절 오버레이를 표시합니다.</string>
+    <string name="revanced_swipe_overlay_background_opacity_title">스와이프 오버레이 배경 불투명도</string>
+    <string name="revanced_swipe_overlay_background_opacity_summary">스와이프 불투명도 값은 0-100 사이여야 합니다.</string>
+    <string name="revanced_swipe_overlay_background_opacity_invalid_toast">스와이프 불투명도 값은 0-100 사이여야 합니다.</string>
     <string name="revanced_swipe_overlay_text_size_title">스와이프 오버레이 텍스트 크기</string>
     <string name="revanced_swipe_overlay_text_size_summary">스와이프 오버레이 텍스트 크기를 지정할 수 있습니다.</string>
     <string name="revanced_swipe_overlay_rect_size_title">스와이프 오버레이 화면 크기</string>
@@ -1847,6 +1858,7 @@ API Key를 발급받는 방법을 보려면 여기를 누르세요."</string>
     <string name="revanced_sb_skip_showbutton">건너뛰기 버튼 표시하기</string>
     <string name="revanced_sb_skip_seekbaronly">재생바에만 표시하기</string>
     <string name="revanced_sb_skip_ignore">사용 안 함</string>
+    <string name="revanced_sb_color_opacity_label">불투명도:</string>
     <string name="revanced_sb_color_dot_label">색상:</string>
     <string name="revanced_sb_color_changed">설정한 색상을 적용하였습니다.</string>
     <string name="revanced_sb_color_reset">색상을 초기화하였습니다.</string>
@@ -1913,6 +1925,8 @@ API Key를 발급받는 방법을 보려면 여기를 누르세요."</string>
     <string name="revanced_sb_vote_downvote">싫어요</string>
     <string name="revanced_sb_vote_category">카테고리 변경</string>
     <string name="revanced_sb_vote_no_segments">투표할 구간이 없습니다.</string>
+    <!-- A segment start and end time, such as "02:10 to 03:40" -->
+    <string name="revanced_sb_vote_segment_time_to_from">%1$s ~ %2$s</string>
     <string name="revanced_sb_new_segment_choose_category">구간 카테고리를 선택하세요.</string>
     <string name="revanced_sb_new_segment_disabled_category">이 카테고리는 비활성화되어 있습니다. 제출하려면 설정에서 활성화해야 합니다.</string>
     <string name="revanced_sb_new_segment_title">새로운 SponsorBlock 구간</string>
@@ -2032,8 +2046,8 @@ GmsCore 앱 배터리 최적화를 비활성화(제한 없음)하더라도, 배�
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr_no_auth">"Android VR
 <small>(인증 없음)</small>"</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
-<small>(PoToken이 요구됨)</small>"</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_deprecated">"iOS
+<small>(폐기 예정)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
 <small>(로그인이 요구됨)</small>"</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">알려진 문제점</string>
@@ -2044,12 +2058,22 @@ GmsCore 앱 배터리 최적화를 비활성화(제한 없음)하더라도, 배�
 • VR은 Kids // TV는 재생목록과 음악 동영상에서 다른 클라이언트가 사용될 수 있습니다.
 • TV는 AV1 코덱이 지원되지 않습니다.
 • 인증 없음: 사용자 로그인 정보를 사용하지 않음"</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• 동영상 재생 문제가 발생할 수 있습니다 (PoToken이 요구됨).\n• 영화, 유료, 비공개 그리고 연령 제한 동영상에서 다른 클라이언트가 사용될 수 있습니다.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_deprecated">• 서버에서 전체 ASNs/IP 범위를 차단할 수 있습니다.</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• 안정적인 볼륨을 사용할 수 없습니다.
 • 영화 또는 유료 동영상이 재생되지 않을 수 있습니다.
 • 사용자가 로그인을 하지 않았거나 시크릿 모드에서는 Kids 동영상이 재생되지 않을 수 있습니다.
 • 음악 동영상에서 다른 클라이언트가 사용될 수 있습니다.
 • AV1 코덱이 지원되지 않습니다."</string>
+    <string name="revanced_spoof_streaming_data_type_ios_title">iOS 클라이언트 사용하기</string>
+    <string name="revanced_spoof_streaming_data_type_ios_summary_on">"사용 가능한 기본 클라이언트에 iOS 클라이언트가 추가되었습니다.
+
+경고: iOS 클라이언트는 폐기될 예정입니다. 사용 중 발생하는 모든 문제는 사용자의 책임입니다."</string>
+    <string name="revanced_spoof_streaming_data_type_ios_summary_off">사용 가능한 기본 클라이언트에 iOS 클라이언트가 추가되지 않습니다.</string>
+    <string name="revanced_spoof_streaming_data_type_ios_user_dialog_message">"iOS를 사용하여 YouTube API 엔드포인트를 요청할 때는 iOS 기기에서 발급된 Auth Token과 iOSGuard에 의해 발급된 PoTokens가 필요합니다.
+
+즉, iOS를 통한 스트리밍 요청에는 Auth Token과 PoTokens가 모두 누락되며, 서버는 사용자를 봇으로 간주하여 전체 ASN/IP 범위를 차단할 수 있습니다.
+
+당신의 위험을 감수하고 사용하세요!"</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">iOS AVC (H.264) 강제로 활성화하기</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">동영상 코덱을 AVC (H.264)로 강제로 활성화합니다.\n\n• 일부 VP9 코덱 동영상에서 제거되었던 화질 값이 표시될 수 있습니다.\n• 최대 화질 값이 1080p이므로, 초고화질 동영상을 재생할 수 없습니다.\n• HDR 동영상을 재생할 수 없습니다.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">동영상 코덱을 자동으로 결정합니다.\n\n• 예전에 업로드된 동영상을 재생했는데 VP9 코덱 응답을 받았을 경우, 일부 화질값이 제거되어 360p와 1080p(Premium 기능)만 선택가능할 수 있거나 화질 메뉴를 선택불가능할 수 있습니다.</string>
@@ -2067,7 +2091,7 @@ AVC의 최대 화질 값은 1080p이고, OPUS 코덱을 사용불가 및 HDR 동
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">전문 통계에서 표시하기</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">스트리밍 데이터를 가져오는 데 사용되는 클라이언트가 전문 통계에서 표시됩니다.\n\n• 만약 선택한 기본 클라이언트가 재생할 수 없는 동영상을 재생하려하거나 클라이언트 재생 문제가 발생하면, 그 문제를 해결하기 위해 다른 클라이언트가 사용되는 경우도 있기 때문에 전문 통계에서 다르게 표시될 수 있습니다.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">스트리밍 데이터를 가져오는 데 사용되는 클라이언트가 전문 통계에서 숨겨집니다.\n\n• 만약 선택한 기본 클라이언트가 재생할 수 없는 동영상을 재생하려하거나 클라이언트 재생 문제가 발생하면, 그 문제를 해결하기 위해 다른 클라이언트가 사용되는 경우도 있기 때문에 전문 통계에서 다르게 표시될 수 있습니다.</string>
-    <string name="revanced_spoof_streaming_data_language_title">Android VR 기본 오디오 스트림 언어</string>
+    <string name="revanced_spoof_streaming_data_language_title">VR 기본 오디오 스트림 언어</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <string name="revanced_preference_category_po_token_visitor_data">PoToken &amp; VisitorData</string>
     <string name="revanced_spoof_streaming_data_po_token_title">PoToken 등록하기</string>

@@ -482,9 +482,6 @@ Limitación: Es posible que el botón Atrás de la barra de herramientas no func
     <string name="revanced_disable_splash_animation_title">Desactivar animación de bienvenida</string>
     <string name="revanced_disable_splash_animation_summary_on">La animación de bienvenida está desactivada.</string>
     <string name="revanced_disable_splash_animation_summary_off">La animación de bienvenida está activada.</string>
-    <string name="revanced_disable_translucent_status_bar_title">Desactivar barra de estado translúcida</string>
-    <string name="revanced_disable_translucent_status_bar_summary_on">La barra de estado es opaca.</string>
-    <string name="revanced_disable_translucent_status_bar_summary_off">La barra de estado es opaca o translúcida.</string>
     <string name="revanced_enable_gradient_loading_screen_title">Activar pantalla de carga de degradado</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">La pantalla de carga de degradado está activada.</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">La pantalla de carga de degradado está desactivada.</string>
@@ -529,6 +526,10 @@ Los cambios incluyen:
 • Se utiliza la pestaña Biblioteca.
 • La sección Música de la descripción del vídeo puede no funcionar.
 • El botón de cambio de cuenta puede no aparecer en la pestaña Biblioteca. Utilice la función 'Activar barra de búsqueda ancha en la pestaña Tú'."</string>
+    <string name="revanced_disable_translucent_status_bar_title">Desactivar barra de estado translúcida</string>
+    <string name="revanced_disable_translucent_status_bar_summary_on">La barra de estado es opaca.</string>
+    <string name="revanced_disable_translucent_status_bar_summary_off">La barra de estado es opaca o translúcida.</string>
+    <string name="revanced_disable_translucent_status_bar_user_dialog_message">Para algunas ROM de fabricantes que ejecutan Android 12+, activar esta función puede hacer que la barra de navegación del sistema sea transparente.</string>
     <string name="revanced_spoof_app_version_title">Falsificar versión de la app</string>
     <string name="revanced_spoof_app_version_summary_on">Versión falsificada</string>
     <string name="revanced_spoof_app_version_summary_off">Versión no falsificada</string>
@@ -1583,10 +1584,10 @@ No hay márgenes en la parte superior e inferior del reproductor."</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_on">El valor más bajo del gesto de brillo activa el brillo automático.</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_off">El valor más bajo del gesto de brillo no activa el brillo automático.</string>
     <string name="revanced_enable_swipe_brightness_title">Activar gesto de brillo</string>
-    <string name="revanced_enable_swipe_brightness_summary_on">El control del brillo al deslizar está activado.</string>
+    <string name="revanced_enable_swipe_brightness_summary_on">"El control del brillo al deslizar está activado."</string>
     <string name="revanced_enable_swipe_brightness_summary_off">El control del brillo al deslizar está desactivado.</string>
     <string name="revanced_enable_swipe_volume_title">Activar gesto de volumen</string>
-    <string name="revanced_enable_swipe_volume_summary_on">El control del volumen al deslizar está activado.</string>
+    <string name="revanced_enable_swipe_volume_summary_on">"El control del volumen al deslizar está activado."</string>
     <string name="revanced_enable_swipe_volume_summary_off">El control del volumen al deslizar está desactivado.</string>
     <string name="revanced_enable_save_and_restore_brightness_title">Activar guardar y restaurar brillo</string>
     <string name="revanced_enable_save_and_restore_brightness_summary_on">Guarda y restaura el brillo al salir o entrar en pantalla completa.</string>
@@ -1600,10 +1601,20 @@ No hay márgenes en la parte superior e inferior del reproductor."</string>
     <string name="revanced_swipe_gestures_lock_mode_title">Gestos deslizantes en modo \"Bloquear pantalla\"</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_on">Los gestos deslizantes están activados en el modo \"Bloquear pantalla\".</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_off">Los gestos deslizantes están desactivados en el modo \"Bloquear pantalla\".</string>
-    <string name="revanced_swipe_overlay_background_alpha_title">Visibilidad de fondo de deslizamiento</string>
-    <string name="revanced_swipe_overlay_background_alpha_summary">La visibilidad del fondo de superposición de deslizamiento.</string>
     <string name="revanced_swipe_magnitude_threshold_title">Umbral de magnitud de deslizamiento</string>
     <string name="revanced_swipe_magnitude_threshold_summary">La cantidad de umbral para que ocurra el deslizamiento.</string>
+    <string name="revanced_swipe_overlay_alternative_ui_title">Interfaz de usuario alternativa de superposición de deslizamiento</string>
+    <string name="revanced_swipe_overlay_alternative_ui_summary_on">Se utiliza una interfaz de usuario alternativa.</string>
+    <string name="revanced_swipe_overlay_alternative_ui_summary_off">Se utiliza la interfaz de usuario heredada.</string>
+    <string name="revanced_swipe_overlay_minimal_style_title">Activar estilo minimalista</string>
+    <string name="revanced_swipe_overlay_minimal_style_summary_on">El estilo de superposición mínimo está activado.</string>
+    <string name="revanced_swipe_overlay_minimal_style_summary_off">El estilo de superposición mínimo está desactivado.</string>
+    <string name="revanced_swipe_show_circular_overlay_title">Mostrar superposición circular</string>
+    <string name="revanced_swipe_show_circular_overlay_summary_on">La superposición circular está visible.</string>
+    <string name="revanced_swipe_show_circular_overlay_summary_off">La superposición horizontal está visible.</string>
+    <string name="revanced_swipe_overlay_background_opacity_title">Opacidad de fondo de superposición de deslizamiento</string>
+    <string name="revanced_swipe_overlay_background_opacity_summary">Valor de opacidad entre 0-100.</string>
+    <string name="revanced_swipe_overlay_background_opacity_invalid_toast">La opacidad de deslizamiento debe estar entre 0-100.</string>
     <string name="revanced_swipe_overlay_text_size_title">Tamaño del texto de superposición de deslizamiento</string>
     <string name="revanced_swipe_overlay_text_size_summary">El tamaño del texto para la superposición de deslizamiento.</string>
     <string name="revanced_swipe_overlay_rect_size_title">Tamaño de pantalla de superposición deslizante</string>
@@ -1834,6 +1845,7 @@ Toca para ver cómo crear una clave de API."</string>
     <string name="revanced_sb_skip_showbutton">Mostrar botón de omitir</string>
     <string name="revanced_sb_skip_seekbaronly">Mostrar en barra de progreso</string>
     <string name="revanced_sb_skip_ignore">Desactivado</string>
+    <string name="revanced_sb_color_opacity_label">Opacidad:</string>
     <string name="revanced_sb_color_dot_label">Color:</string>
     <string name="revanced_sb_color_changed">Color cambiado.</string>
     <string name="revanced_sb_color_reset">Color restablecido.</string>
@@ -1900,6 +1912,8 @@ Toca para ver cómo crear una clave de API."</string>
     <string name="revanced_sb_vote_downvote">Voto negativo</string>
     <string name="revanced_sb_vote_category">Cambiar categoría</string>
     <string name="revanced_sb_vote_no_segments">No hay segmentos por los cuales votar.</string>
+    <!-- A segment start and end time, such as "02:10 to 03:40" -->
+    <string name="revanced_sb_vote_segment_time_to_from">De %1$s a %2$s</string>
     <string name="revanced_sb_new_segment_choose_category">Selecciona la categoría del segmento</string>
     <string name="revanced_sb_new_segment_disabled_category">La categoría está desactivada en los ajustes. Activa la categoría para enviar.</string>
     <string name="revanced_sb_new_segment_title">Nuevo segmento de SponsorBlock</string>
@@ -2017,8 +2031,8 @@ Pulsa el botón de continuar y desactiva las optimizaciones de la batería."</st
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr_no_auth">"Android VR
 <small>(Sin autentificación)</small>"</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
-<small>(PoToken requerido)</small>"</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_deprecated">"iOS
+<small>(Obsoleto)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
 <small>(Inicio de sesión requerido)</small>"</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Efectos secundarios de falsificación</string>
@@ -2026,9 +2040,19 @@ Pulsa el botón de continuar y desactiva las optimizaciones de la batería."</st
 • El volumen estable no está disponible.
 • Desactivar pistas de audio automáticas forzadas no está disponible.
 • Es posible que los vídeos infantiles no se reproduzcan al cerrar la sesión o en modo incógnito."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• Puede haber problemas de reproducción (PoToken requerido).</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_deprecated">• El servidor puede bloquear ASN/rangos de IP completos.</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• Es posible que las películas o los vídeos de pago no se reproduzcan.
 • Es posible que los vídeos infantiles no se reproduzcan al cerrar la sesión o en modo incógnito."</string>
+    <string name="revanced_spoof_streaming_data_type_ios_title">Utilizar cliente iOS</string>
+    <string name="revanced_spoof_streaming_data_type_ios_summary_on">"El cliente iOS se ha añadido a los clientes disponibles.
+
+ADVERTENCIA: El cliente iOS está obsoleto. Cualquier problema que surja al utilizarlo es bajo tu propia responsabilidad."</string>
+    <string name="revanced_spoof_streaming_data_type_ios_summary_off">El cliente iOS no se ha añadido a los clientes disponibles.</string>
+    <string name="revanced_spoof_streaming_data_type_ios_user_dialog_message">"Al solicitar puntos finales de la API de YouTube mediante iOS, necesitarás los tokens de autenticación emitidos por el dispositivo iOS y los PoTokens emitidos por iOSGuard.
+
+Esto significa que las solicitudes de streaming a través de iOS carecerán tanto de los tokens de autenticación como de los PoTokens, y el servidor puede considerar al usuario como un bot y bloquear todo el rango ASN/IP.
+
+¡UTILÍZALO BAJO TU PROPIO RIESGO!"</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Forzar iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">El códec de vídeo es AVC (H.264).</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">El códec de vídeo se determina automáticamente.</string>

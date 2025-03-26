@@ -173,13 +173,13 @@ Ograniczenia:
     <string name="revanced_hide_samples_shelf_title">Ukryj półkę z samplami</string>
     <string name="revanced_hide_samples_shelf_summary">Ukrywa półke z samplami na stronie głównej.</string>
     <string name="revanced_hide_search_button_title">Ukryj przycisk wyszukiwania</string>
-    <string name="revanced_hide_search_button_summary">Ukrywa przycisk wyszukiwania w pasku narzędzi.</string>
+    <string name="revanced_hide_search_button_summary">Ukrywa przycisk wyszukiwania z paska narzędzi.</string>
     <string name="revanced_hide_sound_search_button_title">Ukryj przycisk od rozpoznawania piosenek</string>
-    <string name="revanced_hide_sound_search_button_summary">Ukrywa przycisk od rozpoznawania piosenek w pasku wyszukiwania.</string>
+    <string name="revanced_hide_sound_search_button_summary">Ukrywa przycisk od rozpoznawania piosenek z paska wyszukiwania.</string>
     <string name="revanced_hide_tap_to_update_button_title">Ukryj przycisk \'Stuknij, aby zaktualizować\'</string>
     <string name="revanced_hide_tap_to_update_button_summary">Ukrywa przycisk \'Stuknij, aby zaktualizować\'.</string>
     <string name="revanced_hide_voice_search_button_title">Ukryj przycisk od wyszukiwania głosowego</string>
-    <string name="revanced_hide_voice_search_button_summary">Ukrywa przycisk od wyszukiwania głosowego w pasku wyszukiwania.</string>
+    <string name="revanced_hide_voice_search_button_summary">Ukrywa przycisk od wyszukiwania głosowego z paska wyszukiwania.</string>
     <string name="revanced_restore_old_style_library_shelf_title">Włącz stary styl półek biblioteki</string>
     <string name="revanced_restore_old_style_library_shelf_summary">Przywraca zakładkę biblioteki do starego stylu. (Eksperymentalne)</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">Usuń okno dialogowe treści ograniczonej do oglądania</string>

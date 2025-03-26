@@ -25,7 +25,7 @@
     <string name="revanced_hide_action_button_like_dislike_title">Ocultar botones Me gusta y No me gusta</string>
     <string name="revanced_hide_action_button_like_dislike_summary">Oculta los botones \"Me gusta\" y \"no me gusta\". No funciona en el diseño del reproductor antiguo.</string>
     <string name="revanced_hide_action_button_comment_title">Ocultar botón de comentarios</string>
-    <string name="revanced_hide_action_button_comment_summary">Oculta botón de comentarios.</string>
+    <string name="revanced_hide_action_button_comment_summary">Oculta el botón de comentarios.</string>
     <string name="revanced_hide_action_button_add_to_playlist_title">Ocultar botón Guardar</string>
     <string name="revanced_hide_action_button_add_to_playlist_summary">Oculta botón Guardar.</string>
     <string name="revanced_hide_action_button_download_title">Ocultar botón Descargar</string>
@@ -170,6 +170,8 @@ Problemas conocidos:
     <string name="revanced_hide_playlist_card_shelf_summary">Oculta la tarjeta de lista de reproducción del feed.</string>
     <string name="revanced_hide_samples_shelf_title">Ocultar estante de Samples</string>
     <string name="revanced_hide_samples_shelf_summary">Oculta estante de Samples en el feed.</string>
+    <string name="revanced_hide_search_button_title">Ocultar botón de búsqueda</string>
+    <string name="revanced_hide_search_button_summary">Oculta el botón de búsqueda en la barra de herramientas.</string>
     <string name="revanced_hide_sound_search_button_title">Ocultar botón de búsqueda de sonido</string>
     <string name="revanced_hide_sound_search_button_summary">Oculta el botón de búsqueda de sonido en la barra de búsqueda.</string>
     <string name="revanced_hide_tap_to_update_button_title">Ocultar el botón Toque para actualizar</string>
@@ -211,6 +213,8 @@ Esto no evita la restricción de edad. Solo la acepta automáticamente."</string
     <string name="revanced_hide_navigation_bar_summary">Oculta barra de navegación.</string>
     <string name="revanced_hide_navigation_label_title">Ocultar etiquetas en barra de navegación</string>
     <string name="revanced_hide_navigation_label_summary">Oculta las etiquetas en la barra de navegación.</string>
+    <string name="revanced_replace_navigation_button_about_summary">"Esta característica es experimental.
+Hay limitaciones estructurales en el parcheo, actividades tales como Buscar y Ajustes en YouTube Music no son públicas."</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Reproductor</string>
     <string name="revanced_add_miniplayer_next_button_title">Añade un botón de siguiente al minireproductor</string>

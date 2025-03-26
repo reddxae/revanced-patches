@@ -19,6 +19,38 @@
     <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s не установлен.
 Пожалуйста, скачайте %2$s с сайта."</string>
     <string name="revanced_external_downloader_not_installed_warning">%s не установлен. Установите его.</string>
+    <string name="revanced_queue_manager_add_to_queue">Добавить в очередь</string>
+    <string name="revanced_queue_manager_add_to_queue_and_open_queue">Добавить в очередь и открыть очередь</string>
+    <string name="revanced_queue_manager_add_to_queue_and_play_video">Добавить в очередь и воспроизвести видео</string>
+    <string name="revanced_queue_manager_external_downloader">Внешний загрузчик</string>
+    <string name="revanced_queue_manager_open_queue">Открыть очередь</string>
+    <string name="revanced_queue_manager_queue">Очередь</string>
+    <string name="revanced_queue_manager_remove_from_queue">Удалить из очереди</string>
+    <string name="revanced_queue_manager_remove_from_queue_and_open_queue">Удалить из очереди и открыть очередь</string>
+    <string name="revanced_queue_manager_remove_queue">Удалить очередь</string>
+    <string name="revanced_queue_manager_save_queue">Сохранить очередь</string>
+    <string name="revanced_queue_manager_user_dialog_message">"Вместо открытия внешнего загрузчика открывается диалог управления очередью.
+
+Также можно открыть управление нажатием и удерживанием кнопки назад на панели навигации.
+
+Эта функция все ещё находится в процессе разработки, поэтому большинство функций не работает.
+
+Пожалуйста, используйте её только для отладки."</string>
+    <string name="revanced_queue_manager_check_failed_auth">Требуется авторизация</string>
+    <string name="revanced_queue_manager_check_failed_generic">Управление очередью недоступно (%s).</string>
+    <string name="revanced_queue_manager_check_failed_playlist_id">Не удалось идентифицировать список воспроизведения</string>
+    <string name="revanced_queue_manager_check_failed_queue">Очередь пустая</string>
+    <string name="revanced_queue_manager_check_failed_video_id">Не удалось идентифицировать видео</string>
+    <string name="revanced_queue_manager_fetch_failed_add">Не удалось добавить видео.</string>
+    <string name="revanced_queue_manager_fetch_failed_create">Не удалось создать очередь.</string>
+    <string name="revanced_queue_manager_fetch_failed_delete">Не удалось удалить очередь.</string>
+    <string name="revanced_queue_manager_fetch_failed_remove">Не удалось удалить видео.</string>
+    <string name="revanced_queue_manager_fetch_failed_save">Не удалось сохранить очередь.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_add">Видео добавлено успешно.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_create">Очередь создана успешно.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_delete">Очередь удалена успешно.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_remove">Видео удалено успешно.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_save">Очередь была успешно сохранена до: \'%s\'.</string>
     <string name="revanced_language_title">Язык RVX</string>
     <string name="revanced_language_DEFAULT">Язык приложения</string>
     <string name="revanced_language_AM">"Амхарский
@@ -463,9 +495,6 @@ Shorts
     <string name="revanced_disable_splash_animation_title">Анимированная заставка</string>
     <string name="revanced_disable_splash_animation_summary_on">Анимированная заставка отключена.</string>
     <string name="revanced_disable_splash_animation_summary_off">Анимированная заставка включена.</string>
-    <string name="revanced_disable_translucent_status_bar_title">Полупрозрачность строки состояния</string>
-    <string name="revanced_disable_translucent_status_bar_summary_on">Полупрозрачность включена.</string>
-    <string name="revanced_disable_translucent_status_bar_summary_off">Полупрозрачность отключена.</string>
     <string name="revanced_enable_gradient_loading_screen_title">Переливающийся экран загрузки</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">Переливающийся экран загрузки включен.</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">Переливающийся экран загрузки отключен.</string>
@@ -509,6 +538,9 @@ Shorts
 • Используется вкладка Библиотека.
 • Секция Музыка в описании видео может не работать.
 • Кнопка переключения аккаунта может не появляться во вкладке Библиотека. Используйте настройки 'Включить широкую панель поиска на вкладке Вы'."</string>
+    <string name="revanced_disable_translucent_status_bar_title">Полупрозрачность строки состояния</string>
+    <string name="revanced_disable_translucent_status_bar_summary_on">Полупрозрачность включена.</string>
+    <string name="revanced_disable_translucent_status_bar_summary_off">Полупрозрачность отключена.</string>
     <string name="revanced_spoof_app_version_title">Подмена версии приложения</string>
     <string name="revanced_spoof_app_version_summary_on">Версия приложения подменена</string>
     <string name="revanced_spoof_app_version_summary_off">Версия приложения не подменена</string>
@@ -565,6 +597,9 @@ Shorts
     <string name="revanced_override_video_download_button_title">Действие кнопки \"Скачать\" для видео</string>
     <string name="revanced_override_video_download_button_summary_on">Кнопка \"Скачать\" открывает внешний загрузчик.</string>
     <string name="revanced_override_video_download_button_summary_off">Кнопка \"Скачать\" использует внутренний загрузчик.</string>
+    <string name="revanced_override_video_download_button_queue_manager_title">Управление очередью</string>
+    <string name="revanced_override_video_download_button_queue_manager_summary_on">Кнопка загрузки видео открывает управление очередью.</string>
+    <string name="revanced_override_video_download_button_queue_manager_summary_off">Кнопка загрузки видео открывает внешний загрузчик.</string>
     <string name="revanced_external_downloader_package_name_playlist_title">Внешний загрузчик для плейлиста, название пакета</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">Например: NewPipe или YTDLnis, или др. (Для плейлиста).</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental flags -->
@@ -1200,6 +1235,8 @@ Shorts
     <string name="revanced_overlay_button_mute_volume_summary">Нажатия кнопки, отключает/включает звук текущего видео.</string>
     <string name="revanced_overlay_button_external_downloader_title">Кнопка внешний загрузчик</string>
     <string name="revanced_overlay_button_external_downloader_summary">Запустить внешний загрузчик.</string>
+    <string name="revanced_overlay_button_external_downloader_queue_manager_title">Управление очередью</string>
+    <string name="revanced_overlay_button_external_downloader_queue_manager_summary">Вместо запуска внешнего загрузчика открывается управление очередью.</string>
     <string name="revanced_overlay_button_speed_dialog_title">Кнопка скорости воспроизведения</string>
     <string name="revanced_overlay_button_speed_dialog_summary">"Нажать - открытие окна скорости.
 Нажать и удерживать - скорость воспроизведения в 1.0x."</string>
@@ -1570,10 +1607,10 @@ Shorts
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_on">При снижении яркости жестом до минимума активируется автояркость.</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_off">При снижении яркости жестом до минимума автояркость не активируется.</string>
     <string name="revanced_enable_swipe_brightness_title">Управление яркостью жестом</string>
-    <string name="revanced_enable_swipe_brightness_summary_on">Управление яркостью жестом включено.</string>
+    <string name="revanced_enable_swipe_brightness_summary_on">"Управление яркостью жестом включено."</string>
     <string name="revanced_enable_swipe_brightness_summary_off">Управление яркостью жестом отключено.</string>
     <string name="revanced_enable_swipe_volume_title">Управление громкостью жестом</string>
-    <string name="revanced_enable_swipe_volume_summary_on">Громкость жестом включено.</string>
+    <string name="revanced_enable_swipe_volume_summary_on">"Громкость жестом включено."</string>
     <string name="revanced_enable_swipe_volume_summary_off">Громкость жестом отключено.</string>
     <string name="revanced_enable_save_and_restore_brightness_title">Сохранение и восстановление яркости</string>
     <string name="revanced_enable_save_and_restore_brightness_summary_on">Сохранять и восстанавливать яркость при переключениях полного экрана.</string>
@@ -1587,8 +1624,6 @@ Shorts
     <string name="revanced_swipe_gestures_lock_mode_title">Жесты в режиме \"Блокировка экрана\"</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_on">Жесты в режиме \"Блокировка экрана\" включены.</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_off">Жесты в режиме \"Блокировка экрана\" отключены.</string>
-    <string name="revanced_swipe_overlay_background_alpha_title">Видимость фона жестов</string>
-    <string name="revanced_swipe_overlay_background_alpha_summary">Видимость фона наложения при жесте.</string>
     <string name="revanced_swipe_magnitude_threshold_title">Порог величины жеста</string>
     <string name="revanced_swipe_magnitude_threshold_summary">Амплитуда движения распознаваемая как жест.</string>
     <string name="revanced_swipe_overlay_text_size_title">Размер текста при жесте</string>
@@ -1891,6 +1926,7 @@ Shorts
     <string name="revanced_sb_vote_downvote">Проголосовать против</string>
     <string name="revanced_sb_vote_category">Изменить категорию</string>
     <string name="revanced_sb_vote_no_segments">Нет сегментов для голосования.</string>
+    <!-- A segment start and end time, such as "02:10 to 03:40" -->
     <string name="revanced_sb_new_segment_choose_category">Выберите категорию сегмента</string>
     <string name="revanced_sb_new_segment_disabled_category">Эта категория отключена в настройках. Включите ее для отправки сегмента.</string>
     <string name="revanced_sb_new_segment_title">Новый сегмент SponsorBlock</string>
@@ -2009,8 +2045,6 @@ Shorts
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr_no_auth">"Android VR
 <small>(Без автора)</small>"</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
-<small>(Необходим PoToken)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS
 <small>(Необходим вход)</small>"</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Эффекты от подмены</string>
@@ -2018,7 +2052,6 @@ Shorts
 • Стабильная громкость недоступна.
 • Отключить принудительные авто звуковые дорожки недоступна.
 • Детские видео не могут воспроизводиться в режиме инкогнито или выхода."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• Возможно проблемы (требуется PoToken).</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• Фильмы или платные видео могут не воспроизводиться.
 • Детские видео могут не воспроизводиться при выходе из системы или в режиме инкогнито."</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Принудительно iOS, AVC (H.264)</string>

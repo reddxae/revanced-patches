@@ -19,6 +19,38 @@
     <string name="revanced_external_downloader_not_installed_dialog_message">"لم يتم تثبيت %1$s.
 الرجاء تنزيل %2$s من الموقع."</string>
     <string name="revanced_external_downloader_not_installed_warning">%s لم يتم تثبيته. الرجاء تثبيته.</string>
+    <string name="revanced_queue_manager_add_to_queue">إضافة إلى قائمة الانتظار</string>
+    <string name="revanced_queue_manager_add_to_queue_and_open_queue">إضافة إلى قائمة الانتظار وفتح قائمة الانتظار</string>
+    <string name="revanced_queue_manager_add_to_queue_and_play_video">إضافة إلى قائمة الانتظار وتشغيل الفيديو</string>
+    <string name="revanced_queue_manager_external_downloader">أداة التنزيل الخارجي</string>
+    <string name="revanced_queue_manager_open_queue">فتح قائمة الانتظار</string>
+    <string name="revanced_queue_manager_queue">قائمة الإنتظار</string>
+    <string name="revanced_queue_manager_remove_from_queue">إزالة من قائمة الانتظار</string>
+    <string name="revanced_queue_manager_remove_from_queue_and_open_queue">إزالة من قائمة الانتظار وفتح قائمة الانتظار</string>
+    <string name="revanced_queue_manager_remove_queue">إزالة قائمة الانتظار</string>
+    <string name="revanced_queue_manager_save_queue">حفظ قائمة الانتظار</string>
+    <string name="revanced_queue_manager_user_dialog_message">"بدلاً من فتح برنامج تنزيل خارجي، افتح نافذة مدير قائمة الانتظار.
+
+يمكنك أيضًا فتح مدير قائمة الانتظار بالضغط باستمرار على زر الرجوع في شريط التنقل.
+
+هذه الميزة لا تزال قيد التطوير، لذا قد لا تعمل معظم الميزات.
+
+يرجى استخدامها لأغراض تصحيح الأخطاء فقط."</string>
+    <string name="revanced_queue_manager_check_failed_auth">مطلوب تسجيل الدخول</string>
+    <string name="revanced_queue_manager_check_failed_generic">مدير قائمة الانتظار غير متاح (%s).</string>
+    <string name="revanced_queue_manager_check_failed_playlist_id">تعذر التعرف على قائمة التشغيل</string>
+    <string name="revanced_queue_manager_check_failed_queue">قائمة الانتظار فارغة</string>
+    <string name="revanced_queue_manager_check_failed_video_id">تعذر التعرف على الفيديو</string>
+    <string name="revanced_queue_manager_fetch_failed_add">فشل في إضافة الفيديو.</string>
+    <string name="revanced_queue_manager_fetch_failed_create">فشل في إنشاء قائمة الانتظار.</string>
+    <string name="revanced_queue_manager_fetch_failed_delete">فشل في حذف قائمة الانتظار.</string>
+    <string name="revanced_queue_manager_fetch_failed_remove">فشل في إزالة الفيديو.</string>
+    <string name="revanced_queue_manager_fetch_failed_save">فشل في حفظ قائمة الانتظار.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_add">تم إضافة الفيديو بنجاح.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_create">تم إنشاء قائمة الانتظار بنجاح.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_delete">تم حذف قائمة الانتظار بنجاح.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_remove">تم إزالة الفيديو بنجاح.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_save">تم حفظ قائمة الانتظار بنجاح في \'%s\'.</string>
     <string name="revanced_language_title">لغة RVX</string>
     <string name="revanced_language_DEFAULT">لغة التطبيق</string>
     <!-- PreferenceScreen: Ads -->
@@ -343,9 +375,6 @@
     <string name="revanced_disable_splash_animation_title">تعطيل تأثيرات الحركة</string>
     <string name="revanced_disable_splash_animation_summary_on">تم تعطيل تأثيرات الحركة.</string>
     <string name="revanced_disable_splash_animation_summary_off">تم تمكين تأثيرات الحركة.</string>
-    <string name="revanced_disable_translucent_status_bar_title">تعطيل شريط الحالة الشفاف</string>
-    <string name="revanced_disable_translucent_status_bar_summary_on">شريط الحالة غير شفاف.</string>
-    <string name="revanced_disable_translucent_status_bar_summary_off">شريط الحالة معتم أو شفاف.</string>
     <string name="revanced_enable_gradient_loading_screen_title">تمكين شاشة التحميل المتدرجة</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">تم تمكين شاشة التحميل المتدرجة الملونة.</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">تم تعطيل شاشة التحميل المتدرجة الملونة.</string>
@@ -378,6 +407,23 @@
 • فتح فيديوهات Shorts في المشغل العادي.
 • تنظيم الخلاصة حسب المواضيع والقنوات.
 • لا يمكن فتح وصف الفيديو عند إيقاف تشغيل Spoof' Streaming Data'."</string>
+    <string name="revanced_disable_layout_updates_title">تعطيل تحديثات التخطيط</string>
+    <string name="revanced_disable_layout_updates_summary_on">لن يتم تحديث التخطيط بواسطة الخادم.</string>
+    <string name="revanced_disable_layout_updates_summary_off">سيتم تحديث التخطيط بواسطة الخادم.</string>
+    <string name="revanced_disable_layout_updates_user_dialog_message">"يعود تصميم التطبيق إلى التصميم الذي كان عليه عند تثبيته لأول مرة.
+
+قد لا تعود بعض تصميمات الخادم إلى حالتها الأصلية.
+
+تشمل التغييرات ما يلي:
+• قد لا تعمل المكونات في قائمة المشغل المنبثقة (أو الإعدادات ذات الصلة).
+• لا تظهر الأرقام المتحركة.
+• يتم استخدام علامة تبويب المكتبة.
+• قد لا يعمل قسم الموسيقى في وصف الفيديو.
+• قد لا يظهر زر تبديل الحساب في علامة تبويب المكتبة. استخدم إعداد 'تفعيل شريط البحث العريض في علامة التبويب أنت'."</string>
+    <string name="revanced_disable_translucent_status_bar_title">تعطيل شريط الحالة الشفاف</string>
+    <string name="revanced_disable_translucent_status_bar_summary_on">شريط الحالة غير شفاف.</string>
+    <string name="revanced_disable_translucent_status_bar_summary_off">شريط الحالة معتم أو شفاف.</string>
+    <string name="revanced_disable_translucent_status_bar_user_dialog_message">بالنسبة لبعض الـ ROM الخاصة بالشركة المصنعة التي تعمل بنظام Android 12 أو أحدث، قد يؤدي تمكين هذه الميزة إلى جعل شريط التنقل في النظام شفافًا.</string>
     <string name="revanced_spoof_app_version_title">إصدار تطبيق وهمي</string>
     <string name="revanced_spoof_app_version_summary_on">تم تغيير اصدار التطبيق</string>
     <string name="revanced_spoof_app_version_summary_off">لم يتم تغيير اصدار التطبيق</string>
@@ -434,6 +480,9 @@
     <string name="revanced_override_video_download_button_title">تجاوز زر تنزيل الفيديو</string>
     <string name="revanced_override_video_download_button_summary_on">يفتح زر تنزيل الفيديو الأصلي أداة التنزيل الخارجية.</string>
     <string name="revanced_override_video_download_button_summary_off">يفتح زر تنزيل الفيديو أداة التنزيل الأصلية داخل التطبيق.</string>
+    <string name="revanced_override_video_download_button_queue_manager_title">مدير قائمة الانتظار</string>
+    <string name="revanced_override_video_download_button_queue_manager_summary_on">يفتح زر تنزيل الفيديو الأصلي مدير قائمة الانتظار.</string>
+    <string name="revanced_override_video_download_button_queue_manager_summary_off">يفتح زر تنزيل الفيديو الأصلي أداة التنزيل الخارجية لديك.</string>
     <string name="revanced_external_downloader_package_name_playlist_title">اسم حزمة تنزيل قائمة التشغيل</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">اسم الحزمة لتطبيق التنزيل الخارجي المثبت لديك، مثل YTDLnis.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental flags -->
@@ -1065,6 +1114,8 @@
     <string name="revanced_overlay_button_mute_volume_summary">انقر لكتم صوت الفيديو الحالي. انقر مرة أخرى لإلغاء الكتم.</string>
     <string name="revanced_overlay_button_external_downloader_title">عرض زر التنزيل الخارجي</string>
     <string name="revanced_overlay_button_external_downloader_summary">انقر لتشغيل برنامَج التنزيل الخارجي.</string>
+    <string name="revanced_overlay_button_external_downloader_queue_manager_title">مدير قائمة الانتظار</string>
+    <string name="revanced_overlay_button_external_downloader_queue_manager_summary">بدلًا من تشغيل برنامج تنزيل خارجي، افتح مدير قائمة الانتظار.</string>
     <string name="revanced_overlay_button_speed_dialog_title">عرض مربع زر حوار السرعة</string>
     <string name="revanced_overlay_button_speed_dialog_summary">"انقر لفتح مربع حوار السرعة.
 انقر مع الاستمرار لضبط سرعة التشغيل على 1.0x. انقر مع الاستمرار مرة أخرى لإعادة ضبط السرعة الافتراضية."</string>
@@ -1431,10 +1482,14 @@
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_on">أدنى قيمة لإيماءة السطوع تعمل على تنشيط السطوع التلقائي.</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_off">أدنى قيمة لإيماءة السطوع لا تعمل على تنشيط السطوع التلقائي.</string>
     <string name="revanced_enable_swipe_brightness_title">تمكين التحكم بالسطوع عن طريق إيماءة التمرير</string>
-    <string name="revanced_enable_swipe_brightness_summary_on">تم تمكين التحكم بمستوى السطوع عن طريق الإيماءة.</string>
+    <string name="revanced_enable_swipe_brightness_summary_on">"تم تمكين ميزة التمرير السريع لضبط سطوع الشاشة بالكامل.
+ 
+ اضبط السطوع بالتمرير عموديًا على يسار الشاشة."</string>
     <string name="revanced_enable_swipe_brightness_summary_off">تم تعطيل التحكم بمستوى السطوع عن طريق الإيماءة.</string>
     <string name="revanced_enable_swipe_volume_title">تمكين التحكم بالصوت عن طريق إيماءة التمرير</string>
-    <string name="revanced_enable_swipe_volume_summary_on">تم تمكين التحكم بمستوى الصوت عن طريق الإيماءة.</string>
+    <string name="revanced_enable_swipe_volume_summary_on">"تم تمكين ميزة التمرير على كامل الشاشة للتحكم في مستوى الصوت.
+
+اضبط مستوى الصوت بالتمرير عموديًا على يمين الشاشة."</string>
     <string name="revanced_enable_swipe_volume_summary_off">تم تعطيل التحكم بمستوى الصوت عن طريق الإيماءة.</string>
     <string name="revanced_enable_save_and_restore_brightness_title">تمكين حفظ واستعادة السطوع</string>
     <string name="revanced_enable_save_and_restore_brightness_summary_on">حفظ واستعادة السطوع عند الخروج أو الدخول إلى وضع ملء الشاشة.</string>
@@ -1448,10 +1503,20 @@
     <string name="revanced_swipe_gestures_lock_mode_title">إيماءات التمرير في وضع قفل الشاشة</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_on">تم تمكين إيماءات التمرير في وضع شاشة القفل.</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_off">تم تعطيل إيماءات التمرير في وضع شاشة القفل.</string>
-    <string name="revanced_swipe_overlay_background_alpha_title">شفافية خلفية واجهة إيماءة التمرير</string>
-    <string name="revanced_swipe_overlay_background_alpha_summary">شفافية خلفية واجهة التمرير.</string>
     <string name="revanced_swipe_magnitude_threshold_title">مقدار حد التمرير</string>
     <string name="revanced_swipe_magnitude_threshold_summary">الحد الأقصى للتمرير قبل اكتشاف الإيماءة.</string>
+    <string name="revanced_swipe_overlay_alternative_ui_title">واجهة التمرير السريع البديلة</string>
+    <string name="revanced_swipe_overlay_alternative_ui_summary_on">يتم استخدام واجهة المستخدم البديلة.</string>
+    <string name="revanced_swipe_overlay_alternative_ui_summary_off">يتم استخدام واجهة المستخدم القديمة.</string>
+    <string name="revanced_swipe_overlay_minimal_style_title">تمكين النمط البسيط</string>
+    <string name="revanced_swipe_overlay_minimal_style_summary_on">تم تمكين نمط الواجهة البسيط.</string>
+    <string name="revanced_swipe_overlay_minimal_style_summary_off">تم تعطيل نمط الواجهة الأدنى.</string>
+    <string name="revanced_swipe_show_circular_overlay_title">عرض الواجهة الدائرية</string>
+    <string name="revanced_swipe_show_circular_overlay_summary_on">يتم عرض الواجهة الدائرية.</string>
+    <string name="revanced_swipe_show_circular_overlay_summary_off">يتم عرض الواجهة الأفقية.</string>
+    <string name="revanced_swipe_overlay_background_opacity_title">تعتيم خلفية واجهة التمرير السريع</string>
+    <string name="revanced_swipe_overlay_background_opacity_summary">قيمة الشفافية بين 0-100.</string>
+    <string name="revanced_swipe_overlay_background_opacity_invalid_toast">يجب أن تكون شفافية التمرير بين 0-100.</string>
     <string name="revanced_swipe_overlay_text_size_title">حجم نص واجهة إيماءة التمرير</string>
     <string name="revanced_swipe_overlay_text_size_summary">حجم النص في واجهة التمرير.</string>
     <string name="revanced_swipe_overlay_rect_size_title">حجم واجهة إيماءة التمرير</string>
@@ -1684,6 +1749,7 @@
     <string name="revanced_sb_skip_showbutton">عرض زر التخطي</string>
     <string name="revanced_sb_skip_seekbaronly">عرض في شريط تقدم الفيديو</string>
     <string name="revanced_sb_skip_ignore">تعطيل</string>
+    <string name="revanced_sb_color_opacity_label">الشفافية:</string>
     <string name="revanced_sb_color_dot_label">اللون:</string>
     <string name="revanced_sb_color_changed">تم تغيير اللون.</string>
     <string name="revanced_sb_color_reset">إعادة ضبط اللون.</string>
@@ -1750,6 +1816,8 @@
     <string name="revanced_sb_vote_downvote">اعتراض</string>
     <string name="revanced_sb_vote_category">تغيير الفئة</string>
     <string name="revanced_sb_vote_no_segments">لا توجد مقاطع للتصويت عليها.</string>
+    <!-- A segment start and end time, such as "02:10 to 03:40" -->
+    <string name="revanced_sb_vote_segment_time_to_from">%1$s إلى %2$s</string>
     <string name="revanced_sb_new_segment_choose_category">اختر فئة المقطع</string>
     <string name="revanced_sb_new_segment_disabled_category">الفئة معطلة في الإعدادات. تمكين الفئة للإرسال.</string>
     <string name="revanced_sb_new_segment_title">مقطع SponsorBlock جديد</string>
@@ -1869,8 +1937,8 @@
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr_no_auth">"Android VR
 <small>(بدون مصادقة)</small>"</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
-<small>(يتطلب PoToken)</small>"</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_deprecated">"iOS
+<small>(مُهمَل)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
 <small>(يتطلب تسجيل الدخول)</small>"</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">التأثيرات الجانبية للتزييف</string>
@@ -1878,10 +1946,20 @@
 • مستوى الصوت الثابت غير متاح.
 • لا يتوفر تعطيل المقطع الصوتي التلقائي المفروض.
 • قد لا يتم تشغيل الفيديوهات المخصصة للأطفال عند تسجيل الخروج أو في وضع التصفح المتخفي."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• قد تكون هناك مشكلات في التشغيل (يتطلب PoToken).</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_deprecated">• قد يتم حظر نطاقات ASNs/IP بالكامل بواسطة الخادم.</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• مستوى الصوت الثابت غير متوفر.
 • قد لا يتم تشغيل الأفلام أو الفيديوهات المدفوعة.
 • قد لا يتم تشغيل الفيديوهات المخصصة للأطفال عند تسجيل الخروج أو في وضع التصفح المتخفي."</string>
+    <string name="revanced_spoof_streaming_data_type_ios_title">استخدام عميل iOS</string>
+    <string name="revanced_spoof_streaming_data_type_ios_summary_on">"تمت إضافة عميل iOS إلى العملاء المتاحين.
+
+تحذير: عميل iOS قديم. أي مشاكل قد تظهر أثناء استخدامه تكون على مسؤوليتك الخاصة."</string>
+    <string name="revanced_spoof_streaming_data_type_ios_summary_off">لم يتم إضافة عميل iOS إلى العملاء المتاحين.</string>
+    <string name="revanced_spoof_streaming_data_type_ios_user_dialog_message">"عند طلب YouTube API Endpoints باستخدام iOS، ستحتاج إلى رموز المصادقة الصادرة عن جهاز iOS ورموز PoTokens الصادرة عن iOSGuard.
+
+هذا يعني أن طلبات البث عبر iOS ستفتقد رموز المصادقة ورموز PoTokens، وقد يعتبر الخادم المستخدم برنامجًا آليًا بوت ويحظر نطاق ASN/IP بالكامل.
+
+استخدمه على مسؤوليتك الخاصة!"</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">فرض iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">يتم فرض ترميز الفيديو على AVC (H.264).</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">يتم تحديد ترميز الفيديو تلقائيًا.</string>

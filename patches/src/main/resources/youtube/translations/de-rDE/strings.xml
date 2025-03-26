@@ -1093,10 +1093,10 @@ Bekannte Probleme: Da dies eine Funktion in der Entwicklungsphase von Google ist
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_on">Wenn die Helligkeit durch Wischen 0 erreicht wird, wird die automatische Helligkeit aktiviert.</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_off">Auch wenn die Helligkeit durch Wischen auf 0 gesetzt wird, ist die automatische Helligkeit nicht aktiviert.</string>
     <string name="revanced_enable_swipe_brightness_title">Aktivierung der Helligkeitsgesten</string>
-    <string name="revanced_enable_swipe_brightness_summary_on">Helligkeit Wischen ist aktiviert</string>
+    <string name="revanced_enable_swipe_brightness_summary_on">"Helligkeit Wischen ist aktiviert"</string>
     <string name="revanced_enable_swipe_brightness_summary_off">Helligkeit Wischen ist deaktiviert</string>
     <string name="revanced_enable_swipe_volume_title">Aktiviere Lautstärkegesten</string>
-    <string name="revanced_enable_swipe_volume_summary_on">Lautstärkegeste ist aktiviert</string>
+    <string name="revanced_enable_swipe_volume_summary_on">"Lautstärkegeste ist aktiviert"</string>
     <string name="revanced_enable_swipe_volume_summary_off">Lautstärkegeste ist deaktiviert</string>
     <string name="revanced_enable_swipe_press_to_engage_title">Aktiviere Drücken-zu-Wischgeste</string>
     <string name="revanced_enable_swipe_press_to_engage_summary_on">Berühren und halten, um die Wischgeste zu aktivieren.</string>
@@ -1105,8 +1105,6 @@ Bekannte Probleme: Da dies eine Funktion in der Entwicklungsphase von Google ist
     <string name="revanced_enable_swipe_haptic_feedback_summary_on">Haptisches Feedback ist aktiviert.</string>
     <string name="revanced_enable_swipe_haptic_feedback_summary_off">Haptisches Feedback ist deaktiviert.</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_off">Wischgesten sind im Sperrbildschirmmodus deaktiviert.</string>
-    <string name="revanced_swipe_overlay_background_alpha_title">Wischen Hintergrund Sichtbarkeit</string>
-    <string name="revanced_swipe_overlay_background_alpha_summary">Die Sichtbarkeit des Wischen Overlay-Hintergrunds</string>
     <string name="revanced_swipe_magnitude_threshold_title">Wischgrößen-Schwellenwert</string>
     <string name="revanced_swipe_magnitude_threshold_summary">Der Schwellenwert für das Wischen</string>
     <string name="revanced_swipe_overlay_text_size_title">Wischüberlagerung Textgröße</string>
@@ -1352,6 +1350,7 @@ Einschränkung: Dislikes werden im Inkognito Modus nicht angezeigt."</string>
     <string name="revanced_sb_vote_downvote">Negativ bewerten</string>
     <string name="revanced_sb_vote_category">Kategorie ändern</string>
     <string name="revanced_sb_vote_no_segments">Es gibt keine Segmente zur Abstimmung</string>
+    <!-- A segment start and end time, such as "02:10 to 03:40" -->
     <string name="revanced_sb_new_segment_choose_category">Wähle eine Segmentkategorie aus</string>
     <string name="revanced_sb_new_segment_disabled_category">Category is disabled in settings. Enable category to submit.</string>
     <string name="revanced_sb_new_segment_title">Neues SponsorBlock Segment</string>

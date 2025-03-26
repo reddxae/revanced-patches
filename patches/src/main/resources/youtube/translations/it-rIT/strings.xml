@@ -19,6 +19,38 @@
     <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s non è installato.
 Si prega di scaricare %2$s dal sito web."</string>
     <string name="revanced_external_downloader_not_installed_warning">%s non è installato. Per favore installalo.</string>
+    <string name="revanced_queue_manager_add_to_queue">Aggiungi alla coda</string>
+    <string name="revanced_queue_manager_add_to_queue_and_open_queue">Aggiungi alla coda e aprila</string>
+    <string name="revanced_queue_manager_add_to_queue_and_play_video">Aggiungi alla coda e riproduci il video</string>
+    <string name="revanced_queue_manager_external_downloader">Downloader esterno</string>
+    <string name="revanced_queue_manager_open_queue">Apri la coda</string>
+    <string name="revanced_queue_manager_queue">Coda</string>
+    <string name="revanced_queue_manager_remove_from_queue">Rimuovi dalla coda</string>
+    <string name="revanced_queue_manager_remove_from_queue_and_open_queue">Rimuovi dalla coda e aprila</string>
+    <string name="revanced_queue_manager_remove_queue">Rimuovi la coda</string>
+    <string name="revanced_queue_manager_save_queue">Salva la coda</string>
+    <string name="revanced_queue_manager_user_dialog_message">"Invece di aprire un downloader esterno, apri la finestra di dialogo del gestore delle code.
+
+Puoi anche aprire il gestore delle code tenendo premuto il pulsante Indietro sulla barra di navigazione.
+
+Questa impostazione è ancora in fase di sviluppo, pertanto la maggior parte delle funzionalità potrebbe non funzionare.
+
+Usala solo per scopi di debug."</string>
+    <string name="revanced_queue_manager_check_failed_auth">Accesso richiesto</string>
+    <string name="revanced_queue_manager_check_failed_generic">Gestore delle code non disponibile (%s)</string>
+    <string name="revanced_queue_manager_check_failed_playlist_id">Impossibile identificare la playlist</string>
+    <string name="revanced_queue_manager_check_failed_queue">La coda è vuota</string>
+    <string name="revanced_queue_manager_check_failed_video_id">Identificazione dell video non riuscito</string>
+    <string name="revanced_queue_manager_fetch_failed_add">Aggiunta del video non riuscita</string>
+    <string name="revanced_queue_manager_fetch_failed_create">Creazione della coda non riuscita</string>
+    <string name="revanced_queue_manager_fetch_failed_delete">Eliminazione della coda non riuscita</string>
+    <string name="revanced_queue_manager_fetch_failed_remove">Rimozione del video non riuscita</string>
+    <string name="revanced_queue_manager_fetch_failed_save">Salvataggio della coda non riuscito</string>
+    <string name="revanced_queue_manager_fetch_succeeded_add">Video aggiunto con successo</string>
+    <string name="revanced_queue_manager_fetch_succeeded_create">Coda creata con successo</string>
+    <string name="revanced_queue_manager_fetch_succeeded_delete">Coda eliminata con successo</string>
+    <string name="revanced_queue_manager_fetch_succeeded_remove">Video rimosso con successo</string>
+    <string name="revanced_queue_manager_fetch_succeeded_save">Coda salvata con successo in \'%s\'</string>
     <string name="revanced_language_title">Lingua di RVX</string>
     <string name="revanced_language_DEFAULT">Lingua dell\'app</string>
     <string name="revanced_language_AM">"Amarico
@@ -451,9 +483,6 @@ Nota: il pulsante Indietro della barra degli strumenti potrebbe non funzionare."
     <string name="revanced_disable_splash_animation_title">Disattiva l\'animazione di avvio</string>
     <string name="revanced_disable_splash_animation_summary_on">L\'animazione di avvio è disattivata.</string>
     <string name="revanced_disable_splash_animation_summary_off">L\'animazione di avvio è attivata.</string>
-    <string name="revanced_disable_translucent_status_bar_title">Disattiva la barra di stato traslucida</string>
-    <string name="revanced_disable_translucent_status_bar_summary_on">La barra di stato è opaca.</string>
-    <string name="revanced_disable_translucent_status_bar_summary_off">La barra di stato è opaca o traslucida.</string>
     <string name="revanced_enable_gradient_loading_screen_title">Attiva la schermata di caricamento gradiente</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">La schermata di caricamento gradiente è attivata.</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">La schermata di caricamento gradiente è disattivata.</string>
@@ -498,6 +527,9 @@ Le modifiche includono:
 • Viene usata la scheda Raccolta.
 • La sezione Musica nella descrizione dei video potrebbe non funzionare.
 • Il pulsante Cambia Account potrebbe essere nascosto nella scheda Raccolta. Usa l'impostazione \"Attiva la barra di ricerca estesa nella scheda Tu\"."</string>
+    <string name="revanced_disable_translucent_status_bar_title">Disattiva la barra di stato traslucida</string>
+    <string name="revanced_disable_translucent_status_bar_summary_on">La barra di stato è opaca.</string>
+    <string name="revanced_disable_translucent_status_bar_summary_off">La barra di stato è opaca o traslucida.</string>
     <string name="revanced_spoof_app_version_title">Attiva il camuffamento della versione dell\'app</string>
     <string name="revanced_spoof_app_version_summary_on">Il camuffamento della versione dell\'app è attivato.</string>
     <string name="revanced_spoof_app_version_summary_off">Il camuffamento della versione dell\'app è disattivato.</string>
@@ -554,6 +586,9 @@ Nota: alcuni componenti potrebbero non essere nascosti."</string>
     <string name="revanced_override_video_download_button_title">Sovrascrivi il pulsante Scarica Video</string>
     <string name="revanced_override_video_download_button_summary_on">Il pulsante Scarica Video nativo apre il downloader esterno.</string>
     <string name="revanced_override_video_download_button_summary_off">Il pulsante Scarica Video nativo apre il downloader nativo.</string>
+    <string name="revanced_override_video_download_button_queue_manager_title">Gestore delle code</string>
+    <string name="revanced_override_video_download_button_queue_manager_summary_on">Il pulsante Scarica Video nativo apre il gestore delle code.</string>
+    <string name="revanced_override_video_download_button_queue_manager_summary_off">Il pulsante Scarica Video nativo apre il downloader esterno.</string>
     <string name="revanced_external_downloader_package_name_playlist_title">Nome del pacchetto del downloader esterno delle playlist</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">Il nome del pacchetto dell\'app di download esterna installata, ad esempio YTDLnis.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental flags -->
@@ -1189,6 +1224,8 @@ Tocca e tieni premuto per copiare il timestamp del video."</string>
 Tocca di nuovo per riattivare l\'audio.</string>
     <string name="revanced_overlay_button_external_downloader_title">Mostra il pulsante Downloader Esterno</string>
     <string name="revanced_overlay_button_external_downloader_summary">Tocca per avviare il downloader esterno.</string>
+    <string name="revanced_overlay_button_external_downloader_queue_manager_title">Gestore delle code</string>
+    <string name="revanced_overlay_button_external_downloader_queue_manager_summary">Invece di aprire un downloader esterno, apri la finestra di dialogo del gestore delle code.</string>
     <string name="revanced_overlay_button_speed_dialog_title">Mostra il pulsante Velocità di Riproduzione</string>
     <string name="revanced_overlay_button_speed_dialog_summary">"Tocca per aprire la finestra della velocità di riproduzione
 Tocca e tieni premuto per impostare la velocità di riproduzione a 1x.
@@ -1549,10 +1586,10 @@ Note:
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_on">Il valore più basso del gesto della luminosità attiva la luminosità automatica.</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_off">Il valore più basso del gesto della luminosità non attiva la luminosità automatica.</string>
     <string name="revanced_enable_swipe_brightness_title">Attiva il gesto della luminosità</string>
-    <string name="revanced_enable_swipe_brightness_summary_on">Il gesto della luminosità è attivato.</string>
+    <string name="revanced_enable_swipe_brightness_summary_on">"Il gesto della luminosità è attivato."</string>
     <string name="revanced_enable_swipe_brightness_summary_off">Il gesto della luminosità è disattivato.</string>
     <string name="revanced_enable_swipe_volume_title">Attiva il gesto del volume</string>
-    <string name="revanced_enable_swipe_volume_summary_on">Il gesto del volume è attivato.</string>
+    <string name="revanced_enable_swipe_volume_summary_on">"Il gesto del volume è attivato."</string>
     <string name="revanced_enable_swipe_volume_summary_off">Il gesto del volume è disattivato.</string>
     <string name="revanced_enable_save_and_restore_brightness_title">Attiva il salvataggio e il ripristino della luminosità</string>
     <string name="revanced_enable_save_and_restore_brightness_summary_on">Salva e ripristina la luminosità uscendo ed entrando a schermo intero.</string>
@@ -1566,8 +1603,6 @@ Note:
     <string name="revanced_swipe_gestures_lock_mode_title">Attiva i gesti di trascinamento in modalità Blocca Schermo</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_on">I gesti di trascinamento in modalità Blocca Schermo sono attivati.</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_off">I gesti di trascinamento in modalità Blocca Schermo sono disattivati.</string>
-    <string name="revanced_swipe_overlay_background_alpha_title">La visibilità dello sfondo del trascinamento</string>
-    <string name="revanced_swipe_overlay_background_alpha_summary">La visibilità dello sfondo in sovrapposizione durante il trascinamento.</string>
     <string name="revanced_swipe_magnitude_threshold_title">Il limite di ampiezza del trascinamento</string>
     <string name="revanced_swipe_magnitude_threshold_summary">Il limite di ampiezza entro cui deve avvenire il trascinamento.</string>
     <string name="revanced_swipe_overlay_text_size_title">La dimensione del testo del trascinamento</string>
@@ -1867,6 +1902,7 @@ Tocca qui per vedere come emettere una chiave API."</string>
     <string name="revanced_sb_vote_downvote">Voto negativo</string>
     <string name="revanced_sb_vote_category">Cambia la categoria</string>
     <string name="revanced_sb_vote_no_segments">Non ci sono segmenti per cui votare.</string>
+    <!-- A segment start and end time, such as "02:10 to 03:40" -->
     <string name="revanced_sb_new_segment_choose_category">Scegli la categoria del segmento</string>
     <string name="revanced_sb_new_segment_disabled_category">La categoria è disattivata nelle impostazioni. Attiva la categoria da inviare.</string>
     <string name="revanced_sb_new_segment_title">Nuovo segmento SponsorBlock</string>
@@ -1984,8 +2020,6 @@ Tocca il pulsante Continua e consenti le modifiche di ottimizzazione."</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr_no_auth">"Android VR
 <small>(Nessun accesso richiesto)</small>"</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
-<small>(PoToken richiesto)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
 <small>(Accesso richiesto)</small>"</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Effetti collaterali del camuffamento</string>
@@ -1993,7 +2027,6 @@ Tocca il pulsante Continua e consenti le modifiche di ottimizzazione."</string>
 • Il volume stabile non funziona.
 • La disattivazione delle tracce audio automatiche forzate non funziona.
 • I video per bambini potrebbero non essere riprodotti se si è disconnessi o navigando in incognito."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• Ci potrebbero essere problemi di riproduzione (PoToken richiesto).</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• Il volume stabile non funziona.
 • I film o i video a pagamento potrebbero non essere riproducibili.
 • I video per bambini potrebbero non essere riprodotti se si è disconnessi o navigando in incognito."</string>

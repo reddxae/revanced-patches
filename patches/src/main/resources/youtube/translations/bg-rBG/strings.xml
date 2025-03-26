@@ -320,9 +320,6 @@
     <string name="revanced_disable_splash_animation_title">Анимация при стартиране на приложението</string>
     <string name="revanced_disable_splash_animation_summary_on">Новата начална анимация е изключена.</string>
     <string name="revanced_disable_splash_animation_summary_off">Новата начална анимация е включена.</string>
-    <string name="revanced_disable_translucent_status_bar_title">Деактивирайте полупрозрачната лента на прогреса</string>
-    <string name="revanced_disable_translucent_status_bar_summary_on">Лентата на прогреса е непрозрачна.</string>
-    <string name="revanced_disable_translucent_status_bar_summary_off">Лентата на прогреса е непрозрачна или полупрозрачна.</string>
     <string name="revanced_enable_gradient_loading_screen_title">Градиентен екрана за зареждане</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">Екранът за зареждане с градиент е активиран.</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">Екранът за зареждане с градиент е деактивиран.</string>
@@ -337,6 +334,9 @@
     <string name="revanced_change_live_ring_click_action_title">Действие на кликване върху точка за предаване на живо</string>
     <string name="revanced_change_live_ring_click_action_summary_on">"Каналът се отваря, когато се щракне върху пръстена на живо."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">Потокът на живо се отваря, когато се щракне върху пръстена на живо.</string>
+    <string name="revanced_disable_translucent_status_bar_title">Деактивирайте полупрозрачната лента на прогреса</string>
+    <string name="revanced_disable_translucent_status_bar_summary_on">Лентата на прогреса е непрозрачна.</string>
+    <string name="revanced_disable_translucent_status_bar_summary_off">Лентата на прогреса е непрозрачна или полупрозрачна.</string>
     <string name="revanced_spoof_app_version_title">Променете версията на приложението</string>
     <string name="revanced_spoof_app_version_summary_on">Подправена версия</string>
     <string name="revanced_spoof_app_version_summary_off">Не подправена версия</string>
@@ -1328,10 +1328,10 @@
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_on">Когато намалите яркостта с жест до минимум, се активира автоматична яркост.</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_off">Когато намалите яркостта с жест до минимум, автоматичната яркост Не се активира.</string>
     <string name="revanced_enable_swipe_brightness_title">Задаване на яркост чрез плъзгане</string>
-    <string name="revanced_enable_swipe_brightness_summary_on">Задаването на яркост чрез плъзгане е включено.</string>
+    <string name="revanced_enable_swipe_brightness_summary_on">"Задаването на яркост чрез плъзгане е включено."</string>
     <string name="revanced_enable_swipe_brightness_summary_off">Задаването на яркост чрез плъзгане е изключено.</string>
     <string name="revanced_enable_swipe_volume_title">Настройване на звука чрез плъзгане</string>
-    <string name="revanced_enable_swipe_volume_summary_on">Настройването на звука чрез плъзгане е включено.</string>
+    <string name="revanced_enable_swipe_volume_summary_on">"Настройването на звука чрез плъзгане е включено."</string>
     <string name="revanced_enable_swipe_volume_summary_off">Настройването на звука чрез плъзгане е изключено.</string>
     <string name="revanced_enable_save_and_restore_brightness_title">Вкл. запазване и възстановяване на яркост</string>
     <string name="revanced_enable_save_and_restore_brightness_summary_on">Запазване и възстаовяване яркостта при включване или изключване на цял екран.</string>
@@ -1345,8 +1345,6 @@
     <string name="revanced_swipe_gestures_lock_mode_title">Плъзне в режим Заключен екран</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_on">Жестовете за плъзгане са активирани в режим „Заключен екран“.</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_off">Жестовете за плъзгане са деактивирани в режим „Заключен екран“.</string>
-    <string name="revanced_swipe_overlay_background_alpha_title">Видимост на фона на плъзгащите контроли</string>
-    <string name="revanced_swipe_overlay_background_alpha_summary">Видимостта на фона на плъзгащите контроли.</string>
     <string name="revanced_swipe_magnitude_threshold_title">Праг на величината на плъзгане</string>
     <string name="revanced_swipe_magnitude_threshold_summary">Амплитудата на движение, разпозната като жест.</string>
     <string name="revanced_swipe_overlay_text_size_title">Размер на текста при плъзгане</string>
@@ -1644,6 +1642,7 @@
     <string name="revanced_sb_vote_downvote">Отрицателен вот</string>
     <string name="revanced_sb_vote_category">Промяна на категорията</string>
     <string name="revanced_sb_vote_no_segments">Няма сегменти, за които да гласувате.</string>
+    <!-- A segment start and end time, such as "02:10 to 03:40" -->
     <string name="revanced_sb_new_segment_choose_category">Изберете категорията на частта</string>
     <string name="revanced_sb_new_segment_disabled_category">Категорията е изкл. в настройките. Вкл. я за да можете да изпратите.</string>
     <string name="revanced_sb_new_segment_title">Нова част в SponsorBlock</string>
@@ -1752,8 +1751,6 @@
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr_no_auth">"Android VR
 <small>(Няма удостоверение)</small>"</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
-<small>(Необходим PoToken)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS
 <small>(Необходим вход)</small>"</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Ефекти от замяната</string>
@@ -1761,7 +1758,6 @@
 • Не е наличен стабилен звук.
 • Деактивиране на принудителни автоматични аудио записи не е налично.
 • Детските видеоклипове може да не се възпроизвеждат, когато сте излезли или сте в режим инкогнито."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• Възможно е да има проблеми с възпроизвеждането (необходим е PoToken).</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• Филми или платени видеоклипове може да не се възпроизвеждат.
 • Детските видеоклипове може да не се възпроизвеждат, когато сте излезли или сте в режим инкогнито."</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Принудително AVC (H.264) за iOS</string>

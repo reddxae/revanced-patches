@@ -19,6 +19,38 @@
     <string name="revanced_external_downloader_not_installed_dialog_message">"Có vẻ như %1$s chưa được cài đặt.
  Vui lòng tải xuống %2$s từ trang web."</string>
     <string name="revanced_external_downloader_not_installed_warning">Hiện %s chưa được cài đặt. Hãy cài đặt và thử lại.</string>
+    <string name="revanced_queue_manager_add_to_queue">Thêm vào hàng chờ</string>
+    <string name="revanced_queue_manager_add_to_queue_and_open_queue">Thêm vào hàng chờ và xem hàng chờ</string>
+    <string name="revanced_queue_manager_add_to_queue_and_play_video">Thêm vào hàng chờ và phát video</string>
+    <string name="revanced_queue_manager_external_downloader">Trình tải xuống bên ngoài</string>
+    <string name="revanced_queue_manager_open_queue">Xem hàng chờ</string>
+    <string name="revanced_queue_manager_queue">Hàng chờ</string>
+    <string name="revanced_queue_manager_remove_from_queue">Xóa khỏi hàng chờ</string>
+    <string name="revanced_queue_manager_remove_from_queue_and_open_queue">Xóa khỏi hàng chờ và xem hàng chờ</string>
+    <string name="revanced_queue_manager_remove_queue">Xoá hàng chờ</string>
+    <string name="revanced_queue_manager_save_queue">Lưu hàng chờ</string>
+    <string name="revanced_queue_manager_user_dialog_message">"Thay vì mở trình tải xuống bên ngoài, khi tương tác sẽ mở hộp thoại quản lý hàng chờ.
+
+Ngoài ra, bạn cũng có thể mở quản lý hàng chờ bằng cách nhấn và giữ nút quay lại trên thanh điều hướng.
+
+Nhưng tính năng này vẫn còn đang trong quá trình phát triển, vì vậy phần lớn các tính năng có thể chưa hoạt động.
+
+Vui lòng chỉ sử dụng cho mục đích gỡ lỗi."</string>
+    <string name="revanced_queue_manager_check_failed_auth">Yêu cầu đăng nhập</string>
+    <string name="revanced_queue_manager_check_failed_generic">Quản lý hàng chờ không khả dụng (%s).</string>
+    <string name="revanced_queue_manager_check_failed_playlist_id">Không xác định được danh sách phát</string>
+    <string name="revanced_queue_manager_check_failed_queue">Hàng chờ trống</string>
+    <string name="revanced_queue_manager_check_failed_video_id">Không xác định được video</string>
+    <string name="revanced_queue_manager_fetch_failed_add">Không thể thêm video.</string>
+    <string name="revanced_queue_manager_fetch_failed_create">Không thể tạo hàng chờ.</string>
+    <string name="revanced_queue_manager_fetch_failed_delete">Không thể xoá hàng chờ.</string>
+    <string name="revanced_queue_manager_fetch_failed_remove">Không thể xoá video.</string>
+    <string name="revanced_queue_manager_fetch_failed_save">Không thể lưu hàng chờ.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_add">Thêm video thành công.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_create">Tạo hàng chờ thành công.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_delete">Xoá hàng chờ thành công.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_remove">Xoá video thành công.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_save">Lưu hàng chờ thành công thành \"%s\".</string>
     <string name="revanced_language_title">Ngôn ngữ trong cài đặt RVX</string>
     <string name="revanced_language_DEFAULT">Theo ứng dụng</string>
     <!-- PreferenceScreen: Ads -->
@@ -343,9 +375,6 @@ Hạn chế: Nút Quay lại trên thanh công cụ có thể không hoạt đ�
     <string name="revanced_disable_splash_animation_title">Tắt hoạt ảnh khi ứng dụng khởi chạy</string>
     <string name="revanced_disable_splash_animation_summary_on">Hoạt ảnh khi ứng dụng khởi chạy đã tắt.</string>
     <string name="revanced_disable_splash_animation_summary_off">Hoạt ảnh khi ứng dụng khởi chạy được bật.</string>
-    <string name="revanced_disable_translucent_status_bar_title">Vô hiệu hoá thanh trạng thái trong suốt</string>
-    <string name="revanced_disable_translucent_status_bar_summary_on">Thanh trạng thái không còn trong suốt.</string>
-    <string name="revanced_disable_translucent_status_bar_summary_off">Thanh trạng thái có thể trong suốt hoặc không.</string>
     <string name="revanced_enable_gradient_loading_screen_title">Màn hình tải hiệu ứng gradient</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">Màn hình tải hiệu ứng gradient đã bật.</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">Màn hình tải hiệu ứng gradient đã tắt.</string>
@@ -392,6 +421,9 @@ Các thay đổi bao gồm:
 • Thẻ Thư viện được hiển thị thay vì thẻ Bạn.
 • Phần Âm nhạc trong mô tả video có thể không hoạt động.
 • Nút chuyển đổi tài khoản có thể không xuất hiện trong thẻ Thư viện. Hãy sử dụng tuỳ chọn \"Thanh tìm kiếm rộng trong thẻ Bạn\"."</string>
+    <string name="revanced_disable_translucent_status_bar_title">Vô hiệu hoá thanh trạng thái trong suốt</string>
+    <string name="revanced_disable_translucent_status_bar_summary_on">Thanh trạng thái không còn trong suốt.</string>
+    <string name="revanced_disable_translucent_status_bar_summary_off">Thanh trạng thái có thể trong suốt hoặc không.</string>
     <string name="revanced_spoof_app_version_title">Giả mạo phiên bản ứng dụng</string>
     <string name="revanced_spoof_app_version_summary_on">Phiên bản được giả mạo</string>
     <string name="revanced_spoof_app_version_summary_off">Phiên bản không được giả mạo</string>
@@ -448,6 +480,9 @@ Một số mục có thể không bị ẩn."</string>
     <string name="revanced_override_video_download_button_title">Ghi đè nút tải xuống video</string>
     <string name="revanced_override_video_download_button_summary_on">Khi thao tác với nút tải xuống video sẽ mở trình tải xuống bên ngoài của bạn.</string>
     <string name="revanced_override_video_download_button_summary_off">Khi thao tác với nút tải xuống video sẽ mở trình tải xuống được tích hợp sẵn của Youtube.</string>
+    <string name="revanced_override_video_download_button_queue_manager_title">Quản lý hàng chờ</string>
+    <string name="revanced_override_video_download_button_queue_manager_summary_on">Khi tương tác với nút tải xuống video sẽ mở hộp thoại quản lý hàng chờ của bạn.</string>
+    <string name="revanced_override_video_download_button_queue_manager_summary_off">Khi tương tác với nút tải xuống video sẽ mở trình tải xuống bên ngoài của bạn.</string>
     <string name="revanced_external_downloader_package_name_playlist_title">Tên gói trình tải xuống danh sách phát</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">Chọn hoặc nhập tên gói ứng dụng trình tải xuống đã được cài đặt trên thiết bị của bạn, chẳng hạn như YTDLnis.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental flags -->
@@ -1077,6 +1112,8 @@ Nhấn và giữ để sao chép dấu thời gian."</string>
     <string name="revanced_overlay_button_mute_volume_summary">Nhấn để tắt tiếng của video hiện tại. Nhấn lần nữa để bật trở lại.</string>
     <string name="revanced_overlay_button_external_downloader_title">Nút Trình tải xuống bên ngoài</string>
     <string name="revanced_overlay_button_external_downloader_summary">Nhấn để khởi chạy trình tải xuống bên ngoài.</string>
+    <string name="revanced_overlay_button_external_downloader_queue_manager_title">Quản lý hàng chờ</string>
+    <string name="revanced_overlay_button_external_downloader_queue_manager_summary">Thay vì mở trình tải xuống bên ngoài, khi tương tác sẽ mở hộp thoại quản lý hàng chờ.</string>
     <string name="revanced_overlay_button_speed_dialog_title">Nút Tốc độ phát</string>
     <string name="revanced_overlay_button_speed_dialog_summary">"Nhấn để mở hộp thoại Tốc độ phát.
 Nhấn và giữ để đặt lại tốc độ phát video (1.0x). Nhấn và giữ lần nữa để đặt lại về tốc độ mặc định đã đặt."</string>
@@ -1441,10 +1478,10 @@ Không còn lề trên và dưới trong trình phát."</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_on">Chế độ độ sáng tự động sẽ được bật khi vuốt độ sáng về mức tổi thiểu.</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_off">Chế độ độ sáng tự động sẽ không được bật khi vuốt độ sáng về mức tổi thiểu.</string>
     <string name="revanced_enable_swipe_brightness_title">Vuốt điều chỉnh độ sáng</string>
-    <string name="revanced_enable_swipe_brightness_summary_on">Cử chỉ vuốt điều chỉnh độ sáng đã bật.</string>
+    <string name="revanced_enable_swipe_brightness_summary_on">"Cử chỉ vuốt điều chỉnh độ sáng đã bật."</string>
     <string name="revanced_enable_swipe_brightness_summary_off">Cử chỉ vuốt điều chỉnh độ sáng đã tắt.</string>
     <string name="revanced_enable_swipe_volume_title">Vuốt điều chỉnh âm lượng</string>
-    <string name="revanced_enable_swipe_volume_summary_on">Cử chỉ vuốt điều chỉnh âm lượng đã bật.</string>
+    <string name="revanced_enable_swipe_volume_summary_on">"Cử chỉ vuốt điều chỉnh âm lượng đã bật."</string>
     <string name="revanced_enable_swipe_volume_summary_off">Cử chỉ vuốt điều chỉnh âm lượng đã tắt.</string>
     <string name="revanced_enable_save_and_restore_brightness_title">Lưu độ sáng</string>
     <string name="revanced_enable_save_and_restore_brightness_summary_on">Lưu độ sáng khi thoát ra hoặc vào chế độ toàn màn hình.</string>
@@ -1458,8 +1495,6 @@ Không còn lề trên và dưới trong trình phát."</string>
     <string name="revanced_swipe_gestures_lock_mode_title">Vuốt ở chế độ Khoá màn hình</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_on">Cử chỉ vuốt đã bật ở chế độ Khoá màn hình.</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_off">Vuốt ở chế độ Khoá màn hình đã tắt.</string>
-    <string name="revanced_swipe_overlay_background_alpha_title">Độ trong suốt lớp phủ</string>
-    <string name="revanced_swipe_overlay_background_alpha_summary">Độ trong suốt của nền khi thực hiện cử chỉ vuốt.</string>
     <string name="revanced_swipe_magnitude_threshold_title">Độ rộng ngưỡng vuốt</string>
     <string name="revanced_swipe_magnitude_threshold_summary">Độ rộng của ngưỡng vuốt để thực hiện cử chỉ vuốt.</string>
     <string name="revanced_swipe_overlay_text_size_title">Kích thước văn bản trên lớp phủ</string>
@@ -1759,6 +1794,7 @@ Nhấp vào đây để xem các bước phát hành khóa API."</string>
     <string name="revanced_sb_vote_downvote">Phản đối</string>
     <string name="revanced_sb_vote_category">Đổi danh mục</string>
     <string name="revanced_sb_vote_no_segments">Không có phân đoạn nào để bình chọn.</string>
+    <!-- A segment start and end time, such as "02:10 to 03:40" -->
     <string name="revanced_sb_new_segment_choose_category">Chọn danh mục phân đoạn</string>
     <string name="revanced_sb_new_segment_disabled_category">Danh mục đã tắt trong cài đặt. Bật danh mục để gửi.</string>
     <string name="revanced_sb_new_segment_title">Đoạn SponsorBlock mới</string>
@@ -1878,8 +1914,6 @@ Nhấn vào Tiếp tục và cho phép thay đổi lựa chọn tối ưu hoá p
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr_no_auth">"Android VR
 <small>(Không xác thực)</small>"</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
-<small>(Yêu cầu PoToken)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
 <small>(Yêu cầu Đăng nhập)</small>"</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Hạn chế</string>
@@ -1887,7 +1921,6 @@ Nhấn vào Tiếp tục và cho phép thay đổi lựa chọn tối ưu hoá p
 • Âm lượng ổn định không khả dụng.
 • Tắt Bản âm thanh tự động không khả dụng.
 • Video dành cho trẻ em có thể không phát được khi bạn đã đăng xuất hoặc bật chế độ ẩn danh."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• Có thể xảy ra sự cố phát (Không khuyến khích).</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• Âm lượng ổn định không khả dụng.
 • Phim hoặc video trả phí có thể không phát được.
 • Video dành cho trẻ em có thể không phát được khi bạn đã đăng xuất hoặc bật chế độ ẩn danh."</string>

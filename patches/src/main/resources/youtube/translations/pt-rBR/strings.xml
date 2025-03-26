@@ -338,9 +338,6 @@ Limitação: O botão voltar na barra de ferramentas pode não funcionar."</stri
     <string name="revanced_disable_splash_animation_title">Desativar animação inicial</string>
     <string name="revanced_disable_splash_animation_summary_on">A animação inicial está desativada.</string>
     <string name="revanced_disable_splash_animation_summary_off">A animação do inicial está ativada.</string>
-    <string name="revanced_disable_translucent_status_bar_title">Desativar barra de status transparente</string>
-    <string name="revanced_disable_translucent_status_bar_summary_on">A barra de status está opaca.</string>
-    <string name="revanced_disable_translucent_status_bar_summary_off">A barra de status está opaca ou transparente.</string>
     <string name="revanced_enable_gradient_loading_screen_title">Ativar tela de carregamento gradiente</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">A tela de carregamento gradiente está ativada.</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">A tela de carregamento gradiente está desativada.</string>
@@ -372,6 +369,9 @@ Automotivo layout
 • Shorts abertos no reprodutor regular.
 • O feed é organizado por tópicos e canais.
 • A descrição do vídeo não pode ser aberta quando o 'Falsificar dados de reprodução' está desligado."</string>
+    <string name="revanced_disable_translucent_status_bar_title">Desativar barra de status transparente</string>
+    <string name="revanced_disable_translucent_status_bar_summary_on">A barra de status está opaca.</string>
+    <string name="revanced_disable_translucent_status_bar_summary_off">A barra de status está opaca ou transparente.</string>
     <string name="revanced_spoof_app_version_title">Falsificar versão do aplicativo</string>
     <string name="revanced_spoof_app_version_summary_on">Versão falsificada</string>
     <string name="revanced_spoof_app_version_summary_off">Versão não falsificada</string>
@@ -1416,10 +1416,10 @@ Sem margens na parte superior e inferior do reprodutor."</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_on">O menor valor do gesto de brilho ativa o brilho automático.</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_off">O menor valor do gesto de brilho não ativa o brilho automático.</string>
     <string name="revanced_enable_swipe_brightness_title">Ativar gesto de brilho</string>
-    <string name="revanced_enable_swipe_brightness_summary_on">O gesto de brilho está ativado.</string>
+    <string name="revanced_enable_swipe_brightness_summary_on">"O gesto de brilho está ativado."</string>
     <string name="revanced_enable_swipe_brightness_summary_off">O gesto de brilho está desativado.</string>
     <string name="revanced_enable_swipe_volume_title">Ativar gesto de volume</string>
-    <string name="revanced_enable_swipe_volume_summary_on">O gesto de volume está ativado.</string>
+    <string name="revanced_enable_swipe_volume_summary_on">"O gesto de volume está ativado."</string>
     <string name="revanced_enable_swipe_volume_summary_off">O gesto de volume está desativado.</string>
     <string name="revanced_enable_save_and_restore_brightness_title">Ativar salvar e restaurar brilho</string>
     <string name="revanced_enable_save_and_restore_brightness_summary_on">Salvar e restaurar o brilho ao sair ou entrar em tela cheia.</string>
@@ -1433,8 +1433,6 @@ Sem margens na parte superior e inferior do reprodutor."</string>
     <string name="revanced_swipe_gestures_lock_mode_title">Gestos de deslize no modo \'Tela de bloqueio\'</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_on">Os gestos de deslize estão ativados no modo \'Tela de bloqueio\'.</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_off">Os gestos de deslize estão desativados no modo \'Tela de bloqueio\'.</string>
-    <string name="revanced_swipe_overlay_background_alpha_title">Visibilidade do fundo de gestos</string>
-    <string name="revanced_swipe_overlay_background_alpha_summary">A visibilidade do fundo da sobreposição de gestos.</string>
     <string name="revanced_swipe_magnitude_threshold_title">Limite de magnitude de deslize</string>
     <string name="revanced_swipe_magnitude_threshold_summary">A quantidade de limite para que o deslize ocorra.</string>
     <string name="revanced_swipe_overlay_text_size_title">Tamanho do texto da sobreposição de gestos</string>
@@ -1733,6 +1731,7 @@ Clique para ver como emitir uma chave de API."</string>
     <string name="revanced_sb_vote_downvote">Voto negativo</string>
     <string name="revanced_sb_vote_category">Alterar categoria</string>
     <string name="revanced_sb_vote_no_segments">Não há segmentos para votar.</string>
+    <!-- A segment start and end time, such as "02:10 to 03:40" -->
     <string name="revanced_sb_new_segment_choose_category">Escolha a categoria do segmento</string>
     <string name="revanced_sb_new_segment_disabled_category">A categoria está desativada nas configurações. Ative a categoria para enviar.</string>
     <string name="revanced_sb_new_segment_title">Novo segmento SponsorBlock</string>
@@ -1850,8 +1849,6 @@ Toque no botão continuar e desative as otimizações da bateria."</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr_no_auth">"Android VR
 <small>(Sem autenticação)</small>"</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
-<small>(requer PoToken)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
 <small>(é necessário logar)</small>"</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Efeitos colaterais da falsificação</string>
@@ -1859,7 +1856,6 @@ Toque no botão continuar e desative as otimizações da bateria."</string>
 • Volume estável não está disponível.
 • Desativar faixas de áudio automático forçadas não estão disponíveis.
 • Os vídeos para crianças podem não reproduzir quando desconectado ou em modo incógnito."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• Pode haver problemas de reprodução (PoToken necessário).</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• Filmes ou vídeos pagos podem não reproduzir.
 • Os vídeos para crianças podem não ser reproduzidos quando desconectado ou em modo incógnito."</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Forçar iOS AVC (H.264)</string>

@@ -1208,10 +1208,10 @@
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_on">亮度手势的最低值会启用自动亮度调节</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_off">亮度手势的最低值不会启用自动亮度调节</string>
     <string name="revanced_enable_swipe_brightness_title">启用滑动控制亮度</string>
-    <string name="revanced_enable_swipe_brightness_summary_on">滑动控制亮度已启用</string>
+    <string name="revanced_enable_swipe_brightness_summary_on">"滑动控制亮度已启用"</string>
     <string name="revanced_enable_swipe_brightness_summary_off">滑动控制亮度已禁用</string>
     <string name="revanced_enable_swipe_volume_title">音量手势</string>
-    <string name="revanced_enable_swipe_volume_summary_on">滑动控制音量已启用</string>
+    <string name="revanced_enable_swipe_volume_summary_on">"滑动控制音量已启用"</string>
     <string name="revanced_enable_swipe_volume_summary_off">滑动控制音量已禁用</string>
     <string name="revanced_enable_save_and_restore_brightness_title">启用保存和恢复亮度</string>
     <string name="revanced_enable_save_and_restore_brightness_summary_on">退出/进入全屏时保存和恢复亮度</string>
@@ -1225,8 +1225,6 @@
     <string name="revanced_swipe_gestures_lock_mode_title">在“锁定屏幕”模式下滑动手势</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_on">在“锁定屏幕”模式下启用滑动手势</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_off">在“锁定屏幕”模式下禁用滑动手势</string>
-    <string name="revanced_swipe_overlay_background_alpha_title">滑动背景透明度</string>
-    <string name="revanced_swipe_overlay_background_alpha_summary">滑动叠加层背景透明度</string>
     <string name="revanced_swipe_magnitude_threshold_title">滑动幅度阈值</string>
     <string name="revanced_swipe_magnitude_threshold_summary">防误触的滑动幅度阈值</string>
     <string name="revanced_swipe_overlay_text_size_title">滑动叠加层上的文本大小</string>
@@ -1507,6 +1505,7 @@
     <string name="revanced_sb_vote_downvote">反对</string>
     <string name="revanced_sb_vote_category">更改类别</string>
     <string name="revanced_sb_vote_no_segments">没有可供投票的片段</string>
+    <!-- A segment start and end time, such as "02:10 to 03:40" -->
     <string name="revanced_sb_new_segment_choose_category">选择片段类别</string>
     <string name="revanced_sb_new_segment_disabled_category">类别在设置中被禁用请启用类别以提交</string>
     <string name="revanced_sb_new_segment_title">新的 SponsorBlock 片段</string>

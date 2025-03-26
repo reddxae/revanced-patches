@@ -384,6 +384,7 @@ Keterbatasan: Tombol Kembali pada bilah alat mungkin tidak berfungsi."</string>
     <!-- PreferenceScreen: SponsorBlock, PreferenceCategory: Change segment behavior -->
     <!-- PreferenceScreen: SponsorBlock, PreferenceCategory: Creating new segments -->
     <!-- PreferenceScreen: SponsorBlock, PreferenceCategory: General -->
+    <!-- A segment start and end time, such as "02:10 to 03:40" -->
     <!-- PreferenceScreen: SponsorBlock, PreferenceCategory: Stats -->
     <!-- PreferenceScreen: SponsorBlock, PreferenceCategory: About -->
     <!-- PreferenceScreen: Miscellaneous -->

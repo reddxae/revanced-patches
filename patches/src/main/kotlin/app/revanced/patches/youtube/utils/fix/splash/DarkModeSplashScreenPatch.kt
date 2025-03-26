@@ -1,9 +1,12 @@
 package app.revanced.patches.youtube.utils.fix.splash
 
 import app.revanced.patcher.patch.resourcePatch
+import app.revanced.patches.youtube.utils.compatibility.Constants.YOUTUBE_PACKAGE_NAME
 import app.revanced.patches.youtube.utils.playservice.is_19_32_or_greater
 import app.revanced.patches.youtube.utils.playservice.versionCheckPatch
 import app.revanced.patches.youtube.utils.settings.ResourceUtils.restoreOldSplashAnimationIncluded
+import app.revanced.patches.youtube.utils.settings.ResourceUtils.youtubePackageName
+import app.revanced.util.findElementByAttributeValueOrThrow
 import org.w3c.dom.Element
 
 /**
@@ -22,6 +25,19 @@ val darkModeSplashScreenPatch = resourcePatch(
 
     finalize {
         if (!is_19_32_or_greater) {
+            return@finalize
+        }
+
+        // GmsCore support included
+        if (youtubePackageName != YOUTUBE_PACKAGE_NAME) {
+            document("AndroidManifest.xml").use { document ->
+                val mainActivityElement = document.childNodes.findElementByAttributeValueOrThrow(
+                    "android:name",
+                    "com.google.android.apps.youtube.app.watchwhile.MainActivity",
+                )
+
+                mainActivityElement.setAttribute("android:launchMode", "singleTask")
+            }
             return@finalize
         }
 

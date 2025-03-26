@@ -1964,6 +1964,7 @@ Click to see how to issue an API key."</string>
     <string name="revanced_sb_skip_seekbaronly">Show in seekbar</string>
     <string name="revanced_sb_skip_ignore">Disable</string>
 
+    <string name="revanced_sb_color_opacity_label">Opacity:</string>
     <string name="revanced_sb_color_dot_label">Color:</string>
     <string name="revanced_sb_color_changed">Color changed.</string>
     <string name="revanced_sb_color_reset">Color reset.</string>
@@ -2036,6 +2037,8 @@ Click to see how to issue an API key."</string>
     <string name="revanced_sb_vote_downvote">Downvote</string>
     <string name="revanced_sb_vote_category">Change category</string>
     <string name="revanced_sb_vote_no_segments">There are no segments to vote for.</string>
+    <!-- A segment start and end time, such as "02:10 to 03:40" -->
+    <string name="revanced_sb_vote_segment_time_to_from">%1$s to %2$s</string>
 
     <string name="revanced_sb_new_segment_choose_category">Choose the segment category</string>
     <string name="revanced_sb_new_segment_disabled_category">Category is disabled in settings. Enable category to submit.</string>

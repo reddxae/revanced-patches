@@ -24,7 +24,6 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import app.revanced.extension.shared.settings.BaseSettings;
 import app.revanced.extension.shared.settings.BooleanSetting;
 import app.revanced.extension.shared.settings.IntegerSetting;
-import app.revanced.extension.shared.settings.StringSetting;
 import app.revanced.extension.shared.utils.Logger;
 import app.revanced.extension.shared.utils.ResourceUtils;
 import app.revanced.extension.shared.utils.Utils;
@@ -471,8 +470,8 @@ public class PlayerPatch {
      * Used in YouTube 20.05.46+.
      */
     public static void disableAutoPlayerPopupPanels(@NonNull String newlyLoadedChannelId, @NonNull String newlyLoadedChannelName,
-                                                     @NonNull String newlyLoadedVideoId, @NonNull String newlyLoadedVideoTitle,
-                                                     final long newlyLoadedVideoLength, boolean newlyLoadedLiveStreamValue) {
+                                                    @NonNull String newlyLoadedVideoId, @NonNull String newlyLoadedVideoTitle,
+                                                    final long newlyLoadedVideoLength, boolean newlyLoadedLiveStreamValue) {
         if (Settings.DISABLE_AUTO_PLAYER_POPUP_PANELS.get() && newVideoStarted.compareAndSet(false, true)) {
             Utils.runOnMainThreadDelayed(() -> newVideoStarted.compareAndSet(true, false), 3000L);
         }

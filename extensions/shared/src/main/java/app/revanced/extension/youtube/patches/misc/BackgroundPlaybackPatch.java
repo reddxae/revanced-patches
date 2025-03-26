@@ -2,7 +2,6 @@ package app.revanced.extension.youtube.patches.misc;
 
 import app.revanced.extension.shared.settings.BooleanSetting;
 import app.revanced.extension.youtube.settings.Settings;
-import app.revanced.extension.youtube.shared.PlayerType;
 import app.revanced.extension.youtube.shared.ShortsPlayerState;
 
 @SuppressWarnings("unused")

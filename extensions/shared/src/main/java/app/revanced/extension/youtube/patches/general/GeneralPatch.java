@@ -119,9 +119,9 @@ public class GeneralPatch {
             Settings.DISABLE_LAYOUT_UPDATES.get();
 
     /**
-     * @param key       Keys to be added to the header of CronetBuilder.
-     * @param value     Values to be added to the header of CronetBuilder.
-     * @return          Empty value if setting is enabled.
+     * @param key   Keys to be added to the header of CronetBuilder.
+     * @param value Values to be added to the header of CronetBuilder.
+     * @return Empty value if setting is enabled.
      */
     public static String disableLayoutUpdates(String key, String value) {
         if (DISABLE_LAYOUT_UPDATES && StringUtils.equalsAny(key, REQUEST_HEADER_KEYS)) {

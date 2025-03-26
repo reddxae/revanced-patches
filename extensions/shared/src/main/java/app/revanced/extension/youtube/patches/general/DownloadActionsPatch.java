@@ -39,7 +39,7 @@ public final class DownloadActionsPatch {
      * <p>
      * Appears to always be called from the main thread.
      */
-    public static boolean inAppVideoDownloadButtonOnClick(@Nullable Map<Object, Object> map,Object offlineVideoEndpointOuterClass,
+    public static boolean inAppVideoDownloadButtonOnClick(@Nullable Map<Object, Object> map, Object offlineVideoEndpointOuterClass,
                                                           @Nullable String videoId) {
         try {
             if (OVERRIDE_VIDEO_DOWNLOAD_BUTTON && StringUtils.isNotEmpty(videoId)) {

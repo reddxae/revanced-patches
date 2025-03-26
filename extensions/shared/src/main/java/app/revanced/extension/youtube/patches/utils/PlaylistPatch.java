@@ -8,6 +8,8 @@ import android.widget.ScrollView;
 import androidx.annotation.GuardedBy;
 import androidx.annotation.NonNull;
 
+import com.google.android.libraries.youtube.rendering.ui.pivotbar.PivotBar;
+
 import org.apache.commons.collections4.BidiMap;
 import org.apache.commons.collections4.bidimap.DualHashBidiMap;
 import org.apache.commons.lang3.BooleanUtils;
@@ -122,6 +124,15 @@ public class PlaylistPatch extends VideoUtils {
     public static void setIncognitoStatus(boolean incognito) {
         if (QUEUE_MANAGER) {
             isIncognito = incognito;
+        }
+    }
+
+    /**
+     * Injection point.
+     */
+    public static void setPivotBar(PivotBar view) {
+        if (QUEUE_MANAGER) {
+            mContext = view.getContext();
         }
     }
 

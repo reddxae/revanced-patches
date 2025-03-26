@@ -1,5 +1,6 @@
 package app.revanced.patches.youtube.utils.playlist
 
+import app.revanced.patcher.extensions.InstructionExtensions.addInstruction
 import app.revanced.patcher.extensions.InstructionExtensions.addInstructions
 import app.revanced.patcher.extensions.InstructionExtensions.addInstructionsWithLabels
 import app.revanced.patcher.extensions.InstructionExtensions.getInstruction
@@ -78,6 +79,20 @@ val playlistPatch = bytecodePatch(
                             iget-object v$insertRegister, v$castRegister, $setVideoIdReference
                             invoke-static {v$insertRegister}, $EXTENSION_CLASS_DESCRIPTOR->removeFromQueue(Ljava/lang/String;)V
                             """
+                    )
+                }
+            }
+
+        setPivotBarVisibilityFingerprint
+            .matchOrThrow(setPivotBarVisibilityParentFingerprint)
+            .let {
+                it.method.apply {
+                    val viewIndex = it.patternMatch!!.startIndex
+                    val viewRegister = getInstruction<OneRegisterInstruction>(viewIndex).registerA
+                    addInstruction(
+                        viewIndex + 1,
+                        "invoke-static {v$viewRegister}," +
+                                " $EXTENSION_CLASS_DESCRIPTOR->setPivotBar(Lcom/google/android/libraries/youtube/rendering/ui/pivotbar/PivotBar;)V",
                     )
                 }
             }

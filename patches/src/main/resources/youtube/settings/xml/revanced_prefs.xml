@@ -793,15 +793,15 @@
         </PreferenceCategory>
 
         <PreferenceCategory android:title="@string/revanced_sb_diff_segments" android:layout="@layout/revanced_settings_preferences_category">
-            <app.revanced.extension.youtube.settings.preference.SegmentCategoryListPreference android:title="@string/revanced_sb_segments_sponsor" android:key="sponsor" android:summary="@string/revanced_sb_segments_sponsor_sum" />
-            <app.revanced.extension.youtube.settings.preference.SegmentCategoryListPreference android:title="@string/revanced_sb_segments_selfpromo" android:key="selfpromo" android:summary="@string/revanced_sb_segments_selfpromo_sum" />
-            <app.revanced.extension.youtube.settings.preference.SegmentCategoryListPreference android:title="@string/revanced_sb_segments_interaction" android:key="interaction" android:summary="@string/revanced_sb_segments_interaction_sum" />
-            <app.revanced.extension.youtube.settings.preference.SegmentCategoryListPreference android:title="@string/revanced_sb_segments_highlight" android:key="poi_highlight" android:summary="@string/revanced_sb_segments_highlight_sum" />
-            <app.revanced.extension.youtube.settings.preference.SegmentCategoryListPreference android:title="@string/revanced_sb_segments_intro" android:key="intro" android:summary="@string/revanced_sb_segments_intro_sum" />
-            <app.revanced.extension.youtube.settings.preference.SegmentCategoryListPreference android:title="@string/revanced_sb_segments_outro" android:key="outro" android:summary="@string/revanced_sb_segments_outro_sum" />
-            <app.revanced.extension.youtube.settings.preference.SegmentCategoryListPreference android:title="@string/revanced_sb_segments_preview" android:key="preview" android:summary="@string/revanced_sb_segments_preview_sum" />
-            <app.revanced.extension.youtube.settings.preference.SegmentCategoryListPreference android:title="@string/revanced_sb_segments_filler" android:key="filler" android:summary="@string/revanced_sb_segments_filler_sum" />
-            <app.revanced.extension.youtube.settings.preference.SegmentCategoryListPreference android:title="@string/revanced_sb_segments_nomusic" android:key="music_offtopic" android:summary="@string/revanced_sb_segments_nomusic_sum" />
+            <app.revanced.extension.youtube.settings.preference.SegmentCategoryListPreference android:title="@string/revanced_sb_segments_sponsor" android:key="sponsor" android:summary="@string/revanced_sb_segments_sponsor_sum" android:dependency="sb_enabled" />
+            <app.revanced.extension.youtube.settings.preference.SegmentCategoryListPreference android:title="@string/revanced_sb_segments_selfpromo" android:key="selfpromo" android:summary="@string/revanced_sb_segments_selfpromo_sum" android:dependency="sb_enabled" />
+            <app.revanced.extension.youtube.settings.preference.SegmentCategoryListPreference android:title="@string/revanced_sb_segments_interaction" android:key="interaction" android:summary="@string/revanced_sb_segments_interaction_sum" android:dependency="sb_enabled" />
+            <app.revanced.extension.youtube.settings.preference.SegmentCategoryListPreference android:title="@string/revanced_sb_segments_highlight" android:key="poi_highlight" android:summary="@string/revanced_sb_segments_highlight_sum" android:dependency="sb_enabled" />
+            <app.revanced.extension.youtube.settings.preference.SegmentCategoryListPreference android:title="@string/revanced_sb_segments_intro" android:key="intro" android:summary="@string/revanced_sb_segments_intro_sum" android:dependency="sb_enabled" />
+            <app.revanced.extension.youtube.settings.preference.SegmentCategoryListPreference android:title="@string/revanced_sb_segments_outro" android:key="outro" android:summary="@string/revanced_sb_segments_outro_sum" android:dependency="sb_enabled" />
+            <app.revanced.extension.youtube.settings.preference.SegmentCategoryListPreference android:title="@string/revanced_sb_segments_preview" android:key="preview" android:summary="@string/revanced_sb_segments_preview_sum" android:dependency="sb_enabled" />
+            <app.revanced.extension.youtube.settings.preference.SegmentCategoryListPreference android:title="@string/revanced_sb_segments_filler" android:key="filler" android:summary="@string/revanced_sb_segments_filler_sum" android:dependency="sb_enabled" />
+            <app.revanced.extension.youtube.settings.preference.SegmentCategoryListPreference android:title="@string/revanced_sb_segments_nomusic" android:key="music_offtopic" android:summary="@string/revanced_sb_segments_nomusic_sum" android:dependency="sb_enabled" />
         </PreferenceCategory>
 
         <PreferenceCategory android:title="@string/revanced_sb_create_segment_category" android:layout="@layout/revanced_settings_preferences_category">

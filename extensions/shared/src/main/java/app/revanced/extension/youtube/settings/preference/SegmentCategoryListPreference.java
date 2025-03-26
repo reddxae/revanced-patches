@@ -21,7 +21,6 @@ import java.util.Objects;
 
 import app.revanced.extension.shared.utils.Logger;
 import app.revanced.extension.shared.utils.Utils;
-import app.revanced.extension.youtube.settings.Settings;
 import app.revanced.extension.youtube.sponsorblock.objects.CategoryBehaviour;
 import app.revanced.extension.youtube.sponsorblock.objects.SegmentCategory;
 
@@ -277,7 +276,6 @@ public class SegmentCategoryListPreference extends ListPreference {
         applyOpacityToCategoryColor();
 
         setTitle(category.getTitleWithColorDot(categoryColor));
-        setEnabled(Settings.SB_ENABLED.get());
     }
 
     private void updateCategoryColorDot() {

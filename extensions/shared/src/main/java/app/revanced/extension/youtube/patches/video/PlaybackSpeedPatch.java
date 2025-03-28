@@ -69,7 +69,7 @@ public class PlaybackSpeedPatch {
         videoIdShorts = newlyLoadedVideoId;
         isLiveStreamShorts = newlyLoadedLiveStreamValue;
 
-        Logger.printInfo(() -> "newShortsVideoStarted: " + newlyLoadedVideoId);
+        Logger.printDebug(() -> "newShortsVideoStarted: " + newlyLoadedVideoId);
     }
 
     /**

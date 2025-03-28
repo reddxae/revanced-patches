@@ -634,8 +634,8 @@ val playerComponentsPatch = bytecodePatch(
             fingerprint.methodOrThrow(filmStripOverlayEnterParentFingerprint).hookFilmstripOverlay()
         }
 
-        // Removed in YouTube 20.05+
-        if (!is_20_05_or_greater) {
+        // Removed in YouTube 20.03+
+        if (!is_20_03_or_greater) {
             youtubeControlsOverlayFingerprint.methodOrThrow().apply {
                 val constIndex = indexOfFirstLiteralInstructionOrThrow(fadeDurationFast)
                 val constRegister = getInstruction<OneRegisterInstruction>(constIndex).registerA
@@ -663,7 +663,7 @@ val playerComponentsPatch = bytecodePatch(
                 )
                 removeInstruction(insertIndex)
             }
-        } else {
+        } else if (is_20_05_or_greater) {
             // This is a new film strip overlay added to YouTube 20.05+
             // Disabling this flag is not related to the operation of the patch.
             filmStripOverlayConfigV2Fingerprint.injectLiteralInstructionBooleanCall(

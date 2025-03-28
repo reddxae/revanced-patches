@@ -65,6 +65,7 @@ import app.revanced.extension.shared.settings.EnumSetting;
 import app.revanced.extension.shared.settings.Setting;
 import app.revanced.extension.shared.utils.Logger;
 import app.revanced.extension.shared.utils.ResourceUtils;
+import app.revanced.extension.shared.utils.StringRef;
 import app.revanced.extension.shared.utils.Utils;
 import app.revanced.extension.youtube.patches.video.CustomPlaybackSpeedPatch;
 import app.revanced.extension.youtube.settings.Settings;
@@ -141,11 +142,8 @@ public class ReVancedPreferenceFragment extends PreferenceFragment {
             if (!settingImportInProgress && !showingUserDialogMessage) {
                 final Context context = getActivity();
 
-                if (setting.userDialogMessage != null &&
-                        mPreference instanceof SwitchPreference switchPreference &&
-                        setting.defaultValue instanceof Boolean defaultValue &&
-                        switchPreference.isChecked() != defaultValue) {
-                    showSettingUserDialogConfirmation(context, switchPreference, (BooleanSetting) setting);
+                if (setting.userDialogMessage != null && !prefIsSetToDefault(mPreference, setting)) {
+                    showSettingUserDialogConfirmation(context, mPreference, setting);
                 } else if (setting.rebootApp) {
                     showRestartDialog(context);
                 }
@@ -155,25 +153,56 @@ public class ReVancedPreferenceFragment extends PreferenceFragment {
         }
     };
 
-    private void showSettingUserDialogConfirmation(Context context, SwitchPreference switchPreference, BooleanSetting setting) {
+    /**
+     * @return If the preference is currently set to the default value of the Setting.
+     */
+    private boolean prefIsSetToDefault(Preference pref, Setting<?> setting) {
+        Object defaultValue = setting.defaultValue;
+        if (pref instanceof SwitchPreference switchPref) {
+            return switchPref.isChecked() == (Boolean) defaultValue;
+        }
+        String defaultValueString = defaultValue.toString();
+        if (pref instanceof EditTextPreference editPreference) {
+            return editPreference.getText().equals(defaultValueString);
+        }
+        if (pref instanceof ListPreference listPref) {
+            return listPref.getValue().equals(defaultValueString);
+        }
+
+        throw new IllegalStateException("Must override method to handle "
+                + "preference type: " + pref.getClass());
+    }
+
+    private void showSettingUserDialogConfirmation(Context context, Preference pref, Setting<?> setting) {
         Utils.verifyOnMainThread();
 
-        showingUserDialogMessage = true;
-        assert setting.userDialogMessage != null;
-        new AlertDialog.Builder(context)
-                .setTitle(str("revanced_extended_confirm_user_dialog_title"))
-                .setMessage(setting.userDialogMessage.toString())
-                .setPositiveButton(android.R.string.ok, (dialog, id) -> {
-                    if (setting.rebootApp) {
-                        showRestartDialog(context);
-                    }
-                })
-                .setNegativeButton(android.R.string.cancel, (dialog, id) -> {
-                    switchPreference.setChecked(setting.defaultValue); // Recursive call that resets the Setting value.
-                })
-                .setOnDismissListener(dialog -> showingUserDialogMessage = false)
-                .setCancelable(false)
-                .show();
+        final StringRef userDialogMessage = setting.userDialogMessage;
+        if (context != null && userDialogMessage != null) {
+            showingUserDialogMessage = true;
+
+            new AlertDialog.Builder(context)
+                    .setTitle(str("revanced_extended_confirm_user_dialog_title"))
+                    .setMessage(userDialogMessage.toString())
+                    .setPositiveButton(android.R.string.ok, (dialog, id) -> {
+                        if (setting.rebootApp) {
+                            showRestartDialog(context);
+                        }
+                    })
+                    .setNegativeButton(android.R.string.cancel, (dialog, id) -> {
+                        // Restore whatever the setting was before the change.
+                        if (setting instanceof BooleanSetting booleanSetting &&
+                                pref instanceof SwitchPreference switchPreference) {
+                            switchPreference.setChecked(booleanSetting.defaultValue);
+                        } else if (setting instanceof EnumSetting<?> enumSetting &&
+                                pref instanceof ListPreference listPreference) {
+                            listPreference.setValue(enumSetting.defaultValue.toString());
+                            updateListPreferenceSummary(listPreference, setting);
+                        }
+                    })
+                    .setOnDismissListener(dialog -> showingUserDialogMessage = false)
+                    .setCancelable(false)
+                    .show();
+        }
     }
 
     static PreferenceManager mPreferenceManager;

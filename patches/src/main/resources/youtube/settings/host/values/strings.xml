@@ -1646,6 +1646,10 @@ Press and hold the More button to show the Custom actions dialog."</string>
     <string name="revanced_shorts_custom_actions_open_video_title">Show open video menu</string>
     <string name="revanced_shorts_custom_actions_open_video_summary_on">Open video menu is shown.</string>
     <string name="revanced_shorts_custom_actions_open_video_summary_off">Open video menu is hidden.</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_label">Speed dialog</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_title">Show speed dialog menu</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_summary_on">Speed dialog menu is shown.</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_summary_off">Speed dialog menu is hidden.</string>
     <string name="revanced_shorts_custom_actions_repeat_state_label">Repeat state</string>
     <string name="revanced_shorts_custom_actions_repeat_state_title">Show repeat state menu</string>
     <string name="revanced_shorts_custom_actions_repeat_state_summary_on">Repeat state menu is shown.</string>
@@ -1763,12 +1767,45 @@ No margins on top and bottom of player."</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Video</string>
 
-    <string name="revanced_default_playback_speed_title">Default playback speed</string>
-    <string name="revanced_default_video_quality_mobile_title">Default video quality on mobile network</string>
-    <string name="revanced_default_video_quality_wifi_title">Default video quality on Wi-Fi network</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Codec -->
+    <string name="revanced_preference_category_codec">Codec</string>
     <string name="revanced_disable_hdr_video_title">Disable HDR video</string>
     <string name="revanced_disable_hdr_video_summary_on">HDR video is disabled.</string>
     <string name="revanced_disable_hdr_video_summary_off">HDR video is enabled.</string>
+    <string name="revanced_disable_vp9_codec_title">Disable VP9 codec</string>
+    <string name="revanced_disable_vp9_codec_summary_on">"VP9 codec is disabled.
+
+Info:
+• Maximum resolution is 1080p.
+• Video playback will use more internet data than VP9.
+• VP9 codec is still used for HDR video."</string>
+    <string name="revanced_disable_vp9_codec_summary_off">VP9 codec is enabled.</string>
+    <string name="revanced_replace_av1_codec_title">Replace software AV1 codec</string>
+    <string name="revanced_replace_av1_codec_summary">Replaces the software AV1 codec with the VP9 codec.</string>
+
+    <!-- PreferenceScreen: Video, PreferenceCategory: Playback speed -->
+    <string name="revanced_preference_category_playback_speed">Playback speed</string>
+    <string name="revanced_default_playback_speed_title">Default playback speed</string>
+    <string name="revanced_remember_playback_speed_last_selected_title">Remember playback speed changes</string>
+    <string name="revanced_remember_playback_speed_last_selected_summary_on">Playback speed changes apply to all videos.</string>
+    <string name="revanced_remember_playback_speed_last_selected_summary_off">Playback speed changes only apply to the current video.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">Show a toast</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">A toast will be shown when changing the default playback speed.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">A toast will not be shown when changing the default playback speed.</string>
+
+    <string name="revanced_default_playback_speed_shorts_title">Default playback speed on Shorts</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_title">Remember playback speed changes on Shorts</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_summary_on">"Playback speed changes apply to all Shorts.
+
+Info:
+• The only way to change the playback speed in the Shorts player is to use the 'Speed ​​dialog' in 'Custom actions'.
+• If you didn't include the 'Shorts components' patch, this wouldn't be available."</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_summary_off">Playback speed changes only apply to the current Short.</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_toast_title">Show a toast</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_toast_summary_on">A toast will be shown when changing the default playback speed on Shorts.</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_toast_summary_off">A toast will not be shown when changing the default playback speed on Shorts.</string>
+    <string name="revanced_remember_playback_speed_toast">Changed default playback speed to: %s.</string>
+    <string name="revanced_remember_playback_speed_toast_shorts">Changed default Shorts playback speed to: %s.</string>
     <string name="revanced_enable_custom_playback_speed_title">Enable custom playback speed</string>
     <string name="revanced_enable_custom_playback_speed_summary_on">Custom playback speed is enabled.</string>
     <string name="revanced_enable_custom_playback_speed_summary_off">Custom playback speed is disabled.</string>
@@ -1777,30 +1814,34 @@ No margins on top and bottom of player."</string>
     <string name="revanced_custom_playback_speed_menu_type_summary_off">Old style flyout menu is used.</string>
     <string name="revanced_custom_playback_speeds_title">Edit custom playback speeds</string>
     <string name="revanced_custom_playback_speeds_summary">Add or change available playback speeds.</string>
-    <string name="revanced_remember_playback_speed_last_selected_title">Remember playback speed changes</string>
-    <string name="revanced_remember_playback_speed_last_selected_summary_on">Playback speed changes apply to all videos.</string>
-    <string name="revanced_remember_playback_speed_last_selected_summary_off">Playback speed changes only apply to the current video.</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_title">Show a toast</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">A toast will be shown when changing the default playback speed.</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">A toast will not be shown when changing the default playback speed.</string>
+    <string name="revanced_custom_playback_speeds_invalid">Custom speeds must be less than %sx.</string>
+    <string name="revanced_custom_playback_speeds_parse_exception">Invalid custom playback speeds.</string>
+
+    <!-- PreferenceScreen: Video, PreferenceCategory: Video quality -->
+    <string name="revanced_preference_category_video_quality">Video quality</string>
+    <string name="revanced_default_video_quality_mobile_title">Default video quality on mobile network</string>
+    <string name="revanced_default_video_quality_wifi_title">Default video quality on Wi-Fi network</string>
     <string name="revanced_remember_video_quality_last_selected_title">Remember video quality changes</string>
     <string name="revanced_remember_video_quality_last_selected_summary_on">Quality changes apply to all videos.</string>
     <string name="revanced_remember_video_quality_last_selected_summary_off">Quality changes only apply to the current video.</string>
     <string name="revanced_remember_video_quality_last_selected_toast_title">Show a toast</string>
     <string name="revanced_remember_video_quality_last_selected_toast_summary_on">A toast will be shown when changing the default video quality.</string>
     <string name="revanced_remember_video_quality_last_selected_toast_summary_off">A toast will not be shown when changing the default video quality.</string>
+    <string name="revanced_default_video_quality_mobile_shorts_title">Default Shorts quality on mobile network</string>
+    <string name="revanced_default_video_quality_wifi_shorts_title">Default Shorts quality on Wi-Fi network</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_title">Remember Shorts quality changes</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_summary_on">Quality changes apply to all Shorts.</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_summary_off">Quality changes only apply to the current Short.</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_toast_title">Show a toast</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_toast_summary_on">A toast will be shown when changing the default Shorts quality.</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_toast_summary_off">A toast will not be shown when changing the default Shorts quality.</string>
+    <string name="revanced_remember_video_quality_mobile">mobile</string>
+    <string name="revanced_remember_video_quality_wifi">wifi</string>
+    <string name="revanced_remember_video_quality_toast">Changed default %1$s quality to: %2$s.</string>
+    <string name="revanced_remember_video_quality_toast_shorts">Changed Shorts %1$s quality to: %2$s.</string>
     <string name="revanced_restore_old_video_quality_menu_title">Restore old video quality menu</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">Old video quality menu is shown.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Old video quality menu is not shown.</string>
-    <string name="revanced_disable_default_playback_speed_music_title">Disable playback speed for music</string>
-    <string name="revanced_disable_default_playback_speed_music_on">Default playback speed is disabled for music.</string>
-    <string name="revanced_disable_default_playback_speed_music_off">Default playback speed is enabled for music.</string>
-    <string name="revanced_disable_default_playback_speed_music_type_title">Validate using categories</string>
-    <string name="revanced_disable_default_playback_speed_music_type_on">Default playback speed is disabled if the video category is Music.</string>
-    <string name="revanced_disable_default_playback_speed_music_type_off">Default playback speed is disabled for videos playable on YouTube Music.</string>
-    <string name="revanced_enable_default_playback_speed_shorts_title">Enable Shorts default playback speed</string>
-    <string name="revanced_enable_default_playback_speed_shorts_summary_on">Default playback speed applies to Shorts.</string>
-    <string name="revanced_enable_default_playback_speed_shorts_summary_off">Default playback speed does not apply to Shorts.</string>
     <string name="revanced_skipped_preloaded_buffer">Skipped preloaded buffer.</string>
     <string name="revanced_skip_preloaded_buffer_title">Skip preloaded buffer</string>
     <string name="revanced_skip_preloaded_buffer_summary">"Skips the preloaded buffer at the start of videos to immediately apply the default video quality.
@@ -1814,26 +1855,18 @@ Info:
     <string name="revanced_skip_preloaded_buffer_toast_summary_off">Toast is not shown.</string>
     <string name="revanced_spoof_device_dimensions_title">Spoof device dimensions</string>
     <string name="revanced_spoof_device_dimensions_summary">"Spoofs the device dimensions to the maximum value.
-High quality may be unlocked on some videos that require high device dimensions, but not all videos."</string>
-    <string name="revanced_disable_vp9_codec_title">Disable VP9 codec</string>
-    <string name="revanced_disable_vp9_codec_summary_on">"VP9 codec is disabled.
 
-• Maximum resolution is 1080p.
-• Video playback will use more internet data than VP9.
-• VP9 codec is still used for HDR video."</string>
-    <string name="revanced_disable_vp9_codec_summary_off">VP9 codec is enabled.</string>
-    <string name="revanced_replace_av1_codec_title">Replace software AV1 codec</string>
-    <string name="revanced_replace_av1_codec_summary">Replaces the software AV1 codec with the VP9 codec.</string>
-    <string name="revanced_reject_av1_codec_title">Reject software AV1 codec response</string>
-    <string name="revanced_reject_av1_codec_summary">"Forcefully rejects the software AV1 codec response.
-A different codec will be applied after about 20 seconds of buffering."</string>
-    <string name="revanced_reject_av1_codec_toast">Fallback process causes about 20 seconds of buffering.</string>
-    <string name="revanced_remember_playback_speed_toast">Changing default speed to %s.</string>
-    <string name="revanced_remember_video_quality_mobile">Changing default mobile data quality to %s.</string>
-    <string name="revanced_remember_video_quality_none">Failed to set video quality.</string>
-    <string name="revanced_remember_video_quality_wifi">Changing default Wi-Fi quality to %s.</string>
-    <string name="revanced_custom_playback_speeds_invalid">Custom speeds must be less than %sx.</string>
-    <string name="revanced_custom_playback_speeds_parse_exception">Invalid custom playback speeds.</string>
+Info:
+• High quality may be unlocked on some videos that require high device dimensions, but not all videos.
+• This setting is not available if 'Spoof streaming data' is turned on."</string>
+
+    <!-- PreferenceScreen: Video, PreferenceCategory: Experimental flags -->
+    <string name="revanced_disable_default_playback_speed_music_title">Disable playback speed for music</string>
+    <string name="revanced_disable_default_playback_speed_music_on">Default playback speed is disabled for music.</string>
+    <string name="revanced_disable_default_playback_speed_music_off">Default playback speed is enabled for music.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_title">Validate using categories</string>
+    <string name="revanced_disable_default_playback_speed_music_type_on">Default playback speed is disabled if the video category is Music.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_off">Default playback speed is disabled for videos playable on YouTube Music.</string>
 
 
     <!-- PreferenceScreen: Return YouTube Dislike -->

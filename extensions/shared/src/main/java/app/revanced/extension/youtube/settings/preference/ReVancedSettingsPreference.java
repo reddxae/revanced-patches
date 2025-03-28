@@ -46,6 +46,7 @@ public class ReVancedSettingsPreference extends ReVancedPreferenceFragment {
         NavigationPreferenceLinks();
         RYDPreferenceLinks();
         SeekBarPreferenceLinks();
+        ShortsPreferenceLinks();
         SpeedOverlayPreferenceLinks();
         QuickActionsPreferenceLinks();
         TabletLayoutLinks();
@@ -184,6 +185,19 @@ public class ReVancedSettingsPreference extends ReVancedPreferenceFragment {
                 Settings.RESTORE_OLD_SEEKBAR_THUMBNAILS.get(),
                 Settings.ENABLE_SEEKBAR_THUMBNAILS_HIGH_QUALITY
         );
+    }
+
+    /**
+     * Enable/Disable Preference related to Shorts settings
+     */
+    private static void ShortsPreferenceLinks() {
+        if (!PatchStatus.RememberPlaybackSpeed()) {
+            enableDisablePreferences(
+                    true,
+                    Settings.SHORTS_CUSTOM_ACTIONS_SPEED_DIALOG
+            );
+            Settings.SHORTS_CUSTOM_ACTIONS_SPEED_DIALOG.save(false);
+        }
     }
 
     /**

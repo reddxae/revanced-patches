@@ -202,6 +202,7 @@ public class VideoUtils extends IntentUtils {
         new AlertDialog.Builder(context)
                 .setSingleChoiceItems(playbackSpeedEntries, index, (mDialog, mIndex) -> {
                     final float selectedPlaybackSpeed = Float.parseFloat(playbackSpeedEntryValues[mIndex] + "f");
+                    VideoInformation.setPlaybackSpeed(selectedPlaybackSpeed);
                     VideoInformation.overridePlaybackSpeed(selectedPlaybackSpeed);
                     userSelectedPlaybackSpeed(selectedPlaybackSpeed);
                     mDialog.dismiss();

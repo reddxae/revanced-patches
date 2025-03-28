@@ -9,13 +9,16 @@ import app.revanced.extension.shared.utils.Logger;
 import app.revanced.extension.shared.utils.Utils;
 import app.revanced.extension.youtube.settings.Settings;
 import app.revanced.extension.youtube.shared.PlayerType;
+import app.revanced.extension.youtube.shared.ShortsPlayerState;
 import app.revanced.extension.youtube.shared.VideoInformation;
 
 @SuppressWarnings("unused")
 public class VideoQualityPatch {
     private static final int DEFAULT_YOUTUBE_VIDEO_QUALITY = -2;
-    private static final IntegerSetting mobileQualitySetting = Settings.DEFAULT_VIDEO_QUALITY_MOBILE;
-    private static final IntegerSetting wifiQualitySetting = Settings.DEFAULT_VIDEO_QUALITY_WIFI;
+    private static final IntegerSetting shortsQualityMobile = Settings.DEFAULT_VIDEO_QUALITY_MOBILE_SHORTS;
+    private static final IntegerSetting shortsQualityWifi = Settings.DEFAULT_VIDEO_QUALITY_WIFI_SHORTS;
+    private static final IntegerSetting videoQualityMobile = Settings.DEFAULT_VIDEO_QUALITY_MOBILE;
+    private static final IntegerSetting videoQualityWifi = Settings.DEFAULT_VIDEO_QUALITY_WIFI;
 
     @NonNull
     public static String videoId = "";
@@ -35,12 +38,11 @@ public class VideoQualityPatch {
     public static void newVideoStarted(@NonNull String newlyLoadedChannelId, @NonNull String newlyLoadedChannelName,
                                        @NonNull String newlyLoadedVideoId, @NonNull String newlyLoadedVideoTitle,
                                        final long newlyLoadedVideoLength, boolean newlyLoadedLiveStreamValue) {
-        if (PlayerType.getCurrent() == PlayerType.INLINE_MINIMAL)
-            return;
-        if (videoId.equals(newlyLoadedVideoId))
-            return;
-        videoId = newlyLoadedVideoId;
-        setVideoQuality(Settings.SKIP_PRELOADED_BUFFER.get() ? 250 : 750);
+        if (PlayerType.getCurrent() != PlayerType.INLINE_MINIMAL &&
+                !videoId.equals(newlyLoadedVideoId)) {
+            videoId = newlyLoadedVideoId;
+            setVideoQuality(750);
+        }
     }
 
     /**
@@ -53,42 +55,67 @@ public class VideoQualityPatch {
         );
     }
 
-    private static void setVideoQuality(final long delayMillis) {
-        final int defaultQuality = Utils.getNetworkType() == Utils.NetworkType.MOBILE
-                ? mobileQualitySetting.get()
-                : wifiQualitySetting.get();
+    private static void setVideoQuality(long delayMillis) {
+        boolean isShorts = isShorts();
+        IntegerSetting defaultQualitySetting = Utils.getNetworkType() == Utils.NetworkType.MOBILE
+                ? isShorts ? shortsQualityMobile : videoQualityMobile
+                : isShorts ? shortsQualityWifi : videoQualityWifi;
 
-        if (defaultQuality == DEFAULT_YOUTUBE_VIDEO_QUALITY)
-            return;
+        int defaultQuality = defaultQualitySetting.get();
 
-        Utils.runOnMainThreadDelayed(() -> {
-                    final int qualityToUseFinal = VideoInformation.getAvailableVideoQuality(defaultQuality);
-                    Logger.printDebug(() -> "Changing video quality to: " + qualityToUseFinal);
-                    VideoInformation.overrideVideoQuality(qualityToUseFinal);
-                }, delayMillis
-        );
+        if (defaultQuality != DEFAULT_YOUTUBE_VIDEO_QUALITY) {
+            Utils.runOnMainThreadDelayed(() -> {
+                        final int qualityToUseFinal = VideoInformation.getAvailableVideoQuality(defaultQuality);
+                        Logger.printDebug(() -> "Changing video quality to: " + qualityToUseFinal);
+                        VideoInformation.overrideVideoQuality(qualityToUseFinal);
+                    }, delayMillis
+            );
+        }
     }
 
     private static void userSelectedVideoQuality(final int defaultQuality) {
-        if (!Settings.REMEMBER_VIDEO_QUALITY_LAST_SELECTED.get())
-            return;
-        if (defaultQuality == DEFAULT_YOUTUBE_VIDEO_QUALITY)
-            return;
+        if (defaultQuality != DEFAULT_YOUTUBE_VIDEO_QUALITY) {
+            boolean isShorts = isShorts();
+            final Utils.NetworkType networkType = Utils.getNetworkType();
+            String networkTypeMessage = networkType == Utils.NetworkType.MOBILE
+                    ? str("revanced_remember_video_quality_mobile")
+                    : str("revanced_remember_video_quality_wifi");
 
-        final Utils.NetworkType networkType = Utils.getNetworkType();
+            if (isShorts) {
+                if (Settings.REMEMBER_VIDEO_QUALITY_SHORTS_LAST_SELECTED.get()) {
+                    IntegerSetting defaultQualitySetting = networkType == Utils.NetworkType.MOBILE
+                            ? shortsQualityMobile
+                            : shortsQualityWifi;
 
-        switch (networkType) {
-            case NONE -> {
-                Utils.showToastShort(str("revanced_remember_video_quality_none"));
-                return;
+                    defaultQualitySetting.save(defaultQuality);
+
+                    if (Settings.REMEMBER_VIDEO_QUALITY_SHORTS_LAST_SELECTED_TOAST.get()) {
+                        Utils.showToastShort(str(
+                                "revanced_remember_video_quality_toast_shorts",
+                                networkTypeMessage, (defaultQuality + "p")
+                        ));
+                    }
+                }
+            } else {
+                if (Settings.REMEMBER_VIDEO_QUALITY_LAST_SELECTED.get()) {
+                    IntegerSetting defaultQualitySetting = networkType == Utils.NetworkType.MOBILE
+                            ? videoQualityMobile
+                            : videoQualityWifi;
+
+                    defaultQualitySetting.save(defaultQuality);
+
+                    if (Settings.REMEMBER_VIDEO_QUALITY_LAST_SELECTED_TOAST.get()) {
+                        Utils.showToastShort(str(
+                                "revanced_remember_video_quality_toast",
+                                networkTypeMessage, (defaultQuality + "p")
+                        ));
+                    }
+                }
             }
-            case MOBILE -> mobileQualitySetting.save(defaultQuality);
-            default -> wifiQualitySetting.save(defaultQuality);
         }
+    }
 
-        if (!Settings.REMEMBER_VIDEO_QUALITY_LAST_SELECTED_TOAST.get())
-            return;
-
-        Utils.showToastShort(str("revanced_remember_video_quality_" + networkType.getName(), defaultQuality + "p"));
+    private static boolean isShorts() {
+        return !ShortsPlayerState.getCurrent().isClosed();
     }
 }

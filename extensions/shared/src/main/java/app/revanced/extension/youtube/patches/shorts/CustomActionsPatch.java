@@ -296,6 +296,11 @@ public final class CustomActionsPatch {
                         true
                 )
         ),
+        SPEED_DIALOG(
+                Settings.SHORTS_CUSTOM_ACTIONS_SPEED_DIALOG,
+                "yt_outline_play_arrow_half_circle_black_24",
+                () -> VideoUtils.showPlaybackSpeedDialog(contextRef.get())
+        ),
         REPEAT_STATE(
                 Settings.SHORTS_CUSTOM_ACTIONS_REPEAT_STATE,
                 "yt_outline_arrow_repeat_1_black_24",

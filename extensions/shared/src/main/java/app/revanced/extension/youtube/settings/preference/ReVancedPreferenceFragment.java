@@ -10,6 +10,7 @@ import static app.revanced.extension.shared.utils.Utils.getChildView;
 import static app.revanced.extension.shared.utils.Utils.isSDKAbove;
 import static app.revanced.extension.shared.utils.Utils.showToastShort;
 import static app.revanced.extension.youtube.settings.Settings.DEFAULT_PLAYBACK_SPEED;
+import static app.revanced.extension.youtube.settings.Settings.DEFAULT_PLAYBACK_SPEED_SHORTS;
 import static app.revanced.extension.youtube.settings.Settings.HIDE_PREVIEW_COMMENT;
 import static app.revanced.extension.youtube.settings.Settings.HIDE_PREVIEW_COMMENT_TYPE;
 
@@ -119,7 +120,7 @@ public class ReVancedPreferenceFragment extends PreferenceFragment {
                 } else {
                     Setting.privateSetValueFromString(setting, listPreference.getValue());
                 }
-                if (setting.equals(DEFAULT_PLAYBACK_SPEED)) {
+                if (setting.equals(DEFAULT_PLAYBACK_SPEED) || setting.equals(DEFAULT_PLAYBACK_SPEED_SHORTS)) {
                     listPreference.setEntries(CustomPlaybackSpeedPatch.getEntries());
                     listPreference.setEntryValues(CustomPlaybackSpeedPatch.getEntryValues());
                 }
@@ -310,7 +311,7 @@ public class ReVancedPreferenceFragment extends PreferenceFragment {
                 } else if (preference instanceof EditTextPreference editTextPreference) {
                     editTextPreference.setText(setting.get().toString());
                 } else if (preference instanceof ListPreference listPreference) {
-                    if (setting.equals(DEFAULT_PLAYBACK_SPEED)) {
+                    if (setting.equals(DEFAULT_PLAYBACK_SPEED) || setting.equals(DEFAULT_PLAYBACK_SPEED_SHORTS)) {
                         listPreference.setEntries(CustomPlaybackSpeedPatch.getEntries());
                         listPreference.setEntryValues(CustomPlaybackSpeedPatch.getEntryValues());
                     }

@@ -1478,12 +1478,27 @@ Megjegyzés: Ezzel a képernyőterület méretét is megváltoztatja, ahol érz�
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">Automatikus</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Videó</string>
-    <string name="revanced_default_playback_speed_title">Alapértelmezett lejátszási sebesség</string>
-    <string name="revanced_default_video_quality_mobile_title">Alapértelmezett videó minőség mobilhálózaton</string>
-    <string name="revanced_default_video_quality_wifi_title">Alapértelmezett videó minőség Wi-Fi hálózaton</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Codec -->
     <string name="revanced_disable_hdr_video_title">HDR videó letiltása</string>
     <string name="revanced_disable_hdr_video_summary_on">A HDR videó le van tiltva.</string>
     <string name="revanced_disable_hdr_video_summary_off">A HDR videó engedélyezett.</string>
+    <string name="revanced_disable_vp9_codec_title">VP9 kodek letiltása</string>
+    <string name="revanced_disable_vp9_codec_summary_on">"A VP9 kodek le van tiltva.
+
+• A maximális felbontás 1080p.
+• A videolejátszás több internetes adatot használ, mint a VP9.
+• A HDR lejátszáshoz a HDR videó továbbra is a VP9 kodeket használja."</string>
+    <string name="revanced_disable_vp9_codec_summary_off">VP9 kodek engedélyezve van.</string>
+    <string name="revanced_replace_av1_codec_title">Szoftver AV1 kodek cseréje</string>
+    <string name="revanced_replace_av1_codec_summary">A szoftver AV1 kodeket a VP9 kodekkel helyettesíti.</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Playback speed -->
+    <string name="revanced_default_playback_speed_title">Alapértelmezett lejátszási sebesség</string>
+    <string name="revanced_remember_playback_speed_last_selected_title">Lejátszási sebesség módosításainak megjegyzése</string>
+    <string name="revanced_remember_playback_speed_last_selected_summary_on">A lejátszási sebesség módosítása minden videóra érvényes.</string>
+    <string name="revanced_remember_playback_speed_last_selected_summary_off">A lejátszási sebesség módosítása csak a jelenlegi videóra érvényes.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">Mutass egy felugró értesítést</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">Egy felugró értesítés fog látszani, amikor megváltozik az alapértelmezett lejátszási sebesség.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">Nem fog felugró értesítés látszani, amikor megváltozik az alapértelmezett lejátszási sebesség.</string>
     <string name="revanced_enable_custom_playback_speed_title">Egyéni lejátszási sebesség engedélyezése</string>
     <string name="revanced_enable_custom_playback_speed_summary_on">Az egyéni lejátszási sebesség engedélyezett.</string>
     <string name="revanced_enable_custom_playback_speed_summary_off">Az egyéni lejátszási sebesség le van tiltva.</string>
@@ -1492,12 +1507,11 @@ Megjegyzés: Ezzel a képernyőterület méretét is megváltoztatja, ahol érz�
     <string name="revanced_custom_playback_speed_menu_type_summary_off">A régi stílusú előugró menüt használja.</string>
     <string name="revanced_custom_playback_speeds_title">Egyéni lejátszási sebességek szerkesztése</string>
     <string name="revanced_custom_playback_speeds_summary">Az elérhető lejátszási sebességek hozzáadás vagy módosítása.</string>
-    <string name="revanced_remember_playback_speed_last_selected_title">Lejátszási sebesség módosításainak megjegyzése</string>
-    <string name="revanced_remember_playback_speed_last_selected_summary_on">A lejátszási sebesség módosítása minden videóra érvényes.</string>
-    <string name="revanced_remember_playback_speed_last_selected_summary_off">A lejátszási sebesség módosítása csak a jelenlegi videóra érvényes.</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_title">Mutass egy felugró értesítést</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">Egy felugró értesítés fog látszani, amikor megváltozik az alapértelmezett lejátszási sebesség.</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">Nem fog felugró értesítés látszani, amikor megváltozik az alapértelmezett lejátszási sebesség.</string>
+    <string name="revanced_custom_playback_speeds_invalid">Az egyéni sebességnek kisebbnek kell lennie, mint %sx.</string>
+    <string name="revanced_custom_playback_speeds_parse_exception">Érvénytelen egyéni lejátszási sebesség.</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Video quality -->
+    <string name="revanced_default_video_quality_mobile_title">Alapértelmezett videó minőség mobilhálózaton</string>
+    <string name="revanced_default_video_quality_wifi_title">Alapértelmezett videó minőség Wi-Fi hálózaton</string>
     <string name="revanced_remember_video_quality_last_selected_title">Videó minőség módosításainak megjegyzése</string>
     <string name="revanced_remember_video_quality_last_selected_summary_on">A minőség változások alkalmazása az összes videóra.</string>
     <string name="revanced_remember_video_quality_last_selected_summary_off">A minőség változások alkalmazása csak a jelenlegi videóra.</string>
@@ -1507,15 +1521,6 @@ Megjegyzés: Ezzel a képernyőterület méretét is megváltoztatja, ahol érz�
     <string name="revanced_restore_old_video_quality_menu_title">Régi videóminőség menü visszaállítása</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">A régi videóminőség menü látható.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">A régi videóminőség menü nem látható.</string>
-    <string name="revanced_disable_default_playback_speed_music_title">Lejátszási sebesség zenéhez kiválasztás elrejtése</string>
-    <string name="revanced_disable_default_playback_speed_music_on">Az alapértelmezett lejátszási sebesség le van tiltva zene lejátszásnál.</string>
-    <string name="revanced_disable_default_playback_speed_music_off">Az alapértelmezett lejátszási sebesség engedélyezett zene lejátszásnál.</string>
-    <string name="revanced_disable_default_playback_speed_music_type_title">Érvényesítés kategóriák használatával</string>
-    <string name="revanced_disable_default_playback_speed_music_type_on">Az alapértelmezett lejátszási sebesség le van tiltva, ha a videó kategóriája zene.</string>
-    <string name="revanced_disable_default_playback_speed_music_type_off">Az alapértelmezett lejátszási sebesség le van tiltva a YouTube Music szolgáltatásban lejátszható videóknál.</string>
-    <string name="revanced_enable_default_playback_speed_shorts_title">Shortok alapértelmezett lejátszási sebességének engedélyezése</string>
-    <string name="revanced_enable_default_playback_speed_shorts_summary_on">Az alapértelmezett lejátszási sebesség vonatkozik a Shortokra.</string>
-    <string name="revanced_enable_default_playback_speed_shorts_summary_off">Az alapértelmezett lejátszási sebesség nem vonatkozik a Shortokra.</string>
     <string name="revanced_skipped_preloaded_buffer">Kihagyott előtöltött puffer.</string>
     <string name="revanced_skip_preloaded_buffer_title">Előtöltött puffer kihagyása</string>
     <string name="revanced_skip_preloaded_buffer_summary">"Átugorja a videók kezdetén az előzetesen betöltött puffert, hogy azonnal alkalmazza az alapértelmezett videóminőséget.
@@ -1528,27 +1533,13 @@ Info:
     <string name="revanced_skip_preloaded_buffer_toast_summary_on">A felugró üzenet látható.</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_off">A felugró üzenet nem látható.</string>
     <string name="revanced_spoof_device_dimensions_title">Eszközméret hamisítása</string>
-    <string name="revanced_spoof_device_dimensions_summary">"A maximális értékre hamisítja az eszköz méreteit.
-Előfordulhat, hogy a jó minőség feloldódik bizonyos videóknál, amelyek nagy eszközméretet igényelnek, de nem minden videónál."</string>
-    <string name="revanced_disable_vp9_codec_title">VP9 kodek letiltása</string>
-    <string name="revanced_disable_vp9_codec_summary_on">"A VP9 kodek le van tiltva.
-
-• A maximális felbontás 1080p.
-• A videolejátszás több internetes adatot használ, mint a VP9.
-• A HDR lejátszáshoz a HDR videó továbbra is a VP9 kodeket használja."</string>
-    <string name="revanced_disable_vp9_codec_summary_off">VP9 kodek engedélyezve van.</string>
-    <string name="revanced_replace_av1_codec_title">Szoftver AV1 kodek cseréje</string>
-    <string name="revanced_replace_av1_codec_summary">A szoftver AV1 kodeket a VP9 kodekkel helyettesíti.</string>
-    <string name="revanced_reject_av1_codec_title">Elutasítja a szoftver AV1 kodek választ</string>
-    <string name="revanced_reject_av1_codec_summary">"Erőteljesen elutasítja a szoftveres AV1 codec válaszát.
-Egy másik kodek kerül alkalmazásra kb. 20 másodperc pufferezés után."</string>
-    <string name="revanced_reject_av1_codec_toast">Az alapfolyamat kb. 20 másodpercig pufferez.</string>
-    <string name="revanced_remember_playback_speed_toast">Az alapértelmezett sebesség módosítva: %s.</string>
-    <string name="revanced_remember_video_quality_mobile">Az alapértelmezett videó minőség mobil hálózaton: %s.</string>
-    <string name="revanced_remember_video_quality_none">Nem sikerült beállítani a videóminőséget.</string>
-    <string name="revanced_remember_video_quality_wifi">Az alapértelmezett videó minőség Wi-Fi hálózaton: %s.</string>
-    <string name="revanced_custom_playback_speeds_invalid">Az egyéni sebességnek kisebbnek kell lennie, mint %sx.</string>
-    <string name="revanced_custom_playback_speeds_parse_exception">Érvénytelen egyéni lejátszási sebesség.</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Experimental flags -->
+    <string name="revanced_disable_default_playback_speed_music_title">Lejátszási sebesség zenéhez kiválasztás elrejtése</string>
+    <string name="revanced_disable_default_playback_speed_music_on">Az alapértelmezett lejátszási sebesség le van tiltva zene lejátszásnál.</string>
+    <string name="revanced_disable_default_playback_speed_music_off">Az alapértelmezett lejátszási sebesség engedélyezett zene lejátszásnál.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_title">Érvényesítés kategóriák használatával</string>
+    <string name="revanced_disable_default_playback_speed_music_type_on">Az alapértelmezett lejátszási sebesség le van tiltva, ha a videó kategóriája zene.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_off">Az alapértelmezett lejátszási sebesség le van tiltva a YouTube Music szolgáltatásban lejátszható videóknál.</string>
     <!-- PreferenceScreen: Return YouTube Dislike -->
     <string name="revanced_preference_screen_ryd_title">YouTube nem tetszések visszaállítása</string>
     <string name="revanced_ryd_enable_title">YouTube nem tetszések visszaállításának engedélyezése</string>

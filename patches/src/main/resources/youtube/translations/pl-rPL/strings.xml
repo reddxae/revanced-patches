@@ -534,6 +534,7 @@ Zmiany zawierają:
     <string name="revanced_disable_translucent_status_bar_title">Półprzezroczystość paska statusu</string>
     <string name="revanced_disable_translucent_status_bar_summary_on">Wyłączona</string>
     <string name="revanced_disable_translucent_status_bar_summary_off">Włączona</string>
+    <string name="revanced_disable_translucent_status_bar_user_dialog_message">Dla większości producentów ROM-ów bazujących na Androidzie 12 i wzwyż, włączenie tej opcji spowoduje stanie się systemowego paska nawigacji przezroczystym.</string>
     <string name="revanced_spoof_app_version_title">Oszukiwanie wersji aplikacji</string>
     <string name="revanced_spoof_app_version_summary_on">Włączone</string>
     <string name="revanced_spoof_app_version_summary_off">Wyłączone</string>
@@ -1551,6 +1552,10 @@ Kliknij i przytrzymaj przycisk 'Więcej', by wyświetlić okno z własnymi akcja
     <string name="revanced_shorts_custom_actions_open_video_title">Menu od otwierania filmu</string>
     <string name="revanced_shorts_custom_actions_open_video_summary_on">Widoczne</string>
     <string name="revanced_shorts_custom_actions_open_video_summary_off">Ukryte</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_label">Prędkość odtwarzania</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_title">Menu od prędkości odtwarzania</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_summary_on">Widoczne</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_summary_off">Ukryte</string>
     <string name="revanced_shorts_custom_actions_repeat_state_label">Stan powtarzania Shortsów</string>
     <string name="revanced_shorts_custom_actions_repeat_state_title">Menu od stanu powtarzania Shortsów</string>
     <string name="revanced_shorts_custom_actions_repeat_state_summary_on">Widoczne</string>
@@ -1593,10 +1598,14 @@ Ograniczenia:
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_on">Najniższa wartość jasności aktywowana przesuwaniem włącza automatyczną jasność</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_off">Najniższa wartość jasności aktywowana przesuwaniem nie włącza automatycznej jasności</string>
     <string name="revanced_enable_swipe_brightness_title">Zmienianie jasności przesuwaniem</string>
-    <string name="revanced_enable_swipe_brightness_summary_on">"Włączone"</string>
+    <string name="revanced_enable_swipe_brightness_summary_on">"Włączone
+
+Dostosuj jasność, przesuwając pionowo po lewej stronie ekranu."</string>
     <string name="revanced_enable_swipe_brightness_summary_off">Wyłączone</string>
     <string name="revanced_enable_swipe_volume_title">Zmienianie głośności przesuwaniem</string>
-    <string name="revanced_enable_swipe_volume_summary_on">"Włączone"</string>
+    <string name="revanced_enable_swipe_volume_summary_on">"Włączone
+
+Dostosuj głośność, przesuwając pionowo po prawej stronie ekranu."</string>
     <string name="revanced_enable_swipe_volume_summary_off">Wyłączone</string>
     <string name="revanced_enable_save_and_restore_brightness_title">Zapisuj i przywracaj jasność podczas zamykania lub wchodzenia w tryb pełnoekranowy</string>
     <string name="revanced_enable_save_and_restore_brightness_summary_on">Tak</string>
@@ -1612,6 +1621,18 @@ Ograniczenia:
     <string name="revanced_swipe_gestures_lock_mode_summary_off">Wyłączone</string>
     <string name="revanced_swipe_magnitude_threshold_title">Minimalna długość przesunięcia</string>
     <string name="revanced_swipe_magnitude_threshold_summary">Minimalna długość przesunięcia</string>
+    <string name="revanced_swipe_overlay_alternative_ui_title">Wygląd nakładki przesuwania</string>
+    <string name="revanced_swipe_overlay_alternative_ui_summary_on">Alternatywny</string>
+    <string name="revanced_swipe_overlay_alternative_ui_summary_off">Starszy</string>
+    <string name="revanced_swipe_overlay_minimal_style_title">Minimalistyczny styl nakładki przesuwania</string>
+    <string name="revanced_swipe_overlay_minimal_style_summary_on">Włączony</string>
+    <string name="revanced_swipe_overlay_minimal_style_summary_off">Wyłączony</string>
+    <string name="revanced_swipe_show_circular_overlay_title">Okrągła nakładka</string>
+    <string name="revanced_swipe_show_circular_overlay_summary_on">Włączona</string>
+    <string name="revanced_swipe_show_circular_overlay_summary_off">Wyłączona</string>
+    <string name="revanced_swipe_overlay_background_opacity_title">Przezroczystość tła nakładki przesuwania</string>
+    <string name="revanced_swipe_overlay_background_opacity_summary">Wartość musi być pomiędzy 0 a 100</string>
+    <string name="revanced_swipe_overlay_background_opacity_invalid_toast">Wartość musi być pomiędzy 0 a 100.</string>
     <string name="revanced_swipe_overlay_text_size_title">Rozmiar tekstu nakładki przesuwania</string>
     <string name="revanced_swipe_overlay_text_size_summary">Rozmiar tekstu nakładki przesuwania</string>
     <string name="revanced_swipe_overlay_rect_size_title">Rozmiar obszaru przesuwania</string>
@@ -1643,12 +1664,42 @@ Ograniczenia:
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">Automatyczna</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Filmy</string>
-    <string name="revanced_default_playback_speed_title">Domyślna prędkość odtwarzania</string>
-    <string name="revanced_default_video_quality_mobile_title">Domyślna jakość filmu podczas używania sieci mobilnej</string>
-    <string name="revanced_default_video_quality_wifi_title">Domyślna jakość filmu podczas używania Wi-Fi</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Codec -->
+    <string name="revanced_preference_category_codec">Kodek</string>
     <string name="revanced_disable_hdr_video_title">Filmy z HDR</string>
     <string name="revanced_disable_hdr_video_summary_on">Wyłączone</string>
     <string name="revanced_disable_hdr_video_summary_off">Włączone</string>
+    <string name="revanced_disable_vp9_codec_title">Wyłącz kodek VP9</string>
+    <string name="revanced_disable_vp9_codec_summary_on">"Wyłączone
+
+• Maksymalną rozdzielczością filmów jest 1080p
+• Odtwarzanie filmów wykorzystuje więcej danych internetowych niż VP9
+• Kodek VP9 jest używany do filmów z HDR"</string>
+    <string name="revanced_disable_vp9_codec_summary_off">Włączone</string>
+    <string name="revanced_replace_av1_codec_title">Zmień kodek AV1 programu</string>
+    <string name="revanced_replace_av1_codec_summary">Zastąp kodek AV1 programu kodekiem VP9</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Playback speed -->
+    <string name="revanced_preference_category_playback_speed">Prędkość odtwarzania</string>
+    <string name="revanced_default_playback_speed_title">Domyślna prędkość odtwarzania</string>
+    <string name="revanced_remember_playback_speed_last_selected_title">Zapamiętuj zmiany prędkości odtwarzania</string>
+    <string name="revanced_remember_playback_speed_last_selected_summary_on">Zmiany prędkości odtwarzania dotyczą wszystkich filmów</string>
+    <string name="revanced_remember_playback_speed_last_selected_summary_off">Zmiany prędkości odtwarzania dotyczą tylko bieżącego filmu</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">Komunikaty o zmianie domyślnej prędkości odtwarzania</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">Włączone</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">Wyłączone</string>
+    <string name="revanced_default_playback_speed_shorts_title">Domyślna prędkość odtwarzania w Shortsach</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_title">Zapamiętuj zmiany prędkości odtwarzania w Shortsach</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_summary_on">"Dla wszystkich Shortsów
+
+Informacje:
+• jedyną drogą zmiany prędkości odtwarzania w odtwarzaczu Shortsów jest użycie 'Prędkość odtwarzania' w 'Własne akcje'
+• jeśli nie zawarłeś łatki związanej z komponentami Shortsów, nie będzie to możliwe"</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_summary_off">Dla bieżącego Shortsa</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_toast_title">Komunikat o zmianie domyślnej prędkości odtwarzania dla Shortsów</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_toast_summary_on">Włączony</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_toast_summary_off">Wyłączony</string>
+    <string name="revanced_remember_playback_speed_toast">Zmieniono domyślną prędkość odtwarzania na: %s.</string>
+    <string name="revanced_remember_playback_speed_toast_shorts">Zmieniono domyślną prędkość odtwarzania w Shortsach na: %s.</string>
     <string name="revanced_enable_custom_playback_speed_title">Niestandardowa prędkość odtwarzania</string>
     <string name="revanced_enable_custom_playback_speed_summary_on">Włączona</string>
     <string name="revanced_enable_custom_playback_speed_summary_off">Wyłączona</string>
@@ -1657,30 +1708,33 @@ Ograniczenia:
     <string name="revanced_custom_playback_speed_menu_type_summary_off">Stary</string>
     <string name="revanced_custom_playback_speeds_title">Edytuj niestandardowe prędkości odtwarzania</string>
     <string name="revanced_custom_playback_speeds_summary">Dodaj lub zmień dostępne prędkości odtwarzania</string>
-    <string name="revanced_remember_playback_speed_last_selected_title">Zapamiętuj zmiany prędkości odtwarzania</string>
-    <string name="revanced_remember_playback_speed_last_selected_summary_on">Zmiany prędkości odtwarzania dotyczą wszystkich filmów</string>
-    <string name="revanced_remember_playback_speed_last_selected_summary_off">Zmiany prędkości odtwarzania dotyczą tylko bieżącego filmu</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_title">Komunikaty o zmianie domyślnej prędkości odtwarzania</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">Włączone</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">Wyłączone</string>
+    <string name="revanced_custom_playback_speeds_invalid">Niestandardowe prędkości muszą by mniejsze niż %sx.</string>
+    <string name="revanced_custom_playback_speeds_parse_exception">Nieprawidłowe niestandardowe prędkości odtwarzania.</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Video quality -->
+    <string name="revanced_preference_category_video_quality">Jakość filmu</string>
+    <string name="revanced_default_video_quality_mobile_title">Domyślna jakość filmu podczas używania sieci mobilnej</string>
+    <string name="revanced_default_video_quality_wifi_title">Domyślna jakość filmu podczas używania Wi-Fi</string>
     <string name="revanced_remember_video_quality_last_selected_title">Zapamiętuj zmiany jakości filmu</string>
     <string name="revanced_remember_video_quality_last_selected_summary_on">Zmiany jakości dotyczą wszystkich filmów</string>
     <string name="revanced_remember_video_quality_last_selected_summary_off">Zmiany jakości dotyczą tylko bieżącego filmu</string>
     <string name="revanced_remember_video_quality_last_selected_toast_title">Komunikaty o zmianie domyślnej jakości filmów</string>
     <string name="revanced_remember_video_quality_last_selected_toast_summary_on">Włączone</string>
     <string name="revanced_remember_video_quality_last_selected_toast_summary_off">Wyłączone</string>
+    <string name="revanced_default_video_quality_mobile_shorts_title">Domyślna jakość Shortsów podczas używania sieci mobilnej</string>
+    <string name="revanced_default_video_quality_wifi_shorts_title">Domyślna jakość Shortsów podczas używania Wi-Fi</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_title">Zapamiętuj zmiany jakości Shortsów</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_summary_on">Dla wszystkich Shortsów</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_summary_off">Dla bieżącego Shortsa</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_toast_title">Komunikat o zmianie domyślnej jakości Shortsa</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_toast_summary_on">Włączony</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_toast_summary_off">Wyłączony</string>
+    <string name="revanced_remember_video_quality_mobile">Sieć mobilna</string>
+    <string name="revanced_remember_video_quality_wifi">Wi-Fi</string>
+    <string name="revanced_remember_video_quality_toast">Zmieniono domyślną jakość filmu z %1$s na: %2$s.</string>
+    <string name="revanced_remember_video_quality_toast_shorts">Zmieniono domyślną jakość Shortsa z %1$s na: %2$s.</string>
     <string name="revanced_restore_old_video_quality_menu_title">Stare menu od jakości filmu</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">Widoczne</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Niewidoczne</string>
-    <string name="revanced_disable_default_playback_speed_music_title">Domyślna prędkość odtwarzania dla muzyki</string>
-    <string name="revanced_disable_default_playback_speed_music_on">Wyłączona</string>
-    <string name="revanced_disable_default_playback_speed_music_off">Włączona</string>
-    <string name="revanced_disable_default_playback_speed_music_type_title">Sprawdzaj przy użyciu kategorii</string>
-    <string name="revanced_disable_default_playback_speed_music_type_on">Wyłączone dla filmów z kategorią muzyki</string>
-    <string name="revanced_disable_default_playback_speed_music_type_off">Wyłączone dla filmów odtwarzalnych w YouTube Music</string>
-    <string name="revanced_enable_default_playback_speed_shorts_title">Domyślna prędkość odtwarzania w Shortsach</string>
-    <string name="revanced_enable_default_playback_speed_shorts_summary_on">Włączona</string>
-    <string name="revanced_enable_default_playback_speed_shorts_summary_off">Wyłączona</string>
     <string name="revanced_skipped_preloaded_buffer">Pominięto wstępnie załadowany bufor.</string>
     <string name="revanced_skip_preloaded_buffer_title">Wstępnie załadowany bufor</string>
     <string name="revanced_skip_preloaded_buffer_summary">"Pomija wstępnie załadowany bufor na początku filmu, aby natychmiastowo ustawić domyślną jakość filmu.
@@ -1694,26 +1748,17 @@ Informacje:
     <string name="revanced_skip_preloaded_buffer_toast_summary_off">Ukryte</string>
     <string name="revanced_spoof_device_dimensions_title">Oszukaj rozdzielczość urządzenia</string>
     <string name="revanced_spoof_device_dimensions_summary">"Oszukuje rozdzielczość urządzenia do maksymalnej wartości.
-Wysoka jakość może być odblokowana na niektórych filmach, które wymagają wysokiej rozdzielczości urządzenia, lecz nie na wszystkich."</string>
-    <string name="revanced_disable_vp9_codec_title">Wyłącz kodek VP9</string>
-    <string name="revanced_disable_vp9_codec_summary_on">"Wyłączone
 
-• Maksymalną rozdzielczością filmów jest 1080p
-• Odtwarzanie filmów wykorzystuje więcej danych internetowych niż VP9
-• Kodek VP9 jest używany do filmów z HDR"</string>
-    <string name="revanced_disable_vp9_codec_summary_off">Włączone</string>
-    <string name="revanced_replace_av1_codec_title">Zmień kodek AV1 programu</string>
-    <string name="revanced_replace_av1_codec_summary">Zastąp kodek AV1 programu kodekiem VP9</string>
-    <string name="revanced_reject_av1_codec_title">Odrzucaj kodek AV1 programu</string>
-    <string name="revanced_reject_av1_codec_summary">"Odrzucaj kodek AV1 programu.
-Po około 20 sekundach ładowania kodek zostanie zmieniony."</string>
-    <string name="revanced_reject_av1_codec_toast">Ten sposób powoduje około 20 sekund ładowania.</string>
-    <string name="revanced_remember_playback_speed_toast">Zmieniono domyślną prędkość odtwarzania na %s.</string>
-    <string name="revanced_remember_video_quality_mobile">Zmieniono domyślną jakość podczas używania sieci mobilnej na %s.</string>
-    <string name="revanced_remember_video_quality_none">Nie udało się zmienić jakości obrazu.</string>
-    <string name="revanced_remember_video_quality_wifi">Zmieniono domyślną jakość podczas używania Wi-Fi na %s.</string>
-    <string name="revanced_custom_playback_speeds_invalid">Niestandardowe prędkości muszą by mniejsze niż %sx.</string>
-    <string name="revanced_custom_playback_speeds_parse_exception">Nieprawidłowe niestandardowe prędkości odtwarzania.</string>
+Informacje:
+• wysoka jakość może być odblokowana na niektórych filmach, które wymagają wysokiej rozdzielczości urządzenia, lecz nie na wszystkich
+• ustawienie nie będzie dostępne, jeśli opcja 'Oszukuj strumień danych' jest włączona"</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Experimental flags -->
+    <string name="revanced_disable_default_playback_speed_music_title">Domyślna prędkość odtwarzania dla muzyki</string>
+    <string name="revanced_disable_default_playback_speed_music_on">Wyłączona</string>
+    <string name="revanced_disable_default_playback_speed_music_off">Włączona</string>
+    <string name="revanced_disable_default_playback_speed_music_type_title">Sprawdzaj przy użyciu kategorii</string>
+    <string name="revanced_disable_default_playback_speed_music_type_on">Wyłączone dla filmów z kategorią muzyki</string>
+    <string name="revanced_disable_default_playback_speed_music_type_off">Wyłączone dla filmów odtwarzalnych w YouTube Music</string>
     <!-- PreferenceScreen: Return YouTube Dislike -->
     <string name="revanced_preference_screen_ryd_title">Return YouTube Dislike</string>
     <string name="revanced_ryd_enable_title">Return YouTube Dislike</string>
@@ -1843,6 +1888,7 @@ Kliknij, by zobaczyć, jak zgłosić klucz API."</string>
     <string name="revanced_sb_skip_showbutton">Pokaż przycisk od pomijania</string>
     <string name="revanced_sb_skip_seekbaronly">Pokazuj w pasku postępu filmu</string>
     <string name="revanced_sb_skip_ignore">Wyłącz</string>
+    <string name="revanced_sb_color_opacity_label">Przezroczystość:</string>
     <string name="revanced_sb_color_dot_label">Kolor:</string>
     <string name="revanced_sb_color_changed">Kolor został zmieniony.</string>
     <string name="revanced_sb_color_reset">Kolor został zresetowany.</string>
@@ -1910,6 +1956,7 @@ Kliknij, by zobaczyć, jak zgłosić klucz API."</string>
     <string name="revanced_sb_vote_category">Zmień kategorię</string>
     <string name="revanced_sb_vote_no_segments">Brak segmentów, na które można zagłosować.</string>
     <!-- A segment start and end time, such as "02:10 to 03:40" -->
+    <string name="revanced_sb_vote_segment_time_to_from">%1$s do %2$s</string>
     <string name="revanced_sb_new_segment_choose_category">Wybierz kategorię segmentu</string>
     <string name="revanced_sb_new_segment_disabled_category">Ta kategoria jest wyłączona w ustawieniach. Włącz kategorię, aby móc wysłać ten segment.</string>
     <string name="revanced_sb_new_segment_title">Nowy segment SponsorBlock</string>
@@ -2029,6 +2076,8 @@ Stuknij przycisk kontynuacji i zezwól na zmiany w optymalizacji."</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr_no_auth">"Android VR
 <small>(Bez autoryzacji)</small>"</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_deprecated">"iOS
+<small>(Porzucone)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
 <small>(Wymagane zalogowanie)</small>"</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Efekty uboczne oszukiwania</string>
@@ -2036,9 +2085,22 @@ Stuknij przycisk kontynuacji i zezwól na zmiany w optymalizacji."</string>
 • Stabilna głośność nie jest dostępna
 • Automatyczne wymuszenie ścieżki dźwiękowej nie jest dostępne
 • Filmy dla dzieci mogą się nie odtwarzać będąc zalogowanym lub w trybie incognito"</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_deprecated">• Cały zakres ASNów/IP może być zablokowany przez serwer</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• Stabilna głośność nie jest dostępna
 • Filmy kinowe lub płatne mogą się nie odtwarzać
 • Filmy dla dzieci mogą się nie odtwarzać będąc zalogowanym lub w trybie incognito"</string>
+    <string name="revanced_spoof_streaming_data_type_ios_title">Włącz klienta iOS</string>
+    <string name="revanced_spoof_streaming_data_type_ios_summary_on">"Tak
+
+OSTRZEŻENIE: Klient iOS jest porzucony. Wszelkie problemy pojawiające się podczas korzystania, są na własne ryzyko."</string>
+    <string name="revanced_spoof_streaming_data_type_ios_summary_off">Nie</string>
+    <string name="revanced_spoof_streaming_data_type_ios_user_dialog_message">"Podczas żądania punktów końcowych interfejsu API YouTube za pomocą systemu iOS potrzebne będą tokeny Auth wydane przez urządzenie z systemem iOS oraz PoTokeny wydane przez iOSGuard.
+
+Oznacza to, że żądania przesyłania strumieniowego za pośrednictwem systemu iOS będą pozbawione zarówno tokenów Auth, jak i PoTokenów, a serwer może uznać użytkownika za bota i zablokować cały zakres ASN/IP.
+
+UŻYWAJ NA WŁASNE RYZYKO!
+
+Przetłumaczono z DeepL.com (wersja darmowa)"</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Wymuś kodek iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Wymuszony</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">Określany automatycznie</string>
@@ -2057,6 +2119,8 @@ AVC obsługuje maksymalnie rozdzielczość 1080p, kodek audio OPUS nie jest dost
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Widoczna</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Ukryta</string>
     <string name="revanced_spoof_streaming_data_language_title">Domyślny język dla transmisji na żywo dla VR</string>
+    <string name="revanced_spoof_streaming_data_failed_forbidden">Nie można przechwycić żadnego ze strumieni klienta.</string>
+    <string name="revanced_spoof_streaming_data_failed_forbidden_suggestion">Możesz nie być zalogowany.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <string name="revanced_preference_category_po_token_visitor_data">PoToken / VisitorData</string>
     <string name="revanced_spoof_streaming_data_po_token_title">PoToken do użycia</string>

@@ -1543,6 +1543,10 @@ Mantén pulsado el botón Más para mostrar el cuadro de diálogo Acciones perso
     <string name="revanced_shorts_custom_actions_open_video_title">Mostrar menú de abrir vídeo</string>
     <string name="revanced_shorts_custom_actions_open_video_summary_on">El menú de abrir vídeo está visible.</string>
     <string name="revanced_shorts_custom_actions_open_video_summary_off">El menú de abrir vídeo está oculto.</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_label">Diálogo de velocidad</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_title">Mostrar menú de diálogo de velocidad</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_summary_on">El menú de diálogo de velocidad está visible.</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_summary_off">El menú de diálogo de velocidad está oculto.</string>
     <string name="revanced_shorts_custom_actions_repeat_state_label">Estado de repetición</string>
     <string name="revanced_shorts_custom_actions_repeat_state_title">Mostrar menú de estado de repetición</string>
     <string name="revanced_shorts_custom_actions_repeat_state_summary_on">El menú del estado de repetición está visible.</string>
@@ -1646,12 +1650,42 @@ No hay márgenes en la parte superior e inferior del reproductor."</string>
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">Automático</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Vídeo</string>
-    <string name="revanced_default_playback_speed_title">Velocidad predeterminada de reproducción</string>
-    <string name="revanced_default_video_quality_mobile_title">Calidad predeterminada de vídeo en red móvil</string>
-    <string name="revanced_default_video_quality_wifi_title">Calidad predeterminada de vídeo en red Wi-Fi</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Codec -->
+    <string name="revanced_preference_category_codec">Códec</string>
     <string name="revanced_disable_hdr_video_title">Desactivar vídeo HDR</string>
     <string name="revanced_disable_hdr_video_summary_on">El vídeo HDR está desactivado.</string>
     <string name="revanced_disable_hdr_video_summary_off">El vídeo HDR está activado.</string>
+    <string name="revanced_disable_vp9_codec_title">Desactivar códec VP9</string>
+    <string name="revanced_disable_vp9_codec_summary_on">"El códec VP9 está desactivado.
+
+• La resolución máxima es 1080p.
+• La reproducción de vídeo utilizará más datos de Internet que VP9.
+• Para obtener reproducción HDR, el vídeo HDR sigue utilizando el códec VP9."</string>
+    <string name="revanced_disable_vp9_codec_summary_off">El códec VP9 está activado.</string>
+    <string name="revanced_replace_av1_codec_title">Reemplazar códec AV1 del software</string>
+    <string name="revanced_replace_av1_codec_summary">Reemplaza el códec AV1 del software con el códec VP9.</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Playback speed -->
+    <string name="revanced_preference_category_playback_speed">Velocidad de reproducción</string>
+    <string name="revanced_default_playback_speed_title">Velocidad predeterminada de reproducción</string>
+    <string name="revanced_remember_playback_speed_last_selected_title">Recordar cambios de velocidad de reproducción</string>
+    <string name="revanced_remember_playback_speed_last_selected_summary_on">Los cambios de velocidad de reproducción se aplican a todos los vídeos.</string>
+    <string name="revanced_remember_playback_speed_last_selected_summary_off">Los cambios de velocidad de reproducción solo se aplican al vídeo actual.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">Mostrar un mensaje</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">Se mostrará un mensaje al cambiar la velocidad de reproducción predeterminada.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">No se mostrará un mensaje al cambiar la velocidad de reproducción predeterminada.</string>
+    <string name="revanced_default_playback_speed_shorts_title">Velocidad predeterminada de reproducción en Shorts</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_title">Recordar cambios de velocidad de reproducción en Shorts</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_summary_on">"Los cambios en la velocidad de reproducción se aplican a todos los Shorts.
+
+Información:
+• La única forma de cambiar la velocidad de reproducción en el reproductor de Shorts es usar el 'Diálogo de velocidad' en 'Acciones personalizadas'.
+• Si no incluyó el parche 'Componentes de Shorts', esto no estaría disponible."</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_summary_off">Los cambios de velocidad de reproducción solo se aplican al Short actual.</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_toast_title">Mostrar un mensaje</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_toast_summary_on">Se mostrará un mensaje al cambiar la velocidad predeterminada de reproducción en los Shorts.</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_toast_summary_off">No se mostrará un mensaje al cambiar la velocidad predeterminada de reproducción en los Shorts.</string>
+    <string name="revanced_remember_playback_speed_toast">Se ha cambiado la velocidad predeterminada de reproducción a: %s.</string>
+    <string name="revanced_remember_playback_speed_toast_shorts">Se ha cambiado la velocidad predeterminada de reproducción de Shorts a: %s.</string>
     <string name="revanced_enable_custom_playback_speed_title">Activar velocidad personalizada de reproducción</string>
     <string name="revanced_enable_custom_playback_speed_summary_on">La velocidad personalizada de reproducción está activada.</string>
     <string name="revanced_enable_custom_playback_speed_summary_off">La velocidad personalizada de reproducción está desactivada.</string>
@@ -1660,30 +1694,33 @@ No hay márgenes en la parte superior e inferior del reproductor."</string>
     <string name="revanced_custom_playback_speed_menu_type_summary_off">Se utiliza el antiguo estilo del panel desplegable.</string>
     <string name="revanced_custom_playback_speeds_title">Editar velocidades personalizadas de reproducción</string>
     <string name="revanced_custom_playback_speeds_summary">Añadir o cambiar las velocidades de reproducción disponibles.</string>
-    <string name="revanced_remember_playback_speed_last_selected_title">Recordar cambios de velocidad de reproducción</string>
-    <string name="revanced_remember_playback_speed_last_selected_summary_on">Los cambios de velocidad de reproducción se aplican a todos los vídeos.</string>
-    <string name="revanced_remember_playback_speed_last_selected_summary_off">Los cambios de velocidad de reproducción solo se aplican al vídeo actual.</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_title">Mostrar un mensaje</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">Se mostrará un mensaje al cambiar la velocidad de reproducción predeterminada.</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">No se mostrará un mensaje al cambiar la velocidad de reproducción predeterminada.</string>
+    <string name="revanced_custom_playback_speeds_invalid">Las velocidades personalizadas deben ser inferiores a %sx. Utilizando valores predeterminados.</string>
+    <string name="revanced_custom_playback_speeds_parse_exception">Velocidades personalizadas de reproducción no válidas. Utilizando valores predeterminados.</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Video quality -->
+    <string name="revanced_preference_category_video_quality">Calidad de vídeo</string>
+    <string name="revanced_default_video_quality_mobile_title">Calidad predeterminada de vídeo en red móvil</string>
+    <string name="revanced_default_video_quality_wifi_title">Calidad predeterminada de vídeo en red Wi-Fi</string>
     <string name="revanced_remember_video_quality_last_selected_title">Recordar cambios de calidad de vídeo</string>
     <string name="revanced_remember_video_quality_last_selected_summary_on">Los cambios de calidad se aplican a todos los vídeos.</string>
     <string name="revanced_remember_video_quality_last_selected_summary_off">Los cambios de calidad solo se aplican al vídeo actual.</string>
     <string name="revanced_remember_video_quality_last_selected_toast_title">Mostrar un mensaje</string>
     <string name="revanced_remember_video_quality_last_selected_toast_summary_on">Se mostrará un mensaje al cambiar la calidad de vídeo predeterminada.</string>
     <string name="revanced_remember_video_quality_last_selected_toast_summary_off">No se mostrará un mensaje al cambiar la calidad de vídeo predeterminada.</string>
+    <string name="revanced_default_video_quality_mobile_shorts_title">Calidad predeterminada de Shorts en red móvil</string>
+    <string name="revanced_default_video_quality_wifi_shorts_title">Calidad predeterminada de Shorts en red Wi-Fi</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_title">Recordar cambios de calidad de Shorts</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_summary_on">Los cambios de calidad se aplican a todos los Shorts.</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_summary_off">Los cambios de calidad solo se aplican al Short actual.</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_toast_title">Mostrar un mensaje</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_toast_summary_on">Se mostrará un mensaje al cambiar la calidad predeterminada de los Shorts.</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_toast_summary_off">No se mostrará un mensaje al cambiar la calidad predeterminada de los Shorts.</string>
+    <string name="revanced_remember_video_quality_mobile">móvil</string>
+    <string name="revanced_remember_video_quality_wifi">Wi-Fi</string>
+    <string name="revanced_remember_video_quality_toast">Se ha cambiado la calidad %1$s predeterminada a: %2$s.</string>
+    <string name="revanced_remember_video_quality_toast_shorts">Se ha cambiado la calidad %1$s de los Shorts a: %2$s.</string>
     <string name="revanced_restore_old_video_quality_menu_title">Restaurar antiguo menú de calidad de vídeo</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">El antiguo menú de calidad de vídeo está visible.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">El antiguo menú de calidad de vídeo está oculto.</string>
-    <string name="revanced_disable_default_playback_speed_music_title">Desactivar velocidad de reproducción para música</string>
-    <string name="revanced_disable_default_playback_speed_music_on">La velocidad predeterminada de reproducción está desactivada para la música.</string>
-    <string name="revanced_disable_default_playback_speed_music_off">La velocidad predeterminada de reproducción está activada para la música.</string>
-    <string name="revanced_disable_default_playback_speed_music_type_title">Validar mediante categorías</string>
-    <string name="revanced_disable_default_playback_speed_music_type_on">La velocidad predeterminada de reproducción se desactiva si la categoría de vídeo es Música.</string>
-    <string name="revanced_disable_default_playback_speed_music_type_off">La velocidad predeterminada de reproducción está desactivada para los vídeos reproducibles en YouTube Music.</string>
-    <string name="revanced_enable_default_playback_speed_shorts_title">Activar velocidad predeterminada de reproducción de Shorts</string>
-    <string name="revanced_enable_default_playback_speed_shorts_summary_on">La velocidad predeterminada de reproducción se aplica a los Shorts.</string>
-    <string name="revanced_enable_default_playback_speed_shorts_summary_off">La velocidad predeterminada de reproducción no se aplica a los Shorts.</string>
     <string name="revanced_skipped_preloaded_buffer">Búfer precargado omitido.</string>
     <string name="revanced_skip_preloaded_buffer_title">Omitir búfer precargado</string>
     <string name="revanced_skip_preloaded_buffer_summary">"Omite el búfer precargado al iniciar el vídeo para evitar la demora en la aplicación de la calidad predeterminada del video.
@@ -1695,26 +1732,18 @@ No hay márgenes en la parte superior e inferior del reproductor."</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_on">El mensaje está visible.</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_off">El mensaje está oculto.</string>
     <string name="revanced_spoof_device_dimensions_title">Falsificar dimensiones del dispositivo</string>
-    <string name="revanced_spoof_device_dimensions_summary">"Falsifica las dimensiones del dispositivo para desbloquear calidades de vídeo superiores que pueden no estar disponibles en tu dispositivo."</string>
-    <string name="revanced_disable_vp9_codec_title">Desactivar códec VP9</string>
-    <string name="revanced_disable_vp9_codec_summary_on">"El códec VP9 está desactivado.
+    <string name="revanced_spoof_device_dimensions_summary">"Falsifica las dimensiones del dispositivo al valor máximo.
 
-• La resolución máxima es 1080p.
-• La reproducción de vídeo utilizará más datos de Internet que VP9.
-• Para obtener reproducción HDR, el vídeo HDR sigue utilizando el códec VP9."</string>
-    <string name="revanced_disable_vp9_codec_summary_off">El códec VP9 está activado.</string>
-    <string name="revanced_replace_av1_codec_title">Reemplazar códec AV1 del software</string>
-    <string name="revanced_replace_av1_codec_summary">Reemplaza el códec AV1 del software con el códec VP9.</string>
-    <string name="revanced_reject_av1_codec_title">Rechazar respuesta del códec AV1 del software</string>
-    <string name="revanced_reject_av1_codec_summary">"Rechaza fuertemente la respuesta del códec AV1 del software.
-Después de unos 20 segundos de búfer, cambia a un códec diferente."</string>
-    <string name="revanced_reject_av1_codec_toast">El proceso de Fallback causa unos 20 segundos de búfer.</string>
-    <string name="revanced_remember_playback_speed_toast">Cambiando la velocidad predeterminada a %s.</string>
-    <string name="revanced_remember_video_quality_mobile">Cambiando la calidad predeterminada con datos móviles a %s.</string>
-    <string name="revanced_remember_video_quality_none">Error al establecer la calidad de vídeo.</string>
-    <string name="revanced_remember_video_quality_wifi">Cambiando la calidad predeterminada con Wi-Fi a %s.</string>
-    <string name="revanced_custom_playback_speeds_invalid">Las velocidades personalizadas deben ser inferiores a %sx. Utilizando valores predeterminados.</string>
-    <string name="revanced_custom_playback_speeds_parse_exception">Velocidades personalizadas de reproducción no válidas. Utilizando valores predeterminados.</string>
+Información:
+• La alta calidad puede ser desbloqueada en algunos vídeos que requieren altas dimensiones del dispositivo, pero no en todos los vídeos.
+• Este ajuste no está disponible si está activada la opción 'Falsificar datos de streaming'."</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Experimental flags -->
+    <string name="revanced_disable_default_playback_speed_music_title">Desactivar velocidad de reproducción para música</string>
+    <string name="revanced_disable_default_playback_speed_music_on">La velocidad predeterminada de reproducción está desactivada para la música.</string>
+    <string name="revanced_disable_default_playback_speed_music_off">La velocidad predeterminada de reproducción está activada para la música.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_title">Validar mediante categorías</string>
+    <string name="revanced_disable_default_playback_speed_music_type_on">La velocidad predeterminada de reproducción se desactiva si la categoría de vídeo es Música.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_off">La velocidad predeterminada de reproducción está desactivada para los vídeos reproducibles en YouTube Music.</string>
     <!-- PreferenceScreen: Return YouTube Dislike -->
     <string name="revanced_preference_screen_ryd_title">Return YouTube Dislike</string>
     <string name="revanced_ryd_enable_title">Activar Return YouTube Dislike</string>
@@ -2071,6 +2100,8 @@ AVC tiene una resolución máxima de 1080p, el códec de audio Opus no está dis
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">El cliente utilizado para obtener datos de transmisión se muestra en estadísticas para nerds.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">El cliente utilizado para obtener datos de transmisión no se muestra en estadísticas para nerds.</string>
     <string name="revanced_spoof_streaming_data_language_title">Idioma de transmisión de audio por defecto VR</string>
+    <string name="revanced_spoof_streaming_data_failed_forbidden">No se han podido obtener las transmisiones de ningún cliente.</string>
+    <string name="revanced_spoof_streaming_data_failed_forbidden_suggestion">Puede que no hayas iniciado sesión.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <string name="revanced_preference_category_po_token_visitor_data">PoToken / VisitorData</string>
     <string name="revanced_spoof_streaming_data_po_token_title">PoToken a utilizar</string>

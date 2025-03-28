@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Translations for YouTube -->
-    <string name="accessibility_settings_edu_opt_in_text">是否啟用影片播放器的無障礙控制？</string>
+    <string name="accessibility_settings_edu_opt_in_text">啟用影片播放器的無障礙控制功能？</string>
     <string name="accessibility_settings_edu_opt_out_text">由於已啟用無障礙服務，因此你的控制選項已被修改。</string>
     <!-- Shared -->
     <string name="revanced_extended_settings_title">RVX</string>
@@ -426,11 +426,11 @@
     <string name="revanced_hide_video_view_counts_multiplier_summary">指定你的語言模板來修飾使用者。中每個影片下顯示的播放量。每個關鍵字（在你的語言中的一個字/詞） -&gt; 值（關鍵字的含義）必須單獨一行。在「-&gt;」符號之前是關鍵字。如果更改應用程序或系統語言，則需要重置此設定。\n\n示範：\n英語：10K 觀看數 = K -&gt; 1000，觀看數 -&gt; 觀看數\n西班牙文：10 K 觀看數 = K -&gt; 1000，觀看數 -&gt; 觀看數</string>
     <string name="revanced_hide_video_view_counts_multiplier_default_value">千 -&gt; 1 000\n百萬 -&gt; 1 000 000\n十億 -&gt; 1 000 000 000\n觀看數 -&gt; 觀看數</string>
     <string name="revanced_hide_video_by_view_counts_about_title">關於觀看次數篩選</string>
-    <string name="revanced_hide_video_by_view_counts_about_summary">"主頁/訂閱/搜尋結果將被過濾以隱藏觀看次數小於或大於指定數量的影片。
+    <string name="revanced_hide_video_by_view_counts_about_summary">"主頁/訂閱/搜尋結果將被篩選以隱藏觀看次數小於或大於指定數量的影片。
 
 限制： 
-• 短影片無法隱藏。
-• 觀看次數為0的影片不會被曬選。"</string>
+• 短影音無法隱藏。
+• 觀看次數為零的影片不會被篩選。"</string>
     <string name="revanced_hide_related_videos_title">隱藏相關影片</string>
     <string name="revanced_hide_related_videos_summary_on">相關影片已隱藏。</string>
     <string name="revanced_hide_related_videos_summary_off">相關影片已顯示。</string>
@@ -509,9 +509,9 @@
 • 社群貼文被隱藏。
 
 車用佈局
-• 常規播放器中的短影片開啟。
+• 常規播放器中的短影音開啟。
 • 資訊流依主題和頻道進行組織。
-• 關閉「偽裝串流資料」時無法開啟影片說明。"</string>
+• 關閉「偽裝串流數據」時無法開啟影片說明。"</string>
     <string name="revanced_disable_layout_updates_title">禁用佈局更新</string>
     <string name="revanced_disable_layout_updates_summary_on">伺服器不會更新佈局。</string>
     <string name="revanced_disable_layout_updates_summary_off">佈局將由伺服器更新。</string>
@@ -528,6 +528,7 @@
     <string name="revanced_disable_translucent_status_bar_title">停用半透明狀態列</string>
     <string name="revanced_disable_translucent_status_bar_summary_on">狀態列不透明。</string>
     <string name="revanced_disable_translucent_status_bar_summary_off">狀態列是不透明或半透明的。</string>
+    <string name="revanced_disable_translucent_status_bar_user_dialog_message">對於一些運行 Android 12 以上版本的製造商 ROM，啟用此功能可能會使系統導覽列變得透明。</string>
     <string name="revanced_spoof_app_version_title">偽裝應用程式版本</string>
     <string name="revanced_spoof_app_version_summary_on">已偽裝版本</string>
     <string name="revanced_spoof_app_version_summary_off">未偽裝版本</string>
@@ -1166,7 +1167,7 @@
     <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_on">"按鈕被隱藏。
 
 滑動即可展開或關閉。"</string>
-    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_off">顯示展開和關閉按鈕。</string>
+    <string name="revanced_miniplayer_hide_overlay_buttons_legacy_summary_off">顯示擴展和關閉按鈕。</string>
     <string name="revanced_miniplayer_hide_rewind_forward_title">隱藏快轉和倒轉按鈕</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_on">快轉和倒轉按鈕已隱藏</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_off">快轉和倒轉按鈕已顯示</string>
@@ -1238,13 +1239,13 @@
     <string name="revanced_overlay_button_play_all_type_entry_2">所有內容 (按熱門排序)</string>
     <string name="revanced_overlay_button_play_all_type_entry_3">僅限影片 (按時間排序)</string>
     <string name="revanced_overlay_button_play_all_type_entry_4">僅限影片 (按熱門排序)</string>
-    <string name="revanced_overlay_button_play_all_type_entry_5">僅限短影片 (按時間排序)</string>
-    <string name="revanced_overlay_button_play_all_type_entry_6">僅限短影片 (按流行排序)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_5">僅限短影音 (按時間排序)</string>
+    <string name="revanced_overlay_button_play_all_type_entry_6">僅限短影音 (按流行排序)</string>
     <string name="revanced_overlay_button_play_all_type_entry_7">僅限串流媒體影片 (按時間排序)</string>
     <string name="revanced_overlay_button_play_all_type_entry_8">僅限串流媒體影片 (按熱門排序)</string>
     <string name="revanced_overlay_button_play_all_type_entry_9">所有會員專屬內容</string>
     <string name="revanced_overlay_button_play_all_type_entry_10">會員專屬影片</string>
-    <string name="revanced_overlay_button_play_all_type_entry_11">會員專屬短影片</string>
+    <string name="revanced_overlay_button_play_all_type_entry_11">會員專屬短影音</string>
     <string name="revanced_overlay_button_play_all_type_entry_12">會員專屬直播</string>
     <string name="revanced_overlay_button_play_all_not_available_toast">由於頻道ID不匹配 因此無法產生播放清單。</string>
     <string name="revanced_whitelist_settings_title">頻道白名單</string>
@@ -1358,9 +1359,9 @@
     <string name="revanced_expand_video_description_summary_off">手動展開影片描述</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">短片</string>
-    <string name="revanced_disable_shorts_background_playback_title">停用 短影片 後台播放</string>
-    <string name="revanced_disable_shorts_background_playback_summary_on">短影片 後台播放已停用。</string>
-    <string name="revanced_disable_shorts_background_playback_summary_off">短影片 後台播放已啟用。</string>
+    <string name="revanced_disable_shorts_background_playback_title">停用 短影音 後台播放</string>
+    <string name="revanced_disable_shorts_background_playback_summary_on">短影音 後台播放已停用。</string>
+    <string name="revanced_disable_shorts_background_playback_summary_off">短影音 後台播放已啟用。</string>
     <string name="revanced_disable_resuming_shorts_player_title">停用恢復短片播放器</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">短片播放器在應用程式啟動時不會恢復播放。</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">短片播放器在應用程式啟動時會恢復播放。</string>
@@ -1382,9 +1383,9 @@
     <string name="revanced_hide_shorts_shelf_home_related_videos_title">在首頁和相關影片中隱藏</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_summary_on">在首頁和相關影片中隱藏</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_summary_off">在首頁和相關影片中顯示</string>
-    <string name="revanced_hide_shorts_shelf_search_title">隱藏搜尋結果中的短片</string>
-    <string name="revanced_hide_shorts_shelf_search_summary_on">搜尋結果中的短片已隱藏</string>
-    <string name="revanced_hide_shorts_shelf_search_summary_off">搜尋結果中的短片已顯示</string>
+    <string name="revanced_hide_shorts_shelf_search_title">在搜尋結果中隱藏</string>
+    <string name="revanced_hide_shorts_shelf_search_summary_on">隱藏在搜尋結果中。</string>
+    <string name="revanced_hide_shorts_shelf_search_summary_off">顯示在搜尋結果中。</string>
     <string name="revanced_hide_shorts_shelf_subscriptions_title">隱藏訂閱中的短片</string>
     <string name="revanced_hide_shorts_shelf_subscriptions_summary_on">訂閱中的短片已隱藏</string>
     <string name="revanced_hide_shorts_shelf_subscriptions_summary_off">訂閱中的短片已顯示</string>
@@ -1540,6 +1541,10 @@
     <string name="revanced_shorts_custom_actions_open_video_title">顯示開啟影片選單</string>
     <string name="revanced_shorts_custom_actions_open_video_summary_on">開啟影片選單已顯示。</string>
     <string name="revanced_shorts_custom_actions_open_video_summary_off">開啟影片選單已隱藏。</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_label">快速對話</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_title">顯示快速對話選單</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_summary_on">快速對話選單已顯示。</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_summary_off">快速對話選單已隱藏。</string>
     <string name="revanced_shorts_custom_actions_repeat_state_label">重複狀態</string>
     <string name="revanced_shorts_custom_actions_repeat_state_title">顯示重複狀態選單</string>
     <string name="revanced_shorts_custom_actions_repeat_state_summary_on">重複狀態選單已顯示。</string>
@@ -1598,6 +1603,18 @@
     <string name="revanced_swipe_gestures_lock_mode_summary_off">在「鎖定螢幕」模式下停用滑動手勢</string>
     <string name="revanced_swipe_magnitude_threshold_title">滑動幅度閾值</string>
     <string name="revanced_swipe_magnitude_threshold_summary">防誤觸的滑動幅度閾值</string>
+    <string name="revanced_swipe_overlay_alternative_ui_title">滑動覆蓋替代用戶介面</string>
+    <string name="revanced_swipe_overlay_alternative_ui_summary_on">使用替代的使用者介面。</string>
+    <string name="revanced_swipe_overlay_alternative_ui_summary_off">使用舊版使用者介面。</string>
+    <string name="revanced_swipe_overlay_minimal_style_title">啟用極簡風格</string>
+    <string name="revanced_swipe_overlay_minimal_style_summary_on">已啟用最小覆蓋樣式。</string>
+    <string name="revanced_swipe_overlay_minimal_style_summary_off">最小覆蓋樣式已停用。</string>
+    <string name="revanced_swipe_show_circular_overlay_title">顯示圓形覆蓋層</string>
+    <string name="revanced_swipe_show_circular_overlay_summary_on">圓形覆蓋層已顯示。</string>
+    <string name="revanced_swipe_show_circular_overlay_summary_off">水平覆蓋層已顯示。</string>
+    <string name="revanced_swipe_overlay_background_opacity_title">滑動調節覆蓋層背景不透明度</string>
+    <string name="revanced_swipe_overlay_background_opacity_summary">不透明度值介於 0 到 100 之間。</string>
+    <string name="revanced_swipe_overlay_background_opacity_invalid_toast"> 滑動透明度必須介於 0 到 100 之間。</string>
     <string name="revanced_swipe_overlay_text_size_title">滑動疊加層上的檔案大小</string>
     <string name="revanced_swipe_overlay_text_size_summary">滑動疊加層上的檔案大小</string>
     <string name="revanced_swipe_overlay_rect_size_title">滑動覆蓋螢幕尺寸</string>
@@ -1629,12 +1646,42 @@
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">自動</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">影片</string>
-    <string name="revanced_default_playback_speed_title">預設播放速度</string>
-    <string name="revanced_default_video_quality_mobile_title">行動數據的預設影片畫質</string>
-    <string name="revanced_default_video_quality_wifi_title">Wi-Fi 預設的影片畫質</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Codec -->
+    <string name="revanced_preference_category_codec">編解碼器</string>
     <string name="revanced_disable_hdr_video_title">HDR 影片</string>
     <string name="revanced_disable_hdr_video_summary_on">HDR 影片已啟用</string>
     <string name="revanced_disable_hdr_video_summary_off">HDR 影片已停用</string>
+    <string name="revanced_disable_vp9_codec_title">停用 VP9 編解碼器</string>
+    <string name="revanced_disable_vp9_codec_summary_on">"VP9 編解碼器已停用。
+
+• 最高解析度為 1080p。
+• 影片播放將使用比 VP9 更多的網路數據。
+• 若要獲得 HDR 播放，HDR 影片仍會使用 VP9 編解碼器。"</string>
+    <string name="revanced_disable_vp9_codec_summary_off">VP9 編解碼器已啟用。</string>
+    <string name="revanced_replace_av1_codec_title">替換軟體 AV1 編解碼器</string>
+    <string name="revanced_replace_av1_codec_summary">將軟體 AV1 編解碼器替換為 VP9 編解碼器。</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Playback speed -->
+    <string name="revanced_preference_category_playback_speed">播放速度</string>
+    <string name="revanced_default_playback_speed_title">預設播放速度</string>
+    <string name="revanced_remember_playback_speed_last_selected_title">記住播放速度更改</string>
+    <string name="revanced_remember_playback_speed_last_selected_summary_on">播放速度更改適用於所有影片</string>
+    <string name="revanced_remember_playback_speed_last_selected_summary_off">播放速度更改僅適用於當前影片</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">顯示提示訊息</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">變更預設播放速度時會顯示提示訊息。</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">變更預設播放速度時不會顯示提示訊息。</string>
+    <string name="revanced_default_playback_speed_shorts_title">短影音的預設播放速度</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_title">記住短影音的播放速度變更</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_summary_on">"播放速度變更適用於所有短影音。
+
+資訊:
+• 在短影音播放器中變更播放速度的唯一方法是使用「自訂動作」中的「速度對話框」。
+• 如果您未包含「短影音元件」補丁，則此功能將無法使用。"</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_summary_off">播放速度變更僅適用於目前的短影音。</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_toast_title">顯示提示訊息</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_toast_summary_on">變更短影音上的預設播放速度時，會顯示提示訊息。</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_toast_summary_off">變更短影音上的預設播放速度時，不會顯示提示訊息。</string>
+    <string name="revanced_remember_playback_speed_toast">將預設播放速度變更為：%s。</string>
+    <string name="revanced_remember_playback_speed_toast_shorts">將預設短影音播放速度變更為：%s。</string>
     <string name="revanced_enable_custom_playback_speed_title">啟用自定義播放速度</string>
     <string name="revanced_enable_custom_playback_speed_summary_on">自定義播放速度已啟用</string>
     <string name="revanced_enable_custom_playback_speed_summary_off">自定義播放速度已停用</string>
@@ -1643,30 +1690,34 @@
     <string name="revanced_custom_playback_speed_menu_type_summary_off">使用舊版彈出選單</string>
     <string name="revanced_custom_playback_speeds_title">編輯自定義播放速度</string>
     <string name="revanced_custom_playback_speeds_summary">添加或更改播放速度</string>
-    <string name="revanced_remember_playback_speed_last_selected_title">記住播放速度更改</string>
-    <string name="revanced_remember_playback_speed_last_selected_summary_on">播放速度更改適用於所有影片</string>
-    <string name="revanced_remember_playback_speed_last_selected_summary_off">播放速度更改僅適用於當前影片</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_title">顯示提示訊息</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">變更預設播放速度時會顯示提示訊息。</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">變更預設播放速度時不會顯示提示訊息。</string>
+    <string name="revanced_custom_playback_speeds_invalid">自訂速度必須小於 %sx
+使用預設值</string>
+    <string name="revanced_custom_playback_speeds_parse_exception">無效的自定播放速度將使用預設值</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Video quality -->
+    <string name="revanced_preference_category_video_quality">影片畫質</string>
+    <string name="revanced_default_video_quality_mobile_title">行動數據的預設影片畫質</string>
+    <string name="revanced_default_video_quality_wifi_title">Wi-Fi 預設的影片畫質</string>
     <string name="revanced_remember_video_quality_last_selected_title">記住影片畫質更改</string>
     <string name="revanced_remember_video_quality_last_selected_summary_on">畫質更改適用於所有影片</string>
     <string name="revanced_remember_video_quality_last_selected_summary_off">畫質更改僅適用於當前影片</string>
     <string name="revanced_remember_video_quality_last_selected_toast_title">顯示提示訊息</string>
     <string name="revanced_remember_video_quality_last_selected_toast_summary_on">更改預設影片畫質時將顯示提示訊息。</string>
     <string name="revanced_remember_video_quality_last_selected_toast_summary_off">更改預設影片畫質時不會顯示提示訊息。</string>
+    <string name="revanced_default_video_quality_mobile_shorts_title">行動網路上的預設短影音畫質</string>
+    <string name="revanced_default_video_quality_wifi_shorts_title">無線網路上的預設短影音畫質</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_title">記住短影音的畫質變化</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_summary_on">畫質變更適用於所有短影音。</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_summary_off">畫質變化僅適用於目前的短影音。</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_toast_title">顯示提示訊息</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_toast_summary_on">變更預設短影音畫質時將顯示提示。</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_toast_summary_off">變更預設短影音畫質時不會顯示提示。</string>
+    <string name="revanced_remember_video_quality_mobile">行動網路</string>
+    <string name="revanced_remember_video_quality_wifi">無線上網</string>
+    <string name="revanced_remember_video_quality_toast">將預設 %1$s 畫質變更為: %2$s。</string>
+    <string name="revanced_remember_video_quality_toast_shorts">將短影音 %1$s 的畫質變更為: %2$s。</string>
     <string name="revanced_restore_old_video_quality_menu_title">恢復舊的影片畫質選單</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">顯示舊的影片畫質選單</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">不顯示舊的影片畫質選單</string>
-    <string name="revanced_disable_default_playback_speed_music_title">停用音樂的播放速度</string>
-    <string name="revanced_disable_default_playback_speed_music_on">音樂的預設播放速度被禁用。</string>
-    <string name="revanced_disable_default_playback_speed_music_off">音樂的預設播放速度已啟用。</string>
-    <string name="revanced_disable_default_playback_speed_music_type_title">使用類別進行驗證</string>
-    <string name="revanced_disable_default_playback_speed_music_type_on">如果影片類別為音樂，則預設播放速度將被停用。</string>
-    <string name="revanced_disable_default_playback_speed_music_type_off">YouTube 音樂上可播放的影片的預設播放速度為停用。</string>
-    <string name="revanced_enable_default_playback_speed_shorts_title">啟用短片預設播放速度</string>
-    <string name="revanced_enable_default_playback_speed_shorts_summary_on">預設播放速度適用於短片</string>
-    <string name="revanced_enable_default_playback_speed_shorts_summary_off">預設播放速度不適用於短片</string>
     <string name="revanced_skipped_preloaded_buffer">跳過預載入</string>
     <string name="revanced_skip_preloaded_buffer_title">跳過預載入</string>
     <string name="revanced_skip_preloaded_buffer_summary">"跳過影片開頭的預先載入緩衝區以立即套用預設影片品質
@@ -1679,27 +1730,18 @@
     <string name="revanced_skip_preloaded_buffer_toast_summary_on">提示訊息已顯示</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_off">提示訊息已隱藏</string>
     <string name="revanced_spoof_device_dimensions_title">偽裝裝置尺寸</string>
-    <string name="revanced_spoof_device_dimensions_summary">"變更裝置尺寸設定，以便解鎖在您目前的裝置上原本不支援的較高影片品質。"</string>
-    <string name="revanced_disable_vp9_codec_title">停用 VP9 編解碼器</string>
-    <string name="revanced_disable_vp9_codec_summary_on">"VP9 編解碼器已停用。
+    <string name="revanced_spoof_device_dimensions_summary">"將設備尺寸偽裝為最大值。
 
-• 最高解析度為 1080p。
-• 影片播放將使用比 VP9 更多的網路數據。
-• 若要獲得 HDR 播放，HDR 影片仍會使用 VP9 編解碼器。"</string>
-    <string name="revanced_disable_vp9_codec_summary_off">VP9 編解碼器已啟用。</string>
-    <string name="revanced_replace_av1_codec_title">替換軟體 AV1 編解碼器</string>
-    <string name="revanced_replace_av1_codec_summary">將軟體 AV1 編解碼器替換為 VP9 編解碼器。</string>
-    <string name="revanced_reject_av1_codec_title">拒絕軟體 AV1 編解碼器回應</string>
-    <string name="revanced_reject_av1_codec_summary">"強制拒絕軟體 AV1 編解碼器回應。
-約 20 秒的緩衝後會應用不同的編解碼器。"</string>
-    <string name="revanced_reject_av1_codec_toast">切換過程會導致約 20 秒載入</string>
-    <string name="revanced_remember_playback_speed_toast">將預設速度更改為 %s</string>
-    <string name="revanced_remember_video_quality_mobile">將預設移動數據畫質更改為 %s</string>
-    <string name="revanced_remember_video_quality_none">無法設定影片畫質</string>
-    <string name="revanced_remember_video_quality_wifi">將預設 WiFi 畫質更改為 %s</string>
-    <string name="revanced_custom_playback_speeds_invalid">自訂速度必須小於 %sx
-使用預設值</string>
-    <string name="revanced_custom_playback_speeds_parse_exception">無效的自定播放速度將使用預設值</string>
+資訊:
+• 某些需要較高設備尺寸的影片可能會解鎖高畫質，但並非所有影片都適用。
+• 如果開啟“偽裝串流數據”，則此設定不可用。"</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Experimental flags -->
+    <string name="revanced_disable_default_playback_speed_music_title">停用音樂的播放速度</string>
+    <string name="revanced_disable_default_playback_speed_music_on">音樂的預設播放速度被禁用。</string>
+    <string name="revanced_disable_default_playback_speed_music_off">音樂的預設播放速度已啟用。</string>
+    <string name="revanced_disable_default_playback_speed_music_type_title">使用類別進行驗證</string>
+    <string name="revanced_disable_default_playback_speed_music_type_on">如果影片類別為音樂，則預設播放速度將被停用。</string>
+    <string name="revanced_disable_default_playback_speed_music_type_off">YouTube 音樂上可播放的影片的預設播放速度為停用。</string>
     <!-- PreferenceScreen: Return YouTube Dislike -->
     <string name="revanced_preference_screen_ryd_title">恢復 YouTube 倒讚</string>
     <string name="revanced_ryd_enable_title">啟用恢復 YouTube 倒讚</string>
@@ -1831,6 +1873,7 @@
     <string name="revanced_sb_skip_showbutton">顯示跳過按鈕</string>
     <string name="revanced_sb_skip_seekbaronly">僅在進度條中顯示</string>
     <string name="revanced_sb_skip_ignore">停用</string>
+    <string name="revanced_sb_color_opacity_label">不透明度：</string>
     <string name="revanced_sb_color_dot_label">顏色：</string>
     <string name="revanced_sb_color_changed">顏色已更改</string>
     <string name="revanced_sb_color_reset">顏色已重置</string>
@@ -1901,6 +1944,7 @@
     <string name="revanced_sb_vote_category">更改類別</string>
     <string name="revanced_sb_vote_no_segments">沒有可供投票的片段</string>
     <!-- A segment start and end time, such as "02:10 to 03:40" -->
+    <string name="revanced_sb_vote_segment_time_to_from">%1$s 到 %2$s</string>
     <string name="revanced_sb_new_segment_choose_category">選擇片段類別</string>
     <string name="revanced_sb_new_segment_disabled_category">類別在設定中被停用請啟用類別以提交</string>
     <string name="revanced_sb_new_segment_title">新的 SponsorBlock 片段</string>
@@ -2019,6 +2063,8 @@
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr_no_auth">"Android VR
 <small>(無授權)</small>"</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_deprecated">"iOS
+<small>(已棄用)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
 <small>(需要登入)</small>"</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">偽裝副作用</string>
@@ -2026,8 +2072,19 @@
 • 無法獲得穩定的音量。
 • 停用強制自動音軌無法使用。
 • 登出或處於隱身模式時可能無法播放兒童影片。"</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_deprecated">• 整個 ASN/IP 範圍可能會被伺服器封鎖。</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• 電影或付費影片可能無法播放。
 • 登出或處於隱身模式時可能無法播放兒童影片。"</string>
+    <string name="revanced_spoof_streaming_data_type_ios_title">使用 iOS 用戶端</string>
+    <string name="revanced_spoof_streaming_data_type_ios_summary_on">" iOS 用戶端已新增到可用用戶端列表中。
+
+警告：iOS 用戶端已被棄用。使用過程中出現的任何問題 風險自負。"</string>
+    <string name="revanced_spoof_streaming_data_type_ios_summary_off">iOS 用戶端未新增至可用用戶端列表中。</string>
+    <string name="revanced_spoof_streaming_data_type_ios_user_dialog_message">"當使用 iOS 請求 YouTube API 端點時，您將需要 iOS 裝置頒發的 Auth 令牌和 iOSGuard 頒發的 PoTokens。
+
+這意味著透過 iOS 的串流請求將缺少 Auth 令牌和 PoTokens，而伺服器可能會將使用者視為機器人並阻止整個 ASN/IP 範圍。
+
+請自行承擔風險！"</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">強制 iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">影片編解碼器強制為 AVC (H.264)。</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">影片編解碼器是自動決定的。</string>
@@ -2046,6 +2103,8 @@ AVC 的最大解析度為 1080p，Opus 音訊編解碼器不可用，影片播�
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">用於取得串流資料的用戶端顯示在統計資料中。</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">用於獲取串流資料的用戶端隱藏在統計資料中。</string>
     <string name="revanced_spoof_streaming_data_language_title">VR預設音訊串流語言</string>
+    <string name="revanced_spoof_streaming_data_failed_forbidden">無法獲取任何客戶端串流。</string>
+    <string name="revanced_spoof_streaming_data_failed_forbidden_suggestion">您可能尚未登入。</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <string name="revanced_preference_category_po_token_visitor_data">Potoken / 訪客數據</string>
     <string name="revanced_spoof_streaming_data_po_token_title">使用PoToken</string>

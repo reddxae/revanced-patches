@@ -193,6 +193,7 @@ Questo non aggira la restrizione di età. Semplicemente la accetta automaticamen
     <string name="revanced_spoof_app_version_target_summary">Seleziona la destinazione falsificata della versione app.</string>
     <string name="revanced_spoof_app_version_target_entry_6_42_55">6.42.55 - Disabilita i testi in tempo reale</string>
     <string name="revanced_spoof_app_version_target_entry_7_16_53">7.16.53 - Ripristina la vecchia barra d\'azione</string>
+    <string name="revanced_spoof_app_version_target_entry_7_17_52">7.17.52 - La sezione commenti non viene visualizzata nel feed principale</string>
     <string name="revanced_spoof_app_version_target_invalid_toast">Versione dell\'app da falsificare non valida: %s.</string>
     <!-- PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_title">Barra di navigazione</string>

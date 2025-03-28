@@ -1246,12 +1246,27 @@
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">自动</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">视频</string>
-    <string name="revanced_default_playback_speed_title">默认播放速度</string>
-    <string name="revanced_default_video_quality_mobile_title">移动网络的默认视频画质</string>
-    <string name="revanced_default_video_quality_wifi_title">WiFi 网络的默认视频画质</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Codec -->
     <string name="revanced_disable_hdr_video_title">HDR 视频</string>
     <string name="revanced_disable_hdr_video_summary_on">HDR 视频已禁用</string>
     <string name="revanced_disable_hdr_video_summary_off">HDR 视频已启用</string>
+    <string name="revanced_disable_vp9_codec_title">禁用 VP9 编解码器</string>
+    <string name="revanced_disable_vp9_codec_summary_on">"VP9 编解码器已禁用
+
+• 最大分辨率是 1080p
+• 视频播放将使用比 VP9 更多的网络数据
+要获取 HDR 播放，HDR 视频仍使用VP9 编解码器"</string>
+    <string name="revanced_disable_vp9_codec_summary_off">VP9 编解码器已启用</string>
+    <string name="revanced_replace_av1_codec_title">替换软件 AV1 编解码器</string>
+    <string name="revanced_replace_av1_codec_summary">使用 VP9 编解码器替换软件 AV1 编解码器</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Playback speed -->
+    <string name="revanced_default_playback_speed_title">默认播放速度</string>
+    <string name="revanced_remember_playback_speed_last_selected_title">记住播放速度更改</string>
+    <string name="revanced_remember_playback_speed_last_selected_summary_on">播放速度更改适用于所有视频</string>
+    <string name="revanced_remember_playback_speed_last_selected_summary_off">播放速度更改仅适用于当前视频</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">显示 Toast</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">更改默认播放速度时，显示 Toast</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">更改默认播放速度时，不显示 Toast</string>
     <string name="revanced_enable_custom_playback_speed_title">启用自定义播放速度</string>
     <string name="revanced_enable_custom_playback_speed_summary_on">自定义播放速度已启用</string>
     <string name="revanced_enable_custom_playback_speed_summary_off">自定义播放速度已禁用</string>
@@ -1260,12 +1275,11 @@
     <string name="revanced_custom_playback_speed_menu_type_summary_off">使用旧版弹出菜单</string>
     <string name="revanced_custom_playback_speeds_title">编辑自定义播放速度</string>
     <string name="revanced_custom_playback_speeds_summary">添加或更改播放速度</string>
-    <string name="revanced_remember_playback_speed_last_selected_title">记住播放速度更改</string>
-    <string name="revanced_remember_playback_speed_last_selected_summary_on">播放速度更改适用于所有视频</string>
-    <string name="revanced_remember_playback_speed_last_selected_summary_off">播放速度更改仅适用于当前视频</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_title">显示 Toast</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">更改默认播放速度时，显示 Toast</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">更改默认播放速度时，不显示 Toast</string>
+    <string name="revanced_custom_playback_speeds_invalid">自定义播放速度必须小于 %sx，已重置为默认值</string>
+    <string name="revanced_custom_playback_speeds_parse_exception">无效的自定义播放速度将使用默认值</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Video quality -->
+    <string name="revanced_default_video_quality_mobile_title">移动网络的默认视频画质</string>
+    <string name="revanced_default_video_quality_wifi_title">WiFi 网络的默认视频画质</string>
     <string name="revanced_remember_video_quality_last_selected_title">记住视频画质更改</string>
     <string name="revanced_remember_video_quality_last_selected_summary_on">画质更改适用于所有视频</string>
     <string name="revanced_remember_video_quality_last_selected_summary_off">画质更改仅适用于当前视频</string>
@@ -1275,11 +1289,6 @@
     <string name="revanced_restore_old_video_quality_menu_title">恢复旧的视频画质菜单</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">显示旧的视频画质菜单</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">不显示旧的视频画质菜单</string>
-    <string name="revanced_disable_default_playback_speed_music_title">禁用音乐播放速度</string>
-    <string name="revanced_disable_default_playback_speed_music_off">音乐默认播放速度已启用</string>
-    <string name="revanced_enable_default_playback_speed_shorts_title">启用 Shorts 默认播放速度</string>
-    <string name="revanced_enable_default_playback_speed_shorts_summary_on">默认播放速度适用于 Shorts</string>
-    <string name="revanced_enable_default_playback_speed_shorts_summary_off">默认播放速度不适用于 Shorts</string>
     <string name="revanced_skipped_preloaded_buffer">跳过预加载缓冲</string>
     <string name="revanced_skip_preloaded_buffer_title">跳过预加载缓冲</string>
     <string name="revanced_skip_preloaded_buffer_summary">"视频播放开始时，跳过预加载缓冲的默认视频画质
@@ -1291,25 +1300,9 @@
     <string name="revanced_skip_preloaded_buffer_toast_summary_on">提示信息已显示</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_off">提示信息已隐藏</string>
     <string name="revanced_spoof_device_dimensions_title">伪装设备尺寸</string>
-    <string name="revanced_spoof_device_dimensions_summary">"伪装设备尺寸，以解锁设备可能无法提供的更高视频质量"</string>
-    <string name="revanced_disable_vp9_codec_title">禁用 VP9 编解码器</string>
-    <string name="revanced_disable_vp9_codec_summary_on">"VP9 编解码器已禁用
-
-• 最大分辨率是 1080p
-• 视频播放将使用比 VP9 更多的网络数据
-要获取 HDR 播放，HDR 视频仍使用VP9 编解码器"</string>
-    <string name="revanced_disable_vp9_codec_summary_off">VP9 编解码器已启用</string>
-    <string name="revanced_replace_av1_codec_title">替换软件 AV1 编解码器</string>
-    <string name="revanced_replace_av1_codec_summary">使用 VP9 编解码器替换软件 AV1 编解码器</string>
-    <string name="revanced_reject_av1_codec_title">拒绝软件 AV1 编解码器切换</string>
-    <string name="revanced_reject_av1_codec_summary">"强制拒绝软件 AV1 编解码器响应约 20 秒缓冲后，切换到其他编解码器"</string>
-    <string name="revanced_reject_av1_codec_toast">切换过程会导致约 20 秒缓冲</string>
-    <string name="revanced_remember_playback_speed_toast">将默认速度更改为 %s</string>
-    <string name="revanced_remember_video_quality_mobile">将默认移动数据画质更改为 %s</string>
-    <string name="revanced_remember_video_quality_none">无法设置视频画质</string>
-    <string name="revanced_remember_video_quality_wifi">将默认 WiFi 画质更改为 %s</string>
-    <string name="revanced_custom_playback_speeds_invalid">自定义播放速度必须小于 %sx，已重置为默认值</string>
-    <string name="revanced_custom_playback_speeds_parse_exception">无效的自定义播放速度将使用默认值</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Experimental flags -->
+    <string name="revanced_disable_default_playback_speed_music_title">禁用音乐播放速度</string>
+    <string name="revanced_disable_default_playback_speed_music_off">音乐默认播放速度已启用</string>
     <!-- PreferenceScreen: Return YouTube Dislike -->
     <string name="revanced_preference_screen_ryd_title">恢复 YouTube 点踩</string>
     <string name="revanced_ryd_enable_title">恢复 YouTube 点踩</string>

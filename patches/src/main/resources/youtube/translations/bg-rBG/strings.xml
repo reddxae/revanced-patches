@@ -18,6 +18,7 @@
     <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s не е инсталиран.
 Моля, изтеглете %2$s от уебсайта."</string>
     <string name="revanced_external_downloader_not_installed_warning">%s не е инсталирано. Моля инсталирайте го.</string>
+    <string name="revanced_queue_manager_add_to_queue">Добави към опашката</string>
     <string name="revanced_language_title">RVX език</string>
     <string name="revanced_language_DEFAULT">Език на приложението</string>
     <!-- PreferenceScreen: Ads -->
@@ -1378,12 +1379,26 @@
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">Авто</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Видео</string>
-    <string name="revanced_default_playback_speed_title">Скорост на възпроизвеждане по подразбиране</string>
-    <string name="revanced_default_video_quality_mobile_title">Предпочитано качество при мобилни данни</string>
-    <string name="revanced_default_video_quality_wifi_title">Предпочитано качество при Wi-Fi</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Codec -->
     <string name="revanced_disable_hdr_video_title">Изкл. HDR клипове</string>
     <string name="revanced_disable_hdr_video_summary_on">HDR клиповете са изключени.</string>
     <string name="revanced_disable_hdr_video_summary_off">HDR клиповете са включени.</string>
+    <string name="revanced_disable_vp9_codec_title">Деактивирайте кодека VP9</string>
+    <string name="revanced_disable_vp9_codec_summary_on">"Кодек VP9 е деактивиран.
+• Максималната разделителна способност е 1080p.
+• Възпроизвеждането на видео ще използва повече интернет данни от VP9.
+• За да получите възпроизвеждане на HDR, HDR видеото все още използва кодека VP9."</string>
+    <string name="revanced_disable_vp9_codec_summary_off">VP9 кодек е включен.</string>
+    <string name="revanced_replace_av1_codec_title">Сменете софтуерния кодек AV1</string>
+    <string name="revanced_replace_av1_codec_summary">Заменя софтуерния кодек AV1 с кодека VP9.</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Playback speed -->
+    <string name="revanced_default_playback_speed_title">Скорост на възпроизвеждане по подразбиране</string>
+    <string name="revanced_remember_playback_speed_last_selected_title">Запомнете промените в скоростта на възпроизвеждане</string>
+    <string name="revanced_remember_playback_speed_last_selected_summary_on">Промените в скоростта на възпроизвеждане се отнасят за всички видеоклипове.</string>
+    <string name="revanced_remember_playback_speed_last_selected_summary_off">Промените в скоростта на възпроизвеждане се отнасят само за текущия видеоклип.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">Покажи съобщение</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">При промяна на скоростта на възпроизвеждане по подразбиране в долната част на екрана се появява съобщение.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">Няма съобщение в долната част на екрана при промяна на скоростта на възпроизвеждане по подразбиране.</string>
     <string name="revanced_enable_custom_playback_speed_title">Вкл. на скорост на видеото по избор</string>
     <string name="revanced_enable_custom_playback_speed_summary_on">Скоростта по избор на видеото е включена.</string>
     <string name="revanced_enable_custom_playback_speed_summary_off">Скоростта по избор на видеото е изключена.</string>
@@ -1392,12 +1407,11 @@
     <string name="revanced_custom_playback_speed_menu_type_summary_off">Използва се падащ панел в стар стил.</string>
     <string name="revanced_custom_playback_speeds_title">Редактиране на скоростите по избор на видеото</string>
     <string name="revanced_custom_playback_speeds_summary">Добавяне или смяна на възможните скорости.</string>
-    <string name="revanced_remember_playback_speed_last_selected_title">Запомнете промените в скоростта на възпроизвеждане</string>
-    <string name="revanced_remember_playback_speed_last_selected_summary_on">Промените в скоростта на възпроизвеждане се отнасят за всички видеоклипове.</string>
-    <string name="revanced_remember_playback_speed_last_selected_summary_off">Промените в скоростта на възпроизвеждане се отнасят само за текущия видеоклип.</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_title">Покажи съобщение</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">При промяна на скоростта на възпроизвеждане по подразбиране в долната част на екрана се появява съобщение.</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">Няма съобщение в долната част на екрана при промяна на скоростта на възпроизвеждане по подразбиране.</string>
+    <string name="revanced_custom_playback_speeds_invalid">Скоростите по избор трябва да са по-малки от %sx. Връщане на стойностите по подразбиране.</string>
+    <string name="revanced_custom_playback_speeds_parse_exception">Невалидна скорост на видеото. Връщане на стойности по подразбиране.</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Video quality -->
+    <string name="revanced_default_video_quality_mobile_title">Предпочитано качество при мобилни данни</string>
+    <string name="revanced_default_video_quality_wifi_title">Предпочитано качество при Wi-Fi</string>
     <string name="revanced_remember_video_quality_last_selected_title">Запомнете промените в качеството на видеото</string>
     <string name="revanced_remember_video_quality_last_selected_summary_on">Промените в качеството се отнасят за всички видеоклипове.</string>
     <string name="revanced_remember_video_quality_last_selected_summary_off">Промените в качеството се отнасят само за текущия видеоклип.</string>
@@ -1407,15 +1421,6 @@
     <string name="revanced_restore_old_video_quality_menu_title">Възстановете старото меню за качество на видеото</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">Показва се старото меню за видео качество.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Старото меню за видео качество е скрито.</string>
-    <string name="revanced_disable_default_playback_speed_music_title">Деактивирайте скоростта на възпроизвеждане за музика</string>
-    <string name="revanced_disable_default_playback_speed_music_on">Скоростта на възпроизвеждане по подразбиране е деактивирана за музика.</string>
-    <string name="revanced_disable_default_playback_speed_music_off">Скоростта на възпроизвеждане по подразбиране е активирана за музика.</string>
-    <string name="revanced_disable_default_playback_speed_music_type_title">Изберете скорост въз основа на категориите</string>
-    <string name="revanced_disable_default_playback_speed_music_type_on">Скоростта по подразбиране за категорията YouTube Music е деактивирана.</string>
-    <string name="revanced_disable_default_playback_speed_music_type_off">Скоростта по подразбиране за категорията YouTube Music е активирана.</string>
-    <string name="revanced_enable_default_playback_speed_shorts_title">Променете скоростта на възпроизвеждане на Shorts</string>
-    <string name="revanced_enable_default_playback_speed_shorts_summary_on">Скоростта на възпроизвеждане по подразбиране се прилага за Shorts.</string>
-    <string name="revanced_enable_default_playback_speed_shorts_summary_off">Скоростта на възпроизвеждане по подразбиране не се прилага за Shorts.</string>
     <string name="revanced_skipped_preloaded_buffer">Пропуснат предварително зареден буфер.</string>
     <string name="revanced_skip_preloaded_buffer_title">Пропусни предварително зареден буфер</string>
     <string name="revanced_skip_preloaded_buffer_summary">"Пропуска предварително заредения буфер в началото на видеоклиповете, за да приложи незабавно качеството на видеото по подразбиране. 
@@ -1428,25 +1433,13 @@
     <string name="revanced_skip_preloaded_buffer_toast_summary_on">Уведомлението се показва.</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_off">Уведомлението е скрито.</string>
     <string name="revanced_spoof_device_dimensions_title">Лъжливи параметри на устройството</string>
-    <string name="revanced_spoof_device_dimensions_summary">"Преоразмерява вашето устройство, за да покже видеоклипове с по-високо качество, които може да не са налични на вашето устройство."</string>
-    <string name="revanced_disable_vp9_codec_title">Деактивирайте кодека VP9</string>
-    <string name="revanced_disable_vp9_codec_summary_on">"Кодек VP9 е деактивиран.
-• Максималната разделителна способност е 1080p.
-• Възпроизвеждането на видео ще използва повече интернет данни от VP9.
-• За да получите възпроизвеждане на HDR, HDR видеото все още използва кодека VP9."</string>
-    <string name="revanced_disable_vp9_codec_summary_off">VP9 кодек е включен.</string>
-    <string name="revanced_replace_av1_codec_title">Сменете софтуерния кодек AV1</string>
-    <string name="revanced_replace_av1_codec_summary">Заменя софтуерния кодек AV1 с кодека VP9.</string>
-    <string name="revanced_reject_av1_codec_title">Отхвърлете софтуерния кодек AV1</string>
-    <string name="revanced_reject_av1_codec_summary">"Принудително отхвърляне на софтуерния кодек AV1 
-След приблизително 20 секунди буфериране ще бъде приложен друг кодек."</string>
-    <string name="revanced_reject_av1_codec_toast">Буфериране поради софтуерен кодек Av1 (прибл. 20 сек.).</string>
-    <string name="revanced_remember_playback_speed_toast">Смяна на скоростта на видеото на %s.</string>
-    <string name="revanced_remember_video_quality_mobile">Смяна на качеството при мобилни данни на %s.</string>
-    <string name="revanced_remember_video_quality_none">Грешка при настройка на качеството на видеото.</string>
-    <string name="revanced_remember_video_quality_wifi">Смяна на качеството при Wi-Fi на%s.</string>
-    <string name="revanced_custom_playback_speeds_invalid">Скоростите по избор трябва да са по-малки от %sx. Връщане на стойностите по подразбиране.</string>
-    <string name="revanced_custom_playback_speeds_parse_exception">Невалидна скорост на видеото. Връщане на стойности по подразбиране.</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Experimental flags -->
+    <string name="revanced_disable_default_playback_speed_music_title">Деактивирайте скоростта на възпроизвеждане за музика</string>
+    <string name="revanced_disable_default_playback_speed_music_on">Скоростта на възпроизвеждане по подразбиране е деактивирана за музика.</string>
+    <string name="revanced_disable_default_playback_speed_music_off">Скоростта на възпроизвеждане по подразбиране е активирана за музика.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_title">Изберете скорост въз основа на категориите</string>
+    <string name="revanced_disable_default_playback_speed_music_type_on">Скоростта по подразбиране за категорията YouTube Music е деактивирана.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_off">Скоростта по подразбиране за категорията YouTube Music е активирана.</string>
     <!-- PreferenceScreen: Return YouTube Dislike -->
     <string name="revanced_preference_screen_ryd_title">Return YouTube Dislike (показва нехаресванията)</string>
     <string name="revanced_ryd_enable_title">Вкл. на Return YouTube Dislike</string>

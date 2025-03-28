@@ -376,6 +376,10 @@ Keterbatasan: Tombol Kembali pada bilah alat mungkin tidak berfungsi."</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental flags -->
     <!-- PreferenceScreen: Swipe controls -->
     <!-- PreferenceScreen: Video -->
+    <!-- PreferenceScreen: Video, PreferenceCategory: Codec -->
+    <!-- PreferenceScreen: Video, PreferenceCategory: Playback speed -->
+    <!-- PreferenceScreen: Video, PreferenceCategory: Video quality -->
+    <!-- PreferenceScreen: Video, PreferenceCategory: Experimental flags -->
     <!-- PreferenceScreen: Return YouTube Dislike -->
     <!-- PreferenceScreen: Return YouTube Dislike, PreferenceCategory: About -->
     <!-- PreferenceScreen: Return YouTube Username -->

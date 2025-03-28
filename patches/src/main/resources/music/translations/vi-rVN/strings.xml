@@ -193,6 +193,7 @@ Hạn chế:
     <string name="revanced_spoof_app_version_target_summary">Chọn phiên bản YouTube Music mà bạn muốn giả mạo.</string>
     <string name="revanced_spoof_app_version_target_entry_6_42_55">6.42.55 - Tắt lời bài hát theo thời gian thực</string>
     <string name="revanced_spoof_app_version_target_entry_7_16_53">7.16.53 - Khôi phục thanh thao tác kiểu cũ</string>
+    <string name="revanced_spoof_app_version_target_entry_7_17_52">7.17.52 - Phần bình luận không xuất hiện trên thẻ Trang chủ</string>
     <string name="revanced_spoof_app_version_target_invalid_toast">Phiên bản ứng dụng đã chọn không hợp lệ: %s.</string>
     <!-- PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_title">Thanh điều hướng</string>

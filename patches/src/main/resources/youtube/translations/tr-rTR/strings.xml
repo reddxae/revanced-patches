@@ -1217,12 +1217,17 @@ Bilinen sorunlar:
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">Otomatik</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Video</string>
-    <string name="revanced_default_playback_speed_title">Varsayılan oynatma hızı</string>
-    <string name="revanced_default_video_quality_mobile_title">Mobil ağda varsayılan video kalitesi</string>
-    <string name="revanced_default_video_quality_wifi_title">Wi̇-Fi ağında varsayılan video kalitesi</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Codec -->
     <string name="revanced_disable_hdr_video_title">HDR\'lı videolarda, HDR\'ı devre dışı bırak</string>
     <string name="revanced_disable_hdr_video_summary_on">HDR devre dışı</string>
     <string name="revanced_disable_hdr_video_summary_off">HDR etkin</string>
+    <string name="revanced_replace_av1_codec_title">AV1 codec yazılımı bileşenini değiştirin</string>
+    <string name="revanced_replace_av1_codec_summary">AV1 codec yazılımı bileşenini VP9 kodeği ile değiştirin.</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Playback speed -->
+    <string name="revanced_default_playback_speed_title">Varsayılan oynatma hızı</string>
+    <string name="revanced_remember_playback_speed_last_selected_title">Oynatma hızı değişimlerini hatırla</string>
+    <string name="revanced_remember_playback_speed_last_selected_summary_on">Oynatma hızı değişimleri bütün videolara uygulanıyor.</string>
+    <string name="revanced_remember_playback_speed_last_selected_summary_off">Oynatma hızı değişimleri sadece oynatılan videoya uygulanıyor</string>
     <string name="revanced_enable_custom_playback_speed_title">Özel oynatma hızlarını etkinleştir</string>
     <string name="revanced_enable_custom_playback_speed_summary_on">Özel oynatma hızları etkin</string>
     <string name="revanced_enable_custom_playback_speed_summary_off">Özel oynatma hızları kapalı</string>
@@ -1231,18 +1236,17 @@ Bilinen sorunlar:
     <string name="revanced_custom_playback_speed_menu_type_summary_off">Eski stil açılır menü kullanıldı.</string>
     <string name="revanced_custom_playback_speeds_title">Özel oynatma hızlarını düzenle</string>
     <string name="revanced_custom_playback_speeds_summary">Mevcut oynatma hızlarını değiştirin.</string>
-    <string name="revanced_remember_playback_speed_last_selected_title">Oynatma hızı değişimlerini hatırla</string>
-    <string name="revanced_remember_playback_speed_last_selected_summary_on">Oynatma hızı değişimleri bütün videolara uygulanıyor.</string>
-    <string name="revanced_remember_playback_speed_last_selected_summary_off">Oynatma hızı değişimleri sadece oynatılan videoya uygulanıyor</string>
+    <string name="revanced_custom_playback_speeds_invalid">Geçersiz özel oynatma hızları. Hızlar varsayılana sıfırlandı.</string>
+    <string name="revanced_custom_playback_speeds_parse_exception">Geçersiz özel oynatma hızları. Varsayılanlar seçildi.</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Video quality -->
+    <string name="revanced_default_video_quality_mobile_title">Mobil ağda varsayılan video kalitesi</string>
+    <string name="revanced_default_video_quality_wifi_title">Wi̇-Fi ağında varsayılan video kalitesi</string>
     <string name="revanced_remember_video_quality_last_selected_title">Video kalitesi değişimlerini hatırla</string>
     <string name="revanced_remember_video_quality_last_selected_summary_on">Kalite değişimleri bütün videolara uygulanıyor</string>
     <string name="revanced_remember_video_quality_last_selected_summary_off">Kalite değişimleri sadece oynatılan videoya uygulanıyor</string>
     <string name="revanced_restore_old_video_quality_menu_title">Eski video kalite menüsünü geri getir</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">Eski video kalite menüsü gösteriliyor.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Eski video kalite menüsü gösterilmiyor.</string>
-    <string name="revanced_enable_default_playback_speed_shorts_title">Shorts videolarında varsayılan oynatma hızını etkinleştir</string>
-    <string name="revanced_enable_default_playback_speed_shorts_summary_on">Varsayılan oynatma hızı Shorts videolara uygulanır.</string>
-    <string name="revanced_enable_default_playback_speed_shorts_summary_off">Varsayılan oynatma hızı Shorts videolara uygulanmaz.</string>
     <string name="revanced_skipped_preloaded_buffer">Önceden yüklenmiş arabellek atlandı.</string>
     <string name="revanced_skip_preloaded_buffer_title">Önceden yüklenmiş arabelleği atla</string>
     <string name="revanced_skip_preloaded_buffer_summary">"Varsayılan video kalitesi uygulama gecikmesini atlamak için video başlangıcında önceden yüklenmiş arabelleği atlayın.
@@ -1254,19 +1258,7 @@ Bilinen sorunlar:
     <string name="revanced_skip_preloaded_buffer_toast_summary_on">Gizlenmiyor</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_off">Gizleniyor</string>
     <string name="revanced_spoof_device_dimensions_title">Farklı cihaz boyutlarını taklit et</string>
-    <string name="revanced_spoof_device_dimensions_summary">"Cihaz boyutlarını maksimum değere kadar taklit eder. Yüksek cihaz boyutları gerektiren bazı videolarda yüksek kalitenin kilidi açılabilir ancak tüm videolarda bu durum geçerli olmayabilir."</string>
-    <string name="revanced_replace_av1_codec_title">AV1 codec yazılımı bileşenini değiştirin</string>
-    <string name="revanced_replace_av1_codec_summary">AV1 codec yazılımı bileşenini VP9 kodeği ile değiştirin.</string>
-    <string name="revanced_reject_av1_codec_title">AV1 codec yazılımı yanıtını reddet</string>
-    <string name="revanced_reject_av1_codec_summary">"AV1 codec yazılımı yanıtı zorla reddeder.
-Yaklaşık 20 saniyelik ara belleğe alma işleminin ardından farklı codec bileşenine geçiş yapılır."</string>
-    <string name="revanced_reject_av1_codec_toast">Geri çekilme işlemi yaklaşık 20 saniyelik ara belleğe alma işlemine neden olur.</string>
-    <string name="revanced_remember_playback_speed_toast">Varsayılan hız %s olarak değiştiriliyor.</string>
-    <string name="revanced_remember_video_quality_mobile">Mobil ağda varsayılan video kalitesi %s olarak değiştiriliyor.</string>
-    <string name="revanced_remember_video_quality_none">Video kalitesi ayarlanamadı.</string>
-    <string name="revanced_remember_video_quality_wifi">Wi-Fi\'da varsayılan video kalitesi %s olarak değiştiriliyor.</string>
-    <string name="revanced_custom_playback_speeds_invalid">Geçersiz özel oynatma hızları. Hızlar varsayılana sıfırlandı.</string>
-    <string name="revanced_custom_playback_speeds_parse_exception">Geçersiz özel oynatma hızları. Varsayılanlar seçildi.</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Experimental flags -->
     <!-- PreferenceScreen: Return YouTube Dislike -->
     <string name="revanced_preference_screen_ryd_title">Return YouTube Dislike</string>
     <string name="revanced_ryd_enable_title">Return YouTube Dislike\'ı etkinleştir</string>

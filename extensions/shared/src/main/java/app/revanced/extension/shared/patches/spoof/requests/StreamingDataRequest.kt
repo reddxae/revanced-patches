@@ -7,6 +7,7 @@ import app.revanced.extension.shared.innertube.requests.InnerTubeRequestBody.get
 import app.revanced.extension.shared.innertube.requests.InnerTubeRoutes.GET_STREAMING_DATA
 import app.revanced.extension.shared.settings.BaseSettings
 import app.revanced.extension.shared.utils.Logger
+import app.revanced.extension.shared.utils.StringRef.str
 import app.revanced.extension.shared.utils.Utils
 import java.io.BufferedInputStream
 import java.io.ByteArrayOutputStream
@@ -132,7 +133,12 @@ class StreamingDataRequest private constructor(
             return cache[videoId]
         }
 
-        private fun handleConnectionError(toastMessage: String, ex: Exception?) {
+        private fun handleConnectionError(
+            toastMessage: String,
+            ex: Exception?,
+            showToast: Boolean = false,
+        ) {
+            if (showToast) Utils.showToastShort(toastMessage)
             Logger.printInfo({ toastMessage }, ex)
         }
 
@@ -233,7 +239,8 @@ class StreamingDataRequest private constructor(
                 }
             }
 
-            handleConnectionError("Could not fetch any client streams", null)
+            handleConnectionError(str("revanced_spoof_streaming_data_failed_forbidden"), null, true)
+            handleConnectionError(str("revanced_spoof_streaming_data_failed_forbidden_suggestion"), null, true)
             return null
         }
     }

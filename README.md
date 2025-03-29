@@ -11,73 +11,73 @@ See the [documentation](https://github.com/inotia00/revanced-documentation#readm
 
 | 💊 Patch | 📜 Description | 🏹 Target Version |
 |:--------:|:--------------:|:-----------------:|
-| `Alternative thumbnails` | Adds options to replace video thumbnails using the DeArrow API or image captures from the video. | 19.05.36 ~ 20.03.45 |
-| `Ambient mode control` | Adds options to disable Ambient mode and to bypass Ambient mode restrictions. | 19.05.36 ~ 20.03.45 |
-| `Bypass URL redirects` | Adds an option to bypass URL redirects and open the original URL directly. | 19.05.36 ~ 20.03.45 |
-| `Bypass image region restrictions` | Adds an option to use a different host for static images, so that images blocked in some countries can be received. | 19.05.36 ~ 20.03.45 |
-| `Change form factor` | Adds an option to change the UI appearance to a phone, tablet, or automotive device. | 19.05.36 ~ 20.03.45 |
-| `Change live ring click action` | Adds an option to open the channel instead of the live stream when clicking on the live ring. | 19.05.36 ~ 20.03.45 |
-| `Change player flyout menu toggles` | Adds an option to use text toggles instead of switch toggles within the additional settings menu. | 19.05.36 ~ 20.03.45 |
-| `Change share sheet` | Adds an option to change the in-app share sheet to the system share sheet. | 19.05.36 ~ 20.03.45 |
-| `Change start page` | Adds an option to set which page the app opens in instead of the homepage. | 19.05.36 ~ 20.03.45 |
-| `Custom Shorts action buttons` | Changes, at compile time, the icon of the action buttons of the Shorts player. | 19.05.36 ~ 20.03.45 |
-| `Custom branding icon for YouTube` | Changes the YouTube app icon to the icon specified in patch options. | 19.05.36 ~ 20.03.45 |
-| `Custom branding name for YouTube` | Changes the YouTube app name to the name specified in patch options. | 19.05.36 ~ 20.03.45 |
-| `Custom double tap length` | Adds Double-tap to seek values that are specified in patch options. | 19.05.36 ~ 20.03.45 |
-| `Custom header for YouTube` | Applies a custom header in the top left corner within the app. | 19.05.36 ~ 20.03.45 |
-| `Description components` | Adds options to hide and disable description components. | 19.05.36 ~ 20.03.45 |
-| `Disable QUIC protocol` | Adds an option to disable CronetEngine's QUIC protocol. | 19.05.36 ~ 20.03.45 |
-| `Disable forced auto audio tracks` | Adds an option to disable audio tracks from being automatically enabled. | 19.05.36 ~ 20.03.45 |
-| `Disable forced auto captions` | Adds an option to disable captions from being automatically enabled. | 19.05.36 ~ 20.03.45 |
-| `Disable haptic feedback` | Adds options to disable haptic feedback when swiping in the video player. | 19.05.36 ~ 20.03.45 |
-| `Disable layout updates` | Adds an option to disable layout updates by server. | 19.05.36 ~ 20.03.45 |
-| `Disable resuming Miniplayer on startup` | Adds an option to disable the Miniplayer 'Continue watching' from resuming on app startup. | 19.05.36 ~ 20.03.45 |
-| `Disable resuming Shorts on startup` | Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched. | 19.05.36 ~ 20.03.45 |
-| `Disable splash animation` | Adds an option to disable the splash animation on app startup. | 19.05.36 ~ 20.03.45 |
-| `Enable OPUS codec` | Adds an option to enable the OPUS audio codec if the player response includes it. | 19.05.36 ~ 20.03.45 |
-| `Enable debug logging` | Adds an option to enable debug logging. | 19.05.36 ~ 20.03.45 |
-| `Enable gradient loading screen` | Adds an option to enable the gradient loading screen. | 19.05.36 ~ 20.03.45 |
-| `Force hide player buttons background` | Removes, at compile time, the dark background surrounding the video player controls. | 19.05.36 ~ 20.03.45 |
-| `Fullscreen components` | Adds options to hide or change components related to fullscreen. | 19.05.36 ~ 20.03.45 |
-| `GmsCore support` | Allows patched Google apps to run without root and under a different package name by using GmsCore instead of Google Play Services. | 19.05.36 ~ 20.03.45 |
-| `Hide Shorts dimming` | Removes, at compile time, the dimming effect at the top and bottom of Shorts videos. | 19.05.36 ~ 20.03.45 |
-| `Hide accessibility controls dialog` | Removes, at compile time, accessibility controls dialog 'Turn on accessibility controls for the video player?'. | 19.05.36 ~ 20.03.45 |
-| `Hide action buttons` | Adds options to hide action buttons under videos. | 19.05.36 ~ 20.03.45 |
-| `Hide ads` | Adds options to hide ads. | 19.05.36 ~ 20.03.45 |
-| `Hide comments components` | Adds options to hide components related to comments. | 19.05.36 ~ 20.03.45 |
-| `Hide feed components` | Adds options to hide components related to feeds. | 19.05.36 ~ 20.03.45 |
-| `Hide feed flyout menu` | Adds the ability to hide feed flyout menu components using a custom filter. | 19.05.36 ~ 20.03.45 |
-| `Hide layout components` | Adds options to hide general layout components. | 19.05.36 ~ 20.03.45 |
-| `Hide player buttons` | Adds options to hide buttons in the video player. | 19.05.36 ~ 20.03.45 |
-| `Hide player flyout menu` | Adds options to hide player flyout menu components. | 19.05.36 ~ 20.03.45 |
-| `Hide shortcuts` | Remove, at compile time, the app shortcuts that appears when the app icon is long pressed. | 19.05.36 ~ 20.03.45 |
-| `Hook YouTube Music actions` | Adds support for opening music in RVX Music using the in-app YouTube Music button. | 19.05.36 ~ 20.03.45 |
-| `Hook download actions` | Adds support to download videos with an external downloader app using the in-app download button. | 19.05.36 ~ 20.03.45 |
-| `MaterialYou` | Applies the MaterialYou theme for Android 12+ devices. | 19.05.36 ~ 20.03.45 |
-| `Miniplayer` | Adds options to change the in-app minimized player, and if patching target 19.16+ adds options to use modern miniplayers. | 19.05.36 ~ 20.03.45 |
-| `Navigation bar components` | Adds options to hide or change components related to the navigation bar. | 19.05.36 ~ 20.03.45 |
-| `Open links externally` | Adds an option to always open links in your browser instead of the in-app browser. | 19.05.36 ~ 20.03.45 |
-| `Overlay buttons` | Adds options to display useful overlay buttons in the video player. | 19.05.36 ~ 20.03.45 |
-| `Player components` | Adds options to hide or change components related to the video player. | 19.05.36 ~ 20.03.45 |
-| `Remove background playback restrictions` | Removes restrictions on background playback, including for music and kids videos. | 19.05.36 ~ 20.03.45 |
-| `Remove viewer discretion dialog` | Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction. | 19.05.36 ~ 20.03.45 |
-| `Return YouTube Dislike` | Adds an option to show the dislike count of videos using the Return YouTube Dislike API. | 19.05.36 ~ 20.03.45 |
-| `Return YouTube Username` | Adds an option to replace YouTube handles with usernames in comments using YouTube Data API v3. | 19.05.36 ~ 20.03.45 |
-| `Sanitize sharing links` | Adds an option to sanitize sharing links by removing tracking query parameters. | 19.05.36 ~ 20.03.45 |
-| `Seekbar components` | Adds options to hide or change components related to the seekbar. | 19.05.36 ~ 20.03.45 |
-| `Settings for YouTube` | Applies mandatory patches to implement ReVanced Extended settings into the application. | 19.05.36 ~ 20.03.45 |
-| `Shorts components` | Adds options to hide or change components related to YouTube Shorts. | 19.05.36 ~ 20.03.45 |
-| `Snack bar components` | Adds options to hide or change components related to the snack bar. | 19.05.36 ~ 20.03.45 |
-| `SponsorBlock` | Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as sponsored content. | 19.05.36 ~ 20.03.45 |
-| `Spoof app version` | Adds options to spoof the YouTube client version. This can be used to restore old UI elements and features. | 19.05.36 ~ 20.03.45 |
-| `Spoof streaming data` | Adds options to spoof the streaming data to allow playback. | 19.05.36 ~ 20.03.45 |
-| `Swipe controls` | Adds options for controlling volume and brightness with swiping, and whether to enter fullscreen when swiping down below the player. | 19.05.36 ~ 20.03.45 |
-| `Theme` | Changes the app's themes to the values specified in patch options. | 19.05.36 ~ 20.03.45 |
-| `Toolbar components` | Adds options to hide or change components located on the toolbar, such as the search bar, header, and toolbar buttons. | 19.05.36 ~ 20.03.45 |
-| `Translations for YouTube` | Add translations or remove string resources. | 19.05.36 ~ 20.03.45 |
-| `Video playback` | Adds options to customize settings related to video playback, such as default video quality and playback speed. | 19.05.36 ~ 20.03.45 |
-| `Visual preferences icons for YouTube` | Adds icons to specific preferences in the settings. | 19.05.36 ~ 20.03.45 |
-| `Watch history` | Adds an option to change the domain of the watch history or check its status. | 19.05.36 ~ 20.03.45 |
+| `Alternative thumbnails` | Adds options to replace video thumbnails using the DeArrow API or image captures from the video. | 19.05.36 ~ 20.03.43 |
+| `Ambient mode control` | Adds options to disable Ambient mode and to bypass Ambient mode restrictions. | 19.05.36 ~ 20.03.43 |
+| `Bypass URL redirects` | Adds an option to bypass URL redirects and open the original URL directly. | 19.05.36 ~ 20.03.43 |
+| `Bypass image region restrictions` | Adds an option to use a different host for static images, so that images blocked in some countries can be received. | 19.05.36 ~ 20.03.43 |
+| `Change form factor` | Adds an option to change the UI appearance to a phone, tablet, or automotive device. | 19.05.36 ~ 20.03.43 |
+| `Change live ring click action` | Adds an option to open the channel instead of the live stream when clicking on the live ring. | 19.05.36 ~ 20.03.43 |
+| `Change player flyout menu toggles` | Adds an option to use text toggles instead of switch toggles within the additional settings menu. | 19.05.36 ~ 20.03.43 |
+| `Change share sheet` | Adds an option to change the in-app share sheet to the system share sheet. | 19.05.36 ~ 20.03.43 |
+| `Change start page` | Adds an option to set which page the app opens in instead of the homepage. | 19.05.36 ~ 20.03.43 |
+| `Custom Shorts action buttons` | Changes, at compile time, the icon of the action buttons of the Shorts player. | 19.05.36 ~ 20.03.43 |
+| `Custom branding icon for YouTube` | Changes the YouTube app icon to the icon specified in patch options. | 19.05.36 ~ 20.03.43 |
+| `Custom branding name for YouTube` | Changes the YouTube app name to the name specified in patch options. | 19.05.36 ~ 20.03.43 |
+| `Custom double tap length` | Adds Double-tap to seek values that are specified in patch options. | 19.05.36 ~ 20.03.43 |
+| `Custom header for YouTube` | Applies a custom header in the top left corner within the app. | 19.05.36 ~ 20.03.43 |
+| `Description components` | Adds options to hide and disable description components. | 19.05.36 ~ 20.03.43 |
+| `Disable QUIC protocol` | Adds an option to disable CronetEngine's QUIC protocol. | 19.05.36 ~ 20.03.43 |
+| `Disable forced auto audio tracks` | Adds an option to disable audio tracks from being automatically enabled. | 19.05.36 ~ 20.03.43 |
+| `Disable forced auto captions` | Adds an option to disable captions from being automatically enabled. | 19.05.36 ~ 20.03.43 |
+| `Disable haptic feedback` | Adds options to disable haptic feedback when swiping in the video player. | 19.05.36 ~ 20.03.43 |
+| `Disable layout updates` | Adds an option to disable layout updates by server. | 19.05.36 ~ 20.03.43 |
+| `Disable resuming Miniplayer on startup` | Adds an option to disable the Miniplayer 'Continue watching' from resuming on app startup. | 19.05.36 ~ 20.03.43 |
+| `Disable resuming Shorts on startup` | Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched. | 19.05.36 ~ 20.03.43 |
+| `Disable splash animation` | Adds an option to disable the splash animation on app startup. | 19.05.36 ~ 20.03.43 |
+| `Enable OPUS codec` | Adds an option to enable the OPUS audio codec if the player response includes it. | 19.05.36 ~ 20.03.43 |
+| `Enable debug logging` | Adds an option to enable debug logging. | 19.05.36 ~ 20.03.43 |
+| `Enable gradient loading screen` | Adds an option to enable the gradient loading screen. | 19.05.36 ~ 20.03.43 |
+| `Force hide player buttons background` | Removes, at compile time, the dark background surrounding the video player controls. | 19.05.36 ~ 20.03.43 |
+| `Fullscreen components` | Adds options to hide or change components related to fullscreen. | 19.05.36 ~ 20.03.43 |
+| `GmsCore support` | Allows patched Google apps to run without root and under a different package name by using GmsCore instead of Google Play Services. | 19.05.36 ~ 20.03.43 |
+| `Hide Shorts dimming` | Removes, at compile time, the dimming effect at the top and bottom of Shorts videos. | 19.05.36 ~ 20.03.43 |
+| `Hide accessibility controls dialog` | Removes, at compile time, accessibility controls dialog 'Turn on accessibility controls for the video player?'. | 19.05.36 ~ 20.03.43 |
+| `Hide action buttons` | Adds options to hide action buttons under videos. | 19.05.36 ~ 20.03.43 |
+| `Hide ads` | Adds options to hide ads. | 19.05.36 ~ 20.03.43 |
+| `Hide comments components` | Adds options to hide components related to comments. | 19.05.36 ~ 20.03.43 |
+| `Hide feed components` | Adds options to hide components related to feeds. | 19.05.36 ~ 20.03.43 |
+| `Hide feed flyout menu` | Adds the ability to hide feed flyout menu components using a custom filter. | 19.05.36 ~ 20.03.43 |
+| `Hide layout components` | Adds options to hide general layout components. | 19.05.36 ~ 20.03.43 |
+| `Hide player buttons` | Adds options to hide buttons in the video player. | 19.05.36 ~ 20.03.43 |
+| `Hide player flyout menu` | Adds options to hide player flyout menu components. | 19.05.36 ~ 20.03.43 |
+| `Hide shortcuts` | Remove, at compile time, the app shortcuts that appears when the app icon is long pressed. | 19.05.36 ~ 20.03.43 |
+| `Hook YouTube Music actions` | Adds support for opening music in RVX Music using the in-app YouTube Music button. | 19.05.36 ~ 20.03.43 |
+| `Hook download actions` | Adds support to download videos with an external downloader app using the in-app download button. | 19.05.36 ~ 20.03.43 |
+| `MaterialYou` | Applies the MaterialYou theme for Android 12+ devices. | 19.05.36 ~ 20.03.43 |
+| `Miniplayer` | Adds options to change the in-app minimized player, and if patching target 19.16+ adds options to use modern miniplayers. | 19.05.36 ~ 20.03.43 |
+| `Navigation bar components` | Adds options to hide or change components related to the navigation bar. | 19.05.36 ~ 20.03.43 |
+| `Open links externally` | Adds an option to always open links in your browser instead of the in-app browser. | 19.05.36 ~ 20.03.43 |
+| `Overlay buttons` | Adds options to display useful overlay buttons in the video player. | 19.05.36 ~ 20.03.43 |
+| `Player components` | Adds options to hide or change components related to the video player. | 19.05.36 ~ 20.03.43 |
+| `Remove background playback restrictions` | Removes restrictions on background playback, including for music and kids videos. | 19.05.36 ~ 20.03.43 |
+| `Remove viewer discretion dialog` | Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction. | 19.05.36 ~ 20.03.43 |
+| `Return YouTube Dislike` | Adds an option to show the dislike count of videos using the Return YouTube Dislike API. | 19.05.36 ~ 20.03.43 |
+| `Return YouTube Username` | Adds an option to replace YouTube handles with usernames in comments using YouTube Data API v3. | 19.05.36 ~ 20.03.43 |
+| `Sanitize sharing links` | Adds an option to sanitize sharing links by removing tracking query parameters. | 19.05.36 ~ 20.03.43 |
+| `Seekbar components` | Adds options to hide or change components related to the seekbar. | 19.05.36 ~ 20.03.43 |
+| `Settings for YouTube` | Applies mandatory patches to implement ReVanced Extended settings into the application. | 19.05.36 ~ 20.03.43 |
+| `Shorts components` | Adds options to hide or change components related to YouTube Shorts. | 19.05.36 ~ 20.03.43 |
+| `Snack bar components` | Adds options to hide or change components related to the snack bar. | 19.05.36 ~ 20.03.43 |
+| `SponsorBlock` | Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as sponsored content. | 19.05.36 ~ 20.03.43 |
+| `Spoof app version` | Adds options to spoof the YouTube client version. This can be used to restore old UI elements and features. | 19.05.36 ~ 20.03.43 |
+| `Spoof streaming data` | Adds options to spoof the streaming data to allow playback. | 19.05.36 ~ 20.03.43 |
+| `Swipe controls` | Adds options for controlling volume and brightness with swiping, and whether to enter fullscreen when swiping down below the player. | 19.05.36 ~ 20.03.43 |
+| `Theme` | Changes the app's themes to the values specified in patch options. | 19.05.36 ~ 20.03.43 |
+| `Toolbar components` | Adds options to hide or change components located on the toolbar, such as the search bar, header, and toolbar buttons. | 19.05.36 ~ 20.03.43 |
+| `Translations for YouTube` | Add translations or remove string resources. | 19.05.36 ~ 20.03.43 |
+| `Video playback` | Adds options to customize settings related to video playback, such as default video quality and playback speed. | 19.05.36 ~ 20.03.43 |
+| `Visual preferences icons for YouTube` | Adds icons to specific preferences in the settings. | 19.05.36 ~ 20.03.43 |
+| `Watch history` | Adds an option to change the domain of the watch history or check its status. | 19.05.36 ~ 20.03.43 |
 </details>
 
 ### [📦 `com.google.android.apps.youtube.music`](https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music)
@@ -170,7 +170,7 @@ Example:
         "19.43.41",
         "19.44.39",
         "19.47.53",
-        "20.03.45"
+        "20.03.43"
       ]
     },
     "options": []
@@ -200,6 +200,7 @@ Example:
     "compatiblePackages": {
       "com.reddit.frontpage": [
         "2024.17.0",
+        "2025.05.1",
         "2025.12.0"
       ]
     },

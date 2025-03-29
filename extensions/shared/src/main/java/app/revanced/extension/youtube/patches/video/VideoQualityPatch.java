@@ -1,6 +1,7 @@
 package app.revanced.extension.youtube.patches.video;
 
 import static app.revanced.extension.shared.utils.StringRef.str;
+import static app.revanced.extension.youtube.shared.RootView.isShortsActive;
 
 import androidx.annotation.NonNull;
 
@@ -9,7 +10,6 @@ import app.revanced.extension.shared.utils.Logger;
 import app.revanced.extension.shared.utils.Utils;
 import app.revanced.extension.youtube.settings.Settings;
 import app.revanced.extension.youtube.shared.PlayerType;
-import app.revanced.extension.youtube.shared.ShortsPlayerState;
 import app.revanced.extension.youtube.shared.VideoInformation;
 
 @SuppressWarnings("unused")
@@ -56,7 +56,7 @@ public class VideoQualityPatch {
     }
 
     private static void setVideoQuality(long delayMillis) {
-        boolean isShorts = isShorts();
+        boolean isShorts = isShortsActive();
         IntegerSetting defaultQualitySetting = Utils.getNetworkType() == Utils.NetworkType.MOBILE
                 ? isShorts ? shortsQualityMobile : videoQualityMobile
                 : isShorts ? shortsQualityWifi : videoQualityWifi;
@@ -75,13 +75,12 @@ public class VideoQualityPatch {
 
     private static void userSelectedVideoQuality(final int defaultQuality) {
         if (defaultQuality != DEFAULT_YOUTUBE_VIDEO_QUALITY) {
-            boolean isShorts = isShorts();
             final Utils.NetworkType networkType = Utils.getNetworkType();
             String networkTypeMessage = networkType == Utils.NetworkType.MOBILE
                     ? str("revanced_remember_video_quality_mobile")
                     : str("revanced_remember_video_quality_wifi");
 
-            if (isShorts) {
+            if (isShortsActive()) {
                 if (Settings.REMEMBER_VIDEO_QUALITY_SHORTS_LAST_SELECTED.get()) {
                     IntegerSetting defaultQualitySetting = networkType == Utils.NetworkType.MOBILE
                             ? shortsQualityMobile
@@ -113,9 +112,5 @@ public class VideoQualityPatch {
                 }
             }
         }
-    }
-
-    private static boolean isShorts() {
-        return !ShortsPlayerState.getCurrent().isClosed();
     }
 }

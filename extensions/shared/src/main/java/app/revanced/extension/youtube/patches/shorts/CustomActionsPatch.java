@@ -2,6 +2,7 @@ package app.revanced.extension.youtube.patches.shorts;
 
 import static app.revanced.extension.shared.utils.ResourceUtils.getString;
 import static app.revanced.extension.youtube.patches.components.ShortsCustomActionsFilter.isShortsFlyoutMenuVisible;
+import static app.revanced.extension.youtube.shared.RootView.isShortsActive;
 import static app.revanced.extension.youtube.utils.ExtendedUtils.isSpoofingToLessThan;
 
 import android.content.Context;
@@ -30,7 +31,6 @@ import app.revanced.extension.shared.utils.ResourceUtils;
 import app.revanced.extension.shared.utils.Utils;
 import app.revanced.extension.youtube.patches.components.ShortsCustomActionsFilter;
 import app.revanced.extension.youtube.settings.Settings;
-import app.revanced.extension.youtube.shared.ShortsPlayerState;
 import app.revanced.extension.youtube.utils.ExtendedUtils;
 import app.revanced.extension.youtube.utils.VideoUtils;
 
@@ -55,7 +55,7 @@ public final class CustomActionsPatch {
         if (!SHORTS_CUSTOM_ACTIONS_TOOLBAR_ENABLED) {
             return;
         }
-        if (ShortsPlayerState.getCurrent().isClosed()) {
+        if (!isShortsActive()) {
             return;
         }
         if (!isMoreButton(enumString)) {
@@ -118,7 +118,7 @@ public final class CustomActionsPatch {
         if (!SHORTS_CUSTOM_ACTIONS_FLYOUT_MENU_ENABLED) {
             return;
         }
-        if (ShortsPlayerState.getCurrent().isClosed()) {
+        if (!isShortsActive()) {
             return;
         }
         if (bottomSheetMenuObject == null) {
@@ -136,7 +136,7 @@ public final class CustomActionsPatch {
         if (!SHORTS_CUSTOM_ACTIONS_FLYOUT_MENU_ENABLED) {
             return;
         }
-        if (ShortsPlayerState.getCurrent().isClosed()) {
+        if (!isShortsActive()) {
             return;
         }
         for (CustomAction customAction : CustomAction.values()) {
@@ -164,7 +164,7 @@ public final class CustomActionsPatch {
         }
         recyclerView.getViewTreeObserver().addOnDrawListener(() -> {
             try {
-                if (ShortsPlayerState.getCurrent().isClosed()) {
+                if (!isShortsActive()) {
                     return;
                 }
                 contextRef = new WeakReference<>(recyclerView.getContext());

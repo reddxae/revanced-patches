@@ -33,7 +33,6 @@ import app.revanced.extension.youtube.settings.Settings;
 import app.revanced.extension.youtube.shared.EngagementPanel;
 import app.revanced.extension.youtube.shared.PlayerType;
 import app.revanced.extension.youtube.shared.RootView;
-import app.revanced.extension.youtube.shared.ShortsPlayerState;
 import app.revanced.extension.youtube.shared.VideoInformation;
 import app.revanced.extension.youtube.utils.VideoUtils;
 
@@ -440,7 +439,7 @@ public class PlayerPatch {
         if (isLiveChatOrPlaylistPanel) {
             return true;
         }
-        return isAutoPopupPanel && ShortsPlayerState.getCurrent().isClosed();
+        return isAutoPopupPanel && !RootView.isShortsActive();
     }
 
     /**

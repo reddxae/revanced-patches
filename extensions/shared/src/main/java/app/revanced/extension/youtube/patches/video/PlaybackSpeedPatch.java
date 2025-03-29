@@ -1,6 +1,7 @@
 package app.revanced.extension.youtube.patches.video;
 
 import static app.revanced.extension.shared.utils.StringRef.str;
+import static app.revanced.extension.youtube.shared.RootView.isShortsActive;
 
 import androidx.annotation.NonNull;
 
@@ -13,7 +14,6 @@ import app.revanced.extension.shared.utils.Utils;
 import app.revanced.extension.youtube.patches.utils.PatchStatus;
 import app.revanced.extension.youtube.patches.video.requests.MusicRequest;
 import app.revanced.extension.youtube.settings.Settings;
-import app.revanced.extension.youtube.shared.ShortsPlayerState;
 import app.revanced.extension.youtube.shared.VideoInformation;
 import app.revanced.extension.youtube.whitelist.Whitelist;
 
@@ -44,7 +44,7 @@ public class PlaybackSpeedPatch {
     public static void newVideoStarted(@NonNull String newlyLoadedChannelId, @NonNull String newlyLoadedChannelName,
                                        @NonNull String newlyLoadedVideoId, @NonNull String newlyLoadedVideoTitle,
                                        final long newlyLoadedVideoLength, boolean newlyLoadedLiveStreamValue) {
-        if (isShorts()) {
+        if (isShortsActive()) {
             channelIdShorts = newlyLoadedChannelId;
             videoIdShorts = newlyLoadedVideoId;
             isLiveStreamShorts = newlyLoadedLiveStreamValue;
@@ -100,7 +100,7 @@ public class PlaybackSpeedPatch {
      * Injection point.
      */
     public static float getPlaybackSpeed(float playbackSpeed) {
-        boolean isShorts = isShorts();
+        boolean isShorts = isShortsActive();
         String currentChannelId = isShorts ? channelIdShorts : channelId;
         String currentVideoId = isShorts ? videoIdShorts : videoId;
         boolean currentVideoIsLiveStream = isShorts ? isLiveStreamShorts : isLiveStream;
@@ -137,7 +137,7 @@ public class PlaybackSpeedPatch {
      */
     public static void userSelectedPlaybackSpeed(float playbackSpeed) {
         try {
-            boolean isShorts = isShorts();
+            boolean isShorts = isShortsActive();
             if (PatchStatus.RememberPlaybackSpeed()) {
                 BooleanSetting rememberPlaybackSpeedLastSelectedSetting = isShorts
                         ? Settings.REMEMBER_PLAYBACK_SPEED_SHORTS_LAST_SELECTED
@@ -184,10 +184,6 @@ public class PlaybackSpeedPatch {
         } catch (Exception ex) {
             Logger.printException(() -> "userSelectedPlaybackSpeed failure", ex);
         }
-    }
-
-    private static boolean isShorts() {
-        return !ShortsPlayerState.getCurrent().isClosed();
     }
 
     private static boolean isMusic() {

@@ -1439,6 +1439,10 @@
     <string name="revanced_shorts_custom_actions_open_video_title">عرض قائمة فتح الفيديو</string>
     <string name="revanced_shorts_custom_actions_open_video_summary_on">يتم عرض قائمة فتح الفيديو.</string>
     <string name="revanced_shorts_custom_actions_open_video_summary_off">تم إخفاء قائمة فتح الفيديو.</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_label">مربع حوار السرعة</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_title">عرض قائمة مربع حوار السرعة</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_summary_on">يتم عرض قائمة حوار السرعة.</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_summary_off">تم إخفاء قائمة حوار السرعة.</string>
     <string name="revanced_shorts_custom_actions_repeat_state_label">حالة التكرار</string>
     <string name="revanced_shorts_custom_actions_repeat_state_title">عرض قائمة حالة التكرار</string>
     <string name="revanced_shorts_custom_actions_repeat_state_summary_on">يتم عرض قائمة حالة التكرار.</string>
@@ -1551,12 +1555,14 @@
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">الفيديو</string>
     <!-- PreferenceScreen: Video, PreferenceCategory: Codec -->
+    <string name="revanced_preference_category_codec">الترميز</string>
     <string name="revanced_disable_hdr_video_title">تعطيل فيديو HDR</string>
     <string name="revanced_disable_hdr_video_summary_on">تم تعطيل فيديو HDR.</string>
     <string name="revanced_disable_hdr_video_summary_off">تم تمكين فيديو HDR.</string>
     <string name="revanced_disable_vp9_codec_title">تعطيل ترميز VP9</string>
     <string name="revanced_disable_vp9_codec_summary_on">"تم تعطيل برنامج ترميز VP9.
 
+معلومات:
 • الحد الأقصى للدقة هو 1080P.
 • سيستهلك تشغيل الفيديو بيانات إنترنت أكثر من VP9.
 • لا يزال برنامج ترميز VP9 مستخدمًا لفيديو HDR."</string>
@@ -1564,6 +1570,7 @@
     <string name="revanced_replace_av1_codec_title">استبدال برنامج الترميز AV1</string>
     <string name="revanced_replace_av1_codec_summary">يستبدل برنامج الترميز AV1 ببرنامج الترميز VP9.</string>
     <!-- PreferenceScreen: Video, PreferenceCategory: Playback speed -->
+    <string name="revanced_preference_category_playback_speed">سرعة التشغيل</string>
     <string name="revanced_default_playback_speed_title">سرعة التشغيل الافتراضية</string>
     <string name="revanced_remember_playback_speed_last_selected_title">تذكر التغيرات في سرعة التشغيل</string>
     <string name="revanced_remember_playback_speed_last_selected_summary_on">تنطبق تغييرات سرعة التشغيل على جميع الفيديوهات.</string>
@@ -1571,6 +1578,19 @@
     <string name="revanced_remember_playback_speed_last_selected_toast_title">عرض ملاحظة</string>
     <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">سيتم عرض ملاحظة عند تغيير سرعة التشغيل الافتراضية.</string>
     <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">لن يتم عرض ملاحظة عند تغيير سرعة التشغيل الافتراضية.</string>
+    <string name="revanced_default_playback_speed_shorts_title">سرعة التشغيل الافتراضية على فيديوهات Shorts</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_title">تذكر التغيرات في سرعة التشغيل على فيديوهات Shorts</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_summary_on">"تنطبق تغييرات سرعة التشغيل على جميع فيديوهات Shorts.
+
+معلومات:
+• الطريقة الوحيدة لتغيير سرعة التشغيل في مشغل فيديوهات Shorts هي استخدام \"مربع حوار السرعة\" ضمن \"الإجراءات المخصصة\".
+• إذا لم تُضمّن تعديل 'Shorts components'، فلن يكون هذا متاحًا."</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_summary_off">تنطبق تغييرات سرعة التشغيل على فيديو Shorts الحالي فقط.</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_toast_title">عرض ملاحظة</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_toast_summary_on">سيتم عرض ملاحظة عند تغيير سرعة التشغيل الافتراضية في فيديوهات Shorts.</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_toast_summary_off">لن يتم عرض ملاحظة عند تغيير سرعة التشغيل الافتراضية في فيديوهات Shorts.</string>
+    <string name="revanced_remember_playback_speed_toast">تغيير سرعة التشغيل الافتراضية إلى: %s.</string>
+    <string name="revanced_remember_playback_speed_toast_shorts">تغيير سرعة تشغيل Shorts الافتراضية إلى: %s.</string>
     <string name="revanced_enable_custom_playback_speed_title">تمكين سرعة التشغيل المخصصة</string>
     <string name="revanced_enable_custom_playback_speed_summary_on">تم تمكين سرعة التشغيل المخصصة.</string>
     <string name="revanced_enable_custom_playback_speed_summary_off">تم تعطيل سرعة التشغيل المخصصة.</string>
@@ -1582,6 +1602,7 @@
     <string name="revanced_custom_playback_speeds_invalid">يجب أن تكون السرعات المخصصة أقل من %sx.</string>
     <string name="revanced_custom_playback_speeds_parse_exception">سرعات التشغيل المخصصة غير صالحة.</string>
     <!-- PreferenceScreen: Video, PreferenceCategory: Video quality -->
+    <string name="revanced_preference_category_video_quality">جودة الفيديو</string>
     <string name="revanced_default_video_quality_mobile_title">جودة الفيديو الافتراضية على شبكة الجوَّال</string>
     <string name="revanced_default_video_quality_wifi_title">جودة الفيديو الافتراضية على شبكة Wi-Fi</string>
     <string name="revanced_remember_video_quality_last_selected_title">تذكر تغييرات جودة الفيديو</string>
@@ -1590,6 +1611,18 @@
     <string name="revanced_remember_video_quality_last_selected_toast_title">عرض ملاحظة</string>
     <string name="revanced_remember_video_quality_last_selected_toast_summary_on">سيتم عرض ملاحظة عند تغيير جودة الفيديو الافتراضية.</string>
     <string name="revanced_remember_video_quality_last_selected_toast_summary_off">لن يتم عرض ملاحظة عند تغيير جودة الفيديو الافتراضية.</string>
+    <string name="revanced_default_video_quality_mobile_shorts_title">جودة فيديوهات Shorts الافتراضية على شبكة الجوَّال</string>
+    <string name="revanced_default_video_quality_wifi_shorts_title">جودة فيديوهات Shorts الافتراضية على شبكة Wi-Fi</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_title">تذكر تغييرات جودة فيديوهات Shorts</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_summary_on">تنطبق تغييرات الجودة على جميع فيديوهات Shorts.</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_summary_off">تنطبق تغييرات الجودة على فيديو Shorts الحالي فقط.</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_toast_title">عرض ملاحظة</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_toast_summary_on">سيتم عرض ملاحظة عند تغيير جودة فيديوهات Shorts الافتراضية.</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_toast_summary_off">لن يتم عرض ملاحظة عند تغيير جودة فيديوهات Shorts الافتراضية.</string>
+    <string name="revanced_remember_video_quality_mobile">الجوّال</string>
+    <string name="revanced_remember_video_quality_wifi">Wi-Fi</string>
+    <string name="revanced_remember_video_quality_toast">تم تغيير جودة %1$s الافتراضية إلى: %2$s.</string>
+    <string name="revanced_remember_video_quality_toast_shorts">تم تغيير جودة Shorts %1$s الافتراضية إلى: %2$s.</string>
     <string name="revanced_restore_old_video_quality_menu_title">استعادة قائمة جودة الفيديو القديمة</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">يتم عرض قائمة جودة الفيديو القديمة.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">لا يتم عرض قائمة جودة الفيديو القديمة.</string>
@@ -1597,13 +1630,21 @@
     <string name="revanced_skip_preloaded_buffer_title">تخطي التخزين المؤقت المحمل مسبقًا</string>
     <string name="revanced_skip_preloaded_buffer_summary">"لتخطي التخزين المؤقت المحمل مسبقًا في بداية الفيديوهات لتطبيق جودة الفيديو الافتراضية على الفور.
 
+معلومات:
 • عند بَدْء تشغيل الفيديو، يكون هناك تأخير قدره 0.3 ثانية تقريبًا.
-• لا ينطبق على فيديوهات HDR, فيديوهات البث المباشر, الفيديوهات التي تقل مدتها عن 15 ثوانٍ."</string>
+• لا ينطبق على فيديوهات Shorts, فيديوهات HDR, فيديوهات البث المباشر, الفيديوهات التي تقل مدتها عن 15 ثوانٍ.
+• يؤدي إعداد 'Spoof Streaming Data' أيضًا إلى إزالة المخازن المؤقتة المحملة مسبقًا، وبالتالي لا تكون هناك حاجة إلى هذا الإعداد إذا كنت تستخدم هذا الإعداد."</string>
     <string name="revanced_skip_preloaded_buffer_user_dialog_message">تشغيل هذا الإعداد قد يسبب مشاكل في تشغيل الفيديو.</string>
     <string name="revanced_skip_preloaded_buffer_toast_title">عرض ملاحظة عند التخطي</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_on">يتم عرض الملاحظة.</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_off">لا يتم عرض الملاحظة.</string>
     <string name="revanced_spoof_device_dimensions_title">إيهام أبعاد الجهاز</string>
+    <string name="revanced_spoof_device_dimensions_summary">"يُغيّر أبعاد الجهاز إلى أقصى قيمة.
+
+معلومات:
+• قد تكون الجودة العالية متاحة لبعض الفيديوهات التي تتطلب أبعاد جهاز عالية، ولكن ليس لجميعها.
+
+• لا يتوفر هذا الإعداد عند تمكين 'Spoof Streaming Data'."</string>
     <!-- PreferenceScreen: Video, PreferenceCategory: Experimental flags -->
     <string name="revanced_disable_default_playback_speed_music_title">تعطيل سرعة التشغيل للموسيقى</string>
     <string name="revanced_disable_default_playback_speed_music_on">تم تعطيل سرعة التشغيل الافتراضية للموسيقى.</string>
@@ -1970,6 +2011,8 @@ AVC لديه حد أقصى للدقة 1080p، لا يتوفر ترميز الص�
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">يتم عرض العميل المستخدم لجلب بيانات البث في إحصاءات تقنية.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">تم إخفاء العميل المستخدم لجلب بيانات البث في إحصاءات تقنية.</string>
     <string name="revanced_spoof_streaming_data_language_title">لغة البث الصوتي الافتراضية للواقع الافتراضي VR</string>
+    <string name="revanced_spoof_streaming_data_failed_forbidden">لم يتمكن من جلب أي تدفقات عميل.</string>
+    <string name="revanced_spoof_streaming_data_failed_forbidden_suggestion">ربما لم تتمكن من تسجيل الدخول.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <string name="revanced_preference_category_po_token_visitor_data">PoToken / VisitorData</string>
     <string name="revanced_spoof_streaming_data_po_token_title">استخدام PoToken</string>

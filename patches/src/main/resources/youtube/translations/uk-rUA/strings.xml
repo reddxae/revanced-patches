@@ -1737,10 +1737,12 @@
     <string name="revanced_restore_old_video_quality_menu_summary_off">Старе меню якості відео не показується.</string>
     <string name="revanced_skipped_preloaded_buffer">Пропущено перед вантажений буфер</string>
     <string name="revanced_skip_preloaded_buffer_title">Пропустити перед вантажений буфер</string>
-    <string name="revanced_skip_preloaded_buffer_summary">"Пропуск перед вантаженого буфера під час запуску відео для обходу затримки примусового застосування типової якості відео.
+    <string name="revanced_skip_preloaded_buffer_summary">"Пропуск передвантаженого буфера під час запуску відео для обходу затримки примусового застосування типової якості відео.
 
-• Під час запуску відео є затримка приблизно 0.3 секунди, але типова якість відео застосовується відразу.
-• Не застосовується на відео HDR, прямі трансляції, менші ніж 15 секунд."</string>
+Інформація:
+• Під час запуску відео є затримка приблизно 0.3 секунди.
+• Не застосовується на Shorts, відео HDR, прямі трансляції, менші ніж 15 секунд.
+• Налаштування 'Підробити дані трансляції' також вилучає передвантажений буфер, отже це налаштування не потрібне якщо використовуєте те."</string>
     <string name="revanced_skip_preloaded_buffer_user_dialog_message">Вмикання цього налаштування може спричинити проблеми відтворення відео.</string>
     <string name="revanced_skip_preloaded_buffer_toast_title">Показувати тост, коли пропущено</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_on">Тост показується.</string>

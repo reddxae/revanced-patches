@@ -19,8 +19,48 @@
     <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s não está instalado.
 Por favor, baixe %2$s do site."</string>
     <string name="revanced_external_downloader_not_installed_warning">%s não está instalado. Por favor, instale-o.</string>
+    <string name="revanced_queue_manager_add_to_queue">Adicionar à fila</string>
+    <string name="revanced_queue_manager_add_to_queue_and_open_queue">Adicionar à fila e abrir a fila</string>
+    <string name="revanced_queue_manager_add_to_queue_and_play_video">Adicionar à fila e reproduzir o vídeo</string>
+    <string name="revanced_queue_manager_external_downloader">Download externo</string>
+    <string name="revanced_queue_manager_open_queue">Abrir fila</string>
+    <string name="revanced_queue_manager_queue">Fila</string>
+    <string name="revanced_queue_manager_remove_from_queue">Remover da lista</string>
+    <string name="revanced_queue_manager_remove_from_queue_and_open_queue">Remover da fila e abrir a fila</string>
+    <string name="revanced_queue_manager_remove_queue">Remover fila</string>
+    <string name="revanced_queue_manager_save_queue">Salvar fila</string>
+    <string name="revanced_queue_manager_user_dialog_message">"Em vez de abrir um aplicativo de download externo, abra a caixa de diálogo do gerenciador de filas.
+
+Você também pode abrir o gerenciador de filas pressionando e segurando o botão Voltar na barra de navegação.
+
+Este recurso ainda está em andamento, então a maioria dos recursos pode não funcionar.
+
+Use-o apenas para fins de depuração."</string>
+    <string name="revanced_queue_manager_check_failed_auth">Login obrigatório</string>
+    <string name="revanced_queue_manager_check_failed_generic">Gerenciador de filas indisponível (%s).</string>
+    <string name="revanced_queue_manager_check_failed_playlist_id">Não foi possível identificar a playlist</string>
+    <string name="revanced_queue_manager_check_failed_queue">A fila está vazia</string>
+    <string name="revanced_queue_manager_check_failed_video_id">Não foi possível identificar vídeo</string>
+    <string name="revanced_queue_manager_fetch_failed_add">Falha ao adicionar vídeo.</string>
+    <string name="revanced_queue_manager_fetch_failed_create">Falha ao criar fila.</string>
+    <string name="revanced_queue_manager_fetch_failed_delete">Falha ao excluir fila.</string>
+    <string name="revanced_queue_manager_fetch_failed_remove">Falha ao remover o vídeo.</string>
+    <string name="revanced_queue_manager_fetch_failed_save">Falha ao salvar fila.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_add">Vídeo adicionado com sucesso.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_create">Fila criada com sucesso.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_delete">Fila excluída com sucesso.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_remove">Vídeo removido com sucesso.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_save">Fila salva com sucesso em \'%s\'.</string>
     <string name="revanced_language_title">Idioma do RVX</string>
     <string name="revanced_language_DEFAULT">Idioma do app</string>
+    <string name="revanced_language_FR">"Francês
+<small>Français</small>"</string>
+    <string name="revanced_language_PT">"Português
+<small>Português</small>"</string>
+    <string name="revanced_language_RO">"Romeno
+<small>Română</small>"</string>
+    <string name="revanced_language_RU">"Russo
+<small>Русский</small>"</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Anúncios</string>
     <string name="revanced_hide_end_screen_store_banner_title">Ocultar banner da loja na tela final</string>
@@ -369,6 +409,9 @@ Automotivo layout
 • Shorts abertos no reprodutor regular.
 • O feed é organizado por tópicos e canais.
 • A descrição do vídeo não pode ser aberta quando o 'Falsificar dados de reprodução' está desligado."</string>
+    <string name="revanced_disable_layout_updates_title">Desativar atualizações de layout</string>
+    <string name="revanced_disable_layout_updates_summary_on">O layout não será atualizado pelo servidor.</string>
+    <string name="revanced_disable_layout_updates_summary_off">O layout será atualizado pelo servidor.</string>
     <string name="revanced_disable_translucent_status_bar_title">Desativar barra de status transparente</string>
     <string name="revanced_disable_translucent_status_bar_summary_on">A barra de status está opaca.</string>
     <string name="revanced_disable_translucent_status_bar_summary_off">A barra de status está opaca ou transparente.</string>
@@ -389,8 +432,10 @@ Se for desativado posteriormente, é recomendável limpar os dados do aplicativo
     <string name="revanced_spoof_app_version_target_entry_18_33_40">18.33.40 - Restaurar barra de ação antiga do shorts</string>
     <string name="revanced_spoof_app_version_target_entry_18_38_45">18.38.45 - Restaurar antigo comportamento padrão de qualidade de vídeo</string>
     <string name="revanced_spoof_app_version_target_entry_18_48_39">18.48.39 - Desativa a atualização em tempo real de \'visualizações\' e \'curtidas\'</string>
+    <string name="revanced_spoof_app_version_target_entry_19_01_34">19.01.34 - Desativar interação com descrição do vídeo</string>
     <string name="revanced_spoof_app_version_target_entry_19_26_42">19.26.42 - Desativar ícone do Cairo na barra de navegação e de ferramentas</string>
     <string name="revanced_spoof_app_version_target_entry_19_33_37">19.33.37 - Restaurar painel flutuante antigo de velocidade de reprodução</string>
+    <string name="revanced_spoof_app_version_target_invalid_toast">Versão da falsificação do app inválida: %s.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Account menu -->
     <string name="revanced_preference_screen_account_menu_title">Menu da Conta</string>
     <string name="revanced_preference_screen_account_menu_summary">Ocultar ou mostrar elementos no menu de contas e na aba Você.</string>
@@ -424,6 +469,9 @@ Alguns componentes podem não ser ocultos"</string>
     <string name="revanced_override_video_download_button_title">Substituir o botão de download de vídeo</string>
     <string name="revanced_override_video_download_button_summary_on">O botão de download de vídeo nativo abre seu aplicativo de download externo.</string>
     <string name="revanced_override_video_download_button_summary_off">O botão de download de vídeo nativo abre o download nativo do aplicativo.</string>
+    <string name="revanced_override_video_download_button_queue_manager_title">Gerenciador de Filas</string>
+    <string name="revanced_override_video_download_button_queue_manager_summary_on">O botão nativo de download de vídeo abre o gerenciador de filas.</string>
+    <string name="revanced_override_video_download_button_queue_manager_summary_off">O botão de download de vídeo nativo abre seu aplicativo de download externo.</string>
     <string name="revanced_external_downloader_package_name_playlist_title">Nome do pacote do aplicativo de download de playlist</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">Nome do pacote do seu aplicativo de download externo instalado, como YTDLnis.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental flags -->
@@ -1435,6 +1483,8 @@ Sem margens na parte superior e inferior do reprodutor."</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_off">Os gestos de deslize estão desativados no modo \'Tela de bloqueio\'.</string>
     <string name="revanced_swipe_magnitude_threshold_title">Limite de magnitude de deslize</string>
     <string name="revanced_swipe_magnitude_threshold_summary">A quantidade de limite para que o deslize ocorra.</string>
+    <string name="revanced_swipe_overlay_alternative_ui_summary_on">Interface alternativa é utilizada.</string>
+    <string name="revanced_swipe_overlay_alternative_ui_summary_off">Interface antiga é utilizada.</string>
     <string name="revanced_swipe_overlay_text_size_title">Tamanho do texto da sobreposição de gestos</string>
     <string name="revanced_swipe_overlay_text_size_summary">O tamanho do texto para a sobreposição de gestos</string>
     <string name="revanced_swipe_overlay_rect_size_title">Tamanho da área deslizável da tela de sobreposição</string>
@@ -1467,6 +1517,7 @@ Sem margens na parte superior e inferior do reprodutor."</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Vídeo</string>
     <!-- PreferenceScreen: Video, PreferenceCategory: Codec -->
+    <string name="revanced_preference_category_codec">Codec</string>
     <string name="revanced_disable_hdr_video_title">Desativar vídeo HDR</string>
     <string name="revanced_disable_hdr_video_summary_on">O vídeo HDR está desativado.</string>
     <string name="revanced_disable_hdr_video_summary_off">O vídeo HDR está ativado.</string>
@@ -1480,6 +1531,7 @@ Sem margens na parte superior e inferior do reprodutor."</string>
     <string name="revanced_replace_av1_codec_title">Substituir codec AV1 do software</string>
     <string name="revanced_replace_av1_codec_summary">Substitua o codec AV1 do software com o codec VP9.</string>
     <!-- PreferenceScreen: Video, PreferenceCategory: Playback speed -->
+    <string name="revanced_preference_category_playback_speed">Velocidade de reprodução</string>
     <string name="revanced_default_playback_speed_title">Velocidade de reprodução padrão</string>
     <string name="revanced_remember_playback_speed_last_selected_title">Lembrar alterações na velocidade de reprodução</string>
     <string name="revanced_remember_playback_speed_last_selected_summary_on">As alterações de velocidade de reprodução aplicam-se a todos os vídeos.</string>
@@ -1498,6 +1550,7 @@ Sem margens na parte superior e inferior do reprodutor."</string>
     <string name="revanced_custom_playback_speeds_invalid">As velocidades personalizadas devem ser inferiores a %sx. Usando valores padrão.</string>
     <string name="revanced_custom_playback_speeds_parse_exception">Velocidade personalizada de reprodução inválida. Usando valores padrão.</string>
     <!-- PreferenceScreen: Video, PreferenceCategory: Video quality -->
+    <string name="revanced_preference_category_video_quality">Qualidade do vídeo</string>
     <string name="revanced_default_video_quality_mobile_title">Qualidade de vídeo padrão nos dados móveis</string>
     <string name="revanced_default_video_quality_wifi_title">Qualidade de vídeo padrão no Wi-Fi</string>
     <string name="revanced_remember_video_quality_last_selected_title">Lembrar alterações na qualidade do vídeo</string>
@@ -1506,6 +1559,7 @@ Sem margens na parte superior e inferior do reprodutor."</string>
     <string name="revanced_remember_video_quality_last_selected_toast_title">Mostrar uma notificação flutuante</string>
     <string name="revanced_remember_video_quality_last_selected_toast_summary_on">Uma notificação flutuante será exibida quando mudar a qualidade padrão de vídeo.</string>
     <string name="revanced_remember_video_quality_last_selected_toast_summary_off">Uma notificação flutuante não será exibida quando mudar a qualidade padrão de vídeo.</string>
+    <string name="revanced_remember_video_quality_mobile">móvel</string>
     <string name="revanced_restore_old_video_quality_menu_title">Restaurar menu antigo de qualidade de vídeo</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">O menu antigo de qualidade de vídeo está sendo exibido.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">O menu antigo de qualidade de vídeo não está sendo exibido.</string>
@@ -1849,6 +1903,11 @@ Toque no botão continuar e desative as otimizações da bateria."</string>
 • Os vídeos para crianças podem não reproduzir quando desconectado ou em modo incógnito."</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• Filmes ou vídeos pagos podem não reproduzir.
 • Os vídeos para crianças podem não ser reproduzidos quando desconectado ou em modo incógnito."</string>
+    <string name="revanced_spoof_streaming_data_type_ios_title">Usar cliente iOS</string>
+    <string name="revanced_spoof_streaming_data_type_ios_summary_on">"Cliente iOS adicionado aos clientes disponíveis.
+
+AVISO: cliente iOS está obsoleto. Quaisquer problemas que surjam ao usá-lo estão por sua conta e risco."</string>
+    <string name="revanced_spoof_streaming_data_type_ios_summary_off">Cliente iOS não adicionado aos clientes disponíveis.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Forçar iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">O codec de vídeo é forçado para AVC (H.264).</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">O codec de vídeo é determinado automaticamente.</string>

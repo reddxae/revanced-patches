@@ -1668,19 +1668,19 @@ Regola il volume scorrendo verticalmente sul lato destro dello schermo."</string
 Note:
 • La risoluzione massima è 1080p.
 • La riproduzione userà più dati internet di VP9.
-• VP9 è comunque usato per la riproduzione in HDR."</string>
+• VP9 è comunque usato per la riproduzione HDR."</string>
     <string name="revanced_disable_vp9_codec_summary_off">Il codec VP9 è attivato.</string>
     <string name="revanced_replace_av1_codec_title">Sostituisci il codec AV1</string>
     <string name="revanced_replace_av1_codec_summary">Sostituisce il codec AV1 con il codec VP9.</string>
     <!-- PreferenceScreen: Video, PreferenceCategory: Playback speed -->
     <string name="revanced_preference_category_playback_speed">Velocità di riproduzione</string>
-    <string name="revanced_default_playback_speed_title">Velocità di riproduzione predefinita</string>
-    <string name="revanced_remember_playback_speed_last_selected_title">Ricorda i cambiamenti della velocità di riproduzione</string>
+    <string name="revanced_default_playback_speed_title">Velocità di riproduzione predefinita dei video</string>
+    <string name="revanced_remember_playback_speed_last_selected_title">Ricorda i cambiamenti della velocità di riproduzione dei video</string>
     <string name="revanced_remember_playback_speed_last_selected_summary_on">I cambiamenti alla velocità di riproduzione si applicano a tutti i video.</string>
     <string name="revanced_remember_playback_speed_last_selected_summary_off">I cambiamenti alla velocità di riproduzione si applicano solo al video corrente.</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_title">Mostra una notifica toast al cambio della velocità di riproduzione</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">Una notifica toast verrà mostrata al cambio della velocità di riproduzione predefinita.</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">Una notifica toast non verrà mostrata al cambio della velocità di riproduzione predefinita.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">Mostra una notifica toast al cambio della velocità di riproduzione predefinita dei video</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">Una notifica toast verrà mostrata al cambio della velocità di riproduzione predefinita dei video.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">Una notifica toast non verrà mostrata al cambio della velocità di riproduzione predefinita dei video.</string>
     <string name="revanced_default_playback_speed_shorts_title">Velocità di riproduzione predefinita degli Shorts</string>
     <string name="revanced_remember_playback_speed_shorts_last_selected_title">Ricorda i cambiamenti della velocità di riproduzione degli Shorts</string>
     <string name="revanced_remember_playback_speed_shorts_last_selected_summary_on">"I cambiamenti alla velocità di riproduzione si applicano a tutti gli Shorts.
@@ -1689,10 +1689,10 @@ Note:
 • L'unico modo per modificare la velocità di riproduzione nel riproduttore degli Shorts è usare la \"finestra della velocità\" in \"Azioni personalizzate\".
 • Se non hai incluso la patch \"Componenti Shorts\", questa impostazione non sarà disponibile."</string>
     <string name="revanced_remember_playback_speed_shorts_last_selected_summary_off">I cambiamenti alla velocità di riproduzione si applicano solo allo Short corrente.</string>
-    <string name="revanced_remember_playback_speed_shorts_last_selected_toast_title">Mostra una notifica toast</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_toast_title">Mostra una notifica toast al cambio della velocità di riproduzione predefinita degli Shorts</string>
     <string name="revanced_remember_playback_speed_shorts_last_selected_toast_summary_on">Una notifica toast verrà mostrata al cambio della velocità di riproduzione predefinita degli Shorts.</string>
     <string name="revanced_remember_playback_speed_shorts_last_selected_toast_summary_off">Una notifica toast non verrà mostrata al cambio della velocità di riproduzione predefinita degli Shorts.</string>
-    <string name="revanced_remember_playback_speed_toast">La velocità di riproduzione predefinita è stata cambiata a %s</string>
+    <string name="revanced_remember_playback_speed_toast">La velocità di riproduzione predefinita dei video è stata cambiata a %s</string>
     <string name="revanced_remember_playback_speed_toast_shorts">La velocità di riproduzione predefinita degli Shorts è stata cambiata a %s</string>
     <string name="revanced_enable_custom_playback_speed_title">Attiva la velocità di riproduzione personalizzata</string>
     <string name="revanced_enable_custom_playback_speed_summary_on">La velocità di riproduzione personalizzata è attivata.</string>
@@ -1706,36 +1706,37 @@ Note:
     <string name="revanced_custom_playback_speeds_parse_exception">Velocità di riproduzione personalizzate non valide</string>
     <!-- PreferenceScreen: Video, PreferenceCategory: Video quality -->
     <string name="revanced_preference_category_video_quality">Qualità video</string>
-    <string name="revanced_default_video_quality_mobile_title">Qualità predefinita con connessione dati</string>
-    <string name="revanced_default_video_quality_wifi_title">Qualità predefinita con Wi-Fi</string>
-    <string name="revanced_remember_video_quality_last_selected_title">Ricorda i cambiamenti della qualità</string>
+    <string name="revanced_default_video_quality_mobile_title">Qualità predefinita dei video con connessione dati</string>
+    <string name="revanced_default_video_quality_wifi_title">Qualità predefinita dei video con Wi-Fi</string>
+    <string name="revanced_remember_video_quality_last_selected_title">Ricorda i cambiamenti della qualità dei video</string>
     <string name="revanced_remember_video_quality_last_selected_summary_on">I cambiamenti alla qualità si applicano a tutti i video.</string>
     <string name="revanced_remember_video_quality_last_selected_summary_off">I cambiamenti alla qualità si applicano solo al video corrente.</string>
-    <string name="revanced_remember_video_quality_last_selected_toast_title">Mostra una notifica toast al cambio della qualità</string>
-    <string name="revanced_remember_video_quality_last_selected_toast_summary_on">Una notifica toast verrà mostrata quando al cambio della qualità predefinita.</string>
-    <string name="revanced_remember_video_quality_last_selected_toast_summary_off">Una notifica toast non verrà mostrata quando al cambio della qualità predefinita.</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_title">Mostra una notifica toast al cambio della qualità predefinita dei video</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary_on">Una notifica toast verrà mostrata al cambio della qualità predefinita dei video.</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary_off">Una notifica toast non verrà mostrata al cambio della qualità predefinita dei video.</string>
     <string name="revanced_default_video_quality_mobile_shorts_title">Qualità predefinita degli Shorts con connessione dati</string>
     <string name="revanced_default_video_quality_wifi_shorts_title">Qualità predefinita degli Shorts con Wi-Fi</string>
     <string name="revanced_remember_video_quality_shorts_last_selected_title">Ricorda i cambiamenti della qualità degli Shorts</string>
     <string name="revanced_remember_video_quality_shorts_last_selected_summary_on">I cambiamenti alla qualità si applicano a tutti gli Shorts.</string>
     <string name="revanced_remember_video_quality_shorts_last_selected_summary_off">I cambiamenti alla qualità si applicano solo allo Short corrente.</string>
-    <string name="revanced_remember_video_quality_shorts_last_selected_toast_title">Mostra una notifica toast</string>
-    <string name="revanced_remember_video_quality_shorts_last_selected_toast_summary_on">Una notifica toast verrà mostrata quando al cambio della qualità predefinita degli Shorts.</string>
-    <string name="revanced_remember_video_quality_shorts_last_selected_toast_summary_off">Una notifica toast non verrà mostrata quando al cambio della qualità predefinita degli Shorts.</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_toast_title">Mostra una notifica toast al cambio della qualità predefinita degli Shorts</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_toast_summary_on">Una notifica toast verrà mostrata al cambio della qualità predefinita degli Shorts.</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_toast_summary_off">Una notifica toast non verrà mostrata al cambio della qualità predefinita degli Shorts.</string>
     <string name="revanced_remember_video_quality_mobile">Cellulare</string>
     <string name="revanced_remember_video_quality_wifi">Wi-Fi</string>
-    <string name="revanced_remember_video_quality_toast">La qualità predefinita è stata cambiata da %1$s a %2$s</string>
+    <string name="revanced_remember_video_quality_toast">La qualità predefinita dei video è stata cambiata da %1$s a %2$s</string>
     <string name="revanced_remember_video_quality_toast_shorts">La qualità predefinita degli Shorts è stata cambiata da %1$s a %2$s</string>
     <string name="revanced_restore_old_video_quality_menu_title">Attiva il vecchio menù Qualità</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">Il vecchio menù Qualità è attivato.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Il vecchio menù Qualità è disattivato.</string>
     <string name="revanced_skipped_preloaded_buffer">Buffer precaricato saltato</string>
     <string name="revanced_skip_preloaded_buffer_title">Salta il buffer precaricato</string>
-    <string name="revanced_skip_preloaded_buffer_summary">"Salta il buffer precaricato all'avvio dei video per bypassare il ritardo della qualità video predefinita forzata.
+    <string name="revanced_skip_preloaded_buffer_summary">"Salta il buffer precaricato all'avvio dei video per applicare immediatamente la qualità video predefinita.
 
 Note:
-• Quando il video inizia, c'è un ritardo di circa 0.7 secondi, ma la qualità video predefinita viene applicata immediatamente.
-• Non si applica ai video HDR, live e più brevi di 10 secondi."</string>
+• Quando il video inizia, c'è un ritardo di circa 0.3 secondi.
+• Non si applica agli Shorts, ai video HDR, live e più brevi di 15 secondi.
+• L'impostazione \"Camuffa i dati in streaming\" rimuove anche i buffer precaricati, pertanto questa impostazione non è necessaria se si usa tale impostazione."</string>
     <string name="revanced_skip_preloaded_buffer_user_dialog_message">L\'attivazione di questa impostazione potrebbe causare problemi di riproduzione.</string>
     <string name="revanced_skip_preloaded_buffer_toast_title">Mostra una notifica toast quando un segmento è saltato</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_on">Una notifica toast verrà mostrata quando un segmento è saltato.</string>

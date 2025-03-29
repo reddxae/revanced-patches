@@ -1735,9 +1735,12 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">이전 동영상 화질 설정을 비활성화합니다.</string>
     <string name="revanced_skipped_preloaded_buffer">미리 로드된 버퍼를 건너뛰었습니다.</string>
     <string name="revanced_skip_preloaded_buffer_title">미리 로드된 버퍼 건너뛰기</string>
-    <string name="revanced_skip_preloaded_buffer_summary">"동영상을 시작할 때, 미리 로드된 버퍼를 건너뛰어 기본 동영상 화질 적용 지연을 우회합니다.
-• 동영상이 시작되면 약 0.3초정도의 지연이 발생하지만 기본 동영상 화질이 즉시 적용됩니다.
-• HDR 동영상, 실시간 스트림, 15초 미만의 동영상에는 적용되지 않습니다."</string>
+    <string name="revanced_skip_preloaded_buffer_summary">"동영상 시작 시 미리 로드된 버퍼를 건너뛰고 기본 동영상 화질을 즉시 적용합니다.
+
+알림:
+• 동영상이 시작되면 약 0.3초의 지연이 발생합니다.
+• Shorts 동영상, HDR 동영상, 실시간 스트리밍 동영상 또는 15초 미만의 동영상에는 적용되지 않습니다.
+• ‘스트리밍 데이터 변경하기’ 기능은 미리 로드된 버퍼도 제거하므로 사용하는 경우에는 이 기능이 필요하지 않습니다."</string>
     <string name="revanced_skip_preloaded_buffer_user_dialog_message">이 설정을 활성화하면 동영상 재생 문제가 발생할 수 있습니다.</string>
     <string name="revanced_skip_preloaded_buffer_toast_title">건너뛸 때, 팝업 메시지 표시하기</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_on">팝업 메시지를 표시합니다.</string>
@@ -2081,15 +2084,15 @@ GmsCore 앱 배터리 최적화를 비활성화(제한 없음)하더라도, 배�
     <string name="revanced_spoof_streaming_data_side_effects_android">"• 오디오 트랙 메뉴가 표시되지 않습니다.
 • 안정적인 볼륨을 사용할 수 없습니다.
 • 자동 오디오 트랙을 비활성화할 수 없습니다.
-• 사용자가 로그인을 하지 않았거나 시크릿 모드에서는 Kids 동영상이 재생되지 않을 수 있습니다.
-• VR은 Kids // TV는 재생목록과 음악 동영상에서 다른 클라이언트가 사용될 수 있습니다.
+• 로그인을 하지 않았거나 시크릿 모드에서는 Kids 동영상이 재생되지 않을 수 있습니다. (로그인 정보가 필요함)
+• VR은 Kids // TV는 재생목록, 음악 동영상 또는 로그인 정보가 없을 경우에는 다른 클라이언트가 사용될 수 있습니다.
 • TV는 AV1 코덱이 지원되지 않습니다.
-• 인증 없음: 사용자 로그인 정보를 사용하지 않음"</string>
+• 인증 없음: 로그인 정보를 사용하지 않음"</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios_deprecated">• 서버에서 전체 ASNs/IP 범위가 차단될 수 있습니다.</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• 안정적인 볼륨을 사용할 수 없습니다.
 • 영화 또는 유료 동영상이 재생되지 않을 수 있습니다.
-• 사용자가 로그인을 하지 않았거나 시크릿 모드에서는 Kids 동영상이 재생되지 않을 수 있습니다.
-• 음악 동영상에서 다른 클라이언트가 사용될 수 있습니다.
+• 로그인을 하지 않았거나 시크릿 모드에서는 Kids 동영상이 재생되지 않을 수 있습니다. (로그인 정보가 필요함)
+• 음악 동영상 또는 로그인 정보가 없을 경우에는 다른 클라이언트가 사용될 수 있습니다.
 • AV1 코덱이 지원되지 않습니다."</string>
     <string name="revanced_spoof_streaming_data_type_ios_title">iOS 클라이언트 사용하기</string>
     <string name="revanced_spoof_streaming_data_type_ios_summary_on">"사용 가능한 클라이언트에 iOS 클라이언트가 추가되었습니다.
@@ -2121,7 +2124,7 @@ AVC의 최대 화질 값은 1080p이고, OPUS 코덱을 사용불가 및 HDR 동
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">스트리밍 데이터를 가져오는 데 사용되는 클라이언트가 전문 통계에서 숨겨집니다.\n\n• 만약 선택한 기본 클라이언트가 재생할 수 없는 동영상을 재생하려하거나 클라이언트 재생 문제가 발생하면, 그 문제를 해결하기 위해 다른 클라이언트가 사용되는 경우도 있기 때문에 전문 통계에서 다르게 표시될 수 있습니다.</string>
     <string name="revanced_spoof_streaming_data_language_title">VR 기본 오디오 스트림 언어</string>
     <string name="revanced_spoof_streaming_data_failed_forbidden">클라이언트 스트림을 가져올 수 없습니다.</string>
-    <string name="revanced_spoof_streaming_data_failed_forbidden_suggestion">로그인하지 않은 것 같습니다.</string>
+    <string name="revanced_spoof_streaming_data_failed_forbidden_suggestion">로그인하지 않았을 수 있습니다.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <string name="revanced_preference_category_po_token_visitor_data">PoToken &amp; VisitorData</string>
     <string name="revanced_spoof_streaming_data_po_token_title">PoToken 등록하기</string>

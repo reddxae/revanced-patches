@@ -5,7 +5,7 @@
     <string name="accessibility_settings_edu_opt_out_text">由於已啟用無障礙服務，因此你的控制選項已被修改。</string>
     <!-- Shared -->
     <string name="revanced_extended_settings_title">RVX</string>
-    <string name="revanced_extended_settings_search_title">搜尋設定</string>
+    <string name="revanced_extended_settings_search_title">搜尋 %s</string>
     <string name="revanced_extended_reset_to_default_toast">重設為預設值。</string>
     <string name="revanced_preference_category_experimental_flag">實驗性功能</string>
     <string name="revanced_extended_confirm_user_dialog_title">你想繼續嗎？</string>
@@ -326,7 +326,7 @@
     <string name="revanced_hide_channel_tab_summary_off">頻道標籤篩選器已停用</string>
     <string name="revanced_hide_channel_tab_filter_strings_title">頻道標籤篩選器</string>
     <string name="revanced_hide_channel_tab_filter_strings_summary">要篩選的頻道標籤名稱清單，每行一個名稱</string>
-    <string name="revanced_hide_channel_tab_filter_strings_hint">"Shorts
+    <string name="revanced_hide_channel_tab_filter_strings_hint">"短影音
 播放清單
 商店"</string>
     <string name="revanced_hide_channel_member_shelf_title">隱藏頻道會員清單</string>
@@ -460,7 +460,7 @@
     <string name="revanced_change_start_page_entry_podcasts">播客</string>
     <string name="revanced_change_start_page_entry_search">搜尋</string>
     <string name="revanced_change_start_page_entry_shopping">購物</string>
-    <string name="revanced_change_start_page_entry_shorts">短片</string>
+    <string name="revanced_change_start_page_entry_shorts">短影音</string>
     <string name="revanced_change_start_page_entry_sports">運動</string>
     <string name="revanced_change_start_page_entry_subscriptions">訂閱</string>
     <string name="revanced_change_start_page_entry_trending">熱門</string>
@@ -543,7 +543,7 @@
     <string name="revanced_spoof_app_version_target_entry_17_41_37">17.41.37 - 恢復舊版的播放清單</string>
     <string name="revanced_spoof_app_version_target_entry_18_05_40">18.05.40 - 恢復舊版留言輸入方塊</string>
     <string name="revanced_spoof_app_version_target_entry_18_17_43">18.17.43 - 恢復舊版播放器彈出式面板</string>
-    <string name="revanced_spoof_app_version_target_entry_18_33_40">18.33.40 - 恢復舊的 Shorts 頁籤</string>
+    <string name="revanced_spoof_app_version_target_entry_18_33_40">18.33.40 - 恢復舊版短影音操作欄</string>
     <string name="revanced_spoof_app_version_target_entry_18_38_45">18.38.45 - 恢復舊版預設影片畫質</string>
     <string name="revanced_spoof_app_version_target_entry_18_48_39">18.48.39 - 停用即時更新「觀看次數」和「喜歡次數」</string>
     <string name="revanced_spoof_app_version_target_entry_19_01_34">19.01.34 - 禁用影片描述互動</string>
@@ -619,9 +619,9 @@
     <string name="revanced_hide_navigation_notifications_button_title">隱藏通知按鈕</string>
     <string name="revanced_hide_navigation_notifications_button_summary_on">通知按鈕已隱藏</string>
     <string name="revanced_hide_navigation_notifications_button_summary_off">通知按鈕已顯示</string>
-    <string name="revanced_hide_navigation_shorts_button_title">隱藏 Shorts 按鈕</string>
-    <string name="revanced_hide_navigation_shorts_button_summary_on">Shorts 按鈕已隱藏</string>
-    <string name="revanced_hide_navigation_shorts_button_summary_off">Shorts 按鈕已顯示</string>
+    <string name="revanced_hide_navigation_shorts_button_title">隱藏短影音按鈕</string>
+    <string name="revanced_hide_navigation_shorts_button_summary_on">短影音按鈕已隱藏</string>
+    <string name="revanced_hide_navigation_shorts_button_summary_off">短影音按鈕已顯示</string>
     <string name="revanced_hide_navigation_subscriptions_button_title">隱藏訂閱按鈕</string>
     <string name="revanced_hide_navigation_subscriptions_button_summary_on">訂閱按鈕已隱藏</string>
     <string name="revanced_hide_navigation_subscriptions_button_summary_off">訂閱按鈕已顯示</string>
@@ -858,18 +858,18 @@
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons -->
     <string name="revanced_preference_screen_action_buttons_title">操作按鈕</string>
     <string name="revanced_preference_screen_action_buttons_summary">隱藏或顯示影片下方的操作按鈕</string>
-    <string name="revanced_disable_like_dislike_glow_title">停用讚和反讚按鈕發光</string>
-    <string name="revanced_disable_like_dislike_glow_summary_on">讚和反讚按鈕在提及時不會發光。</string>
-    <string name="revanced_disable_like_dislike_glow_summary_off">讚和反讚按鈕在提及時會發光。</string>
+    <string name="revanced_disable_like_dislike_glow_title">停用讚和不喜歡按鈕高亮顯示</string>
+    <string name="revanced_disable_like_dislike_glow_summary_on">讚和不喜歡按鈕在提及時不會高亮顯示。</string>
+    <string name="revanced_disable_like_dislike_glow_summary_off">讚和不喜歡按鈕在提及時會高亮顯示。</string>
     <string name="revanced_hide_clip_button_title">隱藏剪輯按鈕</string>
     <string name="revanced_hide_clip_button_summary_on">剪輯按鈕已隱藏</string>
     <string name="revanced_hide_clip_button_summary_off">剪輯按鈕已顯示</string>
     <string name="revanced_hide_download_button_title">隱藏下載按鈕</string>
     <string name="revanced_hide_download_button_summary_on">隱藏下載按鈕</string>
     <string name="revanced_hide_download_button_summary_off">顯示下載按鈕</string>
-    <string name="revanced_hide_like_dislike_button_title">隱藏讚和踩按鈕</string>
-    <string name="revanced_hide_like_dislike_button_summary_on">隱藏讚和踩按鈕</string>
-    <string name="revanced_hide_like_dislike_button_summary_off">顯示讚和踩按鈕</string>
+    <string name="revanced_hide_like_dislike_button_title">隱藏讚和不喜歡按鈕</string>
+    <string name="revanced_hide_like_dislike_button_summary_on">隱藏讚和不喜歡按鈕。</string>
+    <string name="revanced_hide_like_dislike_button_summary_off">顯示讚和不喜歡按鈕。</string>
     <string name="revanced_hide_remix_button_title">隱藏混剪按鈕</string>
     <string name="revanced_hide_remix_button_summary_on">混剪按鈕已隱藏</string>
     <string name="revanced_hide_remix_button_summary_off">混剪按鈕已顯示</string>
@@ -940,9 +940,9 @@
     <string name="revanced_hide_comments_section_in_home_feed_title">隱藏首頁動態中的評論部分</string>
     <string name="revanced_hide_comments_section_in_home_feed_summary_on">首頁動態中評論部分已隱藏</string>
     <string name="revanced_hide_comments_section_in_home_feed_summary_off">首頁動態中評論部分已顯示</string>
-    <string name="revanced_hide_comment_create_shorts_button_title">隱藏創建短片按鈕</string>
-    <string name="revanced_hide_comment_create_shorts_button_summary_on">創建短片按鈕已隱藏</string>
-    <string name="revanced_hide_comment_create_shorts_button_summary_off">創建短片按鈕已顯示</string>
+    <string name="revanced_hide_comment_create_shorts_button_title">隱藏建立短影音按鈕</string>
+    <string name="revanced_hide_comment_create_shorts_button_summary_on">建立短影音按鈕已隱藏</string>
+    <string name="revanced_hide_comment_create_shorts_button_summary_off">建立短影音按鈕已顯示</string>
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_title">隱藏時間戳和表情按鈕</string>
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary_on">時間戳和表情按鈕已隱藏</string>
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary_off">時間戳和表情按鈕已顯示</string>
@@ -950,8 +950,8 @@
     <string name="revanced_hide_comment_highlighted_search_links_summary_on">被標記的搜尋連結已隱藏</string>
     <string name="revanced_hide_comment_highlighted_search_links_summary_off">被標記的搜尋連結已顯示</string>
     <string name="revanced_hide_live_chat_messages_title">隱藏即時聊天訊息</string>
-    <string name="revanced_hide_live_chat_messages_summary_on">即時聊天訊息已隱藏。\n\n這項設定也適用於 Shorts 直播影片。</string>
-    <string name="revanced_hide_live_chat_messages_summary_off">即時聊天訊息已顯示。\n\n這項設定也適用於 Shorts 直播影片。</string>
+    <string name="revanced_hide_live_chat_messages_summary_on">直播聊天訊息已隱藏。\n\n這項設定也適用於短影音直播影片。</string>
+    <string name="revanced_hide_live_chat_messages_summary_off">直播聊天訊息已顯示。\n\n這項設定也適用於短影音直播影片。</string>
     <string name="revanced_hide_live_chat_summary_title">在即時聊天中隱藏聊天摘要</string>
     <string name="revanced_hide_live_chat_summary_summary_on">聊天摘要已隱藏。</string>
     <string name="revanced_hide_live_chat_summary_summary_off">聊天摘要已顯示。</string>
@@ -1069,12 +1069,12 @@
     <string name="revanced_hide_quick_actions_comment_button_title">隱藏評論按鈕</string>
     <string name="revanced_hide_quick_actions_comment_button_summary_on">評論按鈕已隱藏</string>
     <string name="revanced_hide_quick_actions_comment_button_summary_off">評論按鈕已顯示</string>
-    <string name="revanced_hide_quick_actions_dislike_button_title">隱藏倒讚按鈕</string>
-    <string name="revanced_hide_quick_actions_dislike_button_summary_on">倒讚按鈕已隱藏</string>
-    <string name="revanced_hide_quick_actions_dislike_button_summary_off">倒讚按鈕已顯示</string>
-    <string name="revanced_hide_quick_actions_like_button_title">隱藏點贊按鈕</string>
-    <string name="revanced_hide_quick_actions_like_button_summary_on">點讚按鈕已隱藏</string>
-    <string name="revanced_hide_quick_actions_like_button_summary_off">點讚按鈕已顯示</string>
+    <string name="revanced_hide_quick_actions_dislike_button_title">隱藏不喜歡按鈕</string>
+    <string name="revanced_hide_quick_actions_dislike_button_summary_on">不喜歡按鈕已隱藏。</string>
+    <string name="revanced_hide_quick_actions_dislike_button_summary_off">不喜歡按鈕已顯示。</string>
+    <string name="revanced_hide_quick_actions_like_button_title">隱藏點讚按鈕</string>
+    <string name="revanced_hide_quick_actions_like_button_summary_on">點讚按鈕已隱藏。</string>
+    <string name="revanced_hide_quick_actions_like_button_summary_off">點讚按鈕已顯示。</string>
     <string name="revanced_hide_quick_actions_live_chat_button_title">隱藏實時聊天按鈕</string>
     <string name="revanced_hide_quick_actions_live_chat_button_summary_on">實時聊天按鈕已隱藏</string>
     <string name="revanced_hide_quick_actions_live_chat_button_summary_off">實時聊天按鈕已顯示</string>
@@ -1358,22 +1358,22 @@
     <string name="revanced_expand_video_description_summary_on">自動展開影片描述</string>
     <string name="revanced_expand_video_description_summary_off">手動展開影片描述</string>
     <!-- PreferenceScreen: Shorts -->
-    <string name="revanced_preference_screen_shorts_title">短片</string>
+    <string name="revanced_preference_screen_shorts_title">短影音</string>
     <string name="revanced_disable_shorts_background_playback_title">停用 短影音 後台播放</string>
     <string name="revanced_disable_shorts_background_playback_summary_on">短影音 後台播放已停用。</string>
     <string name="revanced_disable_shorts_background_playback_summary_off">短影音 後台播放已啟用。</string>
-    <string name="revanced_disable_resuming_shorts_player_title">停用恢復短片播放器</string>
-    <string name="revanced_disable_resuming_shorts_player_summary_on">短片播放器在應用程式啟動時不會恢復播放。</string>
-    <string name="revanced_disable_resuming_shorts_player_summary_off">短片播放器在應用程式啟動時會恢復播放。</string>
+    <string name="revanced_disable_resuming_shorts_player_title">停用恢復短影音播放器</string>
+    <string name="revanced_disable_resuming_shorts_player_summary_on">短影音播放器在應用程式啟動時不會恢復播放。</string>
+    <string name="revanced_disable_resuming_shorts_player_summary_off">短影音播放器在應用程式啟動時會恢復播放。</string>
     <string name="revanced_hide_shorts_floating_button_title">隱藏浮動按鈕</string>
-    <string name="revanced_hide_shorts_floating_button_summary_on">"「使用此聲音」等浮動按鈕隱藏在 短片頻道標籤中。"</string>
-    <string name="revanced_hide_shorts_floating_button_summary_off">"「使用此聲音」等浮動按鈕顯示在 短片頻道標籤中。"</string>
+    <string name="revanced_hide_shorts_floating_button_summary_on">"短影音頻道分頁中會顯示「使用此音效」等浮動按鈕。"</string>
+    <string name="revanced_hide_shorts_floating_button_summary_off">"短影音頻道分頁中會顯示「使用此音效」等浮動按鈕。"</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts shelves -->
-    <string name="revanced_preference_category_shorts_shelf">短片欄</string>
-    <string name="revanced_hide_shorts_shelf_title">隱藏短片欄</string>
-    <string name="revanced_hide_shorts_shelf_summary">"隱藏短片欄
+    <string name="revanced_preference_category_shorts_shelf">短影音專區</string>
+    <string name="revanced_hide_shorts_shelf_title">隱藏短影音專區</string>
+    <string name="revanced_hide_shorts_shelf_summary">"隱藏短影音專區
 
-已知問題：搜索結果中的官方標題將被隱藏"</string>
+副作用：搜索結果中的官方標題將被隱藏"</string>
     <string name="revanced_hide_shorts_shelf_channel_title">隱藏在頻道中</string>
     <string name="revanced_hide_shorts_shelf_channel_summary_on">"隱藏在頻道中。
 
@@ -1386,15 +1386,15 @@
     <string name="revanced_hide_shorts_shelf_search_title">在搜尋結果中隱藏</string>
     <string name="revanced_hide_shorts_shelf_search_summary_on">隱藏在搜尋結果中。</string>
     <string name="revanced_hide_shorts_shelf_search_summary_off">顯示在搜尋結果中。</string>
-    <string name="revanced_hide_shorts_shelf_subscriptions_title">隱藏訂閱中的短片</string>
-    <string name="revanced_hide_shorts_shelf_subscriptions_summary_on">訂閱中的短片已隱藏</string>
-    <string name="revanced_hide_shorts_shelf_subscriptions_summary_off">訂閱中的短片已顯示</string>
+    <string name="revanced_hide_shorts_shelf_subscriptions_title">在訂閱內容動態中隱藏</string>
+    <string name="revanced_hide_shorts_shelf_subscriptions_summary_on">在訂閱內容動態中隱藏。</string>
+    <string name="revanced_hide_shorts_shelf_subscriptions_summary_off">在訂閱內容動態中顯示。</string>
     <string name="revanced_hide_shorts_shelf_history_title">在觀看歷史中隱藏</string>
     <string name="revanced_hide_shorts_shelf_history_summary_on">在觀看歷史中隱藏</string>
     <string name="revanced_hide_shorts_shelf_history_summary_off">在觀看歷史中顯示</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental flags -->
-    <string name="revanced_change_shorts_background_repeat_state_title">變更 短影片背景重複狀態</string>
-    <string name="revanced_change_shorts_repeat_state_title">更改短片重複狀態</string>
+    <string name="revanced_change_shorts_background_repeat_state_title">變更 短影音背景重複狀態</string>
+    <string name="revanced_change_shorts_repeat_state_title">更改短影音重複播放狀態</string>
     <string name="revanced_change_shorts_repeat_state_entry_auto_play">自動播放</string>
     <string name="revanced_change_shorts_repeat_state_entry_default">預設</string>
     <string name="revanced_change_shorts_repeat_state_entry_pause">暫停</string>
@@ -1403,8 +1403,8 @@
     <string name="revanced_open_shorts_in_regular_player_summary_on">在一般播放器中開啟 Shorts。</string>
     <string name="revanced_open_shorts_in_regular_player_summary_off">不要在普通播放器中開啟 Shorts。</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player -->
-    <string name="revanced_preference_screen_shorts_player_title">短片播放器</string>
-    <string name="revanced_preference_screen_shorts_player_summary">隱藏或顯示短片播放器中的組件</string>
+    <string name="revanced_preference_screen_shorts_player_title">短影音播放器</string>
+    <string name="revanced_preference_screen_shorts_player_summary">隱藏或顯示短影音播放器中的組件。</string>
     <string name="revanced_hide_shorts_channel_bar_title">隱藏頻道欄</string>
     <string name="revanced_hide_shorts_channel_bar_summary_on">頻道欄已隱藏</string>
     <string name="revanced_hide_shorts_channel_bar_summary_off">頻道欄已顯示</string>
@@ -1478,12 +1478,12 @@
     <string name="revanced_hide_shorts_use_this_sound_button_summary_off">顯示使用此聲音按鈕。</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Action buttons -->
     <string name="revanced_preference_category_action_buttons">操作按鈕</string>
-    <string name="revanced_hide_shorts_like_button_title">隱藏點贊按鈕</string>
-    <string name="revanced_hide_shorts_like_button_summary_on">點讚按鈕已隱藏</string>
-    <string name="revanced_hide_shorts_like_button_summary_off">點讚按鈕已顯示</string>
-    <string name="revanced_hide_shorts_dislike_button_title">隱藏倒讚按鈕</string>
-    <string name="revanced_hide_shorts_dislike_button_summary_on">倒讚按鈕已隱藏</string>
-    <string name="revanced_hide_shorts_dislike_button_summary_off">倒讚按鈕已顯示</string>
+    <string name="revanced_hide_shorts_like_button_title">隱藏點讚按鈕</string>
+    <string name="revanced_hide_shorts_like_button_summary_on">點讚按鈕已隱藏。</string>
+    <string name="revanced_hide_shorts_like_button_summary_off">點讚按鈕已顯示。</string>
+    <string name="revanced_hide_shorts_dislike_button_title">隱藏不喜歡按鈕</string>
+    <string name="revanced_hide_shorts_dislike_button_summary_on">不喜歡按鈕已隱藏。</string>
+    <string name="revanced_hide_shorts_dislike_button_summary_off">不喜歡按鈕已顯示。</string>
     <string name="revanced_hide_shorts_comments_button_title">隱藏評論按鈕</string>
     <string name="revanced_hide_shorts_comments_button_summary_on">評論按鈕已隱藏</string>
     <string name="revanced_hide_shorts_comments_button_summary_off">評論按鈕已顯示</string>
@@ -1503,7 +1503,7 @@
     <string name="revanced_disable_shorts_like_button_fountain_animation_summary_off">點讚按鈕上方的噴泉動畫已啟用。</string>
     <string name="revanced_shorts_double_tap_to_like_animation_title">雙擊動畫</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_1">原始</string>
-    <string name="revanced_shorts_double_tap_to_like_animation_entry_2">比讚</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_2">按讚</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_3">Cairo</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_4">愛心</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_5">愛心 (著色)</string>
@@ -1558,7 +1558,7 @@
     <string name="revanced_enable_shorts_time_stamp_summary_on">"已知問題：由於這是 Google 開發階段的功能，因此佈局可能會被破壞。"</string>
     <string name="revanced_enable_shorts_time_stamp_summary_off">時間戳已停用。</string>
     <string name="revanced_shorts_time_stamp_change_repeat_state_title">長按時間戳記</string>
-    <string name="revanced_shorts_time_stamp_change_repeat_state_summary">按住時間戳記可變更短片重複狀態。</string>
+    <string name="revanced_shorts_time_stamp_change_repeat_state_summary">長按時間戳記以變更短影音重複播放狀態。</string>
     <string name="revanced_shorts_meta_panel_bottom_margin_title">面板下邊距</string>
     <string name="revanced_shorts_meta_panel_bottom_margin_summary">配置從搜尋欄到面板的間距，範圍為 0-64。</string>
     <string name="revanced_shorts_meta_panel_bottom_margin_invalid_toast">面板底部邊距必須介於 0-64 之間。 重設為預設值。</string>
@@ -1743,38 +1743,37 @@
     <string name="revanced_disable_default_playback_speed_music_type_on">如果影片類別為音樂，則預設播放速度將被停用。</string>
     <string name="revanced_disable_default_playback_speed_music_type_off">YouTube 音樂上可播放的影片的預設播放速度為停用。</string>
     <!-- PreferenceScreen: Return YouTube Dislike -->
-    <string name="revanced_preference_screen_ryd_title">恢復 YouTube 倒讚</string>
-    <string name="revanced_ryd_enable_title">啟用恢復 YouTube 倒讚</string>
-    <string name="revanced_ryd_enable_summary_on">倒讚數已顯示</string>
-    <string name="revanced_ryd_enable_summary_off">倒讚數已隱藏</string>
-    <string name="revanced_ryd_shorts_title">倒讚</string>
-    <string name="revanced_ryd_shorts_summary_on">短片中顯示的不喜歡內容 %s</string>
-    <string name="revanced_ryd_shorts_summary_on_disclaimer">"在短片中顯示不喜歡
+    <string name="revanced_preference_screen_ryd_title">恢復 YouTube 不喜歡</string>
+    <string name="revanced_ryd_enable_title">啟用恢復 YouTube 不喜歡功能</string>
+    <string name="revanced_ryd_enable_summary_on">不喜歡數已顯示。</string>
+    <string name="revanced_ryd_enable_summary_off">不喜歡數已隱藏。</string>
+    <string name="revanced_ryd_shorts_title">在短影音中顯示不喜歡數</string>
+    <string name="revanced_ryd_shorts_summary_on">短影音顯示不喜歡數。</string>
+    <string name="revanced_ryd_shorts_summary_on_disclaimer">"在短影音中顯示不喜歡數
 
-限制：在無痕模式下，倒讚可能不會顯示"</string>
-    <string name="revanced_ryd_shorts_summary_off">倒讚已隱藏</string>
-    <string name="revanced_ryd_dislike_percentage_title">倒讚百份比</string>
-    <string name="revanced_ryd_dislike_percentage_summary_on">倒讚顯示為百份比</string>
-    <string name="revanced_ryd_dislike_percentage_summary_off">倒讚顯示為數字</string>
-    <string name="revanced_ryd_compact_layout_title">緊湊點讚按鈕</string>
-    <string name="revanced_ryd_compact_layout_summary_on">點讚按鈕樣式：最小寬度</string>
-    <string name="revanced_ryd_compact_layout_summary_off">點讚按鈕樣式：最佳顯示</string>
+限制：若使用者未登入或使用無痕模式，可能不會顯示不喜歡數。"</string>
+    <string name="revanced_ryd_shorts_summary_off">短影音中的不喜歡數已隱藏。</string>
+    <string name="revanced_ryd_dislike_percentage_title">不喜歡數的百分比</string>
+    <string name="revanced_ryd_dislike_percentage_summary_on">不喜歡數顯示為百分比。</string>
+    <string name="revanced_ryd_dislike_percentage_summary_off">不喜歡數顯示為數字。</string>
+    <string name="revanced_ryd_compact_layout_title">精簡按讚按鈕</string>
+    <string name="revanced_ryd_compact_layout_summary_on">按讚按鈕設計為最小寬度。</string>
+    <string name="revanced_ryd_compact_layout_summary_off">按讚按鈕設計為最佳外觀。</string>
     <string name="revanced_ryd_estimated_like_title">顯示估計喜歡的次數</string>
     <string name="revanced_ryd_estimated_like_summary_on">估計喜歡的次數已顯示。</string>
     <string name="revanced_ryd_estimated_like_summary_off">估計喜歡的次數已隱藏。</string>
     <string name="revanced_ryd_toast_on_connection_error_title">如果 API 無法使用，顯示提示訊息</string>
-    <string name="revanced_ryd_toast_on_connection_error_summary_on">如果 恢復 YouTube 倒讚 無法使用，則顯示提示訊息</string>
-    <string name="revanced_ryd_toast_on_connection_error_summary_off">如果 恢復 YouTube 倒讚 無法使用，不顯示訊息</string>
+    <string name="revanced_ryd_toast_on_connection_error_summary_on">如果 Return YouTube Dislike 不可用，將會顯示提示訊息。</string>
+    <string name="revanced_ryd_toast_on_connection_error_summary_off">如果 Return YouTube Dislike 不可用，將不顯示提
+示訊息。</string>
     <!-- PreferenceScreen: Return YouTube Dislike, PreferenceCategory: About -->
     <string name="revanced_ryd_about">關於</string>
     <string name="revanced_ryd_attribution_title">ReturnYouTubeDislike.com</string>
-    <string name="revanced_ryd_attribution_summary">倒讚資訊由 Return YouTube Dislike API 提供
-
-點擊了解更多資訊</string>
-    <string name="revanced_ryd_failure_connection_timeout">倒讚數暫時不可用（API 連接超時）</string>
-    <string name="revanced_ryd_failure_connection_status_code">倒讚數不可用（狀態 %d）</string>
-    <string name="revanced_ryd_failure_client_rate_limit_requested">倒讚數不可用（已達到用戶端 API 限制）</string>
-    <string name="revanced_ryd_failure_generic">倒讚數不可用（%s）</string>
+    <string name="revanced_ryd_attribution_summary">不喜歡數據由 Return YouTube Dislike API 提供。點擊這裡了解更多。</string>
+    <string name="revanced_ryd_failure_connection_timeout">不喜歡功能暫時無法使用（API 超時）。</string>
+    <string name="revanced_ryd_failure_connection_status_code">不喜歡數不可用 (狀態 %d)。</string>
+    <string name="revanced_ryd_failure_client_rate_limit_requested">不喜歡數不可用（已達到用戶端 API 限制）。</string>
+    <string name="revanced_ryd_failure_generic">不喜歡數不可用 (%s)。</string>
     <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">重新載入影片以使用 恢復 YouTube 倒讚 進行投票</string>
     <string name="revanced_ryd_video_likes_hidden_by_video_owner">隱藏</string>
     <!-- PreferenceScreen: Return YouTube Username -->
@@ -1824,7 +1823,7 @@
     <string name="revanced_sb_segments_selfpromo">無償廣告/自我推廣</string>
     <string name="revanced_sb_segments_selfpromo_sum">類似於「贊助」，非付費或自我推廣除外。這包括有關商品、捐贈或與他人合作的訊息</string>
     <string name="revanced_sb_segments_interaction">交互提醒（訂閱）</string>
-    <string name="revanced_sb_segments_interaction_sum">影片中間簡短提醒觀眾來點讚、訂閱或關注。 如果片段較長，或是關於某個具體事物，則應分類為自我推廣</string>
+    <string name="revanced_sb_segments_interaction_sum">影片中間簡短提醒觀眾來點讚、訂閱或關注。 如果片段較長，或是關於某個具體事物，則應分類為自我推廣。</string>
     <string name="revanced_sb_segments_highlight">重點</string>
     <string name="revanced_sb_segments_highlight_sum">大多數人正在尋找的影片重點位置</string>
     <string name="revanced_sb_segments_intro">過場/開場動畫</string>
@@ -1939,7 +1938,7 @@
     <string name="revanced_sb_vote_failed_timeout">無法為片段投票（API 超時）</string>
     <string name="revanced_sb_vote_failed_unknown_error">無法為片段投票（狀態：%1$d %2$s）</string>
     <string name="revanced_sb_vote_failed_forbidden">無法為片段投票：%s</string>
-    <string name="revanced_sb_vote_upvote">贊成</string>
+    <string name="revanced_sb_vote_upvote">按讚</string>
     <string name="revanced_sb_vote_downvote">反對</string>
     <string name="revanced_sb_vote_category">更改類別</string>
     <string name="revanced_sb_vote_no_segments">沒有可供投票的片段</string>

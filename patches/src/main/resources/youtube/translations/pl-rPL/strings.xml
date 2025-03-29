@@ -1740,8 +1740,9 @@ Informacje:
     <string name="revanced_skip_preloaded_buffer_summary">"Pomija wstępnie załadowany bufor na początku filmu, aby natychmiastowo ustawić domyślną jakość filmu.
 
 Informacje:
-• Po uruchomieniu filmu występuje opóźnienie około 0.3 sekundy
-• Nie działa w przypadku filmów z HDR, transmisji na żywo i filmów krótszych niż 15 sekund."</string>
+• po uruchomieniu filmu występuje opóźnienie około 0.3 sekundy
+• nie działa w przypadku filmów z HDR, transmisji na żywo i filmów krótszych niż 15 sekund.
+• opcja 'Oszukuj strumień danych' również pomija wstępnie załadowany bufor, więc ta opcja nie jest potrzebna, jeśli używasz tego ustawienia"</string>
     <string name="revanced_skip_preloaded_buffer_user_dialog_message">Włączenie tej opcji może spowodować problemy z odtwarzaniem filmów.</string>
     <string name="revanced_skip_preloaded_buffer_toast_title">Komunikaty o pominięciu</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_on">Widoczne</string>

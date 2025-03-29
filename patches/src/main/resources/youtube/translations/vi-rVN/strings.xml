@@ -1737,7 +1737,8 @@ Chi tiết:
 
 Chi tiết:
 • Khi video bắt đầu, sẽ có độ trễ khoảng 0,3 giây.
-• Không áp dụng cho video HDR, video phát trực tiếp, hoặc video ngắn hơn 15 giây."</string>
+• Không áp dụng cho Shorts, video HDR, video phát trực tiếp, hoặc video ngắn hơn 15 giây.
+• Cài đặt \"Giả mạo dữ liệu phát trực tuyến\" cũng xoá bộ đệm tải trước, do đó bạn không cần thiết phải bật cả hai."</string>
     <string name="revanced_skip_preloaded_buffer_user_dialog_message">Bật cài đặt này có thể gây ra sự cố phát video.</string>
     <string name="revanced_skip_preloaded_buffer_toast_title">Thông báo ngắn khi bỏ qua</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_on">Thông báo ngắn được hiển thị.</string>

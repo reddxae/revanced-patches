@@ -1551,6 +1551,10 @@ Appuyez longuement sur le bouton \"Plus\" pour afficher les actions personnalis�
     <string name="revanced_shorts_custom_actions_open_video_title">Afficher le menu \'Ouvrir la vidéo\'</string>
     <string name="revanced_shorts_custom_actions_open_video_summary_on">Le menu \'Ouvrir la vidéo\' est affiché.</string>
     <string name="revanced_shorts_custom_actions_open_video_summary_off">Le menu \'Ouvrir la vidéo\' est masqué.</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_label">Dialogue de vitesse</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_title">Afficher menu \'Vitesse de lecture\'</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_summary_on">Le menu \'Vitesse de lecture\' est affiché.</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_summary_off">Le menu \'Vitesse de lecture\' est masqué.</string>
     <string name="revanced_shorts_custom_actions_repeat_state_label">État de répétition</string>
     <string name="revanced_shorts_custom_actions_repeat_state_title">Afficher le menu \'État de répétition\'</string>
     <string name="revanced_shorts_custom_actions_repeat_state_summary_on">Le menu \'État de répétition\' est affiché.</string>
@@ -1657,6 +1661,7 @@ Pas de marges en haut et en bas du lecteur."</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Vitesses et qualités vidéo</string>
     <!-- PreferenceScreen: Video, PreferenceCategory: Codec -->
+    <string name="revanced_preference_category_codec">Codec</string>
     <string name="revanced_disable_hdr_video_title">Déaactiver les vidéos HDR</string>
     <string name="revanced_disable_hdr_video_summary_on">Les vidéos en HDR sont désactivés.</string>
     <string name="revanced_disable_hdr_video_summary_off">Les vidéos en HDR sont activés.</string>
@@ -1670,6 +1675,7 @@ Pas de marges en haut et en bas du lecteur."</string>
     <string name="revanced_replace_av1_codec_title">Remplacer le codec AV1</string>
     <string name="revanced_replace_av1_codec_summary">Remplacer le codec AV1 par le codec VP9.</string>
     <!-- PreferenceScreen: Video, PreferenceCategory: Playback speed -->
+    <string name="revanced_preference_category_playback_speed">Vitesse de lecture</string>
     <string name="revanced_default_playback_speed_title">Vitesse de lecture par défaut</string>
     <string name="revanced_remember_playback_speed_last_selected_title">Enreg. modif. de la vitesse de lecture</string>
     <string name="revanced_remember_playback_speed_last_selected_summary_on">La modification de vitesse de lecture est appliqué pour toutes les vidéos.</string>
@@ -1677,6 +1683,20 @@ Pas de marges en haut et en bas du lecteur."</string>
     <string name="revanced_remember_playback_speed_last_selected_toast_title">Afficher un message</string>
     <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">Un message sera affiché lorsque vous modifiez la vitesse de lecture par défaut.</string>
     <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">Un message ne sera pas affiché lorsque vous modifiez la vitesse de lecture par défaut.</string>
+    <string name="revanced_default_playback_speed_shorts_title">Vitesse de lecture par défaut sur les Shorts</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_title">Enreg. modif. de la vitesse de lecture sur les Shorts</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_summary_on">"Les changements de vitesse de lecture s'appliquent à tous les Shorts.
+
+Info :
+• La seule façon de modifier la vitesse de lecture dans le lecteur de Shorts est d'utiliser le 'Dialogue de vitesse' dans 'Actions personnalisées'.
+
+• Si vous n'avez pas inclus le patch 'Composants pour Shorts' , cette option ne serait pas disponible."</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_summary_off">La modification de vitesse de lecture est appliqué pour ce Short.</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_toast_title">Afficher un message</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_toast_summary_on">Un message sera affiché lorsque vous modifiez la vitesse de lecture par défaut sur les Shorts.</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_toast_summary_off">Un message ne sera pas affiché lorsque vous modifiez la vitesse de lecture par défaut sur les Shorts.</string>
+    <string name="revanced_remember_playback_speed_toast">Vitesse de lecture par défaut modifiée en : %s.</string>
+    <string name="revanced_remember_playback_speed_toast_shorts">Vitesse de lecture par défaut des Shorts modifiée en : %s.</string>
     <string name="revanced_enable_custom_playback_speed_title">Activer vitesses de lecture perso.</string>
     <string name="revanced_enable_custom_playback_speed_summary_on">Les vitesses de lecture personnalisées sont activées.</string>
     <string name="revanced_enable_custom_playback_speed_summary_off">Les vitesses de lecture personnalisées sont désactivées.</string>
@@ -1688,6 +1708,7 @@ Pas de marges en haut et en bas du lecteur."</string>
     <string name="revanced_custom_playback_speeds_invalid">Les vitesses personnalisées doivent être inférieures à %sx.</string>
     <string name="revanced_custom_playback_speeds_parse_exception">Valeur des vitesses de lecture invalide.</string>
     <!-- PreferenceScreen: Video, PreferenceCategory: Video quality -->
+    <string name="revanced_preference_category_video_quality">Qualité vidéo</string>
     <string name="revanced_default_video_quality_mobile_title">Qualité vidéo par défaut sur les données mobiles</string>
     <string name="revanced_default_video_quality_wifi_title">Qualité vidéo par défaut sur le réseau Wi-Fi</string>
     <string name="revanced_remember_video_quality_last_selected_title">Enreg. modification de la qualité</string>
@@ -1696,6 +1717,18 @@ Pas de marges en haut et en bas du lecteur."</string>
     <string name="revanced_remember_video_quality_last_selected_toast_title">Afficher un message</string>
     <string name="revanced_remember_video_quality_last_selected_toast_summary_on">Un message sera affiché lorsque vous modifiez la qualité vidéo par défaut.</string>
     <string name="revanced_remember_video_quality_last_selected_toast_summary_off">Un message ne sera pas affiché lorsque vous modifiez la qualité vidéo par défaut.</string>
+    <string name="revanced_default_video_quality_mobile_shorts_title">Qualité par défaut des Shorts sur le réseau mobile</string>
+    <string name="revanced_default_video_quality_wifi_shorts_title">Qualité par défaut des Shorts sur le réseau Wi-Fi</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_title">Enreg. modification du changement de qualité des Shorts</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_summary_on">La modification de la résolution est appliqué pour tous les Shorts.</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_summary_off">La modification de la résolution est appliqué pour ce Short.</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_toast_title">Afficher un message</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_toast_summary_on">Un message sera affiché lorsque vous modifiez la qualité vidéo des Shorts par défaut.</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_toast_summary_off">Un message ne sera pas affiché lorsque vous modifiez la qualité vidéo des Shorts par défaut.</string>
+    <string name="revanced_remember_video_quality_mobile">Mobiles</string>
+    <string name="revanced_remember_video_quality_wifi">Wi-Fi</string>
+    <string name="revanced_remember_video_quality_toast">Qualité par défaut %1$s modifiée en : %2$s.</string>
+    <string name="revanced_remember_video_quality_toast_shorts">Qualité des Shorts %1$s modifiée en : %2$s.</string>
     <string name="revanced_restore_old_video_quality_menu_title">Restaur. ancien. interface de qualité vidéo</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">Affiche l\'ancienne interface de qualité vidéo.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Masque la nouvelle interface de qualité vidéo.</string>
@@ -1711,6 +1744,12 @@ Info :
     <string name="revanced_skip_preloaded_buffer_toast_summary_on">Le message est affiché.</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_off">Le message est masqué.</string>
     <string name="revanced_spoof_device_dimensions_title">Falsifier les dimensions de l\'appareil</string>
+    <string name="revanced_spoof_device_dimensions_summary">"Falsifie les dimensions de l'appareil à la valeur maximale.
+
+Info :
+• Une qualité élevée peut être déverrouillée sur certaines vidéos qui nécessitent des dimensions d'appareil élevées, mais pas toutes les vidéos.
+
+• Ce paramètre n'est pas disponible si l'option 'Falsifier les données de lecture en direct' est activée."</string>
     <!-- PreferenceScreen: Video, PreferenceCategory: Experimental flags -->
     <string name="revanced_disable_default_playback_speed_music_title">Désactiver la vitesse de lecture pour la musique</string>
     <string name="revanced_disable_default_playback_speed_music_on">La vitesse de lecture par défaut est activée pour la musique.</string>
@@ -2075,6 +2114,8 @@ AVC a une résolution maximale de 1080p, le codec audio Opus n'est pas disponibl
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Le client utilisé pour récupérer les données de lecture en direct est affiché dans \'Statistiques pour les nerds\'.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Le client utilisé pour récupérer les données de lecture en direct est masqué dans \'Statistiques pour les nerds\'.</string>
     <string name="revanced_spoof_streaming_data_language_title">Langue de la piste audio par défaut pour VR</string>
+    <string name="revanced_spoof_streaming_data_failed_forbidden">Ne peut pas récupérer les flux des clients.</string>
+    <string name="revanced_spoof_streaming_data_failed_forbidden_suggestion">Vous n\'êtes peut-être pas connecté.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <string name="revanced_preference_category_po_token_visitor_data">PoToken / VisitorData</string>
     <string name="revanced_spoof_streaming_data_po_token_title">PoToken à utiliser</string>

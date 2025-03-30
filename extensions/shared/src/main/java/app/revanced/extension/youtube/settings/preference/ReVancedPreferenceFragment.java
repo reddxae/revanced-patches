@@ -377,6 +377,7 @@ public class ReVancedPreferenceFragment extends PreferenceFragment {
     @Override
     public void onDestroy() {
         mSharedPreferences.unregisterOnSharedPreferenceChangeListener(listener);
+        Utils.resetLocalizedContext();
         super.onDestroy();
     }
 

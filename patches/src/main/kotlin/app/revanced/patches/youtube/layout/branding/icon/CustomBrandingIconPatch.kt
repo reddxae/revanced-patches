@@ -249,7 +249,10 @@ val customBrandingIconPatch = resourcePatch(
                         style.setAttribute("parent", nodeAttributeParent)
 
                         val splashScreenAnimatedIcon = document.createElement("item")
-                        splashScreenAnimatedIcon.setAttribute("name", "android:windowSplashScreenAnimatedIcon")
+                        splashScreenAnimatedIcon.setAttribute(
+                            "name",
+                            "android:windowSplashScreenAnimatedIcon"
+                        )
                         splashScreenAnimatedIcon.textContent = "@drawable/avd_anim"
 
                         // Deprecated in Android 13+
@@ -258,10 +261,11 @@ val customBrandingIconPatch = resourcePatch(
                             "name",
                             "android:windowSplashScreenAnimationDuration"
                         )
-                        splashScreenAnimationDuration.textContent = if (appIcon.startsWith("revancify"))
-                            "1500"
-                        else
-                            "1000"
+                        splashScreenAnimationDuration.textContent =
+                            if (appIcon.startsWith("revancify"))
+                                "1500"
+                            else
+                                "1000"
 
                         style.appendChild(splashScreenAnimatedIcon)
                         style.appendChild(splashScreenAnimationDuration)

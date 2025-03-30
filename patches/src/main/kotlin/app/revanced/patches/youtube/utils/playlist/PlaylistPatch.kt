@@ -56,7 +56,7 @@ val playlistPatch = bytecodePatch(
                     """
             )
 
-        val setVideoIdReference = with (playlistEndpointFingerprint.methodOrThrow()) {
+        val setVideoIdReference = with(playlistEndpointFingerprint.methodOrThrow()) {
             val setVideoIdIndex = indexOfSetVideoIdInstruction(this)
             getInstruction<ReferenceInstruction>(setVideoIdIndex).reference as FieldReference
         }
@@ -67,14 +67,16 @@ val playlistPatch = bytecodePatch(
             .let {
                 it.method.apply {
                     val castIndex = it.patternMatch!!.startIndex
-                    val castClass = getInstruction<ReferenceInstruction>(castIndex).reference.toString()
+                    val castClass =
+                        getInstruction<ReferenceInstruction>(castIndex).reference.toString()
 
                     if (castClass != setVideoIdReference.definingClass) {
                         throw PatchException("Method signature parameter did not match: $castClass")
                     }
                     val castRegister = getInstruction<OneRegisterInstruction>(castIndex).registerA
                     val insertIndex = castIndex + 1
-                    val insertRegister = getInstruction<TwoRegisterInstruction>(insertIndex).registerA
+                    val insertRegister =
+                        getInstruction<TwoRegisterInstruction>(insertIndex).registerA
 
                     addInstructions(
                         insertIndex, """

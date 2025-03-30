@@ -344,7 +344,11 @@ private val shortsCustomActionsPatch = bytecodePatch(
             recyclerViewTreeObserverHook("$EXTENSION_CUSTOM_ACTIONS_CLASS_DESCRIPTOR->onFlyoutMenuCreate(Landroid/support/v7/widget/RecyclerView;)V")
         } else {
             // The type of the Shorts flyout menu is ListView.
-            val dismissReference = with (bottomSheetMenuDismissFingerprint.methodOrThrow(bottomSheetMenuListBuilderFingerprint)) {
+            val dismissReference = with(
+                bottomSheetMenuDismissFingerprint.methodOrThrow(
+                    bottomSheetMenuListBuilderFingerprint
+                )
+            ) {
                 val dismissIndex = indexOfDismissInstruction(this)
                 getInstruction<ReferenceInstruction>(dismissIndex).reference
             }
@@ -352,7 +356,8 @@ private val shortsCustomActionsPatch = bytecodePatch(
             bottomSheetMenuItemClickFingerprint
                 .methodOrThrow(bottomSheetMenuListBuilderFingerprint)
                 .addInstructionsWithLabels(
-                    0, """
+                    0,
+                    """
                         invoke-static/range {p2 .. p2}, $EXTENSION_CUSTOM_ACTIONS_CLASS_DESCRIPTOR->onBottomSheetMenuItemClick(Landroid/view/View;)Z
                         move-result v0
                         if-eqz v0, :ignore
@@ -430,7 +435,7 @@ private val shortsRepeatPatch = bytecodePatch(
             "setMainActivity"
         )
 
-        val endScreenReference = with (reelEnumConstructorFingerprint.methodOrThrow()) {
+        val endScreenReference = with(reelEnumConstructorFingerprint.methodOrThrow()) {
             val insertIndex = indexOfFirstInstructionOrThrow(Opcode.RETURN_VOID)
 
             addInstructions(
@@ -510,7 +515,11 @@ private val shortsRepeatPatch = bytecodePatch(
         // Manually add the 'Autoplay' code that Google removed.
         // Tested on YouTube 20.10.
         if (is_20_09_or_greater) {
-            val (directReference, virtualReference) = with (reelPlaybackFingerprint.methodOrThrow(videoIdFingerprintShorts)) {
+            val (directReference, virtualReference) = with(
+                reelPlaybackFingerprint.methodOrThrow(
+                    videoIdFingerprintShorts
+                )
+            ) {
                 val directIndex = indexOfInitializationInstruction(this)
                 val virtualIndex = indexOfFirstInstructionOrThrow(directIndex) {
                     opcode == Opcode.INVOKE_VIRTUAL &&
@@ -528,7 +537,8 @@ private val shortsRepeatPatch = bytecodePatch(
                     opcode == Opcode.INVOKE_STATIC &&
                             getReference<MethodReference>()?.definingClass == EXTENSION_REPEAT_STATE_CLASS_DESCRIPTOR
                 }
-                val enumRegister = getInstruction<OneRegisterInstruction>(extensionIndex + 1).registerA
+                val enumRegister =
+                    getInstruction<OneRegisterInstruction>(extensionIndex + 1).registerA
                 val freeIndex = indexOfFirstInstructionOrThrow(extensionIndex) {
                     opcode == Opcode.SGET_OBJECT &&
                             getReference<FieldReference>()?.name != "a"
@@ -1014,7 +1024,8 @@ val shortsComponentPatch = bytecodePatch(
                     getReference<MethodReference>()?.returnType == PLAYBACK_START_DESCRIPTOR_CLASS_DESCRIPTOR
                 }
                 val freeRegister = getInstruction<FiveRegisterInstruction>(index).registerC
-                val playbackStartRegister = getInstruction<OneRegisterInstruction>(index + 1).registerA
+                val playbackStartRegister =
+                    getInstruction<OneRegisterInstruction>(index + 1).registerA
 
                 addInstructionsWithLabels(
                     index + 2,

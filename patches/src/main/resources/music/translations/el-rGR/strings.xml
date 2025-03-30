@@ -172,6 +172,8 @@
     <string name="revanced_hide_playlist_card_shelf_summary">Απόκρυψη της ενότητας καρτών λίστας αναπαραγωγής στη ροή.</string>
     <string name="revanced_hide_samples_shelf_title">Απόκρυψη ενότητας «Δείγματα»</string>
     <string name="revanced_hide_samples_shelf_summary">Απόκρυψη της ενότητας «Δείγματα» στη ροή.</string>
+    <string name="revanced_hide_search_button_title">Απόκρυψη κουμπιού αναζήτησης</string>
+    <string name="revanced_hide_search_button_summary">Απόκρυψη του κουμπιού αναζήτησης στη γραμμή εργαλείων.</string>
     <string name="revanced_hide_sound_search_button_title">Απόκρυψη κουμπιού ηχητικής αναζήτησης</string>
     <string name="revanced_hide_sound_search_button_summary">Απόκρυψη του κουμπιού ηχητικής αναζήτησης στην γραμμή αναζήτησης.</string>
     <string name="revanced_hide_tap_to_update_button_title">Απόκρυψη κουμπιού «Πατήστε για ενημέρωση»</string>
@@ -192,6 +194,8 @@
     <string name="revanced_spoof_app_version_target_summary">Επιλέξτε την έκδοση εφαρμογής που θα χρησιμοποιηθεί.</string>
     <string name="revanced_spoof_app_version_target_entry_6_42_55">6.42.55 - Απενεργοποίηση στίχων σε πραγματικό χρόνο</string>
     <string name="revanced_spoof_app_version_target_entry_7_16_53">7.16.53 - Επαναφορά παλιάς γραμμής ενεργειών</string>
+    <string name="revanced_spoof_app_version_target_entry_7_17_52">7.17.52 - Η ενότητα σχολίων δεν εμφανίζεται στην αρχική ροή</string>
+    <string name="revanced_spoof_app_version_target_invalid_toast">Μη έγκυρη έκδοση για παραποίηση: %s.</string>
     <!-- PreferenceScreen: Navigation bar -->
     <string name="revanced_preference_screen_navigation_title">Γραμμή πλοήγησης</string>
     <string name="revanced_enable_custom_navigation_bar_color_title">Προσαρμοσμένο χρώμα γραμμής πλοήγησης</string>
@@ -213,6 +217,18 @@
     <string name="revanced_hide_navigation_bar_summary">Απόκρυψη της γραμμής πλοήγησης.</string>
     <string name="revanced_hide_navigation_label_title">Απόκρυψη ονομασιών γραμμής πλοήγησης</string>
     <string name="revanced_hide_navigation_label_summary">Απόκρυψη ονομασιών των κουμπιών στη γραμμή πλοήγησης.</string>
+    <string name="revanced_replace_navigation_samples_button_title">Αντικατάσταση κουμπιού «Δείγματα»</string>
+    <string name="revanced_replace_navigation_samples_button_summary">Αντικατάσταση του κουμπιού «Δείγματα» με το κουμπί «Αναζήτηση».</string>
+    <string name="revanced_replace_navigation_upgrade_button_title">Αντικατάσταση κουμπιού «Αναβάθμιση»</string>
+    <string name="revanced_replace_navigation_upgrade_button_summary">Αντικατάσταση του κουμπιού «Αναβάθμιση» με το κουμπί «Ρυθμίσεις».</string>
+    <string name="revanced_replace_navigation_button_about_title">Σχετικά με την αντικατάσταση κουμπιού</string>
+    <string name="revanced_replace_navigation_button_about_summary">"Αυτή η λειτουργία είναι πειραματική.
+Υπάρχουν δομικοί περιορισμοί της τροποποίησης, καθώς ενέργειες όπως η Αναζήτηση και οι Ρυθμίσεις στο YouTube Music δεν είναι δημόσιες.
+
+Γνωστά προβλήματα:
+• Όταν κλείνει μια αντικατασταθείσα ενέργεια, όπως η Αναζήτηση και οι Ρυθμίσεις, ανοίγει η αρχική σελίδα.
+
+Πατήστε για να ανοίξετε την ρύθμιση «Αλλαγή αρχικής σελίδας»."</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Οθόνη αναπαραγωγής</string>
     <string name="revanced_add_miniplayer_next_button_title">Προσθήκη κουμπιού επόμενου κομματιού στην ελαχιστοποιημένη οθόνη αναπαραγωγής</string>
@@ -452,6 +468,10 @@
     <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>
     <string name="revanced_spoof_client_type_entry_ios_music_7_04">iOS Music 7.04</string>
     <string name="revanced_spoof_player_parameter_title">Παραποίηση παραμέτρου προγράμματος αναπαραγωγής</string>
+    <string name="revanced_spoof_player_parameter_summary">"Παραποίηση παραμέτρου του προγράμματος αναπαραγωγής για την αποφυγή προβλημάτων αναπαραγωγής.
+
+Περιορισμός:
+• Μερικές φορές οι υπότιτλοι βρίσκονται στην κορυφή της οθόνης αναπαραγωγής αντί του κάτω μέρους."</string>
     <string name="revanced_watch_history_type_title">Τύπος ιστορικού παρακολούθησης</string>
     <string name="revanced_watch_history_type_summary">"• Αρχικός: Ακολουθεί τις ρυθμίσεις ιστορικού παρακολούθησης του λογαριασμού Google σας, αλλά το ιστορικό παρακολούθησης μπορεί να μη λειτουργεί λόγω χρήσης VPN ή εναλλακτικού DNS.
 • Αντικατάσταση του domain: Ακολουθεί τις ρυθμίσεις ιστορικού παρακολούθησης του λογαριασμού Google σας.

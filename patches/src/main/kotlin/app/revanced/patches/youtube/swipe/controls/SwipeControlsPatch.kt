@@ -160,13 +160,13 @@ val swipeControlsPatch = bytecodePatch(
                     val reference = getReference<MethodReference>()
                     opcode == Opcode.INVOKE_VIRTUAL &&
                             reference?.returnType == "V" &&
-                            reference.parameterTypes.size == 0
+                            reference.parameterTypes.isEmpty()
                 }
                 val targetIndex = indexOfFirstInstructionOrThrow(middleIndex + 1) {
                     val reference = getReference<MethodReference>()
                     opcode == Opcode.INVOKE_VIRTUAL &&
                             reference?.returnType == "V" &&
-                            reference.parameterTypes.size == 0
+                            reference.parameterTypes.isEmpty()
                 }
                 if (getInstruction(targetIndex - 1).opcode != Opcode.IGET_OBJECT) {
                     throw PatchException(
@@ -242,10 +242,16 @@ val swipeControlsPatch = bytecodePatch(
             "youtube/swipecontrols",
             ResourceGroup(
                 "drawable",
-                "ic_sc_brightness_auto.xml",
-                "ic_sc_brightness_manual.xml",
-                "ic_sc_volume_mute.xml",
-                "ic_sc_volume_normal.xml"
+                "revanced_ic_sc_brightness_auto.xml",
+                "revanced_ic_sc_brightness_full.xml",
+                "revanced_ic_sc_brightness_high.xml",
+                "revanced_ic_sc_brightness_low.xml",
+                "revanced_ic_sc_brightness_manual.xml",
+                "revanced_ic_sc_brightness_medium.xml",
+                "revanced_ic_sc_volume_high.xml",
+                "revanced_ic_sc_volume_low.xml",
+                "revanced_ic_sc_volume_mute.xml",
+                "revanced_ic_sc_volume_normal.xml",
             )
         )
 

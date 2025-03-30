@@ -125,13 +125,66 @@ class SwipeControlsConfigurationProvider(
      * get the background color for text on the overlay, as a color int
      */
     val overlayTextBackgroundColor: Int
-        get() = Color.argb(Settings.SWIPE_OVERLAY_BACKGROUND_ALPHA.get(), 0, 0, 0)
+        get() = overlayBackgroundOpacity
 
     /**
      * get the foreground color for text on the overlay, as a color int
      */
     val overlayForegroundColor: Int
         get() = Color.WHITE
+
+    /**
+     * Gets the opacity value (0-100%) is converted to an alpha value (0-255) for transparency.
+     * If the opacity value is out of range, it resets to the default and displays a warning message.
+     */
+    val overlayBackgroundOpacity: Int
+        get() {
+            var opacity = validateValue(
+                Settings.SWIPE_OVERLAY_BACKGROUND_OPACITY,
+                0,
+                100,
+                "revanced_swipe_overlay_background_opacity_invalid_toast"
+            )
+
+            opacity = opacity * 255 / 100
+            return Color.argb(opacity, 0, 0, 0)
+        }
+
+    /**
+     * The color of the progress overlay.
+     */
+    val overlayProgressColor: Int
+        get() = 0xBFFFFFFF.toInt()
+
+    /**
+     * The color used for the background of the progress overlay fill.
+     */
+    val overlayFillBackgroundPaint: Int
+        get() = 0x80D3D3D3.toInt()
+
+    /**
+     * The color used for the text and icons in the overlay.
+     */
+    val overlayTextColor: Int
+        get() = Color.WHITE
+
+    /**
+     * A flag that determines whether to use the alternate UI.
+     */
+    val isAlternativeUI: Boolean
+        get() = Settings.SWIPE_OVERLAY_ALTERNATIVE_UI.get()
+
+    /**
+     * A flag that determines if the overlay should only show the icon.
+     */
+    val overlayShowOverlayMinimalStyle: Boolean
+        get() = isAlternativeUI && Settings.SWIPE_OVERLAY_MINIMAL_STYLE.get()
+
+    /**
+     * A flag that determines if the progress bar should be circular.
+     */
+    val isCircularProgressBar: Boolean
+        get() = isAlternativeUI && Settings.SWIPE_SHOW_CIRCULAR_OVERLAY.get()
 
     // endregion
 

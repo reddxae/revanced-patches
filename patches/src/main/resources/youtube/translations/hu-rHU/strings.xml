@@ -21,57 +21,6 @@ Töltsd le a(z) %2$s weboldalról."</string>
     <string name="revanced_external_downloader_not_installed_warning">%s nincs telepítve. Kérlek telepítsd.</string>
     <string name="revanced_language_title">RVX nyelve</string>
     <string name="revanced_language_DEFAULT">Alkalmazás nyelve</string>
-    <string name="revanced_language_AR">Arab</string>
-    <string name="revanced_language_AZ">Azerbajdzsáni</string>
-    <string name="revanced_language_BG">Bolgár</string>
-    <string name="revanced_language_BN">Bengáli</string>
-    <string name="revanced_language_CA">Katalán</string>
-    <string name="revanced_language_CS">Cseh</string>
-    <string name="revanced_language_DA">Dán</string>
-    <string name="revanced_language_DE">Német</string>
-    <string name="revanced_language_EL">Görög</string>
-    <string name="revanced_language_EN">Angol</string>
-    <string name="revanced_language_ES">Spanyol</string>
-    <string name="revanced_language_ET">Észt</string>
-    <string name="revanced_language_FA">Perzsa</string>
-    <string name="revanced_language_FI">Finn</string>
-    <string name="revanced_language_FR">Francia</string>
-    <string name="revanced_language_GU">Gudzsaráti</string>
-    <string name="revanced_language_HI">Hindi</string>
-    <string name="revanced_language_HR">Horvát</string>
-    <string name="revanced_language_HU">Magyar</string>
-    <string name="revanced_language_ID">Indonéz</string>
-    <string name="revanced_language_IT">Olasz</string>
-    <string name="revanced_language_JA">Japán</string>
-    <string name="revanced_language_KK">Kazah</string>
-    <string name="revanced_language_KO">Koreai</string>
-    <string name="revanced_language_LT">Litván</string>
-    <string name="revanced_language_LV">Lett</string>
-    <string name="revanced_language_MK">Macedón</string>
-    <string name="revanced_language_MN">Mongol</string>
-    <string name="revanced_language_MR">Marathi</string>
-    <string name="revanced_language_MS">Maláj</string>
-    <string name="revanced_language_MY">Burmai</string>
-    <string name="revanced_language_NL">Holland</string>
-    <string name="revanced_language_OR">Odia</string>
-    <string name="revanced_language_PA">Pandzsábi</string>
-    <string name="revanced_language_PL">Lengyel</string>
-    <string name="revanced_language_PT">Portugál</string>
-    <string name="revanced_language_RO">Román</string>
-    <string name="revanced_language_RU">Orosz</string>
-    <string name="revanced_language_SK">Szlovák</string>
-    <string name="revanced_language_SL">Szlovén</string>
-    <string name="revanced_language_SR">Szerb</string>
-    <string name="revanced_language_SV">Svéd</string>
-    <string name="revanced_language_SW">Szuahéli</string>
-    <string name="revanced_language_TA">Tamil</string>
-    <string name="revanced_language_TE">Telugu</string>
-    <string name="revanced_language_TH">Thai</string>
-    <string name="revanced_language_TR">Török</string>
-    <string name="revanced_language_UK">Ukrán</string>
-    <string name="revanced_language_UR">Urdu</string>
-    <string name="revanced_language_VI">Vietnámi</string>
-    <string name="revanced_language_ZH">Kínai</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Hirdetések</string>
     <string name="revanced_hide_end_screen_store_banner_title">Záróképernyő üzlet banner elrejtése</string>
@@ -394,9 +343,6 @@ Korlátozás: Előfordulhat, hogy az eszköztár Vissza gombja nem működik."</
     <string name="revanced_disable_splash_animation_title">Indító animáció letiltása</string>
     <string name="revanced_disable_splash_animation_summary_on">Az indító animáció le van tiltva.</string>
     <string name="revanced_disable_splash_animation_summary_off">Az indító animáció engedélyezett.</string>
-    <string name="revanced_disable_translucent_status_bar_title">Átlátszó állapotsor letiltása</string>
-    <string name="revanced_disable_translucent_status_bar_summary_on">Az állapotsor nem átlátszó.</string>
-    <string name="revanced_disable_translucent_status_bar_summary_off">Az állapotsor nem átlátszó vagy átlátszó.</string>
     <string name="revanced_enable_gradient_loading_screen_title">Színátmenetes betöltési képernyő engedélyezése</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">A színátmenetes betöltési képernyő engedélyezett.</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">A színátmenetes betöltési képernyő le van tiltva.</string>
@@ -412,7 +358,25 @@ Ez nem kerüli meg a korhatárt. Csak automatikusan fogadja el."</string>
     <string name="revanced_change_live_ring_click_action_title">Élő közvetítés ikon kattintás műveletének módosítása</string>
     <string name="revanced_change_live_ring_click_action_summary_on">"A csatorna nyílik meg az ikonra kattintva."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">Az élő közvetítés nyílik meg az ikonra kattintva.</string>
+    <string name="revanced_change_form_factor_title">Elrendezési alaktényező</string>
     <string name="revanced_change_form_factor_entry_1">Alapértelmezett</string>
+    <string name="revanced_change_form_factor_entry_2">Telefon</string>
+    <string name="revanced_change_form_factor_entry_3">Telefon (max 480 dpi)</string>
+    <string name="revanced_change_form_factor_entry_4">Tablet</string>
+    <string name="revanced_change_form_factor_entry_5">Tablet (min 600 dpi)</string>
+    <string name="revanced_change_form_factor_entry_6">Autóipari</string>
+    <string name="revanced_change_form_factor_user_dialog_message">"A változások a következők:
+
+Táblagép elrendezés
+• A közösségi bejegyzések el vannak rejtve.
+
+Autóipari elrendezés
+• A shortok a normál lejátszóban nyílnak meg.
+• A hírfolyam témák és csatornák szerint van rendezve.
+• A videó leírása nem nyitható meg, ha az 'Adatfolyam hamisítása' ki van kapcsolva."</string>
+    <string name="revanced_disable_translucent_status_bar_title">Átlátszó állapotsor letiltása</string>
+    <string name="revanced_disable_translucent_status_bar_summary_on">Az állapotsor nem átlátszó.</string>
+    <string name="revanced_disable_translucent_status_bar_summary_off">Az állapotsor nem átlátszó vagy átlátszó.</string>
     <string name="revanced_spoof_app_version_title">Alkalmazásverzió hamisítása</string>
     <string name="revanced_spoof_app_version_summary_on">Verzió hamisítás</string>
     <string name="revanced_spoof_app_version_summary_off">Verzió nincs hamisítva</string>
@@ -520,7 +484,6 @@ Ha ez a beállítás nem működik, váltson inkognító módra."</string>
     <string name="revanced_enable_translucent_navigation_bar_title">Átlátszó navigációs sáv engedélyezése</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">A navigációs sáv átlátszó.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">A navigációs sáv nem átlátszó.</string>
-    <string name="revanced_enable_translucent_navigation_bar_user_dialog_message">Egyes YouTube verziókban ez a beállítás átlátszóvá teheti a rendszer navigációs sávját, vagy kép a képben módban az elrendezés széteshet.</string>
     <string name="revanced_hide_navigation_bar_title">Navigációs sáv elrejtése</string>
     <string name="revanced_hide_navigation_bar_summary_on">A navigációs sáv el van rejtve.</string>
     <string name="revanced_hide_navigation_bar_summary_off">A navigációs sáv látható.</string>
@@ -1464,10 +1427,10 @@ Nincs margó a lejátszó tetején és alján."</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_on">A gesztus vezérlés legkisebb értékénél az automatikus fényerő bekapcsol.</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_off">A gesztus vezérlés legkisebb értékénél az automatikus fényerő nem kapcsol be.</string>
     <string name="revanced_enable_swipe_brightness_title">Fényerő gesztus vezérlés engedélyezése</string>
-    <string name="revanced_enable_swipe_brightness_summary_on">A fényerő gesztus vezérlés engedélyezett.</string>
+    <string name="revanced_enable_swipe_brightness_summary_on">"A fényerő gesztus vezérlés engedélyezett."</string>
     <string name="revanced_enable_swipe_brightness_summary_off">A fényerő gesztus vezérlés le van tiltva.</string>
     <string name="revanced_enable_swipe_volume_title">Hangerő gesztus vezérlés engedélyezése</string>
-    <string name="revanced_enable_swipe_volume_summary_on">A hangerő gesztus vezérlés engedélyezett.</string>
+    <string name="revanced_enable_swipe_volume_summary_on">"A hangerő gesztus vezérlés engedélyezett."</string>
     <string name="revanced_enable_swipe_volume_summary_off">A hangerő gesztus vezérlés le van tiltva.</string>
     <string name="revanced_enable_save_and_restore_brightness_title">A fényerő mentésének és visszaállításának engedélyezése</string>
     <string name="revanced_enable_save_and_restore_brightness_summary_on">A fényerő mentése és visszaállítása teljes képernyőből való kilépéskor vagy belépéskor.</string>
@@ -1481,8 +1444,6 @@ Nincs margó a lejátszó tetején és alján."</string>
     <string name="revanced_swipe_gestures_lock_mode_title">Gesztus vezérlések a képernyő lezárása módban</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_on">A gesztus vezérlések engedélyezettek a képernyő lezárása módban.</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_off">A gesztus vezérlések le vannak tiltva a képernyő lezárása módban.</string>
-    <string name="revanced_swipe_overlay_background_alpha_title">Gesztus vezérlés átfedésének láthatósága</string>
-    <string name="revanced_swipe_overlay_background_alpha_summary">A gesztus vezérlés átfedésének láthatósága.</string>
     <string name="revanced_swipe_magnitude_threshold_title">Gesztus vezérlés küszöbértéke</string>
     <string name="revanced_swipe_magnitude_threshold_summary">A gesztus vezérléshez szükséges küszöbérték.</string>
     <string name="revanced_swipe_overlay_text_size_title">Gesztus vezérlés átfedésének szövegmérete</string>
@@ -1517,12 +1478,27 @@ Megjegyzés: Ezzel a képernyőterület méretét is megváltoztatja, ahol érz�
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">Automatikus</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Videó</string>
-    <string name="revanced_default_playback_speed_title">Alapértelmezett lejátszási sebesség</string>
-    <string name="revanced_default_video_quality_mobile_title">Alapértelmezett videó minőség mobilhálózaton</string>
-    <string name="revanced_default_video_quality_wifi_title">Alapértelmezett videó minőség Wi-Fi hálózaton</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Codec -->
     <string name="revanced_disable_hdr_video_title">HDR videó letiltása</string>
     <string name="revanced_disable_hdr_video_summary_on">A HDR videó le van tiltva.</string>
     <string name="revanced_disable_hdr_video_summary_off">A HDR videó engedélyezett.</string>
+    <string name="revanced_disable_vp9_codec_title">VP9 kodek letiltása</string>
+    <string name="revanced_disable_vp9_codec_summary_on">"A VP9 kodek le van tiltva.
+
+• A maximális felbontás 1080p.
+• A videolejátszás több internetes adatot használ, mint a VP9.
+• A HDR lejátszáshoz a HDR videó továbbra is a VP9 kodeket használja."</string>
+    <string name="revanced_disable_vp9_codec_summary_off">VP9 kodek engedélyezve van.</string>
+    <string name="revanced_replace_av1_codec_title">Szoftver AV1 kodek cseréje</string>
+    <string name="revanced_replace_av1_codec_summary">A szoftver AV1 kodeket a VP9 kodekkel helyettesíti.</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Playback speed -->
+    <string name="revanced_default_playback_speed_title">Alapértelmezett lejátszási sebesség</string>
+    <string name="revanced_remember_playback_speed_last_selected_title">Lejátszási sebesség módosításainak megjegyzése</string>
+    <string name="revanced_remember_playback_speed_last_selected_summary_on">A lejátszási sebesség módosítása minden videóra érvényes.</string>
+    <string name="revanced_remember_playback_speed_last_selected_summary_off">A lejátszási sebesség módosítása csak a jelenlegi videóra érvényes.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">Mutass egy felugró értesítést</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">Egy felugró értesítés fog látszani, amikor megváltozik az alapértelmezett lejátszási sebesség.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">Nem fog felugró értesítés látszani, amikor megváltozik az alapértelmezett lejátszási sebesség.</string>
     <string name="revanced_enable_custom_playback_speed_title">Egyéni lejátszási sebesség engedélyezése</string>
     <string name="revanced_enable_custom_playback_speed_summary_on">Az egyéni lejátszási sebesség engedélyezett.</string>
     <string name="revanced_enable_custom_playback_speed_summary_off">Az egyéni lejátszási sebesség le van tiltva.</string>
@@ -1531,12 +1507,11 @@ Megjegyzés: Ezzel a képernyőterület méretét is megváltoztatja, ahol érz�
     <string name="revanced_custom_playback_speed_menu_type_summary_off">A régi stílusú előugró menüt használja.</string>
     <string name="revanced_custom_playback_speeds_title">Egyéni lejátszási sebességek szerkesztése</string>
     <string name="revanced_custom_playback_speeds_summary">Az elérhető lejátszási sebességek hozzáadás vagy módosítása.</string>
-    <string name="revanced_remember_playback_speed_last_selected_title">Lejátszási sebesség módosításainak megjegyzése</string>
-    <string name="revanced_remember_playback_speed_last_selected_summary_on">A lejátszási sebesség módosítása minden videóra érvényes.</string>
-    <string name="revanced_remember_playback_speed_last_selected_summary_off">A lejátszási sebesség módosítása csak a jelenlegi videóra érvényes.</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_title">Mutass egy felugró értesítést</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">Egy felugró értesítés fog látszani, amikor megváltozik az alapértelmezett lejátszási sebesség.</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">Nem fog felugró értesítés látszani, amikor megváltozik az alapértelmezett lejátszási sebesség.</string>
+    <string name="revanced_custom_playback_speeds_invalid">Az egyéni sebességnek kisebbnek kell lennie, mint %sx.</string>
+    <string name="revanced_custom_playback_speeds_parse_exception">Érvénytelen egyéni lejátszási sebesség.</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Video quality -->
+    <string name="revanced_default_video_quality_mobile_title">Alapértelmezett videó minőség mobilhálózaton</string>
+    <string name="revanced_default_video_quality_wifi_title">Alapértelmezett videó minőség Wi-Fi hálózaton</string>
     <string name="revanced_remember_video_quality_last_selected_title">Videó minőség módosításainak megjegyzése</string>
     <string name="revanced_remember_video_quality_last_selected_summary_on">A minőség változások alkalmazása az összes videóra.</string>
     <string name="revanced_remember_video_quality_last_selected_summary_off">A minőség változások alkalmazása csak a jelenlegi videóra.</string>
@@ -1546,15 +1521,6 @@ Megjegyzés: Ezzel a képernyőterület méretét is megváltoztatja, ahol érz�
     <string name="revanced_restore_old_video_quality_menu_title">Régi videóminőség menü visszaállítása</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">A régi videóminőség menü látható.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">A régi videóminőség menü nem látható.</string>
-    <string name="revanced_disable_default_playback_speed_music_title">Lejátszási sebesség zenéhez kiválasztás elrejtése</string>
-    <string name="revanced_disable_default_playback_speed_music_on">Az alapértelmezett lejátszási sebesség le van tiltva zene lejátszásnál.</string>
-    <string name="revanced_disable_default_playback_speed_music_off">Az alapértelmezett lejátszási sebesség engedélyezett zene lejátszásnál.</string>
-    <string name="revanced_disable_default_playback_speed_music_type_title">Érvényesítés kategóriák használatával</string>
-    <string name="revanced_disable_default_playback_speed_music_type_on">Az alapértelmezett lejátszási sebesség le van tiltva, ha a videó kategóriája zene.</string>
-    <string name="revanced_disable_default_playback_speed_music_type_off">Az alapértelmezett lejátszási sebesség le van tiltva a YouTube Music szolgáltatásban lejátszható videóknál.</string>
-    <string name="revanced_enable_default_playback_speed_shorts_title">Shortok alapértelmezett lejátszási sebességének engedélyezése</string>
-    <string name="revanced_enable_default_playback_speed_shorts_summary_on">Az alapértelmezett lejátszási sebesség vonatkozik a Shortokra.</string>
-    <string name="revanced_enable_default_playback_speed_shorts_summary_off">Az alapértelmezett lejátszási sebesség nem vonatkozik a Shortokra.</string>
     <string name="revanced_skipped_preloaded_buffer">Kihagyott előtöltött puffer.</string>
     <string name="revanced_skip_preloaded_buffer_title">Előtöltött puffer kihagyása</string>
     <string name="revanced_skip_preloaded_buffer_summary">"Átugorja a videók kezdetén az előzetesen betöltött puffert, hogy azonnal alkalmazza az alapértelmezett videóminőséget.
@@ -1567,27 +1533,13 @@ Info:
     <string name="revanced_skip_preloaded_buffer_toast_summary_on">A felugró üzenet látható.</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_off">A felugró üzenet nem látható.</string>
     <string name="revanced_spoof_device_dimensions_title">Eszközméret hamisítása</string>
-    <string name="revanced_spoof_device_dimensions_summary">"A maximális értékre hamisítja az eszköz méreteit.
-Előfordulhat, hogy a jó minőség feloldódik bizonyos videóknál, amelyek nagy eszközméretet igényelnek, de nem minden videónál."</string>
-    <string name="revanced_disable_vp9_codec_title">VP9 kodek letiltása</string>
-    <string name="revanced_disable_vp9_codec_summary_on">"A VP9 kodek le van tiltva.
-
-• A maximális felbontás 1080p.
-• A videolejátszás több internetes adatot használ, mint a VP9.
-• A HDR lejátszáshoz a HDR videó továbbra is a VP9 kodeket használja."</string>
-    <string name="revanced_disable_vp9_codec_summary_off">VP9 kodek engedélyezve van.</string>
-    <string name="revanced_replace_av1_codec_title">Szoftver AV1 kodek cseréje</string>
-    <string name="revanced_replace_av1_codec_summary">A szoftver AV1 kodeket a VP9 kodekkel helyettesíti.</string>
-    <string name="revanced_reject_av1_codec_title">Elutasítja a szoftver AV1 kodek választ</string>
-    <string name="revanced_reject_av1_codec_summary">"Erőteljesen elutasítja a szoftveres AV1 codec válaszát.
-Egy másik kodek kerül alkalmazásra kb. 20 másodperc pufferezés után."</string>
-    <string name="revanced_reject_av1_codec_toast">Az alapfolyamat kb. 20 másodpercig pufferez.</string>
-    <string name="revanced_remember_playback_speed_toast">Az alapértelmezett sebesség módosítva: %s.</string>
-    <string name="revanced_remember_video_quality_mobile">Az alapértelmezett videó minőség mobil hálózaton: %s.</string>
-    <string name="revanced_remember_video_quality_none">Nem sikerült beállítani a videóminőséget.</string>
-    <string name="revanced_remember_video_quality_wifi">Az alapértelmezett videó minőség Wi-Fi hálózaton: %s.</string>
-    <string name="revanced_custom_playback_speeds_invalid">Az egyéni sebességnek kisebbnek kell lennie, mint %sx.</string>
-    <string name="revanced_custom_playback_speeds_parse_exception">Érvénytelen egyéni lejátszási sebesség.</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Experimental flags -->
+    <string name="revanced_disable_default_playback_speed_music_title">Lejátszási sebesség zenéhez kiválasztás elrejtése</string>
+    <string name="revanced_disable_default_playback_speed_music_on">Az alapértelmezett lejátszási sebesség le van tiltva zene lejátszásnál.</string>
+    <string name="revanced_disable_default_playback_speed_music_off">Az alapértelmezett lejátszási sebesség engedélyezett zene lejátszásnál.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_title">Érvényesítés kategóriák használatával</string>
+    <string name="revanced_disable_default_playback_speed_music_type_on">Az alapértelmezett lejátszási sebesség le van tiltva, ha a videó kategóriája zene.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_off">Az alapértelmezett lejátszási sebesség le van tiltva a YouTube Music szolgáltatásban lejátszható videóknál.</string>
     <!-- PreferenceScreen: Return YouTube Dislike -->
     <string name="revanced_preference_screen_ryd_title">YouTube nem tetszések visszaállítása</string>
     <string name="revanced_ryd_enable_title">YouTube nem tetszések visszaállításának engedélyezése</string>
@@ -1783,6 +1735,7 @@ Kattintson az API-kulcs kiadás folyamatának megtekintéséhez."</string>
     <string name="revanced_sb_vote_downvote">Leszavazás</string>
     <string name="revanced_sb_vote_category">Kategória módosítása</string>
     <string name="revanced_sb_vote_no_segments">Nincsen szakasz, amire szavazni lehet.</string>
+    <!-- A segment start and end time, such as "02:10 to 03:40" -->
     <string name="revanced_sb_new_segment_choose_category">Válassza ki a szakasz kategóriáját</string>
     <string name="revanced_sb_new_segment_disabled_category">A kategória letiltva a beállításokban. Engedélyezze a beküldéshez.</string>
     <string name="revanced_sb_new_segment_title">Új SponsorBlock szakasz</string>
@@ -1902,8 +1855,6 @@ Kattintson a folytatás gombra és kapcsolja ki az akkumulátor optimalizáláso
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr_no_auth">"Android VR
 <small>(Nincs hitelesítés)</small>"</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
-<small>(PoToken szükséges)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
 <small>(Belépés szükséges)</small>"</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Hamisítás mellékhatásai</string>
@@ -1911,8 +1862,8 @@ Kattintson a folytatás gombra és kapcsolja ki az akkumulátor optimalizáláso
 • A stabil hangerő nem áll rendelkezésre.
 • A kényszerített automatikus hangsávok letiltása nem elérhető.
 • Előfordulhat, hogy a gyerekeknek szánt tartalmat nem lehet lejátszani, ha ki van jelentkezve vagy inkognitó módban van."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• Lejátszási problémák lehetnek (PoToken szükséges).</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• Előfordulhat, hogy a filmeket vagy a fizetős videókat nem lehet lejátszani.
+    <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• A stabil hangerő nem érhető el.
+• Előfordulhat, hogy a filmeket vagy a fizetős videókat nem lehet lejátszani.
 • Előfordulhat, hogy a gyerekeknek szánt tartalmat nem lehet lejátszani, ha ki van jelentkezve vagy inkognitó módban van."</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Kényszerített iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">A kényszerített videó kodek az AVC (H.264).</string>
@@ -1920,6 +1871,14 @@ Kattintson a folytatás gombra és kapcsolja ki az akkumulátor optimalizáláso
     <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"Ennek engedélyezése javíthatja az akkumulátor élettartamát és javíthatja a lejátszás akadozását.
 
 Az AVC maximális felbontása 1080p, az Opus hangkodek nem érhető el, és a videolejátszás több adatforgalmat igényel, mint a VP9 vagy az AV1."</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_title">Onesie válasz titkosításának kihagyása</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_summary_on">"A Onesie válasz titkosításának kihagyása.
+
+• Javítja az egyes felhasználók által tapasztalt új típusú lejátszási problémát.
+• Előfordulhat, hogy az AV1 kodek nem elérhető."</string>
+    <string name="revanced_spoof_streaming_data_skip_response_encryption_summary_off">"Ne hagyja ki a Onesie válasz titkosítását.
+
+• Egyes felhasználók új típusú lejátszási problémákat tapasztalhatnak."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Megjelenítés a statisztikában kockáknak</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Az adatfolyam lekérésére használt kliens a statisztikában kockáknak látható.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Az adatfolyam lekérésére használt kliens a statisztikában kockáknak nem látható.</string>

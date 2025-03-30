@@ -63,7 +63,7 @@ public class VideoUtils extends IntentUtils {
         return builder.toString();
     }
 
-    private static String getVideoScheme(String videoId, boolean isShorts) {
+    public static String getVideoScheme(String videoId, boolean isShorts) {
         return String.format(
                 Locale.ENGLISH,
                 isShorts ? VIDEO_SCHEME_INTENT_FORMAT : VIDEO_SCHEME_LINK_FORMAT,
@@ -128,6 +128,22 @@ public class VideoUtils extends IntentUtils {
         launchView(getChannelUrl(channelId), getContext().getPackageName());
     }
 
+    public static void openPlaylist(@NonNull String playlistId) {
+        openPlaylist(playlistId, "");
+    }
+
+    public static void openPlaylist(@NonNull String playlistId, @NonNull String videoId) {
+        final StringBuilder sb = new StringBuilder();
+        if (videoId.isEmpty()) {
+            sb.append(getPlaylistUrl(playlistId));
+        } else {
+            sb.append(getVideoScheme(videoId, false));
+            sb.append("&list=");
+            sb.append(playlistId);
+        }
+        launchView(sb.toString(), getContext().getPackageName());
+    }
+
     public static void openVideo() {
         openVideo(VideoInformation.getVideoId());
     }
@@ -177,8 +193,8 @@ public class VideoUtils extends IntentUtils {
     }
 
     public static void showPlaybackSpeedDialog(@NonNull Context context) {
-        final String[] playbackSpeedEntries = CustomPlaybackSpeedPatch.getTrimmedListEntries();
-        final String[] playbackSpeedEntryValues = CustomPlaybackSpeedPatch.getTrimmedListEntryValues();
+        final String[] playbackSpeedEntries = CustomPlaybackSpeedPatch.getTrimmedEntries();
+        final String[] playbackSpeedEntryValues = CustomPlaybackSpeedPatch.getTrimmedEntryValues();
 
         final float playbackSpeed = VideoInformation.getPlaybackSpeed();
         final int index = Arrays.binarySearch(playbackSpeedEntryValues, String.valueOf(playbackSpeed));
@@ -186,6 +202,7 @@ public class VideoUtils extends IntentUtils {
         new AlertDialog.Builder(context)
                 .setSingleChoiceItems(playbackSpeedEntries, index, (mDialog, mIndex) -> {
                     final float selectedPlaybackSpeed = Float.parseFloat(playbackSpeedEntryValues[mIndex] + "f");
+                    VideoInformation.setPlaybackSpeed(selectedPlaybackSpeed);
                     VideoInformation.overridePlaybackSpeed(selectedPlaybackSpeed);
                     userSelectedPlaybackSpeed(selectedPlaybackSpeed);
                     mDialog.dismiss();

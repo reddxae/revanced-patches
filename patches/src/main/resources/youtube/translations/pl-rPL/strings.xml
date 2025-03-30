@@ -19,59 +19,150 @@
     <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s nie jest zainstalowany.
 Pobierz %2$s ze strony internetowej."</string>
     <string name="revanced_external_downloader_not_installed_warning">%s nie jest zainstalowany. Proszę go zainstalować.</string>
+    <string name="revanced_queue_manager_add_to_queue">Dodaj do kolejki</string>
+    <string name="revanced_queue_manager_add_to_queue_and_open_queue">Dodaj do kolejki i otwórz kolejkę</string>
+    <string name="revanced_queue_manager_add_to_queue_and_play_video">Dodaj do kolejki i odtwórz film</string>
+    <string name="revanced_queue_manager_external_downloader">Zewnętrzna aplikacja od pobierania</string>
+    <string name="revanced_queue_manager_open_queue">Otwórz kolejkę</string>
+    <string name="revanced_queue_manager_queue">Kolejka</string>
+    <string name="revanced_queue_manager_remove_from_queue">Usuń z kolejki</string>
+    <string name="revanced_queue_manager_remove_from_queue_and_open_queue">Usuń z kolejki i otwórz kolejkę</string>
+    <string name="revanced_queue_manager_remove_queue">Usuń kolejkę</string>
+    <string name="revanced_queue_manager_save_queue">Zapisz kolejkę</string>
+    <string name="revanced_queue_manager_user_dialog_message">"Zamiast otwierać zewnętrzną aplikację od pobierania, otwiera okno menedżera kolejki.
+
+Możesz również otworzyć menedżer kolejek poprzez kliknięcie i przytrzymanie przycisku cofania na pasku nawigacyjnym.
+
+Funkcja jest nadal rozwijana, więc większość funkcji może nie działać.
+
+Proszę używać tej funkcji wyłącznie w celach debugowania."</string>
+    <string name="revanced_queue_manager_check_failed_auth">Wymagane logowanie</string>
+    <string name="revanced_queue_manager_check_failed_generic">Menedżer kolejki jest niedostępny (%s).</string>
+    <string name="revanced_queue_manager_check_failed_playlist_id">Nie można zidentyfikować playlisty</string>
+    <string name="revanced_queue_manager_check_failed_queue">Kolejka jest pusta</string>
+    <string name="revanced_queue_manager_check_failed_video_id">Nie można zidentyfikować filmu</string>
+    <string name="revanced_queue_manager_fetch_failed_add">Nie udało się dodać filmu.</string>
+    <string name="revanced_queue_manager_fetch_failed_create">Nie udało się utworzyć kolejki.</string>
+    <string name="revanced_queue_manager_fetch_failed_delete">Nie udało się usunąć kolejki.</string>
+    <string name="revanced_queue_manager_fetch_failed_remove">Nie udało się usunąć filmu.</string>
+    <string name="revanced_queue_manager_fetch_failed_save">Nie udało się zapisać kolejki.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_add">Pomyślnie dodano film.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_create">Pomyślnie utworzono kolejkę.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_delete">Pomyślnie usunięto kolejkę.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_remove">Pomyślnie usunięto film.</string>
+    <string name="revanced_queue_manager_fetch_succeeded_save">Pomyślnie zapisano kolejkę do \'%s\'.</string>
     <string name="revanced_language_title">Język RVX</string>
     <string name="revanced_language_DEFAULT">Język aplikacji</string>
-    <string name="revanced_language_AR">Arabski</string>
-    <string name="revanced_language_AZ">Azerbejdżański</string>
-    <string name="revanced_language_BG">Bułgarski</string>
-    <string name="revanced_language_BN">Bengalski</string>
-    <string name="revanced_language_CA">Kataloński</string>
-    <string name="revanced_language_CS">Czeski</string>
-    <string name="revanced_language_DA">Duński</string>
-    <string name="revanced_language_DE">Niemiecki</string>
-    <string name="revanced_language_EL">Grecki</string>
-    <string name="revanced_language_EN">Angielski</string>
-    <string name="revanced_language_ES">Hiszpański</string>
-    <string name="revanced_language_ET">Estoński</string>
-    <string name="revanced_language_FA">Perski</string>
-    <string name="revanced_language_FI">Fiński</string>
-    <string name="revanced_language_FR">Francuski</string>
-    <string name="revanced_language_GU">Gudżaracki</string>
-    <string name="revanced_language_HI">Hindi</string>
-    <string name="revanced_language_HR">Chorwacki</string>
-    <string name="revanced_language_HU">Węgierski</string>
-    <string name="revanced_language_ID">Indonezyjski</string>
-    <string name="revanced_language_IT">Włoski</string>
-    <string name="revanced_language_JA">Japoński</string>
-    <string name="revanced_language_KK">Kazachski</string>
-    <string name="revanced_language_KO">Koreański</string>
-    <string name="revanced_language_LT">Litewski</string>
-    <string name="revanced_language_LV">Łotewski</string>
-    <string name="revanced_language_MK">Macedoński</string>
-    <string name="revanced_language_MN">Mongolski</string>
-    <string name="revanced_language_MR">Maratyjski</string>
-    <string name="revanced_language_MS">Malajski</string>
-    <string name="revanced_language_MY">Birmański</string>
-    <string name="revanced_language_NL">Niderlandzki</string>
-    <string name="revanced_language_OR">Orija</string>
-    <string name="revanced_language_PA">Pendżabski</string>
-    <string name="revanced_language_PL">Polski</string>
-    <string name="revanced_language_PT">Portugalski</string>
-    <string name="revanced_language_RO">Rumuński</string>
-    <string name="revanced_language_RU">Rosyjski</string>
-    <string name="revanced_language_SK">Słowacki</string>
-    <string name="revanced_language_SL">Słoweński</string>
-    <string name="revanced_language_SR">Serbski</string>
-    <string name="revanced_language_SV">Szwedzki</string>
-    <string name="revanced_language_SW">Suahili</string>
-    <string name="revanced_language_TA">Tamilski</string>
-    <string name="revanced_language_TE">Telugu</string>
-    <string name="revanced_language_TH">Tajski</string>
-    <string name="revanced_language_TR">Turecki</string>
-    <string name="revanced_language_UK">Ukraiński</string>
-    <string name="revanced_language_UR">Urdu</string>
-    <string name="revanced_language_VI">Wietnamski</string>
-    <string name="revanced_language_ZH">Chiński</string>
+    <string name="revanced_language_AM">"Amharski
+<small>አማርኛ</small>"</string>
+    <string name="revanced_language_AR">"Arabski
+<small>العربية</small>"</string>
+    <string name="revanced_language_AZ">"Azerbejdżański
+<small>Azərbaycan</small>"</string>
+    <string name="revanced_language_BE">"Białoruski
+<small>беларуская</small>"</string>
+    <string name="revanced_language_BG">"Bułgarski
+<small>Български</small>"</string>
+    <string name="revanced_language_BN">"Bengalski
+<small>বাংলা</small>"</string>
+    <string name="revanced_language_CA">"Kataloński
+<small>Català</small>"</string>
+    <string name="revanced_language_CS">"Czeski
+<small>Čeština</small>"</string>
+    <string name="revanced_language_DA">"Duński
+<small>Dansk</small>"</string>
+    <string name="revanced_language_DE">"Niemiecki
+<small>Deutsch</small>"</string>
+    <string name="revanced_language_EL">"Grecki
+<small>Ελληνικά</small>"</string>
+    <string name="revanced_language_EN">"Angielski
+<small>English</small>"</string>
+    <string name="revanced_language_ES">"Hiszpański
+<small>Español</small>"</string>
+    <string name="revanced_language_ET">"Estoński
+<small>Eesti</small>"</string>
+    <string name="revanced_language_FA">"Perski
+<small>فارسی</small>"</string>
+    <string name="revanced_language_FI">"Fiński
+<small>Suomi</small>"</string>
+    <string name="revanced_language_FR">"Francuski
+<small>Français</small>"</string>
+    <string name="revanced_language_GU">"Gudżarati
+<small>ગુજરાતી</small>"</string>
+    <string name="revanced_language_HE">"Hebrajski
+<small>עברי</small>"</string>
+    <string name="revanced_language_HI">"Hindi
+<small>हिन्दी</small>"</string>
+    <string name="revanced_language_HR">"Chorwacki
+<small>Hrvatski</small>"</string>
+    <string name="revanced_language_HU">"Węgierski
+<small>Magyar</small>"</string>
+    <string name="revanced_language_ID">"Indonezyjski
+<small>Indonesia</small>"</string>
+    <string name="revanced_language_IT">"Włoski
+<small>Italiano</small>"</string>
+    <string name="revanced_language_JA">"Japoński
+<small>日本語</small>"</string>
+    <string name="revanced_language_KK">"Kazachski
+<small>Қазақ тілі</small>"</string>
+    <string name="revanced_language_KO">"Koreański
+<small>한국어</small>"</string>
+    <string name="revanced_language_LT">"Litewski
+<small>Lietuvių</small>"</string>
+    <string name="revanced_language_LV">"Łotewski
+<small>Latviešu</small>"</string>
+    <string name="revanced_language_MK">"Macedoński
+<small>Македонски</small>"</string>
+    <string name="revanced_language_MN">"Mongolski
+<small>Монгол</small>"</string>
+    <string name="revanced_language_MR">"Marathi
+<small>मराठी</small>"</string>
+    <string name="revanced_language_MS">"Malajski
+<small>Melayu</small>"</string>
+    <string name="revanced_language_MY">"Birmański
+<small>ဗမာ</small>"</string>
+    <string name="revanced_language_NL">"Niderlandzki
+<small>Nederlands</small>"</string>
+    <string name="revanced_language_OR">"Orija
+<small>ଓଡ଼ିଆ</small>"</string>
+    <string name="revanced_language_PA">"Pendżabski
+<small>ਪੰਜਾਬੀ</small>"</string>
+    <string name="revanced_language_PL">"Polski
+<small>Polski</small>"</string>
+    <string name="revanced_language_PT">"Portugalski
+<small>Português</small>"</string>
+    <string name="revanced_language_RO">"Rumuński
+<small>Română</small>"</string>
+    <string name="revanced_language_RU">"Rosyjski
+<small>Русский</small>"</string>
+    <string name="revanced_language_SK">"Słowacki
+<small>Slovenčina</small>"</string>
+    <string name="revanced_language_SQ">"Albański
+<small>Shqip</small>"</string>
+    <string name="revanced_language_SL">"Słoweński
+<small>Slovenščina</small>"</string>
+    <string name="revanced_language_SR">"Serbski
+<small>Српски</small>"</string>
+    <string name="revanced_language_SV">"Szwedzki
+<small>Svenska</small>"</string>
+    <string name="revanced_language_SW">"Suahili
+<small>Kiswahili</small>"</string>
+    <string name="revanced_language_TA">"Tamilski
+<small>தமிழ்</small>"</string>
+    <string name="revanced_language_TE">"Telugu
+<small>తెలుగు</small>"</string>
+    <string name="revanced_language_TH">"Tajski
+<small>ไทย</small>"</string>
+    <string name="revanced_language_TR">"Turecki
+<small>Türkçe</small>"</string>
+    <string name="revanced_language_UK">"Ukraiński
+<small>Українська</small>"</string>
+    <string name="revanced_language_UR">"Urdu
+<small>اردو</small>"</string>
+    <string name="revanced_language_VI">"Wietnamski
+<small>Tiếng Việt</small>"</string>
+    <string name="revanced_language_ZH">"Chiński
+<small>中文</small>"</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Reklamy</string>
     <string name="revanced_hide_end_screen_store_banner_title">Baner sklepowy po zakończeniu filmu</string>
@@ -394,9 +485,6 @@ Ograniczenie: Przycisk wstecz na pasku narzędzi może nie działać."</string>
     <string name="revanced_disable_splash_animation_title">Animacja uruchamiania aplikacji</string>
     <string name="revanced_disable_splash_animation_summary_on">Wyłączona</string>
     <string name="revanced_disable_splash_animation_summary_off">Włączona</string>
-    <string name="revanced_disable_translucent_status_bar_title">Półprzezroczystość paska statusu</string>
-    <string name="revanced_disable_translucent_status_bar_summary_on">Wyłączona</string>
-    <string name="revanced_disable_translucent_status_bar_summary_off">Włączona</string>
     <string name="revanced_enable_gradient_loading_screen_title">Kolorowy ekran ładowania</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">Włączony</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">Wyłączony</string>
@@ -430,6 +518,23 @@ Układ samochodowy:
 • Shortsy otwierają się w zwykłym odtwarzaczu
 • Strona główna jest sortowana po tematach i kanałach
 • Opis filmu nie może być otwarty po wyłączeniu 'Oszukuj strumień danych'"</string>
+    <string name="revanced_disable_layout_updates_title">Aktualizacje układu aplikacji przez serwer</string>
+    <string name="revanced_disable_layout_updates_summary_on">Wyłączone</string>
+    <string name="revanced_disable_layout_updates_summary_off">Włączone</string>
+    <string name="revanced_disable_layout_updates_user_dialog_message">"Układ aplikacji wraca do układu używanego przy pierwszej instalacji.
+
+Większość powiązanych serwerowo układów aplikacji może się nie przywrócić.
+
+Zmiany zawierają:
+• Komponenty menu ustawień filmu (i powiązanych ustawień) mogą nie działać
+• Animacje liczb nie działają
+• Zakładka biblioteki jest używana
+• Sekcja muzyki w opisie filmu może nie działać
+• Przycisk od przełączania konta może się nie pojawiać w zakładce biblioteki. Użyj ustawienia 'Szeroki pasek wyszukiwania w zakładce Ty'"</string>
+    <string name="revanced_disable_translucent_status_bar_title">Półprzezroczystość paska statusu</string>
+    <string name="revanced_disable_translucent_status_bar_summary_on">Wyłączona</string>
+    <string name="revanced_disable_translucent_status_bar_summary_off">Włączona</string>
+    <string name="revanced_disable_translucent_status_bar_user_dialog_message">Dla większości producentów ROM-ów bazujących na Androidzie 12 i wzwyż, włączenie tej opcji spowoduje stanie się systemowego paska nawigacji przezroczystym.</string>
     <string name="revanced_spoof_app_version_title">Oszukiwanie wersji aplikacji</string>
     <string name="revanced_spoof_app_version_summary_on">Włączone</string>
     <string name="revanced_spoof_app_version_summary_off">Wyłączone</string>
@@ -447,8 +552,10 @@ Jeśli później zostanie to wyłączone, rekomendowane jest usunięcie danych a
     <string name="revanced_spoof_app_version_target_entry_18_33_40">18.33.40 - Przywraca stary pasek akcji Shortsów</string>
     <string name="revanced_spoof_app_version_target_entry_18_38_45">18.38.45 - Przywraca stare zachowanie domyślnej jakości filmu</string>
     <string name="revanced_spoof_app_version_target_entry_18_48_39">18.48.39 - Wyłącza aktualizowanie wyświetleń i łapek w górę w czasie rzeczywistym</string>
+    <string name="revanced_spoof_app_version_target_entry_19_01_34">19.01.34 - Wyłącza interakcje z opisami filmów</string>
     <string name="revanced_spoof_app_version_target_entry_19_26_42">19.26.42 - Wyłącza ikony Cairo w pasku nawigacji oraz narzędzi</string>
     <string name="revanced_spoof_app_version_target_entry_19_33_37">19.33.37 - Przywraca stare menu szybkości odtwarzania</string>
+    <string name="revanced_spoof_app_version_target_invalid_toast">Nieprawidłowa oszukiwana wersja aplikacji: %s.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Account menu -->
     <string name="revanced_preference_screen_account_menu_title">Menu konta</string>
     <string name="revanced_preference_screen_account_menu_summary">Ukryj bądź pokaż elementy w menu konta i zakładki Ty</string>
@@ -484,6 +591,9 @@ Niektóre komponenty mogą nie być ukryte."</string>
     <string name="revanced_override_video_download_button_title">Metoda pobierania filmów</string>
     <string name="revanced_override_video_download_button_summary_on">Zewnętrzna aplikacja</string>
     <string name="revanced_override_video_download_button_summary_off">Natywne pobieranie</string>
+    <string name="revanced_override_video_download_button_queue_manager_title">Menedżer kolejki</string>
+    <string name="revanced_override_video_download_button_queue_manager_summary_on">Natywny przycisk od pobierania otworzy menedżer kolejki</string>
+    <string name="revanced_override_video_download_button_queue_manager_summary_off">Natywny przycisk od pobierania otworzy zewnętrzną aplikację od pobierania</string>
     <string name="revanced_external_downloader_package_name_playlist_title">Nazwa pakietu aplikacji od pobierania (playlisty)</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">Nazwa pakietu zainstalowanej zewnętrznej aplikacji od pobierania, takiej jak YTDLnis.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental flags -->
@@ -538,7 +648,6 @@ Jeśli opcja nie przynosi skutku, spróbuj przełączyć się na tryb incognito.
     <string name="revanced_enable_translucent_navigation_bar_title">Wygląd paska nawigacji</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">Półprzezroczysty</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">Nieprzezroczysty</string>
-    <string name="revanced_enable_translucent_navigation_bar_user_dialog_message">W niektórych wersjach YouTube, to ustawienie może sprawić systemowy pasek nawigacji przezroczystym, lub popsuć układ w trybie PiP.</string>
     <string name="revanced_hide_navigation_bar_title">Pasek nawigacji</string>
     <string name="revanced_hide_navigation_bar_summary_on">Ukryty</string>
     <string name="revanced_hide_navigation_bar_summary_off">Widoczny</string>
@@ -637,7 +746,7 @@ Jeśli zajdą zmiany po stronie serwera, kolor tła tych komunikatów może się
     <string name="revanced_enable_wide_search_bar_with_header_title">Szeroki pasek wyszukiwania z nagłówkiem YouTube</string>
     <string name="revanced_enable_wide_search_bar_with_header_summary_on">Włączony</string>
     <string name="revanced_enable_wide_search_bar_with_header_summary_off">Wyłączony</string>
-    <string name="revanced_enable_wide_search_bar_in_you_tab_title">Szeroki pasek wyszukiwania na stronie Ty</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_title">Szeroki pasek wyszukiwania w zakładce Ty</string>
     <string name="revanced_enable_wide_search_bar_in_you_tab_summary_on">"Włączony
 
 By dostać się do ustawień, użyj następującej ścieżki:
@@ -1118,6 +1227,8 @@ Stuknij i przytrzymaj, by skopiować czas filmu."</string>
     <string name="revanced_overlay_button_mute_volume_summary">Stuknij, by wyciszyć bieżący film. Stuknij ponownie, by odciszyć film.</string>
     <string name="revanced_overlay_button_external_downloader_title">Przycisk do pobierania</string>
     <string name="revanced_overlay_button_external_downloader_summary">Stuknij, by otworzyć aplikacje od pobierania.</string>
+    <string name="revanced_overlay_button_external_downloader_queue_manager_title">Menedżer kolejki</string>
+    <string name="revanced_overlay_button_external_downloader_queue_manager_summary">Zamiast otwierać zewnętrzną aplikację od pobierania, otwiera menedżera kolejki.</string>
     <string name="revanced_overlay_button_speed_dialog_title">Przycisk od prędkości</string>
     <string name="revanced_overlay_button_speed_dialog_summary">"Stuknij, by zmienić prędkość odtwarzania.
 Stuknij i przytrzymaj, by zmienić prędkość odtwarzania na 1.0x. Stuknij i przytrzymaj ponownie, by zresetować do domyślnej prędkości."</string>
@@ -1416,8 +1527,7 @@ Informacja:
     <string name="revanced_enable_shorts_custom_actions_flyout_menu_title">Własne akcje w menu ustawień Shortsa</string>
     <string name="revanced_enable_shorts_custom_actions_flyout_menu_summary_on">"Włączone
 
-Ograniczenia:
-• Nie działają, jeśli wersja aplikacji jest oszukana do 18.49.37, bądź wcześniejszej
+Ograniczenie:
 • Nie działają na transmisjach na żywo"</string>
     <string name="revanced_enable_shorts_custom_actions_flyout_menu_summary_off">Wyłączone</string>
     <string name="revanced_enable_shorts_custom_actions_toolbar_title">Własne akcje w pasku narzędzi</string>
@@ -1442,6 +1552,10 @@ Kliknij i przytrzymaj przycisk 'Więcej', by wyświetlić okno z własnymi akcja
     <string name="revanced_shorts_custom_actions_open_video_title">Menu od otwierania filmu</string>
     <string name="revanced_shorts_custom_actions_open_video_summary_on">Widoczne</string>
     <string name="revanced_shorts_custom_actions_open_video_summary_off">Ukryte</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_label">Prędkość odtwarzania</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_title">Menu od prędkości odtwarzania</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_summary_on">Widoczne</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_summary_off">Ukryte</string>
     <string name="revanced_shorts_custom_actions_repeat_state_label">Stan powtarzania Shortsów</string>
     <string name="revanced_shorts_custom_actions_repeat_state_title">Menu od stanu powtarzania Shortsów</string>
     <string name="revanced_shorts_custom_actions_repeat_state_summary_on">Widoczne</string>
@@ -1484,10 +1598,14 @@ Ograniczenia:
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_on">Najniższa wartość jasności aktywowana przesuwaniem włącza automatyczną jasność</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_off">Najniższa wartość jasności aktywowana przesuwaniem nie włącza automatycznej jasności</string>
     <string name="revanced_enable_swipe_brightness_title">Zmienianie jasności przesuwaniem</string>
-    <string name="revanced_enable_swipe_brightness_summary_on">Włączone</string>
+    <string name="revanced_enable_swipe_brightness_summary_on">"Włączone
+
+Dostosuj jasność, przesuwając pionowo po lewej stronie ekranu."</string>
     <string name="revanced_enable_swipe_brightness_summary_off">Wyłączone</string>
     <string name="revanced_enable_swipe_volume_title">Zmienianie głośności przesuwaniem</string>
-    <string name="revanced_enable_swipe_volume_summary_on">Włączone</string>
+    <string name="revanced_enable_swipe_volume_summary_on">"Włączone
+
+Dostosuj głośność, przesuwając pionowo po prawej stronie ekranu."</string>
     <string name="revanced_enable_swipe_volume_summary_off">Wyłączone</string>
     <string name="revanced_enable_save_and_restore_brightness_title">Zapisuj i przywracaj jasność podczas zamykania lub wchodzenia w tryb pełnoekranowy</string>
     <string name="revanced_enable_save_and_restore_brightness_summary_on">Tak</string>
@@ -1501,10 +1619,20 @@ Ograniczenia:
     <string name="revanced_swipe_gestures_lock_mode_title">Przesuwanie podczas trybu blokady ekranu</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_on">Włączone</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_off">Wyłączone</string>
-    <string name="revanced_swipe_overlay_background_alpha_title">Widoczność tła przesuwania</string>
-    <string name="revanced_swipe_overlay_background_alpha_summary">Widoczność tła nakładki przesuwania</string>
     <string name="revanced_swipe_magnitude_threshold_title">Minimalna długość przesunięcia</string>
     <string name="revanced_swipe_magnitude_threshold_summary">Minimalna długość przesunięcia</string>
+    <string name="revanced_swipe_overlay_alternative_ui_title">Wygląd nakładki przesuwania</string>
+    <string name="revanced_swipe_overlay_alternative_ui_summary_on">Alternatywny</string>
+    <string name="revanced_swipe_overlay_alternative_ui_summary_off">Starszy</string>
+    <string name="revanced_swipe_overlay_minimal_style_title">Minimalistyczny styl nakładki przesuwania</string>
+    <string name="revanced_swipe_overlay_minimal_style_summary_on">Włączony</string>
+    <string name="revanced_swipe_overlay_minimal_style_summary_off">Wyłączony</string>
+    <string name="revanced_swipe_show_circular_overlay_title">Okrągła nakładka</string>
+    <string name="revanced_swipe_show_circular_overlay_summary_on">Włączona</string>
+    <string name="revanced_swipe_show_circular_overlay_summary_off">Wyłączona</string>
+    <string name="revanced_swipe_overlay_background_opacity_title">Przezroczystość tła nakładki przesuwania</string>
+    <string name="revanced_swipe_overlay_background_opacity_summary">Wartość musi być pomiędzy 0 a 100</string>
+    <string name="revanced_swipe_overlay_background_opacity_invalid_toast">Wartość musi być pomiędzy 0 a 100.</string>
     <string name="revanced_swipe_overlay_text_size_title">Rozmiar tekstu nakładki przesuwania</string>
     <string name="revanced_swipe_overlay_text_size_summary">Rozmiar tekstu nakładki przesuwania</string>
     <string name="revanced_swipe_overlay_rect_size_title">Rozmiar obszaru przesuwania</string>
@@ -1536,58 +1664,11 @@ Ograniczenia:
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">Automatyczna</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Filmy</string>
-    <string name="revanced_default_playback_speed_title">Domyślna prędkość odtwarzania</string>
-    <string name="revanced_default_video_quality_mobile_title">Domyślna jakość filmu podczas używania sieci mobilnej</string>
-    <string name="revanced_default_video_quality_wifi_title">Domyślna jakość filmu podczas używania Wi-Fi</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Codec -->
+    <string name="revanced_preference_category_codec">Kodek</string>
     <string name="revanced_disable_hdr_video_title">Filmy z HDR</string>
     <string name="revanced_disable_hdr_video_summary_on">Wyłączone</string>
     <string name="revanced_disable_hdr_video_summary_off">Włączone</string>
-    <string name="revanced_enable_custom_playback_speed_title">Niestandardowa prędkość odtwarzania</string>
-    <string name="revanced_enable_custom_playback_speed_summary_on">Włączona</string>
-    <string name="revanced_enable_custom_playback_speed_summary_off">Wyłączona</string>
-    <string name="revanced_custom_playback_speed_menu_type_title">Wygląd menu od prędkości odtwarzania</string>
-    <string name="revanced_custom_playback_speed_menu_type_summary_on">Własny</string>
-    <string name="revanced_custom_playback_speed_menu_type_summary_off">Stary</string>
-    <string name="revanced_custom_playback_speeds_title">Edytuj niestandardowe prędkości odtwarzania</string>
-    <string name="revanced_custom_playback_speeds_summary">Dodaj lub zmień dostępne prędkości odtwarzania</string>
-    <string name="revanced_remember_playback_speed_last_selected_title">Zapamiętuj zmiany prędkości odtwarzania</string>
-    <string name="revanced_remember_playback_speed_last_selected_summary_on">Zmiany prędkości odtwarzania dotyczą wszystkich filmów</string>
-    <string name="revanced_remember_playback_speed_last_selected_summary_off">Zmiany prędkości odtwarzania dotyczą tylko bieżącego filmu</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_title">Komunikaty o zmianie domyślnej prędkości odtwarzania</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">Włączone</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">Wyłączone</string>
-    <string name="revanced_remember_video_quality_last_selected_title">Zapamiętuj zmiany jakości filmu</string>
-    <string name="revanced_remember_video_quality_last_selected_summary_on">Zmiany jakości dotyczą wszystkich filmów</string>
-    <string name="revanced_remember_video_quality_last_selected_summary_off">Zmiany jakości dotyczą tylko bieżącego filmu</string>
-    <string name="revanced_remember_video_quality_last_selected_toast_title">Komunikaty o zmianie domyślnej jakości filmów</string>
-    <string name="revanced_remember_video_quality_last_selected_toast_summary_on">Włączone</string>
-    <string name="revanced_remember_video_quality_last_selected_toast_summary_off">Wyłączone</string>
-    <string name="revanced_restore_old_video_quality_menu_title">Stare menu od jakości filmu</string>
-    <string name="revanced_restore_old_video_quality_menu_summary_on">Widoczne</string>
-    <string name="revanced_restore_old_video_quality_menu_summary_off">Niewidoczne</string>
-    <string name="revanced_disable_default_playback_speed_music_title">Domyślna prędkość odtwarzania dla muzyki</string>
-    <string name="revanced_disable_default_playback_speed_music_on">Wyłączona</string>
-    <string name="revanced_disable_default_playback_speed_music_off">Włączona</string>
-    <string name="revanced_disable_default_playback_speed_music_type_title">Sprawdzaj przy użyciu kategorii</string>
-    <string name="revanced_disable_default_playback_speed_music_type_on">Wyłączone dla filmów z kategorią muzyki</string>
-    <string name="revanced_disable_default_playback_speed_music_type_off">Wyłączone dla filmów odtwarzalnych w YouTube Music</string>
-    <string name="revanced_enable_default_playback_speed_shorts_title">Domyślna prędkość odtwarzania w Shortsach</string>
-    <string name="revanced_enable_default_playback_speed_shorts_summary_on">Włączona</string>
-    <string name="revanced_enable_default_playback_speed_shorts_summary_off">Wyłączona</string>
-    <string name="revanced_skipped_preloaded_buffer">Pominięto wstępnie załadowany bufor.</string>
-    <string name="revanced_skip_preloaded_buffer_title">Wstępnie załadowany bufor</string>
-    <string name="revanced_skip_preloaded_buffer_summary">"Pomija wstępnie załadowany bufor na początku filmu, aby natychmiastowo ustawić domyślną jakość filmu.
-
-Informacje:
-• Po uruchomieniu filmu występuje opóźnienie około 0.3 sekundy
-• Nie działa w przypadku filmów z HDR, transmisji na żywo i filmów krótszych niż 15 sekund."</string>
-    <string name="revanced_skip_preloaded_buffer_user_dialog_message">Włączenie tej opcji może spowodować problemy z odtwarzaniem filmów.</string>
-    <string name="revanced_skip_preloaded_buffer_toast_title">Komunikaty o pominięciu</string>
-    <string name="revanced_skip_preloaded_buffer_toast_summary_on">Widoczne</string>
-    <string name="revanced_skip_preloaded_buffer_toast_summary_off">Ukryte</string>
-    <string name="revanced_spoof_device_dimensions_title">Oszukaj rozdzielczość urządzenia</string>
-    <string name="revanced_spoof_device_dimensions_summary">"Oszukuje rozdzielczość urządzenia do maksymalnej wartości.
-Wysoka jakość może być odblokowana na niektórych filmach, które wymagają wysokiej rozdzielczości urządzenia, lecz nie na wszystkich."</string>
     <string name="revanced_disable_vp9_codec_title">Wyłącz kodek VP9</string>
     <string name="revanced_disable_vp9_codec_summary_on">"Wyłączone
 
@@ -1597,16 +1678,88 @@ Wysoka jakość może być odblokowana na niektórych filmach, które wymagają 
     <string name="revanced_disable_vp9_codec_summary_off">Włączone</string>
     <string name="revanced_replace_av1_codec_title">Zmień kodek AV1 programu</string>
     <string name="revanced_replace_av1_codec_summary">Zastąp kodek AV1 programu kodekiem VP9</string>
-    <string name="revanced_reject_av1_codec_title">Odrzucaj kodek AV1 programu</string>
-    <string name="revanced_reject_av1_codec_summary">"Odrzucaj kodek AV1 programu.
-Po około 20 sekundach ładowania kodek zostanie zmieniony."</string>
-    <string name="revanced_reject_av1_codec_toast">Ten sposób powoduje około 20 sekund ładowania.</string>
-    <string name="revanced_remember_playback_speed_toast">Zmieniono domyślną prędkość odtwarzania na %s.</string>
-    <string name="revanced_remember_video_quality_mobile">Zmieniono domyślną jakość podczas używania sieci mobilnej na %s.</string>
-    <string name="revanced_remember_video_quality_none">Nie udało się zmienić jakości obrazu.</string>
-    <string name="revanced_remember_video_quality_wifi">Zmieniono domyślną jakość podczas używania Wi-Fi na %s.</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Playback speed -->
+    <string name="revanced_preference_category_playback_speed">Prędkość odtwarzania</string>
+    <string name="revanced_default_playback_speed_title">Domyślna prędkość odtwarzania</string>
+    <string name="revanced_remember_playback_speed_last_selected_title">Zapamiętuj zmiany prędkości odtwarzania</string>
+    <string name="revanced_remember_playback_speed_last_selected_summary_on">Zmiany prędkości odtwarzania dotyczą wszystkich filmów</string>
+    <string name="revanced_remember_playback_speed_last_selected_summary_off">Zmiany prędkości odtwarzania dotyczą tylko bieżącego filmu</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">Komunikaty o zmianie domyślnej prędkości odtwarzania</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">Włączone</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">Wyłączone</string>
+    <string name="revanced_default_playback_speed_shorts_title">Domyślna prędkość odtwarzania w Shortsach</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_title">Zapamiętuj zmiany prędkości odtwarzania w Shortsach</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_summary_on">"Dla wszystkich Shortsów
+
+Informacje:
+• jedyną drogą zmiany prędkości odtwarzania w odtwarzaczu Shortsów jest użycie 'Prędkość odtwarzania' w 'Własne akcje'
+• jeśli nie zawarłeś łatki związanej z komponentami Shortsów, nie będzie to możliwe"</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_summary_off">Dla bieżącego Shortsa</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_toast_title">Komunikat o zmianie domyślnej prędkości odtwarzania dla Shortsów</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_toast_summary_on">Włączony</string>
+    <string name="revanced_remember_playback_speed_shorts_last_selected_toast_summary_off">Wyłączony</string>
+    <string name="revanced_remember_playback_speed_toast">Zmieniono domyślną prędkość odtwarzania na: %s.</string>
+    <string name="revanced_remember_playback_speed_toast_shorts">Zmieniono domyślną prędkość odtwarzania w Shortsach na: %s.</string>
+    <string name="revanced_enable_custom_playback_speed_title">Niestandardowa prędkość odtwarzania</string>
+    <string name="revanced_enable_custom_playback_speed_summary_on">Włączona</string>
+    <string name="revanced_enable_custom_playback_speed_summary_off">Wyłączona</string>
+    <string name="revanced_custom_playback_speed_menu_type_title">Wygląd menu od prędkości odtwarzania</string>
+    <string name="revanced_custom_playback_speed_menu_type_summary_on">Własny</string>
+    <string name="revanced_custom_playback_speed_menu_type_summary_off">Stary</string>
+    <string name="revanced_custom_playback_speeds_title">Edytuj niestandardowe prędkości odtwarzania</string>
+    <string name="revanced_custom_playback_speeds_summary">Dodaj lub zmień dostępne prędkości odtwarzania</string>
     <string name="revanced_custom_playback_speeds_invalid">Niestandardowe prędkości muszą by mniejsze niż %sx.</string>
     <string name="revanced_custom_playback_speeds_parse_exception">Nieprawidłowe niestandardowe prędkości odtwarzania.</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Video quality -->
+    <string name="revanced_preference_category_video_quality">Jakość filmu</string>
+    <string name="revanced_default_video_quality_mobile_title">Domyślna jakość filmu podczas używania sieci mobilnej</string>
+    <string name="revanced_default_video_quality_wifi_title">Domyślna jakość filmu podczas używania Wi-Fi</string>
+    <string name="revanced_remember_video_quality_last_selected_title">Zapamiętuj zmiany jakości filmu</string>
+    <string name="revanced_remember_video_quality_last_selected_summary_on">Zmiany jakości dotyczą wszystkich filmów</string>
+    <string name="revanced_remember_video_quality_last_selected_summary_off">Zmiany jakości dotyczą tylko bieżącego filmu</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_title">Komunikaty o zmianie domyślnej jakości filmów</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary_on">Włączone</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary_off">Wyłączone</string>
+    <string name="revanced_default_video_quality_mobile_shorts_title">Domyślna jakość Shortsów podczas używania sieci mobilnej</string>
+    <string name="revanced_default_video_quality_wifi_shorts_title">Domyślna jakość Shortsów podczas używania Wi-Fi</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_title">Zapamiętuj zmiany jakości Shortsów</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_summary_on">Dla wszystkich Shortsów</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_summary_off">Dla bieżącego Shortsa</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_toast_title">Komunikat o zmianie domyślnej jakości Shortsa</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_toast_summary_on">Włączony</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_toast_summary_off">Wyłączony</string>
+    <string name="revanced_remember_video_quality_mobile">Sieć mobilna</string>
+    <string name="revanced_remember_video_quality_wifi">Wi-Fi</string>
+    <string name="revanced_remember_video_quality_toast">Zmieniono domyślną jakość filmu z %1$s na: %2$s.</string>
+    <string name="revanced_remember_video_quality_toast_shorts">Zmieniono domyślną jakość Shortsa z %1$s na: %2$s.</string>
+    <string name="revanced_restore_old_video_quality_menu_title">Stare menu od jakości filmu</string>
+    <string name="revanced_restore_old_video_quality_menu_summary_on">Widoczne</string>
+    <string name="revanced_restore_old_video_quality_menu_summary_off">Niewidoczne</string>
+    <string name="revanced_skipped_preloaded_buffer">Pominięto wstępnie załadowany bufor.</string>
+    <string name="revanced_skip_preloaded_buffer_title">Wstępnie załadowany bufor</string>
+    <string name="revanced_skip_preloaded_buffer_summary">"Pomija wstępnie załadowany bufor na początku filmu, aby natychmiastowo ustawić domyślną jakość filmu.
+
+Informacje:
+• po uruchomieniu filmu występuje opóźnienie około 0.3 sekundy
+• nie działa w przypadku filmów z HDR, transmisji na żywo i filmów krótszych niż 15 sekund.
+• opcja 'Oszukuj strumień danych' również pomija wstępnie załadowany bufor, więc ta opcja nie jest potrzebna, jeśli używasz tego ustawienia"</string>
+    <string name="revanced_skip_preloaded_buffer_user_dialog_message">Włączenie tej opcji może spowodować problemy z odtwarzaniem filmów.</string>
+    <string name="revanced_skip_preloaded_buffer_toast_title">Komunikaty o pominięciu</string>
+    <string name="revanced_skip_preloaded_buffer_toast_summary_on">Widoczne</string>
+    <string name="revanced_skip_preloaded_buffer_toast_summary_off">Ukryte</string>
+    <string name="revanced_spoof_device_dimensions_title">Oszukaj rozdzielczość urządzenia</string>
+    <string name="revanced_spoof_device_dimensions_summary">"Oszukuje rozdzielczość urządzenia do maksymalnej wartości.
+
+Informacje:
+• wysoka jakość może być odblokowana na niektórych filmach, które wymagają wysokiej rozdzielczości urządzenia, lecz nie na wszystkich
+• ustawienie nie będzie dostępne, jeśli opcja 'Oszukuj strumień danych' jest włączona"</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Experimental flags -->
+    <string name="revanced_disable_default_playback_speed_music_title">Domyślna prędkość odtwarzania dla muzyki</string>
+    <string name="revanced_disable_default_playback_speed_music_on">Wyłączona</string>
+    <string name="revanced_disable_default_playback_speed_music_off">Włączona</string>
+    <string name="revanced_disable_default_playback_speed_music_type_title">Sprawdzaj przy użyciu kategorii</string>
+    <string name="revanced_disable_default_playback_speed_music_type_on">Wyłączone dla filmów z kategorią muzyki</string>
+    <string name="revanced_disable_default_playback_speed_music_type_off">Wyłączone dla filmów odtwarzalnych w YouTube Music</string>
     <!-- PreferenceScreen: Return YouTube Dislike -->
     <string name="revanced_preference_screen_ryd_title">Return YouTube Dislike</string>
     <string name="revanced_ryd_enable_title">Return YouTube Dislike</string>
@@ -1736,6 +1889,7 @@ Kliknij, by zobaczyć, jak zgłosić klucz API."</string>
     <string name="revanced_sb_skip_showbutton">Pokaż przycisk od pomijania</string>
     <string name="revanced_sb_skip_seekbaronly">Pokazuj w pasku postępu filmu</string>
     <string name="revanced_sb_skip_ignore">Wyłącz</string>
+    <string name="revanced_sb_color_opacity_label">Przezroczystość:</string>
     <string name="revanced_sb_color_dot_label">Kolor:</string>
     <string name="revanced_sb_color_changed">Kolor został zmieniony.</string>
     <string name="revanced_sb_color_reset">Kolor został zresetowany.</string>
@@ -1802,6 +1956,8 @@ Kliknij, by zobaczyć, jak zgłosić klucz API."</string>
     <string name="revanced_sb_vote_downvote">Głos przeciw</string>
     <string name="revanced_sb_vote_category">Zmień kategorię</string>
     <string name="revanced_sb_vote_no_segments">Brak segmentów, na które można zagłosować.</string>
+    <!-- A segment start and end time, such as "02:10 to 03:40" -->
+    <string name="revanced_sb_vote_segment_time_to_from">%1$s do %2$s</string>
     <string name="revanced_sb_new_segment_choose_category">Wybierz kategorię segmentu</string>
     <string name="revanced_sb_new_segment_disabled_category">Ta kategoria jest wyłączona w ustawieniach. Włącz kategorię, aby móc wysłać ten segment.</string>
     <string name="revanced_sb_new_segment_title">Nowy segment SponsorBlock</string>
@@ -1921,8 +2077,8 @@ Stuknij przycisk kontynuacji i zezwól na zmiany w optymalizacji."</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr_no_auth">"Android VR
 <small>(Bez autoryzacji)</small>"</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
-<small>(Wymagany PoToken)</small>"</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_deprecated">"iOS
+<small>(Porzucone)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
 <small>(Wymagane zalogowanie)</small>"</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Efekty uboczne oszukiwania</string>
@@ -1930,10 +2086,22 @@ Stuknij przycisk kontynuacji i zezwól na zmiany w optymalizacji."</string>
 • Stabilna głośność nie jest dostępna
 • Automatyczne wymuszenie ścieżki dźwiękowej nie jest dostępne
 • Filmy dla dzieci mogą się nie odtwarzać będąc zalogowanym lub w trybie incognito"</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• Mogą wystąpić problemy z odtwarzaniem (wymagany PoToken)</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_deprecated">• Cały zakres ASNów/IP może być zablokowany przez serwer</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• Stabilna głośność nie jest dostępna
 • Filmy kinowe lub płatne mogą się nie odtwarzać
 • Filmy dla dzieci mogą się nie odtwarzać będąc zalogowanym lub w trybie incognito"</string>
+    <string name="revanced_spoof_streaming_data_type_ios_title">Włącz klienta iOS</string>
+    <string name="revanced_spoof_streaming_data_type_ios_summary_on">"Tak
+
+OSTRZEŻENIE: Klient iOS jest porzucony. Wszelkie problemy pojawiające się podczas korzystania, są na własne ryzyko."</string>
+    <string name="revanced_spoof_streaming_data_type_ios_summary_off">Nie</string>
+    <string name="revanced_spoof_streaming_data_type_ios_user_dialog_message">"Podczas żądania punktów końcowych interfejsu API YouTube za pomocą systemu iOS potrzebne będą tokeny Auth wydane przez urządzenie z systemem iOS oraz PoTokeny wydane przez iOSGuard.
+
+Oznacza to, że żądania przesyłania strumieniowego za pośrednictwem systemu iOS będą pozbawione zarówno tokenów Auth, jak i PoTokenów, a serwer może uznać użytkownika za bota i zablokować cały zakres ASN/IP.
+
+UŻYWAJ NA WŁASNE RYZYKO!
+
+Przetłumaczono z DeepL.com (wersja darmowa)"</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Wymuś kodek iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Wymuszony</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">Określany automatycznie</string>
@@ -1952,6 +2120,8 @@ AVC obsługuje maksymalnie rozdzielczość 1080p, kodek audio OPUS nie jest dost
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Widoczna</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Ukryta</string>
     <string name="revanced_spoof_streaming_data_language_title">Domyślny język dla transmisji na żywo dla VR</string>
+    <string name="revanced_spoof_streaming_data_failed_forbidden">Nie można przechwycić żadnego ze strumieni klienta.</string>
+    <string name="revanced_spoof_streaming_data_failed_forbidden_suggestion">Możesz nie być zalogowany.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <string name="revanced_preference_category_po_token_visitor_data">PoToken / VisitorData</string>
     <string name="revanced_spoof_streaming_data_po_token_title">PoToken do użycia</string>

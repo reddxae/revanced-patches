@@ -18,59 +18,9 @@
     <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s не е инсталиран.
 Моля, изтеглете %2$s от уебсайта."</string>
     <string name="revanced_external_downloader_not_installed_warning">%s не е инсталирано. Моля инсталирайте го.</string>
+    <string name="revanced_queue_manager_add_to_queue">Добави към опашката</string>
     <string name="revanced_language_title">RVX език</string>
     <string name="revanced_language_DEFAULT">Език на приложението</string>
-    <string name="revanced_language_AR">Арабски</string>
-    <string name="revanced_language_AZ">Азербайджански</string>
-    <string name="revanced_language_BG">Български</string>
-    <string name="revanced_language_BN">Бенгалски</string>
-    <string name="revanced_language_CA">Каталонски</string>
-    <string name="revanced_language_CS">Чешки</string>
-    <string name="revanced_language_DA">Датски</string>
-    <string name="revanced_language_DE">Немски</string>
-    <string name="revanced_language_EL">Гръцки</string>
-    <string name="revanced_language_EN">Английски</string>
-    <string name="revanced_language_ES">Испански</string>
-    <string name="revanced_language_ET">Естонски</string>
-    <string name="revanced_language_FA">Персийски</string>
-    <string name="revanced_language_FI">Финландски</string>
-    <string name="revanced_language_FR">Френски</string>
-    <string name="revanced_language_GU">Гуджарати</string>
-    <string name="revanced_language_HI">Хинди</string>
-    <string name="revanced_language_HR">Хърватски</string>
-    <string name="revanced_language_HU">Унгарски</string>
-    <string name="revanced_language_ID">Индонезийски</string>
-    <string name="revanced_language_IT">Италиански</string>
-    <string name="revanced_language_JA">Японски</string>
-    <string name="revanced_language_KK">Казахстански</string>
-    <string name="revanced_language_KO">Корейски</string>
-    <string name="revanced_language_LT">Литовски</string>
-    <string name="revanced_language_LV">Латвийски</string>
-    <string name="revanced_language_MK">Македонски</string>
-    <string name="revanced_language_MN">Монголски</string>
-    <string name="revanced_language_MR">Маратхи</string>
-    <string name="revanced_language_MS">Малайски</string>
-    <string name="revanced_language_MY">Бирмански</string>
-    <string name="revanced_language_NL">Холандски</string>
-    <string name="revanced_language_OR">Ория</string>
-    <string name="revanced_language_PA">Пенджабски</string>
-    <string name="revanced_language_PL">Полски</string>
-    <string name="revanced_language_PT">Португалски</string>
-    <string name="revanced_language_RO">Румънски</string>
-    <string name="revanced_language_RU">Руски</string>
-    <string name="revanced_language_SK">Словашки</string>
-    <string name="revanced_language_SL">Словенски</string>
-    <string name="revanced_language_SR">Сръбски</string>
-    <string name="revanced_language_SV">Шведски</string>
-    <string name="revanced_language_SW">Суахили</string>
-    <string name="revanced_language_TA">Тамилски</string>
-    <string name="revanced_language_TE">Телугу</string>
-    <string name="revanced_language_TH">Тайландски</string>
-    <string name="revanced_language_TR">Турски</string>
-    <string name="revanced_language_UK">Украински</string>
-    <string name="revanced_language_UR">Урду</string>
-    <string name="revanced_language_VI">Виетнамски</string>
-    <string name="revanced_language_ZH">Китайски</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Реклами</string>
     <string name="revanced_hide_fullscreen_ads_title">Скриване на рекламите в режим на цял екран</string>
@@ -371,9 +321,6 @@
     <string name="revanced_disable_splash_animation_title">Анимация при стартиране на приложението</string>
     <string name="revanced_disable_splash_animation_summary_on">Новата начална анимация е изключена.</string>
     <string name="revanced_disable_splash_animation_summary_off">Новата начална анимация е включена.</string>
-    <string name="revanced_disable_translucent_status_bar_title">Деактивирайте полупрозрачната лента на прогреса</string>
-    <string name="revanced_disable_translucent_status_bar_summary_on">Лентата на прогреса е непрозрачна.</string>
-    <string name="revanced_disable_translucent_status_bar_summary_off">Лентата на прогреса е непрозрачна или полупрозрачна.</string>
     <string name="revanced_enable_gradient_loading_screen_title">Градиентен екрана за зареждане</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">Екранът за зареждане с градиент е активиран.</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">Екранът за зареждане с градиент е деактивиран.</string>
@@ -388,6 +335,9 @@
     <string name="revanced_change_live_ring_click_action_title">Действие на кликване върху точка за предаване на живо</string>
     <string name="revanced_change_live_ring_click_action_summary_on">"Каналът се отваря, когато се щракне върху пръстена на живо."</string>
     <string name="revanced_change_live_ring_click_action_summary_off">Потокът на живо се отваря, когато се щракне върху пръстена на живо.</string>
+    <string name="revanced_disable_translucent_status_bar_title">Деактивирайте полупрозрачната лента на прогреса</string>
+    <string name="revanced_disable_translucent_status_bar_summary_on">Лентата на прогреса е непрозрачна.</string>
+    <string name="revanced_disable_translucent_status_bar_summary_off">Лентата на прогреса е непрозрачна или полупрозрачна.</string>
     <string name="revanced_spoof_app_version_title">Променете версията на приложението</string>
     <string name="revanced_spoof_app_version_summary_on">Подправена версия</string>
     <string name="revanced_spoof_app_version_summary_off">Не подправена версия</string>
@@ -1379,10 +1329,10 @@
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_on">Когато намалите яркостта с жест до минимум, се активира автоматична яркост.</string>
     <string name="revanced_enable_swipe_lowest_value_auto_brightness_summary_off">Когато намалите яркостта с жест до минимум, автоматичната яркост Не се активира.</string>
     <string name="revanced_enable_swipe_brightness_title">Задаване на яркост чрез плъзгане</string>
-    <string name="revanced_enable_swipe_brightness_summary_on">Задаването на яркост чрез плъзгане е включено.</string>
+    <string name="revanced_enable_swipe_brightness_summary_on">"Задаването на яркост чрез плъзгане е включено."</string>
     <string name="revanced_enable_swipe_brightness_summary_off">Задаването на яркост чрез плъзгане е изключено.</string>
     <string name="revanced_enable_swipe_volume_title">Настройване на звука чрез плъзгане</string>
-    <string name="revanced_enable_swipe_volume_summary_on">Настройването на звука чрез плъзгане е включено.</string>
+    <string name="revanced_enable_swipe_volume_summary_on">"Настройването на звука чрез плъзгане е включено."</string>
     <string name="revanced_enable_swipe_volume_summary_off">Настройването на звука чрез плъзгане е изключено.</string>
     <string name="revanced_enable_save_and_restore_brightness_title">Вкл. запазване и възстановяване на яркост</string>
     <string name="revanced_enable_save_and_restore_brightness_summary_on">Запазване и възстаовяване яркостта при включване или изключване на цял екран.</string>
@@ -1396,8 +1346,6 @@
     <string name="revanced_swipe_gestures_lock_mode_title">Плъзне в режим Заключен екран</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_on">Жестовете за плъзгане са активирани в режим „Заключен екран“.</string>
     <string name="revanced_swipe_gestures_lock_mode_summary_off">Жестовете за плъзгане са деактивирани в режим „Заключен екран“.</string>
-    <string name="revanced_swipe_overlay_background_alpha_title">Видимост на фона на плъзгащите контроли</string>
-    <string name="revanced_swipe_overlay_background_alpha_summary">Видимостта на фона на плъзгащите контроли.</string>
     <string name="revanced_swipe_magnitude_threshold_title">Праг на величината на плъзгане</string>
     <string name="revanced_swipe_magnitude_threshold_summary">Амплитудата на движение, разпозната като жест.</string>
     <string name="revanced_swipe_overlay_text_size_title">Размер на текста при плъзгане</string>
@@ -1431,12 +1379,26 @@
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">Авто</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Видео</string>
-    <string name="revanced_default_playback_speed_title">Скорост на възпроизвеждане по подразбиране</string>
-    <string name="revanced_default_video_quality_mobile_title">Предпочитано качество при мобилни данни</string>
-    <string name="revanced_default_video_quality_wifi_title">Предпочитано качество при Wi-Fi</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Codec -->
     <string name="revanced_disable_hdr_video_title">Изкл. HDR клипове</string>
     <string name="revanced_disable_hdr_video_summary_on">HDR клиповете са изключени.</string>
     <string name="revanced_disable_hdr_video_summary_off">HDR клиповете са включени.</string>
+    <string name="revanced_disable_vp9_codec_title">Деактивирайте кодека VP9</string>
+    <string name="revanced_disable_vp9_codec_summary_on">"Кодек VP9 е деактивиран.
+• Максималната разделителна способност е 1080p.
+• Възпроизвеждането на видео ще използва повече интернет данни от VP9.
+• За да получите възпроизвеждане на HDR, HDR видеото все още използва кодека VP9."</string>
+    <string name="revanced_disable_vp9_codec_summary_off">VP9 кодек е включен.</string>
+    <string name="revanced_replace_av1_codec_title">Сменете софтуерния кодек AV1</string>
+    <string name="revanced_replace_av1_codec_summary">Заменя софтуерния кодек AV1 с кодека VP9.</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Playback speed -->
+    <string name="revanced_default_playback_speed_title">Скорост на възпроизвеждане по подразбиране</string>
+    <string name="revanced_remember_playback_speed_last_selected_title">Запомнете промените в скоростта на възпроизвеждане</string>
+    <string name="revanced_remember_playback_speed_last_selected_summary_on">Промените в скоростта на възпроизвеждане се отнасят за всички видеоклипове.</string>
+    <string name="revanced_remember_playback_speed_last_selected_summary_off">Промените в скоростта на възпроизвеждане се отнасят само за текущия видеоклип.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">Покажи съобщение</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">При промяна на скоростта на възпроизвеждане по подразбиране в долната част на екрана се появява съобщение.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">Няма съобщение в долната част на екрана при промяна на скоростта на възпроизвеждане по подразбиране.</string>
     <string name="revanced_enable_custom_playback_speed_title">Вкл. на скорост на видеото по избор</string>
     <string name="revanced_enable_custom_playback_speed_summary_on">Скоростта по избор на видеото е включена.</string>
     <string name="revanced_enable_custom_playback_speed_summary_off">Скоростта по избор на видеото е изключена.</string>
@@ -1445,12 +1407,11 @@
     <string name="revanced_custom_playback_speed_menu_type_summary_off">Използва се падащ панел в стар стил.</string>
     <string name="revanced_custom_playback_speeds_title">Редактиране на скоростите по избор на видеото</string>
     <string name="revanced_custom_playback_speeds_summary">Добавяне или смяна на възможните скорости.</string>
-    <string name="revanced_remember_playback_speed_last_selected_title">Запомнете промените в скоростта на възпроизвеждане</string>
-    <string name="revanced_remember_playback_speed_last_selected_summary_on">Промените в скоростта на възпроизвеждане се отнасят за всички видеоклипове.</string>
-    <string name="revanced_remember_playback_speed_last_selected_summary_off">Промените в скоростта на възпроизвеждане се отнасят само за текущия видеоклип.</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_title">Покажи съобщение</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">При промяна на скоростта на възпроизвеждане по подразбиране в долната част на екрана се появява съобщение.</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">Няма съобщение в долната част на екрана при промяна на скоростта на възпроизвеждане по подразбиране.</string>
+    <string name="revanced_custom_playback_speeds_invalid">Скоростите по избор трябва да са по-малки от %sx. Връщане на стойностите по подразбиране.</string>
+    <string name="revanced_custom_playback_speeds_parse_exception">Невалидна скорост на видеото. Връщане на стойности по подразбиране.</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Video quality -->
+    <string name="revanced_default_video_quality_mobile_title">Предпочитано качество при мобилни данни</string>
+    <string name="revanced_default_video_quality_wifi_title">Предпочитано качество при Wi-Fi</string>
     <string name="revanced_remember_video_quality_last_selected_title">Запомнете промените в качеството на видеото</string>
     <string name="revanced_remember_video_quality_last_selected_summary_on">Промените в качеството се отнасят за всички видеоклипове.</string>
     <string name="revanced_remember_video_quality_last_selected_summary_off">Промените в качеството се отнасят само за текущия видеоклип.</string>
@@ -1460,15 +1421,6 @@
     <string name="revanced_restore_old_video_quality_menu_title">Възстановете старото меню за качество на видеото</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">Показва се старото меню за видео качество.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Старото меню за видео качество е скрито.</string>
-    <string name="revanced_disable_default_playback_speed_music_title">Деактивирайте скоростта на възпроизвеждане за музика</string>
-    <string name="revanced_disable_default_playback_speed_music_on">Скоростта на възпроизвеждане по подразбиране е деактивирана за музика.</string>
-    <string name="revanced_disable_default_playback_speed_music_off">Скоростта на възпроизвеждане по подразбиране е активирана за музика.</string>
-    <string name="revanced_disable_default_playback_speed_music_type_title">Изберете скорост въз основа на категориите</string>
-    <string name="revanced_disable_default_playback_speed_music_type_on">Скоростта по подразбиране за категорията YouTube Music е деактивирана.</string>
-    <string name="revanced_disable_default_playback_speed_music_type_off">Скоростта по подразбиране за категорията YouTube Music е активирана.</string>
-    <string name="revanced_enable_default_playback_speed_shorts_title">Променете скоростта на възпроизвеждане на Shorts</string>
-    <string name="revanced_enable_default_playback_speed_shorts_summary_on">Скоростта на възпроизвеждане по подразбиране се прилага за Shorts.</string>
-    <string name="revanced_enable_default_playback_speed_shorts_summary_off">Скоростта на възпроизвеждане по подразбиране не се прилага за Shorts.</string>
     <string name="revanced_skipped_preloaded_buffer">Пропуснат предварително зареден буфер.</string>
     <string name="revanced_skip_preloaded_buffer_title">Пропусни предварително зареден буфер</string>
     <string name="revanced_skip_preloaded_buffer_summary">"Пропуска предварително заредения буфер в началото на видеоклиповете, за да приложи незабавно качеството на видеото по подразбиране. 
@@ -1481,25 +1433,13 @@
     <string name="revanced_skip_preloaded_buffer_toast_summary_on">Уведомлението се показва.</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_off">Уведомлението е скрито.</string>
     <string name="revanced_spoof_device_dimensions_title">Лъжливи параметри на устройството</string>
-    <string name="revanced_spoof_device_dimensions_summary">"Преоразмерява вашето устройство, за да покже видеоклипове с по-високо качество, които може да не са налични на вашето устройство."</string>
-    <string name="revanced_disable_vp9_codec_title">Деактивирайте кодека VP9</string>
-    <string name="revanced_disable_vp9_codec_summary_on">"Кодек VP9 е деактивиран.
-• Максималната разделителна способност е 1080p.
-• Възпроизвеждането на видео ще използва повече интернет данни от VP9.
-• За да получите възпроизвеждане на HDR, HDR видеото все още използва кодека VP9."</string>
-    <string name="revanced_disable_vp9_codec_summary_off">VP9 кодек е включен.</string>
-    <string name="revanced_replace_av1_codec_title">Сменете софтуерния кодек AV1</string>
-    <string name="revanced_replace_av1_codec_summary">Заменя софтуерния кодек AV1 с кодека VP9.</string>
-    <string name="revanced_reject_av1_codec_title">Отхвърлете софтуерния кодек AV1</string>
-    <string name="revanced_reject_av1_codec_summary">"Принудително отхвърляне на софтуерния кодек AV1 
-След приблизително 20 секунди буфериране ще бъде приложен друг кодек."</string>
-    <string name="revanced_reject_av1_codec_toast">Буфериране поради софтуерен кодек Av1 (прибл. 20 сек.).</string>
-    <string name="revanced_remember_playback_speed_toast">Смяна на скоростта на видеото на %s.</string>
-    <string name="revanced_remember_video_quality_mobile">Смяна на качеството при мобилни данни на %s.</string>
-    <string name="revanced_remember_video_quality_none">Грешка при настройка на качеството на видеото.</string>
-    <string name="revanced_remember_video_quality_wifi">Смяна на качеството при Wi-Fi на%s.</string>
-    <string name="revanced_custom_playback_speeds_invalid">Скоростите по избор трябва да са по-малки от %sx. Връщане на стойностите по подразбиране.</string>
-    <string name="revanced_custom_playback_speeds_parse_exception">Невалидна скорост на видеото. Връщане на стойности по подразбиране.</string>
+    <!-- PreferenceScreen: Video, PreferenceCategory: Experimental flags -->
+    <string name="revanced_disable_default_playback_speed_music_title">Деактивирайте скоростта на възпроизвеждане за музика</string>
+    <string name="revanced_disable_default_playback_speed_music_on">Скоростта на възпроизвеждане по подразбиране е деактивирана за музика.</string>
+    <string name="revanced_disable_default_playback_speed_music_off">Скоростта на възпроизвеждане по подразбиране е активирана за музика.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_title">Изберете скорост въз основа на категориите</string>
+    <string name="revanced_disable_default_playback_speed_music_type_on">Скоростта по подразбиране за категорията YouTube Music е деактивирана.</string>
+    <string name="revanced_disable_default_playback_speed_music_type_off">Скоростта по подразбиране за категорията YouTube Music е активирана.</string>
     <!-- PreferenceScreen: Return YouTube Dislike -->
     <string name="revanced_preference_screen_ryd_title">Return YouTube Dislike (показва нехаресванията)</string>
     <string name="revanced_ryd_enable_title">Вкл. на Return YouTube Dislike</string>
@@ -1695,6 +1635,7 @@
     <string name="revanced_sb_vote_downvote">Отрицателен вот</string>
     <string name="revanced_sb_vote_category">Промяна на категорията</string>
     <string name="revanced_sb_vote_no_segments">Няма сегменти, за които да гласувате.</string>
+    <!-- A segment start and end time, such as "02:10 to 03:40" -->
     <string name="revanced_sb_new_segment_choose_category">Изберете категорията на частта</string>
     <string name="revanced_sb_new_segment_disabled_category">Категорията е изкл. в настройките. Вкл. я за да можете да изпратите.</string>
     <string name="revanced_sb_new_segment_title">Нова част в SponsorBlock</string>
@@ -1803,8 +1744,6 @@
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr_no_auth">"Android VR
 <small>(Няма удостоверение)</small>"</string>
-    <string name="revanced_spoof_streaming_data_type_entry_ios">"iOS
-<small>(Необходим PoToken)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS
 <small>(Необходим вход)</small>"</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Ефекти от замяната</string>
@@ -1812,7 +1751,6 @@
 • Не е наличен стабилен звук.
 • Деактивиране на принудителни автоматични аудио записи не е налично.
 • Детските видеоклипове може да не се възпроизвеждат, когато сте излезли или сте в режим инкогнито."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• Възможно е да има проблеми с възпроизвеждането (необходим е PoToken).</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios_unplugged">"• Филми или платени видеоклипове може да не се възпроизвеждат.
 • Детските видеоклипове може да не се възпроизвеждат, когато сте излезли или сте в режим инкогнито."</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Принудително AVC (H.264) за iOS</string>

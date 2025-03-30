@@ -26,6 +26,7 @@ android {
 dependencies {
     compileOnly(libs.annotation)
     compileOnly(libs.preference)
+    implementation(libs.collections4)
     implementation(libs.lang3)
 
     compileOnly(project(":extensions:shared:stub"))

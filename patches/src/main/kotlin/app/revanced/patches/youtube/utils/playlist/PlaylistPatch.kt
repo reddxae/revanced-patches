@@ -34,8 +34,10 @@ val playlistPatch = bytecodePatch(
     execute {
         // In Incognito mode, sending a request always seems to fail.
         accountIdentityFingerprint.methodOrThrow().addInstructions(
-            1,
-            "invoke-static/range {p4 .. p4}, $EXTENSION_CLASS_DESCRIPTOR->setIncognitoStatus(Z)V"
+            1, """
+                sput-object p3, $EXTENSION_CLASS_DESCRIPTOR->dataSyncId:Ljava/lang/String;
+                sput-boolean p4, $EXTENSION_CLASS_DESCRIPTOR->isIncognito:Z
+                """
         )
 
         // Get the header to use the auth token.

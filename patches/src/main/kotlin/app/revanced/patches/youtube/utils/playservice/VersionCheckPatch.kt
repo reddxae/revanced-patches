@@ -25,6 +25,8 @@ var is_19_05_or_greater = false
     private set
 var is_19_09_or_greater = false
     private set
+var is_19_11_or_greater = false
+    private set
 var is_19_15_or_greater = false
     private set
 var is_19_16_or_greater = false
@@ -100,6 +102,7 @@ val versionCheckPatch = resourcePatch(
         is_19_04_or_greater = 240502000 <= playStoreServicesVersion
         is_19_05_or_greater = 240602000 <= playStoreServicesVersion
         is_19_09_or_greater = 241002000 <= playStoreServicesVersion
+        is_19_11_or_greater = 241199000 <= playStoreServicesVersion
         is_19_15_or_greater = 241602000 <= playStoreServicesVersion
         is_19_16_or_greater = 241702000 <= playStoreServicesVersion
         is_19_17_or_greater = 241802000 <= playStoreServicesVersion

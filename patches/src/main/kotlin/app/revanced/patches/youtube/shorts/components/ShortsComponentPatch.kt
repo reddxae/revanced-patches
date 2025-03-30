@@ -35,6 +35,7 @@ import app.revanced.patches.youtube.utils.playservice.is_18_31_or_greater
 import app.revanced.patches.youtube.utils.playservice.is_18_34_or_greater
 import app.revanced.patches.youtube.utils.playservice.is_18_49_or_greater
 import app.revanced.patches.youtube.utils.playservice.is_19_02_or_greater
+import app.revanced.patches.youtube.utils.playservice.is_19_11_or_greater
 import app.revanced.patches.youtube.utils.playservice.is_19_25_or_greater
 import app.revanced.patches.youtube.utils.playservice.is_19_28_or_greater
 import app.revanced.patches.youtube.utils.playservice.is_19_34_or_greater
@@ -74,7 +75,6 @@ import app.revanced.patches.youtube.video.videoid.hookPlayerResponseVideoId
 import app.revanced.patches.youtube.video.videoid.videoIdPatch
 import app.revanced.util.REGISTER_TEMPLATE_REPLACEMENT
 import app.revanced.util.ResourceGroup
-import app.revanced.util.addEntryValues
 import app.revanced.util.cloneMutable
 import app.revanced.util.copyResources
 import app.revanced.util.findMethodOrThrow
@@ -339,7 +339,30 @@ private val shortsCustomActionsPatch = bytecodePatch(
             }
         }
 
-        recyclerViewTreeObserverHook("$EXTENSION_CUSTOM_ACTIONS_CLASS_DESCRIPTOR->onFlyoutMenuCreate(Landroid/support/v7/widget/RecyclerView;)V")
+        if (is_19_11_or_greater) {
+            // The type of the Shorts flyout menu is RecyclerView.
+            recyclerViewTreeObserverHook("$EXTENSION_CUSTOM_ACTIONS_CLASS_DESCRIPTOR->onFlyoutMenuCreate(Landroid/support/v7/widget/RecyclerView;)V")
+        } else {
+            // The type of the Shorts flyout menu is ListView.
+            val dismissReference = with (bottomSheetMenuDismissFingerprint.methodOrThrow(bottomSheetMenuListBuilderFingerprint)) {
+                val dismissIndex = indexOfDismissInstruction(this)
+                getInstruction<ReferenceInstruction>(dismissIndex).reference
+            }
+
+            bottomSheetMenuItemClickFingerprint
+                .methodOrThrow(bottomSheetMenuListBuilderFingerprint)
+                .addInstructionsWithLabels(
+                    0, """
+                        invoke-static/range {p2 .. p2}, $EXTENSION_CUSTOM_ACTIONS_CLASS_DESCRIPTOR->onBottomSheetMenuItemClick(Landroid/view/View;)Z
+                        move-result v0
+                        if-eqz v0, :ignore
+                        invoke-virtual {p0}, $dismissReference
+                        return-void
+                        :ignore
+                        nop
+                        """,
+                )
+        }
 
         // endregion
 

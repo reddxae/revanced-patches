@@ -1046,8 +1046,7 @@
     "description": "Adds an option to disable the popup that appears when taking a screenshot.",
     "use": true,
     "dependencies": [
-      "Settings for Reddit",
-      "ResourcePatch"
+      "Settings for Reddit"
     ],
     "compatiblePackages": {
       "com.reddit.frontpage": [

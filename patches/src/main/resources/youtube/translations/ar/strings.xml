@@ -53,6 +53,116 @@
     <string name="revanced_queue_manager_fetch_succeeded_save">تم حفظ قائمة الانتظار بنجاح في \'%s\'.</string>
     <string name="revanced_language_title">لغة RVX</string>
     <string name="revanced_language_DEFAULT">لغة التطبيق</string>
+    <string name="revanced_language_AM">"الأمهرية
+<small>አማርኛ</small>"</string>
+    <string name="revanced_language_AR">"العربية
+<small>العربية</small>"</string>
+    <string name="revanced_language_AZ">"الأذربيجانية
+<small>Azərbaycan</small>"</string>
+    <string name="revanced_language_BE">"البيلاروسية
+<small>беларуская</small>"</string>
+    <string name="revanced_language_BG">"البلغارية
+<small>Български</small>"</string>
+    <string name="revanced_language_BN">"البنغالية
+<small>বাংলা</small>"</string>
+    <string name="revanced_language_CA">"الكاتالونية
+<small>Català</small>"</string>
+    <string name="revanced_language_CS">"التشيكية
+<small>Čeština</small>"</string>
+    <string name="revanced_language_DA">"الدانماركية
+<small>Dansk</small>"</string>
+    <string name="revanced_language_DE">"الألمانية
+<small>Deutsch</small>"</string>
+    <string name="revanced_language_EL">"اليونانية
+<small>Ελληνικά</small>"</string>
+    <string name="revanced_language_EN">"الإنجليزية
+<small>English</small>"</string>
+    <string name="revanced_language_ES">"الأسبانية
+<small>Español</small>"</string>
+    <string name="revanced_language_ET">"الإستونية
+<small>Eesti</small>"</string>
+    <string name="revanced_language_FA">"الفارسية
+<small>فارسی</small>"</string>
+    <string name="revanced_language_FI">"الفنلندية
+<small>Suomi</small>"</string>
+    <string name="revanced_language_FR">"الفرنسية
+<small>Français</small>"</string>
+    <string name="revanced_language_GU">"الغوجاراتية
+<small>ગુજરાતી</small>"</string>
+    <string name="revanced_language_HE">"العبرية
+<small>עברי</small>"</string>
+    <string name="revanced_language_HI">"الهندية
+<small>हिन्दी</small>"</string>
+    <string name="revanced_language_HR">"الكرواتية
+<small>Hrvatski</small>"</string>
+    <string name="revanced_language_HU">"المجرية
+<small>Magyar</small>"</string>
+    <string name="revanced_language_ID">"الإندونيسية
+<small>Indonesia</small>"</string>
+    <string name="revanced_language_IT">"الإيطالية
+<small>Italiano</small>"</string>
+    <string name="revanced_language_JA">"اليابانية
+<small>日本語</small>"</string>
+    <string name="revanced_language_KK">"الكازاخستانية
+<small>Қазақ тілі</small>"</string>
+    <string name="revanced_language_KO">"الكورية
+<small>한국어</small>"</string>
+    <string name="revanced_language_LT">"الليتوانية
+<small>Lietuvių</small>"</string>
+    <string name="revanced_language_LV">"اللاتفية
+<small>Latviešu</small>"</string>
+    <string name="revanced_language_MK">"المقدونية
+<small>Македонски</small>"</string>
+    <string name="revanced_language_MN">"المنغولية
+<small>Монгол</small>"</string>
+    <string name="revanced_language_MR">"الماراثية
+<small>मराठी</small>"</string>
+    <string name="revanced_language_MS">"الملايو
+<small>Melayu</small>"</string>
+    <string name="revanced_language_MY">"البورمية
+<small>ဗမာ</small>"</string>
+    <string name="revanced_language_NL">"الهولندية
+<small>Nederlands</small>"</string>
+    <string name="revanced_language_OR">"أوديا
+<small>ଓଡ଼ିଆ</small>"</string>
+    <string name="revanced_language_PA">"البنجابية
+<small>ਪੰਜਾਬੀ</small>"</string>
+    <string name="revanced_language_PL">"البولندية
+<small>Polski</small>"</string>
+    <string name="revanced_language_PT">"البرتغالية
+<small>Português</small>"</string>
+    <string name="revanced_language_RO">"الرومانية
+<small>Română</small>"</string>
+    <string name="revanced_language_RU">"الروسية
+<small>Русский</small>"</string>
+    <string name="revanced_language_SK">"السلوفاكية
+<small>Slovenčina</small>"</string>
+    <string name="revanced_language_SQ">"الألبانية
+<small>Shqip</small>"</string>
+    <string name="revanced_language_SL">"السلوفينية
+<small>Slovenščina</small>"</string>
+    <string name="revanced_language_SR">"الصربية
+<small>Српски</small>"</string>
+    <string name="revanced_language_SV">"السويدية
+<small>Svenska</small>"</string>
+    <string name="revanced_language_SW">"السواحيلية
+<small>Kiswahili</small>"</string>
+    <string name="revanced_language_TA">"التاميلية
+<small>தமிழ்</small>"</string>
+    <string name="revanced_language_TE">"التيلجو
+<small>తెలుగు</small>"</string>
+    <string name="revanced_language_TH">"التايلاندية
+<small>ไทย</small>"</string>
+    <string name="revanced_language_TR">"التركية
+<small>Türkçe</small>"</string>
+    <string name="revanced_language_UK">"الأوكرانية
+<small>Українська</small>"</string>
+    <string name="revanced_language_UR">"الأردية
+<small>اردو</small>"</string>
+    <string name="revanced_language_VI">"الفيتنامية
+<small>Tiếng Việt</small>"</string>
+    <string name="revanced_language_ZH">"الصينية
+<small>中文</small>"</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">الإعلانات</string>
     <string name="revanced_hide_end_screen_store_banner_title">إخفاء لافتة شاشة المتجر النهائية</string>
@@ -256,34 +366,34 @@
     <string name="revanced_hide_feed_flyout_menu_filter_strings_summary">قائمة بأسماء القائمة المنبثقة المراد تصفيتها، مفصولة بسطور جديدة.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter -->
     <string name="revanced_preference_screen_video_filter_title">عامل تصفية الفيديو</string>
-    <string name="revanced_preference_screen_video_filter_summary">إخفاء الفيديوهات بواسطة الكلمات الرئيسية أو المشاهدة.</string>
+    <string name="revanced_preference_screen_video_filter_summary">إخفاء الفيديوهات بواسطة الكلمات المفتاحية أو المشاهدة.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Keyword filter -->
-    <string name="revanced_preference_category_keyword_filter">تصفية الكلمات الرئيسية</string>
-    <string name="revanced_hide_keyword_content_comments_title">إخفاء التعليقات بواسطة الكلمات الرئيسية</string>
+    <string name="revanced_preference_category_keyword_filter">تصفية الكلمات المفتاحية</string>
+    <string name="revanced_hide_keyword_content_comments_title">إخفاء التعليقات بواسطة الكلمات المفتاحية</string>
     <string name="revanced_hide_keyword_content_comments_summary_on">يتم تصفية التعليقات.</string>
     <string name="revanced_hide_keyword_content_comments_summary_off">لا يتم تصفية التعليقات.</string>
-    <string name="revanced_hide_keyword_content_home_title">إخفاء فيديوهات الصفحة الرئيسية بواسطة الكلمات الرئيسية</string>
+    <string name="revanced_hide_keyword_content_home_title">إخفاء فيديوهات الصفحة الرئيسية بواسطة الكلمات المفتاحية</string>
     <string name="revanced_hide_keyword_content_home_summary_on">يتم تصفية الفيديوهات في موجز الصفحة الرئيسية.</string>
     <string name="revanced_hide_keyword_content_home_summary_off">لا يتم تصفية الفيديوهات في موجز الصفحة الرئيسية.</string>
-    <string name="revanced_hide_keyword_content_search_title">إخفاء نتائج البحث عن طريق الكلمات الرئيسية</string>
+    <string name="revanced_hide_keyword_content_search_title">إخفاء نتائج البحث عن طريق الكلمات المفتاحية</string>
     <string name="revanced_hide_keyword_content_search_summary_on">يتم تصفية نتائج البحث.</string>
     <string name="revanced_hide_keyword_content_search_summary_off">لا يتم تصفية نتائج البحث.</string>
-    <string name="revanced_hide_keyword_content_subscriptions_title">إخفاء الفيديوهات الخاصة بالاشتراك عن طريق الكلمات الرئيسية</string>
+    <string name="revanced_hide_keyword_content_subscriptions_title">إخفاء الفيديوهات الخاصة بالاشتراك عن طريق الكلمات المفتاحية</string>
     <string name="revanced_hide_keyword_content_subscriptions_summary_on">يتم تصفية الفيديوهات في موجز الاشتراكات.</string>
     <string name="revanced_hide_keyword_content_subscriptions_summary_off">لا يتم تصفية الفيديوهات في موجز الاشتراكات.</string>
-    <string name="revanced_hide_keyword_content_phrases_title">الكلمات الرئيسية المراد إخفاؤها</string>
-    <string name="revanced_hide_keyword_content_phrases_summary">"الكلمات والعبارات الرئيسية التي يجب إخفاؤها، مفصولة بأسطر جديدة.
+    <string name="revanced_hide_keyword_content_phrases_title">الكلمات المفتاحية المراد إخفاؤها</string>
+    <string name="revanced_hide_keyword_content_phrases_summary">"الكلمات والعبارات المفتاحية التي يجب إخفاؤها، مفصولة بأسطر جديدة.
 
-يمكن أن تكون الكلمات الرئيسية عبارة عن أسماء قنوات أو أي نص يظهر في عناوين الفيديو.
+يمكن أن تكون الكلمات المفتاحية عبارة عن أسماء قنوات أو أي نص يظهر في عناوين الفيديو.
 
 يجب إدخال الكلمات التي تحتوي على أحرف كبيرة في المنتصف باستخدام الأحرف الكبيرة (على سبيل المثال: iPhone، TikTok، LeBlanc)."</string>
-    <string name="revanced_hide_keyword_content_about_title">حول تصفية الكلمات الرئيسية</string>
-    <string name="revanced_hide_keyword_content_about_summary">"الصفحة الرئيسية / الاشتراكات / يتم تصفية نتائج البحث لإخفاء المحتوى الذي يطابق عبارات الكلمات الرئيسية.
+    <string name="revanced_hide_keyword_content_about_title">حول تصفية الكلمات المفتاحية</string>
+    <string name="revanced_hide_keyword_content_about_summary">"الصفحة الرئيسية / الاشتراكات / يتم تصفية نتائج البحث لإخفاء المحتوى الذي يطابق عبارات الكلمات المفتاحية.
 
  القيود:
  • لا يمكن إخفاء فيديوهات Shorts حسب اسم القناة.
  • قد لا تكون بعض مكونات واجهة المستخدم مخفية.
- • قد لا يؤدي البحث عن كلمة رئيسية إلى ظهور أية نتائج."</string>
+ • قد لا يؤدي البحث عن كلمة مفتاحية إلى ظهور أية نتائج."</string>
     <string name="revanced_hide_keyword_content_about_whole_words_title">مطابقة الكلمات كاملة</string>
     <string name="revanced_hide_keyword_content_about_whole_words_summary">سيؤدي وضع علامة اقتباس مزدوجة حول كلمة رئيسية/عبارة إلى منع التطابقات الجزئية لعناوين الفيديو وأسماء القنوات.&lt;br&gt;&lt;br&gt;على سبيل المثال،&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; سيخفي الفيديو: &lt;b&gt;How does AI work?&lt;/b&gt;&lt;br&gt;ولكن لن يخفي: &lt;b&gt;What does fair use mean?&lt;/b&gt;</string>
     <string name="revanced_hide_keyword_toast_invalid_common">لا يمكن استخدام الكلمة الرئيسية: %s.</string>

@@ -494,10 +494,10 @@ Playlists
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Αφαίρεση του παραθύρου προειδοποίησης ηλικιακού περιορισμού.
 Αυτό δεν παρακάμπτει τον ηλικιακό περιορισμό, απλά τον αποδέχεται αυτόματα."</string>
     <string name="revanced_change_live_ring_click_action_title">Αλλαγή ενέργειας πατήματος δακτυλίου ζωντανής μετάδοσης</string>
-    <string name="revanced_change_live_ring_click_action_summary_on">"Το κανάλι ανοίγει όταν πατιέται ο δακτύλιος ζωντανής μετάδοσης.
+    <string name="revanced_change_live_ring_click_action_summary_on">"Ανοίγει το κανάλι όταν πατιέται ο δακτύλιος ζωντανής μετάδοσης.
 
 Περιορισμός: Όταν πρόκειται για ζωντανή μετάδοση Shorts και η λειτουργία «Άνοιγμα των Shorts στην κανονική οθόνη αναπαραγωγής» είναι ενεργοποιημένη, δεν ανοίγει το κανάλι."</string>
-    <string name="revanced_change_live_ring_click_action_summary_off">Η ζωντανή μετάδοση ανοίγει όταν πατιέται ο δακτύλιος ζωντανής μετάδοσης.</string>
+    <string name="revanced_change_live_ring_click_action_summary_off">Ανοίγει η ζωντανή μετάδοση όταν πατιέται ο δακτύλιος ζωντανής μετάδοσης.</string>
     <string name="revanced_change_form_factor_title">Αλλαγή μορφής διάταξης</string>
     <string name="revanced_change_form_factor_entry_1">Προεπιλογή</string>
     <string name="revanced_change_form_factor_entry_2">Τηλέφωνο</string>
@@ -1334,7 +1334,7 @@ Playlists
     <string name="revanced_disable_rolling_number_animations_title">Απενεργοποίηση κινήσεων αριθμών</string>
     <string name="revanced_disable_rolling_number_animations_summary_on">Οι αριθμοί δεν κινούνται αυξανόμενοι εκθετικά.</string>
     <string name="revanced_disable_rolling_number_animations_summary_off">Οι αριθμοί κινούνται αυξανόμενοι εκθετικά.</string>
-    <string name="revanced_hide_ai_generated_video_summary_section_title">Σύνοψη βίντεο παραγμένου με τεχνητή νοημοσύνη</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_title">Σύνοψη βίντεο που δημιουργήθηκε από AI</string>
     <string name="revanced_hide_ai_generated_video_summary_section_summary_on">Κρυμμένη.</string>
     <string name="revanced_hide_ai_generated_video_summary_section_summary_off">Εμφανίζεται.</string>
     <string name="revanced_hide_attributes_section_title">Ενότητα ιδιοτήτων</string>
@@ -1750,7 +1750,8 @@ Playlists
     <string name="revanced_skip_preloaded_buffer_summary">"Παράλειψη προφόρτωσης στην αρχή του βίντεο, ώστε να γίνει άμεση εφαρμογή της προεπιλεγμένης ποιότητας.
 
 • Κατά την έναρξη του βίντεο, υπάρχει μια καθυστέρηση περίπου 0.3 δευτερολέπτων.
-• Δεν εφαρμόζεται σε βίντεο HDR, ζωντανές μεταδόσεις ή βίντεο μικρότερα από 15 δευτερόλεπτα."</string>
+• Δεν εφαρμόζεται σε βίντεο HDR, ζωντανές μεταδόσεις ή βίντεο μικρότερα από 15 δευτερόλεπτα.
+• Η λειτουργία «Παραποίηση δεδομένων ροής» παραλείπει επίσης από μόνη της την προφόρτωση, οπότε αν είναι ενεργοποιημένη τότε αυτή η λειτουργία δε χρειάζεται."</string>
     <string name="revanced_skip_preloaded_buffer_user_dialog_message">Η ενεργοποίηση αυτής της ρύθμισης μπορεί να προκαλέσει προβλήματα αναπαραγωγής βίντεο.</string>
     <string name="revanced_skip_preloaded_buffer_toast_title">Εμφάνιση μηνύματος κατά την παράλειψη</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_on">Εμφανίζεται μήνυμα στο κάτω μέρος της οθόνης.</string>

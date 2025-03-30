@@ -1619,7 +1619,7 @@ DeArrow の詳細については、ここをタップしてください。"</str
 ・最大解像度は 1080p です。
 ・動画を再生する際には VP9 コーデックよりも多くの通信量を消費します。
 ・HDR 動画では引き続き VP9 コーデックが使用されます。"</string>
-    <string name="revanced_disable_vp9_codec_summary_off">VP9 コーデックを無効化します。\n\n注意: \n・最大解像度は 1080p です。\n・動画を再生する際には VP9 コーデックよりも多くの通信量を消費します。\n・HDR 再生を可能にするために、HDR 動画では引き続き VP9 コーデックが使用されます。</string>
+    <string name="revanced_disable_vp9_codec_summary_off">VP9 コーデックを無効化します。\n\n注意: \n・最大解像度は 1080p です。\n・動画を再生する際には VP9 コーデックよりも多くの通信量を消費します。\n・HDR 動画では引き続き VP9 コーデックが使用されます。</string>
     <string name="revanced_replace_av1_codec_title">AV1 コーデックを置換</string>
     <string name="revanced_replace_av1_codec_summary">AV1 コーデックを VP9 コーデックに置き換えます。</string>
     <!-- PreferenceScreen: Video, PreferenceCategory: Playback speed -->
@@ -1666,7 +1666,7 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_remember_video_quality_last_selected_toast_summary_off">デフォルトの画質を変更した際にトーストが表示されるようにします。</string>
     <string name="revanced_default_video_quality_mobile_shorts_title">モバイルデータ通信使用時のデフォルト画質</string>
     <string name="revanced_default_video_quality_wifi_shorts_title">Wi-Fi 使用時のデフォルト画質</string>
-    <string name="revanced_remember_video_quality_shorts_last_selected_title">ショートの画質変更を保存</string>
+    <string name="revanced_remember_video_quality_shorts_last_selected_title">ショートの画質変更を記憶</string>
     <string name="revanced_remember_video_quality_shorts_last_selected_summary_on">現在の設定: 画質の変更はすべてのショートに適用されます。</string>
     <string name="revanced_remember_video_quality_shorts_last_selected_summary_off">現在の設定: 画質の変更は現在のショートにのみ適用されます。</string>
     <string name="revanced_remember_video_quality_shorts_last_selected_toast_title">トーストを表示</string>

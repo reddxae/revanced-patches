@@ -26,11 +26,13 @@ Please download %2$s from the website."</string>
     <string name="revanced_queue_manager_add_to_queue">Add to queue</string>
     <string name="revanced_queue_manager_add_to_queue_and_open_queue">Add to queue and open queue</string>
     <string name="revanced_queue_manager_add_to_queue_and_play_video">Add to queue and play video</string>
+    <string name="revanced_queue_manager_add_to_queue_and_reload_video">Add to queue and reload video</string>
     <string name="revanced_queue_manager_external_downloader">External downloader</string>
     <string name="revanced_queue_manager_open_queue">Open queue</string>
     <string name="revanced_queue_manager_queue">Queue</string>
     <string name="revanced_queue_manager_remove_from_queue">Remove from queue</string>
     <string name="revanced_queue_manager_remove_from_queue_and_open_queue">Remove from queue and open queue</string>
+    <string name="revanced_queue_manager_remove_from_queue_and_reload_video">Remove from queue and reload video</string>
     <string name="revanced_queue_manager_remove_queue">Remove queue</string>
     <string name="revanced_queue_manager_save_queue">Save queue</string>
     <string name="revanced_queue_manager_user_dialog_message">"Instead of opening an external downloader, open the queue manager dialog.

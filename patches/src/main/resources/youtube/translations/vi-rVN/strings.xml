@@ -2150,8 +2150,7 @@ Nhấp vào đây để biết thêm chi tiết."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->
     <string name="revanced_preference_screen_patch_information_title">Thông tin bản vá</string>
     <string name="revanced_preference_screen_patch_information_summary">Thông tin về các bản vá được áp dụng.</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Tool used -->
-    <string name="revanced_preference_category_tool_used">Công cụ được sử dụng</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: App info -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Others -->
     <string name="revanced_preference_category_others">Khác</string>
     <string name="revanced_icon_custom">Tùy chỉnh</string>
@@ -2162,7 +2161,6 @@ Nhấp vào đây để biết thêm chi tiết."</string>
     <string name="revanced_icon_revancify_blue">Revancify Blue</string>
     <string name="revanced_icon_revancify_red">Revancify Red</string>
     <string name="revanced_icon_youtube">YouTube</string>
-    <string name="revanced_label_default">Nguyên bản</string>
     <string name="revanced_patches_excluded">Đã loại trừ</string>
     <string name="revanced_patches_included">Đã bao gồm</string>
     <string name="revanced_theme_default">Nguyên bản</string>

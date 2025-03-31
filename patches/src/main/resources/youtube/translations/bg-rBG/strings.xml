@@ -1794,8 +1794,7 @@ AVC има максимална разделителна способност о
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->
     <string name="revanced_preference_screen_patch_information_title">Информация за корекции</string>
     <string name="revanced_preference_screen_patch_information_summary">Информация за приложените корекции.</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Tool used -->
-    <string name="revanced_preference_category_tool_used">Ползвани инструменти</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: App info -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Others -->
     <string name="revanced_preference_category_others">Други</string>
     <string name="revanced_icon_custom">По избор</string>
@@ -1806,7 +1805,6 @@ AVC има максимална разделителна способност о
     <string name="revanced_icon_revancify_blue">Revancify синя</string>
     <string name="revanced_icon_revancify_red">Revancify Червена</string>
     <string name="revanced_icon_youtube">YouTube</string>
-    <string name="revanced_label_default">По подразбиране</string>
     <string name="revanced_patches_excluded">Изключване</string>
     <string name="revanced_patches_included">Включване</string>
     <string name="revanced_theme_default">По подразбиране</string>

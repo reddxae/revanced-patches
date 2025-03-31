@@ -51,7 +51,7 @@
     <string name="revanced_queue_manager_fetch_succeeded_delete">キューを削除しました。</string>
     <string name="revanced_queue_manager_fetch_succeeded_remove">動画を削除しました。</string>
     <string name="revanced_queue_manager_fetch_succeeded_save">キューは「%s」に保存されました。</string>
-    <string name="revanced_language_title">YouTube と Revanced Extended 設定の言語</string>
+    <string name="revanced_language_title">Revanced Extended 設定の言語</string>
     <string name="revanced_language_DEFAULT">アプリの設定言語に従う</string>
     <string name="revanced_language_AM">""</string>
     <string name="revanced_language_AR">""</string>
@@ -1664,8 +1664,8 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_remember_video_quality_last_selected_toast_title">トーストを表示</string>
     <string name="revanced_remember_video_quality_last_selected_toast_summary_on">デフォルトの画質を変更した際にトーストが表示されるようにします。</string>
     <string name="revanced_remember_video_quality_last_selected_toast_summary_off">デフォルトの画質を変更した際にトーストが表示されるようにします。</string>
-    <string name="revanced_default_video_quality_mobile_shorts_title">モバイルデータ通信使用時のデフォルト画質</string>
-    <string name="revanced_default_video_quality_wifi_shorts_title">Wi-Fi 使用時のデフォルト画質</string>
+    <string name="revanced_default_video_quality_mobile_shorts_title">モバイルデータ通信使用時のショートのデフォルト画質</string>
+    <string name="revanced_default_video_quality_wifi_shorts_title">Wi-Fi 使用時のショートのデフォルト画質</string>
     <string name="revanced_remember_video_quality_shorts_last_selected_title">ショートの画質変更を記憶</string>
     <string name="revanced_remember_video_quality_shorts_last_selected_summary_on">現在の設定: 画質の変更はすべてのショートに適用されます。</string>
     <string name="revanced_remember_video_quality_shorts_last_selected_summary_off">現在の設定: 画質の変更は現在のショートにのみ適用されます。</string>
@@ -2095,8 +2095,7 @@ iOS クライアント選択する場合は、これらの値が必要になる�
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->
     <string name="revanced_preference_screen_patch_information_title">パッチ情報</string>
     <string name="revanced_preference_screen_patch_information_summary">適用されたパッチに関する情報です。</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Tool used -->
-    <string name="revanced_preference_category_tool_used">使用されたツール</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: App info -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Others -->
     <string name="revanced_preference_category_others">その他</string>
     <string name="revanced_icon_custom">カスタム</string>
@@ -2107,7 +2106,6 @@ iOS クライアント選択する場合は、これらの値が必要になる�
     <string name="revanced_icon_revancify_blue">Revancify Blue</string>
     <string name="revanced_icon_revancify_red">Revancify Red</string>
     <string name="revanced_icon_youtube">YouTube</string>
-    <string name="revanced_label_default">オリジナル</string>
     <string name="revanced_patches_excluded">除外されています</string>
     <string name="revanced_patches_included">適用されています</string>
     <string name="revanced_theme_default">オリジナル</string>

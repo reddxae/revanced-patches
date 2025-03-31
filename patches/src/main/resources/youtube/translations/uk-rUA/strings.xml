@@ -2147,8 +2147,7 @@ AVC має максимальну роздільну здатність 1080p, �
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->
     <string name="revanced_preference_screen_patch_information_title">Інформація про патчі</string>
     <string name="revanced_preference_screen_patch_information_summary">Інформація про застосовані патчі.</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Tool used -->
-    <string name="revanced_preference_category_tool_used">Використано інструменти</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: App info -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Others -->
     <string name="revanced_preference_category_others">Інше</string>
     <string name="revanced_icon_custom">Користувацька</string>
@@ -2159,7 +2158,6 @@ AVC має максимальну роздільну здатність 1080p, �
     <string name="revanced_icon_revancify_blue">Revancify синя</string>
     <string name="revanced_icon_revancify_red">Revancify червона</string>
     <string name="revanced_icon_youtube">YouTube</string>
-    <string name="revanced_label_default">Стандартна</string>
     <string name="revanced_patches_excluded">Виключено</string>
     <string name="revanced_patches_included">Включено</string>
     <string name="revanced_theme_default">Стандартна</string>

@@ -1545,8 +1545,7 @@ Devam düğmesine dokunun ve pil optimizasyonlarını devre dışı bırakın."<
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->
     <string name="revanced_preference_screen_patch_information_title">Yama Bilgileri</string>
     <string name="revanced_preference_screen_patch_information_summary">Uygulanmış Yamalar Hakkında Bilgi.</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Tool used -->
-    <string name="revanced_preference_category_tool_used">Araç kullanıldı</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: App info -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Others -->
     <string name="revanced_preference_category_others">Diğerleri</string>
     <string name="revanced_icon_custom">Özel</string>
@@ -1557,7 +1556,6 @@ Devam düğmesine dokunun ve pil optimizasyonlarını devre dışı bırakın."<
     <string name="revanced_icon_revancify_blue">Revancify Mavi</string>
     <string name="revanced_icon_revancify_red">Revancify Kırmızı</string>
     <string name="revanced_icon_youtube">YouTube</string>
-    <string name="revanced_label_default">Stok</string>
     <string name="revanced_patches_excluded">Hariç tutulan</string>
     <string name="revanced_patches_included">Dahil</string>
     <string name="revanced_theme_default">Stok</string>

@@ -2164,8 +2164,7 @@ Shorts
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->
     <string name="revanced_preference_screen_patch_information_title">Информация о патчах</string>
     <string name="revanced_preference_screen_patch_information_summary">Информация о примененных патчах.</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Tool used -->
-    <string name="revanced_preference_category_tool_used">Используемые инструменты</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: App info -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Others -->
     <string name="revanced_preference_category_others">Другие</string>
     <string name="revanced_icon_custom">Пользовательский</string>
@@ -2176,7 +2175,6 @@ Shorts
     <string name="revanced_icon_revancify_blue">Revancify синяя</string>
     <string name="revanced_icon_revancify_red">Revancify красная</string>
     <string name="revanced_icon_youtube">Иконка YouTube</string>
-    <string name="revanced_label_default">По умолчанию</string>
     <string name="revanced_patches_excluded">Не применён</string>
     <string name="revanced_patches_included">Применён</string>
     <string name="revanced_theme_default">По умолчанию</string>

@@ -2303,8 +2303,11 @@ Click to see more information."</string>
     <string name="revanced_preference_screen_patch_information_title">Patch information</string>
     <string name="revanced_preference_screen_patch_information_summary">Information about applied patches.</string>
 
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Tool used -->
-    <string name="revanced_preference_category_tool_used">Tool used</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: App info -->
+    <string name="revanced_preference_category_app_info">App info</string>
+    <string name="revanced_app_name_title">App name</string>
+    <string name="revanced_app_version_title">App version</string>
+    <string name="revanced_patched_date_title">Patched date</string>
 
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Others -->
     <string name="revanced_preference_category_others">Others</string>
@@ -2316,7 +2319,6 @@ Click to see more information."</string>
     <string name="revanced_icon_revancify_blue">Revancify Blue</string>
     <string name="revanced_icon_revancify_red">Revancify Red</string>
     <string name="revanced_icon_youtube">YouTube</string>
-    <string name="revanced_label_default">Stock</string>
     <string name="revanced_patches_excluded">Excluded</string>
     <string name="revanced_patches_included">Included</string>
     <string name="revanced_theme_default">Stock</string>

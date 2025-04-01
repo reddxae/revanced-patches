@@ -105,10 +105,7 @@ val dismissPlayerHookPatch = bytecodePatch(
  * This method is called when the video is closed.
  */
 internal fun hookDismissObserver(descriptor: String) =
-    dismissMethod.apply {
-        println("Class: $definingClass Name: $name")
-        addInstruction(
-            0,
-            "invoke-static {}, $descriptor"
-        )
-    }
+    dismissMethod.addInstruction(
+        0,
+        "invoke-static {}, $descriptor"
+    )

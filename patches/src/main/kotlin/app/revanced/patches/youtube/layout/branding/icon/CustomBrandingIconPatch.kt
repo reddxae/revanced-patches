@@ -218,8 +218,7 @@ val customBrandingIconPatch = resourcePatch(
                 }
 
                 val styleList = mutableListOf(
-                    Triple(
-                        "values-v31",
+                    Pair(
                         "Base.Theme.YouTube.Launcher",
                         "@style/Theme.AppCompat.DayNight.NoActionBar"
                     ),
@@ -227,21 +226,15 @@ val customBrandingIconPatch = resourcePatch(
 
                 if (is_19_32_or_greater) {
                     styleList += listOf(
-                        Triple(
-                            "values-night-v31",
-                            "Theme.YouTube.Home",
-                            "@style/Base.V27.Theme.YouTube.Home"
-                        ),
-                        Triple(
-                            "values-v31",
+                        Pair(
                             "Theme.YouTube.Home",
                             "@style/Base.V27.Theme.YouTube.Home"
                         ),
                     )
                 }
 
-                styleList.forEach { (directory, nodeAttributeName, nodeAttributeParent) ->
-                    document("res/$directory/styles.xml").use { document ->
+                styleList.forEach { (nodeAttributeName, nodeAttributeParent) ->
+                    document("res/values-v31/styles.xml").use { document ->
                         val resourcesNode =
                             document.getElementsByTagName("resources").item(0) as Element
 

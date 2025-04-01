@@ -1024,8 +1024,7 @@
     "description": "Adds an option to disable the popup that appears when taking a screenshot.",
     "use": true,
     "dependencies": [
-      "Settings for Reddit",
-      "ResourcePatch"
+      "Settings for Reddit"
     ],
     "compatiblePackages": {
       "com.reddit.frontpage": [
@@ -1310,6 +1309,15 @@
           "Clone": "com.rvx.android.apps.youtube.music",
           "Default": "app.rvx.android.apps.youtube.music"
         }
+      },
+      {
+        "key": "patchAllManifest",
+        "title": "Patch all manifest components",
+        "description": "Patch all permissions, intents and content provider authorities supported by GmsCore.",
+        "required": true,
+        "type": "kotlin.Boolean",
+        "default": true,
+        "values": null
       }
     ]
   },
@@ -1374,6 +1382,15 @@
           "Clone": "com.rvx.android.apps.youtube.music",
           "Default": "app.rvx.android.apps.youtube.music"
         }
+      },
+      {
+        "key": "patchAllManifest",
+        "title": "Patch all manifest components",
+        "description": "Patch all permissions, intents and content provider authorities supported by GmsCore.",
+        "required": true,
+        "type": "kotlin.Boolean",
+        "default": true,
+        "values": null
       }
     ]
   },
@@ -3089,6 +3106,7 @@
     "use": true,
     "dependencies": [
       "Settings for YouTube",
+      "BytecodePatch",
       "BytecodePatch",
       "BytecodePatch",
       "BytecodePatch",

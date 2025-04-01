@@ -22,11 +22,13 @@
     <string name="revanced_queue_manager_add_to_queue">Добавить в очередь</string>
     <string name="revanced_queue_manager_add_to_queue_and_open_queue">Добавить в очередь и открыть очередь</string>
     <string name="revanced_queue_manager_add_to_queue_and_play_video">Добавить в очередь и посмотреть</string>
+    <string name="revanced_queue_manager_add_to_queue_and_reload_video">Добавить в очередь и обновить</string>
     <string name="revanced_queue_manager_external_downloader">Внешний загрузчик</string>
     <string name="revanced_queue_manager_open_queue">Открыть очередь</string>
     <string name="revanced_queue_manager_queue">Очередь</string>
     <string name="revanced_queue_manager_remove_from_queue">Удалить из очереди</string>
     <string name="revanced_queue_manager_remove_from_queue_and_open_queue">Удалить из очереди и открыть очередь</string>
+    <string name="revanced_queue_manager_remove_from_queue_and_reload_video">Удалить из очереди и обновить</string>
     <string name="revanced_queue_manager_remove_queue">Удалить очередь</string>
     <string name="revanced_queue_manager_save_queue">Сохранить очередь</string>
     <string name="revanced_queue_manager_user_dialog_message">"Вместо открытия внешнего загрузчика открывается диалог управления очередью.
@@ -1248,7 +1250,7 @@ Shorts
     <string name="revanced_overlay_button_play_all_summary">"Коснитесь, чтобы создать список просмотра всех видео из канала.
 Коснитесь и удерживайте, для отмены.
 
-Инфо:
+Информация:
 • Может не работать в прямых трансляциях."</string>
     <string name="revanced_overlay_button_play_all_type_title">Сортировка создаваемого списка</string>
     <string name="revanced_overlay_button_play_all_type_entry_0">Все (сорт. по времени, по возрастанию)</string>
@@ -2104,7 +2106,7 @@ Shorts
     <string name="revanced_spoof_streaming_data_type_ios_title">Использовать клиент iOS</string>
     <string name="revanced_spoof_streaming_data_type_ios_summary_on">"Клиент iOS добавлен к доступным клиентам.
 
-ВНИМАНИЕ: Клиент iOS устаревший. Любые проблемы, возникающие при его использовании, на свой страх и риск."</string>
+ПРЕДУПРЕЖДЕНИЕ: Клиент iOS устаревший. Любые проблемы, возникающие при его использовании, на свой страх и риск."</string>
     <string name="revanced_spoof_streaming_data_type_ios_summary_off">Клиент iOS не добавлен к доступным клиентам.</string>
     <string name="revanced_spoof_streaming_data_type_ios_user_dialog_message">"При запросе конечных точек YouTube API с помощью iOS требуются токены Auth, выданные устройством iOS, и токены PoToken, выданные iOSGuard.
 
@@ -2165,6 +2167,10 @@ Shorts
     <string name="revanced_preference_screen_patch_information_title">Информация о патчах</string>
     <string name="revanced_preference_screen_patch_information_summary">Информация о примененных патчах.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: App info -->
+    <string name="revanced_preference_category_app_info">О приложении</string>
+    <string name="revanced_app_name_title">Имя приложения</string>
+    <string name="revanced_app_version_title">Версия приложения</string>
+    <string name="revanced_patched_date_title">Дата применения патчей</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Others -->
     <string name="revanced_preference_category_others">Другие</string>
     <string name="revanced_icon_custom">Пользовательский</string>

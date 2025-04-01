@@ -22,11 +22,13 @@ Si prega di scaricare %2$s dal sito web."</string>
     <string name="revanced_queue_manager_add_to_queue">Aggiungi alla coda</string>
     <string name="revanced_queue_manager_add_to_queue_and_open_queue">Aggiungi alla coda e aprila</string>
     <string name="revanced_queue_manager_add_to_queue_and_play_video">Aggiungi alla coda e riproduci il video</string>
+    <string name="revanced_queue_manager_add_to_queue_and_reload_video">Aggiungi alla coda e ricarica il video</string>
     <string name="revanced_queue_manager_external_downloader">Downloader esterno</string>
     <string name="revanced_queue_manager_open_queue">Apri la coda</string>
     <string name="revanced_queue_manager_queue">Coda</string>
     <string name="revanced_queue_manager_remove_from_queue">Rimuovi dalla coda</string>
     <string name="revanced_queue_manager_remove_from_queue_and_open_queue">Rimuovi dalla coda e aprila</string>
+    <string name="revanced_queue_manager_remove_from_queue_and_reload_video">Rimuovi dalla coda e ricarica il video</string>
     <string name="revanced_queue_manager_remove_queue">Rimuovi la coda</string>
     <string name="revanced_queue_manager_save_queue">Salva la coda</string>
     <string name="revanced_queue_manager_user_dialog_message">"Invece di aprire un downloader esterno, apri la finestra di dialogo del gestore delle code.
@@ -2143,6 +2145,10 @@ Tocca per vedere maggiori informazioni."</string>
     <string name="revanced_preference_screen_patch_information_title">Informazioni patch</string>
     <string name="revanced_preference_screen_patch_information_summary">Informazioni sulle patch applicate.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: App info -->
+    <string name="revanced_preference_category_app_info">Informazioni sull\'app</string>
+    <string name="revanced_app_name_title">Nome</string>
+    <string name="revanced_app_version_title">Versione</string>
+    <string name="revanced_patched_date_title">Data e ora della patch</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Others -->
     <string name="revanced_preference_category_others">Altri</string>
     <string name="revanced_icon_custom">Personalizzata</string>

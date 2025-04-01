@@ -22,11 +22,13 @@
     <string name="revanced_queue_manager_add_to_queue">إضافة إلى قائمة الانتظار</string>
     <string name="revanced_queue_manager_add_to_queue_and_open_queue">إضافة إلى قائمة الانتظار وفتح قائمة الانتظار</string>
     <string name="revanced_queue_manager_add_to_queue_and_play_video">إضافة إلى قائمة الانتظار وتشغيل الفيديو</string>
+    <string name="revanced_queue_manager_add_to_queue_and_reload_video">إضافة إلى قائمة الانتظار وإعادة تحميل الفيديو</string>
     <string name="revanced_queue_manager_external_downloader">أداة التنزيل الخارجي</string>
     <string name="revanced_queue_manager_open_queue">فتح قائمة الانتظار</string>
     <string name="revanced_queue_manager_queue">قائمة الإنتظار</string>
     <string name="revanced_queue_manager_remove_from_queue">إزالة من قائمة الانتظار</string>
     <string name="revanced_queue_manager_remove_from_queue_and_open_queue">إزالة من قائمة الانتظار وفتح قائمة الانتظار</string>
+    <string name="revanced_queue_manager_remove_from_queue_and_reload_video">إزالة من قائمة الانتظار وإعادة تحميل الفيديو</string>
     <string name="revanced_queue_manager_remove_queue">إزالة قائمة الانتظار</string>
     <string name="revanced_queue_manager_save_queue">حفظ قائمة الانتظار</string>
     <string name="revanced_queue_manager_user_dialog_message">"بدلاً من فتح برنامج تنزيل خارجي، افتح نافذة مدير قائمة الانتظار.
@@ -2155,6 +2157,10 @@ AVC لديه حد أقصى للدقة 1080p، لا يتوفر ترميز الص�
     <string name="revanced_preference_screen_patch_information_title">معلومات التعديل</string>
     <string name="revanced_preference_screen_patch_information_summary">معلومات عن التعديلات المطبقة.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: App info -->
+    <string name="revanced_preference_category_app_info">معلومات التطبيق</string>
+    <string name="revanced_app_name_title">اسم التطبيق</string>
+    <string name="revanced_app_version_title">إصدار التطبيق</string>
+    <string name="revanced_patched_date_title">تاريخ التعديل</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Others -->
     <string name="revanced_preference_category_others">أخرى</string>
     <string name="revanced_icon_custom">مخصص</string>

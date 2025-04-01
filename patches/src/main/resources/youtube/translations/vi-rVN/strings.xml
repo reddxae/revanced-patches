@@ -22,11 +22,13 @@
     <string name="revanced_queue_manager_add_to_queue">Thêm vào hàng chờ</string>
     <string name="revanced_queue_manager_add_to_queue_and_open_queue">Thêm vào hàng chờ và xem hàng chờ</string>
     <string name="revanced_queue_manager_add_to_queue_and_play_video">Thêm vào hàng chờ và phát video</string>
+    <string name="revanced_queue_manager_add_to_queue_and_reload_video">Thêm vào hàng chờ và tải lại video</string>
     <string name="revanced_queue_manager_external_downloader">Trình tải xuống bên ngoài</string>
     <string name="revanced_queue_manager_open_queue">Xem hàng chờ</string>
     <string name="revanced_queue_manager_queue">Hàng chờ</string>
     <string name="revanced_queue_manager_remove_from_queue">Xóa khỏi hàng chờ</string>
     <string name="revanced_queue_manager_remove_from_queue_and_open_queue">Xóa khỏi hàng chờ và xem hàng chờ</string>
+    <string name="revanced_queue_manager_remove_from_queue_and_reload_video">Xoá khỏi hàng chờ và tải lại video</string>
     <string name="revanced_queue_manager_remove_queue">Xoá hàng chờ</string>
     <string name="revanced_queue_manager_save_queue">Lưu hàng chờ</string>
     <string name="revanced_queue_manager_user_dialog_message">"Thay vì mở trình tải xuống bên ngoài, khi tương tác sẽ mở hộp thoại quản lý hàng chờ.
@@ -2151,6 +2153,10 @@ Nhấp vào đây để biết thêm chi tiết."</string>
     <string name="revanced_preference_screen_patch_information_title">Thông tin bản vá</string>
     <string name="revanced_preference_screen_patch_information_summary">Thông tin về các bản vá được áp dụng.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: App info -->
+    <string name="revanced_preference_category_app_info">Thông tin ứng dụng</string>
+    <string name="revanced_app_name_title">Tên ứng dụng</string>
+    <string name="revanced_app_version_title">Phiên bản ứng dụng</string>
+    <string name="revanced_patched_date_title">Ngày vá</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Others -->
     <string name="revanced_preference_category_others">Khác</string>
     <string name="revanced_icon_custom">Tùy chỉnh</string>

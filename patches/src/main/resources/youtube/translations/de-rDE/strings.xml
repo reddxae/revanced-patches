@@ -22,11 +22,13 @@ Bitte lade %2$s von der Webseite herunter."</string>
     <string name="revanced_queue_manager_add_to_queue">Zur Warteschlange hinzufügen</string>
     <string name="revanced_queue_manager_add_to_queue_and_open_queue">Zur Warteschlange hinzufügen &amp; öffnen</string>
     <string name="revanced_queue_manager_add_to_queue_and_play_video">Zur Warteschlange hinzufügen und Video abspielen</string>
+    <string name="revanced_queue_manager_add_to_queue_and_reload_video">Zur Warteschlange hinzufügen und Video neu laden</string>
     <string name="revanced_queue_manager_external_downloader">Externer Downloader</string>
     <string name="revanced_queue_manager_open_queue">Warteschlange öffnen</string>
     <string name="revanced_queue_manager_queue">Warteschlange</string>
     <string name="revanced_queue_manager_remove_from_queue">Aus der Warteschlange entfernen</string>
     <string name="revanced_queue_manager_remove_from_queue_and_open_queue">Aus der Warteschlange entfernen und die Warteschlange öffnen</string>
+    <string name="revanced_queue_manager_remove_from_queue_and_reload_video">Aus der Warteschlange entfernen und Video neu laden</string>
     <string name="revanced_queue_manager_remove_queue">Warteschlange löschen</string>
     <string name="revanced_queue_manager_save_queue">Warteschlange speichern</string>
     <string name="revanced_queue_manager_user_dialog_message">"Öffnen Sie statt eines externen Downloaders den Warteschlangenmanager.
@@ -113,7 +115,7 @@ Bitte verwenden Sie sie nur zu Debugging-Zwecken."</string>
     <string name="revanced_language_ZH">""</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Werbung</string>
-    <string name="revanced_hide_end_screen_store_banner_title">Endbild-Banner ausblenden</string>
+    <string name="revanced_hide_end_screen_store_banner_title">Abspann Store Banner ausblenden</string>
     <string name="revanced_hide_end_screen_store_banner_summary_on">Store-Banner ist ausgeblendet.</string>
     <string name="revanced_hide_end_screen_store_banner_summary_off">Store-Banner wird angezeigt.</string>
     <string name="revanced_hide_fullscreen_ads_title">Vollbildwerbung verstecken</string>
@@ -791,7 +793,7 @@ Information:
 
 Autoplay kann in den YouTube-Einstellungen geändert werden:
 Einstellungen → Autoplay → Nächstes Video automatisch abspielen"</string>
-    <string name="revanced_hide_suggested_video_end_screen_summary_off">Empfohlene Video-Endbildschirm wird angezeigt.</string>
+    <string name="revanced_hide_suggested_video_end_screen_summary_off">Empfohlene Videos Endbildschirm wird angezeigt.</string>
     <string name="revanced_skip_autoplay_countdown_title">Autotoplay Countdown überspringen</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">Ist Autoplay aktiviert, wird das nächste Video sofort abgespielt.</string>
     <string name="revanced_skip_autoplay_countdown_summary_off">Wenn Autoplay aktiviert ist, wird das nächste Video nach dem Countdown abgespielt.</string>
@@ -1490,6 +1492,10 @@ Drücken und halten Sie die Schaltfläche Mehr, um den Dialog benutzerdefinierte
     <string name="revanced_shorts_custom_actions_open_video_title">Zeige geöffnetes Video-Menü</string>
     <string name="revanced_shorts_custom_actions_open_video_summary_on">Video-Menü wird angezeigt.</string>
     <string name="revanced_shorts_custom_actions_open_video_summary_off">Video-Menü öffnen ist ausgeblendet.</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_label">Geschwindigkeitsdialog</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_title">Menü „Geschwindigkeitsdialog anzeigen“</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_summary_on">Das Dialogmenü „Geschwindigkeit“ wird angezeigt.</string>
+    <string name="revanced_shorts_custom_actions_speed_dialog_summary_off">Das „Geschwindigkeitsdialogmenü“ ist ausgeblendet.</string>
     <string name="revanced_shorts_custom_actions_repeat_state_label">Status wiederholen</string>
     <string name="revanced_shorts_custom_actions_repeat_state_title">Zeige Wiederholungsstatus Menü</string>
     <string name="revanced_shorts_custom_actions_repeat_state_summary_on">Das Statusmenü wird angezeigt.</string>
@@ -1594,6 +1600,7 @@ Keine Ränder oben und unten des Spielers."</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Video</string>
     <!-- PreferenceScreen: Video, PreferenceCategory: Codec -->
+    <string name="revanced_preference_category_codec">Codec</string>
     <string name="revanced_disable_hdr_video_title">HDR-Video deaktivieren</string>
     <string name="revanced_disable_hdr_video_summary_on">HDR-Video ist deaktiviert</string>
     <string name="revanced_disable_hdr_video_summary_off">HDR-Video ist aktiviert</string>
@@ -1607,6 +1614,7 @@ Keine Ränder oben und unten des Spielers."</string>
     <string name="revanced_replace_av1_codec_title">Replace software AV1 codec</string>
     <string name="revanced_replace_av1_codec_summary">Replaces the software AV1 codec with the VP9 codec.</string>
     <!-- PreferenceScreen: Video, PreferenceCategory: Playback speed -->
+    <string name="revanced_preference_category_playback_speed">Wiedergabegeschwindigkeit</string>
     <string name="revanced_default_playback_speed_title">Standard Wiedergabegeschwindigkeit</string>
     <string name="revanced_remember_playback_speed_last_selected_title">Remember playback speed changes</string>
     <string name="revanced_remember_playback_speed_last_selected_summary_on">Playback speed changes apply to all videos.</string>
@@ -1614,6 +1622,7 @@ Keine Ränder oben und unten des Spielers."</string>
     <string name="revanced_remember_playback_speed_last_selected_toast_title">Toast anzeigen</string>
     <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">Beim Ändern der Standard-Wiedergabegeschwindigkeit wird ein Toast angezeigt.</string>
     <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">Beim Ändern der Standard-Wiedergabegeschwindigkeit wird kein Toast angezeigt.</string>
+    <string name="revanced_default_playback_speed_shorts_title">Standard Wiedergabegeschwindigkeit bei Shorts</string>
     <string name="revanced_enable_custom_playback_speed_title">Benutzerdefinierte Wiedergabegeschwindigkeit aktivieren</string>
     <string name="revanced_enable_custom_playback_speed_summary_on">Benutzerdefinierte Wiedergabegeschwindigkeit ist aktiviert</string>
     <string name="revanced_enable_custom_playback_speed_summary_off">Benutzerdefinierte Wiedergabegeschwindigkeit ist deaktiviert</string>
@@ -1625,6 +1634,7 @@ Keine Ränder oben und unten des Spielers."</string>
     <string name="revanced_custom_playback_speeds_invalid">Ungültige benutzerdefinierte Wiedergabegeschwindigkeiten. Auf Standardwerte zurücksetzen.</string>
     <string name="revanced_custom_playback_speeds_parse_exception">Ungültige benutzerdefinierte Wiedergabegeschwindigkeiten. Auf Standardwerte zurücksetzen.</string>
     <!-- PreferenceScreen: Video, PreferenceCategory: Video quality -->
+    <string name="revanced_preference_category_video_quality">Videoqualität</string>
     <string name="revanced_default_video_quality_mobile_title">Standard Videoqualität im Mobilfunk</string>
     <string name="revanced_default_video_quality_wifi_title">Standard-Videoqualität im Wlan</string>
     <string name="revanced_remember_video_quality_last_selected_title">Qualitätseinstellungen merken</string>
@@ -1897,7 +1907,7 @@ Klicken Sie hier, um zu sehen, wie Sie einen API-Schlüssel ausgeben."</string>
     <string name="revanced_sb_about_api">sponsor.ajay.app</string>
     <string name="revanced_sb_about_api_sum">Die Daten werden von der SponsorBlock API bereitgestellt. Tippen Sie hier, um mehr zu erfahren und Downloads für andere Plattformen zu sehen</string>
     <!-- PreferenceScreen: Miscellaneous -->
-    <string name="revanced_preference_screen_misc_title">PreferenceScreen: Sonstiges</string>
+    <string name="revanced_preference_screen_misc_title">Sonstiges</string>
     <string name="revanced_bypass_url_redirects_title">URL-Weiterleitungen umgehen</string>
     <string name="revanced_bypass_url_redirects_summary_on">URL-Weiterleitungen werden umgangen.</string>
     <string name="revanced_bypass_url_redirects_summary_off">URL-Umleitungen werden nicht umgangen.</string>
@@ -1937,7 +1947,7 @@ Drücke Weiter und deaktiviere Akku-Optimierungen."</string>
     <string name="revanced_enable_opus_codec_summary">Aktiviere den OPUS-Codec, wenn die Antwort des Players den OPUS-Codec enthält.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings -->
     <string name="revanced_preference_screen_import_export_title">Einstellungen importieren / exportieren</string>
-    <string name="revanced_preference_screen_import_export_summary">Einstellungen importieren / exportieren</string>
+    <string name="revanced_preference_screen_import_export_summary">Importieren / Exportieren der RVX Einstellungen.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings, PreferenceCategory: Import / Export as file -->
     <string name="revanced_preference_category_import_export_as_file">Als Datei importieren / exportieren</string>
     <string name="revanced_extended_settings_export_title">Einstellungen exportieren</string>
@@ -2043,6 +2053,10 @@ Klicken Sie hier, um weitere Informationen zu sehen."</string>
     <string name="revanced_preference_screen_patch_information_title">Patch-Informationen</string>
     <string name="revanced_preference_screen_patch_information_summary">Informationen über angewandte Patches</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: App info -->
+    <string name="revanced_preference_category_app_info">App Info</string>
+    <string name="revanced_app_name_title">App Name</string>
+    <string name="revanced_app_version_title">App Version</string>
+    <string name="revanced_patched_date_title">Patch Datum</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Others -->
     <string name="revanced_preference_category_others">Andere</string>
     <string name="revanced_icon_custom">Benutzerdefiniert</string>

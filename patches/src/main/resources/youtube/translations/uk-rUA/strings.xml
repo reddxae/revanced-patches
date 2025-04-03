@@ -22,11 +22,13 @@
     <string name="revanced_queue_manager_add_to_queue">Додати до черги</string>
     <string name="revanced_queue_manager_add_to_queue_and_open_queue">Додати до черги й відкрити чергу</string>
     <string name="revanced_queue_manager_add_to_queue_and_play_video">Додати до черги й відтворити відео</string>
+    <string name="revanced_queue_manager_add_to_queue_and_reload_video">Додати до черги та перевантажити відео</string>
     <string name="revanced_queue_manager_external_downloader">Зовнішній завантажувач</string>
     <string name="revanced_queue_manager_open_queue">Відкрити чергу</string>
     <string name="revanced_queue_manager_queue">Черга</string>
     <string name="revanced_queue_manager_remove_from_queue">Видалити з черги</string>
     <string name="revanced_queue_manager_remove_from_queue_and_open_queue">Вилучити з черги й відкрити чергу</string>
+    <string name="revanced_queue_manager_remove_from_queue_and_reload_video">Видалити з черги та перевантажити відео</string>
     <string name="revanced_queue_manager_remove_queue">Вилучити чергу</string>
     <string name="revanced_queue_manager_save_queue">Зберегти чергу</string>
     <string name="revanced_queue_manager_user_dialog_message">"Замість відкривання зовнішнього завантажувача відкриває діалог керування чергою.
@@ -2114,7 +2116,7 @@ AVC має максимальну роздільну здатність 1080p, �
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Клієнт, що використовується для отримання даних трансляції показується у Статистика для сисадмінів.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Клієнт, що використовується для отримання даних трансляції приховано у Статистика для сисадмінів.</string>
     <string name="revanced_spoof_streaming_data_language_title">Мова звукової доріжки для VR</string>
-    <string name="revanced_spoof_streaming_data_failed_forbidden">Не вдалося отримати якісь трансляції клієнта.</string>
+    <string name="revanced_spoof_streaming_data_failed_forbidden">Не вдалося отримати які-небудь трансляції клієнта.</string>
     <string name="revanced_spoof_streaming_data_failed_forbidden_suggestion">Не можливо авторизуватися.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <string name="revanced_preference_category_po_token_visitor_data">PoToken / VisitorData</string>
@@ -2147,8 +2149,11 @@ AVC має максимальну роздільну здатність 1080p, �
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->
     <string name="revanced_preference_screen_patch_information_title">Інформація про патчі</string>
     <string name="revanced_preference_screen_patch_information_summary">Інформація про застосовані патчі.</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Tool used -->
-    <string name="revanced_preference_category_tool_used">Використано інструменти</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: App info -->
+    <string name="revanced_preference_category_app_info">Інформація про додаток</string>
+    <string name="revanced_app_name_title">Назва додатка</string>
+    <string name="revanced_app_version_title">Версія додатка</string>
+    <string name="revanced_patched_date_title">Дата пропатчування</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Others -->
     <string name="revanced_preference_category_others">Інше</string>
     <string name="revanced_icon_custom">Користувацька</string>
@@ -2159,7 +2164,6 @@ AVC має максимальну роздільну здатність 1080p, �
     <string name="revanced_icon_revancify_blue">Revancify синя</string>
     <string name="revanced_icon_revancify_red">Revancify червона</string>
     <string name="revanced_icon_youtube">YouTube</string>
-    <string name="revanced_label_default">Стандартна</string>
     <string name="revanced_patches_excluded">Виключено</string>
     <string name="revanced_patches_included">Включено</string>
     <string name="revanced_theme_default">Стандартна</string>

@@ -22,11 +22,13 @@
     <string name="revanced_queue_manager_add_to_queue">加入佇列清單</string>
     <string name="revanced_queue_manager_add_to_queue_and_open_queue">加到佇列並打開佇列</string>
     <string name="revanced_queue_manager_add_to_queue_and_play_video">加入佇列並播放影片</string>
+    <string name="revanced_queue_manager_add_to_queue_and_reload_video">加入佇列並重新載入影片</string>
     <string name="revanced_queue_manager_external_downloader">外部下載器</string>
     <string name="revanced_queue_manager_open_queue">開啟佇列</string>
     <string name="revanced_queue_manager_queue">佇列</string>
     <string name="revanced_queue_manager_remove_from_queue">從佇列中移除</string>
     <string name="revanced_queue_manager_remove_from_queue_and_open_queue">從佇列中移除並打開佇列</string>
+    <string name="revanced_queue_manager_remove_from_queue_and_reload_video">從佇列移除並重新載入影片</string>
     <string name="revanced_queue_manager_remove_queue">移除佇列</string>
     <string name="revanced_queue_manager_save_queue">儲存佇列</string>
     <string name="revanced_queue_manager_user_dialog_message">"不要開啟外部下載器，而是開啟佇列管理器對話方塊。
@@ -506,15 +508,15 @@
     <string name="revanced_change_form_factor_entry_4">平板</string>
     <string name="revanced_change_form_factor_entry_5">平板電腦 (最少 600 dp)</string>
     <string name="revanced_change_form_factor_entry_6">車用</string>
-    <string name="revanced_change_form_factor_user_dialog_message">"改變包括：
+    <string name="revanced_change_form_factor_user_dialog_message">"變更內容包括：
 
 平板佈局
-• 社群貼文被隱藏。
+• 隱藏社群貼文。
 
 車用佈局
-• 常規播放器中的短影音開啟。
-• 資訊流依主題和頻道進行組織。
-• 關閉「偽裝串流數據」時無法開啟影片說明。"</string>
+• 一般播放器中的短影音開啟。
+• 動態消息按主題和頻道分類。
+• 關閉「偽裝串流數據」時無法開啟影片描述。"</string>
     <string name="revanced_disable_layout_updates_title">禁用佈局更新</string>
     <string name="revanced_disable_layout_updates_summary_on">伺服器不會更新佈局。</string>
     <string name="revanced_disable_layout_updates_summary_off">佈局將由伺服器更新。</string>
@@ -1362,9 +1364,9 @@
     <string name="revanced_expand_video_description_summary_off">手動展開影片描述</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">短影音</string>
-    <string name="revanced_disable_shorts_background_playback_title">停用 短影音 後台播放</string>
-    <string name="revanced_disable_shorts_background_playback_summary_on">短影音 後台播放已停用。</string>
-    <string name="revanced_disable_shorts_background_playback_summary_off">短影音 後台播放已啟用。</string>
+    <string name="revanced_disable_shorts_background_playback_title">停用短影音背景播放</string>
+    <string name="revanced_disable_shorts_background_playback_summary_on">短影音背景播放已停用。</string>
+    <string name="revanced_disable_shorts_background_playback_summary_off">短影音背景播放已啟用。</string>
     <string name="revanced_disable_resuming_shorts_player_title">停用恢復短影音播放器</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">短影音播放器在應用程式啟動時不會恢復播放。</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">短影音播放器在應用程式啟動時會恢復播放。</string>
@@ -1396,15 +1398,15 @@
     <string name="revanced_hide_shorts_shelf_history_summary_on">在觀看歷史中隱藏</string>
     <string name="revanced_hide_shorts_shelf_history_summary_off">在觀看歷史中顯示</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental flags -->
-    <string name="revanced_change_shorts_background_repeat_state_title">變更 短影音背景重複狀態</string>
-    <string name="revanced_change_shorts_repeat_state_title">更改短影音重複播放狀態</string>
+    <string name="revanced_change_shorts_background_repeat_state_title">變更短影音背景重複狀態</string>
+    <string name="revanced_change_shorts_repeat_state_title">變更短影音重複播放狀態</string>
     <string name="revanced_change_shorts_repeat_state_entry_auto_play">自動播放</string>
     <string name="revanced_change_shorts_repeat_state_entry_default">預設</string>
     <string name="revanced_change_shorts_repeat_state_entry_pause">暫停</string>
     <string name="revanced_change_shorts_repeat_state_entry_repeat">重複播放</string>
-    <string name="revanced_open_shorts_in_regular_player_title">在一般播放器中開啟 Shorts</string>
-    <string name="revanced_open_shorts_in_regular_player_summary_on">在一般播放器中開啟 Shorts。</string>
-    <string name="revanced_open_shorts_in_regular_player_summary_off">不要在普通播放器中開啟 Shorts。</string>
+    <string name="revanced_open_shorts_in_regular_player_title">在一般播放器中開啟短影音</string>
+    <string name="revanced_open_shorts_in_regular_player_summary_on">在一般播放器中開啟短影音。</string>
+    <string name="revanced_open_shorts_in_regular_player_summary_off">不要在一般播放器中開啟短影音。</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player -->
     <string name="revanced_preference_screen_shorts_player_title">短影音播放器</string>
     <string name="revanced_preference_screen_shorts_player_summary">隱藏或顯示短影音播放器中的組件。</string>
@@ -2138,8 +2140,11 @@ AVC 的最大解析度為 1080p，Opus 音訊編解碼器不可用，影片播�
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->
     <string name="revanced_preference_screen_patch_information_title">補丁訊息</string>
     <string name="revanced_preference_screen_patch_information_summary">已應用補丁的訊息</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Tool used -->
-    <string name="revanced_preference_category_tool_used">使用的工具 --唐懂翻譯</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: App info -->
+    <string name="revanced_preference_category_app_info">應用程式資訊</string>
+    <string name="revanced_app_name_title">應用程式名稱</string>
+    <string name="revanced_app_version_title">應用程式版本</string>
+    <string name="revanced_patched_date_title">修補日期</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Others -->
     <string name="revanced_preference_category_others">其他</string>
     <string name="revanced_icon_custom">自訂</string>
@@ -2150,7 +2155,6 @@ AVC 的最大解析度為 1080p，Opus 音訊編解碼器不可用，影片播�
     <string name="revanced_icon_revancify_blue">復興藍</string>
     <string name="revanced_icon_revancify_red">復興紅</string>
     <string name="revanced_icon_youtube">YouTube</string>
-    <string name="revanced_label_default">預設</string>
     <string name="revanced_patches_excluded">排除</string>
     <string name="revanced_patches_included">包括</string>
     <string name="revanced_theme_default">預設</string>

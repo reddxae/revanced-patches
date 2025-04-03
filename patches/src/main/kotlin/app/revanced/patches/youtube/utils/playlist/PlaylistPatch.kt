@@ -7,11 +7,13 @@ import app.revanced.patcher.extensions.InstructionExtensions.getInstruction
 import app.revanced.patcher.patch.PatchException
 import app.revanced.patcher.patch.bytecodePatch
 import app.revanced.patches.shared.mainactivity.getMainActivityMethod
+import app.revanced.patches.youtube.utils.auth.authHookPatch
+import app.revanced.patches.youtube.utils.dismiss.dismissPlayerHookPatch
 import app.revanced.patches.youtube.utils.extension.Constants.UTILS_PATH
 import app.revanced.patches.youtube.utils.extension.sharedExtensionPatch
 import app.revanced.patches.youtube.utils.mainactivity.mainActivityResolvePatch
-import app.revanced.patches.youtube.utils.request.buildRequestPatch
-import app.revanced.patches.youtube.utils.request.hookBuildRequest
+import app.revanced.patches.youtube.utils.playertype.playerTypeHookPatch
+import app.revanced.patches.youtube.video.information.videoInformationPatch
 import app.revanced.util.fingerprint.matchOrThrow
 import app.revanced.util.fingerprint.methodOrThrow
 import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
@@ -28,21 +30,13 @@ val playlistPatch = bytecodePatch(
     dependsOn(
         sharedExtensionPatch,
         mainActivityResolvePatch,
-        buildRequestPatch,
+        dismissPlayerHookPatch,
+        playerTypeHookPatch,
+        videoInformationPatch,
+        authHookPatch,
     )
 
     execute {
-        // In Incognito mode, sending a request always seems to fail.
-        accountIdentityFingerprint.methodOrThrow().addInstructions(
-            1, """
-                sput-object p3, $EXTENSION_CLASS_DESCRIPTOR->dataSyncId:Ljava/lang/String;
-                sput-boolean p4, $EXTENSION_CLASS_DESCRIPTOR->isIncognito:Z
-                """
-        )
-
-        // Get the header to use the auth token.
-        hookBuildRequest("$EXTENSION_CLASS_DESCRIPTOR->setRequestHeaders(Ljava/lang/String;Ljava/util/Map;)V")
-
         // Open the queue manager by pressing and holding the back button.
         getMainActivityMethod("onKeyLongPress")
             .addInstructionsWithLabels(
@@ -56,12 +50,26 @@ val playlistPatch = bytecodePatch(
                     """
             )
 
+        setPivotBarVisibilityFingerprint
+            .matchOrThrow(setPivotBarVisibilityParentFingerprint)
+            .let {
+                it.method.apply {
+                    val viewIndex = it.patternMatch!!.startIndex
+                    val viewRegister = getInstruction<OneRegisterInstruction>(viewIndex).registerA
+                    addInstruction(
+                        viewIndex + 1,
+                        "invoke-static {v$viewRegister}," +
+                                " $EXTENSION_CLASS_DESCRIPTOR->setPivotBar(Lcom/google/android/libraries/youtube/rendering/ui/pivotbar/PivotBar;)V",
+                    )
+                }
+            }
+
+        // Users deleted videos via YouTube's flyout menu.
         val setVideoIdReference = with(playlistEndpointFingerprint.methodOrThrow()) {
             val setVideoIdIndex = indexOfSetVideoIdInstruction(this)
             getInstruction<ReferenceInstruction>(setVideoIdIndex).reference as FieldReference
         }
 
-        // Users deleted videos via YouTube's flyout menu.
         editPlaylistFingerprint
             .matchOrThrow(editPlaylistConstructorFingerprint)
             .let {
@@ -83,20 +91,6 @@ val playlistPatch = bytecodePatch(
                             iget-object v$insertRegister, v$castRegister, $setVideoIdReference
                             invoke-static {v$insertRegister}, $EXTENSION_CLASS_DESCRIPTOR->removeFromQueue(Ljava/lang/String;)V
                             """
-                    )
-                }
-            }
-
-        setPivotBarVisibilityFingerprint
-            .matchOrThrow(setPivotBarVisibilityParentFingerprint)
-            .let {
-                it.method.apply {
-                    val viewIndex = it.patternMatch!!.startIndex
-                    val viewRegister = getInstruction<OneRegisterInstruction>(viewIndex).registerA
-                    addInstruction(
-                        viewIndex + 1,
-                        "invoke-static {v$viewRegister}," +
-                                " $EXTENSION_CLASS_DESCRIPTOR->setPivotBar(Lcom/google/android/libraries/youtube/rendering/ui/pivotbar/PivotBar;)V",
                     )
                 }
             }

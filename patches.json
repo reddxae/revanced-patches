@@ -188,7 +188,7 @@
       "com.reddit.frontpage": [
         "2024.17.0",
         "2025.05.1",
-        "2025.12.0"
+        "2025.12.1"
       ]
     },
     "options": [
@@ -485,7 +485,7 @@
       "com.reddit.frontpage": [
         "2024.17.0",
         "2025.05.1",
-        "2025.12.0"
+        "2025.12.1"
       ]
     },
     "options": [
@@ -1030,7 +1030,7 @@
       "com.reddit.frontpage": [
         "2024.17.0",
         "2025.05.1",
-        "2025.12.0"
+        "2025.12.1"
       ]
     },
     "options": []
@@ -1309,6 +1309,15 @@
           "Clone": "com.rvx.android.apps.youtube.music",
           "Default": "app.rvx.android.apps.youtube.music"
         }
+      },
+      {
+        "key": "patchAllManifest",
+        "title": "Patch all manifest components",
+        "description": "Patch all permissions, intents and content provider authorities supported by GmsCore.",
+        "required": true,
+        "type": "kotlin.Boolean",
+        "default": true,
+        "values": null
       }
     ]
   },
@@ -1373,6 +1382,15 @@
           "Clone": "com.rvx.android.apps.youtube.music",
           "Default": "app.rvx.android.apps.youtube.music"
         }
+      },
+      {
+        "key": "patchAllManifest",
+        "title": "Patch all manifest components",
+        "description": "Patch all permissions, intents and content provider authorities supported by GmsCore.",
+        "required": true,
+        "type": "kotlin.Boolean",
+        "default": true,
+        "values": null
       }
     ]
   },
@@ -1387,7 +1405,7 @@
       "com.reddit.frontpage": [
         "2024.17.0",
         "2025.05.1",
-        "2025.12.0"
+        "2025.12.1"
       ]
     },
     "options": []
@@ -1536,7 +1554,7 @@
       "com.reddit.frontpage": [
         "2024.17.0",
         "2025.05.1",
-        "2025.12.0"
+        "2025.12.1"
       ]
     },
     "options": []
@@ -1688,7 +1706,7 @@
       "com.reddit.frontpage": [
         "2024.17.0",
         "2025.05.1",
-        "2025.12.0"
+        "2025.12.1"
       ]
     },
     "options": []
@@ -1789,7 +1807,7 @@
       "com.reddit.frontpage": [
         "2024.17.0",
         "2025.05.1",
-        "2025.12.0"
+        "2025.12.1"
       ]
     },
     "options": []
@@ -1987,7 +2005,7 @@
       "com.reddit.frontpage": [
         "2024.17.0",
         "2025.05.1",
-        "2025.12.0"
+        "2025.12.1"
       ]
     },
     "options": []
@@ -2004,7 +2022,7 @@
       "com.reddit.frontpage": [
         "2024.17.0",
         "2025.05.1",
-        "2025.12.0"
+        "2025.12.1"
       ]
     },
     "options": []
@@ -2160,7 +2178,7 @@
       "com.reddit.frontpage": [
         "2024.17.0",
         "2025.05.1",
-        "2025.12.0"
+        "2025.12.1"
       ]
     },
     "options": []
@@ -2211,13 +2229,14 @@
     "description": "Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.",
     "use": true,
     "dependencies": [
-      "Settings for Reddit"
+      "Settings for Reddit",
+      "ResourcePatch"
     ],
     "compatiblePackages": {
       "com.reddit.frontpage": [
         "2024.17.0",
         "2025.05.1",
-        "2025.12.0"
+        "2025.12.1"
       ]
     },
     "options": []
@@ -2403,7 +2422,7 @@
       "com.reddit.frontpage": [
         "2024.17.0",
         "2025.05.1",
-        "2025.12.0"
+        "2025.12.1"
       ]
     },
     "options": []
@@ -2463,7 +2482,7 @@
       "com.reddit.frontpage": [
         "2024.17.0",
         "2025.05.1",
-        "2025.12.0"
+        "2025.12.1"
       ]
     },
     "options": [
@@ -2508,7 +2527,7 @@
         "description": "The settings menu name that the RVX settings menu should be above.",
         "required": true,
         "type": "kotlin.String",
-        "default": "@string/about_key",
+        "default": "@string/parent_tools_key",
         "values": {
           "Parent settings": "@string/parent_tools_key",
           "General": "@string/general_key",
@@ -3087,6 +3106,7 @@
     "use": true,
     "dependencies": [
       "Settings for YouTube",
+      "BytecodePatch",
       "BytecodePatch",
       "BytecodePatch",
       "BytecodePatch",

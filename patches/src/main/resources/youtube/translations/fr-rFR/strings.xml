@@ -22,11 +22,13 @@ Veuillez télécharger %2$s à partir du site web."</string>
     <string name="revanced_queue_manager_add_to_queue">Ajouter à la file d\'attente</string>
     <string name="revanced_queue_manager_add_to_queue_and_open_queue">Ajouter à la file d\'attente et ouvrir la file d\'attente</string>
     <string name="revanced_queue_manager_add_to_queue_and_play_video">Ajouter à la file d\'attente et lire la vidéo</string>
+    <string name="revanced_queue_manager_add_to_queue_and_reload_video">Ajouter à la file d\'attente et recharger la vidéo</string>
     <string name="revanced_queue_manager_external_downloader">Téléchargeur externe</string>
     <string name="revanced_queue_manager_open_queue">Ouvrir la file d\'attente</string>
     <string name="revanced_queue_manager_queue">File d\'attente</string>
     <string name="revanced_queue_manager_remove_from_queue">Retirer de la file d\'attente</string>
     <string name="revanced_queue_manager_remove_from_queue_and_open_queue">Retirer de la file d\'attente et ouvrir la file d\'attente</string>
+    <string name="revanced_queue_manager_remove_from_queue_and_reload_video">Supprimer de la file d\'attente et recharger la vidéo</string>
     <string name="revanced_queue_manager_remove_queue">Retirer de la file d\'attente</string>
     <string name="revanced_queue_manager_save_queue">Enregistrer la file d’attente</string>
     <string name="revanced_queue_manager_user_dialog_message">"Au lieu d’ouvrir un téléchargeur externe, ouvrez la boîte de dialogue du gestionnaire de file d’attente.
@@ -2148,8 +2150,11 @@ Cliquez pour plus d'informations."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->
     <string name="revanced_preference_screen_patch_information_title">Informations sur les patchs</string>
     <string name="revanced_preference_screen_patch_information_summary">Informations sur les patchs appliqués.</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Tool used -->
-    <string name="revanced_preference_category_tool_used">Outil utilisé</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: App info -->
+    <string name="revanced_preference_category_app_info">Info sur l\'app</string>
+    <string name="revanced_app_name_title">Nom de l\'application</string>
+    <string name="revanced_app_version_title">Version de l\'appli</string>
+    <string name="revanced_patched_date_title">Date du patch</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Others -->
     <string name="revanced_preference_category_others">Autres</string>
     <string name="revanced_icon_custom">Personnalisé</string>
@@ -2160,7 +2165,6 @@ Cliquez pour plus d'informations."</string>
     <string name="revanced_icon_revancify_blue">Revancify Bleu</string>
     <string name="revanced_icon_revancify_red">Revancify Rouge</string>
     <string name="revanced_icon_youtube">Youtube</string>
-    <string name="revanced_label_default">Officiel</string>
     <string name="revanced_patches_excluded">Exclus</string>
     <string name="revanced_patches_included">Appliqué</string>
     <string name="revanced_theme_default">Officiel</string>

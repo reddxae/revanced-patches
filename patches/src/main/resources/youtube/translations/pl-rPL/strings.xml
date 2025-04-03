@@ -22,11 +22,13 @@ Pobierz %2$s ze strony internetowej."</string>
     <string name="revanced_queue_manager_add_to_queue">Dodaj do kolejki</string>
     <string name="revanced_queue_manager_add_to_queue_and_open_queue">Dodaj do kolejki i otwórz kolejkę</string>
     <string name="revanced_queue_manager_add_to_queue_and_play_video">Dodaj do kolejki i odtwórz film</string>
+    <string name="revanced_queue_manager_add_to_queue_and_reload_video">Dodaj do kolejki i odśwież film</string>
     <string name="revanced_queue_manager_external_downloader">Zewnętrzna aplikacja od pobierania</string>
     <string name="revanced_queue_manager_open_queue">Otwórz kolejkę</string>
     <string name="revanced_queue_manager_queue">Kolejka</string>
     <string name="revanced_queue_manager_remove_from_queue">Usuń z kolejki</string>
     <string name="revanced_queue_manager_remove_from_queue_and_open_queue">Usuń z kolejki i otwórz kolejkę</string>
+    <string name="revanced_queue_manager_remove_from_queue_and_reload_video">Usuń z kolejki i odśwież film</string>
     <string name="revanced_queue_manager_remove_queue">Usuń kolejkę</string>
     <string name="revanced_queue_manager_save_queue">Zapisz kolejkę</string>
     <string name="revanced_queue_manager_user_dialog_message">"Zamiast otwierać zewnętrzną aplikację od pobierania, otwiera okno menedżera kolejki.
@@ -2153,8 +2155,11 @@ Kliknij, by zobaczyć więcej informacji."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->
     <string name="revanced_preference_screen_patch_information_title">Informacje o łatkach</string>
     <string name="revanced_preference_screen_patch_information_summary">Informacje na temat zastosowanych łatek.</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Tool used -->
-    <string name="revanced_preference_category_tool_used">Użyte narzędzie</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: App info -->
+    <string name="revanced_preference_category_app_info">Informacje o aplikacji</string>
+    <string name="revanced_app_name_title">Nazwa aplikacji</string>
+    <string name="revanced_app_version_title">Wersja aplikacji</string>
+    <string name="revanced_patched_date_title">Data załatania</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Others -->
     <string name="revanced_preference_category_others">Inne</string>
     <string name="revanced_icon_custom">Własna</string>
@@ -2165,7 +2170,6 @@ Kliknij, by zobaczyć więcej informacji."</string>
     <string name="revanced_icon_revancify_blue">Niebieska od Revancify</string>
     <string name="revanced_icon_revancify_red">Czerwona od Revancify</string>
     <string name="revanced_icon_youtube">YouTube</string>
-    <string name="revanced_label_default">Domyślne</string>
     <string name="revanced_patches_excluded">Wykluczone</string>
     <string name="revanced_patches_included">Zawarte</string>
     <string name="revanced_theme_default">Domyślny</string>

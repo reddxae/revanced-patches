@@ -22,11 +22,13 @@
     <string name="revanced_queue_manager_add_to_queue">キューに追加</string>
     <string name="revanced_queue_manager_add_to_queue_and_open_queue">キューに追加してキューを開く</string>
     <string name="revanced_queue_manager_add_to_queue_and_play_video">キューに追加して動画を再生</string>
+    <string name="revanced_queue_manager_add_to_queue_and_reload_video">キューに追加して動画を再読み込み</string>
     <string name="revanced_queue_manager_external_downloader">外部ダウンローダー</string>
     <string name="revanced_queue_manager_open_queue">キューを開く</string>
     <string name="revanced_queue_manager_queue">キュー</string>
     <string name="revanced_queue_manager_remove_from_queue">キューから削除</string>
     <string name="revanced_queue_manager_remove_from_queue_and_open_queue">キューから削除してキューを開く</string>
+    <string name="revanced_queue_manager_remove_from_queue_and_reload_video">キューから削除して動画を再読み込み</string>
     <string name="revanced_queue_manager_remove_queue">キューを削除</string>
     <string name="revanced_queue_manager_save_queue">キューを保存</string>
     <string name="revanced_queue_manager_user_dialog_message">"外部ダウンローダーを開く代わりに、キューマネージャーダイアログを開きます。
@@ -51,7 +53,7 @@
     <string name="revanced_queue_manager_fetch_succeeded_delete">キューを削除しました。</string>
     <string name="revanced_queue_manager_fetch_succeeded_remove">動画を削除しました。</string>
     <string name="revanced_queue_manager_fetch_succeeded_save">キューは「%s」に保存されました。</string>
-    <string name="revanced_language_title">YouTube と Revanced Extended 設定の言語</string>
+    <string name="revanced_language_title">Revanced Extended 設定の言語</string>
     <string name="revanced_language_DEFAULT">アプリの設定言語に従う</string>
     <string name="revanced_language_AM">""</string>
     <string name="revanced_language_AR">""</string>
@@ -410,7 +412,7 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_change_start_page_entry_shorts">ショート</string>
     <string name="revanced_change_start_page_entry_sports">スポーツ</string>
     <string name="revanced_change_start_page_entry_subscriptions">登録チャンネル</string>
-    <string name="revanced_change_start_page_entry_trending">トレンド</string>
+    <string name="revanced_change_start_page_entry_trending">急上昇</string>
     <string name="revanced_change_start_page_entry_virtual_reality">バーチャル リアリティ</string>
     <string name="revanced_change_start_page_entry_watch_later">後で見る</string>
     <string name="revanced_change_start_page_entry_your_clips">クリップ</string>
@@ -838,9 +840,9 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_hide_share_button_title">「共有」ボタンを非表示</string>
     <string name="revanced_hide_share_button_summary_on">「共有」ボタンを非表示にします。</string>
     <string name="revanced_hide_share_button_summary_off">「共有」ボタンを非表示にします。</string>
-    <string name="revanced_hide_shop_button_title">「ショップ」ボタンを非表示</string>
-    <string name="revanced_hide_shop_button_summary_on">「ショップ」ボタンを非表示にします。</string>
-    <string name="revanced_hide_shop_button_summary_off">「ショップ」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shop_button_title">「ショッピング」ボタンを非表示</string>
+    <string name="revanced_hide_shop_button_summary_on">「ショッピング」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shop_button_summary_off">「ショッピング」ボタンを非表示にします。</string>
     <string name="revanced_hide_thanks_button_title">「Thanks」ボタンを非表示</string>
     <string name="revanced_hide_thanks_button_summary_on">「Thanks」ボタンを非表示にします。</string>
     <string name="revanced_hide_thanks_button_summary_off">「Thanks」ボタンを非表示にします。</string>
@@ -1394,9 +1396,9 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_hide_shorts_subscribe_button_title">「チャンネル登録」ボタンを非表示</string>
     <string name="revanced_hide_shorts_subscribe_button_summary_on">「チャンネル登録」ボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_subscribe_button_summary_off">「チャンネル登録」ボタンを非表示にします。</string>
-    <string name="revanced_hide_shorts_trends_button_title">「トレンド」ボタンを非表示</string>
-    <string name="revanced_hide_shorts_trends_button_summary_on">「トレンド」ボタンを非表示にします。</string>
-    <string name="revanced_hide_shorts_trends_button_summary_off">「トレンド」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_trends_button_title">「急上昇」ボタンを非表示</string>
+    <string name="revanced_hide_shorts_trends_button_summary_on">「急上昇」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_trends_button_summary_off">「急上昇」ボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_video_title_title">動画のタイトルを非表示</string>
     <string name="revanced_hide_shorts_video_title_summary_on">プレーヤー下部に表示される動画のタイトル名を非表示にします。</string>
     <string name="revanced_hide_shorts_video_title_summary_off">プレーヤー下部に表示される動画のタイトルを非表示にします。</string>
@@ -1414,9 +1416,9 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_hide_shorts_search_suggestions_button_title">検索候補のボタンを非表示</string>
     <string name="revanced_hide_shorts_search_suggestions_button_summary_on">検索候補のボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_search_suggestions_button_summary_off">検索候補のボタンを非表示にします。</string>
-    <string name="revanced_hide_shorts_shop_button_title">「ショップ」ボタンを非表示</string>
-    <string name="revanced_hide_shorts_shop_button_summary_on">「ショップ」ボタンを非表示にします。</string>
-    <string name="revanced_hide_shorts_shop_button_summary_off">「ショップ」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_shop_button_title">「ショッピング」ボタンを非表示</string>
+    <string name="revanced_hide_shorts_shop_button_summary_on">「ショッピング」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_shop_button_summary_off">「ショッピング」ボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_super_thanks_button_title">「Super Thanks」ボタンを非表示</string>
     <string name="revanced_hide_shorts_super_thanks_button_summary_on">「Super Thanks」ボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_super_thanks_button_summary_off">「Super Thanks」ボタンを非表示にします。</string>
@@ -1664,8 +1666,8 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_remember_video_quality_last_selected_toast_title">トーストを表示</string>
     <string name="revanced_remember_video_quality_last_selected_toast_summary_on">デフォルトの画質を変更した際にトーストが表示されるようにします。</string>
     <string name="revanced_remember_video_quality_last_selected_toast_summary_off">デフォルトの画質を変更した際にトーストが表示されるようにします。</string>
-    <string name="revanced_default_video_quality_mobile_shorts_title">モバイルデータ通信使用時のデフォルト画質</string>
-    <string name="revanced_default_video_quality_wifi_shorts_title">Wi-Fi 使用時のデフォルト画質</string>
+    <string name="revanced_default_video_quality_mobile_shorts_title">モバイルデータ通信使用時のショートのデフォルト画質</string>
+    <string name="revanced_default_video_quality_wifi_shorts_title">Wi-Fi 使用時のショートのデフォルト画質</string>
     <string name="revanced_remember_video_quality_shorts_last_selected_title">ショートの画質変更を記憶</string>
     <string name="revanced_remember_video_quality_shorts_last_selected_summary_on">現在の設定: 画質の変更はすべてのショートに適用されます。</string>
     <string name="revanced_remember_video_quality_shorts_last_selected_summary_off">現在の設定: 画質の変更は現在のショートにのみ適用されます。</string>
@@ -2095,8 +2097,11 @@ iOS クライアント選択する場合は、これらの値が必要になる�
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->
     <string name="revanced_preference_screen_patch_information_title">パッチ情報</string>
     <string name="revanced_preference_screen_patch_information_summary">適用されたパッチに関する情報です。</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Tool used -->
-    <string name="revanced_preference_category_tool_used">使用されたツール</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: App info -->
+    <string name="revanced_preference_category_app_info">アプリ情報</string>
+    <string name="revanced_app_name_title">アプリ名</string>
+    <string name="revanced_app_version_title">アプリバージョン</string>
+    <string name="revanced_patched_date_title">パッチ適用日時</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Others -->
     <string name="revanced_preference_category_others">その他</string>
     <string name="revanced_icon_custom">カスタム</string>
@@ -2107,7 +2112,6 @@ iOS クライアント選択する場合は、これらの値が必要になる�
     <string name="revanced_icon_revancify_blue">Revancify Blue</string>
     <string name="revanced_icon_revancify_red">Revancify Red</string>
     <string name="revanced_icon_youtube">YouTube</string>
-    <string name="revanced_label_default">オリジナル</string>
     <string name="revanced_patches_excluded">除外されています</string>
     <string name="revanced_patches_included">適用されています</string>
     <string name="revanced_theme_default">オリジナル</string>

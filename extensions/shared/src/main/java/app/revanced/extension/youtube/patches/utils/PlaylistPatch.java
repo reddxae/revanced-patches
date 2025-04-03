@@ -1,6 +1,10 @@
 package app.revanced.extension.youtube.patches.utils;
 
 import static app.revanced.extension.shared.utils.StringRef.str;
+import static app.revanced.extension.shared.utils.Utils.runOnMainThreadDelayed;
+import static app.revanced.extension.youtube.utils.VideoUtils.dismissPlayer;
+import static app.revanced.extension.youtube.utils.VideoUtils.launchVideoExternalDownloader;
+import static app.revanced.extension.youtube.utils.VideoUtils.openPlaylist;
 
 import android.content.Context;
 import android.view.KeyEvent;
@@ -30,30 +34,20 @@ import app.revanced.extension.youtube.patches.utils.requests.EditPlaylistRequest
 import app.revanced.extension.youtube.patches.utils.requests.GetPlaylistsRequest;
 import app.revanced.extension.youtube.patches.utils.requests.SavePlaylistRequest;
 import app.revanced.extension.youtube.settings.Settings;
+import app.revanced.extension.youtube.shared.PlayerType;
+import app.revanced.extension.youtube.shared.VideoInformation;
+import app.revanced.extension.youtube.utils.AuthUtils;
 import app.revanced.extension.youtube.utils.ExtendedUtils;
-import app.revanced.extension.youtube.utils.VideoUtils;
 import kotlin.Pair;
 
 // TODO: Implement sync queue and clean up code.
 @SuppressWarnings({"unused", "StaticFieldLeak"})
-public class PlaylistPatch extends VideoUtils {
-    private static final String AUTHORIZATION_HEADER = "Authorization";
-    private static final String[] REQUEST_HEADER_KEYS = {
-            AUTHORIZATION_HEADER,
-            "X-GOOG-API-FORMAT-VERSION",
-            "X-Goog-Visitor-Id"
-    };
+public class PlaylistPatch extends AuthUtils {
     private static final boolean QUEUE_MANAGER =
             Settings.OVERLAY_BUTTON_EXTERNAL_DOWNLOADER_QUEUE_MANAGER.get()
                     || Settings.OVERRIDE_VIDEO_DOWNLOAD_BUTTON_QUEUE_MANAGER.get();
 
     private static Context mContext;
-    private static volatile String authorization = "";
-    public static volatile String dataSyncId = "";
-    public static volatile boolean isIncognito = false;
-    private static volatile Map<String, String> requestHeader;
-    private static volatile String playlistId = "";
-    private static volatile String videoId = "";
 
     private static String checkFailedAuth;
     private static String checkFailedPlaylistId;
@@ -124,6 +118,7 @@ public class PlaylistPatch extends VideoUtils {
                 if (videoId != null) {
                     lastVideoIds.remove(videoId, setVideoId);
                     EditPlaylistRequest.clearVideoId(videoId);
+                    Logger.printDebug(() -> "Video removed by YouTube flyout menu: " + videoId);
                 }
             }
         }
@@ -135,30 +130,6 @@ public class PlaylistPatch extends VideoUtils {
     public static void setPivotBar(PivotBar view) {
         if (QUEUE_MANAGER) {
             mContext = view.getContext();
-        }
-    }
-
-    /**
-     * Injection point.
-     */
-    public static void setRequestHeaders(String url, Map<String, String> requestHeaders) {
-        if (QUEUE_MANAGER) {
-            try {
-                // Save requestHeaders whenever an account is switched.
-                String auth = requestHeaders.get(AUTHORIZATION_HEADER);
-                if (auth == null || authorization.equals(auth)) {
-                    return;
-                }
-                for (String key : REQUEST_HEADER_KEYS) {
-                    if (requestHeaders.get(key) == null) {
-                        return;
-                    }
-                }
-                authorization = auth;
-                requestHeader = requestHeaders;
-            } catch (Exception ex) {
-                Logger.printException(() -> "setRequestHeaders failure", ex);
-            }
         }
     }
 
@@ -182,9 +153,22 @@ public class PlaylistPatch extends VideoUtils {
         } else {
             videoId = currentVideoId;
             synchronized (lastVideoIds) {
-                QueueManager[] customActionsEntries = playlistId.isEmpty() || lastVideoIds.get(currentVideoId) == null
-                        ? QueueManager.addToQueueEntries
-                        : QueueManager.removeFromQueueEntries;
+                QueueManager[] customActionsEntries;
+                boolean canReload = PlayerType.getCurrent().isMaximizedOrFullscreen() &&
+                        lastVideoIds.get(VideoInformation.getVideoId()) != null;
+                if (playlistId.isEmpty() || lastVideoIds.get(currentVideoId) == null) {
+                    if (canReload) {
+                        customActionsEntries = QueueManager.addToQueueWithReloadEntries;
+                    } else {
+                        customActionsEntries = QueueManager.addToQueueEntries;
+                    }
+                } else {
+                    if (canReload) {
+                        customActionsEntries = QueueManager.removeFromQueueWithReloadEntries;
+                    } else {
+                        customActionsEntries = QueueManager.removeFromQueueEntries;
+                    }
+                }
 
                 buildBottomSheetDialog(customActionsEntries);
             }
@@ -213,7 +197,8 @@ public class PlaylistPatch extends VideoUtils {
         ExtendedUtils.showBottomSheetDialog(mContext, mScrollView, actionsMap);
     }
 
-    private static void fetchQueue(boolean remove, boolean openPlaylist, boolean openVideo) {
+    private static void fetchQueue(boolean remove, boolean openPlaylist,
+                                   boolean openVideo, boolean reload) {
         try {
             String currentPlaylistId = playlistId;
             String currentVideoId = videoId;
@@ -233,7 +218,7 @@ public class PlaylistPatch extends VideoUtils {
                                     showToast(fetchSucceededCreate);
                                     Logger.printDebug(() -> "Queue successfully created, playlistId: " + createdPlaylistId + ", setVideoId: " + setVideoId);
                                     if (openPlaylist) {
-                                        openQueue(currentVideoId, openVideo);
+                                        openQueue(currentVideoId, openVideo, reload);
                                     }
                                     return;
                                 }
@@ -251,22 +236,24 @@ public class PlaylistPatch extends VideoUtils {
                             String fetchedSetVideoId = request.getResult();
                             Logger.printDebug(() -> "fetchedSetVideoId: " + fetchedSetVideoId);
                             if (remove) { // Remove from queue.
-                                if (StringUtils.isEmpty(fetchedSetVideoId)) {
+                                if ("".equals(fetchedSetVideoId)) {
                                     lastVideoIds.remove(currentVideoId, setVideoId);
+                                    EditPlaylistRequest.clearVideoId(currentVideoId);
                                     showToast(fetchSucceededRemove);
                                     if (openPlaylist) {
-                                        openQueue(currentVideoId, openVideo);
+                                        openQueue(currentVideoId, openVideo, reload);
                                     }
                                     return;
                                 }
                                 showToast(fetchFailedRemove);
                             } else { // Add to queue.
-                                if (StringUtils.isNotEmpty(fetchedSetVideoId)) {
+                                if (fetchedSetVideoId != null && !fetchedSetVideoId.isEmpty()) {
                                     lastVideoIds.putIfAbsent(currentVideoId, fetchedSetVideoId);
+                                    EditPlaylistRequest.clearVideoId(currentVideoId);
                                     showToast(fetchSucceededAdd);
                                     Logger.printDebug(() -> "Video successfully added, setVideoId: " + fetchedSetVideoId);
                                     if (openPlaylist) {
-                                        openQueue(currentVideoId, openVideo);
+                                        openQueue(currentVideoId, openVideo, reload);
                                     }
                                     return;
                                 }
@@ -388,10 +375,10 @@ public class PlaylistPatch extends VideoUtils {
     }
 
     private static void openQueue() {
-        openQueue("", false);
+        openQueue("", false, false);
     }
 
-    private static void openQueue(String currentVideoId, boolean openVideo) {
+    private static void openQueue(String currentVideoId, boolean openVideo, boolean reload) {
         String currentPlaylistId = playlistId;
         if (currentPlaylistId.isEmpty()) {
             handleCheckError(checkFailedQueue);
@@ -403,7 +390,15 @@ public class PlaylistPatch extends VideoUtils {
                 return;
             }
             // Open a video from a playlist
-            openPlaylist(currentPlaylistId, currentVideoId);
+            if (reload) {
+                // Since the Queue is not automatically synced, a 'reload' action has been added as a workaround.
+                // The 'reload' action simply closes the video and reopens it.
+                // It is important to close the video, otherwise the Queue will not be updated.
+                dismissPlayer();
+                openPlaylist(currentPlaylistId, VideoInformation.getVideoId(), true);
+            } else {
+                openPlaylist(currentPlaylistId, currentVideoId);
+            }
         } else {
             // Open a playlist
             openPlaylist(currentPlaylistId);
@@ -422,27 +417,37 @@ public class PlaylistPatch extends VideoUtils {
         ADD_TO_QUEUE(
                 "revanced_queue_manager_add_to_queue",
                 "yt_outline_list_add_black_24",
-                () -> fetchQueue(false, false, false)
+                () -> fetchQueue(false, false, false, false)
         ),
         ADD_TO_QUEUE_AND_OPEN_QUEUE(
                 "revanced_queue_manager_add_to_queue_and_open_queue",
                 "yt_outline_list_add_black_24",
-                () -> fetchQueue(false, true, false)
+                () -> fetchQueue(false, true, false, false)
         ),
         ADD_TO_QUEUE_AND_PLAY_VIDEO(
                 "revanced_queue_manager_add_to_queue_and_play_video",
                 "yt_outline_list_play_arrow_black_24",
-                () -> fetchQueue(false, true, true)
+                () -> fetchQueue(false, true, true, false)
+        ),
+        ADD_TO_QUEUE_AND_RELOAD_VIDEO(
+                "revanced_queue_manager_add_to_queue_and_reload_video",
+                "yt_outline_arrow_circle_black_24",
+                () -> fetchQueue(false, true, true, true)
         ),
         REMOVE_FROM_QUEUE(
                 "revanced_queue_manager_remove_from_queue",
                 "yt_outline_trash_can_black_24",
-                () -> fetchQueue(true, false, false)
+                () -> fetchQueue(true, false, false, false)
         ),
         REMOVE_FROM_QUEUE_AND_OPEN_QUEUE(
                 "revanced_queue_manager_remove_from_queue_and_open_queue",
                 "yt_outline_trash_can_black_24",
-                () -> fetchQueue(true, true, false)
+                () -> fetchQueue(true, true, false, false)
+        ),
+        REMOVE_FROM_QUEUE_AND_RELOAD_VIDEO(
+                "revanced_queue_manager_remove_from_queue_and_reload_video",
+                "yt_outline_arrow_circle_black_24",
+                () -> fetchQueue(true, true, true, true)
         ),
         OPEN_QUEUE(
                 "revanced_queue_manager_open_queue",
@@ -490,9 +495,30 @@ public class PlaylistPatch extends VideoUtils {
                 SAVE_QUEUE,
         };
 
+        public static final QueueManager[] addToQueueWithReloadEntries = {
+                ADD_TO_QUEUE,
+                ADD_TO_QUEUE_AND_OPEN_QUEUE,
+                ADD_TO_QUEUE_AND_PLAY_VIDEO,
+                ADD_TO_QUEUE_AND_RELOAD_VIDEO,
+                OPEN_QUEUE,
+                //REMOVE_QUEUE,
+                EXTERNAL_DOWNLOADER,
+                SAVE_QUEUE,
+        };
+
         public static final QueueManager[] removeFromQueueEntries = {
                 REMOVE_FROM_QUEUE,
                 REMOVE_FROM_QUEUE_AND_OPEN_QUEUE,
+                OPEN_QUEUE,
+                //REMOVE_QUEUE,
+                EXTERNAL_DOWNLOADER,
+                SAVE_QUEUE,
+        };
+
+        public static final QueueManager[] removeFromQueueWithReloadEntries = {
+                REMOVE_FROM_QUEUE,
+                REMOVE_FROM_QUEUE_AND_OPEN_QUEUE,
+                REMOVE_FROM_QUEUE_AND_RELOAD_VIDEO,
                 OPEN_QUEUE,
                 //REMOVE_QUEUE,
                 EXTERNAL_DOWNLOADER,

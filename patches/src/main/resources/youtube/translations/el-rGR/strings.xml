@@ -22,11 +22,13 @@
     <string name="revanced_queue_manager_add_to_queue">Προσθήκη στην ουρά</string>
     <string name="revanced_queue_manager_add_to_queue_and_open_queue">Προσθήκη στην ουρά και άνοιγμα ουράς</string>
     <string name="revanced_queue_manager_add_to_queue_and_play_video">Προσθήκη στην ουρά και αναπαραγωγή βίντεο</string>
+    <string name="revanced_queue_manager_add_to_queue_and_reload_video">Προσθήκη στην ουρά και επαναφόρτωση του βίντεο</string>
     <string name="revanced_queue_manager_external_downloader">Εξωτερικό πρόγραμμα λήψης</string>
     <string name="revanced_queue_manager_open_queue">Άνοιγμα ουράς</string>
     <string name="revanced_queue_manager_queue">Ουρά</string>
     <string name="revanced_queue_manager_remove_from_queue">Αφαίρεση από την ουρά</string>
     <string name="revanced_queue_manager_remove_from_queue_and_open_queue">Αφαίρεση από την ουρά και άνοιγμα ουράς</string>
+    <string name="revanced_queue_manager_remove_from_queue_and_reload_video">Αφαίρεση από την ουρά και επαναφόρτωση του βίντεο</string>
     <string name="revanced_queue_manager_remove_queue">Κατάργηση ουράς</string>
     <string name="revanced_queue_manager_save_queue">Αποθήκευση ουράς</string>
     <string name="revanced_queue_manager_user_dialog_message">"Αντί να ανοίξετε ένα εξωτερικό πρόγραμμα λήψης, ανοίξτε το παράθυρο διαχείρισης ουράς.
@@ -2162,8 +2164,11 @@ Playlists
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->
     <string name="revanced_preference_screen_patch_information_title">Πληροφορίες τροποποίησης</string>
     <string name="revanced_preference_screen_patch_information_summary">Πληροφορίες σχετικά με τις εφαρμοσμένες τροποποιήσεις.</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Tool used -->
-    <string name="revanced_preference_category_tool_used">Χρησιμοποιούμενο εργαλείο</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: App info -->
+    <string name="revanced_preference_category_app_info">Πληροφορίες εφαρμογής</string>
+    <string name="revanced_app_name_title">Όνομα εφαρμογής</string>
+    <string name="revanced_app_version_title">Έκδοση εφαρμογής</string>
+    <string name="revanced_patched_date_title">Ημερομηνία τροποποίησης</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Others -->
     <string name="revanced_preference_category_others">Άλλα</string>
     <string name="revanced_icon_custom">Προσαρμοσμένο</string>
@@ -2174,7 +2179,6 @@ Playlists
     <string name="revanced_icon_revancify_blue">Revancify Blue</string>
     <string name="revanced_icon_revancify_red">Revancify Red</string>
     <string name="revanced_icon_youtube">YouTube</string>
-    <string name="revanced_label_default">Προεπιλογή</string>
     <string name="revanced_patches_excluded">Εξαιρέθηκε</string>
     <string name="revanced_patches_included">Συμπεριλήφθηκε</string>
     <string name="revanced_theme_default">Προεπιλογή</string>

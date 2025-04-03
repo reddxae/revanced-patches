@@ -1914,8 +1914,7 @@ Kattintson a további információkért."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->
     <string name="revanced_preference_screen_patch_information_title">Patch információ</string>
     <string name="revanced_preference_screen_patch_information_summary">Információ az alkalmazott patchekről.</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Tool used -->
-    <string name="revanced_preference_category_tool_used">Használt eszköz</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: App info -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Others -->
     <string name="revanced_preference_category_others">Egyebek</string>
     <string name="revanced_icon_custom">Egyéni</string>
@@ -1926,7 +1925,6 @@ Kattintson a további információkért."</string>
     <string name="revanced_icon_revancify_blue">Revancify Kék</string>
     <string name="revanced_icon_revancify_red">Revancify Piros</string>
     <string name="revanced_icon_youtube">YouTube</string>
-    <string name="revanced_label_default">Alap</string>
     <string name="revanced_patches_excluded">Kizárva</string>
     <string name="revanced_patches_included">Beleértve</string>
     <string name="revanced_theme_default">Alap</string>

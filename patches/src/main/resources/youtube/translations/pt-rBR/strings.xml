@@ -22,11 +22,13 @@ Por favor, baixe %2$s do site."</string>
     <string name="revanced_queue_manager_add_to_queue">Adicionar à fila</string>
     <string name="revanced_queue_manager_add_to_queue_and_open_queue">Adicionar à fila e abrir a fila</string>
     <string name="revanced_queue_manager_add_to_queue_and_play_video">Adicionar à fila e reproduzir o vídeo</string>
+    <string name="revanced_queue_manager_add_to_queue_and_reload_video">Adicionar à fila e recarregar o vídeo</string>
     <string name="revanced_queue_manager_external_downloader">Download externo</string>
     <string name="revanced_queue_manager_open_queue">Abrir fila</string>
     <string name="revanced_queue_manager_queue">Fila</string>
     <string name="revanced_queue_manager_remove_from_queue">Remover da lista</string>
     <string name="revanced_queue_manager_remove_from_queue_and_open_queue">Remover da fila e abrir a fila</string>
+    <string name="revanced_queue_manager_remove_from_queue_and_reload_video">Remover da fila e recarregar vídeo</string>
     <string name="revanced_queue_manager_remove_queue">Remover fila</string>
     <string name="revanced_queue_manager_save_queue">Salvar fila</string>
     <string name="revanced_queue_manager_user_dialog_message">"Em vez de abrir um aplicativo de download externo, abra a caixa de diálogo do gerenciador de filas.
@@ -53,14 +55,50 @@ Use-o apenas para fins de depuração."</string>
     <string name="revanced_queue_manager_fetch_succeeded_save">Fila salva com sucesso em \'%s\'.</string>
     <string name="revanced_language_title">Idioma do RVX</string>
     <string name="revanced_language_DEFAULT">Idioma do app</string>
+    <string name="revanced_language_CA">"Catalão
+<small>Català</small>"</string>
+    <string name="revanced_language_CS">"Checo
+<small>Čeština</small>"</string>
+    <string name="revanced_language_DE">"Alemão
+<small>Deutsch</small>"</string>
+    <string name="revanced_language_EL">"Grego
+<small>Ελληνικά</small>"</string>
+    <string name="revanced_language_EN">"Inglês
+<small>English</small>"</string>
+    <string name="revanced_language_ES">"Espanhol
+<small>Español</small>"</string>
     <string name="revanced_language_FR">"Francês
 <small>Français</small>"</string>
+    <string name="revanced_language_HE">"Hebraico
+<small>עברי</small>"</string>
+    <string name="revanced_language_IT">"Italiano
+<small>Italiano</small>"</string>
+    <string name="revanced_language_JA">"Japonês
+<small>日本語</small>"</string>
+    <string name="revanced_language_KO">"Coreano
+<small>한국어</small>"</string>
+    <string name="revanced_language_NL">"Holandês
+<small>Nederlands</small>"</string>
+    <string name="revanced_language_PL">"Polonês
+<small>Polski</small>"</string>
     <string name="revanced_language_PT">"Português
 <small>Português</small>"</string>
     <string name="revanced_language_RO">"Romeno
 <small>Română</small>"</string>
     <string name="revanced_language_RU">"Russo
 <small>Русский</small>"</string>
+    <string name="revanced_language_SR">"Sérvio
+<small>Српски</small>"</string>
+    <string name="revanced_language_SV">"Sueco
+<small>Svenska</small>"</string>
+    <string name="revanced_language_TH">"Tailandês
+<small>ไทย</small>"</string>
+    <string name="revanced_language_TR">"Turco
+<small>Türkçe</small>"</string>
+    <string name="revanced_language_UK">"Ucraniano
+<small>Українська</small>"</string>
+    <string name="revanced_language_ZH">"Chinês
+<small>中文</small>"</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Anúncios</string>
     <string name="revanced_hide_end_screen_store_banner_title">Ocultar banner da loja na tela final</string>
@@ -1710,6 +1748,7 @@ Clique para ver como emitir uma chave de API."</string>
     <string name="revanced_sb_skip_showbutton">Exibir botão de pular</string>
     <string name="revanced_sb_skip_seekbaronly">Exibir na barra de progresso</string>
     <string name="revanced_sb_skip_ignore">Desativar</string>
+    <string name="revanced_sb_color_opacity_label">Opacidade:</string>
     <string name="revanced_sb_color_dot_label">Cor:</string>
     <string name="revanced_sb_color_changed">Cor alterada.</string>
     <string name="revanced_sb_color_reset">Redefinir cor.</string>
@@ -1894,6 +1933,8 @@ Toque no botão continuar e desative as otimizações da bateria."</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr_no_auth">"Android VR
 <small>(Sem autenticação)</small>"</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios_deprecated">"iOS
+<small>(Obsoleto)</small>"</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios_unplugged">"iOS TV
 <small>(é necessário logar)</small>"</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Efeitos colaterais da falsificação</string>
@@ -1926,6 +1967,7 @@ O AVC tem uma resolução máxima de 1080p, o codec de áudio Opus não está di
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">O cliente usado para buscar dados de streaming é mostrado em Estatísticas para nerds.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">O cliente usado para buscar dados de streaming está oculto em Estatísticas para nerds.</string>
     <string name="revanced_spoof_streaming_data_language_title">Idioma padrão de áudio do VR</string>
+    <string name="revanced_spoof_streaming_data_failed_forbidden_suggestion">Você não pode estar logado.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data, PreferenceCategory: PoToken / VisitorData -->
     <string name="revanced_preference_category_po_token_visitor_data">PoToken / VisitorData</string>
     <string name="revanced_spoof_streaming_data_po_token_title">PoToken a ser utilizado</string>
@@ -1958,6 +2000,10 @@ Clique para ver mais informações."</string>
     <string name="revanced_preference_screen_patch_information_title">Informações do patch</string>
     <string name="revanced_preference_screen_patch_information_summary">Informações sobre as modificações aplicadas.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: App info -->
+    <string name="revanced_preference_category_app_info">Informações do aplicativo</string>
+    <string name="revanced_app_name_title">Nome do aplicativo</string>
+    <string name="revanced_app_version_title">Versão do aplicativo</string>
+    <string name="revanced_patched_date_title">Data da atualização</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Others -->
     <string name="revanced_preference_category_others">Outros</string>
     <string name="revanced_icon_custom">Personalizado</string>

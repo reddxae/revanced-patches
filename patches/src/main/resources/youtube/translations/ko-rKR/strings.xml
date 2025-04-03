@@ -500,7 +500,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_gray_separator_summary_on">동영상들 사이에서 회색 구분선이 숨겨집니다.</string>
     <string name="revanced_hide_gray_separator_summary_off">동영상들 사이에서 회색 구분선이 표시됩니다.</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">시청 경고 다이얼로그 제거하기</string>
-    <string name="revanced_remove_viewer_discretion_dialog_summary">"다음 동영상을 시청하기 전에 표시되는 시청 경고 다이얼로그를 제거합니다:\n• 연령 제한 동영상\n• 혐오감을 주는 동영상\n• 자살 또는 자해와 관련된 동영상, etc.\n\n이 설정은 다이얼로그를 자동으로 허용하기만 하며 연령 제한(성인인증 절차)을 우회할 수 없습니다."</string>
+    <string name="revanced_remove_viewer_discretion_dialog_summary">"다음 동영상을 시청하기 전에 표시되는 시청 경고 다이얼로그를 제거합니다:\n• 연령 제한 동영상\n• 자살 또는 자해와 관련된 동영상, etc.\n\n이 설정은 다이얼로그를 자동으로 허용하기만 하며 연령 제한(성인인증 절차)을 우회할 수 없습니다."</string>
     <string name="revanced_change_live_ring_click_action_title">라이브 링 누르기 동작 변경하기</string>
     <string name="revanced_change_live_ring_click_action_summary_on">"라이브 링이 표시된 채널 아이콘을 누르면 채널 프로필으로 연결됩니다.
 

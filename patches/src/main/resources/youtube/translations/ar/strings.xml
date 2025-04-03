@@ -205,18 +205,18 @@
     <string name="revanced_hide_get_premium_summary_on">تم إخفاء الترقية لـ YouTube Premium.</string>
     <string name="revanced_hide_get_premium_summary_off">يتم عرض الترقية لـ YouTube Premium.</string>
     <!-- PreferenceScreen: Alternative thumbnails -->
-    <string name="revanced_preference_screen_alt_thumbnails_title">مُصغَّرات فيديو بديلة</string>
+    <string name="revanced_preference_screen_alt_thumbnails_title">مصغرات فيديو بديلة</string>
     <string name="revanced_alt_thumbnail_home_title">علامة تبويب الصفحة الرئيسية</string>
     <string name="revanced_alt_thumbnail_player_title">قوائم تشغيل المشغل، التوصيات</string>
     <string name="revanced_alt_thumbnail_search_title">نتائج البحث</string>
     <string name="revanced_alt_thumbnail_subscriptions_title">علامة تبويب الاشتراكات</string>
     <string name="revanced_alt_thumbnail_library_title">علامة التبويب أنت</string>
-    <string name="revanced_alt_thumbnail_options_entry_1">المصّغرات الأصلية</string>
-    <string name="revanced_alt_thumbnail_options_entry_2">DeArrow &amp; المصّغرات الأصلية</string>
+    <string name="revanced_alt_thumbnail_options_entry_1">المصغرات الأصلية</string>
+    <string name="revanced_alt_thumbnail_options_entry_2">DeArrow &amp; المصغرات الأصلية</string>
     <string name="revanced_alt_thumbnail_options_entry_3">DeArrow &amp; اللقطات الثابتة</string>
     <string name="revanced_alt_thumbnail_options_entry_4">اللقطات الثابتة</string>
     <string name="revanced_alt_thumbnail_dearrow_about_title">DeArrow</string>
-    <string name="revanced_alt_thumbnail_dearrow_about_summary">"يوفر DeArrow مُصغَّرات فيديو تم جمعها من الجمهور لفيديوهات YouTube. غالبًا ما تكون مُصغَّرات الفيديو هذه ذات صلة أكثر من تلك التي يقدمها موقع YouTube.
+    <string name="revanced_alt_thumbnail_dearrow_about_summary">"يوفر DeArrow مصغرات فيديو تم جمعها من الجمهور لفيديوهات YouTube. غالبًا ما تكون مصغرات الفيديو هذه ذات صلة أكثر من تلك التي يقدمها موقع YouTube.
 
 اذا تم تمكين هذا الخيار، سيتم إرسال عناوين URL للفيديو إلى خادم API ولن يتم إرسال أي بيانات أخرى. إذا لم يكن الفيديو يحتوي على مُصغَّرات لـ DeArrow، فسيتم عرض اللقطات الأصلية أو الثابتة.
 
@@ -230,7 +230,7 @@
     <string name="revanced_alt_thumbnail_stills_about_title">لقطات الفيديو الثابتة</string>
     <string name="revanced_alt_thumbnail_stills_about_summary">يتم التقاط اللقطات الثابتة من بداية أو منتصف أو نهاية كل فيديو. هذه الصور مدمجة في YouTube ولا يتم استخدام أي واجهة برمجة تطبيقات خارجية.</string>
     <string name="revanced_alt_thumbnail_stills_fast_title">استخدام اللقطات الثابتة السريعة</string>
-    <string name="revanced_alt_thumbnail_stills_fast_summary_on">استخدام اللقطات متوسطة الجودة. سيتم تحميل المُصغَّرات بشكل أسرع، ولكن البث المباشر أو المقاطع التي لم يتم إصدارها أو القديمة جدًا قد تعرض مُصغَّرات فارغة.</string>
+    <string name="revanced_alt_thumbnail_stills_fast_summary_on">استخدام اللقطات متوسطة الجودة. سيتم تحميل المصغرات بشكل أسرع، ولكن البث المباشر أو المقاطع التي لم يتم إصدارها أو القديمة جدًا قد تعرض مصغرات فارغة.</string>
     <string name="revanced_alt_thumbnail_stills_fast_summary_off">استخدام لقطات الفيديو الثابتة بجودة عالية.</string>
     <string name="revanced_alt_thumbnail_stills_time_title">وقت الفيديو لأخذ اللقطات الثابتة منه</string>
     <string name="revanced_alt_thumbnail_stills_time_entry_1">بداية الفيديو</string>
@@ -248,9 +248,9 @@
     <string name="revanced_hide_album_card_title">إخفاء بطاقات الألبوم</string>
     <string name="revanced_hide_album_card_summary_on">تم إخفاء بطاقات الألبوم.</string>
     <string name="revanced_hide_album_card_summary_off">يتم عرض بطاقات الألبوم.</string>
-    <string name="revanced_hide_feed_captions_button_title">إخفاء زر التَرْجَمَة</string>
-    <string name="revanced_hide_feed_captions_button_on">تم إخفاء زر التَرْجَمَة.</string>
-    <string name="revanced_hide_feed_captions_button_off">يتم عرض زر التَرْجَمَة.</string>
+    <string name="revanced_hide_feed_captions_button_title">إخفاء زر الترجمة</string>
+    <string name="revanced_hide_feed_captions_button_on">تم إخفاء زر الترجمة.</string>
+    <string name="revanced_hide_feed_captions_button_off">يتم عرض زر الترجمة.</string>
     <string name="revanced_hide_carousel_shelf_title">إخفاء الرفوف الدوارة</string>
     <string name="revanced_hide_carousel_shelf_summary_on">"تم إخفاء الرفوف الدوارة، مثل:
 • أخبار عاجلة
@@ -983,12 +983,12 @@
     <string name="revanced_hide_player_flyout_menu_audio_track_title">إخفاء قائمة المقطع الصوتي</string>
     <string name="revanced_hide_player_flyout_menu_audio_track_summary_on">تم إخفاء قائمة المقطع الصوتي.</string>
     <string name="revanced_hide_player_flyout_menu_audio_track_summary_off">يتم عرض قائمة المقطع الصوتي.</string>
-    <string name="revanced_hide_player_flyout_menu_captions_title">إخفاء قائمة التَرْجَمَة</string>
-    <string name="revanced_hide_player_flyout_menu_captions_summary_on">تم إخفاء قائمة التَرْجَمَة.</string>
-    <string name="revanced_hide_player_flyout_menu_captions_summary_off">يتم عرض قائمة التَرْجَمَة.</string>
-    <string name="revanced_hide_player_flyout_menu_captions_footer_title">إخفاء تذييل قائمة التَرْجَمَة</string>
-    <string name="revanced_hide_player_flyout_menu_captions_footer_summary_on">تم إخفاء تذييل قائمة التَرْجَمَة.</string>
-    <string name="revanced_hide_player_flyout_menu_captions_footer_summary_off">يتم عرض تذييل قائمة التَرْجَمَة.</string>
+    <string name="revanced_hide_player_flyout_menu_captions_title">إخفاء قائمة الترجمة</string>
+    <string name="revanced_hide_player_flyout_menu_captions_summary_on">تم إخفاء قائمة الترجمة.</string>
+    <string name="revanced_hide_player_flyout_menu_captions_summary_off">يتم عرض قائمة الترجمة.</string>
+    <string name="revanced_hide_player_flyout_menu_captions_footer_title">إخفاء تذييل قائمة الترجمة</string>
+    <string name="revanced_hide_player_flyout_menu_captions_footer_summary_on">تم إخفاء تذييل قائمة الترجمة.</string>
+    <string name="revanced_hide_player_flyout_menu_captions_footer_summary_off">يتم عرض تذييل قائمة الترجمة.</string>
     <string name="revanced_hide_player_flyout_menu_lock_screen_title">إخفاء قائمة قفل الشاشة</string>
     <string name="revanced_hide_player_flyout_menu_lock_screen_summary_on">تم إخفاء قائمة قفل الشاشة.</string>
     <string name="revanced_hide_player_flyout_menu_lock_screen_summary_off">يتم عرض قائمة قفل الشاشة.</string>
@@ -1193,9 +1193,9 @@
     <string name="revanced_hide_player_autoplay_button_title">إخفاء زر التشغيل التلقائي</string>
     <string name="revanced_hide_player_autoplay_button_summary_on">تم إخفاء زر التشغيل التلقائي.</string>
     <string name="revanced_hide_player_autoplay_button_summary_off">يتم عرض زر التشغيل التلقائي.</string>
-    <string name="revanced_hide_player_captions_button_title">إخفاء زر التَرْجَمَة</string>
-    <string name="revanced_hide_player_captions_button_summary_on">تم إخفاء زر التَرْجَمَة.</string>
-    <string name="revanced_hide_player_captions_button_summary_off">يتم عرض زر التَرْجَمَة.</string>
+    <string name="revanced_hide_player_captions_button_title">إخفاء زر الترجمة</string>
+    <string name="revanced_hide_player_captions_button_summary_on">تم إخفاء زر الترجمة.</string>
+    <string name="revanced_hide_player_captions_button_summary_off">يتم عرض زر الترجمة.</string>
     <string name="revanced_hide_player_cast_button_title">إخفاء زر البث</string>
     <string name="revanced_hide_player_cast_button_summary_on">تم إخفاء زر البث.</string>
     <string name="revanced_hide_player_cast_button_summary_off">يتم عرض زر البث.</string>
@@ -1639,9 +1639,7 @@
     <string name="revanced_swipe_overlay_rect_size_summary">النسبة المئوية لمساحة الشاشة القابلة للتمرير السريع.\n\nملاحظة: سيؤدي هذا أيضًا إلى تغيير حجم مساحة الشاشة لإيماءة النقر المزدوج للتقديم أو التأخير.</string>
     <string name="revanced_swipe_overlay_rect_size_invalid_toast">لا يمكن أن يزيد حجم المنطقة القابلة للتمرير السريع عن 50.</string>
     <string name="revanced_swipe_overlay_timeout_title">مهلة واجهة إيماءة التمرير</string>
-    <string name="revanced_swipe_overlay_timeout_summary">مقدار الوقت الذي تظهر فيه واجهة التمرير بعد التغيير (بجزء الثانية).
-
-الافتراضي:500</string>
+    <string name="revanced_swipe_overlay_timeout_summary">أجزاء الثانية التي تكون فيها الواجهة مرئية.</string>
     <string name="revanced_swipe_brightness_sensitivity_title">حساسية تمرير مستوى السطوع</string>
     <string name="revanced_swipe_brightness_sensitivity_summary">تكوين الحد الأدنى للمسافة لتمرير السطوع بين 1 و1000 (%).\nكلما كانت المسافة الدنيا أقصر، كلما تغيرت مستويات السطوع بشكل أسرع.</string>
     <string name="revanced_swipe_brightness_sensitivity_invalid_toast">يجب أن تكون حساسية تمرير مستوى السطوع بين 1-1000 (%).</string>
@@ -1819,7 +1817,7 @@
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enable_sb">تمكين SponsorBlock</string>
-    <string name="revanced_sb_enable_sb_sum">SponsorBlock مانِع الرُعَاة هو نظام جماعي لتخطي الأجزاء المزعجة من فيديوهات YouTube.</string>
+    <string name="revanced_sb_enable_sb_sum">مانِع الرُعَاة هو نظام جماعي لتخطي الأجزاء المزعجة من فيديوهات YouTube.</string>
     <!-- PreferenceScreen: SponsorBlock, PreferenceCategory: Appearance -->
     <string name="revanced_sb_appearance_category">المظهر</string>
     <string name="revanced_sb_enable_voting">عرض زر التصويت</string>
@@ -1907,7 +1905,7 @@
     <string name="revanced_sb_enable_create_segment_sum_on">يتم عرض زر إنشاء مقطع جديد.</string>
     <string name="revanced_sb_enable_create_segment_sum_off">لا يتم عرض زر إنشاء مقطع جديد.</string>
     <string name="revanced_sb_general_adjusting">تعديل تقديم او تأخير المقطع الجديد</string>
-    <string name="revanced_sb_general_adjusting_sum">أجزاء الثانية في الوقت الذي تتحرك فيها أزرار ضبط الوقت عند إنشاء مقاطع جديدة.</string>
+    <string name="revanced_sb_general_adjusting_sum">أجزاء الثانية في الوقت الذي تتحرك فيه أزرار ضبط الوقت عند إنشاء مقاطع جديدة.</string>
     <string name="revanced_sb_general_adjusting_invalid">يجب أن تكون القيمة رقمًا موجبًا.</string>
     <string name="revanced_sb_guidelines_preference_title">عرض الإرشادات</string>
     <string name="revanced_sb_guidelines_preference_sum">الإرشادات تحتوي على نصائح حول تقديم المقاطع.</string>

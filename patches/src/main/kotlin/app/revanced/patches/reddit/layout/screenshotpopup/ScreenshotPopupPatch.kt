@@ -2,6 +2,7 @@ package app.revanced.patches.reddit.layout.screenshotpopup
 
 import app.revanced.patcher.extensions.InstructionExtensions.addInstructions
 import app.revanced.patcher.extensions.InstructionExtensions.getInstruction
+import app.revanced.patcher.patch.PatchException
 import app.revanced.patcher.patch.bytecodePatch
 import app.revanced.patches.reddit.utils.compatibility.Constants.COMPATIBLE_PACKAGE
 import app.revanced.patches.reddit.utils.extension.Constants.PATCHES_PATH
@@ -57,6 +58,8 @@ val screenshotPopupPatch = bytecodePatch(
                     indexOfSetValueInstruction(this) >= 0
         }
 
+        var hookCount = 0
+
         classes.forEach { classDef ->
             classDef.methods.forEach { method ->
                 if (method.isScreenShotMethod()) {
@@ -75,9 +78,14 @@ val screenshotPopupPatch = bytecodePatch(
                                     move-result-object v$booleanRegister
                                     """
                             )
+                            hookCount++
                         }
                 }
             }
+        }
+
+        if (hookCount == 0) {
+            throw PatchException("Failed to find hook method")
         }
 
         updatePatchStatus(

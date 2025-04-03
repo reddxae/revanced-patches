@@ -1,11 +1,9 @@
-name: Release
+name: Build patches
 
 on:
   workflow_dispatch:
-  push:
     branches:
-      - main
-      - dev
+      - revanced-extended
 
 jobs:
   release:
@@ -36,25 +34,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         # To update `README.md` and `patches.json`, the command `./gradlew generatePatchesFiles clean` should be used instead of the command `./gradlew build clean`
-        run: ./gradlew generatePatchesFiles clean
+        run: ./gradlew :patches:buildAndroid --no-daemon
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
         with:
-          node-version: "lts/*"
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Import GPG key
-        uses: crazy-max/ghaction-import-gpg@v6
-        with:
-          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
-          passphrase: ${{ secrets.GPG_PASSPHRASE }}
-          fingerprint: ${{ vars.GPG_FINGERPRINT }}
-
-      - name: Release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npm exec semantic-release
+          name: revanced-extended-patches
+          path: patches/build/libs
